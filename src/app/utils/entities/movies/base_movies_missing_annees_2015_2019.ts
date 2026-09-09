@@ -1021,8 +1021,7 @@ export const baseMoviesMissingAnnees20152019: BaseMovie[] = [
       { name: 'Zoltán Schneider' },
       { name: 'Ervin Nagy' },
     ],
-    coverUrl:
-      '/movies_pictures/2f063270d229.jpg',
+    coverUrl: '/movies_pictures/2f063270d229.jpg',
     releaseDate: '2017-02-10',
     length: 116,
     genre: ['Drame', 'Romance', 'Fantastique'],
@@ -1044,8 +1043,7 @@ export const baseMoviesMissingAnnees20152019: BaseMovie[] = [
       { name: 'Julien Arruti' },
       { name: 'Andy Raconte' },
     ],
-    coverUrl:
-      '/movies_pictures/191731c7a4be.jpg',
+    coverUrl: '/movies_pictures/191731c7a4be.jpg',
     releaseDate: '2017-10-25',
     length: 93,
     genre: ['Comédie'],
@@ -1067,8 +1065,7 @@ export const baseMoviesMissingAnnees20152019: BaseMovie[] = [
       { name: 'Marina Vasilyeva' },
       { name: 'Andris Keišs' },
     ],
-    coverUrl:
-      '/movies_pictures/867f5f82f657.jpg',
+    coverUrl: '/movies_pictures/867f5f82f657.jpg',
     releaseDate: '2017-06-01',
     length: 127,
     genre: ['Drame'],
@@ -1090,8 +1087,7 @@ export const baseMoviesMissingAnnees20152019: BaseMovie[] = [
       { name: 'Tiffany Haddish' },
       { name: 'Larenz Tate' },
     ],
-    coverUrl:
-      '/movies_pictures/f3b859eadf69.jpg',
+    coverUrl: '/movies_pictures/f3b859eadf69.jpg',
     releaseDate: '2017-07-21',
     length: 122,
     genre: ['Comédie'],
@@ -1113,8 +1109,7 @@ export const baseMoviesMissingAnnees20152019: BaseMovie[] = [
       { name: 'Malcolm X' },
       { name: 'Medgar Evers' },
     ],
-    coverUrl:
-      '/movies_pictures/de1088028a44.jpg',
+    coverUrl: '/movies_pictures/de1088028a44.jpg',
     releaseDate: '2017-02-03',
     length: 93,
     genre: ['Documentaire'],
@@ -1140,8 +1135,7 @@ export const baseMoviesMissingAnnees20152019: BaseMovie[] = [
       { name: 'Mathilde Auneveux' },
       { name: 'Florence Janas' },
     ],
-    coverUrl:
-      '/movies_pictures/8ef573350e24.jpg',
+    coverUrl: '/movies_pictures/8ef573350e24.jpg',
     releaseDate: '2017-12-06',
     length: 93,
     genre: ['Drame', 'Thriller'],
@@ -1163,8 +1157,7 @@ export const baseMoviesMissingAnnees20152019: BaseMovie[] = [
       { name: 'Éric Elmosnino' },
       { name: 'François Berléand' },
     ],
-    coverUrl:
-      '/movies_pictures/2850ed0428f4.jpg',
+    coverUrl: '/movies_pictures/2850ed0428f4.jpg',
     releaseDate: '2017-10-11',
     length: 116,
     genre: ['Drame', 'Jeunesse'],
@@ -1186,8 +1179,7 @@ export const baseMoviesMissingAnnees20152019: BaseMovie[] = [
       { name: 'Rita Hayek' },
       { name: 'Christine Choueiri' },
     ],
-    coverUrl:
-      '/movies_pictures/864b0f8f1cd8.jpg',
+    coverUrl: '/movies_pictures/864b0f8f1cd8.jpg',
     releaseDate: '2017-09-14',
     length: 113,
     genre: ['Drame'],
@@ -1209,8 +1201,7 @@ export const baseMoviesMissingAnnees20152019: BaseMovie[] = [
       { name: 'Jean-Baptiste Lafarge' },
       { name: 'Nozha Khouadra' },
     ],
-    coverUrl:
-      '/movies_pictures/41fa77353f05.jpg',
+    coverUrl: '/movies_pictures/41fa77353f05.jpg',
     releaseDate: '2017-11-22',
     length: 95,
     genre: ['Comédie', 'Drame'],
@@ -1232,8 +1223,7 @@ export const baseMoviesMissingAnnees20152019: BaseMovie[] = [
       { name: 'Micha Lescot' },
       { name: 'Grégory Gadebois' },
     ],
-    coverUrl:
-      '/movies_pictures/b856de0f9b18.jpg',
+    coverUrl: '/movies_pictures/b856de0f9b18.jpg',
     releaseDate: '2017-09-13',
     length: 107,
     genre: ['Comédie', 'Drame', 'Biographie'],
@@ -1284,8 +1274,7 @@ export const baseMoviesMissingAnnees20152019: BaseMovie[] = [
       { name: 'Michael Cera' },
       { name: 'Jeremy Strong' },
     ],
-    coverUrl:
-      '/movies_pictures/a71aba1e7e06.jpg',
+    coverUrl: '/movies_pictures/a71aba1e7e06.jpg',
     releaseDate: '2017-12-25',
     length: 140,
     genre: ['Drame', 'Biographie'],
@@ -1337,8 +1326,7 @@ export const baseMoviesMissingAnnees20152019: BaseMovie[] = [
       { name: 'Anders Danielsen Lie' },
       { name: 'Ty Olwin' },
     ],
-    coverUrl:
-      '/movies_pictures/851753707931.jpg',
+    coverUrl: '/movies_pictures/851753707931.jpg',
     releaseDate: '2016-10-12',
     length: 105,
     genre: ['Thriller', 'Drame', 'Fantastique'],
@@ -1360,8 +1348,7 @@ export const baseMoviesMissingAnnees20152019: BaseMovie[] = [
       { name: 'Yvan Attal' },
       { name: 'François Damiens' },
     ],
-    coverUrl:
-      '/movies_pictures/4a7a99d201bb.jpg',
+    coverUrl: '/movies_pictures/4a7a99d201bb.jpg',
     releaseDate: '2017-02-01',
     length: 105,
     genre: ['Comédie', 'Action'],
@@ -1383,7 +1370,8 @@ export const baseMoviesMissingAnnees20152019: BaseMovie[] = [
       { name: 'Valeria Cotto' },
       { name: 'Christopher Rivera' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/b77e59b3704b.jpg',
     releaseDate: '2017-10-06',
     length: 111,
     genre: ['Drame'],
@@ -1405,8 +1393,7 @@ export const baseMoviesMissingAnnees20152019: BaseMovie[] = [
       { name: 'Raffey Cassidy' },
       { name: 'Sunny Suljic' },
     ],
-    coverUrl:
-      '/movies_pictures/b77e59b3704b.jpg',
+    coverUrl: '/movies_pictures/b77e59b3704b.jpg',
     releaseDate: '2017-10-20',
     length: 121,
     genre: ['Thriller', 'Drame', 'Horreur'],
@@ -1428,8 +1415,7 @@ export const baseMoviesMissingAnnees20152019: BaseMovie[] = [
       { name: 'Terry Notary' },
       { name: 'Christopher Læssø' },
     ],
-    coverUrl:
-      '/movies_pictures/b0dadc294c6e.jpg',
+    coverUrl: '/movies_pictures/b0dadc294c6e.jpg',
     releaseDate: '2017-10-25',
     length: 151,
     genre: ['Drame', 'Comédie'],
@@ -1451,8 +1437,7 @@ export const baseMoviesMissingAnnees20152019: BaseMovie[] = [
       { name: 'Elsa Zylberstein' },
       { name: 'Bernard Campan' },
     ],
-    coverUrl:
-      '/movies_pictures/1ba88feff9ed.jpg',
+    coverUrl: '/movies_pictures/1ba88feff9ed.jpg',
     releaseDate: '2017-01-18',
     length: 110,
     genre: ['Drame', 'Guerre', 'Historique'],
@@ -1500,8 +1485,7 @@ export const baseMoviesMissingAnnees20152019: BaseMovie[] = [
       { name: 'Renée Delrue' },
       { name: 'Jeanine Roger' },
     ],
-    coverUrl:
-      '/movies_pictures/6cc5a6d70782.jpg',
+    coverUrl: '/movies_pictures/6cc5a6d70782.jpg',
     releaseDate: '2017-06-28',
     length: 89,
     genre: ['Documentaire'],
@@ -1523,8 +1507,7 @@ export const baseMoviesMissingAnnees20152019: BaseMovie[] = [
       { name: 'Ophélia Kolb' },
       { name: 'Marianne Basler' },
     ],
-    coverUrl:
-      '/movies_pictures/541dc4a4718b.jpg',
+    coverUrl: '/movies_pictures/541dc4a4718b.jpg',
     releaseDate: '2018-11-21',
     length: 107,
     genre: ['Drame'],
@@ -1546,8 +1529,7 @@ export const baseMoviesMissingAnnees20152019: BaseMovie[] = [
       { name: 'Jane Curtin' },
       { name: 'Anna Deavere Smith' },
     ],
-    coverUrl:
-      '/movies_pictures/496c22c018e0.jpeg',
+    coverUrl: '/movies_pictures/496c22c018e0.jpeg',
     releaseDate: '2018-10-19',
     length: 107,
     genre: ['Drame', 'Comédie', 'Biographie'],
@@ -1573,8 +1555,7 @@ export const baseMoviesMissingAnnees20152019: BaseMovie[] = [
       { name: 'Jake Ryan' },
       { name: 'Daniel Zolghadri' },
     ],
-    coverUrl:
-      '/movies_pictures/13202c295b22.jpg',
+    coverUrl: '/movies_pictures/13202c295b22.jpg',
     releaseDate: '2018-07-13',
     length: 94,
     genre: ['Comédie', 'Drame'],
@@ -1596,8 +1577,7 @@ export const baseMoviesMissingAnnees20152019: BaseMovie[] = [
       { name: 'Damien Bonnard' },
       { name: 'Vincent Elbaz' },
     ],
-    coverUrl:
-      '/movies_pictures/6a6b2a126019.jpg',
+    coverUrl: '/movies_pictures/6a6b2a126019.jpg',
     releaseDate: '2018-10-31',
     length: 107,
     genre: ['Comédie', 'Policier'],
@@ -1641,8 +1621,7 @@ export const baseMoviesMissingAnnees20152019: BaseMovie[] = [
       { name: 'Joseph Engel' },
       { name: 'Vladimir Consigny' },
     ],
-    coverUrl:
-      '/movies_pictures/d60353ba5444.jpg',
+    coverUrl: '/movies_pictures/d60353ba5444.jpg',
     releaseDate: '2018-12-26',
     length: 75,
     genre: ['Comédie', 'Drame', 'Romance'],
@@ -1664,8 +1643,7 @@ export const baseMoviesMissingAnnees20152019: BaseMovie[] = [
       { name: 'Florence Thomassin' },
       { name: 'Bernard Le Coq' },
     ],
-    coverUrl:
-      '/movies_pictures/8d882b0c105b.jpg',
+    coverUrl: '/movies_pictures/8d882b0c105b.jpg',
     releaseDate: '2018-10-31',
     length: 105,
     genre: ['Drame', 'Biographie'],
@@ -1687,8 +1665,7 @@ export const baseMoviesMissingAnnees20152019: BaseMovie[] = [
       { name: 'Jean-Hugues Anglade' },
       { name: 'Virginie Efira' },
     ],
-    coverUrl:
-      '/movies_pictures/1f4ea1a63392.jpg',
+    coverUrl: '/movies_pictures/1f4ea1a63392.jpg',
     releaseDate: '2018-10-24',
     length: 122,
     genre: ['Comédie', 'Drame'],
@@ -1710,8 +1687,7 @@ export const baseMoviesMissingAnnees20152019: BaseMovie[] = [
       { name: 'Christian Bujeau' },
       { name: 'Évelyne Buyle' },
     ],
-    coverUrl:
-      '/movies_pictures/b44d9d04dfed.jpg',
+    coverUrl: '/movies_pictures/b44d9d04dfed.jpg',
     releaseDate: '2018-02-14',
     length: 90,
     genre: ['Comédie', 'Historique'],
@@ -1733,8 +1709,7 @@ export const baseMoviesMissingAnnees20152019: BaseMovie[] = [
       { name: 'Dale Dickey' },
       { name: 'Dana Millican' },
     ],
-    coverUrl:
-      '/movies_pictures/de32dd7a9102.jpg',
+    coverUrl: '/movies_pictures/de32dd7a9102.jpg',
     releaseDate: '2018-06-29',
     length: 109,
     genre: ['Drame'],
@@ -1760,8 +1735,7 @@ export const baseMoviesMissingAnnees20152019: BaseMovie[] = [
       { name: 'Pierre Deladonchamps' },
       { name: 'Grégory Montel' },
     ],
-    coverUrl:
-      '/movies_pictures/52c9ffa13b94.jpg',
+    coverUrl: '/movies_pictures/52c9ffa13b94.jpg',
     releaseDate: '2018-11-14',
     length: 103,
     genre: ['Drame', 'Comédie'],
@@ -1783,8 +1757,7 @@ export const baseMoviesMissingAnnees20152019: BaseMovie[] = [
       { name: 'Olivia Côte' },
       { name: 'Jean-François Stévenin' },
     ],
-    coverUrl:
-      '/movies_pictures/90753b60b9d5.jpg',
+    coverUrl: '/movies_pictures/90753b60b9d5.jpg',
     releaseDate: '2018-11-28',
     length: 107,
     genre: ['Drame'],
@@ -1832,8 +1805,7 @@ export const baseMoviesMissingAnnees20152019: BaseMovie[] = [
       { name: 'Omari Hardwick' },
       { name: 'Armie Hammer' },
     ],
-    coverUrl:
-      '/movies_pictures/fb8d856980b5.jpg',
+    coverUrl: '/movies_pictures/fb8d856980b5.jpg',
     releaseDate: '2018-07-06',
     length: 112,
     genre: ['Comédie', 'Science Fiction', 'Drame'],
@@ -1855,8 +1827,7 @@ export const baseMoviesMissingAnnees20152019: BaseMovie[] = [
       { name: 'Cat Clifford' },
       { name: 'Lane Scott' },
     ],
-    coverUrl:
-      '/movies_pictures/2d7589daf533.jpg',
+    coverUrl: '/movies_pictures/2d7589daf533.jpg',
     releaseDate: '2018-04-13',
     length: 104,
     genre: ['Drame', 'Western'],
@@ -1872,8 +1843,7 @@ export const baseMoviesMissingAnnees20152019: BaseMovie[] = [
     title: 'They Shall Not Grow Old',
     director: 'Peter Jackson',
     actors: [{ name: 'Peter Jackson' }],
-    coverUrl:
-      '/movies_pictures/7f73002879a2.jpg',
+    coverUrl: '/movies_pictures/7f73002879a2.jpg',
     releaseDate: '2018-10-16',
     length: 99,
     genre: ['Documentaire', 'Guerre', 'Historique'],
@@ -1921,8 +1891,7 @@ export const baseMoviesMissingAnnees20152019: BaseMovie[] = [
       { name: 'Cynthia Erivo' },
       { name: 'Liam Neeson' },
     ],
-    coverUrl:
-      '/movies_pictures/23c601bcccfa.jpg',
+    coverUrl: '/movies_pictures/23c601bcccfa.jpg',
     releaseDate: '2018-11-16',
     length: 129,
     genre: ['Thriller', 'Policier', 'Drame'],
@@ -1948,8 +1917,7 @@ export const baseMoviesMissingAnnees20152019: BaseMovie[] = [
       { name: 'Yo-Yo Ma' },
       { name: 'Tom Junod' },
     ],
-    coverUrl:
-      '/movies_pictures/21e5f0be8a88.jpg',
+    coverUrl: '/movies_pictures/21e5f0be8a88.jpg',
     releaseDate: '2018-06-08',
     length: 94,
     genre: ['Documentaire', 'Biographie'],
@@ -1993,8 +1961,7 @@ export const baseMoviesMissingAnnees20152019: BaseMovie[] = [
       { name: 'Nicole Sougou' },
       { name: 'Aminata Kane' },
     ],
-    coverUrl:
-      '/movies_pictures/38904a8123d0.jpg',
+    coverUrl: '/movies_pictures/38904a8123d0.jpg',
     releaseDate: '2019-08-02',
     length: 104,
     genre: ['Drame', 'Fantastique', 'Romance'],
@@ -2016,8 +1983,7 @@ export const baseMoviesMissingAnnees20152019: BaseMovie[] = [
       { name: 'Rufus' },
       { name: 'Samir Guesmi' },
     ],
-    coverUrl:
-      '/movies_pictures/1230099450d4.jpg',
+    coverUrl: '/movies_pictures/1230099450d4.jpg',
     releaseDate: '2019-09-25',
     length: 103,
     genre: ['Drame'],
@@ -2039,8 +2005,7 @@ export const baseMoviesMissingAnnees20152019: BaseMovie[] = [
       { name: 'Thomas Aquino' },
       { name: 'Silvero Pereira' },
     ],
-    coverUrl:
-      '/movies_pictures/7608896bb60b.jpg',
+    coverUrl: '/movies_pictures/7608896bb60b.jpg',
     releaseDate: '2019-08-29',
     length: 131,
     genre: ['Drame', 'Thriller', 'Western', 'Science Fiction'],
@@ -2062,8 +2027,7 @@ export const baseMoviesMissingAnnees20152019: BaseMovie[] = [
       { name: 'Éric Caravaca' },
       { name: 'Josiane Balasko' },
     ],
-    coverUrl:
-      '/movies_pictures/59b2cbb4dda5.jpg',
+    coverUrl: '/movies_pictures/59b2cbb4dda5.jpg',
     releaseDate: '2019-02-20',
     length: 137,
     genre: ['Drame', 'Biographie'],
@@ -2085,8 +2049,7 @@ export const baseMoviesMissingAnnees20152019: BaseMovie[] = [
       { name: 'Keke Palmer' },
       { name: 'Cardi B' },
     ],
-    coverUrl:
-      '/movies_pictures/3ba77020e9ae.jpg',
+    coverUrl: '/movies_pictures/3ba77020e9ae.jpg',
     releaseDate: '2019-09-13',
     length: 110,
     genre: ['Drame', 'Comédie', 'Policier'],
@@ -2108,8 +2071,7 @@ export const baseMoviesMissingAnnees20152019: BaseMovie[] = [
       { name: 'Grégory Gadebois' },
       { name: 'Mathieu Amalric' },
     ],
-    coverUrl:
-      '/movies_pictures/8b4af76a4445.jpg',
+    coverUrl: '/movies_pictures/8b4af76a4445.jpg',
     releaseDate: '2019-11-13',
     length: 132,
     genre: ['Drame', 'Historique', 'Thriller'],
@@ -2135,8 +2097,7 @@ export const baseMoviesMissingAnnees20152019: BaseMovie[] = [
       { name: 'Mhamed Arezki' },
       { name: 'Redouane Bougheraba' },
     ],
-    coverUrl:
-      '/movies_pictures/9a914fa07074.jpg',
+    coverUrl: '/movies_pictures/9a914fa07074.jpg',
     releaseDate: '2019-08-28',
     length: 111,
     genre: ['Drame', 'Comédie'],
@@ -2158,8 +2119,7 @@ export const baseMoviesMissingAnnees20152019: BaseMovie[] = [
       { name: 'Julia Faure' },
       { name: 'Pierre Gommé' },
     ],
-    coverUrl:
-      '/movies_pictures/7e0a2547f48c.jpg',
+    coverUrl: '/movies_pictures/7e0a2547f48c.jpg',
     releaseDate: '2019-06-19',
     length: 73,
     genre: ['Comédie'],
@@ -2181,8 +2141,7 @@ export const baseMoviesMissingAnnees20152019: BaseMovie[] = [
       { name: 'Fausto Russo Alesi' },
       { name: 'Fabrizio Ferracane' },
     ],
-    coverUrl:
-      '/movies_pictures/10184b661cd7.jpg',
+    coverUrl: '/movies_pictures/10184b661cd7.jpg',
     releaseDate: '2019-05-23',
     length: 153,
     genre: ['Drame', 'Biographie', 'Policier'],
@@ -2204,8 +2163,7 @@ export const baseMoviesMissingAnnees20152019: BaseMovie[] = [
       { name: 'Gio Galicia' },
       { name: 'Olan Prenatt' },
     ],
-    coverUrl:
-      '/movies_pictures/44c928c511d6.jpg',
+    coverUrl: '/movies_pictures/44c928c511d6.jpg',
     releaseDate: '2018-10-19',
     length: 84,
     genre: ['Drame'],
@@ -2227,8 +2185,7 @@ export const baseMoviesMissingAnnees20152019: BaseMovie[] = [
       { name: 'Benoît Magimel' },
       { name: 'Laurent Lafitte' },
     ],
-    coverUrl:
-      '/movies_pictures/5876257315b1.jpg',
+    coverUrl: '/movies_pictures/5876257315b1.jpg',
     releaseDate: '2019-05-01',
     length: 136,
     genre: ['Comédie', 'Drame'],
@@ -2250,8 +2207,7 @@ export const baseMoviesMissingAnnees20152019: BaseMovie[] = [
       { name: 'Jon Hamm' },
       { name: 'Olivia Wilde' },
     ],
-    coverUrl:
-      '/movies_pictures/b87fb9dfa5d2.jpg',
+    coverUrl: '/movies_pictures/b87fb9dfa5d2.jpg',
     releaseDate: '2019-12-13',
     length: 131,
     genre: ['Drame', 'Biographie', 'Thriller'],
@@ -2295,8 +2251,7 @@ export const baseMoviesMissingAnnees20152019: BaseMovie[] = [
       { name: 'Aurore Clément' },
       { name: 'Yu Jin Tan' },
     ],
-    coverUrl:
-      '/movies_pictures/a95f5955de6f.jpg',
+    coverUrl: '/movies_pictures/a95f5955de6f.jpg',
     releaseDate: '2019-04-10',
     length: 90,
     genre: ['Comédie'],
@@ -2318,8 +2273,7 @@ export const baseMoviesMissingAnnees20152019: BaseMovie[] = [
       { name: 'Tichina Arnold' },
       { name: 'Rob Morgan' },
     ],
-    coverUrl:
-      '/movies_pictures/3cf6e7f69ec4.jpg',
+    coverUrl: '/movies_pictures/3cf6e7f69ec4.jpg',
     releaseDate: '2019-06-07',
     length: 121,
     genre: ['Drame'],
@@ -2339,8 +2293,7 @@ export const baseMoviesMissingAnnees20152019: BaseMovie[] = [
       { name: 'Robert Pattinson' },
       { name: 'Valeriia Karaman' },
     ],
-    coverUrl:
-      '/movies_pictures/f1e0a0d7af92.jpg',
+    coverUrl: '/movies_pictures/f1e0a0d7af92.jpg',
     releaseDate: '2019-10-18',
     length: 109,
     genre: ['Drame', 'Horreur', 'Fantastique'],
@@ -2362,8 +2315,7 @@ export const baseMoviesMissingAnnees20152019: BaseMovie[] = [
       { name: 'John Hawkes' },
       { name: 'Thomas Haden Church' },
     ],
-    coverUrl:
-      '/movies_pictures/39f18551329b.jpg',
+    coverUrl: '/movies_pictures/39f18551329b.jpg',
     releaseDate: '2019-08-09',
     length: 97,
     genre: ['Aventure', 'Comédie', 'Drame'],
@@ -2385,8 +2337,7 @@ export const baseMoviesMissingAnnees20152019: BaseMovie[] = [
       { name: 'Richard Ayoade' },
       { name: 'Jaygann Ayeh' },
     ],
-    coverUrl:
-      '/movies_pictures/b109cf8b101e.jpg',
+    coverUrl: '/movies_pictures/b109cf8b101e.jpg',
     releaseDate: '2019-05-17',
     length: 119,
     genre: ['Drame', 'Romance'],

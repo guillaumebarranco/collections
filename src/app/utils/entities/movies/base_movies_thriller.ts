@@ -32,7 +32,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 90,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un opérateur du 911 de Los Angeles tente de sauver une femme kidnappée depuis son poste de travail, mais découvre que l\'appel cache une vérité bien plus sombre.',
+    description:
+      "Un opérateur du 911 de Los Angeles tente de sauver une femme kidnappée depuis son poste de travail, mais découvre que l'appel cache une vérité bien plus sombre.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -69,11 +70,12 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 113,
     genre: ['Thriller'],
     saga: '',
-    description: 'Dans un Japon totalitaire, une classe de lycéens est envoyée sur une île déserte et contrainte de s\'entretuer jusqu\'au dernier survivant.',
+    description:
+      "Dans un Japon totalitaire, une classe de lycéens est envoyée sur une île déserte et contrainte de s'entretuer jusqu'au dernier survivant.",
     fromEntity: {
       entityType: 'book',
-      title: "Battle Royale",
-      secondEntityKey: "Koushun Takami",
+      title: 'Battle Royale',
+      secondEntityKey: 'Koushun Takami',
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 30,
@@ -110,7 +112,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 113,
     genre: ['Thriller'],
     saga: '',
-    description: 'Atteint d\'amnésie antérograde, Leonard tatoue des indices sur son corps pour retrouver l\'assassin de sa femme, dans un récit découpé à l\'envers.',
+    description:
+      "Atteint d'amnésie antérograde, Leonard tatoue des indices sur son corps pour retrouver l'assassin de sa femme, dans un récit découpé à l'envers.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -147,7 +150,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 105,
     genre: ['Thriller', 'Science Fiction'],
     saga: '',
-    description: 'Une mère enceinte se réveille enfermée dans un conteneur maritime et doit survivre seule aux assauts d\'un tueur qui la traque à distance.',
+    description:
+      "Une mère enceinte se réveille enfermée dans un conteneur maritime et doit survivre seule aux assauts d'un tueur qui la traque à distance.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -184,7 +188,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 95,
     genre: ['Thriller'],
     saga: '',
-    description: 'Lors d\'un voyage en yacht, une femme disparaît en mer et le couple qui l\'a recueillie se retrouve sous le feu des soupçons de meurtre.',
+    description:
+      "Lors d'un voyage en yacht, une femme disparaît en mer et le couple qui l'a recueillie se retrouve sous le feu des soupçons de meurtre.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -221,11 +226,12 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 118,
     genre: ['Thriller'],
     saga: '',
-    description: 'La jeune stagiaire Clarice Starling interroge le cannibale Hannibal Lecter pour traquer Buffalo Bill, un tueur qui écorche ses victimes.',
+    description:
+      'La jeune stagiaire Clarice Starling interroge le cannibale Hannibal Lecter pour traquer Buffalo Bill, un tueur qui écorche ses victimes.',
     fromEntity: {
       entityType: 'book',
-      title: "Le Silence des agneaux",
-      secondEntityKey: "Thomas Harris",
+      title: 'Le Silence des agneaux',
+      secondEntityKey: 'Thomas Harris',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -268,11 +274,12 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 116,
     genre: ['Thriller'],
     saga: '',
-    description: 'Une galeriste new-yorkaise reçoit le manuscrit d\'un roman vengeur écrit par son ex-mari, qui réveille des souvenirs douloureux et une peur viscérale.',
+    description:
+      "Une galeriste new-yorkaise reçoit le manuscrit d'un roman vengeur écrit par son ex-mari, qui réveille des souvenirs douloureux et une peur viscérale.",
     fromEntity: {
       entityType: 'book',
-      title: "Tony and Susan",
-      secondEntityKey: "Austin Wright",
+      title: 'Tony and Susan',
+      secondEntityKey: 'Austin Wright',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -306,11 +313,12 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 90,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un professeur d\'histoire découvre qu\'un acteur de second rôle lui ressemble trait pour trait, et plonge dans une quête obsédante qui brouille identité et réalité.',
+    description:
+      "Un professeur d'histoire découvre qu'un acteur de second rôle lui ressemble trait pour trait, et plonge dans une quête obsédante qui brouille identité et réalité.",
     fromEntity: {
       entityType: 'book',
-      title: "L’Homme dupliqué",
-      secondEntityKey: "José Saramago",
+      title: 'L’Homme dupliqué',
+      secondEntityKey: 'José Saramago',
     },
     countryOrigin: ['Canada'],
     selectDisplayOrder: 0,
@@ -347,7 +355,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 113,
     genre: ['Thriller'],
     saga: '',
-    description: 'Evan peut remonter dans ses souvenirs d\'enfance et modifier le passé, mais chaque changement déforme son présent de façon de plus en plus catastrophique.',
+    description:
+      "Evan peut remonter dans ses souvenirs d'enfance et modifier le passé, mais chaque changement déforme son présent de façon de plus en plus catastrophique.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -384,7 +393,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 81,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un cadre new-yorkais est enlevé dans une cabine téléphonique et menacé par un sniper qui exige qu\'il se détruise publiquement sous peine de mort.',
+    description:
+      "Un cadre new-yorkais est enlevé dans une cabine téléphonique et menacé par un sniper qui exige qu'il se détruise publiquement sous peine de mort.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -407,7 +417,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 150,
     genre: ['Thriller'],
     saga: '',
-    description: 'Une femme de ménage tombe amoureuse de son client millionnaire, puis découvre que sa vie idéale dissimule un meurtre et une manipulation mortelle.',
+    description:
+      'Une femme de ménage tombe amoureuse de son client millionnaire, puis découvre que sa vie idéale dissimule un meurtre et une manipulation mortelle.',
     fromEntity: {
       entityType: 'book',
       title: 'La femme de ménage',
@@ -435,11 +446,12 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 115,
     genre: ['Thriller'],
     saga: '',
-    description: 'Dans un couple en crise, le mari autorise sa femme à prendre des amants, jusqu\'à ce que ses jeux pervers dégénèrent en violence et en meurtre.',
+    description:
+      "Dans un couple en crise, le mari autorise sa femme à prendre des amants, jusqu'à ce que ses jeux pervers dégénèrent en violence et en meurtre.",
     fromEntity: {
       entityType: 'book',
-      title: "Eaux profondes",
-      secondEntityKey: "Patricia Highsmith",
+      title: 'Eaux profondes',
+      secondEntityKey: 'Patricia Highsmith',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -462,7 +474,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 147,
     genre: ['Thriller'],
     saga: '',
-    description: 'Jean-Baptiste Grenouille, doté d\'un odorat surhumain, devient obsédé par la création du parfum parfait, au prix de crimes effroyables.',
+    description:
+      "Jean-Baptiste Grenouille, doté d'un odorat surhumain, devient obsédé par la création du parfum parfait, au prix de crimes effroyables.",
     fromEntity: {
       entityType: 'book',
       title: 'Le Parfum',
@@ -489,7 +502,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 92,
     genre: ['Thriller'],
     saga: '',
-    description: 'Sept amis se retrouvent enfermés dans un appartement parce qu\'un d\'eux a tué quelqu\'un ; la vérité éclate au fil d\'un jeu de vérité impitoyable.',
+    description:
+      "Sept amis se retrouvent enfermés dans un appartement parce qu'un d'eux a tué quelqu'un ; la vérité éclate au fil d'un jeu de vérité impitoyable.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -526,7 +540,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 116,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un acousticien de la marine française détecte un bruit anormal sous les mers et doit convaincre ses supérieurs qu\'une attaque imminente menace le pays.',
+    description:
+      "Un acousticien de la marine française détecte un bruit anormal sous les mers et doit convaincre ses supérieurs qu'une attaque imminente menace le pays.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
@@ -563,11 +578,12 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 124,
     genre: ['Thriller'],
     saga: '',
-    description: 'Des créatures invisible provoquent la folie suicidaire de quiconque les regarde ; une mère aveugle guide ses enfants à travers un monde apocalyptique.',
+    description:
+      'Des créatures invisible provoquent la folie suicidaire de quiconque les regarde ; une mère aveugle guide ses enfants à travers un monde apocalyptique.',
     fromEntity: {
       entityType: 'book',
-      title: "Bird Box",
-      secondEntityKey: "Josh Malerman",
+      title: 'Bird Box',
+      secondEntityKey: 'Josh Malerman',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -604,7 +620,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 114,
     genre: ['Policier'],
     saga: '',
-    description: 'Vétéran du Vietnam isolé et instable, Travis Bickle sombre dans la paranoïa nocturne de New York jusqu\'à préparer un acte de violence spectaculaire.',
+    description:
+      "Vétéran du Vietnam isolé et instable, Travis Bickle sombre dans la paranoïa nocturne de New York jusqu'à préparer un acte de violence spectaculaire.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -641,7 +658,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 141,
     genre: ['Thriller'],
     saga: '',
-    description: 'En pleine Guerre froide, l\'avocat James Donovan est chargé d\'échanger un pilote américain capturé contre un espion soviétique arrêté aux États-Unis.',
+    description:
+      "En pleine Guerre froide, l'avocat James Donovan est chargé d'échanger un pilote américain capturé contre un espion soviétique arrêté aux États-Unis.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -664,11 +682,12 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 141,
     genre: ['Policier'],
     saga: '',
-    description: 'Le FBI traque Frank Abagnale Jr., prodige de l\'escroquerie et du faux chèque, tandis que l\'agent Carl Hanratty le poursuit à travers le monde.',
+    description:
+      "Le FBI traque Frank Abagnale Jr., prodige de l'escroquerie et du faux chèque, tandis que l'agent Carl Hanratty le poursuit à travers le monde.",
     fromEntity: {
       entityType: 'book',
-      title: "Attrape-moi si tu peux",
-      secondEntityKey: "Frank Abagnale",
+      title: 'Attrape-moi si tu peux',
+      secondEntityKey: 'Frank Abagnale',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -705,7 +724,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 84,
     genre: ['Policier', 'Romance'],
     saga: 'Arsène Lupin',
-    description: 'Le gentleman cambrioleur Arsène Lupin déjoue un duc et un inspecteur de police pour voler les joyaux de la couronne dans le Paris des années 1930.',
+    description:
+      'Le gentleman cambrioleur Arsène Lupin déjoue un duc et un inspecteur de police pour voler les joyaux de la couronne dans le Paris des années 1930.',
     fromEntity: {
       entityType: 'book',
       title: 'Arsène Lupin, gentleman cambrioleur',
@@ -732,7 +752,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 60,
     genre: ['Policier', 'Mystère'],
     saga: 'Arsène Lupin',
-    description: 'Arsène Lupin est accusé d\'un vol qu\'il n\'a pas commis et doit démasquer le véritable coupable pour sauver son honneur et déjouer le mystérieux 813.',
+    description:
+      "Arsène Lupin est accusé d'un vol qu'il n'a pas commis et doit démasquer le véritable coupable pour sauver son honneur et déjouer le mystérieux 813.",
     fromEntity: {
       entityType: 'book',
       title: '813',
@@ -773,7 +794,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 100,
     genre: ['Policier', 'Comédie'],
     saga: 'Arsène Lupin',
-    description: 'Arsène Lupin multiplie cambriolages audacieux et duels d\'esprit avec l\'inspecteur Ganimard, tout en protégeant une jeune héritière menacée.',
+    description:
+      "Arsène Lupin multiplie cambriolages audacieux et duels d'esprit avec l'inspecteur Ganimard, tout en protégeant une jeune héritière menacée.",
     fromEntity: {
       entityType: 'book',
       title: 'Arsène Lupin, gentleman cambrioleur',
@@ -814,7 +836,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 100,
     genre: ['Policier', 'Comédie'],
     saga: 'Arsène Lupin',
-    description: 'Lupin revient de sa retraite pour déjouer une bande de trafiquants et protéger une jeune femme, dans une enquête mêlant mystère et élégance.',
+    description:
+      'Lupin revient de sa retraite pour déjouer une bande de trafiquants et protéger une jeune femme, dans une enquête mêlant mystère et élégance.',
     fromEntity: {
       entityType: 'book',
       title: 'Arsène Lupin, gentleman cambrioleur',
@@ -855,7 +878,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 120,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un jeune prodige des mathématiques est recruté par la NSA pour casser un code secret, puis découvre que ses calculs servent une machination meurtrière.',
+    description:
+      'Un jeune prodige des mathématiques est recruté par la NSA pour casser un code secret, puis découvre que ses calculs servent une machination meurtrière.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -877,7 +901,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 112,
     genre: ['Thriller'],
     saga: '',
-    description: 'Une mère et sa fille se barricadent dans la chambre forte de leur nouvelle maison lorsqu\'intrus armés s\'introduisent pour voler des millions cachés.',
+    description:
+      "Une mère et sa fille se barricadent dans la chambre forte de leur nouvelle maison lorsqu'intrus armés s'introduisent pour voler des millions cachés.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -914,7 +939,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 144,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un jeune avocat brillant rejoint un cabinet prestigieux et découvre que son patron est Satan, qui lui propose gloire et fortune contre son âme.',
+    description:
+      'Un jeune avocat brillant rejoint un cabinet prestigieux et découvre que son patron est Satan, qui lui propose gloire et fortune contre son âme.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -951,7 +977,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 107,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un psychologue pour enfants tente d\'aider un garçon qui prétend voir des morts, sans se douter que sa propre réalité recèle un secret bouleversant.',
+    description:
+      "Un psychologue pour enfants tente d'aider un garçon qui prétend voir des morts, sans se douter que sa propre réalité recèle un secret bouleversant.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -974,7 +1001,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 130,
     genre: ['Thriller'],
     saga: '',
-    description: 'Deux magiciens rivaux à la fin du XIXe siècle s\'affrontent dans une obsession destructrice, prêts à tout pour créer l\'illusion ultime sur scène.',
+    description:
+      "Deux magiciens rivaux à la fin du XIXe siècle s'affrontent dans une obsession destructrice, prêts à tout pour créer l'illusion ultime sur scène.",
     fromEntity: {
       entityType: 'book',
       title: 'Le prestige',
@@ -1001,7 +1029,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 151,
     genre: ['Policier'],
     saga: '',
-    description: 'Un policier infiltré dans la mafia irlandaise de Boston et un criminel infiltré dans la police mènent une course désespérée pour démasquer l\'autre.',
+    description:
+      "Un policier infiltré dans la mafia irlandaise de Boston et un criminel infiltré dans la police mènent une course désespérée pour démasquer l'autre.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -1043,7 +1072,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 149,
     genre: ['Policier'],
     saga: '',
-    description: 'Le symbologue Robert Langdon et la cryptologue Sophie Neveu enquêtent sur un meurtre au Louvre qui révèle une conspiration autour du Saint Graal.',
+    description:
+      'Le symbologue Robert Langdon et la cryptologue Sophie Neveu enquêtent sur un meurtre au Louvre qui révèle une conspiration autour du Saint Graal.',
     fromEntity: {
       entityType: 'book',
       title: 'Da Vinci Code',
@@ -1084,7 +1114,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 122,
     genre: ['Policier'],
     saga: '',
-    description: 'Yuri Orlov, trafiquant d\'armes sans scrupules, prospère dans les guerres mondiales jusqu\'à ce que la traque du flic Interpol Valentine le rattrape.',
+    description:
+      "Yuri Orlov, trafiquant d'armes sans scrupules, prospère dans les guerres mondiales jusqu'à ce que la traque du flic Interpol Valentine le rattrape.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1121,7 +1152,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 85,
     genre: ['Thriller'],
     saga: '',
-    description: 'Une journaliste enquête sur une série de meurtres de jeunes femmes et découvre que le tueur semble lié à son propre passé traumatique.',
+    description:
+      'Une journaliste enquête sur une série de meurtres de jeunes femmes et découvre que le tueur semble lié à son propre passé traumatique.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1149,7 +1181,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 154,
     genre: ['Policier'],
     saga: '',
-    description: 'À Los Angeles, plusieurs histoires de gangsters, de boxeurs et de malfrats s\'entrecroisent dans un tourbillon de violence, d\'humour noir et de hasard.',
+    description:
+      "À Los Angeles, plusieurs histoires de gangsters, de boxeurs et de malfrats s'entrecroisent dans un tourbillon de violence, d'humour noir et de hasard.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -1186,7 +1219,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 111,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un expert du renseignement est chargé de protéger un témoin clé contre des assassins, dans une course contre la montre au cœur de Washington.',
+    description:
+      'Un expert du renseignement est chargé de protéger un témoin clé contre des assassins, dans une course contre la montre au cœur de Washington.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1209,7 +1243,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 126,
     genre: ['Thriller', 'Fantastique'],
     saga: 'Death Note',
-    description: 'Light Yagami trouve un carnet surnaturel qui tue quiconque y est inscrit, et se prend pour un dieu de la justice avant d\'affronter le détective L.',
+    description:
+      "Light Yagami trouve un carnet surnaturel qui tue quiconque y est inscrit, et se prend pour un dieu de la justice avant d'affronter le détective L.",
     fromEntity: {
       entityType: 'manga',
       title: 'Death Note',
@@ -1236,7 +1271,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 139,
     genre: ['Thriller', 'Fantastique'],
     saga: 'Death Note',
-    description: 'Light et L poursuivent leur duel mortel tandis que Kira multiplie les exécutions et que de nouveaux détenteurs du Death Note entrent en jeu.',
+    description:
+      'Light et L poursuivent leur duel mortel tandis que Kira multiplie les exécutions et que de nouveaux détenteurs du Death Note entrent en jeu.',
     fromEntity: {
       entityType: 'manga',
       title: 'Death Note',
@@ -1277,7 +1313,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 101,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un lycéen américain découvre un carnet qui tue ceux dont il écrit le nom, et devient la cible d\'un détective mystérieux connu sous le nom de L.',
+    description:
+      "Un lycéen américain découvre un carnet qui tue ceux dont il écrit le nom, et devient la cible d'un détective mystérieux connu sous le nom de L.",
     fromEntity: {
       entityType: 'manga',
       title: 'Death Note',
@@ -1318,7 +1355,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 105,
     genre: ['Policier'],
     saga: '',
-    description: 'Un comptable ordinaire voit sa femme disparaître lors d\'une escapade romantique, puis découvre que sa vie entière était une vaste escroquerie.',
+    description:
+      "Un comptable ordinaire voit sa femme disparaître lors d'une escapade romantique, puis découvre que sa vie entière était une vaste escroquerie.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -1352,7 +1390,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 99,
     genre: ['Thriller'],
     saga: '',
-    description: 'Deux jeunes femmes frappent à la porte d\'un père de famille seul un soir de pluie, et ce qui semblait une aventure se transforme en cauchemar.',
+    description:
+      "Deux jeunes femmes frappent à la porte d'un père de famille seul un soir de pluie, et ce qui semblait une aventure se transforme en cauchemar.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1389,11 +1428,12 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 149,
     genre: ['Thriller'],
     saga: '',
-    description: 'Le jour de leur anniversaire de mariage, Amy Dunne disparaît et son mari Nick devient le principal suspect d\'un meurtre médiatisé et manipulé.',
+    description:
+      "Le jour de leur anniversaire de mariage, Amy Dunne disparaît et son mari Nick devient le principal suspect d'un meurtre médiatisé et manipulé.",
     fromEntity: {
       entityType: 'book',
-      title: "Gone Girl",
-      secondEntityKey: "Gillian Flynn",
+      title: 'Gone Girl',
+      secondEntityKey: 'Gillian Flynn',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -1431,11 +1471,12 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 119,
     genre: ['Policier'],
     saga: '',
-    description: 'Elliot Ness et son équipe d\'agents incorruptibles traquent Al Capone à Chicago dans les années 1930, malgré la corruption généralisée.',
+    description:
+      "Elliot Ness et son équipe d'agents incorruptibles traquent Al Capone à Chicago dans les années 1930, malgré la corruption généralisée.",
     fromEntity: {
       entityType: 'book',
-      title: "The Untouchables",
-      secondEntityKey: "Eliot Ness et Oscar Fraley",
+      title: 'The Untouchables',
+      secondEntityKey: 'Eliot Ness et Oscar Fraley',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1472,11 +1513,12 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 170,
     genre: ['Policier'],
     saga: '',
-    description: 'Cubain arrivé à Miami, Tony Montana gravit les échelons du trafic de cocaïne par la violence jusqu\'à sombrer dans la paranoïa et la chute brutale.',
+    description:
+      "Cubain arrivé à Miami, Tony Montana gravit les échelons du trafic de cocaïne par la violence jusqu'à sombrer dans la paranoïa et la chute brutale.",
     fromEntity: {
       entityType: 'book',
-      title: "Scarface",
-      secondEntityKey: "Armitage Trail",
+      title: 'Scarface',
+      secondEntityKey: 'Armitage Trail',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -1513,7 +1555,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 103,
     genre: ['Thriller'],
     saga: '',
-    description: 'Après cinq ans de coma, Johnny Smith voit l\'avenir au contact des gens et tente d\'empêcher un politicien charismatique de déclencher une guerre nucléaire.',
+    description:
+      "Après cinq ans de coma, Johnny Smith voit l'avenir au contact des gens et tente d'empêcher un politicien charismatique de déclencher une guerre nucléaire.",
     fromEntity: {
       entityType: 'book',
       title: 'The Dead zone',
@@ -1554,7 +1597,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 118,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un étudiant découvre que sa vie est filmée vingt-quatre heures sur vingt-quatre par des caméras cachées, et que quelqu\'un semble vouloir le tuer.',
+    description:
+      "Un étudiant découvre que sa vie est filmée vingt-quatre heures sur vingt-quatre par des caméras cachées, et que quelqu'un semble vouloir le tuer.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -1575,7 +1619,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 114,
     genre: ['Policier'],
     saga: '',
-    description: 'Deux détectives privés de Boston enquêtent sur la disparition d\'une petite fille dans un quartier difficile, où la vérité remet en cause la morale.',
+    description:
+      "Deux détectives privés de Boston enquêtent sur la disparition d'une petite fille dans un quartier difficile, où la vérité remet en cause la morale.",
     fromEntity: {
       entityType: 'book',
       title: 'Gone, Baby, Gone',
@@ -1616,11 +1661,12 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 122,
     genre: ['Policier'],
     saga: '',
-    description: 'Un chasseur trouve deux millions de dollars près d\'une scène de carnage et devient la proie implacable d\'un tueur aux principes implacables.',
+    description:
+      "Un chasseur trouve deux millions de dollars près d'une scène de carnage et devient la proie implacable d'un tueur aux principes implacables.",
     fromEntity: {
       entityType: 'book',
-      title: "No Country for Old Men",
-      secondEntityKey: "Cormac McCarthy",
+      title: 'No Country for Old Men',
+      secondEntityKey: 'Cormac McCarthy',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -1662,7 +1708,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 109,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un jeune cadre tombe sous le charme d\'une femme mystérieuse lors d\'une liaison brève, puis découvre qu\'elle le piège dans un chantage mortel.',
+    description:
+      "Un jeune cadre tombe sous le charme d'une femme mystérieuse lors d'une liaison brève, puis découvre qu'elle le piège dans un chantage mortel.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1699,7 +1746,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 105,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un étudiant découvre que sa vie entière est diffusée en direct sur Internet, et que des inconnus semblent orchestrer sa mort pour le spectacle.',
+    description:
+      'Un étudiant découvre que sa vie entière est diffusée en direct sur Internet, et que des inconnus semblent orchestrer sa mort pour le spectacle.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1736,11 +1784,12 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 157,
     genre: ['Policier'],
     saga: '',
-    description: 'À San Francisco dans les années 1960-70, un tueur en série taquine la presse par des cryptogrammes pendant qu\'enquêteurs et journalistes le traquent.',
+    description:
+      "À San Francisco dans les années 1960-70, un tueur en série taquine la presse par des cryptogrammes pendant qu'enquêteurs et journalistes le traquent.",
     fromEntity: {
       entityType: 'book',
-      title: "Zodiac",
-      secondEntityKey: "Robert Graysmith",
+      title: 'Zodiac',
+      secondEntityKey: 'Robert Graysmith',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -1777,7 +1826,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 96,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un flic voit des visions de catastrophes avant qu\'elles n\'arrivent et tente de les empêcher, mais chaque intervention semble aggraver le destin.',
+    description:
+      "Un flic voit des visions de catastrophes avant qu'elles n'arrivent et tente de les empêcher, mais chaque intervention semble aggraver le destin.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1797,7 +1847,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 127,
     genre: ['Policier'],
     saga: '',
-    description: 'Deux inspecteurs traquent un tueur en série qui choisit ses victimes selon les sept péchés capitaux, dans une enquête qui mène à une révélation glaçante.',
+    description:
+      'Deux inspecteurs traquent un tueur en série qui choisit ses victimes selon les sept péchés capitaux, dans une enquête qui mène à une révélation glaçante.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -1834,7 +1885,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 106,
     genre: ['Policier'],
     saga: '',
-    description: 'Un survivant d\'un massacre raconte au grand jury comment cinq criminels ont été manipulés par le légendaire et insaisissable Keyser Söze.',
+    description:
+      "Un survivant d'un massacre raconte au grand jury comment cinq criminels ont été manipulés par le légendaire et insaisissable Keyser Söze.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -1874,7 +1926,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 100,
     genre: ['Policier'],
     saga: '',
-    description: 'Un chauffeur de getaway nocturne s\'implique avec une voisine et son mari, puis bascule dans une spirale de violence pour les protéger des gangsters.',
+    description:
+      "Un chauffeur de getaway nocturne s'implique avec une voisine et son mari, puis bascule dans une spirale de violence pour les protéger des gangsters.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1911,7 +1964,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 138,
     genre: ['Thriller'],
     saga: '',
-    description: 'En 1954, deux enquêteurs de la police fédérale enquêtent sur la disparition d\'une patiente dans un hôpital psychiatrique isolé sur une île.',
+    description:
+      "En 1954, deux enquêteurs de la police fédérale enquêtent sur la disparition d'une patiente dans un hôpital psychiatrique isolé sur une île.",
     fromEntity: {
       entityType: 'book',
       title: 'Shutter Island',
@@ -1952,7 +2006,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 101,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un lycéen commence à suspecter que son beau-père, revenu après des années d\'absence, cache une identité dangereuse et des intentions meurtrières.',
+    description:
+      "Un lycéen commence à suspecter que son beau-père, revenu après des années d'absence, cache une identité dangereuse et des intentions meurtrières.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1975,11 +2030,12 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 180,
     genre: ['Policier'],
     saga: '',
-    description: 'Jordan Belfort monte un empire de fraude boursière dans les années 1990, dans une orgie de richesse, de drogue et d\'excès jusqu\'à la chute fédérale.',
+    description:
+      "Jordan Belfort monte un empire de fraude boursière dans les années 1990, dans une orgie de richesse, de drogue et d'excès jusqu'à la chute fédérale.",
     fromEntity: {
       entityType: 'book',
-      title: "Le Loup de Wall Street",
-      secondEntityKey: "Jordan Belfort",
+      title: 'Le Loup de Wall Street',
+      secondEntityKey: 'Jordan Belfort',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -2003,7 +2059,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 153,
     genre: ['Thriller'],
     saga: '',
-    description: 'Lorsque deux fillettes disparaissent, un père désespéré prend en otage le principal suspect et use de méthodes extrêmes pour obtenir des réponses.',
+    description:
+      'Lorsque deux fillettes disparaissent, un père désespéré prend en otage le principal suspect et use de méthodes extrêmes pour obtenir des réponses.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -2040,7 +2097,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 129,
     genre: ['Policier'],
     saga: '',
-    description: 'Trois bodybuilders de Floride kidnappent un richissime client de leur salle de sport dans un plan d\'enlèvement aussi stupide que sanglant.',
+    description:
+      "Trois bodybuilders de Floride kidnappent un richissime client de leur salle de sport dans un plan d'enlèvement aussi stupide que sanglant.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2077,7 +2135,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 128,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un détective enquête sur le meurtre d\'une rock star et tombe sous le charme de la principale suspecte, une écrivaine aux jeux érotiques mortels.',
+    description:
+      "Un détective enquête sur le meurtre d'une rock star et tombe sous le charme de la principale suspecte, une écrivaine aux jeux érotiques mortels.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -2114,7 +2173,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 99,
     genre: ['Policier'],
     saga: '',
-    description: 'Après un braquage de bijouterie qui a mal tourné, des criminels se retrouvent dans un entrepôt et soupçonnent qu\'un informateur se cache parmi eux.',
+    description:
+      "Après un braquage de bijouterie qui a mal tourné, des criminels se retrouvent dans un entrepôt et soupçonnent qu'un informateur se cache parmi eux.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -2151,11 +2211,12 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 146,
     genre: ['Policier'],
     saga: '',
-    description: 'Henry Hill raconte son ascension dans la mafia new-yorkaise des années 1960 à 1980, jusqu\'à la trahison, la paranoïa et la chute brutale.',
+    description:
+      "Henry Hill raconte son ascension dans la mafia new-yorkaise des années 1960 à 1980, jusqu'à la trahison, la paranoïa et la chute brutale.",
     fromEntity: {
       entityType: 'book',
-      title: "Wiseguy",
-      secondEntityKey: "Nicholas Pileggi",
+      title: 'Wiseguy',
+      secondEntityKey: 'Nicholas Pileggi',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -2189,7 +2250,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 101,
     genre: ['Thriller'],
     saga: '',
-    description: 'Huit candidats enfermés dans une salle doivent répondre à une question inconnue en quatre-vingts minutes, dans une compétition qui devient mortelle.',
+    description:
+      'Huit candidats enfermés dans une salle doivent répondre à une question inconnue en quatre-vingts minutes, dans une compétition qui devient mortelle.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2226,7 +2288,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 102,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un informaticien découvre qu\'une mystérieuse présence en ligne enregistre sa vie privée et le manipule dans une guerre psychologique sans merci.',
+    description:
+      "Un informaticien découvre qu'une mystérieuse présence en ligne enregistre sa vie privée et le manipule dans une guerre psychologique sans merci.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2260,7 +2323,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 104,
     genre: ['Thriller'],
     saga: '',
-    description: 'À Paris, une scientifique spécialiste des requins et un policier traquent une grande blanche géante qui semble attaquer les baigneurs de la Seine.',
+    description:
+      'À Paris, une scientifique spécialiste des requins et un policier traquent une grande blanche géante qui semble attaquer les baigneurs de la Seine.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -2297,7 +2361,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 98,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un homme obsédé par un livre qui semble décrire sa propre vie bascule dans la paranoïa en découvrant le mystère du nombre vingt-trois.',
+    description:
+      'Un homme obsédé par un livre qui semble décrire sa propre vie bascule dans la paranoïa en découvrant le mystère du nombre vingt-trois.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2335,7 +2400,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 99,
     genre: ['Thriller'],
     saga: '',
-    description: 'Une mère embarque sur un paquebot vide après un accident en mer et se retrouve piégée dans une boucle temporelle cauchemardesque.',
+    description:
+      'Une mère embarque sur un paquebot vide après un accident en mer et se retrouve piégée dans une boucle temporelle cauchemardesque.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2372,7 +2438,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 135,
     genre: ['Thriller', 'Policier'],
     saga: '',
-    description: 'Un bijoutier new-yorkais accro aux paris sportifs enchaîne les dettes et les mensonges pour sauver son commerce, dans une course folle vers la ruine.',
+    description:
+      'Un bijoutier new-yorkais accro aux paris sportifs enchaîne les dettes et les mensonges pour sauver son commerce, dans une course folle vers la ruine.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2409,7 +2476,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 105,
     genre: ['Policier'],
     saga: '',
-    description: 'Un shérif sourd d\'une banlieue paisible de New York est contraint d\'affronter des flics corrompus de la ville qui se cachent dans sa communauté.',
+    description:
+      "Un shérif sourd d'une banlieue paisible de New York est contraint d'affronter des flics corrompus de la ville qui se cachent dans sa communauté.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2446,7 +2514,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 106,
     genre: ['Policier'],
     saga: '',
-    description: 'Dans les années 1930, un jeune pickpocket est recruté par le gangster Dutch Schultz et découvre les violences du monde criminel new-yorkais.',
+    description:
+      'Dans les années 1930, un jeune pickpocket est recruté par le gangster Dutch Schultz et découvre les violences du monde criminel new-yorkais.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2483,7 +2552,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 95,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un avocat marié entame une liaison avec une collègue, puis découvre que son amante cache une personnalité manipulatrice et meurtrière.',
+    description:
+      'Un avocat marié entame une liaison avec une collègue, puis découvre que son amante cache une personnalité manipulatrice et meurtrière.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2520,7 +2590,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 106,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un détective privé enquête sur la disparition d\'une jeune femme dans une communauté fermée au bord d\'un lac, où les secrets remontent à la surface.',
+    description:
+      "Un détective privé enquête sur la disparition d'une jeune femme dans une communauté fermée au bord d'un lac, où les secrets remontent à la surface.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2557,7 +2628,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 121,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un psychologue traite un groupe de patients perturbés et tombe amoureux d\'une femme énigmatique, dans une intrigue où réalité et folie se confondent.',
+    description:
+      "Un psychologue traite un groupe de patients perturbés et tombe amoureux d'une femme énigmatique, dans une intrigue où réalité et folie se confondent.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2594,7 +2666,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 122,
     genre: ['Policier'],
     saga: '',
-    description: 'Le kidnapping d\'un adolescent par un dealer de drogue et son gang dégénère tragiquement, inspiré d\'une affaire criminelle réelle des années 2000.',
+    description:
+      "Le kidnapping d'un adolescent par un dealer de drogue et son gang dégénère tragiquement, inspiré d'une affaire criminelle réelle des années 2000.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2625,7 +2698,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 110,
     genre: ['Policier'],
     saga: '',
-    description: 'Un malchanceux pris pour un autre homme se retrouve pris entre deux parrains rivaux de New York, dans une machination où personne n\'est qui il prétend.',
+    description:
+      "Un malchanceux pris pour un autre homme se retrouve pris entre deux parrains rivaux de New York, dans une machination où personne n'est qui il prétend.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2662,7 +2736,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 121,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un étudiant prodige du poker est entraîné par un mentor charismatique dans les arnaques et les jeux d\'argent clandestins, jusqu\'à une confrontation mortelle.',
+    description:
+      "Un étudiant prodige du poker est entraîné par un mentor charismatique dans les arnaques et les jeux d'argent clandestins, jusqu'à une confrontation mortelle.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2699,7 +2774,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 139,
     genre: ['Thriller'],
     saga: '',
-    description: 'Envoyé en Italie pour ramener un playboy américain, Tom Ripley usurpe son identité et commet des crimes pour préserver son nouveau luxe.',
+    description:
+      'Envoyé en Italie pour ramener un playboy américain, Tom Ripley usurpe son identité et commet des crimes pour préserver son nouveau luxe.',
     fromEntity: {
       entityType: 'book',
       title: 'Le Talentueux M. Ripley',
@@ -2740,7 +2816,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 128,
     genre: ['Thriller'],
     saga: '',
-    description: 'Plusieurs destins s\'entrecroisent autour du pétrole, du terrorisme et du renseignement au Moyen-Orient, dans une fresque politique paranoïaque.',
+    description:
+      "Plusieurs destins s'entrecroisent autour du pétrole, du terrorisme et du renseignement au Moyen-Orient, dans une fresque politique paranoïaque.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2777,7 +2854,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 167,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un analyste de la CIA découvre qu\'une opération secrète menée par son supérieur menace de déclencher une guerre, et doit choisir entre loyauté et vérité.',
+    description:
+      "Un analyste de la CIA découvre qu'une opération secrète menée par son supérieur menace de déclencher une guerre, et doit choisir entre loyauté et vérité.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2814,7 +2892,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 106,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un virus mortel se propage à travers le monde tandis que scientifiques, gouvernements et citoyens luttent contre la panique et la contagion.',
+    description:
+      'Un virus mortel se propage à travers le monde tandis que scientifiques, gouvernements et citoyens luttent contre la panique et la contagion.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2851,7 +2930,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 97,
     genre: ['Policier'],
     saga: '',
-    description: 'Trois maladroits braquent un poker clandestin et déclenchent une réaction en chaîne orchestrée par la mafia et un tueur impassible.',
+    description:
+      'Trois maladroits braquent un poker clandestin et déclenchent une réaction en chaîne orchestrée par la mafia et un tueur impassible.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2888,7 +2968,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 124,
     genre: ['Thriller', 'Drame', 'Historique'],
     saga: '',
-    description: 'En 1942, un espion canadien et une résistante française tombent amoureux à Casablanca alors qu\'une mission de sabotage contre les nazis exige l\'ultime sacrifice.',
+    description:
+      "En 1942, un espion canadien et une résistante française tombent amoureux à Casablanca alors qu'une mission de sabotage contre les nazis exige l'ultime sacrifice.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2925,7 +3006,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 117,
     genre: ['Policier'],
     saga: '',
-    description: 'Pendant la Grande Dépression, deux frères témoins d\'un meurtre sont forcés d\'accompagner un agent fédéral à travers l\'Amérique pour retrouver leur père criminel.',
+    description:
+      "Pendant la Grande Dépression, deux frères témoins d'un meurtre sont forcés d'accompagner un agent fédéral à travers l'Amérique pour retrouver leur père criminel.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2962,7 +3044,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 138,
     genre: ['Thriller'],
     saga: 'Robert Langdon',
-    description: 'Robert Langdon enquête au Vatican sur un complot visant à détruire le conclave papal avec une bombe à antimatière, en suivant les indices laissés par les Illuminati.',
+    description:
+      'Robert Langdon enquête au Vatican sur un complot visant à détruire le conclave papal avec une bombe à antimatière, en suivant les indices laissés par les Illuminati.',
     fromEntity: {
       entityType: 'book',
       title: 'Anges et démons',
@@ -3003,7 +3086,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 134,
     genre: ['Thriller'],
     saga: '',
-    description: 'Le capitaine d\'un cargo américain affronte des pirates somaliens lors d\'une prise d\'otages en mer, dans un face-à-face tendu entre survie et négociation.',
+    description:
+      "Le capitaine d'un cargo américain affronte des pirates somaliens lors d'une prise d'otages en mer, dans un face-à-face tendu entre survie et négociation.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3040,7 +3124,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 121,
     genre: ['Thriller'],
     saga: 'Robert Langdon',
-    description: 'Robert Langdon se réveille amnésique à Florence et doit déchiffrer des indices inspirés de Dante pour empêcher un biologiste de libérer un virus mortel.',
+    description:
+      'Robert Langdon se réveille amnésique à Florence et doit déchiffrer des indices inspirés de Dante pour empêcher un biologiste de libérer un virus mortel.',
     fromEntity: {
       entityType: 'book',
       title: 'Inferno',
@@ -3081,7 +3166,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 110,
     genre: ['Thriller'],
     saga: '',
-    description: 'Une jeune recrue d\'un géant de la tech découvre que la transparence totale promue par son entreprise cache une surveillance globalisée et dangereuse.',
+    description:
+      "Une jeune recrue d'un géant de la tech découvre que la transparence totale promue par son entreprise cache une surveillance globalisée et dangereuse.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3118,7 +3204,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 154,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un jeune avocat découvre que son prestigieux cabinet est une façade pour la mafia, le forçant à choisir entre sa carrière, sa vie et la loi.',
+    description:
+      'Un jeune avocat découvre que son prestigieux cabinet est une façade pour la mafia, le forçant à choisir entre sa carrière, sa vie et la loi.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3155,7 +3242,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 159,
     genre: ['Thriller'],
     saga: '',
-    description: 'Après une révélation conjugale, un médecin new-yorkais pénètre dans une société secrète nocturne où luxure, pouvoir et menaces se mêlent.',
+    description:
+      'Après une révélation conjugale, un médecin new-yorkais pénètre dans une société secrète nocturne où luxure, pouvoir et menaces se mêlent.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3192,7 +3280,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 121,
     genre: ['Thriller'],
     saga: '',
-    description: 'Des officiers allemands préparent un attentat contre Hitler en 1944, mais chaque détail du complot doit réussir pour éviter une répression immédiate.',
+    description:
+      'Des officiers allemands préparent un attentat contre Hitler en 1944, mais chaque détail du complot doit réussir pour éviter une répression immédiate.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3229,7 +3318,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 128,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un agent de la CIA et une journaliste d\'investigation découvrent un programme secret d\'interrogatoires qui les place tous deux en danger mortel.',
+    description:
+      "Un agent de la CIA et une journaliste d'investigation découvrent un programme secret d'interrogatoires qui les place tous deux en danger mortel.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3266,7 +3356,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 122,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un avocat défend un détenu disparu dans un centre de détention offshore où les prisonniers sont torturés hors de toute juridiction.',
+    description:
+      'Un avocat défend un détenu disparu dans un centre de détention offshore où les prisonniers sont torturés hors de toute juridiction.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3300,7 +3391,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 117,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un chauffeur de nuit à Los Angeles accepte des courses de plus en plus louches et se retrouve impliqué dans une affaire de trafic et de meurtres.',
+    description:
+      'Un chauffeur de nuit à Los Angeles accepte des courses de plus en plus louches et se retrouve impliqué dans une affaire de trafic et de meurtres.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3334,7 +3426,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 108,
     genre: ['Policier'],
     saga: '',
-    description: 'Dans une école catholique espagnole des années 1980, la découverte d\'une fraude financière révèle des abus et des secrets longtemps étouffés.',
+    description:
+      "Dans une école catholique espagnole des années 1980, la découverte d'une fraude financière révèle des abus et des secrets longtemps étouffés.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3372,7 +3465,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 99,
     genre: ['Thriller'],
     saga: '',
-    description: 'Au Japon, une série de suicides collectifs inexpliqués intrigue la police, menant à une secte qui promeut la mort comme spectacle médiatique.',
+    description:
+      'Au Japon, une série de suicides collectifs inexpliqués intrigue la police, menant à une secte qui promeut la mort comme spectacle médiatique.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3409,7 +3503,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 101,
     genre: ['Thriller'],
     saga: '',
-    description: 'Une mère déchirée par la mort de son fils devient convaincue que la fille de sa voisine est la réincarnation de l\'enfant, jusqu\'à une confrontation glaçante.',
+    description:
+      "Une mère déchirée par la mort de son fils devient convaincue que la fille de sa voisine est la réincarnation de l'enfant, jusqu'à une confrontation glaçante.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3446,7 +3541,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 119,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un inspecteur corrompu de la brigade des stups de Marseille plonge dans une descente aux enfers de violence, trahison et rédemption impossible.',
+    description:
+      'Un inspecteur corrompu de la brigade des stups de Marseille plonge dans une descente aux enfers de violence, trahison et rédemption impossible.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3477,7 +3573,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 93,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un avocat défend son client accusé du meurtre de son père, mais des révélations lors du procès remettent en cause la culpabilité et sa propre éthique.',
+    description:
+      'Un avocat défend son client accusé du meurtre de son père, mais des révélations lors du procès remettent en cause la culpabilité et sa propre éthique.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3511,7 +3608,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 106,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un pêcheur insulaire reçoit la visite de son ex-femme terrifiée, le plongeant dans un mystère qui remet en cause la réalité même de son quotidien.',
+    description:
+      'Un pêcheur insulaire reçoit la visite de son ex-femme terrifiée, le plongeant dans un mystère qui remet en cause la réalité même de son quotidien.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3539,7 +3637,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 95,
     genre: ['Thriller'],
     saga: '',
-    description: 'Deux voisines et amies voient leur relation se fissurer après la mort tragique d\'un enfant, dans une tension où jalousie et suspicion deviennent mortelles.',
+    description:
+      "Deux voisines et amies voient leur relation se fissurer après la mort tragique d'un enfant, dans une tension où jalousie et suspicion deviennent mortelles.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3577,7 +3676,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 87,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un professeur de mathématiques croit pouvoir prédire les comportements humains grâce à ses modèles, jusqu\'à ce que sa propre vie contredise toute logique.',
+    description:
+      "Un professeur de mathématiques croit pouvoir prédire les comportements humains grâce à ses modèles, jusqu'à ce que sa propre vie contredise toute logique.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3614,7 +3714,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 95,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un contracteur américain en Irak se réveille enseveli vivant dans un cercueil avec un téléphone, une montre et un zippo, négociant sa survie avec ses ravisseurs.',
+    description:
+      'Un contracteur américain en Irak se réveille enseveli vivant dans un cercueil avec un téléphone, une montre et un zippo, négociant sa survie avec ses ravisseurs.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3651,7 +3752,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 112,
     genre: ['Thriller'],
     saga: '',
-    description: 'Une infirmière et sa fille sont prises en otage chez elles par des criminels qui cherchent un butin caché, transformant la maison en champ de bataille psychologique.',
+    description:
+      'Une infirmière et sa fille sont prises en otage chez elles par des criminels qui cherchent un butin caché, transformant la maison en champ de bataille psychologique.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3685,7 +3787,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 108,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un ancien agent traque les responsables de la disparition de sa fille, découvrant un réseau criminel qui touche les plus hautes sphères du pouvoir.',
+    description:
+      'Un ancien agent traque les responsables de la disparition de sa fille, découvrant un réseau criminel qui touche les plus hautes sphères du pouvoir.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3705,7 +3808,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 114,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un père de famille devient un justicier nocturne après le meurtre brutal de sa femme et de sa fille, traquant les criminels que la justice laisse libres.',
+    description:
+      'Un père de famille devient un justicier nocturne après le meurtre brutal de sa femme et de sa fille, traquant les criminels que la justice laisse libres.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3742,7 +3846,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 101,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un ouvrier insomniaque et amaigrissant hallucine une conspiration autour de lui, jusqu\'à ce qu\'un accident révèle la vérité sur son passé refoulé.',
+    description:
+      "Un ouvrier insomniaque et amaigrissant hallucine une conspiration autour de lui, jusqu'à ce qu'un accident révèle la vérité sur son passé refoulé.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3779,7 +3884,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 99,
     genre: ['Thriller'],
     saga: '',
-    description: 'Dans un hôtel californien des années 1960, sept étrangers aux secrets convergent pendant qu\'une tempête et une menace meurtrière les enferment ensemble.',
+    description:
+      "Dans un hôtel californien des années 1960, sept étrangers aux secrets convergent pendant qu'une tempête et une menace meurtrière les enferment ensemble.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3816,7 +3922,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 128,
     genre: ['Thriller'],
     saga: '',
-    description: 'En 1830, un cadet militaire enquête sur une série de meurtres à West Point avec l\'aide d\'Edgar Allan Poe, plongeant dans l\'obscurité et la superstition.',
+    description:
+      "En 1830, un cadet militaire enquête sur une série de meurtres à West Point avec l'aide d'Edgar Allan Poe, plongeant dans l'obscurité et la superstition.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3853,7 +3960,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 121,
     genre: ['Thriller'],
     saga: '',
-    description: 'Deux policiers obsédés enquêtent sur le meurtre sordide d\'une aspirante actrice à Los Angeles en 1947, une affaire qui dévore leurs vies et leurs âmes.',
+    description:
+      "Deux policiers obsédés enquêtent sur le meurtre sordide d'une aspirante actrice à Los Angeles en 1947, une affaire qui dévore leurs vies et leurs âmes.",
     fromEntity: {
       entityType: 'book',
       title: 'Le Dahlia noir',
@@ -3888,7 +3996,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 98,
     genre: ['Policier'],
     saga: '',
-    description: 'Dans l\'Amérique des années 1930, un chasseur de primes traque un gangster légendaire tout en protégeant une femme fuyant un passé violent.',
+    description:
+      "Dans l'Amérique des années 1930, un chasseur de primes traque un gangster légendaire tout en protégeant une femme fuyant un passé violent.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3925,7 +4034,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 107,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un détective enquête sur une femme amnésique qui pourrait être la réincarnation d\'une pianiste assassinée quarante ans plus tôt à Los Angeles.',
+    description:
+      "Un détective enquête sur une femme amnésique qui pourrait être la réincarnation d'une pianiste assassinée quarante ans plus tôt à Los Angeles.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3962,7 +4072,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 113,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un médecin atypique soigne les patients avec humour et compassion dans un hôpital conservateur, défiant les règles pour humaniser les soins.',
+    description:
+      'Un médecin atypique soigne les patients avec humour et compassion dans un hôpital conservateur, défiant les règles pour humaniser les soins.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3999,7 +4110,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 101,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un développeur photo de banlieue découvre des clichés troublants chez un client et s\'immerge dans une enquête sur des crimes de jeunes filles.',
+    description:
+      "Un développeur photo de banlieue découvre des clichés troublants chez un client et s'immerge dans une enquête sur des crimes de jeunes filles.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4036,7 +4148,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 110,
     genre: ['Policier'],
     saga: '',
-    description: 'Un joueur de poker talentueux tente de rembourser une dette colossale en organisant un braquage, mais les trafiquants de drogue ne lui laissent aucune marge.',
+    description:
+      'Un joueur de poker talentueux tente de rembourser une dette colossale en organisant un braquage, mais les trafiquants de drogue ne lui laissent aucune marge.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4073,7 +4186,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 130,
     genre: ['Thriller'],
     saga: '',
-    description: 'Une avocate défend un client accusé de meurtre et découvre que son propre cabinet dissimule des preuves qui pourraient innocenter ou condamner.',
+    description:
+      'Une avocate défend un client accusé de meurtre et découvre que son propre cabinet dissimule des preuves qui pourraient innocenter ou condamner.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4110,7 +4224,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 103,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un avocat brillant défend un riche client accusé de meurtre et découvre que le procès réveille des démons de son propre passé criminel.',
+    description:
+      'Un avocat brillant défend un riche client accusé de meurtre et découvre que le procès réveille des démons de son propre passé criminel.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4147,7 +4262,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 103,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un agent du FBI traque un tueur en série qui imite les crimes d\'Ed Gein, dans une enquête qui le confronte à ses propres obsessions.',
+    description:
+      "Un agent du FBI traque un tueur en série qui imite les crimes d'Ed Gein, dans une enquête qui le confronte à ses propres obsessions.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4184,7 +4300,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 110,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un procureur monte en puissance dans la politique new-yorkaise, mais une enquête sur des meurtres liés à son passé menace de tout faire s\'effondrer.',
+    description:
+      "Un procureur monte en puissance dans la politique new-yorkaise, mais une enquête sur des meurtres liés à son passé menace de tout faire s'effondrer.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4221,7 +4338,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 102,
     genre: ['Policier'],
     saga: '',
-    description: 'Un gangster de Miami libéré de prison veut quitter le crime, mais son patron et un flic véreux le forcent à participer à un dernier coup sanglant.',
+    description:
+      'Un gangster de Miami libéré de prison veut quitter le crime, mais son patron et un flic véreux le forcent à participer à un dernier coup sanglant.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4258,7 +4376,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 229,
     genre: ['Policier'],
     saga: '',
-    description: 'De la Prohibition aux années 1960, Noodles, gangster juif du Lower East Side, revient à New York pour comprendre la trahison qui a brisé son gang.',
+    description:
+      'De la Prohibition aux années 1960, Noodles, gangster juif du Lower East Side, revient à New York pour comprendre la trahison qui a brisé son gang.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4295,7 +4414,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 132,
     genre: ['Policier'],
     saga: '',
-    description: 'Cinq détenus préparent une évasion minutieuse à travers les sous-sols de la Santé, mais un nouveau co-détenu pourrait compromettre tout le plan.',
+    description:
+      'Cinq détenus préparent une évasion minutieuse à travers les sous-sols de la Santé, mais un nouveau co-détenu pourrait compromettre tout le plan.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 1,
@@ -4332,7 +4452,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 112,
     genre: ['Thriller'],
     saga: '',
-    description: 'Alité dans son appartement avec une jambe plâtrée, un photographe observe ses voisins et devient convaincu d\'avoir assisté à un meurtre.',
+    description:
+      "Alité dans son appartement avec une jambe plâtrée, un photographe observe ses voisins et devient convaincu d'avoir assisté à un meurtre.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 1,
@@ -4355,7 +4476,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 80,
     genre: ['Thriller'],
     saga: '',
-    description: 'Deux étudiants étranglent un camarade de classe et cachent le corps dans un buffet avant d\'inviter sa famille et leurs professeurs à un dîner macabre.',
+    description:
+      "Deux étudiants étranglent un camarade de classe et cachent le corps dans un buffet avant d'inviter sa famille et leurs professeurs à un dîner macabre.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 1,
@@ -4392,7 +4514,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 143,
     genre: ['Policier'],
     saga: '',
-    description: 'Un riche industriel est kidnappé et sa femme et son chauffeur négocient la rançon avec la police, dans une course désespérée contre les ravisseurs.',
+    description:
+      'Un riche industriel est kidnappé et sa femme et son chauffeur négocient la rançon avec la police, dans une course désespérée contre les ravisseurs.',
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 1,
@@ -4429,7 +4552,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 128,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un ancien détective atteint de vertiges doit empêcher une femme qu\'il aime de devenir la prochaine victime d\'un meurtrier qu\'il a laissé échapper.',
+    description:
+      "Un ancien détective atteint de vertiges doit empêcher une femme qu'il aime de devenir la prochaine victime d'un meurtrier qu'il a laissé échapper.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4466,7 +4590,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 136,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un publicitaire est confondu avec un espion et traqué à travers les États-Unis par des agents étrangers, avec l\'aide imprévue d\'une inconnue rencontrée dans le train.',
+    description:
+      "Un publicitaire est confondu avec un espion et traqué à travers les États-Unis par des agents étrangers, avec l'aide imprévue d'une inconnue rencontrée dans le train.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4503,7 +4628,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 178,
     genre: ['Policier'],
     saga: '',
-    description: 'À Las Vegas dans les années 1970, un parieur et une arnaqueuse travaillent pour la mafia dans un casino, jusqu\'à ce que jalousie et trahison les détruisent.',
+    description:
+      "À Las Vegas dans les années 1970, un parieur et une arnaqueuse travaillent pour la mafia dans un casino, jusqu'à ce que jalousie et trahison les détruisent.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -4540,7 +4666,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 93,
     genre: ['Thriller'],
     saga: '',
-    description: 'Dans le Deep South, un prédicateur imposteur traque deux enfants qui cachent l\'argent volé par leur père exécuté, dans une fable noirceur.',
+    description:
+      "Dans le Deep South, un prédicateur imposteur traque deux enfants qui cachent l'argent volé par leur père exécuté, dans une fable noirceur.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -4577,7 +4704,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 117,
     genre: ['Thriller'],
     saga: '',
-    description: 'À Berlin, la police et les criminels traquent un tueur d\'enfants, tandis que la population sombre dans la paranoïa et la justice expéditive.',
+    description:
+      "À Berlin, la police et les criminels traquent un tueur d'enfants, tandis que la population sombre dans la paranoïa et la justice expéditive.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4614,7 +4742,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 130,
     genre: ['Mystère'],
     saga: '',
-    description: 'En 1327, le moine Adso et le frère Guillaume d\'Occident enquêtent sur une série de morts mystérieuses dans une abbaye bénédictine isolée.',
+    description:
+      "En 1327, le moine Adso et le frère Guillaume d'Occident enquêtent sur une série de morts mystérieuses dans une abbaye bénédictine isolée.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
@@ -4651,7 +4780,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 113,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un homme se réveille amnésique dans un hôpital et découvre que des tueurs le poursuivent, sans savoir qui il est ni pourquoi on veut sa mort.',
+    description:
+      'Un homme se réveille amnésique dans un hôpital et découvre que des tueurs le poursuivent, sans savoir qui il est ni pourquoi on veut sa mort.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4688,7 +4818,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 106,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un inspecteur enquête sur des accusations d\'abus sataniques dans une petite ville des années 1980, où la peur collective obscurcit la vérité.',
+    description:
+      "Un inspecteur enquête sur des accusations d'abus sataniques dans une petite ville des années 1980, où la peur collective obscurcit la vérité.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4725,7 +4856,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 98,
     genre: ['Thriller'],
     saga: '',
-    description: 'Une nouvelle professeure de français dans un lycée privé voit sa vie basculer lorsqu\'une collègue charismatique et dangereuse s\'immisce dans son quotidien.',
+    description:
+      "Une nouvelle professeure de français dans un lycée privé voit sa vie basculer lorsqu'une collègue charismatique et dangereuse s'immisce dans son quotidien.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -4762,7 +4894,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 128,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un agent de la DGSE traque un lanceur d\'alerte financier à Monaco, dans une course où espionnage, blanchiment et trahison se croisent.',
+    description:
+      "Un agent de la DGSE traque un lanceur d'alerte financier à Monaco, dans une course où espionnage, blanchiment et trahison se croisent.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -4799,7 +4932,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 135,
     genre: ['Thriller'],
     saga: '',
-    description: 'Dans les années 1970, le juge anti-drogue Pierre Michel traque le trafiquant marseillais Zac, dans une guerre sans merci contre le clan Tany.',
+    description:
+      'Dans les années 1970, le juge anti-drogue Pierre Michel traque le trafiquant marseillais Zac, dans une guerre sans merci contre le clan Tany.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -4836,7 +4970,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 102,
     genre: ['Thriller'],
     saga: '',
-    description: 'Deux hommes se retrouvent dos à dos sur le bord d\'un immeuble vide, chacun tenant une arme pointée sur l\'autre, dans un duel psychologique vertigineux.',
+    description:
+      "Deux hommes se retrouvent dos à dos sur le bord d'un immeuble vide, chacun tenant une arme pointée sur l'autre, dans un duel psychologique vertigineux.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4873,7 +5008,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 123,
     genre: ['Policier', 'Drame'],
     saga: '',
-    description: 'Un drifter tombe amoureux de la femme d\'un restaurateur et complote un meurtre parfait inspiré d\'un roman, mais la passion déraille le plan.',
+    description:
+      "Un drifter tombe amoureux de la femme d'un restaurateur et complote un meurtre parfait inspiré d'un roman, mais la passion déraille le plan.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4910,7 +5046,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 138,
     genre: ['Thriller'],
     saga: '',
-    description: 'Dans l\'Ohio rural des années 1950-60, plusieurs personnages croisés par la violence, la foi et la corruption cherchent rédemption dans un monde corrompu.',
+    description:
+      "Dans l'Ohio rural des années 1950-60, plusieurs personnages croisés par la violence, la foi et la corruption cherchent rédemption dans un monde corrompu.",
     fromEntity: {
       entityType: 'book',
       title: 'Le diable tout le temps',
@@ -4951,7 +5088,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 140,
     genre: ['Thriller'],
     saga: '',
-    description: 'Une ballerine russe est recrutée par les services secrets et envoyée en mission de séduction contre un agent de la CIA, dans un jeu de dupes mortel.',
+    description:
+      'Une ballerine russe est recrutée par les services secrets et envoyée en mission de séduction contre un agent de la CIA, dans un jeu de dupes mortel.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4982,7 +5120,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 92,
     genre: ['Thriller'],
     saga: '',
-    description: 'Une lycéenne de banlieue aisée monte un club de paris clandestins au lycée, mais son ambition la mène vers une fraude qui dérape dangereusement.',
+    description:
+      'Une lycéenne de banlieue aisée monte un club de paris clandestins au lycée, mais son ambition la mène vers une fraude qui dérape dangereusement.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5019,7 +5158,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 98,
     genre: ['Thriller'],
     saga: '',
-    description: 'Une psychiatre se réveille patiente dans son propre hôpital, accusée du meurtre de son mari, et prétend être possédée par l\'esprit d\'une jeune fille.',
+    description:
+      "Une psychiatre se réveille patiente dans son propre hôpital, accusée du meurtre de son mari, et prétend être possédée par l'esprit d'une jeune fille.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5056,7 +5196,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 94,
     genre: ['Thriller'],
     saga: '',
-    description: 'Une opératrice du 911 reçoit l\'appel d\'une adolescente kidnappée dans le coffre d\'une voiture, et doit la localiser avant que le ravisseur ne la tue.',
+    description:
+      "Une opératrice du 911 reçoit l'appel d'une adolescente kidnappée dans le coffre d'une voiture, et doit la localiser avant que le ravisseur ne la tue.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5093,7 +5234,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 108,
     genre: ['Thriller'],
     saga: '',
-    description: 'Une journaliste enquête sur un scandale impliquant un sénateur et découvre que des forces puissantes feront tout pour étouffer la vérité.',
+    description:
+      'Une journaliste enquête sur un scandale impliquant un sénateur et découvre que des forces puissantes feront tout pour étouffer la vérité.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5131,7 +5273,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 101,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un détective privé enquête sur la disparition d\'une star du cinéma et découvre un réseau de chantage, de meurtres et de double vie à Hollywood.',
+    description:
+      "Un détective privé enquête sur la disparition d'une star du cinéma et découvre un réseau de chantage, de meurtres et de double vie à Hollywood.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5168,7 +5311,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 112,
     genre: ['Thriller', 'Drame'],
     saga: '',
-    description: 'Un soldat irlandais kidnappe un soldat britannique en Irlande du Nord, mais le lien qu\'il noue avec sa compagne bouleverse ses convictions.',
+    description:
+      "Un soldat irlandais kidnappe un soldat britannique en Irlande du Nord, mais le lien qu'il noue avec sa compagne bouleverse ses convictions.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5191,7 +5335,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 90,
     genre: ['Thriller'],
     saga: '',
-    description: 'Lors d\'un sommet anti-terroriste, plusieurs tentatives d\'assassinat sur le président américain sont racontées sous différents angles pour reconstituer la vérité.',
+    description:
+      "Lors d'un sommet anti-terroriste, plusieurs tentatives d'assassinat sur le président américain sont racontées sous différents angles pour reconstituer la vérité.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5228,7 +5373,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 94,
     genre: ['Thriller'],
     saga: '',
-    description: 'Une femme disparaît lors d\'une promenade en bateau avec son mari, et l\'enquête révèle des secrets de couple qui remettent en cause la version officielle.',
+    description:
+      "Une femme disparaît lors d'une promenade en bateau avec son mari, et l'enquête révèle des secrets de couple qui remettent en cause la version officielle.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5265,7 +5411,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 113,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un criminel infiltré dans la mafia irlandaise de New York doit à la fois servir le FBI et survivre aux soupçons de son propre gang.',
+    description:
+      'Un criminel infiltré dans la mafia irlandaise de New York doit à la fois servir le FBI et survivre aux soupçons de son propre gang.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5293,7 +5440,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 85,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un homme se réveille amnésique dans un appartement sanguinaire et doit retrouver sa mémoire avant que la police ne l\'arrête pour meurtre.',
+    description:
+      "Un homme se réveille amnésique dans un appartement sanguinaire et doit retrouver sa mémoire avant que la police ne l'arrête pour meurtre.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5316,7 +5464,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 144,
     genre: ['Policier', 'Drame'],
     saga: '',
-    description: 'Deux frères, l\'un flic l\'autre criminel, se retrouvent face à face lorsque le second sort de prison et replonge dans le milieu new-yorkais.',
+    description:
+      "Deux frères, l'un flic l'autre criminel, se retrouvent face à face lorsque le second sort de prison et replonge dans le milieu new-yorkais.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5339,7 +5488,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 101,
     genre: ['Policier', 'Horreur', 'Mystère'],
     saga: '',
-    description: 'Une agent du FBI traque un tueur en série occulte surnommé Longlegs, dont les crimes semblent liés à des forces surnaturelles et à des familles maudites.',
+    description:
+      'Une agent du FBI traque un tueur en série occulte surnommé Longlegs, dont les crimes semblent liés à des forces surnaturelles et à des familles maudites.',
     fromEntity: null,
     countryOrigin: ['Canada'],
     selectDisplayOrder: 0,
@@ -5362,7 +5512,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 129,
     genre: ['Policier', 'Drame', 'Thriller'],
     saga: '',
-    description: 'Un ouvrier sourd kidnappe la fille d\'un homme d\'affaires pour payer la greffe de sa sœur, déclenchant une spirale de vengeance réciproque.',
+    description:
+      "Un ouvrier sourd kidnappe la fille d'un homme d'affaires pour payer la greffe de sa sœur, déclenchant une spirale de vengeance réciproque.",
     fromEntity: null,
     countryOrigin: ['Corée du Sud'],
     selectDisplayOrder: 0,
@@ -5385,7 +5536,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 100,
     genre: ['Policier', 'Drame', 'Thriller'],
     saga: '',
-    description: 'Un garagiste londonien devient chauffeur et homme de main pour la mafia russe, et découvre que la violence exigée dépasse ce qu\'il imaginait.',
+    description:
+      "Un garagiste londonien devient chauffeur et homme de main pour la mafia russe, et découvre que la violence exigée dépasse ce qu'il imaginait.",
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -5408,7 +5560,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 118,
     genre: ['Policier', 'Drame', 'Mystère'],
     saga: '',
-    description: 'Cinq amis partagent un loft pour leurs liaisons extraconjugales, jusqu\'à ce qu\'ils y découvrent le cadavre d\'une jeune femme et se soupçonnent mutuellement.',
+    description:
+      "Cinq amis partagent un loft pour leurs liaisons extraconjugales, jusqu'à ce qu'ils y découvrent le cadavre d'une jeune femme et se soupçonnent mutuellement.",
     fromEntity: null,
     countryOrigin: ['Belgique'],
     selectDisplayOrder: 0,
@@ -5431,7 +5584,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 103,
     genre: ['Policier', 'Mystère', 'Thriller'],
     saga: '',
-    description: 'Un profiler du FBI traque un tueur en série qui vole l\'identité de ses victimes, dans une chasse où le chasseur peut devenir la prochaine proie.',
+    description:
+      "Un profiler du FBI traque un tueur en série qui vole l'identité de ses victimes, dans une chasse où le chasseur peut devenir la prochaine proie.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5454,7 +5608,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 107,
     genre: ['Policier', 'Drame', 'Thriller'],
     saga: '',
-    description: 'Un chirurgien voit sa femme enlevée et reçoit un appel exigeant qu\'il assassine le président pour la sauver, dans une course contre la montre.',
+    description:
+      "Un chirurgien voit sa femme enlevée et reçoit un appel exigeant qu'il assassine le président pour la sauver, dans une course contre la montre.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5477,7 +5632,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 112,
     genre: ['Policier', 'Drame', 'Thriller'],
     saga: '',
-    description: 'Deux familles de Los Angeles se retrouvent enfermées chez l\'une d\'elles lors d\'une panne de courant, et les tensions raciales explosent en violence.',
+    description:
+      "Deux familles de Los Angeles se retrouvent enfermées chez l'une d'elles lors d'une panne de courant, et les tensions raciales explosent en violence.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5500,7 +5656,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 151,
     genre: ['Policier', 'Drame', 'Mystère'],
     saga: '',
-    description: 'Lors du procès pour le meurtre de son mari, une écrivaine voit sa vie privée et ses écrits passés au tribunal, brouillant culpabilité et vérité.',
+    description:
+      'Lors du procès pour le meurtre de son mari, une écrivaine voit sa vie privée et ses écrits passés au tribunal, brouillant culpabilité et vérité.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -5523,7 +5680,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 120,
     genre: ['Policier', 'Drame', 'Mystère'],
     saga: '',
-    description: 'En vacances au Maroc, un couple américain découvre par hasard un complot d\'assassinat et devient la cible de tueurs avant d\'alerter les autorités.',
+    description:
+      "En vacances au Maroc, un couple américain découvre par hasard un complot d'assassinat et devient la cible de tueurs avant d'alerter les autorités.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5546,7 +5704,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 150,
     genre: ['Policier', 'Drame', 'Thriller'],
     saga: '',
-    description: 'Un arnaqueur charismatique monte dans le monde du cirque puis de la haute société, avant que ses propres manipulations ne le rattrapent.',
+    description:
+      'Un arnaqueur charismatique monte dans le monde du cirque puis de la haute société, avant que ses propres manipulations ne le rattrapent.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5569,7 +5728,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 139,
     genre: ['Policier', 'Horreur', 'Mystère'],
     saga: '',
-    description: 'Un homme obsédé enquête sur la disparition d\'une voisine à Los Angeles, et découvre des codes cachés dans la pop culture qui mènent à une conspiration.',
+    description:
+      "Un homme obsédé enquête sur la disparition d'une voisine à Los Angeles, et découvre des codes cachés dans la pop culture qui mènent à une conspiration.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5592,7 +5752,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 115,
     genre: ['Policier', 'Drame', 'Thriller'],
     saga: '',
-    description: 'Après quatorze ans de prison pour un crime qu\'elle n\'a pas commis, une femme exécute un plan de vengeance méticuleux contre les vrais coupables.',
+    description:
+      "Après quatorze ans de prison pour un crime qu'elle n'a pas commis, une femme exécute un plan de vengeance méticuleux contre les vrais coupables.",
     fromEntity: null,
     countryOrigin: ['Corée du Sud'],
     selectDisplayOrder: 0,
@@ -5615,7 +5776,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 121,
     genre: ['Policier', 'Drame'],
     saga: '',
-    description: 'Dans le Bronx des années 1960, le jeune Calogero est tiraillé entre son père honnête et Sonny, parrain du quartier qui le prend sous son aile.',
+    description:
+      'Dans le Bronx des années 1960, le jeune Calogero est tiraillé entre son père honnête et Sonny, parrain du quartier qui le prend sous son aile.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5638,7 +5800,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 98,
     genre: ['Policier', 'Drame', 'Thriller'],
     saga: '',
-    description: 'Un vendeur de voitures engage deux criminels pour kidnapper sa femme et extorquer son beau-père riche, dans le Minnesota enneigé où tout dérape.',
+    description:
+      'Un vendeur de voitures engage deux criminels pour kidnapper sa femme et extorquer son beau-père riche, dans le Minnesota enneigé où tout dérape.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -5664,7 +5827,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 108,
     genre: ['Policier', 'Drame', 'Mystère'],
     saga: '',
-    description: 'Un ingénieur du son enregistre par hasard une preuve d\'assassinat politique et devient la cible de ceux qui veulent étouffer le scandale.',
+    description:
+      "Un ingénieur du son enregistre par hasard une preuve d'assassinat politique et devient la cible de ceux qui veulent étouffer le scandale.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5687,7 +5851,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 116,
     genre: ['Policier', 'Drame'],
     saga: '',
-    description: 'Dans les années 1960, un photographe documente la montée d\'un club de motards qui glisse progressivement vers la violence et la criminalité.',
+    description:
+      "Dans les années 1960, un photographe documente la montée d'un club de motards qui glisse progressivement vers la violence et la criminalité.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5710,7 +5875,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 107,
     genre: ['Policier', 'Drame', 'Mystère'],
     saga: '',
-    description: 'Un garde-chasse et une agent du FBI enquêtent sur le meurtre d\'une adolescente amérindienne dans la réserve de Wind River, au Wyoming.',
+    description:
+      "Un garde-chasse et une agent du FBI enquêtent sur le meurtre d'une adolescente amérindienne dans la réserve de Wind River, au Wyoming.",
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -5733,7 +5899,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 102,
     genre: ['Policier', 'Drame', 'Thriller'],
     saga: '',
-    description: 'Un dealer endetté engage un flic tueur à gages pour abattre sa mère et toucher l\'assurance-vie, mais le contrat dérape horriblement.',
+    description:
+      "Un dealer endetté engage un flic tueur à gages pour abattre sa mère et toucher l'assurance-vie, mais le contrat dérape horriblement.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5770,7 +5937,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 80,
     genre: ['Mystère', 'Horreur'],
     saga: 'Sherlock Holmes',
-    description: 'Sherlock Holmes et le Dr Watson enquêtent sur une malédiction qui tue les héritiers des Baskerville sur les landes sombres du Devon.',
+    description:
+      'Sherlock Holmes et le Dr Watson enquêtent sur une malédiction qui tue les héritiers des Baskerville sur les landes sombres du Devon.',
     fromEntity: {
       entityType: 'book' as const,
       title: 'Le Chien des Baskerville',
@@ -5811,7 +5979,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 85,
     genre: ['Mystère', 'Thriller'],
     saga: 'Sherlock Holmes',
-    description: 'Sherlock Holmes affronte le professeur Moriarty qui complote pour voler la couronne d\'Angleterre et détourner l\'attention de la police.',
+    description:
+      "Sherlock Holmes affronte le professeur Moriarty qui complote pour voler la couronne d'Angleterre et détourner l'attention de la police.",
     fromEntity: {
       entityType: 'book' as const,
       title: 'Les Aventures de Sherlock Holmes',
@@ -5852,7 +6021,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 125,
     genre: ['Mystère', 'Comédie', 'Drame'],
     saga: 'Sherlock Holmes',
-    description: 'Holmes et Watson enquêtent pour une ballerine et un inventeur écossais, dans une aventure mêlant espionnage, légendes et ironie.',
+    description:
+      'Holmes et Watson enquêtent pour une ballerine et un inventeur écossais, dans une aventure mêlant espionnage, légendes et ironie.',
     fromEntity: {
       entityType: 'book' as const,
       title: 'Les Aventures de Sherlock Holmes',
@@ -5893,7 +6063,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 124,
     genre: ['Mystère', 'Thriller'],
     saga: 'Sherlock Holmes',
-    description: 'Sherlock Holmes et Watson enquêtent sur une série de meurtres à Whitechapel qui rappellent Jack l\'Étrangleur, dans un Londres victorien brumeux.',
+    description:
+      "Sherlock Holmes et Watson enquêtent sur une série de meurtres à Whitechapel qui rappellent Jack l'Étrangleur, dans un Londres victorien brumeux.",
     fromEntity: {
       entityType: 'book' as const,
       title: 'Les Aventures de Sherlock Holmes',
@@ -5920,7 +6091,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 113,
     genre: ['Mystère', 'Aventure'],
     saga: 'Sherlock Holmes',
-    description: 'Sherlock Holmes doit résoudre une affaire de chantage et de meurtre autour d\'un document compromettant pour le gouvernement britannique.',
+    description:
+      "Sherlock Holmes doit résoudre une affaire de chantage et de meurtre autour d'un document compromettant pour le gouvernement britannique.",
     fromEntity: {
       entityType: 'book' as const,
       title: 'Une étude en rouge',
@@ -5947,7 +6119,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 129,
     genre: ['Policier', 'Drame', 'Mystère'],
     saga: '',
-    description: 'Un jeune avocat découvre que son client condamné à mort pour meurtre pourrait être innocent, et rouvre une affaire vieille de vingt-cinq ans.',
+    description:
+      'Un jeune avocat découvre que son client condamné à mort pour meurtre pourrait être innocent, et rouvre une affaire vieille de vingt-cinq ans.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5970,7 +6143,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 98,
     genre: ['Policier', 'Mystère', 'Thriller'],
     saga: '',
-    description: 'Lors d\'un match de boxe, le détective Rick Santoro enquête sur un assassinat dans une salle de casino, découvrant que rien n\'est ce qu\'il semble.',
+    description:
+      "Lors d'un match de boxe, le détective Rick Santoro enquête sur un assassinat dans une salle de casino, découvrant que rien n'est ce qu'il semble.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5993,7 +6167,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 89,
     genre: ['Mystère', 'Science Fiction', 'Thriller'],
     saga: '',
-    description: 'Lors d\'un dîner, un comète provoque des coupures de courant et des anomalies qui révèlent l\'existence de versions parallèles des invités.',
+    description:
+      "Lors d'un dîner, un comète provoque des coupures de courant et des anomalies qui révèlent l'existence de versions parallèles des invités.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6030,7 +6205,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 157,
     genre: ['Policier', 'Drame', 'Thriller'],
     saga: '',
-    description: 'Frank Lucas importe l\'héroïne pure de Bangkok et domine Harlem dans les années 1970, jusqu\'à ce qu\'un flic incorruptible le traque.',
+    description:
+      "Frank Lucas importe l'héroïne pure de Bangkok et domine Harlem dans les années 1970, jusqu'à ce qu'un flic incorruptible le traque.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6053,7 +6229,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 112,
     genre: ['Policier', 'Drame'],
     saga: '',
-    description: 'Petit gangster italien de Little Italy, Charlie tente de protéger son ami fou Johnny Boy tout en répondant à son oncle parrain dans la mafia.',
+    description:
+      'Petit gangster italien de Little Italy, Charlie tente de protéger son ami fou Johnny Boy tout en répondant à son oncle parrain dans la mafia.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6090,7 +6267,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 128,
     genre: ['Thriller', 'Policier'],
     saga: '',
-    description: 'Un avocat défend un plombier qui a tué deux hommes en légitime défense, mais le procès réveille la violence du quartier et ses propres démons.',
+    description:
+      'Un avocat défend un plombier qui a tué deux hommes en légitime défense, mais le procès réveille la violence du quartier et ses propres démons.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6127,7 +6305,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 120,
     genre: ['Thriller', 'Mystère', 'Drame'],
     saga: '',
-    description: 'Un étudiant découvre une oreille coupée dans son paisible suburb et plonge dans l\'univers sordide de chanteuse de nuit et de criminel sadique.',
+    description:
+      "Un étudiant découvre une oreille coupée dans son paisible suburb et plonge dans l'univers sordide de chanteuse de nuit et de criminel sadique.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6164,7 +6343,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 134,
     genre: ['Thriller', 'Mystère', 'Drame'],
     saga: '',
-    description: 'Un saxophoniste est condamné pour le meurtre de sa femme et se transforme en un autre homme en prison, dans un labyrinthe onirique de culpabilité.',
+    description:
+      'Un saxophoniste est condamné pour le meurtre de sa femme et se transforme en un autre homme en prison, dans un labyrinthe onirique de culpabilité.',
     fromEntity: null,
     countryOrigin: ['États-Unis', 'France'],
     selectDisplayOrder: 0,
@@ -6201,7 +6381,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 180,
     genre: ['Mystère', 'Thriller', 'Drame'],
     saga: '',
-    description: 'Une actrice hollywoodienne sombre dans une réalité fracturée en tournant un remake d\'un film maudit dont le tournage original fut marqué par la mort.',
+    description:
+      "Une actrice hollywoodienne sombre dans une réalité fracturée en tournant un remake d'un film maudit dont le tournage original fut marqué par la mort.",
     fromEntity: null,
     countryOrigin: ['États-Unis', 'France', 'Pologne'],
     selectDisplayOrder: 0,
@@ -6238,7 +6419,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 121,
     genre: ['Thriller', 'Drame', 'Policier'],
     saga: '',
-    description: 'Trois amis trouvent quatre millions de dollars près d\'un avion écrasé et décident de le garder, mais la cupidité les entraîne vers la trahison.',
+    description:
+      "Trois amis trouvent quatre millions de dollars près d'un avion écrasé et décident de le garder, mais la cupidité les entraîne vers la trahison.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6275,7 +6457,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 111,
     genre: ['Thriller', 'Drame', 'Mystère'],
     saga: '',
-    description: 'Une voyante de petite ville reçoit des visions troublantes sur un nouveau voisin et doit utiliser son don pour empêcher un drame.',
+    description:
+      'Une voyante de petite ville reçoit des visions troublantes sur un nouveau voisin et doit utiliser son don pour empêcher un drame.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6312,7 +6495,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 113,
     genre: ['Thriller', 'Mystère', 'Drame'],
     saga: '',
-    description: 'Un expert en surveillance enregistre par accident une conversation meurtrière et devient obsédé par le sauvetage des victimes potentielles.',
+    description:
+      'Un expert en surveillance enregistre par accident une conversation meurtrière et devient obsédé par le sauvetage des victimes potentielles.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6349,7 +6533,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 100,
     genre: ['Thriller', 'Policier', 'Drame'],
     saga: '',
-    description: 'Un chauffeur de la mafia russe à Londres protège une sage-femme qui a découvert des preuves de trafic d\'êtres humains impliquant son clan.',
+    description:
+      "Un chauffeur de la mafia russe à Londres protège une sage-femme qui a découvert des preuves de trafic d'êtres humains impliquant son clan.",
     fromEntity: null,
     countryOrigin: ['Royaume-Uni', 'Canada', 'États-Unis'],
     selectDisplayOrder: 0,
@@ -6386,7 +6571,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 127,
     genre: ['Mystère', 'Policier'],
     saga: '',
-    description: 'Hercule Poirot enquête sur un meurtre à bord d\'un croisière sur le Nil en Égypte, où chaque passager semble avoir un mobile.',
+    description:
+      "Hercule Poirot enquête sur un meurtre à bord d'un croisière sur le Nil en Égypte, où chaque passager semble avoir un mobile.",
     fromEntity: {
       entityType: 'book',
       title: 'Mort sur le Nil',
@@ -6427,7 +6613,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 108,
     genre: ['Thriller', 'Mystère'],
     saga: '',
-    description: 'Des vacanciers piégés sur une plage mystérieuse vieillissent à un rythme effrayant, condamnés à mourir en quelques heures.',
+    description:
+      'Des vacanciers piégés sur une plage mystérieuse vieillissent à un rythme effrayant, condamnés à mourir en quelques heures.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -6464,7 +6651,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 113,
     genre: ['Policier', 'Action'],
     saga: '',
-    description: 'Un baron de la drogue britannique tente de vendre son empire et se retrouve pris entre des gangs rivaux, des extorqueurs et des journalistes.',
+    description:
+      'Un baron de la drogue britannique tente de vendre son empire et se retrouve pris entre des gangs rivaux, des extorqueurs et des journalistes.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -6501,7 +6689,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 132,
     genre: ['Thriller', 'Drame'],
     saga: '',
-    description: 'Une famille pauvre s\'infiltre progressivement chez une famille riche en se faisant passer pour des employés qualifiés, jusqu\'à une confrontation mortelle.',
+    description:
+      "Une famille pauvre s'infiltre progressivement chez une famille riche en se faisant passer pour des employés qualifiés, jusqu'à une confrontation mortelle.",
     fromEntity: null,
     countryOrigin: ['Corée du Sud'],
     selectDisplayOrder: 30,
@@ -6543,7 +6732,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 135,
     genre: ['Policier', 'Biographie'],
     saga: '',
-    description: 'En 1979, Ron Stallworth, premier policier noir de Colorado Springs, infiltre le Ku Klux Klan par téléphone avec l\'aide d\'un collègue blanc.',
+    description:
+      "En 1979, Ron Stallworth, premier policier noir de Colorado Springs, infiltre le Ku Klux Klan par téléphone avec l'aide d'un collègue blanc.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -6580,7 +6770,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 114,
     genre: ['Mystère', 'Policier'],
     saga: 'Hercule Poirot',
-    description: 'Hercule Poirot enquête sur un meurtre à bord du célèbre train de luxe bloqué par une tempête de neige.',
+    description:
+      'Hercule Poirot enquête sur un meurtre à bord du célèbre train de luxe bloqué par une tempête de neige.',
     fromEntity: {
       entityType: 'book',
       title: "Le crime de l'Orient Express",
@@ -6607,7 +6798,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 140,
     genre: ['Policier', 'Drame'],
     saga: '',
-    description: 'Dans les années 1930, le FBI traque John Dillinger et ses complices, symboles de la Grande Dépression et de la célébrité criminelle.',
+    description:
+      'Dans les années 1930, le FBI traque John Dillinger et ses complices, symboles de la Grande Dépression et de la célébrité criminelle.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -6644,7 +6836,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 108,
     genre: ['Thriller', 'Mystère'],
     saga: '',
-    description: 'Dans une communauté isolée du XIXe siècle, les habitants vivent terrifiés par des créatures des bois, mais des doutes ébranlent leurs croyances.',
+    description:
+      'Dans une communauté isolée du XIXe siècle, les habitants vivent terrifiés par des créatures des bois, mais des doutes ébranlent leurs croyances.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -6681,7 +6874,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 118,
     genre: ['Thriller', 'Policier'],
     saga: '',
-    description: 'Un inspecteur insomniaque enquête sur un meurtre en Alaska et commet une faute qui permet au tueur de le faire chanter.',
+    description:
+      'Un inspecteur insomniaque enquête sur un meurtre en Alaska et commet une faute qui permet au tueur de le faire chanter.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -6718,7 +6912,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 89,
     genre: ['Mystère', 'Jeunesse'],
     saga: '',
-    description: 'Un journaliste enquête sur la disparition mystérieuse de cinq personnes dans un ascenseur d\'un hôtel hollywoodien en 1939.',
+    description:
+      "Un journaliste enquête sur la disparition mystérieuse de cinq personnes dans un ascenseur d'un hôtel hollywoodien en 1939.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -6738,7 +6933,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 87,
     genre: ['Thriller'],
     saga: '',
-    description: 'Lors d\'un week-end de mariage dans une maison isolée, les invités sont traqués par des assaillants masqués qui les forcent à jouer à des jeux mortels.',
+    description:
+      "Lors d'un week-end de mariage dans une maison isolée, les invités sont traqués par des assaillants masqués qui les forcent à jouer à des jeux mortels.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6758,7 +6954,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 97,
     genre: ['Thriller'],
     saga: '',
-    description: 'Une femme se réveille avec une prothèse de membre et découvre que son mari l\'a droguée et enfermée dans une maison isolée du monde.',
+    description:
+      "Une femme se réveille avec une prothèse de membre et découvre que son mari l'a droguée et enfermée dans une maison isolée du monde.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6778,7 +6975,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 88,
     genre: ['Thriller'],
     saga: '',
-    description: 'Trois jeunes cambrioleurs s\'introduisent chez un ancien militaire aveugle, qui se révèle un prédateur bien plus dangereux qu\'eux.',
+    description:
+      "Trois jeunes cambrioleurs s'introduisent chez un ancien militaire aveugle, qui se révèle un prédateur bien plus dangereux qu'eux.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6798,7 +6996,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 108,
     genre: ['Thriller'],
     saga: '',
-    description: 'Une écrivaine violée par des hommes d\'une petite ville se venge méthodiquement de chacun de ses agresseurs.',
+    description:
+      "Une écrivaine violée par des hommes d'une petite ville se venge méthodiquement de chacun de ses agresseurs.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6818,7 +7017,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 99,
     genre: ['Thriller'],
     saga: '',
-    description: 'Une adolescente se lie à une femme solitaire qui loue sa cave pour des fêtes, avant de découvrir son obsession possessive et meurtrière.',
+    description:
+      'Une adolescente se lie à une femme solitaire qui loue sa cave pour des fêtes, avant de découvrir son obsession possessive et meurtrière.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6841,7 +7041,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 92,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un couple emménage dans une maison de rêve et est victime d\'un cambriolage, puis découvre que l\'attaque cache une conspiration bien plus large.',
+    description:
+      "Un couple emménage dans une maison de rêve et est victime d'un cambriolage, puis découvre que l'attaque cache une conspiration bien plus large.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6864,7 +7065,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 92,
     genre: ['Thriller'],
     saga: '',
-    description: 'Une femme seule dans une maison isolée est traquée par un intrus masqué qui semble connaître chaque recoin de son refuge.',
+    description:
+      'Une femme seule dans une maison isolée est traquée par un intrus masqué qui semble connaître chaque recoin de son refuge.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6884,7 +7086,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 89,
     genre: ['Thriller'],
     saga: '',
-    description: 'Lors d\'un week-end à Split, une femme se réveille près d\'un cadavre sans souvenir de la nuit, et doit prouver son innocence.',
+    description:
+      "Lors d'un week-end à Split, une femme se réveille près d'un cadavre sans souvenir de la nuit, et doit prouver son innocence.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6904,7 +7107,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 100,
     genre: ['Thriller'],
     saga: '',
-    description: 'Une psychologue agoraphobe observe ses voisins depuis sa fenêtre et croit avoir vu un meurtre, mais personne ne la croit.',
+    description:
+      'Une psychologue agoraphobe observe ses voisins depuis sa fenêtre et croit avoir vu un meurtre, mais personne ne la croit.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6927,7 +7131,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 97,
     genre: ['Thriller'],
     saga: '',
-    description: 'Une femme enceinte découvre que son mari cache une double vie et que des inconnus semblent vouloir s\'emparer de son bébé à naître.',
+    description:
+      "Une femme enceinte découvre que son mari cache une double vie et que des inconnus semblent vouloir s'emparer de son bébé à naître.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6947,7 +7152,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 91,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un homme marié commet une erreur de jugement avec une femme rencontrée par hasard, qui le piège ensuite dans un chantage mortel.',
+    description:
+      'Un homme marié commet une erreur de jugement avec une femme rencontrée par hasard, qui le piège ensuite dans un chantage mortel.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6970,7 +7176,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 91,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un homme marié commet une erreur de jugement avec une femme rencontrée par hasard, qui le piège ensuite dans un chantage mortel.',
+    description:
+      'Un homme marié commet une erreur de jugement avec une femme rencontrée par hasard, qui le piège ensuite dans un chantage mortel.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6990,7 +7197,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 120,
     genre: ['Thriller'],
     saga: '',
-    description: 'Une avocate défend un artiste accusé de meurtre et découvre que l\'affaire remet en cause sa propre famille et ses certitudes morales.',
+    description:
+      "Une avocate défend un artiste accusé de meurtre et découvre que l'affaire remet en cause sa propre famille et ses certitudes morales.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7013,7 +7221,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 96,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un inspecteur enquête sur une série de meurtres dans le milieu du jazz hollandais, où jalousie et trahison se mêlent au crime.',
+    description:
+      'Un inspecteur enquête sur une série de meurtres dans le milieu du jazz hollandais, où jalousie et trahison se mêlent au crime.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7033,7 +7242,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 119,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un cadre marié entame une liaison d\'un week-end qui devient obsession mortelle lorsque sa maîtresse menace de tout révéler à sa famille.',
+    description:
+      "Un cadre marié entame une liaison d'un week-end qui devient obsession mortelle lorsque sa maîtresse menace de tout révéler à sa famille.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7053,7 +7263,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 113,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un couple d\'analystes financiers à New York voit ambition, jalousie et secrets professionnels détruire leur relation dans un thriller psychologique.',
+    description:
+      "Un couple d'analystes financiers à New York voit ambition, jalousie et secrets professionnels détruire leur relation dans un thriller psychologique.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7076,7 +7287,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 95,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un coroner et son fils autopsient une femme sans identité dont le corps révèle des indices qui défient la science et la logique.',
+    description:
+      'Un coroner et son fils autopsient une femme sans identité dont le corps révèle des indices qui défient la science et la logique.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7104,7 +7316,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 100,
     genre: ['Thriller', 'Horreur'],
     saga: '',
-    description: 'Des amis jouent à action ou vérité lors d\'une soirée, mais les défis imposés par un inconnu en ligne deviennent de plus en plus mortels.',
+    description:
+      "Des amis jouent à action ou vérité lors d'une soirée, mais les défis imposés par un inconnu en ligne deviennent de plus en plus mortels.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7124,7 +7337,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 98,
     genre: ['Thriller'],
     saga: '',
-    description: 'Des étudiants sélectionnés pour un jeu de réalité virtuelle découvrent que perdre signifie mourir pour de vrai dans un labyrinthe high-tech.',
+    description:
+      'Des étudiants sélectionnés pour un jeu de réalité virtuelle découvrent que perdre signifie mourir pour de vrai dans un labyrinthe high-tech.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -7144,7 +7358,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 91,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un couple en apparence parfait cache des secrets sombres qui ressurgissent lorsqu\'un voisin curieux commence à poser des questions gênantes.',
+    description:
+      "Un couple en apparence parfait cache des secrets sombres qui ressurgissent lorsqu'un voisin curieux commence à poser des questions gênantes.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7164,7 +7379,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 130,
     genre: ['Thriller'],
     saga: '',
-    description: 'Une femme mariée à un homme violent prépare sa fuite, mais son plan de liberté se heurte à un contrôle de plus en plus oppressant.',
+    description:
+      'Une femme mariée à un homme violent prépare sa fuite, mais son plan de liberté se heurte à un contrôle de plus en plus oppressant.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7184,7 +7400,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 99,
     genre: ['Thriller'],
     saga: '',
-    description: 'Six inconnus invités dans un escape game découvrent que chaque énigme non résolue les expose à des pièges mortels conçus pour les éliminer.',
+    description:
+      'Six inconnus invités dans un escape game découvrent que chaque énigme non résolue les expose à des pièges mortels conçus pour les éliminer.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7204,7 +7421,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 90,
     genre: ['Thriller'],
     saga: '',
-    description: 'Une adolescente est la seule survivante d\'un massacre et doit affronter le tueur qui revient achever ce qu\'il a commencé des années plus tôt.',
+    description:
+      "Une adolescente est la seule survivante d'un massacre et doit affronter le tueur qui revient achever ce qu'il a commencé des années plus tôt.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7224,7 +7442,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 109,
     genre: ['Thriller'],
     saga: '',
-    description: 'Une assistante sociale prend en charge une fillette terrifiée par ses parents, puis découvre que le mal qu\'elle craint dépasse l\'imaginable.',
+    description:
+      "Une assistante sociale prend en charge une fillette terrifiée par ses parents, puis découvre que le mal qu'elle craint dépasse l'imaginable.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7244,7 +7463,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 117,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un couple adopte des jumeaux ultra-religieux dont les comportements inquiétants révèlent une foi fanatique aux conséquences terrifiantes.',
+    description:
+      'Un couple adopte des jumeaux ultra-religieux dont les comportements inquiétants révèlent une foi fanatique aux conséquences terrifiantes.',
     fromEntity: null,
     countryOrigin: ['Espagne'],
     selectDisplayOrder: 0,
@@ -7264,7 +7484,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 100,
     genre: ['Thriller'],
     saga: '',
-    description: 'Une mère voit réapparaître l\'esprit de sa propre mère disparue à travers sa fille, dans une maison familiale hantée par des secrets.',
+    description:
+      "Une mère voit réapparaître l'esprit de sa propre mère disparue à travers sa fille, dans une maison familiale hantée par des secrets.",
     fromEntity: null,
     countryOrigin: ['Australie'],
     selectDisplayOrder: 0,
@@ -7284,7 +7505,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 102,
     genre: ['Thriller'],
     saga: '',
-    description: 'Trois cambrioleurs piégés dans une maison isolée découvrent qu\'ils sont observés et chassés par une présence invisible dans les bois.',
+    description:
+      "Trois cambrioleurs piégés dans une maison isolée découvrent qu'ils sont observés et chassés par une présence invisible dans les bois.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7304,7 +7526,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 99,
     genre: ['Thriller'],
     saga: '',
-    description: 'Lorsqu\'un enfant disparaît dans une petite ville, une famille voit sa vie bouleversée par un intrus et des révélations sur le passé.',
+    description:
+      "Lorsqu'un enfant disparaît dans une petite ville, une famille voit sa vie bouleversée par un intrus et des révélations sur le passé.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7324,7 +7547,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 95,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un adolescent timide découvre que sa vie est manipulée par une intelligence artificielle qui contrôle son entourage et ses choix.',
+    description:
+      'Un adolescent timide découvre que sa vie est manipulée par une intelligence artificielle qui contrôle son entourage et ses choix.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7344,7 +7568,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 95,
     genre: ['Thriller'],
     saga: '',
-    description: 'Une femme enceinte emménage seule et découvre qu\'un voisin la surveille, dans une paranoïa où la frontière entre protection et menace s\'efface.',
+    description:
+      "Une femme enceinte emménage seule et découvre qu'un voisin la surveille, dans une paranoïa où la frontière entre protection et menace s'efface.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7364,7 +7589,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 90,
     genre: ['Thriller'],
     saga: '',
-    description: 'Des inconnus bloqués dans un motel par une tempête sont assassinés un par un, tandis qu\'un condamné à mort attend son sort dans un tribunal.',
+    description:
+      "Des inconnus bloqués dans un motel par une tempête sont assassinés un par un, tandis qu'un condamné à mort attend son sort dans un tribunal.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7384,7 +7610,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 98,
     genre: ['Thriller'],
     saga: '',
-    description: 'Lors d\'une soirée entre amis, un jeu de rôle dérape lorsque des secrets longtemps cachés refont surface et mènent à la violence.',
+    description:
+      "Lors d'une soirée entre amis, un jeu de rôle dérape lorsque des secrets longtemps cachés refont surface et mènent à la violence.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7404,7 +7631,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 102,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un chirurgien amnésique se réveille dans un hôpital abandonné et doit reconstituer sa mémoire avant que le tueur ne revienne.',
+    description:
+      'Un chirurgien amnésique se réveille dans un hôpital abandonné et doit reconstituer sa mémoire avant que le tueur ne revienne.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7424,7 +7652,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 97,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un chirurgien tente de sauver sa femme en la greffant dans le corps d\'une autre femme, mais des forces surnaturelles semblent contrecarrer le plan.',
+    description:
+      "Un chirurgien tente de sauver sa femme en la greffant dans le corps d'une autre femme, mais des forces surnaturelles semblent contrecarrer le plan.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7444,7 +7673,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 122,
     genre: ['Thriller'],
     saga: '',
-    description: 'Dans une communauté utopique des années 1950, une femme découvre que la perfection de son quotidien dissimule une expérience sinistre.',
+    description:
+      'Dans une communauté utopique des années 1950, une femme découvre que la perfection de son quotidien dissimule une expérience sinistre.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7464,7 +7694,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 111,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un procureur enquête sur une série de meurtres de femmes dont les cadavres portent des marques étranges, dans une Pologne contemporaine glaçante.',
+    description:
+      'Un procureur enquête sur une série de meurtres de femmes dont les cadavres portent des marques étranges, dans une Pologne contemporaine glaçante.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7484,7 +7715,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 102,
     genre: ['Thriller'],
     saga: '',
-    description: 'Des lycéens allemands invités dans le manoir d\'une famille aristocratique découvrent un rituel occulte qui les marque pour la vie.',
+    description:
+      "Des lycéens allemands invités dans le manoir d'une famille aristocratique découvrent un rituel occulte qui les marque pour la vie.",
     fromEntity: null,
     countryOrigin: ['Allemagne'],
     selectDisplayOrder: 0,
@@ -7504,7 +7736,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 100,
     genre: ['Thriller'],
     saga: '',
-    description: 'Des cadres invités à un séminaire d\'entreprise dans un château isolé découvrent que l\'exercice de team building cache une mise à mort.',
+    description:
+      "Des cadres invités à un séminaire d'entreprise dans un château isolé découvrent que l'exercice de team building cache une mise à mort.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7524,7 +7757,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 98,
     genre: ['Thriller'],
     saga: '',
-    description: 'Une famille emménage dans une maison où des voix fantômes semblent avertir leur fille sourde d\'un danger imminent.',
+    description:
+      "Une famille emménage dans une maison où des voix fantômes semblent avertir leur fille sourde d'un danger imminent.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7544,7 +7778,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 88,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un détective enquête sur des disparitions liées à une hypnothérapeute dont les séances semblent effacer la mémoire et la volonté de ses patients.',
+    description:
+      'Un détective enquête sur des disparitions liées à une hypnothérapeute dont les séances semblent effacer la mémoire et la volonté de ses patients.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7564,7 +7799,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 90,
     genre: ['Thriller'],
     saga: '',
-    description: 'Une femme paralysée par une piqûre de serpent doit survivre seule dans la nature sauvage tandis que son agresseur revient achever le travail.',
+    description:
+      'Une femme paralysée par une piqûre de serpent doit survivre seule dans la nature sauvage tandis que son agresseur revient achever le travail.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7584,7 +7820,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 106,
     genre: ['Thriller'],
     saga: '',
-    description: 'Une jeune baby-sitter découvre que les enfants qu\'elle garde sont enfermés dans une maison piégée par leur propre mère paranoïaque.',
+    description:
+      "Une jeune baby-sitter découvre que les enfants qu'elle garde sont enfermés dans une maison piégée par leur propre mère paranoïaque.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7604,7 +7841,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 97,
     genre: ['Thriller'],
     saga: '',
-    description: 'Une infirmière soigne une patiente dans le coma et découvre que son esprit communique par clignements des yeux pour révéler un meurtre.',
+    description:
+      'Une infirmière soigne une patiente dans le coma et découvre que son esprit communique par clignements des yeux pour révéler un meurtre.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -7624,7 +7862,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 110,
     genre: ['Thriller'],
     saga: '',
-    description: 'Une mère enceinte se réveille enfermée dans un conteneur maritime et doit survivre seule aux assauts d\'un tueur qui la traque à distance.',
+    description:
+      "Une mère enceinte se réveille enfermée dans un conteneur maritime et doit survivre seule aux assauts d'un tueur qui la traque à distance.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7644,7 +7883,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 95,
     genre: ['Thriller'],
     saga: '',
-    description: 'Une femme se barricade chez elle pendant une pandémie et découvre qu\'un intrus s\'est installé dans son sous-sol sans qu\'elle le sache.',
+    description:
+      "Une femme se barricade chez elle pendant une pandémie et découvre qu'un intrus s'est installé dans son sous-sol sans qu'elle le sache.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7664,7 +7904,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 90,
     genre: ['Thriller'],
     saga: '',
-    description: 'Une violoncelliste prodige retrouve son ancienne mentor et découvre que leur rivalité cache des traumatismes et une vengeance calculée.',
+    description:
+      'Une violoncelliste prodige retrouve son ancienne mentor et découvre que leur rivalité cache des traumatismes et une vengeance calculée.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7684,7 +7925,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 97,
     genre: ['Thriller'],
     saga: '',
-    description: 'Dans le Massachusetts des années 1960, une jeune femme solitaire tombe sous l\'emprise d\'une conseillère pénitentiaire charismatique impliquée dans une affaire criminelle.',
+    description:
+      "Dans le Massachusetts des années 1960, une jeune femme solitaire tombe sous l'emprise d'une conseillère pénitentiaire charismatique impliquée dans une affaire criminelle.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7704,7 +7946,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 88,
     genre: ['Thriller'],
     saga: '',
-    description: 'Six survivants du premier escape game mortel sont rattrapés par le créateur des épreuves et forcés de participer à une nouvelle série de pièges.',
+    description:
+      'Six survivants du premier escape game mortel sont rattrapés par le créateur des épreuves et forcés de participer à une nouvelle série de pièges.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7741,7 +7984,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 115,
     genre: ['Thriller'],
     saga: '',
-    description: 'Des agents fédéraux traquent un braquage de train de nuit où des criminels et des complices improbables dissimulent un but bien plus vaste.',
+    description:
+      'Des agents fédéraux traquent un braquage de train de nuit où des criminels et des complices improbables dissimulent un but bien plus vaste.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -7778,7 +8022,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 126,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un influenceur wellness disparaît lors d\'une retraite spirituelle en montagne, et l\'enquête révèle une secte aux méthodes de plus en plus dangereuses.',
+    description:
+      "Un influenceur wellness disparaît lors d'une retraite spirituelle en montagne, et l'enquête révèle une secte aux méthodes de plus en plus dangereuses.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
@@ -7809,7 +8054,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 119,
     genre: ['Thriller'],
     saga: '',
-    description: 'Deux hommes kidnappent la PDG d\'une grande entreprise qu\'ils croient être une extraterrestre, dans une satire paranoïaque mêlant complot et science-fiction.',
+    description:
+      "Deux hommes kidnappent la PDG d'une grande entreprise qu'ils croient être une extraterrestre, dans une satire paranoïaque mêlant complot et science-fiction.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -7829,7 +8075,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 128,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un ghostwriter recruté pour achever les mémoires d\'un ancien premier ministre britannique découvre que son prédécesseur a peut-être été assassiné pour ce qu\'il savait.',
+    description:
+      "Un ghostwriter recruté pour achever les mémoires d'un ancien premier ministre britannique découvre que son prédécesseur a peut-être été assassiné pour ce qu'il savait.",
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 5,
@@ -7867,7 +8114,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 107,
     genre: ['Thriller'],
     saga: '',
-    description: 'Une femme se réveille enfermée dans une chambre d\'hôtel sans savoir comment elle y est arrivée, et doit déjouer les pièges de son mystérieux geôlier.',
+    description:
+      "Une femme se réveille enfermée dans une chambre d'hôtel sans savoir comment elle y est arrivée, et doit déjouer les pièges de son mystérieux geôlier.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -7898,7 +8146,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 114,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un juré lors d\'un procès pour meurtre découvre que l\'accusé pourrait être innocent et que son propre passé le met en conflit avec le verdict.',
+    description:
+      "Un juré lors d'un procès pour meurtre découvre que l'accusé pourrait être innocent et que son propre passé le met en conflit avec le verdict.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -7929,7 +8178,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 105,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un père et sa fille assistent à un concert pop qui se révèle être un piège élaboré pour capturer un tueur en série recherché par le FBI.',
+    description:
+      'Un père et sa fille assistent à un concert pop qui se révèle être un piège élaboré pour capturer un tueur en série recherché par le FBI.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -7960,7 +8210,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 109,
     genre: ['Thriller'],
     saga: '',
-    description: 'Deux photographes de guerre traversent un États-Unis déchiré par un conflit civil pour atteindre Washington avant la chute du gouvernement.',
+    description:
+      'Deux photographes de guerre traversent un États-Unis déchiré par un conflit civil pour atteindre Washington avant la chute du gouvernement.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -7991,7 +8242,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 118,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un tueur à gages méthodique rate une cible et doit fuir ses employeurs tout en maintenant sa discipline implacable et son isolement.',
+    description:
+      'Un tueur à gages méthodique rate une cible et doit fuir ses employeurs tout en maintenant sa discipline implacable et son isolement.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -8014,7 +8266,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 129,
     genre: ['Thriller'],
     saga: '',
-    description: 'Après un crash d\'avion, un enquêteur de la BEA analyse la boîte noire et découvre que les enregistrements dissimulent une vérité troublante.',
+    description:
+      "Après un crash d'avion, un enquêteur de la BEA analyse la boîte noire et découvre que les enregistrements dissimulent une vérité troublante.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
@@ -8037,7 +8290,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 99,
     genre: ['Thriller'],
     saga: '',
-    description: 'Six étrangers invités dans un escape game découvrent que chaque salle non résolue les expose à des pièges conçus pour les tuer.',
+    description:
+      'Six étrangers invités dans un escape game découvrent que chaque salle non résolue les expose à des pièges conçus pour les tuer.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -8060,7 +8314,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 141,
     genre: ['Thriller'],
     saga: '',
-    description: 'Sept inconnus se retrouvent dans un hôtel californien isolé lors d\'une tempête, où secrets, trahisons et meurtres éclatent au fil de la nuit.',
+    description:
+      "Sept inconnus se retrouvent dans un hôtel californien isolé lors d'une tempête, où secrets, trahisons et meurtres éclatent au fil de la nuit.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -8083,7 +8338,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 101,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un braqueur de banque échoué parcourt la nuit new-yorkaise pour sortir son frère handicapé de prison, dans une course désespérée et chaotique.',
+    description:
+      'Un braqueur de banque échoué parcourt la nuit new-yorkaise pour sortir son frère handicapé de prison, dans une course désespérée et chaotique.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -8106,7 +8362,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 98,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un présentateur télé de finances en direct est pris en otage par un investisseur ruiné, tandis que la réalité du système financier est exposée.',
+    description:
+      'Un présentateur télé de finances en direct est pris en otage par un investisseur ruiné, tandis que la réalité du système financier est exposée.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -8129,7 +8386,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 121,
     genre: ['Thriller'],
     saga: '',
-    description: 'Une agent du FBI recrutée dans une task force secrète contre les cartels mexicains découvre les méthodes impitoyables de la guerre contre la drogue.',
+    description:
+      'Une agent du FBI recrutée dans une task force secrète contre les cartels mexicains découvre les méthodes impitoyables de la guerre contre la drogue.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -8160,7 +8418,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 116,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un vétéran du Vietnam et son frère cadet s\'affrontent autour d\'une bande de motards dans l\'Appalachia des années 1970.',
+    description:
+      "Un vétéran du Vietnam et son frère cadet s'affrontent autour d'une bande de motards dans l'Appalachia des années 1970.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -8183,7 +8442,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 99,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un enquêteur capable d\'explorer les souvenirs des autres plonge dans l\'esprit d\'un homme d\'affaires en coma pour retrouver une fillette disparue.',
+    description:
+      "Un enquêteur capable d'explorer les souvenirs des autres plonge dans l'esprit d'un homme d'affaires en coma pour retrouver une fillette disparue.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -8206,7 +8466,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 113,
     genre: ['Thriller'],
     saga: '',
-    description: 'En 1949 à Los Angeles, une escouade secrète de policiers traque Mickey Cohen et sa mafia qui tentent de contrôler la ville.',
+    description:
+      'En 1949 à Los Angeles, une escouade secrète de policiers traque Mickey Cohen et sa mafia qui tentent de contrôler la ville.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -8229,7 +8490,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 111,
     genre: ['Thriller'],
     saga: '',
-    description: 'Deux jeunes hommes en blanc terrorisent une famille dans sa maison de vacances, brisant le quatrième mur dans une critique de la violence médiatique.',
+    description:
+      'Deux jeunes hommes en blanc terrorisent une famille dans sa maison de vacances, brisant le quatrième mur dans une critique de la violence médiatique.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -8252,7 +8514,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 115,
     genre: ['Thriller'],
     saga: '',
-    description: 'Jeune Hannibal Lecter en exil en France après la Seconde Guerre mondiale, traque les responsables de la mort de sa sœur et bascule dans la vengeance.',
+    description:
+      'Jeune Hannibal Lecter en exil en France après la Seconde Guerre mondiale, traque les responsables de la mort de sa sœur et bascule dans la vengeance.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -8275,7 +8538,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 130,
     genre: ['Thriller'],
     saga: '',
-    description: 'Lors d\'un braquage de banque à Manhattan, le négociateur découvre que le criminel planifie un coup bien plus complexe qu\'il n\'y paraît.',
+    description:
+      "Lors d'un braquage de banque à Manhattan, le négociateur découvre que le criminel planifie un coup bien plus complexe qu'il n'y paraît.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -8298,7 +8562,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 120,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un chauffeur de taxi nocturne est pris en otage par un tueur à gages qui l\'oblige à le conduire d\'une cible à l\'autre dans Los Angeles.',
+    description:
+      "Un chauffeur de taxi nocturne est pris en otage par un tueur à gages qui l'oblige à le conduire d'une cible à l'autre dans Los Angeles.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -8321,7 +8586,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 137,
     genre: ['Thriller'],
     saga: '',
-    description: 'Trois amis d\'enfance de Boston se retrouvent lorsque la fille de l\'un est assassinée, rouvrant une blessure liée à un traumatisme passé.',
+    description:
+      "Trois amis d'enfance de Boston se retrouvent lorsque la fille de l'un est assassinée, rouvrant une blessure liée à un traumatisme passé.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -8347,7 +8613,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 124,
     genre: ['Thriller'],
     saga: '',
-    description: 'Will Graham, profiler du FBI, sort de retraite pour traquer Francis Dolarhyde, un tueur obsédé par William Blake et par la peur qu\'il inspire.',
+    description:
+      "Will Graham, profiler du FBI, sort de retraite pour traquer Francis Dolarhyde, un tueur obsédé par William Blake et par la peur qu'il inspire.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -8370,7 +8637,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 131,
     genre: ['Thriller'],
     saga: '',
-    description: 'Sept ans après sa fuite, Hannibal Lecter vit caché à Florence tandis que l\'agent Starling et un ancien patient mutilé le traquent.',
+    description:
+      "Sept ans après sa fuite, Hannibal Lecter vit caché à Florence tandis que l'agent Starling et un ancien patient mutilé le traquent.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -8393,7 +8661,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 102,
     genre: ['Thriller'],
     saga: '',
-    description: 'Patrick Bateman, banquier yuppie new-yorkais des années 1980, dissimule une double vie de tueur en série derrière son apparence impeccable.',
+    description:
+      'Patrick Bateman, banquier yuppie new-yorkais des années 1980, dissimule une double vie de tueur en série derrière son apparence impeccable.',
     fromEntity: {
       entityType: 'book',
       title: 'American Psycho',
@@ -8420,7 +8689,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 129,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un banquier richissime voit sa vie basculer lorsqu\'un cadeau d\'anniversaire le plonge dans un jeu clandestin où réalité et manipulation se confondent.',
+    description:
+      "Un banquier richissime voit sa vie basculer lorsqu'un cadeau d'anniversaire le plonge dans un jeu clandestin où réalité et manipulation se confondent.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -8443,7 +8713,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 152,
     genre: ['Thriller'],
     saga: 'Millénium',
-    description: 'La hacker Lisbeth Salander et le journaliste Mikael Blomkvist enquêtent sur la disparition d\'une héritière et découvrent des crimes datant de quarante ans.',
+    description:
+      "La hacker Lisbeth Salander et le journaliste Mikael Blomkvist enquêtent sur la disparition d'une héritière et découvrent des crimes datant de quarante ans.",
     fromEntity: {
       entityType: 'book',
       title: "Millénium, Tome 1 : Les hommes qui n'aimaient pas les femmes",
@@ -8471,7 +8742,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 129,
     genre: ['Thriller'],
     saga: 'Millénium',
-    description: 'Accusée de meurtre, Lisbeth Salander est traquée par toute la police suédoise tout en tentant de démasquer la conspiration qui l\'a piégée.',
+    description:
+      "Accusée de meurtre, Lisbeth Salander est traquée par toute la police suédoise tout en tentant de démasquer la conspiration qui l'a piégée.",
     fromEntity: {
       entityType: 'book',
       title:
@@ -8499,7 +8771,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 147,
     genre: ['Thriller'],
     saga: 'Millénium',
-    description: 'Lisbeth Salander, blessée et accusée de triple meurtre, compte sur Mikael Blomkvist pour prouver son innocence et dévoiler une trame d\'État.',
+    description:
+      "Lisbeth Salander, blessée et accusée de triple meurtre, compte sur Mikael Blomkvist pour prouver son innocence et dévoiler une trame d'État.",
     fromEntity: {
       entityType: 'book',
       title: "Millénium, Tome 3 : La reine dans le palais des courants d'air",
@@ -8525,7 +8798,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 107,
     genre: ['Thriller', 'Drame'],
     saga: '',
-    description: 'Un jeune prodige du tennis monte en puissance dans le circuit professionnel, mais la pression du milieu et ses démons personnels menacent sa chute.',
+    description:
+      'Un jeune prodige du tennis monte en puissance dans le circuit professionnel, mais la pression du milieu et ses démons personnels menacent sa chute.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
@@ -8546,7 +8820,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 164,
     genre: ['Thriller', 'Drame', 'Guerre'],
     saga: '',
-    description: 'Après le massacre des athlètes israéliens aux JO de Munich, une équipe secrète traque et élimine les responsables présumés de l\'attentat.',
+    description:
+      "Après le massacre des athlètes israéliens aux JO de Munich, une équipe secrète traque et élimine les responsables présumés de l'attentat.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -8566,7 +8841,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 119,
     genre: ['Thriller', 'Drame'],
     saga: '',
-    description: 'Un fixer d\'un grand cabinet d\'avocats découvre qu\'un collègue bipolarise et qu\'une affaire de pollution dissimule un scandale mortel.',
+    description:
+      "Un fixer d'un grand cabinet d'avocats découvre qu'un collègue bipolarise et qu'une affaire de pollution dissimule un scandale mortel.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -8587,7 +8863,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 127,
     genre: ['Thriller'],
     saga: '',
-    description: 'En pleine Guerre froide, un espion britannique traque une taupe au sommet des services secrets, dans une atmosphère de paranoïa et de trahison.',
+    description:
+      'En pleine Guerre froide, un espion britannique traque une taupe au sommet des services secrets, dans une atmosphère de paranoïa et de trahison.',
     fromEntity: {
       entityType: 'book',
       title: 'La Taupe',
@@ -8612,7 +8889,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 157,
     genre: ['Thriller', 'Drame', 'Guerre'],
     saga: '',
-    description: 'Une analyste de la CIA mène une traque de dix ans contre Oussama ben Laden, jusqu\'à l\'opération qui mène à son élimination en 2011.',
+    description:
+      "Une analyste de la CIA mène une traque de dix ans contre Oussama ben Laden, jusqu'à l'opération qui mène à son élimination en 2011.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -8632,7 +8910,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 89,
     genre: ['Thriller', 'Drame'],
     saga: '',
-    description: 'Un vétéran traumatisé spécialisé dans la recherche de personnes disparues est engagé pour retrouver une adolescente enlevée dans un réseau de traite.',
+    description:
+      'Un vétéran traumatisé spécialisé dans la recherche de personnes disparues est engagé pour retrouver une adolescente enlevée dans un réseau de traite.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni', 'États-Unis'],
     selectDisplayOrder: 0,
@@ -8653,7 +8932,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 104,
     genre: ['Thriller', 'Romance', 'Policier'],
     saga: '',
-    description: 'Une gérante de salle de sport tombe amoureuse d\'une culturiste en fuite, et leur passion les entraîne dans la violence du milieu criminel.',
+    description:
+      "Une gérante de salle de sport tombe amoureuse d'une culturiste en fuite, et leur passion les entraîne dans la violence du milieu criminel.",
     fromEntity: null,
     countryOrigin: ['Royaume-Uni', 'États-Unis'],
     selectDisplayOrder: 0,
@@ -8673,7 +8953,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 134,
     genre: ['Thriller', 'Drame'],
     saga: '',
-    description: 'Une femme accompagne son petit ami chez ses parents isolés dans une ferme, dans un voyage où identité, temps et réalité se déliter.',
+    description:
+      'Une femme accompagne son petit ami chez ses parents isolés dans une ferme, dans un voyage où identité, temps et réalité se déliter.',
     fromEntity: {
       entityType: 'book',
       title: "I'm Thinking of Ending Things",
@@ -8698,7 +8979,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 102,
     genre: ['Thriller', 'Mystère'],
     saga: '',
-    description: 'Un père enquête sur la disparition de sa fille adolescente en reconstituant sa vie à travers ses ordinateurs, téléphones et réseaux sociaux.',
+    description:
+      'Un père enquête sur la disparition de sa fille adolescente en reconstituant sa vie à travers ses ordinateurs, téléphones et réseaux sociaux.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -8720,7 +9002,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 117,
     genre: ['Thriller', 'Comédie', 'Policier'],
     saga: '',
-    description: 'Une mère blogueuse enquête sur la disparition soudaine de son amie glamour et découvre des secrets qui remettent en cause toute leur relation.',
+    description:
+      'Une mère blogueuse enquête sur la disparition soudaine de son amie glamour et découvre des secrets qui remettent en cause toute leur relation.',
     fromEntity: {
       entityType: 'book',
       title: 'A Simple Favor',
@@ -8745,7 +9028,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 129,
     genre: ['Thriller', 'Drame', 'Romance'],
     saga: '',
-    description: 'Un diplomate britannique enquête sur le meurtre de sa femme au Kenya et découvre un scandale pharmaceutique impliquant des multinationales.',
+    description:
+      'Un diplomate britannique enquête sur le meurtre de sa femme au Kenya et découvre un scandale pharmaceutique impliquant des multinationales.',
     fromEntity: {
       entityType: 'book',
       title: 'The Constant Gardener',
@@ -8770,7 +9054,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 103,
     genre: ['Thriller', 'Romance', 'Action'],
     saga: '',
-    description: 'Un touriste américain en Italie est pris pour un criminel recherché et se retrouve mêlé à une intrigue d\'espionnage avec une femme mystérieuse.',
+    description:
+      "Un touriste américain en Italie est pris pour un criminel recherché et se retrouve mêlé à une intrigue d'espionnage avec une femme mystérieuse.",
     fromEntity: null,
     countryOrigin: ['États-Unis', 'France'],
     selectDisplayOrder: 0,
@@ -8791,7 +9076,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 117,
     genre: ['Thriller', 'Drame', 'Mystère'],
     saga: '',
-    description: 'Un couple parisien reçoit des cassettes les filmant chez eux ; l\'enquête sur l\'expéditeur réveille un secret colonial de vingt ans.',
+    description:
+      "Un couple parisien reçoit des cassettes les filmant chez eux ; l'enquête sur l'expéditeur réveille un secret colonial de vingt ans.",
     fromEntity: null,
     countryOrigin: ['France', 'Autriche', 'Allemagne', 'Italie'],
     selectDisplayOrder: 0,
@@ -8816,8 +9102,8 @@ export const baseMoviesThriller: BaseMovie[] = [
       "Un maître du crime et de l'hypnose sème le chaos dans le Berlin de l'après-guerre, poursuivi par le procureur von Wenk.",
     fromEntity: {
       entityType: 'book',
-      title: "Docteur Mabuse",
-      secondEntityKey: "Norbert Jacques",
+      title: 'Docteur Mabuse',
+      secondEntityKey: 'Norbert Jacques',
     },
     countryOrigin: ['Allemagne'],
     selectDisplayOrder: 0,
@@ -9208,33 +9494,37 @@ export const baseMoviesThriller: BaseMovie[] = [
     oscars: [],
   },
   {
-    title: "Gaslight",
+    title: 'Gaslight',
     director: 'George Cukor',
     actors: [
       {
-        name: "Ingrid Bergman",
+        name: 'Ingrid Bergman',
       },
       {
-        name: "Charles Boyer",
+        name: 'Charles Boyer',
       },
       {
-        name: "Joseph Cotten",
+        name: 'Joseph Cotten',
       },
       {
-        name: "May Whitty",
+        name: 'May Whitty',
       },
       {
-        name: "Angela Lansbury",
-      }
+        name: 'Angela Lansbury',
+      },
     ],
-    coverUrl: "/movies_pictures/517e01ce70c9.jpg",
-    releaseDate: "1944-05-04",
+    coverUrl: '/movies_pictures/517e01ce70c9.jpg',
+    releaseDate: '1944-05-04',
     length: 114,
     genre: ['Thriller', 'Drame', 'Mystère'],
-    saga: "",
+    saga: '',
     description:
-      "À Londres, un mari tente de faire passer sa femme pour folle en faisant disparaître des bijoux et le gaz.",
-    fromEntity: { entityType: "book", title: "Gaslight", secondEntityKey: "Patrick Hamilton" },
+      'À Londres, un mari tente de faire passer sa femme pour folle en faisant disparaître des bijoux et le gaz.',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Gaslight',
+      secondEntityKey: 'Patrick Hamilton',
+    },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [
@@ -9602,8 +9892,8 @@ export const baseMoviesThriller: BaseMovie[] = [
       "Un scénariste soupçonné du meurtre d'une jeune fille se terre, entre amnésie, colère et Hollywood.",
     fromEntity: {
       entityType: 'book',
-      title: "In a Lonely Place",
-      secondEntityKey: "Dorothy B. Hughes",
+      title: 'In a Lonely Place',
+      secondEntityKey: 'Dorothy B. Hughes',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -10743,8 +11033,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Jacques Perrin' },
       { name: 'Charles Denner' },
     ],
-    coverUrl:
-      '/movies_pictures/a5157191ee8c.jpg',
+    coverUrl: '/movies_pictures/a5157191ee8c.jpg',
     releaseDate: '1969-02-26',
     length: 127,
     genre: ['Thriller', 'Drame', 'Historique'],
@@ -10769,8 +11058,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Michel Bouquet' },
       { name: 'Corinne Marchand' },
     ],
-    coverUrl:
-      '/movies_pictures/eda836404099.jpg',
+    coverUrl: '/movies_pictures/eda836404099.jpg',
     releaseDate: '1970-05-20',
     length: 126,
     genre: ['Policier', 'Drame'],
@@ -10814,8 +11102,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Pascal Ferone' },
       { name: 'Mario Beccara' },
     ],
-    coverUrl:
-      '/movies_pictures/81112b172b61.jpg',
+    coverUrl: '/movies_pictures/81112b172b61.jpg',
     releaseDate: '1970-02-27',
     length: 93,
     genre: ['Thriller', 'Drame'],
@@ -10837,8 +11124,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Gian Maria Volonté' },
       { name: 'Paul Crauchet' },
     ],
-    coverUrl:
-      '/movies_pictures/c0eb0cf34007.jpg',
+    coverUrl: '/movies_pictures/c0eb0cf34007.jpg',
     releaseDate: '1970-10-19',
     length: 140,
     genre: ['Policier', 'Thriller'],
@@ -10860,8 +11146,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Lou Frizzell' },
       { name: 'Carey Loftin' },
     ],
-    coverUrl:
-      '/movies_pictures/f0b71793c38d.jpg',
+    coverUrl: '/movies_pictures/f0b71793c38d.jpg',
     releaseDate: '1971-11-13',
     length: 90,
     genre: ['Thriller', 'Action'],
@@ -10915,8 +11200,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Roy Scheider' },
       { name: 'Dorothy Tristan' },
     ],
-    coverUrl:
-      '/movies_pictures/44d219d73ce4.jpg',
+    coverUrl: '/movies_pictures/44d219d73ce4.jpg',
     releaseDate: '1971-06-23',
     length: 114,
     genre: ['Thriller', 'Policier', 'Drame'],
@@ -10942,8 +11226,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'John Vernon' },
       { name: 'Andrew Robinson' },
     ],
-    coverUrl:
-      '/movies_pictures/6beb02a48015.jpg',
+    coverUrl: '/movies_pictures/6beb02a48015.jpg',
     releaseDate: '1971-12-23',
     length: 102,
     genre: ['Policier', 'Thriller', 'Action'],
@@ -10965,8 +11248,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Robert Hossein' },
       { name: 'Nicole Calfan' },
     ],
-    coverUrl:
-      '/movies_pictures/d506e0eacb2b.jpg',
+    coverUrl: '/movies_pictures/d506e0eacb2b.jpg',
     releaseDate: '1971-10-27',
     length: 120,
     genre: ['Policier', 'Thriller'],
@@ -11018,8 +11300,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Billie Whitelaw' },
       { name: 'Anna Massey' },
     ],
-    coverUrl:
-      '/movies_pictures/1b7726f2b5fb.jpg',
+    coverUrl: '/movies_pictures/1b7726f2b5fb.jpg',
     releaseDate: '1972-06-21',
     length: 116,
     genre: ['Thriller', 'Policier'],
@@ -11045,8 +11326,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'John Matthews' },
       { name: 'Eve Channing' },
     ],
-    coverUrl:
-      '/movies_pictures/5e17e882e8fd.jpg',
+    coverUrl: '/movies_pictures/5e17e882e8fd.jpg',
     releaseDate: '1972-12-10',
     length: 138,
     genre: ['Thriller', 'Mystère', 'Drame'],
@@ -11072,8 +11352,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Victor Lanoux' },
       { name: 'Cécile Vassort' },
     ],
-    coverUrl:
-      '/movies_pictures/4bd0df433bc7.jpg',
+    coverUrl: '/movies_pictures/4bd0df433bc7.jpg',
     releaseDate: '1973-10-25',
     length: 100,
     genre: ['Policier', 'Drame'],
@@ -11095,8 +11374,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Biff McGuire' },
       { name: 'Barbara Eda-Young' },
     ],
-    coverUrl:
-      '/movies_pictures/9051b8f08a2d.jpg',
+    coverUrl: '/movies_pictures/9051b8f08a2d.jpg',
     releaseDate: '1973-12-05',
     length: 130,
     genre: ['Policier', 'Drame', 'Biographie'],
@@ -11122,8 +11400,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Gig Young' },
       { name: 'Helmut Dantine' },
     ],
-    coverUrl:
-      '/movies_pictures/08dddd13057c.jpeg',
+    coverUrl: '/movies_pictures/08dddd13057c.jpeg',
     releaseDate: '1974-08-01',
     length: 112,
     genre: ['Thriller', 'Aventure', 'Western'],
@@ -11167,7 +11444,8 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Sean Connery' },
       { name: 'Vanessa Redgrave' },
     ],
-    coverUrl: '',
+    coverUrl:
+      'https://fr.web.img3.acsta.net/pictures/18/04/10/15/20/4510957.jpg',
     releaseDate: '1974-11-24',
     length: 128,
     genre: ['Policier', 'Mystère'],
@@ -11215,8 +11493,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Charles Durning' },
       { name: 'James Broderick' },
     ],
-    coverUrl:
-      '/movies_pictures/3504680b394b.jpg',
+    coverUrl: '/movies_pictures/3504680b394b.jpg',
     releaseDate: '1975-09-21',
     length: 125,
     genre: ['Policier', 'Drame', 'Thriller'],
@@ -11295,8 +11572,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Gérard Blain' },
       { name: 'Nicholas Ray' },
     ],
-    coverUrl:
-      '/movies_pictures/5bb0c45fd075.jpg',
+    coverUrl: '/movies_pictures/5bb0c45fd075.jpg',
     releaseDate: '1977-06-24',
     length: 125,
     genre: ['Thriller', 'Drame', 'Policier'],
@@ -11322,8 +11598,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Lilli Palmer' },
       { name: 'Uta Hagen' },
     ],
-    coverUrl:
-      '/movies_pictures/cfd2b85d2dff.jpg',
+    coverUrl: '/movies_pictures/cfd2b85d2dff.jpg',
     releaseDate: '1978-10-05',
     length: 125,
     genre: ['Thriller', 'Science Fiction', 'Drame'],
@@ -11349,14 +11624,13 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Maggie Smith' },
       { name: 'Angela Lansbury' },
     ],
-    coverUrl:
-      '/movies_pictures/2850edc52553.jpg',
+    coverUrl: '/movies_pictures/2850edc52553.jpg',
     releaseDate: '1978-10-06',
     length: 140,
     genre: ['Policier', 'Mystère'],
     saga: '',
     description:
-      'Hercule Poirot enquête sur un meurtre à bord d\'un croisière sur le Nil en Égypte, où chaque passager semble avoir un mobile.',
+      "Hercule Poirot enquête sur un meurtre à bord d'un croisière sur le Nil en Égypte, où chaque passager semble avoir un mobile.",
     fromEntity: {
       entityType: 'book',
       title: 'Mort sur le Nil',
@@ -11376,8 +11650,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Pierre Vernier' },
       { name: 'Jacques Denis' },
     ],
-    coverUrl:
-      '/movies_pictures/6a3bbaec46f8.jpg',
+    coverUrl: '/movies_pictures/6a3bbaec46f8.jpg',
     releaseDate: '1979-05-23',
     length: 120,
     genre: ['Thriller', 'Policier', 'Drame'],
@@ -11399,8 +11672,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Scott Brady' },
       { name: 'James Hampton' },
     ],
-    coverUrl:
-      '/movies_pictures/2961e9d08551.jpg',
+    coverUrl: '/movies_pictures/2961e9d08551.jpg',
     releaseDate: '1979-03-16',
     length: 122,
     genre: ['Thriller', 'Drame'],
@@ -11422,8 +11694,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Andreas Katsulas' },
       { name: 'Jeanne Herviale' },
     ],
-    coverUrl:
-      '/movies_pictures/716b0ec2e264.jpg',
+    coverUrl: '/movies_pictures/716b0ec2e264.jpg',
     releaseDate: '1979-04-25',
     length: 111,
     genre: ['Policier', 'Thriller', 'Drame'],
@@ -11456,7 +11727,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 118,
     genre: ['Thriller', 'Comédie'],
     saga: '',
-    description: 'Une tutrice véreuse s\'empare légalement de personnes âgées pour vider leurs comptes, jusqu\'à ce qu\'une de ses victimes ait une famille redoutable.',
+    description:
+      "Une tutrice véreuse s'empare légalement de personnes âgées pour vider leurs comptes, jusqu'à ce qu'une de ses victimes ait une famille redoutable.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -11479,7 +11751,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 114,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un acteur en difficulté se fait passer pour un autre homme dans une arnaque d\'assurance, puis devient témoin involontaire d\'un meurtre.',
+    description:
+      "Un acteur en difficulté se fait passer pour un autre homme dans une arnaque d'assurance, puis devient témoin involontaire d'un meurtre.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -11502,7 +11775,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 126,
     genre: ['Thriller', 'Drame'],
     saga: '',
-    description: 'Un détective copte enquête sur la disparition d\'une femme dans le Caire des années 1990, au cœur de tensions religieuses et politiques.',
+    description:
+      "Un détective copte enquête sur la disparition d'une femme dans le Caire des années 1990, au cœur de tensions religieuses et politiques.",
     fromEntity: null,
     countryOrigin: ['Suède'],
     selectDisplayOrder: 0,
@@ -11525,7 +11799,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 103,
     genre: ['Thriller', 'Science Fiction'],
     saga: '',
-    description: 'Une femme se réveille enfermée dans un bunker par un homme qui prétend qu\'une attaque chimique rend le monde extérieur mortel.',
+    description:
+      "Une femme se réveille enfermée dans un bunker par un homme qui prétend qu'une attaque chimique rend le monde extérieur mortel.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -11548,11 +11823,12 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 154,
     genre: ['Thriller', 'Policier'],
     saga: '',
-    description: 'Une hôtesse de l\'air arrêtée pour trafic d\'argent en collusion avec un trafiquant d\'armes monte un plan pour échapper à la police et aux criminels.',
+    description:
+      "Une hôtesse de l'air arrêtée pour trafic d'argent en collusion avec un trafiquant d'armes monte un plan pour échapper à la police et aux criminels.",
     fromEntity: {
       entityType: 'book',
-      title: "Rum Punch",
-      secondEntityKey: "Elmore Leonard",
+      title: 'Rum Punch',
+      secondEntityKey: 'Elmore Leonard',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -11575,7 +11851,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 107,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un homme en vacances découvre par hasard qu\'une voiture abandonnée appartient à un disparu, et son enquête le mène vers une vérité glaçante.',
+    description:
+      "Un homme en vacances découvre par hasard qu'une voiture abandonnée appartient à un disparu, et son enquête le mène vers une vérité glaçante.",
     fromEntity: null,
     countryOrigin: ['Pays-Bas'],
     selectDisplayOrder: 0,
@@ -11598,7 +11875,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 132,
     genre: ['Thriller', 'Drame'],
     saga: '',
-    description: 'Cinq détenus préparent une évasion minutieuse à travers les sous-sols de la Santé, mais un nouveau co-détenu pourrait compromettre tout le plan.',
+    description:
+      'Cinq détenus préparent une évasion minutieuse à travers les sous-sols de la Santé, mais un nouveau co-détenu pourrait compromettre tout le plan.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -11621,7 +11899,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 145,
     genre: ['Thriller', 'Romance'],
     saga: '',
-    description: 'Dans la Corée coloniale des années 1930, une servante et une héritière nouent une relation qui déjoue les manipulations d\'un escroc.',
+    description:
+      "Dans la Corée coloniale des années 1930, une servante et une héritière nouent une relation qui déjoue les manipulations d'un escroc.",
     fromEntity: null,
     countryOrigin: ['Corée du Sud'],
     selectDisplayOrder: 0,
@@ -11644,7 +11923,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 152,
     genre: ['Thriller', 'Drame'],
     saga: '',
-    description: 'Lors du procès pour le meurtre de son mari, une écrivaine voit sa vie privée et ses écrits passés au tribunal, brouillant culpabilité et vérité.',
+    description:
+      'Lors du procès pour le meurtre de son mari, une écrivaine voit sa vie privée et ses écrits passés au tribunal, brouillant culpabilité et vérité.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -11667,7 +11947,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 109,
     genre: ['Thriller', 'Drame'],
     saga: '',
-    description: 'Deux jeunes hommes en blanc terrorisent une famille dans sa maison de vacances autrichienne, dans une critique implacable de la violence spectaculaire.',
+    description:
+      'Deux jeunes hommes en blanc terrorisent une famille dans sa maison de vacances autrichienne, dans une critique implacable de la violence spectaculaire.',
     fromEntity: null,
     countryOrigin: ['Autriche'],
     selectDisplayOrder: 0,
@@ -11690,7 +11971,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 92,
     genre: ['Thriller', 'Policier'],
     saga: '',
-    description: 'Deux femmes et leurs fils se retrouvent dans une maison isolée où une vendetta familiale éclate dans une violence stylisée et hallucinée.',
+    description:
+      'Deux femmes et leurs fils se retrouvent dans une maison isolée où une vendetta familiale éclate dans une violence stylisée et hallucinée.',
     fromEntity: null,
     countryOrigin: ['Belgique', 'France'],
     selectDisplayOrder: 0,
@@ -11713,7 +11995,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 102,
     genre: ['Thriller'],
     saga: '',
-    description: 'Une femme enquête sur la mort de son mari dans une villa isolée, plongeant dans un univers sensoriel où désir et deuil se confondent.',
+    description:
+      'Une femme enquête sur la mort de son mari dans une villa isolée, plongeant dans un univers sensoriel où désir et deuil se confondent.',
     fromEntity: null,
     countryOrigin: ['Belgique', 'France'],
     selectDisplayOrder: 0,
@@ -11736,7 +12019,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 120,
     genre: ['Thriller', 'Drame'],
     saga: '',
-    description: 'Un chirurgien plasticien retient une femme dans sa villa et lui impose des transformations corporelles liées à une vengeance vieille de vingt ans.',
+    description:
+      'Un chirurgien plasticien retient une femme dans sa villa et lui impose des transformations corporelles liées à une vengeance vieille de vingt ans.',
     fromEntity: null,
     countryOrigin: ['Espagne'],
     selectDisplayOrder: 0,
@@ -11759,7 +12043,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 118,
     genre: ['Thriller', 'Horreur'],
     saga: '',
-    description: 'Une jeune mannequin débarque à Los Angeles et découvre que l\'industrie de la mode consomme les filles aussi sûrement que leur beauté.',
+    description:
+      "Une jeune mannequin débarque à Los Angeles et découvre que l'industrie de la mode consomme les filles aussi sûrement que leur beauté.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -11782,7 +12067,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 121,
     genre: ['Thriller', 'Drame'],
     saga: '',
-    description: 'Un père de famille d\'Ohio est obsédé par des visions de tempête apocalyptique et construit un abri, au risque de perdre famille et emploi.',
+    description:
+      "Un père de famille d'Ohio est obsédé par des visions de tempête apocalyptique et construit un abri, au risque de perdre famille et emploi.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -11805,7 +12091,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 94,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un jeune homme reçoit par erreur l\'appel d\'une femme kidnappée et doit la localiser et la sauver avec seulement son téléphone portable.',
+    description:
+      "Un jeune homme reçoit par erreur l'appel d'une femme kidnappée et doit la localiser et la sauver avec seulement son téléphone portable.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -11828,11 +12115,12 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 98,
     genre: ['Thriller', 'Fantastique'],
     saga: '',
-    description: 'À Paris en 1830, le célèbre criminel devenu préfet de police enquête sur une série de meurtres commis par un assassin aux pouvoirs surnaturels.',
+    description:
+      'À Paris en 1830, le célèbre criminel devenu préfet de police enquête sur une série de meurtres commis par un assassin aux pouvoirs surnaturels.',
     fromEntity: {
       entityType: 'book',
-      title: "Mémoires de Vidocq",
-      secondEntityKey: "Eugène-François Vidocq",
+      title: 'Mémoires de Vidocq',
+      secondEntityKey: 'Eugène-François Vidocq',
     },
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -11855,11 +12143,12 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 106,
     genre: ['Thriller', 'Policier'],
     saga: '',
-    description: 'Deux enquêteurs traquent un tueur en série dans les Alpes dont les crimes semblent liés à une secte et à des rituels sanglants.',
+    description:
+      'Deux enquêteurs traquent un tueur en série dans les Alpes dont les crimes semblent liés à une secte et à des rituels sanglants.',
     fromEntity: {
       entityType: 'book',
-      title: "Les Rivières pourpres",
-      secondEntityKey: "Jean-Christophe Grangé",
+      title: 'Les Rivières pourpres',
+      secondEntityKey: 'Jean-Christophe Grangé',
     },
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -11882,11 +12171,12 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 96,
     genre: ['Thriller', 'Policier'],
     saga: '',
-    description: 'Le commissaire Niemans enquête sur des meurtres mutilés dans un monastère, liés à une prophétie apocalyptique.',
+    description:
+      'Le commissaire Niemans enquête sur des meurtres mutilés dans un monastère, liés à une prophétie apocalyptique.',
     fromEntity: {
       entityType: 'book',
-      title: "Les Rivières pourpres",
-      secondEntityKey: "Jean-Christophe Grangé",
+      title: 'Les Rivières pourpres',
+      secondEntityKey: 'Jean-Christophe Grangé',
     },
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -11909,7 +12199,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 108,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un professeur de droit apprend qu\'il sera tué dans quatre-vingt-huit minutes et doit prouver son innocence dans une affaire de meurtre datant de quinze ans.',
+    description:
+      "Un professeur de droit apprend qu'il sera tué dans quatre-vingt-huit minutes et doit prouver son innocence dans une affaire de meurtre datant de quinze ans.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -11932,7 +12223,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 120,
     genre: ['Thriller', 'Drame'],
     saga: '',
-    description: 'En 1979, un agent de la CIA monte une opération pour extraire des diplomates américains cachés à Téhéran en se faisant passer pour une équipe de tournage.',
+    description:
+      'En 1979, un agent de la CIA monte une opération pour extraire des diplomates américains cachés à Téhéran en se faisant passer pour une équipe de tournage.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -11959,11 +12251,12 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 102,
     genre: ['Thriller', 'Policier'],
     saga: '',
-    description: 'Un garde forestier en Alaska enquête sur une série de meurtres dans une petite communauté isolée, où la nature et les habitants cachent des secrets.',
+    description:
+      'Un garde forestier en Alaska enquête sur une série de meurtres dans une petite communauté isolée, où la nature et les habitants cachent des secrets.',
     fromEntity: {
       entityType: 'book',
-      title: "Peur bleue",
-      secondEntityKey: "Peter Benchley",
+      title: 'Peur bleue',
+      secondEntityKey: 'Peter Benchley',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -11986,7 +12279,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 101,
     genre: ['Thriller', 'Horreur'],
     saga: '',
-    description: 'Un architecte veuf croit recevoir des messages de son épouse décédée via des enregistrements et mène une enquête sur sa mort suspecte.',
+    description:
+      'Un architecte veuf croit recevoir des messages de son épouse décédée via des enregistrements et mène une enquête sur sa mort suspecte.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -12009,7 +12303,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 120,
     genre: ['Thriller', 'Policier'],
     saga: '',
-    description: 'Deux tueurs est-européens filment leurs crimes pour devenir célèbres à la télévision new-yorkaise, traqués par un détective et un caméraman.',
+    description:
+      'Deux tueurs est-européens filment leurs crimes pour devenir célèbres à la télévision new-yorkaise, traqués par un détective et un caméraman.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -12032,7 +12327,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 106,
     genre: ['Thriller', 'Drame'],
     saga: '',
-    description: 'Un virus mortel se propage à travers le monde tandis que scientifiques, gouvernements et citoyens luttent contre la panique et la contagion.',
+    description:
+      'Un virus mortel se propage à travers le monde tandis que scientifiques, gouvernements et citoyens luttent contre la panique et la contagion.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -12055,7 +12351,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 86,
     genre: ['Thriller', 'Horreur'],
     saga: '',
-    description: 'Une femme se réveille ensevelie dans une capsule d\'oxygène au fond de l\'océan et doit échapper à des requins tout en gérant ses ressources limitées.',
+    description:
+      "Une femme se réveille ensevelie dans une capsule d'oxygène au fond de l'océan et doit échapper à des requins tout en gérant ses ressources limitées.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -12078,7 +12375,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 129,
     genre: ['Thriller', 'Drame'],
     saga: '',
-    description: 'Un ancien militaire traqué par des flashbacks du Vietnam est accusé d\'un meurtre dont il ne se souvient pas, dans une enquête sur la mémoire traumatique.',
+    description:
+      "Un ancien militaire traqué par des flashbacks du Vietnam est accusé d'un meurtre dont il ne se souvient pas, dans une enquête sur la mémoire traumatique.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -12101,7 +12399,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 120,
     genre: ['Thriller', 'Drame'],
     saga: '',
-    description: 'Un homme d\'affaires respecté mène une double vie de tueur en série et tente d\'arrêter lorsqu\'un témoin l\'identifie et le fait chanter.',
+    description:
+      "Un homme d'affaires respecté mène une double vie de tueur en série et tente d'arrêter lorsqu'un témoin l'identifie et le fait chanter.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -12124,7 +12423,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 102,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un jeune homme découvre que son voisin dissimule une personnalité meurtrière et doit convaincre la police avant de devenir la prochaine victime.',
+    description:
+      'Un jeune homme découvre que son voisin dissimule une personnalité meurtrière et doit convaincre la police avant de devenir la prochaine victime.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -12147,7 +12447,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 110,
     genre: ['Thriller', 'Drame'],
     saga: '',
-    description: 'Un agent du FBI enquête sur des meurtres liés à une drogue qui plonge les victimes dans des hallucinations avant de les tuer.',
+    description:
+      'Un agent du FBI enquête sur des meurtres liés à une drogue qui plonge les victimes dans des hallucinations avant de les tuer.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -12170,7 +12471,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 106,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un joueur de tennis en déclin accepte de perdre un match contre un protégé du parrain de la mafia, mais la trahison déclenche une spirale mortelle.',
+    description:
+      'Un joueur de tennis en déclin accepte de perdre un match contre un protégé du parrain de la mafia, mais la trahison déclenche une spirale mortelle.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -12193,7 +12495,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 103,
     genre: ['Policier', 'Mystère'],
     saga: '',
-    description: 'Hercule Poirot enquête sur un meurtre lors d\'une séance de spiritisme dans un palais vénitien hanté.',
+    description:
+      "Hercule Poirot enquête sur un meurtre lors d'une séance de spiritisme dans un palais vénitien hanté.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -12216,7 +12519,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 106,
     genre: ['Thriller', 'Policier'],
     saga: '',
-    description: 'Un profiler du FBI traque un tueur en série qui semble connaître ses méthodes et anticiper chaque mouvement.',
+    description:
+      'Un profiler du FBI traque un tueur en série qui semble connaître ses méthodes et anticiper chaque mouvement.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -12239,7 +12543,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 130,
     genre: ['Thriller', 'Horreur'],
     saga: '',
-    description: 'Un avocat marié commet une erreur fatale en couchant avec une femme qui se révèle être une tueuse impitoyable.',
+    description:
+      'Un avocat marié commet une erreur fatale en couchant avec une femme qui se révèle être une tueuse impitoyable.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -12262,7 +12567,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 146,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un cadre envoyé dans un centre de cure isolé découvre que les traitements dissimulent des expériences mortelles.',
+    description:
+      'Un cadre envoyé dans un centre de cure isolé découvre que les traitements dissimulent des expériences mortelles.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -12285,7 +12591,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 125,
     genre: ['Thriller', 'Drame'],
     saga: '',
-    description: 'Un braqueur de banques de Charlestown tombe amoureuse de l\'otage qu\'il a prise lors de son dernier casse.',
+    description:
+      "Un braqueur de banques de Charlestown tombe amoureuse de l'otage qu'il a prise lors de son dernier casse.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -12308,7 +12615,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 99,
     genre: ['Thriller', 'Horreur'],
     saga: '',
-    description: 'Un détective enquête sur un meurtre et découvre que l\'hypnose peut effacer ou fabriquer des souvenirs.',
+    description:
+      "Un détective enquête sur un meurtre et découvre que l'hypnose peut effacer ou fabriquer des souvenirs.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -12331,17 +12639,16 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 107,
     genre: ['Thriller', 'Horreur'],
     saga: '',
-    description: 'Un écrivain à succès se réveille prisonnier d\'une infirmière fanatique qui exige qu\'il réécrive son roman.',
+    description:
+      "Un écrivain à succès se réveille prisonnier d'une infirmière fanatique qui exige qu'il réécrive son roman.",
     fromEntity: {
       entityType: 'book',
-      title: "Misery",
-      secondEntityKey: "Stephen King",
+      title: 'Misery',
+      secondEntityKey: 'Stephen King',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ACTRESS, year: 1991 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ACTRESS, year: 1991 }],
   },
   {
     title: 'Awake',
@@ -12361,7 +12668,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 84,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un homme reste éveillé pendant une opération cardiaque et entend les médecins comploter sa mort.',
+    description:
+      'Un homme reste éveillé pendant une opération cardiaque et entend les médecins comploter sa mort.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -12384,7 +12692,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 74,
     genre: ['Thriller', 'Policier'],
     saga: '',
-    description: 'Un père dont le fils est accusé de meurtre mène sa propre enquête pour prouver son innocence.',
+    description:
+      'Un père dont le fils est accusé de meurtre mène sa propre enquête pour prouver son innocence.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -12407,7 +12716,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 115,
     genre: ['Thriller', 'Action'],
     saga: '',
-    description: 'Un jeune recrue de la CIA découvre que son instructeur pourrait être une taupe au service d\'un pays ennemi.',
+    description:
+      "Un jeune recrue de la CIA découvre que son instructeur pourrait être une taupe au service d'un pays ennemi.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -12430,7 +12740,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 98,
     genre: ['Thriller'],
     saga: '',
-    description: 'Une mère perd sa fille à bord d\'un avion et personne ne croit que l\'enfant ait jamais existé.',
+    description:
+      "Une mère perd sa fille à bord d'un avion et personne ne croit que l'enfant ait jamais existé.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -12453,7 +12764,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 110,
     genre: ['Thriller', 'Drame'],
     saga: '',
-    description: 'Des plongeurs découvrent de l\'héroïne dans l\'épave d\'un avion et sont traqués par ceux qui la cherchent.',
+    description:
+      "Des plongeurs découvrent de l'héroïne dans l'épave d'un avion et sont traqués par ceux qui la cherchent.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -12476,7 +12788,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 96,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un écrivain accusé de plagiat se retrouve seul dans une maison isolée avec un mystérieux visiteur menaçant.',
+    description:
+      'Un écrivain accusé de plagiat se retrouve seul dans une maison isolée avec un mystérieux visiteur menaçant.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -12499,7 +12812,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 122,
     genre: ['Thriller', 'Horreur'],
     saga: '',
-    description: 'L\'inspecteur Abberline enquête sur les meurtres de Jack l\'Éventreur dans le Londres victorien sordide.',
+    description:
+      "L'inspecteur Abberline enquête sur les meurtres de Jack l'Éventreur dans le Londres victorien sordide.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -12522,7 +12836,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 135,
     genre: ['Thriller', 'Action'],
     saga: '',
-    description: 'Un voleur d\'art tente un casse audacieux dans une banque suisse en utilisant le système de ventilation.',
+    description:
+      "Un voleur d'art tente un casse audacieux dans une banque suisse en utilisant le système de ventilation.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -12545,7 +12860,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 130,
     genre: ['Thriller', 'Drame'],
     saga: '',
-    description: 'Un bateau de pêche affronte une tempête dévastatrice au large de Gloucester pendant la saison du thon.',
+    description:
+      'Un bateau de pêche affronte une tempête dévastatrice au large de Gloucester pendant la saison du thon.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -12566,7 +12882,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 106,
     genre: ['Thriller', 'Drame'],
     saga: '',
-    description: 'Une femme sous antidépresseurs commet un acte violent dont elle n\'a aucun souvenir, plongeant son mari dans le doute.',
+    description:
+      "Une femme sous antidépresseurs commet un acte violent dont elle n'a aucun souvenir, plongeant son mari dans le doute.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -12587,7 +12904,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 133,
     genre: ['Policier', 'Drame'],
     saga: '',
-    description: 'La traque de Jacques Mesrine, braqueur et criminel devenu l\'ennemi public numéro un de la France.',
+    description:
+      "La traque de Jacques Mesrine, braqueur et criminel devenu l'ennemi public numéro un de la France.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -12608,7 +12926,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 113,
     genre: ['Policier', 'Drame'],
     saga: '',
-    description: 'Les débuts criminels de Jacques Mesrine, de soldat d\'Algérie à braqueur impitoyable en France et au Canada.',
+    description:
+      "Les débuts criminels de Jacques Mesrine, de soldat d'Algérie à braqueur impitoyable en France et au Canada.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -12629,7 +12948,8 @@ export const baseMoviesThriller: BaseMovie[] = [
     length: 128,
     genre: ['Thriller', 'Action'],
     saga: '',
-    description: 'Un agent du Secret Service traqué par un ancien collègue tente de prouver son innocence dans une affaire d\'assassinat.',
+    description:
+      "Un agent du Secret Service traqué par un ancien collègue tente de prouver son innocence dans une affaire d'assassinat.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -12930,8 +13250,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Alex Karras' },
       { name: 'Jane Greer' },
     ],
-    coverUrl:
-      '/movies_pictures/e3b6df166bb6.jpg',
+    coverUrl: '/movies_pictures/e3b6df166bb6.jpg',
     releaseDate: '1984-03-02',
     length: 128,
     genre: ['Thriller', 'Romance', 'Drame'],
@@ -12953,8 +13272,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'M. Emmet Walsh' },
       { name: 'Samm-Art Williams' },
     ],
-    coverUrl:
-      '/movies_pictures/08e9ecd531ba.jpg',
+    coverUrl: '/movies_pictures/08e9ecd531ba.jpg',
     releaseDate: '1984-09-07',
     length: 99,
     genre: ['Thriller', 'Policier', 'Drame'],
@@ -13171,8 +13489,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Carrie Ng' },
       { name: 'Roy Cheung' },
     ],
-    coverUrl:
-      '/movies_pictures/d5842b0fbe6b.jpg',
+    coverUrl: '/movies_pictures/d5842b0fbe6b.jpg',
     releaseDate: '1987-02-13',
     length: 105,
     genre: ['Policier', 'Action', 'Thriller'],
@@ -13194,8 +13511,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Lilia Skala' },
       { name: 'J.T. Walsh' },
     ],
-    coverUrl:
-      '/movies_pictures/27c12e83d0a9.jpg',
+    coverUrl: '/movies_pictures/27c12e83d0a9.jpg',
     releaseDate: '1987-10-11',
     length: 102,
     genre: ['Thriller', 'Policier', 'Drame'],
@@ -13217,8 +13533,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Suzanne Flon' },
       { name: 'Philippe Khorsand' },
     ],
-    coverUrl:
-      '/movies_pictures/775eea381a93.webp',
+    coverUrl: '/movies_pictures/775eea381a93.webp',
     releaseDate: '1988-02-03',
     length: 100,
     genre: ['Thriller', 'Drame'],
@@ -13240,8 +13555,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Rod Mullinar' },
       { name: 'Joshua Tilden' },
     ],
-    coverUrl:
-      '/movies_pictures/a5b78fcd01be.jpg',
+    coverUrl: '/movies_pictures/a5b78fcd01be.jpg',
     releaseDate: '1989-04-07',
     length: 96,
     genre: ['Thriller', 'Horreur'],
@@ -13267,8 +13581,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'André Wilms' },
       { name: 'Eric Bérenger' },
     ],
-    coverUrl:
-      '/movies_pictures/0c2fd9c387c4.jpg',
+    coverUrl: '/movies_pictures/0c2fd9c387c4.jpg',
     releaseDate: '1989-05-24',
     length: 81,
     genre: ['Thriller', 'Drame', 'Romance'],
@@ -13294,8 +13607,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Michael Rooker' },
       { name: 'William Hickey' },
     ],
-    coverUrl:
-      '/movies_pictures/8ff86fd80266.jpg',
+    coverUrl: '/movies_pictures/8ff86fd80266.jpg',
     releaseDate: '1989-09-15',
     length: 113,
     genre: ['Thriller', 'Policier', 'Romance'],
@@ -13317,8 +13629,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Shigeru Nakano' },
       { name: 'Ittoku Kishibe' },
     ],
-    coverUrl:
-      '/movies_pictures/eff9f018d696.jpg',
+    coverUrl: '/movies_pictures/eff9f018d696.jpg',
     releaseDate: '1989-08-12',
     length: 103,
     genre: ['Policier', 'Action', 'Thriller'],
@@ -13366,8 +13677,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Hisashi Igawa' },
       { name: 'Yuriko Ishida' },
     ],
-    coverUrl:
-      '/movies_pictures/e55cac623439.jpg',
+    coverUrl: '/movies_pictures/e55cac623439.jpg',
     releaseDate: '1990-09-15',
     length: 96,
     genre: ['Policier', 'Action', 'Drame'],
@@ -13389,8 +13699,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'William Baldwin' },
       { name: 'Oliver Platt' },
     ],
-    coverUrl:
-      '/movies_pictures/991c30074ca5.jpg',
+    coverUrl: '/movies_pictures/991c30074ca5.jpg',
     releaseDate: '1990-08-10',
     length: 115,
     genre: ['Thriller', 'Science Fiction', 'Horreur'],
@@ -13412,8 +13721,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'John Turturro' },
       { name: 'Jon Polito' },
     ],
-    coverUrl:
-      '/movies_pictures/239c76c7fc03.jpg',
+    coverUrl: '/movies_pictures/239c76c7fc03.jpg',
     releaseDate: '1990-09-21',
     length: 115,
     genre: ['Policier', 'Drame', 'Thriller'],
@@ -13435,14 +13743,13 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Bonnie Bedelia' },
       { name: 'Greta Scacchi' },
     ],
-    coverUrl:
-      '/movies_pictures/8938e52b12c2.jpg',
+    coverUrl: '/movies_pictures/8938e52b12c2.jpg',
     releaseDate: '1990-07-27',
     length: 127,
     genre: ['Thriller', 'Policier', 'Drame'],
     saga: '',
     description:
-      'Un procureur défend un prêtre accusé de meurtre et découvre que l\'affaire touche son propre entourage.',
+      "Un procureur défend un prêtre accusé de meurtre et découvre que l'affaire touche son propre entourage.",
     fromEntity: {
       entityType: 'book',
       title: 'Présumé innocent',
@@ -13462,14 +13769,13 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Helen Mirren' },
       { name: 'Manfredi Aliquo' },
     ],
-    coverUrl:
-      '/movies_pictures/de8d821d1ba3.jpg',
+    coverUrl: '/movies_pictures/de8d821d1ba3.jpg',
     releaseDate: '1990-11-01',
     length: 107,
     genre: ['Thriller', 'Drame'],
     saga: '',
     description:
-      "Un couple de vacanciers à Venise rencontre un homme étrange qui les entraîne dans une situation mortelle.",
+      'Un couple de vacanciers à Venise rencontre un homme étrange qui les entraîne dans une situation mortelle.',
     fromEntity: {
       entityType: 'book',
       title: "L'Inconfort des inconnus",
@@ -13489,8 +13795,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Allen Payne' },
       { name: 'Chris Rock' },
     ],
-    coverUrl:
-      '/movies_pictures/24cf1a833d48.jpg',
+    coverUrl: '/movies_pictures/24cf1a833d48.jpg',
     releaseDate: '1991-03-08',
     length: 101,
     genre: ['Policier', 'Action', 'Drame'],
@@ -13512,8 +13817,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Tracy Pollan' },
       { name: 'Lee Richardson' },
     ],
-    coverUrl:
-      '/movies_pictures/8e28a3115c6a.jpg',
+    coverUrl: '/movies_pictures/8e28a3115c6a.jpg',
     releaseDate: '1992-07-17',
     length: 109,
     genre: ['Thriller', 'Policier', 'Drame'],
@@ -13535,8 +13839,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Rebecca Miller' },
       { name: 'Forest Whitaker' },
     ],
-    coverUrl:
-      '/movies_pictures/b3557b5e6283.jpg',
+    coverUrl: '/movies_pictures/b3557b5e6283.jpg',
     releaseDate: '1992-10-16',
     length: 99,
     genre: ['Thriller', 'Drame'],
@@ -13558,8 +13861,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Jean-Roger Milo' },
       { name: 'Cécile Garcia-Fogel' },
     ],
-    coverUrl:
-      '/movies_pictures/07e26f89de42.jpeg',
+    coverUrl: '/movies_pictures/07e26f89de42.jpeg',
     releaseDate: '1992-09-09',
     length: 145,
     genre: ['Policier', 'Drame'],
@@ -13581,8 +13883,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Rachel Ticotin' },
       { name: 'Tuesday Weld' },
     ],
-    coverUrl:
-      '/movies_pictures/5d013f1d8791.jpg',
+    coverUrl: '/movies_pictures/5d013f1d8791.jpg',
     releaseDate: '1993-02-26',
     length: 113,
     genre: ['Thriller', 'Drame'],
@@ -13604,8 +13905,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Bulle Ogier' },
       { name: 'Pascal Cervo' },
     ],
-    coverUrl:
-      '/movies_pictures/5af68b36f978.jpg',
+    coverUrl: '/movies_pictures/5af68b36f978.jpg',
     releaseDate: '1994-10-12',
     length: 90,
     genre: ['Policier', 'Thriller', 'Drame'],
@@ -13631,8 +13931,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Tommy Lee Jones' },
       { name: 'Tom Sizemore' },
     ],
-    coverUrl:
-      '/movies_pictures/4c891a3b12e8.jpg',
+    coverUrl: '/movies_pictures/4c891a3b12e8.jpg',
     releaseDate: '1994-08-26',
     length: 119,
     genre: ['Thriller', 'Action', 'Drame'],
@@ -13782,7 +14081,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     genre: ['Thriller', 'Guerre', 'Drame'],
     saga: '',
     description:
-      'Sur un sous-marin nucléaire, le capitaine et son second s\'affrontent sur l\'ordre de lancer ou non un missile.',
+      "Sur un sous-marin nucléaire, le capitaine et son second s'affrontent sur l'ordre de lancer ou non un missile.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -13943,7 +14242,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     genre: ['Policier', 'Romance', 'Comédie'],
     saga: '',
     description:
-      'Un voleur de banque sort de prison et est traqué par un marshal implacable lors d\'un road trip à travers l\'Amérique.',
+      "Un voleur de banque sort de prison et est traqué par un marshal implacable lors d'un road trip à travers l'Amérique.",
     fromEntity: {
       entityType: 'book',
       title: 'Out of Sight',
@@ -13989,8 +14288,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Hope Davis' },
       { name: 'Robert Gossett' },
     ],
-    coverUrl:
-      '/movies_pictures/b80ebc69504e.jpg',
+    coverUrl: '/movies_pictures/b80ebc69504e.jpg',
     releaseDate: '1999-07-09',
     length: 117,
     genre: ['Thriller'],
@@ -14038,8 +14336,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Annabeth Gish' },
       { name: 'Roma Maffia' },
     ],
-    coverUrl:
-      '/movies_pictures/b40cb6696df2.jpg',
+    coverUrl: '/movies_pictures/b40cb6696df2.jpg',
     releaseDate: '1999-09-24',
     length: 105,
     genre: ['Thriller', 'Action'],
@@ -14061,8 +14358,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Salim Kechiouche' },
       { name: 'Yasmine Belmadi' },
     ],
-    coverUrl:
-      '/movies_pictures/8a9d3d4c160c.jpg',
+    coverUrl: '/movies_pictures/8a9d3d4c160c.jpg',
     releaseDate: '1999-11-03',
     length: 96,
     genre: ['Thriller', 'Drame', 'Horreur'],
@@ -14084,8 +14380,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Ben Gazzara' },
       { name: 'Frankie Faison' },
     ],
-    coverUrl:
-      '/movies_pictures/5854c3c2f29b.jpg',
+    coverUrl: '/movies_pictures/5854c3c2f29b.jpg',
     releaseDate: '1999-08-06',
     length: 113,
     genre: ['Thriller', 'Romance', 'Policier'],
@@ -14107,14 +14402,13 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Sophie Guillemin' },
       { name: 'Liliane Rovère' },
     ],
-    coverUrl:
-      '/movies_pictures/7c297ef627c4.jpg',
+    coverUrl: '/movies_pictures/7c297ef627c4.jpg',
     releaseDate: '2000-03-15',
     length: 117,
     genre: ['Thriller', 'Drame'],
     saga: '',
     description:
-      'Un homme solitaire accueille un ami d\'enfance devenu envahissant, dont les attentions glissent vers la violence.',
+      "Un homme solitaire accueille un ami d'enfance devenu envahissant, dont les attentions glissent vers la violence.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -14130,8 +14424,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Rodolphe Pauly' },
       { name: 'Brigitte Catillon' },
     ],
-    coverUrl:
-      '/movies_pictures/5aa18dcd0c30.jpg',
+    coverUrl: '/movies_pictures/5aa18dcd0c30.jpg',
     releaseDate: '2000-10-25',
     length: 99,
     genre: ['Thriller', 'Drame'],
@@ -14157,8 +14450,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Tomás Fonzi' },
       { name: 'Oscar Núñez' },
     ],
-    coverUrl:
-      '/movies_pictures/e29dc67dc75a.jpg',
+    coverUrl: '/movies_pictures/e29dc67dc75a.jpg',
     releaseDate: '2000-08-31',
     length: 114,
     genre: ['Policier', 'Thriller', 'Comédie'],
@@ -14180,14 +14472,13 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Amanda Redman' },
       { name: 'James Fox' },
     ],
-    coverUrl:
-      '/movies_pictures/8c78884d1908.jpg',
+    coverUrl: '/movies_pictures/8c78884d1908.jpg',
     releaseDate: '2000-09-13',
     length: 89,
     genre: ['Policier', 'Thriller', 'Drame'],
     saga: '',
     description:
-      'Un ancien braqueur retraité en Espagne est forcé de revenir pour un casse de lingots d\'or à Londres.',
+      "Un ancien braqueur retraité en Espagne est forcé de revenir pour un casse de lingots d'or à Londres.",
     fromEntity: null,
     countryOrigin: ['Royaume-Uni', 'Espagne'],
     selectDisplayOrder: 0,
@@ -14203,8 +14494,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Jake Weber' },
       { name: 'Dylan Baker' },
     ],
-    coverUrl:
-      '/movies_pictures/df6b3d1fd211.jpg',
+    coverUrl: '/movies_pictures/df6b3d1fd211.jpg',
     releaseDate: '2000-08-18',
     length: 107,
     genre: ['Thriller', 'Horreur', 'Science Fiction'],
@@ -14257,8 +14547,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Charles Berling' },
       { name: 'Jean Rochefort' },
     ],
-    coverUrl:
-      '/movies_pictures/e6f9861e734a.jpg',
+    coverUrl: '/movies_pictures/e6f9861e734a.jpg',
     releaseDate: '2000-04-19',
     length: 90,
     genre: ['Thriller', 'Drame'],
@@ -14280,8 +14569,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Olivia Bonamy' },
       { name: 'Olivier Perrier' },
     ],
-    coverUrl:
-      '/movies_pictures/2fdc8f5c5767.jpg',
+    coverUrl: '/movies_pictures/2fdc8f5c5767.jpg',
     releaseDate: '2001-10-17',
     length: 115,
     genre: ['Thriller', 'Policier', 'Romance'],
@@ -14303,8 +14591,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Michael Badalucco' },
       { name: 'Scarlett Johansson' },
     ],
-    coverUrl:
-      '/movies_pictures/a93aac17c242.jpg',
+    coverUrl: '/movies_pictures/a93aac17c242.jpg',
     releaseDate: '2001-11-02',
     length: 116,
     genre: ['Policier', 'Drame'],
@@ -14349,14 +14636,13 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Zinedine Soualem' },
       { name: 'Natacha Lindinger' },
     ],
-    coverUrl:
-      '/movies_pictures/082bf8876791.jpg',
+    coverUrl: '/movies_pictures/082bf8876791.jpg',
     releaseDate: '2003-03-05',
     length: 111,
     genre: ['Policier', 'Drame', 'Thriller'],
     saga: '',
     description:
-      'Une escort girl se retrouve mêlée à un casse de bijoux lors d\'une soirée chez un producteur de cinéma parisien.',
+      "Une escort girl se retrouve mêlée à un casse de bijoux lors d'une soirée chez un producteur de cinéma parisien.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -14372,14 +14658,13 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Pierre Arditi' },
       { name: 'Michael Lonsdale' },
     ],
-    coverUrl:
-      '/movies_pictures/72676f1f7f9c.jpg',
+    coverUrl: '/movies_pictures/72676f1f7f9c.jpg',
     releaseDate: '2003-06-11',
     length: 118,
     genre: ['Mystère', 'Comédie', 'Policier'],
     saga: 'Rouletabille',
     description:
-      'Le reporter Joseph Rouletabille enquête sur une tentative de meurtre dans une chambre verrouillée de l\'intérieur.',
+      "Le reporter Joseph Rouletabille enquête sur une tentative de meurtre dans une chambre verrouillée de l'intérieur.",
     fromEntity: {
       entityType: 'book',
       title: 'Le Mystère de la chambre jaune',
@@ -14399,8 +14684,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Park Hae-il' },
       { name: 'Jeon Mi-seon' },
     ],
-    coverUrl:
-      '/movies_pictures/cb22b2a23e3c.jpg',
+    coverUrl: '/movies_pictures/cb22b2a23e3c.jpg',
     releaseDate: '2003-05-02',
     length: 132,
     genre: ['Policier', 'Thriller', 'Drame'],
@@ -14426,14 +14710,13 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Marc Schwob' },
       { name: 'Jean-Marie Lamour' },
     ],
-    coverUrl:
-      '/movies_pictures/c05940d4fdca.jpg',
+    coverUrl: '/movies_pictures/c05940d4fdca.jpg',
     releaseDate: '2003-05-21',
     length: 102,
     genre: ['Thriller', 'Drame'],
     saga: '',
     description:
-      'Une écrivaine de polar trouve le cadavre d\'une jeune femme dans la piscine de la villa où elle est en vacances.',
+      "Une écrivaine de polar trouve le cadavre d'une jeune femme dans la piscine de la villa où elle est en vacances.",
     fromEntity: null,
     countryOrigin: ['France', 'Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -14449,14 +14732,13 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Roschdy Zem' },
       { name: 'Valeria Golino' },
     ],
-    coverUrl:
-      '/movies_pictures/949a53aec85f.jpg',
+    coverUrl: '/movies_pictures/949a53aec85f.jpg',
     releaseDate: '2004-11-24',
     length: 111,
     genre: ['Policier', 'Thriller', 'Drame'],
     saga: '',
     description:
-      'Deux flics rivaux du 36, commissaire divisionnaire, s\'affrontent pour une promotion dans une affaire de braquage.',
+      "Deux flics rivaux du 36, commissaire divisionnaire, s'affrontent pour une promotion dans une affaire de braquage.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -14472,8 +14754,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Sienna Miller' },
       { name: 'Michael Gambon' },
     ],
-    coverUrl:
-      '/movies_pictures/81620af8a515.jpg',
+    coverUrl: '/movies_pictures/81620af8a515.jpg',
     releaseDate: '2004-10-01',
     length: 105,
     genre: ['Policier', 'Thriller'],
@@ -14505,7 +14786,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     genre: ['Thriller', 'Policier', 'Drame'],
     saga: '',
     description:
-      'Un convoyeur de fonds taciturne accepte un dernier transport qui le confronte à d\'anciens complices et à la trahison.',
+      "Un convoyeur de fonds taciturne accepte un dernier transport qui le confronte à d'anciens complices et à la trahison.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -14521,8 +14802,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Gilles Lellouche' },
       { name: 'Daniel Njo Lobé' },
     ],
-    coverUrl:
-      '/movies_pictures/88aedbdc0266.jpg',
+    coverUrl: '/movies_pictures/88aedbdc0266.jpg',
     releaseDate: '2005-04-27',
     length: 90,
     genre: ['Thriller', 'Romance'],
@@ -14544,8 +14824,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Hippolyte Girardot' },
       { name: 'Cylia Malki' },
     ],
-    coverUrl:
-      '/movies_pictures/1bd7c9302441.jpg',
+    coverUrl: '/movies_pictures/1bd7c9302441.jpg',
     releaseDate: '2005-10-05',
     length: 84,
     genre: ['Thriller', 'Drame'],
@@ -14578,7 +14857,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     genre: ['Thriller', 'Drame'],
     saga: '',
     description:
-      'Un couple accueille des voisins envahissants dont la présence déclenche une série d\'événements destructeurs.',
+      "Un couple accueille des voisins envahissants dont la présence déclenche une série d'événements destructeurs.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -14594,8 +14873,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Olivier Gourmet' },
       { name: 'Jacques Gamblin' },
     ],
-    coverUrl:
-      '/movies_pictures/af7972c3eb30.jpg',
+    coverUrl: '/movies_pictures/af7972c3eb30.jpg',
     releaseDate: '2006-04-12',
     length: 125,
     genre: ['Policier', 'Aventure', 'Historique'],
@@ -14621,14 +14899,13 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Kristin Scott Thomas' },
       { name: 'François Berléand' },
     ],
-    coverUrl:
-      '/movies_pictures/b22727364203.jpg',
+    coverUrl: '/movies_pictures/b22727364203.jpg',
     releaseDate: '2006-11-01',
     length: 131,
     genre: ['Thriller', 'Policier'],
     saga: '',
     description:
-      'Un médecin découvre huit ans après la mort de sa femme qu\'elle est peut-être encore vivante et qu\'il est surveillé.',
+      "Un médecin découvre huit ans après la mort de sa femme qu'elle est peut-être encore vivante et qu'il est surveillé.",
     fromEntity: {
       entityType: 'book',
       title: 'Ne le dis à personne',

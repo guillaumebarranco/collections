@@ -126,8 +126,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
       { name: 'Christoph Bach' },
       { name: 'Ahmad Kaabour' },
     ],
-    coverUrl:
-      '/movies_pictures/f0b8477d186b.jpg',
+    coverUrl: '/movies_pictures/f0b8477d186b.jpg',
     releaseDate: '2010-10-11',
     length: 339,
     genre: ['Drame', 'Biographie', 'Thriller'],
@@ -549,8 +548,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
       { name: 'Tom Wilkinson' },
       { name: 'Ciarán Hinds' },
     ],
-    coverUrl:
-      '/movies_pictures/eae59e4d785d.jpg',
+    coverUrl: '/movies_pictures/eae59e4d785d.jpg',
     releaseDate: '2010-08-31',
     length: 113,
     genre: ['Thriller', 'Drame'],
@@ -962,8 +960,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
       { name: 'Ahmet Mümtaz Taylan' },
       { name: 'Fırat Kanık' },
     ],
-    coverUrl:
-      '/movies_pictures/e6bbdfc20fac.jpg',
+    coverUrl: '/movies_pictures/e6bbdfc20fac.jpg',
     releaseDate: '2011-09-23',
     length: 157,
     genre: ['Drame', 'Policier', 'Mystère'],
@@ -1279,8 +1276,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
       { name: 'Lasse Fogelstrøm' },
       { name: 'Alexandra Rapaport' },
     ],
-    coverUrl:
-      '/movies_pictures/8f1fc29fab70.jpg',
+    coverUrl: '/movies_pictures/8f1fc29fab70.jpg',
     releaseDate: '2012-10-25',
     length: 115,
     genre: ['Drame', 'Thriller'],
@@ -1302,8 +1298,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
       { name: 'Monia Chokri' },
       { name: 'Yves Jacques' },
     ],
-    coverUrl:
-      '/movies_pictures/3a5ece090d34.jpg',
+    coverUrl: '/movies_pictures/3a5ece090d34.jpg',
     releaseDate: '2012-05-18',
     length: 168,
     genre: ['Drame', 'Romance'],
@@ -1325,8 +1320,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
       { name: 'Lowell Landes' },
       { name: 'Pamela Harper' },
     ],
-    coverUrl:
-      '/movies_pictures/8b02e2f8f67b.jpg',
+    coverUrl: '/movies_pictures/8b02e2f8f67b.jpg',
     releaseDate: '2012-06-27',
     length: 93,
     genre: ['Drame', 'Fantastique'],
@@ -1348,8 +1342,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
       { name: 'Sandrine Kiberlain' },
       { name: 'Lionel Abelanski' },
     ],
-    coverUrl:
-      '/movies_pictures/ec36d29ab038.png',
+    coverUrl: '/movies_pictures/ec36d29ab038.png',
     releaseDate: '2012-02-29',
     length: 115,
     genre: ['Comédie'],
@@ -1394,8 +1387,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
       { name: 'Arthur Dupont' },
       { name: 'Jean-Marc Roulot' },
     ],
-    coverUrl:
-      '/movies_pictures/4ca27bf91920.jpg',
+    coverUrl: '/movies_pictures/4ca27bf91920.jpg',
     releaseDate: '2012-09-19',
     length: 95,
     genre: ['Comédie', 'Drame', 'Biographie'],
@@ -1417,8 +1409,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
       { name: 'Shaun Benson' },
       { name: 'Eddy Mitchell' },
     ],
-    coverUrl:
-      '/movies_pictures/957a43f7f96d.jpg',
+    coverUrl: '/movies_pictures/957a43f7f96d.jpg',
     releaseDate: '2012-11-28',
     length: 111,
     genre: ['Comédie', 'Romance'],
@@ -1440,8 +1431,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
       { name: 'Olivier Perrier' },
       { name: 'Silvia Kahn' },
     ],
-    coverUrl:
-      '/movies_pictures/5a930df406b1.jpg',
+    coverUrl: '/movies_pictures/5a930df406b1.jpg',
     releaseDate: '2012-09-19',
     length: 108,
     genre: ['Drame'],
@@ -1485,8 +1475,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
       { name: 'François Berléand' },
       { name: 'Michaël Youn' },
     ],
-    coverUrl:
-      '/movies_pictures/97e03fdc8ddb.jpg',
+    coverUrl: '/movies_pictures/97e03fdc8ddb.jpg',
     releaseDate: '2012-06-27',
     length: 110,
     genre: ['Comédie', 'Romance'],
@@ -1531,8 +1520,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
       { name: 'Nicolas Marié' },
       { name: 'Bouli Lanners' },
     ],
-    coverUrl:
-      '/movies_pictures/f2ead95ab59d.jpg',
+    coverUrl: '/movies_pictures/f2ead95ab59d.jpg',
     releaseDate: '2013-10-16',
     length: 98,
     genre: ['Comédie'],
@@ -1554,8 +1542,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
       { name: 'Laurie Bordesoules' },
       { name: 'Gilles Cohen' },
     ],
-    coverUrl:
-      '/movies_pictures/41926c4055ea.jpg',
+    coverUrl: '/movies_pictures/41926c4055ea.jpg',
     releaseDate: '2013-04-16',
     length: 104,
     genre: ['Comédie', 'Drame'],
@@ -1577,8 +1564,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
       { name: 'Chris Cooper' },
       { name: 'Margo Martindale' },
     ],
-    coverUrl:
-      '/movies_pictures/e65473689201.jpg',
+    coverUrl: '/movies_pictures/e65473689201.jpg',
     releaseDate: '2013-12-27',
     length: 121,
     genre: ['Drame', 'Comédie'],
@@ -1600,8 +1586,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
       { name: 'Dimitri Storoge' },
       { name: 'Andreas Pietschmann' },
     ],
-    coverUrl:
-      '/movies_pictures/009fed6281de.jpg',
+    coverUrl: '/movies_pictures/009fed6281de.jpg',
     releaseDate: '2013-12-18',
     length: 98,
     genre: ['Aventure', 'Jeunesse', 'Drame'],
@@ -1627,8 +1612,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
       { name: 'Samy Seghir' },
       { name: 'Arly Jover' },
     ],
-    coverUrl:
-      '/movies_pictures/8d02a15624b1.jpg',
+    coverUrl: '/movies_pictures/8d02a15624b1.jpg',
     releaseDate: '2013-11-06',
     length: 96,
     genre: ['Aventure', 'Drame', 'Thriller'],
@@ -1650,8 +1634,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
       { name: 'Michael Zegen' },
       { name: 'Grace Gummer' },
     ],
-    coverUrl:
-      '/movies_pictures/a907066affe8.jpg',
+    coverUrl: '/movies_pictures/a907066affe8.jpg',
     releaseDate: '2013-05-17',
     length: 86,
     genre: ['Comédie', 'Drame'],
@@ -1673,8 +1656,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
       { name: 'Kevin Durand' },
       { name: 'Chad Michael Murray' },
     ],
-    coverUrl:
-      '/movies_pictures/fdd7ba36ef67.jpg',
+    coverUrl: '/movies_pictures/fdd7ba36ef67.jpg',
     releaseDate: '2013-07-12',
     length: 85,
     genre: ['Drame', 'Biographie'],
@@ -1696,8 +1678,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
       { name: 'Omar Sy' },
       { name: 'Aïssa Maïga' },
     ],
-    coverUrl:
-      '/movies_pictures/5fbd89a16e61.jpg',
+    coverUrl: '/movies_pictures/5fbd89a16e61.jpg',
     releaseDate: '2013-04-24',
     length: 125,
     genre: ['Romance', 'Fantastique', 'Drame'],
@@ -1723,8 +1704,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
       { name: 'Jérôme Chappatte' },
       { name: 'Mathieu Vervisch' },
     ],
-    coverUrl:
-      '/movies_pictures/f58eb06f82e2.jpg',
+    coverUrl: '/movies_pictures/f58eb06f82e2.jpg',
     releaseDate: '2013-06-12',
     length: 97,
     genre: ['Thriller', 'Drame', 'Romance'],
@@ -1746,8 +1726,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
       { name: 'Chantal Lauby' },
       { name: 'Barbara Cabrita' },
     ],
-    coverUrl:
-      '/movies_pictures/ad781a17e804.jpg',
+    coverUrl: '/movies_pictures/ad781a17e804.jpg',
     releaseDate: '2013-04-24',
     length: 90,
     genre: ['Comédie'],
@@ -1789,8 +1768,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
       { name: 'Mathieu Amalric' },
       { name: 'Melvil Poupaud' },
     ],
-    coverUrl:
-      '/movies_pictures/a9bf1880ecb0.jpg',
+    coverUrl: '/movies_pictures/a9bf1880ecb0.jpg',
     releaseDate: '2013-11-13',
     length: 96,
     genre: ['Drame', 'Thriller'],
@@ -1816,8 +1794,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
       { name: 'Pauline Burlet' },
       { name: 'Elyes Aguis' },
     ],
-    coverUrl:
-      '/movies_pictures/8a9d573a5359.jpg',
+    coverUrl: '/movies_pictures/8a9d573a5359.jpg',
     releaseDate: '2013-05-17',
     length: 130,
     genre: ['Drame'],
@@ -1839,8 +1816,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
       { name: 'Riaad Moosa' },
       { name: 'Jamie Bartlett' },
     ],
-    coverUrl:
-      '/movies_pictures/9705dcd17318.jpg',
+    coverUrl: '/movies_pictures/9705dcd17318.jpg',
     releaseDate: '2013-11-28',
     length: 141,
     genre: ['Drame', 'Biographie', 'Historique'],
@@ -1866,8 +1842,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
       { name: 'Julie Gayet' },
       { name: 'Anaïs Demoustier' },
     ],
-    coverUrl:
-      '/movies_pictures/47ad478d7bbc.jpg',
+    coverUrl: '/movies_pictures/47ad478d7bbc.jpg',
     releaseDate: '2013-11-06',
     length: 113,
     genre: ['Comédie'],
@@ -1893,8 +1868,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
       { name: 'Ashley Benson' },
       { name: 'Rachel Korine' },
     ],
-    coverUrl:
-      '/movies_pictures/0e8c12f81295.jpg',
+    coverUrl: '/movies_pictures/0e8c12f81295.jpg',
     releaseDate: '2013-03-22',
     length: 94,
     genre: ['Drame', 'Thriller', 'Policier'],
@@ -1916,8 +1890,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
       { name: 'Ibrahim Sinik' },
       { name: 'Yapto Soelisto' },
     ],
-    coverUrl:
-      '/movies_pictures/e74478b3ec69.jpg',
+    coverUrl: '/movies_pictures/e74478b3ec69.jpg',
     releaseDate: '2012-09-01',
     length: 117,
     genre: ['Documentaire'],
@@ -1939,8 +1912,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
       { name: 'Jennifer Jason Leigh' },
       { name: 'Kyle Chandler' },
     ],
-    coverUrl:
-      '/movies_pictures/74a600b1ec43.jpg',
+    coverUrl: '/movies_pictures/74a600b1ec43.jpg',
     releaseDate: '2013-08-02',
     length: 95,
     genre: ['Drame', 'Romance'],
@@ -1966,8 +1938,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
       { name: 'Mariétou Touré' },
       { name: 'Cyril Mendy' },
     ],
-    coverUrl:
-      '/movies_pictures/6e821404dade.jpg',
+    coverUrl: '/movies_pictures/6e821404dade.jpg',
     releaseDate: '2014-10-08',
     length: 112,
     genre: ['Drame'],
@@ -1989,8 +1960,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
       { name: 'Aidan Gillen' },
       { name: 'Dylan Moran' },
     ],
-    coverUrl:
-      '/movies_pictures/8a691d7adb33.jpg',
+    coverUrl: '/movies_pictures/8a691d7adb33.jpg',
     releaseDate: '2014-04-11',
     length: 102,
     genre: ['Drame', 'Thriller'],
@@ -2012,8 +1982,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
       { name: 'Simon Caudry' },
       { name: 'Catherine Salée' },
     ],
-    coverUrl:
-      '/movies_pictures/5eb2d83aad01.jpg',
+    coverUrl: '/movies_pictures/5eb2d83aad01.jpg',
     releaseDate: '2014-05-21',
     length: 95,
     genre: ['Drame'],
@@ -2035,8 +2004,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
       { name: 'Robert Stadlober' },
       { name: 'Charlie Nelson' },
     ],
-    coverUrl:
-      '/movies_pictures/07630957b3c9.jpg',
+    coverUrl: '/movies_pictures/07630957b3c9.jpg',
     releaseDate: '2014-03-05',
     length: 84,
     genre: ['Drame', 'Historique', 'Guerre', 'Thriller'],
@@ -2081,8 +2049,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
       { name: 'Brigitte Roüan' },
       { name: 'William Lebghil' },
     ],
-    coverUrl:
-      '/movies_pictures/1a8477ad4839.jpg',
+    coverUrl: '/movies_pictures/1a8477ad4839.jpg',
     releaseDate: '2014-08-20',
     length: 98,
     genre: ['Comédie', 'Romance', 'Drame'],
@@ -2104,8 +2071,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
       { name: 'Andrew Scott' },
       { name: 'Tom Holland' },
     ],
-    coverUrl:
-      '/movies_pictures/73ac5e2eae33.jpg',
+    coverUrl: '/movies_pictures/73ac5e2eae33.jpg',
     releaseDate: '2014-04-18',
     length: 85,
     genre: ['Drame', 'Thriller'],
@@ -2149,8 +2115,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
       { name: 'Léa Seydoux' },
       { name: 'Amira Casar' },
     ],
-    coverUrl:
-      '/movies_pictures/ad34db11e472.jpg',
+    coverUrl: '/movies_pictures/ad34db11e472.jpg',
     releaseDate: '2014-09-24',
     length: 150,
     genre: ['Drame', 'Biographie'],
@@ -2172,8 +2137,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
       { name: 'Vincent Wettergren' },
       { name: 'Kristofer Hivju' },
     ],
-    coverUrl:
-      '/movies_pictures/30c4411e2e82.jpg',
+    coverUrl: '/movies_pictures/30c4411e2e82.jpg',
     releaseDate: '2014-11-15',
     length: 118,
     genre: ['Drame', 'Comédie'],
@@ -2195,8 +2159,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
       { name: 'Hayley McFarlane' },
       { name: 'Barbara West' },
     ],
-    coverUrl:
-      '/movies_pictures/fe198d2bbe78.jpg',
+    coverUrl: '/movies_pictures/fe198d2bbe78.jpg',
     releaseDate: '2014-05-22',
     length: 94,
     genre: ['Horreur', 'Drame'],
@@ -2218,7 +2181,8 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
       { name: 'Randall Park' },
       { name: 'Diana Bang' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/21ca2f49c3be.jpg',
     releaseDate: '2014-12-25',
     length: 112,
     genre: ['Comédie', 'Action'],
@@ -2240,8 +2204,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
       { name: 'Fatoumata Diawara' },
       { name: 'Hichem Yacoubi' },
     ],
-    coverUrl:
-      '/movies_pictures/f9e11296b4c8.jpg',
+    coverUrl: '/movies_pictures/f9e11296b4c8.jpg',
     releaseDate: '2014-12-10',
     length: 97,
     genre: ['Drame'],
@@ -2263,8 +2226,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
       { name: 'Dougie McConnell' },
       { name: 'Kevin McAlinden' },
     ],
-    coverUrl:
-      '/movies_pictures/c01866131030.jpg',
+    coverUrl: '/movies_pictures/c01866131030.jpg',
     releaseDate: '2014-03-14',
     length: 108,
     genre: ['Science Fiction', 'Thriller', 'Horreur'],
@@ -2290,8 +2252,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
       { name: 'Ayberk Pekcan' },
       { name: 'Serhat Kılıç' },
     ],
-    coverUrl:
-      '/movies_pictures/4846579e992b.jpg',
+    coverUrl: '/movies_pictures/4846579e992b.jpg',
     releaseDate: '2014-06-13',
     length: 196,
     genre: ['Drame'],
@@ -2313,8 +2274,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
       { name: 'Laura Smet' },
       { name: 'Marie de Villepin' },
     ],
-    coverUrl:
-      '/movies_pictures/42d0d6fdfa78.jpg',
+    coverUrl: '/movies_pictures/42d0d6fdfa78.jpg',
     releaseDate: '2014-01-08',
     length: 106,
     genre: ['Drame', 'Biographie'],

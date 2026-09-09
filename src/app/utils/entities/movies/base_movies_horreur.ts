@@ -32,7 +32,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 115,
     genre: ['Horreur'],
     saga: '',
-    description: 'Une journaliste enquête sur une cassette maudite : quiconque la regarde meurt sept jours plus tard, selon une malédiction glaçante.',
+    description:
+      'Une journaliste enquête sur une cassette maudite : quiconque la regarde meurt sept jours plus tard, selon une malédiction glaçante.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -69,7 +70,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 146,
     genre: ['Horreur'],
     saga: '',
-    description: 'Un écrivain accepte d\'être gardien d\'un hôtel isolé en hiver avec sa famille, mais la solitude et des visions le poussent vers la folie meurtrière.',
+    description:
+      "Un écrivain accepte d'être gardien d'un hôtel isolé en hiver avec sa famille, mais la solitude et des visions le poussent vers la folie meurtrière.",
     fromEntity: {
       entityType: 'book',
       title: 'The Shining',
@@ -110,7 +112,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 122,
     genre: ['Horreur'],
     saga: '',
-    description: 'Une mère observe sa fille adolescente sombrer dans des convulsions et des voix obscènes, obligeant deux prêtres à tenter un exorcisme désespéré.',
+    description:
+      'Une mère observe sa fille adolescente sombrer dans des convulsions et des voix obscènes, obligeant deux prêtres à tenter un exorcisme désespéré.',
     fromEntity: {
       entityType: 'book',
       title: "L'Exorciste",
@@ -140,7 +143,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 98,
     genre: ['Horreur'],
     saga: '',
-    description: 'Une lycéenne timide dotée de pouvoirs télékinétiques subit l\'humiliation au bal de promo et se venge dans un bain de sang.',
+    description:
+      "Une lycéenne timide dotée de pouvoirs télékinétiques subit l'humiliation au bal de promo et se venge dans un bain de sang.",
     fromEntity: {
       entityType: 'book',
       title: 'Carrie',
@@ -181,7 +185,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 119,
     genre: ['Horreur'],
     saga: '',
-    description: 'Dans une petite ville californienne, des oiseaux s\'attaquent soudainement aux habitants sans raison apparente, semant la terreur.',
+    description:
+      "Dans une petite ville californienne, des oiseaux s'attaquent soudainement aux habitants sans raison apparente, semant la terreur.",
     fromEntity: {
       entityType: 'book',
       title: 'Les oiseaux et autres nouvelles',
@@ -222,7 +227,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 109,
     genre: ['Horreur'],
     saga: '',
-    description: 'Une secrétaire en fuite s\'arrête dans un motel isolé tenu par un jeune homme troublé et sa mère, où la peur devient mortelle.',
+    description:
+      "Une secrétaire en fuite s'arrête dans un motel isolé tenu par un jeune homme troublé et sa mère, où la peur devient mortelle.",
     fromEntity: {
       entityType: 'book',
       title: 'Psychose',
@@ -263,7 +269,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 124,
     genre: ['Horreur'],
     saga: 'Les Dents de la mer',
-    description: 'Un requin géant terrorise une station balnéaire estivale, forçant le shérif local, un biologiste et un chasseur de requins à l\'affronter.',
+    description:
+      "Un requin géant terrorise une station balnéaire estivale, forçant le shérif local, un biologiste et un chasseur de requins à l'affronter.",
     fromEntity: {
       entityType: 'book',
       title: 'Les Dents de la mer',
@@ -294,7 +301,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 116,
     genre: ['Horreur'],
     saga: 'Les Dents de la mer',
-    description: 'Quatre ans après les attaques d\'Amity, un grand requin blanc menace à nouveau les plages, malgré le refus des autorités d\'admettre le danger.',
+    description:
+      "Quatre ans après les attaques d'Amity, un grand requin blanc menace à nouveau les plages, malgré le refus des autorités d'admettre le danger.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -317,7 +325,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 99,
     genre: ['Horreur', 'Thriller'],
     saga: 'Les Dents de la mer',
-    description: 'Dans un parc aquatique sous une verrière, un requin s\'introduit dans les bassins et traque les visiteurs piégés.',
+    description:
+      "Dans un parc aquatique sous une verrière, un requin s'introduit dans les bassins et traque les visiteurs piégés.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -354,7 +363,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 99,
     genre: ['Horreur'],
     saga: '',
-    description: 'Six spéléologues explorent une grotte inexplorée et découvrent qu\'elles ne sont pas seules, face à des créatures affamées dans l\'obscurité.',
+    description:
+      "Six spéléologues explorent une grotte inexplorée et découvrent qu'elles ne sont pas seules, face à des créatures affamées dans l'obscurité.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -391,7 +401,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 94,
     genre: ['Horreur'],
     saga: '',
-    description: 'Deux enfants passent une semaine chez leurs grands-parents qu\'ils n\'ont jamais rencontrés, et découvrent une étrange malice sous la surface familiale.',
+    description:
+      "Deux enfants passent une semaine chez leurs grands-parents qu'ils n'ont jamais rencontrés, et découvrent une étrange malice sous la surface familiale.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -428,7 +439,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 104,
     genre: ['Horreur'],
     saga: '',
-    description: 'Un auteur spécialisé dans le paranormal accepte de passer une nuit dans la chambre 1408 d\'un hôtel new-yorkais, réputée maudite.',
+    description:
+      "Un auteur spécialisé dans le paranormal accepte de passer une nuit dans la chambre 1408 d'un hôtel new-yorkais, réputée maudite.",
     fromEntity: {
       entityType: 'book',
       title: '1408',
@@ -469,7 +481,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 90,
     genre: ['Horreur'],
     saga: '',
-    description: 'Une famille survit dans le silence absolu pour échapper à des créatures qui chassent au moindre bruit, jusqu\'à l\'arrivée d\'un bébé.',
+    description:
+      "Une famille survit dans le silence absolu pour échapper à des créatures qui chassent au moindre bruit, jusqu'à l'arrivée d'un bébé.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -506,7 +519,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 137,
     genre: ['Horreur'],
     saga: '',
-    description: 'Des frères jumeaux de retour dans leur ville du Mississippi sont confrontés à une menace surnaturelle liée à leur passé et aux racines du lieu.',
+    description:
+      'Des frères jumeaux de retour dans leur ville du Mississippi sont confrontés à une menace surnaturelle liée à leur passé et aux racines du lieu.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -548,7 +562,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 90,
     genre: ['Horreur'],
     saga: '',
-    description: 'Une famille emménage dans une maison où un massacre a eu lieu et est bientôt hantée par des présences de plus en plus violentes.',
+    description:
+      'Une famille emménage dans une maison où un massacre a eu lieu et est bientôt hantée par des présences de plus en plus violentes.',
     fromEntity: {
       entityType: 'book',
       title: 'Amityville Horror',
@@ -589,7 +604,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 90,
     genre: ['Horreur'],
     saga: '',
-    description: 'Un cambrioleur piégé dans une maison luxueuse découvre que le propriétaire y collectionne des corps humains vivants.',
+    description:
+      'Un cambrioleur piégé dans une maison luxueuse découvre que le propriétaire y collectionne des corps humains vivants.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -626,7 +642,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 110,
     genre: ['Horreur', 'Science Fiction'],
     saga: '',
-    description: 'Victor Frankenstein et son assistant Igor relancent l\'expérience de création d\'une créature, avec des conséquences morbides.',
+    description:
+      "Victor Frankenstein et son assistant Igor relancent l'expérience de création d'une créature, avec des conséquences morbides.",
     fromEntity: {
       entityType: 'book',
       title: 'Frankenstein',
@@ -658,7 +675,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 108,
     genre: ['Horreur'],
     saga: '',
-    description: 'Une famille américaine en vacances au Danemark accepte l\'hospitalité d\'un couple britannique dont l\'amabilité devient oppressante.',
+    description:
+      "Une famille américaine en vacances au Danemark accepte l'hospitalité d'un couple britannique dont l'amabilité devient oppressante.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -681,7 +699,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 86,
     genre: ['Horreur', 'Mystère', 'Thriller'],
     saga: '',
-    description: 'Un couple retranché dans une maison de vacances est terrorisé par trois inconnus masqués qui frappent sans raison apparente.',
+    description:
+      'Un couple retranché dans une maison de vacances est terrorisé par trois inconnus masqués qui frappent sans raison apparente.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -704,7 +723,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 83,
     genre: ['Horreur'],
     saga: '',
-    description: 'Des jeunes Texans tombent sur une famille de cannibales dans une ferme isolée, où la tronçonneuse devient l\'arme du massacre.',
+    description:
+      "Des jeunes Texans tombent sur une famille de cannibales dans une ferme isolée, où la tronçonneuse devient l'arme du massacre.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -727,7 +747,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 95,
     genre: ['Horreur', 'Mystère', 'Thriller'],
     saga: '',
-    description: 'Au camp Crystal Lake, un tueur masqué s\'en prend aux conseillers pendant qu\'on évoque une tragédie datant de vingt ans.',
+    description:
+      "Au camp Crystal Lake, un tueur masqué s'en prend aux conseillers pendant qu'on évoque une tragédie datant de vingt ans.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -750,7 +771,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 91,
     genre: ['Horreur', 'Thriller'],
     saga: '',
-    description: 'La veille de Halloween, un tueur en costume de William Shatner égorge des lycéens dans une banlieue californienne.',
+    description:
+      'La veille de Halloween, un tueur en costume de William Shatner égorge des lycéens dans une banlieue californienne.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -773,7 +795,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 91,
     genre: ['Horreur'],
     saga: '',
-    description: 'Des adolescents d\'une banlieue américaine sont traqués dans leurs rêves par Freddy Krueger, qui peut les tuer pendant leur sommeil.',
+    description:
+      "Des adolescents d'une banlieue américaine sont traqués dans leurs rêves par Freddy Krueger, qui peut les tuer pendant leur sommeil.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -796,7 +819,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 109,
     genre: ['Horreur', 'Mystère', 'Science Fiction'],
     saga: '',
-    description: 'Dans une base antarctique, des chercheurs affrontent un organisme extraterrestre capable d\'imiter et de remplacer n\'importe qui.',
+    description:
+      "Dans une base antarctique, des chercheurs affrontent un organisme extraterrestre capable d'imiter et de remplacer n'importe qui.",
     fromEntity: {
       entityType: 'book',
       title: 'Who Goes There?',
@@ -823,7 +847,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 88,
     genre: ['Horreur', 'Mystère', 'Thriller'],
     saga: '',
-    description: 'Un policier écossais enquête sur la disparition d\'une fillette dans une île païenne où les habitants préparent un rituel effrayant.',
+    description:
+      "Un policier écossais enquête sur la disparition d'une fillette dans une île païenne où les habitants préparent un rituel effrayant.",
     fromEntity: {
       entityType: 'book',
       title: 'Ritual',
@@ -864,7 +889,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 87,
     genre: ['Horreur', 'Mystère'],
     saga: 'Sherlock Holmes',
-    description: 'Sherlock Holmes enquête sur une malédiction familiale dans les landes anglaises, où un chien géant semble tuer les héritiers Baskerville.',
+    description:
+      'Sherlock Holmes enquête sur une malédiction familiale dans les landes anglaises, où un chien géant semble tuer les héritiers Baskerville.',
     fromEntity: {
       entityType: 'book' as const,
       title: 'Le Chien des Baskerville',
@@ -905,7 +931,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 89,
     genre: ['Horreur', 'Fantastique', 'Drame'],
     saga: '',
-    description: 'Dans un paysage industriel onirique, un homme solitaire doit s\'occuper d\'un bébé monstrueux né de sa relation avec une voisine.',
+    description:
+      "Dans un paysage industriel onirique, un homme solitaire doit s'occuper d'un bébé monstrueux né de sa relation avec une voisine.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -942,7 +969,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 135,
     genre: ['Horreur', 'Drame', 'Mystère'],
     saga: '',
-    description: 'Les derniers jours de Laura Palmer à Twin Peaks, entre double vie, violence et présence d\'une menace surnaturelle.',
+    description:
+      "Les derniers jours de Laura Palmer à Twin Peaks, entre double vie, violence et présence d'une menace surnaturelle.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -979,7 +1007,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 92,
     genre: ['Horreur', 'Drame', 'Fantastique'],
     saga: '',
-    description: 'Un antiquaire découvre un mécanisme alchimique qui confère la jeunesse éternelle, convoité par un homme d\'affaires et un mort-vivant.',
+    description:
+      "Un antiquaire découvre un mécanisme alchimique qui confère la jeunesse éternelle, convoité par un homme d'affaires et un mort-vivant.",
     fromEntity: null,
     countryOrigin: ['Mexique'],
     selectDisplayOrder: 0,
@@ -1016,7 +1045,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 106,
     genre: ['Horreur', 'Drame', 'Thriller'],
     saga: '',
-    description: 'Espagne, 1937 : une fillette fascinée par un faune rencontre dans une maison isolée découvre que le monstre qu\'elle craint pourrait la protéger.',
+    description:
+      "Espagne, 1937 : une fillette fascinée par un faune rencontre dans une maison isolée découvre que le monstre qu'elle craint pourrait la protéger.",
     fromEntity: null,
     countryOrigin: ['Espagne', 'Mexique'],
     selectDisplayOrder: 0,
@@ -1053,7 +1083,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 99,
     genre: ['Horreur', 'Thriller'],
     saga: '',
-    description: 'Cinq amis en week-end dans une cabane réveillent par inadvertance des forces démoniaques qui les tourmentent dans la forêt.',
+    description:
+      'Cinq amis en week-end dans une cabane réveillent par inadvertance des forces démoniaques qui les tourmentent dans la forêt.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1090,7 +1121,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 89,
     genre: ['Horreur', 'Mystère'],
     saga: '',
-    description: 'Cent ans après le naufrage d\'un navire, une brume surnaturelle envahit une ville côtière californienne, apportant des vengeurs fantomatiques.',
+    description:
+      "Cent ans après le naufrage d'un navire, une brume surnaturelle envahit une ville côtière californienne, apportant des vengeurs fantomatiques.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1127,7 +1159,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 110,
     genre: ['Horreur', 'Thriller'],
     saga: '',
-    description: 'Un lycéen possédé par sa voiture vintage, une Plymouth Fury, commet des meurtres pour éliminer quiconque menace leur lien.',
+    description:
+      'Un lycéen possédé par sa voiture vintage, une Plymouth Fury, commet des meurtres pour éliminer quiconque menace leur lien.',
     fromEntity: {
       entityType: 'book',
       title: 'Christine',
@@ -1168,7 +1201,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 95,
     genre: ['Horreur', 'Mystère', 'Thriller'],
     saga: '',
-    description: 'Un enquêteur d\'assurance est mandaté pour retrouver un auteur de romans d\'horreur dont les livres semblent altérer la réalité.',
+    description:
+      "Un enquêteur d'assurance est mandaté pour retrouver un auteur de romans d'horreur dont les livres semblent altérer la réalité.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1205,7 +1239,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 96,
     genre: ['Horreur', 'Thriller'],
     saga: '',
-    description: 'Des morts ressuscités attaquent une maison de campagne où un groupe de survivants tente de tenir jusqu\'au matin.',
+    description:
+      "Des morts ressuscités attaquent une maison de campagne où un groupe de survivants tente de tenir jusqu'au matin.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1242,7 +1277,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 127,
     genre: ['Horreur', 'Action', 'Science Fiction'],
     saga: '',
-    description: 'Des morts-vivants envahissent un centre commercial de Pittsburgh, piégeant des survivants dans une satire de la consommation.',
+    description:
+      'Des morts-vivants envahissent un centre commercial de Pittsburgh, piégeant des survivants dans une satire de la consommation.',
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Italie'],
     selectDisplayOrder: 0,
@@ -1279,7 +1315,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 101,
     genre: ['Horreur', 'Science Fiction', 'Drame'],
     saga: '',
-    description: 'Des scientifiques et des militaires s\'affrontent dans un bunker souterrain pendant qu\'au-dessus, les morts-vivants ont conquis le monde.',
+    description:
+      "Des scientifiques et des militaires s'affrontent dans un bunker souterrain pendant qu'au-dessus, les morts-vivants ont conquis le monde.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1316,7 +1353,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 93,
     genre: ['Horreur', 'Science Fiction', 'Action'],
     saga: '',
-    description: 'Des survivants barricadés dans une ville assiégée par les morts-vivants espèrent atteindre une île présentée comme un refuge.',
+    description:
+      'Des survivants barricadés dans une ville assiégée par les morts-vivants espèrent atteindre une île présentée comme un refuge.',
     fromEntity: null,
     countryOrigin: ['Canada', 'France', 'États-Unis'],
     selectDisplayOrder: 0,
@@ -1347,7 +1385,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 95,
     genre: ['Horreur', 'Drame'],
     saga: '',
-    description: 'Un adolescent se prend pour un vampire et tue des femmes en injectant un sédatif, tandis que son oncle tente de le ramener à la raison.',
+    description:
+      'Un adolescent se prend pour un vampire et tue des femmes en injectant un sédatif, tandis que son oncle tente de le ramener à la raison.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1378,7 +1417,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 103,
     genre: ['Horreur', 'Science Fiction', 'Action'],
     saga: '',
-    description: 'Une fuite de virus dans une petite ville américaine transforme les habitants en fous meurtriers, déclenchant une répression militaire.',
+    description:
+      'Une fuite de virus dans une petite ville américaine transforme les habitants en fous meurtriers, déclenchant une répression militaire.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1399,7 +1439,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 140,
     genre: ['Horreur', 'Drame'],
     saga: '',
-    description: 'Adaptation de Mary Shelley : Victor Frankenstein redonne vie à une créature assemblée, qui cherche sa place dans un monde qui la rejette.',
+    description:
+      'Adaptation de Mary Shelley : Victor Frankenstein redonne vie à une créature assemblée, qui cherche sa place dans un monde qui la rejette.',
     fromEntity: {
       entityType: 'book',
       title: 'Frankenstein',
@@ -1444,7 +1485,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 102,
     genre: ['Horreur', 'Comédie'],
     saga: '',
-    description: 'Une lycéenne possédée par un démon se nourrit des garçons de son école, tandis que sa meilleure amie tente de l\'arrêter.',
+    description:
+      "Une lycéenne possédée par un démon se nourrit des garçons de son école, tandis que sa meilleure amie tente de l'arrêter.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -1482,7 +1524,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 123,
     genre: ['Horreur', 'Thriller'],
     saga: '',
-    description: 'Un couple adoptif accueille une fillette qui cache une identité terrifiante derrière son apparence d\'enfant modèle.',
+    description:
+      "Un couple adoptif accueille une fillette qui cache une identité terrifiante derrière son apparence d'enfant modèle.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -1519,7 +1562,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 104,
     genre: ['Horreur', 'Mystère'],
     saga: '',
-    description: 'En 1945, dans une demeure brumeuse des Îles Anglo-Normandes, une mère et ses enfants photosensibles croient leur maison hantée.',
+    description:
+      'En 1945, dans une demeure brumeuse des Îles Anglo-Normandes, une mère et ses enfants photosensibles croient leur maison hantée.',
     fromEntity: null,
     countryOrigin: ['Espagne'],
     selectDisplayOrder: 5,
@@ -1556,7 +1600,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 105,
     genre: ['Horreur', 'Mystère'],
     saga: '',
-    description: 'Un enquêteur new-yorkais sceptique enquête sur des décapitations dans une bourgade hantée par la légende du cavalier sans tête.',
+    description:
+      'Un enquêteur new-yorkais sceptique enquête sur des décapitations dans une bourgade hantée par la légende du cavalier sans tête.',
     fromEntity: {
       entityType: 'book',
       title: 'The Legend of Sleepy Hollow',
@@ -1597,7 +1642,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 101,
     genre: ['Horreur', 'Thriller'],
     saga: '',
-    description: 'Quatre amis cachent un accident mortel, mais un an plus tard un tueur en manteau de pêcheur les traque un par un.',
+    description:
+      'Quatre amis cachent un accident mortel, mais un an plus tard un tueur en manteau de pêcheur les traque un par un.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -1635,7 +1681,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 123,
     genre: ['Horreur', 'Drame'],
     saga: '',
-    description: 'Un vampire du XVIIIe siècle raconte sa vie éternelle à un journaliste, de la Nouvelle-Orléans à Paris, entre séduction et cruauté.',
+    description:
+      'Un vampire du XVIIIe siècle raconte sa vie éternelle à un journaliste, de la Nouvelle-Orléans à Paris, entre séduction et cruauté.',
     fromEntity: {
       entityType: 'book',
       title: 'Entretien avec un vampire',
@@ -1676,7 +1723,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 106,
     genre: ['Horreur', 'Comédie'],
     saga: '',
-    description: 'Un cadeau exotique — un mogwai — provoque le chaos dans une petite ville quand ses règles de soin sont transgressées.',
+    description:
+      'Un cadeau exotique — un mogwai — provoque le chaos dans une petite ville quand ses règles de soin sont transgressées.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -1713,7 +1761,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 106,
     genre: ['Horreur', 'Comédie'],
     saga: '',
-    description: 'Les gremlins envahissent un gratte-ciel high-tech de New York, multipliant les parodies et la destruction.',
+    description:
+      'Les gremlins envahissent un gratte-ciel high-tech de New York, multipliant les parodies et la destruction.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -1750,7 +1799,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 91,
     genre: ['Horreur', 'Thriller'],
     saga: '',
-    description: 'Michael Myers s\'échappe d\'un hôpital psychiatrique et retourne tuer dans sa ville natale, traqué par son ancien psychiatre.',
+    description:
+      "Michael Myers s'échappe d'un hôpital psychiatrique et retourne tuer dans sa ville natale, traqué par son ancien psychiatre.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -1770,7 +1820,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 101,
     genre: ['Horreur'],
     saga: '',
-    description: 'Un frère et une sœur pénètrent dans un champ de hautes herbes pour retrouver un enfant perdu et découvrent un labyrinthe spatial horrifique.',
+    description:
+      'Un frère et une sœur pénètrent dans un champ de hautes herbes pour retrouver un enfant perdu et découvrent un labyrinthe spatial horrifique.',
     fromEntity: {
       entityType: 'book',
       title: 'Dans les hautes herbes',
@@ -1794,7 +1845,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 91,
     genre: ['Horreur'],
     saga: '',
-    description: 'Deux sœurs héritent d\'une maison isolée où une nuit d\'horreur les confronte à des agresseurs et à des secrets familiaux.',
+    description:
+      "Deux sœurs héritent d'une maison isolée où une nuit d'horreur les confronte à des agresseurs et à des secrets familiaux.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1814,7 +1866,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 103,
     genre: ['Horreur'],
     saga: '',
-    description: 'Un adolescent kidnappé dans un sous-sol découvre qu\'un téléphone débranché lui permet de communiquer avec les victimes précédentes du ravisseur.',
+    description:
+      "Un adolescent kidnappé dans un sous-sol découvre qu'un téléphone débranché lui permet de communiquer avec les victimes précédentes du ravisseur.",
     fromEntity: {
       entityType: 'book',
       title: 'The Black Phone',
@@ -1838,7 +1891,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 113,
     genre: ['Horreur'],
     saga: '',
-    description: 'Des amis en road trip tombent sur une ville fantôme où une maison de cire recèle des secrets macabres.',
+    description:
+      'Des amis en road trip tombent sur une ville fantôme où une maison de cire recèle des secrets macabres.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1858,7 +1912,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 96,
     genre: ['Horreur'],
     saga: '',
-    description: 'Une étudiante revit sans cesse le jour de son anniversaire — et de son assassinat — jusqu\'à identifier son tueur.',
+    description:
+      "Une étudiante revit sans cesse le jour de son anniversaire — et de son assassinat — jusqu'à identifier son tueur.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1878,7 +1933,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 95,
     genre: ['Horreur'],
     saga: '',
-    description: 'Des résidents d\'une région rurale québécoise affrontent une épidémie transformant leurs proches en assaillants voraces.',
+    description:
+      "Des résidents d'une région rurale québécoise affrontent une épidémie transformant leurs proches en assaillants voraces.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1898,7 +1954,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 80,
     genre: ['Horreur'],
     saga: '',
-    description: 'Un couple attend un bébé dans une ferme thaïlandaise où les traditions locales cachent un rituel terrifiant.',
+    description:
+      'Un couple attend un bébé dans une ferme thaïlandaise où les traditions locales cachent un rituel terrifiant.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1918,7 +1975,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 88,
     genre: ['Horreur'],
     saga: '',
-    description: 'Quatre jeunes tombent sur une famille de psychopathes et leur maison de horreurs dans l\'Amérique profonde.',
+    description:
+      "Quatre jeunes tombent sur une famille de psychopathes et leur maison de horreurs dans l'Amérique profonde.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1938,7 +1996,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 91,
     genre: ['Horreur'],
     saga: '',
-    description: 'Une malédiction japonaise se propage dans un immeuble de Tokyo, tuant quiconque croise la trace d\'un ressentiment mortel.',
+    description:
+      "Une malédiction japonaise se propage dans un immeuble de Tokyo, tuant quiconque croise la trace d'un ressentiment mortel.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1958,7 +2017,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 99,
     genre: ['Horreur'],
     saga: '',
-    description: 'Un couple attend un enfant lorsque une poupée possédée devient le vecteur d\'une présence démoniaque dans leur maison.',
+    description:
+      "Un couple attend un enfant lorsque une poupée possédée devient le vecteur d'une présence démoniaque dans leur maison.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1978,7 +2038,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 100,
     genre: ['Horreur'],
     saga: '',
-    description: 'Un prêtre et une novice enquêtent sur le suicide d\'une religieuse dans un couvent roumain isolé, où une entité maléfique règne.',
+    description:
+      "Un prêtre et une novice enquêtent sur le suicide d'une religieuse dans un couvent roumain isolé, où une entité maléfique règne.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1998,7 +2059,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 108,
     genre: ['Horreur'],
     saga: '',
-    description: 'Un mortician découvre des forces surnaturelles dans sa funérarium, liées à une jeune fille et à un culte occulte.',
+    description:
+      'Un mortician découvre des forces surnaturelles dans sa funérarium, liées à une jeune fille et à un culte occulte.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2018,7 +2080,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 98,
     genre: ['Horreur'],
     saga: '',
-    description: 'Un garçon asthmatique est interné dans une clinique isolée pour son allergie, mais les traitements cachent une vérité terrifiante.',
+    description:
+      'Un garçon asthmatique est interné dans une clinique isolée pour son allergie, mais les traitements cachent une vérité terrifiante.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2038,7 +2101,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 116,
     genre: ['Horreur'],
     saga: '',
-    description: 'Des doppelgängers identiques à une famille attaquent leur maison de vacances, révélant un passé enfoui sous le boardwalk.',
+    description:
+      'Des doppelgängers identiques à une famille attaquent leur maison de vacances, révélant un passé enfoui sous le boardwalk.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2058,7 +2122,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 140,
     genre: ['Horreur'],
     saga: '',
-    description: 'Une étudiante en deuil participe à un festival suédois estival qui se transforme en rituel païen de plus en plus violent.',
+    description:
+      'Une étudiante en deuil participe à un festival suédois estival qui se transforme en rituel païen de plus en plus violent.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2078,7 +2143,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 89,
     genre: ['Horreur'],
     saga: '',
-    description: 'Une jeune fille croit qu\'une sorcière du folklore slave la hante après avoir découvert une poupée maudite.',
+    description:
+      "Une jeune fille croit qu'une sorcière du folklore slave la hante après avoir découvert une poupée maudite.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2097,7 +2163,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 77,
     genre: ['Horreur'],
     saga: '',
-    description: 'Un vidéaste répond à une annonce pour filmer un homme isolé en montagne, qui se révèle de plus en plus menaçant.',
+    description:
+      'Un vidéaste répond à une annonce pour filmer un homme isolé en montagne, qui se révèle de plus en plus menaçant.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2117,7 +2184,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 95,
     genre: ['Horreur'],
     saga: '',
-    description: 'Un barman trouve un téléphone perdu et reçoit des messages glaçants liés à une présence surnaturelle.',
+    description:
+      'Un barman trouve un téléphone perdu et reçoit des messages glaçants liés à une présence surnaturelle.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2140,7 +2208,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 99,
     genre: ['Horreur', 'Drame'],
     saga: '',
-    description: 'Une étudiante en médecine végétarienne développe un appétit pour la chair humaine après des rituels d\'initiation sanglants.',
+    description:
+      "Une étudiante en médecine végétarienne développe un appétit pour la chair humaine après des rituels d'initiation sanglants.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
@@ -2177,7 +2246,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 95,
     genre: ['Horreur', 'Thriller'],
     saga: '',
-    description: 'Un groupe d\'amis piégés dans une maison de jeu doivent survivre à des épreuves mortelles orchestrées par un mystérieux organisateur.',
+    description:
+      "Un groupe d'amis piégés dans une maison de jeu doivent survivre à des épreuves mortelles orchestrées par un mystérieux organisateur.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -2215,7 +2285,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 128,
     genre: ['Horreur'],
     saga: '',
-    description: 'Des habitants d\'une petite ville disparaissent les uns après les autres, révélant une conspiration souterraine terrifiante.',
+    description:
+      "Des habitants d'une petite ville disparaissent les uns après les autres, révélant une conspiration souterraine terrifiante.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -2246,7 +2317,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 103,
     genre: ['Horreur'],
     saga: '',
-    description: 'Des amis piégés dans une cabane sont tués par un tueur masqué, mais revivent la même nuit encore et encore.',
+    description:
+      'Des amis piégés dans une cabane sont tués par un tueur masqué, mais revivent la même nuit encore et encore.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -2277,7 +2349,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 132,
     genre: ['Horreur'],
     saga: '',
-    description: 'Une jeune femme du XIXe siècle est hantée par le comte Orlok, un vampire qui sème la peste dans une ville balte.',
+    description:
+      'Une jeune femme du XIXe siècle est hantée par le comte Orlok, un vampire qui sème la peste dans une ville balte.',
     fromEntity: {
       entityType: 'book',
       title: 'Dracula',
@@ -2309,7 +2382,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 140,
     genre: ['Horreur'],
     saga: '',
-    description: 'Une star de télévision utilise un sérum qui crée une version plus jeune d\'elle-même, mais l\'équilibre entre les deux corps devient monstrueux.',
+    description:
+      "Une star de télévision utilise un sérum qui crée une version plus jeune d'elle-même, mais l'équilibre entre les deux corps devient monstrueux.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -2340,7 +2414,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 110,
     genre: ['Horreur'],
     saga: '',
-    description: 'Un gardien de sécurité de nuit dans un restaurant abandonné découvre que les animatroniques prennent vie et le traquent.',
+    description:
+      'Un gardien de sécurité de nuit dans un restaurant abandonné découvre que les animatroniques prennent vie et le traquent.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -2377,7 +2452,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 165,
     genre: ['Horreur', 'Western'],
     saga: '',
-    description: 'Un nouveau gardien de nuit affronte des animatroniques encore plus agressifs dans un centre de divertissement familial.',
+    description:
+      'Un nouveau gardien de nuit affronte des animatroniques encore plus agressifs dans un centre de divertissement familial.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -2400,7 +2476,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 126,
     genre: ['Horreur'],
     saga: '',
-    description: 'Après la mort de leur grand-mère, une famille découvre des liens avec un culte démoniaque qui cible le fils aîné.',
+    description:
+      'Après la mort de leur grand-mère, une famille découvre des liens avec un culte démoniaque qui cible le fils aîné.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -2423,7 +2500,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 135,
     genre: ['Horreur'],
     saga: '',
-    description: 'Des enfants d\'une ville américaine affrontent une entité prenant la forme d\'un clown pour se nourrir de leurs peurs.',
+    description:
+      "Des enfants d'une ville américaine affrontent une entité prenant la forme d'un clown pour se nourrir de leurs peurs.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -2446,7 +2524,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 104,
     genre: ['Horreur'],
     saga: '',
-    description: 'Un jeune Afro-Américain rend visite à la famille blanche de sa petite amie, où l\'hospitalité cache une conspiration raciste glaçante.',
+    description:
+      "Un jeune Afro-Américain rend visite à la famille blanche de sa petite amie, où l'hospitalité cache une conspiration raciste glaçante.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -2469,7 +2548,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 109,
     genre: ['Horreur'],
     saga: '',
-    description: 'Lors d\'une élection présidentielle, les Purges légalisées deviennent une arme politique dans une Amérique dystopique.',
+    description:
+      "Lors d'une élection présidentielle, les Purges légalisées deviennent une arme politique dans une Amérique dystopique.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -2492,7 +2572,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 118,
     genre: ['Horreur'],
     saga: '',
-    description: 'Un père et sa fille montent dans un train vers Busan au moment où une épidémie zombique déferle sur la Corée du Sud.',
+    description:
+      'Un père et sa fille montent dans un train vers Busan au moment où une épidémie zombique déferle sur la Corée du Sud.',
     fromEntity: null,
     countryOrigin: ['Corée du Sud'],
     selectDisplayOrder: 30,
@@ -2515,7 +2596,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 119,
     genre: ['Horreur'],
     saga: '',
-    description: 'Une jeune auteure épouse un séduisant Anglais et déménage dans un manoir hanté où son épouse et sa sœur cachent des secrets sanglants.',
+    description:
+      'Une jeune auteure épouse un séduisant Anglais et déménage dans un manoir hanté où son épouse et sa sœur cachent des secrets sanglants.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -2538,7 +2620,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 95,
     genre: ['Horreur'],
     saga: '',
-    description: 'Un père du Midwest doit affronter la transformation zombique progressive de sa fille adolescente.',
+    description:
+      'Un père du Midwest doit affronter la transformation zombique progressive de sa fille adolescente.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -2561,7 +2644,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 94,
     genre: ['Horreur'],
     saga: '',
-    description: 'Une veuve et son fils sont terrorisés par une créature sortie d\'un livre d\'enfants qui semble matérialiser leur deuil.',
+    description:
+      "Une veuve et son fils sont terrorisés par une créature sortie d'un livre d'enfants qui semble matérialiser leur deuil.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -2584,7 +2668,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 100,
     genre: ['Horreur'],
     saga: '',
-    description: 'Deux fillettes élevées dans la forêt par une présence surnaturelle sont retrouvées et confiées à leur oncle, mais Mama les réclame.',
+    description:
+      'Deux fillettes élevées dans la forêt par une présence surnaturelle sont retrouvées et confiées à leur oncle, mais Mama les réclame.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -2607,7 +2692,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 110,
     genre: ['Horreur'],
     saga: '',
-    description: 'Un auteur true crime déménage avec sa famille dans une maison où il découvre des bobines montrant des meurtres rituellement filmés.',
+    description:
+      'Un auteur true crime déménage avec sa famille dans une maison où il découvre des bobines montrant des meurtres rituellement filmés.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -2630,7 +2716,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 95,
     genre: ['Horreur'],
     saga: '',
-    description: 'Cinq amis partent en week-end dans une cabane isolée, ignorant qu\'ils sont les pions d\'une organisation contrôlant les horreurs du monde.',
+    description:
+      "Cinq amis partent en week-end dans une cabane isolée, ignorant qu'ils sont les pions d'une organisation contrôlant les horreurs du monde.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -2653,7 +2740,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 89,
     genre: ['Horreur'],
     saga: '',
-    description: 'Un tremblement de terre libère des piranhas préhistoriques dans un lac touristique, transformant le spring break en carnage aquatique.',
+    description:
+      'Un tremblement de terre libère des piranhas préhistoriques dans un lac touristique, transformant le spring break en carnage aquatique.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -2676,7 +2764,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 87,
     genre: ['Horreur'],
     saga: '',
-    description: 'Un prêtre documente ce qu\'il présente comme son dernier exorcisme, jusqu\'à ce qu\'une possession réelle le rattrape.',
+    description:
+      "Un prêtre documente ce qu'il présente comme son dernier exorcisme, jusqu'à ce qu'une possession réelle le rattrape.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -2699,7 +2788,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 80,
     genre: ['Horreur'],
     saga: '',
-    description: 'Une équipe de télévision suit des pompiers dans un immeuble barcelonnais où une infection démoniaque piège les habitants.',
+    description:
+      'Une équipe de télévision suit des pompiers dans un immeuble barcelonnais où une infection démoniaque piège les habitants.',
     fromEntity: null,
     countryOrigin: ['Espagne'],
     selectDisplayOrder: 5,
@@ -2722,7 +2812,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 107,
     genre: ['Horreur'],
     saga: '',
-    description: 'Une famille en voyage dans le désert du Nouveau-Mexique est attaquée par une communauté de cannibales mutants.',
+    description:
+      'Une famille en voyage dans le désert du Nouveau-Mexique est attaquée par une communauté de cannibales mutants.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -2745,7 +2836,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 100,
     genre: ['Horreur'],
     saga: '',
-    description: 'Des survivants d\'une apocalypse zombie tentent de traverser Las Vegas avant qu\'une bombe ne détruise la ville infestée.',
+    description:
+      "Des survivants d'une apocalypse zombie tentent de traverser Las Vegas avant qu'une bombe ne détruise la ville infestée.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -2768,7 +2860,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 81,
     genre: ['Horreur'],
     saga: '',
-    description: 'Trois étudiants disparaissent en filmant un documentaire sur une légende de sorcière dans les bois du Maryland.',
+    description:
+      'Trois étudiants disparaissent en filmant un documentaire sur une légende de sorcière dans les bois du Maryland.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -2806,7 +2899,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 91,
     genre: ['Horreur', 'Science Fiction'],
     saga: '',
-    description: 'Un couple adoptif découvre que leur fils venu de l\'espace possède des pouvoirs surhumains et une cruauté grandissante.',
+    description:
+      "Un couple adoptif découvre que leur fils venu de l'espace possède des pouvoirs surhumains et une cruauté grandissante.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -2837,7 +2931,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 109,
     genre: ['Horreur'],
     saga: '',
-    description: 'Un thriller d\'horreur où la fixation d\'un individu sur sa cible bascule dans la violence et la paranoïa.',
+    description:
+      "Un thriller d'horreur où la fixation d'un individu sur sa cible bascule dans la violence et la paranoïa.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2860,7 +2955,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 106,
     genre: ['Horreur'],
     saga: '',
-    description: 'Des araignées venimeuses envahient un immeuble parisien, piégeant les résidents dans une lutte claustrophobe pour survivre.',
+    description:
+      'Des araignées venimeuses envahient un immeuble parisien, piégeant les résidents dans une lutte claustrophobe pour survivre.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -2880,7 +2976,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 115,
     genre: ['Horreur', 'Drame'],
     saga: '',
-    description: 'Adaptation horrifique d\'une œuvre nordique où des secrets enfouis refont surface dans une communauté isolée.',
+    description:
+      "Adaptation horrifique d'une œuvre nordique où des secrets enfouis refont surface dans une communauté isolée.",
     fromEntity: {
       entityType: 'book',
       title: 'Laisse-moi entrer',
@@ -2905,7 +3002,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 127,
     genre: ['Horreur', 'Drame'],
     saga: '',
-    description: 'Une famille déchirée par le deuil découvre que leur lignée est liée à un culte démoniaque visant les enfants.',
+    description:
+      'Une famille déchirée par le deuil découvre que leur lignée est liée à un culte démoniaque visant les enfants.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2926,7 +3024,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 92,
     genre: ['Horreur', 'Drame'],
     saga: '',
-    description: 'Dans la Nouvelle-Angleterre du XVIIe siècle, une famille puritaine exilée dans la forêt affronte une sorcière et la paranoïa.',
+    description:
+      'Dans la Nouvelle-Angleterre du XVIIe siècle, une famille puritaine exilée dans la forêt affronte une sorcière et la paranoïa.',
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Canada', 'Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -2947,7 +3046,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 100,
     genre: ['Horreur', 'Thriller'],
     saga: '',
-    description: 'Une adolescente est poursuivie par une entité surnaturelle transmise sexuellement, visible seulement par sa cible et les précédentes victimes.',
+    description:
+      'Une adolescente est poursuivie par une entité surnaturelle transmise sexuellement, visible seulement par sa cible et les précédentes victimes.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2968,7 +3068,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 115,
     genre: ['Horreur'],
     saga: 'Smile',
-    description: 'Une thérapeute est hantée par des visages souriants liés à un suicide, révélant une malédiction qui se propage par le trauma.',
+    description:
+      'Une thérapeute est hantée par des visages souriants liés à un suicide, révélant une malédiction qui se propage par le trauma.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2989,7 +3090,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 127,
     genre: ['Horreur'],
     saga: 'Smile',
-    description: 'Une star de la pop en tournée mondiale est rattrapée par la malédiction du sourire, qui se transmet par les témoins de la mort.',
+    description:
+      'Une star de la pop en tournée mondiale est rattrapée par la malédiction du sourire, qui se transmet par les témoins de la mort.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3010,7 +3112,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 95,
     genre: ['Horreur'],
     saga: '',
-    description: 'Des adolescents utilisent une main embalmée pour invoquer des esprits lors de séances, jusqu\'à ce qu\'une possession devienne réelle.',
+    description:
+      "Des adolescents utilisent une main embalmée pour invoquer des esprits lors de séances, jusqu'à ce qu'une possession devienne réelle.",
     fromEntity: null,
     countryOrigin: ['Australie'],
     selectDisplayOrder: 0,
@@ -3030,7 +3133,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 102,
     genre: ['Horreur', 'Thriller'],
     saga: '',
-    description: 'Un homme loue une maison à Détroit et découvre un sous-sol secret où une créature terrifiante règne.',
+    description:
+      'Un homme loue une maison à Détroit et découvre un sous-sol secret où une créature terrifiante règne.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3051,7 +3155,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 126,
     genre: ['Horreur', 'Thriller', 'Science Fiction'],
     saga: '',
-    description: 'Des habitants d\'une ville du Maine sont piégés dans un supermarché enveloppé par une brume peuplée de créatures monstrueuses.',
+    description:
+      "Des habitants d'une ville du Maine sont piégés dans un supermarché enveloppé par une brume peuplée de créatures monstrueuses.",
     fromEntity: {
       entityType: 'book',
       title: 'Brume',
@@ -3076,7 +3181,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 81,
     genre: ['Horreur'],
     saga: '',
-    description: 'Une femme protège son frère d\'une présence qui n\'apparaît que dans l\'obscurité, liée à leur mère et à un passé traumatique.',
+    description:
+      "Une femme protège son frère d'une présence qui n'apparaît que dans l'obscurité, liée à leur mère et à un passé traumatique.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3097,7 +3203,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 93,
     genre: ['Horreur'],
     saga: '',
-    description: 'En 1977, une émission de talk-show nocturne diffuse en direct un segment d\'exorcisme qui tourne au chaos surnaturel.',
+    description:
+      "En 1977, une émission de talk-show nocturne diffuse en direct un segment d'exorcisme qui tourne au chaos surnaturel.",
     fromEntity: null,
     countryOrigin: ['Australie', 'États-Unis'],
     selectDisplayOrder: 0,
@@ -3118,7 +3225,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 100,
     genre: ['Horreur', 'Drame'],
     saga: '',
-    description: 'Deux adolescents obsédés par une émission télé nocturne découvrent que la frontière entre fiction et réalité se dissout.',
+    description:
+      'Deux adolescents obsédés par une émission télé nocturne découvrent que la frontière entre fiction et réalité se dissout.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3138,7 +3246,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 108,
     genre: ['Horreur', 'Drame', 'Science Fiction'],
     saga: '',
-    description: 'Une danseuse avec une plaque métallique dans la tête développe une attirance destructrice pour les voitures après un accident.',
+    description:
+      'Une danseuse avec une plaque métallique dans la tête développe une attirance destructrice pour les voitures après un accident.',
     fromEntity: null,
     countryOrigin: ['France', 'Belgique'],
     selectDisplayOrder: 0,
@@ -3586,8 +3695,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
       { name: 'Clelia Matania' },
       { name: 'Massimo Serato' },
     ],
-    coverUrl:
-      '/movies_pictures/71d012c2169d.jpg',
+    coverUrl: '/movies_pictures/71d012c2169d.jpg',
     releaseDate: '1973-10-16',
     length: 110,
     genre: ['Horreur', 'Thriller', 'Drame'],
@@ -3613,8 +3721,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
       { name: 'Billie Whitelaw' },
       { name: 'Harvey Stephens' },
     ],
-    coverUrl:
-      '/movies_pictures/94c835af46c6.jpeg',
+    coverUrl: '/movies_pictures/94c835af46c6.jpeg',
     releaseDate: '1976-06-06',
     length: 111,
     genre: ['Horreur', 'Thriller'],
@@ -3636,8 +3743,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
       { name: 'Shelley Winters' },
       { name: 'Jo Van Fleet' },
     ],
-    coverUrl:
-      '/movies_pictures/cdd3c20190eb.jpg',
+    coverUrl: '/movies_pictures/cdd3c20190eb.jpg',
     releaseDate: '1976-05-24',
     length: 126,
     genre: ['Horreur', 'Thriller', 'Drame'],
@@ -3663,8 +3769,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
       { name: 'Henry Beckman' },
       { name: 'Nuala Fitzgerald' },
     ],
-    coverUrl:
-      '/movies_pictures/fce60f83bc31.jpg',
+    coverUrl: '/movies_pictures/fce60f83bc31.jpg',
     releaseDate: '1979-05-25',
     length: 92,
     genre: ['Horreur', 'Science Fiction'],
@@ -3686,7 +3791,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
       { name: 'Roland Topor' },
       { name: 'Walter Ladengast' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/8d628d1083b3.jpg',
     releaseDate: '1979-01-17',
     length: 107,
     genre: ['Horreur', 'Drame', 'Fantastique'],
@@ -3719,7 +3825,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 82,
     genre: ['Horreur', 'Comédie'],
     saga: '',
-    description: 'Un énorme crocodile attaque les habitants d\'un lac du Maine, mobilisant un paléontologue et le shérif local.',
+    description:
+      "Un énorme crocodile attaque les habitants d'un lac du Maine, mobilisant un paléontologue et le shérif local.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3742,7 +3849,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 90,
     genre: ['Horreur'],
     saga: '',
-    description: 'Des zombies sortent d\'un lac contaminé et attaquent les vacanciers d\'une station balnéaire française.',
+    description:
+      "Des zombies sortent d'un lac contaminé et attaquent les vacanciers d'une station balnéaire française.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -3765,7 +3873,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 95,
     genre: ['Horreur', 'Thriller'],
     saga: '',
-    description: 'Un écrivain enquête sur un asile abandonné dont le fondateur expérimentait sur la frontière entre réalité et cauchemar.',
+    description:
+      'Un écrivain enquête sur un asile abandonné dont le fondateur expérimentait sur la frontière entre réalité et cauchemar.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3788,7 +3897,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 99,
     genre: ['Horreur', 'Thriller'],
     saga: '',
-    description: 'Une danseuse américaine intègre une prestigieuse académie de ballet à Berlin, où des disparitions révèlent un coven de sorcières.',
+    description:
+      'Une danseuse américaine intègre une prestigieuse académie de ballet à Berlin, où des disparitions révèlent un coven de sorcières.',
     fromEntity: null,
     countryOrigin: ['Italie'],
     selectDisplayOrder: 0,
@@ -3811,7 +3921,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 113,
     genre: ['Horreur', 'Thriller'],
     saga: '',
-    description: 'Une ville d\'Alaska plongée dans l\'obscurité polaire est assiégée par un clan de vampires affamés.',
+    description:
+      "Une ville d'Alaska plongée dans l'obscurité polaire est assiégée par un clan de vampires affamés.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3834,7 +3945,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 99,
     genre: ['Horreur'],
     saga: '',
-    description: 'Une petite fille découvre des créatures souterraines dans la demeure victorienne où sa famille vient d\'emménager.',
+    description:
+      "Une petite fille découvre des créatures souterraines dans la demeure victorienne où sa famille vient d'emménager.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3857,7 +3969,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 92,
     genre: ['Horreur'],
     saga: '',
-    description: 'Michael Myers continue son massacre à Haddonfield tandis que la Dre Loomis le traque dans l\'hôpital local.',
+    description:
+      "Michael Myers continue son massacre à Haddonfield tandis que la Dre Loomis le traque dans l'hôpital local.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3880,7 +3993,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 98,
     genre: ['Horreur', 'Science Fiction'],
     saga: '',
-    description: 'Un fabricant de masques Halloween prépare un rituel télévisé pour sacrifier les enfants portant ses costumes.',
+    description:
+      'Un fabricant de masques Halloween prépare un rituel télévisé pour sacrifier les enfants portant ses costumes.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3903,7 +4017,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 88,
     genre: ['Horreur'],
     saga: '',
-    description: 'Dix ans après les meurtres, Michael Myers s\'échappe à nouveau et traque sa nièce dans l\'Illinois.',
+    description:
+      "Dix ans après les meurtres, Michael Myers s'échappe à nouveau et traque sa nièce dans l'Illinois.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3926,7 +4041,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 94,
     genre: ['Horreur', 'Thriller'],
     saga: '',
-    description: 'Des backpackers en Europe de l\'Est sont piégés dans une organisation où des clients riches torturent des touristes.',
+    description:
+      "Des backpackers en Europe de l'Est sont piégés dans une organisation où des clients riches torturent des touristes.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3949,7 +4065,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 94,
     genre: ['Horreur', 'Thriller'],
     saga: '',
-    description: 'Des étudiantes américaines sont enlevées et vendues au même réseau sadique de chasse à l\'homme en Slovaquie.',
+    description:
+      "Des étudiantes américaines sont enlevées et vendues au même réseau sadique de chasse à l'homme en Slovaquie.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3972,7 +4089,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 88,
     genre: ['Horreur', 'Thriller'],
     saga: '',
-    description: 'L\'organisation Elite Hunting déplace ses opérations à Las Vegas, ciblant un groupe de fêtards.',
+    description:
+      "L'organisation Elite Hunting déplace ses opérations à Las Vegas, ciblant un groupe de fêtards.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3995,7 +4113,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 104,
     genre: ['Horreur'],
     saga: '',
-    description: 'Avant les Lutzes, une autre famille de Amityville est possédée par des forces démoniaques dans la maison hantée.',
+    description:
+      'Avant les Lutzes, une autre famille de Amityville est possédée par des forces démoniaques dans la maison hantée.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4018,7 +4137,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 84,
     genre: ['Horreur', 'Thriller'],
     saga: '',
-    description: 'Des étudiants en road trip dévient de leur route et tombent sur une famille de cannibales dans les montagnes de Virginie-Occidentale.',
+    description:
+      'Des étudiants en road trip dévient de leur route et tombent sur une famille de cannibales dans les montagnes de Virginie-Occidentale.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4041,7 +4161,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 123,
     genre: ['Horreur', 'Thriller'],
     saga: '',
-    description: 'Un couple adoptif accueille une fillette estonienne qui dissimule une identité et des intentions terrifiantes.',
+    description:
+      'Un couple adoptif accueille une fillette estonienne qui dissimule une identité et des intentions terrifiantes.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4064,7 +4185,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 94,
     genre: ['Horreur', 'Thriller'],
     saga: '',
-    description: 'Quatre plongeurs abandonnés en mer après un naufrage doivent nager vers une île tout en étant traqués par un grand requin blanc.',
+    description:
+      'Quatre plongeurs abandonnés en mer après un naufrage doivent nager vers une île tout en étant traqués par un grand requin blanc.',
     fromEntity: null,
     countryOrigin: ['Australie'],
     selectDisplayOrder: 0,
@@ -4087,7 +4209,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 93,
     genre: ['Horreur', 'Thriller'],
     saga: '',
-    description: 'Des amies en kayak sont traquées par un requin dans les eaux australiennes après un meurtre sur une plage isolée.',
+    description:
+      'Des amies en kayak sont traquées par un requin dans les eaux australiennes après un meurtre sur une plage isolée.',
     fromEntity: null,
     countryOrigin: ['Australie'],
     selectDisplayOrder: 0,
@@ -4110,7 +4233,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 89,
     genre: ['Horreur', 'Thriller'],
     saga: '',
-    description: 'Des militaires américains en mission dans le désert affrontent la même famille de mutants cannibales.',
+    description:
+      'Des militaires américains en mission dans le désert affrontent la même famille de mutants cannibales.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4133,7 +4257,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 95,
     genre: ['Horreur'],
     saga: '',
-    description: 'Remake du classique : des adolescents d\'une petite ville sont traqués dans leurs rêves par Freddy Krueger ressuscité.',
+    description:
+      "Remake du classique : des adolescents d'une petite ville sont traqués dans leurs rêves par Freddy Krueger ressuscité.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4156,7 +4281,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 91,
     genre: ['Horreur'],
     saga: '',
-    description: 'Des adolescents d\'une banlieue américaine sont traqués dans leurs rêves par Freddy Krueger, qui peut les tuer pendant leur sommeil.',
+    description:
+      "Des adolescents d'une banlieue américaine sont traqués dans leurs rêves par Freddy Krueger, qui peut les tuer pendant leur sommeil.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4179,7 +4305,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 97,
     genre: ['Horreur'],
     saga: '',
-    description: 'Freddy Krueger manipule Jason Voorhees pour semer la terreur à Springwood, avant que les deux tueurs ne s\'affrontent.',
+    description:
+      "Freddy Krueger manipule Jason Voorhees pour semer la terreur à Springwood, avant que les deux tueurs ne s'affrontent.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4202,7 +4329,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 91,
     genre: ['Horreur', 'Thriller'],
     saga: '',
-    description: 'Une famille hérite d\'une maison de verre peuplée de fantômes visibles grâce à des lunettes spéciales, piégée dans un mécanisme mortel.',
+    description:
+      "Une famille hérite d'une maison de verre peuplée de fantômes visibles grâce à des lunettes spéciales, piégée dans un mécanisme mortel.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4225,7 +4353,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 102,
     genre: ['Horreur', 'Science Fiction'],
     saga: '',
-    description: 'Une ingénieure créée une poupée robot humanoïde pour une fillette en deuil, mais l\'IA devient dangereusement protectrice.',
+    description:
+      "Une ingénieure créée une poupée robot humanoïde pour une fillette en deuil, mais l'IA devient dangereusement protectrice.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4248,7 +4377,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 110,
     genre: ['Horreur', 'Thriller'],
     saga: '',
-    description: 'Un ancien policier devenu gardien de nuit dans un grand magasin découvre que les miroirs renvoient une présence meurtrière.',
+    description:
+      'Un ancien policier devenu gardien de nuit dans un grand magasin découvre que les miroirs renvoient une présence meurtrière.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4271,7 +4401,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 86,
     genre: ['Horreur', 'Thriller'],
     saga: '',
-    description: 'Un employé d\'un centre de fitness voit des visions dans les miroirs, liées à des meurtres commis par une entité.',
+    description:
+      "Un employé d'un centre de fitness voit des visions dans les miroirs, liées à des meurtres commis par une entité.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4294,7 +4425,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 116,
     genre: ['Horreur', 'Drame'],
     saga: '',
-    description: 'Un garçon solitaire se lie d\'amitié avec une nouvelle voisine qui n\'apparaît que la nuit et cache un besoin de sang.',
+    description:
+      "Un garçon solitaire se lie d'amitié avec une nouvelle voisine qui n'apparaît que la nuit et cache un besoin de sang.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4317,7 +4449,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 114,
     genre: ['Horreur', 'Drame'],
     saga: '',
-    description: 'Un séminariste sceptique assiste un exorciste expérimenté à Rome et affronte une possession qui remet en question sa foi.',
+    description:
+      'Un séminariste sceptique assiste un exorciste expérimenté à Rome et affronte une possession qui remet en question sa foi.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4340,7 +4473,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 125,
     genre: ['Horreur', 'Fantastique'],
     saga: '',
-    description: 'Une mère cherche sa fille dans la ville brumeuse de Silent Hill, où des créatures monstrueuses peuplent un culte fanatique.',
+    description:
+      'Une mère cherche sa fille dans la ville brumeuse de Silent Hill, où des créatures monstrueuses peuplent un culte fanatique.',
     fromEntity: null,
     countryOrigin: ['France', 'Canada'],
     selectDisplayOrder: 0,
@@ -4363,7 +4497,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 94,
     genre: ['Horreur', 'Fantastique'],
     saga: '',
-    description: 'Heather découvre qu\'elle est liée à la malédiction de Silent Hill et doit affronter le culte et la créature Pyramid Head.',
+    description:
+      "Heather découvre qu'elle est liée à la malédiction de Silent Hill et doit affronter le culte et la créature Pyramid Head.",
     fromEntity: null,
     countryOrigin: ['Canada', 'France'],
     selectDisplayOrder: 0,
@@ -4386,7 +4521,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 101,
     genre: ['Horreur', 'Thriller'],
     saga: '',
-    description: 'Une fuite de virus biologique transforme les habitants d\'une petite ville en fous meurtriers, déclenchant une quarantaine militaire.',
+    description:
+      "Une fuite de virus biologique transforme les habitants d'une petite ville en fous meurtriers, déclenchant une quarantaine militaire.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4409,7 +4545,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 93,
     genre: ['Horreur'],
     saga: '',
-    description: 'Freddy Krueger revient pour s\'attaquer à l\'enfant des survivants de l\'original, plongeant les victimes dans un monde onirique.',
+    description:
+      "Freddy Krueger revient pour s'attaquer à l'enfant des survivants de l'original, plongeant les victimes dans un monde onirique.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4432,7 +4569,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 110,
     genre: ['Horreur', 'Thriller'],
     saga: '',
-    description: 'Un reporter enquête sur des messages codés laissés par un informateur décédé, liés à une conspiration surnaturelle.',
+    description:
+      'Un reporter enquête sur des messages codés laissés par un informateur décédé, liés à une conspiration surnaturelle.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4455,7 +4593,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 109,
     genre: ['Horreur', 'Science Fiction'],
     saga: '',
-    description: 'Des étudiants en médecine s\'arrêtent volontairement le cœur pour expérimenter la mort, mais ramènent des visions terrifiantes.',
+    description:
+      "Des étudiants en médecine s'arrêtent volontairement le cœur pour expérimenter la mort, mais ramènent des visions terrifiantes.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4478,7 +4617,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 136,
     genre: ['Horreur', 'Science Fiction'],
     saga: '',
-    description: 'Quatre amis d\'enfance se retrouvent dans une cabane du Maine lorsqu\'une invasion extraterrestre libère une entité parasitaire.',
+    description:
+      "Quatre amis d'enfance se retrouvent dans une cabane du Maine lorsqu'une invasion extraterrestre libère une entité parasitaire.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4501,7 +4641,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 90,
     genre: ['Horreur'],
     saga: '',
-    description: 'Deux frères sur une route de campagne sont traqués par une créature qui se nourrit de peurs humaines tous les vingt-trois ans.',
+    description:
+      'Deux frères sur une route de campagne sont traqués par une créature qui se nourrit de peurs humaines tous les vingt-trois ans.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4524,7 +4665,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 97,
     genre: ['Horreur', 'Science Fiction'],
     saga: '',
-    description: 'Une famille suburbaine est terrorisée par des phénomènes paranormaux liés à une menace extraterrestre qui cible leur fils.',
+    description:
+      'Une famille suburbaine est terrorisée par des phénomènes paranormaux liés à une menace extraterrestre qui cible leur fils.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4547,7 +4689,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 119,
     genre: ['Horreur', 'Drame'],
     saga: '',
-    description: 'Un prêtre est jugé pour négligence homicide après l\'exorcisme mortel d\'une étudiante, raconté en flashbacks au tribunal.',
+    description:
+      "Un prêtre est jugé pour négligence homicide après l'exorcisme mortel d'une étudiante, raconté en flashbacks au tribunal.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4568,7 +4711,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 105,
     genre: ['Horreur', 'Drame'],
     saga: '',
-    description: 'Une femme rouvre l\'orphelinat de son enfance avec son mari et leur fils adoptif, réveillant des fantômes du passé.',
+    description:
+      "Une femme rouvre l'orphelinat de son enfance avec son mari et leur fils adoptif, réveillant des fantômes du passé.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4589,7 +4733,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 87,
     genre: ['Horreur', 'Comédie'],
     saga: '',
-    description: 'Le fils du célèbre poupée tueuse cherche son identité entre héritage meurtrier et désir de normalité.',
+    description:
+      'Le fils du célèbre poupée tueuse cherche son identité entre héritage meurtrier et désir de normalité.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4610,7 +4755,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     length: 94,
     genre: ['Horreur', 'Thriller'],
     saga: '',
-    description: 'Des parisiens en fête dans une ferme de campagne provoquent le déchaînement du serviteur déviant des propriétaires.',
+    description:
+      'Des parisiens en fête dans une ferme de campagne provoquent le déchaînement du serviteur déviant des propriétaires.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4840,8 +4986,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
       { name: 'Jennifer Babtist' },
       { name: 'Cindy Manion' },
     ],
-    coverUrl:
-      '/movies_pictures/2189ab4bb5da.jpeg',
+    coverUrl: '/movies_pictures/2189ab4bb5da.jpeg',
     releaseDate: '1984-04-01',
     length: 87,
     genre: ['Horreur', 'Comédie', 'Action'],
@@ -5043,8 +5188,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
       { name: 'Doug Bradley' },
       { name: 'Sean Chapman' },
     ],
-    coverUrl:
-      '/movies_pictures/e6d9686d12fa.jpg',
+    coverUrl: '/movies_pictures/e6d9686d12fa.jpg',
     releaseDate: '1987-09-18',
     length: 94,
     genre: ['Horreur', 'Fantastique'],
@@ -5070,8 +5214,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
       { name: 'Bill Paxton' },
       { name: 'Jenette Goldstein' },
     ],
-    coverUrl:
-      '/movies_pictures/babfb62d2a54.jpg',
+    coverUrl: '/movies_pictures/babfb62d2a54.jpg',
     releaseDate: '1987-10-02',
     length: 94,
     genre: ['Horreur', 'Western', 'Romance'],
@@ -5093,8 +5236,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
       { name: 'Barnard Hughes' },
       { name: 'Kiefer Sutherland' },
     ],
-    coverUrl:
-      '/movies_pictures/2371aaf638f8.jpg',
+    coverUrl: '/movies_pictures/2371aaf638f8.jpg',
     releaseDate: '1987-07-31',
     length: 97,
     genre: ['Horreur', 'Comédie'],
@@ -5116,8 +5258,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
       { name: 'Imogen Boorman' },
       { name: 'Doug Bradley' },
     ],
-    coverUrl:
-      '/movies_pictures/6ab38ee34e55.jpg',
+    coverUrl: '/movies_pictures/6ab38ee34e55.jpg',
     releaseDate: '1988-12-23',
     length: 97,
     genre: ['Horreur', 'Fantastique'],
@@ -5139,8 +5280,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
       { name: 'Brad Dourif' },
       { name: 'Dinah Manoff' },
     ],
-    coverUrl:
-      '/movies_pictures/191dfed86ccd.jpg',
+    coverUrl: '/movies_pictures/191dfed86ccd.jpg',
     releaseDate: '1988-11-09',
     length: 87,
     genre: ['Horreur'],
@@ -5162,8 +5302,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
       { name: 'Alvin Alexis' },
       { name: 'Lance Fenton' },
     ],
-    coverUrl:
-      '/movies_pictures/6e87f41559db.jpg',
+    coverUrl: '/movies_pictures/6e87f41559db.jpg',
     releaseDate: '1988-10-14',
     length: 90,
     genre: ['Horreur'],
@@ -5185,8 +5324,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
       { name: 'Zelda Rubinstein' },
       { name: 'Lara Flynn Boyle' },
     ],
-    coverUrl:
-      '/movies_pictures/3b8608f0e7b5.webp',
+    coverUrl: '/movies_pictures/3b8608f0e7b5.webp',
     releaseDate: '1988-06-10',
     length: 98,
     genre: ['Horreur', 'Fantastique'],
@@ -5208,8 +5346,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
       { name: 'Thelma Tixou' },
       { name: 'Sabrina Dennison' },
     ],
-    coverUrl:
-      '/movies_pictures/9d3487d44958.jpg',
+    coverUrl: '/movies_pictures/9d3487d44958.jpg',
     releaseDate: '1989-05-19',
     length: 123,
     genre: ['Horreur', 'Drame', 'Fantastique'],
@@ -5231,8 +5368,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
       { name: 'Brad Greenquist' },
       { name: 'Michael Lombard' },
     ],
-    coverUrl:
-      '/movies_pictures/703a8e2d27e2.jpg',
+    coverUrl: '/movies_pictures/703a8e2d27e2.jpg',
     releaseDate: '1989-04-21',
     length: 103,
     genre: ['Horreur'],
@@ -5258,8 +5394,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
       { name: 'Ben Meyerson' },
       { name: 'Charles Lucia' },
     ],
-    coverUrl:
-      '/movies_pictures/00c3d9ab2b3f.jpg',
+    coverUrl: '/movies_pictures/00c3d9ab2b3f.jpg',
     releaseDate: '1989-06-01',
     length: 99,
     genre: ['Horreur', 'Comédie'],
@@ -5281,8 +5416,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
       { name: 'Shinya Tsukamoto' },
       { name: 'Naomasa Musaka' },
     ],
-    coverUrl:
-      '/movies_pictures/625e620b7bba.jpg',
+    coverUrl: '/movies_pictures/625e620b7bba.jpg',
     releaseDate: '1989-07-01',
     length: 67,
     genre: ['Horreur', 'Science Fiction'],
@@ -5304,8 +5438,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
       { name: 'Julian Sands' },
       { name: 'Brian McNamara' },
     ],
-    coverUrl:
-      '/movies_pictures/1e309649bc1a.jpeg',
+    coverUrl: '/movies_pictures/1e309649bc1a.jpeg',
     releaseDate: '1990-07-18',
     length: 109,
     genre: ['Horreur', 'Comédie', 'Thriller'],
@@ -5327,8 +5460,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
       { name: 'Christine Elise' },
       { name: 'Brad Dourif' },
     ],
-    coverUrl:
-      '/movies_pictures/eb11ec1c82c6.jpg',
+    coverUrl: '/movies_pictures/eb11ec1c82c6.jpg',
     releaseDate: '1990-11-09',
     length: 84,
     genre: ['Horreur'],
@@ -5372,8 +5504,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
       { name: 'Brad Dourif' },
       { name: 'Zakes Mokae' },
     ],
-    coverUrl:
-      '/movies_pictures/12fcbf6a4410.jpg',
+    coverUrl: '/movies_pictures/12fcbf6a4410.jpg',
     releaseDate: '1991-08-02',
     length: 88,
     genre: ['Horreur', 'Thriller', 'Science Fiction'],
@@ -5399,8 +5530,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
       { name: 'Travis Fine' },
       { name: 'Brad Dourif' },
     ],
-    coverUrl:
-      '/movies_pictures/2b007fa2b83c.jpg',
+    coverUrl: '/movies_pictures/2b007fa2b83c.jpg',
     releaseDate: '1991-08-30',
     length: 90,
     genre: ['Horreur'],
@@ -5422,8 +5552,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
       { name: 'Ian Watkin' },
       { name: 'Brenda Kendall' },
     ],
-    coverUrl:
-      '/movies_pictures/d33e8d5484e8.jpg',
+    coverUrl: '/movies_pictures/d33e8d5484e8.jpg',
     releaseDate: '1992-08-13',
     length: 104,
     genre: ['Horreur', 'Comédie'],
@@ -5445,8 +5574,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
       { name: 'Kasi Lemmons' },
       { name: 'Vanessa Williams' },
     ],
-    coverUrl:
-      '/movies_pictures/c61f5bec1d6a.jpg',
+    coverUrl: '/movies_pictures/c61f5bec1d6a.jpg',
     releaseDate: '1992-10-16',
     length: 99,
     genre: ['Horreur'],
@@ -5472,8 +5600,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
       { name: 'Kevin Bernhardt' },
       { name: 'Ken Carpenter' },
     ],
-    coverUrl:
-      '/movies_pictures/a282623af475.jpg',
+    coverUrl: '/movies_pictures/a282623af475.jpg',
     releaseDate: '1992-09-11',
     length: 97,
     genre: ['Horreur', 'Fantastique'],
@@ -5495,8 +5622,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
       { name: 'Jared Rushton' },
       { name: 'Darlanne Fluegel' },
     ],
-    coverUrl:
-      '/movies_pictures/390147712f00.jpg',
+    coverUrl: '/movies_pictures/390147712f00.jpg',
     releaseDate: '1992-08-28',
     length: 100,
     genre: ['Horreur'],
@@ -5522,8 +5648,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
       { name: 'Sujin Kim' },
       { name: 'Hideaki Tezuka' },
     ],
-    coverUrl:
-      '/movies_pictures/045363e7741d.jpg',
+    coverUrl: '/movies_pictures/045363e7741d.jpg',
     releaseDate: '1992-07-03',
     length: 81,
     genre: ['Horreur', 'Science Fiction'],
@@ -5545,8 +5670,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
       { name: 'Meg Tilly' },
       { name: 'Forest Whitaker' },
     ],
-    coverUrl:
-      '/movies_pictures/440580045e22.jpg',
+    coverUrl: '/movies_pictures/440580045e22.jpg',
     releaseDate: '1993-01-01',
     length: 87,
     genre: ['Horreur', 'Science Fiction', 'Thriller'],
@@ -5572,8 +5696,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
       { name: 'Mickey Knox' },
       { name: 'Renato Carpentieri' },
     ],
-    coverUrl:
-      '/movies_pictures/20cbacf9554c.jpg',
+    coverUrl: '/movies_pictures/20cbacf9554c.jpg',
     releaseDate: '1994-07-01',
     length: 105,
     genre: ['Horreur', 'Comédie', 'Romance'],
@@ -5621,14 +5744,13 @@ export const baseMoviesHorreur: BaseMovie[] = [
       { name: 'Jun Kunimura' },
       { name: 'Renji Ishibashi' },
     ],
-    coverUrl:
-      '/movies_pictures/f150f32cf5e8.png',
+    coverUrl: '/movies_pictures/f150f32cf5e8.png',
     releaseDate: '1999-10-02',
     length: 115,
     genre: ['Horreur', 'Thriller', 'Drame'],
     saga: '',
     description:
-      'Un veuf organise de faux castings pour trouver une épouse, mais la femme qu\'il choisit cache une monstruosité insoupçonnée.',
+      "Un veuf organise de faux castings pour trouver une épouse, mais la femme qu'il choisit cache une monstruosité insoupçonnée.",
     fromEntity: {
       entityType: 'book',
       title: 'Odishon',
@@ -5648,14 +5770,13 @@ export const baseMoviesHorreur: BaseMovie[] = [
       { name: 'Samuel L. Jackson' },
       { name: 'Jacqueline McKenzie' },
     ],
-    coverUrl:
-      '/movies_pictures/8ff62604396f.jpg',
+    coverUrl: '/movies_pictures/8ff62604396f.jpg',
     releaseDate: '1999-07-28',
     length: 105,
     genre: ['Horreur', 'Science Fiction', 'Thriller'],
     saga: '',
     description:
-      'Des requins génétiquement modifiés, intelligents et dangereux, s\'attaquent aux chercheurs dans une installation sous-marine.',
+      "Des requins génétiquement modifiés, intelligents et dangereux, s'attaquent aux chercheurs dans une installation sous-marine.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5671,8 +5792,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
       { name: 'Alex Descas' },
       { name: 'Florence Loiret Caille' },
     ],
-    coverUrl:
-      '/movies_pictures/60ce2ac88264.jpg',
+    coverUrl: '/movies_pictures/60ce2ac88264.jpg',
     releaseDate: '2001-07-11',
     length: 101,
     genre: ['Horreur', 'Drame', 'Romance'],
@@ -5694,14 +5814,13 @@ export const baseMoviesHorreur: BaseMovie[] = [
       { name: 'Kim Hae-sook' },
       { name: 'Park In-hwan' },
     ],
-    coverUrl:
-      '/movies_pictures/151f6d813193.jpg',
+    coverUrl: '/movies_pictures/151f6d813193.jpg',
     releaseDate: '2009-04-30',
     length: 134,
     genre: ['Horreur', 'Drame', 'Romance'],
     saga: '',
     description:
-      'Un prêtre catholique survit à une expérience médicale en Corée mais devient vampire, tenté par le désir pour la femme d\'un ami.',
+      "Un prêtre catholique survit à une expérience médicale en Corée mais devient vampire, tenté par le désir pour la femme d'un ami.",
     fromEntity: {
       entityType: 'book',
       title: 'Thérèse Raquin',

@@ -29,7 +29,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 131,
     genre: ['Drame'],
     saga: '',
-    description: 'Tashi et Art, anciens partenaires de tennis, se retrouvent en double aux côtés de Patrick, leur entraîneur devenu mari de Tashi, dans un triangle où rivalité sportive et désir se mêlent.',
+    description:
+      'Tashi et Art, anciens partenaires de tennis, se retrouvent en double aux côtés de Patrick, leur entraîneur devenu mari de Tashi, dans un triangle où rivalité sportive et désir se mêlent.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -57,7 +58,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 180,
     genre: ['Drame'],
     saga: '',
-    description: 'J. Robert Oppenheimer dirige le projet Manhattan qui produit la bombe atomique, puis voit sa carrière brisée par les enquêtes anticomunistes sur ses liens passés.',
+    description:
+      'J. Robert Oppenheimer dirige le projet Manhattan qui produit la bombe atomique, puis voit sa carrière brisée par les enquêtes anticomunistes sur ses liens passés.',
     fromEntity: {
       entityType: 'book',
       title: 'American Prometheus',
@@ -106,7 +108,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 189,
     genre: ['Drame'],
     saga: '',
-    description: 'À Hollywood dans les années 1920, une star montante, un acteur en déclin et une productrice ambitieuse traversent l\'âge d\'or du cinéma muet jusqu\'au passage au parlant.',
+    description:
+      "À Hollywood dans les années 1920, une star montante, un acteur en déclin et une productrice ambitieuse traversent l'âge d'or du cinéma muet jusqu'au passage au parlant.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -129,7 +132,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 130,
     genre: ['Drame'],
     saga: '',
-    description: 'Orphelin jeté dans les rues de Londres victorienne, Oliver Twist tombe sous la coupe du pickpocket Fagin avant de découvrir sa véritable identité.',
+    description:
+      'Orphelin jeté dans les rues de Londres victorienne, Oliver Twist tombe sous la coupe du pickpocket Fagin avant de découvrir sa véritable identité.',
     fromEntity: {
       entityType: 'book',
       title: 'Oliver Twist',
@@ -170,7 +174,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 117,
     genre: ['Drame'],
     saga: '',
-    description: 'Stanley, basketteur prometteur de Philadelphie, revient au lycée et tombe amoureux de l\'assistante de son entraîneur, remettant en question son avenir sportif.',
+    description:
+      "Stanley, basketteur prometteur de Philadelphie, revient au lycée et tombe amoureux de l'assistante de son entraîneur, remettant en question son avenir sportif.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -207,7 +212,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 144,
     genre: ['Drame'],
     saga: '',
-    description: 'Richard Williams élève ses filles Venus et Serena dans le ghetto de Compton et les prépare méthodiquement à dominer le tennis mondial malgré le scepticisme ambiant.',
+    description:
+      'Richard Williams élève ses filles Venus et Serena dans le ghetto de Compton et les prépare méthodiquement à dominer le tennis mondial malgré le scepticisme ambiant.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -244,7 +250,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 147,
     genre: ['Drame', 'Policier'],
     saga: '',
-    description: 'Une amnésique débarque à Los Angeles et se lie à une aspirante actrice ; leurs destins s\'entremêlent dans un labyrinthe onirique où réalité et illusion se confondent.',
+    description:
+      "Une amnésique débarque à Los Angeles et se lie à une aspirante actrice ; leurs destins s'entremêlent dans un labyrinthe onirique où réalité et illusion se confondent.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -281,7 +288,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 102,
     genre: ['Drame'],
     saga: '',
-    description: 'Quatre personnages de Brooklyn basculent dans la dépendance aux drogues et aux rêves démesurés, jusqu\'à l\'effondrement physique et mental.',
+    description:
+      "Quatre personnages de Brooklyn basculent dans la dépendance aux drogues et aux rêves démesurés, jusqu'à l'effondrement physique et mental.",
     fromEntity: {
       entityType: 'book',
       title: 'Requiem for a Dream',
@@ -322,7 +330,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 90,
     genre: ['Drame'],
     saga: '',
-    description: 'Une jeune femme emménage dans un appartement de 84 m² et découvre que son voisin du dessus la harcèle et la surveille, la piégeant dans un climat de paranoïa.',
+    description:
+      'Une jeune femme emménage dans un appartement de 84 m² et découvre que son voisin du dessus la harcèle et la surveille, la piégeant dans un climat de paranoïa.',
     fromEntity: null,
     countryOrigin: ['Corée du Sud'],
     selectDisplayOrder: 0,
@@ -359,7 +368,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 118,
     genre: ['Drame'],
     saga: '',
-    description: 'Une coiffeuse du Kentucky mobilise sa communauté pour aider un père veuf à payer les frais médicaux de sa fille, dans un élan de solidarité spontanée.',
+    description:
+      'Une coiffeuse du Kentucky mobilise sa communauté pour aider un père veuf à payer les frais médicaux de sa fille, dans un élan de solidarité spontanée.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -396,7 +406,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 120,
     genre: ['Drame'],
     saga: '',
-    description: 'Un homme enfermé vingt ans sans explication est libéré et entame une quête de vengeance contre son geôlier, jusqu\'à une révélation dévastatrice.',
+    description:
+      "Un homme enfermé vingt ans sans explication est libéré et entame une quête de vengeance contre son geôlier, jusqu'à une révélation dévastatrice.",
     fromEntity: null,
     countryOrigin: ['Corée du Sud'],
     selectDisplayOrder: 30,
@@ -433,7 +444,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 139,
     genre: ['Drame', 'Historique'],
     saga: '',
-    description: 'Au XVIe siècle, Marie de Mézières, promise à un prince, aime secrètement le duc de Guise pendant les guerres de Religion qui déchirent la France.',
+    description:
+      'Au XVIe siècle, Marie de Mézières, promise à un prince, aime secrètement le duc de Guise pendant les guerres de Religion qui déchirent la France.',
     fromEntity: {
       entityType: 'book',
       title: 'La Princesse de Montpensier',
@@ -474,7 +486,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 135,
     genre: ['Drame'],
     saga: '',
-    description: 'En 1897, Rafael Padilla, clown noir surnommé Chocolat, connaît la gloire sur les planches parisiennes aux côtés de Footit, avant le racisme et la déchéance.',
+    description:
+      'En 1897, Rafael Padilla, clown noir surnommé Chocolat, connaît la gloire sur les planches parisiennes aux côtés de Footit, avant le racisme et la déchéance.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -511,7 +524,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 122,
     genre: ['Drame'],
     saga: '',
-    description: 'Arthur Fleck, humoriste raté et marginalisé à Gotham City, bascule dans la folie et devient le Joker après une série d\'humiliations et de violences.',
+    description:
+      "Arthur Fleck, humoriste raté et marginalisé à Gotham City, bascule dans la folie et devient le Joker après une série d'humiliations et de violences.",
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
@@ -549,7 +563,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 138,
     genre: ['Drame'],
     saga: '',
-    description: 'Interné à Arkham, Arthur Fleck attend son procès et noue une relation troublée avec une admiratrice, dans un musical sombre sur la folie et la célébrité.',
+    description:
+      'Interné à Arkham, Arthur Fleck attend son procès et noue une relation troublée avec une admiratrice, dans un musical sombre sur la folie et la célébrité.',
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
@@ -590,7 +605,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 136,
     genre: ['Drame'],
     saga: '',
-    description: 'Un musicien en déclin découvre et fait monter une jeune chanteuse talentueuse, tandis que leur amour se heurte à ses démons et à la gloire qu\'elle connaît.',
+    description:
+      "Un musicien en déclin découvre et fait monter une jeune chanteuse talentueuse, tandis que leur amour se heurte à ses démons et à la gloire qu'elle connaît.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -627,7 +643,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 96,
     genre: ['Drame', 'Mystère'],
     saga: '',
-    description: 'Douze jurés délibèrent dans une salle étouffante sur le sort d\'un adolescent accusé de meurtre ; un seul doute suffit à rouvrir le débat.',
+    description:
+      "Douze jurés délibèrent dans une salle étouffante sur le sort d'un adolescent accusé de meurtre ; un seul doute suffit à rouvrir le débat.",
     fromEntity: {
       entityType: 'book',
       title: 'Douze hommes en colère',
@@ -668,7 +685,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 119,
     genre: ['Drame'],
     saga: '',
-    description: 'À sa mort, le magnat de la presse Charles Foster Kane laisse un mot mystérieux ; un reporter enquête sur sa vie pour percer le secret de « Rosebud ».',
+    description:
+      'À sa mort, le magnat de la presse Charles Foster Kane laisse un mot mystérieux ; un reporter enquête sur sa vie pour percer le secret de « Rosebud ».',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -705,7 +723,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 116,
     genre: ['Drame'],
     saga: '',
-    description: 'En 1971, l\'analyste du RAND Daniel Ellsberg divulgue des documents classifiés sur la guerre du Vietnam, défiant l\'administration Nixon.',
+    description:
+      "En 1971, l'analyste du RAND Daniel Ellsberg divulgue des documents classifiés sur la guerre du Vietnam, défiant l'administration Nixon.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -742,7 +761,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 153,
     genre: ['Drame'],
     saga: '',
-    description: 'En 1941 à Shanghai, le petit Jim Graham est séparé de ses parents, interné dans un camp japonais et apprend à survivre en pleine guerre.',
+    description:
+      'En 1941 à Shanghai, le petit Jim Graham est séparé de ses parents, interné dans un camp japonais et apprend à survivre en pleine guerre.',
     fromEntity: {
       entityType: 'book',
       title: 'Empire du soleil',
@@ -774,7 +794,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 155,
     genre: ['Drame', 'Historique'],
     saga: '',
-    description: 'En 1839, des esclaves africains se révoltent à bord du navire Amistad ; leur procès devant la Cour suprême remet en cause l\'esclavage aux États-Unis.',
+    description:
+      "En 1839, des esclaves africains se révoltent à bord du navire Amistad ; leur procès devant la Cour suprême remet en cause l'esclavage aux États-Unis.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -797,7 +818,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 150,
     genre: ['Biographie', 'Drame', 'Historique'],
     saga: '',
-    description: 'En 1865, Abraham Lincoln mène un combat politique acharné pour faire adopter le Treizième Amendement abolissant l\'esclavage avant la fin de la guerre civile.',
+    description:
+      "En 1865, Abraham Lincoln mène un combat politique acharné pour faire adopter le Treizième Amendement abolissant l'esclavage avant la fin de la guerre civile.",
     fromEntity: {
       entityType: 'book',
       title: 'Team of Rivals',
@@ -841,7 +863,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 195,
     genre: ['Drame'],
     saga: '',
-    description: 'Pendant la Shoah, l\'industriel allemand Oskar Schindler sauve plus de mille Juifs polonais en les employant dans son usine sous couvert de profit.',
+    description:
+      "Pendant la Shoah, l'industriel allemand Oskar Schindler sauve plus de mille Juifs polonais en les employant dans son usine sous couvert de profit.",
     fromEntity: {
       entityType: 'book',
       title: 'La Liste de Schindler',
@@ -890,7 +913,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 151,
     genre: ['Drame'],
     saga: '',
-    description: 'Adolescent passionné de cinéma, Sammy Fabelman filme sa famille pour comprendre ses parents et affronter l\'antisémitisme et la rupture conjugale.',
+    description:
+      "Adolescent passionné de cinéma, Sammy Fabelman filme sa famille pour comprendre ses parents et affronter l'antisémitisme et la rupture conjugale.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -927,7 +951,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 128,
     genre: ['Drame'],
     saga: '',
-    description: 'Un ressortissant d\'un pays fictif bloqué à l\'aéroport JFK de New York vit des mois dans le terminal après la chute de son gouvernement.',
+    description:
+      "Un ressortissant d'un pays fictif bloqué à l'aéroport JFK de New York vit des mois dans le terminal après la chute de son gouvernement.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -964,7 +989,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 122,
     genre: ['Drame'],
     saga: '',
-    description: 'Lester Burnham, quinquagénaire en crise, retrouve une énergie dévastatrice en s\'éprendant de l\'amie de sa fille, bouleversant sa banlieue paisible.',
+    description:
+      "Lester Burnham, quinquagénaire en crise, retrouve une énergie dévastatrice en s'éprendant de l'amie de sa fille, bouleversant sa banlieue paisible.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -1007,7 +1033,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 97,
     genre: ['Drame'],
     saga: '',
-    description: 'Deux héritiers new-yorkais manipulent une pensionnaire et un jeune musicien dans un jeu de séduction cruel inspiré de Valmont et Les Liaisons dangereuses.',
+    description:
+      'Deux héritiers new-yorkais manipulent une pensionnaire et un jeune musicien dans un jeu de séduction cruel inspiré de Valmont et Les Liaisons dangereuses.',
     fromEntity: {
       entityType: 'book',
       title: 'Les liaisons dangereuses',
@@ -1048,7 +1075,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 103,
     genre: ['Drame'],
     saga: '',
-    description: 'Truman Burbank ignore que sa vie entière est une émission télévisée ; lorsqu\'il découvre des failles dans son monde, il tente de s\'échapper.',
+    description:
+      "Truman Burbank ignore que sa vie entière est une émission télévisée ; lorsqu'il découvre des failles dans son monde, il tente de s'échapper.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -1085,7 +1113,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 113,
     genre: [],
     saga: 'MonsterVerse',
-    description: 'Godzilla et Kong s\'affrontent alors que l\'humanité tente de percer le secret de l\'Origine, une source d\'énergie liée au monde souterrain des Titans.',
+    description:
+      "Godzilla et Kong s'affrontent alors que l'humanité tente de percer le secret de l'Origine, une source d'énergie liée au monde souterrain des Titans.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -1116,7 +1145,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 115,
     genre: [],
     saga: 'MonsterVerse',
-    description: 'Godzilla et Kong s\'allient face à Skar King, tyran des Grands Singes, menaçant la surface alors que des mystères du monde souterrain refont surface.',
+    description:
+      "Godzilla et Kong s'allient face à Skar King, tyran des Grands Singes, menaçant la surface alors que des mystères du monde souterrain refont surface.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -1153,7 +1183,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 189,
     genre: ['Drame'],
     saga: '',
-    description: 'Dans une prison des années 1930, le gardien Paul Edgecomb est troublé par John Coffey, condamné à mort doté d\'un don surnaturel de guérison.',
+    description:
+      "Dans une prison des années 1930, le gardien Paul Edgecomb est troublé par John Coffey, condamné à mort doté d'un don surnaturel de guérison.",
     fromEntity: {
       entityType: 'book',
       title: 'La Ligne verte',
@@ -1194,7 +1225,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 117,
     genre: ['Drame', 'Biographie'],
     saga: '',
-    description: 'Sans-abri à San Francisco, Chris Gardner élève seul son fils tout en suivant un stage non rémunéré chez un courtier en espérant un emploi stable.',
+    description:
+      'Sans-abri à San Francisco, Chris Gardner élève seul son fils tout en suivant un stage non rémunéré chez un courtier en espérant un emploi stable.',
     fromEntity: {
       entityType: 'book',
       title: 'The Pursuit of Happyness',
@@ -1221,7 +1253,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 143,
     genre: ['Drame'],
     saga: '',
-    description: 'En Sierra Leone en guerre civile, un pêcheur, un mercenaire et une journaliste traquent un diamant rare qui pourrait financer les rebelles.',
+    description:
+      'En Sierra Leone en guerre civile, un pêcheur, un mercenaire et une journaliste traquent un diamant rare qui pourrait financer les rebelles.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -1258,7 +1291,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 143,
     genre: ['Drame'],
     saga: '',
-    description: 'Quatre histoires entrelacées au Maroc, au Japon, aux États-Unis et au Mexique montrent comment une arme et le malentendu peuvent briser des vies à distance.',
+    description:
+      'Quatre histoires entrelacées au Maroc, au Japon, aux États-Unis et au Mexique montrent comment une arme et le malentendu peuvent briser des vies à distance.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1295,7 +1329,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 121,
     genre: ['Drame'],
     saga: '',
-    description: 'À Madrid et dans un village de Castille, trois générations de femmes affrontent secrets de famille, deuil et retour du fantôme d\'une mère disparue.',
+    description:
+      "À Madrid et dans un village de Castille, trois générations de femmes affrontent secrets de famille, deuil et retour du fantôme d'une mère disparue.",
     fromEntity: null,
     countryOrigin: ['Espagne'],
     selectDisplayOrder: 0,
@@ -1318,7 +1353,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 132,
     genre: ['Drame'],
     saga: '',
-    description: 'Un entraîneur de boxe retraité reprend une jeune femme déterminée sous sa coupe et la mène vers le titre, jusqu\'à un drame qui teste ses convictions.',
+    description:
+      "Un entraîneur de boxe retraité reprend une jeune femme déterminée sous sa coupe et la mène vers le titre, jusqu'à un drame qui teste ses convictions.",
     fromEntity: {
       entityType: 'book',
       title: 'Million Dollar Baby',
@@ -1364,7 +1400,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 142,
     genre: ['Drame'],
     saga: '',
-    description: 'Simple d\'esprit mais au grand cœur, Forrest Gump traverse l\'histoire américaine des années 1950 à 1980 tout en restant fidèle à son amour d\'enfance Jenny.',
+    description:
+      "Simple d'esprit mais au grand cœur, Forrest Gump traverse l'histoire américaine des années 1950 à 1980 tout en restant fidèle à son amour d'enfance Jenny.",
     fromEntity: {
       entityType: 'book',
       title: 'Forrest Gump',
@@ -1412,7 +1449,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 126,
     genre: ['Drame'],
     saga: '',
-    description: 'Will Hunting, surdoué autodidacte et ouvrier du bâtiment, voit sa vie basculer grâce à un thérapeute et à une étudiante de Harvard qui le poussent à s\'ouvrir.',
+    description:
+      "Will Hunting, surdoué autodidacte et ouvrier du bâtiment, voit sa vie basculer grâce à un thérapeute et à une étudiante de Harvard qui le poussent à s'ouvrir.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -1452,7 +1490,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 109,
     genre: ['Drame'],
     saga: '',
-    description: 'Aileen Wuornos, prostituée en Floride, tue plusieurs hommes qu\'elle prétend avoir agressés ; sa compagne et la justice tentent de comprendre sa descente.',
+    description:
+      "Aileen Wuornos, prostituée en Floride, tue plusieurs hommes qu'elle prétend avoir agressés ; sa compagne et la justice tentent de comprendre sa descente.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -1489,7 +1528,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 94,
     genre: ['Drame'],
     saga: '',
-    description: 'Un contrôleur aérien hanté par une collision mortelle rencontre le veuf d\'une victime et découvre que la faute pourrait être plus proche qu\'il ne le pensait.',
+    description:
+      "Un contrôleur aérien hanté par une collision mortelle rencontre le veuf d'une victime et découvre que la faute pourrait être plus proche qu'il ne le pensait.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1526,7 +1566,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 101,
     genre: ['Drame'],
     saga: '',
-    description: 'Veuf soudain, un banquier réagit à sa douleur de manière décalée, démolissant sa maison et nouant une relation inattendue avec une vendeuse de confiseries.',
+    description:
+      'Veuf soudain, un banquier réagit à sa douleur de manière décalée, démolissant sa maison et nouant une relation inattendue avec une vendeuse de confiseries.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1563,7 +1604,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 118,
     genre: ['Drame'],
     saga: '',
-    description: 'Jack, cinq ans, vit avec sa mère enfermée dans une pièce ; après une évasion audacieuse, ils découvrent un monde extérieur aussi libérateur que déstabilisant.',
+    description:
+      'Jack, cinq ans, vit avec sa mère enfermée dans une pièce ; après une évasion audacieuse, ils découvrent un monde extérieur aussi libérateur que déstabilisant.',
     fromEntity: {
       entityType: 'book',
       title: 'Room',
@@ -1604,7 +1646,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 124,
     genre: ['Drame'],
     saga: '',
-    description: 'Un boxeur de retour au quartier découvre que son meilleur ami a été tué par la police ; il cherche justice dans un système qui protège ses propres.',
+    description:
+      'Un boxeur de retour au quartier découvre que son meilleur ami a été tué par la police ; il cherche justice dans un système qui protège ses propres.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1641,7 +1684,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 125,
     genre: ['Drame'],
     saga: 'Cinquante Nuances de Grey',
-    description: 'Étudiante Anastasia Steele rencontre le milliardaire Christian Grey et entre dans une relation marquée par des contrats érotiques et des secrets du passé.',
+    description:
+      'Étudiante Anastasia Steele rencontre le milliardaire Christian Grey et entre dans une relation marquée par des contrats érotiques et des secrets du passé.',
     fromEntity: {
       entityType: 'book',
       title: 'Cinquante nuances de Grey',
@@ -1682,7 +1726,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 118,
     genre: ['Drame'],
     saga: 'Cinquante Nuances de Grey',
-    description: 'Christian et Anastasia tentent une relation plus classique, mais des menaces extérieures et les démons de son enfance remettent leur couple en péril.',
+    description:
+      'Christian et Anastasia tentent une relation plus classique, mais des menaces extérieures et les démons de son enfance remettent leur couple en péril.',
     fromEntity: {
       entityType: 'book',
       title: 'Cinquante nuances plus sombres',
@@ -1723,7 +1768,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 106,
     genre: ['Drame'],
     saga: 'Cinquante Nuances de Grey',
-    description: 'Mariés et attendent un enfant, Christian et Anastasia affrontent le chantage d\'un ancien patron et doivent choisir entre sécurité et liberté.',
+    description:
+      "Mariés et attendent un enfant, Christian et Anastasia affrontent le chantage d'un ancien patron et doivent choisir entre sécurité et liberté.",
     fromEntity: {
       entityType: 'book',
       title: 'Cinquante nuances plus claires',
@@ -1764,7 +1810,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 119,
     genre: ['Drame'],
     saga: '',
-    description: 'Riggan Thomson, acteur vieillissant connu pour un rôle de super-héros, monte une pièce à Broadway tout en luttant contre son ego et ses démons intérieurs.',
+    description:
+      'Riggan Thomson, acteur vieillissant connu pour un rôle de super-héros, monte une pièce à Broadway tout en luttant contre son ego et ses démons intérieurs.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1803,7 +1850,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 93,
     genre: ['Drame'],
     saga: '',
-    description: 'Camionneur et ancien champion de bras de fer, Lincoln Hawk tente de regagner la confiance de son fils tout en préparant un tournoi décisif à Las Vegas.',
+    description:
+      'Camionneur et ancien champion de bras de fer, Lincoln Hawk tente de regagner la confiance de son fils tout en préparant un tournoi décisif à Las Vegas.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1840,7 +1888,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 126,
     genre: ['Drame'],
     saga: 'Karate Kid',
-    description: 'Adolescent harcelé à Los Angeles, Daniel apprend le karaté auprès du concierge Mr Miyagi, qui lui enseigne discipline et respect avant un tournoi local.',
+    description:
+      'Adolescent harcelé à Los Angeles, Daniel apprend le karaté auprès du concierge Mr Miyagi, qui lui enseigne discipline et respect avant un tournoi local.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -1877,7 +1926,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 123,
     genre: ['Drame'],
     saga: '',
-    description: 'Ben Thomas parcourt Los Angeles en secret pour sauver sept personnes, expiant ainsi la culpabilité d\'un accident qui a coûté la vie à sept inconnus.',
+    description:
+      "Ben Thomas parcourt Los Angeles en secret pour sauver sept personnes, expiant ainsi la culpabilité d'un accident qui a coûté la vie à sept inconnus.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -1914,7 +1964,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 116,
     genre: ['Drame'],
     saga: '',
-    description: 'Vétéran raciste et recluse Walt Kowalski défend contre son gré un adolescent Hmong voisin pris dans les violences d\'un gang de Detroit.',
+    description:
+      "Vétéran raciste et recluse Walt Kowalski défend contre son gré un adolescent Hmong voisin pris dans les violences d'un gang de Detroit.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1952,7 +2003,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 107,
     genre: ['Drame'],
     saga: '',
-    description: 'Un professeur allemand expérimente une dictature en classe pour expliquer le totalitarisme ; le mouvement « La Vague » dérape bien au-delà de ses intentions.',
+    description:
+      'Un professeur allemand expérimente une dictature en classe pour expliquer le totalitarisme ; le mouvement « La Vague » dérape bien au-delà de ses intentions.',
     fromEntity: {
       entityType: 'book',
       title: 'La vague',
@@ -1993,7 +2045,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 148,
     genre: ['Drame'],
     saga: '',
-    description: 'Christopher McCandless abandonne famille et confort pour vagabonder en Amérique du Nord et finit seul dans la nature sauvage de l\'Alaska.',
+    description:
+      "Christopher McCandless abandonne famille et confort pour vagabonder en Amérique du Nord et finit seul dans la nature sauvage de l'Alaska.",
     fromEntity: {
       entityType: 'book',
       title: 'Into the Wild',
@@ -2034,7 +2087,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 93,
     genre: ['Drame'],
     saga: '',
-    description: 'À Édimbourg, un groupe d\'amis toxicomanes enchaîne fixes, plans foireux et tentatives d\'arrêt, entre humour noir et désolation urbaine.',
+    description:
+      "À Édimbourg, un groupe d'amis toxicomanes enchaîne fixes, plans foireux et tentatives d'arrêt, entre humour noir et désolation urbaine.",
     fromEntity: {
       entityType: 'book',
       title: 'Trainspotting',
@@ -2075,7 +2129,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 100,
     genre: ['Drame'],
     saga: '',
-    description: 'Hollywood, 1927 : star du muet George Valentin voit sa carrière s\'effondrer avec l\'arrivée du parlant tandis qu\'une jeune actrice monte en puissance.',
+    description:
+      "Hollywood, 1927 : star du muet George Valentin voit sa carrière s'effondrer avec l'arrivée du parlant tandis qu'une jeune actrice monte en puissance.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
@@ -2104,7 +2159,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 120,
     genre: ['Drame'],
     saga: '',
-    description: 'Mark Zuckerberg crée Facebook depuis sa chambre à Harvard, déclenchant une ascension fulgurante et des procès amers avec ses anciens associés.',
+    description:
+      'Mark Zuckerberg crée Facebook depuis sa chambre à Harvard, déclenchant une ascension fulgurante et des procès amers avec ses anciens associés.',
     fromEntity: {
       entityType: 'book',
       title: 'The Accidental Billionaires',
@@ -2149,7 +2205,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 94,
     genre: ['Drame'],
     saga: '',
-    description: 'Alpiniste Aron Ralston reste coincé seul dans un canyon de l\'Utah, le bras pris sous un rocher, et doit choisir une amputation pour survivre.',
+    description:
+      "Alpiniste Aron Ralston reste coincé seul dans un canyon de l'Utah, le bras pris sous un rocher, et doit choisir une amputation pour survivre.",
     fromEntity: {
       entityType: 'book',
       title: 'Between a Rock and a Hard Place',
@@ -2190,7 +2247,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 108,
     genre: ['Drame'],
     saga: '',
-    description: 'Nina, danseuse classique obsédée par la perfection, obtient le double rôle du Lac des cygnes et sombre dans la paranoïa en rivalisant avec une nouvelle recrue.',
+    description:
+      'Nina, danseuse classique obsédée par la perfection, obtient le double rôle du Lac des cygnes et sombre dans la paranoïa en rivalisant avec une nouvelle recrue.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -2213,7 +2271,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 105,
     genre: ['Drame'],
     saga: '',
-    description: 'Un marine capturé en Afghanistan est libéré et retrouve sa famille, mais son comportement change alors que son frère cache ce qui s\'est passé pendant sa détention.',
+    description:
+      "Un marine capturé en Afghanistan est libéré et retrouve sa famille, mais son comportement change alors que son frère cache ce qui s'est passé pendant sa détention.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2250,7 +2309,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 99,
     genre: [],
     saga: '',
-    description: 'Quatre survivants de l\'apocalypse zombie traversent l\'Amérique ; Columbus retrouve Wichita dans un parc d\'attractions où les morts-vivants pullulent.',
+    description:
+      "Quatre survivants de l'apocalypse zombie traversent l'Amérique ; Columbus retrouve Wichita dans un parc d'attractions où les morts-vivants pullulent.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2287,7 +2347,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 129,
     genre: ['Drame'],
     saga: '',
-    description: 'Une famille aisée du Tennessee accueille Michael Oher, adolescent sans-abri, et l\'aide à devenir un joueur de football américain prometteur.',
+    description:
+      "Une famille aisée du Tennessee accueille Michael Oher, adolescent sans-abri, et l'aide à devenir un joueur de football américain prometteur.",
     fromEntity: {
       entityType: 'book',
       title: 'The Blind Side',
@@ -2328,7 +2389,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 132,
     genre: ['Drame'],
     saga: '',
-    description: 'Cecil Gaines sert comme majordome à la Maison-Blanche de Eisenhower à Reagan, témoin silencieux de la lutte pour les droits civiques aux États-Unis.',
+    description:
+      'Cecil Gaines sert comme majordome à la Maison-Blanche de Eisenhower à Reagan, témoin silencieux de la lutte pour les droits civiques aux États-Unis.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -2351,7 +2413,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 165,
     genre: ['Western'],
     saga: '',
-    description: 'Esclave affranchi par un chasseur de primes, Django traque avec lui les frères Brittle avant de partir libérer sa femme Broomhilda d\'un planteur du Mississippi.',
+    description:
+      "Esclave affranchi par un chasseur de primes, Django traque avec lui les frères Brittle avant de partir libérer sa femme Broomhilda d'un planteur du Mississippi.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -2391,7 +2454,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 113,
     genre: ['Drame'],
     saga: '',
-    description: 'Adolescent débarqué dans une ville où la danse est interdite, Ren défie l\'ordre moral imposé par le pasteur et réveille la jeunesse par la musique.',
+    description:
+      "Adolescent débarqué dans une ville où la danse est interdite, Ren défie l'ordre moral imposé par le pasteur et réveille la jeunesse par la musique.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2431,7 +2495,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 140,
     genre: ['Drame'],
     saga: '',
-    description: 'Deux frères estrangés, Tommy et Brendan, se retrouvent en finale d\'un tournoi de MMA où leurs traumatismes familiaux explosent sur le ring.',
+    description:
+      "Deux frères estrangés, Tommy et Brendan, se retrouvent en finale d'un tournoi de MMA où leurs traumatismes familiaux explosent sur le ring.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2468,7 +2533,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 128,
     genre: ['Drame'],
     saga: '',
-    description: 'Dans un lycée conservateur des années 1950, le professeur Keating encourage ses élèves à « saisir le jour », au prix d\'une révolte tragique.',
+    description:
+      "Dans un lycée conservateur des années 1950, le professeur Keating encourage ses élèves à « saisir le jour », au prix d'une révolte tragique.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -2505,7 +2571,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 104,
     genre: [],
     saga: '',
-    description: 'Los Angeles, 1947 : un détective privé enquête sur le meurtre d\'un producteur de dessins animés dans un monde où toons et humains coexistent.',
+    description:
+      "Los Angeles, 1947 : un détective privé enquête sur le meurtre d'un producteur de dessins animés dans un monde où toons et humains coexistent.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -2546,7 +2613,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 142,
     genre: ['Drame'],
     saga: '',
-    description: 'Condamné à perpétuité pour le meurtre de sa femme, Andy Dufresne s\'insère dans la routine carcérale de Shawshank et prépare patiemment une évasion.',
+    description:
+      "Condamné à perpétuité pour le meurtre de sa femme, Andy Dufresne s'insère dans la routine carcérale de Shawshank et prépare patiemment une évasion.",
     fromEntity: {
       entityType: 'book',
       title: 'Rita Hayworth and Shawshank Redemption',
@@ -2587,7 +2655,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 123,
     genre: ['Drame'],
     saga: '',
-    description: 'Enseignante dans un lycée difficile de Long Beach, Erin Gruwell utilise l\'écriture et des journaux intimes pour sortir ses élèves de la violence des gangs.',
+    description:
+      "Enseignante dans un lycée difficile de Long Beach, Erin Gruwell utilise l'écriture et des journaux intimes pour sortir ses élèves de la violence des gangs.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2624,7 +2693,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 107,
     genre: ['Drame'],
     saga: '',
-    description: 'Aziz, professeur privé, accepte de préparer une élève brillante au concours médical et voit leurs rapports dépasser le cadre strict de la répétition.',
+    description:
+      'Aziz, professeur privé, accepte de préparer une élève brillante au concours médical et voit leurs rapports dépasser le cadre strict de la répétition.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2661,7 +2731,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 123,
     genre: ['Drame'],
     saga: '',
-    description: 'En Angleterre avant la Seconde Guerre mondiale, le jeune écrivain Robbie et Cecilia sont séparés par une fausse accusation qui détruit leurs vies.',
+    description:
+      'En Angleterre avant la Seconde Guerre mondiale, le jeune écrivain Robbie et Cecilia sont séparés par une fausse accusation qui détruit leurs vies.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2698,7 +2769,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 126,
     genre: ['Drame'],
     saga: '',
-    description: 'Avocat atteint du sida, Andrew Beckett intente un procès contre son cabinet pour licenciement abusif, défendu par un collègue initialement homophobe.',
+    description:
+      'Avocat atteint du sida, Andrew Beckett intente un procès contre son cabinet pour licenciement abusif, défendu par un collègue initialement homophobe.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -2738,7 +2810,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 96,
     genre: ['Drame'],
     saga: '',
-    description: 'Trois minutes après le décollage, le commandant Sullenberger pose un Airbus A320 sur l\'Hudson ; une enquête remet en cause si cet atterrissage était nécessaire.',
+    description:
+      "Trois minutes après le décollage, le commandant Sullenberger pose un Airbus A320 sur l'Hudson ; une enquête remet en cause si cet atterrissage était nécessaire.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2761,7 +2834,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 161,
     genre: ['Drame', 'Comédie'],
     saga: '',
-    description: 'En 1969 à Los Angeles, l\'acteur Rick Dalton et son cascadeur Cliff Booth côtoient l\'industrie du cinéma au moment où la secte de Manson se rapproche.',
+    description:
+      "En 1969 à Los Angeles, l'acteur Rick Dalton et son cascadeur Cliff Booth côtoient l'industrie du cinéma au moment où la secte de Manson se rapproche.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -2801,7 +2875,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 107,
     genre: ['Drame'],
     saga: '',
-    description: 'Ray Kinsella entend une voix lui ordonner de construire un terrain de baseball dans son champ de maïs, relançant des rêves oubliés autour du diamant.',
+    description:
+      'Ray Kinsella entend une voix lui ordonner de construire un terrain de baseball dans son champ de maïs, relançant des rêves oubliés autour du diamant.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2838,7 +2913,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 126,
     genre: ['Drame'],
     saga: '',
-    description: 'Pendant la Dépression, un mystérieux caddy aide un golfeur en déclin à affronter deux champions dans un tournoi qui redonne espoir à une ville du Georgia.',
+    description:
+      'Pendant la Dépression, un mystérieux caddy aide un golfeur en déclin à affronter deux champions dans un tournoi qui redonne espoir à une ville du Georgia.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2875,7 +2951,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 157,
     genre: ['Biographie'],
     saga: '',
-    description: 'Biopic de Muhammad Ali, de ses premiers titres de champion poids lourds à son refus de combattre au Vietnam et son retour sur le ring.',
+    description:
+      'Biopic de Muhammad Ali, de ses premiers titres de champion poids lourds à son refus de combattre au Vietnam et son retour sur le ring.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -2903,7 +2980,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 122,
     genre: ['Drame'],
     saga: '',
-    description: 'Un publiciste célibataire apprend qu\'il a une fille de seize ans ; leur relation naissante le force à repenser sa vie professionnelle et sentimentale.',
+    description:
+      "Un publiciste célibataire apprend qu'il a une fille de seize ans ; leur relation naissante le force à repenser sa vie professionnelle et sentimentale.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2931,7 +3009,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 132,
     genre: ['Drame'],
     saga: '',
-    description: 'Esclave nommé Peter s\'évade d\'une plantation de Louisiane pendant la guerre civile et traverse marécages et chasseurs pour rejoindre les lignes de l\'Union.',
+    description:
+      "Esclave nommé Peter s'évade d'une plantation de Louisiane pendant la guerre civile et traverse marécages et chasseurs pour rejoindre les lignes de l'Union.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2968,7 +3047,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 119,
     genre: ['Drame'],
     saga: '',
-    description: 'En 1942, un entraîneur et un gardien de but juif transforment des détenus d\'un camp nazi en équipe de football pour un match symbolique contre leurs geôliers.',
+    description:
+      "En 1942, un entraîneur et un gardien de but juif transforment des détenus d'un camp nazi en équipe de football pour un match symbolique contre leurs geôliers.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3005,7 +3085,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 124,
     genre: ['Drame'],
     saga: '',
-    description: 'De l\'université à l\'âge adulte, Harry et Sally se croisent régulièrement à New York et se demandent si l\'amitié entre un homme et une femme est possible.',
+    description:
+      "De l'université à l'âge adulte, Harry et Sally se croisent régulièrement à New York et se demandent si l'amitié entre un homme et une femme est possible.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3043,7 +3124,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 90,
     genre: ['Drame'],
     saga: '',
-    description: 'Deux frères aux tempéraments opposés se retrouvent chez leur mère en Californie ; leurs rivalités explosent dans une pièce de théâtre filmée.',
+    description:
+      'Deux frères aux tempéraments opposés se retrouvent chez leur mère en Californie ; leurs rivalités explosent dans une pièce de théâtre filmée.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3081,7 +3163,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 104,
     genre: ['Drame'],
     saga: '',
-    description: 'Un ancien astronaute de la NASA construit une fusée dans son hangar du Texas pour aller dans l\'espace, malgré les doutes de sa famille et des autorités.',
+    description:
+      "Un ancien astronaute de la NASA construit une fusée dans son hangar du Texas pour aller dans l'espace, malgré les doutes de sa famille et des autorités.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3118,7 +3201,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 117,
     genre: ['Drame'],
     saga: '',
-    description: 'Dans le Texas des années 1940, John Grady Cole part au Mexique avec un ami pour devenir éleveur et y vit un amour impossible avec la fille d\'un hacendado.',
+    description:
+      "Dans le Texas des années 1940, John Grady Cole part au Mexique avec un ami pour devenir éleveur et y vit un amour impossible avec la fille d'un hacendado.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3155,7 +3239,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 136,
     genre: ['Drame'],
     saga: '',
-    description: 'Jamal, lycéen noir doué pour l\'écriture, se lie à William Forrester, écrivain recluse du Bronx, qui devient son mentor avant une révélation sur son passé.',
+    description:
+      "Jamal, lycéen noir doué pour l'écriture, se lie à William Forrester, écrivain recluse du Bronx, qui devient son mentor avant une révélation sur son passé.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3192,7 +3277,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 100,
     genre: ['Biographie'],
     saga: '',
-    description: 'Pendant la guerre froide, le présentateur télé Edward R. Murrow affronte le sénateur McCarthy et défend la liberté de la presse à la télévision américaine.',
+    description:
+      'Pendant la guerre froide, le présentateur télé Edward R. Murrow affronte le sénateur McCarthy et défend la liberté de la presse à la télévision américaine.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3229,7 +3315,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 103,
     genre: ['Drame'],
     saga: '',
-    description: 'Deux amis perdus dans le désert américain sans eau ni repères déambulent jusqu\'à l\'épuisement, leur amitié se fissurant sous la pression.',
+    description:
+      "Deux amis perdus dans le désert américain sans eau ni repères déambulent jusqu'à l'épuisement, leur amitié se fissurant sous la pression.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3266,7 +3353,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 134,
     genre: ['Biographie'],
     saga: '',
-    description: 'Nelson Mandela, nouvellement élu, s\'appuie sur l\'équipe de rugby sud-africaine pour unifier un pays encore divisé par l\'apartheid lors de la Coupe du monde 1995.',
+    description:
+      "Nelson Mandela, nouvellement élu, s'appuie sur l'équipe de rugby sud-africaine pour unifier un pays encore divisé par l'apartheid lors de la Coupe du monde 1995.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -3303,7 +3391,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 108,
     genre: ['Drame'],
     saga: '',
-    description: 'Après la mort de son frère jumeau, une étudiante en médecine entame une enquête sur les expériences de mort imminente tout en s\'effondrant psychologiquement.',
+    description:
+      "Après la mort de son frère jumeau, une étudiante en médecine entame une enquête sur les expériences de mort imminente tout en s'effondrant psychologiquement.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3340,7 +3429,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 150,
     genre: ['Drame'],
     saga: '',
-    description: 'Adolescente new-yorkaise, Lisa provoque accidentellement la mort d\'une femme au volant et voit sa culpabilité entrer en conflit avec la justice et la politique.',
+    description:
+      "Adolescente new-yorkaise, Lisa provoque accidentellement la mort d'une femme au volant et voit sa culpabilité entrer en conflit avec la justice et la politique.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3377,7 +3467,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 110,
     genre: ['Drame'],
     saga: '',
-    description: 'Mike, avocat alcoolique, devient tuteur d\'un adolescent marginalisé et trouve une seconde chance en l\'aidant à préparer ses examens d\'entrée à l\'université.',
+    description:
+      "Mike, avocat alcoolique, devient tuteur d'un adolescent marginalisé et trouve une seconde chance en l'aidant à préparer ses examens d'entrée à l'université.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3414,7 +3505,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 106,
     genre: ['Drame'],
     saga: '',
-    description: 'Un représentant d\'une compagnie pétrolière arrive dans une petite ville pour acheter les droits de forage au gaz de schiste et affronte une enseignante sceptique.',
+    description:
+      "Un représentant d'une compagnie pétrolière arrive dans une petite ville pour acheter les droits de forage au gaz de schiste et affronte une enseignante sceptique.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3451,7 +3543,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 118,
     genre: ['Biographie'],
     saga: '',
-    description: 'Dans les années 1970-80, le jeune Scott Thorson devient amant et protégé du pianiste flamboyant Liberace, dans une relation étouffante et luxueuse.',
+    description:
+      'Dans les années 1970-80, le jeune Scott Thorson devient amant et protégé du pianiste flamboyant Liberace, dans une relation étouffante et luxueuse.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3479,7 +3572,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 140,
     genre: ['Drame'],
     saga: '',
-    description: 'Un ouvrier américain débarque à Marseille pour aider sa fille emprisonnée pour meurtre ; il enquête avec une avocate locale pour prouver son innocence.',
+    description:
+      'Un ouvrier américain débarque à Marseille pour aider sa fille emprisonnée pour meurtre ; il enquête avec une avocate locale pour prouver son innocence.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3516,7 +3610,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 133,
     genre: ['Drame'],
     saga: '',
-    description: 'Trois frères et la femme qu\'ils aiment traversent guerres et changements du XXe siècle dans le Montana, leurs liens marqués par jalousie et deuil.',
+    description:
+      "Trois frères et la femme qu'ils aiment traversent guerres et changements du XXe siècle dans le Montana, leurs liens marqués par jalousie et deuil.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3554,7 +3649,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 147,
     genre: ['Drame'],
     saga: '',
-    description: 'Quatre amis d\'enfance de Hell\'s Kitchen, abusés en centre de détention juvénile, se retrouvent adultes et organisent une vengeance contre leurs anciens gardiens.',
+    description:
+      "Quatre amis d'enfance de Hell's Kitchen, abusés en centre de détention juvénile, se retrouvent adultes et organisent une vengeance contre leurs anciens gardiens.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3591,7 +3687,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 136,
     genre: ['Biographie'],
     saga: '',
-    description: 'Heinrich Harrer, alpiniste autrichien, est interné en Inde pendant la Seconde Guerre mondiale et devient précepteur du jeune dalaï-lama à Lhassa.',
+    description:
+      'Heinrich Harrer, alpiniste autrichien, est interné en Inde pendant la Seconde Guerre mondiale et devient précepteur du jeune dalaï-lama à Lhassa.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3628,7 +3725,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 160,
     genre: ['Biographie'],
     saga: '',
-    description: 'Robert Ford, jeune admirateur de Jesse James, rejoint son gang avant de le trahir pour la prime, hanté par la gloire et la honte.',
+    description:
+      'Robert Ford, jeune admirateur de Jesse James, rejoint son gang avant de le trahir pour la prime, hanté par la gloire et la honte.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3665,7 +3763,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 133,
     genre: ['Drame'],
     saga: '',
-    description: 'Le manager général des Oakland Athletics, Billy Beane, utilise l\'analyse statistique pour recruter des joueurs sous-estimés et rivaliser avec les grandes franchises.',
+    description:
+      "Le manager général des Oakland Athletics, Billy Beane, utilise l'analyse statistique pour recruter des joueurs sous-estimés et rivaliser avec les grandes franchises.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3702,7 +3801,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 139,
     genre: ['Drame'],
     saga: '',
-    description: 'Un architecte texan se remémemore son enfance dans les années 1950, entre l\'amour d\'une mère, la rigueur d\'un père et des visions cosmiques sur la création.',
+    description:
+      "Un architecte texan se remémemore son enfance dans les années 1950, entre l'amour d'une mère, la rigueur d'un père et des visions cosmiques sur la création.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3739,7 +3839,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 134,
     genre: ['Drame', 'Historique', 'Biographie'],
     saga: '',
-    description: 'Solomon Northup, homme libre de New York, est kidnappé et vendu comme esclave en Louisiane, où il endure douze ans de servitude avant d\'être libéré.',
+    description:
+      "Solomon Northup, homme libre de New York, est kidnappé et vendu comme esclave en Louisiane, où il endure douze ans de servitude avant d'être libéré.",
     fromEntity: {
       entityType: 'book',
       title: '12 Years a Slave',
@@ -3784,7 +3885,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 97,
     genre: ['Drame'],
     saga: '',
-    description: 'Un couple américain s\'installe dans un hôtel face à la mer en France pour tenter de sauver leur mariage, entre jalousie, silence et confessions difficiles.',
+    description:
+      "Un couple américain s'installe dans un hôtel face à la mer en France pour tenter de sauver leur mariage, entre jalousie, silence et confessions difficiles.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3818,7 +3920,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 130,
     genre: ['Biographie'],
     saga: '',
-    description: 'Plusieurs financiers parient contre le marché immobilier américain avant la crise de 2008, découvrant l\'arnaque des subprimes et l\'aveuglement du système.',
+    description:
+      "Plusieurs financiers parient contre le marché immobilier américain avant la crise de 2008, découvrant l'arnaque des subprimes et l'aveuglement du système.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -3855,7 +3958,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 140,
     genre: ['Drame'],
     saga: '',
-    description: 'En avril 1970, la mission Apollo 13 vers la Lune est interrompue par une explosion à bord ; l\'équipage et le contrôle au sol luttent pour ramener les astronautes vivants.',
+    description:
+      "En avril 1970, la mission Apollo 13 vers la Lune est interrompue par une explosion à bord ; l'équipage et le contrôle au sol luttent pour ramener les astronautes vivants.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3895,7 +3999,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 102,
     genre: ['Drame'],
     saga: '',
-    description: 'Le représentant texan Charlie Wilson arme secrètement les moudjahiddins afghans contre l\'Union soviétique dans les années 1980, avec des conséquences imprévues.',
+    description:
+      "Le représentant texan Charlie Wilson arme secrètement les moudjahiddins afghans contre l'Union soviétique dans les années 1980, avec des conséquences imprévues.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3932,7 +4037,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 96,
     genre: ['Drame'],
     saga: '',
-    description: 'Pendant la Seconde Guerre mondiale, un adolescent de petite ville devient télégraphiste et doit annoncer les morts au front à sa mère et à ses voisins.',
+    description:
+      'Pendant la Seconde Guerre mondiale, un adolescent de petite ville devient télégraphiste et doit annoncer les morts au front à sa mère et à ses voisins.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3969,7 +4075,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 107,
     genre: ['Biographie'],
     saga: '',
-    description: 'Le journaliste Lloyd Vogel enquête sur Fred Rogers, animateur de télévision pour enfants, et découvre un homme dont la gentillesse transforme sa propre vie brisée.',
+    description:
+      'Le journaliste Lloyd Vogel enquête sur Fred Rogers, animateur de télévision pour enfants, et découvre un homme dont la gentillesse transforme sa propre vie brisée.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4006,7 +4113,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 109,
     genre: ['Drame'],
     saga: '',
-    description: 'En 1870 au Texas, un capitaine de guerre civile parcourt les villes pour lire les journaux aux habitants et doit ramener chez sa famille une fille élevée par les Kiowa.',
+    description:
+      'En 1870 au Texas, un capitaine de guerre civile parcourt les villes pour lire les journaux aux habitants et doit ramener chez sa famille une fille élevée par les Kiowa.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4043,7 +4151,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 104,
     genre: ['Drame'],
     saga: '',
-    description: 'Un couple voit défiler des décennies de vie commune dans la même maison, entre naissances, deuils et transformations d\'une Amérique ordinaire.',
+    description:
+      "Un couple voit défiler des décennies de vie commune dans la même maison, entre naissances, deuils et transformations d'une Amérique ordinaire.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4080,7 +4189,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 91,
     genre: ['Drame'],
     saga: '',
-    description: 'Dans l\'Oklahoma des années 1960, des adolescents issus de milieux populaires affrontent les Socs, une bande de riches, jusqu\'à une rixe mortelle.',
+    description:
+      "Dans l'Oklahoma des années 1960, des adolescents issus de milieux populaires affrontent les Socs, une bande de riches, jusqu'à une rixe mortelle.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4117,7 +4227,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 119,
     genre: ['Drame'],
     saga: '',
-    description: 'Fast Eddie Felson, ancien prodige du billard, entraîne un jeune talent flamboyant mais imprudent pour regagner les tables de pool de l\'Amérique.',
+    description:
+      "Fast Eddie Felson, ancien prodige du billard, entraîne un jeune talent flamboyant mais imprudent pour regagner les tables de pool de l'Amérique.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4154,7 +4265,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 135,
     genre: ['Drame'],
     saga: '',
-    description: 'En 1970, le directeur de la NASA Jim Lovell et son équipage préparent Apollo 13, mission qui basculera en course contre la montre pour sauver les astronautes.',
+    description:
+      'En 1970, le directeur de la NASA Jim Lovell et son équipage préparent Apollo 13, mission qui basculera en course contre la montre pour sauver les astronautes.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4191,7 +4303,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 138,
     genre: ['Drame'],
     saga: '',
-    description: 'Deux avocats de la marine défendent deux marines accusés d\'avoir tué un camarade lors d\'un hazing, remettant en cause l\'honneur et l\'obéissance au code.',
+    description:
+      "Deux avocats de la marine défendent deux marines accusés d'avoir tué un camarade lors d'un hazing, remettant en cause l'honneur et l'obéissance au code.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4228,7 +4341,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 188,
     genre: ['Drame'],
     saga: '',
-    description: 'À Los Angeles, neuf personnages aux destins entrelacés affrontent solitude, maladie et culpabilité pendant une journée où la pluie de grenouilles semble annoncer le chaos.',
+    description:
+      'À Los Angeles, neuf personnages aux destins entrelacés affrontent solitude, maladie et culpabilité pendant une journée où la pluie de grenouilles semble annoncer le chaos.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4265,7 +4379,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 92,
     genre: ['Drame'],
     saga: '',
-    description: 'Deux étudiants en médecine, l\'un idéaliste et l\'autre ambitieux, se retrouvent des années plus tard lors d\'un procès impliquant des expériences sur des prisonniers.',
+    description:
+      "Deux étudiants en médecine, l'un idéaliste et l'autre ambitieux, se retrouvent des années plus tard lors d'un procès impliquant des expériences sur des prisonniers.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4302,7 +4417,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 118,
     genre: ['Drame'],
     saga: '',
-    description: 'Gilbert Grape, jeune homme d\'une petite ville de l\'Iowa, s\'occupe de sa mère obèse et de son frère autiste en attendant de quitter la maison familiale.',
+    description:
+      "Gilbert Grape, jeune homme d'une petite ville de l'Iowa, s'occupe de sa mère obèse et de son frère autiste en attendant de quitter la maison familiale.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4339,7 +4455,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 102,
     genre: ['Drame'],
     saga: '',
-    description: 'Adolescent basketteur prometteur à New York, Jim Carroll bascule dans l\'héroïne et la prostitution, racontant sa descente et ses tentatives de rédemption.',
+    description:
+      "Adolescent basketteur prometteur à New York, Jim Carroll bascule dans l'héroïne et la prostitution, racontant sa descente et ses tentatives de rédemption.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4376,7 +4493,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 111,
     genre: ['Biographie'],
     saga: '',
-    description: 'Paris, 1871 : le poète Paul Verlaine tombe sous le charme du jeune Arthur Rimbaud ; leur liaison passionnée et destructrice bouleverse la vie des deux hommes.',
+    description:
+      'Paris, 1871 : le poète Paul Verlaine tombe sous le charme du jeune Arthur Rimbaud ; leur liaison passionnée et destructrice bouleverse la vie des deux hommes.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4404,7 +4522,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 110,
     genre: ['Drame'],
     saga: '',
-    description: 'Dans le Queens des années 1980, deux frères d\'une famille juive voient leurs vies diverger autour du commerce paternel, de la drogue et d\'un vol qui les sépare.',
+    description:
+      "Dans le Queens des années 1980, deux frères d'une famille juive voient leurs vies diverger autour du commerce paternel, de la drogue et d'un vol qui les sépare.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4441,7 +4560,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 88,
     genre: ['Drame'],
     saga: '',
-    description: 'Un groupe d\'amis se retrouve régulièrement au diner Don\'s Plum à Los Angeles ; une soirée filmée en caméra subjective révèle tensions et jalousies.',
+    description:
+      "Un groupe d'amis se retrouve régulièrement au diner Don's Plum à Los Angeles ; une soirée filmée en caméra subjective révèle tensions et jalousies.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4478,7 +4598,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 119,
     genre: ['Drame'],
     saga: '',
-    description: 'Frank et April Wheeler, couple installé en banlieue dans les années 1950, rêvent de quitter l\'Amérique conformiste, mais leurs plans d\'expatriation échouent tragiquement.',
+    description:
+      "Frank et April Wheeler, couple installé en banlieue dans les années 1950, rêvent de quitter l'Amérique conformiste, mais leurs plans d'expatriation échouent tragiquement.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4515,7 +4636,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 137,
     genre: ['Biographie'],
     saga: '',
-    description: 'De la création du FBI à sa fin de vie, J. Edgar Hoover accumule le pouvoir et les secrets, protégeant jalousement sa réputation et sa relation avec Clyde Tolson.',
+    description:
+      'De la création du FBI à sa fin de vie, J. Edgar Hoover accumule le pouvoir et les secrets, protégeant jalousement sa réputation et sa relation avec Clyde Tolson.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4552,7 +4674,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 156,
     genre: ['Drame'],
     saga: '',
-    description: 'Trahi et laissé pour mort après une attaque d\'ours, le trappeur Hugh Glass traverse l\'hiver du Dakota en traquant l\'homme responsable de la mort de son fils.',
+    description:
+      "Trahi et laissé pour mort après une attaque d'ours, le trappeur Hugh Glass traverse l'hiver du Dakota en traquant l'homme responsable de la mort de son fils.",
     fromEntity: {
       entityType: 'book',
       title: 'Le revenant',
@@ -4597,7 +4720,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 100,
     genre: ['Drame'],
     saga: '',
-    description: 'Catherine, fille d\'un mathématicien génial et instable, revendique avoir écrit une preuve majeure et doit convaincre sa sœur et un ancien élève de son père.',
+    description:
+      "Catherine, fille d'un mathématicien génial et instable, revendique avoir écrit une preuve majeure et doit convaincre sa sœur et un ancien élève de son père.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4634,7 +4758,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 121,
     genre: ['Drame'],
     saga: '',
-    description: 'En mai 1996, deux expéditions commerciales sur l\'Everest sont prises dans une tempête mortelle au sommet, forçant guides et clients à des choix désespérés.',
+    description:
+      "En mai 1996, deux expéditions commerciales sur l'Everest sont prises dans une tempête mortelle au sommet, forçant guides et clients à des choix désespérés.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4671,7 +4796,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 119,
     genre: ['Biographie'],
     saga: '',
-    description: 'Jeff Bauman, amputé des deux jours après l\'attentat du marathon de Boston, lutte pour se reconstruire physiquement et émotionnellement avec sa compagne.',
+    description:
+      "Jeff Bauman, amputé des deux jours après l'attentat du marathon de Boston, lutte pour se reconstruire physiquement et émotionnellement avec sa compagne.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4708,7 +4834,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 96,
     genre: ['Drame'],
     saga: '',
-    description: 'Trois époques entrelacées : un conquistador cherche l\'arbre de vie, un chirurgien tente de guérir son épouse mourante, un astronaute voyage vers une nébuleuse.',
+    description:
+      "Trois époques entrelacées : un conquistador cherche l'arbre de vie, un chirurgien tente de guérir son épouse mourante, un astronaute voyage vers une nébuleuse.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4745,7 +4872,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 165,
     genre: ['Drame'],
     saga: '',
-    description: 'En 1939, une aristocrate anglaise et un drover conduisent un troupeau à travers l\'Australie avec un enfant métis, face à la guerre et aux préjugés coloniaux.',
+    description:
+      "En 1939, une aristocrate anglaise et un drover conduisent un troupeau à travers l'Australie avec un enfant métis, face à la guerre et aux préjugés coloniaux.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4776,7 +4904,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 104,
     genre: ['Drame'],
     saga: '',
-    description: 'À Shanghai et dans le XIXe siècle, deux femmes liées par un pacte d\'amitié écrite sur un éventail partagent épreuves du mariage, du pieds bandés et de la guerre.',
+    description:
+      "À Shanghai et dans le XIXe siècle, deux femmes liées par un pacte d'amitié écrite sur un éventail partagent épreuves du mariage, du pieds bandés et de la guerre.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4813,7 +4942,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 106,
     genre: ['Biographie'],
     saga: '',
-    description: 'Michael Edwards, skieur britannique sans moyens, se reconvertit en sauteur à ski et participe aux Jeux olympiques de 1988 malgré le scepticisme des fédérations.',
+    description:
+      'Michael Edwards, skieur britannique sans moyens, se reconvertit en sauteur à ski et participe aux Jeux olympiques de 1988 malgré le scepticisme des fédérations.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4850,7 +4980,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 113,
     genre: ['Biographie'],
     saga: '',
-    description: 'Gary Hart, favori pour la présidence en 1988, voit sa campagne s\'effondrer lorsque la presse enquête sur sa vie privée et remet en cause ses mensonges.',
+    description:
+      "Gary Hart, favori pour la présidence en 1988, voit sa campagne s'effondrer lorsque la presse enquête sur sa vie privée et remet en cause ses mensonges.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4887,7 +5018,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 123,
     genre: ['Drame'],
     saga: '',
-    description: 'Peter, avocat divorcé, voit son fils adolescent refuser l\'université et sombrer dans une dépression qui ravive les failles de toute la famille recomposée.',
+    description:
+      "Peter, avocat divorcé, voit son fils adolescent refuser l'université et sombrer dans une dépression qui ravive les failles de toute la famille recomposée.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4924,7 +5056,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 140,
     genre: ['Drame'],
     saga: '',
-    description: 'Un moine tibétain et un enfant américain sont identifiés comme réincarnations possibles ; le film entrelace cette quête avec la vie du Bouddha historique.',
+    description:
+      'Un moine tibétain et un enfant américain sont identifiés comme réincarnations possibles ; le film entrelace cette quête avec la vie du Bouddha historique.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4961,7 +5094,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 95,
     genre: ['Drame'],
     saga: '',
-    description: 'Deux frères et une escort se retrouvent dans un triangle amoureux chaotique au Minnesota, entre dettes, vols et fuites à travers le Midwest.',
+    description:
+      'Deux frères et une escort se retrouvent dans un triangle amoureux chaotique au Minnesota, entre dettes, vols et fuites à travers le Midwest.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4998,7 +5132,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 106,
     genre: ['Drame'],
     saga: '',
-    description: 'Conner O\'Neill, parieur endetté, entraîne une équipe de baseball de quartier à Chicago et apprend la responsabilité en s\'attachant à des enfants marginalisés.',
+    description:
+      "Conner O'Neill, parieur endetté, entraîne une équipe de baseball de quartier à Chicago et apprend la responsabilité en s'attachant à des enfants marginalisés.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5035,7 +5170,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 98,
     genre: ['Drame'],
     saga: '',
-    description: 'Pippa Lee, épouse d\'un éditeur bien plus âgé, découvre à cinquante ans que son mari la quitte et doit affronter les secrets de sa jeunesse rebelle.',
+    description:
+      "Pippa Lee, épouse d'un éditeur bien plus âgé, découvre à cinquante ans que son mari la quitte et doit affronter les secrets de sa jeunesse rebelle.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5069,7 +5205,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 107,
     genre: ['Drame'],
     saga: '',
-    description: 'Ellen, jeune femme anorexique, entre dans un programme de soins dirigé par un médecin atypique et tente de se réconcilier avec sa famille et son corps.',
+    description:
+      'Ellen, jeune femme anorexique, entre dans un programme de soins dirigé par un médecin atypique et tente de se réconcilier avec sa famille et son corps.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5106,7 +5243,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 100,
     genre: ['Drame'],
     saga: '',
-    description: 'Biopic de Jane Austen, de sa jeunesse dans le Hampshire à l\'écriture de ses romans, centrée sur sa relation avec Tom Lefroy et les contraintes de son époque.',
+    description:
+      "Biopic de Jane Austen, de sa jeunesse dans le Hampshire à l'écriture de ses romans, centrée sur sa relation avec Tom Lefroy et les contraintes de son époque.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5143,7 +5281,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 113,
     genre: ['Drame'],
     saga: '',
-    description: 'Kym revient pour le mariage de sa sœur Rachel après un séjour en désintoxication, ravivant culpabilité et tensions au sein d\'une famille bourgeoise du Connecticut.',
+    description:
+      "Kym revient pour le mariage de sa sœur Rachel après un séjour en désintoxication, ravivant culpabilité et tensions au sein d'une famille bourgeoise du Connecticut.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5180,7 +5319,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 126,
     genre: ['Drame'],
     saga: '',
-    description: 'L\'avocat Rob Bilott défend une ferme de Virginie-Occidentale et découvre que DuPont a empoisonné une ville entière avec des produits chimiques du Téflon.',
+    description:
+      "L'avocat Rob Bilott défend une ferme de Virginie-Occidentale et découvre que DuPont a empoisonné une ville entière avec des produits chimiques du Téflon.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5217,7 +5357,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 100,
     genre: ['Drame'],
     saga: '',
-    description: 'Trois histoires où Ryan Reynolds incarne un acteur, un scénariste et un messager divin, suggérant que la réalité est une fiction contrôlée par des entités supérieures.',
+    description:
+      'Trois histoires où Ryan Reynolds incarne un acteur, un scénariste et un messager divin, suggérant que la réalité est une fiction contrôlée par des entités supérieures.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5255,7 +5396,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 120,
     genre: ['Drame'],
     saga: '',
-    description: 'Professeur idéaliste dans un lycée difficile de Los Angeles, Erin Gruwell donne des cahiers à ses élèves pour qu\'ils racontent leurs vies et échappent à la violence.',
+    description:
+      "Professeur idéaliste dans un lycée difficile de Los Angeles, Erin Gruwell donne des cahiers à ses élèves pour qu'ils racontent leurs vies et échappent à la violence.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5280,7 +5422,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 99,
     genre: ['Drame'],
     saga: '',
-    description: 'Un écrivain célèbre retourne dans la maison de son enfance pour les funérailles de sa mère et revit sa relation conflictuelle avec son père professeur.',
+    description:
+      'Un écrivain célèbre retourne dans la maison de son enfance pour les funérailles de sa mère et revit sa relation conflictuelle avec son père professeur.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5317,7 +5460,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 110,
     genre: ['Drame'],
     saga: '',
-    description: 'Maria Altmann, Autrichienne exilée à Los Angeles, intente un procès à l\'État autrichien pour récupérer le portrait de sa tante peint par Gustav Klimt.',
+    description:
+      "Maria Altmann, Autrichienne exilée à Los Angeles, intente un procès à l'État autrichien pour récupérer le portrait de sa tante peint par Gustav Klimt.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5354,7 +5498,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 118,
     genre: ['Drame'],
     saga: '',
-    description: 'Dans le Tennessee, plusieurs personnages de la scène country — chanteurs, fans, politiciens — se croisent lors d\'un week-end électoral mouvementé.',
+    description:
+      "Dans le Tennessee, plusieurs personnages de la scène country — chanteurs, fans, politiciens — se croisent lors d'un week-end électoral mouvementé.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5391,7 +5536,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 124,
     genre: ['Drame'],
     saga: '',
-    description: 'Dans le Chicago des années 1960, une mère célibataire élève ses quatre filles dans un immeuble populaire, entre rêves, amours et racisme ambiant.',
+    description:
+      'Dans le Chicago des années 1960, une mère célibataire élève ses quatre filles dans un immeuble populaire, entre rêves, amours et racisme ambiant.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5428,7 +5574,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 130,
     genre: ['Drame'],
     saga: '',
-    description: 'À une époque indéterminée dans le Sud profond, quatre amies d\'enfance partagent rituels, secrets et désirs autour d\'un arbre où l\'une d\'elles a disparu.',
+    description:
+      "À une époque indéterminée dans le Sud profond, quatre amies d'enfance partagent rituels, secrets et désirs autour d'un arbre où l'une d'elles a disparu.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5465,7 +5612,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 112,
     genre: ['Drame'],
     saga: '',
-    description: 'À Los Angeles, des personnages de milieux différents — flics, voleurs, immigrants — se croisent lors d\'accidents et d\'actes de violence révélant le racisme latent.',
+    description:
+      "À Los Angeles, des personnages de milieux différents — flics, voleurs, immigrants — se croisent lors d'accidents et d'actes de violence révélant le racisme latent.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5506,7 +5654,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 99,
     genre: ['Biographie'],
     saga: '',
-    description: 'Dans le New York des années 1960, Truman Capote enquête sur un quadruple meurtre au Kansas pour écrire De sang-froid, s\'impliquant jusqu\'à l\'épuisement.',
+    description:
+      "Dans le New York des années 1960, Truman Capote enquête sur un quadruple meurtre au Kansas pour écrire De sang-froid, s'impliquant jusqu'à l'épuisement.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5543,7 +5692,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 129,
     genre: ['Drame'],
     saga: '',
-    description: 'Après la mort de son père le 11 septembre, le jeune Oskar trouve une clé mystérieuse et parcourt New York pour découvrir ce qu\'elle ouvre.',
+    description:
+      "Après la mort de son père le 11 septembre, le jeune Oskar trouve une clé mystérieuse et parcourt New York pour découvrir ce qu'elle ouvre.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5580,7 +5730,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 114,
     genre: ['Drame'],
     saga: '',
-    description: 'Ruth Slater, sortie de prison après vingt ans pour meurtre, tente de reprendre une vie normale tandis que le frère de sa victime prépare sa vengeance.',
+    description:
+      'Ruth Slater, sortie de prison après vingt ans pour meurtre, tente de reprendre une vie normale tandis que le frère de sa victime prépare sa vengeance.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5617,7 +5768,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 128,
     genre: ['Drame'],
     saga: '',
-    description: 'Un écrivain à succès et une journaliste sportive tombent amoureux, mais leurs carrières et leurs ex rendent difficile la vie de couple et la parentalité.',
+    description:
+      'Un écrivain à succès et une journaliste sportive tombent amoureux, mais leurs carrières et leurs ex rendent difficile la vie de couple et la parentalité.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5654,7 +5806,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 116,
     genre: ['Drame'],
     saga: '',
-    description: 'Plusieurs familles d\'une banlieue texane naviguent entre réseaux sociaux, pornographie en ligne et secrets qui éloignent parents et adolescents les uns des autres.',
+    description:
+      "Plusieurs familles d'une banlieue texane naviguent entre réseaux sociaux, pornographie en ligne et secrets qui éloignent parents et adolescents les uns des autres.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5691,7 +5844,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 112,
     genre: ['Drame'],
     saga: '',
-    description: 'Deux adolescents allemands fans de jazz clandestin à Hambourg en 1939 doivent choisir entre leur passion et l\'embrigadement dans les Jeunesses hitlériennes.',
+    description:
+      "Deux adolescents allemands fans de jazz clandestin à Hambourg en 1939 doivent choisir entre leur passion et l'embrigadement dans les Jeunesses hitlériennes.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5728,7 +5882,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 115,
     genre: ['Drame'],
     saga: '',
-    description: 'Pendant la guerre de Sécession, les sœurs March — Jo, Meg, Beth et Amy — grandissent à Concord, entre ambitions littéraires, pauvreté et premiers amours.',
+    description:
+      'Pendant la guerre de Sécession, les sœurs March — Jo, Meg, Beth et Amy — grandissent à Concord, entre ambitions littéraires, pauvreté et premiers amours.',
     fromEntity: {
       entityType: 'book',
       title: 'Les filles du Docteur March',
@@ -5755,7 +5910,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 144,
     genre: ['Drame'],
     saga: '',
-    description: 'Isabel Archer, héritière américaine indépendante, épouse un aristocrate européen et découvre trop tard le piège d\'un mariage qui étouffe sa liberté.',
+    description:
+      "Isabel Archer, héritière américaine indépendante, épouse un aristocrate européen et découvre trop tard le piège d'un mariage qui étouffe sa liberté.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5792,7 +5948,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 105,
     genre: ['Drame'],
     saga: '',
-    description: 'Un photographe londonien revient dans la banlieue de son adolescence et se remémore son amitié avec un poète et le choix entre sécurité et révolte.',
+    description:
+      'Un photographe londonien revient dans la banlieue de son adolescence et se remémore son amitié avec un poète et le choix entre sécurité et révolte.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5815,7 +5972,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 124,
     genre: ['Drame'],
     saga: '',
-    description: 'Journaliste en 1984, Arthur Mier retrouve la star glam rock Brian Slade, disparue dix ans plus tôt, et reconstitue l\'ascension et la chute du mouvement.',
+    description:
+      "Journaliste en 1984, Arthur Mier retrouve la star glam rock Brian Slade, disparue dix ans plus tôt, et reconstitue l'ascension et la chute du mouvement.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5846,7 +6004,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 112,
     genre: ['Drame'],
     saga: '',
-    description: 'Après la mort de sa mère, Bobby Cooper erre dans la campagne anglaise et se lie à un homme qui enterre les animaux écrasés sur les routes.',
+    description:
+      'Après la mort de sa mère, Bobby Cooper erre dans la campagne anglaise et se lie à un homme qui enterre les animaux écrasés sur les routes.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5883,7 +6042,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 88,
     genre: ['Drame'],
     saga: '',
-    description: 'De l\'Annonciation à la Passion, le récit biblique de Marie, mère de Jésus, et de Joseph, dans un téléfilm centré sur sa foi et ses épreuves.',
+    description:
+      "De l'Annonciation à la Passion, le récit biblique de Marie, mère de Jésus, et de Joseph, dans un téléfilm centré sur sa foi et ses épreuves.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5906,7 +6066,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 131,
     genre: ['Drame'],
     saga: '',
-    description: 'Sur une île grecque occupée pendant la Seconde Guerre mondiale, la fille du médecin local tombe amoureuse d\'un officier italien avant l\'invasion allemande.',
+    description:
+      "Sur une île grecque occupée pendant la Seconde Guerre mondiale, la fille du médecin local tombe amoureuse d'un officier italien avant l'invasion allemande.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5937,7 +6098,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 103,
     genre: ['Drame'],
     saga: '',
-    description: 'Sam, étudiant en psychiatrie, découvre que sa mère productrice de disques mène une vie bohème à Los Angeles, brouillant ses rapports avec sa fiancée.',
+    description:
+      'Sam, étudiant en psychiatrie, découvre que sa mère productrice de disques mène une vie bohème à Los Angeles, brouillant ses rapports avec sa fiancée.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5974,7 +6136,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 135,
     genre: ['Drame'],
     saga: '',
-    description: 'Arrivée des Anglais en Virginie au XVIIe siècle, rencontre entre la Native Pocahontas et John Smith, puis mariage avec John Rolfe et voyage en Angleterre.',
+    description:
+      'Arrivée des Anglais en Virginie au XVIIe siècle, rencontre entre la Native Pocahontas et John Smith, puis mariage avec John Rolfe et voyage en Angleterre.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6011,7 +6174,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 120,
     genre: ['Drame'],
     saga: '',
-    description: 'Pilote américain abattu au Laos en 1965, Dieter Dengler est capturé par les Pathet Lao et organise une évasion périlleuse à travers la jungle.',
+    description:
+      'Pilote américain abattu au Laos en 1965, Dieter Dengler est capturé par les Pathet Lao et organise une évasion périlleuse à travers la jungle.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6048,7 +6212,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 135,
     genre: ['Biographie'],
     saga: '',
-    description: 'Six acteurs incarnent différentes facettes de Bob Dylan — folk, électrique, western, poète — dans un portrait fragmenté de l\'artiste et de ses métamorphoses.',
+    description:
+      "Six acteurs incarnent différentes facettes de Bob Dylan — folk, électrique, western, poète — dans un portrait fragmenté de l'artiste et de ses métamorphoses.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6071,7 +6236,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 116,
     genre: ['Drame'],
     saga: '',
-    description: 'Boxeur raté Dicky Eklund entraîne son frère Micky vers le titre mondial des poids mi-moyens, malgré la toxicomanie et les conflits de leur famille du Massachusetts.',
+    description:
+      'Boxeur raté Dicky Eklund entraîne son frère Micky vers le titre mondial des poids mi-moyens, malgré la toxicomanie et les conflits de leur famille du Massachusetts.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6111,7 +6277,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 146,
     genre: ['Drame'],
     saga: '',
-    description: 'Pendant le massacre de Nankin en 1937, un morticien américain se fait passer pour un prêtre et tente de protéger des écolières chinoises de l\'armée japonaise.',
+    description:
+      "Pendant le massacre de Nankin en 1937, un morticien américain se fait passer pour un prêtre et tente de protéger des écolières chinoises de l'armée japonaise.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6148,7 +6315,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 134,
     genre: ['Drame'],
     saga: '',
-    description: 'En 1915, un Américain promet à un journaliste arménien de transporter sa femme et son bébé en sécurité pendant le génocide ottoman.',
+    description:
+      'En 1915, un Américain promet à un journaliste arménien de transporter sa femme et son bébé en sécurité pendant le génocide ottoman.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6185,7 +6353,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 132,
     genre: ['Biographie'],
     saga: '',
-    description: 'Biopic satirique de Dick Cheney, de sa carrière politique à sa vice-présidence sous George W. Bush et son rôle dans les guerres du XXIe siècle.',
+    description:
+      'Biopic satirique de Dick Cheney, de sa carrière politique à sa vice-présidence sous George W. Bush et son rôle dans les guerres du XXIe siècle.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6222,7 +6391,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 170,
     genre: ['Drame'],
     saga: '',
-    description: 'Tom Booker, dresseur de chevaux, aide une adolescente traumatisée et sa mère à guérir une jument sauvage et leurs propres blessures émotionnelles.',
+    description:
+      'Tom Booker, dresseur de chevaux, aide une adolescente traumatisée et sa mère à guérir une jument sauvage et leurs propres blessures émotionnelles.',
     fromEntity: {
       entityType: 'book',
       title: "L'homme qui murmurait à l'oreille des chevaux",
@@ -6263,7 +6433,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 106,
     genre: ['Drame'],
     saga: '',
-    description: 'En 1956, une famille hongroise fuit le régime communiste ; leur bébé est enlevé à la frontière autrichienne et retrouve ses parents quinze ans plus tard.',
+    description:
+      'En 1956, une famille hongroise fuit le régime communiste ; leur bébé est enlevé à la frontière autrichienne et retrouve ses parents quinze ans plus tard.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6294,7 +6465,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 118,
     genre: ['Drame'],
     saga: '',
-    description: 'Homme mystérieux du Midwest, Ed Crane devient tondeur et complote un chantage pour financer un salon, entraînant meurtre et exécution dans une petite ville.',
+    description:
+      'Homme mystérieux du Midwest, Ed Crane devient tondeur et complote un chantage pour financer un salon, entraînant meurtre et exécution dans une petite ville.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6331,7 +6503,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 100,
     genre: ['Drame'],
     saga: '',
-    description: 'Delft, XVIIe siècle : la servante Griet devient modèle du peintre Vermeer, provoquant jalousie dans le ménage et fascination pour son regard sur la lumière.',
+    description:
+      'Delft, XVIIe siècle : la servante Griet devient modèle du peintre Vermeer, provoquant jalousie dans le ménage et fascination pour son regard sur la lumière.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6368,7 +6541,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 119,
     genre: ['Drame'],
     saga: '',
-    description: 'Deux amis d\'enfance de Louisiane se retrouvent après des années ; leur amour impossible se heurte au passé, à la drogue et à la mort d\'un proche.',
+    description:
+      "Deux amis d'enfance de Louisiane se retrouvent après des années ; leur amour impossible se heurte au passé, à la drogue et à la mort d'un proche.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6405,7 +6579,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 115,
     genre: ['Drame'],
     saga: '',
-    description: 'Henri VIII épouse d\'abord Anne Boleyn puis, après sa condamnation, sa sœur Mary, dans une cour anglaise où ambition, religion et trahison se mêlent.',
+    description:
+      "Henri VIII épouse d'abord Anne Boleyn puis, après sa condamnation, sa sœur Mary, dans une cour anglaise où ambition, religion et trahison se mêlent.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6442,7 +6617,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 98,
     genre: ['Biographie'],
     saga: '',
-    description: 'En 1959, Alfred Hitchcock et sa femme Alma financent Psycho contre la volonté des studios, tandis que les obsessions du réalisateur menacent leur couple.',
+    description:
+      'En 1959, Alfred Hitchcock et sa femme Alma financent Psycho contre la volonté des studios, tandis que les obsessions du réalisateur menacent leur couple.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6479,7 +6655,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 107,
     genre: ['Drame'],
     saga: '',
-    description: 'En 1940, une femme française tombe amoureuse d\'un officier allemand logé chez elle pendant l\'Occupation, dans une adaptation du roman inachevé d\'Irène Némirovsky.',
+    description:
+      "En 1940, une femme française tombe amoureuse d'un officier allemand logé chez elle pendant l'Occupation, dans une adaptation du roman inachevé d'Irène Némirovsky.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6516,7 +6693,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 107,
     genre: ['Drame'],
     saga: '',
-    description: 'Le succès mondial de Winnie l\'ourson, inspiré par le fils de l\'écrivain A.A. Milne, transforme l\'enfance de Christopher Robin en spectacle public douloureux.',
+    description:
+      "Le succès mondial de Winnie l'ourson, inspiré par le fils de l'écrivain A.A. Milne, transforme l'enfance de Christopher Robin en spectacle public douloureux.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6553,7 +6731,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 119,
     genre: ['Biographie'],
     saga: '',
-    description: 'Patineuse talentueuse mais malmenée, Tonya Harding voit sa carrière s\'effondrer après l\'agression orchestrée contre sa rivale Nancy Kerrigan en 1994.',
+    description:
+      "Patineuse talentueuse mais malmenée, Tonya Harding voit sa carrière s'effondrer après l'agression orchestrée contre sa rivale Nancy Kerrigan en 1994.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6590,7 +6769,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 125,
     genre: ['Drame'],
     saga: '',
-    description: 'Marie Stuart revient en Écosse pour régner et affronte sa cousine Élisabeth Ière d\'Angleterre, leurs destins liés par politique, religion et rivalité féminine.',
+    description:
+      "Marie Stuart revient en Écosse pour régner et affronte sa cousine Élisabeth Ière d'Angleterre, leurs destins liés par politique, religion et rivalité féminine.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6627,7 +6807,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 109,
     genre: ['Drame'],
     saga: '',
-    description: 'En 2016, plusieurs femmes de Fox News dénoncent le harcèlement du PDG Roger Ailes, déclenchant une onde de choc dans le média conservateur américain.',
+    description:
+      'En 2016, plusieurs femmes de Fox News dénoncent le harcèlement du PDG Roger Ailes, déclenchant une onde de choc dans le média conservateur américain.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6658,7 +6839,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 128,
     genre: ['Drame'],
     saga: '',
-    description: 'Adaptation des derniers chapitres des Hauts de Hurlevent : Heathcliff et Cathy se retrouvent dans un manoir isolé où passion, vengeance et folie se confondent.',
+    description:
+      'Adaptation des derniers chapitres des Hauts de Hurlevent : Heathcliff et Cathy se retrouvent dans un manoir isolé où passion, vengeance et folie se confondent.',
     fromEntity: {
       entityType: 'book',
       title: 'Les Hauts de Hurlevent',
@@ -6685,7 +6867,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 105,
     genre: ['Drame'],
     saga: '',
-    description: 'Un acteur vieillissant dirige une pièce de théâtre à Broadway et voit son casting bouleversé par l\'arrivée d\'un ancien mentor et d\'une star montante.',
+    description:
+      "Un acteur vieillissant dirige une pièce de théâtre à Broadway et voit son casting bouleversé par l'arrivée d'un ancien mentor et d'une star montante.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6722,7 +6905,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 121,
     genre: ['Drame'],
     saga: '',
-    description: 'Médecin sceptique, Malcolm Sayer utilise la L-Dopa pour sortir de leur catatonie des patients internés depuis des décennies, dont Leonard Lowe.',
+    description:
+      'Médecin sceptique, Malcolm Sayer utilise la L-Dopa pour sortir de leur catatonie des patients internés depuis des décennies, dont Leonard Lowe.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6759,7 +6943,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 137,
     genre: ['Drame'],
     saga: '',
-    description: 'Un animateur radio déchu croise un SDF qui se prend pour un chevalier en quête du Saint Graal, leur amitié les aidant à surmonter culpabilité et folie.',
+    description:
+      'Un animateur radio déchu croise un SDF qui se prend pour un chevalier en quête du Saint Graal, leur amitié les aidant à surmonter culpabilité et folie.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6796,7 +6981,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 242,
     genre: ['Drame'],
     saga: '',
-    description: 'Adaptation intégrale de la pièce de Shakespeare : le prince Hamlet, hanté par le spectre de son père, cherche à venger son meurtre en déchirant la cour du Danemark.',
+    description:
+      'Adaptation intégrale de la pièce de Shakespeare : le prince Hamlet, hanté par le spectre de son père, cherche à venger son meurtre en déchirant la cour du Danemark.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6833,7 +7019,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 120,
     genre: ['Drame'],
     saga: '',
-    description: 'Dans un ghetto polonais en 1944, Jakob invente des bulletins d\'information radio optimistes pour donner espoir aux déportés, malgré le mensonge.',
+    description:
+      "Dans un ghetto polonais en 1944, Jakob invente des bulletins d'information radio optimistes pour donner espoir aux déportés, malgré le mensonge.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6870,7 +7057,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 113,
     genre: ['Drame'],
     saga: '',
-    description: 'Après sa mort, un médecin explore l\'au-delà et revient avec une vision qui bouleverse sa vie et celle de sa femme.',
+    description:
+      "Après sa mort, un médecin explore l'au-delà et revient avec une vision qui bouleverse sa vie et celle de sa femme.",
     fromEntity: {
       entityType: 'book',
       title: 'Au-delà de nos rêves',
@@ -6911,7 +7099,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 101,
     genre: ['Drame'],
     saga: '',
-    description: 'Une jeune mère droguée tente de garder ses deux fils à l\'écart de la rue et de la toxicomanie dans le New York des années 1990.',
+    description:
+      "Une jeune mère droguée tente de garder ses deux fils à l'écart de la rue et de la toxicomanie dans le New York des années 1990.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6948,7 +7137,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 100,
     genre: ['Drame'],
     saga: '',
-    description: 'Sorti de prison après vingt ans pour un meurtre, Joseph Moon tente de se racheter en aidant une mère et sa fille, tout en affrontant son passé.',
+    description:
+      'Sorti de prison après vingt ans pour un meurtre, Joseph Moon tente de se racheter en aidant une mère et sa fille, tout en affrontant son passé.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6971,7 +7161,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 108,
     genre: ['Drame'],
     saga: '',
-    description: 'Dans une ville suédoise, un chef cuisinier veuf tombe amoureux d\'une femme mariée à un footballeur célèbre et doit choisir entre passion et responsabilité.',
+    description:
+      "Dans une ville suédoise, un chef cuisinier veuf tombe amoureux d'une femme mariée à un footballeur célèbre et doit choisir entre passion et responsabilité.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6994,7 +7185,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 141,
     genre: ['Drame'],
     saga: '',
-    description: 'Chronique de l\'affaire Watergate, des cambriolages au départ forcé de Richard Nixon en 1974, vue par les journalistes du Washington Post et les conspirateurs.',
+    description:
+      "Chronique de l'affaire Watergate, des cambriolages au départ forcé de Richard Nixon en 1974, vue par les journalistes du Washington Post et les conspirateurs.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7031,7 +7223,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 133,
     genre: ['Drame'],
     saga: '',
-    description: 'Randle McMurphy, condamné pour agressions, simule la folie pour entrer en hôpital psychiatrique et affronte l\'infirmière autoritaire Nurse Ratched.',
+    description:
+      "Randle McMurphy, condamné pour agressions, simule la folie pour entrer en hôpital psychiatrique et affronte l'infirmière autoritaire Nurse Ratched.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7074,7 +7267,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 130,
     genre: ['Drame'],
     saga: '',
-    description: 'Pendant la Shoah, Guido, guide juif italien, protège son fils en transformant leur internement en camp en un jeu imaginaire pour lui épargner l\'horreur.',
+    description:
+      "Pendant la Shoah, Guido, guide juif italien, protège son fils en transformant leur internement en camp en un jeu imaginaire pour lui épargner l'horreur.",
     fromEntity: {
       entityType: 'book',
       title: 'La vie est belle',
@@ -7119,7 +7313,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 133,
     genre: ['Drame'],
     saga: '',
-    description: 'Au Japon féodal, un ronin sans maître demande l\'autorisation de se faire harakiri au clan Iyi, révélant par son récit une vengeance patiente.',
+    description:
+      "Au Japon féodal, un ronin sans maître demande l'autorisation de se faire harakiri au clan Iyi, révélant par son récit une vengeance patiente.",
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 1,
@@ -7156,7 +7351,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 150,
     genre: ['Drame'],
     saga: '',
-    description: 'Władysław Szpilman, pianiste juif polonais, survit seul à Varsovie occupée grâce à l\'aide de résistants et d\'un officier allemand.',
+    description:
+      "Władysław Szpilman, pianiste juif polonais, survit seul à Varsovie occupée grâce à l'aide de résistants et d'un officier allemand.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 1,
@@ -7197,7 +7393,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 120,
     genre: ['Drame'],
     saga: '',
-    description: 'Après un meurtre, des proches de la victime participent à des rencontres de justice restaurative avec la famille du coupable pour tenter de se reconstruire.',
+    description:
+      'Après un meurtre, des proches de la victime participent à des rencontres de justice restaurative avec la famille du coupable pour tenter de se reconstruire.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 1,
@@ -7234,7 +7431,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 124,
     genre: ['Drame'],
     saga: '',
-    description: 'Au Japon médiéval, deux enfants nobles sont vendus comme esclaves ; la sœur devient servante de l\'intendant Sansho tandis que le frère prépare leur libération.',
+    description:
+      "Au Japon médiéval, deux enfants nobles sont vendus comme esclaves ; la sœur devient servante de l'intendant Sansho tandis que le frère prépare leur libération.",
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 1,
@@ -7271,7 +7469,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 124,
     genre: ['Drame'],
     saga: '',
-    description: 'Victime de la neurofibromatose, Joseph Merrick, surnommé Elephant Man, est exploité comme freak show avant d\'être accueilli à l\'hôpital londonien sous la protection d\'un médecin.',
+    description:
+      "Victime de la neurofibromatose, Joseph Merrick, surnommé Elephant Man, est exploité comme freak show avant d'être accueilli à l'hôpital londonien sous la protection d'un médecin.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 1,
@@ -7308,7 +7507,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 185,
     genre: ['Drame'],
     saga: '',
-    description: 'Irlandais du XVIIIe siècle, Redmond Barry s\'élève dans la société par le jeu, le duel et un mariage avant de connaître chute et solitude dans l\'aristocratie anglaise.',
+    description:
+      "Irlandais du XVIIIe siècle, Redmond Barry s'élève dans la société par le jeu, le duel et un mariage avant de connaître chute et solitude dans l'aristocratie anglaise.",
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 1,
@@ -7350,7 +7550,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 143,
     genre: ['Drame'],
     saga: '',
-    description: 'Kanji Watanabe, fonctionnaire moribond, cherche un sens à sa vie en lançant la construction d\'un parc pour enfants.',
+    description:
+      "Kanji Watanabe, fonctionnaire moribond, cherche un sens à sa vie en lançant la construction d'un parc pour enfants.",
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 1,
@@ -7387,7 +7588,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 105,
     genre: ['Drame'],
     saga: '',
-    description: 'Le 8 mai 1938 à Rome, une femme de ménage et un homosexuel marginal croisent leurs destins pendant la visite d\'Hitler.',
+    description:
+      "Le 8 mai 1938 à Rome, une femme de ménage et un homosexuel marginal croisent leurs destins pendant la visite d'Hitler.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 1,
@@ -7424,7 +7626,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 128,
     genre: ['Drame'],
     saga: '',
-    description: 'Dominique Marceau est jugée pour le meurtre de son amant ; le procès remonte les étapes d\'une passion destructrice.',
+    description:
+      "Dominique Marceau est jugée pour le meurtre de son amant ; le procès remonte les étapes d'une passion destructrice.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 1,
@@ -7461,7 +7664,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 185,
     genre: ['Drame'],
     saga: '',
-    description: 'Un jeune médecin idéaliste est affecté auprès d\'un vieux médecin des plus pauvres et découvre une médecine humaniste.',
+    description:
+      "Un jeune médecin idéaliste est affecté auprès d'un vieux médecin des plus pauvres et découvre une médecine humaniste.",
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
@@ -7498,7 +7702,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 130,
     genre: ['Drame'],
     saga: '',
-    description: 'Pendant la Shoah, Guido, guide juif italien, protège son fils en transformant leur internement en camp en un jeu imaginaire pour lui épargner l\'horreur.',
+    description:
+      "Pendant la Shoah, Guido, guide juif italien, protège son fils en transformant leur internement en camp en un jeu imaginaire pour lui épargner l'horreur.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7535,7 +7740,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 118,
     genre: ['Drame'],
     saga: '',
-    description: 'Le roi George VI, bègue, doit surmonter sa peur de parler en public avec l\'aide d\'un orthophoniste atypique.',
+    description:
+      "Le roi George VI, bègue, doit surmonter sa peur de parler en public avec l'aide d'un orthophoniste atypique.",
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 30,
@@ -7578,7 +7784,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 114,
     genre: ['Drame'],
     saga: '',
-    description: 'Alan Turing décrypte Enigma pendant la Seconde Guerre mondiale tout en cachant son homosexualité.',
+    description:
+      'Alan Turing décrypte Enigma pendant la Seconde Guerre mondiale tout en cachant son homosexualité.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7615,7 +7822,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 127,
     genre: ['Drame'],
     saga: '',
-    description: 'Les dernières heures de Jésus-Christ, de l\'agonie au Golgotha et à la résurrection.',
+    description:
+      "Les dernières heures de Jésus-Christ, de l'agonie au Golgotha et à la résurrection.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -7652,7 +7860,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 118,
     genre: ['Drame'],
     saga: '',
-    description: 'Un producteur hollywoodien errant traverse Los Angeles à la recherche d\'un sens derrière le luxe et les relations vides.',
+    description:
+      "Un producteur hollywoodien errant traverse Los Angeles à la recherche d'un sens derrière le luxe et les relations vides.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7689,7 +7898,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 99,
     genre: ['Drame'],
     saga: '',
-    description: 'Dans les jours suivant l\'assassinat de JFK, Jackie Kennedy tente de préserver l\'image et le legs de son mari.',
+    description:
+      "Dans les jours suivant l'assassinat de JFK, Jackie Kennedy tente de préserver l'image et le legs de son mari.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7726,7 +7936,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 90,
     genre: ['Drame'],
     saga: '',
-    description: 'Une jeune violoniste juive intègre un internat britannique à la veille de la Seconde Guerre mondiale.',
+    description:
+      'Une jeune violoniste juive intègre un internat britannique à la veille de la Seconde Guerre mondiale.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7763,7 +7974,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 99,
     genre: ['Drame'],
     saga: '',
-    description: 'Un jeune assistant de tournage passe une semaine avec Marilyn Monroe sur le plateau d\'un film anglais.',
+    description:
+      "Un jeune assistant de tournage passe une semaine avec Marilyn Monroe sur le plateau d'un film anglais.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7800,7 +8012,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 103,
     genre: ['Drame'],
     saga: '',
-    description: 'Charlie, lycéen introverti, tisse une amitié avec deux camarades excentriques qui lui ouvrent un nouveau monde.',
+    description:
+      'Charlie, lycéen introverti, tisse une amitié avec deux camarades excentriques qui lui ouvrent un nouveau monde.',
     fromEntity: {
       entityType: 'book',
       title: 'Le Monde de Charlie',
@@ -7841,7 +8054,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 90,
     genre: ['Drame'],
     saga: '',
-    description: 'Des adolescents californiens cambriolent les maisons des célébrités, fascinés par leur mode de vie ostentatoire.',
+    description:
+      'Des adolescents californiens cambriolent les maisons des célébrités, fascinés par leur mode de vie ostentatoire.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7878,7 +8092,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 110,
     genre: ['Drame'],
     saga: '',
-    description: 'Une jeune Allemande infiltre une secte au Chili pour retrouver son petit ami enlevé sous le régime de Pinochet.',
+    description:
+      'Une jeune Allemande infiltre une secte au Chili pour retrouver son petit ami enlevé sous le régime de Pinochet.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7915,7 +8130,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 135,
     genre: ['Drame'],
     saga: '',
-    description: 'Quatre sœurs américaines de l\'époque victorienne poursuivent leurs rêves malgré les contraintes sociales.',
+    description:
+      "Quatre sœurs américaines de l'époque victorienne poursuivent leurs rêves malgré les contraintes sociales.",
     fromEntity: {
       entityType: 'book',
       title: 'Les filles du Docteur March',
@@ -7956,7 +8172,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 91,
     genre: ['Drame'],
     saga: '',
-    description: 'Une adolescente tombe sous l\'emprise toxique d\'une nouvelle amie dont l\'obsession devient destructrice.',
+    description:
+      "Une adolescente tombe sous l'emprise toxique d'une nouvelle amie dont l'obsession devient destructrice.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -7993,7 +8210,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 108,
     genre: ['Drame'],
     saga: '',
-    description: 'Dans l\'Auvergne du XIXe siècle, une jeune femme est étouffée par l\'avarice de son père jusqu\'à l\'arrivée de son cousin.',
+    description:
+      "Dans l'Auvergne du XIXe siècle, une jeune femme est étouffée par l'avarice de son père jusqu'à l'arrivée de son cousin.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -8027,7 +8245,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 108,
     genre: ['Drame'],
     saga: '',
-    description: 'Un écrivain à succès part se ressourcer dans les Cévennes et y rencontre une femme en quête de liberté.',
+    description:
+      'Un écrivain à succès part se ressourcer dans les Cévennes et y rencontre une femme en quête de liberté.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -8064,7 +8283,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 100,
     genre: ['Drame'],
     saga: '',
-    description: 'Dans les années 1960, une mère catholique et son fils homosexuel traversent ensemble les bouleversements de l\'époque.',
+    description:
+      "Dans les années 1960, une mère catholique et son fils homosexuel traversent ensemble les bouleversements de l'époque.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -8101,7 +8321,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 98,
     genre: ['Drame'],
     saga: '',
-    description: 'Trois jeunes de banlieue parisienne errent pendant vingt-quatre heures après une émeute, face à la violence et l\'avenir incertain.',
+    description:
+      "Trois jeunes de banlieue parisienne errent pendant vingt-quatre heures après une émeute, face à la violence et l'avenir incertain.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -8138,7 +8359,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 127,
     genre: ['Drame'],
     saga: '',
-    description: 'Le quotidien bouleversant d\'une brigade de protection des mineurs de la police parisienne.',
+    description:
+      "Le quotidien bouleversant d'une brigade de protection des mineurs de la police parisienne.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -8175,7 +8397,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 179,
     genre: ['Drame'],
     saga: '',
-    description: 'Portrait d\'une jeune femme à travers sa relation amoureuse avec Emma, du lycée à l\'âge adulte.',
+    description:
+      "Portrait d'une jeune femme à travers sa relation amoureuse avec Emma, du lycée à l'âge adulte.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -8212,7 +8435,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 132,
     genre: ['Drame'],
     saga: '',
-    description: 'Rivalité amicale entre deux champions d\'apnée dont la passion pour les profondeurs les pousse aux limites.',
+    description:
+      "Rivalité amicale entre deux champions d'apnée dont la passion pour les profondeurs les pousse aux limites.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -8249,7 +8473,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 100,
     genre: ['Drame'],
     saga: '',
-    description: 'Un ancien policier alcoolique tente de se racheter en s\'occupant d\'Alex, un jeune trafiquant.',
+    description:
+      "Un ancien policier alcoolique tente de se racheter en s'occupant d'Alex, un jeune trafiquant.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -8286,7 +8511,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 91,
     genre: ['Drame'],
     saga: '',
-    description: 'Un déserteur rencontre une jeune fille au Havre dans une atmosphère de brouillard et de fatalisme.',
+    description:
+      'Un déserteur rencontre une jeune fille au Havre dans une atmosphère de brouillard et de fatalisme.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
@@ -8323,7 +8549,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 111,
     genre: ['Drame'],
     saga: '',
-    description: 'Après un grave accident, un jeune homme immobilisé pendant des mois tient le journal de sa convalescence.',
+    description:
+      'Après un grave accident, un jeune homme immobilisé pendant des mois tient le journal de sa convalescence.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -8360,7 +8587,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 140,
     genre: ['Biographie', 'Drame'],
     saga: '',
-    description: 'De la misère parisienne aux scènes internationales, l\'ascension fulgurante et tragique d\'Édith Piaf.',
+    description:
+      "De la misère parisienne aux scènes internationales, l'ascension fulgurante et tragique d'Édith Piaf.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -8400,7 +8628,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 160,
     genre: ['Drame', 'Historique'],
     saga: '',
-    description: 'Dans le Nord minier du XIXe siècle, des ouvriers se soulèvent contre l\'exploitation dans les mines de charbon.',
+    description:
+      "Dans le Nord minier du XIXe siècle, des ouvriers se soulèvent contre l'exploitation dans les mines de charbon.",
     fromEntity: {
       entityType: 'book',
       title: 'Germinal',
@@ -8441,7 +8670,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 125,
     genre: ['Drame'],
     saga: '',
-    description: 'Un retraité veuf solitaire part en road trip à travers les États-Unis après sa retraite.',
+    description:
+      'Un retraité veuf solitaire part en road trip à travers les États-Unis après sa retraite.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -8464,7 +8694,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 113,
     genre: ['Drame'],
     saga: '',
-    description: 'Un guerrier écossais, poussé par la prophétie et sa femme, assassine le roi Duncan pour prendre le trône.',
+    description:
+      'Un guerrier écossais, poussé par la prophétie et sa femme, assassine le roi Duncan pour prendre le trône.',
     fromEntity: {
       entityType: 'book',
       title: 'Macbeth',
@@ -8505,7 +8736,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 123,
     genre: ['Drame', 'Historique'],
     saga: '',
-    description: 'Un médecin écossais devient témoin de la dictature brutale d\'Idi Amin en Ouganda.',
+    description:
+      "Un médecin écossais devient témoin de la dictature brutale d'Idi Amin en Ouganda.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -8542,7 +8774,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 112,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Un agent secret en captivité au Somaliland et une biologiste en expédition sous-marine entretiennent une liaison à distance.',
+    description:
+      'Un agent secret en captivité au Somaliland et une biologiste en expédition sous-marine entretiennent une liaison à distance.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -8579,7 +8812,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 121,
     genre: ['Drame', 'Thriller'],
     saga: '',
-    description: 'Une femme voit son couple et sa maison détruits par l\'invasion de fans obsédés par l\'œuvre de son mari écrivain.',
+    description:
+      "Une femme voit son couple et sa maison détruits par l'invasion de fans obsédés par l'œuvre de son mari écrivain.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -8616,7 +8850,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 111,
     genre: ['Drame', 'Biographie'],
     saga: '',
-    description: 'Marie Curie mène des recherches révolutionnaires sur la radioactivité aux côtés de Pierre Curie, entre gloire et souffrance.',
+    description:
+      'Marie Curie mène des recherches révolutionnaires sur la radioactivité aux côtés de Pierre Curie, entre gloire et souffrance.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -8653,7 +8888,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 96,
     genre: ['Drame'],
     saga: '',
-    description: 'Trois amis d\'Irlande célèbrent leur sortie du lycée dans un été marqué par l\'excès et une tragédie.',
+    description:
+      "Trois amis d'Irlande célèbrent leur sortie du lycée dans un été marqué par l'excès et une tragédie.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -8676,7 +8912,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 134,
     genre: ['Drame'],
     saga: '',
-    description: 'Trois amis d\'enfance se retrouvent mêlés à un complot politique dans l\'Amsterdam des années 1930.',
+    description:
+      "Trois amis d'enfance se retrouvent mêlés à un complot politique dans l'Amsterdam des années 1930.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -8713,7 +8950,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 105,
     genre: ['Drame'],
     saga: '',
-    description: 'Un jeune Noir du Sud des États-Unis est condamné à mort pour un crime qu\'il n\'a pas commis.',
+    description:
+      "Un jeune Noir du Sud des États-Unis est condamné à mort pour un crime qu'il n'a pas commis.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -8750,7 +8988,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 120,
     genre: ['Drame'],
     saga: '',
-    description: 'Dans les années 1950, une chanteuse de jazz et une mère de famille s\'éprennent dans une Amérique ségrégationniste.',
+    description:
+      "Dans les années 1950, une chanteuse de jazz et une mère de famille s'éprennent dans une Amérique ségrégationniste.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -8787,7 +9026,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 106,
     genre: ['Drame'],
     saga: '',
-    description: 'Dans une petite ville, le retour d\'un ancien amour et un drame familial bouleversent la communauté.',
+    description:
+      "Dans une petite ville, le retour d'un ancien amour et un drame familial bouleversent la communauté.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -8810,7 +9050,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 99,
     genre: ['Drame'],
     saga: '',
-    description: 'Un veuf parcourt les États-Unis pour retrouver ses enfants éloignés et découvrir leurs vraies vies.',
+    description:
+      'Un veuf parcourt les États-Unis pour retrouver ses enfants éloignés et découvrir leurs vraies vies.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -8841,7 +9082,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 98,
     genre: ['Drame'],
     saga: '',
-    description: 'Une femme retrouve son père sortant de prison et doit protéger son fils d\'un passé qui les rattrape.',
+    description:
+      "Une femme retrouve son père sortant de prison et doit protéger son fils d'un passé qui les rattrape.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -8878,7 +9120,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 112,
     genre: ['Drame'],
     saga: '',
-    description: 'Une veuve et sa fille louent une chambre à un homme mystérieux dont la présence trouble leur quotidien.',
+    description:
+      'Une veuve et sa fille louent une chambre à un homme mystérieux dont la présence trouble leur quotidien.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -8915,7 +9158,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 161,
     genre: ['Biographie', 'Drame'],
     saga: '',
-    description: 'Biopic de Charlie Parker, saxophoniste de génie rongé par la drogue et les démons intérieurs.',
+    description:
+      'Biopic de Charlie Parker, saxophoniste de génie rongé par la drogue et les démons intérieurs.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -8938,7 +9182,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 136,
     genre: ['Drame'],
     saga: '',
-    description: 'Bryan Stevenson défend des condamnés à mort injustement et plaide pour Walter McMillian, un Noir du Alabama.',
+    description:
+      'Bryan Stevenson défend des condamnés à mort injustement et plaide pour Walter McMillian, un Noir du Alabama.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -8975,7 +9220,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 96,
     genre: ['Drame', 'Thriller'],
     saga: '',
-    description: 'Une gynécologue canadienne soupçonne son mari de la tromper et engage une escort pour le séduire et le piéger.',
+    description:
+      'Une gynécologue canadienne soupçonne son mari de la tromper et engage une escort pour le séduire et le piéger.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9012,7 +9258,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 82,
     genre: ['Drame'],
     saga: '',
-    description: 'Un jeune père célibataire à Los Angeles peine à concilier parentalité, création artistique et solitude.',
+    description:
+      'Un jeune père célibataire à Los Angeles peine à concilier parentalité, création artistique et solitude.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9049,7 +9296,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 116,
     genre: ['Drame'],
     saga: '',
-    description: 'Un publiciste célibataire apprend qu\'il a une fille de seize ans ; leur relation naissante le force à repenser sa vie professionnelle et sentimentale.',
+    description:
+      "Un publiciste célibataire apprend qu'il a une fille de seize ans ; leur relation naissante le force à repenser sa vie professionnelle et sentimentale.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9086,7 +9334,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 108,
     genre: ['Drame'],
     saga: '',
-    description: 'Un ancien boxeur alcoolique retrouve son fils et tente de reconstruire leur relation en entraînant une jeune prodige.',
+    description:
+      'Un ancien boxeur alcoolique retrouve son fils et tente de reconstruire leur relation en entraînant une jeune prodige.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9123,7 +9372,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 109,
     genre: ['Drame'],
     saga: '',
-    description: 'Un chien narrateur raconte la vie de son maître pilote de course et leur lien indéfectible.',
+    description:
+      'Un chien narrateur raconte la vie de son maître pilote de course et leur lien indéfectible.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9160,7 +9410,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 131,
     genre: ['Drame'],
     saga: '',
-    description: 'Herman J. Mankiewicz écrit le scénario de Citizen Kane tout en luttant contre l\'alcoolisme et les studios.',
+    description:
+      "Herman J. Mankiewicz écrit le scénario de Citizen Kane tout en luttant contre l'alcoolisme et les studios.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9200,7 +9451,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 107,
     genre: ['Drame'],
     saga: '',
-    description: 'Une chanteuse de cabaret et un écrivain en panne se retrouvent dans une comédie romantique new-yorkaise.',
+    description:
+      'Une chanteuse de cabaret et un écrivain en panne se retrouvent dans une comédie romantique new-yorkaise.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9237,7 +9489,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 111,
     genre: ['Drame'],
     saga: '',
-    description: 'Roberto Durán, boxeur panaméen, gravit les sommets du ring sous la tutelle de son entraîneur Ray Arcel.',
+    description:
+      'Roberto Durán, boxeur panaméen, gravit les sommets du ring sous la tutelle de son entraîneur Ray Arcel.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9274,7 +9527,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 123,
     genre: ['Drame'],
     saga: '',
-    description: 'Un réseau d\'espionnage cubain infiltre la communauté d\'exilés anti-castristes à Miami dans les années 1990.',
+    description:
+      "Un réseau d'espionnage cubain infiltre la communauté d'exilés anti-castristes à Miami dans les années 1990.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9297,7 +9551,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 118,
     genre: ['Drame', 'Biographie'],
     saga: '',
-    description: 'Sergio Vieira de Mello, diplomate brésilien de l\'ONU, mène des missions humanitaires jusqu\'à sa mort à Bagdad.',
+    description:
+      "Sergio Vieira de Mello, diplomate brésilien de l'ONU, mène des missions humanitaires jusqu'à sa mort à Bagdad.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9320,7 +9575,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 148,
     genre: ['Drame', 'Mystère', 'Thriller'],
     saga: '',
-    description: 'Un jeune livreur coréen s\'éprend d\'une voisine dont la relation avec un homme mystérieux le plonge dans la jalousie.',
+    description:
+      "Un jeune livreur coréen s'éprend d'une voisine dont la relation avec un homme mystérieux le plonge dans la jalousie.",
     fromEntity: null,
     countryOrigin: ['Corée du Sud'],
     selectDisplayOrder: 0,
@@ -9343,7 +9599,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 103,
     genre: ['Drame', 'Fantastique', 'Romance'],
     saga: '',
-    description: 'Un dramaturge tombe amoureux d\'une actrice qu\'il croit avoir rencontrée dans une version passée de sa vie.',
+    description:
+      "Un dramaturge tombe amoureux d'une actrice qu'il croit avoir rencontrée dans une version passée de sa vie.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9366,7 +9623,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 161,
     genre: ['Drame', 'Historique'],
     saga: '',
-    description: 'Deux jésuites portugais au Japon du XVIIe siècle cherchent leur mentor apostats sous la persécution des chrétiens.',
+    description:
+      'Deux jésuites portugais au Japon du XVIIe siècle cherchent leur mentor apostats sous la persécution des chrétiens.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -9389,7 +9647,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 120,
     genre: ['Drame', 'Thriller'],
     saga: '',
-    description: 'Un père de famille d\'Ohio est hanté par des visions apocalyptiques qu\'il tente de dissimuler à sa famille.',
+    description:
+      "Un père de famille d'Ohio est hanté par des visions apocalyptiques qu'il tente de dissimuler à sa famille.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9412,7 +9671,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 131,
     genre: ['Drame', 'Thriller', 'Guerre'],
     saga: '',
-    description: 'Une escouade américaine de démineurs en Irak affronte le stress mortel de la guerre au quotidien.',
+    description:
+      'Une escouade américaine de démineurs en Irak affronte le stress mortel de la guerre au quotidien.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9442,7 +9702,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 106,
     genre: ['Biographie', 'Drame', 'Jeunesse'],
     saga: '',
-    description: 'J.M. Barrie trouve l\'inspiration pour Peter Pan en nouant une amitié avec la famille Llewelyn Davies.',
+    description:
+      "J.M. Barrie trouve l'inspiration pour Peter Pan en nouant une amitié avec la famille Llewelyn Davies.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9465,7 +9726,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 105,
     genre: ['Drame', 'Historique', 'Guerre'],
     saga: '',
-    description: 'La vie quotidienne d\'un commandant SS et de sa famille dans une maison mitoyenne du camp d\'Auschwitz, filmée avec un froid détachement.',
+    description:
+      "La vie quotidienne d'un commandant SS et de sa famille dans une maison mitoyenne du camp d'Auschwitz, filmée avec un froid détachement.",
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -9488,7 +9750,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 130,
     genre: ['Biographie', 'Drame', 'Historique'],
     saga: '',
-    description: 'Un chauffeur de bus sauve des élèves lors d\'un incendie de forêt dévastateur en Californie.',
+    description:
+      "Un chauffeur de bus sauve des élèves lors d'un incendie de forêt dévastateur en Californie.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9511,7 +9774,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 138,
     genre: ['Drame', 'Mystère', 'Romance'],
     saga: '',
-    description: 'Un trafiquant revient dans sa ville natale chinoise et se souvient d\'un passé amoureux marqué par le crime.',
+    description:
+      "Un trafiquant revient dans sa ville natale chinoise et se souvient d'un passé amoureux marqué par le crime.",
     fromEntity: null,
     countryOrigin: ['Chine'],
     selectDisplayOrder: 0,
@@ -9534,7 +9798,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 152,
     genre: ['Biographie', 'Drame'],
     saga: '',
-    description: 'Biopic de Ray Charles, pianiste aveugle qui révolutionne le rhythm and blues malgré le racisme et la drogue.',
+    description:
+      'Biopic de Ray Charles, pianiste aveugle qui révolutionne le rhythm and blues malgré le racisme et la drogue.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9560,7 +9825,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 77,
     genre: ['Drame', 'Science Fiction', 'Thriller'],
     saga: '',
-    description: 'Deux ingénieurs inventent par accident une machine à voyager dans le temps et s\'embourbent dans des paradoxes.',
+    description:
+      "Deux ingénieurs inventent par accident une machine à voyager dans le temps et s'embourbent dans des paradoxes.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9583,7 +9849,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 87,
     genre: ['Drame', 'Fantastique', 'Mystère'],
     saga: '',
-    description: 'Un professeur sur le point de déménager révèle à ses collègues qu\'il est un homme immortel de quatorze mille ans.',
+    description:
+      "Un professeur sur le point de déménager révèle à ses collègues qu'il est un homme immortel de quatorze mille ans.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9606,7 +9873,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 99,
     genre: ['Drame', 'Horreur', 'Science Fiction'],
     saga: '',
-    description: 'Le premier jour de l\'invasion extraterrestre vu par une femme enceinte qui doit survivre en silence à New York.',
+    description:
+      "Le premier jour de l'invasion extraterrestre vu par une femme enceinte qui doit survivre en silence à New York.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9629,7 +9897,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 122,
     genre: ['Biographie', 'Drame'],
     saga: '',
-    description: 'Amy Winehouse monte en flèche dans la musique tout en sombrant dans la drogue et les relations destructrices.',
+    description:
+      'Amy Winehouse monte en flèche dans la musique tout en sombrant dans la drogue et les relations destructrices.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -9652,7 +9921,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 109,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Jesse et Celine, désormais en couple avec des enfants, confrontent leur amour lors d\'un séjour en Grèce.',
+    description:
+      "Jesse et Celine, désormais en couple avec des enfants, confrontent leur amour lors d'un séjour en Grèce.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9675,7 +9945,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 115,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Dans une salle de cinéma des années 1980, une projectionniste et un jeune employé nouent une relation tendre.',
+    description:
+      'Dans une salle de cinéma des années 1980, une projectionniste et un jeune employé nouent une relation tendre.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -9698,7 +9969,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 138,
     genre: ['Drame', 'Mystère', 'Thriller'],
     saga: '',
-    description: 'Un couple en crise part dans une maison isolée où une intelligence artificielle manipule leurs peurs.',
+    description:
+      'Un couple en crise part dans une maison isolée où une intelligence artificielle manipule leurs peurs.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9721,7 +9993,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 202,
     genre: ['Biographie', 'Drame', 'Historique'],
     saga: '',
-    description: 'Du jeune criminel au leader des Droits civiques, l\'ascension et l\'assassinat de Malcolm X.',
+    description:
+      "Du jeune criminel au leader des Droits civiques, l'ascension et l'assassinat de Malcolm X.",
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
@@ -9744,7 +10017,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 102,
     genre: ['Drame'],
     saga: '',
-    description: 'Une femme adulte se remémore un voyage en Turquie avec son père, entre joies partagées et malaise enfoui.',
+    description:
+      'Une femme adulte se remémore un voyage en Turquie avec son père, entre joies partagées et malaise enfoui.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -9767,7 +10041,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 134,
     genre: ['Biographie', 'Policier', 'Drame'],
     saga: '',
-    description: 'Edward Snowden, analyste de la NSA, révèle au monde l\'étendue de la surveillance de masse américaine.',
+    description:
+      "Edward Snowden, analyste de la NSA, révèle au monde l'étendue de la surveillance de masse américaine.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9790,7 +10065,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 134,
     genre: ['Biographie', 'Drame', 'Historique'],
     saga: '',
-    description: 'Deux lutteurs olympiques sont attirés dans l\'univers délirant et dangereux du milliardaire John du Pont.',
+    description:
+      "Deux lutteurs olympiques sont attirés dans l'univers délirant et dangereux du milliardaire John du Pont.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9813,7 +10089,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 129,
     genre: ['Biographie', 'Policier', 'Drame'],
     saga: '',
-    description: 'Des journalistes du Boston Globe enquêtent sur des abus sexuels commis par des prêtres catholiques.',
+    description:
+      'Des journalistes du Boston Globe enquêtent sur des abus sexuels commis par des prêtres catholiques.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9839,7 +10116,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 116,
     genre: ['Drame', 'Horreur', 'Mystère'],
     saga: '',
-    description: 'Une étudiante en mode des années 1960 glisse dans les rêves d\'une chanteuse aspirante à Londres.',
+    description:
+      "Une étudiante en mode des années 1960 glisse dans les rêves d'une chanteuse aspirante à Londres.",
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -9862,7 +10140,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 141,
     genre: ['Biographie', 'Drame', 'Historique'],
     saga: '',
-    description: 'Neil Armstrong affronte le deuil familial et les risques mortels de la course à la Lune.',
+    description:
+      'Neil Armstrong affronte le deuil familial et les risques mortels de la course à la Lune.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9885,7 +10164,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 123,
     genre: ['Drame'],
     saga: '',
-    description: 'Un bodybuilder obsédé par la célébrité bascule dans la violence pour percer dans le monde de la musculation.',
+    description:
+      'Un bodybuilder obsédé par la célébrité bascule dans la violence pour percer dans le monde de la musculation.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9917,12 +10197,14 @@ export const baseMoviesDrame: BaseMovie[] = [
         name: 'Irving Pichel',
       },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/fb56f9620ec4.jpg',
     releaseDate: '1934-03-13',
     length: 0,
     genre: [],
     saga: '',
-    description: 'Cléopâtre, reine d\'Égypte, mène une lutte politique et amoureuse pour préserver son royaume face à Rome.',
+    description:
+      "Cléopâtre, reine d'Égypte, mène une lutte politique et amoureuse pour préserver son royaume face à Rome.",
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -9945,7 +10227,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 94,
     genre: ['Drame', 'Guerre'],
     saga: '',
-    description: 'L\'amitié naïve entre un fils d\'officier nazi et un enfant juif emprisonné derrière les barbelés d\'un camp.',
+    description:
+      "L'amitié naïve entre un fils d'officier nazi et un enfant juif emprisonné derrière les barbelés d'un camp.",
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -9968,7 +10251,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 156,
     genre: ['Biographie', 'Drame', 'Historique'],
     saga: '',
-    description: 'Les derniers jours d\'Adolf Hitler, enfermé dans son bunker à Berlin alors que la guerre est perdue.',
+    description:
+      "Les derniers jours d'Adolf Hitler, enfermé dans son bunker à Berlin alors que la guerre est perdue.",
     fromEntity: null,
     countryOrigin: ['Allemagne'],
     selectDisplayOrder: 0,
@@ -9991,7 +10275,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 151,
     genre: ['Biographie', 'Policier', 'Drame'],
     saga: '',
-    description: 'Henri Charrière, condamné à perpétuité au bagne, tente d\'échapper à l\'enfer de Cayenne.',
+    description:
+      "Henri Charrière, condamné à perpétuité au bagne, tente d'échapper à l'enfer de Cayenne.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -10014,7 +10299,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 0,
     genre: ['Drame'],
     saga: '',
-    description: 'Lors d\'un anniversaire familial, les secrets refoulés éclatent au grand jour dans une réunion tendue.',
+    description:
+      "Lors d'un anniversaire familial, les secrets refoulés éclatent au grand jour dans une réunion tendue.",
     fromEntity: null,
     countryOrigin: ['Suède'],
     selectDisplayOrder: 0,
@@ -10037,7 +10323,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 114,
     genre: ['Drame'],
     saga: '',
-    description: 'Dans le Queens des années 1980, un garçon juif découvre le racisme et les inégalités en entrant au lycée.',
+    description:
+      'Dans le Queens des années 1980, un garçon juif découvre le racisme et les inégalités en entrant au lycée.',
     fromEntity: null,
     countryOrigin: ['Brésil'],
     selectDisplayOrder: 0,
@@ -10060,7 +10347,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 115,
     genre: ['Drame', 'Fantastique', 'Horreur'],
     saga: '',
-    description: 'Dans une Estonie rurale fantastique, une jeune femme tombe amoureuse d\'un esprit qui habite une ferme.',
+    description:
+      "Dans une Estonie rurale fantastique, une jeune femme tombe amoureuse d'un esprit qui habite une ferme.",
     fromEntity: null,
     countryOrigin: ['Estonie'],
     selectDisplayOrder: 0,
@@ -10083,7 +10371,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 124,
     genre: ['Drame', 'Mystère', 'Romance'],
     saga: '',
-    description: 'Un adolescent allemand entretient une liaison avec une femme plus âgée dont le passé nazi le rattrape des années plus tard.',
+    description:
+      'Un adolescent allemand entretient une liaison avec une femme plus âgée dont le passé nazi le rattrape des années plus tard.',
     fromEntity: null,
     countryOrigin: ['Allemagne'],
     selectDisplayOrder: 0,
@@ -10106,7 +10395,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 102,
     genre: ['Drame', 'Horreur', 'Mystère'],
     saga: '',
-    description: 'Un vétéran de la Première Guerre mondiale croit reconnaître dans une jeune médium la fille qu\'il a perdue.',
+    description:
+      "Un vétéran de la Première Guerre mondiale croit reconnaître dans une jeune médium la fille qu'il a perdue.",
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -10129,7 +10419,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 113,
     genre: ['Biographie', 'Comédie', 'Drame'],
     saga: '',
-    description: 'Un entraîneur de boxe israélien forme des jeunes arabes de Jaffa dans un contexte de tensions communautaires.',
+    description:
+      'Un entraîneur de boxe israélien forme des jeunes arabes de Jaffa dans un contexte de tensions communautaires.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -10152,7 +10443,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 101,
     genre: ['Drame', 'Thriller'],
     saga: '',
-    description: 'Un gouverneur américain en campagne présidentielle voit son équipe de communication manipuler la vérité.',
+    description:
+      'Un gouverneur américain en campagne présidentielle voit son équipe de communication manipuler la vérité.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -10175,7 +10467,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 131,
     genre: ['Biographie', 'Policier', 'Drame'],
     saga: '',
-    description: 'Un agent de sécurité héros des Jeux olympiques de 1996 est faussement accusé d\'attentat par les médias.',
+    description:
+      "Un agent de sécurité héros des Jeux olympiques de 1996 est faussement accusé d'attentat par les médias.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -10198,7 +10491,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 110,
     genre: ['Drame'],
     saga: '',
-    description: 'Un ex-détenu retrouve un sens à sa vie en s\'occupant d\'un garçon abandonné par sa mère toxicomane.',
+    description:
+      "Un ex-détenu retrouve un sens à sa vie en s'occupant d'un garçon abandonné par sa mère toxicomane.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -10221,7 +10515,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 139,
     genre: ['Biographie', 'Drame', 'Historique'],
     saga: '',
-    description: 'Desmo Doss, objecteur de conscience, sauve des dizaines de soldats sans porter d\'arme sur Okinawa.',
+    description:
+      "Desmo Doss, objecteur de conscience, sauve des dizaines de soldats sans porter d'arme sur Okinawa.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -10262,7 +10557,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 108,
     genre: ['Drame', 'Historique'],
     saga: 'Les Misérables',
-    description: 'Jean Valjean, ancien forçat, tente de se racheter tandis que l\'inspecteur Javert le traque sans relâche.',
+    description:
+      "Jean Valjean, ancien forçat, tente de se racheter tandis que l'inspecteur Javert le traque sans relâche.",
     fromEntity: {
       entityType: 'book' as const,
       title: 'Les Misérables',
@@ -10303,7 +10599,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 210,
     genre: ['Drame', 'Historique'],
     saga: 'Les Misérables',
-    description: 'Adaptation française du roman de Hugo : la rédemption de Jean Valjean face à la justice implacable de Javert.',
+    description:
+      'Adaptation française du roman de Hugo : la rédemption de Jean Valjean face à la justice implacable de Javert.',
     fromEntity: {
       entityType: 'book' as const,
       title: 'Les Misérables',
@@ -10344,7 +10641,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 150,
     genre: ['Drame', 'Historique'],
     saga: 'Les Misérables',
-    description: 'Téléfilm britannique retraçant le parcours de Jean Valjean, de Cosette et de la révolte des barricades.',
+    description:
+      'Téléfilm britannique retraçant le parcours de Jean Valjean, de Cosette et de la révolte des barricades.',
     fromEntity: {
       entityType: 'book' as const,
       title: 'Les Misérables',
@@ -10385,7 +10683,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 175,
     genre: ['Drame', 'Historique'],
     saga: 'Les Misérables',
-    description: 'Mise en scène théâtrale de Robert Hossein avec Gérard Depardieu dans le rôle de Jean Valjean.',
+    description:
+      'Mise en scène théâtrale de Robert Hossein avec Gérard Depardieu dans le rôle de Jean Valjean.',
     fromEntity: {
       entityType: 'book' as const,
       title: 'Les Misérables',
@@ -10426,7 +10725,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 175,
     genre: ['Drame', 'Romance'],
     saga: 'Les Misérables',
-    description: 'Claude Lelouch transpose l\'histoire de Valjean dans la France du XXe siècle, de 1900 à la Seconde Guerre mondiale.',
+    description:
+      "Claude Lelouch transpose l'histoire de Valjean dans la France du XXe siècle, de 1900 à la Seconde Guerre mondiale.",
     fromEntity: {
       entityType: 'book' as const,
       title: 'Les Misérables',
@@ -10467,7 +10767,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 134,
     genre: ['Drame', 'Historique'],
     saga: 'Les Misérables',
-    description: 'Jean Valjean sauve Cosette des Thénardier et affronte Javert dans une adaptation épique du roman de Hugo.',
+    description:
+      'Jean Valjean sauve Cosette des Thénardier et affronte Javert dans une adaptation épique du roman de Hugo.',
     fromEntity: {
       entityType: 'book' as const,
       title: 'Les Misérables',
@@ -10479,7 +10780,7 @@ export const baseMoviesDrame: BaseMovie[] = [
   },
   {
     title: 'Irréversible',
-    director: 'Magdalena Malfray',
+    director: 'Gaspar Noé',
     actors: [
       {
         name: 'Monica Bellucci',
@@ -10503,12 +10804,14 @@ export const baseMoviesDrame: BaseMovie[] = [
         name: 'Philippe Nahon',
       },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/3bb515a970d3.jpg',
     releaseDate: '',
     length: 0,
     genre: [],
     saga: '',
-    description: 'Une femme est agressée dans un passage souterrain ; le récit remonte le temps pour dévoiler les événements qui ont mené au drame.',
+    description:
+      'Une femme est agressée dans un passage souterrain ; le récit remonte le temps pour dévoiler les événements qui ont mené au drame.',
     fromEntity: null,
     countryOrigin: [],
     selectDisplayOrder: 0,
@@ -10531,7 +10834,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 118,
     genre: ['Drame'],
     saga: '',
-    description: 'Tony Manero, ouvrier new-yorkais, vit pour le samedi soir et les soirées disco qui lui offrent une échappatoire.',
+    description:
+      'Tony Manero, ouvrier new-yorkais, vit pour le samedi soir et les soirées disco qui lui offrent une échappatoire.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -10568,7 +10872,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 104,
     genre: ['Drame', 'Mystère'],
     saga: 'Sherlock Holmes',
-    description: 'Sherlock Holmes, nonagénaire retraité, tente de résoudre une dernière énigme liée à une femme qu\'il a autrefois trahie.',
+    description:
+      "Sherlock Holmes, nonagénaire retraité, tente de résoudre une dernière énigme liée à une femme qu'il a autrefois trahie.",
     fromEntity: {
       entityType: 'book' as const,
       title: 'Les Aventures de Sherlock Holmes',
@@ -10595,7 +10900,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 110,
     genre: ['Drame', 'Horreur', 'Mystère'],
     saga: '',
-    description: 'Quatre frères et sœurs isolés dans une demeure isolée cachent un secret troublant lié à leur mère et à un fantôme.',
+    description:
+      'Quatre frères et sœurs isolés dans une demeure isolée cachent un secret troublant lié à leur mère et à un fantôme.',
     fromEntity: null,
     countryOrigin: ['Espagne'],
     selectDisplayOrder: 0,
@@ -10618,7 +10924,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 135,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Une femme de fermier tombe amoureuse d\'un photographe de National Geographic venu documenter ses ponts couverts.',
+    description:
+      "Une femme de fermier tombe amoureuse d'un photographe de National Geographic venu documenter ses ponts couverts.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -10641,7 +10948,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 143,
     genre: ['Biographie', 'Comédie', 'Drame'],
     saga: '',
-    description: 'De l\'enfance londonienne à la gloire hollywoodienne, le parcours de Charlie Chaplin entre génie comique et scandales.',
+    description:
+      "De l'enfance londonienne à la gloire hollywoodienne, le parcours de Charlie Chaplin entre génie comique et scandales.",
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -10664,7 +10972,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 97,
     genre: ['Drame', 'Mystère'],
     saga: '',
-    description: 'Un vieil homme atteint de démence sombre dans la confusion tandis que sa fille tente de s\'occuper de lui.',
+    description:
+      "Un vieil homme atteint de démence sombre dans la confusion tandis que sa fille tente de s'occuper de lui.",
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -10690,7 +10999,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 135,
     genre: ['Drame'],
     saga: '',
-    description: 'La dernière journée de liberté d\'un trafiquant new-yorkais avant sa condamnation à sept ans de prison.',
+    description:
+      "La dernière journée de liberté d'un trafiquant new-yorkais avant sa condamnation à sept ans de prison.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -10713,7 +11023,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 165,
     genre: ['Drame'],
     saga: '',
-    description: 'On suit Mason de l\'enfance à l\'âge adulte, filmé sur douze ans avec les mêmes acteurs.',
+    description:
+      "On suit Mason de l'enfance à l'âge adulte, filmé sur douze ans avec les mêmes acteurs.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -10736,7 +11047,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 80,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Neuf ans après leur rencontre à Vienne, Jesse et Celine se retrouvent à Paris pour une conversation avant son départ.',
+    description:
+      'Neuf ans après leur rencontre à Vienne, Jesse et Celine se retrouvent à Paris pour une conversation avant son départ.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -10759,7 +11071,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 142,
     genre: ['Biographie', 'Policier', 'Drame'],
     saga: '',
-    description: 'Un jeune vétéran sombre dans l\'héroïne et braque des banques pour payer sa dépendance et celle de sa compagne.',
+    description:
+      "Un jeune vétéran sombre dans l'héroïne et braque des banques pour payer sa dépendance et celle de sa compagne.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -10787,7 +11100,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 238,
     genre: ['Drame'],
     saga: '',
-    description: 'Scarlett O\'Hara traverse la guerre de Sécession, l\'amour perdu et la reconstruction du Sud américain.',
+    description:
+      "Scarlett O'Hara traverse la guerre de Sécession, l'amour perdu et la reconstruction du Sud américain.",
     fromEntity: {
       entityType: 'book',
       title: 'Autant en emporte le vent',
@@ -10823,7 +11137,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 158,
     genre: ['Drame'],
     saga: '',
-    description: 'Daniel Plainview, prospecteur impitoyable, accumule fortune et haine dans les champs pétrolifères de la Californie.',
+    description:
+      'Daniel Plainview, prospecteur impitoyable, accumule fortune et haine dans les champs pétrolifères de la Californie.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -10849,7 +11164,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 141,
     genre: ['Biographie', 'Policier', 'Drame'],
     saga: '',
-    description: 'Christine Collins découvre que la police lui a rendu un enfant qui n\'est pas son fils disparu.',
+    description:
+      "Christine Collins découvre que la police lui a rendu un enfant qui n'est pas son fils disparu.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -10886,7 +11202,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 127,
     genre: ['Biographie', 'Comédie', 'Drame'],
     saga: '',
-    description: 'Portrait du réalisateur culte Ed Wood, passionné mais talentueux pour tourner les pires films de l\'histoire.',
+    description:
+      "Portrait du réalisateur culte Ed Wood, passionné mais talentueux pour tourner les pires films de l'histoire.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -10926,7 +11243,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 158,
     genre: ['Biographie', 'Historique', 'Guerre'],
     saga: '',
-    description: 'De la Révolution à Sainte-Hélène, l\'ascension et la chute de Napoléon Bonaparte vues par Ridley Scott.',
+    description:
+      "De la Révolution à Sainte-Hélène, l'ascension et la chute de Napoléon Bonaparte vues par Ridley Scott.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -10963,7 +11281,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 158,
     genre: ['Biographie', 'Drame', 'Thriller'],
     saga: '',
-    description: 'La saga familiale et criminelle autour de la maison de couture Gucci, entre trahisons et meurtre.',
+    description:
+      'La saga familiale et criminelle autour de la maison de couture Gucci, entre trahisons et meurtre.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -11000,7 +11319,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 129,
     genre: ['Biographie', 'Drame'],
     saga: '',
-    description: 'Jake LaMotta, boxeur autodestructeur, sombre dans la jalousie et la violence malgré sa gloire sur le ring.',
+    description:
+      'Jake LaMotta, boxeur autodestructeur, sombre dans la jalousie et la violence malgré sa gloire sur le ring.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -11040,7 +11360,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 119,
     genre: ['Drame', 'Thriller'],
     saga: '',
-    description: 'Fast Eddie Felson, ancien prodige du billard, entraîne un jeune talent flamboyant mais imprudent pour regagner les tables de pool de l\'Amérique.',
+    description:
+      "Fast Eddie Felson, ancien prodige du billard, entraîne un jeune talent flamboyant mais imprudent pour regagner les tables de pool de l'Amérique.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -11077,7 +11398,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 139,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Dans la haute société new-yorkaise des années 1870, un avocat hésite entre son fiancée et une femme scandaleuse.',
+    description:
+      'Dans la haute société new-yorkaise des années 1870, un avocat hésite entre son fiancée et une femme scandaleuse.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -11114,7 +11436,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 209,
     genre: ['Biographie', 'Policier', 'Drame'],
     saga: '',
-    description: 'Frank Sheeran, homme de main de la mafia, raconte sa relation avec Jimmy Hoffa et les meurtres qu\'il a commis.',
+    description:
+      "Frank Sheeran, homme de main de la mafia, raconte sa relation avec Jimmy Hoffa et les meurtres qu'il a commis.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -11151,7 +11474,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 121,
     genre: ['Drame', 'Thriller'],
     saga: '',
-    description: 'Un ambulancier new-yorkais épuisé par la nuit tente de sauver des vies tout en sombrant dans la culpabilité.',
+    description:
+      'Un ambulancier new-yorkais épuisé par la nuit tente de sauver des vies tout en sombrant dans la culpabilité.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -11188,7 +11512,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 134,
     genre: ['Biographie', 'Historique', 'Drame'],
     saga: '',
-    description: 'Enfance et fuite du dalaï-lama face à l\'invasion chinoise du Tibet.',
+    description:
+      "Enfance et fuite du dalaï-lama face à l'invasion chinoise du Tibet.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -11226,7 +11551,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 112,
     genre: ['Biographie', 'Drame', 'Aventure'],
     saga: '',
-    description: 'Alvin Straight, septuagénaire, traverse l\'Amérique sur un tracteur tondeuse pour réconcilier ses frères.',
+    description:
+      "Alvin Straight, septuagénaire, traverse l'Amérique sur un tracteur tondeuse pour réconcilier ses frères.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -11263,7 +11589,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 102,
     genre: ['Drame', 'Thriller', 'Policier'],
     saga: '',
-    description: 'Un joueur professionnel prend sous son aile un jeune perdant et l\'initie aux casinos de Las Vegas.',
+    description:
+      "Un joueur professionnel prend sous son aile un jeune perdant et l'initie aux casinos de Las Vegas.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -11300,7 +11627,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 155,
     genre: ['Drame', 'Comédie'],
     saga: '',
-    description: 'L\'ascension et la chute d\'un acteur porno dans le Los Angeles des années 1970.',
+    description:
+      "L'ascension et la chute d'un acteur porno dans le Los Angeles des années 1970.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -11337,7 +11665,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 144,
     genre: ['Drame'],
     saga: '',
-    description: 'Un vétéran perturbé tombe sous l\'influence du charismatique fondateur d\'une secte proche de la scientologie.',
+    description:
+      "Un vétéran perturbé tombe sous l'influence du charismatique fondateur d'une secte proche de la scientologie.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -11374,7 +11703,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 130,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Un couturier londonien exigeant tombe amoureux d\'une serveuse qui devient son muse et sa partenaire.',
+    description:
+      "Un couturier londonien exigeant tombe amoureux d'une serveuse qui devient son muse et sa partenaire.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -11411,7 +11741,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 97,
     genre: ['Drame', 'Romance', 'Mystère'],
     saga: '',
-    description: 'Cinq sœurs adolescentes se confinent dans leur maison, fascinant et troublant le quartier.',
+    description:
+      'Cinq sœurs adolescentes se confinent dans leur maison, fascinant et troublant le quartier.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -11448,7 +11779,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 97,
     genre: ['Drame'],
     saga: '',
-    description: 'Un acteur hollywoodien en panne passe du luxe du Château Marmont à une paternité retrouvée avec sa fille.',
+    description:
+      'Un acteur hollywoodien en panne passe du luxe du Château Marmont à une paternité retrouvée avec sa fille.',
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Italie'],
     selectDisplayOrder: 0,
@@ -11485,7 +11817,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 93,
     genre: ['Drame', 'Thriller', 'Guerre'],
     saga: '',
-    description: 'Pendant la guerre de Sécession, une institutrice du Sud accueille une soldate nordiste blessée dans son pensionnat.',
+    description:
+      'Pendant la guerre de Sécession, une institutrice du Sud accueille une soldate nordiste blessée dans son pensionnat.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -11522,7 +11855,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 113,
     genre: ['Biographie', 'Drame', 'Romance'],
     saga: '',
-    description: 'Priscilla Presley raconte sa relation avec Elvis, entre glamour et emprise d\'une icône du rock.',
+    description:
+      "Priscilla Presley raconte sa relation avec Elvis, entre glamour et emprise d'une icône du rock.",
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Italie'],
     selectDisplayOrder: 0,
@@ -11559,7 +11893,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 135,
     genre: ['Drame', 'Policier'],
     saga: '',
-    description: 'Un jeune avocat défend une famille pauvre contre une compagnie d\'assurance qui refuse de couvrir un traitement vital.',
+    description:
+      "Un jeune avocat défend une famille pauvre contre une compagnie d'assurance qui refuse de couvrir un traitement vital.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -11596,7 +11931,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 110,
     genre: ['Biographie', 'Comédie', 'Drame'],
     saga: '',
-    description: 'Preston Tucker tente de révolutionner l\'industrie automobile face aux manœuvres des grandes compagnies.',
+    description:
+      "Preston Tucker tente de révolutionner l'industrie automobile face aux manœuvres des grandes compagnies.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -11633,7 +11969,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 94,
     genre: ['Drame'],
     saga: '',
-    description: 'Deux frères dans une ville industrielle : l\'un cherche la gloire dans les gangs, l\'autre aspire à s\'échapper.',
+    description:
+      "Deux frères dans une ville industrielle : l'un cherche la gloire dans les gangs, l'autre aspire à s'échapper.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -11671,7 +12008,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 115,
     genre: ['Drame', 'Thriller', 'Horreur'],
     saga: '',
-    description: 'Deux gynécologues jumeaux partagent tout jusqu\'à ce qu\'une actrice et la drogue les déchirent.',
+    description:
+      "Deux gynécologues jumeaux partagent tout jusqu'à ce qu'une actrice et la drogue les déchirent.",
     fromEntity: null,
     countryOrigin: ['Canada', 'États-Unis'],
     selectDisplayOrder: 0,
@@ -11708,7 +12046,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 100,
     genre: ['Drame', 'Thriller'],
     saga: '',
-    description: 'Des personnages de Toronto entrelacent sexe, accidents de voiture et obsessions morbides.',
+    description:
+      'Des personnages de Toronto entrelacent sexe, accidents de voiture et obsessions morbides.',
     fromEntity: null,
     countryOrigin: ['Canada', 'Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -11746,7 +12085,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 166,
     genre: ['Drame', 'Biographie'],
     saga: '',
-    description: 'Portrait fantasmatique de Marilyn Monroe, de son enfance traumatique à sa mort dans le Hollywood des années 1950.',
+    description:
+      'Portrait fantasmatique de Marilyn Monroe, de son enfance traumatique à sa mort dans le Hollywood des années 1950.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -11784,7 +12124,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 125,
     genre: ['Drame'],
     saga: '',
-    description: 'La famille Crawley et son personnel affrontent un scandale royal et des changements majeurs dans leur demeure.',
+    description:
+      'La famille Crawley et son personnel affrontent un scandale royal et des changements majeurs dans leur demeure.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -11818,7 +12159,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 100,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Deux histoires d\'amour parallèles se rejoignent à travers un don d\'organes qui sauve une vie.',
+    description:
+      "Deux histoires d'amour parallèles se rejoignent à travers un don d'organes qui sauve une vie.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -11856,7 +12198,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 347,
     genre: ['Drame'],
     saga: '',
-    description: 'Dans un Hollywood alternatif des années 1940, des scénaristes marginaux tentent de briser les barrières raciales et homophobes.',
+    description:
+      'Dans un Hollywood alternatif des années 1940, des scénaristes marginaux tentent de briser les barrières raciales et homophobes.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -11894,7 +12237,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 140,
     genre: ['Historique', 'Drame'],
     saga: '',
-    description: 'Le jeune Henri V doit assumer le trône d\'Angleterre et mener ses troupes à la bataille d\'Azincourt.',
+    description:
+      "Le jeune Henri V doit assumer le trône d'Angleterre et mener ses troupes à la bataille d'Azincourt.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -11931,7 +12275,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 120,
     genre: ['Drame'],
     saga: '',
-    description: 'Un orphelin des bidonvilles de Mumbai participe à Qui veut gagner des millions en racontant son incroyable parcours.',
+    description:
+      'Un orphelin des bidonvilles de Mumbai participe à Qui veut gagner des millions en racontant son incroyable parcours.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -11977,7 +12322,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 118,
     genre: ['Drame', 'Biographie'],
     saga: '',
-    description: 'Saroo, adopté en Australie, retrouve vingt-cinq ans plus tard sa famille perdue en Inde grâce à Google Earth.',
+    description:
+      'Saroo, adopté en Australie, retrouve vingt-cinq ans plus tard sa famille perdue en Inde grâce à Google Earth.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -12014,7 +12360,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 106,
     genre: ['Biographie', 'Drame'],
     saga: '',
-    description: 'Margaret Keane peint des yeux immenses que son mari Walter revendique comme les siens jusqu\'au procès.',
+    description:
+      "Margaret Keane peint des yeux immenses que son mari Walter revendique comme les siens jusqu'au procès.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -12051,7 +12398,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 154,
     genre: ['Drame', 'Comédie'],
     saga: '',
-    description: 'Des amins se retrouvent chaque année au Cap Ferret, mais un secret sur l\'un d\'eux menace leur complicité.',
+    description:
+      "Des amins se retrouvent chaque année au Cap Ferret, mais un secret sur l'un d'eux menace leur complicité.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -12088,7 +12436,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 135,
     genre: ['Drame', 'Fantastique'],
     saga: '',
-    description: 'Une adolescente assassinée observe depuis l\'au-delà sa famille et son meurtrier, entre deuil et quête de justice.',
+    description:
+      "Une adolescente assassinée observe depuis l'au-delà sa famille et son meurtrier, entre deuil et quête de justice.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -12125,7 +12474,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 166,
     genre: ['Drame', 'Fantastique'],
     saga: '',
-    description: 'Benjamin Button naît vieillard et rajeunit au fil des ans, traversant le XXe siècle à l\'envers du temps.',
+    description:
+      "Benjamin Button naît vieillard et rajeunit au fil des ans, traversant le XXe siècle à l'envers du temps.",
     fromEntity: {
       entityType: 'book',
       title: "L'Étrange Histoire de Benjamin Button",
@@ -12170,7 +12520,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 123,
     genre: ['Historique', 'Drame'],
     saga: '',
-    description: 'De Vienne à Versailles, la jeune archiduchesse devient reine de France dans une cour de fêtes et de révolution imminente.',
+    description:
+      'De Vienne à Versailles, la jeune archiduchesse devient reine de France dans une cour de fêtes et de révolution imminente.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -12193,7 +12544,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 170,
     genre: ['Biographie', 'Drame'],
     saga: '',
-    description: 'Howard Hughes, aviateur et producteur excentrique, bâtit un empire hollywoodien avant de sombrer dans la phobie.',
+    description:
+      'Howard Hughes, aviateur et producteur excentrique, bâtit un empire hollywoodien avant de sombrer dans la phobie.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -12236,7 +12588,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 154,
     genre: ['Historique', 'Action'],
     saga: '',
-    description: 'Un capitaine américain capturé au Japon du XIXe siècle adopte les codes du bushido face à la modernisation.',
+    description:
+      'Un capitaine américain capturé au Japon du XIXe siècle adopte les codes du bushido face à la modernisation.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -12273,7 +12626,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 100,
     genre: ['Drame'],
     saga: '',
-    description: 'Une adolescente de treize ans bascule dans la drogue et la délinquance sous l\'influence d\'une nouvelle amie.',
+    description:
+      "Une adolescente de treize ans bascule dans la drogue et la délinquance sous l'influence d'une nouvelle amie.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -12311,7 +12665,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 110,
     genre: ['Drame'],
     saga: '',
-    description: 'Dans une ville minière en grève, un garçon de onze ans se passionne pour la danse classique contre l\'avis de son père.',
+    description:
+      "Dans une ville minière en grève, un garçon de onze ans se passionne pour la danse classique contre l'avis de son père.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -12348,7 +12703,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 139,
     genre: ['Drame', 'Thriller'],
     saga: '',
-    description: 'Un insomniac et un vendeur de savon fondent un club de combat clandestin qui dégénère en révolte contre la société de consommation.',
+    description:
+      'Un insomniac et un vendeur de savon fondent un club de combat clandestin qui dégénère en révolte contre la société de consommation.',
     fromEntity: {
       entityType: 'book',
       title: 'Fight Club',
@@ -12389,7 +12745,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 178,
     genre: ['Historique', 'Drame'],
     saga: '',
-    description: 'William Wallace mène les Écossais contre l\'occupation anglaise au XIIIe siècle.',
+    description:
+      "William Wallace mène les Écossais contre l'occupation anglaise au XIIIe siècle.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -12432,7 +12789,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 189,
     genre: ['Drame', 'Thriller'],
     saga: '',
-    description: 'Un procureur de La Nouvelle-Orléans enquête sur l\'assassinat de Kennedy et remet en cause la thèse du tireur unique.',
+    description:
+      "Un procureur de La Nouvelle-Orléans enquête sur l'assassinat de Kennedy et remet en cause la thèse du tireur unique.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -12458,7 +12816,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 107,
     genre: ['Drame'],
     saga: '',
-    description: 'Un couple en crise se retrouve bloqué à l\'hôpital lors des émeutes de 2018 en France.',
+    description:
+      "Un couple en crise se retrouve bloqué à l'hôpital lors des émeutes de 2018 en France.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -12478,7 +12837,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 135,
     genre: ['Drame'],
     saga: '',
-    description: 'Une adolescente assassinée observe depuis l\'au-delà sa famille et son meurtrier, entre deuil et quête de justice.',
+    description:
+      "Une adolescente assassinée observe depuis l'au-delà sa famille et son meurtrier, entre deuil et quête de justice.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -12498,7 +12858,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 100,
     genre: ['Drame'],
     saga: '',
-    description: 'Deux mères célibataires s\'affrontent pour la garde d\'un enfant dont elles revendiquent toutes deux la maternité.',
+    description:
+      "Deux mères célibataires s'affrontent pour la garde d'un enfant dont elles revendiquent toutes deux la maternité.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -12518,7 +12879,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 95,
     genre: ['Drame'],
     saga: '',
-    description: 'Réécriture sombre du conte de Cendrillon dans une Scandinavie médiévale marquée par la jalousie et la mutilation.',
+    description:
+      'Réécriture sombre du conte de Cendrillon dans une Scandinavie médiévale marquée par la jalousie et la mutilation.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -12538,7 +12900,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 102,
     genre: ['Drame'],
     saga: '',
-    description: 'Un jeune Américain en Roumanie découvre que la maison où il est invité cache des horreurs insoupçonnées.',
+    description:
+      'Un jeune Américain en Roumanie découvre que la maison où il est invité cache des horreurs insoupçonnées.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -12558,7 +12921,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 88,
     genre: ['Drame'],
     saga: '',
-    description: 'Un jeune espagnol atteint du VIH des années 1990 affronte la maladie, l\'isolement et la peur de contaminer.',
+    description:
+      "Un jeune espagnol atteint du VIH des années 1990 affronte la maladie, l'isolement et la peur de contaminer.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -12595,7 +12959,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 102,
     genre: ['Drame'],
     saga: '',
-    description: 'Rick Blaine, tenancier de bar à Casablanca, doit choisir entre l\'amour retrouvé et la résistance contre les nazis.',
+    description:
+      "Rick Blaine, tenancier de bar à Casablanca, doit choisir entre l'amour retrouvé et la résistance contre les nazis.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -12636,7 +13001,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 120,
     genre: ['Drame'],
     saga: '',
-    description: 'Une famille américaine fuit vers un bunker au Groenland alors qu\'une comète menace d\'anéantir la civilisation.',
+    description:
+      "Une famille américaine fuit vers un bunker au Groenland alors qu'une comète menace d'anéantir la civilisation.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -12664,7 +13030,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 130,
     genre: ['Drame'],
     saga: '',
-    description: 'Deux frères grandissent dans une favela de Rio entre crime, pauvreté et rêve d\'échapper à la violence.',
+    description:
+      "Deux frères grandissent dans une favela de Rio entre crime, pauvreté et rêve d'échapper à la violence.",
     fromEntity: null,
     countryOrigin: ['Brésil'],
     selectDisplayOrder: 5,
@@ -12701,7 +13068,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 90,
     genre: [],
     saga: '',
-    description: 'Après une demande en mariage ratée, un homme épouse sur un coup de tête une inconnue rencontrée dans un magasin.',
+    description:
+      'Après une demande en mariage ratée, un homme épouse sur un coup de tête une inconnue rencontrée dans un magasin.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -12738,7 +13106,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 125,
     genre: ['Drame'],
     saga: '',
-    description: 'Agnès Shakespeare porte le deuil de son fils Hamnet pendant que son mari William écrit Hamlet.',
+    description:
+      'Agnès Shakespeare porte le deuil de son fils Hamnet pendant que son mari William écrit Hamlet.',
     fromEntity: {
       entityType: 'book',
       title: 'Hamlet',
@@ -12765,7 +13134,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 155,
     genre: ['Drame', 'Thriller'],
     saga: '',
-    description: 'Malik, jeune détenu, apprend les codes de la prison et monte dans la hiérarchie du crime organisé.',
+    description:
+      'Malik, jeune détenu, apprend les codes de la prison et monte dans la hiérarchie du crime organisé.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
@@ -12802,7 +13172,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 121,
     genre: ['Biographie'],
     saga: '',
-    description: 'Deux jeunes Français partent tenter leur chance aux États-Unis et découvrent les réalités de l\'immigration clandestine.',
+    description:
+      "Deux jeunes Français partent tenter leur chance aux États-Unis et découvrent les réalités de l'immigration clandestine.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
@@ -12836,7 +13207,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 112,
     genre: ['Drame'],
     saga: '',
-    description: 'Tommy Shelby revient de la Première Guerre mondiale et transforme sa bande en empire criminel à Birmingham.',
+    description:
+      'Tommy Shelby revient de la Première Guerre mondiale et transforme sa bande en empire criminel à Birmingham.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 5,
@@ -12873,7 +13245,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 89,
     genre: ['Drame'],
     saga: '',
-    description: 'Une jeune femme participe à une émission de télé-réalité où les candidats doivent prouver leur amour sous les caméras.',
+    description:
+      'Une jeune femme participe à une émission de télé-réalité où les candidats doivent prouver leur amour sous les caméras.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
@@ -12901,7 +13274,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 106,
     genre: ['Drame'],
     saga: '',
-    description: 'Un couple confronte une crise existentielle lors d\'un séjour qui bascule dans l\'absurde.',
+    description:
+      "Un couple confronte une crise existentielle lors d'un séjour qui bascule dans l'absurde.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -12924,7 +13298,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 153,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Un professeur de quarante ans développe une obsession pour une adolescente de douze ans qu\'il épouse pour rester près d\'elle.',
+    description:
+      "Un professeur de quarante ans développe une obsession pour une adolescente de douze ans qu'il épouse pour rester près d'elle.",
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Royaume-Uni'],
     selectDisplayOrder: 5,
@@ -12947,7 +13322,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 197,
     genre: ['Peplum', 'Historique', 'Action'],
     saga: '',
-    description: 'Esclave romain devenu gladiateur, Spartacus mène une révolte contre la République romaine.',
+    description:
+      'Esclave romain devenu gladiateur, Spartacus mène une révolte contre la République romaine.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -12984,7 +13360,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 109,
     genre: ['Drame'],
     saga: '',
-    description: 'Deux inconnus découvrent qu\'ils peuvent revivre des moments clés de leurs vies passées.',
+    description:
+      "Deux inconnus découvrent qu'ils peuvent revivre des moments clés de leurs vies passées.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -13015,7 +13392,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 124,
     genre: ['Drame'],
     saga: '',
-    description: 'Mark Kerr, champion de MMA, lutte contre la drogue et la violence alors que sa carrière atteint son apogée.',
+    description:
+      'Mark Kerr, champion de MMA, lutte contre la drogue et la violence alors que sa carrière atteint son apogée.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -13052,7 +13430,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 132,
     genre: ['Drame'],
     saga: '',
-    description: 'Une star du cinéma en crise de quarantaine part en tournée promotionnelle avec son manager pour retrouver un sens à sa vie.',
+    description:
+      'Une star du cinéma en crise de quarantaine part en tournée promotionnelle avec son manager pour retrouver un sens à sa vie.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -13089,7 +13468,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 155,
     genre: ['Drame'],
     saga: '',
-    description: 'Un pilote vétéran revient en Formule 1 pour former un jeune prodige au sein d\'une écurie en difficulté.',
+    description:
+      "Un pilote vétéran revient en Formule 1 pour former un jeune prodige au sein d'une écurie en difficulté.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -13123,7 +13503,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 127,
     genre: ['Drame'],
     saga: '',
-    description: 'Un jeune musicien sourd et sa mère chanteuse d\'opéra tentent de se retrouver malgré leurs mondes opposés.',
+    description:
+      "Un jeune musicien sourd et sa mère chanteuse d'opéra tentent de se retrouver malgré leurs mondes opposés.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -13154,7 +13535,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 95,
     genre: ['Drame'],
     saga: '',
-    description: 'Des amis se retrouvent pour une fête qui dégénère lorsque des vérités longtemps cachées éclatent.',
+    description:
+      'Des amis se retrouvent pour une fête qui dégénère lorsque des vérités longtemps cachées éclatent.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
@@ -13185,7 +13567,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 133,
     genre: ['Drame'],
     saga: '',
-    description: 'Un magnat new-yorkais négocie la rançon de sa famille après leur enlèvement.',
+    description:
+      'Un magnat new-yorkais négocie la rançon de sa famille après leur enlèvement.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -13208,7 +13591,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 122,
     genre: ['Drame'],
     saga: '',
-    description: 'Dans un futur proche, une adolescente développe une connexion troublante avec une intelligence artificielle humanoïde.',
+    description:
+      'Dans un futur proche, une adolescente développe une connexion troublante avec une intelligence artificielle humanoïde.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
@@ -13239,7 +13623,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 101,
     genre: ['Drame'],
     saga: '',
-    description: 'Un milliardaire lance une opération d\'espionnage familiale dans l\'univers coloré d\'un pays fictif.',
+    description:
+      "Un milliardaire lance une opération d'espionnage familiale dans l'univers coloré d'un pays fictif.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -13270,7 +13655,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 95,
     genre: ['Drame'],
     saga: '',
-    description: 'Un homme piégé dans un couloir de métro japonais doit repérer les anomalies pour en sortir vivant.',
+    description:
+      'Un homme piégé dans un couloir de métro japonais doit repérer les anomalies pour en sortir vivant.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -13304,7 +13690,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 148,
     genre: ['Drame'],
     saga: '',
-    description: 'Dans une petite ville américaine, tensions politiques et paranoïa collective mènent à l\'explosion lors d\'une éclipse.',
+    description:
+      "Dans une petite ville américaine, tensions politiques et paranoïa collective mènent à l'explosion lors d'une éclipse.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -13338,7 +13725,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 98,
     genre: ['Drame'],
     saga: '',
-    description: 'Une jeune femme quitte son village breton pour tenter sa chance à Paris et y découvre l\'amour et la liberté.',
+    description:
+      "Une jeune femme quitte son village breton pour tenter sa chance à Paris et y découvre l'amour et la liberté.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
@@ -13369,7 +13757,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 102,
     genre: ['Drame'],
     saga: '',
-    description: 'Au début du XXe siècle, un ouvrier des chemins de fer traverse l\'Ouest américain entre labeur, solitude et pertes.',
+    description:
+      "Au début du XXe siècle, un ouvrier des chemins de fer traverse l'Ouest américain entre labeur, solitude et pertes.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -13400,7 +13789,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 140,
     genre: ['Drame'],
     saga: '',
-    description: 'Bob Dylan, jeune folk singer, choisit de trahir ses amis et son public en devenant une star électrique en 1965.',
+    description:
+      'Bob Dylan, jeune folk singer, choisit de trahir ses amis et son public en devenant une star électrique en 1965.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -13423,7 +13813,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 94,
     genre: ['Drame'],
     saga: '',
-    description: 'Une jeune femme enquête sur la disparition de sa demi-sœur près d\'un lac hanté en Louisiane.',
+    description:
+      "Une jeune femme enquête sur la disparition de sa demi-sœur près d'un lac hanté en Louisiane.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -13454,7 +13845,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 108,
     genre: ['Drame'],
     saga: '',
-    description: 'Deux missionnaires mormones se retrouvent piégés chez un homme dont les croyances religieuses cachent une menace mortelle.',
+    description:
+      'Deux missionnaires mormones se retrouvent piégés chez un homme dont les croyances religieuses cachent une menace mortelle.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -13485,7 +13877,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 111,
     genre: ['Drame'],
     saga: '',
-    description: 'Trois chapitres entrelacés racontent la vie de Charles Krantz, du cancer à l\'enfance en passant par une danse sur un parking.',
+    description:
+      "Trois chapitres entrelacés racontent la vie de Charles Krantz, du cancer à l'enfance en passant par une danse sur un parking.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -13509,7 +13902,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 139,
     genre: ['Drame'],
     saga: '',
-    description: 'Une strip-teaseuse russe à Brooklyn épouse le fils d\'un oligarque et affronte sa belle-famille pour sauver son mariage.',
+    description:
+      "Une strip-teaseuse russe à Brooklyn épouse le fils d'un oligarque et affronte sa belle-famille pour sauver son mariage.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -13537,7 +13931,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 162,
     genre: ['Drame', 'Thriller'],
     saga: '',
-    description: 'Un ancien révolutionnaire reprend les armes quand sa fille disparaît, traquée par un ennemi du passé.',
+    description:
+      'Un ancien révolutionnaire reprend les armes quand sa fille disparaît, traquée par un ennemi du passé.',
     fromEntity: {
       entityType: 'book',
       title: 'Vineland',
@@ -13572,7 +13967,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 103,
     genre: ['Drame'],
     saga: '',
-    description: 'Un chef d\'orchestre contraint de diriger une fanfare de village tente de redonner le goût de la musique à ses musiciens.',
+    description:
+      "Un chef d'orchestre contraint de diriger une fanfare de village tente de redonner le goût de la musique à ses musiciens.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
@@ -13603,7 +13999,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 130,
     genre: ['Drame'],
     saga: '',
-    description: 'Un baron de la drogue mexicain demande à une avocate de l\'aider à disparaître en devenant une femme.',
+    description:
+      "Un baron de la drogue mexicain demande à une avocate de l'aider à disparaître en devenant une femme.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
@@ -13637,7 +14034,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 122,
     genre: ['Drame'],
     saga: '',
-    description: 'Kora et ses rebelles continuent la lutte contre le Règne et affrontent le passé de leur chef sur une lune lointaine.',
+    description:
+      'Kora et ses rebelles continuent la lutte contre le Règne et affrontent le passé de leur chef sur une lune lointaine.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -13668,7 +14066,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 132,
     genre: ['Drame'],
     saga: '',
-    description: 'Les frères Von Erich, dynastie de lutteurs texans, connaissent gloire et tragédies familiales dans les années 1980.',
+    description:
+      'Les frères Von Erich, dynastie de lutteurs texans, connaissent gloire et tragédies familiales dans les années 1980.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -13699,7 +14098,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 130,
     genre: ['Drame'],
     saga: '',
-    description: 'En 1957, Enzo Ferrari doit sauver sa marque automobile en remportant la Mille Miglia malgré les dangers mortels.',
+    description:
+      'En 1957, Enzo Ferrari doit sauver sa marque automobile en remportant la Mille Miglia malgré les dangers mortels.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -13722,7 +14122,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 206,
     genre: ['Drame'],
     saga: '',
-    description: 'Dans l\'Oklahoma des années 1920, les Osages sont assassinés un à un pour leurs richesses pétrolières.',
+    description:
+      "Dans l'Oklahoma des années 1920, les Osages sont assassinés un à un pour leurs richesses pétrolières.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -13746,7 +14147,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 112,
     genre: ['Biographie'],
     saga: '',
-    description: 'En 1984, Nike mise sur un jeune Michael Jordan pour créer la ligne Air Jordan et révolutionner le marketing sportif.',
+    description:
+      'En 1984, Nike mise sur un jeune Michael Jordan pour créer la ligne Air Jordan et révolutionner le marketing sportif.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -13769,7 +14171,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 100,
     genre: ['Drame'],
     saga: '',
-    description: 'Une famille en vacances est retenue captive par quatre étrangers qui prétendent que l\'un d\'eux doit mourir pour empêcher l\'apocalypse.',
+    description:
+      "Une famille en vacances est retenue captive par quatre étrangers qui prétendent que l'un d'eux doit mourir pour empêcher l'apocalypse.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -13792,7 +14195,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 106,
     genre: ['Drame'],
     saga: '',
-    description: 'Nora et Hae Sung, amis d\'enfance séparés par l\'émigration, se retrouvent à New York des décennies plus tard pour mesurer les chemins de vie qu\'ils n\'ont pas pris.',
+    description:
+      "Nora et Hae Sung, amis d'enfance séparés par l'émigration, se retrouvent à New York des décennies plus tard pour mesurer les chemins de vie qu'ils n'ont pas pris.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -13815,7 +14219,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 117,
     genre: ['Drame'],
     saga: '',
-    description: 'Une orpheline découvre une carte menant au royaume des rêves où elle espère revoir son père disparu, avec l\'aide d\'un voleur aussi imprudent que drôle.',
+    description:
+      "Une orpheline découvre une carte menant au royaume des rêves où elle espère revoir son père disparu, avec l'aide d'un voleur aussi imprudent que drôle.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -13838,7 +14243,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 117,
     genre: ['Drame'],
     saga: '',
-    description: 'Charlie, enseignant reclus et obèse, tente de renouer avec sa fille adolescente alors qu\'il lutte contre la maladie et la culpabilité.',
+    description:
+      "Charlie, enseignant reclus et obèse, tente de renouer avec sa fille adolescente alors qu'il lutte contre la maladie et la culpabilité.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -13864,7 +14270,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 99,
     genre: ['Drame'],
     saga: '',
-    description: 'Après la mort de leur frère lors d\'une bavure policière, une famille basée dans une cité parisienne bascule dans une émeute filmée en plans-séquences vertigineux.',
+    description:
+      "Après la mort de leur frère lors d'une bavure policière, une famille basée dans une cité parisienne bascule dans une émeute filmée en plans-séquences vertigineux.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
@@ -13887,7 +14294,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 94,
     genre: ['Drame'],
     saga: '',
-    description: 'Une princesse entraînée au combat refuse un mariage forcé et affronte seule les hommes du roi qui veulent la ramener au château.',
+    description:
+      'Une princesse entraînée au combat refuse un mariage forcé et affronte seule les hommes du roi qui veulent la ramener au château.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -13910,7 +14318,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 115,
     genre: ['Drame'],
     saga: '',
-    description: 'Un juge d\'instruction obsédé par l\'assassinat d\'une jeune femme mène une enquête qui le rapproche dangereusement de la psychologie du suspect.',
+    description:
+      "Un juge d'instruction obsédé par l'assassinat d'une jeune femme mène une enquête qui le rapproche dangereusement de la psychologie du suspect.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
@@ -13933,7 +14342,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 115,
     genre: ['Drame'],
     saga: '',
-    description: 'À trente ans, le compositeur Jonathan Larson doute de son avenir artistique à la veille de la première de son musical, dans un hommage à la création théâtrale.',
+    description:
+      'À trente ans, le compositeur Jonathan Larson doute de son avenir artistique à la veille de la première de son musical, dans un hommage à la création théâtrale.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -13956,7 +14366,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 152,
     genre: ['Drame'],
     saga: '',
-    description: 'En France médiévale, un chevalier exige un duel judiciaire pour venger l\'honneur de sa femme, accusée d\'avoir menti sur un viol.',
+    description:
+      "En France médiévale, un chevalier exige un duel judiciaire pour venger l'honneur de sa femme, accusée d'avoir menti sur un viol.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -13979,7 +14390,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 104,
     genre: ['Drame'],
     saga: '',
-    description: 'Des policiers marseillais infiltrés dans le milieu des trafiquants de drogue risquent leur couverture et leur vie dans une enquête de longue haleine.',
+    description:
+      'Des policiers marseillais infiltrés dans le milieu des trafiquants de drogue risquent leur couverture et leur vie dans une enquête de longue haleine.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -14002,7 +14414,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 100,
     genre: ['Drame'],
     saga: '',
-    description: 'Une psychologue agoraphobe croit avoir assisté à un meurtre chez ses voisins, mais personne ne semble croire à sa version des faits.',
+    description:
+      'Une psychologue agoraphobe croit avoir assisté à un meurtre chez ses voisins, mais personne ne semble croire à sa version des faits.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -14017,7 +14430,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 106,
     genre: ['Drame'],
     saga: '',
-    description: 'Après la première de son film, un réalisateur et sa compagne actrice enchaînent une nuit de disputes sur l\'amour, l\'art et la reconnaissance.',
+    description:
+      "Après la première de son film, un réalisateur et sa compagne actrice enchaînent une nuit de disputes sur l'amour, l'art et la reconnaissance.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -14040,7 +14454,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 127,
     genre: ['Drame'],
     saga: '',
-    description: 'Un shérif détective traque un tueur en série en Californie aux côtés d\'un jeune agent obsédé par une affaire non résolue.',
+    description:
+      "Un shérif détective traque un tueur en série en Californie aux côtés d'un jeune agent obsédé par une affaire non résolue.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -14063,7 +14478,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 154,
     genre: ['Drame'],
     saga: '',
-    description: 'Quatre vétérans afro-américains retournent au Vietnam pour exhumer les restes de leur chef de section et retrouver un trésor enfoui pendant la guerre.',
+    description:
+      'Quatre vétérans afro-américains retournent au Vietnam pour exhumer les restes de leur chef de section et retrouver un trésor enfoui pendant la guerre.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -14086,7 +14502,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 124,
     genre: ['Drame'],
     saga: '',
-    description: 'Une architecte fuit un compagnon violent qui, après sa prétendue mort, semble la harceler grâce à une technologie d\'invisibilité.',
+    description:
+      "Une architecte fuit un compagnon violent qui, après sa prétendue mort, semble la harceler grâce à une technologie d'invisibilité.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -14109,7 +14526,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 117,
     genre: ['Drame'],
     saga: '',
-    description: 'Un tueur d\'élite découvre que sa cible est un clone plus jeune de lui-même, créé pour l\'éliminer dans une course-poursuite technologique.',
+    description:
+      "Un tueur d'élite découvre que sa cible est un clone plus jeune de lui-même, créé pour l'éliminer dans une course-poursuite technologique.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -14132,7 +14550,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 152,
     genre: ['Drame'],
     saga: '',
-    description: 'En 1966, Carroll Shelby et Ken Miles défient Ferrari aux 24 Heures du Mans avec la Ford GT40, malgré les rivalités internes à l\'écurie.',
+    description:
+      "En 1966, Carroll Shelby et Ken Miles défient Ferrari aux 24 Heures du Mans avec la Ford GT40, malgré les rivalités internes à l'écurie.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -14158,7 +14577,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 137,
     genre: ['Drame'],
     saga: '',
-    description: 'Un couple new-yorkais aux prises avec un divorce difficile doit concilier leur amour passé et la bataille juridique pour la garde de leur fils.',
+    description:
+      'Un couple new-yorkais aux prises avec un divorce difficile doit concilier leur amour passé et la bataille juridique pour la garde de leur fils.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -14181,7 +14601,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 165,
     genre: ['Drame'],
     saga: '',
-    description: 'Vingt-sept ans après leur victoire sur Pennywise, les membres du Club des perdants adultes reviennent à Derry affronter à nouveau le clown démoniaque.',
+    description:
+      'Vingt-sept ans après leur victoire sur Pennywise, les membres du Club des perdants adultes reviennent à Derry affronter à nouveau le clown démoniaque.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -14204,7 +14625,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 114,
     genre: ['Drame'],
     saga: '',
-    description: 'Adaptation de l\'histoire vraie de l\'association Les Amis d\'Elisa, qui accompagne des jeunes autistes sévères et leurs familles au quotidien.',
+    description:
+      "Adaptation de l'histoire vraie de l'association Les Amis d'Elisa, qui accompagne des jeunes autistes sévères et leurs familles au quotidien.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
@@ -14227,7 +14649,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 116,
     genre: ['Drame'],
     saga: '',
-    description: 'Un chanteur raté se réveille dans un monde où les Beatles n\'ont jamais existé et devient une star en interprétant leurs chansons comme les siennes.',
+    description:
+      "Un chanteur raté se réveille dans un monde où les Beatles n'ont jamais existé et devient une star en interprétant leurs chansons comme les siennes.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -14250,7 +14673,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 112,
     genre: ['Drame'],
     saga: '',
-    description: 'Jeunesse du futur auteur de Bilbo le Hobbit : amitiés d\'enfance, amour et horreurs des tranchées de la Première Guerre mondiale.',
+    description:
+      "Jeunesse du futur auteur de Bilbo le Hobbit : amitiés d'enfance, amour et horreurs des tranchées de la Première Guerre mondiale.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -14273,7 +14697,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 130,
     genre: ['Drame'],
     saga: '',
-    description: 'En 1962, un chauffeur italien escorte un pianiste noir de jazz lors d\'une tournée dans le Sud ségrégationniste des États-Unis.',
+    description:
+      "En 1962, un chauffeur italien escorte un pianiste noir de jazz lors d'une tournée dans le Sud ségrégationniste des États-Unis.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -14300,7 +14725,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 106,
     genre: ['Drame'],
     saga: '',
-    description: 'Évacuation de l\'armée britannique piégée à Dunkerque en 1940, racontée simultanément depuis la plage, la mer et les airs.',
+    description:
+      "Évacuation de l'armée britannique piégée à Dunkerque en 1940, racontée simultanément depuis la plage, la mer et les airs.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -14327,7 +14753,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 101,
     genre: ['Drame'],
     saga: '',
-    description: 'Une femme au foyer new-yorkaise, mère de trois enfants, retrouve une part d\'elle-même en reprenant contact avec son ancien patron.',
+    description:
+      "Une femme au foyer new-yorkaise, mère de trois enfants, retrouve une part d'elle-même en reprenant contact avec son ancien patron.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -14350,7 +14777,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 132,
     genre: ['Drame'],
     saga: '',
-    description: 'Été 1983 en Italie : le fils d\'un professeur tombe amoureux de l\'assistant américain venu aider son père dans ses recherches.',
+    description:
+      "Été 1983 en Italie : le fils d'un professeur tombe amoureux de l'assistant américain venu aider son père dans ses recherches.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -14373,7 +14801,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 97,
     genre: ['Drame'],
     saga: '',
-    description: 'Un cadre new-yorkais découvre une lettre d\'une femme inconnue qui le pousse à remettre en question sa vie professionnelle et sentimentale.',
+    description:
+      "Un cadre new-yorkais découvre une lettre d'une femme inconnue qui le pousse à remettre en question sa vie professionnelle et sentimentale.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -14396,7 +14825,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 127,
     genre: ['Drame'],
     saga: '',
-    description: 'Trois mathématiciennes afro-américaines travaillent pour la NASA et contribuent au programme spatial américain malgré le racisme ambiant.',
+    description:
+      'Trois mathématiciennes afro-américaines travaillent pour la NASA et contribuent au programme spatial américain malgré le racisme ambiant.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -14419,7 +14849,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 111,
     genre: ['Drame'],
     saga: '',
-    description: 'Trois étapes de la vie de Chiron, enfant puis adolescent puis adulte, dans un quartier pauvre de Miami où il cherche sa place et son identité.',
+    description:
+      'Trois étapes de la vie de Chiron, enfant puis adolescent puis adulte, dans un quartier pauvre de Miami où il cherche sa place et son identité.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -14446,7 +14877,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 122,
     genre: ['Drame'],
     saga: '',
-    description: 'Trois lancements de produits Apple jalonnent les rapports tendus entre Steve Jobs et les proches qui l\'entourent.',
+    description:
+      "Trois lancements de produits Apple jalonnent les rapports tendus entre Steve Jobs et les proches qui l'entourent.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -14469,7 +14901,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 110,
     genre: ['Drame'],
     saga: '',
-    description: 'Une femme touchée par un accident reste figée à vingt-neuf ans et vit sous une fausse identité jusqu\'à ce qu\'un homme la fasse tomber amoureuse.',
+    description:
+      "Une femme touchée par un accident reste figée à vingt-neuf ans et vit sous une fausse identité jusqu'à ce qu'un homme la fasse tomber amoureuse.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -14492,7 +14925,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 134,
     genre: ['Drame'],
     saga: '',
-    description: 'Avril 1945 : l\'équipage d\'un char Sherman mène une mission suicide derrière les lignes allemandes alors que la guerre touche à sa fin.',
+    description:
+      "Avril 1945 : l'équipage d'un char Sherman mène une mission suicide derrière les lignes allemandes alors que la guerre touche à sa fin.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -14515,7 +14949,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 138,
     genre: ['Drame'],
     saga: '',
-    description: 'Noé reçoit une vision divine annonçant un déluge et construit une arche pour sauver sa famille et les animaux du monde.',
+    description:
+      'Noé reçoit une vision divine annonçant un déluge et construit une arche pour sauver sa famille et les animaux du monde.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -14538,7 +14973,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 105,
     genre: ['Drame'],
     saga: '',
-    description: 'Un jeune batteur de jazz obsédé par la perfection subit l\'entraînement brutal d\'un professeur aussi exigeant que dangereux.',
+    description:
+      "Un jeune batteur de jazz obsédé par la perfection subit l'entraînement brutal d'un professeur aussi exigeant que dangereux.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -14565,7 +15001,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 117,
     genre: ['Drame'],
     saga: '',
-    description: 'Un cow-boy texan atteint du sida crée un réseau clandestin pour fournir des traitements non approuvés aux malades dans les années 1980.',
+    description:
+      'Un cow-boy texan atteint du sida crée un réseau clandestin pour fournir des traitements non approuvés aux malades dans les années 1980.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -14606,7 +15043,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 143,
     genre: ['Drame'],
     saga: '',
-    description: 'Dans les années folles, Nick Carraway découvre l\'opulence et le mystère de son voisin Jay Gatsby, obsédé par un amour perdu.',
+    description:
+      "Dans les années folles, Nick Carraway découvre l'opulence et le mystère de son voisin Jay Gatsby, obsédé par un amour perdu.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -14632,7 +15070,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 127,
     genre: ['Drame'],
     saga: '',
-    description: 'De la création d\'Apple dans un garage californien aux conflits avec ses associés, le parcours tumultueux de Steve Jobs jusqu\'au retour triomphal à la tête de la firme.',
+    description:
+      "De la création d'Apple dans un garage californien aux conflits avec ses associés, le parcours tumultueux de Steve Jobs jusqu'au retour triomphal à la tête de la firme.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -14655,7 +15094,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 146,
     genre: ['Drame'],
     saga: '',
-    description: 'Mississippi, années 1960 : une jeune femme blanche écrit le récit des domestiques noires qui élèvent les enfants des familles bourgeoises.',
+    description:
+      'Mississippi, années 1960 : une jeune femme blanche écrit le récit des domestiques noires qui élèvent les enfants des familles bourgeoises.',
     fromEntity: {
       entityType: 'book',
       title: 'La Couleur des sentiments',
@@ -14682,7 +15122,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 130,
     genre: ['Drame'],
     saga: '',
-    description: 'Deux jumeaux découvrent, après la mort de leur mère libanaise, une lettre qui les envoie au Moyen-Orient à la recherche d\'un père inconnu.',
+    description:
+      "Deux jumeaux découvrent, après la mort de leur mère libanaise, une lettre qui les envoie au Moyen-Orient à la recherche d'un père inconnu.",
     fromEntity: null,
     countryOrigin: ['Canada'],
     selectDisplayOrder: 30,
@@ -14705,7 +15146,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 100,
     genre: ['Drame'],
     saga: '',
-    description: 'Un adolescent solitaire découvre qu\'il peut voir et interagir avec les fantômes des morts, dont celle de son oncle qui lui révèle des secrets de famille.',
+    description:
+      "Un adolescent solitaire découvre qu'il peut voir et interagir avec les fantômes des morts, dont celle de son oncle qui lui révèle des secrets de famille.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -14728,7 +15170,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 115,
     genre: ['Drame'],
     saga: '',
-    description: 'Paris, 1942 : la rafle du Vélodrome d\'Hiver vue à travers le destin de plusieurs familles juives arrêtées puis déportées.',
+    description:
+      "Paris, 1942 : la rafle du Vélodrome d'Hiver vue à travers le destin de plusieurs familles juives arrêtées puis déportées.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -14751,7 +15194,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 111,
     genre: ['Drame'],
     saga: '',
-    description: 'Dans un monde post-apocalyptique, un père et son fils marchent vers la côte en échappant au froid, à la faim et aux hommes violents.',
+    description:
+      'Dans un monde post-apocalyptique, un père et son fils marchent vers la côte en échappant au froid, à la faim et aux hommes violents.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -14779,7 +15223,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 134,
     genre: ['Drame'],
     saga: '',
-    description: 'Deux cow-boys se rencontrent en montagne pour garder un troupeau et entament une relation secrète qui durera des décennies malgré leurs vies parallèles.',
+    description:
+      'Deux cow-boys se rencontrent en montagne pour garder un troupeau et entament une relation secrète qui durera des décennies malgré leurs vies parallèles.',
     fromEntity: {
       entityType: 'book',
       title: 'Brokeback Mountain',
@@ -14811,7 +15256,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 109,
     genre: ['Drame'],
     saga: '',
-    description: 'Un étudiant américain intègre un groupe de supporters hooligans d\'un club de football londonien et découvre violence, fraternité et loyauté.',
+    description:
+      "Un étudiant américain intègre un groupe de supporters hooligans d'un club de football londonien et découvre violence, fraternité et loyauté.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -14848,7 +15294,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 95,
     genre: ['Drame'],
     saga: '',
-    description: 'Dans un internat difficile des années 1940, un professeur de musique forme une chorale qui transforme la vie des élèves marginalisés.',
+    description:
+      'Dans un internat difficile des années 1940, un professeur de musique forme une chorale qui transforme la vie des élèves marginalisés.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
@@ -14871,7 +15318,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 95,
     genre: ['Drame'],
     saga: '',
-    description: 'Un groupe de danseurs hip-hop affronte des rivaux lors de compétitions de street dance pour prouver leur talent et leur détermination.',
+    description:
+      'Un groupe de danseurs hip-hop affronte des rivaux lors de compétitions de street dance pour prouver leur talent et leur détermination.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -14894,7 +15342,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 102,
     genre: ['Drame'],
     saga: '',
-    description: 'À Tokyo, une star de cinéma en crise et une jeune épouse en décalage nouent une complicité discrète dans l\'ennui et la solitude.',
+    description:
+      "À Tokyo, une star de cinéma en crise et une jeune épouse en décalage nouent une complicité discrète dans l'ennui et la solitude.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -14917,7 +15366,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 170,
     genre: ['Drame'],
     saga: '',
-    description: 'New York, milieu du XIXe siècle : un jeune homme revient dans le quartier des Five Points pour venger la mort de son père face au chef des Nativists.',
+    description:
+      'New York, milieu du XIXe siècle : un jeune homme revient dans le quartier des Five Points pour venger la mort de son père face au chef des Nativists.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -14940,7 +15390,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 131,
     genre: ['Drame'],
     saga: '',
-    description: 'Sans diplôme juridique, Erin Brockovich mène seule une bataille contre une compagnie énergétique responsable d\'une pollution toxique.',
+    description:
+      "Sans diplôme juridique, Erin Brockovich mène seule une bataille contre une compagnie énergétique responsable d'une pollution toxique.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -14963,7 +15414,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 116,
     genre: ['Drame'],
     saga: '',
-    description: 'Un tueur à gages afro-américain vit selon le code du bushido et doit affronter la mafia lorsque son contrat le trahit.',
+    description:
+      'Un tueur à gages afro-américain vit selon le code du bushido et doit affronter la mafia lorsque son contrat le trahit.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -14986,7 +15438,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 119,
     genre: ['Drame'],
     saga: '',
-    description: 'Un néo-nazi sort de prison déterminé à empêcher son jeune frère de suivre la même voie de haine et de violence raciale.',
+    description:
+      'Un néo-nazi sort de prison déterminé à empêcher son jeune frère de suivre la même voie de haine et de violence raciale.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -15009,7 +15462,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 129,
     genre: ['Drame'],
     saga: '',
-    description: 'Une star de la chanson menacée de mort tombe amoureuse de son garde du corps, au risque de compromettre sa sécurité.',
+    description:
+      'Une star de la chanson menacée de mort tombe amoureuse de son garde du corps, au risque de compromettre sa sécurité.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -15032,7 +15486,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 130,
     genre: ['Drame'],
     saga: '',
-    description: 'Deux amies en cavale à travers l\'Ouest américain après un acte de légitime défense qui les transforme en fugitives recherchées.',
+    description:
+      "Deux amies en cavale à travers l'Ouest américain après un acte de légitime défense qui les transforme en fugitives recherchées.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -15055,7 +15510,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 133,
     genre: ['Drame'],
     saga: '',
-    description: 'Un égoïste héritier découvre l\'existence d\'un frère autiste dont il ignore tout et l\'embarque dans un road trip qui change leur relation.',
+    description:
+      "Un égoïste héritier découvre l'existence d'un frère autiste dont il ignore tout et l'embarque dans un road trip qui change leur relation.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -15083,7 +15539,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 116,
     genre: ['Drame'],
     saga: '',
-    description: 'De l\'entraînement brutal des Marines au Vietnam à la guerre urbaine, le parcours déshumanisant de jeunes soldats américains.',
+    description:
+      "De l'entraînement brutal des Marines au Vietnam à la guerre urbaine, le parcours déshumanisant de jeunes soldats américains.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -15106,7 +15563,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 89,
     genre: ['Drame'],
     saga: '',
-    description: 'Quatre amis de douze ans partent à la recherche du cadavre d\'un adolescent disparu dans l\'Oregon des années cinquante.',
+    description:
+      "Quatre amis de douze ans partent à la recherche du cadavre d'un adolescent disparu dans l'Oregon des années cinquante.",
     fromEntity: {
       entityType: 'book',
       title: 'The Body',
@@ -15133,7 +15591,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 97,
     genre: ['Drame'],
     saga: '',
-    description: 'Cinq lycéens de profils opposés passent une journée de retenue ensemble et découvrent leurs fragilités communes derrière les clichés sociaux.',
+    description:
+      'Cinq lycéens de profils opposés passent une journée de retenue ensemble et découvrent leurs fragilités communes derrière les clichés sociaux.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -15156,7 +15615,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 160,
     genre: ['Drame', 'Historique', 'Biographie'],
     saga: '',
-    description: 'Le compositeur Antonio Salieri raconte sa jalousie destructrice envers Wolfgang Amadeus Mozart, qu\'il admire et déteste à la fois.',
+    description:
+      "Le compositeur Antonio Salieri raconte sa jalousie destructrice envers Wolfgang Amadeus Mozart, qu'il admire et déteste à la fois.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -15185,7 +15645,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 107,
     genre: ['Drame'],
     saga: '',
-    description: 'Après la mort de son mari et la faillite de sa ville, Fern prend la route en van et rejoint une communauté de nomades modernes.',
+    description:
+      'Après la mort de son mari et la faillite de sa ville, Fern prend la route en van et rejoint une communauté de nomades modernes.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -15210,7 +15671,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 111,
     genre: ['Drame', 'Comédie'],
     saga: '',
-    description: 'Ruby, seule entendante de sa famille sourde, rêve de devenir chanteuse et doit choisir entre ses ambitions et l\'aide qu\'elle apporte aux siens.',
+    description:
+      "Ruby, seule entendante de sa famille sourde, rêve de devenir chanteuse et doit choisir entre ses ambitions et l'aide qu'elle apporte aux siens.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -15235,7 +15697,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 158,
     genre: ['Drame'],
     saga: '',
-    description: 'Lydia Tár, chef d\'orchestre mondialement célèbre, voit sa carrière et sa réputation s\'effondrer sous le poids de ses abus de pouvoir.',
+    description:
+      "Lydia Tár, chef d'orchestre mondialement célèbre, voit sa carrière et sa réputation s'effondrer sous le poids de ses abus de pouvoir.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -15256,7 +15719,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 148,
     genre: ['Drame', 'Guerre'],
     saga: '',
-    description: 'Adaptation du roman de Remarque : de jeunes soldats allemands découvrent l\'horreur des tranchées de la Première Guerre mondiale.',
+    description:
+      "Adaptation du roman de Remarque : de jeunes soldats allemands découvrent l'horreur des tranchées de la Première Guerre mondiale.",
     fromEntity: {
       entityType: 'book',
       title: "À l'Ouest rien de nouveau",
@@ -15286,7 +15750,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 120,
     genre: ['Drame', 'Thriller'],
     saga: '',
-    description: 'Après la mort du pape, les cardinaux se réunient en conclave pour élire son successeur dans une atmosphère de secrets et de rivalités.',
+    description:
+      'Après la mort du pape, les cardinaux se réunient en conclave pour élire son successeur dans une atmosphère de secrets et de rivalités.',
     fromEntity: {
       entityType: 'book',
       title: 'Conclave',
@@ -15311,7 +15776,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 215,
     genre: ['Drame'],
     saga: '',
-    description: 'Un architecte juif hongrois survit à la Shoah et reconstruit sa carrière aux États-Unis, entre génie créatif et dépendance envers un mécène.',
+    description:
+      'Un architecte juif hongrois survit à la Shoah et reconstruit sa carrière aux États-Unis, entre génie créatif et dépendance envers un mécène.',
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -15335,7 +15801,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 137,
     genre: ['Drame'],
     saga: '',
-    description: 'Adaptation du récit vrai d\'Eunice Paiva, mère de famille brésilienne qui refuse d\'oublier son mari disparu sous la dictature militaire.',
+    description:
+      "Adaptation du récit vrai d'Eunice Paiva, mère de famille brésilienne qui refuse d'oublier son mari disparu sous la dictature militaire.",
     fromEntity: null,
     countryOrigin: ['Brésil'],
     selectDisplayOrder: 0,
@@ -15355,7 +15822,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 90,
     genre: ['Drame', 'Comédie'],
     saga: '',
-    description: 'Deux cousins juifs américains voyagent en Pologne pour honorer leur grand-mère survivante et affrontent leurs différences générationnelles.',
+    description:
+      'Deux cousins juifs américains voyagent en Pologne pour honorer leur grand-mère survivante et affrontent leurs différences générationnelles.',
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Pologne'],
     selectDisplayOrder: 0,
@@ -15375,7 +15843,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 140,
     genre: ['Drame'],
     saga: '',
-    description: 'Deux adolescents noirs subissent les violences d\'un reform school en Floride dans les années 1960, adapté du roman de Colson Whitehead.',
+    description:
+      "Deux adolescents noirs subissent les violences d'un reform school en Floride dans les années 1960, adapté du roman de Colson Whitehead.",
     fromEntity: {
       entityType: 'book',
       title: 'Nickel Boys',
@@ -15399,7 +15868,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 105,
     genre: ['Drame'],
     saga: '',
-    description: 'Des détenus d\'une prison new-yorkaise montent une pièce de théâtre qui leur redonne un sens et une fraternité derrière les barreaux.',
+    description:
+      "Des détenus d'une prison new-yorkaise montent une pièce de théâtre qui leur redonne un sens et une fraternité derrière les barreaux.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -15420,7 +15890,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 114,
     genre: ['Drame'],
     saga: '',
-    description: 'Trois femmes de époques différentes — Virginia Woolf, une femme des années 1950 et une New-Yorkaise des années 2000 — sont liées par le roman Mrs Dalloway.',
+    description:
+      'Trois femmes de époques différentes — Virginia Woolf, une femme des années 1950 et une New-Yorkaise des années 2000 — sont liées par le roman Mrs Dalloway.',
     fromEntity: {
       entityType: 'book',
       title: 'The Hours',
@@ -15444,7 +15915,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 121,
     genre: ['Drame', 'Guerre', 'Biographie'],
     saga: '',
-    description: 'Pendant le génocide rwandais, un hôtelier hutu sauve plus d\'un millier de Tutsi réfugiés dans son établissement en négociant avec les milices.',
+    description:
+      "Pendant le génocide rwandais, un hôtelier hutu sauve plus d'un millier de Tutsi réfugiés dans son établissement en négociant avec les milices.",
     fromEntity: null,
     countryOrigin: ['Royaume-Uni', 'Afrique du Sud'],
     selectDisplayOrder: 0,
@@ -15464,7 +15936,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 136,
     genre: ['Biographie', 'Drame'],
     saga: '',
-    description: 'De l\'enfance difficile au succès planétaire, la vie de Johnny Cash et son amour tumultueux avec June Carter.',
+    description:
+      "De l'enfance difficile au succès planétaire, la vie de Johnny Cash et son amour tumultueux avec June Carter.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -15485,7 +15958,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 103,
     genre: ['Drame', 'Biographie'],
     saga: '',
-    description: 'Après la mort de Diana, la reine Elisabeth II et le premier ministre Tony Blair affrontent une crise monarchique et médiatique sans précédent.',
+    description:
+      'Après la mort de Diana, la reine Elisabeth II et le premier ministre Tony Blair affrontent une crise monarchique et médiatique sans précédent.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni', 'France'],
     selectDisplayOrder: 0,
@@ -15506,7 +15980,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 111,
     genre: ['Drame', 'Thriller'],
     saga: '',
-    description: 'Reconstitution minute par minute du détournement du vol United 93 le 11 septembre 2001 et de la révolte des passagers.',
+    description:
+      'Reconstitution minute par minute du détournement du vol United 93 le 11 septembre 2001 et de la révolte des passagers.',
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -15526,7 +16001,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 113,
     genre: ['Drame'],
     saga: '',
-    description: 'Roumanie, 1987 : deux étudiantes organisent un avortement clandestin dans un pays où l\'interruption volontaire de grossesse est interdite.',
+    description:
+      "Roumanie, 1987 : deux étudiantes organisent un avortement clandestin dans un pays où l'interruption volontaire de grossesse est interdite.",
     fromEntity: null,
     countryOrigin: ['Roumanie'],
     selectDisplayOrder: 0,
@@ -15547,7 +16023,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 112,
     genre: ['Drame', 'Biographie'],
     saga: '',
-    description: 'Jean-Dominique Bauby, paralysé par un accident vasculaire, dicte ses mémoires en clignant de la paupière droite, seule partie mobile de son corps.',
+    description:
+      'Jean-Dominique Bauby, paralysé par un accident vasculaire, dicte ses mémoires en clignant de la paupière droite, seule partie mobile de son corps.',
     fromEntity: {
       entityType: 'book',
       title: 'Le Scaphandre et le Papillon',
@@ -15572,7 +16049,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 122,
     genre: ['Drame', 'Biographie'],
     saga: '',
-    description: 'L\'interview télévisée où David Frost confronte Richard Nixon sur le scandale du Watergate, trois ans après sa démission.',
+    description:
+      "L'interview télévisée où David Frost confronte Richard Nixon sur le scandale du Watergate, trois ans après sa démission.",
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -15591,7 +16069,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 109,
     genre: ['Drame'],
     saga: '',
-    description: 'Randy Robinson, catcheur vieillissant, tente un retour sur le ring tout en cherchant à renouer avec sa fille et une strip-teaseuse.',
+    description:
+      'Randy Robinson, catcheur vieillissant, tente un retour sur le ring tout en cherchant à renouer avec sa fille et une strip-teaseuse.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -15611,7 +16090,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 104,
     genre: ['Drame'],
     saga: '',
-    description: 'Dans un collège catholique des années 1960, la directrice suspecte le père Flynn d\'abus sur le seul élève afro-américain.',
+    description:
+      "Dans un collège catholique des années 1960, la directrice suspecte le père Flynn d'abus sur le seul élève afro-américain.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -15632,7 +16112,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 110,
     genre: ['Drame'],
     saga: '',
-    description: 'Harlem, années 1980 : une adolescente enceinte, maltraitée par sa mère, trouve une lueur d\'espoir grâce à une enseignante bienveillante.',
+    description:
+      "Harlem, années 1980 : une adolescente enceinte, maltraitée par sa mère, trouve une lueur d'espoir grâce à une enseignante bienveillante.",
     fromEntity: {
       entityType: 'book',
       title: 'Push',
@@ -15659,7 +16140,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 109,
     genre: ['Drame', 'Comédie'],
     saga: '',
-    description: 'Un conseiller en licenciements parcourt les États-Unis pour licencier les employés à la place de leurs patrons, jusqu\'à ce qu\'une relation le fasse vaciller.',
+    description:
+      "Un conseiller en licenciements parcourt les États-Unis pour licencier les employés à la place de leurs patrons, jusqu'à ce qu'une relation le fasse vaciller.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -15680,7 +16162,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 100,
     genre: ['Drame'],
     saga: '',
-    description: 'Londres, 1961 : une lycéenne brillante tombe amoureuse d\'un homme plus âgé qui l\'entraîne dans un monde séduisant mais dangereux.',
+    description:
+      "Londres, 1961 : une lycéenne brillante tombe amoureuse d'un homme plus âgé qui l'entraîne dans un monde séduisant mais dangereux.",
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -15700,7 +16183,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 112,
     genre: ['Drame', 'Biographie'],
     saga: '',
-    description: 'Un chanteur de country alcoolique en fin de carrière trouve une seconde chance grâce à une journaliste et à l\'écriture de chansons pour une jeune star.',
+    description:
+      "Un chanteur de country alcoolique en fin de carrière trouve une seconde chance grâce à une journaliste et à l'écriture de chansons pour une jeune star.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -15723,7 +16207,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 100,
     genre: ['Drame', 'Thriller'],
     saga: '',
-    description: 'Une adolescente des Ozarks doit retrouver son père absent sous peine de perdre la maison familiale, dans un milieu pauvre et impitoyable.',
+    description:
+      'Une adolescente des Ozarks doit retrouver son père absent sous peine de perdre la maison familiale, dans un milieu pauvre et impitoyable.',
     fromEntity: {
       entityType: 'book',
       title: "Winter's Bone",
@@ -15748,7 +16233,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 115,
     genre: ['Drame', 'Comédie'],
     saga: '',
-    description: 'Un avocat hawaïen doit gérer ses terres familiales et ses deux filles après l\'accident de sa femme plongée dans le coma.',
+    description:
+      "Un avocat hawaïen doit gérer ses terres familiales et ses deux filles après l'accident de sa femme plongée dans le coma.",
     fromEntity: {
       entityType: 'book',
       title: 'The Descendants',
@@ -15773,7 +16259,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 123,
     genre: ['Drame'],
     saga: '',
-    description: 'Un couple iranien demande le divorce ; la dispute avec leur nounou et le mensonge de leur fille entraînent une affaire judiciaire aux conséquences lourdes.',
+    description:
+      'Un couple iranien demande le divorce ; la dispute avec leur nounou et le mensonge de leur fille entraînent une affaire judiciaire aux conséquences lourdes.',
     fromEntity: null,
     countryOrigin: ['Iran'],
     selectDisplayOrder: 0,
@@ -15794,7 +16281,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 115,
     genre: ['Drame', 'Comédie'],
     saga: '',
-    description: 'Un vieil homme convaincu d\'avoir gagné à la loterie part à pied vers le Nebraska, accompagné par son fils sceptique.',
+    description:
+      "Un vieil homme convaincu d'avoir gagné à la loterie part à pied vers le Nebraska, accompagné par son fils sceptique.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -15814,7 +16302,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 98,
     genre: ['Drame', 'Biographie'],
     saga: '',
-    description: 'Une femme irlandaise cherche le fils qu\'on lui a arraché dans un couvent il y a cinquante ans, avec l\'aide d\'un journaliste.',
+    description:
+      "Une femme irlandaise cherche le fils qu'on lui a arraché dans un couvent il y a cinquante ans, avec l'aide d'un journaliste.",
     fromEntity: {
       entityType: 'book',
       title: 'The Lost Child of Philomena Lee',
@@ -15839,7 +16328,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 98,
     genre: ['Drame'],
     saga: '',
-    description: 'Une New-Yorkaise déchue par la fraude de son mari tente de repartir à zéro chez sa sœur à San Francisco, mais ses illusions la rattrapent.',
+    description:
+      'Une New-Yorkaise déchue par la fraude de son mari tente de repartir à zéro chez sa sœur à San Francisco, mais ses illusions la rattrapent.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -15860,7 +16350,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 104,
     genre: ['Drame'],
     saga: '',
-    description: 'Un chanteur folk new-yorkais des années 1960 erre de couchers de soleil en échecs professionnels et personnels dans un hiver glacial.',
+    description:
+      'Un chanteur folk new-yorkais des années 1960 erre de couchers de soleil en échecs professionnels et personnels dans un hiver glacial.',
     fromEntity: null,
     countryOrigin: ['États-Unis', 'France'],
     selectDisplayOrder: 0,
@@ -15880,7 +16371,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 96,
     genre: ['Drame'],
     saga: '',
-    description: 'Dans un centre pour adolescents en difficulté, une éducatrice aide les jeunes tout en affrontant ses propres blessures passées.',
+    description:
+      'Dans un centre pour adolescents en difficulté, une éducatrice aide les jeunes tout en affrontant ses propres blessures passées.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -15901,7 +16393,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 130,
     genre: ['Drame'],
     saga: '',
-    description: 'Deux garçons du Mississippi découvrent un homme fugitif caché sur une île et l\'aident à retrouver son amour de jeunesse.',
+    description:
+      "Deux garçons du Mississippi découvrent un homme fugitif caché sur une île et l'aident à retrouver son amour de jeunesse.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -15922,7 +16415,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 128,
     genre: ['Drame', 'Biographie', 'Historique'],
     saga: '',
-    description: 'Martin Luther King mène la marche de Selma à Montgomery en 1965 pour obtenir le droit de vote des Afro-Américains, malgré la répression policière.',
+    description:
+      'Martin Luther King mène la marche de Selma à Montgomery en 1965 pour obtenir le droit de vote des Afro-Américains, malgré la répression policière.',
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -15942,7 +16436,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 101,
     genre: ['Drame'],
     saga: '',
-    description: 'Une linguiste de renom découvre qu\'elle est atteinte d\'une forme précoce de la maladie d\'Alzheimer et lutte pour garder sa dignité.',
+    description:
+      "Une linguiste de renom découvre qu'elle est atteinte d'une forme précoce de la maladie d'Alzheimer et lutte pour garder sa dignité.",
     fromEntity: {
       entityType: 'book',
       title: 'Still Alice',
@@ -15967,7 +16462,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 137,
     genre: ['Drame', 'Biographie', 'Guerre'],
     saga: '',
-    description: 'Adaptation du récit de Louis Zamperini, coureur olympique devenu prisonnier de guerre japonais et survivant d\'un camp brutal.',
+    description:
+      "Adaptation du récit de Louis Zamperini, coureur olympique devenu prisonnier de guerre japonais et survivant d'un camp brutal.",
     fromEntity: {
       entityType: 'book',
       title: 'Invincible',
@@ -15990,7 +16486,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 82,
     genre: ['Drame'],
     saga: '',
-    description: 'Pologne, 1962 : une novice sur le point de prononcer ses vœux découvre qu\'elle est juive et part à la recherche des restes de sa famille.',
+    description:
+      "Pologne, 1962 : une novice sur le point de prononcer ses vœux découvre qu'elle est juive et part à la recherche des restes de sa famille.",
     fromEntity: null,
     countryOrigin: ['Pologne', 'Danemark'],
     selectDisplayOrder: 0,
@@ -16010,7 +16507,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 141,
     genre: ['Drame'],
     saga: '',
-    description: 'Dans une ville sibérienne, un homme simple affronte le maire corrompu qui veut s\'emparer de sa maison au bord de la mer.',
+    description:
+      "Dans une ville sibérienne, un homme simple affronte le maire corrompu qui veut s'emparer de sa maison au bord de la mer.",
     fromEntity: null,
     countryOrigin: ['Russie'],
     selectDisplayOrder: 0,
@@ -16031,7 +16529,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 111,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Une jeune Irlandaise émigre à New York dans les années 1950 et doit choisir entre sa nouvelle vie et son village natal.',
+    description:
+      'Une jeune Irlandaise émigre à New York dans les années 1950 et doit choisir entre sa nouvelle vie et son village natal.',
     fromEntity: {
       entityType: 'book',
       title: 'Brooklyn',
@@ -16056,7 +16555,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 147,
     genre: ['Biographie', 'Drame'],
     saga: '',
-    description: 'Naissance et ascension du groupe N.W.A. à Compton, symbole du gangsta rap et voix d\'une jeunesse noire en colère.',
+    description:
+      "Naissance et ascension du groupe N.W.A. à Compton, symbole du gangsta rap et voix d'une jeunesse noire en colère.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -16077,7 +16577,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 119,
     genre: ['Drame', 'Comédie', 'Historique'],
     saga: '',
-    description: 'Début du XVIIIe siècle : deux cousines rivalisent pour l\'affection de la reine Anne d\'Angleterre dans une cour empoisonnée par les intrigues.',
+    description:
+      "Début du XVIIIe siècle : deux cousines rivalisent pour l'affection de la reine Anne d'Angleterre dans une cour empoisonnée par les intrigues.",
     fromEntity: null,
     countryOrigin: ['Royaume-Uni', 'Irlande', 'États-Unis'],
     selectDisplayOrder: 0,
@@ -16098,7 +16599,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 115,
     genre: ['Drame'],
     saga: '',
-    description: 'Une famille coréenne s\'installe en Arkansas dans les années 1980 pour cultiver des légumes, entre rêve américain et racines familiales.',
+    description:
+      "Une famille coréenne s'installe en Arkansas dans les années 1980 pour cultiver des légumes, entre rêve américain et racines familiales.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -16119,7 +16621,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 120,
     genre: ['Drame'],
     saga: '',
-    description: 'Un batteur de heavy metal perd brutalement l\'audition et doit apprendre à vivre dans le monde des sourds.',
+    description:
+      "Un batteur de heavy metal perd brutalement l'audition et doit apprendre à vivre dans le monde des sourds.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -16144,7 +16647,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 98,
     genre: ['Drame'],
     saga: '',
-    description: 'En 1969, le jeune Buddy grandit à Belfast pendant les Troubles, entre famille aimante et violence sectaire.',
+    description:
+      'En 1969, le jeune Buddy grandit à Belfast pendant les Troubles, entre famille aimante et violence sectaire.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -16165,7 +16669,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 129,
     genre: ['Drame', 'Historique'],
     saga: '',
-    description: 'Reconstitution du procès de 1969 où sept militants anti-Vietnam sont accusés d\'avoir organisé une émeute lors de la convention démocrate.',
+    description:
+      "Reconstitution du procès de 1969 où sept militants anti-Vietnam sont accusés d'avoir organisé une émeute lors de la convention démocrate.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -16184,7 +16689,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 125,
     genre: ['Drame', 'Biographie'],
     saga: '',
-    description: 'Le pape François et Benoît XVI s\'affrontent lors de conversations intimes sur la foi, le pouvoir et l\'avenir de l\'Église.',
+    description:
+      "Le pape François et Benoît XVI s'affrontent lors de conversations intimes sur la foi, le pouvoir et l'avenir de l'Église.",
     fromEntity: null,
     countryOrigin: ['Royaume-Uni', 'Italie'],
     selectDisplayOrder: 0,
@@ -16205,7 +16711,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 119,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'À Harlem, une jeune femme enceinte et son fiancé noir tentent de prouver son innocence alors qu\'il est incarcéré pour un viol qu\'il n\'a pas commis.',
+    description:
+      "À Harlem, une jeune femme enceinte et son fiancé noir tentent de prouver son innocence alors qu'il est incarcéré pour un viol qu'il n'a pas commis.",
     fromEntity: {
       entityType: 'book',
       title: 'Si Beale Street pouvait parler',
@@ -16229,7 +16736,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 113,
     genre: ['Drame'],
     saga: '',
-    description: 'Un pasteur en crise de foi accueille une jeune militante écologiste et bascule dans une radicalisation après une révélation personnelle.',
+    description:
+      'Un pasteur en crise de foi accueille une jeune militante écologiste et bascule dans une radicalisation après une révélation personnelle.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -16250,7 +16758,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 121,
     genre: ['Drame'],
     saga: '',
-    description: 'Un couple modeste recueille une enfant trouvée dans le froid et doit choisir entre la garder illégalement ou la rendre à sa vraie famille.',
+    description:
+      'Un couple modeste recueille une enfant trouvée dans le froid et doit choisir entre la garder illégalement ou la rendre à sa vraie famille.',
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
@@ -16270,7 +16779,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 126,
     genre: ['Drame'],
     saga: '',
-    description: 'Zain, jeune Libanais, intente un procès contre ses parents pour l\'avoir mis au monde dans la misère.',
+    description:
+      "Zain, jeune Libanais, intente un procès contre ses parents pour l'avoir mis au monde dans la misère.",
     fromEntity: null,
     countryOrigin: ['Liban'],
     selectDisplayOrder: 0,
@@ -16290,7 +16800,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 88,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Pologne des années 1950 : une chanteuse folk et un compositeur s\'aiment et se perdent à travers l\'Europe de l\'Est et de l\'Ouest.',
+    description:
+      "Pologne des années 1950 : une chanteuse folk et un compositeur s'aiment et se perdent à travers l'Europe de l'Est et de l'Ouest.",
     fromEntity: null,
     countryOrigin: ['Pologne', 'France', 'Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -16311,7 +16822,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 100,
     genre: ['Drame', 'Comédie'],
     saga: '',
-    description: 'Une famille chinoise organise un faux mariage pour permettre à la grand-mère de dire au revoir à ses proches sans lui révéler son cancer.',
+    description:
+      'Une famille chinoise organise un faux mariage pour permettre à la grand-mère de dire au revoir à ses proches sans lui révéler son cancer.',
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Chine'],
     selectDisplayOrder: 0,
@@ -16331,7 +16843,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 113,
     genre: ['Drame'],
     saga: '',
-    description: 'Un cinéaste en crise de création revisite les souvenirs de son enfance, de sa mère et de ses amours passées.',
+    description:
+      'Un cinéaste en crise de création revisite les souvenirs de son enfance, de sa mère et de ses amours passées.',
     fromEntity: null,
     countryOrigin: ['Espagne'],
     selectDisplayOrder: 0,
@@ -16352,7 +16865,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 117,
     genre: ['Drame', 'Biographie'],
     saga: '',
-    description: 'Noël 1991 : Diana Spencer vacille psychologiquement au château de Sandringham, étouffée par la famille royale et son mariage en ruine.',
+    description:
+      'Noël 1991 : Diana Spencer vacille psychologiquement au château de Sandringham, étouffée par la famille royale et son mariage en ruine.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni', 'Allemagne'],
     selectDisplayOrder: 0,
@@ -16372,7 +16886,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 126,
     genre: ['Drame', 'Western'],
     saga: '',
-    description: 'Dans le Montana des années 1920, un rancher brutal et son frère sensible voient leur équilibre bouleversé par l\'arrivée d\'une veuve et de son fils.',
+    description:
+      "Dans le Montana des années 1920, un rancher brutal et son frère sensible voient leur équilibre bouleversé par l'arrivée d'une veuve et de son fils.",
     fromEntity: {
       entityType: 'book',
       title: 'The Power of the Dog',
@@ -16397,7 +16912,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 129,
     genre: ['Drame', 'Biographie'],
     saga: '',
-    description: 'De leur rencontre à leur collaboration artistique, la vie amoureuse et professionnelle de Leonard Bernstein et Felicia Montealegre.',
+    description:
+      'De leur rencontre à leur collaboration artistique, la vie amoureuse et professionnelle de Leonard Bernstein et Felicia Montealegre.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -16417,7 +16933,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 117,
     genre: ['Drame'],
     saga: '',
-    description: 'Une actrice hollywoodienne se rend chez un couple célèbre pour préparer un rôle, réveillant des secrets sur une relation née dans le scandale.',
+    description:
+      'Une actrice hollywoodienne se rend chez un couple célèbre pour préparer un rôle, réveillant des secrets sur une relation née dans le scandale.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -16437,7 +16954,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 105,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Un homme solitaire rencontre un voisin séduisant et revisite les fantômes de son passé dans la maison de son enfance.',
+    description:
+      'Un homme solitaire rencontre un voisin séduisant et revisite les fantômes de son passé dans la maison de son enfance.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -16457,7 +16975,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 168,
     genre: ['Drame'],
     saga: '',
-    description: 'Une avocate iranienne défend une femme condamnée à mort pour avoir tué son mari violent, dans un système judiciaire oppressif.',
+    description:
+      'Une avocate iranienne défend une femme condamnée à mort pour avoir tué son mari violent, dans un système judiciaire oppressif.',
     fromEntity: null,
     countryOrigin: ['Iran', 'Allemagne', 'France'],
     selectDisplayOrder: 0,
@@ -16478,7 +16997,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 112,
     genre: ['Drame', 'Thriller'],
     saga: '',
-    description: 'Une mère tente de comprendre pourquoi son fils a commis un massacre dans son lycée, en remontant les signes d\'une enfance troublée.',
+    description:
+      "Une mère tente de comprendre pourquoi son fils a commis un massacre dans son lycée, en remontant les signes d'une enfance troublée.",
     fromEntity: {
       entityType: 'book',
       title: 'We Need to Talk About Kevin',
@@ -16503,7 +17023,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 133,
     genre: ['Drame'],
     saga: '',
-    description: 'Une lycéenne voit son meilleur ami noir abattu par un policier et doit choisir entre le silence et témoigner publiquement.',
+    description:
+      'Une lycéenne voit son meilleur ami noir abattu par un policier et doit choisir entre le silence et témoigner publiquement.',
     fromEntity: {
       entityType: 'book',
       title: 'The Hate U Give',
@@ -16528,7 +17049,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 125,
     genre: ['Drame', 'Mystère', 'Romance'],
     saga: '',
-    description: 'Dans les marais de Caroline du Nord, une jeune fille abandonnée grandit seule et enquête sur le meurtre d\'un homme qu\'elle connaissait.',
+    description:
+      "Dans les marais de Caroline du Nord, une jeune fille abandonnée grandit seule et enquête sur le meurtre d'un homme qu'elle connaissait.",
     fromEntity: {
       entityType: 'book',
       title: 'Là où chantent les écrevisses',
@@ -16553,7 +17075,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 122,
     genre: ['Drame', 'Comédie'],
     saga: '',
-    description: 'Un adolescent de quinze ans couvre une tournée de rock pour Rolling Stone et découvre les excès et les déceptions du milieu musical.',
+    description:
+      'Un adolescent de quinze ans couvre une tournée de rock pour Rolling Stone et découvre les excès et les déceptions du milieu musical.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -16574,7 +17097,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 107,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Connecticut, 1957 : une femme mariée tombe amoureuse de son jardinier noir, transgressant les tabous raciaux et sociaux de l\'époque.',
+    description:
+      "Connecticut, 1957 : une femme mariée tombe amoureuse de son jardinier noir, transgressant les tabous raciaux et sociaux de l'époque.",
     fromEntity: null,
     countryOrigin: ['États-Unis', 'France'],
     selectDisplayOrder: 0,
@@ -16595,7 +17119,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 112,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Deux hommes liés d\'amitié veillent chacun sur une femme dans le coma et développent une complicité autour du langage et de l\'amour.',
+    description:
+      "Deux hommes liés d'amitié veillent chacun sur une femme dans le coma et développent une complicité autour du langage et de l'amour.",
     fromEntity: null,
     countryOrigin: ['Espagne'],
     selectDisplayOrder: 0,
@@ -16616,7 +17141,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 141,
     genre: ['Drame', 'Biographie'],
     saga: '',
-    description: 'Pendant la Grande Dépression, un cheval de course malmené et son jockey improbable deviennent des symboles d\'espoir pour l\'Amérique.',
+    description:
+      "Pendant la Grande Dépression, un cheval de course malmené et son jockey improbable deviennent des symboles d'espoir pour l'Amérique.",
     fromEntity: {
       entityType: 'book',
       title: 'Seabiscuit: An American Legend',
@@ -16641,7 +17167,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 154,
     genre: ['Drame', 'Guerre', 'Romance'],
     saga: '',
-    description: 'Un soldat déserteur de la guerre de Sécession traverse les Appalaches pour retrouver la femme qu\'il aime.',
+    description:
+      "Un soldat déserteur de la guerre de Sécession traverse les Appalaches pour retrouver la femme qu'il aime.",
     fromEntity: {
       entityType: 'book',
       title: 'Cold Mountain',
@@ -16666,7 +17193,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 107,
     genre: ['Drame', 'Biographie', 'Jeunesse'],
     saga: '',
-    description: 'L\'histoire vraie de P.L. Travers, autrice de Mary Poppins, et de ses négociations difficiles avec Walt Disney pour l\'adaptation cinématographique.',
+    description:
+      "L'histoire vraie de P.L. Travers, autrice de Mary Poppins, et de ses négociations difficiles avec Walt Disney pour l'adaptation cinématographique.",
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -16687,7 +17215,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 117,
     genre: ['Drame', 'Comédie'],
     saga: '',
-    description: 'Quatre amis danois testent une théorie selon laquelle l\'alcool améliore la créativité en maintenant un taux d\'ébriété constant au quotidien.',
+    description:
+      "Quatre amis danois testent une théorie selon laquelle l'alcool améliore la créativité en maintenant un taux d'ébriété constant au quotidien.",
     fromEntity: null,
     countryOrigin: ['Danemark', 'Suède', 'Pays-Bas'],
     selectDisplayOrder: 0,
@@ -16707,7 +17236,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 122,
     genre: ['Drame', 'Romance', 'Historique'],
     saga: '',
-    description: 'Sur une île bretonne au XVIIIe siècle, une peintre est chargée de réaliser le portrait d\'une jeune femme destinée à un mariage imposé.',
+    description:
+      "Sur une île bretonne au XVIIIe siècle, une peintre est chargée de réaliser le portrait d'une jeune femme destinée à un mariage imposé.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -16727,7 +17257,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 128,
     genre: ['Drame'],
     saga: '',
-    description: 'Dans un collège de banlieue parisienne, un professeur de français tente de transmettre le savoir à une classe difficile pendant une année scolaire.',
+    description:
+      'Dans un collège de banlieue parisienne, un professeur de français tente de transmettre le savoir à une classe difficile pendant une année scolaire.',
     fromEntity: {
       entityType: 'book',
       title: 'Entre les murs',
@@ -16940,8 +17471,8 @@ export const baseMoviesDrame: BaseMovie[] = [
       "De Brienne à la campagne d'Italie, l'ascension de Bonaparte filmée en polyvision et en montage lyrique.",
     fromEntity: {
       entityType: 'book',
-      title: "Metropolis",
-      secondEntityKey: "Thea von Harbou",
+      title: 'Metropolis',
+      secondEntityKey: 'Thea von Harbou',
     },
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -17125,7 +17656,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: {
       entityType: 'book',
       title: "L'Opéra de quat'sous",
-      secondEntityKey: "Bertolt Brecht",
+      secondEntityKey: 'Bertolt Brecht',
     },
     countryOrigin: ['Allemagne'],
     selectDisplayOrder: 0,
@@ -17172,8 +17703,8 @@ export const baseMoviesDrame: BaseMovie[] = [
       'À Bora-Bora, deux amants fuient un interdit sacré qui condamne la jeune femme à devenir vestale.',
     fromEntity: {
       entityType: 'book',
-      title: "Marius",
-      secondEntityKey: "Marcel Pagnol",
+      title: 'Marius',
+      secondEntityKey: 'Marcel Pagnol',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -17285,8 +17816,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Herbert Mundin' },
       { name: 'Ursula Jeans' },
     ],
-    coverUrl:
-      '/movies_pictures/24a8fc546c86.jpg',
+    coverUrl: '/movies_pictures/24a8fc546c86.jpg',
     releaseDate: '1933-01-05',
     length: 110,
     genre: ['Drame', 'Historique'],
@@ -18300,8 +18830,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Celeste Holm' },
       { name: 'Anne Revere' },
     ],
-    coverUrl:
-      '/movies_pictures/f78c619ea102.jpg',
+    coverUrl: '/movies_pictures/f78c619ea102.jpg',
     releaseDate: '1947-11-11',
     length: 118,
     genre: ['Drame'],
@@ -18681,8 +19210,8 @@ export const baseMoviesDrame: BaseMovie[] = [
       "Une ingénie dévouée s'insinue dans la vie d'une star de Broadway, jusqu'à lui voler le rôle et l'homme.",
     fromEntity: {
       entityType: 'book',
-      title: "The Wisdom of Eve",
-      secondEntityKey: "Mary Orr",
+      title: 'The Wisdom of Eve',
+      secondEntityKey: 'Mary Orr',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -18714,8 +19243,8 @@ export const baseMoviesDrame: BaseMovie[] = [
       'Un viol et un meurtre en forêt sont racontés quatre fois, chacune contredisant les autres, sous la porte Rashômon.',
     fromEntity: {
       entityType: 'book',
-      title: "Rashômon",
-      secondEntityKey: "Ryunosuke Akutagawa",
+      title: 'Rashômon',
+      secondEntityKey: 'Ryunosuke Akutagawa',
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
@@ -18858,8 +19387,8 @@ export const baseMoviesDrame: BaseMovie[] = [
       "Blanche DuBois se réfugie chez sa sœur Stella à La Nouvelle-Orléans et s'entrechoque avec Stanley Kowalski.",
     fromEntity: {
       entityType: 'book',
-      title: "Un tramway nommé Désir",
-      secondEntityKey: "Tennessee Williams",
+      title: 'Un tramway nommé Désir',
+      secondEntityKey: 'Tennessee Williams',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -18966,8 +19495,8 @@ export const baseMoviesDrame: BaseMovie[] = [
       "Une fillette orpheline de l'exode et un petit paysan enterrent les morts dans un cimetière d'animaux.",
     fromEntity: {
       entityType: 'book',
-      title: "Jeux interdits",
-      secondEntityKey: "François Boyer",
+      title: 'Jeux interdits',
+      secondEntityKey: 'François Boyer',
     },
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -19621,7 +20150,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     genre: ['Drame', 'Romance'],
     saga: '',
     description:
-      'Un boucher de Bronx célibataire et maladroit rencontre enfin une femme qui semble l\'aimer pour ce qu\'il est.',
+      "Un boucher de Bronx célibataire et maladroit rencontre enfin une femme qui semble l'aimer pour ce qu'il est.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -22334,8 +22863,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Lois Smith' },
       { name: 'Billy Green Bush' },
     ],
-    coverUrl:
-      '/movies_pictures/1913047822da.jpg',
+    coverUrl: '/movies_pictures/1913047822da.jpg',
     releaseDate: '1970-09-12',
     length: 98,
     genre: ['Drame'],
@@ -22357,8 +22885,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Shinsuke Minami' },
       { name: 'Junzaburo Ban' },
     ],
-    coverUrl:
-      '/movies_pictures/ef981fba4084.jpg',
+    coverUrl: '/movies_pictures/ef981fba4084.jpg',
     releaseDate: '1970-10-31',
     length: 140,
     genre: ['Drame'],
@@ -22380,8 +22907,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Jean Dasté' },
       { name: 'Annie Miller' },
     ],
-    coverUrl:
-      '/movies_pictures/b23934a39006.jpg',
+    coverUrl: '/movies_pictures/b23934a39006.jpg',
     releaseDate: '1970-02-26',
     length: 83,
     genre: ['Drame', 'Historique'],
@@ -22430,8 +22956,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Gastone Moschin' },
       { name: 'Enzo Tarascio' },
     ],
-    coverUrl:
-      '/movies_pictures/2453a9cb2036.jpg',
+    coverUrl: '/movies_pictures/2453a9cb2036.jpg',
     releaseDate: '1970-10-22',
     length: 113,
     genre: ['Drame', 'Historique'],
@@ -22457,8 +22982,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Laurence de Monaghan' },
       { name: 'Michèle Montel' },
     ],
-    coverUrl:
-      '/movies_pictures/8845b4135e03.jpg',
+    coverUrl: '/movies_pictures/8845b4135e03.jpg',
     releaseDate: '1970-12-11',
     length: 105,
     genre: ['Drame', 'Romance'],
@@ -22480,8 +23004,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Michael Redgrave' },
       { name: 'Dominic Guard' },
     ],
-    coverUrl:
-      '/movies_pictures/26e802756315.jpg',
+    coverUrl: '/movies_pictures/26e802756315.jpg',
     releaseDate: '1971-06-23',
     length: 118,
     genre: ['Drame', 'Romance'],
@@ -22507,8 +23030,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Jean Bouise' },
       { name: 'Gérard Lartigau' },
     ],
-    coverUrl:
-      '/movies_pictures/91c7fb410966.jpeg',
+    coverUrl: '/movies_pictures/91c7fb410966.jpeg',
     releaseDate: '1970-03-13',
     length: 89,
     genre: ['Drame', 'Romance'],
@@ -22534,8 +23056,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Lola Gaos' },
       { name: 'Antonio Casas' },
     ],
-    coverUrl:
-      '/movies_pictures/d027c335f1a4.jpg',
+    coverUrl: '/movies_pictures/d027c335f1a4.jpg',
     releaseDate: '1970-03-29',
     length: 99,
     genre: ['Drame'],
@@ -22561,8 +23082,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'G. D. Spradlin' },
       { name: 'Bill Garson' },
     ],
-    coverUrl:
-      '/movies_pictures/f5dd36f678cd.jpg',
+    coverUrl: '/movies_pictures/f5dd36f678cd.jpg',
     releaseDate: '1970-02-09',
     length: 110,
     genre: ['Drame'],
@@ -22584,8 +23104,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Luigi Diberti' },
       { name: 'Salvo Randone' },
     ],
-    coverUrl:
-      '/movies_pictures/6b2e2e5bbe0f.jpg',
+    coverUrl: '/movies_pictures/6b2e2e5bbe0f.jpg',
     releaseDate: '1971-12-17',
     length: 125,
     genre: ['Drame'],
@@ -22607,8 +23126,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Ben Johnson' },
       { name: 'Cloris Leachman' },
     ],
-    coverUrl:
-      '/movies_pictures/ca26bcca6386.jpg',
+    coverUrl: '/movies_pictures/ca26bcca6386.jpg',
     releaseDate: '1971-10-03',
     length: 118,
     genre: ['Drame'],
@@ -22637,8 +23155,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Marisa Berenson' },
       { name: 'Mark Burns' },
     ],
-    coverUrl:
-      '/movies_pictures/766997d7c6ce.jpg',
+    coverUrl: '/movies_pictures/766997d7c6ce.jpg',
     releaseDate: '1971-03-01',
     length: 130,
     genre: ['Drame'],
@@ -22664,8 +23181,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Lidia Biondi' },
       { name: 'Jérôme Massart' },
     ],
-    coverUrl:
-      '/movies_pictures/a3ca95a0a2c5.jpg',
+    coverUrl: '/movies_pictures/a3ca95a0a2c5.jpg',
     releaseDate: '1971-05-20',
     length: 87,
     genre: ['Drame', 'Romance'],
@@ -22691,8 +23207,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Umberto Orsini' },
       { name: 'Eva Maria Meineke' },
     ],
-    coverUrl:
-      '/movies_pictures/b3a27d2921e8.jpeg',
+    coverUrl: '/movies_pictures/b3a27d2921e8.jpeg',
     releaseDate: '1972-10-11',
     length: 110,
     genre: ['Drame', 'Romance'],
@@ -22736,8 +23251,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Daniel Ceccaldi' },
       { name: 'Malvina Penne' },
     ],
-    coverUrl:
-      '/movies_pictures/ea6bc405ed00.jpg',
+    coverUrl: '/movies_pictures/ea6bc405ed00.jpg',
     releaseDate: '1972-09-01',
     length: 97,
     genre: ['Drame', 'Romance'],
@@ -22759,8 +23273,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Don Porter' },
       { name: 'Allen Garfield' },
     ],
-    coverUrl:
-      '/movies_pictures/798d7adb648f.jpg',
+    coverUrl: '/movies_pictures/798d7adb648f.jpg',
     releaseDate: '1972-06-29',
     length: 110,
     genre: ['Drame', 'Comédie'],
@@ -22782,8 +23295,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Maria Michi' },
       { name: 'Massimo Girotti' },
     ],
-    coverUrl:
-      '/movies_pictures/4660042ba195.jpg',
+    coverUrl: '/movies_pictures/4660042ba195.jpg',
     releaseDate: '1972-10-14',
     length: 129,
     genre: ['Drame'],
@@ -22805,8 +23317,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Sylvia Marriott' },
       { name: 'Marie Mansart' },
     ],
-    coverUrl:
-      '/movies_pictures/97d7caef2d1d.jpg',
+    coverUrl: '/movies_pictures/97d7caef2d1d.jpg',
     releaseDate: '1971-11-18',
     length: 130,
     genre: ['Drame', 'Romance'],
@@ -22832,8 +23343,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Christine Fabréga' },
       { name: 'Jacques Galland' },
     ],
-    coverUrl:
-      '/movies_pictures/924300b10c11.jpg',
+    coverUrl: '/movies_pictures/924300b10c11.jpg',
     releaseDate: '1972-05-24',
     length: 107,
     genre: ['Drame', 'Romance'],
@@ -22855,8 +23365,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Tibor Molnár' },
       { name: 'Lajos Balázsovits' },
     ],
-    coverUrl:
-      '/movies_pictures/f4c7043fbebb.jpg',
+    coverUrl: '/movies_pictures/f4c7043fbebb.jpg',
     releaseDate: '1972-04-09',
     length: 87,
     genre: ['Drame', 'Historique', 'Comédie musicale'],
@@ -22878,8 +23387,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Ann Wedgeworth' },
       { name: 'Richard Lynch' },
     ],
-    coverUrl:
-      '/movies_pictures/5c8bb07a5be6.jpg',
+    coverUrl: '/movies_pictures/5c8bb07a5be6.jpg',
     releaseDate: '1973-04-11',
     length: 112,
     genre: ['Drame'],
@@ -22901,8 +23409,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Teresa Gimpera' },
       { name: 'Laly Soldevila' },
     ],
-    coverUrl:
-      '/movies_pictures/465d67d72421.jpg',
+    coverUrl: '/movies_pictures/465d67d72421.jpg',
     releaseDate: '1973-10-08',
     length: 97,
     genre: ['Drame', 'Fantastique'],
@@ -22924,8 +23431,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Ramon Bieri' },
       { name: 'Alan Vint' },
     ],
-    coverUrl:
-      '/movies_pictures/efe401a6bd46.jpg',
+    coverUrl: '/movies_pictures/efe401a6bd46.jpg',
     releaseDate: '1973-10-15',
     length: 94,
     genre: ['Drame', 'Policier', 'Romance'],
@@ -22951,8 +23457,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Isabelle Weingarten' },
       { name: 'Jacques Renard' },
     ],
-    coverUrl:
-      '/movies_pictures/c072d3120d21.jpg',
+    coverUrl: '/movies_pictures/c072d3120d21.jpg',
     releaseDate: '1973-05-14',
     length: 219,
     genre: ['Drame'],
@@ -22974,8 +23479,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Jan Malmsjö' },
       { name: 'Gunnel Lindblom' },
     ],
-    coverUrl:
-      '/movies_pictures/53a36b002ffa.jpg',
+    coverUrl: '/movies_pictures/53a36b002ffa.jpg',
     releaseDate: '1973-04-11',
     length: 167,
     genre: ['Drame'],
@@ -22997,8 +23501,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Edda Köchl' },
       { name: 'Ernest Boehm' },
     ],
-    coverUrl:
-      '/movies_pictures/77692bf42449.jpg',
+    coverUrl: '/movies_pictures/77692bf42449.jpg',
     releaseDate: '1974-05-17',
     length: 110,
     genre: ['Drame'],
@@ -23020,8 +23523,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Willy Semmelrogge' },
       { name: 'Gloria Doer' },
     ],
-    coverUrl:
-      '/movies_pictures/c487834e4951.jpg',
+    coverUrl: '/movies_pictures/c487834e4951.jpg',
     releaseDate: '1974-11-01',
     length: 110,
     genre: ['Drame', 'Historique', 'Biographie'],
@@ -23043,8 +23545,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Therese Giehse' },
       { name: 'Stéphane Bouy' },
     ],
-    coverUrl:
-      '/movies_pictures/8563b531c8d7.jpg',
+    coverUrl: '/movies_pictures/8563b531c8d7.jpg',
     releaseDate: '1974-01-30',
     length: 138,
     genre: ['Drame', 'Guerre', 'Historique'],
@@ -23066,8 +23567,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Vladimir Antolek-Oresek' },
       { name: 'Patrick Bernhard' },
     ],
-    coverUrl:
-      '/movies_pictures/e971e4f3bb5b.jpg',
+    coverUrl: '/movies_pictures/e971e4f3bb5b.jpg',
     releaseDate: '1974-09-26',
     length: 85,
     genre: ['Drame', 'Historique'],
@@ -23089,8 +23589,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Moira Orfei' },
       { name: 'Torin Bryan' },
     ],
-    coverUrl:
-      '/movies_pictures/970652f612b1.jpg',
+    coverUrl: '/movies_pictures/970652f612b1.jpg',
     releaseDate: '1974-12-20',
     length: 103,
     genre: ['Drame', 'Comédie'],
@@ -23116,8 +23615,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'François Périer' },
       { name: 'Roberto Bisacco' },
     ],
-    coverUrl:
-      '/movies_pictures/b1418c2571b4.jpg',
+    coverUrl: '/movies_pictures/b1418c2571b4.jpg',
     releaseDate: '1974-05-15',
     length: 120,
     genre: ['Drame', 'Biographie', 'Historique'],
@@ -23139,8 +23637,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Irm Hermann' },
       { name: 'Karl Scheydt' },
     ],
-    coverUrl:
-      '/movies_pictures/43aab15f4147.jpg',
+    coverUrl: '/movies_pictures/43aab15f4147.jpg',
     releaseDate: '1974-03-31',
     length: 123,
     genre: ['Drame', 'Romance'],
@@ -23168,7 +23665,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     genre: ['Drame'],
     saga: '',
     description:
-      'Une ménagère aux crises nerveuses est soutenue par son mari jusqu\'à ce que la violence familiale éclate au grand jour.',
+      "Une ménagère aux crises nerveuses est soutenue par son mari jusqu'à ce que la violence familiale éclate au grand jour.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -23184,8 +23681,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Cheikh Nourredine' },
       { name: 'Hassan El-Hassani' },
     ],
-    coverUrl:
-      '/movies_pictures/51d56a9e7fba.jpg',
+    coverUrl: '/movies_pictures/51d56a9e7fba.jpg',
     releaseDate: '1975-11-26',
     length: 177,
     genre: ['Drame', 'Guerre', 'Historique'],
@@ -23207,8 +23703,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Jacques Doniol-Valcroze' },
       { name: 'Yves Bical' },
     ],
-    coverUrl:
-      '/movies_pictures/e39adb1945e3.jpg',
+    coverUrl: '/movies_pictures/e39adb1945e3.jpg',
     releaseDate: '1975-05-14',
     length: 201,
     genre: ['Drame'],
@@ -23230,8 +23725,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Oleg Yankovsky' },
       { name: 'Alla Demidova' },
     ],
-    coverUrl:
-      '/movies_pictures/9df4bf036d75.jpg',
+    coverUrl: '/movies_pictures/9df4bf036d75.jpg',
     releaseDate: '1975-03-07',
     length: 107,
     genre: ['Drame', 'Biographie'],
@@ -23253,8 +23747,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Geraldine Chaplin' },
       { name: 'Henry Gibson' },
     ],
-    coverUrl:
-      '/movies_pictures/c6c0a1275e9c.jpg',
+    coverUrl: '/movies_pictures/c6c0a1275e9c.jpg',
     releaseDate: '1975-06-11',
     length: 160,
     genre: ['Drame', 'Comédie musicale'],
@@ -23276,8 +23769,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Helen Morse' },
       { name: 'Dominic Guard' },
     ],
-    coverUrl:
-      '/movies_pictures/089d13bc2804.jpg',
+    coverUrl: '/movies_pictures/089d13bc2804.jpg',
     releaseDate: '1975-08-08',
     length: 115,
     genre: ['Drame', 'Mystère', 'Horreur'],
@@ -23325,8 +23817,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Christine Pascal' },
       { name: 'Marina Vlady' },
     ],
-    coverUrl:
-      '/movies_pictures/c75828b8b971.jpg',
+    coverUrl: '/movies_pictures/c75828b8b971.jpg',
     releaseDate: '1975-03-23',
     length: 114,
     genre: ['Drame', 'Historique', 'Comédie'],
@@ -23348,8 +23839,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Aldo Valletti' },
       { name: 'Caterina Boratto' },
     ],
-    coverUrl:
-      '/movies_pictures/0d6c53bd90aa.jpg',
+    coverUrl: '/movies_pictures/0d6c53bd90aa.jpg',
     releaseDate: '1975-11-22',
     length: 117,
     genre: ['Drame', 'Horreur'],
@@ -23375,8 +23865,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Rudolf Schündler' },
       { name: 'Marquard Bohm' },
     ],
-    coverUrl:
-      '/movies_pictures/53ea393844a8.jpg',
+    coverUrl: '/movies_pictures/53ea393844a8.jpg',
     releaseDate: '1976-03-17',
     length: 175,
     genre: ['Drame'],
@@ -23398,8 +23887,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Mónica Randall' },
       { name: 'Florinda Chico' },
     ],
-    coverUrl:
-      '/movies_pictures/b95fed672776.jpg',
+    coverUrl: '/movies_pictures/b95fed672776.jpg',
     releaseDate: '1976-01-26',
     length: 110,
     genre: ['Drame'],
@@ -23421,8 +23909,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Meika Seri' },
       { name: 'Kanae Kobayashi' },
     ],
-    coverUrl:
-      '/movies_pictures/36ac2c1378a4.jpg',
+    coverUrl: '/movies_pictures/36ac2c1378a4.jpg',
     releaseDate: '1976-09-15',
     length: 109,
     genre: ['Drame', 'Romance', 'Biographie'],
@@ -23444,8 +23931,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Edda Seippel' },
       { name: 'Otto Sander' },
     ],
-    coverUrl:
-      '/movies_pictures/f3c288b8d53b.jpg',
+    coverUrl: '/movies_pictures/f3c288b8d53b.jpg',
     releaseDate: '1976-05-19',
     length: 102,
     genre: ['Drame', 'Historique'],
@@ -23471,8 +23957,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Jean-Claude Brialy' },
       { name: 'Renée Faure' },
     ],
-    coverUrl:
-      '/movies_pictures/1ea407dbb74a.jpg',
+    coverUrl: '/movies_pictures/1ea407dbb74a.jpg',
     releaseDate: '1976-03-10',
     length: 128,
     genre: ['Drame', 'Historique', 'Policier'],
@@ -23521,8 +24006,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Burt Lancaster' },
       { name: 'Donald Sutherland' },
     ],
-    coverUrl:
-      '/movies_pictures/0c0a9712bee8.jpg',
+    coverUrl: '/movies_pictures/0c0a9712bee8.jpg',
     releaseDate: '1976-08-28',
     length: 317,
     genre: ['Drame', 'Historique', 'Guerre'],
@@ -23544,8 +24028,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Julien Bertheau' },
       { name: 'André Weber' },
     ],
-    coverUrl:
-      '/movies_pictures/1fafbee1a98d.jpg',
+    coverUrl: '/movies_pictures/1fafbee1a98d.jpg',
     releaseDate: '1977-08-17',
     length: 102,
     genre: ['Drame', 'Comédie', 'Romance'],
@@ -23601,8 +24084,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Jacek Łomnicki' },
       { name: 'Michał Tarkowski' },
     ],
-    coverUrl:
-      '/movies_pictures/73696df5d972.jpg',
+    coverUrl: '/movies_pictures/73696df5d972.jpg',
     releaseDate: '1977-03-25',
     length: 160,
     genre: ['Drame', 'Historique'],
@@ -23624,8 +24106,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'James Whitmore' },
       { name: 'Heinz Bennent' },
     ],
-    coverUrl:
-      '/movies_pictures/bd17ef6252e9.jpg',
+    coverUrl: '/movies_pictures/bd17ef6252e9.jpg',
     releaseDate: '1977-10-28',
     length: 120,
     genre: ['Drame', 'Thriller', 'Historique'],
@@ -23647,8 +24128,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Claude Dauphin' },
       { name: 'Stéphane Hillel' },
     ],
-    coverUrl:
-      '/movies_pictures/c6782cecde36.jpg',
+    coverUrl: '/movies_pictures/c6782cecde36.jpg',
     releaseDate: '1977-11-02',
     length: 105,
     genre: ['Drame'],
@@ -23674,8 +24154,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Fabrizio Forte' },
       { name: 'Marino Cenna' },
     ],
-    coverUrl:
-      '/movies_pictures/4f97ff4f1172.jpg',
+    coverUrl: '/movies_pictures/4f97ff4f1172.jpg',
     releaseDate: '1977-05-13',
     length: 114,
     genre: ['Drame', 'Biographie'],
@@ -23701,8 +24180,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'David Warner' },
       { name: 'Elaine Stritch' },
     ],
-    coverUrl:
-      '/movies_pictures/57750c02fd30.jpg',
+    coverUrl: '/movies_pictures/57750c02fd30.jpg',
     releaseDate: '1977-01-25',
     length: 110,
     genre: ['Drame'],
@@ -23747,8 +24225,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Antonio Ferrari' },
       { name: 'Teresa Avila' },
     ],
-    coverUrl:
-      '/movies_pictures/eba52a216257.jpg',
+    coverUrl: '/movies_pictures/eba52a216257.jpg',
     releaseDate: '1978-05-21',
     length: 186,
     genre: ['Drame', 'Historique'],
@@ -23770,8 +24247,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Gisela Uhlen' },
       { name: 'Elisabeth Trissenaar' },
     ],
-    coverUrl:
-      '/movies_pictures/a3328b692ead.jpg',
+    coverUrl: '/movies_pictures/a3328b692ead.jpg',
     releaseDate: '1979-03-23',
     length: 120,
     genre: ['Drame', 'Historique'],
@@ -23819,8 +24295,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Linda Manz' },
       { name: 'Robert Wilke' },
     ],
-    coverUrl:
-      '/movies_pictures/40f34fbbec1a.jpg',
+    coverUrl: '/movies_pictures/40f34fbbec1a.jpg',
     releaseDate: '1978-09-13',
     length: 94,
     genre: ['Drame', 'Romance'],
@@ -23871,8 +24346,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Arielle Dombasle' },
       { name: 'Clémentine Amouroux' },
     ],
-    coverUrl:
-      '/movies_pictures/3196c051d57a.jpg',
+    coverUrl: '/movies_pictures/3196c051d57a.jpg',
     releaseDate: '1978-10-08',
     length: 140,
     genre: ['Drame', 'Historique', 'Fantastique'],
@@ -23930,8 +24404,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Daniel Olbrychski' },
       { name: 'Katharina Thalbach' },
     ],
-    coverUrl:
-      '/movies_pictures/592f6810f74e.jpeg',
+    coverUrl: '/movies_pictures/592f6810f74e.jpeg',
     releaseDate: '1979-05-03',
     length: 142,
     genre: ['Drame', 'Guerre', 'Historique'],
@@ -23957,8 +24430,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'John Collin' },
       { name: 'Rosemary Martin' },
     ],
-    coverUrl:
-      '/movies_pictures/ab097b7a004d.jpg',
+    coverUrl: '/movies_pictures/ab097b7a004d.jpg',
     releaseDate: '1979-10-31',
     length: 186,
     genre: ['Drame', 'Romance', 'Historique'],
@@ -23995,11 +24467,12 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 110,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Une jeune femme embauchée pour s\'occuper d\'un quadriplégique acariâtre découvre une relation qui transforme leur vision de la vie.',
+    description:
+      "Une jeune femme embauchée pour s'occuper d'un quadriplégique acariâtre découvre une relation qui transforme leur vision de la vie.",
     fromEntity: {
       entityType: 'book',
-      title: "Avant toi",
-      secondEntityKey: "Jojo Moyes",
+      title: 'Avant toi',
+      secondEntityKey: 'Jojo Moyes',
     },
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -24022,7 +24495,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 103,
     genre: ['Drame'],
     saga: '',
-    description: 'Dans une ferme isolée, une jeune fille élève seule ses frères et sœurs après le départ de leur mère, entre rêves d\'ailleurs et responsabilités.',
+    description:
+      "Dans une ferme isolée, une jeune fille élève seule ses frères et sœurs après le départ de leur mère, entre rêves d'ailleurs et responsabilités.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -24045,17 +24519,16 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 146,
     genre: ['Drame'],
     saga: '',
-    description: 'Mississippi, années 1960 : une jeune femme blanche écrit le récit des domestiques noires qui élèvent les enfants des familles bourgeoises.',
+    description:
+      'Mississippi, années 1960 : une jeune femme blanche écrit le récit des domestiques noires qui élèvent les enfants des familles bourgeoises.',
     fromEntity: {
       entityType: 'book',
-      title: "La Couleur des sentiments",
-      secondEntityKey: "Kathryn Stockett",
+      title: 'La Couleur des sentiments',
+      secondEntityKey: 'Kathryn Stockett',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTRESS, year: 2012 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTRESS, year: 2012 }],
   },
   {
     title: 'Au revoir là-haut',
@@ -24074,11 +24547,12 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 117,
     genre: ['Drame', 'Guerre'],
     saga: '',
-    description: 'Deux vétérans de la Grande Guerre montent une escroquerie aux monuments commémoratifs pour échapper à la misère et à leurs démons.',
+    description:
+      'Deux vétérans de la Grande Guerre montent une escroquerie aux monuments commémoratifs pour échapper à la misère et à leurs démons.',
     fromEntity: {
       entityType: 'book',
-      title: "Au revoir là-haut",
-      secondEntityKey: "Pierre Lemaitre",
+      title: 'Au revoir là-haut',
+      secondEntityKey: 'Pierre Lemaitre',
     },
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -24101,7 +24575,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 119,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Londres, années 1980 : une femme mariée tombe amoureuse d\'un étranger séduisant qui la manipule dans une spirale de trahison.',
+    description:
+      "Londres, années 1980 : une femme mariée tombe amoureuse d'un étranger séduisant qui la manipule dans une spirale de trahison.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -24124,17 +24599,16 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 119,
     genre: ['Biographie', 'Drame'],
     saga: '',
-    description: 'Dans les années 1920, le peintre Einar Wegener entame une transition vers Lili Elbe, première personne connue à subir une chirurgie de réassignation.',
+    description:
+      'Dans les années 1920, le peintre Einar Wegener entame une transition vers Lili Elbe, première personne connue à subir une chirurgie de réassignation.',
     fromEntity: {
       entityType: 'book',
-      title: "The Danish Girl",
-      secondEntityKey: "David Ebershoff",
+      title: 'The Danish Girl',
+      secondEntityKey: 'David Ebershoff',
     },
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTRESS, year: 2016 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTRESS, year: 2016 }],
   },
   {
     title: '120 battements par minute',
@@ -24153,7 +24627,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 143,
     genre: ['Drame'],
     saga: '',
-    description: 'Des militants d\'Act Up Paris luttent contre le sida dans les années 1990, entre colère politique, amours et deuils.',
+    description:
+      "Des militants d'Act Up Paris luttent contre le sida dans les années 1990, entre colère politique, amours et deuils.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -24176,7 +24651,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 115,
     genre: ['Drame', 'Policier'],
     saga: '',
-    description: 'Une mère affronte la police locale en louant des panneaux publicitaires pour exiger l\'arrestation du meurtrier de sa fille.',
+    description:
+      "Une mère affronte la police locale en louant des panneaux publicitaires pour exiger l'arrestation du meurtrier de sa fille.",
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -24202,7 +24678,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 115,
     genre: ['Biographie', 'Drame'],
     saga: '',
-    description: 'Ray Kroc transforme une petite chaîne de restaurants en empire McDonald\'s en s\'appropriant l\'idée de deux frères californiens.',
+    description:
+      "Ray Kroc transforme une petite chaîne de restaurants en empire McDonald's en s'appropriant l'idée de deux frères californiens.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -24225,11 +24702,12 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 97,
     genre: ['Drame'],
     saga: '',
-    description: 'Un écrivain rentre au Québec annoncer sa mort prochaine à sa famille, mais les reproches anciens transforment la réunion en chaos.',
+    description:
+      'Un écrivain rentre au Québec annoncer sa mort prochaine à sa famille, mais les reproches anciens transforment la réunion en chaos.',
     fromEntity: {
       entityType: 'book',
-      title: "Juste la fin du monde",
-      secondEntityKey: "Jean-Luc Lagarce",
+      title: 'Juste la fin du monde',
+      secondEntityKey: 'Jean-Luc Lagarce',
     },
     countryOrigin: ['Canada'],
     selectDisplayOrder: 0,
@@ -24252,7 +24730,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 122,
     genre: ['Drame', 'Thriller'],
     saga: '',
-    description: 'Un avocat découvre que sa femme et son fils ont peut-être été remplacés par des sosies lors d\'un séjour en mer.',
+    description:
+      "Un avocat découvre que sa femme et son fils ont peut-être été remplacés par des sosies lors d'un séjour en mer.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -24275,7 +24754,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 116,
     genre: ['Drame'],
     saga: '',
-    description: 'Un banquier new-yorkais découvre que son collègue détourne des fonds et se retrouve pris dans une spirale de chantage et de meurtre.',
+    description:
+      'Un banquier new-yorkais découvre que son collègue détourne des fonds et se retrouve pris dans une spirale de chantage et de meurtre.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -24298,7 +24778,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 115,
     genre: ['Drame'],
     saga: '',
-    description: 'Un retraité solitaire accueille chez lui un jeune delinquant en liberté surveillée et noue avec lui une amitié inattendue.',
+    description:
+      'Un retraité solitaire accueille chez lui un jeune delinquant en liberté surveillée et noue avec lui une amitié inattendue.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -24321,7 +24802,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 115,
     genre: ['Drame', 'Thriller'],
     saga: '',
-    description: 'Une famille traverse le désert marocain à la recherche d\'un fils disparu, dans une odyssée où réalité et légende se confondent.',
+    description:
+      "Une famille traverse le désert marocain à la recherche d'un fils disparu, dans une odyssée où réalité et légende se confondent.",
     fromEntity: null,
     countryOrigin: ['Espagne', 'France'],
     selectDisplayOrder: 0,
@@ -24344,7 +24826,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 106,
     genre: ['Drame', 'Historique'],
     saga: '',
-    description: 'La vie quotidienne d\'un commandant SS et de sa famille dans une maison mitoyenne du camp d\'Auschwitz, filmée avec un froid détachement.',
+    description:
+      "La vie quotidienne d'un commandant SS et de sa famille dans une maison mitoyenne du camp d'Auschwitz, filmée avec un froid détachement.",
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -24367,7 +24850,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 104,
     genre: ['Drame', 'Thriller'],
     saga: '',
-    description: 'Une judokate iranienne doit perdre du poids avant les Jeux olympiques, sous la pression de son entraîneur et du régime.',
+    description:
+      'Une judokate iranienne doit perdre du poids avant les Jeux olympiques, sous la pression de son entraîneur et du régime.',
     fromEntity: null,
     countryOrigin: ['France', 'Israël'],
     selectDisplayOrder: 0,
@@ -24390,7 +24874,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 123,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Deux vampires amants et mélomanes survivent séparément à Detroit et Tanger, jusqu\'à ce que la dépression les réunisse.',
+    description:
+      "Deux vampires amants et mélomanes survivent séparément à Detroit et Tanger, jusqu'à ce que la dépression les réunisse.",
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -24413,7 +24898,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 145,
     genre: ['Drame'],
     saga: '',
-    description: 'Un homme retrouvé perdu dans le désert du Texas tente de renouer avec son fils et la femme qu\'il a abandonnée des années auparavant.',
+    description:
+      "Un homme retrouvé perdu dans le désert du Texas tente de renouer avec son fils et la femme qu'il a abandonnée des années auparavant.",
     fromEntity: null,
     countryOrigin: ['Allemagne', 'France'],
     selectDisplayOrder: 0,
@@ -24436,7 +24922,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 96,
     genre: ['Drame', 'Thriller'],
     saga: '',
-    description: 'Une troupe de danseurs enfermés dans une salle des fêtes découvre que leur sangria était droguée et sombre dans la paranoïa et la violence.',
+    description:
+      'Une troupe de danseurs enfermés dans une salle des fêtes découvre que leur sangria était droguée et sombre dans la paranoïa et la violence.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -24459,7 +24946,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 97,
     genre: ['Drame'],
     saga: '',
-    description: 'Cinq sœurs turques voient leur liberté confisquée par leur famille conservatrice après un jeu innocent avec des garçons.',
+    description:
+      'Cinq sœurs turques voient leur liberté confisquée par leur famille conservatrice après un jeu innocent avec des garçons.',
     fromEntity: null,
     countryOrigin: ['Turquie', 'France'],
     selectDisplayOrder: 0,
@@ -24482,7 +24970,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 118,
     genre: ['Drame', 'Aventure'],
     saga: '',
-    description: 'Un père élève ses six enfants dans la nature loin de la civilisation, jusqu\'à ce qu\'un deuil les force à affronter le monde extérieur.',
+    description:
+      "Un père élève ses six enfants dans la nature loin de la civilisation, jusqu'à ce qu'un deuil les force à affronter le monde extérieur.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -24505,7 +24994,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 99,
     genre: ['Drame'],
     saga: '',
-    description: 'Johnny, banquier à San Francisco, voit sa vie s\'effondrer quand sa fiancée le trahit avec son meilleur ami dans ce drame culte.',
+    description:
+      "Johnny, banquier à San Francisco, voit sa vie s'effondrer quand sa fiancée le trahit avec son meilleur ami dans ce drame culte.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -24528,7 +25018,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 95,
     genre: ['Drame', 'Fantastique'],
     saga: '',
-    description: 'Rockman traumatisé par la guerre, l\'école et l\'abandon construit un mur psychologique entre lui et le monde.',
+    description:
+      "Rockman traumatisé par la guerre, l'école et l'abandon construit un mur psychologique entre lui et le monde.",
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -24551,7 +25042,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 115,
     genre: ['Drame', 'Fantastique'],
     saga: '',
-    description: 'Monsieur Oscar enchaîne des missions où il incarne différents personnages à travers Paris, dans une fable sur le cinéma et l\'identité.',
+    description:
+      "Monsieur Oscar enchaîne des missions où il incarne différents personnages à travers Paris, dans une fable sur le cinéma et l'identité.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -24574,11 +25066,12 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 143,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Dans l\'Opéra de Paris, une jeune soprano est guidée par un mystérieux maître de musique vivant dans les sous-sols.',
+    description:
+      "Dans l'Opéra de Paris, une jeune soprano est guidée par un mystérieux maître de musique vivant dans les sous-sols.",
     fromEntity: {
       entityType: 'book',
       title: "Le Fantôme de l'Opéra",
-      secondEntityKey: "Gaston Leroux",
+      secondEntityKey: 'Gaston Leroux',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -24601,7 +25094,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 112,
     genre: ['Drame', 'Thriller'],
     saga: '',
-    description: 'Reconstitution de l\'évacuation de l\'ambassade de France à Kaboul en 2021, sous la menace des talibans.',
+    description:
+      "Reconstitution de l'évacuation de l'ambassade de France à Kaboul en 2021, sous la menace des talibans.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -24624,11 +25118,12 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 113,
     genre: ['Drame', 'Fantastique'],
     saga: '',
-    description: 'Après sa mort, un médecin explore l\'au-delà et revient avec une vision qui bouleverse sa vie et celle de sa femme.',
+    description:
+      "Après sa mort, un médecin explore l'au-delà et revient avec une vision qui bouleverse sa vie et celle de sa femme.",
     fromEntity: {
       entityType: 'book',
-      title: "Au-delà de nos rêves",
-      secondEntityKey: "Richard Matheson",
+      title: 'Au-delà de nos rêves',
+      secondEntityKey: 'Richard Matheson',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -24651,7 +25146,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 98,
     genre: ['Drame'],
     saga: '',
-    description: 'Un jeune homme solitaire tente de trouver sa place dans une société qui le laisse indifférent.',
+    description:
+      'Un jeune homme solitaire tente de trouver sa place dans une société qui le laisse indifférent.',
     fromEntity: null,
     countryOrigin: ['Danemark'],
     selectDisplayOrder: 0,
@@ -24674,7 +25170,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 117,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Années 1950 : une professeure d\'histoire de l\'art à Wellesley encourage ses étudiantes à dépasser les rôles imposés aux femmes.',
+    description:
+      "Années 1950 : une professeure d'histoire de l'art à Wellesley encourage ses étudiantes à dépasser les rôles imposés aux femmes.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -24697,7 +25194,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 104,
     genre: ['Drame', 'Comédie musicale'],
     saga: '',
-    description: 'Une chanteuse déçue par l\'industrie musicale et un producteur en faillite créent un album enregistré en live dans les rues de New York.',
+    description:
+      "Une chanteuse déçue par l'industrie musicale et un producteur en faillite créent un album enregistré en live dans les rues de New York.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -24721,7 +25219,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 107,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Une jeune femme atteinte d\'une maladie incurable part en road trip avec son ex-petit ami pour réaliser ses derniers souhaits.',
+    description:
+      "Une jeune femme atteinte d'une maladie incurable part en road trip avec son ex-petit ami pour réaliser ses derniers souhaits.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -24744,7 +25243,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 96,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Trois histoires entrelacées explorent l\'amour, la jalousie et le malentendu entre hommes et femmes à Paris.',
+    description:
+      "Trois histoires entrelacées explorent l'amour, la jalousie et le malentendu entre hommes et femmes à Paris.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -24767,7 +25267,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 114,
     genre: ['Drame'],
     saga: '',
-    description: 'Une photographe new-yorkaise retourne à la communauté orthodoxe juive de Londres pour les funérailles de son père et retrouve son amour de jeunesse.',
+    description:
+      'Une photographe new-yorkaise retourne à la communauté orthodoxe juive de Londres pour les funérailles de son père et retrouve son amour de jeunesse.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -24790,7 +25291,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 118,
     genre: ['Drame'],
     saga: '',
-    description: 'Emma Bovary, mariée à un médecin de province, s\'endette et cherche l\'amour passionné dans une société étouffante du XIXe siècle.',
+    description:
+      "Emma Bovary, mariée à un médecin de province, s'endette et cherche l'amour passionné dans une société étouffante du XIXe siècle.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -24813,7 +25315,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 79,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Un couple de vingt ans qui vit ensemble depuis l\'adolescence voit sa relation basculer quand une opportunité professionnelle les sépare.',
+    description:
+      "Un couple de vingt ans qui vit ensemble depuis l'adolescence voit sa relation basculer quand une opportunité professionnelle les sépare.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -24836,7 +25339,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 102,
     genre: ['Drame', 'Science Fiction'],
     saga: '',
-    description: 'Dans un monde où l\'existence de l\'au-delà est prouvée, un scientifique et une femme en deuil questionnent le sens de continuer à vivre.',
+    description:
+      "Dans un monde où l'existence de l'au-delà est prouvée, un scientifique et une femme en deuil questionnent le sens de continuer à vivre.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -24859,7 +25363,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 96,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Une danseuse de hip-hop intègre une école prestigieuse de danse classique et doit prouver que son style a sa place.',
+    description:
+      'Une danseuse de hip-hop intègre une école prestigieuse de danse classique et doit prouver que son style a sa place.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -24882,7 +25387,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 111,
     genre: ['Drame'],
     saga: '',
-    description: 'Une journaliste américaine découvre que l\'appartement qu\'elle a hérité cache le secret d\'une fillette juive arrêtée pendant la rafle du Vél d\'Hiv.',
+    description:
+      "Une journaliste américaine découvre que l'appartement qu'elle a hérité cache le secret d'une fillette juive arrêtée pendant la rafle du Vél d'Hiv.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -24905,7 +25411,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 91,
     genre: ['Drame'],
     saga: '',
-    description: 'Dans les années 1980, une adolescente punk tombe amoureuse d\'un garçon timide dans une histoire d\'amour et de rébellion.',
+    description:
+      "Dans les années 1980, une adolescente punk tombe amoureuse d'un garçon timide dans une histoire d'amour et de rébellion.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -24928,7 +25435,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 91,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Un adolescent obsédé par la mort rencontre une fille atteinte d\'un cancer et vivent ensemble une romance aussi brève qu\'intense.',
+    description:
+      "Un adolescent obsédé par la mort rencontre une fille atteinte d'un cancer et vivent ensemble une romance aussi brève qu'intense.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -24951,7 +25459,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 93,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'La veille du départ de son mari pour un long voyage professionnel, une femme hésite entre la fidélité et une rencontre avec un ancien amour.',
+    description:
+      'La veille du départ de son mari pour un long voyage professionnel, une femme hésite entre la fidélité et une rencontre avec un ancien amour.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -24974,7 +25483,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 115,
     genre: ['Drame'],
     saga: '',
-    description: 'Après des années de déchéance, une femme parcourt seule le Pacific Crest Trail pour se reconstruire et honorer la mémoire de sa mère.',
+    description:
+      'Après des années de déchéance, une femme parcourt seule le Pacific Crest Trail pour se reconstruire et honorer la mémoire de sa mère.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -24997,7 +25507,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 104,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Une surfeuse hawaïenne rêve de dompter la vague mythique de Pipeline tout en équilibrant amour et compétition.',
+    description:
+      'Une surfeuse hawaïenne rêve de dompter la vague mythique de Pipeline tout en équilibrant amour et compétition.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -25020,7 +25531,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 133,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Après la Première Guerre mondiale, une jeune femme refuse de croire à la mort de son fiancé et mène une enquête pour le retrouver.',
+    description:
+      'Après la Première Guerre mondiale, une jeune femme refuse de croire à la mort de son fiancé et mène une enquête pour le retrouver.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -25043,7 +25555,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 99,
     genre: ['Drame'],
     saga: '',
-    description: 'Une enseignante idéaliste tente d\'inspirer des lycéens des quartiers défavorisés à travers la poésie et la littérature.',
+    description:
+      "Une enseignante idéaliste tente d'inspirer des lycéens des quartiers défavorisés à travers la poésie et la littérature.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -25066,7 +25579,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 140,
     genre: ['Drame', 'Thriller'],
     saga: '',
-    description: 'Trois générations d\'hommes — motard, policier et adolescent — sont liées par un braquage et ses conséquences sur vingt ans.',
+    description:
+      "Trois générations d'hommes — motard, policier et adolescent — sont liées par un braquage et ses conséquences sur vingt ans.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -25089,7 +25603,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 111,
     genre: ['Drame'],
     saga: '',
-    description: 'Un entraîneur de baseball vieillissant découvre une recrue talentueuse dans une ligue mineure et lui offre une chance en MLB.',
+    description:
+      'Un entraîneur de baseball vieillissant découvre une recrue talentueuse dans une ligue mineure et lui offre une chance en MLB.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -25112,7 +25627,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 135,
     genre: ['Drame', 'Biographie'],
     saga: '',
-    description: 'Le génie mathématique John Nash lutte contre la schizophrénie tout en révolutionnant la théorie des jeux.',
+    description:
+      'Le génie mathématique John Nash lutte contre la schizophrénie tout en révolutionnant la théorie des jeux.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -25140,13 +25656,12 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 95,
     genre: ['Drame', 'Comédie musicale'],
     saga: '',
-    description: 'Une soudeuse de nuit rêve de devenir danseuse professionnelle et prépare une audition décisive pour une école prestigieuse.',
+    description:
+      'Une soudeuse de nuit rêve de devenir danseuse professionnelle et prépare une audition décisive pour une école prestigieuse.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 1984 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 1984 }],
   },
   {
     title: "De l'eau pour les éléphants",
@@ -25165,7 +25680,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 120,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Pendant la Grande Dépression, un étudiant en médecine vétérinaire rejoint un cirque itinérant et tombe amoureux de l\'épouse du patron.',
+    description:
+      "Pendant la Grande Dépression, un étudiant en médecine vétérinaire rejoint un cirque itinérant et tombe amoureux de l'épouse du patron.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -25188,7 +25704,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 84,
     genre: ['Drame', 'Animation'],
     saga: '',
-    description: 'Un berger allemand mort revient sur Terre en tant qu\'ange pour aider une fillette à sauver sa famille d\'un tueur en série.',
+    description:
+      "Un berger allemand mort revient sur Terre en tant qu'ange pour aider une fillette à sauver sa famille d'un tueur en série.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -25211,7 +25728,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 102,
     genre: ['Drame'],
     saga: '',
-    description: 'Une lycéenne surdouée rencontre No, une SDF, et tente de l\'aider tout en découvrant les limites de la bienveillance.',
+    description:
+      "Une lycéenne surdouée rencontre No, une SDF, et tente de l'aider tout en découvrant les limites de la bienveillance.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -25234,7 +25752,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 108,
     genre: ['Drame', 'Fantastique'],
     saga: '',
-    description: 'Un garçon atteint d\'une maladie rare voit sa mère lutter pour obtenir l\'aide médicale et sociale dont il a besoin.',
+    description:
+      "Un garçon atteint d'une maladie rare voit sa mère lutter pour obtenir l'aide médicale et sociale dont il a besoin.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -25257,7 +25776,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 101,
     genre: ['Drame', 'Horreur'],
     saga: '',
-    description: 'Une étudiante endettée accepte un travail étrange consistant à dormir nu auprès d\'hommes âgés, dans une atmosphère glaçante.',
+    description:
+      "Une étudiante endettée accepte un travail étrange consistant à dormir nu auprès d'hommes âgés, dans une atmosphère glaçante.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -25280,7 +25800,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 111,
     genre: ['Drame'],
     saga: '',
-    description: 'Un adolescent solitaire passe l\'été chez sa mère et son beau-père, entre premiers amours et quête d\'identité.',
+    description:
+      "Un adolescent solitaire passe l'été chez sa mère et son beau-père, entre premiers amours et quête d'identité.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -25303,7 +25824,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 123,
     genre: ['Drame'],
     saga: '',
-    description: 'Une avocate dévouée élève seule ses fils après le meurtre de son mari, jusqu\'à ce qu\'un ancien condamné entre dans leur vie.',
+    description:
+      "Une avocate dévouée élève seule ses fils après le meurtre de son mari, jusqu'à ce qu'un ancien condamné entre dans leur vie.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -25326,7 +25848,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 100,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Un professeur homosexuel en deuil de son compagnon décédé traverse une journée où chaque détail réveille la douleur et la beauté du monde.',
+    description:
+      'Un professeur homosexuel en deuil de son compagnon décédé traverse une journée où chaque détail réveille la douleur et la beauté du monde.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -25349,7 +25872,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 136,
     genre: ['Drame'],
     saga: '',
-    description: 'Un entraîneur de basket impose discipline et exigence scolaire à une équipe de lycéens d\'un quartier difficile de Californie.',
+    description:
+      "Un entraîneur de basket impose discipline et exigence scolaire à une équipe de lycéens d'un quartier difficile de Californie.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -25372,7 +25896,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 147,
     genre: ['Drame', 'Policier'],
     saga: '',
-    description: 'Un agent du FBI infiltré dans la mafia new-yorkaise des années 1970 finit par s\'attacher à son parrain et compromettre sa mission.',
+    description:
+      "Un agent du FBI infiltré dans la mafia new-yorkaise des années 1970 finit par s'attacher à son parrain et compromettre sa mission.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -25395,7 +25920,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 118,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'New York, 1952 : une jeune vendeuse et une femme mariée tombent amoureuses dans une société qui réprime l\'homosexualité.',
+    description:
+      "New York, 1952 : une jeune vendeuse et une femme mariée tombent amoureuses dans une société qui réprime l'homosexualité.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -25418,7 +25944,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 129,
     genre: ['Drame', 'Historique'],
     saga: '',
-    description: 'Le 11 septembre 2001, deux policiers piégés sous les décombres du World Trade Center luttent pour survivre et rester en vie.',
+    description:
+      'Le 11 septembre 2001, deux policiers piégés sous les décombres du World Trade Center luttent pour survivre et rester en vie.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -25441,7 +25968,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 102,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Une adolescente atteinte d\'une leucémie terminale dresse une liste de choses à accomplir avant de mourir, dont perdre sa virginité.',
+    description:
+      "Une adolescente atteinte d'une leucémie terminale dresse une liste de choses à accomplir avant de mourir, dont perdre sa virginité.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -25464,7 +25992,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 102,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Un séducteur ambitieux et sans scrupules gravit les échelons de la société parisienne du XIXe siècle en manipulant les femmes influentes.',
+    description:
+      'Un séducteur ambitieux et sans scrupules gravit les échelons de la société parisienne du XIXe siècle en manipulant les femmes influentes.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -25484,7 +26013,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 104,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Quatre Londiens s\'aiment, se trahissent et se croisent dans un jeu cruel de séduction et de jalousie.',
+    description:
+      "Quatre Londiens s'aiment, se trahissent et se croisent dans un jeu cruel de séduction et de jalousie.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -25504,7 +26034,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 101,
     genre: ['Drame'],
     saga: '',
-    description: 'Un New-Yorkais obsédé par le sexe voit sa vie basculer quand sa sœur perturbée débarque chez lui sans prévenir.',
+    description:
+      'Un New-Yorkais obsédé par le sexe voit sa vie basculer quand sa sœur perturbée débarque chez lui sans prévenir.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -25525,7 +26056,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 81,
     genre: ['Drame'],
     saga: '',
-    description: 'Une journée ordinaire dans un lycée américain bascule en cauchemar lorsqu\'une fusillade éclate, filmée en plans-séquences distanciés.',
+    description:
+      "Une journée ordinaire dans un lycée américain bascule en cauchemar lorsqu'une fusillade éclate, filmée en plans-séquences distanciés.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -25547,7 +26079,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 128,
     genre: ['Drame', 'Biographie'],
     saga: '',
-    description: 'Harvey Milk, premier élu ouvertement homosexuel de Californie, mène la lutte pour les droits LGBT avant d\'être assassiné en 1978.',
+    description:
+      "Harvey Milk, premier élu ouvertement homosexuel de Californie, mène la lutte pour les droits LGBT avant d'être assassiné en 1978.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -25571,7 +26104,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 99,
     genre: ['Drame', 'Biographie'],
     saga: '',
-    description: 'Les relations troublées entre Jung, Freud et la patiente Sabina Spielrein au début de la psychanalyse.',
+    description:
+      'Les relations troublées entre Jung, Freud et la patiente Sabina Spielrein au début de la psychanalyse.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -25592,13 +26126,12 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 130,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Adaptation théâtrale du roman de Tolstoï : Anna Karénine sacrifie tout pour un amour adultère dans la haute société russe du XIXe siècle.',
+    description:
+      'Adaptation théâtrale du roman de Tolstoï : Anna Karénine sacrifie tout pour un amour adultère dans la haute société russe du XIXe siècle.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 2013 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 2013 }],
   },
   {
     title: 'The Duchess',
@@ -25615,13 +26148,12 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 110,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Georgiana Spencer, duchesse de Devonshire, mène une vie brillante à la cour tout en luttant contre un mariage sans amour.',
+    description:
+      'Georgiana Spencer, duchesse de Devonshire, mène une vie brillante à la cour tout en luttant contre un mariage sans amour.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 2009 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 2009 }],
   },
   {
     title: 'Une merveilleuse histoire du temps',
@@ -25638,13 +26170,12 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 123,
     genre: ['Drame', 'Biographie'],
     saga: '',
-    description: 'Stephen Hawking, jeune physicien brillant, voit sa carrière et son mariage transformés par la maladie de Charcot.',
+    description:
+      'Stephen Hawking, jeune physicien brillant, voit sa carrière et son mariage transformés par la maladie de Charcot.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ACTOR, year: 2015 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ACTOR, year: 2015 }],
   },
   {
     title: "De rouille et d'os",
@@ -25661,7 +26192,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 120,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Une dresseuse de dauphins amputée des deux jambes et un pugiliste sans logis nouent une relation qui les sauve mutuellement.',
+    description:
+      'Une dresseuse de dauphins amputée des deux jambes et un pugiliste sans logis nouent une relation qui les sauve mutuellement.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -25682,7 +26214,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 103,
     genre: ['Drame', 'Science Fiction'],
     saga: '',
-    description: 'Dans une Angleterre alternative, des clones élevés pour donner leurs organes découvrent l\'amour avant leur don programmé.',
+    description:
+      "Dans une Angleterre alternative, des clones élevés pour donner leurs organes découvrent l'amour avant leur don programmé.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -25702,7 +26235,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 97,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Quatre solitaires — un chef, une artiste, une vieille dame et un aristocrate — partagent un loft parisien et se reconstruisent ensemble.',
+    description:
+      'Quatre solitaires — un chef, une artiste, une vieille dame et un aristocrate — partagent un loft parisien et se reconstruisent ensemble.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -25723,7 +26257,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 118,
     genre: ['Drame', 'Biographie'],
     saga: '',
-    description: 'Un jeune footballeur irlandais tente de percer à Liverpool malgré la pauvreté, la violence familiale et les doutes sur son talent.',
+    description:
+      'Un jeune footballeur irlandais tente de percer à Liverpool malgré la pauvreté, la violence familiale et les doutes sur son talent.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -25744,7 +26279,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 92,
     genre: ['Drame', 'Biographie'],
     saga: '',
-    description: 'Portrait du criminiel britannique Michael Peterson, alias Charles Bronson, et de sa violence théâtrale en prison.',
+    description:
+      'Portrait du criminiel britannique Michael Peterson, alias Charles Bronson, et de sa violence théâtrale en prison.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -25765,7 +26301,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 114,
     genre: ['Drame', 'Aventure'],
     saga: '',
-    description: 'Une femme veuve se lie d\'amitié avec un gorille capable de communiquer par langage des signes.',
+    description:
+      "Une femme veuve se lie d'amitié avec un gorille capable de communiquer par langage des signes.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -25786,7 +26323,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 131,
     genre: ['Drame', 'Guerre'],
     saga: '',
-    description: 'Allemagne, 1939 : une fillette recueillie par des parents adoptifs apprend à lire en volant des livres et cache un juif dans leur cave.',
+    description:
+      'Allemagne, 1939 : une fillette recueillie par des parents adoptifs apprend à lire en volant des livres et cache un juif dans leur cave.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -25807,13 +26345,12 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 120,
     genre: ['Drame', 'Biographie'],
     saga: '',
-    description: 'Adaptation du cas de Barbara Graham, condamnée à mort en Californie dans les années 1950 pour un meurtre qu\'elle nie.',
+    description:
+      "Adaptation du cas de Barbara Graham, condamnée à mort en Californie dans les années 1950 pour un meurtre qu'elle nie.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ACTRESS, year: 1959 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ACTRESS, year: 1959 }],
   },
   {
     title: 'Save the Last Dance',
@@ -25830,7 +26367,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 112,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Une danseuse classique déménage à Chicago et tombe amoureuse d\'un danseur de hip-hop, mêlant deux mondes opposés.',
+    description:
+      "Une danseuse classique déménage à Chicago et tombe amoureuse d'un danseur de hip-hop, mêlant deux mondes opposés.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -25851,13 +26389,12 @@ export const baseMoviesDrame: BaseMovie[] = [
     length: 114,
     genre: ['Drame', 'Biographie'],
     saga: '',
-    description: 'Truman Capote enquête sur un quadruple meurtre au Kansas pour écrire De sang froid, au prix de son âme et de ses amitiés.',
+    description:
+      'Truman Capote enquête sur un quadruple meurtre au Kansas pour écrire De sang froid, au prix de son âme et de ses amitiés.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ACTOR, year: 2006 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ACTOR, year: 2006 }],
   },
   {
     title: 'American Gigolo',
@@ -26893,8 +27430,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Art Evans' },
       { name: 'David Alan Grier' },
     ],
-    coverUrl:
-      '/movies_pictures/51da0c05f452.jpg',
+    coverUrl: '/movies_pictures/51da0c05f452.jpg',
     releaseDate: '1984-09-14',
     length: 101,
     genre: ['Drame', 'Policier', 'Guerre'],
@@ -26916,8 +27452,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Robert Addie' },
       { name: 'Cary Elwes' },
     ],
-    coverUrl:
-      '/movies_pictures/0707ee6f1f97.jpg',
+    coverUrl: '/movies_pictures/0707ee6f1f97.jpg',
     releaseDate: '1984-06-01',
     length: 90,
     genre: ['Drame', 'Romance', 'Historique'],
@@ -26965,8 +27500,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Maïté Nahyr' },
       { name: 'Christian Schiaretti' },
     ],
-    coverUrl:
-      '/movies_pictures/cc7b11673f49.jpg',
+    coverUrl: '/movies_pictures/cc7b11673f49.jpg',
     releaseDate: '1984-05-16',
     length: 100,
     genre: ['Drame', 'Romance'],
@@ -26988,8 +27522,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Sophie Marceau' },
       { name: 'Michel Duchaussoy' },
     ],
-    coverUrl:
-      '/movies_pictures/178a9f3bdbf0.jpg',
+    coverUrl: '/movies_pictures/178a9f3bdbf0.jpg',
     releaseDate: '1984-05-11',
     length: 180,
     genre: ['Drame', 'Guerre', 'Historique'],
@@ -27015,8 +27548,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Leslie Caron' },
       { name: 'Daniel Olbrychski' },
     ],
-    coverUrl:
-      '/movies_pictures/08f1460bdb96.jpg',
+    coverUrl: '/movies_pictures/08f1460bdb96.jpg',
     releaseDate: '1984-10-26',
     length: 110,
     genre: ['Drame'],
@@ -27038,8 +27570,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'James Fox' },
       { name: 'Alec Guinness' },
     ],
-    coverUrl:
-      '/movies_pictures/fa76fbf308a5.jpg',
+    coverUrl: '/movies_pictures/fa76fbf308a5.jpg',
     releaseDate: '1984-12-14',
     length: 164,
     genre: ['Drame', 'Historique', 'Romance'],
@@ -27068,8 +27599,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Virginie Thévenet' },
       { name: 'Christian Baltauss' },
     ],
-    coverUrl:
-      '/movies_pictures/2df0ac6274a8.jpg',
+    coverUrl: '/movies_pictures/2df0ac6274a8.jpg',
     releaseDate: '1984-08-29',
     length: 101,
     genre: ['Drame', 'Romance', 'Comédie'],
@@ -27140,8 +27670,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Ignacio López Tarso' },
       { name: 'Katy Jurado' },
     ],
-    coverUrl:
-      '/movies_pictures/8e844a5a3167.jpg',
+    coverUrl: '/movies_pictures/8e844a5a3167.jpg',
     releaseDate: '1984-06-12',
     length: 112,
     genre: ['Drame'],
@@ -27203,7 +27732,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     genre: ['Drame', 'Biographie', 'Romance'],
     saga: '',
     description:
-      'L\'histoire vraie de Ruth Ellis, dernière femme exécutée au Royaume-Uni, et de la passion qui la mena au meurtre.',
+      "L'histoire vraie de Ruth Ellis, dernière femme exécutée au Royaume-Uni, et de la passion qui la mena au meurtre.",
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -27321,7 +27850,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     genre: ['Drame', 'Romance'],
     saga: '',
     description:
-      'Une jeune actrice en devenir traverse Paris et les hommes qui la façonnent, jusqu\'à rencontrer un metteur en scène exigeant.',
+      "Une jeune actrice en devenir traverse Paris et les hommes qui la façonnent, jusqu'à rencontrer un metteur en scène exigeant.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -27717,8 +28246,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Sammi Davis' },
       { name: 'Ian Bannen' },
     ],
-    coverUrl:
-      '/movies_pictures/c62421f7816e.jpeg',
+    coverUrl: '/movies_pictures/c62421f7816e.jpeg',
     releaseDate: '1987-09-16',
     length: 113,
     genre: ['Drame', 'Guerre', 'Comédie'],
@@ -27772,8 +28300,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Vanessa Guedj' },
       { name: 'Christine Pascal' },
     ],
-    coverUrl:
-      '/movies_pictures/29d395810e19.jpg',
+    coverUrl: '/movies_pictures/29d395810e19.jpg',
     releaseDate: '1987-03-25',
     length: 104,
     genre: ['Drame', 'Comédie'],
@@ -27795,8 +28322,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Jean-Claude Brialy' },
       { name: 'Tanya Lopert' },
     ],
-    coverUrl:
-      '/movies_pictures/8d0b886a0ca6.jpg',
+    coverUrl: '/movies_pictures/8d0b886a0ca6.jpg',
     releaseDate: '1987-12-23',
     length: 110,
     genre: ['Drame', 'Romance'],
@@ -27818,8 +28344,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Alain Artur' },
       { name: 'Yann Dedet' },
     ],
-    coverUrl:
-      '/movies_pictures/a1e1ea2c7d84.jpg',
+    coverUrl: '/movies_pictures/a1e1ea2c7d84.jpg',
     releaseDate: '1987-05-14',
     length: 98,
     genre: ['Drame'],
@@ -27845,8 +28370,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Martin Sheen' },
       { name: 'Terence Stamp' },
     ],
-    coverUrl:
-      '/movies_pictures/da142f3bb963.jpg',
+    coverUrl: '/movies_pictures/da142f3bb963.jpg',
     releaseDate: '1987-12-11',
     length: 126,
     genre: ['Drame'],
@@ -27916,8 +28440,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Spalding Gray' },
       { name: 'Lainie Kazan' },
     ],
-    coverUrl:
-      '/movies_pictures/dae7fc7fa9bc.jpeg',
+    coverUrl: '/movies_pictures/dae7fc7fa9bc.jpeg',
     releaseDate: '1988-12-21',
     length: 123,
     genre: ['Drame', 'Romance'],
@@ -27943,8 +28466,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Alain Cuny' },
       { name: 'Madeleine Robinson' },
     ],
-    coverUrl:
-      '/movies_pictures/e27e5bcd8098.jpg',
+    coverUrl: '/movies_pictures/e27e5bcd8098.jpg',
     releaseDate: '1988-12-07',
     length: 175,
     genre: ['Drame', 'Biographie', 'Romance'],
@@ -27966,8 +28488,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Jacques Perrin' },
       { name: 'Agnese Nano' },
     ],
-    coverUrl:
-      '/movies_pictures/f008542e4663.jpg',
+    coverUrl: '/movies_pictures/f008542e4663.jpg',
     releaseDate: '1988-11-17',
     length: 155,
     genre: ['Drame', 'Comédie'],
@@ -27989,8 +28510,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'André Wilms' },
       { name: 'Jean-Pierre Sentier' },
     ],
-    coverUrl:
-      '/movies_pictures/2c38c1198df5.jpg',
+    coverUrl: '/movies_pictures/2c38c1198df5.jpg',
     releaseDate: '1988-11-16',
     length: 90,
     genre: ['Drame', 'Romance'],
@@ -28012,8 +28532,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Jean-Philippe Chatrier' },
       { name: 'Daniel Gélin' },
     ],
-    coverUrl:
-      '/movies_pictures/a597393fb5ce.jpg',
+    coverUrl: '/movies_pictures/a597393fb5ce.jpg',
     releaseDate: '1988-11-30',
     length: 125,
     genre: ['Drame', 'Aventure'],
@@ -28035,8 +28554,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Harry Dean Stanton' },
       { name: 'David Bowie' },
     ],
-    coverUrl:
-      '/movies_pictures/f1ab597bde7d.jpg',
+    coverUrl: '/movies_pictures/f1ab597bde7d.jpg',
     releaseDate: '1988-08-12',
     length: 164,
     genre: ['Drame', 'Historique'],
@@ -28062,8 +28580,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Brad Dourif' },
       { name: 'R. Lee Ermey' },
     ],
-    coverUrl:
-      '/movies_pictures/561d7d387be9.jpg',
+    coverUrl: '/movies_pictures/561d7d387be9.jpg',
     releaseDate: '1988-12-09',
     length: 128,
     genre: ['Drame', 'Thriller', 'Historique'],
@@ -28085,8 +28602,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Nils Tavernier' },
       { name: 'Dominique Blanc' },
     ],
-    coverUrl:
-      '/movies_pictures/d7f1cd1062ad.jpg',
+    coverUrl: '/movies_pictures/d7f1cd1062ad.jpg',
     releaseDate: '1988-09-07',
     length: 108,
     genre: ['Drame', 'Historique', 'Biographie'],
@@ -28108,8 +28624,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Mia Farrow' },
       { name: 'Claire Bloom' },
     ],
-    coverUrl:
-      '/movies_pictures/a8b9b0f97be3.jpg',
+    coverUrl: '/movies_pictures/a8b9b0f97be3.jpg',
     releaseDate: '1989-10-13',
     length: 104,
     genre: ['Drame', 'Comédie'],
@@ -28131,8 +28646,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Ruby Dee' },
       { name: 'John Turturro' },
     ],
-    coverUrl:
-      '/movies_pictures/d48d433a0cce.jpg',
+    coverUrl: '/movies_pictures/d48d433a0cce.jpg',
     releaseDate: '1989-06-30',
     length: 120,
     genre: ['Drame', 'Comédie'],
@@ -28154,8 +28668,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Heather Graham' },
       { name: 'William S. Burroughs' },
     ],
-    coverUrl:
-      '/movies_pictures/221ee5d75915.jpg',
+    coverUrl: '/movies_pictures/221ee5d75915.jpg',
     releaseDate: '1989-10-06',
     length: 102,
     genre: ['Drame', 'Policier'],
@@ -28207,8 +28720,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Li Tianlu' },
       { name: 'Xin Shufen' },
     ],
-    coverUrl:
-      '/movies_pictures/8b64addfc9dd.jpg',
+    coverUrl: '/movies_pictures/8b64addfc9dd.jpg',
     releaseDate: '1989-10-21',
     length: 157,
     genre: ['Drame', 'Historique'],
@@ -28252,8 +28764,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Alan Howard' },
       { name: 'Tim Roth' },
     ],
-    coverUrl:
-      '/movies_pictures/4c0618f0906b.jpg',
+    coverUrl: '/movies_pictures/4c0618f0906b.jpg',
     releaseDate: '1989-10-13',
     length: 124,
     genre: ['Drame'],
@@ -28306,8 +28817,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Fiona Shaw' },
       { name: "Hugh O'Conor" },
     ],
-    coverUrl:
-      '/movies_pictures/de7e490cb496.jpg',
+    coverUrl: '/movies_pictures/de7e490cb496.jpg',
     releaseDate: '1989-02-24',
     length: 103,
     genre: ['Drame', 'Biographie'],
@@ -28336,8 +28846,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Laura San Giacomo' },
       { name: 'Steven Brill' },
     ],
-    coverUrl:
-      '/movies_pictures/5a827fb164ae.jpg',
+    coverUrl: '/movies_pictures/5a827fb164ae.jpg',
     releaseDate: '1989-08-18',
     length: 100,
     genre: ['Drame'],
@@ -28359,8 +28868,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Olympia Dukakis' },
       { name: 'Julia Roberts' },
     ],
-    coverUrl:
-      '/movies_pictures/ec076d98604d.jpg',
+    coverUrl: '/movies_pictures/ec076d98604d.jpg',
     releaseDate: '1989-11-15',
     length: 119,
     genre: ['Drame', 'Comédie'],
@@ -28386,8 +28894,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Jean-Marie Rollin' },
       { name: 'Cécile Reigher' },
     ],
-    coverUrl:
-      '/movies_pictures/89ffb60356f5.jpg',
+    coverUrl: '/movies_pictures/89ffb60356f5.jpg',
     releaseDate: '1989-11-22',
     length: 84,
     genre: ['Drame', 'Romance'],
@@ -28409,8 +28916,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Ruth Nelson' },
       { name: 'John Heard' },
     ],
-    coverUrl:
-      '/movies_pictures/09697f988611.jpg',
+    coverUrl: '/movies_pictures/09697f988611.jpg',
     releaseDate: '1990-12-20',
     length: 121,
     genre: ['Drame', 'Biographie'],
@@ -28436,8 +28942,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Mehrdad Ahankhah' },
       { name: 'Monoochehr Ahankhah' },
     ],
-    coverUrl:
-      '/movies_pictures/43e2db274ead.jpg',
+    coverUrl: '/movies_pictures/43e2db274ead.jpg',
     releaseDate: '1990-10-01',
     length: 98,
     genre: ['Drame', 'Documentaire'],
@@ -28459,8 +28964,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Jacques Weber' },
       { name: 'Roland Bertin' },
     ],
-    coverUrl:
-      '/movies_pictures/b3d8301238dc.webp',
+    coverUrl: '/movies_pictures/b3d8301238dc.webp',
     releaseDate: '1990-03-28',
     length: 137,
     genre: ['Drame', 'Romance', 'Historique'],
@@ -28486,8 +28990,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Zhang Yi' },
       { name: 'Zheng Ji' },
     ],
-    coverUrl:
-      '/movies_pictures/f9fb2d5d545e.jpg',
+    coverUrl: '/movies_pictures/f9fb2d5d545e.jpg',
     releaseDate: '1990-04-01',
     length: 95,
     genre: ['Drame', 'Romance'],
@@ -28509,8 +29012,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Didier Pain' },
       { name: 'Thérèse Liotard' },
     ],
-    coverUrl:
-      '/movies_pictures/0863c16b748a.jpg',
+    coverUrl: '/movies_pictures/0863c16b748a.jpg',
     releaseDate: '1990-08-29',
     length: 105,
     genre: ['Drame', 'Comédie', 'Jeunesse'],
@@ -28536,14 +29038,13 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Didier Pain' },
       { name: 'Thérèse Liotard' },
     ],
-    coverUrl:
-      '/movies_pictures/0fe799229221.jpg',
+    coverUrl: '/movies_pictures/0fe799229221.jpg',
     releaseDate: '1990-10-26',
     length: 98,
     genre: ['Drame', 'Comédie', 'Jeunesse'],
     saga: "Souvenirs d'enfance",
     description:
-      'Souvenirs d\'enfance de Marcel Pagnol : étés provençaux, amitié avec Lili et conflit entre sa mère et son oncle.',
+      "Souvenirs d'enfance de Marcel Pagnol : étés provençaux, amitié avec Lili et conflit entre sa mère et son oncle.",
     fromEntity: {
       entityType: 'book',
       title: 'Le Château de ma mère',
@@ -28563,8 +29064,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Maurice Chevit' },
       { name: 'Philippe Clévenot' },
     ],
-    coverUrl:
-      '/movies_pictures/fddb20fc13ad.jpg',
+    coverUrl: '/movies_pictures/fddb20fc13ad.jpg',
     releaseDate: '1990-10-10',
     length: 82,
     genre: ['Drame', 'Romance', 'Comédie'],
@@ -28586,8 +29086,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Andy Lau' },
       { name: 'Jacky Cheung' },
     ],
-    coverUrl:
-      '/movies_pictures/be77b5d6198c.jpg',
+    coverUrl: '/movies_pictures/be77b5d6198c.jpg',
     releaseDate: '1990-12-15',
     length: 94,
     genre: ['Drame', 'Romance'],
@@ -28636,8 +29135,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Elaine Jin' },
       { name: 'Hsi-Sheng Chen' },
     ],
-    coverUrl:
-      '/movies_pictures/9c71ea8bb860.jpg',
+    coverUrl: '/movies_pictures/9c71ea8bb860.jpg',
     releaseDate: '1991-07-27',
     length: 237,
     genre: ['Drame', 'Historique'],
@@ -28659,14 +29157,13 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Dominique Labourier' },
       { name: 'Roland Bertin' },
     ],
-    coverUrl:
-      '/movies_pictures/92cc16a30bc3.jpg',
+    coverUrl: '/movies_pictures/92cc16a30bc3.jpg',
     releaseDate: '1991-04-17',
     length: 90,
     genre: ['Drame', 'Comédie'],
     saga: '',
     description:
-      "Une jeune femme en errance croise plusieurs hommes à Paris avant de rencontrer celui qui pourrait changer sa vie.",
+      'Une jeune femme en errance croise plusieurs hommes à Paris avant de rencontrer celui qui pourrait changer sa vie.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -28682,8 +29179,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Michael Lerner' },
       { name: 'John Mahoney' },
     ],
-    coverUrl:
-      '/movies_pictures/2153a4b8550d.jpg',
+    coverUrl: '/movies_pictures/2153a4b8550d.jpg',
     releaseDate: '1991-08-21',
     length: 116,
     genre: ['Drame', 'Comédie', 'Thriller'],
@@ -28705,8 +29201,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Morris Chestnut' },
       { name: 'Angela Bassett' },
     ],
-    coverUrl:
-      '/movies_pictures/55619b4bef16.jpg',
+    coverUrl: '/movies_pictures/55619b4bef16.jpg',
     releaseDate: '1991-07-12',
     length: 112,
     genre: ['Drame'],
@@ -28728,8 +29223,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Cao Cuifen' },
       { name: 'Jin Shuyuan' },
     ],
-    coverUrl:
-      '/movies_pictures/84cc971a841a.jpg',
+    coverUrl: '/movies_pictures/84cc971a841a.jpg',
     releaseDate: '1991-09-01',
     length: 125,
     genre: ['Drame', 'Historique', 'Romance'],
@@ -28755,14 +29249,13 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'André Wilms' },
       { name: 'Ashley Wanninger' },
     ],
-    coverUrl:
-      '/movies_pictures/5785ef8c5d45.jpg',
+    coverUrl: '/movies_pictures/5785ef8c5d45.jpg',
     releaseDate: '1990-11-14',
     length: 112,
     genre: ['Drame', 'Guerre', 'Biographie'],
     saga: '',
     description:
-      "Un adolescent juif survit à la Shoah en se faisant passer pour aryen et intégrant même les Jeunesses hitlériennes.",
+      'Un adolescent juif survit à la Shoah en se faisant passer pour aryen et intégrant même les Jeunesses hitlériennes.',
     fromEntity: {
       entityType: 'book',
       title: 'Europa Europa',
@@ -28782,8 +29275,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Hélène Vincent' },
       { name: 'Ivan Desny' },
     ],
-    coverUrl:
-      '/movies_pictures/87f6b4e3fccf.jpg',
+    coverUrl: '/movies_pictures/87f6b4e3fccf.jpg',
     releaseDate: '1991-11-20',
     length: 115,
     genre: ['Drame'],
@@ -28805,8 +29297,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Ossie Davis' },
       { name: 'Ruby Dee' },
     ],
-    coverUrl:
-      '/movies_pictures/6b1b8b60d000.jpg',
+    coverUrl: '/movies_pictures/6b1b8b60d000.jpg',
     releaseDate: '1991-06-07',
     length: 132,
     genre: ['Drame', 'Romance'],
@@ -28828,8 +29319,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Halina Gryglaszewska' },
       { name: 'Kalina Jędrusik' },
     ],
-    coverUrl:
-      '/movies_pictures/0e6d97cda8e6.jpg',
+    coverUrl: '/movies_pictures/0e6d97cda8e6.jpg',
     releaseDate: '1991-05-15',
     length: 98,
     genre: ['Drame', 'Fantastique', 'Romance'],
@@ -28851,8 +29341,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Daniel Czap' },
       { name: 'Marion Stalens' },
     ],
-    coverUrl:
-      '/movies_pictures/93413501fcb6.jpg',
+    coverUrl: '/movies_pictures/93413501fcb6.jpg',
     releaseDate: '1991-10-16',
     length: 125,
     genre: ['Drame', 'Romance'],
@@ -28874,8 +29363,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'William Richert' },
       { name: 'Rodney Harvey' },
     ],
-    coverUrl:
-      '/movies_pictures/bb3e4c329b0f.jpg',
+    coverUrl: '/movies_pictures/bb3e4c329b0f.jpg',
     releaseDate: '1991-09-27',
     length: 104,
     genre: ['Drame', 'Romance'],
@@ -28897,8 +29385,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Frank Whaley' },
       { name: 'Kevin Dillon' },
     ],
-    coverUrl:
-      '/movies_pictures/a7f1bb3b3931.jpg',
+    coverUrl: '/movies_pictures/a7f1bb3b3931.jpg',
     releaseDate: '1991-03-01',
     length: 140,
     genre: ['Drame', 'Biographie', 'Comédie musicale'],
@@ -28920,8 +29407,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Anne Brochet' },
       { name: 'Carole Richert' },
     ],
-    coverUrl:
-      '/movies_pictures/85e0cd14ef32.jpg',
+    coverUrl: '/movies_pictures/85e0cd14ef32.jpg',
     releaseDate: '1991-12-18',
     length: 115,
     genre: ['Drame', 'Biographie', 'Historique'],
@@ -28947,8 +29433,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Danny De La Paz' },
       { name: 'Evelina Fernández' },
     ],
-    coverUrl:
-      '/movies_pictures/81694ef7ec63.jpg',
+    coverUrl: '/movies_pictures/81694ef7ec63.jpg',
     releaseDate: '1992-03-13',
     length: 125,
     genre: ['Drame', 'Policier', 'Biographie'],
@@ -28970,8 +29455,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Ed Harris' },
       { name: 'Alan Arkin' },
     ],
-    coverUrl:
-      '/movies_pictures/486c6f9d0a20.jpg',
+    coverUrl: '/movies_pictures/486c6f9d0a20.jpg',
     releaseDate: '1992-10-02',
     length: 100,
     genre: ['Drame'],
@@ -28993,8 +29477,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Jean Yanne' },
       { name: 'Dominique Blanc' },
     ],
-    coverUrl:
-      '/movies_pictures/5b3043063b42.jpg',
+    coverUrl: '/movies_pictures/5b3043063b42.jpg',
     releaseDate: '1992-04-15',
     length: 159,
     genre: ['Drame', 'Romance', 'Historique'],
@@ -29016,8 +29499,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Arnaud Giovaninetti' },
       { name: 'Melvil Poupaud' },
     ],
-    coverUrl:
-      '/movies_pictures/db435e1af203.jpg',
+    coverUrl: '/movies_pictures/db435e1af203.jpg',
     releaseDate: '1992-01-22',
     length: 115,
     genre: ['Drame', 'Romance'],
@@ -29043,8 +29525,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Corine Blue' },
       { name: 'Claude Winter' },
     ],
-    coverUrl:
-      '/movies_pictures/fe0e5acd42cd.jpg',
+    coverUrl: '/movies_pictures/fe0e5acd42cd.jpg',
     releaseDate: '1992-10-21',
     length: 126,
     genre: ['Drame', 'Romance', 'Biographie'],
@@ -29070,8 +29551,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Yang Liuchun' },
       { name: 'Ge Ji' },
     ],
-    coverUrl:
-      '/movies_pictures/a496c8f55a69.jpg',
+    coverUrl: '/movies_pictures/a496c8f55a69.jpg',
     releaseDate: '1992-08-31',
     length: 113,
     genre: ['Drame', 'Comédie'],
@@ -29127,8 +29607,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Élisabeth Bourgine' },
       { name: 'Brigitte Catillon' },
     ],
-    coverUrl:
-      '/movies_pictures/89894065772e.jpg',
+    coverUrl: '/movies_pictures/89894065772e.jpg',
     releaseDate: '1992-11-04',
     length: 105,
     genre: ['Drame', 'Romance'],
@@ -29150,8 +29629,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Francis Capra' },
       { name: 'Taral Hicks' },
     ],
-    coverUrl:
-      '/movies_pictures/3f45e1e2fa90.jpg',
+    coverUrl: '/movies_pictures/3f45e1e2fa90.jpg',
     releaseDate: '1993-09-29',
     length: 121,
     genre: ['Drame', 'Policier'],
@@ -29173,8 +29651,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Ge You' },
       { name: 'Lu Qi' },
     ],
-    coverUrl:
-      '/movies_pictures/8b58a4cdc4a7.jpg',
+    coverUrl: '/movies_pictures/8b58a4cdc4a7.jpg',
     releaseDate: '1993-01-01',
     length: 171,
     genre: ['Drame', 'Romance', 'Historique'],
@@ -29200,8 +29677,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'John Lynch' },
       { name: 'Don Baker' },
     ],
-    coverUrl:
-      '/movies_pictures/d7213882d1b2.jpg',
+    coverUrl: '/movies_pictures/d7213882d1b2.jpg',
     releaseDate: '1993-12-12',
     length: 133,
     genre: ['Drame', 'Biographie', 'Historique'],
@@ -29227,8 +29703,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Anna Paquin' },
       { name: 'Kerry Walker' },
     ],
-    coverUrl:
-      '/movies_pictures/18cb82d39328.jpg',
+    coverUrl: '/movies_pictures/18cb82d39328.jpg',
     releaseDate: '1993-05-15',
     length: 121,
     genre: ['Drame', 'Romance', 'Historique'],
@@ -29254,8 +29729,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Christopher Reeve' },
       { name: 'Hugh Grant' },
     ],
-    coverUrl:
-      '/movies_pictures/454b47a683b4.jpg',
+    coverUrl: '/movies_pictures/454b47a683b4.jpg',
     releaseDate: '1993-11-05',
     length: 134,
     genre: ['Drame', 'Romance', 'Historique'],
@@ -29281,8 +29755,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Jean-Pierre Bouvier' },
       { name: 'Chiara Mastroianni' },
     ],
-    coverUrl:
-      '/movies_pictures/6d5609b4cbb5.jpg',
+    coverUrl: '/movies_pictures/6d5609b4cbb5.jpg',
     releaseDate: '1993-05-14',
     length: 125,
     genre: ['Drame'],
@@ -29304,8 +29777,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Samuel L. Jackson' },
       { name: 'Glenn Plummer' },
     ],
-    coverUrl:
-      '/movies_pictures/fe9bd9d056d8.jpg',
+    coverUrl: '/movies_pictures/fe9bd9d056d8.jpg',
     releaseDate: '1993-05-26',
     length: 97,
     genre: ['Drame', 'Policier'],
@@ -29327,14 +29799,13 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Jack Lemmon' },
       { name: 'Jennifer Jason Leigh' },
     ],
-    coverUrl:
-      '/movies_pictures/7db2d2080a30.jpg',
+    coverUrl: '/movies_pictures/7db2d2080a30.jpg',
     releaseDate: '1993-10-03',
     length: 188,
     genre: ['Drame', 'Comédie'],
     saga: '',
     description:
-      'Los Angeles : neuf nouvelles de Raymond Carver entrelacent des destins ordinaires marqués par l\'adultère, la maladie et le hasard.',
+      "Los Angeles : neuf nouvelles de Raymond Carver entrelacent des destins ordinaires marqués par l'adultère, la maladie et le hasard.",
     fromEntity: {
       entityType: 'book',
       title: 'Short Cuts',
@@ -29354,8 +29825,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Charlotte Véry' },
       { name: 'Emmanuelle Riva' },
     ],
-    coverUrl:
-      '/movies_pictures/a02b47ca60e9.jpg',
+    coverUrl: '/movies_pictures/a02b47ca60e9.jpg',
     releaseDate: '1993-09-08',
     length: 98,
     genre: ['Drame'],
@@ -29377,14 +29847,13 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Laura Dern' },
       { name: 'Keith Szarabajka' },
     ],
-    coverUrl:
-      '/movies_pictures/b5f04b9c934f.jpg',
+    coverUrl: '/movies_pictures/b5f04b9c934f.jpg',
     releaseDate: '1993-11-24',
     length: 138,
     genre: ['Drame', 'Thriller', 'Policier'],
     saga: '',
     description:
-      "Un criminel en cavale prend en otage un enfant de huit ans et développe avec lui une complicité inattendue.",
+      'Un criminel en cavale prend en otage un enfant de huit ans et développe avec lui une complicité inattendue.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -29400,8 +29869,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Marlon Wayans' },
       { name: 'Bernie Mac' },
     ],
-    coverUrl:
-      '/movies_pictures/f1431ab2a916.jpg',
+    coverUrl: '/movies_pictures/f1431ab2a916.jpg',
     releaseDate: '1994-03-23',
     length: 93,
     genre: ['Drame'],
@@ -29423,8 +29891,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Gary Bakewell' },
       { name: "Chris O'Neill" },
     ],
-    coverUrl:
-      '/movies_pictures/47e17c6b4efe.jpg',
+    coverUrl: '/movies_pictures/47e17c6b4efe.jpg',
     releaseDate: '1994-04-14',
     length: 100,
     genre: ['Drame', 'Biographie', 'Romance'],
@@ -29446,8 +29913,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Don McKellar' },
       { name: 'Arsinée Khanjian' },
     ],
-    coverUrl:
-      '/movies_pictures/e6390de63da0.jpg',
+    coverUrl: '/movies_pictures/e6390de63da0.jpg',
     releaseDate: '1994-05-16',
     length: 103,
     genre: ['Drame', 'Thriller'],
@@ -29469,8 +29935,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Jackie Berroyer' },
       { name: 'Dominique Faysse' },
     ],
-    coverUrl:
-      '/movies_pictures/c35d9fabc236.jpg',
+    coverUrl: '/movies_pictures/c35d9fabc236.jpg',
     releaseDate: '1994-07-06',
     length: 92,
     genre: ['Drame', 'Romance'],
@@ -29492,8 +29957,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Jean-Hugues Anglade' },
       { name: 'Vincent Perez' },
     ],
-    coverUrl:
-      '/movies_pictures/eb508fbcfac4.jpg',
+    coverUrl: '/movies_pictures/eb508fbcfac4.jpg',
     releaseDate: '1994-05-13',
     length: 162,
     genre: ['Drame', 'Historique', 'Romance'],
@@ -29546,8 +30010,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Frédéric Gorny' },
       { name: 'Michèle Moretti' },
     ],
-    coverUrl:
-      '/movies_pictures/d832e4b1f561.jpg',
+    coverUrl: '/movies_pictures/d832e4b1f561.jpg',
     releaseDate: '1994-06-01',
     length: 110,
     genre: ['Drame', 'Romance'],
@@ -29569,14 +30032,13 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Julian Arahanga' },
       { name: 'Taungaroa Emile' },
     ],
-    coverUrl:
-      '/movies_pictures/094f2159fd18.jpg',
+    coverUrl: '/movies_pictures/094f2159fd18.jpg',
     releaseDate: '1994-09-02',
     length: 102,
     genre: ['Drame'],
     saga: '',
     description:
-      'Une famille maorie de Nouvelle-Zélande subit la violence d\'un père alcoolique dans un quartier pauvre d\'Auckland.',
+      "Une famille maorie de Nouvelle-Zélande subit la violence d'un père alcoolique dans un quartier pauvre d'Auckland.",
     fromEntity: {
       entityType: 'book',
       title: 'Once Were Warriors',
@@ -29596,8 +30058,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Paul Scofield' },
       { name: 'David Paymer' },
     ],
-    coverUrl:
-      '/movies_pictures/a3ea69f27056.jpg',
+    coverUrl: '/movies_pictures/a3ea69f27056.jpg',
     releaseDate: '1994-09-14',
     length: 133,
     genre: ['Drame', 'Historique', 'Biographie'],
@@ -29623,8 +30084,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Jerzy Stuhr' },
       { name: 'Aleksander Bardini' },
     ],
-    coverUrl:
-      '/movies_pictures/d8d0303b4c46.jpg',
+    coverUrl: '/movies_pictures/d8d0303b4c46.jpg',
     releaseDate: '1994-01-26',
     length: 92,
     genre: ['Drame', 'Comédie'],
@@ -29646,8 +30106,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Jean-Pierre Lorit' },
       { name: 'Samuel Le Bihan' },
     ],
-    coverUrl:
-      '/movies_pictures/efa317fc62f2.jpg',
+    coverUrl: '/movies_pictures/efa317fc62f2.jpg',
     releaseDate: '1994-05-12',
     length: 99,
     genre: ['Drame', 'Romance'],
@@ -29893,7 +30352,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     genre: ['Drame'],
     saga: '',
     description:
-      "Une danseuse ambitieuse arrive à Las Vegas et gravit les échelons du spectacle érotique dans un monde corrompu.",
+      'Une danseuse ambitieuse arrive à Las Vegas et gravit les échelons du spectacle érotique dans un monde corrompu.',
     fromEntity: null,
     countryOrigin: ['États-Unis', 'France'],
     selectDisplayOrder: 0,
@@ -29981,7 +30440,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     genre: ['Drame', 'Comédie', 'Romance'],
     saga: '',
     description:
-      'Paul, étudiant en philo, hésite entre plusieurs femmes et son désir de devenir ethnologue pendant l\'été 1996.',
+      "Paul, étudiant en philo, hésite entre plusieurs femmes et son désir de devenir ethnologue pendant l'été 1996.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -30260,7 +30719,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     genre: ['Drame', 'Thriller'],
     saga: '',
     description:
-      'Deux tueurs à gages, le maître et l\'apprenti, voient leur relation basculer dans la trahison et la violence.',
+      "Deux tueurs à gages, le maître et l'apprenti, voient leur relation basculer dans la trahison et la violence.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -30352,7 +30811,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     genre: ['Drame'],
     saga: '',
     description:
-      'Veille du Thanksgiving 1973 : deux familles de banlieue new-yorkaise sombrent dans l\'adultère et l\'aliénation.',
+      "Veille du Thanksgiving 1973 : deux familles de banlieue new-yorkaise sombrent dans l'adultère et l'aliénation.",
     fromEntity: {
       entityType: 'book',
       title: 'The Ice Storm',
@@ -30554,7 +31013,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     genre: ['Drame', 'Romance'],
     saga: '',
     description:
-      'Un éditeur parisien voit son cercle d\'amis se reformer autour de la mort d\'un proche, entre mélancolie et désir.',
+      "Un éditeur parisien voit son cercle d'amis se reformer autour de la mort d'un proche, entre mélancolie et désir.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -30646,7 +31105,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     genre: ['Drame', 'Historique', 'Romance'],
     saga: '',
     description:
-      'Shanghai, années 1930 : une jeune fille est vendue à une maison close où elle devient la favorite d\'un client puissant.',
+      "Shanghai, années 1930 : une jeune fille est vendue à une maison close où elle devient la favorite d'un client puissant.",
     fromEntity: {
       entityType: 'book',
       title: 'The Sing-song Girls of Shanghai',
@@ -30781,14 +31240,13 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Richard Courcet' },
       { name: 'Nicolas Duvauchelle' },
     ],
-    coverUrl:
-      '/movies_pictures/2b006c9ce48b.jpeg',
+    coverUrl: '/movies_pictures/2b006c9ce48b.jpeg',
     releaseDate: '1999-09-16',
     length: 90,
     genre: ['Drame'],
     saga: '',
     description:
-      "Des légionnaires étrangers en poste au Djibouti vivent entre discipline militaire, chaleur étouffante et désir contenu.",
+      'Des légionnaires étrangers en poste au Djibouti vivent entre discipline militaire, chaleur étouffante et désir contenu.',
     fromEntity: {
       entityType: 'book',
       title: 'Billy Budd',
@@ -30808,8 +31266,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Brendan Sexton III' },
       { name: 'Alicia Goranson' },
     ],
-    coverUrl:
-      '/movies_pictures/342f7e967690.webp',
+    coverUrl: '/movies_pictures/342f7e967690.webp',
     releaseDate: '1999-10-08',
     length: 118,
     genre: ['Drame', 'Biographie', 'Romance'],
@@ -30831,8 +31288,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Sergei Bodrov Jr.' },
       { name: 'Ruben Tapiero' },
     ],
-    coverUrl:
-      '/movies_pictures/8912d9875ec1.jpg',
+    coverUrl: '/movies_pictures/8912d9875ec1.jpg',
     releaseDate: '1999-09-01',
     length: 121,
     genre: ['Drame', 'Historique', 'Romance'],
@@ -30854,8 +31310,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Liev Schreiber' },
       { name: 'John Hannah' },
     ],
-    coverUrl:
-      '/movies_pictures/79efe332880f.jpg',
+    coverUrl: '/movies_pictures/79efe332880f.jpg',
     releaseDate: '1999-12-29',
     length: 146,
     genre: ['Drame', 'Biographie'],
@@ -30881,8 +31336,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Ghislain Ghesquère' },
       { name: 'Ginette Allegre' },
     ],
-    coverUrl:
-      '/movies_pictures/18c630d250a9.jpg',
+    coverUrl: '/movies_pictures/18c630d250a9.jpg',
     releaseDate: '1999-05-17',
     length: 148,
     genre: ['Drame', 'Policier'],
@@ -30958,8 +31412,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Paul Rudd' },
       { name: 'Michael Caine' },
     ],
-    coverUrl:
-      '/movies_pictures/abf5fd05f415.jpg',
+    coverUrl: '/movies_pictures/abf5fd05f415.jpg',
     releaseDate: '1999-12-10',
     length: 126,
     genre: ['Drame', 'Romance'],
@@ -30988,8 +31441,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Paul Giamatti' },
       { name: 'Vincent Schiavelli' },
     ],
-    coverUrl:
-      '/movies_pictures/79b7a4ade790.jpg',
+    coverUrl: '/movies_pictures/79b7a4ade790.jpg',
     releaseDate: '1999-12-22',
     length: 118,
     genre: ['Drame', 'Biographie', 'Comédie'],
@@ -31011,8 +31463,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Chris Owen' },
       { name: 'William Lee Scott' },
     ],
-    coverUrl:
-      '/movies_pictures/24aa6fb5df88.jpg',
+    coverUrl: '/movies_pictures/24aa6fb5df88.jpg',
     releaseDate: '1999-02-19',
     length: 108,
     genre: ['Drame', 'Biographie'],
@@ -31038,8 +31489,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Diane Venora' },
       { name: 'Philip Baker Hall' },
     ],
-    coverUrl:
-      '/movies_pictures/5b8b8e464122.jpg',
+    coverUrl: '/movies_pictures/5b8b8e464122.jpg',
     releaseDate: '1999-11-05',
     length: 157,
     genre: ['Drame', 'Thriller', 'Biographie'],
@@ -31061,8 +31511,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Olivier Gourmet' },
       { name: 'Bernard Marbaix' },
     ],
-    coverUrl:
-      '/movies_pictures/94a8fdf8d791.jpg',
+    coverUrl: '/movies_pictures/94a8fdf8d791.jpg',
     releaseDate: '1999-05-22',
     length: 95,
     genre: ['Drame'],
@@ -31084,8 +31533,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Antonia San Juan' },
       { name: 'Candela Peña' },
     ],
-    coverUrl:
-      '/movies_pictures/badd7b18319d.jpg',
+    coverUrl: '/movies_pictures/badd7b18319d.jpg',
     releaseDate: '1999-04-16',
     length: 101,
     genre: ['Drame'],
@@ -31107,8 +31555,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Álvaro Guerrero' },
       { name: 'Vanessa Bauche' },
     ],
-    coverUrl:
-      '/movies_pictures/3cb786763c90.jpg',
+    coverUrl: '/movies_pictures/3cb786763c90.jpg',
     releaseDate: '2000-06-16',
     length: 154,
     genre: ['Drame', 'Thriller'],
@@ -31130,8 +31577,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Alexandre Hamidi' },
       { name: 'Luminita Gheorghiu' },
     ],
-    coverUrl:
-      '/movies_pictures/24d897984b50.jpeg',
+    coverUrl: '/movies_pictures/24d897984b50.jpeg',
     releaseDate: '2000-11-15',
     length: 118,
     genre: ['Drame'],
@@ -31181,7 +31627,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     genre: ['Drame', 'Comédie'],
     saga: '',
     description:
-      'Un jeune homme séropositif quitte Paris pour retrouver la famille qu\'il n\'a jamais connue dans un village breton.',
+      "Un jeune homme séropositif quitte Paris pour retrouver la famille qu'il n'a jamais connue dans un village breton.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -31197,8 +31643,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Lai Chen' },
       { name: 'Siu Ping-lam' },
     ],
-    coverUrl:
-      '/movies_pictures/e79fd37bea66.jpg',
+    coverUrl: '/movies_pictures/e79fd37bea66.jpg',
     releaseDate: '2000-09-29',
     length: 98,
     genre: ['Drame', 'Romance'],
@@ -31242,14 +31687,13 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Manuel Busquets' },
       { name: 'Rodrigo Osorio' },
     ],
-    coverUrl:
-      '/movies_pictures/4b296a248af9.jpg',
+    coverUrl: '/movies_pictures/4b296a248af9.jpg',
     releaseDate: '2000-09-22',
     length: 101,
     genre: ['Drame', 'Romance'],
     saga: '',
     description:
-      'Un jeune Américain tombe amoureux d\'une danseuse colombienne et s\'enfonce dans le milieu violent de la drogue à Medellín.',
+      "Un jeune Américain tombe amoureux d'une danseuse colombienne et s'enfonce dans le milieu violent de la drogue à Medellín.",
     fromEntity: {
       entityType: 'book',
       title: 'La Vierge des tueurs',
@@ -31295,8 +31739,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Alexandra Stewart' },
       { name: 'Pierre Vernier' },
     ],
-    coverUrl:
-      '/movies_pictures/f12cbe9419ac.jpg',
+    coverUrl: '/movies_pictures/f12cbe9419ac.jpg',
     releaseDate: '2000-12-20',
     length: 92,
     genre: ['Drame'],
@@ -31318,8 +31761,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Kelly Lee' },
       { name: 'Jonathan Chang' },
     ],
-    coverUrl:
-      '/movies_pictures/20ed93846c61.jpg',
+    coverUrl: '/movies_pictures/20ed93846c61.jpg',
     releaseDate: '2000-09-08',
     length: 173,
     genre: ['Drame'],
@@ -31341,14 +31783,13 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Rory Culkin' },
       { name: 'Jon Tenney' },
     ],
-    coverUrl:
-      '/movies_pictures/4679b64d26f4.jpg',
+    coverUrl: '/movies_pictures/4679b64d26f4.jpg',
     releaseDate: '2000-11-17',
     length: 111,
     genre: ['Drame'],
     saga: '',
     description:
-      "Un frère irresponsable revient dans sa ville natale et perturbe la vie rangée de sa sœur, veuve et mère de famille.",
+      'Un frère irresponsable revient dans sa ville natale et perturbe la vie rangée de sa sœur, veuve et mère de famille.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -31370,7 +31811,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     genre: ['Drame', 'Biographie', 'Policier'],
     saga: '',
     description:
-      'L\'ascension et la chute de George Jung, trafiquant de cocaïne devenu l\'un des plus grands importateurs des États-Unis.',
+      "L'ascension et la chute de George Jung, trafiquant de cocaïne devenu l'un des plus grands importateurs des États-Unis.",
     fromEntity: {
       entityType: 'book',
       title: 'Blow',
@@ -31390,8 +31831,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Françoise Verny' },
       { name: 'Audrey Klebaner' },
     ],
-    coverUrl:
-      '/movies_pictures/08c19c6eb67f.jpg',
+    coverUrl: '/movies_pictures/08c19c6eb67f.jpg',
     releaseDate: '2001-10-16',
     length: 97,
     genre: ['Drame'],
@@ -31413,8 +31853,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Clive Owen' },
       { name: 'Ryan Phillippe' },
     ],
-    coverUrl:
-      '/movies_pictures/586c7ae05c2d.jpg',
+    coverUrl: '/movies_pictures/586c7ae05c2d.jpg',
     releaseDate: '2001-12-26',
     length: 137,
     genre: ['Drame', 'Mystère', 'Comédie'],
@@ -31436,8 +31875,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Nick Stahl' },
       { name: 'William Mapother' },
     ],
-    coverUrl:
-      '/movies_pictures/3310ce0d90b1.jpg',
+    coverUrl: '/movies_pictures/3310ce0d90b1.jpg',
     releaseDate: '2001-11-23',
     length: 131,
     genre: ['Drame', 'Thriller'],
@@ -31469,7 +31907,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     genre: ['Drame', 'Romance'],
     saga: '',
     description:
-      'Un homme et une femme se retrouvent chaque semaine pour des rapports sexuels sans paroles, jusqu\'à ce que l\'émotion les rattrape.',
+      "Un homme et une femme se retrouvent chaque semaine pour des rapports sexuels sans paroles, jusqu'à ce que l'émotion les rattrape.",
     fromEntity: {
       entityType: 'book',
       title: 'Intimacy',
@@ -31515,14 +31953,13 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Peter Boyle' },
       { name: 'Sean Combs' },
     ],
-    coverUrl:
-      '/movies_pictures/b36304f456c2.jpg',
+    coverUrl: '/movies_pictures/b36304f456c2.jpg',
     releaseDate: '2001-12-26',
     length: 111,
     genre: ['Drame', 'Romance'],
     saga: '',
     description:
-      "Une veuve de bourreau et un gardien de prison blanc trouvent une connexion inattendue dans le Sud racialisé des États-Unis.",
+      'Une veuve de bourreau et un gardien de prison blanc trouvent une connexion inattendue dans le Sud racialisé des États-Unis.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -31538,14 +31975,13 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Zabou Breitman' },
       { name: 'Dominique Reymond' },
     ],
-    coverUrl:
-      '/movies_pictures/51cd4685d137.jpg',
+    coverUrl: '/movies_pictures/51cd4685d137.jpg',
     releaseDate: '2001-10-24',
     length: 110,
     genre: ['Drame', 'Romance'],
     saga: '',
     description:
-      'Deux sœurs se retrouvent au chevet de leur mère dans le coma et réveillent des souvenirs d\'enfance doux-amers.',
+      "Deux sœurs se retrouvent au chevet de leur mère dans le coma et réveillent des souvenirs d'enfance doux-amers.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -31561,14 +31997,13 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Dermot Mulroney' },
       { name: 'June Squibb' },
     ],
-    coverUrl:
-      '/movies_pictures/e2967c32737e.jpg',
+    coverUrl: '/movies_pictures/e2967c32737e.jpg',
     releaseDate: '2002-12-13',
     length: 125,
     genre: ['Drame', 'Comédie'],
     saga: '',
     description:
-      "Un retraité du Midwest part en camping-car vers sa fille après la mort de sa femme et remet en question toute une vie conventionnelle.",
+      'Un retraité du Midwest part en camping-car vers sa fille après la mort de sa femme et remet en question toute une vie conventionnelle.',
     fromEntity: {
       entityType: 'book',
       title: 'About Schmidt',
@@ -31588,14 +32023,13 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Michel Duchaussoy' },
       { name: 'Ion Caramitru' },
     ],
-    coverUrl:
-      '/movies_pictures/1463f1f1ca9a.jpg',
+    coverUrl: '/movies_pictures/1463f1f1ca9a.jpg',
     releaseDate: '2002-02-27',
     length: 132,
     genre: ['Drame', 'Historique', 'Guerre'],
     saga: '',
     description:
-      'Un officier SS et un jésuite allemand découvrent l\'horreur de l\'Holocauste et tentent d\'alerter le Vatican.',
+      "Un officier SS et un jésuite allemand découvrent l'horreur de l'Holocauste et tentent d'alerter le Vatican.",
     fromEntity: {
       entityType: 'book',
       title: 'Le Vicaire',
@@ -31615,8 +32049,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Tim Pigott-Smith' },
       { name: 'Nicholas Farrell' },
     ],
-    coverUrl:
-      '/movies_pictures/f55d65c6414b.jpg',
+    coverUrl: '/movies_pictures/f55d65c6414b.jpg',
     releaseDate: '2002-01-25',
     length: 107,
     genre: ['Drame', 'Historique', 'Guerre'],
@@ -31638,8 +32071,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Erik Per Sullivan' },
       { name: 'Chad Lowe' },
     ],
-    coverUrl:
-      '/movies_pictures/bf2a4a4e1b24.jpg',
+    coverUrl: '/movies_pictures/bf2a4a4e1b24.jpg',
     releaseDate: '2002-05-10',
     length: 124,
     genre: ['Drame', 'Thriller', 'Romance'],
@@ -31661,8 +32093,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Emmanuelle Devos' },
       { name: 'Alice Taglioni' },
     ],
-    coverUrl:
-      '/movies_pictures/3d9591008cbe.jpg',
+    coverUrl: '/movies_pictures/3d9591008cbe.jpg',
     releaseDate: '2002-08-28',
     length: 129,
     genre: ['Drame', 'Thriller', 'Biographie'],
@@ -31688,14 +32119,13 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Marie Desgranges' },
       { name: 'Ged Marlon' },
     ],
-    coverUrl:
-      '/movies_pictures/e8c137b48226.jpg',
+    coverUrl: '/movies_pictures/e8c137b48226.jpg',
     releaseDate: '2002-01-09',
     length: 170,
     genre: ['Drame', 'Historique', 'Guerre'],
     saga: '',
     description:
-      "Deux scénaristes français collaborent avec le réalisateur Jean-Pierre Melville dans le Paris cinématographique des années 1940.",
+      'Deux scénaristes français collaborent avec le réalisateur Jean-Pierre Melville dans le Paris cinématographique des années 1940.',
     fromEntity: null,
     countryOrigin: ['France', 'Allemagne', 'Espagne'],
     selectDisplayOrder: 0,
@@ -31711,14 +32141,13 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Michèle Garcia' },
       { name: 'Alexia Portal' },
     ],
-    coverUrl:
-      '/movies_pictures/7e657074ee8c.jpg',
+    coverUrl: '/movies_pictures/7e657074ee8c.jpg',
     releaseDate: '2002-03-06',
     length: 100,
     genre: ['Drame', 'Comédie', 'Guerre'],
     saga: '',
     description:
-      'Un boucher parisien cache un enfant juif pendant l\'Occupation et l\'accompagne jusqu\'à la frontière suisse.',
+      "Un boucher parisien cache un enfant juif pendant l'Occupation et l'accompagne jusqu'à la frontière suisse.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -31734,8 +32163,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Lesley Ann Warren' },
       { name: 'Stephen McHattie' },
     ],
-    coverUrl:
-      '/movies_pictures/cb5993365991.jpg',
+    coverUrl: '/movies_pictures/cb5993365991.jpg',
     releaseDate: '2002-09-20',
     length: 111,
     genre: ['Drame', 'Romance', 'Comédie'],
@@ -31761,8 +32189,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Michelle Abercromby' },
       { name: 'Gary McCormack' },
     ],
-    coverUrl:
-      '/movies_pictures/a6c1a6d60c8a.jpg',
+    coverUrl: '/movies_pictures/a6c1a6d60c8a.jpg',
     releaseDate: '2002-10-04',
     length: 106,
     genre: ['Drame'],
@@ -31784,8 +32211,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Dorothy Duffy' },
       { name: 'Eileen Walsh' },
     ],
-    coverUrl:
-      '/movies_pictures/0e9a71648bc4.jpg',
+    coverUrl: '/movies_pictures/0e9a71648bc4.jpg',
     releaseDate: '2002-08-30',
     length: 119,
     genre: ['Drame', 'Historique'],
@@ -31807,14 +32233,13 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Rade Šerbedžija' },
       { name: 'Tzi Ma' },
     ],
-    coverUrl:
-      '/movies_pictures/f7437f14238a.jpg',
+    coverUrl: '/movies_pictures/f7437f14238a.jpg',
     releaseDate: '2002-11-22',
     length: 101,
     genre: ['Drame', 'Thriller', 'Guerre', 'Romance'],
     saga: '',
     description:
-      'Saigon, 1952 : un vieil reporter britannique, sa jeune maîtresse vietnamienne et un Américain idéaliste s\'affrontent dans la guerre d\'Indochine.',
+      "Saigon, 1952 : un vieil reporter britannique, sa jeune maîtresse vietnamienne et un Américain idéaliste s'affrontent dans la guerre d'Indochine.",
     fromEntity: {
       entityType: 'book',
       title: 'Un Américain bien tranquille',
@@ -31834,8 +32259,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Cliff Curtis' },
       { name: 'Grant Roa' },
     ],
-    coverUrl:
-      '/movies_pictures/f400935fc733.jpg',
+    coverUrl: '/movies_pictures/f400935fc733.jpg',
     releaseDate: '2003-01-30',
     length: 101,
     genre: ['Drame'],
@@ -31883,14 +32307,13 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Temur Kalandadze' },
       { name: 'Sacha Miminoshvili' },
     ],
-    coverUrl:
-      '/movies_pictures/1cefc14e5326.jpg',
+    coverUrl: '/movies_pictures/1cefc14e5326.jpg',
     releaseDate: '2003-09-17',
     length: 103,
     genre: ['Drame'],
     saga: '',
     description:
-      'En Géorgie, une grand-mère et sa fille dissimulent la mort du fils de l\'une d\'elles à la grand-mère aveugle.',
+      "En Géorgie, une grand-mère et sa fille dissimulent la mort du fils de l'une d'elles à la grand-mère aveugle.",
     fromEntity: null,
     countryOrigin: ['France', 'Belgique'],
     selectDisplayOrder: 0,
@@ -31906,14 +32329,13 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Stellan Skarsgård' },
       { name: 'James Caan' },
     ],
-    coverUrl:
-      '/movies_pictures/63fd40bff6f7.jpg',
+    coverUrl: '/movies_pictures/63fd40bff6f7.jpg',
     releaseDate: '2003-05-19',
     length: 178,
     genre: ['Drame'],
     saga: 'USA – Land of Opportunities',
     description:
-      "Grace, fugitive, trouve refuge dans un village américain qui exige en retour des services de plus en plus humiliants.",
+      'Grace, fugitive, trouve refuge dans un village américain qui exige en retour des services de plus en plus humiliants.',
     fromEntity: null,
     countryOrigin: ['Danemark', 'Suède', 'France', 'Pays-Bas'],
     selectDisplayOrder: 0,
@@ -31929,8 +32351,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Shohreh Aghdashloo' },
       { name: 'Jonathan Ahdout' },
     ],
-    coverUrl:
-      '/movies_pictures/6a5a920939df.jpg',
+    coverUrl: '/movies_pictures/6a5a920939df.jpg',
     releaseDate: '2003-12-19',
     length: 126,
     genre: ['Drame'],
@@ -31956,14 +32377,13 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Emma Bolger' },
       { name: 'Djimon Hounsou' },
     ],
-    coverUrl:
-      '/movies_pictures/2ebec11d4dc8.jpg',
+    coverUrl: '/movies_pictures/2ebec11d4dc8.jpg',
     releaseDate: '2003-11-26',
     length: 105,
     genre: ['Drame'],
     saga: '',
     description:
-      'Une famille irlandaise sans papiers s\'installe à New York et tente de surmonter la mort de leur jeune fils.',
+      "Une famille irlandaise sans papiers s'installe à New York et tente de surmonter la mort de leur jeune fils.",
     fromEntity: null,
     countryOrigin: ['Irlande', 'Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -31979,8 +32399,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Anna Chancellor' },
       { name: 'Robin Renucci' },
     ],
-    coverUrl:
-      '/movies_pictures/180cd9a84bd9.jpg',
+    coverUrl: '/movies_pictures/180cd9a84bd9.jpg',
     releaseDate: '2003-10-10',
     length: 115,
     genre: ['Drame', 'Romance'],
@@ -32050,14 +32469,13 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Isabelle Renauld' },
       { name: 'Lola Naymark' },
     ],
-    coverUrl:
-      '/movies_pictures/268a1f509a47.jpg',
+    coverUrl: '/movies_pictures/268a1f509a47.jpg',
     releaseDate: '2003-04-09',
     length: 95,
     genre: ['Drame'],
     saga: '',
     description:
-      'Un adolescent juif solitaire se lie d\'amitié avec un épicier turc qui l\'initie à la vie et l\'emmène en voyage.',
+      "Un adolescent juif solitaire se lie d'amitié avec un épicier turc qui l'initie à la vie et l'emmène en voyage.",
     fromEntity: {
       entityType: 'book',
       title: 'Monsieur Ibrahim et les Fleurs du Coran',
@@ -32077,8 +32495,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Kim Jong-ho' },
       { name: 'Ha Yeo-jin' },
     ],
-    coverUrl:
-      '/movies_pictures/9f10559e4d15.jpg',
+    coverUrl: '/movies_pictures/9f10559e4d15.jpg',
     releaseDate: '2003-09-19',
     length: 103,
     genre: ['Drame'],
@@ -32100,8 +32517,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Michelle Williams' },
       { name: 'Raven Goodwin' },
     ],
-    coverUrl:
-      '/movies_pictures/ad1fbace8bc0.jpg',
+    coverUrl: '/movies_pictures/ad1fbace8bc0.jpg',
     releaseDate: '2003-10-03',
     length: 89,
     genre: ['Drame', 'Comédie'],
@@ -32123,14 +32539,13 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Jackie Berroyer' },
       { name: 'Marie Matheron' },
     ],
-    coverUrl:
-      '/movies_pictures/6e163c2ef210.png',
+    coverUrl: '/movies_pictures/6e163c2ef210.png',
     releaseDate: '2004-05-26',
     length: 88,
     genre: ['Drame'],
     saga: '',
     description:
-      'Deux adolescentes rêvent de devenir brodeuses d\'haute couture et fuient leur village pour tenter leur chance à Paris.',
+      "Deux adolescentes rêvent de devenir brodeuses d'haute couture et fuient leur village pour tenter leur chance à Paris.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -32172,14 +32587,13 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Clive Owen' },
       { name: 'Colin Stinton' },
     ],
-    coverUrl:
-      '/movies_pictures/e69668fd3e90.jpg',
+    coverUrl: '/movies_pictures/e69668fd3e90.jpg',
     releaseDate: '2004-12-03',
     length: 104,
     genre: ['Drame', 'Romance'],
     saga: '',
     description:
-      'Quatre Londiens s\'aiment, se trahissent et se croisent dans un jeu cruel de séduction et de jalousie.',
+      "Quatre Londiens s'aiment, se trahissent et se croisent dans un jeu cruel de séduction et de jalousie.",
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -32195,8 +32609,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Malik Zidi' },
       { name: 'Lubna Azabal' },
     ],
-    coverUrl:
-      '/movies_pictures/6c32baec3ba1.jpg',
+    coverUrl: '/movies_pictures/6c32baec3ba1.jpg',
     releaseDate: '2004-12-08',
     length: 96,
     genre: ['Drame', 'Romance'],
@@ -32224,7 +32637,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     genre: ['Drame', 'Biographie'],
     saga: '',
     description:
-      'Ramón Sampedro, tétraplégique depuis des années, milite pour le droit de mourir dans la dignité et bouleverse ceux qui l\'entourent.',
+      "Ramón Sampedro, tétraplégique depuis des années, milite pour le droit de mourir dans la dignité et bouleverse ceux qui l'entourent.",
     fromEntity: null,
     countryOrigin: ['Espagne', 'France', 'Italie'],
     selectDisplayOrder: 0,
@@ -32265,8 +32678,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Maurice Garrel' },
       { name: 'Nathalie Boutefeu' },
     ],
-    coverUrl:
-      '/movies_pictures/3cd65700e358.jpg',
+    coverUrl: '/movies_pictures/3cd65700e358.jpg',
     releaseDate: '2004-12-22',
     length: 150,
     genre: ['Drame', 'Comédie'],
@@ -32288,8 +32700,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Anna Keaveney' },
       { name: 'Alex Kelly' },
     ],
-    coverUrl:
-      '/movies_pictures/496bb7d58ac1.jpg',
+    coverUrl: '/movies_pictures/496bb7d58ac1.jpg',
     releaseDate: '2004-10-22',
     length: 125,
     genre: ['Drame', 'Historique'],
@@ -32311,8 +32722,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Gilles Cohen' },
       { name: 'Linh Dan Pham' },
     ],
-    coverUrl:
-      '/movies_pictures/4dee9d9cc202.jpg',
+    coverUrl: '/movies_pictures/4dee9d9cc202.jpg',
     releaseDate: '2005-03-16',
     length: 107,
     genre: ['Drame', 'Policier'],
@@ -32334,8 +32744,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Patricia Clarkson' },
       { name: 'Frank Langella' },
     ],
-    coverUrl:
-      '/movies_pictures/0eb953879603.jpg',
+    coverUrl: '/movies_pictures/0eb953879603.jpg',
     releaseDate: '2005-10-07',
     length: 93,
     genre: ['Drame', 'Historique', 'Biographie'],
@@ -32385,7 +32794,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     genre: ['Drame'],
     saga: '',
     description:
-      'Un jeune père sans le sou vend son nouveau-né, puis tente désespérément de réparer l\'irréparable.',
+      "Un jeune père sans le sou vend son nouveau-né, puis tente désespérément de réparer l'irréparable.",
     fromEntity: null,
     countryOrigin: ['Belgique', 'France'],
     selectDisplayOrder: 0,
@@ -32401,8 +32810,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Philippe Fretun' },
       { name: 'Anne Cantineau' },
     ],
-    coverUrl:
-      '/movies_pictures/dcc304c8a16d.jpg',
+    coverUrl: '/movies_pictures/dcc304c8a16d.jpg',
     releaseDate: '2005-03-16',
     length: 99,
     genre: ['Drame', 'Biographie', 'Historique'],
@@ -32428,8 +32836,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Mathieu Genet' },
       { name: 'Eric Bougnon' },
     ],
-    coverUrl:
-      '/movies_pictures/8124a9104698.jpg',
+    coverUrl: '/movies_pictures/8124a9104698.jpg',
     releaseDate: '2005-10-26',
     length: 175,
     genre: ['Drame', 'Romance', 'Historique'],
@@ -32451,8 +32858,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Christian Bale' },
       { name: 'Wes Studi' },
     ],
-    coverUrl:
-      '/movies_pictures/6c6acb179c96.jpg',
+    coverUrl: '/movies_pictures/6c6acb179c96.jpg',
     releaseDate: '2005-12-25',
     length: 150,
     genre: ['Drame', 'Historique', 'Romance'],
@@ -32474,8 +32880,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Owen Kline' },
       { name: 'Anna Paquin' },
     ],
-    coverUrl:
-      '/movies_pictures/1de7be258649.jpg',
+    coverUrl: '/movies_pictures/1de7be258649.jpg',
     releaseDate: '2005-10-05',
     length: 81,
     genre: ['Drame', 'Comédie'],
@@ -32497,14 +32902,13 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Burt Young' },
       { name: 'Graham Greene' },
     ],
-    coverUrl:
-      '/movies_pictures/d3e37124f3a0.jpg',
+    coverUrl: '/movies_pictures/d3e37124f3a0.jpg',
     releaseDate: '2005-12-02',
     length: 103,
     genre: ['Drame', 'Comédie'],
     saga: '',
     description:
-      'Une femme transsexuelle découvre qu\'elle a un fils adolescent et traverse l\'Amérique avec lui vers une chirurgie décisive.',
+      "Une femme transsexuelle découvre qu'elle a un fils adolescent et traverse l'Amérique avec lui vers une chirurgie décisive.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -32520,14 +32924,13 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Ménothy Cesar' },
       { name: 'Lys Ambroise' },
     ],
-    coverUrl:
-      '/movies_pictures/4f95af99af1b.jpg',
+    coverUrl: '/movies_pictures/4f95af99af1b.jpg',
     releaseDate: '2005-12-07',
     length: 105,
     genre: ['Drame'],
     saga: '',
     description:
-      'Dans les années 1970, trois touristes occidentales cherchent l\'amour payant en Haïti, sur fond de misère et de dictature.',
+      "Dans les années 1970, trois touristes occidentales cherchent l'amour payant en Haïti, sur fond de misère et de dictature.",
     fromEntity: {
       entityType: 'book',
       title: 'La Chair du maître',
@@ -32547,14 +32950,13 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Isabelle Carré' },
       { name: 'Lambert Wilson' },
     ],
-    coverUrl:
-      '/movies_pictures/291775005992.jpg',
+    coverUrl: '/movies_pictures/291775005992.jpg',
     releaseDate: '2006-12-06',
     length: 120,
     genre: ['Drame', 'Comédie', 'Romance'],
     saga: '',
     description:
-      'Dans un Paris hivernal, des vies solitaires se croisent autour d\'un agent immobilier et de malentendus amoureux.',
+      "Dans un Paris hivernal, des vies solitaires se croisent autour d'un agent immobilier et de malentendus amoureux.",
     fromEntity: null,
     countryOrigin: ['France', 'Italie'],
     selectDisplayOrder: 0,
@@ -32570,14 +32972,13 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Julien Boisselier' },
       { name: 'Isabelle Renauld' },
     ],
-    coverUrl:
-      '/movies_pictures/e2d09a653a5e.jpg',
+    coverUrl: '/movies_pictures/e2d09a653a5e.jpg',
     releaseDate: '2006-09-06',
     length: 100,
     genre: ['Drame'],
     saga: '',
     description:
-      'Une jeune femme s\'effondre après la disparition de son frère jumeau, puis croit le retrouver changé.',
+      "Une jeune femme s'effondre après la disparition de son frère jumeau, puis croit le retrouver changé.",
     fromEntity: {
       entityType: 'book',
       title: "Je vais bien, ne t'en fais pas",
@@ -32619,14 +33020,13 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Toby Jones' },
       { name: 'Diana Rigg' },
     ],
-    coverUrl:
-      '/movies_pictures/552a1e81e92b.jpg',
+    coverUrl: '/movies_pictures/552a1e81e92b.jpg',
     releaseDate: '2006-12-20',
     length: 125,
     genre: ['Drame', 'Romance', 'Historique'],
     saga: '',
     description:
-      'Dans la Chine des années 1920, une femme trompée suit son mari médecin jusqu\'à une région ravagée par le choléra.',
+      "Dans la Chine des années 1920, une femme trompée suit son mari médecin jusqu'à une région ravagée par le choléra.",
     fromEntity: {
       entityType: 'book',
       title: 'The Painted Veil',
@@ -32646,8 +33046,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Andrew Simpson' },
       { name: 'Phil Davis' },
     ],
-    coverUrl:
-      '/movies_pictures/d65387484d58.jpg',
+    coverUrl: '/movies_pictures/d65387484d58.jpg',
     releaseDate: '2006-12-25',
     length: 92,
     genre: ['Drame', 'Thriller'],
@@ -32673,14 +33072,13 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Rufus Sewell' },
       { name: 'Eddie Marsan' },
     ],
-    coverUrl:
-      '/movies_pictures/9210dddd175c.jpg',
+    coverUrl: '/movies_pictures/9210dddd175c.jpg',
     releaseDate: '2006-08-18',
     length: 110,
     genre: ['Drame', 'Romance', 'Mystère'],
     saga: '',
     description:
-      'Au début du XXe siècle, un illusionniste rivalise avec un prince pour l\'amour d\'une duchesse, entre magie et complot.',
+      "Au début du XXe siècle, un illusionniste rivalise avec un prince pour l'amour d'une duchesse, entre magie et complot.",
     fromEntity: {
       entityType: 'book',
       title: 'Eisenheim the Illusionist',
@@ -32726,8 +33124,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Jason Patric' },
       { name: 'James Franco' },
     ],
-    coverUrl:
-      '/movies_pictures/d7f0e9f088c4.jpg',
+    coverUrl: '/movies_pictures/d7f0e9f088c4.jpg',
     releaseDate: '2007-09-14',
     length: 121,
     genre: ['Drame', 'Policier', 'Guerre'],
@@ -32749,14 +33146,13 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Élodie Navarre' },
       { name: 'Hiam Abbass' },
     ],
-    coverUrl:
-      '/movies_pictures/7873b1bd8ae0.jpg',
+    coverUrl: '/movies_pictures/7873b1bd8ae0.jpg',
     releaseDate: '2007-06-06',
     length: 109,
     genre: ['Drame', 'Comédie'],
     saga: '',
     description:
-      'Un peintre parisien se lie d\'amitié avec le jardinier de son enfance et redécouvre la simplicité du quotidien.',
+      "Un peintre parisien se lie d'amitié avec le jardinier de son enfance et redécouvre la simplicité du quotidien.",
     fromEntity: {
       entityType: 'book',
       title: 'Dialogue avec mon jardinier',
@@ -32783,7 +33179,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     genre: ['Drame'],
     saga: '',
     description:
-      'Un ouvrier tunisien au chômage à Sète décide d\'ouvrir un restaurant de couscous sur un bateau, contre vents et marées.',
+      "Un ouvrier tunisien au chômage à Sète décide d'ouvrir un restaurant de couscous sur un bateau, contre vents et marées.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -32805,7 +33201,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     genre: ['Drame'],
     saga: '',
     description:
-      'À Kaboul sous les talibans, un homme tente de racheter une faute d\'enfance en sauvant la femme de son ami d\'enfance.',
+      "À Kaboul sous les talibans, un homme tente de racheter une faute d'enfance en sauvant la femme de son ami d'enfance.",
     fromEntity: {
       entityType: 'book',
       title: 'Les Cerfs-volants de Kaboul',
@@ -32825,14 +33221,13 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Johan Libéreau' },
       { name: 'Julie Depardieu' },
     ],
-    coverUrl:
-      '/movies_pictures/b06ac53270fd.jpg',
+    coverUrl: '/movies_pictures/b06ac53270fd.jpg',
     releaseDate: '2007-03-07',
     length: 112,
     genre: ['Drame', 'Romance'],
     saga: '',
     description:
-      'Au début des années 1980, un groupe d\'amis voit l\'arrivée du sida bouleverser leurs amours et leurs certitudes.',
+      "Au début des années 1980, un groupe d'amis voit l'arrivée du sida bouleverser leurs amours et leurs certitudes.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -32848,14 +33243,13 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Wang Leehom' },
       { name: 'Chung Hua Tou' },
     ],
-    coverUrl:
-      '/movies_pictures/75f4630f98a5.jpg',
+    coverUrl: '/movies_pictures/75f4630f98a5.jpg',
     releaseDate: '2007-09-24',
     length: 157,
     genre: ['Drame', 'Thriller', 'Romance', 'Historique'],
     saga: '',
     description:
-      'Pendant l\'occupation japonaise à Shanghai, une étudiante est chargée de séduire un collaborateur pour l\'assassiner.',
+      "Pendant l'occupation japonaise à Shanghai, une étudiante est chargée de séduire un collaborateur pour l'assassiner.",
     fromEntity: {
       entityType: 'book',
       title: 'Lust, Caution',
@@ -32897,14 +33291,13 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Andrew Shim' },
       { name: 'Vicky McClure' },
     ],
-    coverUrl:
-      '/movies_pictures/3e30bb25a818.jpg',
+    coverUrl: '/movies_pictures/3e30bb25a818.jpg',
     releaseDate: '2007-04-27',
     length: 101,
     genre: ['Drame'],
     saga: '',
     description:
-      'En 1983, un adolescent endeuillé rejoint une bande de skins et découvre la dérive raciste d\'une partie du mouvement.',
+      "En 1983, un adolescent endeuillé rejoint une bande de skins et découvre la dérive raciste d'une partie du mouvement.",
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -32920,14 +33313,13 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Julie Depardieu' },
       { name: 'Mathieu Amalric' },
     ],
-    coverUrl:
-      '/movies_pictures/ea57c5b50bbb.jpg',
+    coverUrl: '/movies_pictures/ea57c5b50bbb.jpg',
     releaseDate: '2007-10-03',
     length: 105,
     genre: ['Drame', 'Historique'],
     saga: '',
     description:
-      'Après-guerre, un garçon reconstitue le secret familial lié à l\'Occupation, à un amour impossible et à la Shoah.',
+      "Après-guerre, un garçon reconstitue le secret familial lié à l'Occupation, à un amour impossible et à la Shoah.",
     fromEntity: {
       entityType: 'book',
       title: 'Un secret',
@@ -32947,14 +33339,13 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Salvatore Cantalupo' },
       { name: 'Gigio Morra' },
     ],
-    coverUrl:
-      '/movies_pictures/274b36dcd3dd.jpg',
+    coverUrl: '/movies_pictures/274b36dcd3dd.jpg',
     releaseDate: '2008-05-16',
     length: 137,
     genre: ['Drame', 'Policier'],
     saga: '',
     description:
-      'Chronique du crime organisé napolitain à travers plusieurs destinées prises dans l\'engrenage de la Camorra.',
+      "Chronique du crime organisé napolitain à travers plusieurs destinées prises dans l'engrenage de la Camorra.",
     fromEntity: {
       entityType: 'book',
       title: 'Gomorra',
@@ -32974,8 +33365,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Laurent Grévill' },
       { name: 'Jean-Claude Arnaud' },
     ],
-    coverUrl:
-      '/movies_pictures/44c345750430.jpg',
+    coverUrl: '/movies_pictures/44c345750430.jpg',
     releaseDate: '2008-03-19',
     length: 117,
     genre: ['Drame'],
@@ -32997,8 +33387,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Marc-André Grondin' },
       { name: 'Pio Marmaï' },
     ],
-    coverUrl:
-      '/movies_pictures/4dd3e7e463bd.jpg',
+    coverUrl: '/movies_pictures/4dd3e7e463bd.jpg',
     releaseDate: '2008-07-23',
     length: 114,
     genre: ['Drame', 'Comédie'],
@@ -33042,8 +33431,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Geneviève Mnich' },
       { name: 'Adélaïde Leroux' },
     ],
-    coverUrl:
-      '/movies_pictures/100468310040.jpg',
+    coverUrl: '/movies_pictures/100468310040.jpg',
     releaseDate: '2008-10-01',
     length: 125,
     genre: ['Drame', 'Biographie'],
@@ -33065,14 +33453,13 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Catherine Keener' },
       { name: 'Emily Watson' },
     ],
-    coverUrl:
-      '/movies_pictures/ddd20a736361.jpg',
+    coverUrl: '/movies_pictures/ddd20a736361.jpg',
     releaseDate: '2008-10-24',
     length: 124,
     genre: ['Drame'],
     saga: '',
     description:
-      'Un metteur en scène obsessionnel construit une réplique grandeur nature de sa vie, jusqu\'à s\'y perdre entièrement.',
+      "Un metteur en scène obsessionnel construit une réplique grandeur nature de sa vie, jusqu'à s'y perdre entièrement.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -33088,14 +33475,13 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Melvil Poupaud' },
       { name: 'Emmanuelle Devos' },
     ],
-    coverUrl:
-      '/movies_pictures/3d6dba450379.jpg',
+    coverUrl: '/movies_pictures/3d6dba450379.jpg',
     releaseDate: '2008-05-16',
     length: 150,
     genre: ['Drame', 'Comédie'],
     saga: '',
     description:
-      'Une famille dysfonctionnelle se retrouve pour Noël à l\'annonce d\'une maladie, entre rancunes et amour bruissant.',
+      "Une famille dysfonctionnelle se retrouve pour Noël à l'annonce d'une maladie, entre rancunes et amour bruissant.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -33134,14 +33520,13 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Marie Gillain' },
       { name: 'Emmanuelle Devos' },
     ],
-    coverUrl:
-      '/movies_pictures/bc01a7365cc3.jpg',
+    coverUrl: '/movies_pictures/bc01a7365cc3.jpg',
     releaseDate: '2009-04-22',
     length: 105,
     genre: ['Drame', 'Biographie', 'Historique'],
     saga: '',
     description:
-      'Les jeunes années de Gabrielle Chanel, de l\'orphelinat aux cafés-concerts jusqu\'à l\'invention de son style.',
+      "Les jeunes années de Gabrielle Chanel, de l'orphelinat aux cafés-concerts jusqu'à l'invention de son style.",
     fromEntity: null,
     countryOrigin: ['France', 'Belgique'],
     selectDisplayOrder: 0,
@@ -33157,8 +33542,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'José Luis Gómez' },
       { name: 'Rubén Ochandiano' },
     ],
-    coverUrl:
-      '/movies_pictures/fd46b538abe6.jpg',
+    coverUrl: '/movies_pictures/fd46b538abe6.jpg',
     releaseDate: '2009-03-18',
     length: 127,
     genre: ['Drame', 'Romance', 'Thriller'],
@@ -33180,8 +33564,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Rebecca Griffiths' },
       { name: 'Harry Treadaway' },
     ],
-    coverUrl:
-      '/movies_pictures/a6de6c3bb501.jpg',
+    coverUrl: '/movies_pictures/a6de6c3bb501.jpg',
     releaseDate: '2009-09-11',
     length: 123,
     genre: ['Drame'],
@@ -33203,8 +33586,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Pippo Delbono' },
       { name: 'Maria Paiato' },
     ],
-    coverUrl:
-      '/movies_pictures/eea5405acf55.jpg',
+    coverUrl: '/movies_pictures/eea5405acf55.jpg',
     releaseDate: '2009-09-05',
     length: 120,
     genre: ['Drame', 'Romance'],
@@ -33226,8 +33608,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Andrea García-Huidobro' },
       { name: 'Agustín Silva' },
     ],
-    coverUrl:
-      '/movies_pictures/13cba70bee0e.jpg',
+    coverUrl: '/movies_pictures/13cba70bee0e.jpg',
     releaseDate: '2009-01-25',
     length: 95,
     genre: ['Drame', 'Comédie'],
@@ -33249,8 +33630,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Anne Brochet' },
       { name: 'Ariane Ascaride' },
     ],
-    coverUrl:
-      '/movies_pictures/0c516fd2d1c3.jpg',
+    coverUrl: '/movies_pictures/0c516fd2d1c3.jpg',
     releaseDate: '2009-07-03',
     length: 100,
     genre: ['Drame'],
@@ -33276,14 +33656,13 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Ulrich Tukur' },
       { name: 'Ursina Lardi' },
     ],
-    coverUrl:
-      '/movies_pictures/e4b430f0d3ae.jpg',
+    coverUrl: '/movies_pictures/e4b430f0d3ae.jpg',
     releaseDate: '2009-09-24',
     length: 144,
     genre: ['Drame', 'Historique'],
     saga: '',
     description:
-      'À la veille de 1914, d\'étranges accidents frappent un village allemand protestant, révélant la violence sous la vertu.',
+      "À la veille de 1914, d'étranges accidents frappent un village allemand protestant, révélant la violence sous la vertu.",
     fromEntity: null,
     countryOrigin: ['Autriche', 'Allemagne', 'France'],
     selectDisplayOrder: 0,
@@ -33299,8 +33678,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Paul Giamatti' },
       { name: 'Anne-Marie Duff' },
     ],
-    coverUrl:
-      '/movies_pictures/0f063514f888.jpg',
+    coverUrl: '/movies_pictures/0f063514f888.jpg',
     releaseDate: '2010-01-15',
     length: 112,
     genre: ['Drame', 'Biographie', 'Historique'],
@@ -33326,14 +33704,13 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Jena Malone' },
       { name: 'Steve Buscemi' },
     ],
-    coverUrl:
-      '/movies_pictures/692537b03ecc.jpg',
+    coverUrl: '/movies_pictures/692537b03ecc.jpg',
     releaseDate: '2009-11-13',
     length: 113,
     genre: ['Drame', 'Guerre'],
     saga: '',
     description:
-      'Deux soldats sont chargés d\'annoncer les morts au combat aux familles, et l\'un d\'eux s\'attache à une veuve.',
+      "Deux soldats sont chargés d'annoncer les morts au combat aux familles, et l'un d'eux s'attache à une veuve.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -33349,8 +33726,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Olivier Rabourdin' },
       { name: 'Derya Ayverdi' },
     ],
-    coverUrl:
-      '/movies_pictures/075754c24ff5.jpg',
+    coverUrl: '/movies_pictures/075754c24ff5.jpg',
     releaseDate: '2009-03-11',
     length: 110,
     genre: ['Drame'],

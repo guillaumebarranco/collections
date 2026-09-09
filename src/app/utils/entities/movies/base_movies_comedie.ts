@@ -18,7 +18,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 110,
     genre: ['Comédie', 'Romance'],
     saga: 'La Boum',
-    description: 'Victor, 13 ans, découvre l\'amour lors d\'une grande fête parisienne pendant que sa mère, séparée, retrouve le goût de la vie avec un pianiste.',
+    description:
+      "Victor, 13 ans, découvre l'amour lors d'une grande fête parisienne pendant que sa mère, séparée, retrouve le goût de la vie avec un pianiste.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
@@ -41,7 +42,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 109,
     genre: ['Comédie', 'Romance'],
     saga: 'La Boum',
-    description: 'Deux ans plus tard, Vic affronte les premiers chagrins d\'amour et les mensonges des adultes, tandis que sa mère hésite entre deux hommes.',
+    description:
+      "Deux ans plus tard, Vic affronte les premiers chagrins d'amour et les mensonges des adultes, tandis que sa mère hésite entre deux hommes.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
@@ -64,7 +66,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 90,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Dans un village de l\'Ouest, deux bandes d\'enfants se livrent une guerre acharnée où la victoire se mesure au nombre de boutons arrachés.',
+    description:
+      "Dans un village de l'Ouest, deux bandes d'enfants se livrent une guerre acharnée où la victoire se mesure au nombre de boutons arrachés.",
     fromEntity: {
       entityType: 'book',
       title: 'La Guerre des boutons',
@@ -91,7 +94,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 92,
     genre: ['Comédie', 'Guerre'],
     saga: '',
-    description: 'En 1940, trois soldats français, séparés de leur unité, traversent l\'occupation avec maladresse et entêtement burlesque.',
+    description:
+      "En 1940, trois soldats français, séparés de leur unité, traversent l'occupation avec maladresse et entêtement burlesque.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
@@ -128,13 +132,12 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 114,
     genre: ['Comédie'],
     saga: '',
-    description: 'Barbie quitte Barbieland pour le monde réel afin de comprendre pourquoi une adolescente pense qu\'elle est la cause de ses doutes existentiels.',
+    description:
+      "Barbie quitte Barbieland pour le monde réel afin de comprendre pourquoi une adolescente pense qu'elle est la cause de ses doutes existentiels.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 2024 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 2024 }],
   },
   {
     title: "Don't look up, déni cosmique",
@@ -170,7 +173,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 138,
     genre: ['Comédie'],
     saga: '',
-    description: 'Deux astronomes découvrent une comète fatale, mais leurs alertes se heurtent au cynisme médiatique et à l\'indifférence politique.',
+    description:
+      "Deux astronomes découvrent une comète fatale, mais leurs alertes se heurtent au cynisme médiatique et à l'indifférence politique.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -207,11 +211,12 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 109,
     genre: ['Comédie'],
     saga: '',
-    description: 'Une jeune journaliste débarque chez une rédactrice de mode tyrannique et découvre que le succès professionnel a un prix personnel élevé.',
+    description:
+      'Une jeune journaliste débarque chez une rédactrice de mode tyrannique et découvre que le succès professionnel a un prix personnel élevé.',
     fromEntity: {
       entityType: 'book',
       title: "Le Diable s'habille en Prada",
-      secondEntityKey: "Lauren Weisberger",
+      secondEntityKey: 'Lauren Weisberger',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -234,11 +239,12 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 110,
     genre: ['Comédie', 'Drame'],
     saga: "Le diable s'habille en Prada",
-    description: 'Andy, devenue rédactrice en chef, retrouve Miranda Priestly dans une recomposition des rapports de pouvoir au sommet de la mode new-yorkaise.',
+    description:
+      'Andy, devenue rédactrice en chef, retrouve Miranda Priestly dans une recomposition des rapports de pouvoir au sommet de la mode new-yorkaise.',
     fromEntity: {
       entityType: 'book',
       title: "Le Diable s'habille en Prada",
-      secondEntityKey: "Lauren Weisberger",
+      secondEntityKey: 'Lauren Weisberger',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -275,7 +281,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 115,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un personnage non-jouable d\'un jeu vidéo violent prend conscience de lui-même et décide de devenir le héros de sa propre existence.',
+    description:
+      "Un personnage non-jouable d'un jeu vidéo violent prend conscience de lui-même et décide de devenir le héros de sa propre existence.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -312,7 +319,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 108,
     genre: ['Comédie'],
     saga: '',
-    description: 'Les parents d\'un trentenaire encore chez eux tentent toutes les stratégies, y compris les plus absurdes, pour le pousser à quitter le nid.',
+    description:
+      "Les parents d'un trentenaire encore chez eux tentent toutes les stratégies, y compris les plus absurdes, pour le pousser à quitter le nid.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
@@ -349,7 +357,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 87,
     genre: ['Comédie'],
     saga: '',
-    description: 'D\'anciens moines shaolin réunissent leurs arts martiaux dans une équipe de foot amateur pour affronter des tricheurs corrompus.',
+    description:
+      "D'anciens moines shaolin réunissent leurs arts martiaux dans une équipe de foot amateur pour affronter des tricheurs corrompus.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -386,7 +395,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 109,
     genre: ['Comédie'],
     saga: '',
-    description: 'Une étudiante en beauté se fait passer pour une recrue du FBI afin d\'infiltrer une entreprise où disparaissent des données secrètes.',
+    description:
+      "Une étudiante en beauté se fait passer pour une recrue du FBI afin d'infiltrer une entreprise où disparaissent des données secrètes.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -423,7 +433,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 104,
     genre: ['Comédie', 'Policier'],
     saga: '',
-    description: 'Des diamants volés, des boxeurs, des gitans et des gangsters londoniens se croisent dans une cascade de malentendus truculents.',
+    description:
+      'Des diamants volés, des boxeurs, des gitans et des gangsters londoniens se croisent dans une cascade de malentendus truculents.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 30,
@@ -446,7 +457,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 95,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Un jeune basketteur prometteur doit choisir entre son rêve sportif et une vie plus modeste aux côtés de la femme qu\'il aime.',
+    description:
+      "Un jeune basketteur prometteur doit choisir entre son rêve sportif et une vie plus modeste aux côtés de la femme qu'il aime.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -484,7 +496,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 92,
     genre: ['Comédie'],
     saga: '',
-    description: 'Le propriétaire d\'une salle de sport minable forme une équipe de dodgeball pour sauver son club face à une chaîne ultra-corporatiste.',
+    description:
+      "Le propriétaire d'une salle de sport minable forme une équipe de dodgeball pour sauver son club face à une chaîne ultra-corporatiste.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -521,7 +534,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 80,
     genre: ['Comédie'],
     saga: 'Garfield',
-    description: 'Le chat paresseux le plus célèbre du monde doit protéger sa gamelle, son canapé et son maître face à un chaton rival insupportable.',
+    description:
+      'Le chat paresseux le plus célèbre du monde doit protéger sa gamelle, son canapé et son maître face à un chaton rival insupportable.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -558,7 +572,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 86,
     genre: ['Comédie', 'Jeunesse'],
     saga: 'Garfield',
-    description: 'Garfield se retrouve confondu avec un chat aristocratique britannique et doit sauver un domaine menacé par un lord avide.',
+    description:
+      'Garfield se retrouve confondu avec un chat aristocratique britannique et doit sauver un domaine menacé par un lord avide.',
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Royaume-Uni'],
     selectDisplayOrder: 30,
@@ -595,7 +610,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 88,
     genre: ['Comédie'],
     saga: 'Harold & Kumar',
-    description: 'Deux amis en quête de burgers nocturnes traversent une nuit américaine hallucinante peuplée de flics, de jaguars et de délires.',
+    description:
+      'Deux amis en quête de burgers nocturnes traversent une nuit américaine hallucinante peuplée de flics, de jaguars et de délires.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -632,7 +648,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 90,
     genre: ['Comédie'],
     saga: 'Harold & Kumar',
-    description: 'Harold et Kumar s\'embarquent dans une odyssée de Noël chaotique pour retrouver un arbre et réparer leurs vies respectives.',
+    description:
+      "Harold et Kumar s'embarquent dans une odyssée de Noël chaotique pour retrouver un arbre et réparer leurs vies respectives.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -664,13 +681,13 @@ export const baseMoviesComedie: BaseMovie[] = [
         name: 'Simon Pegg',
       },
     ],
-    coverUrl:
-      '/movies_pictures/bed136b0882f.jpg',
+    coverUrl: '/movies_pictures/bed136b0882f.jpg',
     releaseDate: '2004-04-09',
     length: 99,
     genre: ['Comédie'],
     saga: 'Cornetto',
-    description: 'Shaun, vendeur de électroménager, tente de reconquérir son ex pendant une invasion de morts-vivants dans un Londres suburbain.',
+    description:
+      'Shaun, vendeur de électroménager, tente de reconquérir son ex pendant une invasion de morts-vivants dans un Londres suburbain.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 30,
@@ -707,7 +724,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 92,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un lycéen américain traverse l\'Europe avec ses amis pour retrouver une correspondante allemande, accumulant gaffes et aventures.',
+    description:
+      "Un lycéen américain traverse l'Europe avec ses amis pour retrouver une correspondante allemande, accumulant gaffes et aventures.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -739,13 +757,13 @@ export const baseMoviesComedie: BaseMovie[] = [
         name: 'Q3021869',
       },
     ],
-    coverUrl:
-      '/movies_pictures/e745f89f5868.jpg',
+    coverUrl: '/movies_pictures/e745f89f5868.jpg',
     releaseDate: '2004-02-11',
     length: 90,
     genre: ['Comédie'],
     saga: '',
-    description: 'Des sketcheurs parodient les grands films d\'action et d\'aventure dans une comédie délirante sans filet narratif.',
+    description:
+      "Des sketcheurs parodient les grands films d'action et d'aventure dans une comédie délirante sans filet narratif.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
@@ -779,7 +797,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 94,
     genre: ['Comédie'],
     saga: '',
-    description: 'À l\'âge de pierre, deux tribus voisines se disputent le contrôle exclusif de la couleur rouge avec une violence burlesque.',
+    description:
+      "À l'âge de pierre, deux tribus voisines se disputent le contrôle exclusif de la couleur rouge avec une violence burlesque.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
@@ -816,7 +835,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 101,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un reporter acariâtre reçoit temporairement les pouvoirs divins et découvre que diriger le monde est plus compliqué qu\'il ne le pensait.',
+    description:
+      "Un reporter acariâtre reçoit temporairement les pouvoirs divins et découvre que diriger le monde est plus compliqué qu'il ne le pensait.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -839,7 +859,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 91,
     genre: ['Comédie'],
     saga: '',
-    description: 'César, petit garçon complexé par sa taille, tente de séduire sa voisine tout en affrontant les humiliations du collège.',
+    description:
+      'César, petit garçon complexé par sa taille, tente de séduire sa voisine tout en affrontant les humiliations du collège.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -876,7 +897,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 101,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un expert en arts martiaux et un voleur de voitures s\'allient pour récupérer des diamants volés et sauver une otage.',
+    description:
+      "Un expert en arts martiaux et un voleur de voitures s'allient pour récupérer des diamants volés et sauver une otage.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -913,7 +935,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 95,
     genre: ['Comédie'],
     saga: '',
-    description: 'Deux amis fainéants montent un trafic de cannabis aussi minuscule qu\'ingérable, jusqu\'à croiser de vrais dealers dangereux.',
+    description:
+      "Deux amis fainéants montent un trafic de cannabis aussi minuscule qu'ingérable, jusqu'à croiser de vrais dealers dangereux.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -950,7 +973,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 86,
     genre: ['Comédie'],
     saga: '',
-    description: 'Des étudiants fainéants montent une entreprise de surveillance anti-triche qui dérape rapidement vers l\'absurde le plus total.',
+    description:
+      "Des étudiants fainéants montent une entreprise de surveillance anti-triche qui dérape rapidement vers l'absurde le plus total.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -987,11 +1011,12 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 111,
     genre: ['Comédie', 'Thriller'],
     saga: '',
-    description: 'Une famille de mafieux américains débarque en Normandie sous protection du FBI et perturbe la quiétude d\'un village français.',
+    description:
+      "Une famille de mafieux américains débarque en Normandie sous protection du FBI et perturbe la quiétude d'un village français.",
     fromEntity: {
       entityType: 'book',
-      title: "Malavita",
-      secondEntityKey: "Tonino Benacquista",
+      title: 'Malavita',
+      secondEntityKey: 'Tonino Benacquista',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1028,7 +1053,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 97,
     genre: ['Aventure', 'Comédie'],
     saga: '',
-    description: 'Un jeune séducteur du XVIIIe siècle se retrouve enrôlé malgré lui dans les guerres de Louis XV, entre duels et intrigues.',
+    description:
+      'Un jeune séducteur du XVIIIe siècle se retrouve enrôlé malgré lui dans les guerres de Louis XV, entre duels et intrigues.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1051,11 +1077,12 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 118,
     genre: ['Comédie', 'Policier'],
     saga: '',
-    description: 'Quatre retraités passionnés de romans policiers enquêtent sur de vraies disparitions lorsque leurs théories deviennent troublantes.',
+    description:
+      'Quatre retraités passionnés de romans policiers enquêtent sur de vraies disparitions lorsque leurs théories deviennent troublantes.',
     fromEntity: {
       entityType: 'book',
-      title: "Le Club du crime du jeudi",
-      secondEntityKey: "Richard Osman",
+      title: 'Le Club du crime du jeudi',
+      secondEntityKey: 'Richard Osman',
     },
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -1092,7 +1119,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 95,
     genre: ['Comédie'],
     saga: '',
-    description: 'Après une rupture, un homme enchaîne les coucheries chez ses amis parisiens, provoquant jalousies, mensonges et chaos sentimental.',
+    description:
+      'Après une rupture, un homme enchaîne les coucheries chez ses amis parisiens, provoquant jalousies, mensonges et chaos sentimental.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1129,7 +1157,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 98,
     genre: ['Comédie'],
     saga: '',
-    description: 'L\'équipe de bobsleigh jamaïcaine, novices mais déterminés, veut prouver au monde qu\'elle peut briller aux Jeux olympiques d\'hiver.',
+    description:
+      "L'équipe de bobsleigh jamaïcaine, novices mais déterminés, veut prouver au monde qu'elle peut briller aux Jeux olympiques d'hiver.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -1166,7 +1195,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 103,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Un jeune garçon du village sénégalais de Bandia part à l\'aventure avec l\'écrivain Patrick Poivre d\'Arvor, qui vient d\'acheter sa maison.',
+    description:
+      "Un jeune garçon du village sénégalais de Bandia part à l'aventure avec l'écrivain Patrick Poivre d'Arvor, qui vient d'acheter sa maison.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1197,7 +1227,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 96,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un médecin congolais s\'installe avec sa famille dans un village picard où leur arrivée bouleverse les habitudes d\'une communauté blanche.',
+    description:
+      "Un médecin congolais s'installe avec sa famille dans un village picard où leur arrivée bouleverse les habitudes d'une communauté blanche.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1234,7 +1265,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 85,
     genre: ['Comédie'],
     saga: 'Hot Shots',
-    description: 'Un pilote de chasse surdoué mais névrosé est envoyé en mission secrète dans une parodie échevelée des films de guerre hollywoodiens.',
+    description:
+      'Un pilote de chasse surdoué mais névrosé est envoyé en mission secrète dans une parodie échevelée des films de guerre hollywoodiens.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1271,7 +1303,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 86,
     genre: ['Comédie'],
     saga: 'Hot Shots',
-    description: 'Topper Harley repart au combat dans une satire des Rambo et autres héros musclés, entre flashbacks ridicules et explosions grotesques.',
+    description:
+      'Topper Harley repart au combat dans une satire des Rambo et autres héros musclés, entre flashbacks ridicules et explosions grotesques.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1308,17 +1341,16 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 116,
     genre: ['Comédie', 'Guerre'],
     saga: '',
-    description: 'Dans un hôpital de campagne pendant la guerre de Corée, des chirurgiens utilisent l\'humour noir pour tenir face à l\'horreur du conflit.',
+    description:
+      "Dans un hôpital de campagne pendant la guerre de Corée, des chirurgiens utilisent l'humour noir pour tenir face à l'horreur du conflit.",
     fromEntity: {
       entityType: 'book',
-      title: "MASH",
-      secondEntityKey: "Richard Hooker",
+      title: 'MASH',
+      secondEntityKey: 'Richard Hooker',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ADAPTED_SCREENPLAY, year: 1971 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ADAPTED_SCREENPLAY, year: 1971 }],
   },
   {
     title: 'Palm Springs',
@@ -1351,7 +1383,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 90,
     genre: ['Comédie', 'Science Fiction'],
     saga: '',
-    description: 'Deux invités d\'un mariage californien restent piégés dans une boucle temporelle où chaque réveil les ramène au même jour.',
+    description:
+      "Deux invités d'un mariage californien restent piégés dans une boucle temporelle où chaque réveil les ramène au même jour.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1374,11 +1407,12 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 98,
     genre: ['Comédie'],
     saga: '',
-    description: 'Deux paysans misogynes cultivent une soupe magique qui provoque des effets aussi surprenants que dévastateurs sur leur entourage.',
+    description:
+      'Deux paysans misogynes cultivent une soupe magique qui provoque des effets aussi surprenants que dévastateurs sur leur entourage.',
     fromEntity: {
       entityType: 'book',
-      title: "La Soupe aux choux",
-      secondEntityKey: "René Fallet",
+      title: 'La Soupe aux choux',
+      secondEntityKey: 'René Fallet',
     },
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
@@ -1415,7 +1449,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 132,
     genre: ['Comédie'],
     saga: '',
-    description: 'Deux Français ordinaires escortent des aviateurs britanniques à travers l\'Occupation, entre déguisements, chansons et poursuites.',
+    description:
+      "Deux Français ordinaires escortent des aviateurs britanniques à travers l'Occupation, entre déguisements, chansons et poursuites.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
@@ -1452,7 +1487,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 104,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un journaliste d\'investigation infiltre une multinationale agroalimentaire corrompue aux côtés d\'un militant écologiste excentrique.',
+    description:
+      "Un journaliste d'investigation infiltre une multinationale agroalimentaire corrompue aux côtés d'un militant écologiste excentrique.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
@@ -1489,7 +1525,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 95,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un industriel antisémite se retrouve déguisé en rabbin et poursuivi par des kidnappeurs dans une comédie de quiproquos effrénée.',
+    description:
+      'Un industriel antisémite se retrouve déguisé en rabbin et poursuivi par des kidnappeurs dans une comédie de quiproquos effrénée.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
@@ -1527,7 +1564,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 95,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un noble ruiné tente de marier sa fille au riche sultan du Mulg-Mulg, mais les complots, trahisons et identités croisées s\'accumulent.',
+    description:
+      "Un noble ruiné tente de marier sa fille au riche sultan du Mulg-Mulg, mais les complots, trahisons et identités croisées s'accumulent.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1558,7 +1596,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 85,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un richissime homme d\'affaires new-yorkais tente une matinée impossible pour cacher à sa fille ses mensonges amoureux et financiers.',
+    description:
+      "Un richissime homme d'affaires new-yorkais tente une matinée impossible pour cacher à sa fille ses mensonges amoureux et financiers.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1595,7 +1634,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 90,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un couple de bourgeois parisiens se retrouve mêlé à une affaire de vol de diamants impliquant des gangsters et des complices maladroits.',
+    description:
+      'Un couple de bourgeois parisiens se retrouve mêlé à une affaire de vol de diamants impliquant des gangsters et des complices maladroits.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1632,7 +1672,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 90,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un modeste employé de banque découvre que sa femme dépense des fortunes chez le coiffeur et décide de braquer son propre employeur.',
+    description:
+      'Un modeste employé de banque découvre que sa femme dépense des fortunes chez le coiffeur et décide de braquer son propre employeur.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1669,7 +1710,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 90,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un industriel et un peintre bohème se retrouvent liés par une série de malentendus autour d\'une maison de campagne convoitée.',
+    description:
+      "Un industriel et un peintre bohème se retrouvent liés par une série de malentendus autour d'une maison de campagne convoitée.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1706,7 +1748,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 90,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un modeste employé de bureau se retrouve entouré de femmes au travail, provoquant jalousies conjugales et quiproquos burlesques.',
+    description:
+      'Un modeste employé de bureau se retrouve entouré de femmes au travail, provoquant jalousies conjugales et quiproquos burlesques.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1743,7 +1786,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 90,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un escroc et un naïf se retrouvent en voiture pour un voyage à travers l\'Europe, traqués par des gangsters et la police.',
+    description:
+      "Un escroc et un naïf se retrouvent en voiture pour un voyage à travers l'Europe, traqués par des gangsters et la police.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1780,7 +1824,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 90,
     genre: ['Comédie'],
     saga: '',
-    description: 'Plusieurs histoires parallèles mêlent trafic de vin, héritages litigieux et escroqueries dans une comédie à la française des années 1960.',
+    description:
+      'Plusieurs histoires parallèles mêlent trafic de vin, héritages litigieux et escroqueries dans une comédie à la française des années 1960.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1817,7 +1862,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 90,
     genre: ['Comédie'],
     saga: '',
-    description: 'Cruchot et sa brigade débarquent à Manhattan pour une mission officielle qui se transforme en cavale burlesque à travers la ville.',
+    description:
+      'Cruchot et sa brigade débarquent à Manhattan pour une mission officielle qui se transforme en cavale burlesque à travers la ville.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1854,7 +1900,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 90,
     genre: ['Comédie'],
     saga: '',
-    description: 'Le journaliste Fandor et le commissaire Juve poursuivent Fantomas, qui multiplie les déguisements et les attentats spectaculaires.',
+    description:
+      'Le journaliste Fandor et le commissaire Juve poursuivent Fantomas, qui multiplie les déguisements et les attentats spectaculaires.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1891,7 +1938,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 90,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un restaurateur parisien excentrique voit sa soirée basculer quand ses clients, sa fille et un cambrioleur s\'entremêlent dans le chaos.',
+    description:
+      "Un restaurateur parisien excentrique voit sa soirée basculer quand ses clients, sa fille et un cambrioleur s'entremêlent dans le chaos.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1928,7 +1976,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 90,
     genre: ['Comédie'],
     saga: '',
-    description: 'Fantomas kidnappe un lord britannique et défie Scotland Yard, obligeant Juve et Fandor à reprendre la chasse à l\'infâme.',
+    description:
+      "Fantomas kidnappe un lord britannique et défie Scotland Yard, obligeant Juve et Fandor à reprendre la chasse à l'infâme.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1965,7 +2014,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 90,
     genre: ['Comédie'],
     saga: '',
-    description: 'Le gendarme Cruchot escorte par erreur une famille anglaise à travers la France, provoant accidents, malentendus et poursuites.',
+    description:
+      'Le gendarme Cruchot escorte par erreur une famille anglaise à travers la France, provoant accidents, malentendus et poursuites.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -2002,7 +2052,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 90,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un industriel français découvre qu\'il possède une usine de bateaux en faillite et tente de la relancer avec des inventions absurdes.',
+    description:
+      "Un industriel français découvre qu'il possède une usine de bateaux en faillite et tente de la relancer avec des inventions absurdes.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -2039,7 +2090,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 90,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un aristocrate ruiné vend son dos tatoué à un richissime collectionneur, mais le tableau disparaît avant le paiement final.',
+    description:
+      'Un aristocrate ruiné vend son dos tatoué à un richissime collectionneur, mais le tableau disparaît avant le paiement final.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -2076,7 +2128,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 90,
     genre: ['Comédie'],
     saga: '',
-    description: 'Le gendarme Cruchot tombe amoureux d\'une conductrice de mobylette, au grand dam de sa brigade et du maire de Saint-Tropez.',
+    description:
+      "Le gendarme Cruchot tombe amoureux d'une conductrice de mobylette, au grand dam de sa brigade et du maire de Saint-Tropez.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -2113,7 +2166,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 90,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un homme réveillé après soixante-cinq ans d\'hibernation doit être réintégré à la société moderne par sa famille désemparée.',
+    description:
+      "Un homme réveillé après soixante-cinq ans d'hibernation doit être réintégré à la société moderne par sa famille désemparée.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -2150,7 +2204,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 90,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un chef d\'orchestre exigeant découvre que sa fille est la chanteuse d\'un groupe rock qu\'il méprise profondément.',
+    description:
+      "Un chef d'orchestre exigeant découvre que sa fille est la chanteuse d'un groupe rock qu'il méprise profondément.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -2187,7 +2242,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 90,
     genre: ['Comédie'],
     saga: '',
-    description: 'Cruchot et sa brigade sont mutés en montagne, où leur rigueur administrative provoque une série de catastrophes burlesques.',
+    description:
+      'Cruchot et sa brigade sont mutés en montagne, où leur rigueur administrative provoque une série de catastrophes burlesques.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -2224,7 +2280,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 90,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un couple en crise croise des hippies, des chasseurs et des automobilistes en panne lors d\'un périple chaotique à travers la France.',
+    description:
+      "Un couple en crise croise des hippies, des chasseurs et des automobilistes en panne lors d'un périple chaotique à travers la France.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -2261,7 +2318,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 90,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un antiquaire parisien se retrouve mêlé à une affaire de vol de bijoux impliquant une belle inconnue et des gangsters maladroits.',
+    description:
+      'Un antiquaire parisien se retrouve mêlé à une affaire de vol de bijoux impliquant une belle inconnue et des gangsters maladroits.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -2298,7 +2356,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 90,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un inventeur et son voisin, tous deux obsédés par le bruit, entraînent tout un immeuble parisien dans une guerre de voisinage infernale.',
+    description:
+      'Un inventeur et son voisin, tous deux obsédés par le bruit, entraînent tout un immeuble parisien dans une guerre de voisinage infernale.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -2335,7 +2394,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 90,
     genre: ['Comédie'],
     saga: '',
-    description: 'Des extraterrestres débarquent à Saint-Tropez et Cruchot doit gérer à la fois l\'invasion cosmique et les caprices du maire.',
+    description:
+      "Des extraterrestres débarquent à Saint-Tropez et Cruchot doit gérer à la fois l'invasion cosmique et les caprices du maire.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -2372,7 +2432,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 90,
     genre: ['Comédie'],
     saga: '',
-    description: 'Molière est adapté avec verve : Harpagon, obsédé par l\'argent, complique la vie amoureuse de ses enfants dans une farce théâtrale.',
+    description:
+      "Molière est adapté avec verve : Harpagon, obsédé par l'argent, complique la vie amoureuse de ses enfants dans une farce théâtrale.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -2409,7 +2470,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 90,
     genre: ['Comédie'],
     saga: '',
-    description: 'Cruchot forme une brigade féminine à Saint-Tropez, provoquant jalousies, rivalités amoureuses et missions absurdes.',
+    description:
+      'Cruchot forme une brigade féminine à Saint-Tropez, provoquant jalousies, rivalités amoureuses et missions absurdes.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -2447,7 +2509,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 95,
     genre: ['Comédie'],
     saga: '',
-    description: 'Le gendarme Cruchot débarque à Saint-Tropez et découvre que ses méthodes rigides s\'accordent mal avec la vie balnéaire.',
+    description:
+      "Le gendarme Cruchot débarque à Saint-Tropez et découvre que ses méthodes rigides s'accordent mal avec la vie balnéaire.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -2465,13 +2528,13 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Hank Mann' },
       { name: 'Stanley Blystone' },
     ],
-    coverUrl:
-      '/movies_pictures/55468c12cbe1.jpg',
+    coverUrl: '/movies_pictures/55468c12cbe1.jpg',
     releaseDate: '1936-02-05',
     length: 87,
     genre: ['Comédie'],
     saga: '',
-    description: 'Charlot, ouvrier dans une usine mécanisée, lutte contre la modernité industrielle tout en cherchant sa place dans un monde qui l\'écrase.',
+    description:
+      "Charlot, ouvrier dans une usine mécanisée, lutte contre la modernité industrielle tout en cherchant sa place dans un monde qui l'écrase.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -2495,7 +2558,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 90,
     genre: ['Comédie', 'Action'],
     saga: 'Yamakasi',
-    description: 'Sept traceurs parisiens utilisent le parkour pour voler de l\'argent afin de financer une opération vitale pour l\'un des leurs.',
+    description:
+      "Sept traceurs parisiens utilisent le parkour pour voler de l'argent afin de financer une opération vitale pour l'un des leurs.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
@@ -2527,13 +2591,13 @@ export const baseMoviesComedie: BaseMovie[] = [
         name: 'Laurent Piemontesi',
       },
     ],
-    coverUrl:
-      '/movies_pictures/a0adfff91002.jpg',
+    coverUrl: '/movies_pictures/a0adfff91002.jpg',
     releaseDate: '2004-10-27',
     length: 89,
     genre: ['Action'],
     saga: 'Yamakasi',
-    description: 'Des pratiquants de parkour s\'opposent à un promoteur immobilier qui veut détruire le quartier où ils ont grandi et s\'entraînent.',
+    description:
+      "Des pratiquants de parkour s'opposent à un promoteur immobilier qui veut détruire le quartier où ils ont grandi et s'entraînent.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
@@ -2568,7 +2632,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 106,
     genre: ['Comédie', 'Action'],
     saga: '',
-    description: 'Un policier hongkongais protège sa nièce à New York et affronte une bande de mafieux dans des cascades d\'arts martiaux spectaculaires.',
+    description:
+      "Un policier hongkongais protège sa nièce à New York et affronte une bande de mafieux dans des cascades d'arts martiaux spectaculaires.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2606,7 +2671,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 105,
     genre: ['Comédie'],
     saga: 'Astérix',
-    description: 'Astérix et Obélix partent secourir Panoramix enlevé par les Romains, déclenchant une série d\'aventures burlesques en Gaule occupée.',
+    description:
+      "Astérix et Obélix partent secourir Panoramix enlevé par les Romains, déclenchant une série d'aventures burlesques en Gaule occupée.",
     fromEntity: {
       entityType: 'bd',
       title: 'Astérix le Gaulois',
@@ -2647,7 +2713,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 107,
     genre: ['Comédie'],
     saga: 'Astérix',
-    description: 'Astérix et Obélix escortent Panoramix en Égypte pour livrer une potion magique à Cléopâtre, sous la menace de Romains et de traitres.',
+    description:
+      'Astérix et Obélix escortent Panoramix en Égypte pour livrer une potion magique à Cléopâtre, sous la menace de Romains et de traitres.',
     fromEntity: {
       entityType: 'bd',
       title: 'Astérix et Cléopâtre',
@@ -2688,7 +2755,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 117,
     genre: ['Comédie'],
     saga: 'Astérix',
-    description: 'Astérix et Obélix se rendent aux Jeux olympiques grecs pour aider Lovesix, amoureux d\'une princesse promise à un rival romain.',
+    description:
+      "Astérix et Obélix se rendent aux Jeux olympiques grecs pour aider Lovesix, amoureux d'une princesse promise à un rival romain.",
     fromEntity: {
       entityType: 'bd',
       title: 'Astérix le Gaulois',
@@ -2724,13 +2792,13 @@ export const baseMoviesComedie: BaseMovie[] = [
         name: 'Dany Boon',
       },
     ],
-    coverUrl:
-      '/movies_pictures/e797301c3c2d.jpg',
+    coverUrl: '/movies_pictures/e797301c3c2d.jpg',
     releaseDate: '2012-10-17',
     length: 109,
     genre: ['Comédie'],
     saga: 'Astérix',
-    description: 'Astérix et Obélix traversent la Manche pour aider la reine d\'Angleterre face à Jules César, entre potions, clins d\'œil et bastons.',
+    description:
+      "Astérix et Obélix traversent la Manche pour aider la reine d'Angleterre face à Jules César, entre potions, clins d'œil et bastons.",
     fromEntity: {
       entityType: 'bd',
       title: 'Astérix le Gaulois',
@@ -2766,13 +2834,13 @@ export const baseMoviesComedie: BaseMovie[] = [
         name: 'Angèle',
       },
     ],
-    coverUrl:
-      '/movies_pictures/1b6714a56e48.jpg',
+    coverUrl: '/movies_pictures/1b6714a56e48.jpg',
     releaseDate: '2023-02-01',
     length: 112,
     genre: ['Comédie'],
     saga: 'Astérix',
-    description: 'Astérix et Obélix partent en Chine pour secourir la fille de l\'Empereur, mêlant arts martiaux, potion magique et parodie d\'épopée.',
+    description:
+      "Astérix et Obélix partent en Chine pour secourir la fille de l'Empereur, mêlant arts martiaux, potion magique et parodie d'épopée.",
     fromEntity: {
       entityType: 'bd',
       title: 'Astérix le Gaulois',
@@ -2813,7 +2881,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 106,
     genre: ['Comédie'],
     saga: '',
-    description: 'Deux agents du gouvernement américain traquent un inventeur fou qui menace les États-Unis avec des machines steampunk démentes.',
+    description:
+      'Deux agents du gouvernement américain traquent un inventeur fou qui menace les États-Unis avec des machines steampunk démentes.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2851,7 +2920,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 98,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un couple tranquille découvre que leurs voisins sont en réalité des témoins du FBI sous protection, attirant toute une mafia sur le quartier.',
+    description:
+      'Un couple tranquille découvre que leurs voisins sont en réalité des témoins du FBI sous protection, attirant toute une mafia sur le quartier.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2888,7 +2958,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 104,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un barman séduit une femme riche en se faisant passer pour un aristocrate, mais leur supercherie devient de plus en plus difficile à tenir.',
+    description:
+      'Un barman séduit une femme riche en se faisant passer pour un aristocrate, mais leur supercherie devient de plus en plus difficile à tenir.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -2925,7 +2996,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 93,
     genre: ['Comédie'],
     saga: '',
-    description: 'Trois lycéens ratent leurs examens et montent un plan délirant pour créer une fausse université afin de rassurer leurs parents.',
+    description:
+      'Trois lycéens ratent leurs examens et montent un plan délirant pour créer une fausse université afin de rassurer leurs parents.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2963,7 +3035,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 95,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un moniteur de colonie de vacances et son adjoint tentent de gérer un groupe d\'adolescents aussi turbulents qu\'attachants.',
+    description:
+      "Un moniteur de colonie de vacances et son adjoint tentent de gérer un groupe d'adolescents aussi turbulents qu'attachants.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
@@ -2987,7 +3060,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 106,
     genre: ['Comédie'],
     saga: '',
-    description: 'Gary et Brooke, en couple depuis des années, décident de se séparer mais continuent de partager leur appartement dans une guerre du quotidien.',
+    description:
+      'Gary et Brooke, en couple depuis des années, décident de se séparer mais continuent de partager leur appartement dans une guerre du quotidien.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3019,13 +3093,13 @@ export const baseMoviesComedie: BaseMovie[] = [
         name: 'Christine Citti',
       },
     ],
-    coverUrl:
-      '/movies_pictures/6079554dba09.jpg',
+    coverUrl: '/movies_pictures/6079554dba09.jpg',
     releaseDate: '2006-04-26',
     length: 111,
     genre: ['Comédie'],
     saga: 'Camping',
-    description: 'Des vacanciers d\'un camping du sud-est de la France vivent les amours, rivalités et fêtes estivales d\'une communauté hétéroclite.',
+    description:
+      "Des vacanciers d'un camping du sud-est de la France vivent les amours, rivalités et fêtes estivales d'une communauté hétéroclite.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
@@ -3046,7 +3120,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 100,
     genre: ['Comédie'],
     saga: 'Camping',
-    description: 'Les habitués du camping retrouvent leurs amours passées et leurs rivalités lors d\'un nouvel été sous le soleil du sud de la France.',
+    description:
+      "Les habitués du camping retrouvent leurs amours passées et leurs rivalités lors d'un nouvel été sous le soleil du sud de la France.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -3083,7 +3158,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 90,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un homme ordinaire voit sa vie basculer lorsqu\'il perd soudainement tout contrôle de ses gestes et de ses paroles en public.',
+    description:
+      "Un homme ordinaire voit sa vie basculer lorsqu'il perd soudainement tout contrôle de ses gestes et de ses paroles en public.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -3111,7 +3187,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 116,
     genre: ['Comédie'],
     saga: '',
-    description: 'Andy, célibataire à quarante ans, est poussé par ses amis à enfin vivre sa première expérience amoureuse et sexuelle.',
+    description:
+      'Andy, célibataire à quarante ans, est poussé par ses amis à enfin vivre sa première expérience amoureuse et sexuelle.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -3148,7 +3225,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 119,
     genre: ['Comédie'],
     saga: '',
-    description: 'Deux fêtards invétérés s\'infiltrent dans les mariages pour draguer, jusqu\'à ce qu\'une vraie histoire d\'amour vienne tout chambouler.',
+    description:
+      "Deux fêtards invétérés s'infiltrent dans les mariages pour draguer, jusqu'à ce qu'une vraie histoire d'amour vienne tout chambouler.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3185,7 +3263,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 95,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un Navy SEAL dur à cuire doit protéger cinq enfants turbulents dont le père scientifique est recherché par des mercenaires.',
+    description:
+      'Un Navy SEAL dur à cuire doit protéger cinq enfants turbulents dont le père scientifique est recherché par des mercenaires.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3217,13 +3296,13 @@ export const baseMoviesComedie: BaseMovie[] = [
         name: 'Blake Clark',
       },
     ],
-    coverUrl:
-      '/movies_pictures/2c4566715389.jpg',
+    coverUrl: '/movies_pictures/2c4566715389.jpg',
     releaseDate: '1994-07-29',
     length: 101,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un timide employé de banque trouve un masque magique qui libère une personnalité extravagante, attirant l\'attention de gangsters.',
+    description:
+      "Un timide employé de banque trouve un masque magique qui libère une personnalité extravagante, attirant l'attention de gangsters.",
     fromEntity: {
       entityType: 'comic',
       title: 'The Mask',
@@ -3259,13 +3338,13 @@ export const baseMoviesComedie: BaseMovie[] = [
         name: 'Élisabeth Vitali',
       },
     ],
-    coverUrl:
-      '/movies_pictures/e36a400f731e.jpg',
+    coverUrl: '/movies_pictures/e36a400f731e.jpg',
     releaseDate: '1994-03-16',
     length: 85,
     genre: ['Comédie'],
     saga: '',
-    description: 'Dans un talk-show parodique, trois personnages improbables enquêtent sur une série de meurtres dans une ville où tout est pastiche.',
+    description:
+      'Dans un talk-show parodique, trois personnages improbables enquêtent sur une série de meurtres dans une ville où tout est pastiche.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
@@ -3302,13 +3381,12 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 125,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un père divorcé se déguise en gouvernante écossaise pour rester près de ses enfants, multipliant les mensonges et les scènes comiques.',
+    description:
+      'Un père divorcé se déguise en gouvernante écossaise pour rester près de ses enfants, multipliant les mensonges et les scènes comiques.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_MAKEUP, year: 1994 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_MAKEUP, year: 1994 }],
   },
   {
     title: 'Le Dîner de Cons',
@@ -3341,7 +3419,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 80,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un éditeur invite chaque mercredi le plus stupide invité possible, jusqu\'à ce que son véritable idiot du jour bouleverse sa vie.',
+    description:
+      "Un éditeur invite chaque mercredi le plus stupide invité possible, jusqu'à ce que son véritable idiot du jour bouleverse sa vie.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
@@ -3373,13 +3452,13 @@ export const baseMoviesComedie: BaseMovie[] = [
         name: 'Philip Seymour Hoffman',
       },
     ],
-    coverUrl:
-      '/movies_pictures/473d4916f7e7.jpg',
+    coverUrl: '/movies_pictures/473d4916f7e7.jpg',
     releaseDate: '1998-03-06',
     length: 117,
     genre: ['Comédie'],
     saga: '',
-    description: 'Le Dude, fainéant californien, se retrouve mêlé à une affaire de rançon, de tapis volé et de bowling dans une comédie culte.',
+    description:
+      'Le Dude, fainéant californien, se retrouve mêlé à une affaire de rançon, de tapis volé et de bowling dans une comédie culte.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -3414,7 +3493,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 98,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un couple blanc adopte un bébé noir et doit affronter leurs propres préjugés ainsi que ceux de leur famille lors d\'une réunion explosive.',
+    description:
+      "Un couple blanc adopte un bébé noir et doit affronter leurs propres préjugés ainsi que ceux de leur famille lors d'une réunion explosive.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -3448,7 +3528,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 97,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un homme échoué sur une île déserte se lie d\'amitié avec un cadavre flatulent qui devient son outil de survie et de réflexion existentielle.',
+    description:
+      "Un homme échoué sur une île déserte se lie d'amitié avec un cadavre flatulent qui devient son outil de survie et de réflexion existentielle.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3485,7 +3566,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 95,
     genre: ['Comédie'],
     saga: '',
-    description: 'Orelsan et son équipe tournent un clip dans le sud de la France et se retrouvent embarqués dans une odyssée absurde à travers le désert.',
+    description:
+      'Orelsan et son équipe tournent un clip dans le sud de la France et se retrouvent embarqués dans une odyssée absurde à travers le désert.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -3522,7 +3604,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 105,
     genre: ['Comédie'],
     saga: '',
-    description: 'Des aliens interprètent des images de jeux vidéo classiques comme une déclaration de guerre et envahissent la Terre sous forme de pixels.',
+    description:
+      'Des aliens interprètent des images de jeux vidéo classiques comme une déclaration de guerre et envahissent la Terre sous forme de pixels.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3559,7 +3642,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 88,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un archéologue découvre un médaillon magique qui le rend jeune à volonté, attirant convoitises et poursuites dans le monde entier.',
+    description:
+      'Un archéologue découvre un médaillon magique qui le rend jeune à volonté, attirant convoitises et poursuites dans le monde entier.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3596,7 +3680,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 98,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un chauffeur de taxi maladroit hérite d\'un smoking magique qui le transforme en agent secret aux compétences surprenantes.',
+    description:
+      "Un chauffeur de taxi maladroit hérite d'un smoking magique qui le transforme en agent secret aux compétences surprenantes.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3633,7 +3718,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 94,
     genre: ['Comédie'],
     saga: '',
-    description: 'Brice, surfeur casse-cou de Nice, part à Los Angeles pour retrouver son idole et prouver qu\'il est bien le plus cool de la Côte d\'Azur.',
+    description:
+      "Brice, surfeur casse-cou de Nice, part à Los Angeles pour retrouver son idole et prouver qu'il est bien le plus cool de la Côte d'Azur.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
@@ -3670,7 +3756,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 90,
     genre: ['Comédie'],
     saga: '',
-    description: 'Des employés d\'un grand groupe se retrouvent bloqués dans un ascenseur avec leur patron, révélant secrets, mensonges et rivalités.',
+    description:
+      "Des employés d'un grand groupe se retrouvent bloqués dans un ascenseur avec leur patron, révélant secrets, mensonges et rivalités.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
@@ -3707,7 +3794,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 96,
     genre: ['Comédie'],
     saga: '',
-    description: 'Dans une parodie de Star Wars, le sinistre Dark Helmet poursuit la princesse Vespa et ses compagnons à travers la galaxie pastiche.',
+    description:
+      'Dans une parodie de Star Wars, le sinistre Dark Helmet poursuit la princesse Vespa et ses compagnons à travers la galaxie pastiche.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3744,7 +3832,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 98,
     genre: ['Comédie'],
     saga: '',
-    description: 'Steven Russell, escroc et arnaqueur invétéré, tombe amoureux d\'un détenu et multiplie les évasions pour le retrouver.',
+    description:
+      "Steven Russell, escroc et arnaqueur invétéré, tombe amoureux d'un détenu et multiplie les évasions pour le retrouver.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3781,7 +3870,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 104,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un homme pessimiste s\'engage à dire oui à toute proposition pendant un an, transformant radicalement sa vie personnelle et professionnelle.',
+    description:
+      "Un homme pessimiste s'engage à dire oui à toute proposition pendant un an, transformant radicalement sa vie personnelle et professionnelle.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3818,7 +3908,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 113,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un ancien agent israélien reconverti en coiffeur à New York doit affronter un magnat de la beauté corrompu tout en tombant amoureux.',
+    description:
+      'Un ancien agent israélien reconverti en coiffeur à New York doit affronter un magnat de la beauté corrompu tout en tombant amoureux.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3855,7 +3946,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 96,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un congressman modeste reçoit la mission divine de construire une arche, ce qui complique considérablement sa carrière et sa famille.',
+    description:
+      'Un congressman modeste reçoit la mission divine de construire une arche, ce qui complique considérablement sa carrière et sa famille.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3892,7 +3984,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 113,
     genre: ['Comédie'],
     saga: '',
-    description: 'Deux amis inséparables partent en road trip vers une fête universitaire avant la fin de leurs études, entre excès et prises de conscience.',
+    description:
+      'Deux amis inséparables partent en road trip vers une fête universitaire avant la fin de leurs études, entre excès et prises de conscience.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3921,13 +4014,13 @@ export const baseMoviesComedie: BaseMovie[] = [
         name: 'Cheik Doukouré',
       },
     ],
-    coverUrl:
-      '/movies_pictures/647779af582f.webp',
+    coverUrl: '/movies_pictures/647779af582f.webp',
     releaseDate: '1994-12-14',
     length: 85,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un homme d\'affaires parisien découvre qu\'il a un fils de treize ans élevé dans la forêt amazonienne par sa mère décédée.',
+    description:
+      "Un homme d'affaires parisien découvre qu'il a un fils de treize ans élevé dans la forêt amazonienne par sa mère décédée.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
@@ -3965,7 +4058,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 107,
     genre: ['Comédie'],
     saga: '',
-    description: 'Deux amis naïfs traversent les États-Unis pour rendre une valise à une femme, sans se douter qu\'ils transportent une rançon.',
+    description:
+      "Deux amis naïfs traversent les États-Unis pour rendre une valise à une femme, sans se douter qu'ils transportent une rançon.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3986,7 +4080,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 98,
     genre: ['Comédie'],
     saga: '',
-    description: 'Trois employés harcelés par leurs supérieurs imaginent des scénarios de meurtre qui deviennent soudainement très concrets.',
+    description:
+      'Trois employés harcelés par leurs supérieurs imaginent des scénarios de meurtre qui deviennent soudainement très concrets.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -4023,7 +4118,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 108,
     genre: ['Comédie'],
     saga: '',
-    description: 'Les trois complices montent leur propre entreprise, mais leurs anciens patrons et leurs propres démons les rattrapent.',
+    description:
+      'Les trois complices montent leur propre entreprise, mais leurs anciens patrons et leurs propres démons les rattrapent.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -4060,7 +4156,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 104,
     genre: ['Comédie'],
     saga: '',
-    description: 'Deux fans de science-fiction rencontrent un extraterrestre fugitif dans le désert américain et l\'aident à échapper aux autorités.',
+    description:
+      "Deux fans de science-fiction rencontrent un extraterrestre fugitif dans le désert américain et l'aident à échapper aux autorités.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4100,7 +4197,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 85,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un coach en séduction maladroit et son élève timide s\'entraînent dans une comédie française où les leçons de drague tournent au chaos.',
+    description:
+      "Un coach en séduction maladroit et son élève timide s'entraînent dans une comédie française où les leçons de drague tournent au chaos.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
@@ -4137,7 +4235,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 103,
     genre: ['Comédie'],
     saga: '',
-    description: 'Le célèbre cow-boy solitaire affronte les Dalton et protège un village du Far West dans une adaptation burlesque de la bande dessinée.',
+    description:
+      'Le célèbre cow-boy solitaire affronte les Dalton et protège un village du Far West dans une adaptation burlesque de la bande dessinée.',
     fromEntity: {
       entityType: 'bd',
       title: 'Wanted Lucky Luke',
@@ -4178,7 +4277,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 88,
     genre: ['Comédie'],
     saga: '',
-    description: 'Quatre survivants d\'une apocalypse zombie traversent les États-Unis en suivant des règles strictes de survie et en cherchant un refuge.',
+    description:
+      "Quatre survivants d'une apocalypse zombie traversent les États-Unis en suivant des règles strictes de survie et en cherchant un refuge.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4215,7 +4315,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 105,
     genre: ['Comédie'],
     saga: '',
-    description: 'D\'anciens champions de hockey amateur tentent un retour sur les glaces pour sauver leur club et retrouver la gloire de leurs jeunes années.',
+    description:
+      "D'anciens champions de hockey amateur tentent un retour sur les glaces pour sauver leur club et retrouver la gloire de leurs jeunes années.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -4252,7 +4353,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 83,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un dictateur du Moyen-Orient débarque à New York et doit retrouver son trône après avoir été trahi par son conseiller le plus proche.',
+    description:
+      'Un dictateur du Moyen-Orient débarque à New York et doit retrouver son trône après avoir été trahi par son conseiller le plus proche.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4289,7 +4391,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 109,
     genre: ['Comédie', 'Policier'],
     saga: '',
-    description: 'Deux flics inadaptés retournent au lycée sous couverture pour démanteler un réseau de drogue, revivant leurs propres années difficiles.',
+    description:
+      'Deux flics inadaptés retournent au lycée sous couverture pour démanteler un réseau de drogue, revivant leurs propres années difficiles.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -4321,13 +4424,13 @@ export const baseMoviesComedie: BaseMovie[] = [
         name: 'Jimmy Tatro',
       },
     ],
-    coverUrl:
-      '/movies_pictures/29a8a423373f.jpg',
+    coverUrl: '/movies_pictures/29a8a423373f.jpg',
     releaseDate: '2014-08-27',
     length: 112,
     genre: ['Comédie'],
     saga: '',
-    description: 'Les deux policiers infiltrent une université pour démanteler un trafic, mais leur amitié et leur couverture sont mises à rude épreuve.',
+    description:
+      'Les deux policiers infiltrent une université pour démanteler un trafic, mais leur amitié et leur couverture sont mises à rude épreuve.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -4359,13 +4462,13 @@ export const baseMoviesComedie: BaseMovie[] = [
         name: 'Caroline Bourg',
       },
     ],
-    coverUrl:
-      '/movies_pictures/0d3275a15e8d.jpg',
+    coverUrl: '/movies_pictures/0d3275a15e8d.jpg',
     releaseDate: '2011-11-02',
     length: 112,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un aristocrate tétraplégique embauche un auxiliaire de vie issu des banlieues, forgeant une amitié improbable qui transforme leurs vies.',
+    description:
+      'Un aristocrate tétraplégique embauche un auxiliaire de vie issu des banlieues, forgeant une amitié improbable qui transforme leurs vies.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
@@ -4397,13 +4500,13 @@ export const baseMoviesComedie: BaseMovie[] = [
         name: 'Mark Johnson',
       },
     ],
-    coverUrl:
-      '/movies_pictures/c6b9fab645f9.jpg',
+    coverUrl: '/movies_pictures/c6b9fab645f9.jpg',
     releaseDate: '1987-12-23',
     length: 121,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un DJ militaire animatrice de radio à Saïgon pendant la guerre du Vietnam use de l\'humour pour soutenir les soldats américains.',
+    description:
+      "Un DJ militaire animatrice de radio à Saïgon pendant la guerre du Vietnam use de l'humour pour soutenir les soldats américains.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -4435,13 +4538,13 @@ export const baseMoviesComedie: BaseMovie[] = [
         name: 'Katja Weitzenböck',
       },
     ],
-    coverUrl:
-      '/movies_pictures/bef1a3cb5954.jpg',
+    coverUrl: '/movies_pictures/bef1a3cb5954.jpg',
     releaseDate: '1993-01-27',
     length: 107,
     genre: ['Comédie'],
     saga: 'Les Visiteurs',
-    description: 'Un chevalier médiéval et son écuyer sont transportés par erreur au XXe siècle, provoquant chaos et malentendus dans une France moderne.',
+    description:
+      'Un chevalier médiéval et son écuyer sont transportés par erreur au XXe siècle, provoquant chaos et malentendus dans une France moderne.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
@@ -4473,13 +4576,13 @@ export const baseMoviesComedie: BaseMovie[] = [
         name: 'Marianne Sagebrecht',
       },
     ],
-    coverUrl:
-      '/movies_pictures/790fa0b4f65b.jpg',
+    coverUrl: '/movies_pictures/790fa0b4f65b.jpg',
     releaseDate: '1998-03-29',
     length: 118,
     genre: ['Comédie'],
     saga: 'Les Visiteurs',
-    description: 'Jacquouille et Godefroy reviennent au Moyen Âge puis au présent dans une quête pour réparer les dégâts causés par leurs voyages temporels.',
+    description:
+      'Jacquouille et Godefroy reviennent au Moyen Âge puis au présent dans une quête pour réparer les dégâts causés par leurs voyages temporels.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
@@ -4516,7 +4619,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 88,
     genre: ['Comédie'],
     saga: 'Les Visiteurs',
-    description: 'Les visiteurs médiévaux débarquent aux États-Unis, où leur incompréhension du monde moderne provoque des catastrophes burlesques.',
+    description:
+      'Les visiteurs médiévaux débarquent aux États-Unis, où leur incompréhension du monde moderne provoque des catastrophes burlesques.',
     fromEntity: null,
     countryOrigin: ['France', 'États-Unis'],
     selectDisplayOrder: 30,
@@ -4553,7 +4657,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 110,
     genre: ['Comédie'],
     saga: 'Les Visiteurs',
-    description: 'Godefroy et Jacquouille atterrissent en pleine Révolution française et doivent retrouver la potion du temps pour rentrer chez eux.',
+    description:
+      'Godefroy et Jacquouille atterrissent en pleine Révolution française et doivent retrouver la potion du temps pour rentrer chez eux.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
@@ -4590,7 +4695,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 93,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un groupe d\'amis fête son entrée dans l\'âge adulte lors d\'une soirée mémorable où secrets, ruptures et déclarations se succèdent.',
+    description:
+      "Un groupe d'amis fête son entrée dans l'âge adulte lors d'une soirée mémorable où secrets, ruptures et déclarations se succèdent.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -4627,7 +4733,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 108,
     genre: ['Comédie'],
     saga: '',
-    description: 'Deux amis d\'enfance simulent leur propre mort pour recommencer une vie meilleure, mais leurs nouvelles identités les plongent dans le trouble.',
+    description:
+      "Deux amis d'enfance simulent leur propre mort pour recommencer une vie meilleure, mais leurs nouvelles identités les plongent dans le trouble.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4664,7 +4771,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 92,
     genre: ['Comédie'],
     saga: '',
-    description: 'Deux stoners se réveillent sans voiture ni souvenirs après une soirée délirante et tentent de retracer leurs pas à travers la ville.',
+    description:
+      'Deux stoners se réveillent sans voiture ni souvenirs après une soirée délirante et tentent de retracer leurs pas à travers la ville.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4701,7 +4809,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 96,
     genre: ['Comédie'],
     saga: '',
-    description: 'Une hôtesse de l\'air et un architecte se croisent régulièrement dans les aéroports, tissant une relation à distance pleine de malentendus.',
+    description:
+      "Une hôtesse de l'air et un architecte se croisent régulièrement dans les aéroports, tissant une relation à distance pleine de malentendus.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4738,7 +4847,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 91,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un jeune cinéphile découvre le monde du porno californien lors d\'une virée nocturne avec son ami, entre rêves absurdes et désillusions.',
+    description:
+      "Un jeune cinéphile découvre le monde du porno californien lors d'une virée nocturne avec son ami, entre rêves absurdes et désillusions.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4775,7 +4885,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 104,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Une lycéenne studieuse établit une liste d\'expériences sexuelles à accomplir avant l\'université, dans une comédie d\'initiation provocante.',
+    description:
+      "Une lycéenne studieuse établit une liste d'expériences sexuelles à accomplir avant l'université, dans une comédie d'initiation provocante.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4812,7 +4923,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 88,
     genre: ['Comédie'],
     saga: '',
-    description: 'Ali G, présentateur de télévision parodique, se mêle de politique britannique et provoque scandales et catastrophes médiatiques.',
+    description:
+      'Ali G, présentateur de télévision parodique, se mêle de politique britannique et provoque scandales et catastrophes médiatiques.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -4849,7 +4961,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 97,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Leon Phelps, séducteur obsédé par les femmes, anime une émission nocturne tout en cherchant l\'amour véritable dans une comédie déjantée.',
+    description:
+      "Leon Phelps, séducteur obsédé par les femmes, anime une émission nocturne tout en cherchant l'amour véritable dans une comédie déjantée.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4886,7 +4999,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 90,
     genre: ['Comédie'],
     saga: '',
-    description: 'Walter, jeune Sénégalais fraîchement arrivé en France, découvre Paris et ses absurdités avec un humour tendre et décalé.',
+    description:
+      'Walter, jeune Sénégalais fraîchement arrivé en France, découvre Paris et ses absurdités avec un humour tendre et décalé.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -4923,7 +5037,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 109,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un dîner entre amis bascule lorsqu\'un futur père annonce le prénom qu\'il compte donner à son enfant, provoquant une polémique générale.',
+    description:
+      "Un dîner entre amis bascule lorsqu'un futur père annonce le prénom qu'il compte donner à son enfant, provoquant une polémique générale.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
@@ -4960,7 +5075,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 117,
     genre: ['Comédie'],
     saga: '',
-    description: 'Une femme solitaire reçoit des messages d\'une version future d\'elle-même qui prétend lui offrir une seconde chance amoureuse.',
+    description:
+      "Une femme solitaire reçoit des messages d'une version future d'elle-même qui prétend lui offrir une seconde chance amoureuse.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -4975,7 +5091,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 94,
     genre: ['Comédie'],
     saga: '',
-    description: 'Une famille se retrouve réunie pour un testament qui révèle des secrets de famille et des héritages aussi inattendus que conflictuels.',
+    description:
+      'Une famille se retrouve réunie pour un testament qui révèle des secrets de famille et des héritages aussi inattendus que conflictuels.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5012,7 +5129,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 101,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un couple célèbre son mariage sur une île tropicale, mais la cérémonie est interrompue par l\'irruption de pirates qui prennent les invités en otage.',
+    description:
+      "Un couple célèbre son mariage sur une île tropicale, mais la cérémonie est interrompue par l'irruption de pirates qui prennent les invités en otage.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5043,7 +5161,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 82,
     genre: ['Comédie'],
     saga: '',
-    description: 'Borat, journaliste kazakh naïf et provocateur, traverse les États-Unis pour préparer un documentaire, choquant les Américains qu\'il croise.',
+    description:
+      "Borat, journaliste kazakh naïf et provocateur, traverse les États-Unis pour préparer un documentaire, choquant les Américains qu'il croise.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -5081,7 +5200,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 128,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Julie, trentenaire indécise à Oslo, enchaîne relations, jobs et remises en question existentielles dans une comédie dramatique tendre.',
+    description:
+      'Julie, trentenaire indécise à Oslo, enchaîne relations, jobs et remises en question existentielles dans une comédie dramatique tendre.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5115,7 +5235,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 111,
     genre: ['Comédie'],
     saga: '',
-    description: 'Une chanteuse de country oblige un cabaretier new-yorkais à se transformer en cowboy chantant pour sauver son club menacé de fermeture.',
+    description:
+      'Une chanteuse de country oblige un cabaretier new-yorkais à se transformer en cowboy chantant pour sauver son club menacé de fermeture.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5152,7 +5273,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 107,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un homme découvre qu\'il a un jumeau séparé à la naissance et s\'engage dans une enquête sur les origines de cette séparation.',
+    description:
+      "Un homme découvre qu'il a un jumeau séparé à la naissance et s'engage dans une enquête sur les origines de cette séparation.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5189,7 +5311,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 111,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un policier dur à cuire se fait passer pour professeur en maternelle afin d\'infiltrer l\'école où opère un trafiquant de drogue.',
+    description:
+      "Un policier dur à cuire se fait passer pour professeur en maternelle afin d'infiltrer l'école où opère un trafiquant de drogue.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5226,7 +5349,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 110,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un chercheur en génétique expérimente sur lui-même un traitement de fertilité qui le rend temporairement enceint, au grand désarroi de son entourage.',
+    description:
+      'Un chercheur en génétique expérimente sur lui-même un traitement de fertilité qui le rend temporairement enceint, au grand désarroi de son entourage.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5263,7 +5387,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 92,
     genre: ['Comédie'],
     saga: '',
-    description: 'Des tueurs à gages amateurs tentent d\'éliminer Gunther, le meilleur assassin du monde, en filmant leur opération ratée pour en faire un documentaire.',
+    description:
+      "Des tueurs à gages amateurs tentent d'éliminer Gunther, le meilleur assassin du monde, en filmant leur opération ratée pour en faire un documentaire.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5301,7 +5426,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 100,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un cambrioleur sort de prison et est contraint de voler des œuvres d\'art légendaires pour un couple de criminels excentriques.',
+    description:
+      "Un cambrioleur sort de prison et est contraint de voler des œuvres d'art légendaires pour un couple de criminels excentriques.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5338,7 +5464,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 104,
     genre: ['Comédie'],
     saga: '',
-    description: 'Une actrice narcissique meurt dans un accident et revient sous forme de fantôme pour perturber la vie de son mari et de sa nouvelle compagne.',
+    description:
+      'Une actrice narcissique meurt dans un accident et revient sous forme de fantôme pour perturber la vie de son mari et de sa nouvelle compagne.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5375,7 +5502,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 101,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un reporter enquête sur une femme qui prétend être la parfaite épouse, mais découvre que son quotidien cache une machination dangereuse.',
+    description:
+      'Un reporter enquête sur une femme qui prétend être la parfaite épouse, mais découvre que son quotidien cache une machination dangereuse.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5412,7 +5540,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 117,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un gamin turbulent du ghetto de Baltimore est confié à un homme d\'affaires bourgeois qui découvre que l\'éducation peut être mutuelle.',
+    description:
+      "Un gamin turbulent du ghetto de Baltimore est confié à un homme d'affaires bourgeois qui découvre que l'éducation peut être mutuelle.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5449,7 +5578,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 123,
     genre: ['Comédie'],
     saga: '',
-    description: 'Deux braqueurs charismatiques séduisent leur otage de banque, créant un triangle amoureux aussi dangereux qu\'imprévisible.',
+    description:
+      "Deux braqueurs charismatiques séduisent leur otage de banque, créant un triangle amoureux aussi dangereux qu'imprévisible.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5486,7 +5616,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 98,
     genre: ['Comédie'],
     saga: '',
-    description: 'Les anciens voisins témoins protégés reviennent dans la banlieue, attirant à nouveau la mafia et provoquant une nouvelle série de catastrophes.',
+    description:
+      'Les anciens voisins témoins protégés reviennent dans la banlieue, attirant à nouveau la mafia et provoquant une nouvelle série de catastrophes.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5523,7 +5654,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 94,
     genre: ['Comédie'],
     saga: '',
-    description: 'Deux enfants s\'enfuient ensemble dans une île du Maine, provoquant une chasse à l\'homme orchestrée par leurs familles et la communauté locale.',
+    description:
+      "Deux enfants s'enfuient ensemble dans une île du Maine, provoquant une chasse à l'homme orchestrée par leurs familles et la communauté locale.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5562,7 +5694,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 86,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un avocat spécialisé dans le mensonge découvre que son fils souffre d\'une malédition l\'empêchant de dire quoi que ce soit de faux pendant vingt-quatre heures.',
+    description:
+      "Un avocat spécialisé dans le mensonge découvre que son fils souffre d'une malédition l'empêchant de dire quoi que ce soit de faux pendant vingt-quatre heures.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5599,7 +5732,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 116,
     genre: ['Comédie'],
     saga: '',
-    description: 'Deux amis créent une femme fictive pour couvrir leurs mensonges, mais leur invention devient une obsession collective autour d\'une Irène inexistante.',
+    description:
+      "Deux amis créent une femme fictive pour couvrir leurs mensonges, mais leur invention devient une obsession collective autour d'une Irène inexistante.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5636,7 +5770,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 95,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un couple de classe moyenne, ruiné par une arnaque financière, se met à braquer des banques avec une maladresse touchante et grotesque.',
+    description:
+      'Un couple de classe moyenne, ruiné par une arnaque financière, se met à braquer des banques avec une maladresse touchante et grotesque.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5673,7 +5808,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 95,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un promoteur immobilier solitaire hérite de six pingouins qui bouleversent son appartement new-yorkais et sa vision de la vie.',
+    description:
+      'Un promoteur immobilier solitaire hérite de six pingouins qui bouleversent son appartement new-yorkais et sa vision de la vie.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5710,7 +5846,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 130,
     genre: ['Comédie'],
     saga: '',
-    description: 'Deux anges déchus tentent de rentrer au paradis en exploitant une faille dans la doctrine catholique, provoquant une crise théologique burlesque.',
+    description:
+      'Deux anges déchus tentent de rentrer au paradis en exploitant une faille dans la doctrine catholique, provoquant une crise théologique burlesque.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5747,7 +5884,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 101,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Deux amis d\'enfance, fauchés, décident de tourner un film X amateur pour payer leurs dettes, sans prévoir leurs sentiments mutuels.',
+    description:
+      "Deux amis d'enfance, fauchés, décident de tourner un film X amateur pour payer leurs dettes, sans prévoir leurs sentiments mutuels.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5784,7 +5922,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 99,
     genre: ['Comédie'],
     saga: '',
-    description: 'Deux frères siamois partagent le même corps et tentent de mener une vie normale, entre carrière, amour et séparation chirurgicale envisagée.',
+    description:
+      'Deux frères siamois partagent le même corps et tentent de mener une vie normale, entre carrière, amour et séparation chirurgicale envisagée.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5821,7 +5960,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 108,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un cadre d\'une entreprise agroalimentaire dénonce un cartel de price-fixing tout en dissimulant ses propres détournements de fonds.',
+    description:
+      "Un cadre d'une entreprise agroalimentaire dénonce un cartel de price-fixing tout en dissimulant ses propres détournements de fonds.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5858,7 +5998,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 135,
     genre: ['Comédie'],
     saga: '',
-    description: 'Des humains se font réduire à la taille de jouets pour vivre dans des communautés miniatures, mais le bonheur promis reste insaisissable.',
+    description:
+      'Des humains se font réduire à la taille de jouets pour vivre dans des communautés miniatures, mais le bonheur promis reste insaisissable.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5895,7 +6036,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 105,
     genre: ['Comédie'],
     saga: '',
-    description: 'Dans une banlieue américaine des années 1950, une famille voit sa tranquillité ébranlée par le racisme, la corruption et un meurtre sordide.',
+    description:
+      'Dans une banlieue américaine des années 1950, une famille voit sa tranquillité ébranlée par le racisme, la corruption et un meurtre sordide.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5932,7 +6074,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 96,
     genre: ['Comédie'],
     saga: '',
-    description: 'Des employés d\'un gym découvrent le memoir d\'un ex-agent de la CIA et déclenchent une cascade d\'erreurs, de trahisons et de meurtres absurdes.',
+    description:
+      "Des employés d'un gym découvrent le memoir d'un ex-agent de la CIA et déclenchent une cascade d'erreurs, de trahisons et de meurtres absurdes.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5969,7 +6112,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 122,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un général américain est envoyé en Afghanistan pour relancer une guerre impopulaire, mais ses méthodes et son ego provoquent la catastrophe.',
+    description:
+      'Un général américain est envoyé en Afghanistan pour relancer une guerre impopulaire, mais ses méthodes et son ego provoquent la catastrophe.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6006,7 +6150,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 108,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un groupe de rock des années 1960 connaît un succès fulgurant avec un tube entraînant, avant que la gloire ne les sépare.',
+    description:
+      'Un groupe de rock des années 1960 connaît un succès fulgurant avec un tube entraînant, avant que la gloire ne les sépare.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6043,7 +6188,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 101,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un chauffeur de limousine licencié retourne à l\'université et tombe amoureux de sa professeure dans une comédie sur la seconde chance.',
+    description:
+      "Un chauffeur de limousine licencié retourne à l'université et tombe amoureux de sa professeure dans une comédie sur la seconde chance.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6080,7 +6226,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 98,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un consultant américain en faillite se rend en Arabie saoudite pour tenter de vendre une technologie de hologramme à un roi distrait.',
+    description:
+      'Un consultant américain en faillite se rend en Arabie saoudite pour tenter de vendre une technologie de hologramme à un roi distrait.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6117,7 +6264,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 104,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un veuf grincheux et un père de famille exubérant deviennent voisins et s\'affrontent avant de découvrir une amitié inattendue.',
+    description:
+      "Un veuf grincheux et un père de famille exubérant deviennent voisins et s'affrontent avant de découvrir une amitié inattendue.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6145,7 +6293,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 105,
     genre: ['Comédie'],
     saga: '',
-    description: 'Des parents et leurs enfants se retrouvent dans une ville désertique pour un concours de sciences, dans une comédie mélancolique et stylisée.',
+    description:
+      'Des parents et leurs enfants se retrouvent dans une ville désertique pour un concours de sciences, dans une comédie mélancolique et stylisée.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6182,13 +6331,12 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 139,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un agent sportif idéaliste, licencié après un manifeste personnel, reconstruit sa carrière avec une seule athlète et une assistante loyale.',
+    description:
+      'Un agent sportif idéaliste, licencié après un manifeste personnel, reconstruit sa carrière avec une seule athlète et une assistante loyale.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTOR, year: 1997 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTOR, year: 1997 }],
   },
   {
     title: 'Tonnerre sous les Tropiques',
@@ -6212,7 +6360,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 107,
     genre: ['Comédie'],
     saga: '',
-    description: 'Des acteurs hollywoodiens tournent un film de guerre en jungle et découvrent que les dangers réels dépassent largement le scénario.',
+    description:
+      'Des acteurs hollywoodiens tournent un film de guerre en jungle et découvrent que les dangers réels dépassent largement le scénario.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6250,7 +6399,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 113,
     genre: ['Comédie'],
     saga: '',
-    description: 'À New York, plusieurs personnages gravitent autour de la célébrité, convoitant la gloire, l\'amour et le succès dans une comédie choral.',
+    description:
+      "À New York, plusieurs personnages gravitent autour de la célébrité, convoitant la gloire, l'amour et le succès dans une comédie choral.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6287,7 +6437,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 96,
     genre: ['Comédie'],
     saga: '',
-    description: 'Une journaliste et un magicien enquêtent sur un aristocrate britannique qu\'ils suspectent d\'être un tueur en série.',
+    description:
+      "Une journaliste et un magicien enquêtent sur un aristocrate britannique qu'ils suspectent d'être un tueur en série.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6325,7 +6476,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 111,
     genre: ['Comédie'],
     saga: '',
-    description: 'Shakespeare est adapté avec verve : des nobles siciliens se livrent à joutes verbales, trahisons amoureuses et quiproquos élégants.',
+    description:
+      'Shakespeare est adapté avec verve : des nobles siciliens se livrent à joutes verbales, trahisons amoureuses et quiproquos élégants.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6362,7 +6514,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 118,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un entraîneur de football américain recrute d\'anciens joueurs en grève pour sauver la saison de son équipe professionnelle.',
+    description:
+      "Un entraîneur de football américain recrute d'anciens joueurs en grève pour sauver la saison de son équipe professionnelle.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6399,7 +6552,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 99,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un entraîneur alcoolique et ex-joueur de baseball tente de mener une équipe de Little League vers la victoire malgré son tempérament destructeur.',
+    description:
+      'Un entraîneur alcoolique et ex-joueur de baseball tente de mener une équipe de Little League vers la victoire malgré son tempérament destructeur.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6436,7 +6590,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 82,
     genre: ['Comédie'],
     saga: '',
-    description: 'Dans une parodie des romans vampires à la Twilight, une adolescente tombe amoureuse d\'un vampire pâle dans une comédie délirante.',
+    description:
+      "Dans une parodie des romans vampires à la Twilight, une adolescente tombe amoureuse d'un vampire pâle dans une comédie délirante.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6473,7 +6628,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 85,
     genre: ['Comédie'],
     saga: '',
-    description: 'Une parodie des blockbusters de super-héros où un adolescent ordinaire devient le héros d\'une aventure aussi absurde que chaotique.',
+    description:
+      "Une parodie des blockbusters de super-héros où un adolescent ordinaire devient le héros d'une aventure aussi absurde que chaotique.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6510,7 +6666,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 89,
     genre: ['Comédie'],
     saga: '',
-    description: 'Une parodie des films de gangsters des années 1990 où des jeunes du ghetto de South Central affrontent leurs voisins avec humour caustique.',
+    description:
+      'Une parodie des films de gangsters des années 1990 où des jeunes du ghetto de South Central affrontent leurs voisins avec humour caustique.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6533,7 +6690,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 107,
     genre: ['Comédie'],
     saga: '',
-    description: 'En 1987, un étudiant passe l\'été à travailler dans un parc d\'attractions miteux où il découvre l\'amour et la désillusion adulte.',
+    description:
+      "En 1987, un étudiant passe l'été à travailler dans un parc d'attractions miteux où il découvre l'amour et la désillusion adulte.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6570,7 +6728,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 110,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un écrivain en panne créative s\'invente un ami imaginaire en super-héros pour affronter ses peurs et sa relation avec une jeune fille.',
+    description:
+      "Un écrivain en panne créative s'invente un ami imaginaire en super-héros pour affronter ses peurs et sa relation avec une jeune fille.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6607,7 +6766,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 123,
     genre: ['Comédie'],
     saga: '',
-    description: 'Quatre amies afro-américaines partagent leurs histoires d\'amour, de trahison et de solidarité dans une comédie dramatique chaleureuse.',
+    description:
+      "Quatre amies afro-américaines partagent leurs histoires d'amour, de trahison et de solidarité dans une comédie dramatique chaleureuse.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6644,7 +6804,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 96,
     genre: ['Comédie'],
     saga: '',
-    description: 'Deux ex-amants se retrouvent pour espionner leurs nouveaux partenaires respectifs, mais leurs manœuvres les rapprochent à nouveau.',
+    description:
+      'Deux ex-amants se retrouvent pour espionner leurs nouveaux partenaires respectifs, mais leurs manœuvres les rapprochent à nouveau.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6681,7 +6842,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 105,
     genre: ['Comédie'],
     saga: '',
-    description: 'Deux sœurs sorcières, une prude et une libre, doivent unir leurs pouvoirs pour combattre une malédiction familiale centenaire.',
+    description:
+      'Deux sœurs sorcières, une prude et une libre, doivent unir leurs pouvoirs pour combattre une malédiction familiale centenaire.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6718,7 +6880,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 103,
     genre: ['Comédie'],
     saga: '',
-    description: 'Une femme alcoolique est contrainte de suivre un programme de désintoxication de vingt-huit jours dans une communauté thérapeutique.',
+    description:
+      'Une femme alcoolique est contrainte de suivre un programme de désintoxication de vingt-huit jours dans une communauté thérapeutique.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6755,7 +6918,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 110,
     genre: ['Comédie'],
     saga: '',
-    description: 'Une fille découvre le journal intime de sa mère et part retrouver ses amies d\'enfance pour comprendre les secrets d\'une génération de femmes du Sud.',
+    description:
+      "Une fille découvre le journal intime de sa mère et part retrouver ses amies d'enfance pour comprendre les secrets d'une génération de femmes du Sud.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6792,7 +6956,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 117,
     genre: ['Comédie'],
     saga: '',
-    description: 'Une agent du FBI maladroite et sa partenaire doivent infiltrer le milieu de la drogue en se faisant passer pour des criminels expérimentées.',
+    description:
+      'Une agent du FBI maladroite et sa partenaire doivent infiltrer le milieu de la drogue en se faisant passer pour des criminels expérimentées.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6829,7 +6994,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 107,
     genre: ['Comédie'],
     saga: '',
-    description: 'Une consultante en communication politique américaine travaille pour un candidat bolivien et manipule l\'opinion dans une satire électorale.',
+    description:
+      "Une consultante en communication politique américaine travaille pour un candidat bolivien et manipule l'opinion dans une satire électorale.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6866,7 +7032,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 88,
     genre: ['Comédie'],
     saga: '',
-    description: 'Deux amis montent une entreprise de vengeance à domicile pour financer une opération vitale dont l\'un d\'eux a besoin.',
+    description:
+      "Deux amis montent une entreprise de vengeance à domicile pour financer une opération vitale dont l'un d'eux a besoin.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6903,7 +7070,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 93,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un fainéant new-yorkais adopte un enfant de cinq ans pour impressionner sa petite amie, découvrant les responsabilités du paternage.',
+    description:
+      'Un fainéant new-yorkais adopte un enfant de cinq ans pour impressionner sa petite amie, découvrant les responsabilités du paternage.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6941,7 +7109,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 95,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un homme solitaire et sujet à des accès de colère tombe amoureux d\'une collègue, ouvrant une brèche de tendresse dans sa vie étriquée.',
+    description:
+      "Un homme solitaire et sujet à des accès de colère tombe amoureux d'une collègue, ouvrant une brèche de tendresse dans sa vie étriquée.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6978,7 +7147,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 128,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un cadre au tempérament effacé suit une thérapie de colère avec un spécialiste excentrique qui le pousse à exprimer ses frustrations.',
+    description:
+      'Un cadre au tempérament effacé suit une thérapie de colère avec un spécialiste excentrique qui le pousse à exprimer ses frustrations.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7015,7 +7185,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 109,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un architecte workaholic reçoit une télécommande universelle qui lui permet d\'avancer ou de reculer dans sa propre vie.',
+    description:
+      "Un architecte workaholic reçoit une télécommande universelle qui lui permet d'avancer ou de reculer dans sa propre vie.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7052,7 +7223,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 102,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un gardien de zoo découvre que les animaux lui parlent et lui prodiguent des conseils amoureux pour reconquérir sa fiancée.',
+    description:
+      'Un gardien de zoo découvre que les animaux lui parlent et lui prodiguent des conseils amoureux pour reconquérir sa fiancée.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7089,7 +7261,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 117,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un chirurgien esthétique ment sur son divorce pour séduire une jeune institutrice, enrôlant son assistant dans une comédie de mensonges.',
+    description:
+      'Un chirurgien esthétique ment sur son divorce pour séduire une jeune institutrice, enrôlant son assistant dans une comédie de mensonges.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7126,7 +7299,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 97,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un père immature tente de renouer avec son fils adolescent en l\'accompagnant au lycée, provoant honte, chaos et moments inattendus.',
+    description:
+      "Un père immature tente de renouer avec son fils adolescent en l'accompagnant au lycée, provoant honte, chaos et moments inattendus.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7163,7 +7337,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 117,
     genre: ['Comédie'],
     saga: '',
-    description: 'Deux parents divorcés, chacun avec leurs enfants, partent en vacances en Afrique où leurs familles recomposées doivent apprendre à cohabiter.',
+    description:
+      'Deux parents divorcés, chacun avec leurs enfants, partent en vacances en Afrique où leurs familles recomposées doivent apprendre à cohabiter.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7200,7 +7375,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 99,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un cordonnier new-yorkais hérite d\'une machine à coudre magique qui lui permet de se transformer en n\'importe quelle personne.',
+    description:
+      "Un cordonnier new-yorkais hérite d'une machine à coudre magique qui lui permet de se transformer en n'importe quelle personne.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7237,7 +7413,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 118,
     genre: ['Comédie'],
     saga: '',
-    description: 'Six frères outlaw du Far West, tous fils d\'un bandit légendaire, se réunissent pour sauver leur père des griffes d\'un ennemi.',
+    description:
+      "Six frères outlaw du Far West, tous fils d'un bandit légendaire, se réunissent pour sauver leur père des griffes d'un ennemi.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7274,7 +7451,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 130,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un manager de talents raté découvre une chanteuse exceptionnelle dans les années 1990 et tente enfin de mener une carrière au succès.',
+    description:
+      'Un manager de talents raté découvre une chanteuse exceptionnelle dans les années 1990 et tente enfin de mener une carrière au succès.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7311,7 +7489,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 92,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un hockeyeur raté reconverti en golfeur professionnel use de coups violents et de tempérament explosif pour sauver la maison de sa grand-mère.',
+    description:
+      'Un hockeyeur raté reconverti en golfeur professionnel use de coups violents et de tempérament explosif pour sauver la maison de sa grand-mère.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7348,7 +7527,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 116,
     genre: ['Comédie'],
     saga: '',
-    description: 'Dans une forêt enchantée, amoureux, fées et artisans de théâtre voient leurs destins s\'entremêler dans une comédie shakespearienne.',
+    description:
+      "Dans une forêt enchantée, amoureux, fées et artisans de théâtre voient leurs destins s'entremêler dans une comédie shakespearienne.",
     fromEntity: {
       entityType: 'book',
       title: "Songe d'une nuit d'été",
@@ -7380,7 +7560,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 138,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Des escrocs et leurs complices montent des arnaques sophistiquées impliquant des mafieux, le FBI et le monde du sport professionnel.',
+    description:
+      'Des escrocs et leurs complices montent des arnaques sophistiquées impliquant des mafieux, le FBI et le monde du sport professionnel.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7417,7 +7598,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 111,
     genre: ['Comédie'],
     saga: '',
-    description: 'Deux lycéennes cyniques terminent leurs études et affrontent l\'ennui suburban en traquant un collectionneur d\'objets kitsch excentrique.',
+    description:
+      "Deux lycéennes cyniques terminent leurs études et affrontent l'ennui suburban en traquant un collectionneur d'objets kitsch excentrique.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7454,7 +7636,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 93,
     genre: ['Comédie'],
     saga: '',
-    description: 'Six lycéens planifient le vol des réponses d\'un examen d\'entrée à l\'université pour garantir leur avenir académique.',
+    description:
+      "Six lycéens planifient le vol des réponses d'un examen d'entrée à l'université pour garantir leur avenir académique.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7491,7 +7674,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 115,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un chef étoilé licencié repart à zéro avec un food truck, retrouvant sa passion culinaire et renouant avec son fils lors d\'un road trip.',
+    description:
+      "Un chef étoilé licencié repart à zéro avec un food truck, retrouvant sa passion culinaire et renouant avec son fils lors d'un road trip.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7528,13 +7712,12 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 108,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un jeune nazi en herbe découvre qu\'il a une fille juive cachée chez lui, bouleversant sa vision du monde sous le régime hitlérien.',
+    description:
+      "Un jeune nazi en herbe découvre qu'il a une fille juive cachée chez lui, bouleversant sa vision du monde sous le régime hitlérien.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ADAPTED_SCREENPLAY, year: 2020 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ADAPTED_SCREENPLAY, year: 2020 }],
   },
   {
     title: 'Whiskey Tango Foxtrot',
@@ -7567,7 +7750,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 112,
     genre: ['Comédie'],
     saga: '',
-    description: 'Une journaliste américaine est envoyée en Afghanistan couvrir la guerre et découvre sur place une comédie tragique de correspondants de guerre.',
+    description:
+      'Une journaliste américaine est envoyée en Afghanistan couvrir la guerre et découvre sur place une comédie tragique de correspondants de guerre.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7604,7 +7788,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 113,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un enfant atteint d\'un syndrome rare vieillit quatre fois plus vite que la normale, affrontant l\'école et l\'adolescence avec un corps d\'adulte.',
+    description:
+      "Un enfant atteint d'un syndrome rare vieillit quatre fois plus vite que la normale, affrontant l'école et l'adolescence avec un corps d'adulte.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7641,7 +7826,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 97,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un vendeur de matériel médical voit sa vie basculer lorsqu\'il croise une femme mystérieuse dans une comédie romantique chaotique.',
+    description:
+      "Un vendeur de matériel médical voit sa vie basculer lorsqu'il croise une femme mystérieuse dans une comédie romantique chaotique.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7664,7 +7850,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 125,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un trader new-yorkais arrogant voit sa vie de luxe s\'effondrer après un accident qui le plonge dans le scandale et la chute sociale.',
+    description:
+      "Un trader new-yorkais arrogant voit sa vie de luxe s'effondrer après un accident qui le plonge dans le scandale et la chute sociale.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7702,7 +7889,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 97,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un auteur à succès tombe amoureux d\'une jeune médecin et doit affronter son ex-femme et ses propres peurs existentielles.',
+    description:
+      "Un auteur à succès tombe amoureux d'une jeune médecin et doit affronter son ex-femme et ses propres peurs existentielles.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7739,7 +7927,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 105,
     genre: ['Comédie'],
     saga: '',
-    description: 'Quatre amis septuagénaires partent à Las Vegas pour fêter le mariage du plus sage du groupe, ravivant vieilles frasques et rivalités.',
+    description:
+      'Quatre amis septuagénaires partent à Las Vegas pour fêter le mariage du plus sage du groupe, ravivant vieilles frasques et rivalités.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7762,7 +7951,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 96,
     genre: ['Comédie'],
     saga: '',
-    description: 'Trois retraités planifient un braquage de banque pour récupérer l\'argent volé par leur ancienne entreprise lors de leur licenciement.',
+    description:
+      "Trois retraités planifient un braquage de banque pour récupérer l'argent volé par leur ancienne entreprise lors de leur licenciement.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7799,7 +7989,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 125,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un barbier juif ressemblant au dictateur d\'un pays fictif est confondu avec le tyran et doit jouer son rôle pour sauver sa communauté.',
+    description:
+      "Un barbier juif ressemblant au dictateur d'un pays fictif est confondu avec le tyran et doit jouer son rôle pour sauver sa communauté.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7836,7 +8027,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 87,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un vagabond aveugle et une fleuriste pauvre se lient d\'amitié dans une comédie mélancolique où la bonté triomphe de la misère urbaine.',
+    description:
+      "Un vagabond aveugle et une fleuriste pauvre se lient d'amitié dans une comédie mélancolique où la bonté triomphe de la misère urbaine.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 1,
@@ -7873,7 +8065,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 96,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un prospecteur solitaire cherche l\'or dans le Klondike et affronte le froid, la faim et ses propres illusions dans une comédie burlesque.',
+    description:
+      "Un prospecteur solitaire cherche l'or dans le Klondike et affronte le froid, la faim et ses propres illusions dans une comédie burlesque.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 1,
@@ -7910,7 +8103,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 105,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un ancien truand retraité est rappelé par ses anciens complices pour une dernière affaire qui remet en cause sa vie paisible.',
+    description:
+      'Un ancien truand retraité est rappelé par ses anciens complices pour une dernière affaire qui remet en cause sa vie paisible.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
@@ -7947,7 +8141,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 102,
     genre: ['Comédie'],
     saga: '',
-    description: 'Deux sœurs montent une entreprise de nettoyage de scènes de crime pour payer les études de l\'une d\'elles, dans une comédie tendre et sombre.',
+    description:
+      "Deux sœurs montent une entreprise de nettoyage de scènes de crime pour payer les études de l'une d'elles, dans une comédie tendre et sombre.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7984,7 +8179,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 90,
     genre: ['Comédie'],
     saga: '',
-    description: 'Sami, banlieusard, intègre le prestigieux lycée Henri-IV et découvre les codes de la bourgeoisie parisienne avec maladresse et humour.',
+    description:
+      'Sami, banlieusard, intègre le prestigieux lycée Henri-IV et découvre les codes de la bourgeoisie parisienne avec maladresse et humour.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -8021,7 +8217,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 97,
     genre: ['Comédie'],
     saga: '',
-    description: 'Sami, devenu adulte, revient dans sa banlieue natale et croise son passé lors d\'une comédie sur les identités et les origines sociales.',
+    description:
+      "Sami, devenu adulte, revient dans sa banlieue natale et croise son passé lors d'une comédie sur les identités et les origines sociales.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -8052,7 +8249,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 105,
     genre: ['Comédie'],
     saga: '',
-    description: 'Jack Mimoun, ex-aventurier de télévision, repart en expédition au Val Verde pour retrouver une amie disparue dans la jungle.',
+    description:
+      'Jack Mimoun, ex-aventurier de télévision, repart en expédition au Val Verde pour retrouver une amie disparue dans la jungle.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -8089,7 +8287,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 154,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un groupe d\'amis se retrouve chaque été dans le sud de la France, où amours, jalousies et secrets refont surface.',
+    description:
+      "Un groupe d'amis se retrouve chaque été dans le sud de la France, où amours, jalousies et secrets refont surface.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -8126,7 +8325,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 108,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un cinéaste en panne créative et une femme de chœur se rencontrent à Paris et entament une romance aussi improbable que musicale.',
+    description:
+      'Un cinéaste en panne créative et une femme de chœur se rencontrent à Paris et entament une romance aussi improbable que musicale.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -8154,7 +8354,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 98,
     genre: ['Comédie'],
     saga: '',
-    description: 'Une femme de petite taille tombe amoureuse d\'un homme bien plus petit qu\'elle, remettant en question ses critères amoureux.',
+    description:
+      "Une femme de petite taille tombe amoureuse d'un homme bien plus petit qu'elle, remettant en question ses critères amoureux.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -8191,7 +8392,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 86,
     genre: ['Comédie'],
     saga: '',
-    description: 'La veille de Noël, des bénévoles d\'une permanence téléphonique doivent gérer une ribambelle de personnages aussi pitoyables que dangereux.',
+    description:
+      "La veille de Noël, des bénévoles d'une permanence téléphonique doivent gérer une ribambelle de personnages aussi pitoyables que dangereux.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -8228,7 +8430,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 82,
     genre: ['Comédie'],
     saga: '',
-    description: 'Deux amis fainéants se retrouvent seuls dans Paris pendant les vacances et tentent de profiter de la ville sans aucun plan.',
+    description:
+      'Deux amis fainéants se retrouvent seuls dans Paris pendant les vacances et tentent de profiter de la ville sans aucun plan.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -8265,7 +8468,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 122,
     genre: ['Comédie'],
     saga: '',
-    description: 'Amélie, serveuse timide à Montmartre, décide de rendre le monde meilleur en orchestrant discrètement le bonheur des gens qui l\'entourent.',
+    description:
+      "Amélie, serveuse timide à Montmartre, décide de rendre le monde meilleur en orchestrant discrètement le bonheur des gens qui l'entourent.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -8302,7 +8506,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 105,
     genre: ['Comédie'],
     saga: '',
-    description: 'Trois frères séparés depuis l\'enfance se retrouvent pour l\'héritage de leur mère et découvrent une famille qu\'ils ne se connaissaient pas.',
+    description:
+      "Trois frères séparés depuis l'enfance se retrouvent pour l'héritage de leur mère et découvrent une famille qu'ils ne se connaissaient pas.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -8339,7 +8544,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 97,
     genre: ['Comédie'],
     saga: "Qu'est-ce qu'on a fait au bon dieu ?",
-    description: 'Un couple catholique de la campagne voit ses quatre filles épouser des hommes juif, musulman, bouddhiste et athée, provoquant le chaos familial.',
+    description:
+      'Un couple catholique de la campagne voit ses quatre filles épouser des hommes juif, musulman, bouddhiste et athée, provoquant le chaos familial.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
@@ -8362,7 +8568,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 99,
     genre: ['Comédie'],
     saga: "Qu'est-ce qu'on a fait au bon dieu ?",
-    description: 'Les beaux-parents de Claude et Marie voient leurs filles et gendres revenir avec de nouveaux bébés, relançant les tensions confessionnelles.',
+    description:
+      'Les beaux-parents de Claude et Marie voient leurs filles et gendres revenir avec de nouveaux bébés, relançant les tensions confessionnelles.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
@@ -8385,7 +8592,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 102,
     genre: ['Comédie'],
     saga: "Qu'est-ce qu'on a fait au bon dieu ?",
-    description: 'La famille Verneuil affronte une nouvelle génération de petits-enfants dont les choix de vie relancent les querelles religieuses et culturelles.',
+    description:
+      'La famille Verneuil affronte une nouvelle génération de petits-enfants dont les choix de vie relancent les querelles religieuses et culturelles.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
@@ -8422,7 +8630,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 85,
     genre: ['Comédie'],
     saga: 'Babysitting',
-    description: 'Un soir de babysitting dégénère en cavale nocturne à travers Paris lorsqu\'un père et la nounou poursuivent des kidnappeurs.',
+    description:
+      "Un soir de babysitting dégénère en cavale nocturne à travers Paris lorsqu'un père et la nounou poursuivent des kidnappeurs.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
@@ -8459,7 +8668,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 97,
     genre: ['Comédie'],
     saga: 'Babysitting',
-    description: 'Frank et ses amis partent en voyage scolaire en Corée du Sud, où une nouvelle aventure chaotique les attend.',
+    description:
+      'Frank et ses amis partent en voyage scolaire en Corée du Sud, où une nouvelle aventure chaotique les attend.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
@@ -8496,7 +8706,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 106,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un facteur du sud muté dans le Nord découvre que les préjugés sur les Ch\'tis sont bien loin de la chaleur humaine qu\'il y trouve.',
+    description:
+      "Un facteur du sud muté dans le Nord découvre que les préjugés sur les Ch'tis sont bien loin de la chaleur humaine qu'il y trouve.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
@@ -8533,7 +8744,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 90,
     genre: ['Comédie'],
     saga: '',
-    description: 'Des lycéens français des années 1990 traversent l\'adolescence entre premiers amours, humiliations et fêtes de fin d\'année mémorables.',
+    description:
+      "Des lycéens français des années 1990 traversent l'adolescence entre premiers amours, humiliations et fêtes de fin d'année mémorables.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -8570,7 +8782,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 105,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un ancien alcoolique et une femme alcoolique se retrouvent un hiver à Deauville, entre nostalgie, tentation et complicité amère.',
+    description:
+      'Un ancien alcoolique et une femme alcoolique se retrouvent un hiver à Deauville, entre nostalgie, tentation et complicité amère.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -8607,7 +8820,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 86,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un tueur à gages taciturne doit escorter un bavard invétéré jusqu\'à la frontière suisse, provoquant une série de malentendus mortels.',
+    description:
+      "Un tueur à gages taciturne doit escorter un bavard invétéré jusqu'à la frontière suisse, provoquant une série de malentendus mortels.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -8644,7 +8858,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 95,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un vendeur de textile juif se fait passer pour un homme de la communauté arabe pour séduire une belle femme, entraînant toute une escroquerie.',
+    description:
+      'Un vendeur de textile juif se fait passer pour un homme de la communauté arabe pour séduire une belle femme, entraînant toute une escroquerie.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -8681,7 +8896,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 90,
     genre: ['Comédie'],
     saga: '',
-    description: 'Blond et Bernard, deux amis excentriques, errent dans un univers absurde à la recherche d\'un steak perdu dans une comédie décalée.',
+    description:
+      "Blond et Bernard, deux amis excentriques, errent dans un univers absurde à la recherche d'un steak perdu dans une comédie décalée.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -8718,7 +8934,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 139,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Une journaliste tombe amoureuse d\'un homme qui cache une personnalité bien plus sombre que la façade charmante qu\'il présente.',
+    description:
+      "Une journaliste tombe amoureuse d'un homme qui cache une personnalité bien plus sombre que la façade charmante qu'il présente.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -8758,13 +8975,12 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 122,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Un père et une fille atteints de troubles bipolaires tentent de reconstruire leur vie après une crise, avec l\'aide d\'une veuve exubérante.',
+    description:
+      "Un père et une fille atteints de troubles bipolaires tentent de reconstruire leur vie après une crise, avec l'aide d'une veuve exubérante.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ACTRESS, year: 2013 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ACTRESS, year: 2013 }],
   },
   {
     title: 'Hysteria',
@@ -8798,7 +9014,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 100,
     genre: ['Comédie'],
     saga: '',
-    description: 'Dans le Londres victorien, un médecin développe le premier vibrateur en traitant des femmes atteintes d\'hystérie dans une comédie historique.',
+    description:
+      "Dans le Londres victorien, un médecin développe le premier vibrateur en traitant des femmes atteintes d'hystérie dans une comédie historique.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -8835,7 +9052,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 90,
     genre: ['Comédie'],
     saga: '',
-    description: 'Lady Susan Vernon, veuve manipulatrice, intrigue pour marier sa fille et elle-même dans une comédie d\'époque pleine de reparties cinglantes.',
+    description:
+      "Lady Susan Vernon, veuve manipulatrice, intrigue pour marier sa fille et elle-même dans une comédie d'époque pleine de reparties cinglantes.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -8872,7 +9090,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 90,
     genre: ['Comédie'],
     saga: '',
-    description: 'Des lycéens californiens des années 1980 vivent leurs premières expériences amoureuses, leurs fêtes et leurs désillusions dans une comédie culte.',
+    description:
+      'Des lycéens californiens des années 1980 vivent leurs premières expériences amoureuses, leurs fêtes et leurs désillusions dans une comédie culte.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -8895,7 +9114,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 108,
     genre: ['Comédie', 'Policier'],
     saga: '',
-    description: 'Une vendeuse de grand magasin se fait passer pour une mannequin pour séduire un photographe, entraînant toute une supercherie glamour.',
+    description:
+      'Une vendeuse de grand magasin se fait passer pour une mannequin pour séduire un photographe, entraînant toute une supercherie glamour.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -8932,7 +9152,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 94,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Des collectionneurs d\'art, des dealers et des escrocs londoniens s\'affrontent autour d\'un tableau de Mondrian dans une satire du milieu artistique.',
+    description:
+      "Des collectionneurs d'art, des dealers et des escrocs londoniens s'affrontent autour d'un tableau de Mondrian dans une satire du milieu artistique.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -8969,7 +9190,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 85,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Deux arnaqueurs immatures recueillent un enfant abandonné et découvrent les responsabilités du paternité malgré eux.',
+    description:
+      'Deux arnaqueurs immatures recueillent un enfant abandonné et découvrent les responsabilités du paternité malgré eux.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -8992,7 +9214,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 133,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Un professeur de prépas retient un élève rebelle pendant les vacances de Noël dans une pension, forgeant une relation inattendue.',
+    description:
+      'Un professeur de prépas retient un élève rebelle pendant les vacances de Noël dans une pension, forgeant une relation inattendue.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9016,7 +9239,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 0,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un homme marié entame une liaison dangereuse avec une collègue, découvrant que les conséquences dépassent largement le simple adultère.',
+    description:
+      'Un homme marié entame une liaison dangereuse avec une collègue, découvrant que les conséquences dépassent largement le simple adultère.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -9039,7 +9263,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 108,
     genre: ['Comédie', 'Policier', 'Thriller'],
     saga: '',
-    description: 'Deux hommes de main rivaux doivent coopérer pour nettoyer une scène de crime avant l\'aube, dans une comédie nocturne pleine de retournements.',
+    description:
+      "Deux hommes de main rivaux doivent coopérer pour nettoyer une scène de crime avant l'aube, dans une comédie nocturne pleine de retournements.",
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -9062,7 +9287,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 106,
     genre: ['Comédie', 'Drame', 'Mystère'],
     saga: '',
-    description: 'Un fixeur d\'un studio hollywoodien des années 1950 doit retrouver une star de cinéma enlevée lors du tournage d\'un péplum romain.',
+    description:
+      "Un fixeur d'un studio hollywoodien des années 1950 doit retrouver une star de cinéma enlevée lors du tournage d'un péplum romain.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9085,7 +9311,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 114,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Sur une île irlandaise, un musicien brise soudainement toute relation avec son ami de toujours, plongeant la communauté dans l\'incompréhension.',
+    description:
+      "Sur une île irlandaise, un musicien brise soudainement toute relation avec son ami de toujours, plongeant la communauté dans l'incompréhension.",
     fromEntity: null,
     countryOrigin: ['Irlande'],
     selectDisplayOrder: 0,
@@ -9108,7 +9335,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 102,
     genre: ['Comédie'],
     saga: '',
-    description: 'Deux lycéennes surdouées décident de rattraper en une nuit toutes les fêtes qu\'elles ont manquées avant leur remise de diplômes.',
+    description:
+      "Deux lycéennes surdouées décident de rattraper en une nuit toutes les fêtes qu'elles ont manquées avant leur remise de diplômes.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9131,7 +9359,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 0,
     genre: ['Comédie', 'Policier', 'Drame'],
     saga: '',
-    description: 'Un milliardaire tech organise une partie de poker chez lui, mais la soirée bascule en enquête criminelle lorsque les invités sont piégés.',
+    description:
+      'Un milliardaire tech organise une partie de poker chez lui, mais la soirée bascule en enquête criminelle lorsque les invités sont piégés.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9147,7 +9376,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 0,
     genre: ['Comédie'],
     saga: '',
-    description: 'Deux hommes dînent ensemble dans une conversation intime et humoristique qui parodie le film culte My Dinner with Andre.',
+    description:
+      'Deux hommes dînent ensemble dans une conversation intime et humoristique qui parodie le film culte My Dinner with Andre.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9170,7 +9400,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 125,
     genre: ['Comédie', 'Drame', 'Fantastique'],
     saga: '',
-    description: 'Un financier célibataire endurci découvre ce qu\'aurait été sa vie s\'il avait épousé son amour de jeunesse, dans une réalité alternative.',
+    description:
+      "Un financier célibataire endurci découvre ce qu'aurait été sa vie s'il avait épousé son amour de jeunesse, dans une réalité alternative.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9207,7 +9438,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 91,
     genre: ['Comédie', 'Romance', 'Mystère'],
     saga: 'Sherlock Holmes',
-    description: 'Un juge qui se croit Sherlock Holmes traque Moriarty dans le New York moderne, accompagné d\'une psychiatre qui devient son Watson.',
+    description:
+      "Un juge qui se croit Sherlock Holmes traque Moriarty dans le New York moderne, accompagné d'une psychiatre qui devient son Watson.",
     fromEntity: {
       entityType: 'book' as const,
       title: 'Les Aventures de Sherlock Holmes',
@@ -9248,7 +9480,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 107,
     genre: ['Comédie', 'Mystère'],
     saga: 'Sherlock Holmes',
-    description: 'Dans une réécriture comique, le Dr Watson est le véritable détective et Sherlock Holmes n\'est qu\'un acteur qu\'il engage pour le couverture.',
+    description:
+      "Dans une réécriture comique, le Dr Watson est le véritable détective et Sherlock Holmes n'est qu'un acteur qu'il engage pour le couverture.",
     fromEntity: {
       entityType: 'book' as const,
       title: 'Les Aventures de Sherlock Holmes',
@@ -9289,7 +9522,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 89,
     genre: ['Comédie', 'Mystère'],
     saga: 'Sherlock Holmes',
-    description: 'Sherlock Holmes et le Dr Watson enquêtent sur une menace contre la reine Victoria dans une parodie délirante du duo légendaire.',
+    description:
+      'Sherlock Holmes et le Dr Watson enquêtent sur une menace contre la reine Victoria dans une parodie délirante du duo légendaire.',
     fromEntity: {
       entityType: 'book' as const,
       title: 'Les Aventures de Sherlock Holmes',
@@ -9316,7 +9550,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 95,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Une Allemande abandonnée par son mari dans le désert californien transforme un motel isolé en lieu chaleureux où les solitudes se rencontrent.',
+    description:
+      'Une Allemande abandonnée par son mari dans le désert californien transforme un motel isolé en lieu chaleureux où les solitudes se rencontrent.',
     fromEntity: null,
     countryOrigin: ['Allemagne'],
     selectDisplayOrder: 0,
@@ -9339,7 +9574,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 101,
     genre: ['Comédie', 'Drame', 'Romance'],
     saga: '',
-    description: 'Deux étrangers se rencontrent dans un train et passent une nuit à errer dans Vienne, partageant leurs rêves avant de se quitter au matin.',
+    description:
+      'Deux étrangers se rencontrent dans un train et passent une nuit à errer dans Vienne, partageant leurs rêves avant de se quitter au matin.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9376,7 +9612,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 118,
     genre: ['Comédie', 'Drame', 'Romance'],
     saga: '',
-    description: 'Samba, sans-papiers sénégalais, et Alice, conseillère en insertion, se croisent à Paris et tentent de reconstruire leurs vies respectives.',
+    description:
+      'Samba, sans-papiers sénégalais, et Alice, conseillère en insertion, se croisent à Paris et tentent de reconstruire leurs vies respectives.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -9407,7 +9644,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 114,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Deux éducateurs spécialisés créent une association pour accompagner des jeunes autistes vers l\'autonomie, dans une comédie humaine et engagée.',
+    description:
+      "Deux éducateurs spécialisés créent une association pour accompagner des jeunes autistes vers l'autonomie, dans une comédie humaine et engagée.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -9444,7 +9682,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 102,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Deux cousins diamétralement opposés se retrouvent pour organiser un mariage familial qui révèle leurs différences et leurs liens profonds.',
+    description:
+      'Deux cousins diamétralement opposés se retrouvent pour organiser un mariage familial qui révèle leurs différences et leurs liens profonds.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -9481,7 +9720,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 80,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Deux timides travaillant dans une entreprise de luxe échangent des messages anonymes et tentent de se rencontrer sans révéler leur identité.',
+    description:
+      'Deux timides travaillant dans une entreprise de luxe échangent des messages anonymes et tentent de se rencontrer sans révéler leur identité.',
     fromEntity: null,
     countryOrigin: ['France', 'Belgique'],
     selectDisplayOrder: 0,
@@ -9518,7 +9758,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 118,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Un playboy londonien découvre qu\'il a une fille de onze ans dont il doit assumer la garde, bouleversant radicalement son mode de vie.',
+    description:
+      "Un playboy londonien découvre qu'il a une fille de onze ans dont il doit assumer la garde, bouleversant radicalement son mode de vie.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -9555,7 +9796,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 117,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Un organisateur d\'événements et son équipe gèrent une soirée de gala sous pression, entre imprévus, clients exigeants et chaos logistique.',
+    description:
+      "Un organisateur d'événements et son équipe gèrent une soirée de gala sous pression, entre imprévus, clients exigeants et chaos logistique.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -9589,7 +9831,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 122,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un ancien basketteur en fauteuil roulant entraîne une équipe de handicapés mentaux pour un match caritatif qui dépasse toutes les attentes.',
+    description:
+      'Un ancien basketteur en fauteuil roulant entraîne une équipe de handicapés mentaux pour un match caritatif qui dépasse toutes les attentes.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -9626,7 +9869,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 98,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un père débordé doit gérer seul ses quatre enfants pendant dix jours, provoant catastrophes domestiques et moments de tendresse.',
+    description:
+      'Un père débordé doit gérer seul ses quatre enfants pendant dix jours, provoant catastrophes domestiques et moments de tendresse.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -9663,7 +9907,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 91,
     genre: ['Comédie'],
     saga: '',
-    description: 'Antoine retourne au front de la paternité solo lorsque sa femme repart en voyage, avec des enfants encore plus turbulents qu\'avant.',
+    description:
+      "Antoine retourne au front de la paternité solo lorsque sa femme repart en voyage, avec des enfants encore plus turbulents qu'avant.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -9700,7 +9945,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 116,
     genre: ['Comédie', 'Drame', 'Policier'],
     saga: '',
-    description: 'Un arnaqueur phobique et son partenaire voient leur système basculer quand la fille que le premier ignorait débarque dans leur vie.',
+    description:
+      'Un arnaqueur phobique et son partenaire voient leur système basculer quand la fille que le premier ignorait débarque dans leur vie.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9737,7 +9983,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 97,
     genre: ['Comédie', 'Thriller', 'Drame'],
     saga: '',
-    description: 'Un cadre new-yorkais passe une nuit cauchemardesque à travers Manhattan, traqué par des personnages aussi étranges que dangereux.',
+    description:
+      'Un cadre new-yorkais passe une nuit cauchemardesque à travers Manhattan, traqué par des personnages aussi étranges que dangereux.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9774,7 +10021,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 148,
     genre: ['Comédie', 'Policier', 'Drame'],
     saga: '',
-    description: 'Un détective privé fumeur de marijuana enquête sur la disparition de son ex-petite amie dans le Los Angeles paranoïaque des années 1970.',
+    description:
+      'Un détective privé fumeur de marijuana enquête sur la disparition de son ex-petite amie dans le Los Angeles paranoïaque des années 1970.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9811,7 +10059,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 133,
     genre: ['Comédie', 'Drame', 'Romance'],
     saga: '',
-    description: 'Dans la vallée de San Fernando en 1973, un adolescent tombe amoureux d\'une femme plus âgée et tente de lancer sa carrière.',
+    description:
+      "Dans la vallée de San Fernando en 1973, un adolescent tombe amoureux d'une femme plus âgée et tente de lancer sa carrière.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9848,7 +10097,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 81,
     genre: ['Comédie', 'Fantastique', 'Horreur'],
     saga: '',
-    description: 'Ash Williams est propulsé au Moyen Âge et doit retrouver le Necronomicon pour rentrer chez lui, affrontant armées de morts-vivants.',
+    description:
+      'Ash Williams est propulsé au Moyen Âge et doit retrouver le Necronomicon pour rentrer chez lui, affrontant armées de morts-vivants.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9885,7 +10135,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 96,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Une mère de famille new-yorkaise soupçonne son mari de l\'infidélité et mène une enquête avec son père excentrique, un ancien playboy.',
+    description:
+      "Une mère de famille new-yorkaise soupçonne son mari de l'infidélité et mène une enquête avec son père excentrique, un ancien playboy.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9922,7 +10173,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 110,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Un soir d\'été de 1962, un groupe de lycéens californiens fait ses adieux à l\'adolescence lors d\'une dernière nuit de rodéo et de rock.',
+    description:
+      "Un soir d'été de 1962, un groupe de lycéens californiens fait ses adieux à l'adolescence lors d'une dernière nuit de rodéo et de rock.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9959,7 +10211,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 68,
     genre: ['Comédie', 'Drame', 'Jeunesse'],
     saga: '',
-    description: 'Charlot trouve un bébé abandonné et en devient le protecteur, mêlant tendresse et gags burlesques dans une comédie muette touchante.',
+    description:
+      'Charlot trouve un bébé abandonné et en devient le protecteur, mêlant tendresse et gags burlesques dans une comédie muette touchante.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9996,7 +10249,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 72,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Charlot, vagabond, rejoint un cirque en détresse et y devient star malgré lui, tout en tombant amoureux de la fille du directeur.',
+    description:
+      'Charlot, vagabond, rejoint un cirque en détresse et y devient star malgré lui, tout en tombant amoureux de la fille du directeur.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -10033,7 +10287,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 124,
     genre: ['Comédie', 'Policier', 'Drame'],
     saga: '',
-    description: 'Un ancien banquier tue des veuves riches pour subvenir aux besoins de sa famille, dans une comédie noire sur la morale et le capitalisme.',
+    description:
+      'Un ancien banquier tue des veuves riches pour subvenir aux besoins de sa famille, dans une comédie noire sur la morale et le capitalisme.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -10070,7 +10325,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 94,
     genre: ['Comédie'],
     saga: 'Austin Powers',
-    description: 'Austin Powers voyage dans le temps pour arrêter le Dr Evil et son complice Goldmember, qui menacent le monde avec un plan délirant.',
+    description:
+      'Austin Powers voyage dans le temps pour arrêter le Dr Evil et son complice Goldmember, qui menacent le monde avec un plan délirant.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -10107,7 +10363,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 94,
     genre: ['Comédie'],
     saga: 'Austin Powers',
-    description: 'Austin Powers, cryogénisé des années 1960, se réveille dans les années 1990 pour combattre son ennemi juré Dr Evil et son clone Mini-Me.',
+    description:
+      'Austin Powers, cryogénisé des années 1960, se réveille dans les années 1990 pour combattre son ennemi juré Dr Evil et son clone Mini-Me.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -10144,7 +10401,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 88,
     genre: ['Comédie', 'Action'],
     saga: 'Johnny English',
-    description: 'Un agent secret maladroit du MI7 est chargé de retrouver la couronne britannique volée, provoquant catastrophes et maladresses héroïques.',
+    description:
+      'Un agent secret maladroit du MI7 est chargé de retrouver la couronne britannique volée, provoquant catastrophes et maladresses héroïques.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni', 'France', 'États-Unis'],
     selectDisplayOrder: 0,
@@ -10181,7 +10439,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 101,
     genre: ['Comédie', 'Action'],
     saga: 'Johnny English',
-    description: 'Johnny English, retraité, reprend du service lorsqu\'une cyber-attaque menace les services secrets britanniques.',
+    description:
+      "Johnny English, retraité, reprend du service lorsqu'une cyber-attaque menace les services secrets britanniques.",
     fromEntity: null,
     countryOrigin: ['Royaume-Uni', 'France', 'États-Unis'],
     selectDisplayOrder: 0,
@@ -10218,7 +10477,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 88,
     genre: ['Comédie', 'Action'],
     saga: 'Johnny English',
-    description: 'Johnny English doit déjouer un complot visant à tuer la Première ministre britannique, malgré ses compétences d\'espion douteuses.',
+    description:
+      "Johnny English doit déjouer un complot visant à tuer la Première ministre britannique, malgré ses compétences d'espion douteuses.",
     fromEntity: null,
     countryOrigin: ['Royaume-Uni', 'France', 'États-Unis'],
     selectDisplayOrder: 0,
@@ -10255,7 +10515,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 88,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un passager traumatisé doit atterrir un avion dont l\'équipage est indisponible, dans une parodie des films catastrophe des années 1970.',
+    description:
+      "Un passager traumatisé doit atterrir un avion dont l'équipage est indisponible, dans une parodie des films catastrophe des années 1970.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -10292,7 +10553,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 85,
     genre: ['Comédie', 'Policier'],
     saga: 'Y a-t-il un flic...',
-    description: 'Un flic de Chicago traque des terroristes qui ont pris en otage le président des États-Unis, dans une parodie des polars d\'action.',
+    description:
+      "Un flic de Chicago traque des terroristes qui ont pris en otage le président des États-Unis, dans une parodie des polars d'action.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -10329,7 +10591,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 85,
     genre: ['Comédie', 'Policier'],
     saga: 'Y a-t-il un flic...',
-    description: 'Le Lt Drebin infiltré en Grande-Bretagne déjoue un complot visant la reine Elizabeth II, dans une cascade de gags visuels et verbaux.',
+    description:
+      'Le Lt Drebin infiltré en Grande-Bretagne déjoue un complot visant la reine Elizabeth II, dans une cascade de gags visuels et verbaux.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -10366,7 +10629,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 89,
     genre: ['Comédie'],
     saga: '',
-    description: 'Des lycéens créent une page web sur la sexualité qui devient un phénomène, provoquant scandale et remise en question de l\'éducation sexuelle.',
+    description:
+      "Des lycéens créent une page web sur la sexualité qui devient un phénomène, provoquant scandale et remise en question de l'éducation sexuelle.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -10403,7 +10667,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 75,
     genre: ['Comédie'],
     saga: '',
-    description: 'Des étudiants partent au Mexique pour une virée de printemps qui dérape rapidement vers le chaos le plus complet.',
+    description:
+      'Des étudiants partent au Mexique pour une virée de printemps qui dérape rapidement vers le chaos le plus complet.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -10440,7 +10705,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 89,
     genre: ['Comédie', 'Horreur'],
     saga: '',
-    description: 'Deux rednecks bienveillants sont confondus avec des tueurs par des étudiants en camping, provoquant une série de malentendus sanglants.',
+    description:
+      'Deux rednecks bienveillants sont confondus avec des tueurs par des étudiants en camping, provoquant une série de malentendus sanglants.',
     fromEntity: null,
     countryOrigin: ['Canada', 'États-Unis', 'Royaume-Uni', 'Inde'],
     selectDisplayOrder: 0,
@@ -10480,7 +10746,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 90,
     genre: ['Comédie', 'Fantastique', 'Romance'],
     saga: '',
-    description: 'Un cinéphile parisien tombe amoureux d\'une actrice qu\'il confond avec son personnage, mêlant réalité et fantasme cinématographique.',
+    description:
+      "Un cinéphile parisien tombe amoureux d'une actrice qu'il confond avec son personnage, mêlant réalité et fantasme cinématographique.",
     fromEntity: null,
     countryOrigin: ['France', 'Belgique'],
     selectDisplayOrder: 0,
@@ -10517,7 +10784,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 97,
     genre: ['Comédie', 'Peplum'],
     saga: '',
-    description: 'Dans la Rome antique, un esclave et son maître tentent d\'échapper au cirque et aux soldats romains dans une farce historique débridée.',
+    description:
+      "Dans la Rome antique, un esclave et son maître tentent d'échapper au cirque et aux soldats romains dans une farce historique débridée.",
     fromEntity: null,
     countryOrigin: ['France', 'Tunisie'],
     selectDisplayOrder: 0,
@@ -10556,7 +10824,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 121,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Un retraité de soixante-dix ans devient stagiaire dans une start-up dirigée par une femme surmenée, apportant sagesse et chaos bienveillant.',
+    description:
+      'Un retraité de soixante-dix ans devient stagiaire dans une start-up dirigée par une femme surmenée, apportant sagesse et chaos bienveillant.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -10580,7 +10849,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 106,
     genre: ['Comédie', 'Fantastique'],
     saga: '',
-    description: 'John, adulte immature, voit sa relation avec Lori menacée par Ted, son ours en peluche devenu vivant et vulgaire depuis son enfance.',
+    description:
+      'John, adulte immature, voit sa relation avec Lori menacée par Ted, son ours en peluche devenu vivant et vulgaire depuis son enfance.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -10608,7 +10878,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 115,
     genre: ['Comédie'],
     saga: '',
-    description: 'Ted se marie et veut avoir un enfant, mais doit d\'abord obtenir la reconnaissance légale de sa personnalité devant un tribunal.',
+    description:
+      "Ted se marie et veut avoir un enfant, mais doit d'abord obtenir la reconnaissance légale de sa personnalité devant un tribunal.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -10645,7 +10916,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 113,
     genre: ['Comédie', 'Fantastique'],
     saga: '',
-    description: 'Barnabas Collins, vampire du XVIIIe siècle réveillé en 1972, tente de restaurer les fortunes de sa famille déchue dans une comédie gothique.',
+    description:
+      'Barnabas Collins, vampire du XVIIIe siècle réveillé en 1972, tente de restaurer les fortunes de sa famille déchue dans une comédie gothique.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -10683,7 +10955,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 92,
     genre: ['Comédie', 'Jeunesse'],
     saga: '',
-    description: 'Dave Seville accueille trois écureuils chanteurs qui transforment sa carrière en chaos musical et en succès planétaire.',
+    description:
+      'Dave Seville accueille trois écureuils chanteurs qui transforment sa carrière en chaos musical et en succès planétaire.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -10721,7 +10994,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 95,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Une lycéenne timide tombe amoureuse du quarterback du lycée grâce à une rencontre anonyme sur Internet.',
+    description:
+      'Une lycéenne timide tombe amoureuse du quarterback du lycée grâce à une rencontre anonyme sur Internet.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -10758,7 +11032,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 97,
     genre: ['Comédie', 'Jeunesse'],
     saga: '',
-    description: 'Une ado populaire adopte une nouvelle élève et la transforme en reine de beauté, avant que leurs rôles ne s\'inversent.',
+    description:
+      "Une ado populaire adopte une nouvelle élève et la transforme en reine de beauté, avant que leurs rôles ne s'inversent.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -10795,7 +11070,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 98,
     genre: ['Comédie', 'Fantastique'],
     saga: '',
-    description: 'Une trentenaire célibataire revoit ses amours passées lors d\'une réunion de lycée et doit choisir entre sécurité et passion.',
+    description:
+      "Une trentenaire célibataire revoit ses amours passées lors d'une réunion de lycée et doit choisir entre sécurité et passion.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -10832,7 +11108,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 97,
     genre: ['Comédie', 'Fantastique'],
     saga: '',
-    description: 'Une adolescente découvre qu\'elle se transforme en loup-garou à chaque pleine lune et doit cacher son secret au lycée.',
+    description:
+      "Une adolescente découvre qu'elle se transforme en loup-garou à chaque pleine lune et doit cacher son secret au lycée.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -10869,7 +11146,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 99,
     genre: ['Comédie', 'Fantastique'],
     saga: '',
-    description: 'Une famille emménage dans un manoir hanté où des centaines de fantômes les accueillent avec humour et effets spéciaux.',
+    description:
+      'Une famille emménage dans un manoir hanté où des centaines de fantômes les accueillent avec humour et effets spéciaux.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -10906,7 +11184,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 92,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un homme élevé dans la jungle affronte le monde civilisé et sauve une exploratrice des griffes d\'un trafiquant.',
+    description:
+      "Un homme élevé dans la jungle affronte le monde civilisé et sauve une exploratrice des griffes d'un trafiquant.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -10943,7 +11222,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 87,
     genre: ['Comédie', 'Jeunesse'],
     saga: '',
-    description: 'George et Ursula s\'installent à Las Vegas où un imposteur usurpe l\'identité du roi de la jungle.',
+    description:
+      "George et Ursula s'installent à Las Vegas où un imposteur usurpe l'identité du roi de la jungle.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -10980,7 +11260,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 95,
     genre: ['Comédie'],
     saga: '',
-    description: 'Une baby-sitter et les enfants qu\'elle garde passent une nuit de folie à Los Angeles, poursuivis par des bandits.',
+    description:
+      "Une baby-sitter et les enfants qu'elle garde passent une nuit de folie à Los Angeles, poursuivis par des bandits.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -11018,7 +11299,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 96,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Une étudiante en droit déterminée prouve sa valeur à Harvard en déjouant les préjugés avec charme et intelligence.',
+    description:
+      'Une étudiante en droit déterminée prouve sa valeur à Harvard en déjouant les préjugés avec charme et intelligence.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -11055,13 +11337,12 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 104,
     genre: ['Comédie', 'Jeunesse'],
     saga: '',
-    description: 'Le Grinch déteste Noël et tente de voler la fête à Whoville, avant qu\'une enfant ne fasse vaciller son cœur de pierre.',
+    description:
+      "Le Grinch déteste Noël et tente de voler la fête à Whoville, avant qu'une enfant ne fasse vaciller son cœur de pierre.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_MAKEUP, year: 2001 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_MAKEUP, year: 2001 }],
   },
   {
     title: 'À nous quatre',
@@ -11094,7 +11375,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 128,
     genre: ['Comédie', 'Jeunesse'],
     saga: '',
-    description: 'Deux veufs et leurs enfants s\'installent dans une maison commune où rivalités et complicités s\'entremêlent.',
+    description:
+      "Deux veufs et leurs enfants s'installent dans une maison commune où rivalités et complicités s'entremêlent.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -11132,7 +11414,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 93,
     genre: ['Comédie', 'Jeunesse'],
     saga: '',
-    description: 'Un professeur invente une matière élastique vivante qui provoque des catastrophes burlesques dans son université.',
+    description:
+      'Un professeur invente une matière élastique vivante qui provoque des catastrophes burlesques dans son université.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -11169,7 +11452,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 94,
     genre: ['Comédie'],
     saga: 'Austin Powers',
-    description: 'Un espion des années 1960 cryogénisé affronte son ennemi Dr Evil dans un monde des années 1990 qu\'il peine à comprendre.',
+    description:
+      "Un espion des années 1960 cryogénisé affronte son ennemi Dr Evil dans un monde des années 1990 qu'il peine à comprendre.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -11206,7 +11490,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 98,
     genre: ['Comédie', 'Jeunesse'],
     saga: '',
-    description: 'Une fillette surdouée aux parents indignes développe des pouvoirs télékinétiques pour se rebeller contre l\'injustice.',
+    description:
+      "Une fillette surdouée aux parents indignes développe des pouvoirs télékinétiques pour se rebeller contre l'injustice.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -11243,7 +11528,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 97,
     genre: ['Comédie', 'Jeunesse'],
     saga: '',
-    description: 'Un Père Noël remplacé par un look-alike découvre la magie des fêtes en découvrant une famille qui croit encore.',
+    description:
+      'Un Père Noël remplacé par un look-alike découvre la magie des fêtes en découvrant une famille qui croit encore.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -11280,7 +11566,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 101,
     genre: ['Comédie', 'Fantastique'],
     saga: '',
-    description: 'Un présentateur météo revit le même jour encore et encore jusqu\'à apprendre à devenir meilleur homme.',
+    description:
+      "Un présentateur météo revit le même jour encore et encore jusqu'à apprendre à devenir meilleur homme.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -11317,7 +11604,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 102,
     genre: ['Comédie', 'Fantastique'],
     saga: '',
-    description: 'La famille macabre la plus célèbre du cinéma affronte des arnaqueurs qui veulent s\'emparer de leur fortune.',
+    description:
+      "La famille macabre la plus célèbre du cinéma affronte des arnaqueurs qui veulent s'emparer de leur fortune.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -11354,13 +11642,12 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 92,
     genre: ['Comédie', 'Fantastique'],
     saga: '',
-    description: 'Un couple de fantômes nouvellement décédés fait appel à un bio-exorciste aussi dangereux que déjanté.',
+    description:
+      'Un couple de fantômes nouvellement décédés fait appel à un bio-exorciste aussi dangereux que déjanté.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_MAKEUP, year: 1989 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_MAKEUP, year: 1989 }],
   },
   {
     title: 'Beetlejuice Beetlejuice',
@@ -11387,7 +11674,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 104,
     genre: ['Comédie'],
     saga: '',
-    description: 'De retour à Winter River, Lydia affronte Beetlejuice lorsque sa fille adolescente est attirée par le monde des morts.',
+    description:
+      'De retour à Winter River, Lydia affronte Beetlejuice lorsque sa fille adolescente est attirée par le monde des morts.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -11407,7 +11695,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 93,
     genre: ['Comédie'],
     saga: '',
-    description: 'Deux escrocs novices montent une arnaque à la carte bancaire et se retrouvent mêlés à une affaire bien plus dangereuse.',
+    description:
+      'Deux escrocs novices montent une arnaque à la carte bancaire et se retrouvent mêlés à une affaire bien plus dangereuse.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -11427,7 +11716,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 102,
     genre: ['Comédie'],
     saga: '',
-    description: 'Une sorcière maladroite tombe amoureuse d\'un homme normal et tente de cacher sa vraie nature.',
+    description:
+      "Une sorcière maladroite tombe amoureuse d'un homme normal et tente de cacher sa vraie nature.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -11465,7 +11755,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 99,
     genre: ['Comédie'],
     saga: '',
-    description: 'Des amis se retrouvent au festival d\'Avignon où secrets, désirs et rivalités éclatent sous le soleil provençal.',
+    description:
+      "Des amis se retrouvent au festival d'Avignon où secrets, désirs et rivalités éclatent sous le soleil provençal.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
@@ -11502,7 +11793,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 106,
     genre: ['Comédie', 'Policier'],
     saga: '',
-    description: 'Deux prisonniers évadés traversent le Deep South des années 1930 en quête d\'un trésor, croisant le Ku Klux Klan et des sirènes.',
+    description:
+      "Deux prisonniers évadés traversent le Deep South des années 1930 en quête d'un trésor, croisant le Ku Klux Klan et des sirènes.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -11536,7 +11828,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 109,
     genre: ['Comédie'],
     saga: 'Marsupilami',
-    description: 'Un aventurier et une journaliste partent au Pérou à la recherche du légendaire Marsupilami.',
+    description:
+      'Un aventurier et une journaliste partent au Pérou à la recherche du légendaire Marsupilami.',
     fromEntity: {
       entityType: 'serie',
       title: 'Le marsupilami',
@@ -11577,7 +11870,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 120,
     genre: ['Comédie'],
     saga: 'Trilogie Cédric Klapisch',
-    description: 'Xavier part en Erasmus à Barcelone et découvre l\'amitié, l\'amour et le chaos d\'une colocation internationale.',
+    description:
+      "Xavier part en Erasmus à Barcelone et découvre l'amitié, l'amour et le chaos d'une colocation internationale.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
@@ -11606,7 +11900,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 130,
     genre: ['Comédie'],
     saga: 'Trilogie Cédric Klapisch',
-    description: 'Cinq ans après l\'Espagne, Xavier retrouve ses amis à Paris et Londres pour une suite de fêtes, d\'amours et de doutes existentiels.',
+    description:
+      "Cinq ans après l'Espagne, Xavier retrouve ses amis à Paris et Londres pour une suite de fêtes, d'amours et de doutes existentiels.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
@@ -11637,7 +11932,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 89,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un livreur parisien enchaîne les courses loufoques à moto pour joindre les deux bouts dans une comédie urbaine effrénée.',
+    description:
+      'Un livreur parisien enchaîne les courses loufoques à moto pour joindre les deux bouts dans une comédie urbaine effrénée.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
@@ -11657,7 +11953,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 100,
     genre: ['Comédie'],
     saga: '',
-    description: 'Des lycéens cancres montent un plan farfelu pour réussir le bac et sauver leur établissement.',
+    description:
+      'Des lycéens cancres montent un plan farfelu pour réussir le bac et sauver leur établissement.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
@@ -11677,7 +11974,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 94,
     genre: ['Comédie'],
     saga: '',
-    description: 'Deux frères afro-descendants voyageant dans le temps découvrent l\'esclavage et tentent de changer leur histoire familiale.',
+    description:
+      "Deux frères afro-descendants voyageant dans le temps découvrent l'esclavage et tentent de changer leur histoire familiale.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
@@ -11699,7 +11997,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 91,
     genre: ['Comédie'],
     saga: 'Monty Python',
-    description: 'Le roi Arthur et ses chevaliers parcourent l\'Angleterre médiévale dans une quête du Graal absurde et iconoclaste.',
+    description:
+      "Le roi Arthur et ses chevaliers parcourent l'Angleterre médiévale dans une quête du Graal absurde et iconoclaste.",
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 30,
@@ -11720,7 +12019,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 107,
     genre: ['Comédie', 'Thriller', 'Policier'],
     saga: '',
-    description: 'Des truands londoniens se retrouvent mêlés à une course de chien, du vol de diamants et du haschich.',
+    description:
+      'Des truands londoniens se retrouvent mêlés à une course de chien, du vol de diamants et du haschich.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 30,
@@ -11742,7 +12042,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 109,
     genre: ['Comédie', 'Science Fiction'],
     saga: 'Trilogie Cornetto',
-    description: 'Cinq amis entament une tournée des pubs alors que l\'apocalypse semble avoir commencé autour d\'eux.',
+    description:
+      "Cinq amis entament une tournée des pubs alors que l'apocalypse semble avoir commencé autour d'eux.",
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 5,
@@ -11762,7 +12063,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 93,
     genre: ['Comédie', 'Aventure', 'Jeunesse'],
     saga: '',
-    description: 'Un inventeur réduit accidentellement ses enfants à la taille d\'une fourmi dans leur propre jardin.',
+    description:
+      "Un inventeur réduit accidentellement ses enfants à la taille d'une fourmi dans leur propre jardin.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -11802,7 +12104,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 125,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Magali, quinquagénaire, retrouve ses amis de l\'Espagne pour une dernière aventure où passé et futur se croisent.',
+    description:
+      "Magali, quinquagénaire, retrouve ses amis de l'Espagne pour une dernière aventure où passé et futur se croisent.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
@@ -11839,7 +12142,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 127,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Une entremetteuse new-yorkaise hésite entre un riche héritier et un acteur fauché dans une comédie romantique contemporaine.',
+    description:
+      'Une entremetteuse new-yorkaise hésite entre un riche héritier et un acteur fauché dans une comédie romantique contemporaine.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -11876,7 +12180,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 95,
     genre: ['Comédie'],
     saga: '',
-    description: 'Le grand vizir Iznogoud complote sans relâche pour devenir calife à la place du calife, avec un succès toujours aussi calamiteux.',
+    description:
+      'Le grand vizir Iznogoud complote sans relâche pour devenir calife à la place du calife, avec un succès toujours aussi calamiteux.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
@@ -11907,7 +12212,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 105,
     genre: ['Comédie'],
     saga: 'Marsupilami',
-    description: 'Un reporter et un paléontologue partent en Amazonie traquer le Marsupilami dans une parodie d\'aventure.',
+    description:
+      "Un reporter et un paléontologue partent en Amazonie traquer le Marsupilami dans une parodie d'aventure.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
@@ -11944,7 +12250,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 120,
     genre: ['Comédie'],
     saga: 'Trilogie Cédric Klapisch',
-    description: 'Xavier, quarantenaire, gère une colocation à New York où enfants, ex et nouvelles conquêtes compliquent sa vie.',
+    description:
+      'Xavier, quarantenaire, gère une colocation à New York où enfants, ex et nouvelles conquêtes compliquent sa vie.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
@@ -11981,7 +12288,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 86,
     genre: ['Comédie'],
     saga: 'Ace Ventura',
-    description: 'Un détective spécialisé dans les animaux retrouve un dauphin emblématique d\'un stade de football.',
+    description:
+      "Un détective spécialisé dans les animaux retrouve un dauphin emblématique d'un stade de football.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -12013,13 +12321,13 @@ export const baseMoviesComedie: BaseMovie[] = [
         name: 'Tommy Davidson',
       },
     ],
-    coverUrl:
-      '/movies_pictures/f1da68933f55.jpg',
+    coverUrl: '/movies_pictures/f1da68933f55.jpg',
     releaseDate: '1995-11-10',
     length: 90,
     genre: ['Comédie'],
     saga: 'Ace Ventura',
-    description: 'Ace Ventura part en Afrique pour retrouver une chauve-souris sacrée dont dépend le mariage d\'un prince.',
+    description:
+      "Ace Ventura part en Afrique pour retrouver une chauve-souris sacrée dont dépend le mariage d'un prince.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -12047,7 +12355,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 100,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Une éditrice découvre qu\'un manuscrit trouvé dans une pizzeria pourrait être l\'œuvre d\'un auteur disparu.',
+    description:
+      "Une éditrice découvre qu'un manuscrit trouvé dans une pizzeria pourrait être l'œuvre d'un auteur disparu.",
     fromEntity: {
       entityType: 'book',
       title: 'Le mystère Henri Pick',
@@ -12079,7 +12388,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 88,
     genre: ['Comédie'],
     saga: '',
-    description: 'Des enseignants indifférents d\'un lycée difficile se mobilisent quand leur établissement risque la fermeture.',
+    description:
+      "Des enseignants indifférents d'un lycée difficile se mobilisent quand leur établissement risque la fermeture.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
@@ -12107,7 +12417,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 96,
     genre: ['Comédie'],
     saga: "L'Eleve Ducobu",
-    description: 'Le roi des cancres Ducobu multiplie les tricheries et les bêtises pour échapper au redoublement.',
+    description:
+      'Le roi des cancres Ducobu multiplie les tricheries et les bêtises pour échapper au redoublement.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
@@ -12135,7 +12446,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 94,
     genre: ['Comédie'],
     saga: "L'Eleve Ducobu",
-    description: 'Ducobu part en colonie de vacances où ses combines provoquent chaos et rivalités entre camps.',
+    description:
+      'Ducobu part en colonie de vacances où ses combines provoquent chaos et rivalités entre camps.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
@@ -12166,7 +12478,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 91,
     genre: ['Comédie'],
     saga: '',
-    description: 'Les aventures du petit Nicolas et de sa bande de copains dans une France des années cinquante pleine de malice.',
+    description:
+      'Les aventures du petit Nicolas et de sa bande de copains dans une France des années cinquante pleine de malice.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
@@ -12197,7 +12510,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 116,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un homme découvre que sa vie parfaite pourrait n\'être qu\'une simulation lors d\'une expérience scientifique troublante.',
+    description:
+      "Un homme découvre que sa vie parfaite pourrait n'être qu'une simulation lors d'une expérience scientifique troublante.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
@@ -12220,7 +12534,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 107,
     genre: ['Comédie', 'Fantastique'],
     saga: '',
-    description: 'Un architecte découvre une télécommande qui lui permet d\'avancer dans sa vie, avec des conséquences imprévues.',
+    description:
+      "Un architecte découvre une télécommande qui lui permet d'avancer dans sa vie, avec des conséquences imprévues.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -12243,7 +12558,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 129,
     genre: ['Comédie', 'Policier'],
     saga: '',
-    description: 'Deux arnaqueurs s\'allient pour duper un parieur richissime dans le Chicago des années 1930.',
+    description:
+      "Deux arnaqueurs s'allient pour duper un parieur richissime dans le Chicago des années 1930.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -12274,7 +12590,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 84,
     genre: ['Comédie', 'Peplum'],
     saga: '',
-    description: 'Parodie des films de gladiateurs et de 300 où des guerriers absurdes affrontent l\'Empire perse.',
+    description:
+      "Parodie des films de gladiateurs et de 300 où des guerriers absurdes affrontent l'Empire perse.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -12297,7 +12614,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 86,
     genre: ['Comédie'],
     saga: '',
-    description: 'Parodie des blockbusters où des héros stéréotypés enchaînent les références cinématographiques sans discernement.',
+    description:
+      'Parodie des blockbusters où des héros stéréotypés enchaînent les références cinématographiques sans discernement.',
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Allemagne'],
     selectDisplayOrder: 5,
@@ -12320,7 +12638,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 94,
     genre: ['Comédie', 'Guerre'],
     saga: '',
-    description: 'Un général américain obsédé par l\'apocalypse nucléaire déclenche par erreur une guerre atomique.',
+    description:
+      "Un général américain obsédé par l'apocalypse nucléaire déclenche par erreur une guerre atomique.",
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Royaume-Uni'],
     selectDisplayOrder: 5,
@@ -12343,7 +12662,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 93,
     genre: ['Comédie'],
     saga: '',
-    description: 'Deux fumeurs de cannabis découvrent qu\'une herbe magique les rend géniaux et les envoie à Harvard.',
+    description:
+      "Deux fumeurs de cannabis découvrent qu'une herbe magique les rend géniaux et les envoie à Harvard.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -12367,7 +12687,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 94,
     genre: ['Comédie'],
     saga: '',
-    description: 'Des amis se retrouvent pour les funérailles d\'un compagnon de fête et découvrent les secrets qu\'il leur cachait.',
+    description:
+      "Des amis se retrouvent pour les funérailles d'un compagnon de fête et découvrent les secrets qu'il leur cachait.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
@@ -12401,7 +12722,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 94,
     genre: ['Comédie'],
     saga: '',
-    description: 'Des amis réunis pour une soirée jeu découvrent qu\'un véritable loup-garou rôde parmi eux.',
+    description:
+      "Des amis réunis pour une soirée jeu découvrent qu'un véritable loup-garou rôde parmi eux.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
@@ -12433,7 +12755,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 100,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un jeune homme trisomique 21 rêve de devenir acteur et séduit une ville entière par son optimisme.',
+    description:
+      'Un jeune homme trisomique 21 rêve de devenir acteur et séduit une ville entière par son optimisme.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
@@ -12464,7 +12787,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 103,
     genre: ['Comédie'],
     saga: '',
-    description: 'Deux ex qui se détestent feignent d\'être en couple lors d\'un mariage à destination, sous la chaleur australienne.',
+    description:
+      "Deux ex qui se détestent feignent d'être en couple lors d'un mariage à destination, sous la chaleur australienne.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -12495,7 +12819,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 141,
     genre: ['Comédie'],
     saga: '',
-    description: 'Une femme ressuscitée par un scientifique excentrique explore le monde avec l\'innocence d\'un enfant et la curiosité d\'une femme libre.',
+    description:
+      "Une femme ressuscitée par un scientifique excentrique explore le monde avec l'innocence d'un enfant et la curiosité d'une femme libre.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -12531,7 +12856,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 123,
     genre: ['Comédie'],
     saga: '',
-    description: 'Une famille hérite d\'un manoir hanté où des fantômes excentriques les accueillent avec humour macabre.',
+    description:
+      "Une famille hérite d'un manoir hanté où des fantômes excentriques les accueillent avec humour macabre.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -12559,7 +12885,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 67,
     genre: ['Comédie'],
     saga: '',
-    description: 'Yannick Noah, en plein concert, quitte la scène pour retrouver une femme qui l\'a interpellé depuis la salle.',
+    description:
+      "Yannick Noah, en plein concert, quitte la scène pour retrouver une femme qui l'a interpellé depuis la salle.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
@@ -12590,7 +12917,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 103,
     genre: ['Comédie'],
     saga: '',
-    description: 'Des lycéens participent à une compétition de cheerleading où rivalités, blessures et ambitions s\'affrontent.',
+    description:
+      "Des lycéens participent à une compétition de cheerleading où rivalités, blessures et ambitions s'affrontent.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -12621,7 +12949,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 102,
     genre: ['Comédie'],
     saga: '',
-    description: 'Dans les années 1930, une actrice et sa bonne montent un stratagème pour échapper à l\'emprise d\'un producteur.',
+    description:
+      "Dans les années 1930, une actrice et sa bonne montent un stratagème pour échapper à l'emprise d'un producteur.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
@@ -12644,7 +12973,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 90,
     genre: ['Comédie'],
     saga: '',
-    description: 'Deux amis créent une agence qui fabrique de faux alibis pour les infidèles, jusqu\'à ce que l\'amour complique tout.',
+    description:
+      "Deux amis créent une agence qui fabrique de faux alibis pour les infidèles, jusqu'à ce que l'amour complique tout.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
@@ -12667,7 +12997,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 88,
     genre: ['Comédie'],
     saga: '',
-    description: 'L\'agence d\'alibis reprend du service avec de nouvelles arnaques amoureuses et des clients toujours plus improbables.',
+    description:
+      "L'agence d'alibis reprend du service avec de nouvelles arnaques amoureuses et des clients toujours plus improbables.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
@@ -12685,13 +13016,13 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'John Leguizamo' },
       { name: 'Judith Light' },
     ],
-    coverUrl:
-      '/movies_pictures/92a9b4c60d0b.jpg',
+    coverUrl: '/movies_pictures/92a9b4c60d0b.jpg',
     releaseDate: '2022-11-23',
     length: 107,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un dîner gastronomique dans un restaurant isolé se transforme en piège mortel orchestré par un chef vengeur.',
+    description:
+      'Un dîner gastronomique dans un restaurant isolé se transforme en piège mortel orchestré par un chef vengeur.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -12714,7 +13045,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 100,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un livreur des banlieues parisiennes découvre un talent de chanteur d\'opéra et doit choisir entre deux mondes.',
+    description:
+      "Un livreur des banlieues parisiennes découvre un talent de chanteur d'opéra et doit choisir entre deux mondes.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
@@ -12737,7 +13069,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 82,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un cascadeur raté se retrouve propulsé dans un tournage de super-héros où il doit sauver la production.',
+    description:
+      'Un cascadeur raté se retrouve propulsé dans un tournage de super-héros où il doit sauver la production.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -12758,7 +13091,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 113,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un couple norvégien part en week-end dans une maison de vacances où la violence éclate de manière soudaine et grotesque.',
+    description:
+      'Un couple norvégien part en week-end dans une maison de vacances où la violence éclate de manière soudaine et grotesque.',
     fromEntity: null,
     countryOrigin: ['Norvège'],
     selectDisplayOrder: 5,
@@ -12781,7 +13115,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 109,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un père veuf élève seul sa fille adolescente et apprend à lâcher prise quand elle s\'éloigne de la maison.',
+    description:
+      "Un père veuf élève seul sa fille adolescente et apprend à lâcher prise quand elle s'éloigne de la maison.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -12804,7 +13139,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 108,
     genre: ['Comédie'],
     saga: '',
-    description: 'Des amis parisiens enchaînent les fêtes nocturnes dans une comédie sur l\'amitié, l\'ambition et l\'âge adulte.',
+    description:
+      "Des amis parisiens enchaînent les fêtes nocturnes dans une comédie sur l'amitié, l'ambition et l'âge adulte.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
@@ -12828,7 +13164,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 121,
     genre: ['Comédie'],
     saga: '',
-    description: 'Une New-Yorkaise découvre que son petit ami appartient à l\'une des familles les plus riches de Singapour.',
+    description:
+      "Une New-Yorkaise découvre que son petit ami appartient à l'une des familles les plus riches de Singapour.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -12851,7 +13188,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 96,
     genre: ['Comédie'],
     saga: '',
-    description: 'Une équipe de tournage zombie se retrouve prise dans une vraie attaque de morts-vivants en plein direct.',
+    description:
+      'Une équipe de tournage zombie se retrouve prise dans une vraie attaque de morts-vivants en plein direct.',
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 5,
@@ -12874,7 +13212,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 85,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un adolescent découvre que sa baby-sitter et ses amis sont une secte satanique lors d\'une soirée qui dérape.',
+    description:
+      "Un adolescent découvre que sa baby-sitter et ses amis sont une secte satanique lors d'une soirée qui dérape.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -12897,7 +13236,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 94,
     genre: ['Comédie'],
     saga: '',
-    description: 'Une lycéenne de Sacramento rêve de quitter sa ville natale et affronte sa mère dans une comédie d\'apprentissage tendre.',
+    description:
+      "Une lycéenne de Sacramento rêve de quitter sa ville natale et affronte sa mère dans une comédie d'apprentissage tendre.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -12920,7 +13260,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 91,
     genre: ['Comédie'],
     saga: '',
-    description: 'Des élèves de banlieue enfermés en colle avec leur prof le week-end apprennent à se connaître malgré leurs différences.',
+    description:
+      'Des élèves de banlieue enfermés en colle avec leur prof le week-end apprennent à se connaître malgré leurs différences.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
@@ -12944,7 +13285,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 111,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un père de famille timide doit affronter le riche et charismatique ex de sa compagne lors d\'un week-end chez les parents.',
+    description:
+      "Un père de famille timide doit affronter le riche et charismatique ex de sa compagne lors d'un week-end chez les parents.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -12967,7 +13309,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 114,
     genre: ['Comédie'],
     saga: '',
-    description: 'Deux amis ordinaires deviennent marchands d\'armes pour le gouvernement américain et s\'enfoncent dans la corruption.',
+    description:
+      "Deux amis ordinaires deviennent marchands d'armes pour le gouvernement américain et s'enfoncent dans la corruption.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -12990,7 +13333,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 116,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un détective privé et un homme de main enquêtent sur la disparition d\'une star du porno à Los Angeles en 1977.',
+    description:
+      "Un détective privé et un homme de main enquêtent sur la disparition d'une star du porno à Los Angeles en 1977.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -13014,7 +13358,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 95,
     genre: ['Comédie'],
     saga: '',
-    description: 'Cinq amis d\'enfance se retrouvent pour un week-end où secrets, jalousies et trahisons refont surface.',
+    description:
+      "Cinq amis d'enfance se retrouvent pour un week-end où secrets, jalousies et trahisons refont surface.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
@@ -13038,7 +13383,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 103,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un lycéen geek de Inglewood se retrouve mêlé à un trafic de drogue après une fête qui dérape.',
+    description:
+      'Un lycéen geek de Inglewood se retrouve mêlé à un trafic de drogue après une fête qui dérape.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -13061,7 +13407,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 97,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un jeune couple s\'affronte à des voisins fêtards jusqu\'à ce que la guerre de voisinage dégénère.',
+    description:
+      "Un jeune couple s'affronte à des voisins fêtards jusqu'à ce que la guerre de voisinage dégénère.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -13084,7 +13431,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 92,
     genre: ['Comédie'],
     saga: '',
-    description: 'Les voisins font équipe pour arrêter une sororité qui s\'installe à côté et perturbe le quartier.',
+    description:
+      "Les voisins font équipe pour arrêter une sororité qui s'installe à côté et perturbe le quartier.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -13107,7 +13455,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 100,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un concierge légendaire et son protégé enquêtent sur un meurtre dans un hôtel de montagne entre deux guerres.',
+    description:
+      'Un concierge légendaire et son protégé enquêtent sur un meurtre dans un hôtel de montagne entre deux guerres.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -13135,7 +13484,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 86,
     genre: ['Comédie'],
     saga: '',
-    description: 'Des vampires new-yorkais documentent leur vie nocturne dans une comédie mockumentaire décalée.',
+    description:
+      'Des vampires new-yorkais documentent leur vie nocturne dans une comédie mockumentaire décalée.',
     fromEntity: null,
     countryOrigin: ['Nouvelle-Zélande'],
     selectDisplayOrder: 5,
@@ -13158,7 +13508,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 102,
     genre: ['Comédie'],
     saga: '',
-    description: 'Deux meilleurs amis promettent de coucher ensemble s\'ils sont encore célibataires à quarante ans.',
+    description:
+      "Deux meilleurs amis promettent de coucher ensemble s'ils sont encore célibataires à quarante ans.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -13181,7 +13532,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 104,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un garçon de rue rencontre une violoniste et monte un groupe de musique dans les rues de Dublin.',
+    description:
+      'Un garçon de rue rencontre une violoniste et monte un groupe de musique dans les rues de Dublin.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -13204,7 +13556,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 110,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un trafiquant embauche une fausse famille pour faire passer une cargaison de marijuana à travers le Mexique.',
+    description:
+      'Un trafiquant embauche une fausse famille pour faire passer une cargaison de marijuana à travers le Mexique.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -13227,7 +13580,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 102,
     genre: ['Comédie'],
     saga: '',
-    description: 'Quatre amis d\'enfance se retrouvent dans leur ville natale et ravivent leurs rivalités et leurs complicités.',
+    description:
+      "Quatre amis d'enfance se retrouvent dans leur ville natale et ravivent leurs rivalités et leurs complicités.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -13250,7 +13604,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 101,
     genre: ['Comédie'],
     saga: '',
-    description: 'Les copains d\'enfance partent en colonie de vacances pour adultes où le chaos recommence.',
+    description:
+      "Les copains d'enfance partent en colonie de vacances pour adultes où le chaos recommence.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -13273,7 +13628,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 119,
     genre: ['Comédie'],
     saga: '',
-    description: 'Des retraités deviennent stagiaires chez Google et découvrent le monde numérique avec maladresse et sagesse.',
+    description:
+      'Des retraités deviennent stagiaires chez Google et découvrent le monde numérique avec maladresse et sagesse.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -13296,7 +13652,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 107,
     genre: ['Comédie'],
     saga: '',
-    description: 'Des célébrités hollywoodiennes piégées lors d\'une fête affrontent l\'apocalypse biblique dans une comédie déjantée.',
+    description:
+      "Des célébrités hollywoodiennes piégées lors d'une fête affrontent l'apocalypse biblique dans une comédie déjantée.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -13319,7 +13676,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 110,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un scénariste écrit sur des psychopathes et se retrouve mêlé à une véritable histoire de kidnapping et de vengeance.',
+    description:
+      'Un scénariste écrit sur des psychopathes et se retrouve mêlé à une véritable histoire de kidnapping et de vengeance.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -13342,7 +13700,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 118,
     genre: ['Comédie'],
     saga: '',
-    description: 'Plusieurs couples se croisent à New York lors du réveillon dans une comédie romantique à sketches.',
+    description:
+      'Plusieurs couples se croisent à New York lors du réveillon dans une comédie romantique à sketches.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -13365,7 +13724,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 110,
     genre: ['Comédie'],
     saga: '',
-    description: 'Des amis de lycée se retrouvent dix ans après leur diplôme et mesurent le chemin parcouru depuis.',
+    description:
+      'Des amis de lycée se retrouvent dix ans après leur diplôme et mesurent le chemin parcouru depuis.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -13388,7 +13748,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 92,
     genre: ['Comédie'],
     saga: '',
-    description: 'Une enseignante cynique et paresseuse séduit un riche collègue pour financer une opération esthétique.',
+    description:
+      'Une enseignante cynique et paresseuse séduit un riche collègue pour financer une opération esthétique.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -13411,7 +13772,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 112,
     genre: ['Comédie'],
     saga: '',
-    description: 'Scott Pilgrim doit affronter les sept ex de sa petite amie dans des combats vidéoludiques à Toronto.',
+    description:
+      'Scott Pilgrim doit affronter les sept ex de sa petite amie dans des combats vidéoludiques à Toronto.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -13435,7 +13797,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 109,
     genre: ['Comédie'],
     saga: '',
-    description: 'Nanny McPhee utilise sa magie pour remettre de l\'ordre dans une ferme familiale perturbée par la guerre.',
+    description:
+      "Nanny McPhee utilise sa magie pour remettre de l'ordre dans une ferme familiale perturbée par la guerre.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -13458,7 +13821,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 105,
     genre: ['Comédie'],
     saga: '',
-    description: 'Gad Elmaleh joue son propre rôle dans une comédie sur la célébrité, l\'ego et les dérapages d\'un humoriste.',
+    description:
+      "Gad Elmaleh joue son propre rôle dans une comédie sur la célébrité, l'ego et les dérapages d'un humoriste.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -13476,13 +13840,13 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Alan Arkin' },
       { name: 'Bryan Cranston' },
     ],
-    coverUrl:
-      '/movies_pictures/9591ed9d0d89.jpg',
+    coverUrl: '/movies_pictures/9591ed9d0d89.jpg',
     releaseDate: '2006-09-06',
     length: 100,
     genre: ['Comédie'],
     saga: '',
-    description: 'Une famille dysfonctionnelle traverse les États-Unis en combi van pour emmener la fillette au concours de beauté.',
+    description:
+      'Une famille dysfonctionnelle traverse les États-Unis en combi van pour emmener la fillette au concours de beauté.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -13508,7 +13872,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 99,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un coach sportif et sa femme élèvent douze enfants dans une maison où l\'organisation est un défi permanent.',
+    description:
+      "Un coach sportif et sa femme élèvent douze enfants dans une maison où l'organisation est un défi permanent.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -13531,7 +13896,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 94,
     genre: ['Comédie'],
     saga: '',
-    description: 'La famille Baker s\'installe près d\'un lac où le chaos familial reprend de plus belle avec de nouveaux voisins.',
+    description:
+      "La famille Baker s'installe près d'un lac où le chaos familial reprend de plus belle avec de nouveaux voisins.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -13549,13 +13915,13 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Rockmond Dunbar' },
       { name: 'Shannyn Sossamon' },
     ],
-    coverUrl:
-      '/movies_pictures/dcc0261f8fff.jpg',
+    coverUrl: '/movies_pictures/dcc0261f8fff.jpg',
     releaseDate: '2005-09-14',
     length: 102,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un voleur se fait passer pour acteur et enquête sur un meurtre à Los Angeles aux côtés d\'une détective privée.',
+    description:
+      "Un voleur se fait passer pour acteur et enquête sur un meurtre à Los Angeles aux côtés d'une détective privée.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -13578,7 +13944,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 94,
     genre: ['Comédie'],
     saga: '',
-    description: 'Le fils de Stanley Ipkiss hérite du masque magique et provoque des catastrophes dans son lycée.',
+    description:
+      'Le fils de Stanley Ipkiss hérite du masque magique et provoque des catastrophes dans son lycée.',
     fromEntity: {
       entityType: 'comic',
       title: 'The Mask',
@@ -13605,7 +13972,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 86,
     genre: ['Comédie'],
     saga: '',
-    description: 'Les frères Dalton quittent le Far West pour braquer une banque parisienne dans une comédie burlesque.',
+    description:
+      'Les frères Dalton quittent le Far West pour braquer une banque parisienne dans une comédie burlesque.',
     fromEntity: {
       entityType: 'bd',
       title: 'Les Cousins Dalton',
@@ -13632,7 +14000,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 109,
     genre: ['Comédie'],
     saga: '',
-    description: 'Deux agents du FBI se déguisent en cheerleaders pour infiltrer une université et déjouer un complot.',
+    description:
+      'Deux agents du FBI se déguisent en cheerleaders pour infiltrer une université et déjouer un complot.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -13656,7 +14025,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 108,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un professeur remplace un prof de musique et transforme ses élèves en groupe de rock prêt à conquérir Battle of the Bands.',
+    description:
+      'Un professeur remplace un prof de musique et transforme ses élèves en groupe de rock prêt à conquérir Battle of the Bands.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -13679,7 +14049,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 115,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un journaliste doit séduire puis larguer une femme en dix jours pour un article, mais tombe amoureux.',
+    description:
+      'Un journaliste doit séduire puis larguer une femme en dix jours pour un article, mais tombe amoureux.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -13702,7 +14073,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 89,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un mannequin légendaire mais stupide est manipulé pour assassiner le premier ministre malaisien.',
+    description:
+      'Un mannequin légendaire mais stupide est manipulé pour assassiner le premier ministre malaisien.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -13730,7 +14102,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 90,
     genre: ['Comédie'],
     saga: '',
-    description: 'Deux pères s\'affrontent pour offrir la dernière figurine à la mode à leurs fils à Noël.',
+    description:
+      "Deux pères s'affrontent pour offrir la dernière figurine à la mode à leurs fils à Noël.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -13753,7 +14126,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 100,
     genre: ['Comédie'],
     saga: '',
-    description: 'Une chanteuse de casino se cache dans un couvent sous une fausse identité et transforme la chorale en succès.',
+    description:
+      'Une chanteuse de casino se cache dans un couvent sous une fausse identité et transforme la chorale en succès.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -13776,7 +14150,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 107,
     genre: ['Comédie'],
     saga: '',
-    description: 'Sœur Mary Clarence retourne au couvent et aide les élèves d\'une école menacée de fermeture.',
+    description:
+      "Sœur Mary Clarence retourne au couvent et aide les élèves d'une école menacée de fermeture.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -13800,7 +14175,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 104,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un garçon de douze ans souhaite devenir grand et se réveille adulte dans le corps de Tom Hanks.',
+    description:
+      'Un garçon de douze ans souhaite devenir grand et se réveille adulte dans le corps de Tom Hanks.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -13823,7 +14199,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 102,
     genre: ['Comédie'],
     saga: '',
-    description: 'Ferris Bueller séche l\'école et entraîne sa petite amie et son meilleur ami dans une escapade légendaire à Chicago.',
+    description:
+      "Ferris Bueller séche l'école et entraîne sa petite amie et son meilleur ami dans une escapade légendaire à Chicago.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -13841,13 +14218,13 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Richard Masur' },
       { name: 'Janet Carroll' },
     ],
-    coverUrl:
-      '/movies_pictures/87b47703ff23.jpg',
+    coverUrl: '/movies_pictures/87b47703ff23.jpg',
     releaseDate: '1984-03-21',
     length: 98,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un lycéen laisse sa maison se transformer en bordel pendant l\'absence de ses parents.',
+    description:
+      "Un lycéen laisse sa maison se transformer en bordel pendant l'absence de ses parents.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -13870,7 +14247,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 117,
     genre: ['Comédie'],
     saga: '',
-    description: 'Deux marginaux parcourent la France des années 1970 à la recherche de femmes et de liberté dans une comédie provocatrice.',
+    description:
+      'Deux marginaux parcourent la France des années 1970 à la recherche de femmes et de liberté dans une comédie provocatrice.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
@@ -13893,7 +14271,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 98,
     genre: ['Comédie', 'Action'],
     saga: '',
-    description: 'Un comptable timide découvre qu\'il est le fils d\'un tueur à gages et doit reprendre le métier de famille.',
+    description:
+      "Un comptable timide découvre qu'il est le fils d'un tueur à gages et doit reprendre le métier de famille.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -13916,7 +14295,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 99,
     genre: ['Comédie', 'Jeunesse', 'Fantastique'],
     saga: 'Magic Baskets',
-    description: 'Un basketteur talentueux intègre une université prestigieuse où son ego et ses erreurs le mettent en difficulté.',
+    description:
+      'Un basketteur talentueux intègre une université prestigieuse où son ego et ses erreurs le mettent en difficulté.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -13937,7 +14317,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 115,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Un scénariste en panne d\'inspiration tente d\'adapter un livre sur les orchidées dans une comédie métafictionnelle.',
+    description:
+      "Un scénariste en panne d'inspiration tente d'adapter un livre sur les orchidées dans une comédie métafictionnelle.",
     fromEntity: {
       entityType: 'book',
       title: 'The Orchid Thief',
@@ -13961,7 +14342,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 126,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Deux quinquagénaires partent en dégustation de vin en Californie avant le mariage de l\'un d\'eux.',
+    description:
+      "Deux quinquagénaires partent en dégustation de vin en Californie avant le mariage de l'un d'eux.",
     fromEntity: {
       entityType: 'book',
       title: 'Sideways',
@@ -13986,7 +14368,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 106,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Un professeur juif du Minnesota voit sa vie s\'effondrer alors qu\'il cherche des réponses auprès de rabbins.',
+    description:
+      "Un professeur juif du Minnesota voit sa vie s'effondrer alors qu'il cherche des réponses auprès de rabbins.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -14007,7 +14390,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 106,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Deux mères lesbiennes voient leur famille bouleversée quand leurs enfants retrouvent leur père biologique.',
+    description:
+      'Deux mères lesbiennes voient leur famille bouleversée quand leurs enfants retrouvent leur père biologique.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -14028,7 +14412,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 117,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Un écrivain noir écrit un roman satirique sur les stéréotypes afro-américains et voit son œuvre devenir un succès involontaire.',
+    description:
+      'Un écrivain noir écrit un roman satirique sur les stéréotypes afro-américains et voit son œuvre devenir un succès involontaire.',
     fromEntity: {
       entityType: 'book',
       title: 'Erasure',
@@ -14053,7 +14438,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 129,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Une femme enceinte et le père de son enfant tentent de s\'organiser avant l\'arrivée du bébé.',
+    description:
+      "Une femme enceinte et le père de son enfant tentent de s'organiser avant l'arrivée du bébé.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -14074,7 +14460,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 125,
     genre: ['Comédie'],
     saga: '',
-    description: 'Une femme au foyer se lie d\'amitié avec une agent du FBI infiltrée dans sa ville pour enquêter sur un trafic.',
+    description:
+      "Une femme au foyer se lie d'amitié avec une agent du FBI infiltrée dans sa ville pour enquêter sur un trafic.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -14095,7 +14482,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 94,
     genre: ['Comédie'],
     saga: 'Présentateur vedette',
-    description: 'Un présentateur télé des années 1970 voit son règne menacé par l\'arrivée d\'une journaliste ambitieuse.',
+    description:
+      "Un présentateur télé des années 1970 voit son règne menacé par l'arrivée d'une journaliste ambitieuse.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -14116,7 +14504,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 119,
     genre: ['Comédie'],
     saga: 'Présentateur vedette',
-    description: 'Ron Burgundy et son équipe tentent un retour à la télé dans les années 1980 avec des résultats catastrophiques.',
+    description:
+      'Ron Burgundy et son équipe tentent un retour à la télé dans les années 1980 avec des résultats catastrophiques.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -14137,7 +14526,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 113,
     genre: ['Comédie'],
     saga: '',
-    description: 'Deux demi-frères opposés découvrent leur parenté et partent en road trip pour sauver leur père.',
+    description:
+      'Deux demi-frères opposés découvrent leur parenté et partent en road trip pour sauver leur père.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -14158,7 +14548,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 97,
     genre: ['Comédie', 'Jeunesse'],
     saga: '',
-    description: 'Un elfe élevé au Pôle Nord débarque à New York pour retrouver son père biologique et découvre le monde des humains.',
+    description:
+      'Un elfe élevé au Pôle Nord débarque à New York pour retrouver son père biologique et découvre le monde des humains.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -14179,7 +14570,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 105,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Un musicien dépressif tente de reconquérir Sarah pendant qu\'elle vit avec un rocker cool et insupportable.',
+    description:
+      "Un musicien dépressif tente de reconquérir Sarah pendant qu'elle vit avec un rocker cool et insupportable.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -14200,7 +14592,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 102,
     genre: ['Comédie'],
     saga: '',
-    description: 'Deux potheads découvrent que leur beignet contient de la drogue et fuient des flics et des gangsters.',
+    description:
+      'Deux potheads découvrent que leur beignet contient de la drogue et fuient des flics et des gangsters.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -14221,7 +14614,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 116,
     genre: ['Comédie', 'Action'],
     saga: '',
-    description: 'Deux flics incompétents de la brigade des stupéfiants se font muter dans un commissariat calme.',
+    description:
+      'Deux flics incompétents de la brigade des stupéfiants se font muter dans un commissariat calme.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -14242,7 +14636,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 88,
     genre: ['Comédie'],
     saga: '',
-    description: 'Trois amis d\'enfance se retrouvent pour une nuit de retrouvailles qui dérape dans une comédie nocturne.',
+    description:
+      "Trois amis d'enfance se retrouvent pour une nuit de retrouvailles qui dérape dans une comédie nocturne.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -14263,7 +14658,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 100,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Un jeune homme apprend qu\'il a un cancer et affronte la maladie avec humour noir aux côtés de son meilleur ami.',
+    description:
+      "Un jeune homme apprend qu'il a un cancer et affronte la maladie avec humour noir aux côtés de son meilleur ami.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -14284,7 +14680,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 125,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Une humoriste en crise voit sa carrière et sa vie amoureuse remises en question par une série télévisée autobiographique.',
+    description:
+      'Une humoriste en crise voit sa carrière et sa vie amoureuse remises en question par une série télévisée autobiographique.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -14305,7 +14702,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 95,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un adolescent excentrique du Idaho aide son ami à devenir président du lycée dans une comédie culte décalée.',
+    description:
+      'Un adolescent excentrique du Idaho aide son ami à devenir président du lycée dans une comédie culte décalée.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -14326,7 +14724,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 91,
     genre: ['Comédie'],
     saga: '',
-    description: 'Trois trentenaires créent une fraternité clandestine pour prolonger leur jeunesse et échapper à la routine.',
+    description:
+      'Trois trentenaires créent une fraternité clandestine pour prolonger leur jeunesse et échapper à la routine.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -14347,7 +14746,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 91,
     genre: ['Comédie', 'Policier'],
     saga: '',
-    description: 'Un Père Noël alcoolique et un nain complice braquent les magasins qu\'ils investissent chaque année.',
+    description:
+      "Un Père Noël alcoolique et un nain complice braquent les magasins qu'ils investissent chaque année.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -14368,7 +14768,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 108,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un pilote NASCAR au sommet voit son ego et sa carrière menacés par un rival français arrogant.',
+    description:
+      'Un pilote NASCAR au sommet voit son ego et sa carrière menacés par un rival français arrogant.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -14389,7 +14790,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 106,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Un couple se sépare mais continue de vivre ensemble dans le même appartement, poussant la guerre des nerfs à l\'extrême.',
+    description:
+      "Un couple se sépare mais continue de vivre ensemble dans le même appartement, poussant la guerre des nerfs à l'extrême.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -14410,7 +14812,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 110,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un couple fraîchement marié voit sa lune de miel gâchée par un ami invité qui s\'installe chez eux sans limite.',
+    description:
+      "Un couple fraîchement marié voit sa lune de miel gâchée par un ami invité qui s'installe chez eux sans limite.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -14431,7 +14834,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 120,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Une divorcée tombe amoureuse de son architecte bien plus jeune qu\'elle dans une comédie romantique new-yorkaise.',
+    description:
+      "Une divorcée tombe amoureuse de son architecte bien plus jeune qu'elle dans une comédie romantique new-yorkaise.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -14451,7 +14855,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 123,
     genre: ['Comédie', 'Drame', 'Biographie'],
     saga: '',
-    description: 'Une blogueuse cuisine toutes les recettes de Julia Child pendant que la célèbre chef raconte sa vie parisienne.',
+    description:
+      'Une blogueuse cuisine toutes les recettes de Julia Child pendant que la célèbre chef raconte sa vie parisienne.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -14472,7 +14877,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 92,
     genre: ['Comédie', 'Policier'],
     saga: '',
-    description: 'Un employé d\'une société de recouvrement monte une arnaque interne avec ses collègues pour se venger de leur patron.',
+    description:
+      "Un employé d'une société de recouvrement monte une arnaque interne avec ses collègues pour se venger de leur patron.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -14493,7 +14899,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 100,
     genre: ['Comédie', 'Thriller'],
     saga: '',
-    description: 'Une soirée jeux entre amis bascule en véritable enquête criminelle quand un faux kidnapping devient réel.',
+    description:
+      'Une soirée jeux entre amis bascule en véritable enquête criminelle quand un faux kidnapping devient réel.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -14515,7 +14922,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 116,
     genre: ['Comédie'],
     saga: '',
-    description: 'Une mère solo monte une équipe de plongeurs pour sauver son mari emprisonné dans une mine d\'or sous-marine.',
+    description:
+      "Une mère solo monte une équipe de plongeurs pour sauver son mari emprisonné dans une mine d'or sous-marine.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -14536,7 +14944,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 91,
     genre: ['Comédie'],
     saga: '',
-    description: 'Deux lycéens losers créent un club de combat féminin pour séduire des cheerleaders.',
+    description:
+      'Deux lycéens losers créent un club de combat féminin pour séduire des cheerleaders.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -14557,7 +14966,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 164,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Trois histoires où des personnages ordinaires perdent le contrôle de leur vie dans une fable noire et absurde.',
+    description:
+      'Trois histoires où des personnages ordinaires perdent le contrôle de leur vie dans une fable noire et absurde.',
     fromEntity: null,
     countryOrigin: ['Irlande', 'Royaume-Uni', 'États-Unis'],
     selectDisplayOrder: 0,
@@ -14578,7 +14988,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 103,
     genre: ['Comédie', 'Jeunesse', 'Aventure'],
     saga: 'Les Schtroumpfs',
-    description: 'Les Schtroumpfs débarquent à New York pour sauver leur village du méchant Gargamel.',
+    description:
+      'Les Schtroumpfs débarquent à New York pour sauver leur village du méchant Gargamel.',
     fromEntity: {
       entityType: 'bd',
       title: 'Les Schtroumpfs',
@@ -14603,7 +15014,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 95,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Une Américaine découvre la famille grecque exubérante de son fiancé et leurs traditions envahissantes.',
+    description:
+      'Une Américaine découvre la famille grecque exubérante de son fiancé et leurs traditions envahissantes.',
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Canada'],
     selectDisplayOrder: 0,
@@ -14624,7 +15036,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 108,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Une New-Yorkaise fashion doit retourner dans son Alabama natal pour divorcer de son premier mari.',
+    description:
+      'Une New-Yorkaise fashion doit retourner dans son Alabama natal pour divorcer de son premier mari.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -14645,7 +15058,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 110,
     genre: ['Comédie', 'Romance', 'Drame'],
     saga: '',
-    description: 'Un lycéen gay correspond anonymement en ligne avec un camarade de classe qu\'il espère rencontrer.',
+    description:
+      "Un lycéen gay correspond anonymement en ligne avec un camarade de classe qu'il espère rencontrer.",
     fromEntity: {
       entityType: 'book',
       title: 'Simon vs. the Homo Sapiens Agenda',
@@ -14670,7 +15084,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 103,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Deux ex qui se détestent feignent d\'être en couple lors d\'un mariage à destination, sous la chaleur australienne.',
+    description:
+      "Deux ex qui se détestent feignent d'être en couple lors d'un mariage à destination, sous la chaleur australienne.",
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Australie'],
     selectDisplayOrder: 0,
@@ -14691,7 +15106,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 95,
     genre: ['Comédie', 'Horreur', 'Thriller'],
     saga: '',
-    description: 'Un ours drogué à la cocaïne sème la panique dans une forêt de Géorgie où chasseurs et trafiquants se croisent.',
+    description:
+      'Un ours drogué à la cocaïne sème la panique dans une forêt de Géorgie où chasseurs et trafiquants se croisent.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -14712,7 +15128,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 113,
     genre: ['Comédie', 'Drame', 'Romance'],
     saga: '',
-    description: 'Un propriétaire de disquaire obsédé par ses ex passe en revue ses échecs amoureux avec ses clients.',
+    description:
+      'Un propriétaire de disquaire obsédé par ses ex passe en revue ses échecs amoureux avec ses clients.',
     fromEntity: {
       entityType: 'book',
       title: 'High Fidelity',
@@ -14737,7 +15154,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 101,
     genre: ['Comédie', 'Drame', 'Romance'],
     saga: '',
-    description: 'Un trentenaire fainéant doit grandir quand sa petite amie le quitte pour un présentateur télé.',
+    description:
+      'Un trentenaire fainéant doit grandir quand sa petite amie le quitte pour un présentateur télé.',
     fromEntity: {
       entityType: 'book',
       title: 'About a Boy',
@@ -14762,7 +15180,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 119,
     genre: ['Comédie', 'Drame', 'Aventure'],
     saga: '',
-    description: 'Un océanographe excentrique part à la recherche d\'un requin légendaire qui aurait tué son partenaire.',
+    description:
+      "Un océanographe excentrique part à la recherche d'un requin légendaire qui aurait tué son partenaire.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -14783,7 +15202,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 102,
     genre: ['Comédie', 'Drame', 'Romance'],
     saga: '',
-    description: 'Un acteur rentre dans le New Jersey natal pour les funérailles de sa mère et retrouve une part de lui-même.',
+    description:
+      'Un acteur rentre dans le New Jersey natal pour les funérailles de sa mère et retrouve une part de lui-même.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -14804,7 +15224,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 105,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Dans une famille de sourds, la seule entendante joue du rôle d\'interprète jusqu\'à ce que la musique l\'appelle ailleurs.',
+    description:
+      "Dans une famille de sourds, la seule entendante joue du rôle d'interprète jusqu'à ce que la musique l'appelle ailleurs.",
     fromEntity: null,
     countryOrigin: ['France', 'Belgique'],
     selectDisplayOrder: 0,
@@ -15049,8 +15470,8 @@ export const baseMoviesComedie: BaseMovie[] = [
       'Sur le Vieux-Port, Marius aime Fanny mais rêve de partir en mer ; César, son père, tient le bar.',
     fromEntity: {
       entityType: 'book',
-      title: "Marius",
-      secondEntityKey: "Marcel Pagnol",
+      title: 'Marius',
+      secondEntityKey: 'Marcel Pagnol',
     },
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -15571,11 +15992,11 @@ export const baseMoviesComedie: BaseMovie[] = [
     genre: ['Comédie', 'Romance'],
     saga: '',
     description:
-      'Une femme mariée tombe amoureuse de l\'architecte de son mari dans une comédie de mœurs sophistiquée.',
+      "Une femme mariée tombe amoureuse de l'architecte de son mari dans une comédie de mœurs sophistiquée.",
     fromEntity: {
       entityType: 'book',
-      title: "The Philadelphia Story",
-      secondEntityKey: "Philip Barry",
+      title: 'The Philadelphia Story',
+      secondEntityKey: 'Philip Barry',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -15603,8 +16024,8 @@ export const baseMoviesComedie: BaseMovie[] = [
       'Un rédacteur en chef retient sa star reporter, prête à se marier, avec un scoop et un condamné à mort.',
     fromEntity: {
       entityType: 'book',
-      title: "The Front Page",
-      secondEntityKey: "Ben Hecht et Charles MacArthur",
+      title: 'The Front Page',
+      secondEntityKey: 'Ben Hecht et Charles MacArthur',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -15820,8 +16241,8 @@ export const baseMoviesComedie: BaseMovie[] = [
       "À Vienne, une ronde d'amants se passe le relais, commentée par un meneur de jeu au manège.",
     fromEntity: {
       entityType: 'book',
-      title: "La Ronde",
-      secondEntityKey: "Arthur Schnitzler",
+      title: 'La Ronde',
+      secondEntityKey: 'Arthur Schnitzler',
     },
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -17114,8 +17535,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Maria Pacôme' },
       { name: 'Catherine Samie' },
     ],
-    coverUrl:
-      '/movies_pictures/9924ce13c502.jpg',
+    coverUrl: '/movies_pictures/9924ce13c502.jpg',
     releaseDate: '1970-12-09',
     length: 85,
     genre: ['Comédie'],
@@ -17137,8 +17557,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Cyril Cusack' },
       { name: 'Charles Tyner' },
     ],
-    coverUrl:
-      '/movies_pictures/b751e2b7d441.jpg',
+    coverUrl: '/movies_pictures/b751e2b7d441.jpg',
     releaseDate: '1971-12-20',
     length: 91,
     genre: ['Comédie', 'Drame', 'Romance'],
@@ -17160,8 +17579,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Giuseppe Zigaina' },
       { name: 'Pier Paolo Pasolini' },
     ],
-    coverUrl:
-      '/movies_pictures/c2b0ad8794a6.jpg',
+    coverUrl: '/movies_pictures/c2b0ad8794a6.jpg',
     releaseDate: '1971-08-25',
     length: 111,
     genre: ['Comédie', 'Drame'],
@@ -17187,8 +17605,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Mireille Darc' },
       { name: 'Jean Carmet' },
     ],
-    coverUrl:
-      '/movies_pictures/0e208c02cf08.jpg',
+    coverUrl: '/movies_pictures/0e208c02cf08.jpg',
     releaseDate: '1972-12-06',
     length: 90,
     genre: ['Comédie'],
@@ -17232,8 +17649,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Jean-Pierre Cassel' },
       { name: 'Paul Frankeur' },
     ],
-    coverUrl:
-      '/movies_pictures/454da8a3feda.jpg',
+    coverUrl: '/movies_pictures/454da8a3feda.jpg',
     releaseDate: '1972-09-15',
     length: 102,
     genre: ['Comédie', 'Drame'],
@@ -17255,8 +17671,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Rosy Varte' },
       { name: 'Odette Laure' },
     ],
-    coverUrl:
-      '/movies_pictures/f78d9498431a.jpg',
+    coverUrl: '/movies_pictures/f78d9498431a.jpg',
     releaseDate: '1972-01-18',
     length: 90,
     genre: ['Comédie'],
@@ -17278,8 +17693,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Franco Citti' },
       { name: 'Josephine Chaplin' },
     ],
-    coverUrl:
-      '/movies_pictures/d75df2a0164e.jpg',
+    coverUrl: '/movies_pictures/d75df2a0164e.jpg',
     releaseDate: '1972-07-02',
     length: 111,
     genre: ['Comédie', 'Drame'],
@@ -17305,8 +17719,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Armando Brancia' },
       { name: 'Ciccio Ingrassia' },
     ],
-    coverUrl:
-      '/movies_pictures/0e8e7abb2e9b.jpg',
+    coverUrl: '/movies_pictures/0e8e7abb2e9b.jpg',
     releaseDate: '1973-12-18',
     length: 123,
     genre: ['Comédie', 'Drame'],
@@ -17328,8 +17741,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Jean-Pierre Darras' },
       { name: 'Nino Castelnuovo' },
     ],
-    coverUrl:
-      '/movies_pictures/bf4a79f43ba3.jpg',
+    coverUrl: '/movies_pictures/bf4a79f43ba3.jpg',
     releaseDate: '1973-10-20',
     length: 85,
     genre: ['Comédie'],
@@ -17355,8 +17767,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Philippe Noiret' },
       { name: 'Andréa Ferréol' },
     ],
-    coverUrl:
-      '/movies_pictures/7c83820dcfb1.jpg',
+    coverUrl: '/movies_pictures/7c83820dcfb1.jpg',
     releaseDate: '1973-05-17',
     length: 130,
     genre: ['Comédie', 'Drame'],
@@ -17378,8 +17789,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Jean-Pierre Aumont' },
       { name: 'François Truffaut' },
     ],
-    coverUrl:
-      '/movies_pictures/ede9cb63acdf.jpg',
+    coverUrl: '/movies_pictures/ede9cb63acdf.jpg',
     releaseDate: '1973-05-14',
     length: 115,
     genre: ['Comédie', 'Drame'],
@@ -17401,8 +17811,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Marie-France Pisier' },
       { name: 'Barbet Schroeder' },
     ],
-    coverUrl:
-      '/movies_pictures/2ddca9eb3e88.jpg',
+    coverUrl: '/movies_pictures/2ddca9eb3e88.jpg',
     releaseDate: '1974-09-18',
     length: 193,
     genre: ['Comédie', 'Fantastique', 'Drame'],
@@ -17446,8 +17855,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Michel Piccoli' },
       { name: 'Jean Rochefort' },
     ],
-    coverUrl:
-      '/movies_pictures/17944d1bc18c.jpg',
+    coverUrl: '/movies_pictures/17944d1bc18c.jpg',
     releaseDate: '1974-09-11',
     length: 104,
     genre: ['Comédie'],
@@ -17469,8 +17877,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Mireille Darc' },
       { name: 'Michel Duchaussoy' },
     ],
-    coverUrl:
-      '/movies_pictures/019c093eeb48.jpg',
+    coverUrl: '/movies_pictures/019c093eeb48.jpg',
     releaseDate: '1974-10-18',
     length: 84,
     genre: ['Comédie'],
@@ -17492,8 +17899,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Harvey Korman' },
       { name: 'Madeline Kahn' },
     ],
-    coverUrl:
-      '/movies_pictures/e7104c117d17.jpg',
+    coverUrl: '/movies_pictures/e7104c117d17.jpg',
     releaseDate: '1974-02-07',
     length: 93,
     genre: ['Comédie', 'Western'],
@@ -17538,8 +17944,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Stefano Satta Flores' },
       { name: 'Giovanna Ralli' },
     ],
-    coverUrl:
-      '/movies_pictures/471cf305cbc7.jpg',
+    coverUrl: '/movies_pictures/471cf305cbc7.jpg',
     releaseDate: '1974-12-21',
     length: 124,
     genre: ['Comédie', 'Drame'],
@@ -17561,8 +17966,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Marina Confalone' },
       { name: 'Ettore Garofolo' },
     ],
-    coverUrl:
-      '/movies_pictures/c9cb56187f29.jpg',
+    coverUrl: '/movies_pictures/c9cb56187f29.jpg',
     releaseDate: '1976-09-23',
     length: 115,
     genre: ['Comédie', 'Drame'],
@@ -17584,8 +17988,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Laurent Devlaeminck' },
       { name: 'Nicole Félix' },
     ],
-    coverUrl:
-      '/movies_pictures/6a71e42bde27.jpg',
+    coverUrl: '/movies_pictures/6a71e42bde27.jpg',
     releaseDate: '1976-03-17',
     length: 105,
     genre: ['Comédie', 'Drame', 'Jeunesse'],
@@ -17607,8 +18010,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Victor Lanoux' },
       { name: 'Danièle Delorme' },
     ],
-    coverUrl:
-      '/movies_pictures/ce378a6d94d2.jpg',
+    coverUrl: '/movies_pictures/ce378a6d94d2.jpg',
     releaseDate: '1976-09-15',
     length: 105,
     genre: ['Comédie'],
@@ -17702,14 +18104,13 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Riton Liebman' },
       { name: 'Michel Serrault' },
     ],
-    coverUrl:
-      '/movies_pictures/416a0f44d5d4.jpg',
+    coverUrl: '/movies_pictures/416a0f44d5d4.jpg',
     releaseDate: '1978-01-11',
     length: 108,
     genre: ['Comédie', 'Drame'],
     saga: '',
     description:
-      'Un pianiste homosexuel et une prostituée s\'unissent pour élever l\'enfant qu\'ils ont eu ensemble.',
+      "Un pianiste homosexuel et une prostituée s'unissent pour élever l'enfant qu'ils ont eu ensemble.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -17725,8 +18126,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Verna Bloom' },
       { name: 'Tom Hulce' },
     ],
-    coverUrl:
-      '/movies_pictures/1f02e9304893.jpg',
+    coverUrl: '/movies_pictures/1f02e9304893.jpg',
     releaseDate: '1978-07-28',
     length: 109,
     genre: ['Comédie'],
@@ -17748,8 +18148,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Jean Bouise' },
       { name: 'Dora Doll' },
     ],
-    coverUrl:
-      '/movies_pictures/b4ed2a01162b.jpg',
+    coverUrl: '/movies_pictures/b4ed2a01162b.jpg',
     releaseDate: '1979-02-07',
     length: 90,
     genre: ['Comédie', 'Drame'],
@@ -17771,8 +18170,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Rémi Laurent' },
       { name: 'Carmen Scarpitta' },
     ],
-    coverUrl:
-      '/movies_pictures/61c85eabeacd.jpg',
+    coverUrl: '/movies_pictures/61c85eabeacd.jpg',
     releaseDate: '1978-10-25',
     length: 91,
     genre: ['Comédie'],
@@ -17798,8 +18196,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Jack Warden' },
       { name: 'Richard Dysart' },
     ],
-    coverUrl:
-      '/movies_pictures/f46c330376d0.jpg',
+    coverUrl: '/movies_pictures/f46c330376d0.jpg',
     releaseDate: '1979-12-19',
     length: 130,
     genre: ['Comédie', 'Drame'],
@@ -17825,8 +18222,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Eric Idle' },
       { name: 'Michael Palin' },
     ],
-    coverUrl:
-      '/movies_pictures/e3b03551ffe2.jpg',
+    coverUrl: '/movies_pictures/e3b03551ffe2.jpg',
     releaseDate: '1979-08-17',
     length: 94,
     genre: ['Comédie'],
@@ -17848,7 +18244,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Meryl Streep' },
       { name: 'Michael Murphy' },
     ],
-    coverUrl: '',
+    coverUrl: '/movies_pictures/54cf122d5051.jpg',
     releaseDate: '1979-04-25',
     length: 96,
     genre: ['Comédie', 'Romance', 'Drame'],
@@ -17877,7 +18273,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 106,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un fixeur des studios hollywoodiens des années 1950 doit retrouver une star enlevée pendant le tournage d\'un péplum.',
+    description:
+      "Un fixeur des studios hollywoodiens des années 1950 doit retrouver une star enlevée pendant le tournage d'un péplum.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -17900,7 +18297,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 110,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Deux sœurs chanteuses de nightclub rivalisent pour attirer l\'attention d\'un agent et d\'un gangster.',
+    description:
+      "Deux sœurs chanteuses de nightclub rivalisent pour attirer l'attention d'un agent et d'un gangster.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -17923,11 +18321,12 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 100,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Un publicitaire brillant et instable raconte sa chute dans le monde de la pub parisienne des années 1990.',
+    description:
+      'Un publicitaire brillant et instable raconte sa chute dans le monde de la pub parisienne des années 1990.',
     fromEntity: {
       entityType: 'book',
-      title: "99 Francs",
-      secondEntityKey: "Frédéric Beigbeder",
+      title: '99 Francs',
+      secondEntityKey: 'Frédéric Beigbeder',
     },
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -17950,7 +18349,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 77,
     genre: ['Comédie'],
     saga: '',
-    description: 'Deux amis découvrent une mouche géante qu\'ils espèrent monétiser dans une comédie absurde signée Dupieux.',
+    description:
+      "Deux amis découvrent une mouche géante qu'ils espèrent monétiser dans une comédie absurde signée Dupieux.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -17973,7 +18373,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 99,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un jeune trisomique 21 et son père escroc montent une arnaque qui touche une ville entière.',
+    description:
+      'Un jeune trisomique 21 et son père escroc montent une arnaque qui touche une ville entière.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -17996,7 +18397,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 110,
     genre: ['Comédie', 'Horreur'],
     saga: '',
-    description: 'Le tournage d\'un téléfilm de cuisine bascule en catastrophe quand un réalisateur remplace le chef en plein direct.',
+    description:
+      "Le tournage d'un téléfilm de cuisine bascule en catastrophe quand un réalisateur remplace le chef en plein direct.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -18019,7 +18421,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 107,
     genre: ['Comédie', 'Thriller'],
     saga: '',
-    description: 'Deux tueurs à gages en fuite attendent des ordres dans la ville belge où l\'un d\'eux découvre l\'art et la mélancolie.',
+    description:
+      "Deux tueurs à gages en fuite attendent des ordres dans la ville belge où l'un d'eux découvre l'art et la mélancolie.",
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -18042,7 +18445,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 112,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Une comédienne snob tombe amoureuse d\'un industriel bourgeois qu\'elle méprisait au premier abord.',
+    description:
+      "Une comédienne snob tombe amoureuse d'un industriel bourgeois qu'elle méprisait au premier abord.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -18065,7 +18469,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 92,
     genre: ['Comédie'],
     saga: '',
-    description: 'Une lycéenne studieuse se lie d\'amitié avec une fille libre qui l\'entraîne dans une année scolaire débridée.',
+    description:
+      "Une lycéenne studieuse se lie d'amitié avec une fille libre qui l'entraîne dans une année scolaire débridée.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -18088,7 +18493,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 100,
     genre: ['Comédie'],
     saga: '',
-    description: 'Trois amis parient sur la capacité de l\'un d\'eux à vivre sans fumer, sans parier et sans draguer.',
+    description:
+      "Trois amis parient sur la capacité de l'un d'eux à vivre sans fumer, sans parier et sans draguer.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -18111,7 +18517,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 86,
     genre: ['Comédie'],
     saga: '',
-    description: 'Trois rois mages débarquent à Paris en plein hiver et découvrent le monde moderne avec naïveté.',
+    description:
+      'Trois rois mages débarquent à Paris en plein hiver et découvrent le monde moderne avec naïveté.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -18134,7 +18541,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 84,
     genre: ['Comédie', 'Science Fiction'],
     saga: '',
-    description: 'Un militaire moyen et une prostituée cryogénisés se réveillent cinq cents ans plus tard dans une société devenu idiote.',
+    description:
+      'Un militaire moyen et une prostituée cryogénisés se réveillent cinq cents ans plus tard dans une société devenu idiote.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -18157,7 +18565,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 100,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Dans les années 1960, deux collègues opposées — une blanche et une noire — s\'unissent contre la discrimination au travail.',
+    description:
+      "Dans les années 1960, deux collègues opposées — une blanche et une noire — s'unissent contre la discrimination au travail.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -18180,7 +18589,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 105,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Une lycéenne mal dans sa peau entame une romance par SMS en se faisant passer pour une autre.',
+    description:
+      'Une lycéenne mal dans sa peau entame une romance par SMS en se faisant passer pour une autre.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -18203,7 +18613,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 87,
     genre: ['Comédie', 'Thriller'],
     saga: '',
-    description: 'Trois lycéennes populaires tuent accidentellement leur amie avec une boule de menthe géante.',
+    description:
+      'Trois lycéennes populaires tuent accidentellement leur amie avec une boule de menthe géante.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -18226,7 +18637,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 103,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un quarantenaire découvre qu\'il a engendré 533 enfants par don de sperme et décide de les rencontrer.',
+    description:
+      "Un quarantenaire découvre qu'il a engendré 533 enfants par don de sperme et décide de les rencontrer.",
     fromEntity: null,
     countryOrigin: ['Canada'],
     selectDisplayOrder: 0,
@@ -18249,7 +18661,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 87,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un malade mental timide tombe amoureux d\'une prostituée et bascule dans une violence absurde.',
+    description:
+      "Un malade mental timide tombe amoureux d'une prostituée et bascule dans une violence absurde.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -18272,7 +18685,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 112,
     genre: ['Comédie', 'Fantastique'],
     saga: '',
-    description: 'Un bureau bizarre mène à un tunnel qui permet d\'habiter l\'esprit de l\'acteur John Malkovich pendant quinze minutes.',
+    description:
+      "Un bureau bizarre mène à un tunnel qui permet d'habiter l'esprit de l'acteur John Malkovich pendant quinze minutes.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -18295,7 +18709,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 99,
     genre: ['Comédie', 'Science Fiction'],
     saga: '',
-    description: 'Dans un immeuble post-apocalyptique, un boucher et sa fille accueillent un clown muet dans une fable noir-gris.',
+    description:
+      'Dans un immeuble post-apocalyptique, un boucher et sa fille accueillent un clown muet dans une fable noir-gris.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -18318,7 +18733,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 95,
     genre: ['Comédie', 'Policier'],
     saga: '',
-    description: 'Un tueur, sa femme et un plombier schizophrène se croisent sur une aire d\'autoroute dans une comédie noire.',
+    description:
+      "Un tueur, sa femme et un plombier schizophrène se croisent sur une aire d'autoroute dans une comédie noire.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -18341,7 +18757,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 103,
     genre: ['Comédie'],
     saga: '',
-    description: 'Ferris Bueller séche l\'école et entraîne sa petite amie et son meilleur ami dans une escapade légendaire à Chicago.',
+    description:
+      "Ferris Bueller séche l'école et entraîne sa petite amie et son meilleur ami dans une escapade légendaire à Chicago.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -18364,7 +18781,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 105,
     genre: ['Comédie'],
     saga: '',
-    description: 'Une adolescente timide intègre un concours de beauté où la rivalité et les coups bas éclatent.',
+    description:
+      'Une adolescente timide intègre un concours de beauté où la rivalité et les coups bas éclatent.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -18387,7 +18805,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 95,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un cadre licencié traverse Paris à pied pour retrouver sa femme et mesure l\'injustice sociale autour de lui.',
+    description:
+      "Un cadre licencié traverse Paris à pied pour retrouver sa femme et mesure l'injustice sociale autour de lui.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -18410,7 +18829,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 143,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Une famille japonaise excentrique vit des moments surréalistes entre Tokyo et la campagne.',
+    description:
+      'Une famille japonaise excentrique vit des moments surréalistes entre Tokyo et la campagne.',
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
@@ -18433,7 +18853,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 107,
     genre: ['Comédie', 'Historique'],
     saga: '',
-    description: 'La mort du dictateur soviétique déclenche une course au pouvoir grotesque entre ses proches.',
+    description:
+      'La mort du dictateur soviétique déclenche une course au pouvoir grotesque entre ses proches.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -18456,7 +18877,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 104,
     genre: ['Comédie', 'Biographie'],
     saga: '',
-    description: 'L\'histoire vraie du tournage de The Room, pire film de l\'histoire devenu culte.',
+    description:
+      "L'histoire vraie du tournage de The Room, pire film de l'histoire devenu culte.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -18479,7 +18901,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 90,
     genre: ['Comédie', 'Science Fiction'],
     saga: '',
-    description: 'Dans un monde où les femmes dominent, un garçon timide tombe amoureuse de la fille du président.',
+    description:
+      'Dans un monde où les femmes dominent, un garçon timide tombe amoureuse de la fille du président.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -18502,7 +18925,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 95,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un réalisateur obsédé par un bruit de télévision cherche la scène parfaite pour son premier long-métrage.',
+    description:
+      'Un réalisateur obsédé par un bruit de télévision cherche la scène parfaite pour son premier long-métrage.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -18525,13 +18949,12 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 121,
     genre: ['Comédie'],
     saga: '',
-    description: 'Deux musiciens déguisés en femmes se cachent dans un orchestre féminin pour échapper à la mafia.',
+    description:
+      'Deux musiciens déguisés en femmes se cachent dans un orchestre féminin pour échapper à la mafia.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 1960 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 1960 }],
   },
   {
     title: "L'Impossible Monsieur Bébé",
@@ -18550,7 +18973,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 102,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Un paléontologue excentrique doit gérer une femme excentrique, un léopard et une panthère dans sa maison.',
+    description:
+      'Un paléontologue excentrique doit gérer une femme excentrique, un léopard et une panthère dans sa maison.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -18573,7 +18997,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 110,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Trois enfants prodiges devenus adultes ratés reviennent au chevet de leur père qui prétend mourir.',
+    description:
+      'Trois enfants prodiges devenus adultes ratés reviennent au chevet de leur père qui prétend mourir.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -18596,7 +19021,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 118,
     genre: ['Comédie', 'Aventure'],
     saga: '',
-    description: 'Un journaliste et son avocat partent couvrir une course moto à Las Vegas sous l\'emprise de drogues hallucinogènes.',
+    description:
+      "Un journaliste et son avocat partent couvrir une course moto à Las Vegas sous l'emprise de drogues hallucinogènes.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -18619,7 +19045,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 98,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Une trentenaire célibataire revoit ses amours passées lors d\'une réunion de lycée et doit choisir entre sécurité et passion.',
+    description:
+      "Une trentenaire célibataire revoit ses amours passées lors d'une réunion de lycée et doit choisir entre sécurité et passion.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -18642,7 +19069,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 92,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un couple bourgeois accueille un SDF chez eux dans une expérience sociale qui dérape rapidement.',
+    description:
+      'Un couple bourgeois accueille un SDF chez eux dans une expérience sociale qui dérape rapidement.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -18665,7 +19093,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 103,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un riche avocat découvre qu\'il a un demi-frère cancre héritier de la moitié de sa fortune.',
+    description:
+      "Un riche avocat découvre qu'il a un demi-frère cancre héritier de la moitié de sa fortune.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -18688,7 +19117,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 101,
     genre: ['Comédie', 'Science Fiction'],
     saga: '',
-    description: 'Des scientifiques affrontent une évolution accélérée de créatures extraterrestres dans le désert de l\'Arizona.',
+    description:
+      "Des scientifiques affrontent une évolution accélérée de créatures extraterrestres dans le désert de l'Arizona.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -18711,7 +19141,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 98,
     genre: ['Comédie'],
     saga: '',
-    description: 'Des amis organisent un barbecue annuel où secrets, jalousies et trahisons refont surface.',
+    description:
+      'Des amis organisent un barbecue annuel où secrets, jalousies et trahisons refont surface.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -18734,7 +19165,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 89,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un avocat pingre doit collaborer avec une association caritative pour conserver son héritage.',
+    description:
+      'Un avocat pingre doit collaborer avec une association caritative pour conserver son héritage.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -18757,7 +19189,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 92,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un couple en crise doit traverser l\'Europe à pied quand l\'éruption islandaise bloque tous les vols.',
+    description:
+      "Un couple en crise doit traverser l'Europe à pied quand l'éruption islandaise bloque tous les vols.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -18780,7 +19213,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 108,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un douanier français et son voisin belge, ennemis jurés, voient leurs enfants tomber amoureux.',
+    description:
+      'Un douanier français et son voisin belge, ennemis jurés, voient leurs enfants tomber amoureux.',
     fromEntity: null,
     countryOrigin: ['France', 'Belgique'],
     selectDisplayOrder: 0,
@@ -18803,7 +19237,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 100,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un agent immobilier malhonnête découvre que la maison qu\'il vend est hantée par l\'ancienne propriétaire.',
+    description:
+      "Un agent immobilier malhonnête découvre que la maison qu'il vend est hantée par l'ancienne propriétaire.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -18826,7 +19261,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 85,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un riche homme d\'affaires engage un comédien pour remplacer son amant et sauver son couple.',
+    description:
+      "Un riche homme d'affaires engage un comédien pour remplacer son amant et sauver son couple.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -18849,7 +19285,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 100,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un vendeur de textile juif tombe amoureux d\'une fille du milieu arabe à Paris.',
+    description:
+      "Un vendeur de textile juif tombe amoureux d'une fille du milieu arabe à Paris.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -18872,7 +19309,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 105,
     genre: ['Comédie'],
     saga: '',
-    description: 'Eddie et sa bande s\'installent à Miami où rivalités familiales et arnaques reprennent.',
+    description:
+      "Eddie et sa bande s'installent à Miami où rivalités familiales et arnaques reprennent.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -18895,7 +19333,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 107,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un hypocondriaque convaincu d\'être gravement malade perturbe sa famille et ses médecins.',
+    description:
+      "Un hypocondriaque convaincu d'être gravement malade perturbe sa famille et ses médecins.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -18918,7 +19357,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 107,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un success story parisien retourne dans le Nord pour affronter sa famille qu\'il a reniée.',
+    description:
+      "Un success story parisien retourne dans le Nord pour affronter sa famille qu'il a reniée.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -18940,7 +19380,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 105,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Un musicien mexicain en quête de reconnaissance monte un groupe et affronte les préjugés dans une comédie musicale.',
+    description:
+      'Un musicien mexicain en quête de reconnaissance monte un groupe et affronte les préjugés dans une comédie musicale.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -18963,7 +19404,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 116,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Un homme ordinaire découvre que sa femme le trompe et part en voyage avec son voisin excentrique.',
+    description:
+      'Un homme ordinaire découvre que sa femme le trompe et part en voyage avec son voisin excentrique.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -18986,7 +19428,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 102,
     genre: ['Comédie', 'Fantastique'],
     saga: '',
-    description: 'Jack, sorcier excentrique, tombe amoureux de la belle-fille de la femme qu\'il a épousée.',
+    description:
+      "Jack, sorcier excentrique, tombe amoureux de la belle-fille de la femme qu'il a épousée.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -19009,7 +19452,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 100,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un avocat spécialisé en divorces tombe amoureux de la femme qu\'il doit dépouiller pour son client.',
+    description:
+      "Un avocat spécialisé en divorces tombe amoureux de la femme qu'il doit dépouiller pour son client.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -19032,7 +19476,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 88,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Une architecte cynique se retrouve piégée dans un monde de comédie romantique après un coup à la tête.',
+    description:
+      'Une architecte cynique se retrouve piégée dans un monde de comédie romantique après un coup à la tête.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -19055,7 +19500,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 110,
     genre: ['Comédie'],
     saga: '',
-    description: 'Une femme insécure croit être devenue belle après une chute et ose enfin vivre pleinement.',
+    description:
+      'Une femme insécure croit être devenue belle après une chute et ose enfin vivre pleinement.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -19078,7 +19524,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 91,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Un photographe de mode tombe amoureux de sa muse lors d\'un shooting à Paris.',
+    description:
+      "Un photographe de mode tombe amoureux de sa muse lors d'un shooting à Paris.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -19101,7 +19548,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 66,
     genre: ['Comédie'],
     saga: '',
-    description: 'Fred, rappeur de banlieue, tente de percer dans la musique tout en gérant le chaos familial.',
+    description:
+      'Fred, rappeur de banlieue, tente de percer dans la musique tout en gérant le chaos familial.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -19124,7 +19572,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 99,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Un boulanger normand obsédé par Madame Bovary croit reconnaître l\'héroïne du roman dans sa nouvelle voisine.',
+    description:
+      "Un boulanger normand obsédé par Madame Bovary croit reconnaître l'héroïne du roman dans sa nouvelle voisine.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -19147,7 +19596,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 98,
     genre: ['Comédie'],
     saga: '',
-    description: 'Une jeune femme découvre que son père, qu\'elle croyait mort, est en réalité un escroc en cavale.',
+    description:
+      "Une jeune femme découvre que son père, qu'elle croyait mort, est en réalité un escroc en cavale.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -19170,7 +19620,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 85,
     genre: ['Comédie'],
     saga: '',
-    description: 'Guillaume Gallienne raconte avec humour son parcours et ses doutes sur son identité et sa sexualité.',
+    description:
+      'Guillaume Gallienne raconte avec humour son parcours et ses doutes sur son identité et sa sexualité.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -19193,7 +19644,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 94,
     genre: ['Comédie'],
     saga: '',
-    description: 'Une jeune New-Yorkaise part à Ibiza avec ses amies pour retrouver un DJ qu\'elle a rencontré une seule nuit.',
+    description:
+      "Une jeune New-Yorkaise part à Ibiza avec ses amies pour retrouver un DJ qu'elle a rencontré une seule nuit.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -19216,7 +19668,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 99,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un lycéen hétéro en couple découvre qu\'il est attiré par un autre garçon avant d\'aller à la fac.',
+    description:
+      "Un lycéen hétéro en couple découvre qu'il est attiré par un autre garçon avant d'aller à la fac.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -19239,7 +19692,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 97,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Un flic maladroit se fait passer pour acteur pour infiltrer une production et démasquer un trafic.',
+    description:
+      'Un flic maladroit se fait passer pour acteur pour infiltrer une production et démasquer un trafic.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -19262,7 +19716,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 104,
     genre: ['Comédie'],
     saga: '',
-    description: 'Une étudiante doit former une équipe de danse step dans une sororité noire pour sauver son admission.',
+    description:
+      'Une étudiante doit former une équipe de danse step dans une sororité noire pour sauver son admission.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -19285,7 +19740,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 97,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Un soignant et son jeune patient en fauteuil partent en road trip où l\'humour masque la douleur.',
+    description:
+      "Un soignant et son jeune patient en fauteuil partent en road trip où l'humour masque la douleur.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -19308,7 +19764,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 91,
     genre: ['Comédie', 'Jeunesse'],
     saga: '',
-    description: 'Une journaliste sportive débarque à New York et tombe amoureuse de son caméraman.',
+    description:
+      'Une journaliste sportive débarque à New York et tombe amoureuse de son caméraman.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -19331,7 +19788,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 112,
     genre: ['Comédie'],
     saga: '',
-    description: 'Deux frères échangent leurs corps et découvrent la vie de l\'autre avec des résultats catastrophiques.',
+    description:
+      "Deux frères échangent leurs corps et découvrent la vie de l'autre avec des résultats catastrophiques.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -19354,7 +19812,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 101,
     genre: ['Comédie', 'Action'],
     saga: '',
-    description: 'Deux flics aux méthodes opposées traquent un baron de la drogue dans les années 1970.',
+    description:
+      'Deux flics aux méthodes opposées traquent un baron de la drogue dans les années 1970.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -19377,7 +19836,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 95,
     genre: ['Comédie'],
     saga: '',
-    description: 'Deux flics de la brigade financière enquêtent sur une affaire de fraude dans le milieu des nuits parisiennes.',
+    description:
+      'Deux flics de la brigade financière enquêtent sur une affaire de fraude dans le milieu des nuits parisiennes.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -19400,7 +19860,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 90,
     genre: ['Comédie'],
     saga: '',
-    description: 'Quasimodo, sonneur de Notre-Dame, tombe amoureux d\'une danseuse dans une parodie parisienne du classique.',
+    description:
+      "Quasimodo, sonneur de Notre-Dame, tombe amoureux d'une danseuse dans une parodie parisienne du classique.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -19423,7 +19884,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 93,
     genre: ['Comédie', 'Fantastique'],
     saga: '',
-    description: 'Un homme possédé par le diable tente de séduire une journaliste tout en affrontant son ex-femme démoniaque.',
+    description:
+      'Un homme possédé par le diable tente de séduire une journaliste tout en affrontant son ex-femme démoniaque.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -19446,7 +19908,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 90,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un hypocondriaque revoit Polly, son amour de jeunesse, et tente de vivre sans peur ni calcul.',
+    description:
+      'Un hypocondriaque revoit Polly, son amour de jeunesse, et tente de vivre sans peur ni calcul.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -19469,7 +19932,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 94,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un truand des cités devient informateur de la police et découvre un autre visage de la loi.',
+    description:
+      'Un truand des cités devient informateur de la police et découvre un autre visage de la loi.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -19492,7 +19956,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 102,
     genre: ['Comédie'],
     saga: '',
-    description: 'Cyprien, dessinateur timide, tente de séduire une femme tout en gérant son succès sur Internet.',
+    description:
+      'Cyprien, dessinateur timide, tente de séduire une femme tout en gérant son succès sur Internet.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -19515,7 +19980,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 105,
     genre: ['Comédie'],
     saga: '',
-    description: 'Eddie et sa famille s\'installent à Tel Aviv où mariages, trafics et malentendus s\'enchaînent.',
+    description:
+      "Eddie et sa famille s'installent à Tel Aviv où mariages, trafics et malentendus s'enchaînent.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -19538,7 +20004,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 100,
     genre: ['Comédie', 'Jeunesse'],
     saga: '',
-    description: 'Cruella de Vil revient avec un plan pour fabriquer un manteau avec la fourrure de 102 dalmatiens.',
+    description:
+      'Cruella de Vil revient avec un plan pour fabriquer un manteau avec la fourrure de 102 dalmatiens.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -19561,13 +20028,12 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 92,
     genre: ['Comédie', 'Jeunesse'],
     saga: '',
-    description: 'Un cochon orphelin élevé par des chiens de berger prouve que la différence peut devenir une force.',
+    description:
+      'Un cochon orphelin élevé par des chiens de berger prouve que la différence peut devenir une force.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 1996 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 1996 }],
   },
   {
     title: 'Docteur Dolittle',
@@ -19586,7 +20052,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 85,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un vétérinaire peut parler aux animaux et doit sauver une créature légendaire pour sauver une forêt.',
+    description:
+      'Un vétérinaire peut parler aux animaux et doit sauver une créature légendaire pour sauver une forêt.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -19609,7 +20076,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 95,
     genre: ['Comédie'],
     saga: '',
-    description: 'Béatrice, prof de français, rêve de devenir chanteuse de variétés dans une parodie du milieu musical.',
+    description:
+      'Béatrice, prof de français, rêve de devenir chanteuse de variétés dans une parodie du milieu musical.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -19632,7 +20100,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 117,
     genre: ['Comédie', 'Science Fiction'],
     saga: '',
-    description: 'Un réalisateur en déclin crée une actrice virtuelle qui devient une star mondiale sans que personne ne le sache.',
+    description:
+      'Un réalisateur en déclin crée une actrice virtuelle qui devient une star mondiale sans que personne ne le sache.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -19655,7 +20124,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 95,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un scientifique absent se fait remplacer par un double qui séduit les étudiants avec des expériences loufoques.',
+    description:
+      'Un scientifique absent se fait remplacer par un double qui séduit les étudiants avec des expériences loufoques.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -19678,7 +20148,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 118,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Plusieurs histoires d\'amour s\'entrecroisent autour d\'un divorcé reconstruit par un dragueur professionnel.',
+    description:
+      "Plusieurs histoires d'amour s'entrecroisent autour d'un divorcé reconstruit par un dragueur professionnel.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -19701,7 +20172,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 93,
     genre: ['Comédie', 'Comédie musicale'],
     saga: '',
-    description: 'Les Spice Girls préparent un concert au Royal Albert Hall entre paparazzi, fans et aventures absurdes.',
+    description:
+      'Les Spice Girls préparent un concert au Royal Albert Hall entre paparazzi, fans et aventures absurdes.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -19724,7 +20196,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 111,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Un homme tombe amoureux d\'une femme qui se révèle être une sirène venue de l\'océan.',
+    description:
+      "Un homme tombe amoureux d'une femme qui se révèle être une sirène venue de l'océan.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -19747,7 +20220,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 96,
     genre: ['Comédie', 'Jeunesse'],
     saga: '',
-    description: 'Un garçon découvre un Indien du XVIIIe siècle vivant dans son placard et l\'aide à s\'adapter au monde moderne.',
+    description:
+      "Un garçon découvre un Indien du XVIIIe siècle vivant dans son placard et l'aide à s'adapter au monde moderne.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -19768,7 +20242,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 95,
     genre: ['Comédie'],
     saga: '',
-    description: 'Des amis partent en safari au Kenya où voitures en panne et mésaventures transforment les vacances en cauchemar.',
+    description:
+      'Des amis partent en safari au Kenya où voitures en panne et mésaventures transforment les vacances en cauchemar.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -19788,7 +20263,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 102,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Un garçon de onze ans découvre l\'amour et la mort lors d\'un été dans une petite ville américaine.',
+    description:
+      "Un garçon de onze ans découvre l'amour et la mort lors d'un été dans une petite ville américaine.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -19809,7 +20285,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 120,
     genre: ['Comédie', 'Biographie'],
     saga: '',
-    description: 'Le jeune Molière, emprisonné pour dettes, s\'inspire de sa vie chez un bourgeois pour créer sa comédie.',
+    description:
+      "Le jeune Molière, emprisonné pour dettes, s'inspire de sa vie chez un bourgeois pour créer sa comédie.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -19830,7 +20307,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 96,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un technicien de la télévision découvre qu\'une voisine est enfermée dans son placard et tente de la séduire.',
+    description:
+      "Un technicien de la télévision découvre qu'une voisine est enfermée dans son placard et tente de la séduire.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -19850,7 +20328,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 103,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Une femme indépendante tombe amoureuse d\'un homme vulgaire et agressif, à l\'opposé de son monde.',
+    description:
+      "Une femme indépendante tombe amoureuse d'un homme vulgaire et agressif, à l'opposé de son monde.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -19871,7 +20350,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 84,
     genre: ['Comédie', 'Fantastique'],
     saga: '',
-    description: 'Le gentil fantôme Casper rencontre Wendy la sorcière et affronte leurs familles respectives.',
+    description:
+      'Le gentil fantôme Casper rencontre Wendy la sorcière et affronte leurs familles respectives.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -19892,7 +20372,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 100,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Une femme mère au foyer découvre qu\'elle est belle et relance sa vie amoureuse et professionnelle.',
+    description:
+      "Une femme mère au foyer découvre qu'elle est belle et relance sa vie amoureuse et professionnelle.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -19912,7 +20393,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 118,
     genre: ['Comédie', 'Comédie musicale'],
     saga: '',
-    description: 'Des fans des années 1980 se retrouvent pour un concert où nostalgie et dérapages s\'entremêlent.',
+    description:
+      "Des fans des années 1980 se retrouvent pour un concert où nostalgie et dérapages s'entremêlent.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -19932,7 +20414,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 105,
     genre: ['Comédie', 'Thriller'],
     saga: '',
-    description: 'Un homme ordinaire et une adolescente partent tuer les gens qu\'ils jugent stupides dans une satire violente.',
+    description:
+      "Un homme ordinaire et une adolescente partent tuer les gens qu'ils jugent stupides dans une satire violente.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -19953,7 +20436,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 94,
     genre: ['Comédie', 'Jeunesse'],
     saga: '',
-    description: 'Lizzie McGuire part en voyage scolaire à Rome où elle rencontre sa sosie, une pop star italienne.',
+    description:
+      'Lizzie McGuire part en voyage scolaire à Rome où elle rencontre sa sosie, une pop star italienne.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -19973,7 +20457,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 108,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Une veuve en deuil retroute le goût de vivre grâce à un collègue maladroit mais sincère.',
+    description:
+      'Une veuve en deuil retroute le goût de vivre grâce à un collègue maladroit mais sincère.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -19994,7 +20479,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 94,
     genre: ['Comédie'],
     saga: '',
-    description: 'Deux fans de hard rock animent un show de câble local et affrontent un producteur qui veut les commercialiser.',
+    description:
+      'Deux fans de hard rock animent un show de câble local et affrontent un producteur qui veut les commercialiser.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -20015,7 +20501,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 100,
     genre: ['Comédie'],
     saga: '',
-    description: 'Trois amis tentent de rembourser une dette en montant une arnaque immobilière à Saint-Tropez.',
+    description:
+      'Trois amis tentent de rembourser une dette en montant une arnaque immobilière à Saint-Tropez.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -20035,7 +20522,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 90,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un fan croit avoir rencontré Johnny Hallyday en 1962 et part à sa recherche quarante ans plus tard.',
+    description:
+      'Un fan croit avoir rencontré Johnny Hallyday en 1962 et part à sa recherche quarante ans plus tard.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -20056,7 +20544,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 96,
     genre: ['Comédie', 'Fantastique'],
     saga: '',
-    description: 'Trois sorcières du XVIIe siècle ressuscitées à Halloween chassent des enfants pour prolonger leur jeunesse.',
+    description:
+      'Trois sorcières du XVIIe siècle ressuscitées à Halloween chassent des enfants pour prolonger leur jeunesse.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -20077,7 +20566,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 87,
     genre: ['Comédie', 'Policier'],
     saga: '',
-    description: 'Une grand-mère veuve devient dealer de cannabis pour joindre les deux bouts dans une comédie tendre.',
+    description:
+      'Une grand-mère veuve devient dealer de cannabis pour joindre les deux bouts dans une comédie tendre.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -20098,7 +20588,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 105,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Une femme mariée tombe amoureuse d\'une danseuse et perturbe la vie de son quartier parisien.',
+    description:
+      "Une femme mariée tombe amoureuse d'une danseuse et perturbe la vie de son quartier parisien.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -20119,7 +20610,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 90,
     genre: ['Comédie'],
     saga: '',
-    description: 'Deux flics enquêtent sur la mort d\'une star des années 1960 dans une parodie de film noir.',
+    description:
+      "Deux flics enquêtent sur la mort d'une star des années 1960 dans une parodie de film noir.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -20140,7 +20632,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 95,
     genre: ['Comédie'],
     saga: '',
-    description: 'Les deux flics reprennent l\'enquête vingt ans plus tard dans une suite encore plus parodique.',
+    description:
+      "Les deux flics reprennent l'enquête vingt ans plus tard dans une suite encore plus parodique.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -20161,7 +20654,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 91,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un homme découvre que sa belle-mère est la patronne de la compagnie qui vient de le licencier.',
+    description:
+      'Un homme découvre que sa belle-mère est la patronne de la compagnie qui vient de le licencier.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -20182,7 +20676,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 84,
     genre: ['Comédie'],
     saga: '',
-    description: 'Deux demi-sœurs rivales manipulent les hommes de leur lycée dans une guerre de séduction impitoyable.',
+    description:
+      'Deux demi-sœurs rivales manipulent les hommes de leur lycée dans une guerre de séduction impitoyable.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -20203,7 +20698,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 105,
     genre: ['Comédie'],
     saga: '',
-    description: 'Des amis quinquagénaires redécouvrent leurs années disco lors d\'une soirée qui réveille leurs désirs.',
+    description:
+      "Des amis quinquagénaires redécouvrent leurs années disco lors d'une soirée qui réveille leurs désirs.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -20224,7 +20720,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 96,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Une adolescente new-yorkaise découvre qu\'elle est enceinte et doit affronter ses parents et son avenir.',
+    description:
+      "Une adolescente new-yorkaise découvre qu'elle est enceinte et doit affronter ses parents et son avenir.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -20245,7 +20742,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 98,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Un écrivain analyse ses relations amoureuses selon sa théorie des trois ans dans une comédie parisienne.',
+    description:
+      'Un écrivain analyse ses relations amoureuses selon sa théorie des trois ans dans une comédie parisienne.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -20266,7 +20764,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 90,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Un séduiteur invétéré simule un mariage pour échapper à ses petites amies, mais tombe amoureux pour de vrai.',
+    description:
+      'Un séduiteur invétéré simule un mariage pour échapper à ses petites amies, mais tombe amoureux pour de vrai.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -20287,7 +20786,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 115,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Un couple découvre la vie avec Marley, un labrador destructeur devenu membre indissociable de la famille.',
+    description:
+      'Un couple découvre la vie avec Marley, un labrador destructeur devenu membre indissociable de la famille.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -20308,7 +20808,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 112,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Une fille de famille indienne rêve de jouer au football malgré les traditions de ses parents.',
+    description:
+      'Une fille de famille indienne rêve de jouer au football malgré les traditions de ses parents.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -20329,7 +20830,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 100,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Une étudiante travaille dans un bar où les serveuses dansent sur le comptoir pour payer ses études.',
+    description:
+      'Une étudiante travaille dans un bar où les serveuses dansent sur le comptoir pour payer ses études.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -20350,7 +20852,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 105,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un détenu et son gardien en fuite traversent la France dans une comédie d\'action décalée.',
+    description:
+      "Un détenu et son gardien en fuite traversent la France dans une comédie d'action décalée.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -20371,7 +20874,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 114,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Un homme obèse tombe amoureux d\'une prof de surpoids et affronte les moqueries autour d\'eux.',
+    description:
+      "Un homme obèse tombe amoureux d'une prof de surpoids et affronte les moqueries autour d'eux.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -20392,7 +20896,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 105,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un fan de foot transforme un chien en star du ballon rond dans une comédie absurde signée Alain Chabat.',
+    description:
+      'Un fan de foot transforme un chien en star du ballon rond dans une comédie absurde signée Alain Chabat.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -20413,7 +20918,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 100,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un Algérien efféminé devient gouvernante chez un flic macho et bouleverse sa vie.',
+    description:
+      'Un Algérien efféminé devient gouvernante chez un flic macho et bouleverse sa vie.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -20434,7 +20940,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 100,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Deux sœurs de banlieue rêvent de réussir à Paris et découvrent que l\'ascension sociale a un prix.',
+    description:
+      "Deux sœurs de banlieue rêvent de réussir à Paris et découvrent que l'ascension sociale a un prix.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -20454,7 +20961,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 100,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un comique français part à Los Angeles pour retrouver une actrice qu\'il croit avoir rencontrée à Paris.',
+    description:
+      "Un comique français part à Los Angeles pour retrouver une actrice qu'il croit avoir rencontrée à Paris.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -20475,7 +20983,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 97,
     genre: ['Comédie', 'Jeunesse'],
     saga: '',
-    description: 'Une mère et sa fille adolescente échangent leurs corps et découvrent la vie de l\'autre.',
+    description:
+      "Une mère et sa fille adolescente échangent leurs corps et découvrent la vie de l'autre.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -20496,7 +21005,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 98,
     genre: ['Comédie'],
     saga: '',
-    description: 'Des amis partent en raid aventure dans le désert marocain où voitures, chameaux et egos s\'affrontent.',
+    description:
+      "Des amis partent en raid aventure dans le désert marocain où voitures, chameaux et egos s'affrontent.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -20517,7 +21027,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 94,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Trois amies d\'enfance retrouvent leur pacte et partent en road trip vers leurs rêves de jeunesse.',
+    description:
+      "Trois amies d'enfance retrouvent leur pacte et partent en road trip vers leurs rêves de jeunesse.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -20538,7 +21049,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 74,
     genre: ['Comédie', 'Science Fiction'],
     saga: '',
-    description: 'Les parents et les enfants rétrécis doivent collaborer pour retrouver la taille normale.',
+    description:
+      'Les parents et les enfants rétrécis doivent collaborer pour retrouver la taille normale.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -20559,7 +21071,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 112,
     genre: ['Comédie', 'Action'],
     saga: '',
-    description: 'Un présentateur télé et son producteur partent interviewer le dictateur nord-coréen dans une satire politique.',
+    description:
+      'Un présentateur télé et son producteur partent interviewer le dictateur nord-coréen dans une satire politique.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -20580,7 +21093,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 96,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Un chanteur des années 1980 tente un retour sur scène avec l\'aide d\'une jeune manager déterminée.',
+    description:
+      "Un chanteur des années 1980 tente un retour sur scène avec l'aide d'une jeune manager déterminée.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -20601,7 +21115,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 114,
     genre: ['Comédie', 'Guerre'],
     saga: '',
-    description: 'Trois soldats perdus dans le désert irakien affrontent la guerre avec humour noir et camaraderie.',
+    description:
+      'Trois soldats perdus dans le désert irakien affrontent la guerre avec humour noir et camaraderie.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -20622,7 +21137,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 93,
     genre: ['Comédie', 'Science Fiction'],
     saga: '',
-    description: 'Deux ados de San Dimas voyagent dans le temps pour sauver leur avenir grâce à un téléphone cabine.',
+    description:
+      'Deux ados de San Dimas voyagent dans le temps pour sauver leur avenir grâce à un téléphone cabine.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -20645,7 +21161,8 @@ export const baseMoviesComedie: BaseMovie[] = [
     length: 95,
     genre: ['Comédie'],
     saga: '',
-    description: 'Deux rivaux de danse s\'affrontent lors d\'une compétition universitaire dans une comédie musicale légère.',
+    description:
+      "Deux rivaux de danse s'affrontent lors d'une compétition universitaire dans une comédie musicale légère.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -21338,8 +21855,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Ric Young' },
       { name: 'Peter Graves' },
     ],
-    coverUrl:
-      '/movies_pictures/46e8d2042f93.jpg',
+    coverUrl: '/movies_pictures/46e8d2042f93.jpg',
     releaseDate: '1984-01-26',
     length: 94,
     genre: ['Comédie', 'Action'],
@@ -21361,8 +21877,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Richard Libertini' },
       { name: 'Dana Elcar' },
     ],
-    coverUrl:
-      '/movies_pictures/aadf03b21c82.jpg',
+    coverUrl: '/movies_pictures/aadf03b21c82.jpg',
     releaseDate: '1984-09-21',
     length: 93,
     genre: ['Comédie', 'Fantastique'],
@@ -21384,8 +21899,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'George Grizzard' },
       { name: 'Barbara Stuart' },
     ],
-    coverUrl:
-      '/movies_pictures/28f19ab330de.jpg',
+    coverUrl: '/movies_pictures/28f19ab330de.jpg',
     releaseDate: '1984-06-29',
     length: 105,
     genre: ['Comédie'],
@@ -21407,8 +21921,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Élisabeth Margoni' },
       { name: 'Jacques Frantz' },
     ],
-    coverUrl:
-      '/movies_pictures/f4e71632a9f6.jpg',
+    coverUrl: '/movies_pictures/f4e71632a9f6.jpg',
     releaseDate: '1984-10-24',
     length: 90,
     genre: ['Comédie'],
@@ -21434,8 +21947,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Grace de Capitani' },
       { name: 'Julien Guiomar' },
     ],
-    coverUrl:
-      '/movies_pictures/c96dd5041e82.jpg',
+    coverUrl: '/movies_pictures/c96dd5041e82.jpg',
     releaseDate: '1984-09-19',
     length: 107,
     genre: ['Comédie', 'Policier'],
@@ -21457,14 +21969,13 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Richard Bohringer' },
       { name: 'François Berléand' },
     ],
-    coverUrl:
-      '/movies_pictures/b9523c15cb17.jpg',
+    coverUrl: '/movies_pictures/b9523c15cb17.jpg',
     releaseDate: '1984-10-17',
     length: 98,
     genre: ['Comédie', 'Drame'],
     saga: '',
     description:
-      "Deux amis marginaux en cavale traversent la France dans une comédie tendre et mélancolique.",
+      'Deux amis marginaux en cavale traversent la France dans une comédie tendre et mélancolique.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -21480,8 +21991,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Bubba Smith' },
       { name: 'Michael Winslow' },
     ],
-    coverUrl:
-      '/movies_pictures/e9569efc4874.jpg',
+    coverUrl: '/movies_pictures/e9569efc4874.jpg',
     releaseDate: '1984-03-23',
     length: 96,
     genre: ['Comédie'],
@@ -21503,8 +22013,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Paul Dooley' },
       { name: 'Justin Henry' },
     ],
-    coverUrl:
-      '/movies_pictures/2b7705ffc102.jpg',
+    coverUrl: '/movies_pictures/2b7705ffc102.jpg',
     releaseDate: '1984-05-04',
     length: 93,
     genre: ['Comédie', 'Romance'],
@@ -21526,8 +22035,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Cecillia Stark' },
       { name: 'Danny Rosen' },
     ],
-    coverUrl:
-      '/movies_pictures/2063faa06aa7.jpg',
+    coverUrl: '/movies_pictures/2063faa06aa7.jpg',
     releaseDate: '1984-10-01',
     length: 89,
     genre: ['Comédie', 'Drame'],
@@ -21549,8 +22057,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Rob Reiner' },
       { name: 'Tony Hendra' },
     ],
-    coverUrl:
-      '/movies_pictures/6e042f271877.jpg',
+    coverUrl: '/movies_pictures/6e042f271877.jpg',
     releaseDate: '1984-03-02',
     length: 82,
     genre: ['Comédie', 'Documentaire', 'Comédie musicale'],
@@ -21572,8 +22079,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Peter Cushing' },
       { name: 'Jeremy Kemp' },
     ],
-    coverUrl:
-      '/movies_pictures/40b85051c8cb.jpg',
+    coverUrl: '/movies_pictures/40b85051c8cb.jpg',
     releaseDate: '1984-06-22',
     length: 90,
     genre: ['Comédie'],
@@ -21825,7 +22331,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     genre: ['Comédie', 'Drame'],
     saga: "Le Déclin de l'empire américain",
     description:
-      'Des intellectuels québécois discutent sexe, politique et vieillesse lors d\'un dîner entre amis.',
+      "Des intellectuels québécois discutent sexe, politique et vieillesse lors d'un dîner entre amis.",
     fromEntity: null,
     countryOrigin: ['Canada'],
     selectDisplayOrder: 0,
@@ -22067,7 +22573,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     genre: ['Comédie', 'Thriller'],
     saga: '',
     description:
-      'Une vendeuse de lingerie croit qu\'un inconnu veut la tuer et se réfugie chez un voisin timide.',
+      "Une vendeuse de lingerie croit qu'un inconnu veut la tuer et se réfugie chez un voisin timide.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -22149,8 +22655,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Vincent Gardenia' },
       { name: 'Danny Aiello' },
     ],
-    coverUrl:
-      '/movies_pictures/a3389b408a54.jpg',
+    coverUrl: '/movies_pictures/a3389b408a54.jpg',
     releaseDate: '1987-12-18',
     length: 102,
     genre: ['Comédie', 'Romance'],
@@ -22176,8 +22681,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Michelle Pfeiffer' },
       { name: 'Veronica Cartwright' },
     ],
-    coverUrl:
-      '/movies_pictures/967c06d9e9cb.jpg',
+    coverUrl: '/movies_pictures/967c06d9e9cb.jpg',
     releaseDate: '1987-06-12',
     length: 118,
     genre: ['Comédie', 'Fantastique', 'Romance'],
@@ -22203,8 +22707,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Katherine Helmond' },
       { name: 'Roddy McDowall' },
     ],
-    coverUrl:
-      '/movies_pictures/3e44bb34168a.jpg',
+    coverUrl: '/movies_pictures/3e44bb34168a.jpg',
     releaseDate: '1987-12-16',
     length: 112,
     genre: ['Comédie', 'Romance'],
@@ -22252,8 +22755,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Michael McKean' },
       { name: 'Kevin Bacon' },
     ],
-    coverUrl:
-      '/movies_pictures/2d51b5aa2481.jpg',
+    coverUrl: '/movies_pictures/2d51b5aa2481.jpg',
     releaseDate: '1987-11-25',
     length: 93,
     genre: ['Comédie'],
@@ -22275,8 +22777,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Ralph Brown' },
       { name: 'Michael Elphick' },
     ],
-    coverUrl:
-      '/movies_pictures/b578ca780c75.jpg',
+    coverUrl: '/movies_pictures/b578ca780c75.jpg',
     releaseDate: '1987-06-19',
     length: 107,
     genre: ['Comédie', 'Drame'],
@@ -22298,8 +22799,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Veronica Hamel' },
       { name: 'John Shea' },
     ],
-    coverUrl:
-      '/movies_pictures/acde0e34d0c3.jpg',
+    coverUrl: '/movies_pictures/acde0e34d0c3.jpg',
     releaseDate: '1988-03-25',
     length: 104,
     genre: ['Comédie', 'Romance'],
@@ -22343,8 +22843,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Carol Kane' },
       { name: 'Bobcat Goldthwait' },
     ],
-    coverUrl:
-      '/movies_pictures/723e444ba4e5.jpg',
+    coverUrl: '/movies_pictures/723e444ba4e5.jpg',
     releaseDate: '1988-11-23',
     length: 101,
     genre: ['Comédie', 'Fantastique'],
@@ -22370,8 +22869,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'María Barranco' },
       { name: 'Rossy de Palma' },
     ],
-    coverUrl:
-      '/movies_pictures/94572c633fb4.jpg',
+    coverUrl: '/movies_pictures/94572c633fb4.jpg',
     releaseDate: '1988-03-25',
     length: 89,
     genre: ['Comédie'],
@@ -22393,8 +22891,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Jean-Claude Adelin' },
       { name: 'Elena Pompei' },
     ],
-    coverUrl:
-      '/movies_pictures/3b1d8115f3d7.jpg',
+    coverUrl: '/movies_pictures/3b1d8115f3d7.jpg',
     releaseDate: '1988-10-05',
     length: 103,
     genre: ['Comédie', 'Romance'],
@@ -22416,8 +22913,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Jérôme Floch' },
       { name: 'Hélène Vincent' },
     ],
-    coverUrl:
-      '/movies_pictures/80e92cbf440f.jpg',
+    coverUrl: '/movies_pictures/80e92cbf440f.jpg',
     releaseDate: '1988-02-03',
     length: 90,
     genre: ['Comédie'],
@@ -22439,8 +22935,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'John Ashton' },
       { name: 'Dennis Farina' },
     ],
-    coverUrl:
-      '/movies_pictures/73971e5b0c3d.jpg',
+    coverUrl: '/movies_pictures/73971e5b0c3d.jpg',
     releaseDate: '1988-07-20',
     length: 126,
     genre: ['Comédie', 'Action', 'Policier'],
@@ -22462,14 +22957,13 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: "Vincent D'Onofrio" },
       { name: 'William R. Moses' },
     ],
-    coverUrl:
-      '/movies_pictures/0c5aa9d4463c.jpg',
+    coverUrl: '/movies_pictures/0c5aa9d4463c.jpg',
     releaseDate: '1988-10-21',
     length: 104,
     genre: ['Comédie', 'Romance', 'Drame'],
     saga: '',
     description:
-      'Trois serveuses d\'une pizzeria du Connecticut rêvent d\'amour et d\'avenir dans une comédie initiatique.',
+      "Trois serveuses d'une pizzeria du Connecticut rêvent d'amour et d'avenir dans une comédie initiatique.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -22485,7 +22979,8 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Carol Cheng' },
       { name: 'Raymond Wong' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/1c20d42d4cda.jpg',
     releaseDate: '1988-02-11',
     length: 90,
     genre: ['Comédie', 'Romance'],
@@ -22507,8 +23002,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Michael Palin' },
       { name: 'Maria Aitken' },
     ],
-    coverUrl:
-      '/movies_pictures/7eaa2f5dc048.jpg',
+    coverUrl: '/movies_pictures/7eaa2f5dc048.jpg',
     releaseDate: '1988-07-15',
     length: 108,
     genre: ['Comédie'],
@@ -22530,8 +23024,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Shari Headley' },
       { name: 'Madge Sinclair' },
     ],
-    coverUrl:
-      '/movies_pictures/da71438f1c5f.jpg',
+    coverUrl: '/movies_pictures/da71438f1c5f.jpg',
     releaseDate: '1988-06-29',
     length: 117,
     genre: ['Comédie', 'Romance'],
@@ -22553,8 +23046,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Joan Cusack' },
       { name: 'Alec Baldwin' },
     ],
-    coverUrl:
-      '/movies_pictures/465cbafcd0de.jpg',
+    coverUrl: '/movies_pictures/465cbafcd0de.jpg',
     releaseDate: '1988-12-21',
     length: 113,
     genre: ['Comédie', 'Romance'],
@@ -22576,8 +23068,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Nina Li Chi' },
       { name: 'Richard Norton' },
     ],
-    coverUrl:
-      '/movies_pictures/a07f2a888ce5.jpg',
+    coverUrl: '/movies_pictures/a07f2a888ce5.jpg',
     releaseDate: '1989-01-28',
     length: 89,
     genre: ['Comédie', 'Action'],
@@ -22599,8 +23090,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Bernie Casey' },
       { name: 'Amy Stock-Poynton' },
     ],
-    coverUrl:
-      '/movies_pictures/cf51620ebd7d.jpg',
+    coverUrl: '/movies_pictures/cf51620ebd7d.jpg',
     releaseDate: '1989-02-17',
     length: 90,
     genre: ['Comédie', 'Science Fiction', 'Aventure'],
@@ -22622,8 +23112,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Danny Aiello' },
       { name: 'Michael Lerner' },
     ],
-    coverUrl:
-      '/movies_pictures/a5f5e8e605f4.jpg',
+    coverUrl: '/movies_pictures/a5f5e8e605f4.jpg',
     releaseDate: '1989-11-17',
     length: 116,
     genre: ['Comédie', 'Policier', 'Drame'],
@@ -22645,8 +23134,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Lisanne Falk' },
       { name: 'Kim Walker' },
     ],
-    coverUrl:
-      '/movies_pictures/4bb2f73d4637.jpg',
+    coverUrl: '/movies_pictures/4bb2f73d4637.jpg',
     releaseDate: '1989-03-31',
     length: 103,
     genre: ['Comédie', 'Thriller'],
@@ -22668,8 +23156,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Marianne Sägebrecht' },
       { name: 'Sean Astin' },
     ],
-    coverUrl:
-      '/movies_pictures/b88bb11f4d69.jpg',
+    coverUrl: '/movies_pictures/b88bb11f4d69.jpg',
     releaseDate: '1989-12-08',
     length: 116,
     genre: ['Comédie'],
@@ -22695,8 +23182,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Juliette Lewis' },
       { name: 'Johnny Galecki' },
     ],
-    coverUrl:
-      '/movies_pictures/d26d1fe86129.jpg',
+    coverUrl: '/movies_pictures/d26d1fe86129.jpg',
     releaseDate: '1989-12-01',
     length: 97,
     genre: ['Comédie'],
@@ -22718,8 +23204,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Macaulay Culkin' },
       { name: 'Amy Madigan' },
     ],
-    coverUrl:
-      '/movies_pictures/9e757f48d76f.jpg',
+    coverUrl: '/movies_pictures/9e757f48d76f.jpg',
     releaseDate: '1989-08-16',
     length: 100,
     genre: ['Comédie'],
@@ -22741,8 +23226,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Jason Robards' },
       { name: 'Rick Moranis' },
     ],
-    coverUrl:
-      '/movies_pictures/ef8ed33c3efb.jpg',
+    coverUrl: '/movies_pictures/ef8ed33c3efb.jpg',
     releaseDate: '1989-08-02',
     length: 124,
     genre: ['Comédie', 'Drame'],
@@ -22787,8 +23271,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Roland Blanche' },
       { name: 'François Cluzet' },
     ],
-    coverUrl:
-      '/movies_pictures/22139b602f63.jpg',
+    coverUrl: '/movies_pictures/22139b602f63.jpg',
     releaseDate: '1989-05-12',
     length: 91,
     genre: ['Comédie', 'Drame', 'Romance'],
@@ -22854,8 +23337,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Alec Baldwin' },
       { name: 'Judy Davis' },
     ],
-    coverUrl:
-      '/movies_pictures/4f9656ce3d65.jpg',
+    coverUrl: '/movies_pictures/4f9656ce3d65.jpg',
     releaseDate: '1990-12-25',
     length: 106,
     genre: ['Comédie', 'Romance', 'Fantastique'],
@@ -22877,8 +23359,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Gregg Edelman' },
       { name: 'Robert Prosky' },
     ],
-    coverUrl:
-      '/movies_pictures/16ca51dc6929.jpg',
+    coverUrl: '/movies_pictures/16ca51dc6929.jpg',
     releaseDate: '1990-12-23',
     length: 107,
     genre: ['Comédie', 'Romance'],
@@ -22900,8 +23381,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Robert Stack' },
       { name: 'Abe Vigoda' },
     ],
-    coverUrl:
-      '/movies_pictures/6445cc93bd14.jpg',
+    coverUrl: '/movies_pictures/6445cc93bd14.jpg',
     releaseDate: '1990-03-09',
     length: 102,
     genre: ['Comédie', 'Romance', 'Fantastique'],
@@ -22923,8 +23403,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Bruno Carette' },
       { name: 'Paulette Dubost' },
     ],
-    coverUrl:
-      '/movies_pictures/540412e8a3e0.jpg',
+    coverUrl: '/movies_pictures/540412e8a3e0.jpg',
     releaseDate: '1990-01-24',
     length: 107,
     genre: ['Comédie', 'Drame'],
@@ -22946,8 +23425,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Grace de Capitani' },
       { name: 'Jean-Pierre Castaldi' },
     ],
-    coverUrl:
-      '/movies_pictures/5aa2dee8058c.jpg',
+    coverUrl: '/movies_pictures/5aa2dee8058c.jpg',
     releaseDate: '1990-02-07',
     length: 109,
     genre: ['Comédie', 'Policier'],
@@ -22969,8 +23447,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Neige Dolsky' },
       { name: 'Éric Prat' },
     ],
-    coverUrl:
-      '/movies_pictures/7bf6382f620d.jpg',
+    coverUrl: '/movies_pictures/7bf6382f620d.jpg',
     releaseDate: '1990-04-04',
     length: 110,
     genre: ['Comédie'],
@@ -22992,8 +23469,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Danny Glover' },
       { name: 'Zakes Mokae' },
     ],
-    coverUrl:
-      '/movies_pictures/f4f6f066c336.jpg',
+    coverUrl: '/movies_pictures/f4f6f066c336.jpg',
     releaseDate: '1991-05-03',
     length: 108,
     genre: ['Comédie', 'Policier', 'Romance'],
@@ -23019,8 +23495,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Jack Palance' },
       { name: 'Patricia Wettig' },
     ],
-    coverUrl:
-      '/movies_pictures/474e7364bdd6.jpeg',
+    coverUrl: '/movies_pictures/474e7364bdd6.jpeg',
     releaseDate: '1991-06-07',
     length: 112,
     genre: ['Comédie', 'Western'],
@@ -23042,8 +23517,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Woody Harrelson' },
       { name: 'Bridget Fonda' },
     ],
-    coverUrl:
-      '/movies_pictures/a811f70c6628.jpg',
+    coverUrl: '/movies_pictures/a811f70c6628.jpg',
     releaseDate: '1991-08-02',
     length: 103,
     genre: ['Comédie', 'Romance'],
@@ -23069,8 +23543,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Mireille Mathieu' },
       { name: 'Jacques François' },
     ],
-    coverUrl:
-      '/movies_pictures/54cb95f8652c.jpg',
+    coverUrl: '/movies_pictures/54cb95f8652c.jpg',
     releaseDate: '1991-02-06',
     length: 105,
     genre: ['Comédie', 'Action'],
@@ -23092,8 +23565,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Michel Boujenah' },
       { name: 'Caroline Tresca' },
     ],
-    coverUrl:
-      '/movies_pictures/8da6c73960f1.jpg',
+    coverUrl: '/movies_pictures/8da6c73960f1.jpg',
     releaseDate: '1991-10-23',
     length: 102,
     genre: ['Comédie', 'Action'],
@@ -23115,8 +23587,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Claudio Bigagli' },
       { name: 'Vanna Barba' },
     ],
-    coverUrl:
-      '/movies_pictures/d9618edd18c2.jpg',
+    coverUrl: '/movies_pictures/d9618edd18c2.jpg',
     releaseDate: '1991-01-31',
     length: 96,
     genre: ['Comédie', 'Guerre', 'Drame'],
@@ -23138,8 +23609,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Jean Carmet' },
       { name: 'Annie Girardot' },
     ],
-    coverUrl:
-      '/movies_pictures/ea74666fbbeb.jpg',
+    coverUrl: '/movies_pictures/ea74666fbbeb.jpg',
     releaseDate: '1991-03-13',
     length: 117,
     genre: ['Comédie', 'Drame'],
@@ -23183,8 +23653,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Ticky Holgado' },
       { name: 'Chick Ortega' },
     ],
-    coverUrl:
-      '/movies_pictures/36f6301751b8.jpeg',
+    coverUrl: '/movies_pictures/36f6301751b8.jpeg',
     releaseDate: '1991-06-05',
     length: 98,
     genre: ['Comédie', 'Drame'],
@@ -23206,8 +23675,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Sandra Ng' },
       { name: 'Teresa Mo' },
     ],
-    coverUrl:
-      '/movies_pictures/03d7ccdef294.jpg',
+    coverUrl: '/movies_pictures/03d7ccdef294.jpg',
     releaseDate: '1992-01-25',
     length: 101,
     genre: ['Comédie', 'Romance'],
@@ -23229,8 +23697,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Miriam Díaz-Aroca' },
       { name: 'Ariadna Gil' },
     ],
-    coverUrl:
-      '/movies_pictures/f0eb24159e6f.jpg',
+    coverUrl: '/movies_pictures/f0eb24159e6f.jpg',
     releaseDate: '1992-12-04',
     length: 109,
     genre: ['Comédie', 'Romance', 'Drame'],
@@ -23274,8 +23741,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Rutger Hauer' },
       { name: 'Paul Reubens' },
     ],
-    coverUrl:
-      '/movies_pictures/e5ff47b2cc32.jpg',
+    coverUrl: '/movies_pictures/e5ff47b2cc32.jpg',
     releaseDate: '1992-07-31',
     length: 86,
     genre: ['Comédie', 'Horreur', 'Fantastique'],
@@ -23297,8 +23763,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Whoopi Goldberg' },
       { name: 'Peter Gallagher' },
     ],
-    coverUrl:
-      '/movies_pictures/a4f043816931.jpg',
+    coverUrl: '/movies_pictures/a4f043816931.jpg',
     releaseDate: '1992-04-10',
     length: 124,
     genre: ['Comédie', 'Thriller', 'Drame'],
@@ -23324,8 +23789,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Lori Petty' },
       { name: "Rosie O'Donnell" },
     ],
-    coverUrl:
-      '/movies_pictures/74068de930fa.jpg',
+    coverUrl: '/movies_pictures/74068de930fa.jpg',
     releaseDate: '1992-07-01',
     length: 128,
     genre: ['Comédie', 'Drame'],
@@ -23353,7 +23817,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     genre: ['Comédie', 'Drame'],
     saga: '',
     description:
-      "Deux basketteurs de rue parient sur leurs talents et leurs différences dans les parcs de Los Angeles.",
+      'Deux basketteurs de rue parient sur leurs talents et leurs différences dans les parcs de Los Angeles.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -23369,8 +23833,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Sam Karmann' },
       { name: 'Zabou Breitman' },
     ],
-    coverUrl:
-      '/movies_pictures/20d9826e336d.jpg',
+    coverUrl: '/movies_pictures/20d9826e336d.jpg',
     releaseDate: '1993-04-07',
     length: 95,
     genre: ['Comédie'],
@@ -23392,8 +23855,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Kevin Dunn' },
       { name: 'Ving Rhames' },
     ],
-    coverUrl:
-      '/movies_pictures/691e2a3fcde0.jpg',
+    coverUrl: '/movies_pictures/691e2a3fcde0.jpg',
     releaseDate: '1993-05-07',
     length: 110,
     genre: ['Comédie'],
@@ -23415,8 +23877,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Carla Marlier' },
       { name: 'Gérard Séty' },
     ],
-    coverUrl:
-      '/movies_pictures/31231e38f451.jpg',
+    coverUrl: '/movies_pictures/31231e38f451.jpg',
     releaseDate: '1993-06-16',
     length: 85,
     genre: ['Comédie', 'Romance'],
@@ -23438,8 +23899,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Joan Cusack' },
       { name: 'Christina Ricci' },
     ],
-    coverUrl:
-      '/movies_pictures/dec181ca62a6.jpg',
+    coverUrl: '/movies_pictures/dec181ca62a6.jpg',
     releaseDate: '1993-11-19',
     length: 94,
     genre: ['Comédie', 'Fantastique', 'Jeunesse'],
@@ -23465,8 +23925,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Chauncey Leopardi' },
       { name: 'Marty York' },
     ],
-    coverUrl:
-      '/movies_pictures/ce18ebd4c6ec.jpg',
+    coverUrl: '/movies_pictures/ce18ebd4c6ec.jpg',
     releaseDate: '1993-04-07',
     length: 101,
     genre: ['Comédie', 'Jeunesse', 'Drame'],
@@ -23488,8 +23947,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Christopher Walken' },
       { name: 'Kim Basinger' },
     ],
-    coverUrl:
-      '/movies_pictures/a346c48a3d06.jpg',
+    coverUrl: '/movies_pictures/a346c48a3d06.jpg',
     releaseDate: '1993-12-10',
     length: 95,
     genre: ['Comédie', 'Comédie musicale'],
@@ -23511,8 +23969,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Mira Sorvino' },
       { name: 'Pep Munné' },
     ],
-    coverUrl:
-      '/movies_pictures/492a37cd9a33.jpg',
+    coverUrl: '/movies_pictures/492a37cd9a33.jpg',
     releaseDate: '1994-07-29',
     length: 101,
     genre: ['Comédie', 'Drame', 'Romance'],
@@ -23534,8 +23991,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Lisa Spoonauer' },
       { name: 'Jason Mewes' },
     ],
-    coverUrl:
-      '/movies_pictures/b2797d0b24d3.jpg',
+    coverUrl: '/movies_pictures/b2797d0b24d3.jpg',
     releaseDate: '1994-10-19',
     length: 92,
     genre: ['Comédie'],
@@ -23557,8 +24013,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Chazz Palminteri' },
       { name: 'Mary-Louise Parker' },
     ],
-    coverUrl:
-      '/movies_pictures/885d96de2679.jpg',
+    coverUrl: '/movies_pictures/885d96de2679.jpg',
     releaseDate: '1994-10-14',
     length: 98,
     genre: ['Comédie', 'Drame'],
@@ -23580,8 +24035,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Josiane Balasko' },
       { name: 'Roman Polanski' },
     ],
-    coverUrl:
-      '/movies_pictures/67aa270e5085.jpg',
+    coverUrl: '/movies_pictures/67aa270e5085.jpg',
     releaseDate: '1994-05-18',
     length: 84,
     genre: ['Comédie'],
@@ -23603,8 +24057,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Jeanie Drynan' },
       { name: 'Gennie Nevinson' },
     ],
-    coverUrl:
-      '/movies_pictures/14bb89992742.jpg',
+    coverUrl: '/movies_pictures/14bb89992742.jpg',
     releaseDate: '1994-07-28',
     length: 106,
     genre: ['Comédie', 'Drame', 'Romance'],
@@ -23626,8 +24079,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Bill Hunter' },
       { name: 'Sarah Chadwick' },
     ],
-    coverUrl:
-      '/movies_pictures/e13e694a219f.jpg',
+    coverUrl: '/movies_pictures/e13e694a219f.jpg',
     releaseDate: '1994-09-08',
     length: 104,
     genre: ['Comédie', 'Comédie musicale', 'Drame'],
@@ -23649,8 +24101,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Simon Callow' },
       { name: 'John Hannah' },
     ],
-    coverUrl:
-      '/movies_pictures/c462c551e9b6.jpg',
+    coverUrl: '/movies_pictures/c462c551e9b6.jpg',
     releaseDate: '1994-05-13',
     length: 117,
     genre: ['Comédie', 'Romance'],
@@ -23672,8 +24123,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Jim True-Frost' },
       { name: 'Charles Durning' },
     ],
-    coverUrl:
-      '/movies_pictures/0717c761bbf5.jpg',
+    coverUrl: '/movies_pictures/0717c761bbf5.jpg',
     releaseDate: '1994-03-11',
     length: 111,
     genre: ['Comédie'],
@@ -23727,7 +24177,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     genre: ['Comédie', 'Romance'],
     saga: '',
     description:
-      'Une Américaine part à Paris pour reconquérir son fiancé avec l\'aide d\'un Français escroc charmant.',
+      "Une Américaine part à Paris pour reconquérir son fiancé avec l'aide d'un Français escroc charmant.",
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -24084,7 +24534,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     genre: ['Comédie', 'Romance', 'Drame'],
     saga: 'View Askewniverse',
     description:
-      'Un auteur de bande dessinée tombe amoureux d\'une lesbienne et remet en question ses certitudes.',
+      "Un auteur de bande dessinée tombe amoureux d'une lesbienne et remet en question ses certitudes.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -24154,7 +24604,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     genre: ['Comédie', 'Romance'],
     saga: '',
     description:
-      'Une femme tente d\'empêcher le mariage de son meilleur ami en organisant un plan de séduction.',
+      "Une femme tente d'empêcher le mariage de son meilleur ami en organisant un plan de séduction.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -24264,7 +24714,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     genre: ['Comédie', 'Drame', 'Romance'],
     saga: '',
     description:
-      'Un élève excentrique de Rushmore tombe amoureux d\'une institutrice et rivalise avec un industriel.',
+      "Un élève excentrique de Rushmore tombe amoureux d'une institutrice et rivalise avec un industriel.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -24308,7 +24758,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     genre: ['Comédie', 'Drame', 'Guerre'],
     saga: '',
     description:
-      "Dans un shtetl juif, les villageois simulent une vie juive pour tromper un nazi et financer leur fuite.",
+      'Dans un shtetl juif, les villageois simulent une vie juive pour tromper un nazi et financer leur fuite.',
     fromEntity: null,
     countryOrigin: ['France', 'Belgique', 'Pays-Bas'],
     selectDisplayOrder: 0,
@@ -24324,14 +24774,13 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Christine Baranski' },
       { name: 'Jamie Kennedy' },
     ],
-    coverUrl:
-      '/movies_pictures/096810abc15b.jpg',
+    coverUrl: '/movies_pictures/096810abc15b.jpg',
     releaseDate: '1999-08-13',
     length: 97,
     genre: ['Comédie'],
     saga: '',
     description:
-      'Un réalisateur raté filme une star sans qu\'elle le sache pour monter son film à Hollywood.',
+      "Un réalisateur raté filme une star sans qu'elle le sache pour monter son film à Hollywood.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -24347,8 +24796,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Archie Panjabi' },
       { name: 'Jimi Mistry' },
     ],
-    coverUrl:
-      '/movies_pictures/29c4aad5943b.jpg',
+    coverUrl: '/movies_pictures/29c4aad5943b.jpg',
     releaseDate: '1999-11-05',
     length: 96,
     genre: ['Comédie', 'Drame'],
@@ -24370,8 +24818,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Jessica Campbell' },
       { name: 'Mark Harelik' },
     ],
-    coverUrl:
-      '/movies_pictures/ff331b120aa6.jpg',
+    coverUrl: '/movies_pictures/ff331b120aa6.jpg',
     releaseDate: '1999-04-23',
     length: 103,
     genre: ['Comédie', 'Drame'],
@@ -24397,8 +24844,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Tony Shalhoub' },
       { name: 'Sam Rockwell' },
     ],
-    coverUrl:
-      '/movies_pictures/d33ad8b9aa53.jpg',
+    coverUrl: '/movies_pictures/d33ad8b9aa53.jpg',
     releaseDate: '1999-12-25',
     length: 102,
     genre: ['Comédie', 'Science Fiction', 'Aventure'],
@@ -24420,14 +24866,13 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Danny Dyer' },
       { name: 'Nicola Reynolds' },
     ],
-    coverUrl:
-      '/movies_pictures/b1cb2d2062ad.jpg',
+    coverUrl: '/movies_pictures/b1cb2d2062ad.jpg',
     releaseDate: '1999-06-04',
     length: 99,
     genre: ['Comédie', 'Drame'],
     saga: '',
     description:
-      'Un groupe d\'amis britanniques enchaîne les fêtes, les drogues et les débats existentiels le week-end.',
+      "Un groupe d'amis britanniques enchaîne les fêtes, les drogues et les débats existentiels le week-end.",
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -24443,8 +24888,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'François Berléand' },
       { name: 'Robert Plagnol' },
     ],
-    coverUrl:
-      '/movies_pictures/fa2eae43675a.jpg',
+    coverUrl: '/movies_pictures/fa2eae43675a.jpg',
     releaseDate: '1999-12-22',
     length: 90,
     genre: ['Comédie', 'Drame'],
@@ -24470,8 +24914,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Great Gidayu' },
       { name: 'Rakkyo Ide' },
     ],
-    coverUrl:
-      '/movies_pictures/b7e4d1703196.jpg',
+    coverUrl: '/movies_pictures/b7e4d1703196.jpg',
     releaseDate: '1999-06-05',
     length: 121,
     genre: ['Comédie', 'Drame'],
@@ -24516,14 +24959,13 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Mireille Roussel' },
       { name: 'Laurent Grévill' },
     ],
-    coverUrl:
-      '/movies_pictures/6e75363f1299.jpg',
+    coverUrl: '/movies_pictures/6e75363f1299.jpg',
     releaseDate: '1999-01-27',
     length: 94,
     genre: ['Comédie', 'Romance', 'Drame'],
     saga: '',
     description:
-      'Une femme mariée tombe amoureuse d\'une autre femme et bouleverse sa vie bourgeoise.',
+      "Une femme mariée tombe amoureuse d'une autre femme et bouleverse sa vie bourgeoise.",
     fromEntity: null,
     countryOrigin: ['France', 'Portugal'],
     selectDisplayOrder: 0,
@@ -24568,7 +25010,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     genre: ['Comédie', 'Drame'],
     saga: '',
     description:
-      "Un patron licencié monte une fausse entreprise pour retrouver du travail et reconquérir sa femme.",
+      'Un patron licencié monte une fausse entreprise pour retrouver du travail et reconquérir sa femme.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -24584,14 +25026,13 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Ajay Naidu' },
       { name: 'Diedrich Bader' },
     ],
-    coverUrl:
-      '/movies_pictures/489435e430ff.jpg',
+    coverUrl: '/movies_pictures/489435e430ff.jpg',
     releaseDate: '1999-02-19',
     length: 89,
     genre: ['Comédie'],
     saga: '',
     description:
-      'Des employés d\'une entreprise informatique sabotent leur bureau dans une satire du monde du travail.',
+      "Des employés d'une entreprise informatique sabotent leur bureau dans une satire du monde du travail.",
     fromEntity: {
       entityType: 'comic',
       title: 'Milton',
@@ -24611,14 +25052,13 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Audrey Tautou' },
       { name: 'Samuel Le Bihan' },
     ],
-    coverUrl:
-      '/movies_pictures/49a5965f1aba.jpg',
+    coverUrl: '/movies_pictures/49a5965f1aba.jpg',
     releaseDate: '1999-02-03',
     length: 105,
     genre: ['Comédie', 'Drame', 'Romance'],
     saga: '',
     description:
-      'Trois esthéticiennes d\'un institut parisien vivent l\'amour, l\'âge et la solitude avec lucidité.',
+      "Trois esthéticiennes d'un institut parisien vivent l'amour, l'âge et la solitude avec lucidité.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -24634,8 +25074,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Parker Posey' },
       { name: 'Fred Willard' },
     ],
-    coverUrl:
-      '/movies_pictures/4c2131567ae4.jpg',
+    coverUrl: '/movies_pictures/4c2131567ae4.jpg',
     releaseDate: '2000-09-29',
     length: 90,
     genre: ['Comédie'],
@@ -24657,14 +25096,13 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Chantal Neuwirth' },
       { name: 'Julien Boisselier' },
     ],
-    coverUrl:
-      '/movies_pictures/790e17251b2f.jpg',
+    coverUrl: '/movies_pictures/790e17251b2f.jpg',
     releaseDate: '2000-12-13',
     length: 92,
     genre: ['Comédie', 'Drame'],
     saga: '',
     description:
-      'Des résidents d\'un hospice partent en vacances sur la Nationale 7 dans une comédie humaniste.',
+      "Des résidents d'un hospice partent en vacances sur la Nationale 7 dans une comédie humaniste.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -24680,8 +25118,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Paulo Costanzo' },
       { name: 'DJ Qualls' },
     ],
-    coverUrl:
-      '/movies_pictures/626d402a2bd7.jpg',
+    coverUrl: '/movies_pictures/626d402a2bd7.jpg',
     releaseDate: '2000-05-19',
     length: 93,
     genre: ['Comédie'],
@@ -24703,8 +25140,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Claude Perron' },
       { name: 'Vincent Debost' },
     ],
-    coverUrl:
-      '/movies_pictures/ebb2ee26e2b5.jpg',
+    coverUrl: '/movies_pictures/ebb2ee26e2b5.jpg',
     releaseDate: '2001-08-29',
     length: 105,
     genre: ['Comédie'],
@@ -24730,14 +25166,13 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Line Renaud' },
       { name: 'Aure Atika' },
     ],
-    coverUrl:
-      '/movies_pictures/9c7b6da8742b.jpg',
+    coverUrl: '/movies_pictures/9c7b6da8742b.jpg',
     releaseDate: '2001-10-03',
     length: 109,
     genre: ['Comédie', 'Drame', 'Thriller'],
     saga: '',
     description:
-      'Une femme bourgeoise aide une prostituée enceinte et découvre un réseau de trafic d\'êtres humains.',
+      "Une femme bourgeoise aide une prostituée enceinte et découvre un réseau de trafic d'êtres humains.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -24753,8 +25188,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Michèle Laroque' },
       { name: 'Jean Rochefort' },
     ],
-    coverUrl:
-      '/movies_pictures/292c729e16f8.jpg',
+    coverUrl: '/movies_pictures/292c729e16f8.jpg',
     releaseDate: '2001-01-17',
     length: 84,
     genre: ['Comédie'],
@@ -24776,14 +25210,13 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Sacha Bourdo' },
       { name: 'Nicole Valberg' },
     ],
-    coverUrl:
-      '/movies_pictures/c2f08b71246d.jpg',
+    coverUrl: '/movies_pictures/c2f08b71246d.jpg',
     releaseDate: '2001-03-07',
     length: 119,
     genre: ['Comédie'],
     saga: '',
     description:
-      'Ghislain Lambert, cycliste belge médiocre, vit dans l\'ombre de champions qu\'il admire.',
+      "Ghislain Lambert, cycliste belge médiocre, vit dans l'ombre de champions qu'il admire.",
     fromEntity: null,
     countryOrigin: ['France', 'Belgique'],
     selectDisplayOrder: 0,
@@ -24799,8 +25232,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Noémie Lvovsky' },
       { name: 'Laurent Bateau' },
     ],
-    coverUrl:
-      '/movies_pictures/506baff506d5.jpg',
+    coverUrl: '/movies_pictures/506baff506d5.jpg',
     releaseDate: '2001-01-31',
     length: 95,
     genre: ['Comédie', 'Romance'],
@@ -24822,8 +25254,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Fanny Ardant' },
       { name: 'Danielle Darrieux' },
     ],
-    coverUrl:
-      '/movies_pictures/20e2ae69e86e.jpg',
+    coverUrl: '/movies_pictures/20e2ae69e86e.jpg',
     releaseDate: '2002-02-06',
     length: 111,
     genre: ['Comédie', 'Mystère', 'Comédie musicale'],
@@ -24849,8 +25280,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Olivia Bonamy' },
       { name: 'François Morel' },
     ],
-    coverUrl:
-      '/movies_pictures/d9eeab988025.webp',
+    coverUrl: '/movies_pictures/d9eeab988025.webp',
     releaseDate: '2002-09-18',
     length: 100,
     genre: ['Comédie'],
@@ -24872,8 +25302,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Karin Viard' },
       { name: 'Jacques Bonnaffé' },
     ],
-    coverUrl:
-      '/movies_pictures/cd49e28651c0.jpg',
+    coverUrl: '/movies_pictures/cd49e28651c0.jpg',
     releaseDate: '2002-10-16',
     length: 103,
     genre: ['Comédie', 'Drame'],
@@ -24899,8 +25328,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Philippe Magnan' },
       { name: 'Daniel Berlioux' },
     ],
-    coverUrl:
-      '/movies_pictures/30c7328cc519.jpg',
+    coverUrl: '/movies_pictures/30c7328cc519.jpg',
     releaseDate: '2002-01-08',
     length: 100,
     genre: ['Comédie', 'Thriller'],
@@ -24922,8 +25350,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'James Urbaniak' },
       { name: 'Harvey Pekar' },
     ],
-    coverUrl:
-      '/movies_pictures/55bde58e837b.jpg',
+    coverUrl: '/movies_pictures/55bde58e837b.jpg',
     releaseDate: '2003-08-15',
     length: 101,
     genre: ['Comédie', 'Drame', 'Biographie'],
@@ -24949,14 +25376,13 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Yvan Attal' },
       { name: 'Grégori Derangère' },
     ],
-    coverUrl:
-      '/movies_pictures/eb838876b5e6.jpg',
+    coverUrl: '/movies_pictures/eb838876b5e6.jpg',
     releaseDate: '2003-04-16',
     length: 114,
     genre: ['Comédie', 'Drame', 'Guerre'],
     saga: '',
     description:
-      'Pendant l\'exode de 1940, une star de cinéma, un ministre et un prisonnier croisent leurs destins.',
+      "Pendant l'exode de 1940, une star de cinéma, un ministre et un prisonnier croisent leurs destins.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -24978,7 +25404,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     genre: ['Comédie', 'Drame'],
     saga: '',
     description:
-      'Des femmes d\'un club de campagne posent nues pour un calendrier caritatif et deviennent des célébrités.',
+      "Des femmes d'un club de campagne posent nues pour un calendrier caritatif et deviennent des célébrités.",
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -24994,8 +25420,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Maria Simon' },
       { name: 'Florian Lukas' },
     ],
-    coverUrl:
-      '/movies_pictures/755d5d715404.jpg',
+    coverUrl: '/movies_pictures/755d5d715404.jpg',
     releaseDate: '2003-02-13',
     length: 121,
     genre: ['Comédie', 'Drame'],
@@ -25017,8 +25442,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Melvil Poupaud' },
       { name: 'Valeria Bruni Tedeschi' },
     ],
-    coverUrl:
-      '/movies_pictures/d14a108ff995.jpg',
+    coverUrl: '/movies_pictures/d14a108ff995.jpg',
     releaseDate: '2003-11-05',
     length: 93,
     genre: ['Comédie', 'Drame', 'Romance'],
@@ -25040,14 +25464,13 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Laurent Grévill' },
       { name: 'Virginie Desarnauts' },
     ],
-    coverUrl:
-      '/movies_pictures/d15b217e1c7d.jpg',
+    coverUrl: '/movies_pictures/d15b217e1c7d.jpg',
     releaseDate: '2004-09-08',
     length: 114,
     genre: ['Comédie', 'Drame'],
     saga: '',
     description:
-      'Un acteur vieillissant, père distant, tente de renouer avec sa fille lors d\'un séjour en vacances.',
+      "Un acteur vieillissant, père distant, tente de renouer avec sa fille lors d'un séjour en vacances.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -25063,14 +25486,13 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Didier Flamand' },
       { name: 'Pierre Aussedat' },
     ],
-    coverUrl:
-      '/movies_pictures/b772b37ca926.jpg',
+    coverUrl: '/movies_pictures/b772b37ca926.jpg',
     releaseDate: '2004-10-06',
     length: 91,
     genre: ['Comédie'],
     saga: '',
     description:
-      'Un inspecteur parisien enquête en Corse et découvre un monde où codes d\'honneur et corruption se mêlent.',
+      "Un inspecteur parisien enquête en Corse et découvre un monde où codes d'honneur et corruption se mêlent.",
     fromEntity: {
       entityType: 'comic',
       title: "L'Enquête corse",
@@ -25096,7 +25518,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     genre: ['Comédie'],
     saga: '',
     description:
-      'Un livreur de pizzas rêve de devenir gangster et s\'enferre dans le milieu parisien de la drogue.',
+      "Un livreur de pizzas rêve de devenir gangster et s'enferre dans le milieu parisien de la drogue.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -25112,8 +25534,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Raphaël Personnaz' },
       { name: 'Benoît Minet' },
     ],
-    coverUrl:
-      '/movies_pictures/3e49e25f894c.jpg',
+    coverUrl: '/movies_pictures/3e49e25f894c.jpg',
     releaseDate: '2005-12-21',
     length: 90,
     genre: ['Comédie', 'Romance'],
@@ -25142,7 +25563,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     genre: ['Comédie'],
     saga: '',
     description:
-      'Une femme ordinaire découvre qu\'elle est la fille illégitime d\'un prince exilé.',
+      "Une femme ordinaire découvre qu'elle est la fille illégitime d'un prince exilé.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -25165,7 +25586,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     genre: ['Comédie', 'Drame'],
     saga: '',
     description:
-      "Des pèlerins partent à pied vers Compostelle dans une odyssée burlesque et initiatique.",
+      'Des pèlerins partent à pied vers Compostelle dans une odyssée burlesque et initiatique.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -25203,14 +25624,13 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Claude Brasseur' },
       { name: 'Laura Morante' },
     ],
-    coverUrl:
-      '/movies_pictures/2e739fccfb5b.jpg',
+    coverUrl: '/movies_pictures/2e739fccfb5b.jpg',
     releaseDate: '2006-02-15',
     length: 106,
     genre: ['Comédie', 'Drame'],
     saga: '',
     description:
-      'Des habitants d\'un immeuble parisien se croisent autour d\'une vente de fauteuils d\'orchestre.',
+      "Des habitants d'un immeuble parisien se croisent autour d'une vente de fauteuils d'orchestre.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -25226,8 +25646,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Miou-Miou' },
       { name: 'Emma de Caunes' },
     ],
-    coverUrl:
-      '/movies_pictures/9be1e632d79f.jpg',
+    coverUrl: '/movies_pictures/9be1e632d79f.jpg',
     releaseDate: '2006-08-30',
     length: 105,
     genre: ['Comédie', 'Romance', 'Fantastique'],
@@ -25249,8 +25668,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Julie Durand' },
       { name: 'Jacques Mathou' },
     ],
-    coverUrl:
-      '/movies_pictures/c5bd5fbd6fa1.webp',
+    coverUrl: '/movies_pictures/c5bd5fbd6fa1.webp',
     releaseDate: '2006-10-11',
     length: 94,
     genre: ['Comédie', 'Drame'],
@@ -25272,8 +25690,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Marie Pillet' },
       { name: 'Albert Delpy' },
     ],
-    coverUrl:
-      '/movies_pictures/c139503ade4b.jpg',
+    coverUrl: '/movies_pictures/c139503ade4b.jpg',
     releaseDate: '2007-08-15',
     length: 96,
     genre: ['Comédie', 'Romance', 'Drame'],
@@ -25295,14 +25712,13 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Patricia Clarkson' },
       { name: 'Kelli Garner' },
     ],
-    coverUrl:
-      '/movies_pictures/e10ad6b1cd46.jpg',
+    coverUrl: '/movies_pictures/e10ad6b1cd46.jpg',
     releaseDate: '2007-10-12',
     length: 106,
     genre: ['Comédie', 'Drame', 'Romance'],
     saga: '',
     description:
-      'Un homme timide présente une poupée gonflable comme sa compagne et fait accepter l\'illusion par sa ville.',
+      "Un homme timide présente une poupée gonflable comme sa compagne et fait accepter l'illusion par sa ville.",
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Canada'],
     selectDisplayOrder: 0,
@@ -25318,8 +25734,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Michaël Cohen' },
       { name: 'Frédérique Bel' },
     ],
-    coverUrl:
-      '/movies_pictures/41ea9c7df825.jpg',
+    coverUrl: '/movies_pictures/41ea9c7df825.jpg',
     releaseDate: '2007-10-10',
     length: 102,
     genre: ['Comédie', 'Romance'],
@@ -25341,14 +25756,13 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Samuel Roukin' },
       { name: 'Andrea Riseborough' },
     ],
-    coverUrl:
-      '/movies_pictures/9d49c67f44fd.jpg',
+    coverUrl: '/movies_pictures/9d49c67f44fd.jpg',
     releaseDate: '2008-04-18',
     length: 118,
     genre: ['Comédie', 'Drame'],
     saga: '',
     description:
-      'Poppy, professeure d\'art joyeuse, affronte la morosité du monde avec optimisme et ténacité.',
+      "Poppy, professeure d'art joyeuse, affronte la morosité du monde avec optimisme et ténacité.",
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -25364,8 +25778,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: "Bobb'e J. Thompson" },
       { name: 'Jane Lynch' },
     ],
-    coverUrl:
-      '/movies_pictures/631d5ba1f8ec.jpg',
+    coverUrl: '/movies_pictures/631d5ba1f8ec.jpg',
     releaseDate: '2008-11-07',
     length: 99,
     genre: ['Comédie'],
@@ -25387,14 +25800,13 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: "Chriz'n" },
       { name: 'Josh Meyers' },
     ],
-    coverUrl:
-      '/movies_pictures/2b55c3155c91.jpg',
+    coverUrl: '/movies_pictures/2b55c3155c91.jpg',
     releaseDate: '2009-07-10',
     length: 81,
     genre: ['Comédie'],
     saga: '',
     description:
-      'Un présentateur gay autrichien provoque le scandale à travers l\'Amérique dans un faux documentaire provocateur.',
+      "Un présentateur gay autrichien provoque le scandale à travers l'Amérique dans un faux documentaire provocateur.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -25410,8 +25822,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Andy Samberg' },
       { name: 'J.K. Simmons' },
     ],
-    coverUrl:
-      '/movies_pictures/bd4eaa5f129f.webp',
+    coverUrl: '/movies_pictures/bd4eaa5f129f.webp',
     releaseDate: '2009-03-20',
     length: 105,
     genre: ['Comédie', 'Romance'],
@@ -25440,7 +25851,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     genre: ['Comédie'],
     saga: '',
     description:
-      "Des conseillers politiques britanniques et américains préparent une guerre dans un tourbillon de langue de bois.",
+      'Des conseillers politiques britanniques et américains préparent une guerre dans un tourbillon de langue de bois.',
     fromEntity: {
       entityType: 'serie',
       title: 'The Thick of It',
@@ -25460,8 +25871,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Prestige Villanoza' },
       { name: 'Yannick Soulier' },
     ],
-    coverUrl:
-      '/movies_pictures/128eec2f957d.jpg',
+    coverUrl: '/movies_pictures/128eec2f957d.jpg',
     releaseDate: '2009-06-17',
     length: 90,
     genre: ['Comédie'],
@@ -25483,8 +25893,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Marina Foïs' },
       { name: 'Pierre Arditi' },
     ],
-    coverUrl:
-      '/movies_pictures/cf9aef37468e.jpg',
+    coverUrl: '/movies_pictures/cf9aef37468e.jpg',
     releaseDate: '2009-02-18',
     length: 99,
     genre: ['Comédie', 'Drame'],
@@ -25506,14 +25915,13 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Valeri Barinov' },
       { name: 'François Berléand' },
     ],
-    coverUrl:
-      '/movies_pictures/ad93fc0e642d.jpg',
+    coverUrl: '/movies_pictures/ad93fc0e642d.jpg',
     releaseDate: '2009-11-04',
     length: 119,
     genre: ['Comédie', 'Drame', 'Comédie musicale'],
     saga: '',
     description:
-      'Un chef d\'orchestre déchu fait monter un orchestre de musiciens tsiganes pour jouer à Paris.',
+      "Un chef d'orchestre déchu fait monter un orchestre de musiciens tsiganes pour jouer à Paris.",
     fromEntity: null,
     countryOrigin: ['France', 'Italie', 'Roumanie', 'Belgique'],
     selectDisplayOrder: 0,
@@ -25529,14 +25937,13 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Emmanuelle Devos' },
       { name: 'Mathieu Amalric' },
     ],
-    coverUrl:
-      '/movies_pictures/dd05cff3d310.jpg',
+    coverUrl: '/movies_pictures/dd05cff3d310.jpg',
     releaseDate: '2009-09-16',
     length: 104,
     genre: ['Comédie', 'Drame', 'Romance'],
     saga: '',
     description:
-      'Un adolescent recueille une femme blessée par balle et tombe amoureux d\'elle dans une comédie romanesque.',
+      "Un adolescent recueille une femme blessée par balle et tombe amoureux d'elle dans une comédie romanesque.",
     fromEntity: {
       entityType: 'book',
       title: "L'Incident",
@@ -25556,8 +25963,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Jean-Pierre Marielle' },
       { name: 'Yolande Moreau' },
     ],
-    coverUrl:
-      '/movies_pictures/17cbcd7edb06.jpg',
+    coverUrl: '/movies_pictures/17cbcd7edb06.jpg',
     releaseDate: '2009-10-28',
     length: 104,
     genre: ['Comédie', 'Aventure'],
