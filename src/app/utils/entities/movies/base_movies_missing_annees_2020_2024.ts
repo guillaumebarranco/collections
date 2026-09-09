@@ -15,13 +15,14 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
       { name: 'Jackie Berroyer' },
       { name: 'Philippe Uchan' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/b3a6d5892853.jpg',
     releaseDate: '2020-10-21',
     length: 124,
     genre: ['Comédie', 'Drame'],
     saga: '',
     description:
-      'Atteinte d\'un cancer terminal, Suzy s\'échappe de l\'hôpital pour retrouver le père de l\'enfant qu\'elle a abandonné à la naissance, dans une odyssée burlesque et tendre signée Albert Dupontel.',
+      "Atteinte d'un cancer terminal, Suzy s'échappe de l'hôpital pour retrouver le père de l'enfant qu'elle a abandonné à la naissance, dans une odyssée burlesque et tendre signée Albert Dupontel.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -37,13 +38,14 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
       { name: 'Marc Fraize' },
       { name: 'Jean-Pierre Dusséaux' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/5615e0abcae9.jpg',
     releaseDate: '2020-09-16',
     length: 87,
     genre: ['Comédie', 'Romance'],
     saga: '',
     description:
-      'Antoinette, psychologue parisienne en quête d\'air, part seule en vacances dans les Cévennes et engage Patrick, un montagnard un peu rustre, pour une randonnée à dos d\'âne qui bouleverse sa vie.',
+      "Antoinette, psychologue parisienne en quête d'air, part seule en vacances dans les Cévennes et engage Patrick, un montagnard un peu rustre, pour une randonnée à dos d'âne qui bouleverse sa vie.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -59,13 +61,14 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
       { name: 'Catherine Mouchet' },
       { name: 'Pierre Hancisse' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/86fd9f12345e.jpg',
     releaseDate: '2020-03-04',
     length: 108,
     genre: ['Drame', 'Biographie', 'Historique', 'Guerre'],
     saga: '',
     description:
-      'Juin 1940 : le général de Gaulle doit choisir entre rester en France ou lancer l\'appel de Londres, pendant que sa famille fuit l\'occupation allemande en Bretagne.',
+      "Juin 1940 : le général de Gaulle doit choisir entre rester en France ou lancer l'appel de Londres, pendant que sa famille fuit l'occupation allemande en Bretagne.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -81,13 +84,14 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
       { name: 'Valeria Bruni Tedeschi' },
       { name: 'Melvil Poupaud' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/b3b0ff0a577b.jpg',
     releaseDate: '2020-07-14',
     length: 100,
     genre: ['Drame', 'Romance'],
     saga: '',
     description:
-      'En 1985 en Normandie, l\'adolescent Alex tombe amoureux de David pendant l\'été, tandis que la tante de ce dernier s\'éprend d\'un autre homme, dans un drame romantique signé François Ozon.',
+      "En 1985 en Normandie, l'adolescent Alex tombe amoureux de David pendant l'été, tandis que la tante de ce dernier s'éprend d'un autre homme, dans un drame romantique signé François Ozon.",
     fromEntity: {
       entityType: 'book',
       title: 'Dance on My Grave',
@@ -107,13 +111,14 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
       { name: 'Ewen Bremner' },
       { name: 'Scott Shepherd' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/06c71e31238f.jpg',
     releaseDate: '2020-03-06',
     length: 121,
     genre: ['Drame', 'Western'],
     saga: '',
     description:
-      'Dans l\'Oregon des années 1820, un cuisinier chinois et un trappeur de fourrure volent le lait de la seule vache du territoire pour en faire des gâteaux et tisser une fragile amitié.',
+      "Dans l'Oregon des années 1820, un cuisinier chinois et un trappeur de fourrure volent le lait de la seule vache du territoire pour en faire des gâteaux et tisser une fragile amitié.",
     fromEntity: {
       entityType: 'book',
       title: 'The Half-Life',
@@ -133,8 +138,7 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
       { name: 'Dominique Fishback' },
       { name: 'Martin Sheen' },
     ],
-    coverUrl:
-      '/movies_pictures/7140e239e951.jpg',
+    coverUrl: '/movies_pictures/7140e239e951.jpg',
     releaseDate: '2021-02-12',
     length: 126,
     genre: ['Drame', 'Biographie', 'Historique', 'Thriller'],
@@ -156,7 +160,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
       { name: 'Émilie Dequenne' },
       { name: 'Jenna Thiam' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/1b31085276e0.jpg',
     releaseDate: '2020-09-16',
     length: 122,
     genre: ['Comédie', 'Romance', 'Drame'],
@@ -178,18 +183,17 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
       { name: 'Glynn Turman' },
       { name: 'Michael Potts' },
     ],
-    coverUrl:
-      '/movies_pictures/2d975099e9c8.jpg',
+    coverUrl: '/movies_pictures/2d975099e9c8.jpg',
     releaseDate: '2020-12-18',
     length: 94,
     genre: ['Drame', 'Comédie musicale', 'Biographie'],
     saga: '',
     description:
-      'Chicago, 1927 : la légende du blues Ma Rainey enregistre en studio tandis que son trompettiste Levee affronte le reste du groupe sur l\'art, l\'ambition et la condition noire.',
+      "Chicago, 1927 : la légende du blues Ma Rainey enregistre en studio tandis que son trompettiste Levee affronte le reste du groupe sur l'art, l'ambition et la condition noire.",
     fromEntity: {
       entityType: 'book',
       title: "Ma Rainey's Black Bottom",
-      secondEntityKey: "August Wilson",
+      secondEntityKey: 'August Wilson',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -208,7 +212,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
       { name: 'Ryan Eggold' },
       { name: 'Sharon Van Etten' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/f68495bf3998.jpg',
     releaseDate: '2020-03-13',
     length: 101,
     genre: ['Drame'],
@@ -230,17 +235,18 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
       { name: 'Leslie Odom Jr.' },
       { name: 'Lance Reddick' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/0dd48603de09.jpg',
     releaseDate: '2020-12-25',
     length: 114,
     genre: ['Drame', 'Biographie', 'Historique'],
     saga: '',
     description:
-      'Fictionnant la soirée de février 1964 où Muhammad Ali, Malcolm X, Sam Cooke et Jim Brown se retrouvent dans une chambre d\'hôtel à Miami pour débattre de race, foi et militantisme.',
+      "Fictionnant la soirée de février 1964 où Muhammad Ali, Malcolm X, Sam Cooke et Jim Brown se retrouvent dans une chambre d'hôtel à Miami pour débattre de race, foi et militantisme.",
     fromEntity: {
       entityType: 'book',
-      title: "One Night in Miami",
-      secondEntityKey: "Kemp Powers",
+      title: 'One Night in Miami',
+      secondEntityKey: 'Kemp Powers',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -256,14 +262,13 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
       { name: 'Clancy Brown' },
       { name: 'Laverne Cox' },
     ],
-    coverUrl:
-      '/movies_pictures/2dcbfb347d8f.jpg',
+    coverUrl: '/movies_pictures/2dcbfb347d8f.jpg',
     releaseDate: '2020-12-25',
     length: 113,
     genre: ['Thriller', 'Comédie', 'Drame'],
     saga: '',
     description:
-      'Cassie mène une double vie, simulant l\'ébriété dans les bars pour piéger les hommes qui profiteraient d\'une femme vulnérable, dans une quête de vengeance pour une amie traumatisée.',
+      "Cassie mène une double vie, simulant l'ébriété dans les bars pour piéger les hommes qui profiteraient d'une femme vulnérable, dans une quête de vengeance pour une amie traumatisée.",
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -279,7 +284,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
       { name: 'Natasha Lyonne' },
       { name: 'Miss Lawrence' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/fe51b75dbb6e.jpg',
     releaseDate: '2021-02-26',
     length: 130,
     genre: ['Drame', 'Biographie', 'Comédie musicale'],
@@ -305,13 +311,14 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
       { name: 'Roc Lafortune' },
       { name: 'Antoine Véclard' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/940289ab24a6.jpg',
     releaseDate: '2021-11-10',
     length: 128,
     genre: ['Comédie', 'Drame', 'Biographie', 'Comédie musicale'],
     saga: '',
     description:
-      'Comédie musicale inspirée librement de Céline Dion : Valérie Lemercier incarne Aline Dieu, de l\'enfance dans une famille québécoise nombreuse jusqu\'à la conquête de la scène internationale.',
+      "Comédie musicale inspirée librement de Céline Dion : Valérie Lemercier incarne Aline Dieu, de l'enfance dans une famille québécoise nombreuse jusqu'à la conquête de la scène internationale.",
     fromEntity: null,
     countryOrigin: ['France', 'Canada'],
     selectDisplayOrder: 0,
@@ -327,7 +334,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
       { name: 'Devyn McDowell' },
       { name: 'Angelo Decio' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/f6778f2ef830.jpg',
     releaseDate: '2021-07-06',
     length: 140,
     genre: ['Drame', 'Comédie musicale', 'Romance'],
@@ -349,13 +357,14 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
       { name: 'Lambert Wilson' },
       { name: 'Olivier Rabourdin' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/6e0d6ce2da56.jpg',
     releaseDate: '2021-07-09',
     length: 131,
     genre: ['Drame', 'Historique', 'Biographie'],
     saga: '',
     description:
-      'Italie, XVIIe siècle : la nonne Benedetta Carlini prétend recevoir des visions et entame une relation passionnée avec une jeune novice, provoquant une enquête de l\'Inquisition.',
+      "Italie, XVIIe siècle : la nonne Benedetta Carlini prétend recevoir des visions et entame une relation passionnée avec une jeune novice, provoquant une enquête de l'Inquisition.",
     fromEntity: {
       entityType: 'book',
       title: 'Immodest Acts',
@@ -375,13 +384,14 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
       { name: 'Anders Danielsen Lie' },
       { name: 'Hampus Nordenson' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/12ebbf0bca73.jpg',
     releaseDate: '2021-07-14',
     length: 113,
     genre: ['Drame', 'Romance'],
     saga: '',
     description:
-      'Sur l\'île de Fårö, deux cinéastes en retraite créative y écrivent leurs scénarios tandis que leur couple vacille et que fiction et réalité se confondent.',
+      "Sur l'île de Fårö, deux cinéastes en retraite créative y écrivent leurs scénarios tandis que leur couple vacille et que fiction et réalité se confondent.",
     fromEntity: null,
     countryOrigin: ['France', 'Allemagne', 'Belgique', 'Suède'],
     selectDisplayOrder: 0,
@@ -397,13 +407,14 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
       { name: 'Scoot McNairy' },
       { name: 'Jaboukie Young-White' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/192b90d0b437.jpg',
     releaseDate: '2021-11-19',
     length: 108,
     genre: ['Drame'],
     saga: '',
     description:
-      'Un journaliste radio s\'occupe de son jeune neveu Jesse pendant un périple à travers l\'Amérique où il enregistre des entretiens avec des enfants sur l\'avenir du monde.',
+      "Un journaliste radio s'occupe de son jeune neveu Jesse pendant un périple à travers l'Amérique où il enregistre des entretiens avec des enfants sur l'avenir du monde.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -419,7 +430,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
       { name: 'Ben Mendelsohn' },
       { name: 'Bashir Salahuddin' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/4aa2dbf1d812.jpg',
     releaseDate: '2021-12-31',
     length: 124,
     genre: ['Romance', 'Drame', 'Comédie musicale', 'Historique'],
@@ -428,8 +440,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
       'Adaptation musicale où Cyrano de Bergerac, interprété par Peter Dinklage, aime Roxane en secret et prête ses mots à Christian pour la séduire, prisonnier de son image de lui.',
     fromEntity: {
       entityType: 'book',
-      title: "Cyrano de Bergerac",
-      secondEntityKey: "Edmond Rostand",
+      title: 'Cyrano de Bergerac',
+      secondEntityKey: 'Edmond Rostand',
     },
     countryOrigin: ['États-Unis', 'Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -445,14 +457,13 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
       { name: 'Masaki Okada' },
       { name: 'Park Yu-rim' },
     ],
-    coverUrl:
-      '/movies_pictures/dc31fe7ffe3f.jpg',
+    coverUrl: '/movies_pictures/dc31fe7ffe3f.jpg',
     releaseDate: '2021-08-20',
     length: 179,
     genre: ['Drame'],
     saga: '',
     description:
-      'Le metteur en scène Yusuke recrute une jeune chauffeuse pour le conduire à Hiroshima, où les répétitions d\'Oncle Vania et les longs trajets en voiture le rapprochent de son deuil.',
+      "Le metteur en scène Yusuke recrute une jeune chauffeuse pour le conduire à Hiroshima, où les répétitions d'Oncle Vania et les longs trajets en voiture le rapprochent de son deuil.",
     fromEntity: {
       entityType: 'book',
       title: 'Drive My Car',
@@ -472,13 +483,14 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
       { name: 'Armand Barbault' },
       { name: 'Bruno Raffaelli' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/5f967e72b2ec.jpg',
     releaseDate: '2021-10-13',
     length: 108,
     genre: ['Drame', 'Romance', 'Biographie', 'Historique'],
     saga: '',
     description:
-      'Gustave Eiffel doit imaginer une tour spectaculaire pour l\'Exposition universelle de 1889, tout en retrouvant Adrienne, le grand amour de sa jeunesse qu\'il avait perdu de vue.',
+      "Gustave Eiffel doit imaginer une tour spectaculaire pour l'Exposition universelle de 1889, tout en retrouvant Adrienne, le grand amour de sa jeunesse qu'il avait perdu de vue.",
     fromEntity: null,
     countryOrigin: ['France', 'Allemagne', 'Belgique'],
     selectDisplayOrder: 0,
@@ -494,13 +506,14 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
       { name: 'Elaha Mahboob' },
       { name: 'Belal Faiz' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/47a9f1a371c7.jpg',
     releaseDate: '2021-12-03',
     length: 90,
     genre: ['Animation', 'Documentaire', 'Biographie'],
     saga: '',
     description:
-      'Documentaire d\'animation racontant le parcours d\'Amin, enfant afghan contraint à fuir son pays, et les secrets qu\'il dissimule depuis des années dans sa vie danoise.',
+      "Documentaire d'animation racontant le parcours d'Amin, enfant afghan contraint à fuir son pays, et les secrets qu'il dissimule depuis des années dans sa vie danoise.",
     fromEntity: null,
     countryOrigin: ['Danemark', 'France', 'Suède', 'Norvège'],
     selectDisplayOrder: 0,
@@ -516,7 +529,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
       { name: 'Xavier Dolan' },
       { name: 'Gérard Depardieu' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/cf24deeb7571.jpg',
     releaseDate: '2021-10-20',
     length: 149,
     genre: ['Drame', 'Historique', 'Romance'],
@@ -542,13 +556,14 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
       { name: 'Eric André' },
       { name: 'Olivia Colman' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/30c83f2701a4.jpg',
     releaseDate: '2021-04-30',
     length: 113,
     genre: ['Animation', 'Comédie', 'Aventure', 'Science Fiction', 'Jeunesse'],
     saga: '',
     description:
-      'Lors d\'un road trip familial, les Mitchell voient leur voyage vers l\'université de leur fille Katie interrompu par une révolte des robots, dont ils deviennent les improbables sauveurs.',
+      "Lors d'un road trip familial, les Mitchell voient leur voyage vers l'université de leur fille Katie interrompu par une révolte des robots, dont ils deviennent les improbables sauveurs.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -564,20 +579,21 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
       { name: 'Reed Birney' },
       { name: 'Breeda Wool' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/f4e930c856fc.jpg',
     releaseDate: '2021-10-08',
     length: 111,
     genre: ['Drame'],
     saga: '',
     description:
-      'Dans la salle paroissiale d\'une église, deux couples se rencontrent des années après une fusillade dans une école : parents de la victime et parents du tireur affrontent leur deuil.',
+      "Dans la salle paroissiale d'une église, deux couples se rencontrent des années après une fusillade dans une école : parents de la victime et parents du tireur affrontent leur deuil.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [],
   },
   {
-    title: 'Mères parallèles',
+    title: 'Madres Paralelas',
     director: 'Pedro Almodóvar',
     actors: [
       { name: 'Penélope Cruz' },
@@ -586,13 +602,14 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
       { name: 'Aitana Sánchez-Gijón' },
       { name: 'Rossy de Palma' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/e9f0c065c395.jpg',
     releaseDate: '2021-10-08',
     length: 123,
     genre: ['Drame'],
     saga: '',
     description:
-      'Janis, photographe, et Ana, jeune mère, accouchent dans le même hôpital madrilène ; leurs destins s\'entrelacent avec la quête des fosses communes de la guerre civile espagnole.',
+      "Janis, photographe, et Ana, jeune mère, accouchent dans le même hôpital madrilène ; leurs destins s'entrelacent avec la quête des fosses communes de la guerre civile espagnole.",
     fromEntity: null,
     countryOrigin: ['Espagne'],
     selectDisplayOrder: 0,
@@ -636,7 +653,7 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     genre: ['Drame', 'Thriller'],
     saga: '',
     description:
-      'Robin Fury, ermite chasseur de truffes à Portland, part à la recherche de son cochon volé avec l\'aide d\'un jeune revendeur, confronté au passé de chef étoilé qu\'il a renié.',
+      "Robin Fury, ermite chasseur de truffes à Portland, part à la recherche de son cochon volé avec l'aide d'un jeune revendeur, confronté au passé de chef étoilé qu'il a renié.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -652,14 +669,13 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
       { name: 'Gladys Knight' },
       { name: 'Mahalia Jackson' },
     ],
-    coverUrl:
-      '/movies_pictures/007e8422e0cc.jpg',
+    coverUrl: '/movies_pictures/007e8422e0cc.jpg',
     releaseDate: '2021-07-02',
     length: 117,
     genre: ['Documentaire', 'Comédie musicale', 'Historique'],
     saga: '',
     description:
-      'Documentaire sur le Harlem Cultural Festival de 1969, festival de soul et funk oublié pendant des décennies, avec Stevie Wonder, Nina Simone, Sly Stone et bien d\'autres.',
+      "Documentaire sur le Harlem Cultural Festival de 1969, festival de soul et funk oublié pendant des décennies, avec Stevie Wonder, Nina Simone, Sly Stone et bien d'autres.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -681,7 +697,7 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     genre: ['Thriller', 'Drame'],
     saga: '',
     description:
-      'William Tell, ancien interrogateur devenu joueur professionnel, est entraîné dans la violence lorsqu\'un agent du FBI et un jeune protégé entrent dans sa vie solitaire.',
+      "William Tell, ancien interrogateur devenu joueur professionnel, est entraîné dans la violence lorsqu'un agent du FBI et un jeune protégé entrent dans sa vie solitaire.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -703,7 +719,7 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     genre: ['Comédie', 'Drame', 'Romance'],
     saga: '',
     description:
-      'Hommage au journalisme à travers trois récits publiés par le bureau français d\'un magazine américain fictif, dans la patte visuelle et déclamatoire de Wes Anderson.',
+      "Hommage au journalisme à travers trois récits publiés par le bureau français d'un magazine américain fictif, dans la patte visuelle et déclamatoire de Wes Anderson.",
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Allemagne'],
     selectDisplayOrder: 0,
@@ -751,7 +767,7 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     genre: ['Drame'],
     saga: '',
     description:
-      'Léo et Rémi, deux garçons de onze ans, partagent une amitié fusionnelle jusqu\'à ce que les rumeurs de l\'école pousse Léo à s\'éloigner, avec des conséquences dévastatrices.',
+      "Léo et Rémi, deux garçons de onze ans, partagent une amitié fusionnelle jusqu'à ce que les rumeurs de l'école pousse Léo à s'éloigner, avec des conséquences dévastatrices.",
     fromEntity: null,
     countryOrigin: ['Belgique', 'France', 'Pays-Bas'],
     selectDisplayOrder: 0,
@@ -773,7 +789,7 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     genre: ['Thriller', 'Romance', 'Policier', 'Mystère'],
     saga: '',
     description:
-      'L\'inspecteur Hae-joon enquête sur la chute mortelle d\'un alpiniste et tombe amoureux de sa veuve chinoise Seo-rae, brouillant les frontières entre enquête et désir.',
+      "L'inspecteur Hae-joon enquête sur la chute mortelle d'un alpiniste et tombe amoureux de sa veuve chinoise Seo-rae, brouillant les frontières entre enquête et désir.",
     fromEntity: null,
     countryOrigin: ['Corée du Sud'],
     selectDisplayOrder: 0,
@@ -795,7 +811,7 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     genre: ['Drame', 'Comédie', 'Romance'],
     saga: '',
     description:
-      'Élisabeth, étoile de l\'Opéra de Paris, doit reconstruire sa vie après une blessure qui met fin à sa carrière classique ; elle rejoint une compagnie de danse contemporaine.',
+      "Élisabeth, étoile de l'Opéra de Paris, doit reconstruire sa vie après une blessure qui met fin à sa carrière classique ; elle rejoint une compagnie de danse contemporaine.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -817,7 +833,7 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     genre: ['Comédie', 'Thriller', 'Policier'],
     saga: '',
     description:
-      'Abel découvre que sa mère Sylvie veut épouser un détenu ; pour l\'en empêcher, il monte un hold-up avec son beau-père et se retrouve pris dans un vaudeville criminel.',
+      "Abel découvre que sa mère Sylvie veut épouser un détenu ; pour l'en empêcher, il monte un hold-up avec son beau-père et se retrouve pris dans un vaudeville criminel.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -839,11 +855,11 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     genre: ['Drame'],
     saga: '',
     description:
-      'Londres, années 1950 : le fonctionnaire M. Williams apprend qu\'il est condamné et cherche à donner un sens à ses derniers mois, dans une adaptation du classique de Kurosawa Vivre.',
+      "Londres, années 1950 : le fonctionnaire M. Williams apprend qu'il est condamné et cherche à donner un sens à ses derniers mois, dans une adaptation du classique de Kurosawa Vivre.",
     fromEntity: {
       entityType: 'book',
-      title: "La Mort d’Ivan Ilitch",
-      secondEntityKey: "Léon Tolstoï",
+      title: 'La Mort d’Ivan Ilitch',
+      secondEntityKey: 'Léon Tolstoï',
     },
     countryOrigin: ['Royaume-Uni', 'Japon', 'Suède'],
     selectDisplayOrder: 0,
@@ -865,7 +881,7 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     genre: ['Comédie'],
     saga: 'Maison de retraite',
     description:
-      'Endetté, Julien accepte un poste dans une maison de retraite menacée de fermeture et mobilise les résidents pour sauver l\'établissement par des coups tordus et pleins de cœur.',
+      "Endetté, Julien accepte un poste dans une maison de retraite menacée de fermeture et mobilise les résidents pour sauver l'établissement par des coups tordus et pleins de cœur.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -887,7 +903,7 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     genre: ['Drame', 'Thriller'],
     saga: '',
     description:
-      'En Polynésie française, le haut-commissaire De Roller navigue entre rumeurs de tests nucléaires, jeux de pouvoir locaux et l\'atmosphère languide de Tahiti, dans un film hypnotique d\'Albert Serra.',
+      "En Polynésie française, le haut-commissaire De Roller navigue entre rumeurs de tests nucléaires, jeux de pouvoir locaux et l'atmosphère languide de Tahiti, dans un film hypnotique d'Albert Serra.",
     fromEntity: null,
     countryOrigin: ['France', 'Espagne', 'Allemagne', 'Portugal'],
     selectDisplayOrder: 0,
@@ -909,7 +925,7 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     genre: ['Drame'],
     saga: '',
     description:
-      'Mia, psychiatre, survit à une attaque terroriste et cherche à retrouver les inconnus qui l\'ont aidée pendant ces heures traumatiques, pour reconstruire du sens à sa vie.',
+      "Mia, psychiatre, survit à une attaque terroriste et cherche à retrouver les inconnus qui l'ont aidée pendant ces heures traumatiques, pour reconstruire du sens à sa vie.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -925,14 +941,13 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
       { name: 'Zlatko Burić' },
       { name: 'Iris Berben' },
     ],
-    coverUrl:
-      '/movies_pictures/c6483d685b15.jpg',
+    coverUrl: '/movies_pictures/c6483d685b15.jpg',
     releaseDate: '2022-05-21',
     length: 147,
     genre: ['Comédie', 'Drame'],
     saga: '',
     description:
-      'Un couple d\'influenceurs embarque sur un yacht de luxe avec des milliardaires ; après un naufrage sur une île déserte, la hiérarchie sociale s\'inverse brutalement.',
+      "Un couple d'influenceurs embarque sur un yacht de luxe avec des milliardaires ; après un naufrage sur une île déserte, la hiérarchie sociale s'inverse brutalement.",
     fromEntity: null,
     countryOrigin: ['Suède', 'Allemagne', 'France', 'Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -980,7 +995,7 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     genre: ['Comédie', 'Aventure', 'Romance', 'Action'],
     saga: '',
     description:
-      'La romancière Loretta et son mannequin de couverture Alan sont kidnappés par un milliardaire en quête d\'un trésor perdu et doivent survivre dans la jungle.',
+      "La romancière Loretta et son mannequin de couverture Alan sont kidnappés par un milliardaire en quête d'un trésor perdu et doivent survivre dans la jungle.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -996,8 +1011,7 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
       { name: 'Judith Ivey' },
       { name: 'Ben Whishaw' },
     ],
-    coverUrl:
-      '/movies_pictures/27b9af87331a.jpg',
+    coverUrl: '/movies_pictures/27b9af87331a.jpg',
     releaseDate: '2022-12-23',
     length: 104,
     genre: ['Drame'],
@@ -1029,7 +1043,7 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     genre: ['Comédie', 'Drame', 'Horreur', 'Fantastique'],
     saga: '',
     description:
-      'Beau, homme anxieux, entame une odyssée surréaliste à travers l\'Amérique pour retrouver sa mère après la mort de son père, dans un cauchemar épique signé Ari Aster.',
+      "Beau, homme anxieux, entame une odyssée surréaliste à travers l'Amérique pour retrouver sa mère après la mort de son père, dans un cauchemar épique signé Ari Aster.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1051,7 +1065,7 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     genre: ['Drame', 'Romance'],
     saga: '',
     description:
-      'XIXe siècle : la cuisinière Eugénie et le grand chef Dodin partagent des décennies de collaboration culinaire et d\'amour discret, jusqu\'à ce qu\'elle accepte enfin de l\'épouser.',
+      "XIXe siècle : la cuisinière Eugénie et le grand chef Dodin partagent des décennies de collaboration culinaire et d'amour discret, jusqu'à ce qu'elle accepte enfin de l'épouser.",
     fromEntity: {
       entityType: 'book',
       title: 'La Vie et la Passion de Dodin-Bouffant, gourmet',
@@ -1077,7 +1091,7 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     genre: ['Drame', 'Thriller'],
     saga: '',
     description:
-      'Une enseignante enquête sur un vol dans son établissement ; ses méthodes déclenchent une crise autour de la confiance, de la surveillance et de l\'autorité scolaire.',
+      "Une enseignante enquête sur un vol dans son établissement ; ses méthodes déclenchent une crise autour de la confiance, de la surveillance et de l'autorité scolaire.",
     fromEntity: null,
     countryOrigin: ['Allemagne'],
     selectDisplayOrder: 0,
@@ -1099,7 +1113,7 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     genre: ['Drame', 'Catastrophe', 'Biographie'],
     saga: '',
     description:
-      'En 1972, l\'avion de l\'équipe uruguayenne de rugby s\'écrase dans les Andes ; les survivants endurent soixante-douze jours d\'extrême et doivent affronter des choix désespérés.',
+      "En 1972, l'avion de l'équipe uruguayenne de rugby s'écrase dans les Andes ; les survivants endurent soixante-douze jours d'extrême et doivent affronter des choix désespérés.",
     fromEntity: {
       entityType: 'book',
       title: 'La sociedad de la nieve',
@@ -1147,7 +1161,7 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     genre: ['Drame', 'Romance', 'Comédie'],
     saga: '',
     description:
-      'À Helsinki, Ansa, employée de kiosque, et Holappa, ouvrier à la casse, se rencontrent par hasard ; leur romance naissante est mise à l\'épreuve par le chômage et l\'alcoolisme.',
+      "À Helsinki, Ansa, employée de kiosque, et Holappa, ouvrier à la casse, se rencontrent par hasard ; leur romance naissante est mise à l'épreuve par le chômage et l'alcoolisme.",
     fromEntity: null,
     countryOrigin: ['Finlande'],
     selectDisplayOrder: 0,
@@ -1191,7 +1205,7 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     genre: ['Drame', 'Historique', 'Thriller'],
     saga: '',
     description:
-      'Reconstitution en temps réel de la prise d\'otages des Jeux olympiques de Munich en 1972, vue à travers l\'équipe de la chaîne ABC Sports qui couvrait les compétitions.',
+      "Reconstitution en temps réel de la prise d'otages des Jeux olympiques de Munich en 1972, vue à travers l'équipe de la chaîne ABC Sports qui couvrait les compétitions.",
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Allemagne'],
     selectDisplayOrder: 0,
@@ -1235,7 +1249,7 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     genre: ['Drame', 'Thriller', 'Romance'],
     saga: '',
     description:
-      'Romy, PDG d\'une grande entreprise, entame une liaison dangereuse avec son jeune stagiaire Samuel, explorant les rapports de domination et de soumission dans le monde corporate.',
+      "Romy, PDG d'une grande entreprise, entame une liaison dangereuse avec son jeune stagiaire Samuel, explorant les rapports de domination et de soumission dans le monde corporate.",
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Pays-Bas'],
     selectDisplayOrder: 0,
@@ -1257,7 +1271,7 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     genre: ['Drame', 'Guerre', 'Historique'],
     saga: '',
     description:
-      'Londres, Seconde Guerre mondiale : Rita cherche son fils George, évacué vers la campagne pendant le Blitz, tandis que l\'enfant tente seul de regagner une capitale dévastée.',
+      "Londres, Seconde Guerre mondiale : Rita cherche son fils George, évacué vers la campagne pendant le Blitz, tandis que l'enfant tente seul de regagner une capitale dévastée.",
     fromEntity: null,
     countryOrigin: ['Royaume-Uni', 'États-Unis'],
     selectDisplayOrder: 0,
@@ -1279,7 +1293,7 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     genre: ['Comédie', 'Drame', 'Biographie', 'Comédie musicale'],
     saga: '',
     description:
-      'Comédie biographique sur le trio de hip-hop de Belfast Kneecap, qui rap en gaélique et affronte police et conservatisme culturel dans l\'Irlande du Nord contemporaine.',
+      "Comédie biographique sur le trio de hip-hop de Belfast Kneecap, qui rap en gaélique et affronte police et conservatisme culturel dans l'Irlande du Nord contemporaine.",
     fromEntity: null,
     countryOrigin: ['Irlande', 'Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -1301,7 +1315,7 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     genre: ['Drame'],
     saga: '',
     description:
-      'Sur deux jours, Souleymane, livreur à vélo à Paris, prépare son entretien décisif à l\'OFPRA tout en livrant ses courses, révélant peu à peu son périlleux parcours depuis la Guinée.',
+      "Sur deux jours, Souleymane, livreur à vélo à Paris, prépare son entretien décisif à l'OFPRA tout en livrant ses courses, révélant peu à peu son périlleux parcours depuis la Guinée.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1349,7 +1363,7 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     genre: ['Drame', 'Horreur', 'Historique'],
     saga: '',
     description:
-      'Copenhague, 1919 : Karoline, ouvrière enceinte, entre au service d\'une sage-femme charismatique qui dissimule une pratique sordide avec les bébés non désirés.',
+      "Copenhague, 1919 : Karoline, ouvrière enceinte, entre au service d'une sage-femme charismatique qui dissimule une pratique sordide avec les bébés non désirés.",
     fromEntity: null,
     countryOrigin: ['Danemark', 'Pologne', 'Suède'],
     selectDisplayOrder: 0,
@@ -1371,7 +1385,7 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     genre: ['Comédie'],
     saga: '',
     description:
-      'Méta-comédie où des acteurs jouent leur propre rôle lors d\'un rendez-vous arrangé qui dérape, satire du casting et du cinéma français contemporain signée Quentin Dupieux.',
+      "Méta-comédie où des acteurs jouent leur propre rôle lors d'un rendez-vous arrangé qui dérape, satire du casting et du cinéma français contemporain signée Quentin Dupieux.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1415,7 +1429,7 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     genre: ['Drame', 'Biographie', 'Comédie musicale'],
     saga: '',
     description:
-      'Derniers jours de la diva Maria Callas à Paris dans les années 1970, alors qu\'elle tente de retrouver sa voix tout en étant hantée par les fantômes de sa carrière légendaire.',
+      "Derniers jours de la diva Maria Callas à Paris dans les années 1970, alors qu'elle tente de retrouver sa voix tout en étant hantée par les fantômes de sa carrière légendaire.",
     fromEntity: null,
     countryOrigin: ['Italie', 'Allemagne', 'États-Unis'],
     selectDisplayOrder: 0,
@@ -1437,7 +1451,7 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     genre: ['Comédie', 'Thriller', 'Drame'],
     saga: '',
     description:
-      'Jérémie revient au village pour les funérailles de sa mère et séjourne chez son ami Vincent ; la mort d\'un ouvrier dans le vignoble réveille désir, culpabilité et suspicion.',
+      "Jérémie revient au village pour les funérailles de sa mère et séjourne chez son ami Vincent ; la mort d'un ouvrier dans le vignoble réveille désir, culpabilité et suspicion.",
     fromEntity: null,
     countryOrigin: ['France', 'Espagne', 'Portugal'],
     selectDisplayOrder: 0,
@@ -1459,7 +1473,7 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     genre: ['Drame', 'Biographie', 'Comédie musicale'],
     saga: '',
     description:
-      'Biopic retraçant le parcours de Charles Aznavour, de son enfance dans une famille d\'immigrés arméniens à Paris jusqu\'à son ascension comme icône de la chanson française.',
+      "Biopic retraçant le parcours de Charles Aznavour, de son enfance dans une famille d'immigrés arméniens à Paris jusqu'à son ascension comme icône de la chanson française.",
     fromEntity: null,
     countryOrigin: ['France', 'Belgique'],
     selectDisplayOrder: 0,
@@ -1481,7 +1495,7 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     genre: ['Drame', 'Romance'],
     saga: '',
     description:
-      'Années 1950 : l\'écrivain américain Lee, exilé à Mexico, poursuit un jeune homme tout en luttant contre la drogue, dans une adaptation du roman de William S. Burroughs par Luca Guadagnino.',
+      "Années 1950 : l'écrivain américain Lee, exilé à Mexico, poursuit un jeune homme tout en luttant contre la drogue, dans une adaptation du roman de William S. Burroughs par Luca Guadagnino.",
     fromEntity: {
       entityType: 'book',
       title: 'Queer',

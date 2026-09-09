@@ -14,7 +14,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 83,
     genre: ['Animation', 'Science Fiction'],
     saga: '',
-    description: 'La major Motoko Kusanagi, cyborg de la Section 9, traque le mystérieux Puppet Master qui pirate des esprits dans un Tokyo futuriste.',
+    description: 'Dans un Tokyo futuriste, la major cyborg Motoko Kusanagi traque le hacker Puppet Master, qui brouille la frontière entre conscience humaine et réseau numérique.',
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
@@ -39,7 +39,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 124,
     genre: ['Science Fiction', 'Animation'],
     saga: '',
-    description: 'À Neo-Tokyo, le motard Kaneda tente d\'arrêter son ami Tetsuo dont les pouvoirs psychiques déclenchent une catastrophe apocalyptique.',
+    description: 'À Neo-Tokyo, un motard aux pouvoirs psychiques grandissants menace d\'effacer la ville, tandis que son ami tente de l\'arrêter avant qu\'il ne perde tout contrôle.',
     fromEntity: {
       entityType: 'manga',
       title: 'AKIRA',
@@ -68,7 +68,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 91,
     genre: ['Animation'],
     saga: 'Ghibli',
-    description: 'En 1963, Umi élève seule des drapeaux pour son père disparu et tombe amoureuse d\'un camarade du club journal qui cache un lien familial.',
+    description: 'En 1963, une lycéenne passionnée de littérature et un garçon engagé dans les manifestations anti-base américaine se rapprochent sur une colline surplombant Yokohama.',
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 25,
@@ -83,7 +83,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 134,
     genre: ['Animation'],
     saga: 'Ghibli',
-    description: 'Le prince Ashitaka, maudit par une déesse sanglier, tente de réconcilier les humains et la forêt protégée par San, la princesse Mononoké.',
+    description: 'Blessé par une sanglier démoniaque, le prince Ashitaka tente de réconcilier les forgerons d\'Irontown et San, princesse des loups, dans une forêt menacée par l\'homme.',
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 25,
@@ -102,7 +102,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 124,
     genre: ['Animation', 'Aventure', 'Drame'],
     saga: '',
-    description: 'Mahito, deuil de sa mère, pénètre un monde parallèle guidé par un héron et affronte des créatures liées au passé de sa famille.',
+    description: 'Mahito, garçon de guerre, pénètre dans un monde parallèle hanté par un héron étrange pour retrouver sa belle-mère et affronter les fantômes de sa famille.',
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
@@ -119,7 +119,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 125,
     genre: ['Animation', 'Fantastique'],
     saga: 'Ghibli',
-    description: 'Chihiro doit travailler dans une auberge pour esprits afin de sauver ses parents transformés en porcs et de regagner le monde humain.',
+    description: 'Chihiro plonge dans un bain public pour esprits et travaille pour la sorcière Yubaba afin de sauver ses parents transformés en porcs.',
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 25,
@@ -140,7 +140,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 100,
     genre: ['Animation', 'Action', 'Aventure'],
     saga: 'Lupin III',
-    description: 'Arsène Lupin III débarque au château de Cagliostro pour déjouer un complot et sauver la princesse Clarisse des griffes du comte.',
+    description: 'Lupin et Jigen découvrent une contrefaçon de monnaie liée au comte de Cagliostro et tentent d\'arracher la princesse Clarisse à son mariage forcé.',
     fromEntity: {
       entityType: 'manga' as const,
       title: 'Lupin III',
@@ -159,7 +159,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 117,
     genre: ['Animation', 'Aventure'],
     saga: '',
-    description: 'Nausicaä explore une jungle toxique et tente d\'empêcher une guerre entre royaumes qui menacent l\'équilibre fragile de la Terre.',
+    description: 'Nausicaä, princesse pacifiste, cherche à empêcher une guerre entre royaumes et une jungle toxique qui menace l\'humanité.',
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 25,
@@ -174,7 +174,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 125,
     genre: ['Animation', 'Aventure'],
     saga: 'Ghibli',
-    description: 'Pazu et Sheeta fuient des pirates et l\'armée pour retrouver Laputa, cité volante légendaire porteuse d\'une technologie redoutable.',
+    description: 'Sheeta et Pazu fuient des pirates et des militaires pour atteindre Laputa, cité volante légendaire, et empêcher qu\'elle ne devienne une arme.',
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 25,
@@ -196,7 +196,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 89,
     genre: ['Animation', 'Guerre'],
     saga: '',
-    description: 'Seita et sa petite sœur Setsuko luttent pour survivre au Japon dévasté de 1945, épuisés par la faim et la guerre.',
+    description: 'À Kobe en 1945, Seita et sa petite sœur Setsuko luttent pour survivre aux bombardements et à la famine pendant la fin de la guerre.',
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 25,
@@ -218,7 +218,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 87,
     genre: ['Animation'],
     saga: 'Ghibli',
-    description: 'Satsuki et Mei déménagent à la campagne et rencontrent Totoro, esprit bienveillant de la forêt, pendant que leur mère est hospitalisée.',
+    description: 'Deux sœurs découvrent des esprits de la forêt, dont le géant Totoro, en s\'installant à la campagne pendant la convalescence de leur mère.',
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 25,
@@ -243,7 +243,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 119,
     genre: ['Animation'],
     saga: 'Ghibli',
-    description: 'Sophie, transformée en vieille femme par une sorcière, s\'installe dans le château ambulant du magicien Howl pour briser la malédiction.',
+    description: 'Sophie, maudite par une sorcière, entre au château ambulant du magicien Howl et participe à une guerre magique qui ravage le pays.',
     fromEntity: {
       entityType: 'book',
       title: "Le Château ambulant",
@@ -262,7 +262,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 103,
     genre: ['Animation', 'Fantastique'],
     saga: '',
-    description: 'Kiki, jeune sorcière de treize ans, s\'installe dans une ville côtière et y développe son talent de livreuse sur balai.',
+    description: 'Kiki, jeune sorcière en apprentissage, s\'installe dans une ville côtière avec son chat Jiji et apprend à gagner sa vie en livrant des colis.',
     fromEntity: {
       entityType: 'book',
       title: "Kiki la petite sorcière",
@@ -281,7 +281,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 101,
     genre: ['Animation', 'Fantastique'],
     saga: '',
-    description: 'Ponyo, fille-poisson, s\'échappe de l\'océan et se lie à Sosuke, déclenchant des tempêtes qui menacent l\'équilibre du monde.',
+    description: 'Ponyo, princesse-poisson, s\'échappe de l\'océan et se lie d\'amitié avec Sôsuke, provoquant un déséquilibre que son père cherche à réparer.',
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 25,
@@ -318,7 +318,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 108,
     genre: ['Animation'],
     saga: '',
-    description: 'Haruki, solitaire, découvre que sa camarade Sakura est atteinte d\'une maladie incurable et partage avec elle ses derniers mois de vie.',
+    description: 'Un lycéen solitaire découvre le journal d\'une camarade atteinte d\'une maladie incurable et partage avec elle une année de complicité et de vérités.',
     fromEntity: {
       entityType: 'book',
       title: "Je veux manger ton pancréas",
@@ -356,7 +356,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 106,
     genre: ['Animation'],
     saga: '',
-    description: 'Taki et Mitsuha échangent mystérieusement de corps et cherchent à se rencontrer malgré le temps et la distance qui les séparent.',
+    description: 'Taki et Mitsuha, l\'un à Tokyo l\'autre en province, échangent leurs corps dans leurs rêves jusqu\'à ce qu\'une catastrophe les sépare dans le temps.',
     fromEntity: {
       entityType: 'book',
       title: "Je veux manger ton pancréas",
@@ -388,7 +388,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 35,
     genre: ['Animation'],
     saga: 'Dragon Ball',
-    description: 'Goku et ses amis participent à un tournoi où apparaît Aka, fusion redoutable de deux extraterrestres venus défier les champions terriens.',
+    description: 'Goku et ses amis participent à un tournoi réunissant les guerriers les plus puissants de la Terre et découvrent une nouvelle menace surnaturelle.',
     fromEntity: {
       entityType: 'manga',
       title: 'Dragon Ball',
@@ -417,7 +417,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 52,
     genre: ['Animation'],
     saga: 'Dragon Ball',
-    description: 'Sur Namek, Freezer traque les Dragon Balls pendant que Goku et ses alliés tentent de sauver les Nameks et leurs guerriers légendaires.',
+    description: 'Les guerriers Z partent sur Namek affronter Freezer et ses sbires pour récupérer les Dragon Balls avant qu\'il n\'obtienne l\'immortalité.',
     fromEntity: {
       entityType: 'manga',
       title: 'Dragon Ball',
@@ -446,7 +446,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 48,
     genre: ['Animation'],
     saga: 'Dragon Ball',
-    description: 'Bardock, père de Goku, prévoit la destruction de la planète Vegeta et tente d\'avertir son peuple face à Freezer.',
+    description: 'Goku découvre qu\'il est un Saiyan et affronte Raditz, son frère venu sur Terre pour préparer la conquête de la planète.',
     fromEntity: {
       entityType: 'manga',
       title: 'Dragon Ball',
@@ -475,7 +475,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 61,
     genre: ['Animation'],
     saga: 'Dragon Ball',
-    description: 'Des Saiyans plantent l\'arbre du pouvoir sur Terre pour en absorber l\'énergie, obligeant Goku à affronter leur chef Turles.',
+    description: 'Des guerriers de l\'espace plantent l\'Arbre du Pouvoir sur Terre, drainant la vie de la planète, et Goku doit les arrêter.',
     fromEntity: {
       entityType: 'manga',
       title: 'Dragon Ball',
@@ -504,7 +504,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 51,
     genre: ['Animation'],
     saga: 'Dragon Ball',
-    description: 'Hirudegarn, monstre scellé depuis des siècles, se libère et ravage la Terre tandis que les guerriers Z tentent de le vaincre.',
+    description: 'Goku et ses amis tentent d\'empêcher le maléfique Garlic Jr. d\'envahir le monde avec le Dead Zone.',
     fromEntity: {
       entityType: 'manga',
       title: 'Dragon Ball',
@@ -533,7 +533,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 51,
     genre: ['Animation'],
     saga: 'Dragon Ball',
-    description: 'Goten et Trunks affrontent le démon Janemba dans l\'autre monde pendant que Goku et Vegeta tentent une fusion désespérée.',
+    description: 'Goten et Trunks utilisent la fusion pour devenir Gotenks et combattre le monstre Bio-Broly créé par un industriel sans scrupules.',
     fromEntity: {
       entityType: 'manga',
       title: 'Dragon Ball',
@@ -562,7 +562,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 46,
     genre: ['Animation'],
     saga: 'Dragon Ball',
-    description: 'Mr. Satan est invité sur une île où des scientifiques recréent Broly sous forme biologique, menaçant à nouveau la paix.',
+    description: 'Goten, Trunks et leurs alliés affrontent Bio-Broly, clone muté du légendaire guerrier Saiyan, sur une île de culture biologique.',
     fromEntity: {
       entityType: 'manga',
       title: 'Dragon Ball',
@@ -591,7 +591,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 52,
     genre: ['Animation'],
     saga: 'Dragon Ball',
-    description: 'Bojack et son équipe s\'échappent de leur prison et défient les guerriers Z lors d\'un tournoi intergalactique mortel.',
+    description: 'Goku et ses amis participent à un tournoi où Bojack, guerrier scellé depuis des millénaires, est libéré pour semer le chaos.',
     fromEntity: {
       entityType: 'manga',
       title: 'Dragon Ball',
@@ -620,7 +620,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 51,
     genre: ['Animation'],
     saga: 'Dragon Ball',
-    description: 'Bojack et son équipe s\'échappent de leur prison et défient les guerriers Z lors d\'un tournoi intergalactique mortel.',
+    description: 'Libéré de sa prison, Bojack et son équipe sèment la destruction sur Terre pendant un tournoi d\'arts martiaux.',
     fromEntity: {
       entityType: 'manga',
       title: 'Dragon Ball',
@@ -650,7 +650,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 72,
     genre: ['Animation'],
     saga: 'Dragon Ball',
-    description: 'Broly, Saiyan doté d\'une puissance colossale, revient traquer Goku et déchaîne une rage destructrice lors d\'une rencontre fatidique.',
+    description: 'Broly, Saiyan doté d\'une puissance colossale, revient traquer Goku et Vegeta lors d\'un nouveau tournoi interplanétaire.',
     fromEntity: {
       entityType: 'manga',
       title: 'Dragon Ball',
@@ -679,7 +679,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 47,
     genre: ['Animation'],
     saga: 'Dragon Ball',
-    description: 'Dans un futur dystopique, Trunks et Gohan combattent seuls les cyborgs C-17 et C-18 après la chute des guerriers Z.',
+    description: 'Dans un futur dévasté par les cyborgs, Trunks du futur lutte aux côtés de Gohan pour sauver ce qui reste de l\'humanité.',
     fromEntity: {
       entityType: 'manga',
       title: 'Dragon Ball',
@@ -708,7 +708,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 46,
     genre: ['Animation'],
     saga: 'Dragon Ball',
-    description: 'Goku et ses amis affrontent C-13, cyborg créé par le Dr. Géro, qui menace la Terre avec une technologie destructrice avancée.',
+    description: 'Goku et les guerriers Z affrontent C-17 et C-18, cyborgs créés par le Dr Gero, tandis que Cell menace d\'absorber leurs pouvoirs.',
     fromEntity: {
       entityType: 'manga',
       title: 'Dragon Ball',
@@ -737,7 +737,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 44,
     genre: ['Animation'],
     saga: 'Dragon Ball',
-    description: 'Cooler, frère de Freezer, envoie une armée de robots métalliques pour venger sa famille et anéantir les guerriers Z.',
+    description: 'Cooler, frère de Freezer, envoie une armée de métal sur Terre pour se venger de Goku et anéantir la planète.',
     fromEntity: {
       entityType: 'manga',
       title: 'Dragon Ball',
@@ -766,7 +766,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 48,
     genre: ['Animation'],
     saga: 'Dragon Ball',
-    description: 'Cooler revient sous forme métallique et affronte Goku sur la planète New Namek pour accomplir sa vengeance contre les Saiyans.',
+    description: 'Cooler revient sous forme métallique pour affronter Goku et Vegeta sur la planète New Namek.',
     fromEntity: {
       entityType: 'manga',
       title: 'Dragon Ball',
@@ -795,7 +795,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 59,
     genre: ['Animation'],
     saga: 'Dragon Ball',
-    description: 'Sur une planète glacée, Freezer tente de reconquérir le pouvoir avec l\'aide de robots géants pendant que Goku est absent.',
+    description: 'Goku et ses amis combattent le Dr Wheelo, cerveau de scientifique emprisonné dans un robot géant en quête d\'un corps parfait.',
     fromEntity: {
       entityType: 'manga',
       title: 'Dragon Ball',
@@ -824,7 +824,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 41,
     genre: ['Animation'],
     saga: 'Dragon Ball',
-    description: 'Garlic Jr. revient avec la brume noire pour plonger la Terre dans les ténèbres et se venger de Kami et de Piccolo.',
+    description: 'Goku affronte Garlic Jr. et son clan, qui cherchent à venger leur maître en utilisant le Dead Zone contre Kami.',
     fromEntity: {
       entityType: 'manga',
       title: 'Dragon Ball',
@@ -843,7 +843,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 85,
     genre: ['Animation'],
     saga: 'Dragon Ball',
-    description: 'Le dieu de la destruction Beerus se réveille et défie Goku, menaçant la Terre si aucun Super Saiyan divin ne peut le surpasser.',
+    description: 'Le dieu de la destruction Beerus se réveille et exige d\'affronter le Super Saiyan légendaire, menaçant la Terre s\'il n\'est pas satisfait.',
     fromEntity: {
       entityType: 'manga',
       title: 'Dragon Ball',
@@ -872,7 +872,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 94,
     genre: ['Animation'],
     saga: 'Dragon Ball',
-    description: 'Freezer revient grâce à l\'armée de Frieza et affronte Goku et Vegeta devenus Super Saiyan divin pour reconquérir la galaxie.',
+    description: 'Freezer ressuscité par ses sbires revient sur Terre avec une armée pour se venger de Goku et Vegeta.',
     fromEntity: {
       entityType: 'manga',
       title: 'Dragon Ball',
@@ -891,7 +891,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 100,
     genre: ['Animation'],
     saga: 'Dragon Ball',
-    description: 'Broly, Saiyan exilé d\'une puissance inouïe, affronte Goku et Vegeta dans un combat qui redéfinit les limites de leur force.',
+    description: 'Goku et Vegeta découvrent Broly, Saiyan exilé d\'une puissance prodigieuse, que Freezer cherche à manipuler contre eux.',
     fromEntity: {
       entityType: 'manga',
       title: 'Dragon Ball',
@@ -920,7 +920,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 82,
     genre: ['Animation'],
     saga: '',
-    description: 'À Paris en 1910, un monstre géant et une chanteuse de cabaret unissent leurs forces pour déjouer le préfet qui menace la ville.',
+    description: 'À Paris en 1910, un chimiste transforme en géant bienveillant une créature minuscule, tandis qu\'un préfet veut l\'éliminer.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -935,7 +935,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 100,
     genre: ['Animation'],
     saga: 'Dragon Ball',
-    description: 'Piccolo et Gohan affrontent la Red Ribbon Army ressuscitée, dont les cyborgs Gamma et Cell Max menacent le monde entier.',
+    description: 'Gohan et Piccolo affrontent la Red Ribbon Army ressuscitée, qui déploie des cyborgs Gamma conçus pour éliminer les guerriers Z.',
     fromEntity: {
       entityType: 'manga',
       title: 'Dragon Ball',
@@ -954,7 +954,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 52,
     genre: ['Animation'],
     saga: 'One Piece OAV',
-    description: 'L\'équipage de Luffy affronte le pirate Woonan et ses hommes pour retrouver l\'île perdue où brille la légendaire couronne d\'or.',
+    description: 'L\'équipage de Luffy affronte le pirate Woonan et protège une île menacée par sa quête d\'un trésor légendaire.',
     fromEntity: {
       entityType: 'manga',
       title: 'One Piece',
@@ -974,7 +974,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 55,
     genre: ['Animation'],
     saga: 'One Piece OAV',
-    description: 'Sur Clockwork Island, les Straw Hats tentent de récupérer le Going Merry volé par la bande du Frère du Faucon.',
+    description: 'Les Chapeaux de paille débarquent sur Clock Island où le pirate Bear King cherche la couronne du roi des pirates.',
     fromEntity: {
       entityType: 'manga',
       title: 'One Piece',
@@ -993,7 +993,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 55,
     genre: ['Animation'],
     saga: 'One Piece OAV',
-    description: 'L\'équipage débarque sur Crown Island où Chopper est pris pour le roi des bêtes et doit affronter le chasseur Count Butler.',
+    description: 'Sur Crown Island, Luffy et ses amis protègent Chopper et les habitants d\'un chasseur obsédé par la corne d\'un animal légendaire.',
     fromEntity: {
       entityType: 'manga',
       title: 'One Piece',
@@ -1013,7 +1013,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 95,
     genre: ['Animation'],
     saga: 'One Piece OAV',
-    description: 'Les pirates découvrent une île paradisiaque qui cache un piège mortel tendu par le général Gasparde et sa flotte.',
+    description: 'L\'équipage est piégé dans une île-paradis artificielle contrôlée par le président Gasparde, ancien pirate impitoyable.',
     fromEntity: {
       entityType: 'manga',
       title: 'One Piece',
@@ -1032,7 +1032,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 95,
     genre: ['Animation'],
     saga: 'One Piece OAV',
-    description: 'Zoro affronte Saga, son ancien camarade d\'armes, possédé par une épée maudite qui menace la cité de Asuka.',
+    description: 'Luffy croise Saga, ancien ami de Zoro, possédé par une épée maudite qui menace Asuka, village côtier.',
     fromEntity: {
       entityType: 'manga',
       title: 'One Piece',
@@ -1051,7 +1051,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 92,
     genre: ['Animation'],
     saga: '',
-    description: 'Sur une île-resort, le baron Omatsuri piège l\'équipage dans des épreuves qui révèlent les failles de chaque membre.',
+    description: 'Sur une île-resort, le Baron Omatsuri sépare l\'équipage et teste chaque membre dans des épreuves qui révèlent leurs failles.',
     fromEntity: {
       entityType: 'manga',
       title: 'One Piece',
@@ -1070,7 +1070,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 94,
     genre: ['Animation'],
     saga: '',
-    description: 'Sur Mecha Island, Luffy et ses amis cherchent le trésor légendaire tout en affrontant le roi raton laveur Ratchet.',
+    description: 'Sur une île mécanique, les Chapeaux de paille affrontent le Dr Indigo et son armée de robots géants.',
     fromEntity: {
       entityType: 'manga',
       title: 'One Piece',
@@ -1099,7 +1099,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 113,
     genre: ['Animation'],
     saga: 'One Piece OAV',
-    description: 'Shiki le Lion d\'Or déplace des îles dans le ciel pour écraser le monde, et Luffy doit protéger Nami qu\'il a enlevée.',
+    description: 'Shiki le Lion d\'Or menace East Blue avec des animaux volants géants, et Luffy doit l\'arrêter avant qu\'il ne renverse le monde.',
     fromEntity: {
       entityType: 'manga',
       title: 'One Piece',
@@ -1128,7 +1128,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 107,
     genre: ['Animation'],
     saga: 'One Piece OAV',
-    description: 'L\'ancien amiral Zephyr, bras armé de la Neo Marine, lance une croisade contre les pirates avec une arme capable de détruire des îles.',
+    description: 'L\'équipage affronte Z, ancien amiral de la Marine, qui veut anéantir tous les pirates avec une arme capable de détruire le Nouveau Monde.',
     fromEntity: {
       entityType: 'manga',
       title: 'One Piece',
@@ -1147,7 +1147,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 120,
     genre: ['Animation'],
     saga: 'One Piece OAV',
-    description: 'Les Straw Hats s\'infiltrent dans la cité dorée de Gran Tesoro pour affronter le roi du divertissement Gild Tesoro.',
+    description: 'À Gran Tesoro, Luffy défie le despote Gild Tesoro qui contrôle la richesse et les destins des pirates par le jeu.',
     fromEntity: {
       entityType: 'manga',
       title: 'One Piece',
@@ -1166,7 +1166,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 101,
     genre: ['Animation'],
     saga: 'One Piece OAV',
-    description: 'Lors du Pirate Fest, Luffy et les plus grands noms des mers se retrouvent pour une chasse au trésor qui cache un complot d\'envergure.',
+    description: 'Lors d\'un festival pirate, Luffy et les plus grands noms des mers se disputent le trésor laissé par le Roi des Pirates.',
     fromEntity: {
       entityType: 'manga',
       title: 'One Piece',
@@ -1195,7 +1195,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 115,
     genre: ['Animation'],
     saga: 'One Piece OAV',
-    description: 'Uta, chanteuse idol adorée du monde entier, révèle son lien avec Shanks et projette de séparer les pirates du reste de l\'humanité.',
+    description: 'Luffy retrouve Uta, chanteuse adorée du monde entier et amie d\'enfance de Shanks, dont le concert menace de plonger le monde en chaos.',
     fromEntity: {
       entityType: 'manga',
       title: 'One Piece',
@@ -1214,7 +1214,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 95,
     genre: ['Animation', 'Action'],
     saga: 'Naruto',
-    description: 'Naruto et ses camarades escortent la prêtresse Shion dont la prophétie annonce la destruction du monde par un démon scellé.',
+    description: 'Naruto escorte la princesse Shion, prêtresse capable de sceller un démon, alors que des ninjas cherchent à la sacrifier.',
     fromEntity: {
       entityType: 'manga',
       title: 'Naruto',
@@ -1233,7 +1233,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 93,
     genre: ['Animation', 'Action'],
     saga: 'Naruto',
-    description: 'Naruto affronte les ninjas de l\'île du ciel, menés par Shinnō, qui menacent Konoha avec une arme ancienne redoutable.',
+    description: 'Naruto affronte Shinno, ancien ninja revenu avec une technique drainant le chakra pour dominer le pays du Feu.',
     fromEntity: {
       entityType: 'manga',
       title: 'Naruto',
@@ -1252,7 +1252,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 96,
     genre: ['Animation', 'Action'],
     saga: 'Naruto',
-    description: 'L\'équipe Kakashi enquête sur le pays de l\'Herbe où le clan Kekkei Genkai complote pour déclencher une guerre ninja.',
+    description: 'L\'équipe de Kakashi enquête sur le disparu Hiruko, alchimiste ninja obsédé par le jutsu d\'absorption des kekkei genkai.',
     fromEntity: {
       entityType: 'manga',
       title: 'Naruto',
@@ -1271,7 +1271,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 85,
     genre: ['Animation', 'Action'],
     saga: 'Naruto',
-    description: 'Naruto et ses amis tentent d\'empêcher le réveil d\'un ancien démon scellé dans les ruines de la tour perdue du pays du ciel.',
+    description: 'Naruto part en mission secrète pour sauver le frère du Raikage, retenu dans une tour légendaire perdue en plein océan.',
     fromEntity: {
       entityType: 'manga',
       title: 'Naruto',
@@ -1290,7 +1290,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 108,
     genre: ['Animation', 'Action'],
     saga: 'Naruto',
-    description: 'Naruto est emprisonné à Hōzuki pour un crime qu\'il n\'a pas commis et doit s\'évader tout en déjouant le complot du maître des lieux.',
+    description: 'Accusé d\'attentat, Naruto est enfermé dans la forteresse Hozuki et doit prouver son innocence tout en déjouant un complot.',
     fromEntity: {
       entityType: 'manga',
       title: 'Naruto',
@@ -1328,7 +1328,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 112,
     genre: ['Animation', 'Action', 'Romance'],
     saga: 'Naruto',
-    description: 'La lune menace de s\'écraser sur la Terre et Naruto doit protéger Hinata tout en affrontant Toneri Ōtsutsuki.',
+    description: 'Naruto et Hinata doivent empêcher Toneri d\'Otsutsuki d\'écraser la Lune sur la Terre pour venger un ancien conflit.',
     fromEntity: {
       entityType: 'manga',
       title: 'Naruto',
@@ -1347,7 +1347,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 95,
     genre: ['Animation', 'Action'],
     saga: 'Naruto',
-    description: 'Boruto, fils de Naruto, participe aux examens Chunin et affronte Momoshiki Ōtsutsuki aux côtés de son père et de Sasuke.',
+    description: 'Boruto découvre le pouvoir du Byakugan et affronte Momoshiki, envahisseur extraterrestre visant le chakra de Naruto.',
     fromEntity: {
       entityType: 'manga',
       title: 'Boruto',
@@ -1366,7 +1366,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 117,
     genre: ['Animation', 'Action', 'Fantastique'],
     saga: 'Demon Slayer',
-    description: 'Tanjiro, Zenitsu et Inosuke montent à bord du train de l\'infini pour affronter Enmu aux côtés du Pilier de la Flamme Rengoku.',
+    description: 'Tanjiro, Nezuko et le Pilier Rengoku affrontent Enmu sur un train où les passagers sombrent dans un sommeil mortel.',
     fromEntity: {
       entityType: 'manga',
       title: 'Demon Slayer',
@@ -1385,7 +1385,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 110,
     genre: ['Animation', 'Action', 'Fantastique'],
     saga: 'Demon Slayer',
-    description: 'Tanjiro se rend au village des forgerons pour réparer son sabre et affronte les Lunes supérieures Gyokko et Hantengu.',
+    description: 'Tanjiro se rend au village des forgerons de sabres tandis que les Piliers traquent la Lune supérieure Hantengu.',
     fromEntity: {
       entityType: 'manga',
       title: 'Demon Slayer',
@@ -1404,7 +1404,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 104,
     genre: ['Animation', 'Action', 'Fantastique'],
     saga: 'Demon Slayer',
-    description: 'Après la mort de Rengoku, Tanjiro entame l\'entraînement des Piliers pour devenir assez fort à affronter Muzan Kibutsuji.',
+    description: 'Après la bataille du quartier des plaisirs, Tanjiro entame un entraînement intensif avec les Piliers pour affronter Muzan.',
     fromEntity: {
       entityType: 'manga',
       title: 'Demon Slayer',
@@ -1428,7 +1428,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 130,
     genre: ['Animation'],
     saga: 'Puella Magi Madoka Magica',
-    description: 'Madoka découvre le monde des magical girls lorsque la mystérieuse Homura transfère dans sa classe et que Kyubey lui propose un contrat.',
+    description: 'Madoka Kaname découvre le monde des magical girls et le contrat qui échange un vœu contre un combat sans fin contre les sorcières.',
     fromEntity: {
       entityType: 'manga',
       title: 'Puella Magi Madoka Magica',
@@ -1451,7 +1451,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 120,
     genre: ['Animation'],
     saga: 'Puella Magi Madoka Magica',
-    description: 'Madoka apprend le terrible prix du contrat magical girl tandis que Sayaka sombre dans le désespoir face à la cruauté du destin.',
+    description: 'Madoka comprend la vérité sur les sorcières et le destin tragique qui attend celles qui acceptent le contrat de Kyubey.',
     fromEntity: {
       entityType: 'manga',
       title: 'Puella Magi Madoka Magica',
@@ -1474,7 +1474,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 116,
     genre: ['Animation'],
     saga: 'Puella Magi Madoka Magica',
-    description: 'Homura piège les magical girls dans une réalité artificielle et affronte une entité qui menace l\'existence de Madoka.',
+    description: 'Homura piège ses amies dans un monde reconstruit où elles sont magical girls heureuses, mais une nouvelle menace se profile.',
     fromEntity: {
       entityType: 'manga',
       title: 'Puella Magi Madoka Magica',
@@ -1493,7 +1493,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 41,
     genre: ['Animation', 'Jeunesse'],
     saga: 'Captain Tsubasa',
-    description: 'Tsubasa et son équipe affrontent les meilleures sélections européennes dans un tournoi où chaque match teste leurs techniques légendaires.',
+    description: 'Tsubasa et l\'équipe du Japon affrontent les meilleures sélections européennes dans un tournoi international acharné.',
     fromEntity: {
       entityType: 'manga',
       title: 'Captain Tsubasa',
@@ -1512,7 +1512,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 60,
     genre: ['Animation', 'Jeunesse'],
     saga: 'Captain Tsubasa',
-    description: 'La sélection junior du Japon se réunit pour affronter des équipes internationales dans des matchs qui forgent la nouvelle génération.',
+    description: 'La sélection junior du Japon se prépare à affronter les champions du monde dans des matchs où technique et passion s\'affrontent.',
     fromEntity: {
       entityType: 'manga',
       title: 'Captain Tsubasa',
@@ -1531,7 +1531,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 35,
     genre: ['Animation', 'Jeunesse'],
     saga: 'Captain Tsubasa',
-    description: 'Tsubasa et ses coéquipiers se préparent pour de nouveaux défis internationaux en perfectionnant leurs tirs et leur jeu collectif.',
+    description: 'Tsubasa et ses coéquipiers se battent pour se qualifier à la Coupe du monde junior dans un tournoi où chaque match peut tout changer.',
     fromEntity: {
       entityType: 'manga',
       title: 'Captain Tsubasa',
@@ -1550,7 +1550,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 57,
     genre: ['Animation', 'Jeunesse'],
     saga: 'Captain Tsubasa',
-    description: 'Lors de la Coupe du monde junior, Tsubasa mène le Japon contre les plus grandes nations du football dans des matchs acharnés.',
+    description: 'L\'équipe du Japon affronte les plus grandes nations du football junior pour remporter la Coupe du monde des moins de seize ans.',
     fromEntity: {
       entityType: 'manga',
       title: 'Captain Tsubasa',
@@ -1569,7 +1569,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 48,
     genre: ['Animation', 'Jeunesse'],
     saga: 'Captain Tsubasa',
-    description: 'Tsubasa et l\'équipe du Japon affrontent la redoutable sélection junior des Pays-Bas menée par leur star aux dribbles implacables.',
+    description: 'Tsubasa et la sélection junior du Japon affrontent l\'équipe des Pays-Bas dans un match décisif qui teste leur technique et leur solidarité.',
     fromEntity: {
       entityType: 'manga',
       title: 'Captain Tsubasa',
@@ -1588,7 +1588,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 75,
     genre: ['Animation', 'Aventure', 'Jeunesse'],
     saga: 'Pokémon',
-    description: 'Mewtwo, clone créé à partir de Mew, s\'élève contre ses créateurs et défie les dresseurs lors d\'un tournoi sur l\'île Caramucho.',
+    description: 'Mewtwo, clone créé à partir de l\'ADN du légendaire Mew, se rebelle contre ses créateurs et défie les dresseurs lors d\'un tournoi impitoyable.',
     fromEntity: {
       entityType: 'game',
       title: 'Pokémon Bleu',
@@ -1607,7 +1607,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 64,
     genre: ['Animation', 'Aventure', 'Jeunesse'],
     saga: 'Pokémon',
-    description: 'Sacha et ses amis tentent d\'empêcher le collecteur Lawrence III de capturer les oiseaux légendaires et de déclencher le chaos.',
+    description: 'Sacha et ses amis tentent d\'empêcher le collectionneur Lawrence III de capturer Lugia et les oiseaux légendaires, provoquant un cataclysme.',
     fromEntity: {
       entityType: 'game',
       title: 'Pokémon Or',
@@ -1626,7 +1626,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 74,
     genre: ['Animation', 'Aventure', 'Jeunesse'],
     saga: 'Pokémon',
-    description: 'Entei kidnappe la mère de Molly tandis que Sacha affronte une armée de Zarbi et un Entei créé par les vœux de la petite fille.',
+    description: 'Molly, fillette isolée, crée une réalité illusoire avec des Unown qui enferment sa ville et menacent Sacha et ses Pokémon.',
     fromEntity: {
       entityType: 'game',
       title: 'Pokémon Or',
@@ -1645,7 +1645,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 75,
     genre: ['Animation', 'Aventure', 'Jeunesse'],
     saga: 'Pokémon',
-    description: 'Sacha rencontre Sammy, dresseur du passé, et protège Celebi des chasseurs qui veulent exploiter le pouvoir temporel du Pokémon.',
+    description: 'Sacha rencontre le jeune dresseur Sammy, en réalité le professeur Chen en voyage dans le temps, et protège Celebi d\'un chasseur.',
     fromEntity: {
       entityType: 'game',
       title: 'Pokémon Cristal',
@@ -1664,7 +1664,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 72,
     genre: ['Animation', 'Aventure', 'Jeunesse'],
     saga: 'Pokémon',
-    description: 'Sacha et Misty protègent la cité flottante d\'Alto Mare des plans du duo d\'agents qui veulent capturer Latias et Latios.',
+    description: 'À Altomare, Sacha et Misty protègent la ville des voleurs Annie et Oak, qui cherchent à s\'emparer des Pokémon légendaires Latias et Latios.',
     fromEntity: {
       entityType: 'game',
       title: 'Pokémon Rubis',
@@ -1683,7 +1683,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 81,
     genre: ['Animation', 'Aventure', 'Jeunesse'],
     saga: 'Pokémon',
-    description: 'Sacha et Max réveillent Jirachi, Pokémon légendaire qui exauce les vœux, menacé par le plan de Butler de recréer Groudon.',
+    description: 'Max et Sacha éveillent Jirachi, Pokémon légendaire qui ne s\'ouvre qu\'une fois par millénaire, alors qu\'un chasseur de l\'espace le convoite.',
     fromEntity: {
       entityType: 'game',
       title: 'Pokémon Rubis',
@@ -1702,7 +1702,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 98,
     genre: ['Animation', 'Aventure', 'Jeunesse'],
     saga: 'Pokémon',
-    description: 'Deoxys, Pokémon extraterrestre, débarque à Rubis-sur-Mer et provoque des affrontements avec Rayquaza pendant que Sacha protège la ville.',
+    description: 'Deoxys, Pokémon extraterrestre, débarque à Rubis sur Alpha et provoque une bataille contre Rayquaza qui menace la ville.',
     fromEntity: {
       entityType: 'game',
       title: 'Pokémon Rubis',
@@ -1721,7 +1721,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 100,
     genre: ['Animation', 'Aventure', 'Jeunesse'],
     saga: 'Pokémon',
-    description: 'Sacha et Lucario partent à la recherche de Mew dans l\'arbre originel pour empêcher le chasseur de Pokémon de déclencher une catastrophe.',
+    description: 'Sacha et Lucario, réveillé après des siècles, partent retrouver Mew dans l\'Arbre de vie au cœur d\'une crise entre humains et Pokémon.',
     fromEntity: {
       entityType: 'game',
       title: 'Pokémon Émeraude',
@@ -1740,7 +1740,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 107,
     genre: ['Animation', 'Aventure', 'Jeunesse'],
     saga: 'Pokémon',
-    description: 'Sacha collabore avec le Pokémon Ranger Jack Walker pour protéger Manaphy et le temple sous-marin du pirate Phantom.',
+    description: 'Sacha, May et le Ranger Jack Walker protègent Manaphy, Pokémon légendaire des mers, poursuivi par le pirate Phantom.',
     fromEntity: {
       entityType: 'game',
       title: 'Pokémon Bleu',
@@ -1759,7 +1759,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 90,
     genre: ['Animation', 'Aventure', 'Jeunesse'],
     saga: 'Pokémon',
-    description: 'Darkrai est accusé à tort de provoquer des cauchemars à Albepierre tandis que Dialga et Palkia s\'affrontent dans une dimension parallèle.',
+    description: 'Darkrai est accusé d\'avoir plongé Alamos dans un cauchemar collectif, alors que Palkia et Dialga s\'affrontent au-dessus de la ville.',
     fromEntity: {
       entityType: 'game',
       title: 'Pokémon Diamant',
@@ -1778,7 +1778,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 96,
     genre: ['Animation', 'Aventure', 'Jeunesse'],
     saga: 'Pokémon',
-    description: 'Giratina traque Shaymin dans le Monde Distorsion pendant que Sacha tente d\'empêcher un conflit entre dimensions.',
+    description: 'Giratina traque Shaymin, Pokémon capable de purifier la pollution, tandis que Sacha est aspiré dans le Monde Distorsion.',
     fromEntity: {
       entityType: 'game',
       title: 'Pokémon Platine',
@@ -1797,7 +1797,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 94,
     genre: ['Animation', 'Aventure', 'Jeunesse'],
     saga: 'Pokémon',
-    description: 'Sacha voyage dans le passé pour empêcher Arceus, créateur du monde, de détruire la région de Michina par vengeance.',
+    description: 'Sacha voyage dans le passé pour empêcher Arceus, créateur du monde, de punir l\'humanité qui a trahi sa confiance.',
     fromEntity: {
       entityType: 'game',
       title: 'Pokémon Platine',
@@ -1816,7 +1816,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 95,
     genre: ['Animation', 'Aventure', 'Jeunesse'],
     saga: 'Pokémon',
-    description: 'Zoroark est contraint de créer des illusions massives à Crown City pendant que Sacha déjoue le complot du magnat Grings Kodai.',
+    description: 'Zoroark, Pokémon illusionsniste, débarque à Daun Town pour se venger de ceux qui ont enlevé son petit Zorua.',
     fromEntity: {
       entityType: 'game',
       title: 'Pokémon Noir',
@@ -1835,7 +1835,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 96,
     genre: ['Animation', 'Aventure', 'Jeunesse'],
     saga: 'Pokémon',
-    description: 'Sacha aide le Pokémon légendaire Victini à libérer la ville d\'Eindoak du joug du roi du passé et de Reshiram.',
+    description: 'Sacha découvre Ebenelle, où Victini est prisonnier d\'une barrière, tandis que Reshiram s\'éveille pour restaurer l\'équilibre.',
     fromEntity: {
       entityType: 'game',
       title: 'Pokémon Noir',
@@ -1854,7 +1854,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 96,
     genre: ['Animation', 'Aventure', 'Jeunesse'],
     saga: 'Pokémon',
-    description: 'Dans une version parallèle, Sacha libère Eindoak avec l\'aide de Victini et affronte le roi antique aux côtés de Zekrom.',
+    description: 'Dans la version parallèle d\'Ebenelle, Sacha et Victini affrontent le réveil de Zekrom, dragon légendaire de foudre noire.',
     fromEntity: {
       entityType: 'game',
       title: 'Pokémon Blanc',
@@ -1873,7 +1873,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 72,
     genre: ['Animation', 'Aventure', 'Jeunesse'],
     saga: 'Pokémon',
-    description: 'Keldeo, du trio des épées du courage, défie Kyurem pour prouver sa valeur et protéger ses amis des glaces dévastatrices.',
+    description: 'Keldeo, jeune épée du groupe du musée, défie Kyurem pour prouver sa valeur et protéger ses amis dresseurs.',
     fromEntity: {
       entityType: 'game',
       title: 'Pokémon Noir 2',
@@ -1892,7 +1892,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 72,
     genre: ['Animation', 'Aventure', 'Jeunesse'],
     saga: 'Pokémon',
-    description: 'Une armée de Genesect envahit New Tork et Mewtwo intervient pour protéger la ville d\'une destruction totale.',
+    description: 'Des Genesect ressuscités par la Team Plasma envahissent New Tork et Mewtwo intervient pour protéger la ville.',
     fromEntity: {
       entityType: 'game',
       title: 'Pokémon X',
@@ -1911,7 +1911,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 75,
     genre: ['Animation', 'Aventure', 'Jeunesse'],
     saga: 'Pokémon',
-    description: 'Diancie, princesse du Diamant, cherche Xerneas pour sauver le Royaume du Diamant menacé par Yveltal.',
+    description: 'Diancie, princesse du Diamant, cherche Xerneas pour retrouver son pouvoir et sauver le Royaume des Diamants.',
     fromEntity: {
       entityType: 'game',
       title: 'Pokémon X',
@@ -1930,7 +1930,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 79,
     genre: ['Animation', 'Aventure', 'Jeunesse'],
     saga: 'Pokémon',
-    description: 'Hoopa déchaîne par accident des Pokémon légendaires en colère en utilisant son anneau dimensionnel sans contrôle.',
+    description: 'Hoopa déchaîne des Pokémon légendaires à travers des anneaux dimensionnels, menaçant Dahara City et ses habitants.',
     fromEntity: {
       entityType: 'game',
       title: 'Pokémon Rubis Oméga',
@@ -1949,7 +1949,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 95,
     genre: ['Animation', 'Aventure', 'Jeunesse'],
     saga: 'Pokémon',
-    description: 'Volcanion, Pokémon légendaire, s\'allie à Sacha pour libérer la cité mécanique de Azoth des griffes du scientifique Alva.',
+    description: 'Volcanion, Pokémon légendaire, s\'allie à Sacha pour libérer Azoth City, cité mécanique contrôlée par un scientifique.',
     fromEntity: {
       entityType: 'game',
       title: 'Pokémon Soleil',
@@ -1968,7 +1968,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 97,
     genre: ['Animation', 'Aventure', 'Jeunesse'],
     saga: 'Pokémon',
-    description: 'Sacha rencontre le Pokémon légendaire Ho-Oh et participe à une quête pour retrouver le Pikachu qu\'il avait autrefois laissé partir.',
+    description: 'Sacha revit ses origines et rencontre Pikachu dans une histoire alternative où leur lien se forge lors d\'une quête légendaire.',
     fromEntity: {
       entityType: 'game',
       title: 'Pokémon Soleil',
@@ -1987,7 +1987,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 97,
     genre: ['Animation', 'Aventure', 'Jeunesse'],
     saga: 'Pokémon',
-    description: 'Sacha et ses amis protègent Lugia et les enfants de Fula City d\'une menace liée au passé du fondateur Wind.',
+    description: 'Sacha et Pikachu affrontent Liane, dresseuse aux ambitions destructrices, qui cherche à contrôler le pouvoir des légendaires.',
     fromEntity: {
       entityType: 'game',
       title: 'Pokémon Soleil',
@@ -2006,7 +2006,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 98,
     genre: ['Animation', 'Aventure', 'Jeunesse'],
     saga: 'Pokémon',
-    description: 'Remake du premier film : Mewtwo, clone de Mew, questionne son existence et défie les dresseurs lors d\'un tournoi fatal.',
+    description: 'Remake du premier film : Mewtwo, clone de Mew, questionne son existence et défie les dresseurs les plus puissants.',
     fromEntity: {
       entityType: 'game',
       title: 'Pokémon Bleu',
@@ -2025,7 +2025,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 99,
     genre: ['Animation', 'Aventure', 'Jeunesse'],
     saga: 'Pokémon',
-    description: 'Sacha découvre Coco, enfant élevé par Zarude, et protège la Forêt de Coco des expériences du Dr. Zed.',
+    description: 'Sacha rencontre Coco, enfant élevé par des Pokémon dans une jungle où Zarude protège son clan des intrus humains.',
     fromEntity: {
       entityType: 'game',
       title: 'Pokémon Épée',
@@ -2044,7 +2044,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 104,
     genre: ['Action', 'Fantastique', 'Jeunesse'],
     saga: 'Pokémon',
-    description: 'Tim Goodman s\'allie à un Pikachu détective amnésique pour résoudre le meurtre de son père dans une ville où humains et Pokémon cohabitent.',
+    description: 'Tim Goodman s\'allie à un Pikachu amnésique pour enquêter sur la mort de son père dans une Ryme City peuplée de Pokémon.',
     fromEntity: {
       entityType: 'game',
       title: 'Pokémon Bleu',
@@ -2063,7 +2063,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 30,
     genre: ['Animation', 'Action', 'Aventure'],
     saga: 'Yu-Gi-Oh!',
-    description: 'Yugi affronte l\'Esprit du Millénaire dans un duel décisif pour empêcher le retour du Roi des Égyptiens et sauver son grand-père.',
+    description: 'Yugi affronte l\'illusionniste Pegasus et le Pharaon dans un duel décisif pour sauver l\'âme du grand-père de Yugi.',
     fromEntity: {
       entityType: 'manga',
       title: 'Yu-Gi-Oh!',
@@ -2082,7 +2082,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 90,
     genre: ['Animation', 'Action', 'Aventure'],
     saga: 'Yu-Gi-Oh!',
-    description: 'Yugi et ses amis affrontent Anubis, dieu de l\'obscurité ressuscité, dans un duel où les monstres prennent vie dans le monde réel.',
+    description: 'Yugi et ses amis combattent Anubis, esprit antique réveillé dans une pyramide qui menace le monde des duellistes.',
     fromEntity: {
       entityType: 'manga',
       title: 'Yu-Gi-Oh!',
@@ -2101,7 +2101,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 50,
     genre: ['Animation', 'Action', 'Aventure'],
     saga: 'Yu-Gi-Oh!',
-    description: 'Yugi, Jaden et Yusei unissent leurs forces à travers le temps pour arrêter Paradox qui détruit les cartes légendaires du futur.',
+    description: 'Yugi, Jaden et Yusei unissent leurs forces à travers le temps pour arrêter Paradox, qui veut effacer le jeu de cartes.',
     fromEntity: {
       entityType: 'manga',
       title: 'Yu-Gi-Oh!',
@@ -2120,7 +2120,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 130,
     genre: ['Animation', 'Action', 'Aventure'],
     saga: 'Yu-Gi-Oh!',
-    description: 'Yugi affronte Aigami, détenteur du Cuboïde de lumière, dans un duel qui menace de remodeler la réalité et le royaume des ombres.',
+    description: 'Yugi affronte Aigami, détenteur du Quantum Cube, dans un duel où le Pharaon risque de disparaître définitivement.',
     fromEntity: {
       entityType: 'manga',
       title: 'Yu-Gi-Oh!',
@@ -2139,7 +2139,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 94,
     genre: ['Animation', 'Action'],
     saga: 'Street Fighter',
-    description: 'Ryu et Ken sont traqués par Shadaloo pendant que Chun-Li enquête sur le complot de Bison visant les plus grands combattants du monde.',
+    description: 'Ryu et Ken sont traqués par Bison, dictateur de Shadaloo, tandis que les fighters du monde entier convergent vers un affrontement final.',
     fromEntity: {
       entityType: 'game',
       title: 'Street Fighter / Fighting Street',
@@ -2158,7 +2158,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 100,
     genre: ['Animation', 'Action'],
     saga: 'Tekken',
-    description: 'L\'agent Anna Williams infiltre un lycée à Kyoto pour surveiller Jin Kazama, plongeant dans les rivalités du clan Mishima.',
+    description: 'Linda, agent infiltrée, s\'allie à l\'androïde Alisa pour enquêter entre le Mishima Zaibatsu et la G Corporation.',
     fromEntity: {
       entityType: 'game',
       title: 'Tekken',
@@ -2177,7 +2177,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 93,
     genre: ['Animation', 'Action', 'Aventure'],
     saga: 'Bleach',
-    description: 'Ichigo affronte les Blanks, âmes errantes, et la mystérieuse Senna dont l\'existence menace l\'équilibre entre les mondes.',
+    description: 'Ichigo affronte des Blanks et le shinigami Senna, liés à une menace qui efface peu à peu la ville de Karakura.',
     fromEntity: {
       entityType: 'manga',
       title: 'Bleach',
@@ -2196,7 +2196,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 95,
     genre: ['Animation', 'Action', 'Aventure'],
     saga: 'Bleach',
-    description: 'Le capitaine Tōshirō Hitsugaya est accusé de trahison après le vol du Ōin, artefact capable de perturber l\'espace-temps.',
+    description: 'Ichigo enquête sur le vol d\'un artefact sacré du Soul Society et affronte un capitaine renégat maîtrisant la glace.',
     fromEntity: {
       entityType: 'manga',
       title: 'Bleach',
@@ -2215,7 +2215,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 94,
     genre: ['Animation', 'Action', 'Aventure'],
     saga: 'Bleach',
-    description: 'Rukia est kidnappée et Ichigo perd ses pouvoirs de remplaçant alors que des ennemis menacent de réécrire l\'histoire de Soul Society.',
+    description: 'Ichigo perd ses pouvoirs et sa mémoire lorsque Rukia est kidnappée, et doit retrouver ses amis dans un Soul Society amnésique.',
     fromEntity: {
       entityType: 'manga',
       title: 'Bleach',
@@ -2234,7 +2234,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 94,
     genre: ['Animation', 'Action', 'Aventure'],
     saga: 'Bleach',
-    description: 'Ichigo plonge en Enfer pour sauver Yuzu et affronte les Sinners, condamnés à une existence éternelle de souffrance.',
+    description: 'Ichigo plonge dans l\'enfer pour sauver sa sœur Yuzu, confronté à un ancien shinigami prêt à tout pour s\'échapper.',
     fromEntity: {
       entityType: 'manga',
       title: 'Bleach',
@@ -2253,7 +2253,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 46,
     genre: ['Animation', 'Action', 'Aventure'],
     saga: 'Saint Seiya',
-    description: 'Seiya et les Chevaliers de Bronze protègent Saori des guerriers d\'Asgard qui convoitent la pomme d\'or d\'Idunn.',
+    description: 'Les chevaliers de Bronze protègent Athéna lors d\'un tournoi où la pomme d\'or de la discorde menace de déclencher une guerre entre dieux.',
     fromEntity: {
       entityType: 'manga',
       title: 'Saint Seiya',
@@ -2272,7 +2272,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 58,
     genre: ['Animation', 'Action', 'Aventure'],
     saga: 'Saint Seiya',
-    description: 'Les Chevaliers affrontent Abel, frère d\'Apollon ressuscité, qui prétend punir l\'humanité au nom des dieux de l\'Olympe.',
+    description: 'Seiya et ses compagnons affrontent les guerriers d\'Asgard, manipulés par un dieu nordique qui veut provoquer le Ragnarök.',
     fromEntity: {
       entityType: 'manga',
       title: 'Saint Seiya',
@@ -2291,7 +2291,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 45,
     genre: ['Animation', 'Action', 'Aventure'],
     saga: 'Saint Seiya',
-    description: 'Seiya et ses amis protègent la princesse Leda contre Médée et les guerriers fantômes du Sanctuaire corrompu.',
+    description: 'Les chevaliers de Bronze tentent d\'empêcher le réveil d\'une force destructrice scellée dans le passé d\'Asgard.',
     fromEntity: {
       entityType: 'manga',
       title: 'Saint Seiya',
@@ -2310,7 +2310,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 85,
     genre: ['Animation', 'Action', 'Aventure'],
     saga: 'Saint Seiya',
-    description: 'Après la bataille du Sanctuaire, les Chevaliers entament la guerre céleste contre les divinités qui gouvernent le destin humain.',
+    description: 'Seiya et les chevaliers entament l\'ascension vers les douze maisons célestes pour affronter les dieux de l\'Olympe.',
     fromEntity: {
       entityType: 'manga',
       title: 'Saint Seiya',
@@ -2329,7 +2329,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 93,
     genre: ['Animation', 'Action', 'Aventure'],
     saga: 'Saint Seiya',
-    description: 'Seiya et les Chevaliers de Bronze défendent Athéna contre le Grand Pape et les Chevaliers d\'Or du Sanctuaire.',
+    description: 'Seiya, jeune clochard recruté par Saori, doit remporter le tournoi galactique pour devenir chevalier de Bronze et protéger la réincarnation d\'Athéna.',
     fromEntity: {
       entityType: 'manga',
       title: 'Saint Seiya',
@@ -2349,7 +2349,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     genre: ['Animation', 'Action', 'Aventure'],
     saga: 'Yu Yu Hakusho',
     description:
-      "Yusuke et ses amis affrontent des démons liés à un ancien sceau d'or qui menace de libérer une puissance destructrice.",
+      "Yusuke enquête sur l'assassinat de deux détectives du monde des esprits, lié à un artefact scellé par leur maître Genkai.",
     fromEntity: {
       entityType: 'manga',
       title: 'Yu Yu Hakusho',
@@ -2368,7 +2368,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 93,
     genre: ['Animation', 'Action', 'Fantastique'],
     saga: 'Yu Yu Hakusho',
-    description: 'Yusuke découvre le royaume des démons et affronte Yomi dans une lutte pour le trône du monde des ombres.',
+    description: 'Yusuke découvre qu\'il est l\'héritier d\'un ancien dirigeant du monde des démons et affronte des prétendants à sa succession.',
     fromEntity: {
       entityType: 'manga',
       title: 'Yu Yu Hakusho',
@@ -2387,7 +2387,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 56,
     genre: ['Animation', 'Action', 'Aventure'],
     saga: 'Yu Yu Hakusho',
-    description: 'Deux histoires : Kuwabara affronte des yakuza possédés et les héros participent à un tournoi de six contre six dans le monde des esprits.',
+    description: 'Kuwabara affronte un rival du lycée, puis l\'équipe de Yusuke participe à un tournoi clandestin aux enjeux mortels.',
     fromEntity: {
       entityType: 'manga',
       title: 'Yu Yu Hakusho',
@@ -2406,7 +2406,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 94,
     genre: ['Animation', 'Policier', 'Mystère'],
     saga: 'Détective Conan',
-    description: 'Conan enquête sur une série de bombes placées dans un gratte-ciel où une partie de trésor est cachée par un criminel.',
+    description: 'Conan enquête sur une série de meurtres dans un gratte-ciel où une bombe à retardement menace des milliers de personnes.',
     fromEntity: {
       entityType: 'manga' as const,
       title: 'Détective Conan',
@@ -2425,7 +2425,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 99,
     genre: ['Animation', 'Policier', 'Mystère'],
     saga: 'Détective Conan',
-    description: 'Conan doit identifier un tireur qui vise des personnes selon leurs cartes à jouer avant la quatorzième victime.',
+    description: 'Conan doit identifier un tireur qui vise les joueurs de mah-jong dont les noms contiennent un numéro du jeu.',
     fromEntity: {
       entityType: 'manga' as const,
       title: 'Détective Conan',
@@ -2444,7 +2444,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 99,
     genre: ['Animation', 'Policier', 'Mystère'],
     saga: 'Détective Conan',
-    description: 'Conan poursuit Kaito Kid et déjoue le complot du mage des siècles qui menace la famille impériale russe.',
+    description: 'Conan affronte le magicien de l\'ère du siècle, Kid the Phantom Thief et un tueur en série lors d\'un gala à bord d\'un paquebot.',
     fromEntity: {
       entityType: 'manga' as const,
       title: 'Détective Conan',
@@ -2463,7 +2463,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 100,
     genre: ['Animation', 'Policier', 'Mystère'],
     saga: 'Détective Conan',
-    description: 'Conan enquête sur des snipers qui visent des victimes portant des lunettes, dont Ran est la prochaine cible.',
+    description: 'Conan enquête sur des attaques visant des personnalités dont les yeux ont été photographiés par un mystérieux agresseur.',
     fromEntity: {
       entityType: 'manga' as const,
       title: 'Détective Conan',
@@ -2482,7 +2482,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 100,
     genre: ['Animation', 'Policier', 'Mystère'],
     saga: 'Détective Conan',
-    description: 'Conan et ses amis sont piégés dans un parc aquatique où des bombes exploseront à minuit si le coupable n\'est pas arrêté.',
+    description: 'Une bombe placée dans Tokyo par un terroriste force Conan à résoudre une énigme avant qu\'elle n\'explose au cœur de la ville.',
     fromEntity: {
       entityType: 'manga' as const,
       title: 'Détective Conan',
@@ -2501,7 +2501,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 107,
     genre: ['Animation', 'Policier', 'Mystère'],
     saga: 'Détective Conan',
-    description: 'Conan est piégé dans un jeu de réalité virtuelle où Sherlock Holmes doit résoudre une affaire de meurtres en série.',
+    description: 'Conan est piégé dans un jeu de réalité virtuelle où Sherlock Holmes doit démasquer Jack l\'Éventreur dans Londres victorien.',
     fromEntity: {
       entityType: 'manga' as const,
       title: 'Détective Conan',
@@ -2520,7 +2520,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 109,
     genre: ['Animation', 'Policier', 'Mystère'],
     saga: 'Détective Conan',
-    description: 'À Kyoto, Conan enquête sur des meurtres liés à un trésor caché pendant que Heiji Hattori mène sa propre enquête.',
+    description: 'Conan enquête sur des meurtres à Kyoto liés à une carte du trésor des shoguns et croise Heiji Hattori.',
     fromEntity: {
       entityType: 'manga' as const,
       title: 'Détective Conan',
@@ -2539,7 +2539,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 108,
     genre: ['Animation', 'Policier', 'Mystère'],
     saga: 'Détective Conan',
-    description: 'Conan affronte le magicien de l\'air qui vole un joyau légendaire lors d\'un vol entre Tokyo et Osaka.',
+    description: 'Conan affronte le magicien de l\'ère du ciel argenté, criminel qui vole des avions et défie la police internationale.',
     fromEntity: {
       entityType: 'manga' as const,
       title: 'Détective Conan',
@@ -2558,7 +2558,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 109,
     genre: ['Animation', 'Policier', 'Mystère'],
     saga: 'Détective Conan',
-    description: 'Conan enquête sur des attaques contre un paquebot de luxe où un complot vise un trésor englouti.',
+    description: 'Sur une plateforme pétrolière, Conan déjoue un complot visant à provoquer une catastrophe écologique en mer du Japon.',
     fromEntity: {
       entityType: 'manga' as const,
       title: 'Détective Conan',
@@ -2577,7 +2577,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 111,
     genre: ['Animation', 'Policier', 'Mystère'],
     saga: 'Détective Conan',
-    description: 'Conan et les plus grands détectives du Japon sont invités sur une île où un tueur les élimine un par un.',
+    description: 'Conan est convié sur une île artificielle où les plus grands détectives du monde sont piégés et éliminés un à un.',
     fromEntity: {
       entityType: 'manga' as const,
       title: 'Détective Conan',
@@ -2596,7 +2596,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 107,
     genre: ['Animation', 'Policier', 'Mystère'],
     saga: 'Détective Conan',
-    description: 'Conan enquête sur une malédiction autour d\'un trésor pirate retrouvé au large de l\'île de Kouzou.',
+    description: 'Conan enquête sur des meurtres à bord d\'un paquebot de luxe où une légende de pirate et un trésor englouti refont surface.',
     fromEntity: {
       entityType: 'manga' as const,
       title: 'Détective Conan',
@@ -2615,7 +2615,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 115,
     genre: ['Animation', 'Policier', 'Mystère'],
     saga: 'Détective Conan',
-    description: 'Conan tente d\'empêcher un sniper de tirer depuis le sommet du nouveau gratte-ciel de Tokyo lors d\'une inauguration.',
+    description: 'Conan doit empêcher des terroristes d\'utiliser un gratte-ciel de Tôkyo comme rampe de lancement pour une attaque aérienne.',
     fromEntity: {
       entityType: 'manga' as const,
       title: 'Détective Conan',
@@ -2634,7 +2634,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 111,
     genre: ['Animation', 'Policier', 'Mystère'],
     saga: 'Détective Conan',
-    description: 'Conan enquête sur des attaques contre la police de Tokyo liées à un ancien dossier non résolu.',
+    description: 'Conan enquête sur des attaques visant les dirigeants de la police japonaise, orchestrées par un sniper surnommé le chasseur de jais.',
     fromEntity: {
       entityType: 'manga' as const,
       title: 'Détective Conan',
@@ -2653,7 +2653,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 102,
     genre: ['Animation', 'Policier', 'Mystère'],
     saga: 'Détective Conan',
-    description: 'Conan enquête sur un dirigeable où des passagers disparaissent mystérieusement lors d\'un vol au-dessus du Japon.',
+    description: 'Conan et ses amis montent à bord du Bell Tree Express où un meurtre est lié à l\'histoire d\'un dirigeable disparu.',
     fromEntity: {
       entityType: 'manga' as const,
       title: 'Détective Conan',
@@ -2672,7 +2672,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 109,
     genre: ['Animation', 'Policier', 'Mystère'],
     saga: 'Détective Conan',
-    description: 'Conan enquête sur une explosion au stade de domo de Hokkaido visant à perturber un match de baseball crucial.',
+    description: 'Conan enquête sur une série d\'explosions programmées à quinze minutes d\'intervalle lors d\'un match de rugby au stade national.',
     fromEntity: {
       entityType: 'manga' as const,
       title: 'Détective Conan',
@@ -2691,7 +2691,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 110,
     genre: ['Animation', 'Policier', 'Mystère'],
     saga: 'Détective Conan',
-    description: 'Conan enquête sur des attaques contre des joueurs de baseball et découvre un lien avec un ancien scandale sportif.',
+    description: 'Conan enquête sur des attaques visant les joueurs de l\'équipe de rugby japonaise à l\'approche d\'un match décisif.',
     fromEntity: {
       entityType: 'manga' as const,
       title: 'Détective Conan',
@@ -2710,7 +2710,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 110,
     genre: ['Animation', 'Policier', 'Mystère'],
     saga: 'Détective Conan',
-    description: 'Conan, Kogoro et un détective privé enquêtent sur des meurtres à bord d\'un paquebot en mer du Japon.',
+    description: 'Conan croise le détective privé Kogoro sur une île paradisiaque où un meurtre est lié à une légende de trésor sous-marin.',
     fromEntity: {
       entityType: 'manga' as const,
       title: 'Détective Conan',
@@ -2729,7 +2729,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 110,
     genre: ['Animation', 'Policier', 'Mystère'],
     saga: 'Détective Conan',
-    description: 'Conan enquête sur des snipers qui visent depuis un bâtiment en construction avec une lunette de précision redoutable.',
+    description: 'Conan affronte un sniper capable de tirer à travers des espaces pliés, lors d\'un événement public à Tokyo.',
     fromEntity: {
       entityType: 'manga' as const,
       title: 'Détective Conan',
@@ -2748,7 +2748,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 112,
     genre: ['Animation', 'Policier', 'Mystère'],
     saga: 'Détective Conan',
-    description: 'Conan enquête sur un incendie criminel dans un champ de tournesols lié à un trésor caché par des samouraïs.',
+    description: 'Conan enquête sur un incendie criminel dans un champ de tournesols, lié à une vengeance vieille de plusieurs décennies.',
     fromEntity: {
       entityType: 'manga' as const,
       title: 'Détective Conan',
@@ -2768,7 +2768,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 112,
     genre: ['Animation', 'Policier', 'Mystère'],
     saga: 'Détective Conan',
-    description: 'Conan enquête sur des attaques contre des agents de police infiltrés dans l\'organisation criminelle la plus dangereuse.',
+    description: 'Conan est plongé dans un sommeil artificiel où il revit ses pires peurs pour démasquer un criminel de la pègre japonaise.',
     fromEntity: {
       entityType: 'manga' as const,
       title: 'Détective Conan',
@@ -2787,7 +2787,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 112,
     genre: ['Animation', 'Policier', 'Mystère'],
     saga: 'Détective Conan',
-    description: 'Conan enquête sur une série de meurtres à Kyoto liés à un amour non consommé et à la famille Akamiya.',
+    description: 'Conan enquête sur des meurtres à Kyoto liés à une ancienne lettre d\'amour et à la légende des shinsengumi.',
     fromEntity: {
       entityType: 'manga' as const,
       title: 'Détective Conan',
@@ -2806,7 +2806,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 111,
     genre: ['Animation', 'Policier', 'Mystère'],
     saga: 'Détective Conan',
-    description: 'Conan enquête sur des attaques terroristes à Tokyo pendant que l\'agent Amuro traque un complot impliquant la sécurité nationale.',
+    description: 'Conan enquête sur une conspiration impliquant la Public Security Bureau autour d\'une application de messagerie et d\'un attentat.',
     fromEntity: {
       entityType: 'manga' as const,
       title: 'Détective Conan',
@@ -2825,7 +2825,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 110,
     genre: ['Animation', 'Policier', 'Mystère'],
     saga: 'Détective Conan',
-    description: 'Conan enquête sur le vol d\'une pierre précieuse lors d\'un match de karaté où le champion est la prochaine cible.',
+    description: 'Conan enquête sur le vol du poing de saphir bleu, joyau légendaire, lors d\'un événement à Singapour.',
     fromEntity: {
       entityType: 'manga' as const,
       title: 'Détective Conan',
@@ -2844,7 +2844,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 111,
     genre: ['Animation', 'Policier', 'Mystère'],
     saga: 'Détective Conan',
-    description: 'Conan enquête sur des attaques lors du festival de Wimbledon liées à une balle de tennis marquée d\'un symbole mystérieux.',
+    description: 'Conan enquête sur des attaques visant les invités d\'un gala où la balle écarlate, relique impériale, est exposée.',
     fromEntity: {
       entityType: 'manga' as const,
       title: 'Détective Conan',
@@ -2863,7 +2863,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 111,
     genre: ['Animation', 'Policier', 'Mystère'],
     saga: 'Détective Conan',
-    description: 'Conan enquête sur des meurtres à Shibuya pendant Halloween impliquant un mariage et un passé criminel oublié.',
+    description: 'Conan enquête sur des meurtres à Shibuya lors d\'Halloween, où Ran se retrouve au centre d\'un complot visant sa famille.',
     fromEntity: {
       entityType: 'manga' as const,
       title: 'Détective Conan',
@@ -2882,7 +2882,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 110,
     genre: ['Animation', 'Policier', 'Mystère'],
     saga: 'Détective Conan',
-    description: 'Conan enquête sur des sabotages à bord d\'un sous-marin expérimental lors d\'une démonstration navale secrète.',
+    description: 'Conan enquête sur un meurtre à bord d\'un sous-marin de la Force maritime d\'autodéfense lors d\'une démonstration publique.',
     fromEntity: {
       entityType: 'manga' as const,
       title: 'Détective Conan',
@@ -2901,7 +2901,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 111,
     genre: ['Animation', 'Policier', 'Mystère'],
     saga: 'Détective Conan',
-    description: 'Conan enquête sur des vols de trésors historiques à Kobe liés à un pentagramme et à la légende d\'un samouraï.',
+    description: 'Conan enquête sur des vols d\'œuvres d\'art à Kobe, où Kid the Phantom Thief et un tueur en série s\'affrontent autour d\'un pentagramme.',
     fromEntity: {
       entityType: 'manga' as const,
       title: 'Détective Conan',
@@ -2920,7 +2920,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 110,
     genre: ['Animation', 'Policier', 'Mystère'],
     saga: 'Détective Conan',
-    description: 'Conan enquête sur des attaques visant des personnes aux yeux de couleurs différentes, liées à un vieux dossier.',
+    description: 'Conan enquête sur des attaques visant des personnalités dont les yeux ont une particularité génétique rare.',
     fromEntity: {
       entityType: 'manga' as const,
       title: 'Détective Conan',
@@ -2939,7 +2939,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 100,
     genre: ['Animation', 'Action', 'Aventure'],
     saga: 'Lupin III',
-    description: 'Lupin et ses complices cherchent le trésor de Babylone en Amérique latine, traqués par le mystérieux Nazarov.',
+    description: 'Lupin et ses complices cherchent le trésor de Babylone à New York, traqués par le FBI et une mystérieuse organisation.',
     fromEntity: {
       entityType: 'manga' as const,
       title: 'Lupin III',
@@ -2958,7 +2958,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 100,
     genre: ['Animation', 'Action', 'Policier'],
     saga: 'Lupin III',
-    description: 'Lupin tente de voler le manuscrit de Nostradamus pendant que la mafia brésilienne et la police le traquent.',
+    description: 'Lupin vole le manuscrit de Nostradamus au Brésil, déclenchant la convoitise d\'une secte et d\'un dictateur sud-américain.',
     fromEntity: {
       entityType: 'manga' as const,
       title: 'Lupin III',
@@ -2977,7 +2977,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 97,
     genre: ['Animation', 'Action'],
     saga: 'Lupin III',
-    description: 'Lupin est déclaré mort et son complice Zenigata enquête tandis qu\'un clone du célèbre voleur semble agir à sa place.',
+    description: 'Lupin est accusé de trahison et doit prouver son innocence en déjouant le complot de l\'organisation Mafia et de Zenigata.',
     fromEntity: {
       entityType: 'manga' as const,
       title: 'Lupin III',
@@ -2996,7 +2996,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 91,
     genre: ['Animation', 'Action', 'Aventure'],
     saga: 'Lupin III',
-    description: 'Flashback sur la première rencontre entre Lupin, Jigen, Goemon et Fujiko lors d\'un vol de lingots d\'or légendaire.',
+    description: 'Flashback sur la première rencontre entre Lupin, Jigen, Goemon et Fujiko, lors d\'un vol de lingots d\'or au casino.',
     fromEntity: {
       entityType: 'manga' as const,
       title: 'Lupin III',
@@ -3015,7 +3015,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 106,
     genre: ['Animation', 'Action', 'Aventure'],
     saga: 'Lupin III',
-    description: 'Lupin s\'introduit dans un musée allemand pour voler le registre des origines de Hitler, traqué par la police et une organisation secrète.',
+    description: 'Lupin et la bande s\'introduisent dans une exposition parisienne pour voler le bristol bleu, artefact convoité par un régime nazi ressuscité.',
     fromEntity: {
       entityType: 'manga' as const,
       title: 'Lupin III',
@@ -3034,7 +3034,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 105,
     genre: ['Animation', 'Policier', 'Mystère'],
     saga: 'Détective Conan',
-    description: 'Lupin vole une joyau légendaire pendant que Conan enquête sur une affaire qui mêle les deux célèbres voleurs.',
+    description: 'Lupin vole une joyau impériale et Conan doit l\'arrêter alors qu\'un complot impliquant les deux héros menace Tokyo.',
     fromEntity: {
       entityType: 'manga' as const,
       title: 'Détective Conan',
@@ -3053,7 +3053,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 110,
     genre: ['Animation', 'Policier', 'Mystère'],
     saga: 'Détective Conan',
-    description: 'Conan enquête sur des accidents mortels sur une autoroute où une figure angélique semble guider les victimes vers la mort.',
+    description: 'Conan enquête sur des accidents mortels sur une autoroute, liés à une organisation criminelle et à un témoin clé.',
     fromEntity: {
       entityType: 'manga' as const,
       title: 'Détective Conan',
@@ -3077,7 +3077,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 122,
     genre: ['Animation', 'Aventure', 'Fantastique'],
     saga: '',
-    description: 'Suzume ferme des portes surnaturelles qui libèrent des catastrophes à travers le Japon aux côtés de Souta, jeune homme maudit.',
+    description: 'Suzume, lycéenne, ouvre des portes vers un monde de catastrophes avec un jeune garçon et tente d\'empêcher un cataclysme national.',
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
@@ -3097,7 +3097,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 114,
     genre: ['Animation', 'Romance', 'Drame', 'Fantastique'],
     saga: '',
-    description: 'Hodaka, lycéen fugueur, tombe amoureux de Hina, fille capable de faire briller le soleil dans un Tokyo sous les eaux.',
+    description: 'Takaki et Akari, amis d\'enfance séparés par des déménagements, tentent de préserver leur lien par des lettres et des rendez-vous manqués.',
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
@@ -3117,7 +3117,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 126,
     genre: ['Animation', 'Drame', 'Biographie', 'Guerre'],
     saga: '',
-    description: 'Jiro Horikoshi, ingénieur passionné, conçoit les avions de chasse Mitsubishi pendant qu\'il aime Naoko dans le Japon d\'avant-guerre.',
+    description: 'Jiro Horikoshi, ingénieur passionné d\'aviation, conçoit des chasseurs Mitsubishi pendant la montée du militarisme japonais.',
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
@@ -3137,7 +3137,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     length: 103,
     genre: ['Animation', 'Drame', 'Mystère'],
     saga: '',
-    description: 'Anna, orpheline, découvre une amie étrange, Marnie, dans une demeure au bord de la mer qui cache un secret familial.',
+    description: 'Anna, orpheline solitaire, découvre une amie mystérieuse, Marnie, dans une villa au bord de la mer et dévoile le secret de sa famille.',
     fromEntity: {
       entityType: 'book',
       title: 'When Marnie Was There',

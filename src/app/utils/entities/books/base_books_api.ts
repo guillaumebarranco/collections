@@ -2144,7 +2144,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: "Martyrs - Livre 2",
     author: "Oliver Peru",
-    coverUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw5SsXxuEN5vS-MX2RxyWPfZ4qWROzs0XxdF7tE7QfkA&s=10",
+    coverUrl: "/books_pictures/6f0a28b7e9f3.jpg",
     pages: 638,
     genre: [],
     saga: "Martyrs",
