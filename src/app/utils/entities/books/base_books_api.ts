@@ -2140,4 +2140,19 @@ export const baseBooksApi: BaseBook[] = [
     countryOrigin: "France",
     selectDisplayOrder: 0,
   },
+
+  {
+    title: "Martyrs - Livre 2",
+    author: "Oliver Peru",
+    coverUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw5SsXxuEN5vS-MX2RxyWPfZ4qWROzs0XxdF7tE7QfkA&s=10",
+    pages: 638,
+    genre: [],
+    saga: "Martyrs",
+    sagaOrder: 2,
+    sagaFinished: true,
+    releaseDate: "2014-08-27",
+    description: "",
+    countryOrigin: "France",
+    selectDisplayOrder: 0,
+  },
 ];

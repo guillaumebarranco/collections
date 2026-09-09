@@ -2105,4 +2105,21 @@ export const kevinBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: "Être pris de court par l'intrigue, voilà longtemps que ça ne m'était pas arrivé. Pourtant, à y réfléchir, tout était si évident... Au delà d'une écriture très agréable et d'une édition magnifique (les quelques illustrations valent le coup) ce livre réuni mes ingrédients préférés : des personnages intéressants et maîtrisés, des enjeux de grande échelle à la fois politique et militaires. Pourtant, sur toute la lecture le livre m'a laissé sur ma faim : intéressant mais pas transcendant. Et tout change sur le dernier chapitre. C'est ce que j'aime, rien de plus à dire. C'est fou que je l'ai pas vu venir quand même...",
   },
+
+  {
+    title: "Martyrs - Livre 2",
+    author: "Oliver Peru",
+    firstReadDate: "2026-09-08",
+    lastReadDate: "2026-09-08",
+    otherReadDates: [],
+    rating: 4,
+    reading: false,
+    readTimes: 1,
+    owned: true,
+    borrowed: "",
+    loaned: "",
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: "Dans la lignée du premier tome, on suit des personnages et une intrigue bien menés. Plusieurs chapitres sont intéressants mais la relation entre Irmine et Kassis me pose problème : elle est centrale et pourtant elle manque cruellement de développement et de cohérence. Malgré tout, les autres aspects du livre sont toujours cools à lire. ",
+  },
 ];
