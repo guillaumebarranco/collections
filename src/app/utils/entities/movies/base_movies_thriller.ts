@@ -3213,7 +3213,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Vanessa Redgrave' },
     ],
     coverUrl:
-      'https://fr.web.img3.acsta.net/pictures/18/04/10/15/20/4510957.jpg',
+      '/movies_pictures/63ec34285b5f.jpg',
     releaseDate: '1974-11-24',
     length: 128,
     genre: ['Policier', 'Mystère'],
