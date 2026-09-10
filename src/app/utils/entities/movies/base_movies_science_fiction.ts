@@ -20,8 +20,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
       "Dans une ville futuriste coupée en deux, le fils du maître découvre l'enfer des ouvriers et un robot à l'image de Maria.",
     fromEntity: {
       entityType: 'book',
-      title: "Metropolis",
-      secondEntityKey: "Thea von Harbou",
+      title: 'Metropolis',
+      secondEntityKey: 'Thea von Harbou',
     },
     countryOrigin: ['Allemagne'],
     selectDisplayOrder: 0,
@@ -84,7 +84,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 85,
     genre: ['Science Fiction', 'Thriller'],
     saga: 'La guerre des mondes',
-    description: 'Une invasion martienne dévaste la Terre avec des machines tripodes, adaptée du roman de H.G. Wells.',
+    description:
+      'Une invasion martienne dévaste la Terre avec des machines tripodes, adaptée du roman de H.G. Wells.',
     fromEntity: {
       entityType: 'book' as const,
       title: 'La guerre des mondes',
@@ -125,7 +126,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 117,
     genre: ['Science Fiction'],
     saga: 'La guerre des mondes',
-    description: 'Une famille fuit l\'invasion extraterrestre qui dévaste la planète avec des machines de guerre impitoyables.',
+    description:
+      "Une famille fuit l'invasion extraterrestre qui dévaste la planète avec des machines de guerre impitoyables.",
     fromEntity: {
       entityType: 'book',
       title: 'La guerre des mondes',
@@ -144,7 +146,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 47,
     genre: ['Science Fiction', 'Documentaire'],
     saga: 'La guerre des mondes',
-    description: 'Documentaire reconstitué racontant la Première Guerre mondiale avec une narration martienne fictive de H.G. Wells.',
+    description:
+      'Documentaire reconstitué racontant la Première Guerre mondiale avec une narration martienne fictive de H.G. Wells.',
     fromEntity: {
       entityType: 'book' as const,
       title: 'La guerre des mondes',
@@ -400,7 +403,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 88,
     genre: ['Science Fiction', 'Dystopie', 'Drame'],
     saga: '',
-    description: 'Dans une cité souterraine totalitaire, un homme cesse de prendre ses médicaments émotions-suppressives et tente de s\'évader.',
+    description:
+      "Dans une cité souterraine totalitaire, un homme cesse de prendre ses médicaments émotions-suppressives et tente de s'évader.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -421,7 +425,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 136,
     genre: ['Science Fiction', 'Drame'],
     saga: '',
-    description: 'Dans un futur dystopique, un jeune delinquants violent est soumis à un traitement de aversion pour le crime.',
+    description:
+      'Dans un futur dystopique, un jeune delinquants violent est soumis à un traitement de aversion pour le crime.',
     fromEntity: {
       entityType: 'book',
       title: "L'Orange mécanique",
@@ -448,7 +453,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 167,
     genre: ['Science Fiction', 'Drame'],
     saga: '',
-    description: 'Un psychologue est envoyé sur une station orbitale au-dessus de la planète Solaris, qui matérialise les obsessions des cosmonautes.',
+    description:
+      'Un psychologue est envoyé sur une station orbitale au-dessus de la planète Solaris, qui matérialise les obsessions des cosmonautes.',
     fromEntity: null,
     countryOrigin: ['Russie'],
     selectDisplayOrder: 0,
@@ -464,8 +470,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
       { name: 'Chuck Connors' },
       { name: 'Joseph Cotten' },
     ],
-    coverUrl:
-      '/movies_pictures/832aa1e4c4ba.jpg',
+    coverUrl: '/movies_pictures/832aa1e4c4ba.jpg',
     releaseDate: '1973-04-19',
     length: 97,
     genre: ['Science Fiction', 'Dystopie', 'Policier'],
@@ -517,8 +522,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
       { name: 'Roscoe Lee Browne' },
       { name: 'Peter Ustinov' },
     ],
-    coverUrl:
-      '/movies_pictures/903e0e4853fa.jpg',
+    coverUrl: '/movies_pictures/903e0e4853fa.jpg',
     releaseDate: '1976-06-23',
     length: 118,
     genre: ['Science Fiction', 'Dystopie', 'Aventure'],
@@ -551,7 +555,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 137,
     genre: ['Science Fiction', 'Drame'],
     saga: '',
-    description: 'Un ouvrier du Midwest devient obsédé par des signes extraterrestres après une rencontre nocturne.',
+    description:
+      'Un ouvrier du Midwest devient obsédé par des signes extraterrestres après une rencontre nocturne.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -577,7 +582,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 162,
     genre: ['Science Fiction', 'Drame'],
     saga: '',
-    description: 'Un guide mène deux hommes dans la Zone, un territoire interdit où les désirs les plus profonds peuvent se réaliser.',
+    description:
+      'Un guide mène deux hommes dans la Zone, un territoire interdit où les désirs les plus profonds peuvent se réaliser.',
     fromEntity: null,
     countryOrigin: ['Russie'],
     selectDisplayOrder: 0,
@@ -666,7 +672,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 103,
     genre: ['Science Fiction', 'Horreur', 'Thriller'],
     saga: '',
-    description: 'Des individus dotés de pouvoirs télépathiques et télékinétiques sont utilisés comme armes par des corporations.',
+    description:
+      'Des individus dotés de pouvoirs télépathiques et télékinétiques sont utilisés comme armes par des corporations.',
     fromEntity: null,
     countryOrigin: ['Canada'],
     selectDisplayOrder: 0,
@@ -704,7 +711,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 115,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Un extraterrestre abandonné sur Terre se lie d\'amitié avec un jeune garçon et cherche à rentrer chez lui.',
+    description:
+      "Un extraterrestre abandonné sur Terre se lie d'amitié avec un jeune garçon et cherche à rentrer chez lui.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -730,7 +738,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 96,
     genre: ['Science Fiction', 'Action'],
     saga: '',
-    description: 'Un programmeur est numérisé à l\'intérieur d\'un mainframe informatique où il doit jouer des jeux mortels.',
+    description:
+      "Un programmeur est numérisé à l'intérieur d'un mainframe informatique où il doit jouer des jeux mortels.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -767,7 +776,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 117,
     genre: ['Science Fiction', 'Thriller'],
     saga: '',
-    description: 'Los Angeles, 2019 : un chasseur de réplicants traque des androïdes en fuite qui cherchent à prolonger leur existence.',
+    description:
+      'Los Angeles, 2019 : un chasseur de réplicants traque des androïdes en fuite qui cherchent à prolonger leur existence.',
     fromEntity: {
       entityType: 'book',
       title: 'Les Androïdes rêvent-ils de moutons électriques ?',
@@ -808,7 +818,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 87,
     genre: ['Science Fiction', 'Horreur', 'Thriller'],
     saga: '',
-    description: 'Un propriétaire de chaîne de télévision est exposé à des signaux qui provoquent des hallucinations et des mutations corporelles.',
+    description:
+      'Un propriétaire de chaîne de télévision est exposé à des signaux qui provoquent des hallucinations et des mutations corporelles.',
     fromEntity: null,
     countryOrigin: ['Canada'],
     selectDisplayOrder: 0,
@@ -824,8 +835,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
       { name: 'Olivia Barash' },
       { name: 'Sy Richardson' },
     ],
-    coverUrl:
-      '/movies_pictures/f2943ce15f85.jpg',
+    coverUrl: '/movies_pictures/f2943ce15f85.jpg',
     releaseDate: '1984-03-02',
     length: 92,
     genre: ['Science Fiction', 'Comédie'],
@@ -920,7 +930,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 137,
     genre: ['Science Fiction', 'Aventure', 'Drame'],
     saga: '',
-    description: 'Sur la planète Arrakis, source d\'une épice vitale, un jeune noble mène la rébellion des Fremen contre l\'Empire.',
+    description:
+      "Sur la planète Arrakis, source d'une épice vitale, un jeune noble mène la rébellion des Fremen contre l'Empire.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1028,7 +1039,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 96,
     genre: ['Science Fiction', 'Horreur', 'Drame'],
     saga: '',
-    description: 'Un scientifique fusionne accidentellement son ADN avec celui d\'une mouche, se transformant progressivement en créature monstrueuse.',
+    description:
+      "Un scientifique fusionne accidentellement son ADN avec celui d'une mouche, se transformant progressivement en créature monstrueuse.",
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Canada'],
     selectDisplayOrder: 0,
@@ -1049,7 +1061,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 120,
     genre: ['Science Fiction', 'Aventure'],
     saga: '',
-    description: 'Des nains réduits embarquent dans le corps d\'un homme pour le sauver d\'un caillot, dans un voyage microscopique.',
+    description:
+      "Des nains réduits embarquent dans le corps d'un homme pour le sauver d'un caillot, dans un voyage microscopique.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1065,8 +1078,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
       { name: 'Kevin McCarthy' },
       { name: 'Fiona Lewis' },
     ],
-    coverUrl:
-      '/movies_pictures/00ba47286218.webp',
+    coverUrl: '/movies_pictures/00ba47286218.webp',
     releaseDate: '1987-07-01',
     length: 120,
     genre: ['Science Fiction', 'Comédie', 'Aventure'],
@@ -1088,8 +1100,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
       { name: 'Clarence Felder' },
       { name: 'Clu Gulager' },
     ],
-    coverUrl:
-      '/movies_pictures/9d4ee695472c.jpg',
+    coverUrl: '/movies_pictures/9d4ee695472c.jpg',
     releaseDate: '1987-10-30',
     length: 96,
     genre: ['Science Fiction', 'Action', 'Policier'],
@@ -1132,7 +1143,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 101,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Dans un futur dystopique, un homme est forcé de participer à un jeu télévisé mortel où il est traqué par des tueurs.',
+    description:
+      'Dans un futur dystopique, un homme est forcé de participer à un jeu télévisé mortel où il est traqué par des tueurs.',
     fromEntity: {
       entityType: 'book',
       title: 'Running man',
@@ -1173,7 +1185,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 94,
     genre: ['Science Fiction', 'Action', 'Thriller'],
     saga: '',
-    description: 'Un vagabond découvre des lunettes spéciales révélant que les élites sont des extraterrestres contrôlant l\'humanité par la propagande.',
+    description:
+      "Un vagabond découvre des lunettes spéciales révélant que les élites sont des extraterrestres contrôlant l'humanité par la propagande.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1189,8 +1202,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
       { name: 'Leo Burmester' },
       { name: 'Todd Graff' },
     ],
-    coverUrl:
-      '/movies_pictures/de6252680779.jpg',
+    coverUrl: '/movies_pictures/de6252680779.jpg',
     releaseDate: '1989-08-09',
     length: 140,
     genre: ['Science Fiction', 'Aventure', 'Thriller'],
@@ -1233,11 +1245,12 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 113,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Un ouvrier terrien achète des souvenirs martiens factices et découvre qu\'il est peut-être un agent double.',
+    description:
+      "Un ouvrier terrien achète des souvenirs martiens factices et découvre qu'il est peut-être un agent double.",
     fromEntity: {
       entityType: 'book',
-      title: "We Can Remember It for You Wholesale",
-      secondEntityKey: "Philip K. Dick",
+      title: 'We Can Remember It for You Wholesale',
+      secondEntityKey: 'Philip K. Dick',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1253,8 +1266,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
       { name: 'Viveca Lindfors' },
       { name: 'Alexis Cruz' },
     ],
-    coverUrl:
-      '/movies_pictures/28a8287aaf38.jpg',
+    coverUrl: '/movies_pictures/28a8287aaf38.jpg',
     releaseDate: '1994-10-28',
     length: 121,
     genre: ['Science Fiction', 'Aventure', 'Action'],
@@ -1282,7 +1294,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     genre: ['Science Fiction', 'Action', 'Thriller'],
     saga: '',
     description:
-      'Un coursier possède des données corporées dans son cerveau et doit les livrer avant qu\'elles ne le tuent.',
+      "Un coursier possède des données corporées dans son cerveau et doit les livrer avant qu'elles ne le tuent.",
     fromEntity: {
       entityType: 'book',
       title: 'Johnny Mnemonic',
@@ -1323,7 +1335,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 108,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Une journaliste enquête sur une créature hybride humain-requin créée par des expériences militaires.',
+    description:
+      'Une journaliste enquête sur une créature hybride humain-requin créée par des expériences militaires.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1345,7 +1358,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     genre: ['Science Fiction', 'Thriller', 'Action'],
     saga: '',
     description:
-      "À Los Angeles en 1999, un dealer de souvenirs enregistrés est mêlé à un complot politique et à un meurtre.",
+      'À Los Angeles en 1999, un dealer de souvenirs enregistrés est mêlé à un complot politique et à un meurtre.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1368,7 +1381,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 129,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Un prisonnier est envoyé dans le passé pour identifier le virus qui a décimé l\'humanité, mais le temps se complique.',
+    description:
+      "Un prisonnier est envoyé dans le passé pour identifier le virus qui a décimé l'humanité, mais le temps se complique.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -1390,7 +1404,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     genre: ['Science Fiction', 'Action', 'Aventure'],
     saga: 'Star Trek',
     description:
-      'L\'équipage de l\'Enterprise voyage dans le passé pour empêcher les Borgs d\'empêcher le premier vol warp de l\'humanité.',
+      "L'équipage de l'Enterprise voyage dans le passé pour empêcher les Borgs d'empêcher le premier vol warp de l'humanité.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1427,7 +1441,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 106,
     genre: ['Science Fiction', 'Comédie'],
     saga: '',
-    description: 'Des Martiens débarquent sur Terre dans une comédie parodique où le chaos et l\'absurde s\'accumulent.',
+    description:
+      "Des Martiens débarquent sur Terre dans une comédie parodique où le chaos et l'absurde s'accumulent.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -1464,7 +1479,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 126,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Un taxi corse et une femme venue de l\'espace doivent réunir les quatre éléments pour sauver la Terre d\'une destruction totale.',
+    description:
+      "Un taxi corse et une femme venue de l'espace doivent réunir les quatre éléments pour sauver la Terre d'une destruction totale.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
@@ -1513,7 +1529,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 96,
     genre: ['Science Fiction', 'Horreur'],
     saga: '',
-    description: 'L\'équipage d\'un vaisseau de secours explore un vaisseau expérimental revenu du système de Proxima Centauri avec des horreurs à bord.',
+    description:
+      "L'équipage d'un vaisseau de secours explore un vaisseau expérimental revenu du système de Proxima Centauri avec des horreurs à bord.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1550,7 +1567,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 105,
     genre: ['Science Fiction', 'Horreur', 'Thriller'],
     saga: '',
-    description: 'Des insectes génétiquement modifiés pour tuer des cockroaches mutent et prennent la forme de leurs proies humaines.',
+    description:
+      'Des insectes génétiquement modifiés pour tuer des cockroaches mutent et prennent la forme de leurs proies humaines.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1609,7 +1627,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 106,
     genre: ['Science Fiction', 'Thriller'],
     saga: '',
-    description: 'Dans une société eugéniste, un homme né naturellement usurpe l\'identité génétique d\'un autre pour devenir astronaute.',
+    description:
+      "Dans une société eugéniste, un homme né naturellement usurpe l'identité génétique d'un autre pour devenir astronaute.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -1632,7 +1651,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 129,
     genre: ['Science Fiction', 'Action'],
     saga: '',
-    description: 'Des recrues terriennes combattent des insectes aliens dans une satire militariste du fascisme.',
+    description:
+      'Des recrues terriennes combattent des insectes aliens dans une satire militariste du fascisme.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1718,7 +1738,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 120,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Face à la collision imminente d\'une comète avec la Terre, l\'humanité prépare l\'évacuation et l\'impact.',
+    description:
+      "Face à la collision imminente d'une comète avec la Terre, l'humanité prépare l'évacuation et l'impact.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1741,11 +1762,12 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 121,
     genre: ['Science Fiction', 'Thriller'],
     saga: '',
-    description: 'Mulder et Scully enquêtent sur une conspiration extraterrestre impliquant des virus et la colonisation de la Terre.',
+    description:
+      'Mulder et Scully enquêtent sur une conspiration extraterrestre impliquant des virus et la colonisation de la Terre.',
     fromEntity: {
       entityType: 'book',
-      title: "Paycheck",
-      secondEntityKey: "Philip K. Dick",
+      title: 'Paycheck',
+      secondEntityKey: 'Philip K. Dick',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1782,7 +1804,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 97,
     genre: ['Science Fiction', 'Thriller', 'Horreur'],
     saga: '',
-    description: 'Une créatrice de jeux de réalité virtuelle est traquée alors que la frontière entre le jeu et la réalité disparaît.',
+    description:
+      'Une créatrice de jeux de réalité virtuelle est traquée alors que la frontière entre le jeu et la réalité disparaît.',
     fromEntity: null,
     countryOrigin: ['Canada', 'Royaume-Uni', 'France'],
     selectDisplayOrder: 0,
@@ -1798,8 +1821,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
       { name: 'Dennis Haysbert' },
       { name: 'Armin Mueller-Stahl' },
     ],
-    coverUrl:
-      '/movies_pictures/07aa142495da.jpg',
+    coverUrl: '/movies_pictures/07aa142495da.jpg',
     releaseDate: '1999-05-28',
     length: 100,
     genre: ['Science Fiction', 'Thriller', 'Mystère'],
@@ -1846,7 +1868,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 123,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Un policier traque un criminel capable de voyager dans le temps pour commettre des meurtres dans le passé.',
+    description:
+      'Un policier traque un criminel capable de voyager dans le temps pour commettre des meurtres dans le passé.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1862,8 +1885,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
       { name: 'Keith David' },
       { name: 'Lewis Fitz-Gerald' },
     ],
-    coverUrl:
-      '/movies_pictures/07d48b2c962a.jpg',
+    coverUrl: '/movies_pictures/07d48b2c962a.jpg',
     releaseDate: '2000-02-18',
     length: 109,
     genre: ['Science Fiction', 'Horreur', 'Action'],
@@ -1885,8 +1907,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
       { name: 'Kim Dickens' },
       { name: 'Greg Grunberg' },
     ],
-    coverUrl:
-      '/movies_pictures/be3de1671df3.jpg',
+    coverUrl: '/movies_pictures/be3de1671df3.jpg',
     releaseDate: '2000-08-04',
     length: 112,
     genre: ['Science Fiction', 'Thriller', 'Horreur'],
@@ -1895,7 +1916,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
       'Un scientifique se rend invisible et ne sait plus se retenir, voyeurisme, chasse et Verhoeven.',
     fromEntity: {
       entityType: 'book',
-      title: 'The Invisible Man',
+      title: "L'homme invisible",
       secondEntityKey: 'H.G. Wells',
     },
     countryOrigin: ['États-Unis', 'Allemagne'],
@@ -1919,7 +1940,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 123,
     genre: ['Science Fiction', 'Action'],
     saga: '',
-    description: 'Un pilote d\'hélicoptère découvre qu\'il a été cloné à son insu dans un futur où la reproduction humaine est interdite.',
+    description:
+      "Un pilote d'hélicoptère découvre qu'il a été cloné à son insu dans un futur où la reproduction humaine est interdite.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1956,11 +1978,12 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 146,
     genre: ['Science Fiction', 'Drame'],
     saga: '',
-    description: 'Un enfant robot programmé pour aimer cherche à devenir un vrai garçon pour regagner l\'affection de sa mère adoptive.',
+    description:
+      "Un enfant robot programmé pour aimer cherche à devenir un vrai garçon pour regagner l'affection de sa mère adoptive.",
     fromEntity: {
       entityType: 'book',
-      title: "Super-Toys Last All Summer Long",
-      secondEntityKey: "Brian Aldiss",
+      title: 'Super-Toys Last All Summer Long',
+      secondEntityKey: 'Brian Aldiss',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1983,7 +2006,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 120,
     genre: ['Science Fiction', 'Drame'],
     saga: '',
-    description: 'Un patient d\'un hôpital psychiatrique prétend être un extraterrestre de la planète K-PAX.',
+    description:
+      "Un patient d'un hôpital psychiatrique prétend être un extraterrestre de la planète K-PAX.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2020,7 +2044,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 87,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Un agent traque ses doubles d\'univers parallèles pour absorber leur énergie et devenir l\'unique survivant d\'un programme multiversel.',
+    description:
+      "Un agent traque ses doubles d'univers parallèles pour absorber leur énergie et devenir l'unique survivant d'un programme multiversel.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -2057,7 +2082,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 136,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Un playboy new-yorkais défiguré dans un accident revit ses souvenirs dans un mélange de rêve, de culpabilité et de réalité virtuelle.',
+    description:
+      'Un playboy new-yorkais défiguré dans un accident revit ses souvenirs dans un mélange de rêve, de culpabilité et de réalité virtuelle.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2094,7 +2120,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 106,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Un ancien prêtre découvre des cercles mystérieux dans ses champs de maïs, signes d\'une présence extraterrestre.',
+    description:
+      "Un ancien prêtre découvre des cercles mystérieux dans ses champs de maïs, signes d'une présence extraterrestre.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -2131,11 +2158,12 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 145,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'En 2054, un policier préventif est accusé par le système de prédiction des crimes qu\'il sert, et doit prouver son innocence.',
+    description:
+      "En 2054, un policier préventif est accusé par le système de prédiction des crimes qu'il sert, et doit prouver son innocence.",
     fromEntity: {
       entityType: 'book',
-      title: "Rapport minoritaire",
-      secondEntityKey: "Philip K. Dick",
+      title: 'Rapport minoritaire',
+      secondEntityKey: 'Philip K. Dick',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -2172,7 +2200,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 107,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Dans une société où les émotions sont interdites, un agent d\'État arrêté pour trahison remet en question le régime totalitaire.',
+    description:
+      "Dans une société où les émotions sont interdites, un agent d'État arrêté pour trahison remet en question le régime totalitaire.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -2193,7 +2222,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 106,
     genre: ['Science Fiction', 'Action'],
     saga: '',
-    description: 'Trois agents secrets infiltrent une entreprise technologique pour déjouer un complot mondial.',
+    description:
+      'Trois agents secrets infiltrent une entreprise technologique pour déjouer un complot mondial.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2230,7 +2260,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 124,
     genre: ['Science Fiction', 'Drame'],
     saga: '',
-    description: 'Des chercheurs américains tentent de survivre à un cataclysme climatique qui plonge le monde dans une nouvelle ère glaciaire.',
+    description:
+      'Des chercheurs américains tentent de survivre à un cataclysme climatique qui plonge le monde dans une nouvelle ère glaciaire.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -2267,7 +2298,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 106,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Un monteur édite les souvenirs des mourants jusqu\'à ce qu\'un passé troublant remonte à la surface.',
+    description:
+      "Un monteur édite les souvenirs des mourants jusqu'à ce qu'un passé troublant remonte à la surface.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2304,11 +2336,12 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 115,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'En 2035, un détective enquête sur le meurtre présumé d\'un pionnier de la robotique et découvre qu\'un robot pourrait avoir enfreint les trois lois fondamentales.',
+    description:
+      "En 2035, un détective enquête sur le meurtre présumé d'un pionnier de la robotique et découvre qu'un robot pourrait avoir enfreint les trois lois fondamentales.",
     fromEntity: {
       entityType: 'book',
-      title: "Les Robots",
-      secondEntityKey: "Isaac Asimov",
+      title: 'Les Robots',
+      secondEntityKey: 'Isaac Asimov',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -2331,7 +2364,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 136,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Des résidents d\'un complexe utopique découvrent qu\'ils sont des clones destinés à fournir des organes à leurs originaux.',
+    description:
+      "Des résidents d'un complexe utopique découvrent qu'ils sont des clones destinés à fournir des organes à leurs originaux.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2368,7 +2402,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 119,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'L\'équipage d\'un vaisseau spatial rebelle découvre le secret d\'une expérience gouvernementale qui a créé des créatures cannibales.',
+    description:
+      "L'équipage d'un vaisseau spatial rebelle découvre le secret d'une expérience gouvernementale qui a créé des créatures cannibales.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2384,8 +2419,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
       { name: 'Bae Doona' },
       { name: 'Go Ah-sung' },
     ],
-    coverUrl:
-      '/movies_pictures/3a214674846a.jpg',
+    coverUrl: '/movies_pictures/3a214674846a.jpg',
     releaseDate: '2006-07-27',
     length: 119,
     genre: ['Science Fiction', 'Horreur', 'Comédie', 'Drame'],
@@ -2428,7 +2462,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 100,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Un agent infiltré dans le monde de la drogue perd progressivement son identité sous l\'effet d\'une substance hallucinogène.',
+    description:
+      "Un agent infiltré dans le monde de la drogue perd progressivement son identité sous l'effet d'une substance hallucinogène.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2451,7 +2486,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 109,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'En 2027, dans un monde stérile, un ex-activiste escorte la première femme enceinte depuis des années.',
+    description:
+      'En 2027, dans un monde stérile, un ex-activiste escorte la première femme enceinte depuis des années.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -2474,7 +2510,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 108,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Des astronautes tentent de relancer le Soleil mourant avec une bombe stellaire, face à l\'isolement et à la folie.',
+    description:
+      "Des astronautes tentent de relancer le Soleil mourant avec une bombe stellaire, face à l'isolement et à la folie.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -2497,11 +2534,12 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 99,
     genre: ['Science Fiction', 'Thriller'],
     saga: '',
-    description: 'Une épidémie transforme les humains en copies émotionnellement plates, et une psychiatre tente de protéger son fils.',
+    description:
+      'Une épidémie transforme les humains en copies émotionnellement plates, et une psychiatre tente de protéger son fils.',
     fromEntity: {
       entityType: 'book',
-      title: "L’Invasion des profanateurs",
-      secondEntityKey: "Jack Finney",
+      title: 'L’Invasion des profanateurs',
+      secondEntityKey: 'Jack Finney',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2538,7 +2576,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 101,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Seul survivant à New York après une épidémie, un scientifique teste des vaccins tout en affrontant des créatures nocturnes.',
+    description:
+      'Seul survivant à New York après une épidémie, un scientifique teste des vaccins tout en affrontant des créatures nocturnes.',
     fromEntity: {
       entityType: 'book',
       title: 'Je suis une légende',
@@ -2579,7 +2618,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 101,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Un journaliste enquête sur les effets neurologiques du football américain, malgré la pression de la NFL.',
+    description:
+      'Un journaliste enquête sur les effets neurologiques du football américain, malgré la pression de la NFL.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2602,7 +2642,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 85,
     genre: ['Science Fiction', 'Thriller'],
     saga: '',
-    description: 'Des amis new-yorkais filment une soirée qui bascule lorsqu\'une créature géante attaque la ville.',
+    description:
+      "Des amis new-yorkais filment une soirée qui bascule lorsqu'une créature géante attaque la ville.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2639,7 +2680,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 88,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Un jeune homme capable de se téléporter est traqué par une organisation qui élimine tous les jumpers.',
+    description:
+      'Un jeune homme capable de se téléporter est traqué par une organisation qui élimine tous les jumpers.',
     fromEntity: {
       entityType: 'book',
       title: 'Jumper',
@@ -2666,7 +2708,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 104,
     genre: ['Science Fiction', 'Drame'],
     saga: '',
-    description: 'Un extraterrestre humanoïde arrive sur Terre avec un message d\'ultimatum pour l\'humanité autodestructrice.',
+    description:
+      "Un extraterrestre humanoïde arrive sur Terre avec un message d'ultimatum pour l'humanité autodestructrice.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2703,7 +2746,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 111,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Des individus aux pouvoirs psychiques affrontent une agence gouvernementale qui les traque dans Hong Kong.',
+    description:
+      'Des individus aux pouvoirs psychiques affrontent une agence gouvernementale qui les traque dans Hong Kong.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2740,7 +2784,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 121,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Après la découverte d\'une capsule temporelle, un professeur prédit une série de catastrophes et tente d\'empêcher la dernière.',
+    description:
+      "Après la découverte d'une capsule temporelle, un professeur prédit une série de catastrophes et tente d'empêcher la dernière.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2777,7 +2822,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 115,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Un soldat clone découvre qu\'il n\'est qu\'un des nombreux exemplaires d\'un programme militaire secret.',
+    description:
+      "Un soldat clone découvre qu'il n'est qu'un des nombreux exemplaires d'un programme militaire secret.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2800,11 +2846,12 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 97,
     genre: ['Science Fiction', 'Drame'],
     saga: '',
-    description: 'Seul sur une base lunaire, un mineur découvre qu\'il n\'est qu\'un clone parmi d\'autres, remplacé à chaque fin de contrat.',
+    description:
+      "Seul sur une base lunaire, un mineur découvre qu'il n'est qu'un clone parmi d'autres, remplacé à chaque fin de contrat.",
     fromEntity: {
       entityType: 'book',
-      title: "Cheval de guerre",
-      secondEntityKey: "Michael Morpurgo",
+      title: 'Cheval de guerre',
+      secondEntityKey: 'Michael Morpurgo',
     },
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -2841,7 +2888,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 112,
     genre: ['Science Fiction', 'Thriller'],
     saga: '',
-    description: 'Des extraterrestres réfugiés dans un bidonville sud-africain sont relocalisés de force, révélant le racisme et la corruption.',
+    description:
+      'Des extraterrestres réfugiés dans un bidonville sud-africain sont relocalisés de force, révélant le racisme et la corruption.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -2878,7 +2926,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 141,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Le dernier mortel de l\'humanité raconte les multiples vies qu\'il aurait pu mener selon ses choix amoureux et existentiels.',
+    description:
+      "Le dernier mortel de l'humanité raconte les multiples vies qu'il aurait pu mener selon ses choix amoureux et existentiels.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -2901,7 +2950,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 98,
     genre: ['Science Fiction', 'Horreur'],
     saga: '',
-    description: 'En 2019, les vampires dominent la société et la population humaine s\'épuise, provoquant une crise de l\'approvisionnement en sang.',
+    description:
+      "En 2019, les vampires dominent la société et la population humaine s'épuise, provoquant une crise de l'approvisionnement en sang.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2924,7 +2974,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 111,
     genre: ['Science Fiction', 'Action'],
     saga: '',
-    description: 'Dans un futur où les organes artificiels se paient à crédit, un repo man arrache les implants aux défaillants de paiement.',
+    description:
+      'Dans un futur où les organes artificiels se paient à crédit, un repo man arrache les implants aux défaillants de paiement.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2961,7 +3012,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 148,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Un voleur spécialisé dans l\'extraction de secrets pénètre les rêves pour implanter une idée dans l\'esprit d\'un héritier industriel.',
+    description:
+      "Un voleur spécialisé dans l'extraction de secrets pénètre les rêves pour implanter une idée dans l'esprit d'un héritier industriel.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -2989,7 +3041,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 93,
     genre: ['Science Fiction', 'Thriller'],
     saga: '',
-    description: 'Un soldat revit huit minutes dans le corps d\'un passager d\'un train jusqu\'à identifier le terroriste qui fera exploser la rame.',
+    description:
+      "Un soldat revit huit minutes dans le corps d'un passager d'un train jusqu'à identifier le terroriste qui fera exploser la rame.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3012,7 +3065,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 88,
     genre: ['Science Fiction', 'Action'],
     saga: '',
-    description: 'Des adolescents d\'un quartier londonien affrontent des aliens qui débarquent dans leur cité.',
+    description:
+      "Des adolescents d'un quartier londonien affrontent des aliens qui débarquent dans leur cité.",
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -3049,7 +3103,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 112,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'En 1979, des adolescents tournent un film super 8 et assistent à un accident ferroviaire libérant une créature extraterrestre.',
+    description:
+      'En 1979, des adolescents tournent un film super 8 et assistent à un accident ferroviaire libérant une créature extraterrestre.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3086,7 +3141,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 118,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Un cow-boy amnésique et un rancher unissent leurs forces contre une invasion extraterrestre dans le Far West.',
+    description:
+      'Un cow-boy amnésique et un rancher unissent leurs forces contre une invasion extraterrestre dans le Far West.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3123,7 +3179,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 109,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Dans un futur où le temps est la monnaie, un homme riche accusé à tort de meurtre doit voler du temps pour survivre.',
+    description:
+      'Dans un futur où le temps est la monnaie, un homme riche accusé à tort de meurtre doit voler du temps pour survivre.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -3146,7 +3203,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 89,
     genre: ['Science Fiction', 'Thriller'],
     saga: '',
-    description: 'Des touristes à Moscou affrontent des entités électromagnétiques invisibles qui déciment la population.',
+    description:
+      'Des touristes à Moscou affrontent des entités électromagnétiques invisibles qui déciment la population.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3180,7 +3238,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 84,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Trois lycéens acquièrent des pouvoirs télékinétiques qui transforment leurs vies et leurs rapports de force.',
+    description:
+      'Trois lycéens acquièrent des pouvoirs télékinétiques qui transforment leurs vies et leurs rapports de force.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3203,11 +3262,12 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 132,
     genre: ['Science Fiction', 'Aventure'],
     saga: '',
-    description: 'Un vétéran de la guerre de Sécession est transporté sur Mars où il devient un héros pris entre deux civilisations en guerre.',
+    description:
+      'Un vétéran de la guerre de Sécession est transporté sur Mars où il devient un héros pris entre deux civilisations en guerre.',
     fromEntity: {
       entityType: 'book',
-      title: "Une princesse de Mars",
-      secondEntityKey: "Edgar Rice Burroughs",
+      title: 'Une princesse de Mars',
+      secondEntityKey: 'Edgar Rice Burroughs',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3244,7 +3304,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 118,
     genre: ['Science Fiction', 'Action'],
     saga: '',
-    description: 'Des tueurs exécutent des cibles envoyées du futur jusqu\'à ce qu\'un homme doive abattre sa propre version âgée.',
+    description:
+      "Des tueurs exécutent des cibles envoyées du futur jusqu'à ce qu'un homme doive abattre sa propre version âgée.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3281,7 +3342,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 172,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Six histoires entrelacées à travers les siècles montrent comment les actions des uns résonnent sur les vies des autres.',
+    description:
+      'Six histoires entrelacées à travers les siècles montrent comment les actions des uns résonnent sur les vies des autres.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3304,7 +3366,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 124,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Un technicien de drones sur une Terre ravagée découvre qu\'il n\'est pas ce qu\'on lui a fait croire.',
+    description:
+      "Un technicien de drones sur une Terre ravagée découvre qu'il n'est pas ce qu'on lui a fait croire.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3341,7 +3404,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 100,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Père et fils crashés sur une Terre devenue hostile doivent traverser la planète pour activer un signal de détresse.',
+    description:
+      'Père et fils crashés sur une Terre devenue hostile doivent traverser la planète pour activer un signal de détresse.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3378,7 +3442,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 126,
     genre: ['Science Fiction', 'Thriller'],
     saga: '',
-    description: 'Sur un train circulant éternellement autour d\'une Terre gelée, les passagers du dernier wagon se révoltent contre l\'ordre social.',
+    description:
+      "Sur un train circulant éternellement autour d'une Terre gelée, les passagers du dernier wagon se révoltent contre l'ordre social.",
     fromEntity: null,
     countryOrigin: ['Corée du Sud'],
     selectDisplayOrder: 30,
@@ -3415,7 +3480,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 109,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'En 2154, un ouvrier terrien infiltré dans la station orbitale luxueuse d\'Elysium tente de renverser l\'ordre social.',
+    description:
+      "En 2154, un ouvrier terrien infiltré dans la station orbitale luxueuse d'Elysium tente de renverser l'ordre social.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3446,7 +3512,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 91,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Deux astronautes piégés dans l\'espace après la destruction de leur navette luttent pour regagner la Terre.',
+    description:
+      "Deux astronautes piégés dans l'espace après la destruction de leur navette luttent pour regagner la Terre.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -3503,7 +3570,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 126,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Un homme solitaire tombe amoureux de son assistant vocal doté d\'une intelligence artificielle évolutive.',
+    description:
+      "Un homme solitaire tombe amoureux de son assistant vocal doté d'une intelligence artificielle évolutive.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -3526,7 +3594,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 119,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'La conscience d\'un chercheur en IA est téléchargée dans un ordinateur, lui conférant des pouvoirs qui inquiètent le monde.',
+    description:
+      "La conscience d'un chercheur en IA est téléchargée dans un ordinateur, lui conférant des pouvoirs qui inquiètent le monde.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3563,7 +3632,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 113,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Un soldat revit le même jour de bataille contre des envahisseurs extraterrestres, affinant ses compétences à chaque mort.',
+    description:
+      'Un soldat revit le même jour de bataille contre des envahisseurs extraterrestres, affinant ses compétences à chaque mort.',
     fromEntity: {
       entityType: 'manga',
       title: 'All You Need Is Kill',
@@ -3598,11 +3668,12 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 97,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Un agent temporel traque un terroriste à travers le temps et découvre une boucle existentielle troublante.',
+    description:
+      'Un agent temporel traque un terroriste à travers le temps et découvre une boucle existentielle troublante.',
     fromEntity: {
       entityType: 'book',
-      title: "All You Zombies",
-      secondEntityKey: "Robert A. Heinlein",
+      title: 'All You Zombies',
+      secondEntityKey: 'Robert A. Heinlein',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3624,7 +3695,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 97,
     genre: ['Science Fiction', 'Drame'],
     saga: '',
-    description: 'Dans une société sans émotions ni souvenirs, un adolescent reçoit la mémoire du monde d\'avant et remet en question l\'ordre établi.',
+    description:
+      "Dans une société sans émotions ni souvenirs, un adolescent reçoit la mémoire du monde d'avant et remet en question l'ordre établi.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3647,7 +3719,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 169,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Des astronautes traversent un wormhole pour trouver une nouvelle planète habitable alors que la Terre agonise.',
+    description:
+      'Des astronautes traversent un wormhole pour trouver une nouvelle planète habitable alors que la Terre agonise.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -3667,7 +3740,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 108,
     genre: ['Science Fiction', 'Thriller'],
     saga: '',
-    description: 'Un programmeur est invité à évaluer la conscience d\'un robot humanoïde doté d\'une intelligence troublante.',
+    description:
+      "Un programmeur est invité à évaluer la conscience d'un robot humanoïde doté d'une intelligence troublante.",
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -3690,7 +3764,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 120,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Un robot policier reprogrammé développe une conscience et une personnalité d\'enfant dans un Johannesburg criminel.',
+    description:
+      "Un robot policier reprogrammé développe une conscience et une personnalité d'enfant dans un Johannesburg criminel.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -3713,7 +3788,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 130,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Une inventrice et un ex-astronaute traversent une dimension parallèle optimiste pour sauver le futur.',
+    description:
+      'Une inventrice et un ex-astronaute traversent une dimension parallèle optimiste pour sauver le futur.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -3750,7 +3826,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 117,
     genre: ['Science Fiction', 'Action'],
     saga: '',
-    description: 'Un scientifique transfère sa conscience dans un corps plus jeune, mais le processus le rend instable et dangereux.',
+    description:
+      'Un scientifique transfère sa conscience dans un corps plus jeune, mais le processus le rend instable et dangereux.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3787,11 +3864,12 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 141,
     genre: ['Science Fiction', 'Aventure'],
     saga: '',
-    description: 'Un astronaute abandonné sur Mars doit survivre en cultivant des pommes de terre en attendant une mission de secours.',
+    description:
+      'Un astronaute abandonné sur Mars doit survivre en cultivant des pommes de terre en attendant une mission de secours.',
     fromEntity: {
       entityType: 'book',
-      title: "Seul sur Mars",
-      secondEntityKey: "Andy Weir",
+      title: 'Seul sur Mars',
+      secondEntityKey: 'Andy Weir',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -3814,7 +3892,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 112,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Après quatre vagues d\'invasion extraterrestre, une adolescente cherche son frère dans un monde où personne n\'est ce qu\'il semble.',
+    description:
+      "Après quatre vagues d'invasion extraterrestre, une adolescente cherche son frère dans un monde où personne n'est ce qu'il semble.",
     fromEntity: {
       entityType: 'book',
       title: 'La 5ème Vague',
@@ -3841,7 +3920,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 112,
     genre: ['Science Fiction', 'Drame'],
     saga: '',
-    description: 'Un père embarque son fils aux pouvoirs mystérieux dans une fuite à travers le Texas, traqués par le gouvernement et un culte.',
+    description:
+      'Un père embarque son fils aux pouvoirs mystérieux dans une fuite à travers le Texas, traqués par le gouvernement et un culte.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3864,7 +3944,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 116,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Une linguiste est recrutée par l\'armée pour communiquer avec des extraterrestres arrivés sur Terre, avant que la panique ne dégénère.',
+    description:
+      "Une linguiste est recrutée par l'armée pour communiquer avec des extraterrestres arrivés sur Terre, avant que la panique ne dégénère.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -3901,7 +3982,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 116,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Deux passagers d\'un vaisseau interstellaire se réveillent prématurément et doivent vivre ensemble pendant des décennies de voyage.',
+    description:
+      "Deux passagers d'un vaisseau interstellaire se réveillent prématurément et doivent vivre ensemble pendant des décennies de voyage.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3924,7 +4006,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 116,
     genre: ['Science Fiction', 'Romance'],
     saga: '',
-    description: 'Deux passagers d\'un vaisseau interstellaire se réveillent prématurément et doivent vivre ensemble pendant des décennies de voyage.',
+    description:
+      "Deux passagers d'un vaisseau interstellaire se réveillent prématurément et doivent vivre ensemble pendant des décennies de voyage.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3961,7 +4044,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 107,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Une cyborg d\'élite traque un hacker capable de pirater l\'esprit des humains augmentés.',
+    description:
+      "Une cyborg d'élite traque un hacker capable de pirater l'esprit des humains augmentés.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3983,7 +4067,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 104,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'L\'équipage de la Station Spatiale Internationale découvre une forme de vie martienne qui s\'avère redoutablement agressive.',
+    description:
+      "L'équipage de la Station Spatiale Internationale découvre une forme de vie martienne qui s'avère redoutablement agressive.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -4020,7 +4105,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 120,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Une jeune fille coréenne défend Okja, un super-porc génétiquement modifié, contre une multinationale agroalimentaire.',
+    description:
+      'Une jeune fille coréenne défend Okja, un super-porc génétiquement modifié, contre une multinationale agroalimentaire.',
     fromEntity: null,
     countryOrigin: ['Corée du Sud'],
     selectDisplayOrder: 0,
@@ -4058,7 +4144,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 137,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Deux agents spatio-temporels enquêtent sur une menace dans Alpha, la métropole intergalactique la plus vaste de l\'univers.',
+    description:
+      "Deux agents spatio-temporels enquêtent sur une menace dans Alpha, la métropole intergalactique la plus vaste de l'univers.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
@@ -4081,7 +4168,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 123,
     genre: ['Science Fiction', 'Thriller'],
     saga: '',
-    description: 'Dans un futur où la natalité est limitée à un enfant par famille, sept sœurs partagent une seule identité publique.',
+    description:
+      'Dans un futur où la natalité est limitée à un enfant par famille, sept sœurs partagent une seule identité publique.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4118,7 +4206,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 164,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Un nouveau blade runner découvre un secret enfoui depuis des décennies, relançant la chasse aux réplicants et la quête de l\'identité.',
+    description:
+      "Un nouveau blade runner découvre un secret enfoui depuis des décennies, relançant la chasse aux réplicants et la quête de l'identité.",
     fromEntity: {
       entityType: 'book',
       title: 'Les Androïdes rêvent-ils de moutons électriques ?',
@@ -4162,7 +4251,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 115,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Une biologiste rejoint une expédition dans une zone mutante où les lois de la nature ne s\'appliquent plus.',
+    description:
+      "Une biologiste rejoint une expédition dans une zone mutante où les lois de la nature ne s'appliquent plus.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4199,7 +4289,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 140,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'En 2045, un adolescent participe à une chasse au trésor dans un univers virtuel pour gagner le contrôle d\'une méta-OASIS.',
+    description:
+      "En 2045, un adolescent participe à une chasse au trésor dans un univers virtuel pour gagner le contrôle d'une méta-OASIS.",
     fromEntity: {
       entityType: 'book',
       title: 'Player One',
@@ -4240,7 +4331,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 100,
     genre: ['Science Fiction', 'Thriller'],
     saga: '',
-    description: 'Dans un futur sans intimité, une enquêtrice traque un tueur qui efface ses traces visuelles numériques.',
+    description:
+      'Dans un futur sans intimité, une enquêtrice traque un tueur qui efface ses traces visuelles numériques.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4263,7 +4355,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 100,
     genre: ['Science Fiction', 'Thriller'],
     saga: '',
-    description: 'Un homme paralysé reçoit une puce IA qui lui redonne la mobilité et le transforme en machine de vengeance.',
+    description:
+      'Un homme paralysé reçoit une puce IA qui lui redonne la mobilité et le transforme en machine de vengeance.',
     fromEntity: null,
     countryOrigin: ['Australie'],
     selectDisplayOrder: 0,
@@ -4300,7 +4393,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 149,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'De la préhistoire au voyage vers Jupiter, l\'humanité interagit avec une mystérieuse monolithe et une IA nommée HAL.',
+    description:
+      "De la préhistoire au voyage vers Jupiter, l'humanité interagit avec une mystérieuse monolithe et une IA nommée HAL.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -4337,7 +4431,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 123,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Un astronaute traverse le système solaire pour retrouver son père disparu près de Neptune et stopper une menace planétaire.',
+    description:
+      'Un astronaute traverse le système solaire pour retrouver son père disparu près de Neptune et stopper une menace planétaire.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4360,7 +4455,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 98,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Dans une ville où les super-pouvoirs sont réprimés, un jeune travailleur aux pouvoirs électriques commet un braquage désespéré.',
+    description:
+      'Dans une ville où les super-pouvoirs sont réprimés, un jeune travailleur aux pouvoirs électriques commet un braquage désespéré.',
     fromEntity: null,
     countryOrigin: ['Canada'],
     selectDisplayOrder: 5,
@@ -4398,7 +4494,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 150,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Un agent infiltré manipule l\'inversion du temps pour empêcher une guerre mondiale déclenchée par une technologie capable d\'inverser l\'entropie.',
+    description:
+      "Un agent infiltré manipule l'inversion du temps pour empêcher une guerre mondiale déclenchée par une technologie capable d'inverser l'entropie.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -4435,11 +4532,12 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 109,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Sur une planète colonisée où les pensées des hommes sont audibles, un adolescent découvre une fille, seule survivante d\'un vaisseau crashé.',
+    description:
+      "Sur une planète colonisée où les pensées des hommes sont audibles, un adolescent découvre une fille, seule survivante d'un vaisseau crashé.",
     fromEntity: {
       entityType: 'book',
-      title: "Le Chaos en marche",
-      secondEntityKey: "Patrick Ness",
+      title: 'Le Chaos en marche',
+      secondEntityKey: 'Patrick Ness',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4476,7 +4574,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 116,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Dans une Miami inondée, un homme utilise une machine de réminiscence pour retrouver une femme disparue et découvrir une conspiration.',
+    description:
+      'Dans une Miami inondée, un homme utilise une machine de réminiscence pour retrouver une femme disparue et découvrir une conspiration.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4510,7 +4609,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 115,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Un inventeur, son chien et un robot traversent l\'Amérique post-apocalyptique pour protéger une jeune fille.',
+    description:
+      "Un inventeur, son chien et un robot traversent l'Amérique post-apocalyptique pour protéger une jeune fille.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4538,7 +4638,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 106,
     genre: ['Science Fiction', 'Action'],
     saga: '',
-    description: 'Un pilote de chasse du XXe siècle se retrouve propulsé en 2022 et doit s\'allier à son fils pour sauver le futur.',
+    description:
+      "Un pilote de chasse du XXe siècle se retrouve propulsé en 2022 et doit s'allier à son fils pour sauver le futur.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4575,7 +4676,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 139,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Une propriétaire de laverie est entraînée dans le multivers pour empêcher une entité nihiliste de détruire toutes les réalités.',
+    description:
+      'Une propriétaire de laverie est entraînée dans le multivers pour empêcher une entité nihiliste de détruire toutes les réalités.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -4640,7 +4742,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 131,
     genre: ['Science Fiction', 'Horreur'],
     saga: '',
-    description: 'Un frère et une sœur propriétaires d\'un ranch californien tentent de filmer un phénomène aérien inexpliqué.',
+    description:
+      "Un frère et une sœur propriétaires d'un ranch californien tentent de filmer un phénomène aérien inexpliqué.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -4663,7 +4766,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 102,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Adaptation de la websérie : un inventeur du futur débarque dans le présent et perturbe la vie de ses ancêtres.',
+    description:
+      'Adaptation de la websérie : un inventeur du futur débarque dans le présent et perturbe la vie de ses ancêtres.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
@@ -4694,7 +4798,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 133,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Un ancien agent traque le créateur d\'une IA considérée comme une menace existentielle pour l\'humanité.',
+    description:
+      "Un ancien agent traque le créateur d'une IA considérée comme une menace existentielle pour l'humanité.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -4725,7 +4830,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 133,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Une colonie agricole recrute des mercenaires pour résister à l\'armée tyrannique qui les opprime.',
+    description:
+      "Une colonie agricole recrute des mercenaires pour résister à l'armée tyrannique qui les opprime.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -4748,7 +4854,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 111,
     genre: ['Science Fiction', 'Comédie'],
     saga: '',
-    description: 'Sur une planète lointaine, une famille et une créature intergalactique s\'affrontent dans une fable de science-fiction absurde.',
+    description:
+      "Sur une planète lointaine, une famille et une créature intergalactique s'affrontent dans une fable de science-fiction absurde.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -4779,7 +4886,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 100,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Des super-humans persécutés se rebellent contre un régime qui les exploite comme main-d\'œuvre clandestine.',
+    description:
+      "Des super-humans persécutés se rebellent contre un régime qui les exploite comme main-d'œuvre clandestine.",
     fromEntity: null,
     countryOrigin: ['Canada'],
     selectDisplayOrder: 5,
@@ -4813,7 +4921,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 108,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Un astronaute isolé dans l\'espace profond dialogue avec une créature mystérieuse née dans son vaisseau pendant sa mission.',
+    description:
+      "Un astronaute isolé dans l'espace profond dialogue avec une créature mystérieuse née dans son vaisseau pendant sa mission.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4844,7 +4953,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 138,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Un architecte idéaliste veut reconstruire une New York romaine en ruines, opposé à un maire corrompu.',
+    description:
+      'Un architecte idéaliste veut reconstruire une New York romaine en ruines, opposé à un maire corrompu.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -4881,7 +4991,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 128,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Une adolescente et un robot traversent l\'Amérique post-apocalyptique pour retrouver son frère dans un monde dominé par l\'IA.',
+    description:
+      "Une adolescente et un robot traversent l'Amérique post-apocalyptique pour retrouver son frère dans un monde dominé par l'IA.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4918,7 +5029,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 137,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Un homme cloneable meurt et renaît à volonté pour des missions périlleuses sur une planète glaciale, jusqu\'à ce que deux versions de lui coexistent.',
+    description:
+      "Un homme cloneable meurt et renaît à volonté pour des missions périlleuses sur une planète glaciale, jusqu'à ce que deux versions de lui coexistent.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -4955,7 +5067,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 97,
     genre: ['Science Fiction', 'Thriller'],
     saga: '',
-    description: 'Lors d\'un week-end entre amis, une femme découvre que sa compagne est une androïde dont la programmation cache des secrets mortels.',
+    description:
+      "Lors d'un week-end entre amis, une femme découvre que sa compagne est une androïde dont la programmation cache des secrets mortels.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4986,7 +5099,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 134,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Dans un futur totalitaire, un homme est forcé de participer à un jeu télévisé où il est traqué jusqu\'à la mort.',
+    description:
+      "Dans un futur totalitaire, un homme est forcé de participer à un jeu télévisé où il est traqué jusqu'à la mort.",
     fromEntity: {
       entityType: 'book',
       title: 'Running man',
@@ -5027,7 +5141,8 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     length: 156,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Des enfants sont envoyés dans le futur pour sauver l\'humanité d\'une catastrophe imminente.',
+    description:
+      "Des enfants sont envoyés dans le futur pour sauver l'humanité d'une catastrophe imminente.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -5044,13 +5159,13 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
       { name: 'Allison Janney' },
       { name: 'Benedict Wong' },
     ],
-    coverUrl:
-      '/movies_pictures/fabb3efae133.jpg',
+    coverUrl: '/movies_pictures/fabb3efae133.jpg',
     releaseDate: '2026-08-28',
     length: 118,
     genre: ['Science Fiction', 'Dystopie', 'Drame'],
     saga: '',
-    description: 'Seul survivant d\'une pandémie, un pilote vit dans un aéroport désert avec son chien jusqu\'à ce qu\'un signal le pousse à partir.',
+    description:
+      "Seul survivant d'une pandémie, un pilote vit dans un aéroport désert avec son chien jusqu'à ce qu'un signal le pousse à partir.",
     fromEntity: {
       entityType: 'book',
       title: 'The Dog Stars',

@@ -18,8 +18,7 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: 'La Liste de Schindler',
     author: 'Thomas Keneally',
-    coverUrl:
-      '/books_pictures/0b8e0317ffdd.jpg',
+    coverUrl: '/books_pictures/0b8e0317ffdd.jpg',
     pages: 432,
     genre: ['Classiques', 'Fiction historique'],
     saga: '',
@@ -799,6 +798,21 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '1960-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 30,
+  },
+  {
+    title: "L'éveil",
+    author: 'Kate Chopin',
+    coverUrl:
+      '/books_pictures/01b73c51d191.jpg',
+    pages: 220,
+    genre: ['Classiques'],
+    saga: '',
+    sagaOrder: 0,
+    sagaFinished: false,
+    releaseDate: '1899-04-22',
+    description: '',
+    countryOrigin: 'États-Unis',
     selectDisplayOrder: 30,
   },
 ];

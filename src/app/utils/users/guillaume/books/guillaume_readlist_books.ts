@@ -1616,5 +1616,21 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
-  }
+  },
+  {
+    title: "L'éveil",
+    author: "Kate Chopin",
+    firstReadDate: "",
+    lastReadDate: "",
+    otherReadDates: [],
+    rating: 0,
+    reading: false,
+    readTimes: 0,
+    owned: false,
+    borrowed: "",
+    loaned: "",
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: "",
+  },
 ];
