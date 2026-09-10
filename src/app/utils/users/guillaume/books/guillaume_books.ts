@@ -1850,4 +1850,21 @@ export const guillaumeBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: "",
   },
+
+  {
+    title: "Borderline: Une vie au bord du gouffre",
+    author: "Catherine S. Danemark et Michel Kummer",
+    firstReadDate: "2026-09-10",
+    lastReadDate: "2026-09-10",
+    otherReadDates: [],
+    rating: 4,
+    reading: false,
+    readTimes: 1,
+    owned: false,
+    borrowed: "",
+    loaned: "",
+    readPriority: 3,
+    wantToReadAgain: false,
+    ratingComment: "",
+  },
 ];

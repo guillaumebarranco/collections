@@ -1458,22 +1458,6 @@ export const guillaumeReadlistBooks: UserBooks = [
     ratingComment: "",
   },
   {
-    title: "Borderline: Une vie au bord du gouffre",
-    author: "Catherine S. Danemark et Michel Kummer",
-    firstReadDate: "",
-    lastReadDate: "",
-    otherReadDates: [],
-    rating: 0,
-    reading: true,
-    readTimes: 0,
-    owned: false,
-    borrowed: "",
-    loaned: "",
-    readPriority: 3,
-    wantToReadAgain: false,
-    ratingComment: "",
-  },
-  {
     title: "King's Game Spiral",
     author: "Nobuaki Kanazawa",
     firstReadDate: "",
@@ -1632,5 +1616,5 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
-  },
+  }
 ];
