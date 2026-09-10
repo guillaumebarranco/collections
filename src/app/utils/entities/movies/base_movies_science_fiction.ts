@@ -2,3549 +2,6 @@ import { BaseMovie, OscarEnum } from '../../../models/movie-model';
 
 export const baseMoviesScienceFiction: BaseMovie[] = [
   {
-    title: 'I, Robot',
-    director: 'Alex Proyas',
-    actors: [
-      {
-        name: 'Will Smith',
-      },
-      {
-        name: 'Bridget Moynahan',
-      },
-      {
-        name: 'Bruce Greenwood',
-      },
-      {
-        name: 'James Cromwell',
-      },
-      {
-        name: 'Chi McBride',
-      },
-      {
-        name: 'Alan Tudyk',
-      },
-      {
-        name: 'Shia LaBeouf',
-      },
-    ],
-    coverUrl: '/movies_pictures/10f95776500c.jpg',
-    releaseDate: '2004-12-10',
-    length: 115,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'En 2035, un détective enquête sur le meurtre présumé d\'un pionnier de la robotique et découvre qu\'un robot pourrait avoir enfreint les trois lois fondamentales.',
-    fromEntity: {
-      entityType: 'book',
-      title: "Les Robots",
-      secondEntityKey: "Isaac Asimov",
-    },
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 30,
-    oscars: [],
-  },
-  {
-    title: 'Mickey 17',
-    director: 'Bong Joon-ho',
-    actors: [
-      {
-        name: 'Robert Pattinson',
-      },
-      {
-        name: 'Steven Yeun',
-      },
-      {
-        name: 'Naomi Ackie',
-      },
-      {
-        name: 'Toni Collette',
-      },
-      {
-        name: 'Mark Ruffalo',
-      },
-      {
-        name: 'Holliday Grainger',
-      },
-      {
-        name: 'Cameron Britton',
-      },
-    ],
-    coverUrl: '/movies_pictures/dc0e0c2ccb36.jpg',
-    releaseDate: '2025-01-31',
-    length: 137,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Un homme cloneable meurt et renaît à volonté pour des missions périlleuses sur une planète glaciale, jusqu\'à ce que deux versions de lui coexistent.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 30,
-    oscars: [],
-  },
-  {
-    title: 'Blade Runner',
-    director: 'Ridley Scott',
-    actors: [
-      {
-        name: 'Harrison Ford',
-      },
-      {
-        name: 'Edward James Olmos',
-      },
-      {
-        name: 'Rutger Hauer',
-      },
-      {
-        name: 'Sean Young',
-      },
-      {
-        name: 'Daryl Hannah',
-      },
-      {
-        name: 'Brion James',
-      },
-      {
-        name: 'Joanna Cassidy',
-      },
-    ],
-    coverUrl: '/movies_pictures/47d6a459ed78.jpg',
-    releaseDate: '1982-09-09',
-    length: 117,
-    genre: ['Science Fiction', 'Thriller'],
-    saga: '',
-    description: 'Los Angeles, 2019 : un chasseur de réplicants traque des androïdes en fuite qui cherchent à prolonger leur existence.',
-    fromEntity: {
-      entityType: 'book',
-      title: 'Les Androïdes rêvent-ils de moutons électriques ?',
-      secondEntityKey: 'Philip K. Dick',
-    },
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 20,
-    oscars: [],
-  },
-  {
-    title: 'Blade Runner 2049',
-    director: 'Denis Villeneuve',
-    actors: [
-      {
-        name: 'Ryan Gosling',
-      },
-      {
-        name: 'Harrison Ford',
-      },
-      {
-        name: 'Ana de Armas',
-      },
-      {
-        name: 'Jared Leto',
-      },
-      {
-        name: 'Robin Wright',
-      },
-      {
-        name: 'Sylvia Hoeks',
-      },
-      {
-        name: 'Dave Bautista',
-      },
-    ],
-    coverUrl: '/movies_pictures/2027848e6a3d.jpg',
-    releaseDate: '2017-10-04',
-    length: 164,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Un nouveau blade runner découvre un secret enfoui depuis des décennies, relançant la chasse aux réplicants et la quête de l\'identité.',
-    fromEntity: {
-      entityType: 'book',
-      title: 'Les Androïdes rêvent-ils de moutons électriques ?',
-      secondEntityKey: 'Philip K. Dick',
-    },
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 2018 },
-      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2018 },
-    ],
-  },
-  {
-    title: 'La 5ème Vague',
-    director: 'J Blakeson',
-    actors: [
-      { name: 'Chloë Grace Moretz' },
-      { name: 'Nick Robinson' },
-      { name: 'Alex Roe' },
-      { name: 'Maika Monroe' },
-      { name: 'Liev Schreiber' },
-      { name: 'Maria Bello' },
-      { name: 'Ron Livingston' },
-    ],
-    coverUrl: '/movies_pictures/a0000053.webp',
-    releaseDate: '2016-01-22',
-    length: 112,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Après quatre vagues d\'invasion extraterrestre, une adolescente cherche son frère dans un monde où personne n\'est ce qu\'il semble.',
-    fromEntity: {
-      entityType: 'book',
-      title: 'La 5ème Vague',
-      secondEntityKey: 'Rick Yancey',
-    },
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 10,
-    oscars: [],
-  },
-
-  {
-    title: 'Everything Everywhere All at Once',
-    director: 'Daniel Kwan, Daniel Scheinert',
-    actors: [
-      {
-        name: 'Michelle Yeoh',
-      },
-      {
-        name: 'Stephanie Hsu',
-      },
-      {
-        name: 'James Hong',
-      },
-      {
-        name: 'Jonathan Ke Quan',
-      },
-      {
-        name: 'Jamie Lee Curtis',
-      },
-      {
-        name: 'Jenny Slate',
-      },
-      {
-        name: 'Harry Shum Jr',
-      },
-    ],
-    coverUrl: '/movies_pictures/acf5609497a9.jpg',
-    releaseDate: '2022-03-25',
-    length: 139,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Une propriétaire de laverie est entraînée dans le multivers pour empêcher une entité nihiliste de détruire toutes les réalités.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 30,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_MOVIE, year: 2023 },
-      { type: OscarEnum.OSCAR_BEST_DIRECTOR, year: 2023 },
-      { type: OscarEnum.OSCAR_BEST_ACTRESS, year: 2023 },
-      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTOR, year: 2023 },
-      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTRESS, year: 2023 },
-      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 2023 },
-      { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 2023 },
-    ],
-  },
-  {
-    title: 'The One',
-    director: 'James Wong',
-    actors: [
-      {
-        name: 'Jet Li',
-      },
-      {
-        name: 'Delroy Lindo',
-      },
-      {
-        name: 'Jason Statham',
-      },
-      {
-        name: 'Carla Gugino',
-      },
-      {
-        name: 'James Morrison',
-      },
-      {
-        name: 'Dylan Bruno',
-      },
-      {
-        name: 'Richard Steinmetz',
-      },
-    ],
-    coverUrl: '/movies_pictures/ae553294ebc9.jpg',
-    releaseDate: '2001-11-02',
-    length: 87,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Un agent traque ses doubles d\'univers parallèles pour absorber leur énergie et devenir l\'unique survivant d\'un programme multiversel.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 30,
-    oscars: [],
-  },
-  {
-    title: "A l'aube du 6ème jour",
-    director: 'Roger Spottiswoode',
-    actors: [
-      { name: 'Arnold Schwarzenegger' },
-      { name: 'Tony Goldwyn' },
-      { name: 'Michael Rapaport' },
-      { name: 'Michael Rooker' },
-      { name: 'Sarah Wynter' },
-      { name: 'Wendy Crewson' },
-      { name: 'Robert Duvall' },
-    ],
-    coverUrl: '/movies_pictures/a_l_aube_du_sixieme_jour.jpg',
-    releaseDate: '2000-11-17',
-    length: 123,
-    genre: ['Science Fiction', 'Action'],
-    saga: '',
-    description: 'Un pilote d\'hélicoptère découvre qu\'il a été cloné à son insu dans un futur où la reproduction humaine est interdite.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'Premier contact',
-    director: 'Denis Villeneuve',
-    actors: [
-      { name: 'Amy Adams' },
-      { name: 'Jeremy Renner' },
-      { name: 'Forest Whitaker' },
-      { name: 'Michael Stuhlbarg' },
-      { name: 'Tzi Ma' },
-      { name: "Mark O'Brien" },
-      { name: 'Abigail Pniowsky' },
-    ],
-    coverUrl: '/movies_pictures/109206907.webp',
-    releaseDate: '2016-11-11',
-    length: 116,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Une linguiste est recrutée par l\'armée pour communiquer avec des extraterrestres arrivés sur Terre, avant que la panique ne dégénère.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 30,
-    oscars: [{ type: OscarEnum.OSCAR_BEST_SOUND_EDITING, year: 2017 }],
-  },
-  {
-    title: 'Source Code',
-    director: 'Duncan Jones',
-    actors: [
-      { name: 'Jake Gyllenhaal' },
-      { name: 'Michelle Monaghan' },
-      { name: 'Vera Farmiga' },
-      { name: 'Jeffrey Wright' },
-      { name: 'Russell Peters' },
-      { name: 'Gordon Pinsent' },
-      { name: 'Fay Masterson' },
-    ],
-    coverUrl: '/movies_pictures/81JgsD1EoIL._UF894,1000_QL80_ .jpg',
-    releaseDate: '2011-04-01',
-    length: 93,
-    genre: ['Science Fiction', 'Thriller'],
-    saga: '',
-    description: 'Un soldat revit huit minutes dans le corps d\'un passager d\'un train jusqu\'à identifier le terroriste qui fera exploser la rame.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: "Le Jour d'Après",
-    director: 'Roland Emmerich',
-    actors: [
-      {
-        name: 'Dennis Quaid',
-      },
-      {
-        name: 'Jake Gyllenhaal',
-      },
-      {
-        name: 'Emmy Rossum',
-      },
-      {
-        name: 'Ian Holm',
-      },
-      {
-        name: 'Sela Ward',
-      },
-      {
-        name: 'Dash Mihok',
-      },
-      {
-        name: 'Jay O. Sanders',
-      },
-    ],
-    coverUrl: '/movies_pictures/c239526162d8.jpg',
-    releaseDate: '2004-05-28',
-    length: 124,
-    genre: ['Science Fiction', 'Drame'],
-    saga: '',
-    description: 'Des chercheurs américains tentent de survivre à un cataclysme climatique qui plonge le monde dans une nouvelle ère glaciaire.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 30,
-    oscars: [],
-  },
-  {
-    title: 'Equilibrium',
-    director: 'Kurt Wimmer',
-    actors: [
-      {
-        name: 'Christian Bale',
-      },
-      {
-        name: 'Emily Watson',
-      },
-      {
-        name: 'Taye Diggs',
-      },
-      {
-        name: 'Angus Macfadyen',
-      },
-      {
-        name: 'Sean Bean',
-      },
-      {
-        name: 'William Fichtner',
-      },
-      {
-        name: 'Dominic Purcell',
-      },
-    ],
-    coverUrl: '/movies_pictures/equilibrium-0-150-0-225-crop.jpg',
-    releaseDate: '2002-12-06',
-    length: 107,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Dans une société où les émotions sont interdites, un agent d\'État arrêté pour trahison remet en question le régime totalitaire.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 30,
-    oscars: [],
-  },
-  {
-    title: 'Chaos Walking',
-    director: 'Doug Liman',
-    actors: [
-      {
-        name: 'Daisy Ridley',
-      },
-      {
-        name: 'Tom Holland',
-      },
-      {
-        name: 'Mads Mikkelsen',
-      },
-      {
-        name: 'Kurt Sutter',
-      },
-      {
-        name: 'Nick Jonas',
-      },
-      {
-        name: 'Demián Bichir',
-      },
-      {
-        name: 'David Oyelowo',
-      },
-    ],
-    coverUrl: '/movies_pictures/346746-chaos-walking-0-150-0-225-crop.jpg',
-    releaseDate: '2021-03-05',
-    length: 109,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Sur une planète colonisée où les pensées des hommes sont audibles, un adolescent découvre une fille, seule survivante d\'un vaisseau crashé.',
-    fromEntity: {
-      entityType: 'book',
-      title: "Le Chaos en marche",
-      secondEntityKey: "Patrick Ness",
-    },
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'Tenet',
-    director: 'Christopher Nolan',
-    actors: [
-      {
-        name: 'John David Washington',
-      },
-      {
-        name: 'Robert Pattinson',
-      },
-      {
-        name: 'Elizabeth Debicki',
-      },
-      {
-        name: 'Dimple Kapadia',
-      },
-      {
-        name: 'Aaron Taylor-Johnson',
-      },
-      {
-        name: 'Clémence Poésy',
-      },
-      {
-        name: 'Michael Caine',
-      },
-    ],
-    coverUrl:
-      '/movies_pictures/aCIFMriQh8rvhxpN1IWGgvH0Tlg-0-150-0-225-crop.jpg',
-    releaseDate: '2020-09-03',
-    length: 150,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Un agent infiltré manipule l\'inversion du temps pour empêcher une guerre mondiale déclenchée par une technologie capable d\'inverser l\'entropie.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 30,
-    oscars: [{ type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2021 }],
-  },
-  {
-    title: 'Minority Report',
-    director: 'Steven Spielberg',
-    actors: [
-      {
-        name: 'Tom Cruise',
-      },
-      {
-        name: 'Colin Farrell',
-      },
-      {
-        name: 'Samantha Morton',
-      },
-      {
-        name: 'Max von Sydow',
-      },
-      {
-        name: 'Patrick Kilpatrick',
-      },
-      {
-        name: 'Lois Smith',
-      },
-      {
-        name: 'Peter Stormare',
-      },
-    ],
-    coverUrl: '/movies_pictures/minority_report.jpg',
-    releaseDate: '2002-06-21',
-    length: 145,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'En 2054, un policier préventif est accusé par le système de prédiction des crimes qu\'il sert, et doit prouver son innocence.',
-    fromEntity: {
-      entityType: 'book',
-      title: "Rapport minoritaire",
-      secondEntityKey: "Philip K. Dick",
-    },
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 30,
-    oscars: [],
-  },
-  {
-    title: 'La guerre des mondes',
-    director: 'Steven Spielberg',
-    actors: [
-      {
-        name: 'Tom Cruise',
-      },
-      {
-        name: 'Dakota Fanning',
-      },
-      {
-        name: 'Justin Chatwin',
-      },
-      {
-        name: 'Miranda Otto',
-      },
-      {
-        name: 'Tim Robbins',
-      },
-      {
-        name: 'Rick Gonzalez',
-      },
-      {
-        name: 'Lenny Venito',
-      },
-    ],
-    coverUrl: '/movies_pictures/war_of_the_worlds.jpg',
-    releaseDate: '2005-06-29',
-    length: 117,
-    genre: ['Science Fiction'],
-    saga: 'La guerre des mondes',
-    description: 'Une famille fuit l\'invasion extraterrestre qui dévaste la planète avec des machines de guerre impitoyables.',
-    fromEntity: {
-      entityType: 'book',
-      title: 'La guerre des mondes',
-      secondEntityKey: 'H.G. Wells',
-    },
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 30,
-    oscars: [],
-  },
-  {
-    title: 'La guerre des mondes (1953)',
-    director: 'Byron Haskin',
-    actors: [
-      {
-        name: 'Gene Barry',
-      },
-      {
-        name: 'Ann Robinson',
-      },
-      {
-        name: 'Cedric Hardwicke',
-      },
-      {
-        name: 'Les Tremayne',
-      },
-      {
-        name: 'Edgar Barrier',
-      },
-      {
-        name: 'Henry Brandon',
-      },
-      {
-        name: 'Ivan Lebedeff',
-      },
-    ],
-    coverUrl: '/movies_pictures/120db49684c4.jpg',
-    releaseDate: '1953-08-26',
-    length: 85,
-    genre: ['Science Fiction', 'Thriller'],
-    saga: 'La guerre des mondes',
-    description: 'Une invasion martienne dévaste la Terre avec des machines tripodes, adaptée du roman de H.G. Wells.',
-    fromEntity: {
-      entityType: 'book' as const,
-      title: 'La guerre des mondes',
-      secondEntityKey: 'H.G. Wells',
-    },
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [{ type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 1954 }],
-  },
-  {
-    title: 'La grande guerre martienne (1913-1917)',
-    director: 'Christopher Spencer',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/movies_pictures/dbff0b0b2567.jpg',
-    releaseDate: '2013-12-07',
-    length: 47,
-    genre: ['Science Fiction', 'Documentaire'],
-    saga: 'La guerre des mondes',
-    description: 'Documentaire reconstitué racontant la Première Guerre mondiale avec une narration martienne fictive de H.G. Wells.',
-    fromEntity: {
-      entityType: 'book' as const,
-      title: 'La guerre des mondes',
-      secondEntityKey: 'H.G. Wells',
-    },
-    countryOrigin: ['Royaume-Uni', 'Canada'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'A.I. Intelligence artificielle',
-    director: 'Steven Spielberg',
-    actors: [
-      {
-        name: 'Haley Joel Osment',
-      },
-      {
-        name: 'Jude Law',
-      },
-      {
-        name: "Frances O'Connor",
-      },
-      {
-        name: 'Brendan Gleeson',
-      },
-      {
-        name: 'William Hurt',
-      },
-      {
-        name: 'Sam Robards',
-      },
-      {
-        name: 'Jake Thomas',
-      },
-    ],
-    coverUrl: '/movies_pictures/69216449_af.webp',
-    releaseDate: '2001-06-29',
-    length: 146,
-    genre: ['Science Fiction', 'Drame'],
-    saga: '',
-    description: 'Un enfant robot programmé pour aimer cherche à devenir un vrai garçon pour regagner l\'affection de sa mère adoptive.',
-    fromEntity: {
-      entityType: 'book',
-      title: "Super-Toys Last All Summer Long",
-      secondEntityKey: "Brian Aldiss",
-    },
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'E.T. the Extra-Terrestrial',
-    director: 'Steven Spielberg',
-    actors: [
-      {
-        name: 'Dee Wallace',
-      },
-      {
-        name: 'Peter Coyote',
-      },
-      {
-        name: 'Henry Thomas',
-      },
-      {
-        name: 'Drew Barrymore',
-      },
-      {
-        name: 'Erika Eleniak',
-      },
-      {
-        name: 'C. Thomas Howell',
-      },
-      {
-        name: 'Sean Frye',
-      },
-    ],
-    coverUrl:
-      '/movies_pictures/51520-e-t-the-extra-terrestrial-0-150-0-225-crop.jpg',
-    releaseDate: '1982-06-11',
-    length: 115,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Un extraterrestre abandonné sur Terre se lie d\'amitié avec un jeune garçon et cherche à rentrer chez lui.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 30,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 1983 },
-      { type: OscarEnum.OSCAR_BEST_SOUND, year: 1983 },
-      { type: OscarEnum.OSCAR_BEST_SOUND_EDITING, year: 1983 },
-      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 1983 },
-    ],
-  },
-  {
-    title: 'Ready Player One',
-    director: 'Steven Spielberg',
-    actors: [
-      {
-        name: 'Olivia Cooke',
-      },
-      {
-        name: 'Ben Mendelsohn',
-      },
-      {
-        name: 'T.J. Miller',
-      },
-      {
-        name: 'Tye Sheridan',
-      },
-      {
-        name: 'Mark Rylance',
-      },
-      {
-        name: 'Lena Waithe',
-      },
-      {
-        name: 'Simon Pegg',
-      },
-    ],
-    coverUrl: '/movies_pictures/543f48eaef14.jpg',
-    releaseDate: '2018-03-29',
-    length: 140,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'En 2045, un adolescent participe à une chasse au trésor dans un univers virtuel pour gagner le contrôle d\'une méta-OASIS.',
-    fromEntity: {
-      entityType: 'book',
-      title: 'Player One',
-      secondEntityKey: 'Ernest Cline',
-    },
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 30,
-    oscars: [],
-  },
-  {
-    title: 'Le Cinquième Élément',
-    director: 'Luc Besson',
-    actors: [
-      {
-        name: 'Bruce Willis',
-      },
-      {
-        name: 'Gary Oldman',
-      },
-      {
-        name: 'Milla Jovovich',
-      },
-      {
-        name: 'Chris Tucker',
-      },
-      {
-        name: 'Ian Holm',
-      },
-      {
-        name: 'Tricky',
-      },
-      {
-        name: 'Lee Evans',
-      },
-    ],
-    coverUrl: '/movies_pictures/620762a07465.jpg',
-    releaseDate: '1997-05-07',
-    length: 126,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Un taxi corse et une femme venue de l\'espace doivent réunir les quatre éléments pour sauver la Terre d\'une destruction totale.',
-    fromEntity: null,
-    countryOrigin: ['France'],
-    selectDisplayOrder: 30,
-    oscars: [],
-  },
-  {
-    title: 'Serenity',
-    director: 'Joss Whedon',
-    actors: [
-      {
-        name: 'Nathan Fillion',
-      },
-      {
-        name: 'Gina Torres',
-      },
-      {
-        name: 'Alan Tudyk',
-      },
-      {
-        name: 'Morena Baccarin',
-      },
-      {
-        name: 'Adam Baldwin',
-      },
-      {
-        name: 'Jewel Staite',
-      },
-      {
-        name: 'Sean Maher',
-      },
-    ],
-    coverUrl: '/movies_pictures/serenity-0-150-0-225-crop.jpg',
-    releaseDate: '2005-09-30',
-    length: 119,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'L\'équipage d\'un vaisseau spatial rebelle découvre le secret d\'une expérience gouvernementale qui a créé des créatures cannibales.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'Valérian et la Cité des Mille Planètes',
-    director: 'Luc Besson',
-    actors: [
-      {
-        name: 'Dane DeHaan',
-      },
-      {
-        name: 'Cara Delevingne',
-      },
-      {
-        name: 'Clive Owen',
-      },
-      {
-        name: 'Rihanna',
-      },
-      {
-        name: 'Ethan Hawke',
-      },
-      {
-        name: 'Herbie Hancock',
-      },
-      {
-        name: 'Kris Wu',
-      },
-    ],
-    coverUrl:
-      '/movies_pictures/269458-valerian-and-the-city-of-a-thousand-planets-0-150-0-225-crop.jpg',
-    releaseDate: '2017-07-21',
-    length: 137,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Deux agents spatio-temporels enquêtent sur une menace dans Alpha, la métropole intergalactique la plus vaste de l\'univers.',
-    fromEntity: null,
-    countryOrigin: ['France'],
-    selectDisplayOrder: 30,
-    oscars: [],
-  },
-  {
-    title: 'Interstellar',
-    director: 'Christopher Nolan',
-    actors: [
-      { name: 'Matthew McConaughey' },
-      { name: 'Anne Hathaway' },
-      { name: 'Matt Damon' },
-      { name: 'Jessica Chastain' },
-      { name: 'Michael Caine' },
-      { name: 'Casey Affleck' },
-      { name: 'John Lithgow' },
-    ],
-    coverUrl: '/movies_pictures/eb5a5264b9bf.jpg',
-    releaseDate: '2014-11-07',
-    length: 169,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Des astronautes traversent un wormhole pour trouver une nouvelle planète habitable alors que la Terre agonise.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 30,
-    oscars: [{ type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2015 }],
-  },
-  {
-    title: 'Prédictions',
-    director: 'Alex Proyas',
-    actors: [
-      {
-        name: 'Nicolas Cage',
-      },
-      {
-        name: 'Rose Byrne',
-      },
-      {
-        name: 'Chandler Canterbury',
-      },
-      {
-        name: 'Lara Robinson',
-      },
-      {
-        name: 'Ben Mendelsohn',
-      },
-      {
-        name: 'Alethea McGrath',
-      },
-      {
-        name: 'Adrienne Pickering',
-      },
-    ],
-    coverUrl: '/movies_pictures/43577-knowing-0-150-0-225-crop.jpg',
-    releaseDate: '2009-03-20',
-    length: 121,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Après la découverte d\'une capsule temporelle, un professeur prédit une série de catastrophes et tente d\'empêcher la dernière.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'Jumper',
-    director: 'Doug Liman',
-    actors: [
-      {
-        name: 'Hayden Christensen',
-      },
-      {
-        name: 'Rachel Bilson',
-      },
-      {
-        name: 'Samuel L. Jackson',
-      },
-      {
-        name: 'Jamie Bell',
-      },
-      {
-        name: 'Diane Lane',
-      },
-      {
-        name: 'Michael Rooker',
-      },
-      {
-        name: 'AnnaSophia Robb',
-      },
-    ],
-    coverUrl: '/movies_pictures/47842-jumper-0-150-0-225-crop.jpg',
-    releaseDate: '2008-02-14',
-    length: 88,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Un jeune homme capable de se téléporter est traqué par une organisation qui élimine tous les jumpers.',
-    fromEntity: {
-      entityType: 'book',
-      title: 'Jumper',
-      secondEntityKey: 'Steven Gould',
-    },
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'Je Suis une Légende',
-    director: 'Francis Lawrence',
-    actors: [
-      {
-        name: 'Will Smith',
-      },
-      {
-        name: 'Alice Braga',
-      },
-      {
-        name: 'Charlie Tahan',
-      },
-      {
-        name: 'Salli Richardson-Whitfield',
-      },
-      {
-        name: 'Willow Smith',
-      },
-      {
-        name: 'Dash Mihok',
-      },
-      {
-        name: 'Emma Thompson',
-      },
-    ],
-    coverUrl: '/movies_pictures/ab8bfac00d5b.jpg',
-    releaseDate: '2007-12-14',
-    length: 101,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Seul survivant à New York après une épidémie, un scientifique teste des vaccins tout en affrontant des créatures nocturnes.',
-    fromEntity: {
-      entityType: 'book',
-      title: 'Je suis une légende',
-      secondEntityKey: 'Richard Matheson',
-    },
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 30,
-    oscars: [],
-  },
-  {
-    title: 'Push',
-    director: 'Paul McGuigan',
-    actors: [
-      {
-        name: 'Chris Evans',
-      },
-      {
-        name: 'Dakota Fanning',
-      },
-      {
-        name: 'Camilla Belle',
-      },
-      {
-        name: 'Djimon Hounsou',
-      },
-      {
-        name: 'Cliff Curtis',
-      },
-      {
-        name: 'Ming-Na Wen',
-      },
-      {
-        name: 'Nate Mooney',
-      },
-    ],
-    coverUrl: '/movies_pictures/19172439e197.jpg',
-    releaseDate: '2009-02-06',
-    length: 111,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Des individus aux pouvoirs psychiques affrontent une agence gouvernementale qui les traque dans Hong Kong.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'Super 8',
-    director: 'J.J. Abrams',
-    actors: [
-      {
-        name: 'Joel Courtney',
-      },
-      {
-        name: 'Elle Fanning',
-      },
-      {
-        name: 'Kyle Chandler',
-      },
-      {
-        name: 'Riley Griffiths',
-      },
-      {
-        name: 'Ryan Lee',
-      },
-      {
-        name: 'Ron Eldard',
-      },
-      {
-        name: 'Noah Emmerich',
-      },
-    ],
-    coverUrl: '/movies_pictures/super_8.jpg',
-    releaseDate: '2011-06-10',
-    length: 112,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'En 1979, des adolescents tournent un film super 8 et assistent à un accident ferroviaire libérant une créature extraterrestre.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'Inception',
-    director: 'Christopher Nolan',
-    actors: [
-      {
-        name: 'Leonardo DiCaprio',
-      },
-      {
-        name: 'Ken Watanabe',
-      },
-      {
-        name: 'Joseph Gordon-Levitt',
-      },
-      {
-        name: 'Marion Cotillard',
-      },
-      {
-        name: 'Elliot Page',
-      },
-      {
-        name: 'Tom Hardy',
-      },
-      {
-        name: 'Cillian Murphy',
-      },
-    ],
-    coverUrl: '/movies_pictures/1803af67b02e.jpg',
-    releaseDate: '2010-07-16',
-    length: 148,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Un voleur spécialisé dans l\'extraction de secrets pénètre les rêves pour implanter une idée dans l\'esprit d\'un héritier industriel.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 30,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 2011 },
-      { type: OscarEnum.OSCAR_BEST_SOUND, year: 2011 },
-      { type: OscarEnum.OSCAR_BEST_SOUND_EDITING, year: 2011 },
-      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2011 },
-    ],
-  },
-  {
-    title: 'Mr. Nobody',
-    director: 'Jaco Van Dormael',
-    actors: [
-      {
-        name: 'Jared Leto',
-      },
-      {
-        name: 'Sarah Polley',
-      },
-      {
-        name: 'Diane Kruger',
-      },
-      {
-        name: 'Linh-Dan Pham',
-      },
-      {
-        name: 'Rhys Ifans',
-      },
-      {
-        name: 'Natasha Little',
-      },
-      {
-        name: 'Toby Regbo',
-      },
-    ],
-    coverUrl: '/movies_pictures/mr_nobody.jpg',
-    releaseDate: '2009-09-12',
-    length: 141,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Le dernier mortel de l\'humanité raconte les multiples vies qu\'il aurait pu mener selon ses choix amoureux et existentiels.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 30,
-    oscars: [],
-  },
-  {
-    title: 'Edge of Tomorrow',
-    director: 'Doug Liman',
-    actors: [
-      {
-        name: 'Tom Cruise',
-      },
-      {
-        name: 'Bill Paxton',
-      },
-      {
-        name: 'Brendan Gleeson',
-      },
-      {
-        name: 'Charlotte Riley',
-      },
-      {
-        name: 'Emily Blunt',
-      },
-      {
-        name: 'Jonas Armstrong',
-      },
-      {
-        name: 'Noah Taylor',
-      },
-    ],
-    coverUrl: '/movies_pictures/a8e1262e7111.jpg',
-    releaseDate: '2014-06-06',
-    length: 113,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Un soldat revit le même jour de bataille contre des envahisseurs extraterrestres, affinant ses compétences à chaque mort.',
-    fromEntity: {
-      entityType: 'manga',
-      title: 'All You Need Is Kill',
-      secondEntityKey: 'Takeshi Obata',
-    },
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 30,
-    oscars: [],
-  },
-  {
-    title: 'Gravity',
-    director: 'Alfonso Cuarón',
-    actors: [
-      {
-        name: 'Sandra Bullock',
-      },
-      {
-        name: 'George Clooney',
-      },
-      {
-        name: 'Ed Harris',
-      },
-      {
-        name: 'Paul Sharma',
-      },
-      {
-        name: 'Amy Warren',
-      },
-    ],
-    coverUrl: '/movies_pictures/21023233_20130729173134181.webp',
-    releaseDate: '2013-10-04',
-    length: 91,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Deux astronautes piégés dans l\'espace après la destruction de leur navette luttent pour regagner la Terre.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 30,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_DIRECTOR, year: 2014 },
-      { type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 2014 },
-      { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 2014 },
-      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 2014 },
-      { type: OscarEnum.OSCAR_BEST_SOUND, year: 2014 },
-      { type: OscarEnum.OSCAR_BEST_SOUND_EDITING, year: 2014 },
-      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2014 },
-    ],
-  },
-  {
-    title: 'Elysium',
-    director: 'Neill Blomkamp',
-    actors: [
-      {
-        name: 'Matt Damon',
-      },
-      {
-        name: 'Jodie Foster',
-      },
-      {
-        name: 'William Fichtner',
-      },
-      {
-        name: 'Alice Braga',
-      },
-      {
-        name: 'Diego Luna',
-      },
-      {
-        name: 'Michael Shanks',
-      },
-      {
-        name: 'Sharlto Copley',
-      },
-    ],
-    coverUrl: '/movies_pictures/elysium.jpg',
-    releaseDate: '2013-08-09',
-    length: 109,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'En 2154, un ouvrier terrien infiltré dans la station orbitale luxueuse d\'Elysium tente de renverser l\'ordre social.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'After Earth',
-    director: 'M. Night Shyamalan',
-    actors: [
-      {
-        name: 'Will Smith',
-      },
-      {
-        name: 'Jaden Smith',
-      },
-      {
-        name: 'Zoë Kravitz',
-      },
-      {
-        name: 'Sophie Okonedo',
-      },
-      {
-        name: 'Isabelle Fuhrman',
-      },
-      {
-        name: 'David Denman',
-      },
-      {
-        name: 'Glenn Morshower',
-      },
-    ],
-    coverUrl: '/movies_pictures/after_earth.jpg',
-    releaseDate: '2013-05-31',
-    length: 100,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Père et fils crashés sur une Terre devenue hostile doivent traverser la planète pour activer un signal de détresse.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'Oblivion',
-    director: 'Joseph Kosinski',
-    actors: [
-      { name: 'Tom Cruise' },
-      { name: 'Morgan Freeman' },
-      { name: 'Andrea Riseborough' },
-      { name: 'Olga Kurylenko' },
-      { name: 'Melissa Leo' },
-      { name: 'Nikolaj Coster-Waldau' },
-      { name: 'Zoë Bell' },
-    ],
-    coverUrl: '/movies_pictures/62108-oblivion-0-150-0-225-crop.jpg',
-    releaseDate: '2013-04-19',
-    length: 124,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Un technicien de drones sur une Terre ravagée découvre qu\'il n\'est pas ce qu\'on lui a fait croire.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'Chronicle',
-    director: 'Josh Trank',
-    actors: [
-      {
-        name: 'Dane DeHaan',
-      },
-      {
-        name: 'Michael Kelly',
-      },
-      {
-        name: 'Alex Russell',
-      },
-      {
-        name: 'Michael B. Jordan',
-      },
-      {
-        name: 'Ashley Hinshaw',
-      },
-      {
-        name: 'Anna Wood',
-      },
-    ],
-    coverUrl: '/movies_pictures/chronicles.jpg',
-    releaseDate: '2012-02-03',
-    length: 84,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Trois lycéens acquièrent des pouvoirs télékinétiques qui transforment leurs vies et leurs rapports de force.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'Time Out',
-    director: 'Andrew Niccol',
-    actors: [
-      {
-        name: 'Amanda Seyfried',
-      },
-      {
-        name: 'Justin Timberlake',
-      },
-      {
-        name: 'Collins Pennie',
-      },
-      {
-        name: 'Cillian Murphy',
-      },
-      {
-        name: 'Olivia Wilde',
-      },
-      {
-        name: 'Matthew Bomer',
-      },
-      {
-        name: 'Alex Pettyfer',
-      },
-    ],
-    coverUrl: '/movies_pictures/19816803.jpg',
-    releaseDate: '2011-10-28',
-    length: 109,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Dans un futur où le temps est la monnaie, un homme riche accusé à tort de meurtre doit voler du temps pour survivre.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 30,
-    oscars: [],
-  },
-  {
-    title: 'Cowboys & Aliens',
-    director: 'Jon Favreau',
-    actors: [
-      {
-        name: 'Daniel Craig',
-      },
-      {
-        name: 'Abigail Spencer',
-      },
-      {
-        name: 'Matthew Taylor',
-      },
-      {
-        name: 'Clancy Brown',
-      },
-      {
-        name: 'Paul Dano',
-      },
-      {
-        name: 'Adam Beach',
-      },
-      {
-        name: 'Sam Rockwell',
-      },
-    ],
-    coverUrl: '/movies_pictures/cowboy_and_aliens.jpg',
-    releaseDate: '2011-07-29',
-    length: 118,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Un cow-boy amnésique et un rancher unissent leurs forces contre une invasion extraterrestre dans le Far West.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'The Running Man',
-    director: 'Paul Michael Glaser',
-    actors: [
-      {
-        name: 'Arnold Schwarzenegger',
-      },
-      {
-        name: 'María Conchita Alonso',
-      },
-      {
-        name: 'Yaphet Kotto',
-      },
-      {
-        name: 'Jim Brown',
-      },
-      {
-        name: 'Jesse Ventura',
-      },
-      {
-        name: 'Charles Kalani',
-      },
-      {
-        name: 'Dweezil Zappa',
-      },
-    ],
-    coverUrl: '/movies_pictures/51287-the-running-man-0-150-0-225-crop.jpg',
-    releaseDate: '1987-11-13',
-    length: 101,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Dans un futur dystopique, un homme est forcé de participer à un jeu télévisé mortel où il est traqué par des tueurs.',
-    fromEntity: {
-      entityType: 'book',
-      title: 'Running man',
-      secondEntityKey: 'Stephen King',
-    },
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'Total Recall',
-    director: 'Paul Verhoeven',
-    actors: [
-      {
-        name: 'Arnold Schwarzenegger',
-      },
-      {
-        name: 'Ronny Cox',
-      },
-      {
-        name: 'Sharon Stone',
-      },
-      {
-        name: 'Rachel Ticotin',
-      },
-      {
-        name: 'Michael Ironside',
-      },
-      {
-        name: 'Dean Norris',
-      },
-      {
-        name: 'Marshall Bell',
-      },
-    ],
-    coverUrl: '/movies_pictures/51291-total-recall-0-150-0-225-crop.jpg',
-    releaseDate: '1990-06-01',
-    length: 113,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Un ouvrier terrien achète des souvenirs martiens factices et découvre qu\'il est peut-être un agent double.',
-    fromEntity: {
-      entityType: 'book',
-      title: "We Can Remember It for You Wholesale",
-      secondEntityKey: "Philip K. Dick",
-    },
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [{ type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 1991 }],
-  },
-  {
-    title: 'Adam à travers le temps',
-    director: 'Shawn Levy',
-    actors: [
-      {
-        name: 'Ryan Reynolds',
-      },
-      {
-        name: 'Zoe Saldana',
-      },
-      {
-        name: 'Mark Ruffalo',
-      },
-      {
-        name: 'Jennifer Gardner',
-      },
-    ],
-    coverUrl: '/movies_pictures/4623310.jpg',
-    releaseDate: '2022-03-11',
-    length: 106,
-    genre: ['Science Fiction', 'Action'],
-    saga: '',
-    description: 'Un pilote de chasse du XXe siècle se retrouve propulsé en 2022 et doit s\'allier à son fils pour sauver le futur.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'The Electric State',
-    director: 'Anthony Russo, Joe Russo',
-    actors: [
-      {
-        name: 'Millie Bobby Brown',
-      },
-      {
-        name: 'Chris Pratt',
-      },
-      {
-        name: 'Jonathan Ke Quan',
-      },
-      {
-        name: 'Stanley Tucci',
-      },
-      {
-        name: 'Jason Alexander',
-      },
-      {
-        name: 'Giancarlo Esposito',
-      },
-      {
-        name: 'Woody Norman',
-      },
-    ],
-    coverUrl: '/movies_pictures/91d914b62cd0ddfc76c549ccd619abce.webp',
-    releaseDate: '2025-01-10',
-    length: 128,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Une adolescente et un robot traversent l\'Amérique post-apocalyptique pour retrouver son frère dans un monde dominé par l\'IA.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'Renaissances',
-    director: 'Tarsem Singh',
-    actors: [
-      {
-        name: 'Ryan Reynolds',
-      },
-      {
-        name: 'Ben Kingsley',
-      },
-      {
-        name: 'Matthew Goode',
-      },
-      {
-        name: 'Michelle Dockery',
-      },
-      {
-        name: 'Natalie Martinez',
-      },
-      {
-        name: 'Derek Luke',
-      },
-      {
-        name: 'Victor Garber',
-      },
-    ],
-    coverUrl: '/movies_pictures/510747.jpg',
-    releaseDate: '2015-07-29',
-    length: 117,
-    genre: ['Science Fiction', 'Action'],
-    saga: '',
-    description: 'Un scientifique transfère sa conscience dans un corps plus jeune, mais le processus le rend instable et dangereux.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'Companion',
-    director: 'Drew Hancock',
-    actors: [
-      {
-        name: 'Sophie Thatcher',
-      },
-      {
-        name: 'Jack Quaid',
-      },
-      {
-        name: 'Lukas Gage',
-      },
-      {
-        name: 'Megan Suri',
-      },
-      {
-        name: 'Harvey Guillén',
-      },
-      {
-        name: 'Rupert Friend',
-      },
-      {
-        name: 'Jaboukie Young-White',
-      },
-    ],
-    coverUrl: '/movies_pictures/4ffee73796c73bcc7b7f695ef6a18f61.jpg',
-    releaseDate: '2025-01-31',
-    length: 97,
-    genre: ['Science Fiction', 'Thriller'],
-    saga: '',
-    description: 'Lors d\'un week-end entre amis, une femme découvre que sa compagne est une androïde dont la programmation cache des secrets mortels.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'Predestination',
-    director: 'Michael Spierig, Peter Spierig',
-    actors: [
-      {
-        name: 'Ethan Hawke',
-      },
-      {
-        name: 'Sarah Snook',
-      },
-      {
-        name: 'Noah Taylor',
-      },
-      {
-        name: 'Christopher Kirby',
-      },
-      {
-        name: 'Jim Knobeloch',
-      },
-    ],
-    coverUrl: '/movies_pictures/p11111906_p_v11_av.jpg',
-    releaseDate: '2014-08-28',
-    length: 97,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Un agent temporel traque un terroriste à travers le temps et découvre une boucle existentielle troublante.',
-    fromEntity: {
-      entityType: 'book',
-      title: "All You Zombies",
-      secondEntityKey: "Robert A. Heinlein",
-    },
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'Looper',
-    director: 'Rian Johnson',
-    actors: [
-      {
-        name: 'Joseph Gordon-Levitt',
-      },
-      {
-        name: 'Bruce Willis',
-      },
-      {
-        name: 'Emily Blunt',
-      },
-      {
-        name: 'Paul Dano',
-      },
-      {
-        name: 'Piper Perabo',
-      },
-      {
-        name: 'Jeff Daniels',
-      },
-      {
-        name: 'Tracie Thoms',
-      },
-    ],
-    coverUrl: '/movies_pictures/20239211.webp',
-    releaseDate: '2012-09-28',
-    length: 118,
-    genre: ['Science Fiction', 'Action'],
-    saga: '',
-    description: 'Des tueurs exécutent des cibles envoyées du futur jusqu\'à ce qu\'un homme doive abattre sa propre version âgée.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'Seul sur Mars',
-    director: 'Ridley Scott',
-    actors: [
-      {
-        name: 'Matt Damon',
-      },
-      {
-        name: 'Jessica Chastain',
-      },
-      {
-        name: 'Kristen Wiig',
-      },
-      {
-        name: 'Jeff Daniels',
-      },
-      {
-        name: 'Michael Peña',
-      },
-      {
-        name: 'Kate Mara',
-      },
-      {
-        name: 'Sean Bean',
-      },
-    ],
-    coverUrl: '/movies_pictures/305329.jpg',
-    releaseDate: '2015-09-30',
-    length: 141,
-    genre: ['Science Fiction', 'Aventure'],
-    saga: '',
-    description: 'Un astronaute abandonné sur Mars doit survivre en cultivant des pommes de terre en attendant une mission de secours.',
-    fromEntity: {
-      entityType: 'book',
-      title: "Seul sur Mars",
-      secondEntityKey: "Andy Weir",
-    },
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 30,
-    oscars: [],
-  },
-  {
-    title: 'Seul contre tous',
-    director: 'Peter Landesman',
-    actors: [
-      {
-        name: 'Kevin Sorbo',
-      },
-      {
-        name: 'Yvette Nipar',
-      },
-      {
-        name: 'Elizabeth Barondes',
-      },
-      {
-        name: 'Haley Ramm',
-      },
-      {
-        name: 'Rodrigo De la Rosa',
-      },
-      {
-        name: 'Jonny Cruz',
-      },
-      {
-        name: 'Mark W. Johnson',
-      },
-    ],
-    coverUrl: '/movies_pictures/438540.jpg',
-    releaseDate: '2007-12-14',
-    length: 101,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Un journaliste enquête sur les effets neurologiques du football américain, malgré la pression de la NFL.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'La Fin des temps',
-    director: 'Peter Hyams',
-    actors: [
-      {
-        name: 'Arnold Schwarzenegger',
-      },
-      {
-        name: 'Robin Tunney',
-      },
-      {
-        name: 'Gabriel Byrne',
-      },
-      {
-        name: 'Rod Steiger',
-      },
-      {
-        name: 'Kevin Pollak',
-      },
-      {
-        name: 'CCH Pounder',
-      },
-      {
-        name: 'Miriam Margolyes',
-      },
-    ],
-    coverUrl: '/movies_pictures/066451.webp',
-    releaseDate: '1999-09-03',
-    length: 123,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Un policier traque un criminel capable de voyager dans le temps pour commettre des meurtres dans le passé.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: "L'Armée des 12 singes",
-    director: 'Terry Gilliam',
-    actors: [
-      { name: 'Bruce Willis' },
-      { name: 'Brad Pitt' },
-      { name: 'Madeleine Stowe' },
-      { name: 'Christopher Plummer' },
-      { name: 'David Morse' },
-      { name: 'Frank Gorshin' },
-      { name: 'Joseph Melito' },
-    ],
-    coverUrl: '/movies_pictures/81xkdqlwzymi3f4idfcep3chngs-175.jpg',
-    releaseDate: '1995-12-27',
-    length: 129,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Un prisonnier est envoyé dans le passé pour identifier le virus qui a décimé l\'humanité, mais le temps se complique.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 30,
-    oscars: [],
-  },
-  {
-    title: 'Clones',
-    director: 'Jonathan Mostow',
-    actors: [
-      {
-        name: 'Bruce Willis',
-      },
-      {
-        name: 'Radha Mitchell',
-      },
-      {
-        name: 'Rosamund Pike',
-      },
-      {
-        name: 'Boris Kodjoe',
-      },
-      {
-        name: 'Jack Noseworthy',
-      },
-      {
-        name: 'James Cromwell',
-      },
-      {
-        name: 'Ving Rhames',
-      },
-    ],
-    coverUrl: '/movies_pictures/19169762.jpg',
-    releaseDate: '2009-05-22',
-    length: 115,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Un soldat clone découvre qu\'il n\'est qu\'un des nombreux exemplaires d\'un programme militaire secret.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'Ad Astra',
-    director: 'James Gray',
-    actors: [
-      {
-        name: 'Brad Pitt',
-      },
-      {
-        name: 'Ruth Negga',
-      },
-      {
-        name: 'Jamie Kennedy',
-      },
-      {
-        name: 'Donal Sutherland',
-      },
-      {
-        name: 'Tommy Lee Jones',
-      },
-      {
-        name: 'Kimberly Elise',
-      },
-      {
-        name: 'Loren Dean',
-      },
-    ],
-    coverUrl: '/movies_pictures/ad-astra.jpg',
-    releaseDate: '2019-09-20',
-    length: 123,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Un astronaute traverse le système solaire pour retrouver son père disparu près de Neptune et stopper une menace planétaire.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'Cloud Atlas',
-    director: 'Lana Wachowski, Lilly Wachowski, Tom Tykwer',
-    actors: [
-      {
-        name: 'Tom Hanks',
-      },
-      {
-        name: 'Hugh Grant',
-      },
-      {
-        name: 'Halle Berry',
-      },
-      {
-        name: 'Jim Broadbent',
-      },
-      {
-        name: 'Hugo Weaving',
-      },
-      {
-        name: 'Jim Sturgess',
-      },
-      {
-        name: "James D'Arcy",
-      },
-    ],
-    coverUrl: '/movies_pictures/91+OVDe-sGL.jpg',
-    releaseDate: '2012-10-26',
-    length: 172,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Six histoires entrelacées à travers les siècles montrent comment les actions des uns résonnent sur les vies des autres.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'Finch',
-    director: 'Miguel Sapochnik',
-    actors: [
-      {
-        name: 'Tom Hanks',
-      },
-      {
-        name: 'Caleb Landry Jones',
-      },
-      {
-        name: 'Skeet Ulrich',
-      },
-      {
-        name: 'Oscar Avila',
-      },
-      {
-        name: 'Christopher Farrar',
-      },
-      {
-        name: 'Lora Martinez-Cunningham',
-      },
-    ],
-    coverUrl: '/movies_pictures/3777037.webp',
-    releaseDate: '2021-11-05',
-    length: 115,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Un inventeur, son chien et un robot traversent l\'Amérique post-apocalyptique pour protéger une jeune fille.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'Vanilla Sky',
-    director: 'Cameron Crowe',
-    actors: [
-      {
-        name: 'Tom Cruise',
-      },
-      {
-        name: 'Penélope Cruz',
-      },
-      {
-        name: 'Cameron Diaz',
-      },
-      {
-        name: 'Kurt Russell',
-      },
-      {
-        name: 'Jason Lee',
-      },
-      {
-        name: 'Noah Taylor',
-      },
-      {
-        name: 'Timothy Spall',
-      },
-    ],
-    coverUrl: '/movies_pictures/vanilla.jpg',
-    releaseDate: '2001-12-14',
-    length: 136,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Un playboy new-yorkais défiguré dans un accident revit ses souvenirs dans un mélange de rêve, de culpabilité et de réalité virtuelle.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'Okja',
-    director: 'Bong Joon-ho',
-    actors: [
-      {
-        name: 'Ahn Seo-hyeon',
-      },
-      {
-        name: 'Jake Gyllenhaal',
-      },
-      {
-        name: 'Tilda Swinton',
-      },
-      {
-        name: 'Paul Dano',
-      },
-      {
-        name: 'Steven Yeun',
-      },
-      {
-        name: 'Lily Collins',
-      },
-      {
-        name: 'Shirley Henderson',
-      },
-    ],
-    coverUrl: '/movies_pictures/039567.webp',
-    releaseDate: '2017-06-28',
-    length: 120,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Une jeune fille coréenne défend Okja, un super-porc génétiquement modifié, contre une multinationale agroalimentaire.',
-    fromEntity: null,
-    countryOrigin: ['Corée du Sud'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'Reminiscence',
-    director: 'Lisa Joy',
-    actors: [
-      {
-        name: 'Hugh Jackman',
-      },
-      {
-        name: 'Rebecca Ferguson',
-      },
-      {
-        name: 'Thandiwe Newton',
-      },
-      {
-        name: 'Cliff Curtis',
-      },
-      {
-        name: 'Marina de Tavira',
-      },
-      {
-        name: 'Daniel Wu',
-      },
-      {
-        name: 'Mojean Aria',
-      },
-    ],
-    coverUrl: '/movies_pictures/3991427.webp',
-    releaseDate: '2021-08-20',
-    length: 116,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Dans une Miami inondée, un homme utilise une machine de réminiscence pour retrouver une femme disparue et découvrir une conspiration.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'A Scanner Darkly',
-    director: 'Richard Linklater',
-    actors: [
-      {
-        name: 'Keanu Reeves',
-      },
-      {
-        name: 'Robert Downey Jr.',
-      },
-      {
-        name: 'Woody Harrelson',
-      },
-      {
-        name: 'Winona Ryder',
-      },
-      {
-        name: 'Rory Cochrane',
-      },
-      {
-        name: 'Alex Jones',
-      },
-      {
-        name: 'Jason Douglas',
-      },
-    ],
-    coverUrl: '/movies_pictures/18653553.webp',
-    releaseDate: '2006-07-28',
-    length: 100,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Un agent infiltré dans le monde de la drogue perd progressivement son identité sous l\'effet d\'une substance hallucinogène.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'Spaceman',
-    director: 'Johan Renck',
-    actors: [
-      {
-        name: 'Adam Sandler',
-      },
-      {
-        name: 'Carey Mulligan',
-      },
-      {
-        name: 'Paul Dano',
-      },
-      {
-        name: 'Kunal Nayyar',
-      },
-      {
-        name: 'Lena Olin',
-      },
-      {
-        name: 'Isabella Rossellini',
-      },
-    ],
-    coverUrl: '/movies_pictures/1465606.jpg',
-    releaseDate: '2024-03-01',
-    length: 108,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Un astronaute isolé dans l\'espace profond dialogue avec une créature mystérieuse née dans son vaisseau pendant sa mission.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'The Island',
-    director: 'Michael Bay',
-    actors: [
-      { name: 'Scarlett Johansson' },
-      { name: 'Ewan McGregor' },
-      { name: 'Djimon Hounsou' },
-      { name: 'Sean Bean' },
-      { name: 'Steve Buscemi' },
-      { name: 'Michael Clarke Duncan' },
-      { name: 'Ethan Phillips' },
-    ],
-    coverUrl: '/movies_pictures/71ugYlYCs0L._AC_UF894,1000_QL80_.jpg',
-    releaseDate: '2005-07-22',
-    length: 136,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Des résidents d\'un complexe utopique découvrent qu\'ils sont des clones destinés à fournir des organes à leurs originaux.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'Ghost in the Shell',
-    director: 'Rupert Sanders',
-    actors: [
-      {
-        name: 'Scarlett Johansson',
-      },
-      {
-        name: 'Johan Philip Pilou Asbæk',
-      },
-      {
-        name: 'Michael Pitt',
-      },
-      {
-        name: 'Takeshi Kitano',
-      },
-      {
-        name: 'Juliette Binoche',
-      },
-      {
-        name: 'Kaori Momoi',
-      },
-      {
-        name: 'Chin Han',
-      },
-    ],
-    coverUrl: '/movies_pictures/314818.webp',
-    releaseDate: '2017-03-31',
-    length: 107,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Une cyborg d\'élite traque un hacker capable de pirater l\'esprit des humains augmentés.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'Final cut',
-    director: 'Omar Naim',
-    actors: [
-      {
-        name: 'Robin Williams',
-      },
-      {
-        name: 'Mira Sorvino',
-      },
-      {
-        name: 'Jim Caviezel',
-      },
-      {
-        name: 'Stephanie Romanov',
-      },
-      {
-        name: 'Mimi Kuzyk',
-      },
-      {
-        name: 'Genevieve Buechner',
-      },
-      {
-        name: 'Brendan Fletcher',
-      },
-    ],
-    coverUrl: '/movies_pictures/18403565.jpg',
-    releaseDate: '2004-09-10',
-    length: 106,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Un monteur édite les souvenirs des mourants jusqu\'à ce qu\'un passé troublant remonte à la surface.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'Deep Impact',
-    director: 'Mimi Leder',
-    actors: [
-      {
-        name: 'Robert Duvall',
-      },
-      {
-        name: 'Téa Leoni',
-      },
-      {
-        name: 'Elijah Wood',
-      },
-      {
-        name: 'Vanessa Redgrave',
-      },
-      {
-        name: 'Maximilian Schell',
-      },
-      {
-        name: 'James Cromwell',
-      },
-      {
-        name: 'Ron Eldard',
-      },
-    ],
-    coverUrl:
-      '/movies_pictures/i-watched-deep-impact-1998-v0-czgltc72dm6d1.webp',
-    releaseDate: '1998-05-08',
-    length: 120,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Face à la collision imminente d\'une comète avec la Terre, l\'humanité prépare l\'évacuation et l\'impact.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'Transcendance',
-    director: 'Wally Pfister',
-    actors: [
-      { name: 'Morgan Freeman' },
-      { name: 'Johnny Depp' },
-      { name: 'Rebecca Ferguson' },
-      { name: 'Rebecca Hall' },
-      { name: 'Paul Bettany' },
-      { name: 'Kate Mara' },
-      { name: 'Cillian Murphy' },
-    ],
-    coverUrl: '/movies_pictures/543364.jpg',
-    releaseDate: '2014-04-18',
-    length: 119,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'La conscience d\'un chercheur en IA est téléchargée dans un ordinateur, lui conférant des pouvoirs qui inquiètent le monde.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'Signes',
-    director: 'M. Night Shyamalan',
-    actors: [
-      {
-        name: 'Mel Gibson',
-      },
-      {
-        name: 'Joaquin Phoenix',
-      },
-      {
-        name: 'Abigail Breslin',
-      },
-      {
-        name: 'Rory Culkin',
-      },
-      {
-        name: 'Cherry Jones',
-      },
-      {
-        name: 'M. Night Shyamalan',
-      },
-      {
-        name: 'Angela Eckert',
-      },
-    ],
-    coverUrl: '/movies_pictures/fsgdgdfgf.jpg',
-    releaseDate: '2002-01-01',
-    length: 106,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Un ancien prêtre découvre des cercles mystérieux dans ses champs de maïs, signes d\'une présence extraterrestre.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 30,
-    oscars: [],
-  },
-  {
-    title: 'Annihilation',
-    director: 'Alex Garland',
-    actors: [
-      {
-        name: 'Natalie Portman',
-      },
-      {
-        name: 'Jennifer Jason Leigh',
-      },
-      {
-        name: 'Oscar Isaac',
-      },
-      {
-        name: 'Gina Rodriguez',
-      },
-      {
-        name: 'Tessa Thompson',
-      },
-      {
-        name: 'Tuva Novotny',
-      },
-      {
-        name: 'Benedict Wong',
-      },
-    ],
-    coverUrl: '/movies_pictures/5079145.webp',
-    releaseDate: '2018-01-01',
-    length: 115,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Une biologiste rejoint une expédition dans une zone mutante où les lois de la nature ne s\'appliquent plus.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'Passengers',
-    director: 'Morten Tyldum',
-    actors: [
-      {
-        name: 'Jennifer Lawrence',
-      },
-      {
-        name: 'Chris Pratt',
-      },
-      {
-        name: 'Michael Sheen',
-      },
-      {
-        name: 'Laurence Fishburne',
-      },
-      {
-        name: 'Andy García',
-      },
-      {
-        name: 'Aurora Perrineau',
-      },
-      {
-        name: 'Fred Melamed',
-      },
-    ],
-    coverUrl: '/movies_pictures/405336.webp',
-    releaseDate: '2016-12-21',
-    length: 116,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Deux passagers d\'un vaisseau interstellaire se réveillent prématurément et doivent vivre ensemble pendant des décennies de voyage.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'La Mutante',
-    director: 'Roger Donaldson',
-    actors: [
-      {
-        name: 'Ben Kingsley',
-      },
-      {
-        name: 'Michael Madsen',
-      },
-      {
-        name: 'Alfred Molina',
-      },
-      {
-        name: 'Forest Whitaker',
-      },
-      {
-        name: 'Marg Helgenberger',
-      },
-      {
-        name: 'Natasha Henstridge',
-      },
-      {
-        name: 'Michelle Williams',
-      },
-    ],
-    coverUrl: '/movies_pictures/la-mutante-affiche-VOD.jpg',
-    releaseDate: '1995-07-07',
-    length: 108,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Une journaliste enquête sur une créature hybride humain-requin créée par des expériences militaires.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'Anon',
-    director: 'Andrew Niccol',
-    actors: [
-      {
-        name: 'Clive Owen',
-      },
-      {
-        name: 'Amanda Seyfried',
-      },
-      {
-        name: 'Colm Feore',
-      },
-      {
-        name: "Mark O'Brien",
-      },
-      {
-        name: 'Sonya Walger',
-      },
-      {
-        name: 'Joe Pingue',
-      },
-      {
-        name: 'Iddo Goldberg',
-      },
-    ],
-    coverUrl: '/movies_pictures/1599322.webp',
-    releaseDate: '2018-05-04',
-    length: 100,
-    genre: ['Science Fiction', 'Thriller'],
-    saga: '',
-    description: 'Dans un futur sans intimité, une enquêtrice traque un tueur qui efface ses traces visuelles numériques.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'Seven Sisters',
-    director: 'Tommy Wirkola',
-    actors: [
-      { name: 'Noomi Rapace' },
-      { name: 'Glenn Close' },
-      { name: 'Willem Dafoe' },
-      { name: 'Marwan Kenzari' },
-      { name: 'Christian Rubeck' },
-      { name: 'Pal Sverre Hagen' },
-      { name: 'Clara Read' },
-    ],
-    coverUrl: '/movies_pictures/162904.webp',
-    releaseDate: '2017-08-30',
-    length: 123,
-    genre: ['Science Fiction', 'Thriller'],
-    saga: '',
-    description: 'Dans un futur où la natalité est limitée à un enfant par famille, sept sœurs partagent une seule identité publique.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: "2001 : L'Odyssée de l'espace",
-    director: 'Stanley Kubrick',
-    actors: [
-      {
-        name: 'Keir Dullea',
-      },
-      {
-        name: 'Gary Lockwood',
-      },
-      {
-        name: 'William Sylvester',
-      },
-      {
-        name: 'Leonard Rossiter',
-      },
-      {
-        name: 'Margaret Tyzack',
-      },
-      {
-        name: 'Robert Beatty',
-      },
-      {
-        name: 'Sean Sullivan',
-      },
-    ],
-    coverUrl: '/movies_pictures/2001-lodyssee-de-lespace.jpg',
-    releaseDate: '2018-07-30',
-    length: 149,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'De la préhistoire au voyage vers Jupiter, l\'humanité interagit avec une mystérieuse monolithe et une IA nommée HAL.',
-    fromEntity: null,
-    countryOrigin: ['France'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'Dune',
-    director: 'David Lynch',
-    actors: [
-      {
-        name: 'Max von Sydow',
-      },
-      {
-        name: 'Kyle MacLachlan',
-      },
-      {
-        name: 'Francesca Annis',
-      },
-      {
-        name: 'Sting',
-      },
-      {
-        name: 'Leonardo Cimino',
-      },
-      {
-        name: 'Brad Dourif',
-      },
-      {
-        name: 'Linda Hunt',
-      },
-    ],
-    coverUrl: '/movies_pictures/d99e21e694eb.jpeg',
-    releaseDate: '1984-12-14',
-    length: 137,
-    genre: ['Science Fiction', 'Aventure', 'Drame'],
-    saga: '',
-    description: 'Sur la planète Arrakis, source d\'une épice vitale, un jeune noble mène la rébellion des Fremen contre l\'Empire.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'Mimic',
-    director: 'Guillermo del Toro',
-    actors: [
-      {
-        name: 'Mira Sorvino',
-      },
-      {
-        name: 'Jeremy Northam',
-      },
-      {
-        name: 'Josh Brolin',
-      },
-      {
-        name: 'Charles S. Dutton',
-      },
-      {
-        name: 'Giancarlo Giannini',
-      },
-      {
-        name: 'F. Murray Abraham',
-      },
-      {
-        name: 'Alexander Goodwin',
-      },
-    ],
-    coverUrl: '/movies_pictures/7d89a4ef4932.jpg',
-    releaseDate: '1997-08-22',
-    length: 105,
-    genre: ['Science Fiction', 'Horreur', 'Thriller'],
-    saga: '',
-    description: 'Des insectes génétiquement modifiés pour tuer des cockroaches mutent et prennent la forme de leurs proies humaines.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'THX 1138',
-    director: 'George Lucas',
-    actors: [
-      {
-        name: 'Robert Duvall',
-      },
-      {
-        name: 'Donald Pleasence',
-      },
-      {
-        name: 'Don Pedro Colley',
-      },
-      {
-        name: 'Maggie McOmie',
-      },
-      {
-        name: 'Ian Wolfe',
-      },
-      {
-        name: 'Sid Haig',
-      },
-      {
-        name: 'Matthew Robbins',
-      },
-    ],
-    coverUrl: '/movies_pictures/a2bb0eb07061.jpg',
-    releaseDate: '1971-03-11',
-    length: 88,
-    genre: ['Science Fiction', 'Dystopie', 'Drame'],
-    saga: '',
-    description: 'Dans une cité souterraine totalitaire, un homme cesse de prendre ses médicaments émotions-suppressives et tente de s\'évader.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'Videodrome',
-    director: 'David Cronenberg',
-    actors: [
-      {
-        name: 'James Woods',
-      },
-      {
-        name: 'Sonja Smits',
-      },
-      {
-        name: 'Debbie Harry',
-      },
-      {
-        name: 'Leslie Carlson',
-      },
-      {
-        name: 'Peter Dvorský',
-      },
-      {
-        name: 'Jack Creley',
-      },
-      {
-        name: 'Jayne Eastwood',
-      },
-    ],
-    coverUrl: '/movies_pictures/8c3008eafcbf.jpg',
-    releaseDate: '1983-02-04',
-    length: 87,
-    genre: ['Science Fiction', 'Horreur', 'Thriller'],
-    saga: '',
-    description: 'Un propriétaire de chaîne de télévision est exposé à des signaux qui provoquent des hallucinations et des mutations corporelles.',
-    fromEntity: null,
-    countryOrigin: ['Canada'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'La Mouche',
-    director: 'David Cronenberg',
-    actors: [
-      {
-        name: 'Jeff Goldblum',
-      },
-      {
-        name: 'Geena Davis',
-      },
-      {
-        name: 'John Getz',
-      },
-      {
-        name: 'George Chuvalo',
-      },
-      {
-        name: 'David Cronenberg',
-      },
-    ],
-    coverUrl: '/movies_pictures/11f541ce75b9.jpg',
-    releaseDate: '1986-08-15',
-    length: 96,
-    genre: ['Science Fiction', 'Horreur', 'Drame'],
-    saga: '',
-    description: 'Un scientifique fusionne accidentellement son ADN avec celui d\'une mouche, se transformant progressivement en créature monstrueuse.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis', 'Canada'],
-    selectDisplayOrder: 0,
-    oscars: [{ type: OscarEnum.OSCAR_BEST_MAKEUP, year: 1987 }],
-  },
-  {
-    title: 'eXistenZ',
-    director: 'David Cronenberg',
-    actors: [
-      {
-        name: 'Jennifer Jason Leigh',
-      },
-      {
-        name: 'Jude Law',
-      },
-      {
-        name: 'Ian Holm',
-      },
-      {
-        name: 'Don McKellar',
-      },
-      {
-        name: 'Callum Keith Rennie',
-      },
-      {
-        name: 'Sarah Polley',
-      },
-      {
-        name: 'Christopher Eccleston',
-      },
-    ],
-    coverUrl: '/movies_pictures/fddf2bb65a50.jpg',
-    releaseDate: '1999-04-23',
-    length: 97,
-    genre: ['Science Fiction', 'Thriller', 'Horreur'],
-    saga: '',
-    description: 'Une créatrice de jeux de réalité virtuelle est traquée alors que la frontière entre le jeu et la réalité disparaît.',
-    fromEntity: null,
-    countryOrigin: ['Canada', 'Royaume-Uni', 'France'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'Scanners',
-    director: 'David Cronenberg',
-    actors: [
-      {
-        name: 'Stephen Lack',
-      },
-      {
-        name: "Jennifer O'Neill",
-      },
-      {
-        name: 'Patrick McGoohan',
-      },
-      {
-        name: 'Michael Ironside',
-      },
-      {
-        name: 'Heiner Lauterbach',
-      },
-      {
-        name: 'Niels Clausnitzer',
-      },
-      {
-        name: 'Manfred Schott',
-      },
-    ],
-    coverUrl: '/movies_pictures/556b6a1eebb6.jpg',
-    releaseDate: '1981-01-14',
-    length: 103,
-    genre: ['Science Fiction', 'Horreur', 'Thriller'],
-    saga: '',
-    description: 'Des individus dotés de pouvoirs télépathiques et télékinétiques sont utilisés comme armes par des corporations.',
-    fromEntity: null,
-    countryOrigin: ['Canada'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'They Live',
-    director: 'John Carpenter',
-    actors: [
-      {
-        name: 'Roddy Piper',
-      },
-      {
-        name: 'Keith David',
-      },
-      {
-        name: 'Meg Foster',
-      },
-      {
-        name: 'Raymond St. Jacques',
-      },
-      {
-        name: 'George Buck Flower',
-      },
-      {
-        name: 'Sy Richardson',
-      },
-      {
-        name: 'Tommy Morrison',
-      },
-    ],
-    coverUrl: '/movies_pictures/c1817fae3f28.jpg',
-    releaseDate: '1988-11-23',
-    length: 94,
-    genre: ['Science Fiction', 'Action', 'Thriller'],
-    saga: '',
-    description: 'Un vagabond découvre des lunettes spéciales révélant que les élites sont des extraterrestres contrôlant l\'humanité par la propagande.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'Snowpiercer',
-    director: 'Bong Joon-ho',
-    actors: [
-      {
-        name: 'Jennifer Connelly',
-      },
-      {
-        name: 'Daveed Diggs',
-      },
-      {
-        name: 'Mickey Sumner',
-      },
-      {
-        name: 'Annalise Basso',
-      },
-      {
-        name: 'Alison Wright',
-      },
-      {
-        name: 'Susan Park',
-      },
-      {
-        name: 'Lena Hall',
-      },
-    ],
-    coverUrl: '/movies_pictures/21038075_20130909110053289.jpg',
-    releaseDate: '2013-07-29',
-    length: 126,
-    genre: ['Science Fiction', 'Thriller'],
-    saga: '',
-    description: 'Sur un train circulant éternellement autour d\'une Terre gelée, les passagers du dernier wagon se révoltent contre l\'ordre social.',
-    fromEntity: null,
-    countryOrigin: ['Corée du Sud'],
-    selectDisplayOrder: 30,
-    oscars: [],
-  },
-  {
-    title: 'District 9',
-    director: 'Neill Blomkamp',
-    actors: [
-      {
-        name: 'Sharlto Copley',
-      },
-      {
-        name: 'David James',
-      },
-      {
-        name: 'Nathalie Boltt',
-      },
-      {
-        name: 'Sylvaine Strike',
-      },
-      {
-        name: 'John Sumner',
-      },
-      {
-        name: 'Jed Brophy',
-      },
-      {
-        name: 'Vittorio Leonardi',
-      },
-    ],
-    coverUrl: '/movies_pictures/19149593.webp',
-    releaseDate: '2009-08-14',
-    length: 112,
-    genre: ['Science Fiction', 'Thriller'],
-    saga: '',
-    description: 'Des extraterrestres réfugiés dans un bidonville sud-africain sont relocalisés de force, révélant le racisme et la corruption.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 30,
-    oscars: [],
-  },
-  {
-    title: 'Gattaca',
-    director: 'Andrew Niccol',
-    actors: [
-      {
-        name: 'Uma Thurman',
-      },
-      {
-        name: 'Ethan Hawke',
-      },
-      {
-        name: 'Jude Law',
-      },
-      {
-        name: 'Alan Arkin',
-      },
-      {
-        name: 'Gore Vidal',
-      },
-      {
-        name: 'Ernest Borgnine',
-      },
-      {
-        name: 'Tony Shalhoub',
-      },
-    ],
-    coverUrl: '/movies_pictures/71DgyEsdJML._AC_UF1000,1000_QL80_.jpg',
-    releaseDate: '1997-10-24',
-    length: 106,
-    genre: ['Science Fiction', 'Thriller'],
-    saga: '',
-    description: 'Dans une société eugéniste, un homme né naturellement usurpe l\'identité génétique d\'un autre pour devenir astronaute.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 30,
-    oscars: [],
-  },
-  {
-    title: 'Mars Attacks !',
-    director: 'Tim Burton',
-    actors: [
-      {
-        name: 'Lukas Haas',
-      },
-      {
-        name: 'Jack Nicholson',
-      },
-      {
-        name: 'Sylvia Sidney',
-      },
-      {
-        name: 'Jim Brown',
-      },
-      {
-        name: 'Pam Grier',
-      },
-      {
-        name: 'Glenn Close',
-      },
-      {
-        name: 'Annette Bening',
-      },
-    ],
-    coverUrl: '/movies_pictures/75325_20130717152336267.webp',
-    releaseDate: '1996-12-13',
-    length: 106,
-    genre: ['Science Fiction', 'Comédie'],
-    saga: '',
-    description: 'Des Martiens débarquent sur Terre dans une comédie parodique où le chaos et l\'absurde s\'accumulent.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 5,
-    oscars: [],
-  },
-  {
-    title: 'Nope',
-    director: 'Jordan Peele',
-    actors: [
-      {
-        name: 'Daniel Kaluuya',
-      },
-      {
-        name: 'Keke Palmer',
-      },
-      {
-        name: 'Steven Yeun',
-      },
-      {
-        name: 'Brandon Perea',
-      },
-      {
-        name: 'Michael Wincott',
-      },
-      {
-        name: 'Keith David',
-      },
-      {
-        name: 'Wrenn Schmidt',
-      },
-    ],
-    coverUrl: '/movies_pictures/c5f6e612cd96.jpg',
-    releaseDate: '2022-08-10',
-    length: 131,
-    genre: ['Science Fiction', 'Horreur'],
-    saga: '',
-    description: 'Un frère et une sœur propriétaires d\'un ranch californien tentent de filmer un phénomène aérien inexpliqué.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 5,
-    oscars: [],
-  },
-  {
-    title: 'Orange mécanique',
-    director: 'Stanley Kubrick',
-    actors: [
-      { name: 'Malcolm McDowell' },
-      { name: 'Patrick Magee' },
-      { name: 'Michael Bates' },
-      { name: 'Warren Clarke' },
-      { name: 'Adrienne Corri' },
-    ],
-    coverUrl: '/movies_pictures/a3cineculte.jpg',
-    releaseDate: '1971-12-19',
-    length: 136,
-    genre: ['Science Fiction', 'Drame'],
-    saga: '',
-    description: 'Dans un futur dystopique, un jeune delinquants violent est soumis à un traitement de aversion pour le crime.',
-    fromEntity: {
-      entityType: 'book',
-      title: "L'Orange mécanique",
-      secondEntityKey: 'Anthony Burgess',
-    },
-    countryOrigin: ['Royaume-Uni'],
-    selectDisplayOrder: 30,
-    oscars: [],
-  },
-  {
-    title: 'Projet Dernière Chance',
-    director: 'Phil Lord, Chris Miller',
-    actors: [
-      {
-        name: 'Ryan Gosling',
-      },
-      {
-        name: 'Sandra Hüller',
-      },
-      {
-        name: 'James Ortiz',
-      },
-      {
-        name: 'Lionel Boyce',
-      },
-      {
-        name: 'Milana Vayntrub',
-      },
-      {
-        name: 'Ken Leung',
-      },
-      {
-        name: 'Malachi Kirby',
-      },
-    ],
-    coverUrl: '/movies_pictures/b958c20e3a4a.jpg',
-    releaseDate: '2026-03-18',
-    length: 156,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Des enfants sont envoyés dans le futur pour sauver l\'humanité d\'une catastrophe imminente.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 30,
-    oscars: [],
-  },
-
-  {
-    title: 'Running Man',
-    director: 'Edgar Wright',
-    actors: [
-      {
-        name: 'Sam Worthington',
-      },
-      {
-        name: 'Zoe Saldana',
-      },
-      {
-        name: 'Sigourney Weaver',
-      },
-      {
-        name: 'Stephen Lang',
-      },
-      {
-        name: 'Kate Winslet',
-      },
-    ],
-    coverUrl: '/movies_pictures/running_man.jpg',
-    releaseDate: '2025-11-19',
-    length: 134,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Dans un futur totalitaire, un homme est forcé de participer à un jeu télévisé où il est traqué jusqu\'à la mort.',
-    fromEntity: {
-      entityType: 'book',
-      title: 'Running man',
-      secondEntityKey: 'Stephen King',
-    },
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 30,
-    oscars: [],
-  },
-  {
-    title: 'Megalopolis',
-    director: 'Francis Ford Coppola',
-    actors: [
-      {
-        name: 'Adam Driver',
-      },
-      {
-        name: 'Giancarlo Esposito',
-      },
-      {
-        name: 'Nathalie Emmanuel',
-      },
-      {
-        name: 'Aubrey Plaza',
-      },
-      {
-        name: 'Shia LaBeouf',
-      },
-    ],
-    coverUrl: '/movies_pictures/megalopolis.jpg',
-    releaseDate: '2024-09-25',
-    length: 138,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Un architecte idéaliste veut reconstruire une New York romaine en ruines, opposé à un maire corrompu.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 5,
-    oscars: [],
-  },
-  {
-    title: 'Code 8 : Partie II',
-    director: 'Jeff Chan',
-    actors: [
-      {
-        name: 'Robbie Amell',
-      },
-      {
-        name: 'Stephen Amell',
-      },
-      {
-        name: 'Sirena Gulamgaus',
-      },
-      {
-        name: 'Aaron Abrams',
-      },
-      {
-        name: 'Jean Yoon',
-      },
-    ],
-    coverUrl: '/movies_pictures/code_8_partie_ii.jpg',
-    releaseDate: '2024-02-28',
-    length: 100,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Des super-humans persécutés se rebellent contre un régime qui les exploite comme main-d\'œuvre clandestine.',
-    fromEntity: null,
-    countryOrigin: ['Canada'],
-    selectDisplayOrder: 5,
-    oscars: [],
-  },
-  {
-    title: 'Rebel Moon - Partie 1 : Enfant du feu',
-    director: 'Zack Snyder',
-    actors: [
-      {
-        name: 'Sofia Boutella',
-      },
-      {
-        name: 'Djimon Hounsou',
-      },
-      {
-        name: 'Ed Skrein',
-      },
-      {
-        name: 'Michiel Huisman',
-      },
-      {
-        name: 'Doona Bae',
-      },
-    ],
-    coverUrl: '/movies_pictures/rebel_moon_-_partie_1_enfant_du_feu.jpg',
-    releaseDate: '2023-12-22',
-    length: 133,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Une colonie agricole recrute des mercenaires pour résister à l\'armée tyrannique qui les opprime.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 5,
-    oscars: [],
-  },
-  {
-    title: 'The Creator',
-    director: 'Gareth Edwards',
-    actors: [
-      {
-        name: 'John David Washington',
-      },
-      {
-        name: 'Gemma Chan',
-      },
-      {
-        name: 'Ken Watanabe',
-      },
-      {
-        name: 'Allison Janney',
-      },
-      {
-        name: 'Madeleine Yuna Voyles',
-      },
-    ],
-    coverUrl: '/movies_pictures/the_creator.jpg',
-    releaseDate: '2023-09-27',
-    length: 133,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Un ancien agent traque le créateur d\'une IA considérée comme une menace existentielle pour l\'humanité.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 5,
-    oscars: [],
-  },
-  {
-    title: 'Le Visiteur du Futur',
-    director: 'François Descraques',
-    actors: [
-      { name: 'Florent Dorin' },
-      { name: 'Arnaud Joyet' },
-      { name: 'François Descraques' },
-      { name: 'Enya Baroux' },
-      { name: 'Raphaël Descraques' },
-      { name: 'Slimane-Baptiste Berhoun' },
-      { name: 'Mathias Mlekuz' },
-    ],
-    coverUrl: '/movies_pictures/le_visiteur_du_futur.jpg',
-    releaseDate: '2022-09-07',
-    length: 102,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Adaptation de la websérie : un inventeur du futur débarque dans le présent et perturbe la vie de ses ancêtres.',
-    fromEntity: null,
-    countryOrigin: ['France'],
-    selectDisplayOrder: 5,
-    oscars: [],
-  },
-  {
-    title: 'Code 8',
-    director: 'Jeff Chan',
-    actors: [
-      { name: 'Robbie Amell' },
-      { name: 'Stephen Amell' },
-      { name: 'Sung Kang' },
-      { name: 'Aaron Abrams' },
-      { name: 'Kari Matchett' },
-      { name: 'Greg Bryk' },
-      { name: 'Peter Outerbridge' },
-    ],
-    coverUrl: '/movies_pictures/code_8.jpg',
-    releaseDate: '2019-12-13',
-    length: 98,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Dans une ville où les super-pouvoirs sont réprimés, un jeune travailleur aux pouvoirs électriques commet un braquage désespéré.',
-    fromEntity: null,
-    countryOrigin: ['Canada'],
-    selectDisplayOrder: 5,
-    oscars: [],
-  },
-
-  {
-    title: 'Life : Origine inconnue',
-    director: 'Daniel Espinosa',
-    actors: [
-      { name: 'Jake Gyllenhaal' },
-      { name: 'Rebecca Ferguson' },
-      { name: 'Ryan Reynolds' },
-      { name: 'Hiroyuki Sanada' },
-      { name: 'Ariyon Bakare' },
-      { name: 'Olga Dihovichnaya' },
-    ],
-    coverUrl: '/movies_pictures/life.jpg',
-    releaseDate: '2017-04-19',
-    length: 104,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'L\'équipage de la Station Spatiale Internationale découvre une forme de vie martienne qui s\'avère redoutablement agressive.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 5,
-    oscars: [],
-  },
-  {
-    title: 'À la poursuite de demain',
-    director: 'Brad Bird',
-    actors: [
-      { name: 'George Clooney' },
-      { name: 'Britt Robertson' },
-      { name: 'Hugh Laurie' },
-      { name: 'Raffey Cassidy' },
-      { name: 'Tim McGraw' },
-      { name: 'Kathryn Hahn' },
-      { name: 'Keegan-Michael Key' },
-    ],
-    coverUrl: '/movies_pictures/tomorrowland.jpg',
-    releaseDate: '2015-05-20',
-    length: 130,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Une inventrice et un ex-astronaute traversent une dimension parallèle optimiste pour sauver le futur.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 5,
-    oscars: [],
-  },
-  {
-    title: 'Chappie',
-    director: 'Neill Blomkamp',
-    actors: [
-      { name: 'Sharlto Copley' },
-      { name: 'Dev Patel' },
-      { name: 'Hugh Jackman' },
-      { name: 'Sigourney Weaver' },
-      { name: 'Ninja' },
-      { name: 'Yo-Landi Visser' },
-      { name: 'Jose Pablo Cantillo' },
-    ],
-    coverUrl: '/movies_pictures/chappie.jpg',
-    releaseDate: '2015-03-04',
-    length: 120,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Un robot policier reprogrammé développe une conscience et une personnalité d\'enfant dans un Johannesburg criminel.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 5,
-    oscars: [],
-  },
-  {
-    title: 'Her',
-    director: 'Spike Jonze',
-    actors: [
-      { name: 'Joaquin Phoenix' },
-      { name: 'Scarlett Johansson' },
-      { name: 'Amy Adams' },
-      { name: 'Rooney Mara' },
-      { name: 'Olivia Wilde' },
-      { name: 'Chris Pratt' },
-      { name: 'Matt Letscher' },
-    ],
-    coverUrl: '/movies_pictures/her.jpg',
-    releaseDate: '2014-03-19',
-    length: 126,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Un homme solitaire tombe amoureux de son assistant vocal doté d\'une intelligence artificielle évolutive.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 30,
-    oscars: [{ type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 2014 }],
-  },
-  {
-    title: 'Sunshine',
-    director: 'Danny Boyle',
-    actors: [
-      { name: 'Cillian Murphy' },
-      { name: 'Rose Byrne' },
-      { name: 'Chris Evans' },
-      { name: 'Michelle Yeoh' },
-      { name: 'Hiroyuki Sanada' },
-      { name: 'Cliff Curtis' },
-      { name: 'Mark Strong' },
-    ],
-    coverUrl: '/movies_pictures/sunshine.jpg',
-    releaseDate: '2007-04-11',
-    length: 108,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'Des astronautes tentent de relancer le Soleil mourant avec une bombe stellaire, face à l\'isolement et à la folie.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 5,
-    oscars: [],
-  },
-  {
-    title: "Les Fils de l'homme",
-    director: 'Alfonso Cuarón',
-    actors: [
-      { name: 'Clive Owen' },
-      { name: 'Julianne Moore' },
-      { name: 'Michael Caine' },
-      { name: 'Chiwetel Ejiofor' },
-      { name: 'Clare-Hope Ashitey' },
-      { name: 'Charlie Hunnam' },
-      { name: 'Pam Ferris' },
-    ],
-    coverUrl: '/movies_pictures/children_of_men.jpg',
-    releaseDate: '2006-10-18',
-    length: 109,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: 'En 2027, dans un monde stérile, un ex-activiste escorte la première femme enceinte depuis des années.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 5,
-    oscars: [],
-  },
-  {
-    title: 'Ex Machina',
-    director: 'Alex Garland',
-    actors: [
-      { name: 'Alicia Vikander' },
-      { name: 'Domhnall Gleeson' },
-      { name: 'Oscar Isaac' },
-      { name: 'Sonoya Mizuno' },
-    ],
-    coverUrl: '/movies_pictures/12f6d7568c93.jpg',
-    releaseDate: '2014-12-16',
-    length: 108,
-    genre: ['Science Fiction', 'Thriller'],
-    saga: '',
-    description: 'Un programmeur est invité à évaluer la conscience d\'un robot humanoïde doté d\'une intelligence troublante.',
-    fromEntity: null,
-    countryOrigin: ['Royaume-Uni'],
-    selectDisplayOrder: 0,
-    oscars: [{ type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2016 }],
-  },
-  {
-    title: 'The Dog Stars',
-    director: 'Ridley Scott',
-    actors: [
-      { name: 'Jacob Elordi' },
-      { name: 'Josh Brolin' },
-      { name: 'Margaret Qualley' },
-      { name: 'Guy Pearce' },
-      { name: 'Allison Janney' },
-      { name: 'Benedict Wong' },
-    ],
-    coverUrl:
-      '/movies_pictures/fabb3efae133.jpg',
-    releaseDate: '2026-08-28',
-    length: 118,
-    genre: ['Science Fiction', 'Dystopie', 'Drame'],
-    saga: '',
-    description: 'Seul survivant d\'une pandémie, un pilote vit dans un aéroport désert avec son chien jusqu\'à ce qu\'un signal le pousse à partir.',
-    fromEntity: {
-      entityType: 'book',
-      title: 'The Dog Stars',
-      secondEntityKey: 'Peter Heller',
-    },
-    countryOrigin: ['États-Unis', 'Royaume-Uni'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
     title: 'Metropolis',
     director: 'Fritz Lang',
     actors: [
@@ -3593,6 +50,107 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
       secondEntityKey: 'Harry Bates',
     },
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'La guerre des mondes (1953)',
+    director: 'Byron Haskin',
+    actors: [
+      {
+        name: 'Gene Barry',
+      },
+      {
+        name: 'Ann Robinson',
+      },
+      {
+        name: 'Cedric Hardwicke',
+      },
+      {
+        name: 'Les Tremayne',
+      },
+      {
+        name: 'Edgar Barrier',
+      },
+      {
+        name: 'Henry Brandon',
+      },
+      {
+        name: 'Ivan Lebedeff',
+      },
+    ],
+    coverUrl: '/movies_pictures/120db49684c4.jpg',
+    releaseDate: '1953-08-26',
+    length: 85,
+    genre: ['Science Fiction', 'Thriller'],
+    saga: 'La guerre des mondes',
+    description: 'Une invasion martienne dévaste la Terre avec des machines tripodes, adaptée du roman de H.G. Wells.',
+    fromEntity: {
+      entityType: 'book' as const,
+      title: 'La guerre des mondes',
+      secondEntityKey: 'H.G. Wells',
+    },
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [{ type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 1954 }],
+  },
+  {
+    title: 'La guerre des mondes',
+    director: 'Steven Spielberg',
+    actors: [
+      {
+        name: 'Tom Cruise',
+      },
+      {
+        name: 'Dakota Fanning',
+      },
+      {
+        name: 'Justin Chatwin',
+      },
+      {
+        name: 'Miranda Otto',
+      },
+      {
+        name: 'Tim Robbins',
+      },
+      {
+        name: 'Rick Gonzalez',
+      },
+      {
+        name: 'Lenny Venito',
+      },
+    ],
+    coverUrl: '/movies_pictures/war_of_the_worlds.jpg',
+    releaseDate: '2005-06-29',
+    length: 117,
+    genre: ['Science Fiction'],
+    saga: 'La guerre des mondes',
+    description: 'Une famille fuit l\'invasion extraterrestre qui dévaste la planète avec des machines de guerre impitoyables.',
+    fromEntity: {
+      entityType: 'book',
+      title: 'La guerre des mondes',
+      secondEntityKey: 'H.G. Wells',
+    },
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+    oscars: [],
+  },
+  {
+    title: 'La grande guerre martienne (1913-1917)',
+    director: 'Christopher Spencer',
+    actors: [{ name: 'Inconnu' }],
+    coverUrl: '/movies_pictures/dbff0b0b2567.jpg',
+    releaseDate: '2013-12-07',
+    length: 47,
+    genre: ['Science Fiction', 'Documentaire'],
+    saga: 'La guerre des mondes',
+    description: 'Documentaire reconstitué racontant la Première Guerre mondiale avec une narration martienne fictive de H.G. Wells.',
+    fromEntity: {
+      entityType: 'book' as const,
+      title: 'La guerre des mondes',
+      secondEntityKey: 'H.G. Wells',
+    },
+    countryOrigin: ['Royaume-Uni', 'Canada'],
     selectDisplayOrder: 0,
     oscars: [],
   },
@@ -3738,54 +296,6 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     oscars: [],
   },
   {
-    title: 'Barbarella',
-    director: 'Roger Vadim',
-    actors: [
-      { name: 'Jane Fonda' },
-      { name: 'John Phillip Law' },
-      { name: 'Anita Pallenberg' },
-      { name: "Milo O'Shea" },
-      { name: 'David Hemmings' },
-    ],
-    coverUrl: '/movies_pictures/5169b6f1bd48.jpg',
-    releaseDate: '1968-10-10',
-    length: 98,
-    genre: ['Science Fiction', 'Aventure', 'Comédie'],
-    saga: '',
-    description:
-      "L'agente Barbarella est envoyée retrouver Duran Duran dans une planète de plaisir et de tyrannie.",
-    fromEntity: {
-      entityType: 'comic',
-      title: 'Barbarella',
-      secondEntityKey: 'Jean-Claude Forest',
-    },
-    countryOrigin: ['France', 'Italie'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: "Je t'aime, je t'aime",
-    director: 'Alain Resnais',
-    actors: [
-      { name: 'Claude Rich' },
-      { name: 'Olga Georges-Picot' },
-      { name: 'Anouk Ferjac' },
-      { name: 'Alain MacMoy' },
-      { name: 'Vania Vilers' },
-    ],
-    coverUrl: '/movies_pictures/af11102496f9.jpg',
-    releaseDate: '1968-04-26',
-    length: 94,
-    genre: ['Science Fiction', 'Drame', 'Romance'],
-    saga: '',
-    description:
-      'Un homme suicidaire est envoyé une minute dans son passé et se retrouve coincé dans des fragments de mémoire.',
-    fromEntity: null,
-    countryOrigin: ['France'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
     title: 'La Planète des singes',
     director: 'Franklin J. Schaffner',
     actors: [
@@ -3812,6 +322,139 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     oscars: [{ type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 1969 }],
   },
   {
+    title: "Je t'aime, je t'aime",
+    director: 'Alain Resnais',
+    actors: [
+      { name: 'Claude Rich' },
+      { name: 'Olga Georges-Picot' },
+      { name: 'Anouk Ferjac' },
+      { name: 'Alain MacMoy' },
+      { name: 'Vania Vilers' },
+    ],
+    coverUrl: '/movies_pictures/af11102496f9.jpg',
+    releaseDate: '1968-04-26',
+    length: 94,
+    genre: ['Science Fiction', 'Drame', 'Romance'],
+    saga: '',
+    description:
+      'Un homme suicidaire est envoyé une minute dans son passé et se retrouve coincé dans des fragments de mémoire.',
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'Barbarella',
+    director: 'Roger Vadim',
+    actors: [
+      { name: 'Jane Fonda' },
+      { name: 'John Phillip Law' },
+      { name: 'Anita Pallenberg' },
+      { name: "Milo O'Shea" },
+      { name: 'David Hemmings' },
+    ],
+    coverUrl: '/movies_pictures/5169b6f1bd48.jpg',
+    releaseDate: '1968-10-10',
+    length: 98,
+    genre: ['Science Fiction', 'Aventure', 'Comédie'],
+    saga: '',
+    description:
+      "L'agente Barbarella est envoyée retrouver Duran Duran dans une planète de plaisir et de tyrannie.",
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Barbarella',
+      secondEntityKey: 'Jean-Claude Forest',
+    },
+    countryOrigin: ['France', 'Italie'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'THX 1138',
+    director: 'George Lucas',
+    actors: [
+      {
+        name: 'Robert Duvall',
+      },
+      {
+        name: 'Donald Pleasence',
+      },
+      {
+        name: 'Don Pedro Colley',
+      },
+      {
+        name: 'Maggie McOmie',
+      },
+      {
+        name: 'Ian Wolfe',
+      },
+      {
+        name: 'Sid Haig',
+      },
+      {
+        name: 'Matthew Robbins',
+      },
+    ],
+    coverUrl: '/movies_pictures/a2bb0eb07061.jpg',
+    releaseDate: '1971-03-11',
+    length: 88,
+    genre: ['Science Fiction', 'Dystopie', 'Drame'],
+    saga: '',
+    description: 'Dans une cité souterraine totalitaire, un homme cesse de prendre ses médicaments émotions-suppressives et tente de s\'évader.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'Orange mécanique',
+    director: 'Stanley Kubrick',
+    actors: [
+      { name: 'Malcolm McDowell' },
+      { name: 'Patrick Magee' },
+      { name: 'Michael Bates' },
+      { name: 'Warren Clarke' },
+      { name: 'Adrienne Corri' },
+    ],
+    coverUrl: '/movies_pictures/a3cineculte.jpg',
+    releaseDate: '1971-12-19',
+    length: 136,
+    genre: ['Science Fiction', 'Drame'],
+    saga: '',
+    description: 'Dans un futur dystopique, un jeune delinquants violent est soumis à un traitement de aversion pour le crime.',
+    fromEntity: {
+      entityType: 'book',
+      title: "L'Orange mécanique",
+      secondEntityKey: 'Anthony Burgess',
+    },
+    countryOrigin: ['Royaume-Uni'],
+    selectDisplayOrder: 30,
+    oscars: [],
+  },
+  {
+    title: 'Solaris',
+    director: 'Andrei Tarkovsky',
+    actors: [
+      { name: 'Donatas Banionis' },
+      { name: 'Natalya Bondarchuk' },
+      { name: 'Jüri Järvet' },
+      { name: 'Vladislav Dvorzhetskiy' },
+      { name: 'Nikolai Grinko' },
+      { name: 'Anatoliy Solonitsyn' },
+      { name: 'Olga Barnet' },
+    ],
+    coverUrl: '/movies_pictures/7afab205f887.jpg',
+    releaseDate: '1972-05-26',
+    length: 167,
+    genre: ['Science Fiction', 'Drame'],
+    saga: '',
+    description: 'Un psychologue est envoyé sur une station orbitale au-dessus de la planète Solaris, qui matérialise les obsessions des cosmonautes.',
+    fromEntity: null,
+    countryOrigin: ['Russie'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
     title: 'Soleil vert',
     director: 'Richard Fleischer',
     actors: [
@@ -3835,6 +478,32 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
       secondEntityKey: 'Harry Harrison',
     },
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: "L'Homme qui venait d'ailleurs",
+    director: 'Nicolas Roeg',
+    actors: [
+      { name: 'David Bowie' },
+      { name: 'Rip Torn' },
+      { name: 'Candy Clark' },
+      { name: 'Buck Henry' },
+      { name: 'Bernie Casey' },
+    ],
+    coverUrl: '/movies_pictures/125e05f6c4a7.jpg',
+    releaseDate: '1976-03-18',
+    length: 139,
+    genre: ['Science Fiction', 'Drame'],
+    saga: '',
+    description:
+      "Un extra-terrestre albino débarque au Nouveau-Mexique, invente des brevets et se noie dans l'alcool terrestre.",
+    fromEntity: {
+      entityType: 'book',
+      title: 'The Man Who Fell to Earth',
+      secondEntityKey: 'Walter Tevis',
+    },
+    countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
     oscars: [],
   },
@@ -3866,439 +535,6 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     oscars: [{ type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 1977 }],
   },
   {
-    title: "L'Homme qui venait d'ailleurs",
-    director: 'Nicolas Roeg',
-    actors: [
-      { name: 'David Bowie' },
-      { name: 'Rip Torn' },
-      { name: 'Candy Clark' },
-      { name: 'Buck Henry' },
-      { name: 'Bernie Casey' },
-    ],
-    coverUrl: '/movies_pictures/125e05f6c4a7.jpg',
-    releaseDate: '1976-03-18',
-    length: 139,
-    genre: ['Science Fiction', 'Drame'],
-    saga: '',
-    description:
-      "Un extra-terrestre albino débarque au Nouveau-Mexique, invente des brevets et se noie dans l'alcool terrestre.",
-    fromEntity: {
-      entityType: 'book',
-      title: 'The Man Who Fell to Earth',
-      secondEntityKey: 'Walter Tevis',
-    },
-    countryOrigin: ['Royaume-Uni'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'Upgrade',
-    director: 'Leigh Whannell',
-    actors: [
-      { name: 'Logan Marshall-Green' },
-      { name: 'Betty Gabriel' },
-      { name: 'Harrison Gilbertson' },
-      { name: 'Benedict Hardie' },
-      { name: 'Melanie Vallejo' },
-      { name: 'Linda Cropper' },
-      { name: 'Simon Maiden' },
-    ],
-    coverUrl: '/movies_pictures/e0920663d5c5.jpg',
-    releaseDate: '2018-06-01',
-    length: 100,
-    genre: ['Science Fiction', 'Thriller'],
-    saga: '',
-    description: 'Un homme paralysé reçoit une puce IA qui lui redonne la mobilité et le transforme en machine de vengeance.',
-    fromEntity: null,
-    countryOrigin: ['Australie'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: "L'Empire (2024)",
-    director: 'Bruno Dumont',
-    actors: [
-      { name: 'Lyna Khoudri' },
-      { name: 'Anamaria Vartolomei' },
-      { name: 'Camille Cottin' },
-      { name: 'Fabrice Luchini' },
-      { name: 'Brandon Vlieghe' },
-      { name: 'Julien Manier' },
-      { name: 'Yves Houssais' },
-    ],
-    coverUrl: '/movies_pictures/2dcf64bd3b74.jpg',
-    releaseDate: '2024-02-21',
-    length: 111,
-    genre: ['Science Fiction', 'Comédie'],
-    saga: '',
-    description: 'Sur une planète lointaine, une famille et une créature intergalactique s\'affrontent dans une fable de science-fiction absurde.',
-    fromEntity: null,
-    countryOrigin: ['France'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'Attack the Block',
-    director: 'Joe Cornish',
-    actors: [
-      { name: 'John Boyega' },
-      { name: 'Jodie Whittaker' },
-      { name: 'Alex Esmail' },
-      { name: 'Franz Drameh' },
-      { name: 'Leeon Jones' },
-      { name: 'Luke Treadaway' },
-      { name: 'Nick Frost' },
-    ],
-    coverUrl: '/movies_pictures/e6ffd34a261b.jpg',
-    releaseDate: '2011-05-12',
-    length: 88,
-    genre: ['Science Fiction', 'Action'],
-    saga: '',
-    description: 'Des adolescents d\'un quartier londonien affrontent des aliens qui débarquent dans leur cité.',
-    fromEntity: null,
-    countryOrigin: ['Royaume-Uni'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'Stalker',
-    director: 'Andrei Tarkovsky',
-    actors: [
-      { name: 'Aleksandr Kaydanovskiy' },
-      { name: 'Alisa Freindlich' },
-      { name: 'Anatoliy Solonitsyn' },
-      { name: 'Nikolai Grinko' },
-      { name: 'Natasha Abramova' },
-      { name: 'Faik Yusuf Jafarov' },
-      { name: 'Raymo Rendi' },
-    ],
-    coverUrl: '/movies_pictures/2475083acbb6.jpg',
-    releaseDate: '1979-05-01',
-    length: 162,
-    genre: ['Science Fiction', 'Drame'],
-    saga: '',
-    description: 'Un guide mène deux hommes dans la Zone, un territoire interdit où les désirs les plus profonds peuvent se réaliser.',
-    fromEntity: null,
-    countryOrigin: ['Russie'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'Solaris',
-    director: 'Andrei Tarkovsky',
-    actors: [
-      { name: 'Donatas Banionis' },
-      { name: 'Natalya Bondarchuk' },
-      { name: 'Jüri Järvet' },
-      { name: 'Vladislav Dvorzhetskiy' },
-      { name: 'Nikolai Grinko' },
-      { name: 'Anatoliy Solonitsyn' },
-      { name: 'Olga Barnet' },
-    ],
-    coverUrl: '/movies_pictures/7afab205f887.jpg',
-    releaseDate: '1972-05-26',
-    length: 167,
-    genre: ['Science Fiction', 'Drame'],
-    saga: '',
-    description: 'Un psychologue est envoyé sur une station orbitale au-dessus de la planète Solaris, qui matérialise les obsessions des cosmonautes.',
-    fromEntity: null,
-    countryOrigin: ['Russie'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'Midnight Special',
-    director: 'Jeff Nichols',
-    actors: [
-      { name: 'Michael Shannon' },
-      { name: 'Joel Edgerton' },
-      { name: 'Kirsten Dunst' },
-      { name: 'Adam Driver' },
-      { name: 'Jaeden Martell' },
-      { name: 'Sam Shepard' },
-      { name: 'Bill Camp' },
-    ],
-    coverUrl: '/movies_pictures/1f7ac62b769a.jpg',
-    releaseDate: '2016-03-18',
-    length: 112,
-    genre: ['Science Fiction', 'Drame'],
-    saga: '',
-    description: 'Un père embarque son fils aux pouvoirs mystérieux dans une fuite à travers le Texas, traqués par le gouvernement et un culte.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'Event Horizon',
-    director: 'Paul W.S. Anderson',
-    actors: [
-      { name: 'Laurence Fishburne' },
-      { name: 'Sam Neill' },
-      { name: 'Kathleen Quinlan' },
-      { name: 'Joely Richardson' },
-      { name: 'Jason Isaacs' },
-      { name: 'Sean Pertwee' },
-      { name: 'Jack Noseworthy' },
-    ],
-    coverUrl: '/movies_pictures/eb731cdd9a70.jpg',
-    releaseDate: '1997-08-15',
-    length: 96,
-    genre: ['Science Fiction', 'Horreur'],
-    saga: '',
-    description: 'L\'équipage d\'un vaisseau de secours explore un vaisseau expérimental revenu du système de Proxima Centauri avec des horreurs à bord.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'The X-Files : Combattre le futur',
-    director: 'Rob Bowman',
-    actors: [
-      { name: 'David Duchovny' },
-      { name: 'Gillian Anderson' },
-      { name: 'Martin Landau' },
-      { name: 'Blythe Danner' },
-      { name: 'Armin Mueller-Stahl' },
-      { name: 'Mitch Pileggi' },
-      { name: 'William B. Davis' },
-    ],
-    coverUrl: '/movies_pictures/01999c8b-608a-7b2e-b448-cd223add3aff.webp',
-    releaseDate: '1998-06-19',
-    length: 121,
-    genre: ['Science Fiction', 'Thriller'],
-    saga: '',
-    description: 'Mulder et Scully enquêtent sur une conspiration extraterrestre impliquant des virus et la colonisation de la Terre.',
-    fromEntity: {
-      entityType: 'book',
-      title: "Paycheck",
-      secondEntityKey: "Philip K. Dick",
-    },
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'Daybreakers',
-    director: 'Michael Spierig, Peter Spierig',
-    actors: [
-      { name: 'Ethan Hawke' },
-      { name: 'Willem Dafoe' },
-      { name: 'Sam Neill' },
-      { name: 'Claudia Karvan' },
-      { name: 'Michael Dorman' },
-      { name: 'Isabel Lucas' },
-      { name: 'Vince Colosimo' },
-    ],
-    coverUrl: '/movies_pictures/ca979f9c0334.jpg',
-    releaseDate: '2010-02-03',
-    length: 98,
-    genre: ['Science Fiction', 'Horreur'],
-    saga: '',
-    description: 'En 2019, les vampires dominent la société et la population humaine s\'épuise, provoquant une crise de l\'approvisionnement en sang.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'The Invasion',
-    director: 'Oliver Hirschbiegel',
-    actors: [
-      { name: 'Nicole Kidman' },
-      { name: 'Daniel Craig' },
-      { name: 'Jeremy Northam' },
-      { name: 'Jeffrey Wright' },
-      { name: 'Josef Sommer' },
-      { name: 'Celia Weston' },
-      { name: 'Veronica Cartwright' },
-    ],
-    coverUrl: '/movies_pictures/c27e35faec80.jpg',
-    releaseDate: '2007-08-17',
-    length: 99,
-    genre: ['Science Fiction', 'Thriller'],
-    saga: '',
-    description: 'Une épidémie transforme les humains en copies émotionnellement plates, et une psychiatre tente de protéger son fils.',
-    fromEntity: {
-      entityType: 'book',
-      title: "L’Invasion des profanateurs",
-      secondEntityKey: "Jack Finney",
-    },
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'Moon',
-    director: 'Duncan Jones',
-    actors: [
-      { name: 'Sam Rockwell' },
-      { name: 'Kevin Spacey' },
-      { name: 'Dominique McElligott' },
-      { name: 'Rosie Shaw' },
-      { name: 'Adrienne Shaw' },
-      { name: 'Kaya Scodelario' },
-      { name: 'Benedict Wong' },
-    ],
-    coverUrl: '/movies_pictures/f4c0a23dc8b6.jpg',
-    releaseDate: '2009-07-17',
-    length: 97,
-    genre: ['Science Fiction', 'Drame'],
-    saga: '',
-    description: 'Seul sur une base lunaire, un mineur découvre qu\'il n\'est qu\'un clone parmi d\'autres, remplacé à chaque fin de contrat.',
-    fromEntity: {
-      entityType: 'book',
-      title: "Cheval de guerre",
-      secondEntityKey: "Michael Morpurgo",
-    },
-    countryOrigin: ['Royaume-Uni'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'John Carter',
-    director: 'Andrew Stanton',
-    actors: [
-      { name: 'Taylor Kitsch' },
-      { name: 'Lynn Collins' },
-      { name: 'Willem Dafoe' },
-      { name: 'Samantha Morton' },
-      { name: 'Mark Strong' },
-      { name: 'Ciarán Hinds' },
-      { name: 'Dominic West' },
-    ],
-    coverUrl: '/movies_pictures/0dba7a0e4c9e.jpg',
-    releaseDate: '2012-03-07',
-    length: 132,
-    genre: ['Science Fiction', 'Aventure'],
-    saga: '',
-    description: 'Un vétéran de la guerre de Sécession est transporté sur Mars où il devient un héros pris entre deux civilisations en guerre.',
-    fromEntity: {
-      entityType: 'book',
-      title: "Une princesse de Mars",
-      secondEntityKey: "Edgar Rice Burroughs",
-    },
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: "Le Jour où la Terre s'arrêta",
-    director: 'Scott Derrickson',
-    actors: [
-      { name: 'Keanu Reeves' },
-      { name: 'Jennifer Connelly' },
-      { name: 'Jaden Smith' },
-      { name: 'Jon Hamm' },
-      { name: 'Kathy Bates' },
-      { name: 'John Cleese' },
-      { name: 'Kyle Chandler' },
-    ],
-    coverUrl: '/movies_pictures/58c235fbfe60.jpg',
-    releaseDate: '2008-12-12',
-    length: 104,
-    genre: ['Science Fiction', 'Drame'],
-    saga: '',
-    description: 'Un extraterrestre humanoïde arrive sur Terre avec un message d\'ultimatum pour l\'humanité autodestructrice.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'Cloverfield',
-    director: 'Matt Reeves',
-    actors: [
-      { name: 'Michael Stahl-David' },
-      { name: 'Odette Annable' },
-      { name: 'Lizzy Caplan' },
-      { name: 'Jessica Lucas' },
-      { name: 'T.J. Miller' },
-      { name: 'Mike Vogel' },
-      { name: 'Ben Feldman' },
-    ],
-    coverUrl: '/movies_pictures/d50a9872768f.jpg',
-    releaseDate: '2008-01-18',
-    length: 85,
-    genre: ['Science Fiction', 'Thriller'],
-    saga: '',
-    description: 'Des amis new-yorkais filment une soirée qui bascule lorsqu\'une créature géante attaque la ville.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'The Darkest Hour',
-    director: 'Chris Gorak',
-    actors: [
-      { name: 'Emile Hirsch' },
-      { name: 'Olivia Thirlby' },
-      { name: 'Max Minghella' },
-      { name: 'Rachael Taylor' },
-      { name: 'Joel Kinnaman' },
-      { name: 'Veronika Ozerova' },
-      { name: 'Dato Bakhtadze' },
-    ],
-    coverUrl: '/movies_pictures/25df460f1645.jpg',
-    releaseDate: '2011-12-25',
-    length: 89,
-    genre: ['Science Fiction', 'Thriller'],
-    saga: '',
-    description: 'Des touristes à Moscou affrontent des entités électromagnétiques invisibles qui déciment la population.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'Passengers',
-    director: 'Morten Tyldum',
-    actors: [
-      { name: 'Jennifer Lawrence' },
-      { name: 'Chris Pratt' },
-      { name: 'Michael Sheen' },
-      { name: 'Laurence Fishburne' },
-      { name: 'Andy Garcia' },
-      { name: 'Aurora Perrineau' },
-      { name: 'Vince Foster' },
-    ],
-    coverUrl: '/movies_pictures/287c210c7d72.jpg',
-    releaseDate: '2016-12-21',
-    length: 116,
-    genre: ['Science Fiction', 'Romance'],
-    saga: '',
-    description: 'Deux passagers d\'un vaisseau interstellaire se réveillent prématurément et doivent vivre ensemble pendant des décennies de voyage.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'Repo Men',
-    director: 'Miguel Sapochnik',
-    actors: [
-      { name: 'Jude Law' },
-      { name: 'Forest Whitaker' },
-      { name: 'Alice Braga' },
-      { name: 'Liev Schreiber' },
-      { name: 'Carice van Houten' },
-      { name: 'Chandler Canterbury' },
-      { name: 'RZA' },
-    ],
-    coverUrl: '/movies_pictures/fc5185a6fa55.jpg',
-    releaseDate: '2010-03-19',
-    length: 111,
-    genre: ['Science Fiction', 'Action'],
-    saga: '',
-    description: 'Dans un futur où les organes artificiels se paient à crédit, un repo man arrache les implants aux défaillants de paiement.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
     title: 'Rencontres du troisième type',
     director: 'Steven Spielberg',
     actors: [
@@ -4325,133 +561,51 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     ],
   },
   {
-    title: 'Starship Troopers',
-    director: 'Paul Verhoeven',
+    title: 'Stalker',
+    director: 'Andrei Tarkovsky',
     actors: [
-      { name: 'Casper Van Dien' },
-      { name: 'Denise Richards' },
-      { name: 'Dina Meyer' },
-      { name: 'Jake Busey' },
-      { name: 'Neil Patrick Harris' },
-      { name: 'Clancy Brown' },
-      { name: 'Michael Ironside' },
+      { name: 'Aleksandr Kaydanovskiy' },
+      { name: 'Alisa Freindlich' },
+      { name: 'Anatoliy Solonitsyn' },
+      { name: 'Nikolai Grinko' },
+      { name: 'Natasha Abramova' },
+      { name: 'Faik Yusuf Jafarov' },
+      { name: 'Raymo Rendi' },
     ],
-    coverUrl: '/movies_pictures/ec34477a353c.jpeg',
-    releaseDate: '1997-11-07',
-    length: 129,
-    genre: ['Science Fiction', 'Action'],
-    saga: '',
-    description: 'Des recrues terriennes combattent des insectes aliens dans une satire militariste du fascisme.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: "K-PAX : l'homme qui vient de loin",
-    director: 'Iain Softley',
-    actors: [
-      { name: 'Kevin Spacey' },
-      { name: 'Jeff Bridges' },
-      { name: 'Mary McCormack' },
-      { name: 'Alfre Woodard' },
-      { name: 'David Paymer' },
-      { name: 'Saul Williams' },
-      { name: 'Peter McRobbie' },
-    ],
-    coverUrl: '/movies_pictures/e19304211957.jpg',
-    releaseDate: '2001-10-26',
-    length: 120,
+    coverUrl: '/movies_pictures/2475083acbb6.jpg',
+    releaseDate: '1979-05-01',
+    length: 162,
     genre: ['Science Fiction', 'Drame'],
     saga: '',
-    description: 'Un patient d\'un hôpital psychiatrique prétend être un extraterrestre de la planète K-PAX.',
+    description: 'Un guide mène deux hommes dans la Zone, un territoire interdit où les désirs les plus profonds peuvent se réaliser.',
     fromEntity: null,
-    countryOrigin: ['États-Unis'],
+    countryOrigin: ['Russie'],
     selectDisplayOrder: 0,
     oscars: [],
   },
   {
-    title: 'The Giver',
-    director: 'Phillip Noyce',
+    title: 'Flash Gordon',
+    director: 'Mike Hodges',
     actors: [
-      { name: 'Brenton Thwaites' },
-      { name: 'Jeff Bridges' },
-      { name: 'Meryl Streep' },
-      { name: 'Alexander Skarsgård' },
-      { name: 'Katie Holmes' },
-      { name: 'Taylor Swift' },
+      { name: 'Sam J. Jones' },
+      { name: 'Melody Anderson' },
+      { name: 'Max von Sydow' },
+      { name: 'Topol' },
+      { name: 'Ornella Muti' },
     ],
-    coverUrl: '/movies_pictures/8c2b0005ff5d.jpg',
-    releaseDate: '2014-10-15',
-    length: 97,
-    genre: ['Science Fiction', 'Drame'],
-    saga: '',
-    description: 'Dans une société sans émotions ni souvenirs, un adolescent reçoit la mémoire du monde d\'avant et remet en question l\'ordre établi.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: "L'Aventure intérieure",
-    director: 'Joe Dante',
-    actors: [
-      { name: 'Dennis Quaid' },
-      { name: 'Martin Short' },
-      { name: 'Meg Ryan' },
-      { name: 'Kevin McCarthy' },
-      { name: 'Fiona Lewis' },
-    ],
-    coverUrl: '/movies_pictures/39fcd4108943.jpg',
-    releaseDate: '1987-07-01',
-    length: 120,
+    coverUrl: '/movies_pictures/086acb57268e.jpg',
+    releaseDate: '1980-12-05',
+    length: 111,
     genre: ['Science Fiction', 'Aventure'],
     saga: '',
-    description: 'Des nains réduits embarquent dans le corps d\'un homme pour le sauver d\'un caillot, dans un voyage microscopique.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'Tron',
-    director: 'Steven Lisberger',
-    actors: [
-      { name: 'Jeff Bridges' },
-      { name: 'Bruce Boxleitner' },
-      { name: 'David Warner' },
-      { name: 'Cindy Morgan' },
-      { name: 'Barnard Hughes' },
-    ],
-    coverUrl: '/movies_pictures/978f5b1e9df1.jpg',
-    releaseDate: '1982-07-09',
-    length: 96,
-    genre: ['Science Fiction', 'Action'],
-    saga: '',
-    description: 'Un programmeur est numérisé à l\'intérieur d\'un mainframe informatique où il doit jouer des jeux mortels.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: "Charlie's Angels : Les Anges se déchaînent !",
-    director: 'McG',
-    actors: [
-      { name: 'Cameron Diaz' },
-      { name: 'Drew Barrymore' },
-      { name: 'Lucy Liu' },
-      { name: 'Bernie Mac' },
-      { name: 'Demi Moore' },
-    ],
-    coverUrl: '/movies_pictures/sefsegsge.jpg',
-    releaseDate: '2003-07-10',
-    length: 106,
-    genre: ['Science Fiction', 'Action'],
-    saga: '',
-    description: 'Trois agents secrets infiltrent une entreprise technologique pour déjouer un complot mondial.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
+    description:
+      'Un quarterback, Dale et Zarkov partent sauver la Terre de Ming, couleurs pop et Queen.',
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Flash Gordon',
+      secondEntityKey: 'Alex Raymond',
+    },
+    countryOrigin: ['Royaume-Uni', 'États-Unis'],
     selectDisplayOrder: 0,
     oscars: [],
   },
@@ -4482,28 +636,204 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     oscars: [],
   },
   {
-    title: 'Flash Gordon',
-    director: 'Mike Hodges',
+    title: 'Scanners',
+    director: 'David Cronenberg',
     actors: [
-      { name: 'Sam J. Jones' },
-      { name: 'Melody Anderson' },
-      { name: 'Max von Sydow' },
-      { name: 'Topol' },
-      { name: 'Ornella Muti' },
+      {
+        name: 'Stephen Lack',
+      },
+      {
+        name: "Jennifer O'Neill",
+      },
+      {
+        name: 'Patrick McGoohan',
+      },
+      {
+        name: 'Michael Ironside',
+      },
+      {
+        name: 'Heiner Lauterbach',
+      },
+      {
+        name: 'Niels Clausnitzer',
+      },
+      {
+        name: 'Manfred Schott',
+      },
     ],
-    coverUrl: '/movies_pictures/086acb57268e.jpg',
-    releaseDate: '1980-12-05',
-    length: 111,
-    genre: ['Science Fiction', 'Aventure'],
+    coverUrl: '/movies_pictures/556b6a1eebb6.jpg',
+    releaseDate: '1981-01-14',
+    length: 103,
+    genre: ['Science Fiction', 'Horreur', 'Thriller'],
+    saga: '',
+    description: 'Des individus dotés de pouvoirs télépathiques et télékinétiques sont utilisés comme armes par des corporations.',
+    fromEntity: null,
+    countryOrigin: ['Canada'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'E.T. the Extra-Terrestrial',
+    director: 'Steven Spielberg',
+    actors: [
+      {
+        name: 'Dee Wallace',
+      },
+      {
+        name: 'Peter Coyote',
+      },
+      {
+        name: 'Henry Thomas',
+      },
+      {
+        name: 'Drew Barrymore',
+      },
+      {
+        name: 'Erika Eleniak',
+      },
+      {
+        name: 'C. Thomas Howell',
+      },
+      {
+        name: 'Sean Frye',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/51520-e-t-the-extra-terrestrial-0-150-0-225-crop.jpg',
+    releaseDate: '1982-06-11',
+    length: 115,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Un extraterrestre abandonné sur Terre se lie d\'amitié avec un jeune garçon et cherche à rentrer chez lui.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 1983 },
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 1983 },
+      { type: OscarEnum.OSCAR_BEST_SOUND_EDITING, year: 1983 },
+      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 1983 },
+    ],
+  },
+  {
+    title: 'Tron',
+    director: 'Steven Lisberger',
+    actors: [
+      { name: 'Jeff Bridges' },
+      { name: 'Bruce Boxleitner' },
+      { name: 'David Warner' },
+      { name: 'Cindy Morgan' },
+      { name: 'Barnard Hughes' },
+    ],
+    coverUrl: '/movies_pictures/978f5b1e9df1.jpg',
+    releaseDate: '1982-07-09',
+    length: 96,
+    genre: ['Science Fiction', 'Action'],
+    saga: '',
+    description: 'Un programmeur est numérisé à l\'intérieur d\'un mainframe informatique où il doit jouer des jeux mortels.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'Blade Runner',
+    director: 'Ridley Scott',
+    actors: [
+      {
+        name: 'Harrison Ford',
+      },
+      {
+        name: 'Edward James Olmos',
+      },
+      {
+        name: 'Rutger Hauer',
+      },
+      {
+        name: 'Sean Young',
+      },
+      {
+        name: 'Daryl Hannah',
+      },
+      {
+        name: 'Brion James',
+      },
+      {
+        name: 'Joanna Cassidy',
+      },
+    ],
+    coverUrl: '/movies_pictures/47d6a459ed78.jpg',
+    releaseDate: '1982-09-09',
+    length: 117,
+    genre: ['Science Fiction', 'Thriller'],
+    saga: '',
+    description: 'Los Angeles, 2019 : un chasseur de réplicants traque des androïdes en fuite qui cherchent à prolonger leur existence.',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Les Androïdes rêvent-ils de moutons électriques ?',
+      secondEntityKey: 'Philip K. Dick',
+    },
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 20,
+    oscars: [],
+  },
+  {
+    title: 'Videodrome',
+    director: 'David Cronenberg',
+    actors: [
+      {
+        name: 'James Woods',
+      },
+      {
+        name: 'Sonja Smits',
+      },
+      {
+        name: 'Debbie Harry',
+      },
+      {
+        name: 'Leslie Carlson',
+      },
+      {
+        name: 'Peter Dvorský',
+      },
+      {
+        name: 'Jack Creley',
+      },
+      {
+        name: 'Jayne Eastwood',
+      },
+    ],
+    coverUrl: '/movies_pictures/8c3008eafcbf.jpg',
+    releaseDate: '1983-02-04',
+    length: 87,
+    genre: ['Science Fiction', 'Horreur', 'Thriller'],
+    saga: '',
+    description: 'Un propriétaire de chaîne de télévision est exposé à des signaux qui provoquent des hallucinations et des mutations corporelles.',
+    fromEntity: null,
+    countryOrigin: ['Canada'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'Repo Man',
+    director: 'Alex Cox',
+    actors: [
+      { name: 'Emilio Estevez' },
+      { name: 'Harry Dean Stanton' },
+      { name: 'Tracey Walter' },
+      { name: 'Olivia Barash' },
+      { name: 'Sy Richardson' },
+    ],
+    coverUrl:
+      '/movies_pictures/f2943ce15f85.jpg',
+    releaseDate: '1984-03-02',
+    length: 92,
+    genre: ['Science Fiction', 'Comédie'],
     saga: '',
     description:
-      'Un quarterback, Dale et Zarkov partent sauver la Terre de Ming, couleurs pop et Queen.',
-    fromEntity: {
-      entityType: 'comic',
-      title: 'Flash Gordon',
-      secondEntityKey: 'Alex Raymond',
-    },
-    countryOrigin: ['Royaume-Uni', 'États-Unis'],
+      'Un punk de L.A. devient saisisseur de voitures et tombe sur une Chevy avec un extra-terrestre dans le coffre.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [],
   },
@@ -4560,23 +890,37 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     oscars: [],
   },
   {
-    title: 'Repo Man',
-    director: 'Alex Cox',
+    title: 'Dune',
+    director: 'David Lynch',
     actors: [
-      { name: 'Emilio Estevez' },
-      { name: 'Harry Dean Stanton' },
-      { name: 'Tracey Walter' },
-      { name: 'Olivia Barash' },
-      { name: 'Sy Richardson' },
+      {
+        name: 'Max von Sydow',
+      },
+      {
+        name: 'Kyle MacLachlan',
+      },
+      {
+        name: 'Francesca Annis',
+      },
+      {
+        name: 'Sting',
+      },
+      {
+        name: 'Leonardo Cimino',
+      },
+      {
+        name: 'Brad Dourif',
+      },
+      {
+        name: 'Linda Hunt',
+      },
     ],
-    coverUrl:
-      '/movies_pictures/f2943ce15f85.jpg',
-    releaseDate: '1984-03-02',
-    length: 92,
-    genre: ['Science Fiction', 'Comédie'],
+    coverUrl: '/movies_pictures/d99e21e694eb.jpeg',
+    releaseDate: '1984-12-14',
+    length: 137,
+    genre: ['Science Fiction', 'Aventure', 'Drame'],
     saga: '',
-    description:
-      'Un punk de L.A. devient saisisseur de voitures et tombe sur une Chevy avec un extra-terrestre dans le coffre.',
+    description: 'Sur la planète Arrakis, source d\'une épice vitale, un jeune noble mène la rébellion des Fremen contre l\'Empire.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4660,6 +1004,58 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     oscars: [],
   },
   {
+    title: 'La Mouche',
+    director: 'David Cronenberg',
+    actors: [
+      {
+        name: 'Jeff Goldblum',
+      },
+      {
+        name: 'Geena Davis',
+      },
+      {
+        name: 'John Getz',
+      },
+      {
+        name: 'George Chuvalo',
+      },
+      {
+        name: 'David Cronenberg',
+      },
+    ],
+    coverUrl: '/movies_pictures/11f541ce75b9.jpg',
+    releaseDate: '1986-08-15',
+    length: 96,
+    genre: ['Science Fiction', 'Horreur', 'Drame'],
+    saga: '',
+    description: 'Un scientifique fusionne accidentellement son ADN avec celui d\'une mouche, se transformant progressivement en créature monstrueuse.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis', 'Canada'],
+    selectDisplayOrder: 0,
+    oscars: [{ type: OscarEnum.OSCAR_BEST_MAKEUP, year: 1987 }],
+  },
+  {
+    title: "L'Aventure intérieure",
+    director: 'Joe Dante',
+    actors: [
+      { name: 'Dennis Quaid' },
+      { name: 'Martin Short' },
+      { name: 'Meg Ryan' },
+      { name: 'Kevin McCarthy' },
+      { name: 'Fiona Lewis' },
+    ],
+    coverUrl: '/movies_pictures/39fcd4108943.jpg',
+    releaseDate: '1987-07-01',
+    length: 120,
+    genre: ['Science Fiction', 'Aventure'],
+    saga: '',
+    description: 'Des nains réduits embarquent dans le corps d\'un homme pour le sauver d\'un caillot, dans un voyage microscopique.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
     title: 'Innerspace',
     director: 'Joe Dante',
     actors: [
@@ -4706,6 +1102,84 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     oscars: [],
   },
   {
+    title: 'The Running Man',
+    director: 'Paul Michael Glaser',
+    actors: [
+      {
+        name: 'Arnold Schwarzenegger',
+      },
+      {
+        name: 'María Conchita Alonso',
+      },
+      {
+        name: 'Yaphet Kotto',
+      },
+      {
+        name: 'Jim Brown',
+      },
+      {
+        name: 'Jesse Ventura',
+      },
+      {
+        name: 'Charles Kalani',
+      },
+      {
+        name: 'Dweezil Zappa',
+      },
+    ],
+    coverUrl: '/movies_pictures/51287-the-running-man-0-150-0-225-crop.jpg',
+    releaseDate: '1987-11-13',
+    length: 101,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Dans un futur dystopique, un homme est forcé de participer à un jeu télévisé mortel où il est traqué par des tueurs.',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Running man',
+      secondEntityKey: 'Stephen King',
+    },
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'They Live',
+    director: 'John Carpenter',
+    actors: [
+      {
+        name: 'Roddy Piper',
+      },
+      {
+        name: 'Keith David',
+      },
+      {
+        name: 'Meg Foster',
+      },
+      {
+        name: 'Raymond St. Jacques',
+      },
+      {
+        name: 'George Buck Flower',
+      },
+      {
+        name: 'Sy Richardson',
+      },
+      {
+        name: 'Tommy Morrison',
+      },
+    ],
+    coverUrl: '/movies_pictures/c1817fae3f28.jpg',
+    releaseDate: '1988-11-23',
+    length: 94,
+    genre: ['Science Fiction', 'Action', 'Thriller'],
+    saga: '',
+    description: 'Un vagabond découvre des lunettes spéciales révélant que les élites sont des extraterrestres contrôlant l\'humanité par la propagande.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
     title: 'Abyss',
     director: 'James Cameron',
     actors: [
@@ -4727,6 +1201,47 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [{ type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 1990 }],
+  },
+  {
+    title: 'Total Recall',
+    director: 'Paul Verhoeven',
+    actors: [
+      {
+        name: 'Arnold Schwarzenegger',
+      },
+      {
+        name: 'Ronny Cox',
+      },
+      {
+        name: 'Sharon Stone',
+      },
+      {
+        name: 'Rachel Ticotin',
+      },
+      {
+        name: 'Michael Ironside',
+      },
+      {
+        name: 'Dean Norris',
+      },
+      {
+        name: 'Marshall Bell',
+      },
+    ],
+    coverUrl: '/movies_pictures/51291-total-recall-0-150-0-225-crop.jpg',
+    releaseDate: '1990-06-01',
+    length: 113,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Un ouvrier terrien achète des souvenirs martiens factices et découvre qu\'il est peut-être un agent double.',
+    fromEntity: {
+      entityType: 'book',
+      title: "We Can Remember It for You Wholesale",
+      secondEntityKey: "Philip K. Dick",
+    },
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [{ type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 1991 }],
   },
   {
     title: 'Stargate',
@@ -4778,6 +1293,43 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     oscars: [],
   },
   {
+    title: 'La Mutante',
+    director: 'Roger Donaldson',
+    actors: [
+      {
+        name: 'Ben Kingsley',
+      },
+      {
+        name: 'Michael Madsen',
+      },
+      {
+        name: 'Alfred Molina',
+      },
+      {
+        name: 'Forest Whitaker',
+      },
+      {
+        name: 'Marg Helgenberger',
+      },
+      {
+        name: 'Natasha Henstridge',
+      },
+      {
+        name: 'Michelle Williams',
+      },
+    ],
+    coverUrl: '/movies_pictures/la-mutante-affiche-VOD.jpg',
+    releaseDate: '1995-07-07',
+    length: 108,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Une journaliste enquête sur une créature hybride humain-requin créée par des expériences militaires.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
     title: 'Strange Days',
     director: 'Kathryn Bigelow',
     actors: [
@@ -4800,6 +1352,29 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     oscars: [],
   },
   {
+    title: "L'Armée des 12 singes",
+    director: 'Terry Gilliam',
+    actors: [
+      { name: 'Bruce Willis' },
+      { name: 'Brad Pitt' },
+      { name: 'Madeleine Stowe' },
+      { name: 'Christopher Plummer' },
+      { name: 'David Morse' },
+      { name: 'Frank Gorshin' },
+      { name: 'Joseph Melito' },
+    ],
+    coverUrl: '/movies_pictures/81xkdqlwzymi3f4idfcep3chngs-175.jpg',
+    releaseDate: '1995-12-27',
+    length: 129,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Un prisonnier est envoyé dans le passé pour identifier le virus qui a décimé l\'humanité, mais le temps se complique.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+    oscars: [],
+  },
+  {
     title: 'Star Trek : Premier Contact',
     director: 'Jonathan Frakes',
     actors: [
@@ -4819,6 +1394,80 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'Mars Attacks !',
+    director: 'Tim Burton',
+    actors: [
+      {
+        name: 'Lukas Haas',
+      },
+      {
+        name: 'Jack Nicholson',
+      },
+      {
+        name: 'Sylvia Sidney',
+      },
+      {
+        name: 'Jim Brown',
+      },
+      {
+        name: 'Pam Grier',
+      },
+      {
+        name: 'Glenn Close',
+      },
+      {
+        name: 'Annette Bening',
+      },
+    ],
+    coverUrl: '/movies_pictures/75325_20130717152336267.webp',
+    releaseDate: '1996-12-13',
+    length: 106,
+    genre: ['Science Fiction', 'Comédie'],
+    saga: '',
+    description: 'Des Martiens débarquent sur Terre dans une comédie parodique où le chaos et l\'absurde s\'accumulent.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+    oscars: [],
+  },
+  {
+    title: 'Le Cinquième Élément',
+    director: 'Luc Besson',
+    actors: [
+      {
+        name: 'Bruce Willis',
+      },
+      {
+        name: 'Gary Oldman',
+      },
+      {
+        name: 'Milla Jovovich',
+      },
+      {
+        name: 'Chris Tucker',
+      },
+      {
+        name: 'Ian Holm',
+      },
+      {
+        name: 'Tricky',
+      },
+      {
+        name: 'Lee Evans',
+      },
+    ],
+    coverUrl: '/movies_pictures/620762a07465.jpg',
+    releaseDate: '1997-05-07',
+    length: 126,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Un taxi corse et une femme venue de l\'espace doivent réunir les quatre éléments pour sauver la Terre d\'une destruction totale.',
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 30,
     oscars: [],
   },
   {
@@ -4848,6 +1497,66 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     oscars: [],
   },
   {
+    title: 'Event Horizon',
+    director: 'Paul W.S. Anderson',
+    actors: [
+      { name: 'Laurence Fishburne' },
+      { name: 'Sam Neill' },
+      { name: 'Kathleen Quinlan' },
+      { name: 'Joely Richardson' },
+      { name: 'Jason Isaacs' },
+      { name: 'Sean Pertwee' },
+      { name: 'Jack Noseworthy' },
+    ],
+    coverUrl: '/movies_pictures/eb731cdd9a70.jpg',
+    releaseDate: '1997-08-15',
+    length: 96,
+    genre: ['Science Fiction', 'Horreur'],
+    saga: '',
+    description: 'L\'équipage d\'un vaisseau de secours explore un vaisseau expérimental revenu du système de Proxima Centauri avec des horreurs à bord.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'Mimic',
+    director: 'Guillermo del Toro',
+    actors: [
+      {
+        name: 'Mira Sorvino',
+      },
+      {
+        name: 'Jeremy Northam',
+      },
+      {
+        name: 'Josh Brolin',
+      },
+      {
+        name: 'Charles S. Dutton',
+      },
+      {
+        name: 'Giancarlo Giannini',
+      },
+      {
+        name: 'F. Murray Abraham',
+      },
+      {
+        name: 'Alexander Goodwin',
+      },
+    ],
+    coverUrl: '/movies_pictures/7d89a4ef4932.jpg',
+    releaseDate: '1997-08-22',
+    length: 105,
+    genre: ['Science Fiction', 'Horreur', 'Thriller'],
+    saga: '',
+    description: 'Des insectes génétiquement modifiés pour tuer des cockroaches mutent et prennent la forme de leurs proies humaines.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
     title: 'Cube',
     director: 'Vincenzo Natali',
     actors: [
@@ -4870,24 +1579,62 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     oscars: [],
   },
   {
-    title: 'Dark City',
-    director: 'Alex Proyas',
+    title: 'Gattaca',
+    director: 'Andrew Niccol',
     actors: [
-      { name: 'Rufus Sewell' },
-      { name: 'Kiefer Sutherland' },
-      { name: 'Jennifer Connelly' },
-      { name: 'William Hurt' },
-      { name: "Richard O'Brien" },
+      {
+        name: 'Uma Thurman',
+      },
+      {
+        name: 'Ethan Hawke',
+      },
+      {
+        name: 'Jude Law',
+      },
+      {
+        name: 'Alan Arkin',
+      },
+      {
+        name: 'Gore Vidal',
+      },
+      {
+        name: 'Ernest Borgnine',
+      },
+      {
+        name: 'Tony Shalhoub',
+      },
     ],
-    coverUrl: '/movies_pictures/0d3e26fa0193.jpg',
-    releaseDate: '1998-02-27',
-    length: 100,
-    genre: ['Science Fiction', 'Thriller', 'Mystère'],
+    coverUrl: '/movies_pictures/71DgyEsdJML._AC_UF1000,1000_QL80_.jpg',
+    releaseDate: '1997-10-24',
+    length: 106,
+    genre: ['Science Fiction', 'Thriller'],
     saga: '',
-    description:
-      'Une ville sans soleil, des Étrangers qui plient les immeubles, un homme sans mémoire.',
+    description: 'Dans une société eugéniste, un homme né naturellement usurpe l\'identité génétique d\'un autre pour devenir astronaute.',
     fromEntity: null,
-    countryOrigin: ['États-Unis', 'Australie'],
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+    oscars: [],
+  },
+  {
+    title: 'Starship Troopers',
+    director: 'Paul Verhoeven',
+    actors: [
+      { name: 'Casper Van Dien' },
+      { name: 'Denise Richards' },
+      { name: 'Dina Meyer' },
+      { name: 'Jake Busey' },
+      { name: 'Neil Patrick Harris' },
+      { name: 'Clancy Brown' },
+      { name: 'Michael Ironside' },
+    ],
+    coverUrl: '/movies_pictures/ec34477a353c.jpeg',
+    releaseDate: '1997-11-07',
+    length: 129,
+    genre: ['Science Fiction', 'Action'],
+    saga: '',
+    description: 'Des recrues terriennes combattent des insectes aliens dans une satire militariste du fascisme.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [],
   },
@@ -4914,6 +1661,130 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
       secondEntityKey: 'Michael Crichton',
     },
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'Dark City',
+    director: 'Alex Proyas',
+    actors: [
+      { name: 'Rufus Sewell' },
+      { name: 'Kiefer Sutherland' },
+      { name: 'Jennifer Connelly' },
+      { name: 'William Hurt' },
+      { name: "Richard O'Brien" },
+    ],
+    coverUrl: '/movies_pictures/0d3e26fa0193.jpg',
+    releaseDate: '1998-02-27',
+    length: 100,
+    genre: ['Science Fiction', 'Thriller', 'Mystère'],
+    saga: '',
+    description:
+      'Une ville sans soleil, des Étrangers qui plient les immeubles, un homme sans mémoire.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis', 'Australie'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'Deep Impact',
+    director: 'Mimi Leder',
+    actors: [
+      {
+        name: 'Robert Duvall',
+      },
+      {
+        name: 'Téa Leoni',
+      },
+      {
+        name: 'Elijah Wood',
+      },
+      {
+        name: 'Vanessa Redgrave',
+      },
+      {
+        name: 'Maximilian Schell',
+      },
+      {
+        name: 'James Cromwell',
+      },
+      {
+        name: 'Ron Eldard',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/i-watched-deep-impact-1998-v0-czgltc72dm6d1.webp',
+    releaseDate: '1998-05-08',
+    length: 120,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Face à la collision imminente d\'une comète avec la Terre, l\'humanité prépare l\'évacuation et l\'impact.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'The X-Files : Combattre le futur',
+    director: 'Rob Bowman',
+    actors: [
+      { name: 'David Duchovny' },
+      { name: 'Gillian Anderson' },
+      { name: 'Martin Landau' },
+      { name: 'Blythe Danner' },
+      { name: 'Armin Mueller-Stahl' },
+      { name: 'Mitch Pileggi' },
+      { name: 'William B. Davis' },
+    ],
+    coverUrl: '/movies_pictures/01999c8b-608a-7b2e-b448-cd223add3aff.webp',
+    releaseDate: '1998-06-19',
+    length: 121,
+    genre: ['Science Fiction', 'Thriller'],
+    saga: '',
+    description: 'Mulder et Scully enquêtent sur une conspiration extraterrestre impliquant des virus et la colonisation de la Terre.',
+    fromEntity: {
+      entityType: 'book',
+      title: "Paycheck",
+      secondEntityKey: "Philip K. Dick",
+    },
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'eXistenZ',
+    director: 'David Cronenberg',
+    actors: [
+      {
+        name: 'Jennifer Jason Leigh',
+      },
+      {
+        name: 'Jude Law',
+      },
+      {
+        name: 'Ian Holm',
+      },
+      {
+        name: 'Don McKellar',
+      },
+      {
+        name: 'Callum Keith Rennie',
+      },
+      {
+        name: 'Sarah Polley',
+      },
+      {
+        name: 'Christopher Eccleston',
+      },
+    ],
+    coverUrl: '/movies_pictures/fddf2bb65a50.jpg',
+    releaseDate: '1999-04-23',
+    length: 97,
+    genre: ['Science Fiction', 'Thriller', 'Horreur'],
+    saga: '',
+    description: 'Une créatrice de jeux de réalité virtuelle est traquée alors que la frontière entre le jeu et la réalité disparaît.',
+    fromEntity: null,
+    countryOrigin: ['Canada', 'Royaume-Uni', 'France'],
     selectDisplayOrder: 0,
     oscars: [],
   },
@@ -4945,29 +1816,39 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     oscars: [],
   },
   {
-    title: "L'Homme sans ombre",
-    director: 'Paul Verhoeven',
+    title: 'La Fin des temps',
+    director: 'Peter Hyams',
     actors: [
-      { name: 'Kevin Bacon' },
-      { name: 'Elisabeth Shue' },
-      { name: 'Josh Brolin' },
-      { name: 'Kim Dickens' },
-      { name: 'Greg Grunberg' },
+      {
+        name: 'Arnold Schwarzenegger',
+      },
+      {
+        name: 'Robin Tunney',
+      },
+      {
+        name: 'Gabriel Byrne',
+      },
+      {
+        name: 'Rod Steiger',
+      },
+      {
+        name: 'Kevin Pollak',
+      },
+      {
+        name: 'CCH Pounder',
+      },
+      {
+        name: 'Miriam Margolyes',
+      },
     ],
-    coverUrl:
-      '/movies_pictures/be3de1671df3.jpg',
-    releaseDate: '2000-08-04',
-    length: 112,
-    genre: ['Science Fiction', 'Thriller', 'Horreur'],
+    coverUrl: '/movies_pictures/066451.webp',
+    releaseDate: '1999-09-03',
+    length: 123,
+    genre: ['Science Fiction'],
     saga: '',
-    description:
-      'Un scientifique se rend invisible et ne sait plus se retenir, voyeurisme, chasse et Verhoeven.',
-    fromEntity: {
-      entityType: 'book',
-      title: 'The Invisible Man',
-      secondEntityKey: 'H.G. Wells',
-    },
-    countryOrigin: ['États-Unis', 'Allemagne'],
+    description: 'Un policier traque un criminel capable de voyager dans le temps pour commettre des meurtres dans le passé.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [],
   },
@@ -4995,6 +1876,505 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     oscars: [],
   },
   {
+    title: "L'Homme sans ombre",
+    director: 'Paul Verhoeven',
+    actors: [
+      { name: 'Kevin Bacon' },
+      { name: 'Elisabeth Shue' },
+      { name: 'Josh Brolin' },
+      { name: 'Kim Dickens' },
+      { name: 'Greg Grunberg' },
+    ],
+    coverUrl:
+      '/movies_pictures/be3de1671df3.jpg',
+    releaseDate: '2000-08-04',
+    length: 112,
+    genre: ['Science Fiction', 'Thriller', 'Horreur'],
+    saga: '',
+    description:
+      'Un scientifique se rend invisible et ne sait plus se retenir, voyeurisme, chasse et Verhoeven.',
+    fromEntity: {
+      entityType: 'book',
+      title: 'The Invisible Man',
+      secondEntityKey: 'H.G. Wells',
+    },
+    countryOrigin: ['États-Unis', 'Allemagne'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: "A l'aube du 6ème jour",
+    director: 'Roger Spottiswoode',
+    actors: [
+      { name: 'Arnold Schwarzenegger' },
+      { name: 'Tony Goldwyn' },
+      { name: 'Michael Rapaport' },
+      { name: 'Michael Rooker' },
+      { name: 'Sarah Wynter' },
+      { name: 'Wendy Crewson' },
+      { name: 'Robert Duvall' },
+    ],
+    coverUrl: '/movies_pictures/a_l_aube_du_sixieme_jour.jpg',
+    releaseDate: '2000-11-17',
+    length: 123,
+    genre: ['Science Fiction', 'Action'],
+    saga: '',
+    description: 'Un pilote d\'hélicoptère découvre qu\'il a été cloné à son insu dans un futur où la reproduction humaine est interdite.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'A.I. Intelligence artificielle',
+    director: 'Steven Spielberg',
+    actors: [
+      {
+        name: 'Haley Joel Osment',
+      },
+      {
+        name: 'Jude Law',
+      },
+      {
+        name: "Frances O'Connor",
+      },
+      {
+        name: 'Brendan Gleeson',
+      },
+      {
+        name: 'William Hurt',
+      },
+      {
+        name: 'Sam Robards',
+      },
+      {
+        name: 'Jake Thomas',
+      },
+    ],
+    coverUrl: '/movies_pictures/69216449_af.webp',
+    releaseDate: '2001-06-29',
+    length: 146,
+    genre: ['Science Fiction', 'Drame'],
+    saga: '',
+    description: 'Un enfant robot programmé pour aimer cherche à devenir un vrai garçon pour regagner l\'affection de sa mère adoptive.',
+    fromEntity: {
+      entityType: 'book',
+      title: "Super-Toys Last All Summer Long",
+      secondEntityKey: "Brian Aldiss",
+    },
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: "K-PAX : l'homme qui vient de loin",
+    director: 'Iain Softley',
+    actors: [
+      { name: 'Kevin Spacey' },
+      { name: 'Jeff Bridges' },
+      { name: 'Mary McCormack' },
+      { name: 'Alfre Woodard' },
+      { name: 'David Paymer' },
+      { name: 'Saul Williams' },
+      { name: 'Peter McRobbie' },
+    ],
+    coverUrl: '/movies_pictures/e19304211957.jpg',
+    releaseDate: '2001-10-26',
+    length: 120,
+    genre: ['Science Fiction', 'Drame'],
+    saga: '',
+    description: 'Un patient d\'un hôpital psychiatrique prétend être un extraterrestre de la planète K-PAX.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'The One',
+    director: 'James Wong',
+    actors: [
+      {
+        name: 'Jet Li',
+      },
+      {
+        name: 'Delroy Lindo',
+      },
+      {
+        name: 'Jason Statham',
+      },
+      {
+        name: 'Carla Gugino',
+      },
+      {
+        name: 'James Morrison',
+      },
+      {
+        name: 'Dylan Bruno',
+      },
+      {
+        name: 'Richard Steinmetz',
+      },
+    ],
+    coverUrl: '/movies_pictures/ae553294ebc9.jpg',
+    releaseDate: '2001-11-02',
+    length: 87,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Un agent traque ses doubles d\'univers parallèles pour absorber leur énergie et devenir l\'unique survivant d\'un programme multiversel.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+    oscars: [],
+  },
+  {
+    title: 'Vanilla Sky',
+    director: 'Cameron Crowe',
+    actors: [
+      {
+        name: 'Tom Cruise',
+      },
+      {
+        name: 'Penélope Cruz',
+      },
+      {
+        name: 'Cameron Diaz',
+      },
+      {
+        name: 'Kurt Russell',
+      },
+      {
+        name: 'Jason Lee',
+      },
+      {
+        name: 'Noah Taylor',
+      },
+      {
+        name: 'Timothy Spall',
+      },
+    ],
+    coverUrl: '/movies_pictures/vanilla.jpg',
+    releaseDate: '2001-12-14',
+    length: 136,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Un playboy new-yorkais défiguré dans un accident revit ses souvenirs dans un mélange de rêve, de culpabilité et de réalité virtuelle.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'Signes',
+    director: 'M. Night Shyamalan',
+    actors: [
+      {
+        name: 'Mel Gibson',
+      },
+      {
+        name: 'Joaquin Phoenix',
+      },
+      {
+        name: 'Abigail Breslin',
+      },
+      {
+        name: 'Rory Culkin',
+      },
+      {
+        name: 'Cherry Jones',
+      },
+      {
+        name: 'M. Night Shyamalan',
+      },
+      {
+        name: 'Angela Eckert',
+      },
+    ],
+    coverUrl: '/movies_pictures/fsgdgdfgf.jpg',
+    releaseDate: '2002-01-01',
+    length: 106,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Un ancien prêtre découvre des cercles mystérieux dans ses champs de maïs, signes d\'une présence extraterrestre.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+    oscars: [],
+  },
+  {
+    title: 'Minority Report',
+    director: 'Steven Spielberg',
+    actors: [
+      {
+        name: 'Tom Cruise',
+      },
+      {
+        name: 'Colin Farrell',
+      },
+      {
+        name: 'Samantha Morton',
+      },
+      {
+        name: 'Max von Sydow',
+      },
+      {
+        name: 'Patrick Kilpatrick',
+      },
+      {
+        name: 'Lois Smith',
+      },
+      {
+        name: 'Peter Stormare',
+      },
+    ],
+    coverUrl: '/movies_pictures/minority_report.jpg',
+    releaseDate: '2002-06-21',
+    length: 145,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'En 2054, un policier préventif est accusé par le système de prédiction des crimes qu\'il sert, et doit prouver son innocence.',
+    fromEntity: {
+      entityType: 'book',
+      title: "Rapport minoritaire",
+      secondEntityKey: "Philip K. Dick",
+    },
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+    oscars: [],
+  },
+  {
+    title: 'Equilibrium',
+    director: 'Kurt Wimmer',
+    actors: [
+      {
+        name: 'Christian Bale',
+      },
+      {
+        name: 'Emily Watson',
+      },
+      {
+        name: 'Taye Diggs',
+      },
+      {
+        name: 'Angus Macfadyen',
+      },
+      {
+        name: 'Sean Bean',
+      },
+      {
+        name: 'William Fichtner',
+      },
+      {
+        name: 'Dominic Purcell',
+      },
+    ],
+    coverUrl: '/movies_pictures/equilibrium-0-150-0-225-crop.jpg',
+    releaseDate: '2002-12-06',
+    length: 107,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Dans une société où les émotions sont interdites, un agent d\'État arrêté pour trahison remet en question le régime totalitaire.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+    oscars: [],
+  },
+  {
+    title: "Charlie's Angels : Les Anges se déchaînent !",
+    director: 'McG',
+    actors: [
+      { name: 'Cameron Diaz' },
+      { name: 'Drew Barrymore' },
+      { name: 'Lucy Liu' },
+      { name: 'Bernie Mac' },
+      { name: 'Demi Moore' },
+    ],
+    coverUrl: '/movies_pictures/sefsegsge.jpg',
+    releaseDate: '2003-07-10',
+    length: 106,
+    genre: ['Science Fiction', 'Action'],
+    saga: '',
+    description: 'Trois agents secrets infiltrent une entreprise technologique pour déjouer un complot mondial.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: "Le Jour d'Après",
+    director: 'Roland Emmerich',
+    actors: [
+      {
+        name: 'Dennis Quaid',
+      },
+      {
+        name: 'Jake Gyllenhaal',
+      },
+      {
+        name: 'Emmy Rossum',
+      },
+      {
+        name: 'Ian Holm',
+      },
+      {
+        name: 'Sela Ward',
+      },
+      {
+        name: 'Dash Mihok',
+      },
+      {
+        name: 'Jay O. Sanders',
+      },
+    ],
+    coverUrl: '/movies_pictures/c239526162d8.jpg',
+    releaseDate: '2004-05-28',
+    length: 124,
+    genre: ['Science Fiction', 'Drame'],
+    saga: '',
+    description: 'Des chercheurs américains tentent de survivre à un cataclysme climatique qui plonge le monde dans une nouvelle ère glaciaire.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+    oscars: [],
+  },
+  {
+    title: 'Final cut',
+    director: 'Omar Naim',
+    actors: [
+      {
+        name: 'Robin Williams',
+      },
+      {
+        name: 'Mira Sorvino',
+      },
+      {
+        name: 'Jim Caviezel',
+      },
+      {
+        name: 'Stephanie Romanov',
+      },
+      {
+        name: 'Mimi Kuzyk',
+      },
+      {
+        name: 'Genevieve Buechner',
+      },
+      {
+        name: 'Brendan Fletcher',
+      },
+    ],
+    coverUrl: '/movies_pictures/18403565.jpg',
+    releaseDate: '2004-09-10',
+    length: 106,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Un monteur édite les souvenirs des mourants jusqu\'à ce qu\'un passé troublant remonte à la surface.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'I, Robot',
+    director: 'Alex Proyas',
+    actors: [
+      {
+        name: 'Will Smith',
+      },
+      {
+        name: 'Bridget Moynahan',
+      },
+      {
+        name: 'Bruce Greenwood',
+      },
+      {
+        name: 'James Cromwell',
+      },
+      {
+        name: 'Chi McBride',
+      },
+      {
+        name: 'Alan Tudyk',
+      },
+      {
+        name: 'Shia LaBeouf',
+      },
+    ],
+    coverUrl: '/movies_pictures/10f95776500c.jpg',
+    releaseDate: '2004-12-10',
+    length: 115,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'En 2035, un détective enquête sur le meurtre présumé d\'un pionnier de la robotique et découvre qu\'un robot pourrait avoir enfreint les trois lois fondamentales.',
+    fromEntity: {
+      entityType: 'book',
+      title: "Les Robots",
+      secondEntityKey: "Isaac Asimov",
+    },
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+    oscars: [],
+  },
+  {
+    title: 'The Island',
+    director: 'Michael Bay',
+    actors: [
+      { name: 'Scarlett Johansson' },
+      { name: 'Ewan McGregor' },
+      { name: 'Djimon Hounsou' },
+      { name: 'Sean Bean' },
+      { name: 'Steve Buscemi' },
+      { name: 'Michael Clarke Duncan' },
+      { name: 'Ethan Phillips' },
+    ],
+    coverUrl: '/movies_pictures/71ugYlYCs0L._AC_UF894,1000_QL80_.jpg',
+    releaseDate: '2005-07-22',
+    length: 136,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Des résidents d\'un complexe utopique découvrent qu\'ils sont des clones destinés à fournir des organes à leurs originaux.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'Serenity',
+    director: 'Joss Whedon',
+    actors: [
+      {
+        name: 'Nathan Fillion',
+      },
+      {
+        name: 'Gina Torres',
+      },
+      {
+        name: 'Alan Tudyk',
+      },
+      {
+        name: 'Morena Baccarin',
+      },
+      {
+        name: 'Adam Baldwin',
+      },
+      {
+        name: 'Jewel Staite',
+      },
+      {
+        name: 'Sean Maher',
+      },
+    ],
+    coverUrl: '/movies_pictures/serenity-0-150-0-225-crop.jpg',
+    releaseDate: '2005-09-30',
+    length: 119,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'L\'équipage d\'un vaisseau spatial rebelle découvre le secret d\'une expérience gouvernementale qui a créé des créatures cannibales.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
     title: 'The Host',
     director: 'Bong Joon-ho',
     actors: [
@@ -5014,6 +2394,2669 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
       'Une famille sud-coréenne affronte une créature mutante sortie de la rivière Han, qui capture des otages.',
     fromEntity: null,
     countryOrigin: ['Corée du Sud'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'A Scanner Darkly',
+    director: 'Richard Linklater',
+    actors: [
+      {
+        name: 'Keanu Reeves',
+      },
+      {
+        name: 'Robert Downey Jr.',
+      },
+      {
+        name: 'Woody Harrelson',
+      },
+      {
+        name: 'Winona Ryder',
+      },
+      {
+        name: 'Rory Cochrane',
+      },
+      {
+        name: 'Alex Jones',
+      },
+      {
+        name: 'Jason Douglas',
+      },
+    ],
+    coverUrl: '/movies_pictures/18653553.webp',
+    releaseDate: '2006-07-28',
+    length: 100,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Un agent infiltré dans le monde de la drogue perd progressivement son identité sous l\'effet d\'une substance hallucinogène.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: "Les Fils de l'homme",
+    director: 'Alfonso Cuarón',
+    actors: [
+      { name: 'Clive Owen' },
+      { name: 'Julianne Moore' },
+      { name: 'Michael Caine' },
+      { name: 'Chiwetel Ejiofor' },
+      { name: 'Clare-Hope Ashitey' },
+      { name: 'Charlie Hunnam' },
+      { name: 'Pam Ferris' },
+    ],
+    coverUrl: '/movies_pictures/children_of_men.jpg',
+    releaseDate: '2006-10-18',
+    length: 109,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'En 2027, dans un monde stérile, un ex-activiste escorte la première femme enceinte depuis des années.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+    oscars: [],
+  },
+  {
+    title: 'Sunshine',
+    director: 'Danny Boyle',
+    actors: [
+      { name: 'Cillian Murphy' },
+      { name: 'Rose Byrne' },
+      { name: 'Chris Evans' },
+      { name: 'Michelle Yeoh' },
+      { name: 'Hiroyuki Sanada' },
+      { name: 'Cliff Curtis' },
+      { name: 'Mark Strong' },
+    ],
+    coverUrl: '/movies_pictures/sunshine.jpg',
+    releaseDate: '2007-04-11',
+    length: 108,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Des astronautes tentent de relancer le Soleil mourant avec une bombe stellaire, face à l\'isolement et à la folie.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+    oscars: [],
+  },
+  {
+    title: 'The Invasion',
+    director: 'Oliver Hirschbiegel',
+    actors: [
+      { name: 'Nicole Kidman' },
+      { name: 'Daniel Craig' },
+      { name: 'Jeremy Northam' },
+      { name: 'Jeffrey Wright' },
+      { name: 'Josef Sommer' },
+      { name: 'Celia Weston' },
+      { name: 'Veronica Cartwright' },
+    ],
+    coverUrl: '/movies_pictures/c27e35faec80.jpg',
+    releaseDate: '2007-08-17',
+    length: 99,
+    genre: ['Science Fiction', 'Thriller'],
+    saga: '',
+    description: 'Une épidémie transforme les humains en copies émotionnellement plates, et une psychiatre tente de protéger son fils.',
+    fromEntity: {
+      entityType: 'book',
+      title: "L’Invasion des profanateurs",
+      secondEntityKey: "Jack Finney",
+    },
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'Je Suis une Légende',
+    director: 'Francis Lawrence',
+    actors: [
+      {
+        name: 'Will Smith',
+      },
+      {
+        name: 'Alice Braga',
+      },
+      {
+        name: 'Charlie Tahan',
+      },
+      {
+        name: 'Salli Richardson-Whitfield',
+      },
+      {
+        name: 'Willow Smith',
+      },
+      {
+        name: 'Dash Mihok',
+      },
+      {
+        name: 'Emma Thompson',
+      },
+    ],
+    coverUrl: '/movies_pictures/ab8bfac00d5b.jpg',
+    releaseDate: '2007-12-14',
+    length: 101,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Seul survivant à New York après une épidémie, un scientifique teste des vaccins tout en affrontant des créatures nocturnes.',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Je suis une légende',
+      secondEntityKey: 'Richard Matheson',
+    },
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+    oscars: [],
+  },
+  {
+    title: 'Seul contre tous',
+    director: 'Peter Landesman',
+    actors: [
+      {
+        name: 'Kevin Sorbo',
+      },
+      {
+        name: 'Yvette Nipar',
+      },
+      {
+        name: 'Elizabeth Barondes',
+      },
+      {
+        name: 'Haley Ramm',
+      },
+      {
+        name: 'Rodrigo De la Rosa',
+      },
+      {
+        name: 'Jonny Cruz',
+      },
+      {
+        name: 'Mark W. Johnson',
+      },
+    ],
+    coverUrl: '/movies_pictures/438540.jpg',
+    releaseDate: '2007-12-14',
+    length: 101,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Un journaliste enquête sur les effets neurologiques du football américain, malgré la pression de la NFL.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'Cloverfield',
+    director: 'Matt Reeves',
+    actors: [
+      { name: 'Michael Stahl-David' },
+      { name: 'Odette Annable' },
+      { name: 'Lizzy Caplan' },
+      { name: 'Jessica Lucas' },
+      { name: 'T.J. Miller' },
+      { name: 'Mike Vogel' },
+      { name: 'Ben Feldman' },
+    ],
+    coverUrl: '/movies_pictures/d50a9872768f.jpg',
+    releaseDate: '2008-01-18',
+    length: 85,
+    genre: ['Science Fiction', 'Thriller'],
+    saga: '',
+    description: 'Des amis new-yorkais filment une soirée qui bascule lorsqu\'une créature géante attaque la ville.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'Jumper',
+    director: 'Doug Liman',
+    actors: [
+      {
+        name: 'Hayden Christensen',
+      },
+      {
+        name: 'Rachel Bilson',
+      },
+      {
+        name: 'Samuel L. Jackson',
+      },
+      {
+        name: 'Jamie Bell',
+      },
+      {
+        name: 'Diane Lane',
+      },
+      {
+        name: 'Michael Rooker',
+      },
+      {
+        name: 'AnnaSophia Robb',
+      },
+    ],
+    coverUrl: '/movies_pictures/47842-jumper-0-150-0-225-crop.jpg',
+    releaseDate: '2008-02-14',
+    length: 88,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Un jeune homme capable de se téléporter est traqué par une organisation qui élimine tous les jumpers.',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Jumper',
+      secondEntityKey: 'Steven Gould',
+    },
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: "Le Jour où la Terre s'arrêta",
+    director: 'Scott Derrickson',
+    actors: [
+      { name: 'Keanu Reeves' },
+      { name: 'Jennifer Connelly' },
+      { name: 'Jaden Smith' },
+      { name: 'Jon Hamm' },
+      { name: 'Kathy Bates' },
+      { name: 'John Cleese' },
+      { name: 'Kyle Chandler' },
+    ],
+    coverUrl: '/movies_pictures/58c235fbfe60.jpg',
+    releaseDate: '2008-12-12',
+    length: 104,
+    genre: ['Science Fiction', 'Drame'],
+    saga: '',
+    description: 'Un extraterrestre humanoïde arrive sur Terre avec un message d\'ultimatum pour l\'humanité autodestructrice.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'Push',
+    director: 'Paul McGuigan',
+    actors: [
+      {
+        name: 'Chris Evans',
+      },
+      {
+        name: 'Dakota Fanning',
+      },
+      {
+        name: 'Camilla Belle',
+      },
+      {
+        name: 'Djimon Hounsou',
+      },
+      {
+        name: 'Cliff Curtis',
+      },
+      {
+        name: 'Ming-Na Wen',
+      },
+      {
+        name: 'Nate Mooney',
+      },
+    ],
+    coverUrl: '/movies_pictures/19172439e197.jpg',
+    releaseDate: '2009-02-06',
+    length: 111,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Des individus aux pouvoirs psychiques affrontent une agence gouvernementale qui les traque dans Hong Kong.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'Prédictions',
+    director: 'Alex Proyas',
+    actors: [
+      {
+        name: 'Nicolas Cage',
+      },
+      {
+        name: 'Rose Byrne',
+      },
+      {
+        name: 'Chandler Canterbury',
+      },
+      {
+        name: 'Lara Robinson',
+      },
+      {
+        name: 'Ben Mendelsohn',
+      },
+      {
+        name: 'Alethea McGrath',
+      },
+      {
+        name: 'Adrienne Pickering',
+      },
+    ],
+    coverUrl: '/movies_pictures/43577-knowing-0-150-0-225-crop.jpg',
+    releaseDate: '2009-03-20',
+    length: 121,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Après la découverte d\'une capsule temporelle, un professeur prédit une série de catastrophes et tente d\'empêcher la dernière.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'Clones',
+    director: 'Jonathan Mostow',
+    actors: [
+      {
+        name: 'Bruce Willis',
+      },
+      {
+        name: 'Radha Mitchell',
+      },
+      {
+        name: 'Rosamund Pike',
+      },
+      {
+        name: 'Boris Kodjoe',
+      },
+      {
+        name: 'Jack Noseworthy',
+      },
+      {
+        name: 'James Cromwell',
+      },
+      {
+        name: 'Ving Rhames',
+      },
+    ],
+    coverUrl: '/movies_pictures/19169762.jpg',
+    releaseDate: '2009-05-22',
+    length: 115,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Un soldat clone découvre qu\'il n\'est qu\'un des nombreux exemplaires d\'un programme militaire secret.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'Moon',
+    director: 'Duncan Jones',
+    actors: [
+      { name: 'Sam Rockwell' },
+      { name: 'Kevin Spacey' },
+      { name: 'Dominique McElligott' },
+      { name: 'Rosie Shaw' },
+      { name: 'Adrienne Shaw' },
+      { name: 'Kaya Scodelario' },
+      { name: 'Benedict Wong' },
+    ],
+    coverUrl: '/movies_pictures/f4c0a23dc8b6.jpg',
+    releaseDate: '2009-07-17',
+    length: 97,
+    genre: ['Science Fiction', 'Drame'],
+    saga: '',
+    description: 'Seul sur une base lunaire, un mineur découvre qu\'il n\'est qu\'un clone parmi d\'autres, remplacé à chaque fin de contrat.',
+    fromEntity: {
+      entityType: 'book',
+      title: "Cheval de guerre",
+      secondEntityKey: "Michael Morpurgo",
+    },
+    countryOrigin: ['Royaume-Uni'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'District 9',
+    director: 'Neill Blomkamp',
+    actors: [
+      {
+        name: 'Sharlto Copley',
+      },
+      {
+        name: 'David James',
+      },
+      {
+        name: 'Nathalie Boltt',
+      },
+      {
+        name: 'Sylvaine Strike',
+      },
+      {
+        name: 'John Sumner',
+      },
+      {
+        name: 'Jed Brophy',
+      },
+      {
+        name: 'Vittorio Leonardi',
+      },
+    ],
+    coverUrl: '/movies_pictures/19149593.webp',
+    releaseDate: '2009-08-14',
+    length: 112,
+    genre: ['Science Fiction', 'Thriller'],
+    saga: '',
+    description: 'Des extraterrestres réfugiés dans un bidonville sud-africain sont relocalisés de force, révélant le racisme et la corruption.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+    oscars: [],
+  },
+  {
+    title: 'Mr. Nobody',
+    director: 'Jaco Van Dormael',
+    actors: [
+      {
+        name: 'Jared Leto',
+      },
+      {
+        name: 'Sarah Polley',
+      },
+      {
+        name: 'Diane Kruger',
+      },
+      {
+        name: 'Linh-Dan Pham',
+      },
+      {
+        name: 'Rhys Ifans',
+      },
+      {
+        name: 'Natasha Little',
+      },
+      {
+        name: 'Toby Regbo',
+      },
+    ],
+    coverUrl: '/movies_pictures/mr_nobody.jpg',
+    releaseDate: '2009-09-12',
+    length: 141,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Le dernier mortel de l\'humanité raconte les multiples vies qu\'il aurait pu mener selon ses choix amoureux et existentiels.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+    oscars: [],
+  },
+  {
+    title: 'Daybreakers',
+    director: 'Michael Spierig, Peter Spierig',
+    actors: [
+      { name: 'Ethan Hawke' },
+      { name: 'Willem Dafoe' },
+      { name: 'Sam Neill' },
+      { name: 'Claudia Karvan' },
+      { name: 'Michael Dorman' },
+      { name: 'Isabel Lucas' },
+      { name: 'Vince Colosimo' },
+    ],
+    coverUrl: '/movies_pictures/ca979f9c0334.jpg',
+    releaseDate: '2010-02-03',
+    length: 98,
+    genre: ['Science Fiction', 'Horreur'],
+    saga: '',
+    description: 'En 2019, les vampires dominent la société et la population humaine s\'épuise, provoquant une crise de l\'approvisionnement en sang.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'Repo Men',
+    director: 'Miguel Sapochnik',
+    actors: [
+      { name: 'Jude Law' },
+      { name: 'Forest Whitaker' },
+      { name: 'Alice Braga' },
+      { name: 'Liev Schreiber' },
+      { name: 'Carice van Houten' },
+      { name: 'Chandler Canterbury' },
+      { name: 'RZA' },
+    ],
+    coverUrl: '/movies_pictures/fc5185a6fa55.jpg',
+    releaseDate: '2010-03-19',
+    length: 111,
+    genre: ['Science Fiction', 'Action'],
+    saga: '',
+    description: 'Dans un futur où les organes artificiels se paient à crédit, un repo man arrache les implants aux défaillants de paiement.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'Inception',
+    director: 'Christopher Nolan',
+    actors: [
+      {
+        name: 'Leonardo DiCaprio',
+      },
+      {
+        name: 'Ken Watanabe',
+      },
+      {
+        name: 'Joseph Gordon-Levitt',
+      },
+      {
+        name: 'Marion Cotillard',
+      },
+      {
+        name: 'Elliot Page',
+      },
+      {
+        name: 'Tom Hardy',
+      },
+      {
+        name: 'Cillian Murphy',
+      },
+    ],
+    coverUrl: '/movies_pictures/1803af67b02e.jpg',
+    releaseDate: '2010-07-16',
+    length: 148,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Un voleur spécialisé dans l\'extraction de secrets pénètre les rêves pour implanter une idée dans l\'esprit d\'un héritier industriel.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 2011 },
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 2011 },
+      { type: OscarEnum.OSCAR_BEST_SOUND_EDITING, year: 2011 },
+      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2011 },
+    ],
+  },
+  {
+    title: 'Source Code',
+    director: 'Duncan Jones',
+    actors: [
+      { name: 'Jake Gyllenhaal' },
+      { name: 'Michelle Monaghan' },
+      { name: 'Vera Farmiga' },
+      { name: 'Jeffrey Wright' },
+      { name: 'Russell Peters' },
+      { name: 'Gordon Pinsent' },
+      { name: 'Fay Masterson' },
+    ],
+    coverUrl: '/movies_pictures/81JgsD1EoIL._UF894,1000_QL80_ .jpg',
+    releaseDate: '2011-04-01',
+    length: 93,
+    genre: ['Science Fiction', 'Thriller'],
+    saga: '',
+    description: 'Un soldat revit huit minutes dans le corps d\'un passager d\'un train jusqu\'à identifier le terroriste qui fera exploser la rame.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'Attack the Block',
+    director: 'Joe Cornish',
+    actors: [
+      { name: 'John Boyega' },
+      { name: 'Jodie Whittaker' },
+      { name: 'Alex Esmail' },
+      { name: 'Franz Drameh' },
+      { name: 'Leeon Jones' },
+      { name: 'Luke Treadaway' },
+      { name: 'Nick Frost' },
+    ],
+    coverUrl: '/movies_pictures/e6ffd34a261b.jpg',
+    releaseDate: '2011-05-12',
+    length: 88,
+    genre: ['Science Fiction', 'Action'],
+    saga: '',
+    description: 'Des adolescents d\'un quartier londonien affrontent des aliens qui débarquent dans leur cité.',
+    fromEntity: null,
+    countryOrigin: ['Royaume-Uni'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'Super 8',
+    director: 'J.J. Abrams',
+    actors: [
+      {
+        name: 'Joel Courtney',
+      },
+      {
+        name: 'Elle Fanning',
+      },
+      {
+        name: 'Kyle Chandler',
+      },
+      {
+        name: 'Riley Griffiths',
+      },
+      {
+        name: 'Ryan Lee',
+      },
+      {
+        name: 'Ron Eldard',
+      },
+      {
+        name: 'Noah Emmerich',
+      },
+    ],
+    coverUrl: '/movies_pictures/super_8.jpg',
+    releaseDate: '2011-06-10',
+    length: 112,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'En 1979, des adolescents tournent un film super 8 et assistent à un accident ferroviaire libérant une créature extraterrestre.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'Cowboys & Aliens',
+    director: 'Jon Favreau',
+    actors: [
+      {
+        name: 'Daniel Craig',
+      },
+      {
+        name: 'Abigail Spencer',
+      },
+      {
+        name: 'Matthew Taylor',
+      },
+      {
+        name: 'Clancy Brown',
+      },
+      {
+        name: 'Paul Dano',
+      },
+      {
+        name: 'Adam Beach',
+      },
+      {
+        name: 'Sam Rockwell',
+      },
+    ],
+    coverUrl: '/movies_pictures/cowboy_and_aliens.jpg',
+    releaseDate: '2011-07-29',
+    length: 118,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Un cow-boy amnésique et un rancher unissent leurs forces contre une invasion extraterrestre dans le Far West.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'Time Out',
+    director: 'Andrew Niccol',
+    actors: [
+      {
+        name: 'Amanda Seyfried',
+      },
+      {
+        name: 'Justin Timberlake',
+      },
+      {
+        name: 'Collins Pennie',
+      },
+      {
+        name: 'Cillian Murphy',
+      },
+      {
+        name: 'Olivia Wilde',
+      },
+      {
+        name: 'Matthew Bomer',
+      },
+      {
+        name: 'Alex Pettyfer',
+      },
+    ],
+    coverUrl: '/movies_pictures/19816803.jpg',
+    releaseDate: '2011-10-28',
+    length: 109,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Dans un futur où le temps est la monnaie, un homme riche accusé à tort de meurtre doit voler du temps pour survivre.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+    oscars: [],
+  },
+  {
+    title: 'The Darkest Hour',
+    director: 'Chris Gorak',
+    actors: [
+      { name: 'Emile Hirsch' },
+      { name: 'Olivia Thirlby' },
+      { name: 'Max Minghella' },
+      { name: 'Rachael Taylor' },
+      { name: 'Joel Kinnaman' },
+      { name: 'Veronika Ozerova' },
+      { name: 'Dato Bakhtadze' },
+    ],
+    coverUrl: '/movies_pictures/25df460f1645.jpg',
+    releaseDate: '2011-12-25',
+    length: 89,
+    genre: ['Science Fiction', 'Thriller'],
+    saga: '',
+    description: 'Des touristes à Moscou affrontent des entités électromagnétiques invisibles qui déciment la population.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'Chronicle',
+    director: 'Josh Trank',
+    actors: [
+      {
+        name: 'Dane DeHaan',
+      },
+      {
+        name: 'Michael Kelly',
+      },
+      {
+        name: 'Alex Russell',
+      },
+      {
+        name: 'Michael B. Jordan',
+      },
+      {
+        name: 'Ashley Hinshaw',
+      },
+      {
+        name: 'Anna Wood',
+      },
+    ],
+    coverUrl: '/movies_pictures/chronicles.jpg',
+    releaseDate: '2012-02-03',
+    length: 84,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Trois lycéens acquièrent des pouvoirs télékinétiques qui transforment leurs vies et leurs rapports de force.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'John Carter',
+    director: 'Andrew Stanton',
+    actors: [
+      { name: 'Taylor Kitsch' },
+      { name: 'Lynn Collins' },
+      { name: 'Willem Dafoe' },
+      { name: 'Samantha Morton' },
+      { name: 'Mark Strong' },
+      { name: 'Ciarán Hinds' },
+      { name: 'Dominic West' },
+    ],
+    coverUrl: '/movies_pictures/0dba7a0e4c9e.jpg',
+    releaseDate: '2012-03-07',
+    length: 132,
+    genre: ['Science Fiction', 'Aventure'],
+    saga: '',
+    description: 'Un vétéran de la guerre de Sécession est transporté sur Mars où il devient un héros pris entre deux civilisations en guerre.',
+    fromEntity: {
+      entityType: 'book',
+      title: "Une princesse de Mars",
+      secondEntityKey: "Edgar Rice Burroughs",
+    },
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'Looper',
+    director: 'Rian Johnson',
+    actors: [
+      {
+        name: 'Joseph Gordon-Levitt',
+      },
+      {
+        name: 'Bruce Willis',
+      },
+      {
+        name: 'Emily Blunt',
+      },
+      {
+        name: 'Paul Dano',
+      },
+      {
+        name: 'Piper Perabo',
+      },
+      {
+        name: 'Jeff Daniels',
+      },
+      {
+        name: 'Tracie Thoms',
+      },
+    ],
+    coverUrl: '/movies_pictures/20239211.webp',
+    releaseDate: '2012-09-28',
+    length: 118,
+    genre: ['Science Fiction', 'Action'],
+    saga: '',
+    description: 'Des tueurs exécutent des cibles envoyées du futur jusqu\'à ce qu\'un homme doive abattre sa propre version âgée.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'Cloud Atlas',
+    director: 'Lana Wachowski, Lilly Wachowski, Tom Tykwer',
+    actors: [
+      {
+        name: 'Tom Hanks',
+      },
+      {
+        name: 'Hugh Grant',
+      },
+      {
+        name: 'Halle Berry',
+      },
+      {
+        name: 'Jim Broadbent',
+      },
+      {
+        name: 'Hugo Weaving',
+      },
+      {
+        name: 'Jim Sturgess',
+      },
+      {
+        name: "James D'Arcy",
+      },
+    ],
+    coverUrl: '/movies_pictures/91+OVDe-sGL.jpg',
+    releaseDate: '2012-10-26',
+    length: 172,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Six histoires entrelacées à travers les siècles montrent comment les actions des uns résonnent sur les vies des autres.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'Oblivion',
+    director: 'Joseph Kosinski',
+    actors: [
+      { name: 'Tom Cruise' },
+      { name: 'Morgan Freeman' },
+      { name: 'Andrea Riseborough' },
+      { name: 'Olga Kurylenko' },
+      { name: 'Melissa Leo' },
+      { name: 'Nikolaj Coster-Waldau' },
+      { name: 'Zoë Bell' },
+    ],
+    coverUrl: '/movies_pictures/62108-oblivion-0-150-0-225-crop.jpg',
+    releaseDate: '2013-04-19',
+    length: 124,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Un technicien de drones sur une Terre ravagée découvre qu\'il n\'est pas ce qu\'on lui a fait croire.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'After Earth',
+    director: 'M. Night Shyamalan',
+    actors: [
+      {
+        name: 'Will Smith',
+      },
+      {
+        name: 'Jaden Smith',
+      },
+      {
+        name: 'Zoë Kravitz',
+      },
+      {
+        name: 'Sophie Okonedo',
+      },
+      {
+        name: 'Isabelle Fuhrman',
+      },
+      {
+        name: 'David Denman',
+      },
+      {
+        name: 'Glenn Morshower',
+      },
+    ],
+    coverUrl: '/movies_pictures/after_earth.jpg',
+    releaseDate: '2013-05-31',
+    length: 100,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Père et fils crashés sur une Terre devenue hostile doivent traverser la planète pour activer un signal de détresse.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'Snowpiercer',
+    director: 'Bong Joon-ho',
+    actors: [
+      {
+        name: 'Jennifer Connelly',
+      },
+      {
+        name: 'Daveed Diggs',
+      },
+      {
+        name: 'Mickey Sumner',
+      },
+      {
+        name: 'Annalise Basso',
+      },
+      {
+        name: 'Alison Wright',
+      },
+      {
+        name: 'Susan Park',
+      },
+      {
+        name: 'Lena Hall',
+      },
+    ],
+    coverUrl: '/movies_pictures/21038075_20130909110053289.jpg',
+    releaseDate: '2013-07-29',
+    length: 126,
+    genre: ['Science Fiction', 'Thriller'],
+    saga: '',
+    description: 'Sur un train circulant éternellement autour d\'une Terre gelée, les passagers du dernier wagon se révoltent contre l\'ordre social.',
+    fromEntity: null,
+    countryOrigin: ['Corée du Sud'],
+    selectDisplayOrder: 30,
+    oscars: [],
+  },
+  {
+    title: 'Elysium',
+    director: 'Neill Blomkamp',
+    actors: [
+      {
+        name: 'Matt Damon',
+      },
+      {
+        name: 'Jodie Foster',
+      },
+      {
+        name: 'William Fichtner',
+      },
+      {
+        name: 'Alice Braga',
+      },
+      {
+        name: 'Diego Luna',
+      },
+      {
+        name: 'Michael Shanks',
+      },
+      {
+        name: 'Sharlto Copley',
+      },
+    ],
+    coverUrl: '/movies_pictures/elysium.jpg',
+    releaseDate: '2013-08-09',
+    length: 109,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'En 2154, un ouvrier terrien infiltré dans la station orbitale luxueuse d\'Elysium tente de renverser l\'ordre social.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'Gravity',
+    director: 'Alfonso Cuarón',
+    actors: [
+      {
+        name: 'Sandra Bullock',
+      },
+      {
+        name: 'George Clooney',
+      },
+      {
+        name: 'Ed Harris',
+      },
+      {
+        name: 'Paul Sharma',
+      },
+      {
+        name: 'Amy Warren',
+      },
+    ],
+    coverUrl: '/movies_pictures/21023233_20130729173134181.webp',
+    releaseDate: '2013-10-04',
+    length: 91,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Deux astronautes piégés dans l\'espace après la destruction de leur navette luttent pour regagner la Terre.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_DIRECTOR, year: 2014 },
+      { type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 2014 },
+      { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 2014 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 2014 },
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 2014 },
+      { type: OscarEnum.OSCAR_BEST_SOUND_EDITING, year: 2014 },
+      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2014 },
+    ],
+  },
+  {
+    title: 'Under the Skin',
+    director: 'Jonathan Glazer',
+    actors: [
+      { name: 'Scarlett Johansson' },
+      { name: 'Jeremy McWilliams' },
+      { name: 'Lynsey Taylor Mackay' },
+      { name: 'Dougie McConnell' },
+      { name: 'Kevin McAlinden' },
+    ],
+    coverUrl: '/movies_pictures/c01866131030.jpg',
+    releaseDate: '2014-03-14',
+    length: 108,
+    genre: ['Science Fiction', 'Thriller', 'Horreur'],
+    saga: '',
+    description:
+      "Une extraterrestre à l'apparence d'une femme parcourt l'Écosse pour séduire des hommes, jusqu'à ce que l'humanité la trouble.",
+    fromEntity: {
+      entityType: 'book',
+      title: 'Under the Skin',
+      secondEntityKey: 'Michel Faber',
+    },
+    countryOrigin: ['Royaume-Uni', 'États-Unis', 'Suisse'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'Her',
+    director: 'Spike Jonze',
+    actors: [
+      { name: 'Joaquin Phoenix' },
+      { name: 'Scarlett Johansson' },
+      { name: 'Amy Adams' },
+      { name: 'Rooney Mara' },
+      { name: 'Olivia Wilde' },
+      { name: 'Chris Pratt' },
+      { name: 'Matt Letscher' },
+    ],
+    coverUrl: '/movies_pictures/her.jpg',
+    releaseDate: '2014-03-19',
+    length: 126,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Un homme solitaire tombe amoureux de son assistant vocal doté d\'une intelligence artificielle évolutive.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 2014 }],
+  },
+  {
+    title: 'Transcendance',
+    director: 'Wally Pfister',
+    actors: [
+      { name: 'Morgan Freeman' },
+      { name: 'Johnny Depp' },
+      { name: 'Rebecca Ferguson' },
+      { name: 'Rebecca Hall' },
+      { name: 'Paul Bettany' },
+      { name: 'Kate Mara' },
+      { name: 'Cillian Murphy' },
+    ],
+    coverUrl: '/movies_pictures/543364.jpg',
+    releaseDate: '2014-04-18',
+    length: 119,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'La conscience d\'un chercheur en IA est téléchargée dans un ordinateur, lui conférant des pouvoirs qui inquiètent le monde.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'Edge of Tomorrow',
+    director: 'Doug Liman',
+    actors: [
+      {
+        name: 'Tom Cruise',
+      },
+      {
+        name: 'Bill Paxton',
+      },
+      {
+        name: 'Brendan Gleeson',
+      },
+      {
+        name: 'Charlotte Riley',
+      },
+      {
+        name: 'Emily Blunt',
+      },
+      {
+        name: 'Jonas Armstrong',
+      },
+      {
+        name: 'Noah Taylor',
+      },
+    ],
+    coverUrl: '/movies_pictures/a8e1262e7111.jpg',
+    releaseDate: '2014-06-06',
+    length: 113,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Un soldat revit le même jour de bataille contre des envahisseurs extraterrestres, affinant ses compétences à chaque mort.',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'All You Need Is Kill',
+      secondEntityKey: 'Takeshi Obata',
+    },
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+    oscars: [],
+  },
+  {
+    title: 'Predestination',
+    director: 'Michael Spierig, Peter Spierig',
+    actors: [
+      {
+        name: 'Ethan Hawke',
+      },
+      {
+        name: 'Sarah Snook',
+      },
+      {
+        name: 'Noah Taylor',
+      },
+      {
+        name: 'Christopher Kirby',
+      },
+      {
+        name: 'Jim Knobeloch',
+      },
+    ],
+    coverUrl: '/movies_pictures/p11111906_p_v11_av.jpg',
+    releaseDate: '2014-08-28',
+    length: 97,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Un agent temporel traque un terroriste à travers le temps et découvre une boucle existentielle troublante.',
+    fromEntity: {
+      entityType: 'book',
+      title: "All You Zombies",
+      secondEntityKey: "Robert A. Heinlein",
+    },
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'The Giver',
+    director: 'Phillip Noyce',
+    actors: [
+      { name: 'Brenton Thwaites' },
+      { name: 'Jeff Bridges' },
+      { name: 'Meryl Streep' },
+      { name: 'Alexander Skarsgård' },
+      { name: 'Katie Holmes' },
+      { name: 'Taylor Swift' },
+    ],
+    coverUrl: '/movies_pictures/8c2b0005ff5d.jpg',
+    releaseDate: '2014-10-15',
+    length: 97,
+    genre: ['Science Fiction', 'Drame'],
+    saga: '',
+    description: 'Dans une société sans émotions ni souvenirs, un adolescent reçoit la mémoire du monde d\'avant et remet en question l\'ordre établi.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'Interstellar',
+    director: 'Christopher Nolan',
+    actors: [
+      { name: 'Matthew McConaughey' },
+      { name: 'Anne Hathaway' },
+      { name: 'Matt Damon' },
+      { name: 'Jessica Chastain' },
+      { name: 'Michael Caine' },
+      { name: 'Casey Affleck' },
+      { name: 'John Lithgow' },
+    ],
+    coverUrl: '/movies_pictures/eb5a5264b9bf.jpg',
+    releaseDate: '2014-11-07',
+    length: 169,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Des astronautes traversent un wormhole pour trouver une nouvelle planète habitable alors que la Terre agonise.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+    oscars: [{ type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2015 }],
+  },
+  {
+    title: 'Ex Machina',
+    director: 'Alex Garland',
+    actors: [
+      { name: 'Alicia Vikander' },
+      { name: 'Domhnall Gleeson' },
+      { name: 'Oscar Isaac' },
+      { name: 'Sonoya Mizuno' },
+    ],
+    coverUrl: '/movies_pictures/12f6d7568c93.jpg',
+    releaseDate: '2014-12-16',
+    length: 108,
+    genre: ['Science Fiction', 'Thriller'],
+    saga: '',
+    description: 'Un programmeur est invité à évaluer la conscience d\'un robot humanoïde doté d\'une intelligence troublante.',
+    fromEntity: null,
+    countryOrigin: ['Royaume-Uni'],
+    selectDisplayOrder: 0,
+    oscars: [{ type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2016 }],
+  },
+  {
+    title: 'Chappie',
+    director: 'Neill Blomkamp',
+    actors: [
+      { name: 'Sharlto Copley' },
+      { name: 'Dev Patel' },
+      { name: 'Hugh Jackman' },
+      { name: 'Sigourney Weaver' },
+      { name: 'Ninja' },
+      { name: 'Yo-Landi Visser' },
+      { name: 'Jose Pablo Cantillo' },
+    ],
+    coverUrl: '/movies_pictures/chappie.jpg',
+    releaseDate: '2015-03-04',
+    length: 120,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Un robot policier reprogrammé développe une conscience et une personnalité d\'enfant dans un Johannesburg criminel.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+    oscars: [],
+  },
+  {
+    title: 'À la poursuite de demain',
+    director: 'Brad Bird',
+    actors: [
+      { name: 'George Clooney' },
+      { name: 'Britt Robertson' },
+      { name: 'Hugh Laurie' },
+      { name: 'Raffey Cassidy' },
+      { name: 'Tim McGraw' },
+      { name: 'Kathryn Hahn' },
+      { name: 'Keegan-Michael Key' },
+    ],
+    coverUrl: '/movies_pictures/tomorrowland.jpg',
+    releaseDate: '2015-05-20',
+    length: 130,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Une inventrice et un ex-astronaute traversent une dimension parallèle optimiste pour sauver le futur.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+    oscars: [],
+  },
+  {
+    title: 'Renaissances',
+    director: 'Tarsem Singh',
+    actors: [
+      {
+        name: 'Ryan Reynolds',
+      },
+      {
+        name: 'Ben Kingsley',
+      },
+      {
+        name: 'Matthew Goode',
+      },
+      {
+        name: 'Michelle Dockery',
+      },
+      {
+        name: 'Natalie Martinez',
+      },
+      {
+        name: 'Derek Luke',
+      },
+      {
+        name: 'Victor Garber',
+      },
+    ],
+    coverUrl: '/movies_pictures/510747.jpg',
+    releaseDate: '2015-07-29',
+    length: 117,
+    genre: ['Science Fiction', 'Action'],
+    saga: '',
+    description: 'Un scientifique transfère sa conscience dans un corps plus jeune, mais le processus le rend instable et dangereux.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'Seul sur Mars',
+    director: 'Ridley Scott',
+    actors: [
+      {
+        name: 'Matt Damon',
+      },
+      {
+        name: 'Jessica Chastain',
+      },
+      {
+        name: 'Kristen Wiig',
+      },
+      {
+        name: 'Jeff Daniels',
+      },
+      {
+        name: 'Michael Peña',
+      },
+      {
+        name: 'Kate Mara',
+      },
+      {
+        name: 'Sean Bean',
+      },
+    ],
+    coverUrl: '/movies_pictures/305329.jpg',
+    releaseDate: '2015-09-30',
+    length: 141,
+    genre: ['Science Fiction', 'Aventure'],
+    saga: '',
+    description: 'Un astronaute abandonné sur Mars doit survivre en cultivant des pommes de terre en attendant une mission de secours.',
+    fromEntity: {
+      entityType: 'book',
+      title: "Seul sur Mars",
+      secondEntityKey: "Andy Weir",
+    },
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+    oscars: [],
+  },
+  {
+    title: 'La 5ème Vague',
+    director: 'J Blakeson',
+    actors: [
+      { name: 'Chloë Grace Moretz' },
+      { name: 'Nick Robinson' },
+      { name: 'Alex Roe' },
+      { name: 'Maika Monroe' },
+      { name: 'Liev Schreiber' },
+      { name: 'Maria Bello' },
+      { name: 'Ron Livingston' },
+    ],
+    coverUrl: '/movies_pictures/a0000053.webp',
+    releaseDate: '2016-01-22',
+    length: 112,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Après quatre vagues d\'invasion extraterrestre, une adolescente cherche son frère dans un monde où personne n\'est ce qu\'il semble.',
+    fromEntity: {
+      entityType: 'book',
+      title: 'La 5ème Vague',
+      secondEntityKey: 'Rick Yancey',
+    },
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 10,
+    oscars: [],
+  },
+  {
+    title: 'Midnight Special',
+    director: 'Jeff Nichols',
+    actors: [
+      { name: 'Michael Shannon' },
+      { name: 'Joel Edgerton' },
+      { name: 'Kirsten Dunst' },
+      { name: 'Adam Driver' },
+      { name: 'Jaeden Martell' },
+      { name: 'Sam Shepard' },
+      { name: 'Bill Camp' },
+    ],
+    coverUrl: '/movies_pictures/1f7ac62b769a.jpg',
+    releaseDate: '2016-03-18',
+    length: 112,
+    genre: ['Science Fiction', 'Drame'],
+    saga: '',
+    description: 'Un père embarque son fils aux pouvoirs mystérieux dans une fuite à travers le Texas, traqués par le gouvernement et un culte.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'Premier contact',
+    director: 'Denis Villeneuve',
+    actors: [
+      { name: 'Amy Adams' },
+      { name: 'Jeremy Renner' },
+      { name: 'Forest Whitaker' },
+      { name: 'Michael Stuhlbarg' },
+      { name: 'Tzi Ma' },
+      { name: "Mark O'Brien" },
+      { name: 'Abigail Pniowsky' },
+    ],
+    coverUrl: '/movies_pictures/109206907.webp',
+    releaseDate: '2016-11-11',
+    length: 116,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Une linguiste est recrutée par l\'armée pour communiquer avec des extraterrestres arrivés sur Terre, avant que la panique ne dégénère.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+    oscars: [{ type: OscarEnum.OSCAR_BEST_SOUND_EDITING, year: 2017 }],
+  },
+  {
+    title: 'Passengers',
+    director: 'Morten Tyldum',
+    actors: [
+      {
+        name: 'Jennifer Lawrence',
+      },
+      {
+        name: 'Chris Pratt',
+      },
+      {
+        name: 'Michael Sheen',
+      },
+      {
+        name: 'Laurence Fishburne',
+      },
+      {
+        name: 'Andy García',
+      },
+      {
+        name: 'Aurora Perrineau',
+      },
+      {
+        name: 'Fred Melamed',
+      },
+    ],
+    coverUrl: '/movies_pictures/405336.webp',
+    releaseDate: '2016-12-21',
+    length: 116,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Deux passagers d\'un vaisseau interstellaire se réveillent prématurément et doivent vivre ensemble pendant des décennies de voyage.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'Passengers',
+    director: 'Morten Tyldum',
+    actors: [
+      { name: 'Jennifer Lawrence' },
+      { name: 'Chris Pratt' },
+      { name: 'Michael Sheen' },
+      { name: 'Laurence Fishburne' },
+      { name: 'Andy Garcia' },
+      { name: 'Aurora Perrineau' },
+      { name: 'Vince Foster' },
+    ],
+    coverUrl: '/movies_pictures/287c210c7d72.jpg',
+    releaseDate: '2016-12-21',
+    length: 116,
+    genre: ['Science Fiction', 'Romance'],
+    saga: '',
+    description: 'Deux passagers d\'un vaisseau interstellaire se réveillent prématurément et doivent vivre ensemble pendant des décennies de voyage.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'Ghost in the Shell',
+    director: 'Rupert Sanders',
+    actors: [
+      {
+        name: 'Scarlett Johansson',
+      },
+      {
+        name: 'Johan Philip Pilou Asbæk',
+      },
+      {
+        name: 'Michael Pitt',
+      },
+      {
+        name: 'Takeshi Kitano',
+      },
+      {
+        name: 'Juliette Binoche',
+      },
+      {
+        name: 'Kaori Momoi',
+      },
+      {
+        name: 'Chin Han',
+      },
+    ],
+    coverUrl: '/movies_pictures/314818.webp',
+    releaseDate: '2017-03-31',
+    length: 107,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Une cyborg d\'élite traque un hacker capable de pirater l\'esprit des humains augmentés.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'Life : Origine inconnue',
+    director: 'Daniel Espinosa',
+    actors: [
+      { name: 'Jake Gyllenhaal' },
+      { name: 'Rebecca Ferguson' },
+      { name: 'Ryan Reynolds' },
+      { name: 'Hiroyuki Sanada' },
+      { name: 'Ariyon Bakare' },
+      { name: 'Olga Dihovichnaya' },
+    ],
+    coverUrl: '/movies_pictures/life.jpg',
+    releaseDate: '2017-04-19',
+    length: 104,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'L\'équipage de la Station Spatiale Internationale découvre une forme de vie martienne qui s\'avère redoutablement agressive.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+    oscars: [],
+  },
+  {
+    title: 'Okja',
+    director: 'Bong Joon-ho',
+    actors: [
+      {
+        name: 'Ahn Seo-hyeon',
+      },
+      {
+        name: 'Jake Gyllenhaal',
+      },
+      {
+        name: 'Tilda Swinton',
+      },
+      {
+        name: 'Paul Dano',
+      },
+      {
+        name: 'Steven Yeun',
+      },
+      {
+        name: 'Lily Collins',
+      },
+      {
+        name: 'Shirley Henderson',
+      },
+    ],
+    coverUrl: '/movies_pictures/039567.webp',
+    releaseDate: '2017-06-28',
+    length: 120,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Une jeune fille coréenne défend Okja, un super-porc génétiquement modifié, contre une multinationale agroalimentaire.',
+    fromEntity: null,
+    countryOrigin: ['Corée du Sud'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'Valérian et la Cité des Mille Planètes',
+    director: 'Luc Besson',
+    actors: [
+      {
+        name: 'Dane DeHaan',
+      },
+      {
+        name: 'Cara Delevingne',
+      },
+      {
+        name: 'Clive Owen',
+      },
+      {
+        name: 'Rihanna',
+      },
+      {
+        name: 'Ethan Hawke',
+      },
+      {
+        name: 'Herbie Hancock',
+      },
+      {
+        name: 'Kris Wu',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/269458-valerian-and-the-city-of-a-thousand-planets-0-150-0-225-crop.jpg',
+    releaseDate: '2017-07-21',
+    length: 137,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Deux agents spatio-temporels enquêtent sur une menace dans Alpha, la métropole intergalactique la plus vaste de l\'univers.',
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 30,
+    oscars: [],
+  },
+  {
+    title: 'Seven Sisters',
+    director: 'Tommy Wirkola',
+    actors: [
+      { name: 'Noomi Rapace' },
+      { name: 'Glenn Close' },
+      { name: 'Willem Dafoe' },
+      { name: 'Marwan Kenzari' },
+      { name: 'Christian Rubeck' },
+      { name: 'Pal Sverre Hagen' },
+      { name: 'Clara Read' },
+    ],
+    coverUrl: '/movies_pictures/162904.webp',
+    releaseDate: '2017-08-30',
+    length: 123,
+    genre: ['Science Fiction', 'Thriller'],
+    saga: '',
+    description: 'Dans un futur où la natalité est limitée à un enfant par famille, sept sœurs partagent une seule identité publique.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'Blade Runner 2049',
+    director: 'Denis Villeneuve',
+    actors: [
+      {
+        name: 'Ryan Gosling',
+      },
+      {
+        name: 'Harrison Ford',
+      },
+      {
+        name: 'Ana de Armas',
+      },
+      {
+        name: 'Jared Leto',
+      },
+      {
+        name: 'Robin Wright',
+      },
+      {
+        name: 'Sylvia Hoeks',
+      },
+      {
+        name: 'Dave Bautista',
+      },
+    ],
+    coverUrl: '/movies_pictures/2027848e6a3d.jpg',
+    releaseDate: '2017-10-04',
+    length: 164,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Un nouveau blade runner découvre un secret enfoui depuis des décennies, relançant la chasse aux réplicants et la quête de l\'identité.',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Les Androïdes rêvent-ils de moutons électriques ?',
+      secondEntityKey: 'Philip K. Dick',
+    },
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 2018 },
+      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2018 },
+    ],
+  },
+  {
+    title: 'Annihilation',
+    director: 'Alex Garland',
+    actors: [
+      {
+        name: 'Natalie Portman',
+      },
+      {
+        name: 'Jennifer Jason Leigh',
+      },
+      {
+        name: 'Oscar Isaac',
+      },
+      {
+        name: 'Gina Rodriguez',
+      },
+      {
+        name: 'Tessa Thompson',
+      },
+      {
+        name: 'Tuva Novotny',
+      },
+      {
+        name: 'Benedict Wong',
+      },
+    ],
+    coverUrl: '/movies_pictures/5079145.webp',
+    releaseDate: '2018-01-01',
+    length: 115,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Une biologiste rejoint une expédition dans une zone mutante où les lois de la nature ne s\'appliquent plus.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'Ready Player One',
+    director: 'Steven Spielberg',
+    actors: [
+      {
+        name: 'Olivia Cooke',
+      },
+      {
+        name: 'Ben Mendelsohn',
+      },
+      {
+        name: 'T.J. Miller',
+      },
+      {
+        name: 'Tye Sheridan',
+      },
+      {
+        name: 'Mark Rylance',
+      },
+      {
+        name: 'Lena Waithe',
+      },
+      {
+        name: 'Simon Pegg',
+      },
+    ],
+    coverUrl: '/movies_pictures/543f48eaef14.jpg',
+    releaseDate: '2018-03-29',
+    length: 140,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'En 2045, un adolescent participe à une chasse au trésor dans un univers virtuel pour gagner le contrôle d\'une méta-OASIS.',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Player One',
+      secondEntityKey: 'Ernest Cline',
+    },
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+    oscars: [],
+  },
+  {
+    title: 'Anon',
+    director: 'Andrew Niccol',
+    actors: [
+      {
+        name: 'Clive Owen',
+      },
+      {
+        name: 'Amanda Seyfried',
+      },
+      {
+        name: 'Colm Feore',
+      },
+      {
+        name: "Mark O'Brien",
+      },
+      {
+        name: 'Sonya Walger',
+      },
+      {
+        name: 'Joe Pingue',
+      },
+      {
+        name: 'Iddo Goldberg',
+      },
+    ],
+    coverUrl: '/movies_pictures/1599322.webp',
+    releaseDate: '2018-05-04',
+    length: 100,
+    genre: ['Science Fiction', 'Thriller'],
+    saga: '',
+    description: 'Dans un futur sans intimité, une enquêtrice traque un tueur qui efface ses traces visuelles numériques.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'Upgrade',
+    director: 'Leigh Whannell',
+    actors: [
+      { name: 'Logan Marshall-Green' },
+      { name: 'Betty Gabriel' },
+      { name: 'Harrison Gilbertson' },
+      { name: 'Benedict Hardie' },
+      { name: 'Melanie Vallejo' },
+      { name: 'Linda Cropper' },
+      { name: 'Simon Maiden' },
+    ],
+    coverUrl: '/movies_pictures/e0920663d5c5.jpg',
+    releaseDate: '2018-06-01',
+    length: 100,
+    genre: ['Science Fiction', 'Thriller'],
+    saga: '',
+    description: 'Un homme paralysé reçoit une puce IA qui lui redonne la mobilité et le transforme en machine de vengeance.',
+    fromEntity: null,
+    countryOrigin: ['Australie'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: "2001 : L'Odyssée de l'espace",
+    director: 'Stanley Kubrick',
+    actors: [
+      {
+        name: 'Keir Dullea',
+      },
+      {
+        name: 'Gary Lockwood',
+      },
+      {
+        name: 'William Sylvester',
+      },
+      {
+        name: 'Leonard Rossiter',
+      },
+      {
+        name: 'Margaret Tyzack',
+      },
+      {
+        name: 'Robert Beatty',
+      },
+      {
+        name: 'Sean Sullivan',
+      },
+    ],
+    coverUrl: '/movies_pictures/2001-lodyssee-de-lespace.jpg',
+    releaseDate: '2018-07-30',
+    length: 149,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'De la préhistoire au voyage vers Jupiter, l\'humanité interagit avec une mystérieuse monolithe et une IA nommée HAL.',
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'Ad Astra',
+    director: 'James Gray',
+    actors: [
+      {
+        name: 'Brad Pitt',
+      },
+      {
+        name: 'Ruth Negga',
+      },
+      {
+        name: 'Jamie Kennedy',
+      },
+      {
+        name: 'Donal Sutherland',
+      },
+      {
+        name: 'Tommy Lee Jones',
+      },
+      {
+        name: 'Kimberly Elise',
+      },
+      {
+        name: 'Loren Dean',
+      },
+    ],
+    coverUrl: '/movies_pictures/ad-astra.jpg',
+    releaseDate: '2019-09-20',
+    length: 123,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Un astronaute traverse le système solaire pour retrouver son père disparu près de Neptune et stopper une menace planétaire.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'Code 8',
+    director: 'Jeff Chan',
+    actors: [
+      { name: 'Robbie Amell' },
+      { name: 'Stephen Amell' },
+      { name: 'Sung Kang' },
+      { name: 'Aaron Abrams' },
+      { name: 'Kari Matchett' },
+      { name: 'Greg Bryk' },
+      { name: 'Peter Outerbridge' },
+    ],
+    coverUrl: '/movies_pictures/code_8.jpg',
+    releaseDate: '2019-12-13',
+    length: 98,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Dans une ville où les super-pouvoirs sont réprimés, un jeune travailleur aux pouvoirs électriques commet un braquage désespéré.',
+    fromEntity: null,
+    countryOrigin: ['Canada'],
+    selectDisplayOrder: 5,
+    oscars: [],
+  },
+  {
+    title: 'Tenet',
+    director: 'Christopher Nolan',
+    actors: [
+      {
+        name: 'John David Washington',
+      },
+      {
+        name: 'Robert Pattinson',
+      },
+      {
+        name: 'Elizabeth Debicki',
+      },
+      {
+        name: 'Dimple Kapadia',
+      },
+      {
+        name: 'Aaron Taylor-Johnson',
+      },
+      {
+        name: 'Clémence Poésy',
+      },
+      {
+        name: 'Michael Caine',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/aCIFMriQh8rvhxpN1IWGgvH0Tlg-0-150-0-225-crop.jpg',
+    releaseDate: '2020-09-03',
+    length: 150,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Un agent infiltré manipule l\'inversion du temps pour empêcher une guerre mondiale déclenchée par une technologie capable d\'inverser l\'entropie.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+    oscars: [{ type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2021 }],
+  },
+  {
+    title: 'Chaos Walking',
+    director: 'Doug Liman',
+    actors: [
+      {
+        name: 'Daisy Ridley',
+      },
+      {
+        name: 'Tom Holland',
+      },
+      {
+        name: 'Mads Mikkelsen',
+      },
+      {
+        name: 'Kurt Sutter',
+      },
+      {
+        name: 'Nick Jonas',
+      },
+      {
+        name: 'Demián Bichir',
+      },
+      {
+        name: 'David Oyelowo',
+      },
+    ],
+    coverUrl: '/movies_pictures/346746-chaos-walking-0-150-0-225-crop.jpg',
+    releaseDate: '2021-03-05',
+    length: 109,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Sur une planète colonisée où les pensées des hommes sont audibles, un adolescent découvre une fille, seule survivante d\'un vaisseau crashé.',
+    fromEntity: {
+      entityType: 'book',
+      title: "Le Chaos en marche",
+      secondEntityKey: "Patrick Ness",
+    },
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'Reminiscence',
+    director: 'Lisa Joy',
+    actors: [
+      {
+        name: 'Hugh Jackman',
+      },
+      {
+        name: 'Rebecca Ferguson',
+      },
+      {
+        name: 'Thandiwe Newton',
+      },
+      {
+        name: 'Cliff Curtis',
+      },
+      {
+        name: 'Marina de Tavira',
+      },
+      {
+        name: 'Daniel Wu',
+      },
+      {
+        name: 'Mojean Aria',
+      },
+    ],
+    coverUrl: '/movies_pictures/3991427.webp',
+    releaseDate: '2021-08-20',
+    length: 116,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Dans une Miami inondée, un homme utilise une machine de réminiscence pour retrouver une femme disparue et découvrir une conspiration.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'Finch',
+    director: 'Miguel Sapochnik',
+    actors: [
+      {
+        name: 'Tom Hanks',
+      },
+      {
+        name: 'Caleb Landry Jones',
+      },
+      {
+        name: 'Skeet Ulrich',
+      },
+      {
+        name: 'Oscar Avila',
+      },
+      {
+        name: 'Christopher Farrar',
+      },
+      {
+        name: 'Lora Martinez-Cunningham',
+      },
+    ],
+    coverUrl: '/movies_pictures/3777037.webp',
+    releaseDate: '2021-11-05',
+    length: 115,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Un inventeur, son chien et un robot traversent l\'Amérique post-apocalyptique pour protéger une jeune fille.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'Adam à travers le temps',
+    director: 'Shawn Levy',
+    actors: [
+      {
+        name: 'Ryan Reynolds',
+      },
+      {
+        name: 'Zoe Saldana',
+      },
+      {
+        name: 'Mark Ruffalo',
+      },
+      {
+        name: 'Jennifer Gardner',
+      },
+    ],
+    coverUrl: '/movies_pictures/4623310.jpg',
+    releaseDate: '2022-03-11',
+    length: 106,
+    genre: ['Science Fiction', 'Action'],
+    saga: '',
+    description: 'Un pilote de chasse du XXe siècle se retrouve propulsé en 2022 et doit s\'allier à son fils pour sauver le futur.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'Everything Everywhere All at Once',
+    director: 'Daniel Kwan, Daniel Scheinert',
+    actors: [
+      {
+        name: 'Michelle Yeoh',
+      },
+      {
+        name: 'Stephanie Hsu',
+      },
+      {
+        name: 'James Hong',
+      },
+      {
+        name: 'Jonathan Ke Quan',
+      },
+      {
+        name: 'Jamie Lee Curtis',
+      },
+      {
+        name: 'Jenny Slate',
+      },
+      {
+        name: 'Harry Shum Jr',
+      },
+    ],
+    coverUrl: '/movies_pictures/acf5609497a9.jpg',
+    releaseDate: '2022-03-25',
+    length: 139,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Une propriétaire de laverie est entraînée dans le multivers pour empêcher une entité nihiliste de détruire toutes les réalités.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MOVIE, year: 2023 },
+      { type: OscarEnum.OSCAR_BEST_DIRECTOR, year: 2023 },
+      { type: OscarEnum.OSCAR_BEST_ACTRESS, year: 2023 },
+      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTOR, year: 2023 },
+      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTRESS, year: 2023 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 2023 },
+      { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 2023 },
+    ],
+  },
+  {
+    title: 'Crimes of the Future',
+    director: 'David Cronenberg',
+    actors: [
+      { name: 'Viggo Mortensen' },
+      { name: 'Léa Seydoux' },
+      { name: 'Kristen Stewart' },
+    ],
+    coverUrl: '/movies_pictures/2a048f932bb7.jpg',
+    releaseDate: '2022-05-25',
+    length: 107,
+    genre: ['Science Fiction', 'Horreur'],
+    saga: '',
+    description:
+      "Dans un futur où la chirurgie performance est norme, un couple d'artistes explore les mutations du corps humain.",
+    fromEntity: null,
+    countryOrigin: ['Canada'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'Nope',
+    director: 'Jordan Peele',
+    actors: [
+      {
+        name: 'Daniel Kaluuya',
+      },
+      {
+        name: 'Keke Palmer',
+      },
+      {
+        name: 'Steven Yeun',
+      },
+      {
+        name: 'Brandon Perea',
+      },
+      {
+        name: 'Michael Wincott',
+      },
+      {
+        name: 'Keith David',
+      },
+      {
+        name: 'Wrenn Schmidt',
+      },
+    ],
+    coverUrl: '/movies_pictures/c5f6e612cd96.jpg',
+    releaseDate: '2022-08-10',
+    length: 131,
+    genre: ['Science Fiction', 'Horreur'],
+    saga: '',
+    description: 'Un frère et une sœur propriétaires d\'un ranch californien tentent de filmer un phénomène aérien inexpliqué.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+    oscars: [],
+  },
+  {
+    title: 'Le Visiteur du Futur',
+    director: 'François Descraques',
+    actors: [
+      { name: 'Florent Dorin' },
+      { name: 'Arnaud Joyet' },
+      { name: 'François Descraques' },
+      { name: 'Enya Baroux' },
+      { name: 'Raphaël Descraques' },
+      { name: 'Slimane-Baptiste Berhoun' },
+      { name: 'Mathias Mlekuz' },
+    ],
+    coverUrl: '/movies_pictures/le_visiteur_du_futur.jpg',
+    releaseDate: '2022-09-07',
+    length: 102,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Adaptation de la websérie : un inventeur du futur débarque dans le présent et perturbe la vie de ses ancêtres.',
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 5,
+    oscars: [],
+  },
+  {
+    title: 'The Creator',
+    director: 'Gareth Edwards',
+    actors: [
+      {
+        name: 'John David Washington',
+      },
+      {
+        name: 'Gemma Chan',
+      },
+      {
+        name: 'Ken Watanabe',
+      },
+      {
+        name: 'Allison Janney',
+      },
+      {
+        name: 'Madeleine Yuna Voyles',
+      },
+    ],
+    coverUrl: '/movies_pictures/the_creator.jpg',
+    releaseDate: '2023-09-27',
+    length: 133,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Un ancien agent traque le créateur d\'une IA considérée comme une menace existentielle pour l\'humanité.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+    oscars: [],
+  },
+  {
+    title: 'Rebel Moon - Partie 1 : Enfant du feu',
+    director: 'Zack Snyder',
+    actors: [
+      {
+        name: 'Sofia Boutella',
+      },
+      {
+        name: 'Djimon Hounsou',
+      },
+      {
+        name: 'Ed Skrein',
+      },
+      {
+        name: 'Michiel Huisman',
+      },
+      {
+        name: 'Doona Bae',
+      },
+    ],
+    coverUrl: '/movies_pictures/rebel_moon_-_partie_1_enfant_du_feu.jpg',
+    releaseDate: '2023-12-22',
+    length: 133,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Une colonie agricole recrute des mercenaires pour résister à l\'armée tyrannique qui les opprime.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+    oscars: [],
+  },
+  {
+    title: "L'Empire (2024)",
+    director: 'Bruno Dumont',
+    actors: [
+      { name: 'Lyna Khoudri' },
+      { name: 'Anamaria Vartolomei' },
+      { name: 'Camille Cottin' },
+      { name: 'Fabrice Luchini' },
+      { name: 'Brandon Vlieghe' },
+      { name: 'Julien Manier' },
+      { name: 'Yves Houssais' },
+    ],
+    coverUrl: '/movies_pictures/2dcf64bd3b74.jpg',
+    releaseDate: '2024-02-21',
+    length: 111,
+    genre: ['Science Fiction', 'Comédie'],
+    saga: '',
+    description: 'Sur une planète lointaine, une famille et une créature intergalactique s\'affrontent dans une fable de science-fiction absurde.',
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'Code 8 : Partie II',
+    director: 'Jeff Chan',
+    actors: [
+      {
+        name: 'Robbie Amell',
+      },
+      {
+        name: 'Stephen Amell',
+      },
+      {
+        name: 'Sirena Gulamgaus',
+      },
+      {
+        name: 'Aaron Abrams',
+      },
+      {
+        name: 'Jean Yoon',
+      },
+    ],
+    coverUrl: '/movies_pictures/code_8_partie_ii.jpg',
+    releaseDate: '2024-02-28',
+    length: 100,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Des super-humans persécutés se rebellent contre un régime qui les exploite comme main-d\'œuvre clandestine.',
+    fromEntity: null,
+    countryOrigin: ['Canada'],
+    selectDisplayOrder: 5,
+    oscars: [],
+  },
+  {
+    title: 'Spaceman',
+    director: 'Johan Renck',
+    actors: [
+      {
+        name: 'Adam Sandler',
+      },
+      {
+        name: 'Carey Mulligan',
+      },
+      {
+        name: 'Paul Dano',
+      },
+      {
+        name: 'Kunal Nayyar',
+      },
+      {
+        name: 'Lena Olin',
+      },
+      {
+        name: 'Isabella Rossellini',
+      },
+    ],
+    coverUrl: '/movies_pictures/1465606.jpg',
+    releaseDate: '2024-03-01',
+    length: 108,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Un astronaute isolé dans l\'espace profond dialogue avec une créature mystérieuse née dans son vaisseau pendant sa mission.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'Megalopolis',
+    director: 'Francis Ford Coppola',
+    actors: [
+      {
+        name: 'Adam Driver',
+      },
+      {
+        name: 'Giancarlo Esposito',
+      },
+      {
+        name: 'Nathalie Emmanuel',
+      },
+      {
+        name: 'Aubrey Plaza',
+      },
+      {
+        name: 'Shia LaBeouf',
+      },
+    ],
+    coverUrl: '/movies_pictures/megalopolis.jpg',
+    releaseDate: '2024-09-25',
+    length: 138,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Un architecte idéaliste veut reconstruire une New York romaine en ruines, opposé à un maire corrompu.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+    oscars: [],
+  },
+  {
+    title: 'The Electric State',
+    director: 'Anthony Russo, Joe Russo',
+    actors: [
+      {
+        name: 'Millie Bobby Brown',
+      },
+      {
+        name: 'Chris Pratt',
+      },
+      {
+        name: 'Jonathan Ke Quan',
+      },
+      {
+        name: 'Stanley Tucci',
+      },
+      {
+        name: 'Jason Alexander',
+      },
+      {
+        name: 'Giancarlo Esposito',
+      },
+      {
+        name: 'Woody Norman',
+      },
+    ],
+    coverUrl: '/movies_pictures/91d914b62cd0ddfc76c549ccd619abce.webp',
+    releaseDate: '2025-01-10',
+    length: 128,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Une adolescente et un robot traversent l\'Amérique post-apocalyptique pour retrouver son frère dans un monde dominé par l\'IA.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'Mickey 17',
+    director: 'Bong Joon-ho',
+    actors: [
+      {
+        name: 'Robert Pattinson',
+      },
+      {
+        name: 'Steven Yeun',
+      },
+      {
+        name: 'Naomi Ackie',
+      },
+      {
+        name: 'Toni Collette',
+      },
+      {
+        name: 'Mark Ruffalo',
+      },
+      {
+        name: 'Holliday Grainger',
+      },
+      {
+        name: 'Cameron Britton',
+      },
+    ],
+    coverUrl: '/movies_pictures/dc0e0c2ccb36.jpg',
+    releaseDate: '2025-01-31',
+    length: 137,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Un homme cloneable meurt et renaît à volonté pour des missions périlleuses sur une planète glaciale, jusqu\'à ce que deux versions de lui coexistent.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+    oscars: [],
+  },
+  {
+    title: 'Companion',
+    director: 'Drew Hancock',
+    actors: [
+      {
+        name: 'Sophie Thatcher',
+      },
+      {
+        name: 'Jack Quaid',
+      },
+      {
+        name: 'Lukas Gage',
+      },
+      {
+        name: 'Megan Suri',
+      },
+      {
+        name: 'Harvey Guillén',
+      },
+      {
+        name: 'Rupert Friend',
+      },
+      {
+        name: 'Jaboukie Young-White',
+      },
+    ],
+    coverUrl: '/movies_pictures/4ffee73796c73bcc7b7f695ef6a18f61.jpg',
+    releaseDate: '2025-01-31',
+    length: 97,
+    genre: ['Science Fiction', 'Thriller'],
+    saga: '',
+    description: 'Lors d\'un week-end entre amis, une femme découvre que sa compagne est une androïde dont la programmation cache des secrets mortels.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'Running Man',
+    director: 'Edgar Wright',
+    actors: [
+      {
+        name: 'Sam Worthington',
+      },
+      {
+        name: 'Zoe Saldana',
+      },
+      {
+        name: 'Sigourney Weaver',
+      },
+      {
+        name: 'Stephen Lang',
+      },
+      {
+        name: 'Kate Winslet',
+      },
+    ],
+    coverUrl: '/movies_pictures/running_man.jpg',
+    releaseDate: '2025-11-19',
+    length: 134,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Dans un futur totalitaire, un homme est forcé de participer à un jeu télévisé où il est traqué jusqu\'à la mort.',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Running man',
+      secondEntityKey: 'Stephen King',
+    },
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+    oscars: [],
+  },
+  {
+    title: 'Projet Dernière Chance',
+    director: 'Phil Lord, Chris Miller',
+    actors: [
+      {
+        name: 'Ryan Gosling',
+      },
+      {
+        name: 'Sandra Hüller',
+      },
+      {
+        name: 'James Ortiz',
+      },
+      {
+        name: 'Lionel Boyce',
+      },
+      {
+        name: 'Milana Vayntrub',
+      },
+      {
+        name: 'Ken Leung',
+      },
+      {
+        name: 'Malachi Kirby',
+      },
+    ],
+    coverUrl: '/movies_pictures/b958c20e3a4a.jpg',
+    releaseDate: '2026-03-18',
+    length: 156,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: 'Des enfants sont envoyés dans le futur pour sauver l\'humanité d\'une catastrophe imminente.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+    oscars: [],
+  },
+  {
+    title: 'The Dog Stars',
+    director: 'Ridley Scott',
+    actors: [
+      { name: 'Jacob Elordi' },
+      { name: 'Josh Brolin' },
+      { name: 'Margaret Qualley' },
+      { name: 'Guy Pearce' },
+      { name: 'Allison Janney' },
+      { name: 'Benedict Wong' },
+    ],
+    coverUrl:
+      '/movies_pictures/fabb3efae133.jpg',
+    releaseDate: '2026-08-28',
+    length: 118,
+    genre: ['Science Fiction', 'Dystopie', 'Drame'],
+    saga: '',
+    description: 'Seul survivant d\'une pandémie, un pilote vit dans un aéroport désert avec son chien jusqu\'à ce qu\'un signal le pousse à partir.',
+    fromEntity: {
+      entityType: 'book',
+      title: 'The Dog Stars',
+      secondEntityKey: 'Peter Heller',
+    },
+    countryOrigin: ['États-Unis', 'Royaume-Uni'],
     selectDisplayOrder: 0,
     oscars: [],
   },

@@ -2,43 +2,248 @@ import { BaseMovie, OscarEnum } from '../../../models/movie-model';
 
 export const baseMoviesJeunesse: BaseMovie[] = [
   {
-    title: 'Cruella',
-    director: 'Craig Gillespie',
+    title: 'Charlie et la Chocolaterie',
+    director: 'Mel Stuart',
+    actors: [
+      { name: 'Gene Wilder' },
+      { name: 'Jack Albertson' },
+      { name: 'Peter Ostrum' },
+      { name: 'Roy Kinnear' },
+    ],
+    coverUrl: '/movies_pictures/761aca29f06f.jpg',
+    releaseDate: '1971-01-01',
+    length: 100,
+    genre: ['Jeunesse'],
+    saga: '',
+    description: 'Un garçon pauvre remporte une visite dans l\'usine secrète de Willy Wonka, où enfants capricieux et inventions gourmandes révèlent les règles d\'un monde féérique.',
+    fromEntity: {
+      entityType: 'book',
+      title: "Charlie et la Chocolaterie",
+      secondEntityKey: "Roald Dahl",
+    },
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'Les 101 Dalmatiens',
+    director: 'Stephen Herek',
     actors: [
       {
-        name: 'Emma Stone',
+        name: 'Tim McInnerny',
       },
       {
-        name: 'Emma Thompson',
+        name: 'Hugh Fraser',
       },
       {
-        name: 'Paul Walter Hauser',
+        name: 'John Shrapnel',
       },
       {
-        name: 'Joel Fry',
+        name: 'John Benfield',
       },
       {
-        name: 'Emily Beecham',
+        name: 'Glenn Close',
       },
       {
-        name: 'Mark Strong',
+        name: 'Jeff Daniels',
       },
       {
-        name: 'Kayvan Novak',
+        name: 'Joely Richardson',
       },
     ],
-    coverUrl: '/movies_pictures/0290309.jpg',
-    releaseDate: '2021-05-28',
-    length: 134,
-    genre: ['Comédie', 'Drame'],
+    coverUrl: '/movies_pictures/9c17bf5e48ab.jpg',
+    releaseDate: '1996-11-27',
+    length: 103,
+    genre: ['Jeunesse', 'Comédie'],
+    saga: 'Disney Classique',
+    description: 'Pongo et Perdita, deux dalmatiens, voient leurs quinze chiots enlevés par Cruella de Vil, prête à tout pour un manteau en peau de chien.',
+    fromEntity: {
+      entityType: 'book',
+      title: "Les 101 Dalmatiens",
+      secondEntityKey: "Dodie Smith",
+    },
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 20,
+    oscars: [],
+  },
+  {
+    title: 'Mulan',
+    director: 'Niki Caro',
+    actors: [
+      {
+        name: 'Liu Yifei',
+      },
+      {
+        name: 'Donnie Yen',
+      },
+      {
+        name: 'Jet Li',
+      },
+      {
+        name: 'Jason Scott Lee',
+      },
+      {
+        name: 'Rosalind Chao',
+      },
+      {
+        name: 'Gong Li',
+      },
+      {
+        name: 'Tzi Ma',
+      },
+    ],
+    coverUrl: '/movies_pictures/d298a5e1cf03.jpg',
+    releaseDate: '2020-09-04',
+    length: 115,
+    genre: ['Action'],
+    saga: 'Disney Classique',
+    description: 'Pour sauver son père malade et préserver l\'honneur de sa famille, une jeune Chinoise se fait passer pour un soldat et affronte l\'invasion du général Bori Khan.',
+    fromEntity: {
+      entityType: 'book',
+      title: "La Ballade de Mulan",
+      secondEntityKey: "Anonyme",
+    },
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 20,
+    oscars: [],
+  },
+  {
+    title: 'Stuart Little',
+    director: 'Rob Minkoff',
+    actors: [
+      {
+        name: 'Geena Davis',
+      },
+      {
+        name: 'Hugh Laurie',
+      },
+      {
+        name: 'Jonathan Lipnicki',
+      },
+      {
+        name: 'Julia Sweeney',
+      },
+      {
+        name: 'David Alan Grier',
+      },
+      {
+        name: 'Estelle Getty',
+      },
+      {
+        name: 'Allyce Beasley',
+      },
+    ],
+    coverUrl: '/movies_pictures/046909_af.jpg',
+    releaseDate: '1999-12-17',
+    length: 84,
+    genre: ['Jeunesse', 'Comédie'],
     saga: '',
-    description: 'Lors des années 1970 à Londres, Estella, jeune styliste dotée d\'un talent singulier, bascule vers la créatrice impitoyable Cruella en affrontant la baronne von Hellman.',
+    description: 'Les Little adoptent Stuart, une souris articulée et pleine de panache, que le chat de la maison et divers obstacles rendent la vie familiale aussi surprenante que tendre.',
+    fromEntity: {
+      entityType: 'book',
+      title: "Stuart Little",
+      secondEntityKey: "E. B. White",
+    },
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+    oscars: [],
+  },
+  {
+    title: 'Le merveilleux magasin de Mr Magorium',
+    director: 'Zach Helm',
+    actors: [
+      { name: 'Dustin Hoffman' },
+      { name: 'Natalie Portman' },
+      { name: 'Jason Bateman' },
+      { name: 'Ted Ludzik' },
+      { name: 'Zach Mills' },
+      { name: 'Mike Real' },
+      { name: 'Liam Powier' },
+    ],
+    coverUrl: '/movies_pictures/a9ebe88ead29.jpg',
+    releaseDate: '2007-11-16',
+    length: 93,
+    genre: ['Jeunesse', 'Fantastique'],
+    saga: '',
+    description: 'Le magasin de jouets le plus étrange du monde confie ses clés à une employée timide lorsque son centenaire propriétaire annonce son départ et que la magie vacille.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: "L'Incroyable Histoire de Winter le dauphin",
+    director: 'Charles Martin Smith',
+    actors: [
+      {
+        name: 'Morgan Freeman',
+      },
+      {
+        name: 'Ashley Judd',
+      },
+      {
+        name: 'Kris Kristofferson',
+      },
+      {
+        name: 'Harry Connick',
+      },
+      {
+        name: 'Nathan Gamble',
+      },
+      {
+        name: 'Frances Sternhagen',
+      },
+      {
+        name: 'Tom Nowicki',
+      },
+    ],
+    coverUrl: '/movies_pictures/19821721.jpg',
+    releaseDate: '2011-09-23',
+    length: 113,
+    genre: ['Jeunesse'],
+    saga: '',
+    description: 'Un jeune garçon au poignet cassé noue un lien avec un dauphin estropié, Winter, dont la guérison inspire toute une communauté de Clearwater en Floride.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
+    title: 'Maléfique',
+    director: 'Robert Stromberg',
+    actors: [
+      {
+        name: 'Angelina Jolie',
+      },
+      {
+        name: 'Elle Fanning',
+      },
+      {
+        name: 'Sharlto Copley',
+      },
+      {
+        name: 'Juno Temple',
+      },
+      {
+        name: 'Sam Riley',
+      },
+      {
+        name: 'Miranda Richardson',
+      },
+      {
+        name: 'Imelda Staunton',
+      },
+    ],
+    coverUrl: '/movies_pictures/449b5511f1e4.jpg',
+    releaseDate: '2014-05-30',
+    length: 97,
+    genre: ['Fantastique'],
+    saga: 'Disney Live Action',
+    description: 'La sorcière Maléfique maudit une princesse au jour de sa naissance, mais sa relation avec Aurora révèle peu à peu les raisons de sa colère et de sa solitude.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 2022 },
-    ],
+    oscars: [],
   },
   {
     title: 'Le Livre de la jungle',
@@ -125,6 +330,48 @@ export const baseMoviesJeunesse: BaseMovie[] = [
     oscars: [],
   },
   {
+    title: 'Aladdin',
+    director: 'Guy Ritchie',
+    actors: [
+      {
+        name: 'Mena Massoud',
+      },
+      {
+        name: 'Naomi Scott',
+      },
+      {
+        name: 'Will Smith',
+      },
+      {
+        name: 'Marwan Kenzari',
+      },
+      {
+        name: 'Navid Negahban',
+      },
+      {
+        name: 'Nasim Pedrad',
+      },
+      {
+        name: 'Billy Magnussen',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/f104e50be44a.jpg',
+    releaseDate: '2019-05-24',
+    length: 128,
+    genre: ['Fantastique'],
+    saga: 'Disney Live Action',
+    description: 'Un vaurien des rues d\'Agrabah trouve une lampe aux pouvoirs immenses, se fait passer pour un prince et lutte contre le vizir Jafar pour gagner le cœur de Jasmine.',
+    fromEntity: {
+      entityType: 'book',
+      title: "Aladin ou la Lampe merveilleuse",
+      secondEntityKey: "Les Mille et Une Nuits",
+    },
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 20,
+    oscars: [],
+  },
+  {
     title: 'Le Roi Lion',
     director: 'Jon Favreau',
     actors: [
@@ -156,6 +403,43 @@ export const baseMoviesJeunesse: BaseMovie[] = [
     genre: ['Aventure', 'Jeunesse'],
     saga: 'Disney Live Action',
     description: 'Simba, prince lion élevé loin du trône après une tragédie orchestrée par Scar, doit retrouver son courage et reprendre les Terres du Soleil levant.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 20,
+    oscars: [],
+  },
+  {
+    title: 'Maléfique : Le Pouvoir du Mal',
+    director: 'Joachim Rønning',
+    actors: [
+      {
+        name: 'Angelina Jolie',
+      },
+      {
+        name: 'Elle Fanning',
+      },
+      {
+        name: 'Ed Skrein',
+      },
+      {
+        name: 'Sam Riley',
+      },
+      {
+        name: 'Michelle Pfeiffer',
+      },
+      {
+        name: 'Chiwetel Ejiofor',
+      },
+      {
+        name: 'Imelda Staunton',
+      },
+    ],
+    coverUrl: '/movies_pictures/3125098.webp',
+    releaseDate: '2019-10-18',
+    length: 119,
+    genre: ['Fantastique', 'Aventure'],
+    saga: 'Disney Live Action',
+    description: 'Maléfique protège la princesse devenue reine des fées mais doit affronter la haine des humains et de nouvelles menaces qui mettent en péril le royaume du Moors.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
@@ -199,44 +483,44 @@ export const baseMoviesJeunesse: BaseMovie[] = [
     oscars: [],
   },
   {
-    title: 'Mulan',
-    director: 'Niki Caro',
+    title: 'Paddington',
+    director: 'Paul King',
     actors: [
       {
-        name: 'Liu Yifei',
+        name: 'Hugh Bonneville',
       },
       {
-        name: 'Donnie Yen',
+        name: 'Ben Whishaw',
       },
       {
-        name: 'Jet Li',
+        name: 'Sally Hawkins',
       },
       {
-        name: 'Jason Scott Lee',
+        name: 'Madeleine Harris',
       },
       {
-        name: 'Rosalind Chao',
+        name: 'Samuel Joslin',
       },
       {
-        name: 'Gong Li',
+        name: 'Julie Walters',
       },
       {
-        name: 'Tzi Ma',
+        name: 'Nicole Kidman',
       },
     ],
-    coverUrl: '/movies_pictures/d298a5e1cf03.jpg',
-    releaseDate: '2020-09-04',
-    length: 115,
-    genre: ['Action'],
-    saga: 'Disney Classique',
-    description: 'Pour sauver son père malade et préserver l\'honneur de sa famille, une jeune Chinoise se fait passer pour un soldat et affronte l\'invasion du général Bori Khan.',
+    coverUrl: '/movies_pictures/508053.webp',
+    releaseDate: '2015-01-16',
+    length: 95,
+    genre: ['Jeunesse', 'Comédie'],
+    saga: '',
+    description: 'Un ourson parlant du Pérou débarque à Londres, est recueilli par les Brown et cherche un foyer tout en échappant à une naturaliste qui veut le vendre.',
     fromEntity: {
       entityType: 'book',
-      title: "La Ballade de Mulan",
-      secondEntityKey: "Anonyme",
+      title: "Paddington",
+      secondEntityKey: "Michael Bond",
     },
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 20,
+    countryOrigin: ['Royaume-Uni'],
+    selectDisplayOrder: 5,
     oscars: [],
   },
   {
@@ -276,121 +560,6 @@ export const baseMoviesJeunesse: BaseMovie[] = [
       title: "Cendrillon",
       secondEntityKey: "Charles Perrault",
     },
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 20,
-    oscars: [],
-  },
-  {
-    title: 'Cendrillon',
-    director: 'Kay Cannon',
-    actors: [
-      {
-        name: 'Camila Cabello',
-      },
-      {
-        name: 'Idina Menzel',
-      },
-      {
-        name: 'Minnie Driver',
-      },
-      {
-        name: 'Nicholas Galitzine',
-      },
-      {
-        name: 'Billy Porter',
-      },
-      {
-        name: 'Pierce Brosnan',
-      },
-      {
-        name: 'James Corden',
-      },
-    ],
-    coverUrl: '/movies_pictures/2715417.jpg',
-    releaseDate: '2021-09-03',
-    length: 113,
-    genre: ['Comédie musicale', 'Romance'],
-    saga: '',
-    description: 'Maltraitée par sa belle-mère et ses demi-sœurs, une jeune orpheline croise le chemin du prince lors d\'un bal où magie, danse et courage ouvrent la voie du bonheur.',
-    fromEntity: {
-      entityType: 'book',
-      title: "Cendrillon",
-      secondEntityKey: "Charles Perrault",
-    },
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 20,
-    oscars: [],
-  },
-  {
-    title: 'Maléfique',
-    director: 'Robert Stromberg',
-    actors: [
-      {
-        name: 'Angelina Jolie',
-      },
-      {
-        name: 'Elle Fanning',
-      },
-      {
-        name: 'Sharlto Copley',
-      },
-      {
-        name: 'Juno Temple',
-      },
-      {
-        name: 'Sam Riley',
-      },
-      {
-        name: 'Miranda Richardson',
-      },
-      {
-        name: 'Imelda Staunton',
-      },
-    ],
-    coverUrl: '/movies_pictures/449b5511f1e4.jpg',
-    releaseDate: '2014-05-30',
-    length: 97,
-    genre: ['Fantastique'],
-    saga: 'Disney Live Action',
-    description: 'La sorcière Maléfique maudit une princesse au jour de sa naissance, mais sa relation avec Aurora révèle peu à peu les raisons de sa colère et de sa solitude.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 20,
-    oscars: [],
-  },
-  {
-    title: 'Maléfique : Le Pouvoir du Mal',
-    director: 'Joachim Rønning',
-    actors: [
-      {
-        name: 'Angelina Jolie',
-      },
-      {
-        name: 'Elle Fanning',
-      },
-      {
-        name: 'Ed Skrein',
-      },
-      {
-        name: 'Sam Riley',
-      },
-      {
-        name: 'Michelle Pfeiffer',
-      },
-      {
-        name: 'Chiwetel Ejiofor',
-      },
-      {
-        name: 'Imelda Staunton',
-      },
-    ],
-    coverUrl: '/movies_pictures/3125098.webp',
-    releaseDate: '2019-10-18',
-    length: 119,
-    genre: ['Fantastique', 'Aventure'],
-    saga: 'Disney Live Action',
-    description: 'Maléfique protège la princesse devenue reine des fées mais doit affronter la haine des humains et de nouvelles menaces qui mettent en péril le royaume du Moors.',
-    fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
     oscars: [],
@@ -438,42 +607,121 @@ export const baseMoviesJeunesse: BaseMovie[] = [
     oscars: [],
   },
   {
-    title: 'Aladdin',
-    director: 'Guy Ritchie',
+    title: 'Paddington 2',
+    director: 'Paul King',
     actors: [
       {
-        name: 'Mena Massoud',
+        name: 'Hugh Grant',
       },
       {
-        name: 'Naomi Scott',
+        name: 'Brendan Gleeson',
       },
       {
-        name: 'Will Smith',
+        name: 'Hugh Bonneville',
       },
       {
-        name: 'Marwan Kenzari',
+        name: 'Sally Hawkins',
       },
       {
-        name: 'Navid Negahban',
+        name: 'Julie Walters',
       },
       {
-        name: 'Nasim Pedrad',
+        name: 'Jim Broadbent',
       },
       {
-        name: 'Billy Magnussen',
+        name: 'Peter Capaldi',
       },
     ],
-    coverUrl:
-      '/movies_pictures/f104e50be44a.jpg',
-    releaseDate: '2019-05-24',
-    length: 128,
-    genre: ['Fantastique'],
-    saga: 'Disney Live Action',
-    description: 'Un vaurien des rues d\'Agrabah trouve une lampe aux pouvoirs immenses, se fait passer pour un prince et lutte contre le vizir Jafar pour gagner le cœur de Jasmine.',
+    coverUrl: '/movies_pictures/1496521.jpg',
+    releaseDate: '2018-01-12',
+    length: 104,
+    genre: ['Jeunesse', 'Comédie'],
+    saga: '',
+    description: 'Paddington, devenu membre de la famille Brown, tente de déjouer un voleur vantard pour acquérir un livre rare et retrouver sa place après avoir été injustement incarcéré.',
     fromEntity: {
       entityType: 'book',
-      title: "Aladin ou la Lampe merveilleuse",
-      secondEntityKey: "Les Mille et Une Nuits",
+      title: "Paddington",
+      secondEntityKey: "Michael Bond",
+    },
+    countryOrigin: ['Royaume-Uni'],
+    selectDisplayOrder: 5,
+    oscars: [],
+  },
+  {
+    title: 'Cruella',
+    director: 'Craig Gillespie',
+    actors: [
+      {
+        name: 'Emma Stone',
+      },
+      {
+        name: 'Emma Thompson',
+      },
+      {
+        name: 'Paul Walter Hauser',
+      },
+      {
+        name: 'Joel Fry',
+      },
+      {
+        name: 'Emily Beecham',
+      },
+      {
+        name: 'Mark Strong',
+      },
+      {
+        name: 'Kayvan Novak',
+      },
+    ],
+    coverUrl: '/movies_pictures/0290309.jpg',
+    releaseDate: '2021-05-28',
+    length: 134,
+    genre: ['Comédie', 'Drame'],
+    saga: '',
+    description: 'Lors des années 1970 à Londres, Estella, jeune styliste dotée d\'un talent singulier, bascule vers la créatrice impitoyable Cruella en affrontant la baronne von Hellman.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 20,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 2022 },
+    ],
+  },
+  {
+    title: 'Cendrillon',
+    director: 'Kay Cannon',
+    actors: [
+      {
+        name: 'Camila Cabello',
+      },
+      {
+        name: 'Idina Menzel',
+      },
+      {
+        name: 'Minnie Driver',
+      },
+      {
+        name: 'Nicholas Galitzine',
+      },
+      {
+        name: 'Billy Porter',
+      },
+      {
+        name: 'Pierce Brosnan',
+      },
+      {
+        name: 'James Corden',
+      },
+    ],
+    coverUrl: '/movies_pictures/2715417.jpg',
+    releaseDate: '2021-09-03',
+    length: 113,
+    genre: ['Comédie musicale', 'Romance'],
+    saga: '',
+    description: 'Maltraitée par sa belle-mère et ses demi-sœurs, une jeune orpheline croise le chemin du prince lors d\'un bal où magie, danse et courage ouvrent la voie du bonheur.',
+    fromEntity: {
+      entityType: 'book',
+      title: "Cendrillon",
+      secondEntityKey: "Charles Perrault",
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
@@ -518,254 +766,6 @@ export const baseMoviesJeunesse: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
-    oscars: [],
-  },
-  {
-    title: 'Les 101 Dalmatiens',
-    director: 'Stephen Herek',
-    actors: [
-      {
-        name: 'Tim McInnerny',
-      },
-      {
-        name: 'Hugh Fraser',
-      },
-      {
-        name: 'John Shrapnel',
-      },
-      {
-        name: 'John Benfield',
-      },
-      {
-        name: 'Glenn Close',
-      },
-      {
-        name: 'Jeff Daniels',
-      },
-      {
-        name: 'Joely Richardson',
-      },
-    ],
-    coverUrl: '/movies_pictures/9c17bf5e48ab.jpg',
-    releaseDate: '1996-11-27',
-    length: 103,
-    genre: ['Jeunesse', 'Comédie'],
-    saga: 'Disney Classique',
-    description: 'Pongo et Perdita, deux dalmatiens, voient leurs quinze chiots enlevés par Cruella de Vil, prête à tout pour un manteau en peau de chien.',
-    fromEntity: {
-      entityType: 'book',
-      title: "Les 101 Dalmatiens",
-      secondEntityKey: "Dodie Smith",
-    },
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 20,
-    oscars: [],
-  },
-  {
-    title: "L'Incroyable Histoire de Winter le dauphin",
-    director: 'Charles Martin Smith',
-    actors: [
-      {
-        name: 'Morgan Freeman',
-      },
-      {
-        name: 'Ashley Judd',
-      },
-      {
-        name: 'Kris Kristofferson',
-      },
-      {
-        name: 'Harry Connick',
-      },
-      {
-        name: 'Nathan Gamble',
-      },
-      {
-        name: 'Frances Sternhagen',
-      },
-      {
-        name: 'Tom Nowicki',
-      },
-    ],
-    coverUrl: '/movies_pictures/19821721.jpg',
-    releaseDate: '2011-09-23',
-    length: 113,
-    genre: ['Jeunesse'],
-    saga: '',
-    description: 'Un jeune garçon au poignet cassé noue un lien avec un dauphin estropié, Winter, dont la guérison inspire toute une communauté de Clearwater en Floride.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'Paddington 2',
-    director: 'Paul King',
-    actors: [
-      {
-        name: 'Hugh Grant',
-      },
-      {
-        name: 'Brendan Gleeson',
-      },
-      {
-        name: 'Hugh Bonneville',
-      },
-      {
-        name: 'Sally Hawkins',
-      },
-      {
-        name: 'Julie Walters',
-      },
-      {
-        name: 'Jim Broadbent',
-      },
-      {
-        name: 'Peter Capaldi',
-      },
-    ],
-    coverUrl: '/movies_pictures/1496521.jpg',
-    releaseDate: '2018-01-12',
-    length: 104,
-    genre: ['Jeunesse', 'Comédie'],
-    saga: '',
-    description: 'Paddington, devenu membre de la famille Brown, tente de déjouer un voleur vantard pour acquérir un livre rare et retrouver sa place après avoir été injustement incarcéré.',
-    fromEntity: {
-      entityType: 'book',
-      title: "Paddington",
-      secondEntityKey: "Michael Bond",
-    },
-    countryOrigin: ['Royaume-Uni'],
-    selectDisplayOrder: 5,
-    oscars: [],
-  },
-  {
-    title: 'Paddington',
-    director: 'Paul King',
-    actors: [
-      {
-        name: 'Hugh Bonneville',
-      },
-      {
-        name: 'Ben Whishaw',
-      },
-      {
-        name: 'Sally Hawkins',
-      },
-      {
-        name: 'Madeleine Harris',
-      },
-      {
-        name: 'Samuel Joslin',
-      },
-      {
-        name: 'Julie Walters',
-      },
-      {
-        name: 'Nicole Kidman',
-      },
-    ],
-    coverUrl: '/movies_pictures/508053.webp',
-    releaseDate: '2015-01-16',
-    length: 95,
-    genre: ['Jeunesse', 'Comédie'],
-    saga: '',
-    description: 'Un ourson parlant du Pérou débarque à Londres, est recueilli par les Brown et cherche un foyer tout en échappant à une naturaliste qui veut le vendre.',
-    fromEntity: {
-      entityType: 'book',
-      title: "Paddington",
-      secondEntityKey: "Michael Bond",
-    },
-    countryOrigin: ['Royaume-Uni'],
-    selectDisplayOrder: 5,
-    oscars: [],
-  },
-  {
-    title: 'Stuart Little',
-    director: 'Rob Minkoff',
-    actors: [
-      {
-        name: 'Geena Davis',
-      },
-      {
-        name: 'Hugh Laurie',
-      },
-      {
-        name: 'Jonathan Lipnicki',
-      },
-      {
-        name: 'Julia Sweeney',
-      },
-      {
-        name: 'David Alan Grier',
-      },
-      {
-        name: 'Estelle Getty',
-      },
-      {
-        name: 'Allyce Beasley',
-      },
-    ],
-    coverUrl: '/movies_pictures/046909_af.jpg',
-    releaseDate: '1999-12-17',
-    length: 84,
-    genre: ['Jeunesse', 'Comédie'],
-    saga: '',
-    description: 'Les Little adoptent Stuart, une souris articulée et pleine de panache, que le chat de la maison et divers obstacles rendent la vie familiale aussi surprenante que tendre.',
-    fromEntity: {
-      entityType: 'book',
-      title: "Stuart Little",
-      secondEntityKey: "E. B. White",
-    },
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 5,
-    oscars: [],
-  },
-  {
-    title: 'Charlie et la Chocolaterie',
-    director: 'Mel Stuart',
-    actors: [
-      { name: 'Gene Wilder' },
-      { name: 'Jack Albertson' },
-      { name: 'Peter Ostrum' },
-      { name: 'Roy Kinnear' },
-    ],
-    coverUrl: '/movies_pictures/761aca29f06f.jpg',
-    releaseDate: '1971-01-01',
-    length: 100,
-    genre: ['Jeunesse'],
-    saga: '',
-    description: 'Un garçon pauvre remporte une visite dans l\'usine secrète de Willy Wonka, où enfants capricieux et inventions gourmandes révèlent les règles d\'un monde féérique.',
-    fromEntity: {
-      entityType: 'book',
-      title: "Charlie et la Chocolaterie",
-      secondEntityKey: "Roald Dahl",
-    },
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: 'Le merveilleux magasin de Mr Magorium',
-    director: 'Zach Helm',
-    actors: [
-      { name: 'Dustin Hoffman' },
-      { name: 'Natalie Portman' },
-      { name: 'Jason Bateman' },
-      { name: 'Ted Ludzik' },
-      { name: 'Zach Mills' },
-      { name: 'Mike Real' },
-      { name: 'Liam Powier' },
-    ],
-    coverUrl: '/movies_pictures/a9ebe88ead29.jpg',
-    releaseDate: '2007-11-16',
-    length: 93,
-    genre: ['Jeunesse', 'Fantastique'],
-    saga: '',
-    description: 'Le magasin de jouets le plus étrange du monde confie ses clés à une employée timide lorsque son centenaire propriétaire annonce son départ et que la magie vacille.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
     oscars: [],
   },
 ];

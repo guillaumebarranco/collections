@@ -1604,7 +1604,8 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'La Maison dans laquelle - Intégrale',
     author: 'Mariam Petrosyan',
-    coverUrl: '',
+    coverUrl:
+      'https://cdn1.booknode.com/book_cover/1137/la_maison_dans_laquelle_integrale-1137450-264-432.webp',
     pages: 1074,
     genre: ['Littérature'],
     saga: 'La Maison dans laquelle',
@@ -2360,10 +2361,10 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: "Les Carnets du sous-sol (Notes d'un souterrain)",
     author: 'Fiodor Dostoïevski',
-    coverUrl: '',
+    coverUrl: '/books_pictures/71Hl7TBBzwL._SL1491_.jpg',
     pages: 128,
     genre: ['Littérature'],
-    saga: '/books_pictures/71Hl7TBBzwL._SL1491_.jpg',
+    saga: '',
     sagaOrder: 0,
     sagaFinished: false,
     releaseDate: '1864-01-01',
