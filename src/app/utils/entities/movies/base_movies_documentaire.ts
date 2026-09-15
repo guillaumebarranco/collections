@@ -2379,4 +2379,21 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
     selectDisplayOrder: 0,
     oscars: [],
   },
+
+  {
+    title: "L'Ascension brisée de Moriah Wilson",
+    director: 'Marina Zenovich',
+    actors: [{ name: 'Moriah Wilson' }],
+    coverUrl: '',
+    releaseDate: '2026-04-03',
+    length: 97,
+    genre: ['Documentaire'],
+    saga: '',
+    description:
+      "Documentaire sur la vie de la cycliste Moriah Wilson, son meurtre et la traque de la personne reconnue coupable.",
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
 ];

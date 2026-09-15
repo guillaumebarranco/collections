@@ -633,18 +633,18 @@ export const lauralBooks: UserBook[] = [
   {
     title: '4.48 Psychose',
     author: 'Sarah Kane',
-    firstReadDate: '',
-    lastReadDate: '',
+    firstReadDate: "2026-01-10",
+    lastReadDate: "2026-01-10",
     otherReadDates: [],
     rating: 0,
     reading: false,
     readTimes: 1,
     owned: true,
-    borrowed: '',
-    loaned: '',
+    borrowed: "",
+    loaned: "",
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
 
   {

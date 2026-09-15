@@ -27803,4 +27803,27 @@ export const baseMoviesComedie: BaseMovie[] = [
     selectDisplayOrder: 0,
     oscars: [],
   },
+
+  {
+    title: 'Projet X',
+    director: 'Nima Nourizadeh',
+    actors: [
+      { name: 'Thomas Mann' },
+      { name: 'Oliver Cooper' },
+      { name: 'Jonathan Daniel Brown' },
+      { name: 'Kirby Bliss Blanton' },
+      { name: 'Miles Teller' },
+    ],
+    coverUrl: '',
+    releaseDate: '2012-03-02',
+    length: 88,
+    genre: ['Comédie'],
+    saga: '',
+    description:
+      "Pour les 17 ans de Thomas, trois potes organisent une fête qui dégénère en chaos filmé caméra à l'épaule.",
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
 ];

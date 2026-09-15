@@ -6054,4 +6054,30 @@ export const baseMoviesRomance: BaseMovie[] = [
     selectDisplayOrder: 10,
     oscars: [],
   },
+
+  {
+    title: 'Girls Like Girls',
+    director: 'Hayley Kiyoko',
+    actors: [
+      { name: 'Maya da Costa' },
+      { name: 'Myra Molloy' },
+      { name: 'Levon Hawke' },
+      { name: 'Zach Braff' },
+    ],
+    coverUrl: '',
+    releaseDate: '2026-06-19',
+    length: 95,
+    genre: ['Romance', 'Drame'],
+    saga: '',
+    description:
+      "Une adolescente tombe amoureuse pour la première fois au cours d'un été, tout en apprenant à s'accepter.",
+    fromEntity: {
+      entityType: 'book',
+      title: 'Girls Like Girls',
+      secondEntityKey: 'Hayley Kiyoko',
+    },
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
 ];

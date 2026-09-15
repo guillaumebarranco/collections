@@ -7329,4 +7329,26 @@ export const baseMoviesHorreur: BaseMovie[] = [
     selectDisplayOrder: 0,
     oscars: [],
   },
+
+  {
+    title: 'Thrash',
+    director: 'Tommy Wirkola',
+    actors: [
+      { name: 'Phoebe Dynevor' },
+      { name: 'Whitney Peak' },
+      { name: 'Djimon Hounsou' },
+      { name: 'Matt Nable' },
+    ],
+    coverUrl: '',
+    releaseDate: '2026-04-10',
+    length: 86,
+    genre: ['Horreur', 'Thriller', 'Action'],
+    saga: '',
+    description:
+      "Lorsqu'un ouragan frappe une ville côtière, les habitants piégés doivent survivre à la montée des eaux infestée de requins.",
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
 ];

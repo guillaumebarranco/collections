@@ -335,8 +335,7 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'La Chanson des Nibelungen',
     author: 'Anonyme',
-    coverUrl:
-      '/books_pictures/8f90863a2ff5.webp',
+    coverUrl: '/books_pictures/8f90863a2ff5.webp',
     pages: 526,
     genre: ['Classiques', 'Poésie'],
     saga: '',
@@ -2406,8 +2405,7 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Cruising',
     author: 'Gerald Walker',
-    coverUrl:
-      '/books_pictures/4c130d7166c5.jpg',
+    coverUrl: '/books_pictures/4c130d7166c5.jpg',
     pages: 181,
     genre: ['Policier', 'Thriller'],
     saga: '',
@@ -2422,8 +2420,7 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Proved Innocent',
     author: 'Gerry Conlon',
-    coverUrl:
-      '/books_pictures/8ad7928b31e9.jpg',
+    coverUrl: '/books_pictures/8ad7928b31e9.jpg',
     pages: 233,
     genre: ['Biographie'],
     saga: '',
@@ -2453,8 +2450,7 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Le Petit Monde de don Camillo',
     author: 'Giovannino Guareschi',
-    coverUrl:
-      '/books_pictures/281e36d623df.jpg',
+    coverUrl: '/books_pictures/281e36d623df.jpg',
     pages: 253,
     genre: ['Fiction'],
     saga: 'Don Camillo',
@@ -2469,8 +2465,7 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Le Guépard',
     author: 'Giuseppe Tomasi di Lampedusa',
-    coverUrl:
-      '/books_pictures/c3eea4215f05.jpg',
+    coverUrl: '/books_pictures/c3eea4215f05.jpg',
     pages: 252,
     genre: ['Classiques', 'Fiction historique'],
     saga: '',
@@ -2500,8 +2495,7 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'The Shootist',
     author: 'Glendon Swarthout',
-    coverUrl:
-      '/books_pictures/4f49dee7ad05.jpg',
+    coverUrl: '/books_pictures/4f49dee7ad05.jpg',
     pages: 212,
     genre: ['Fiction historique'],
     saga: '',
@@ -2516,8 +2510,7 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: "The Siege of Trencher's Farm",
     author: 'Gordon Williams',
-    coverUrl:
-      '/books_pictures/3a1880ab2e3d.jpg',
+    coverUrl: '/books_pictures/3a1880ab2e3d.jpg',
     pages: 160,
     genre: ['Thriller'],
     saga: '',
@@ -2532,8 +2525,7 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Le Troisième Homme',
     author: 'Graham Greene',
-    coverUrl:
-      '/books_pictures/567d7c6218e5.jpg',
+    coverUrl: '/books_pictures/567d7c6218e5.jpg',
     pages: 258,
     genre: ['Policier', 'Thriller'],
     saga: '',
@@ -2563,8 +2555,7 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Un Américain bien tranquille',
     author: 'Graham Greene',
-    coverUrl:
-      '/books_pictures/29efa3438d11.jpg',
+    coverUrl: '/books_pictures/29efa3438d11.jpg',
     pages: 232,
     genre: ['Littérature', 'Thriller'],
     saga: '',
@@ -2579,8 +2570,7 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Fletch',
     author: 'Gregory Mcdonald',
-    coverUrl:
-      '/books_pictures/f4331b9fcf8f.jpg',
+    coverUrl: '/books_pictures/f4331b9fcf8f.jpg',
     pages: 208,
     genre: ['Policier'],
     saga: 'Fletch',
@@ -2610,8 +2600,7 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Le Plaisir',
     author: 'Guy de Maupassant',
-    coverUrl:
-      '/books_pictures/a5247e4c7bfe.jpg',
+    coverUrl: '/books_pictures/a5247e4c7bfe.jpg',
     pages: 272,
     genre: ['Classiques'],
     saga: '',
@@ -2641,8 +2630,7 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Herbert West, réanimateur',
     author: 'H.P. Lovecraft',
-    coverUrl:
-      '/books_pictures/d40de373cc0a.jpg',
+    coverUrl: '/books_pictures/d40de373cc0a.jpg',
     pages: 40,
     genre: ['Horreur'],
     saga: '',
@@ -2657,7 +2645,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'The Sing-song Girls of Shanghai',
     author: 'Han Bangqing',
-    coverUrl: '',
+    coverUrl:
+      'https://cup-us.imgix.net/covers/9780231122696.jpg?auto=format&w=1500',
     pages: 592,
     genre: ['Classiques', 'Littérature'],
     saga: '',
