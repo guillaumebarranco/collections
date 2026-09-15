@@ -3237,8 +3237,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Daniel Ceccaldi' },
       { name: 'Claire Duhamel' },
     ],
-    coverUrl:
-      'https://medias.unifrance.org/medias/40/198/50728/format_page/domicile-conjugal.jpg',
+    coverUrl: '/movies_pictures/domicile-conjugal.jpg',
     releaseDate: '1970-09-09',
     length: 97,
     genre: ['Comédie', 'Drame', 'Romance'],
@@ -4353,8 +4352,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Jean-Guy Fechner' },
       { name: 'Jacques Seiler' },
     ],
-    coverUrl:
-      'https://medias.unifrance.org/medias/73/98/90697/format_page/les-bidasses-s-en-vont-en-guerre.jpg',
+    coverUrl: '/movies_pictures/les-bidasses-s-en-vont-en-guerre.jpg',
     releaseDate: '1974-12-18',
     length: 90,
     genre: ['Comédie'],
@@ -4612,8 +4610,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Geneviève Fontanel' },
       { name: 'Leslie Caron' },
     ],
-    coverUrl:
-      'https://medias.unifrance.org/medias/96/198/50784/format_page/l-homme-qui-aimait-les-femmes.jpg',
+    coverUrl: '/movies_pictures/l-homme-qui-aimait-les-femmes.jpg',
     releaseDate: '1977-04-27',
     length: 120,
     genre: ['Comédie', 'Drame', 'Romance'],
@@ -4980,8 +4977,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Geneviève Mnich' },
       { name: 'Henri Serre' },
     ],
-    coverUrl:
-      'https://medias.unifrance.org/medias/116/90/154228/format_page/cocktail-molotov.jpg',
+    coverUrl: '/movies_pictures/cocktail-molotov.jpg',
     releaseDate: '1980-02-06',
     length: 100,
     genre: ['Comédie', 'Drame'],
@@ -5165,8 +5161,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Julien Guiomar' },
       { name: 'Alain Mottet' },
     ],
-    coverUrl:
-      'https://medias.unifrance.org/medias/103/98/90727/format_page/inspecteur-la-bavure.jpg',
+    coverUrl: '/movies_pictures/inspecteur-la-bavure.jpg',
     releaseDate: '1980-12-03',
     length: 100,
     genre: ['Comédie', 'Policier'],
@@ -7764,8 +7759,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Maxime Leroux' },
       { name: 'Gilles Privat' },
     ],
-    coverUrl:
-      'https://medias.unifrance.org/medias/24/211/119576/format_page/romuald-et-juliette.jpg',
+    coverUrl: '/movies_pictures/romuald-et-juliette.jpg',
     releaseDate: '1989-04-19',
     length: 112,
     genre: ['Comédie', 'Romance'],
@@ -10562,8 +10556,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Michèle Laroque' },
       { name: 'Jacques Gamblin' },
     ],
-    coverUrl:
-      'https://musee-stendhal.bm-grenoble.fr/Ils/digitalCollection/DigitalCollectionThumbnailHandler.ashx?documentId=731140&size=LARGE&fallback=https%3A%2F%2Fcovers.syracuse.cloud%2FCover%2FVGNB%2FAUVI%2Fmx94BDt77LSBZFyop3MA4w2%2F5050582562705%2FLARGE%3Ffallback%3Dhttps%253a%252f%252fmusee-stendhal.bm-grenoble.fr%252fui%252f250296280005%252fskins%252fdefault%252fportal%252ffront%252fimages%252fGeneral%252fDocType%252fAUVI_LARGE.png',
+    coverUrl: '/movies_pictures/DigitalCollsdfsfse.jpg',
     releaseDate: '1996-03-27',
     length: 100,
     genre: ['Comédie'],
@@ -12633,8 +12626,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Albert Dupontel' },
       { name: 'Catherine Frot' },
     ],
-    coverUrl:
-      'https://medias.unifrance.org/medias/6/1/262/format_page/ma-petite-entreprise.jpg',
+    coverUrl: '/movies_pictures/ma-petite-entreprise.jpg',
     releaseDate: '1999-09-01',
     length: 96,
     genre: ['Comédie', 'Drame'],
@@ -12762,8 +12754,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Claude Rich' },
       { name: 'Jean-Pierre Darroussin' },
     ],
-    coverUrl:
-      'https://medias.unifrance.org/medias/72/1/328/format_page/la-buche.jpg',
+    coverUrl: '/movies_pictures/la-buche.jpg',
     releaseDate: '1999-12-15',
     length: 106,
     genre: ['Comédie', 'Drame'],
@@ -14193,8 +14184,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Paul Giamatti' },
       { name: 'Amanda Bynes' },
     ],
-    coverUrl:
-      'https://mediaproxy.tvtropes.org/width/1200/https://static.tvtropes.org/pmwiki/pub/images/big_fat_liar_poster.JPG',
+    coverUrl: '/movies_pictures/big_fat_liar_poster.webp',
     releaseDate: '2002-02-08',
     length: 88,
     genre: ['Comédie', 'Jeunesse'],
@@ -17085,8 +17075,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Marie Bunel' },
       { name: 'Aïssa Maïga' },
     ],
-    coverUrl:
-      'https://medias.unifrance.org/medias/107/6/1643/format_page/saint-jacques-la-mecque.jpg',
+    coverUrl: '/movies_pictures/saint-jacques-la-mecque.jpg',
     releaseDate: '2005-10-12',
     length: 105,
     genre: ['Comédie', 'Drame'],
@@ -17108,8 +17097,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Michel Aumont' },
       { name: 'Mathilde Seigner' },
     ],
-    coverUrl:
-      'https://mediatheque.ville-arles.fr/Ils/digitalCollection/DigitalCollectionThumbnailHandler.ashx?documentId=1390465&size=LARGE&fallback=https%3A%2F%2Fcovers.syracuse.cloud%2FCover%2FVARL%2FAUVI%2FnITkP63_rPctnpV0TzeBVQ2%2F3333297938518%2FLARGE%3Ffallback%3Dhttps%253a%252f%252fmediatheque.ville-arles.fr%252fui%252f250296560100%252fskins%252fdefault%252fportal%252ffront%252fimages%252fGeneral%252fDocType%252fAUVI_LARGE.png',
+    coverUrl: '/movies_pictures/sgedgrsdgrdgdrgrr.jpg',
     releaseDate: '2005-11-23',
     length: 100,
     genre: ['Comédie'],
@@ -19234,8 +19222,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'James Gandolfini' },
       { name: 'Chris Addison' },
     ],
-    coverUrl:
-      'https://cdn1.cinenode.com/movie_poster/68/full/in-the-loop-68471.jpg',
+    coverUrl: '/movies_pictures/in-the-loop-68471.jpg',
     releaseDate: '2009-04-17',
     length: 106,
     genre: ['Comédie'],
@@ -19999,8 +19986,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Miss Ming' },
       { name: 'Bouli Lanners' },
     ],
-    coverUrl:
-      'https://medias.unifrance.org/medias/88/170/43608/format_page/mammuth.jpg',
+    coverUrl: '/movies_pictures/mammuth.jpg',
     releaseDate: '2010-04-21',
     length: 91,
     genre: ['Comédie', 'Drame'],
@@ -21678,8 +21664,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Ramzy Bedia' },
       { name: 'Éric Judor' },
     ],
-    coverUrl:
-      'https://medias.unifrance.org/medias/34/50/78370/format_page/les-kaira.jpg',
+    coverUrl: '/movies_pictures/les-kaira.jpg',
     releaseDate: '2012-07-11',
     length: 98,
     genre: ['Comédie'],
@@ -27804,8 +27789,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Kirby Bliss Blanton' },
       { name: 'Miles Teller' },
     ],
-    coverUrl:
-      '/movies_pictures/9aed79214e70.jpg',
+    coverUrl: '/movies_pictures/9aed79214e70.jpg',
     releaseDate: '2012-03-02',
     length: 88,
     genre: ['Comédie'],

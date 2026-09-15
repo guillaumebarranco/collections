@@ -116,7 +116,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 207,
     genre: ['Action', 'Drame'],
     saga: '',
-    description: 'Sept samouraïs sans maître défendent un village de paysans contre des bandits qui reviennent chaque récolte pour piller leurs récoltes.',
+    description:
+      'Sept samouraïs sans maître défendent un village de paysans contre des bandits qui reviennent chaque récolte pour piller leurs récoltes.',
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
@@ -209,7 +210,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 88,
     genre: ['Guerre'],
     saga: '',
-    description: 'Pendant la Première Guerre mondiale, un général français ordonne l\'exécution de soldats pour lâcheté et un colonel tente de les sauver.',
+    description:
+      "Pendant la Première Guerre mondiale, un général français ordonne l'exécution de soldats pour lâcheté et un colonel tente de les sauver.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 1,
@@ -611,7 +613,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 140,
     genre: ['Guerre'],
     saga: '',
-    description: 'Un résistant français infiltré dans l\'Occupation risque sa vie pour organiser l\'évasion d\'un compagnon et maintenir le réseau clandestin.',
+    description:
+      "Un résistant français infiltré dans l'Occupation risque sa vie pour organiser l'évasion d'un compagnon et maintenir le réseau clandestin.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -657,8 +660,7 @@ export const baseMoviesAction: BaseMovie[] = [
       { name: 'Tatsuya Mihashi' },
       { name: 'E. G. Marshall' },
     ],
-    coverUrl:
-      '/movies_pictures/6eb98430367d.jpg',
+    coverUrl: '/movies_pictures/6eb98430367d.jpg',
     releaseDate: '1970-09-23',
     length: 144,
     genre: ['Guerre', 'Historique', 'Drame'],
@@ -706,8 +708,7 @@ export const baseMoviesAction: BaseMovie[] = [
       { name: 'Sally Struthers' },
       { name: 'Al Lettieri' },
     ],
-    coverUrl:
-      '/movies_pictures/d23a3216266b.jpg',
+    coverUrl: '/movies_pictures/d23a3216266b.jpg',
     releaseDate: '1972-12-13',
     length: 122,
     genre: ['Action', 'Policier', 'Thriller'],
@@ -733,8 +734,7 @@ export const baseMoviesAction: BaseMovie[] = [
       { name: 'Ahna Capri' },
       { name: 'Shih Kien' },
     ],
-    coverUrl:
-      '/movies_pictures/3fef4e1d39a7.jpg',
+    coverUrl: '/movies_pictures/3fef4e1d39a7.jpg',
     releaseDate: '1973-08-10',
     length: 102,
     genre: ['Action', 'Aventure'],
@@ -756,8 +756,7 @@ export const baseMoviesAction: BaseMovie[] = [
       { name: 'Faye Dunaway' },
       { name: 'Fred Astaire' },
     ],
-    coverUrl:
-      '/movies_pictures/135b03682a92.jpg',
+    coverUrl: '/movies_pictures/135b03682a92.jpg',
     releaseDate: '1974-12-14',
     length: 165,
     genre: ['Catastrophe', 'Action', 'Drame'],
@@ -808,7 +807,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 91,
     genre: ['Action', 'Thriller', 'Policier'],
     saga: '',
-    description: 'Des policiers et des détenus assiégés dans un commissariat désaffecté doivent s\'allier pour survivre à l\'assaut d\'une gang armée jusqu\'à l\'aube.',
+    description:
+      "Des policiers et des détenus assiégés dans un commissariat désaffecté doivent s'allier pour survivre à l'assaut d'une gang armée jusqu'à l'aube.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -824,8 +824,7 @@ export const baseMoviesAction: BaseMovie[] = [
       { name: 'David Warner' },
       { name: 'Klaus Löwitsch' },
     ],
-    coverUrl:
-      '/movies_pictures/54ecfad050aa.jpg',
+    coverUrl: '/movies_pictures/54ecfad050aa.jpg',
     releaseDate: '1977-01-28',
     length: 132,
     genre: ['Guerre', 'Drame'],
@@ -851,8 +850,7 @@ export const baseMoviesAction: BaseMovie[] = [
       { name: 'Jacques Dufilho' },
       { name: 'Aurore Clément' },
     ],
-    coverUrl:
-      '/movies_pictures/db5b2f357587.jpg',
+    coverUrl: '/movies_pictures/db5b2f357587.jpg',
     releaseDate: '1977-11-09',
     length: 120,
     genre: ['Guerre', 'Drame', 'Aventure'],
@@ -905,7 +903,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 101,
     genre: ['Action', 'Action'],
     saga: '',
-    description: 'Billy Lo, star des arts martiaux, simule sa mort pour infiltrer une organisation criminelle qui contrôle le monde des combats clandestins.',
+    description:
+      'Billy Lo, star des arts martiaux, simule sa mort pour infiltrer une organisation criminelle qui contrôle le monde des combats clandestins.',
     fromEntity: null,
     countryOrigin: ['Hong Kong'],
     selectDisplayOrder: 0,
@@ -942,7 +941,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 184,
     genre: ['Guerre'],
     saga: '',
-    description: 'Trois amis de Pennsylvanie partent combattre au Viêt Nam et reviennent brisés, marqués à jamais par les horreurs de la guerre et de l\'emprisonnement.',
+    description:
+      "Trois amis de Pennsylvanie partent combattre au Viêt Nam et reviennent brisés, marqués à jamais par les horreurs de la guerre et de l'emprisonnement.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 1,
@@ -964,8 +964,7 @@ export const baseMoviesAction: BaseMovie[] = [
       { name: 'Deborah Van Valkenburgh' },
       { name: 'David Patrick Kelly' },
     ],
-    coverUrl:
-      '/movies_pictures/0ae37876f4fd.jpg',
+    coverUrl: '/movies_pictures/0ae37876f4fd.jpg',
     releaseDate: '1979-02-09',
     length: 93,
     genre: ['Action', 'Thriller'],
@@ -1012,7 +1011,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 153,
     genre: ['Guerre'],
     saga: '',
-    description: 'Un capitaine de l\'armée américaine remonte un fleuve vietnamien pour éliminer un colonel devenu fou et se proclamant dieu d\'une tribu locale.',
+    description:
+      "Un capitaine de l'armée américaine remonte un fleuve vietnamien pour éliminer un colonel devenu fou et se proclamant dieu d'une tribu locale.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 1,
@@ -1074,7 +1074,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 99,
     genre: ['Action', 'Science Fiction', 'Thriller'],
     saga: '',
-    description: 'En 1997, Manhattan est devenue une prison géante et un ancien héros de guerre a vingt-quatre heures pour en extraire le président otage.',
+    description:
+      'En 1997, Manhattan est devenue une prison géante et un ancien héros de guerre a vingt-quatre heures pour en extraire le président otage.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1119,11 +1120,12 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 149,
     genre: ['Guerre', 'Drame'],
     saga: '',
-    description: 'L\'équipage d\'un sous-marin allemand endure les horreurs claustrophobiques de la guerre sous-marine atlantique pendant la Seconde Guerre mondiale.',
+    description:
+      "L'équipage d'un sous-marin allemand endure les horreurs claustrophobiques de la guerre sous-marine atlantique pendant la Seconde Guerre mondiale.",
     fromEntity: {
       entityType: 'book',
-      title: "Le Bateau",
-      secondEntityKey: "Lothar-Günther Buchheim",
+      title: 'Le Bateau',
+      secondEntityKey: 'Lothar-Günther Buchheim',
     },
     countryOrigin: ['Allemagne'],
     selectDisplayOrder: 0,
@@ -1139,8 +1141,7 @@ export const baseMoviesAction: BaseMovie[] = [
       { name: 'Elisabeth Margoni' },
       { name: 'Marie-Christine Descouard' },
     ],
-    coverUrl:
-      'https://medias.unifrance.org/medias/19/117/95507/format_page/le-professionnel.jpg',
+    coverUrl: '/movies_pictures/le-professionnel.jpg',
     releaseDate: '1981-10-21',
     length: 108,
     genre: ['Action', 'Thriller', 'Policier'],
@@ -1187,7 +1188,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 104,
     genre: ['Action'],
     saga: '',
-    description: 'Des pilotes de chasse américains volant pour Israël affrontent l\'aviation syrienne lors d\'un conflit où loyauté et idéologie se heurtent.',
+    description:
+      "Des pilotes de chasse américains volant pour Israël affrontent l'aviation syrienne lors d'un conflit où loyauté et idéologie se heurtent.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1273,8 +1275,7 @@ export const baseMoviesAction: BaseMovie[] = [
       { name: 'Kevin Tighe' },
       { name: "Ed O'Ross" },
     ],
-    coverUrl:
-      '/movies_pictures/141e29bdb2c3.jpg',
+    coverUrl: '/movies_pictures/141e29bdb2c3.jpg',
     releaseDate: '1990-06-08',
     length: 93,
     genre: ['Action', 'Comédie', 'Policier'],
@@ -1318,8 +1319,7 @@ export const baseMoviesAction: BaseMovie[] = [
       { name: 'Rosamund Kwan' },
       { name: 'Carina Lau' },
     ],
-    coverUrl:
-      '/movies_pictures/01aeef1ca6b1.jpg',
+    coverUrl: '/movies_pictures/01aeef1ca6b1.jpg',
     releaseDate: '1987-08-19',
     length: 101,
     genre: ['Action', 'Comédie', 'Aventure'],
@@ -1362,7 +1362,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 105,
     genre: ['Action'],
     saga: 'Le flic de Beverly Hills',
-    description: 'Un inspecteur de Détroit débarque à Beverly Hills pour enquêter sur le meurtre de son ami et affronte une ville où l\'argent parle plus que la loi.',
+    description:
+      "Un inspecteur de Détroit débarque à Beverly Hills pour enquêter sur le meurtre de son ami et affronte une ville où l'argent parle plus que la loi.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -1399,7 +1400,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 103,
     genre: ['Action'],
     saga: 'Le flic de Beverly Hills',
-    description: 'Axel Foley retourne à Los Angeles pour enquêter sur une série de vols et découvre un complot criminel bien plus vaste qu\'il ne l\'imaginait.',
+    description:
+      "Axel Foley retourne à Los Angeles pour enquêter sur une série de vols et découvre un complot criminel bien plus vaste qu'il ne l'imaginait.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -1436,7 +1438,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 104,
     genre: ['Action'],
     saga: 'Le flic de Beverly Hills',
-    description: 'Axel enquête sur un réseau de contrebande à Disneyland et retrouve ses anciens collègues pour démanteler une organisation internationale.',
+    description:
+      'Axel enquête sur un réseau de contrebande à Disneyland et retrouve ses anciens collègues pour démanteler une organisation internationale.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -1473,7 +1476,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 115,
     genre: ['Action'],
     saga: 'Le flic de Beverly Hills',
-    description: 'Des décennies plus tard, Axel Foley quitte Détroit pour retrouver sa fille à Beverly Hills et déjouer un complot impliquant des figures puissantes.',
+    description:
+      'Des décennies plus tard, Axel Foley quitte Détroit pour retrouver sa fille à Beverly Hills et déjouer un complot impliquant des figures puissantes.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -1510,7 +1514,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 90,
     genre: ['Action'],
     saga: '',
-    description: 'Un ancien colonel part seul en territoire ennemi pour sauver sa fille kidnappée par un dictateur sud-américain exigeant qu\'il commette un assassinat.',
+    description:
+      "Un ancien colonel part seul en territoire ennemi pour sauver sa fille kidnappée par un dictateur sud-américain exigeant qu'il commette un assassinat.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1574,8 +1579,7 @@ export const baseMoviesAction: BaseMovie[] = [
       { name: 'Lam Kwok-Hung' },
       { name: 'Bill Tung' },
     ],
-    coverUrl:
-      '/movies_pictures/41273f966cfd.jpg',
+    coverUrl: '/movies_pictures/41273f966cfd.jpg',
     releaseDate: '1988-08-20',
     length: 122,
     genre: ['Action', 'Comédie', 'Policier'],
@@ -1597,8 +1601,7 @@ export const baseMoviesAction: BaseMovie[] = [
       { name: 'Kenneth Tsang' },
       { name: 'Yuen Wah' },
     ],
-    coverUrl:
-      '/movies_pictures/93e57c4d34e3.jpg',
+    coverUrl: '/movies_pictures/93e57c4d34e3.jpg',
     releaseDate: '1992-06-04',
     length: 96,
     genre: ['Action', 'Comédie', 'Policier'],
@@ -1626,7 +1629,7 @@ export const baseMoviesAction: BaseMovie[] = [
     genre: ['Action', 'Comédie'],
     saga: 'Police Story',
     description:
-      'Jackie, cuisinier dans un navire-école, doit protéger une jeune héritière d\'un trafic d\'armes en utilisant des objets du quotidien comme armes.',
+      "Jackie, cuisinier dans un navire-école, doit protéger une jeune héritière d'un trafic d'armes en utilisant des objets du quotidien comme armes.",
     fromEntity: null,
     countryOrigin: ['Chine'],
     selectDisplayOrder: 0,
@@ -1649,7 +1652,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 116,
     genre: ['Action', 'Aventure', 'Fantastique'],
     saga: '',
-    description: 'Un immortel écossais du XVIe siècle traque ses semblables à travers les siècles, car il ne peut rester qu\'un seul à la fin des combats.',
+    description:
+      "Un immortel écossais du XVIe siècle traque ses semblables à travers les siècles, car il ne peut rester qu'un seul à la fin des combats.",
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -1686,7 +1690,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 87,
     genre: ['Action'],
     saga: '',
-    description: 'Un policier anti-gang au tempérament de feu protège une témoin clé contre un culte criminel surnommé la Nouvelle secte de l\'ordre.',
+    description:
+      "Un policier anti-gang au tempérament de feu protège une témoin clé contre un culte criminel surnommé la Nouvelle secte de l'ordre.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1723,7 +1728,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 99,
     genre: ['Action', 'Aventure', 'Comédie'],
     saga: '',
-    description: 'Un camionneur de San Francisco est entraîné dans les bas-fonds magiques de Chinatown pour sauver la fiancée de son ami des griffes d\'un sorcier.',
+    description:
+      "Un camionneur de San Francisco est entraîné dans les bas-fonds magiques de Chinatown pour sauver la fiancée de son ami des griffes d'un sorcier.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1761,8 +1767,7 @@ export const baseMoviesAction: BaseMovie[] = [
       { name: 'Ti Lung' },
       { name: 'Emily Chu' },
     ],
-    coverUrl:
-      '/movies_pictures/dba561c129e6.jpg',
+    coverUrl: '/movies_pictures/dba561c129e6.jpg',
     releaseDate: '1987-12-17',
     length: 100,
     genre: ['Action', 'Policier', 'Drame'],
@@ -1805,13 +1810,12 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 110,
     genre: ['Action'],
     saga: 'Top Gun',
-    description: 'Le lieutenant Maverick, pilote téméraire, intègre l\'école d\'élite Top Gun où rivalité, romance et discipline forgent les meilleurs aviateurs.',
+    description:
+      "Le lieutenant Maverick, pilote téméraire, intègre l'école d'élite Top Gun où rivalité, romance et discipline forgent les meilleurs aviateurs.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 1987 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 1987 }],
   },
   {
     title: 'Top Gun : Maverick',
@@ -1844,13 +1848,12 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 130,
     genre: ['Action'],
     saga: 'Top Gun',
-    description: 'Des décennies plus tard, Maverick forme une escadrille pour une mission suicide et affronte le fantôme du passé en protégeant le fils de Goose.',
+    description:
+      'Des décennies plus tard, Maverick forme une escadrille pour une mission suicide et affronte le fantôme du passé en protégeant le fils de Goose.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_SOUND, year: 2023 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_SOUND, year: 2023 }],
   },
   {
     title: 'Platoon',
@@ -1869,7 +1872,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 120,
     genre: ['Guerre', 'Drame'],
     saga: '',
-    description: 'Un jeune soldat découvre les horreurs morales du Viêt Nam en servant sous deux officiers aux tempéraments opposés dans une escouade déchirée.',
+    description:
+      'Un jeune soldat découvre les horreurs morales du Viêt Nam en servant sous deux officiers aux tempéraments opposés dans une escouade déchirée.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1911,7 +1915,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 102,
     genre: ['Action'],
     saga: '',
-    description: 'Le policier Alex Murphy ressuscite en cyborg pour nettoyer Détroit, mais des souvenirs fragmentés le poussent à démasquer la corruption de son employeur.',
+    description:
+      'Le policier Alex Murphy ressuscite en cyborg pour nettoyer Détroit, mais des souvenirs fragmentés le poussent à démasquer la corruption de son employeur.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1948,7 +1953,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 92,
     genre: ['Action'],
     saga: '',
-    description: 'Frank Dux participe clandestinement au Kumite, un tournoi martial mortel à Hong Kong, pour honorer son maître et prouver sa valeur.',
+    description:
+      'Frank Dux participe clandestinement au Kumite, un tournoi martial mortel à Hong Kong, pour honorer son maître et prouver sa valeur.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1964,8 +1970,7 @@ export const baseMoviesAction: BaseMovie[] = [
       { name: 'Sharon Stone' },
       { name: 'Daniel J. Travanti' },
     ],
-    coverUrl:
-      '/movies_pictures/3f083e9b4bab.jpg',
+    coverUrl: '/movies_pictures/3f083e9b4bab.jpg',
     releaseDate: '1988-04-08',
     length: 99,
     genre: ['Action', 'Policier', 'Thriller'],
@@ -1987,8 +1992,7 @@ export const baseMoviesAction: BaseMovie[] = [
       { name: 'Dayle Haddon' },
       { name: 'Alex Daniels' },
     ],
-    coverUrl:
-      '/movies_pictures/fbd6b4c0ace0.webp',
+    coverUrl: '/movies_pictures/fbd6b4c0ace0.webp',
     releaseDate: '1989-04-07',
     length: 86,
     genre: ['Action', 'Science Fiction'],
@@ -2028,7 +2032,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 97,
     genre: ['Action'],
     saga: '',
-    description: 'Kurt Sloan apprend le muay thaï en Thaïlande pour venger son frère paralysé par le champion local invincible Tong Po.',
+    description:
+      'Kurt Sloan apprend le muay thaï en Thaïlande pour venger son frère paralysé par le champion local invincible Tong Po.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2044,14 +2049,13 @@ export const baseMoviesAction: BaseMovie[] = [
       { name: 'Kenneth Tsang' },
       { name: 'Chu Kong' },
     ],
-    coverUrl:
-      '/movies_pictures/a87e2de9d119.jpg',
+    coverUrl: '/movies_pictures/a87e2de9d119.jpg',
     releaseDate: '1989-07-06',
     length: 111,
     genre: ['Action', 'Policier', 'Drame'],
     saga: '',
     description:
-      'Un tueur à gages professionnel de Hong Kong voit sa dernière mission tourner mal et doit affronter la police et la mafia pour sauver la femme qu\'il a blessée.',
+      "Un tueur à gages professionnel de Hong Kong voit sa dernière mission tourner mal et doit affronter la police et la mafia pour sauver la femme qu'il a blessée.",
     fromEntity: null,
     countryOrigin: ['Chine'],
     selectDisplayOrder: 0,
@@ -2067,8 +2071,7 @@ export const baseMoviesAction: BaseMovie[] = [
       { name: 'Tom Sizemore' },
       { name: 'Sonja Davis' },
     ],
-    coverUrl:
-      '/movies_pictures/5e3c89bbf568.jpg',
+    coverUrl: '/movies_pictures/5e3c89bbf568.jpg',
     releaseDate: '1989-08-04',
     length: 109,
     genre: ['Action', 'Drame'],
@@ -2131,7 +2134,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 122,
     genre: ['Guerre'],
     saga: '',
-    description: 'Le 54e régiment d\'infanterie de volontaires afro-américains combat pour la liberté pendant la guerre de Sécession, sous le commandement d\'un colonel blanc idéaliste.',
+    description:
+      "Le 54e régiment d'infanterie de volontaires afro-américains combat pour la liberté pendant la guerre de Sécession, sous le commandement d'un colonel blanc idéaliste.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2172,7 +2176,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 145,
     genre: ['Guerre'],
     saga: '',
-    description: 'Ron Kovic part combattre au Viêt Nam en héros patriotique et revient paralysé, transformé en militant anti-guerre après des années de souffrance.',
+    description:
+      'Ron Kovic part combattre au Viêt Nam en héros patriotique et revient paralysé, transformé en militant anti-guerre après des années de souffrance.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2212,7 +2217,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 104,
     genre: ['Action'],
     saga: '',
-    description: 'Deux flics rivaux de Los Angeles sont piégés par un magnat de la drogue et doivent s\'allier pour s\'évader de prison et prouver leur innocence.',
+    description:
+      "Deux flics rivaux de Los Angeles sont piégés par un magnat de la drogue et doivent s'allier pour s'évader de prison et prouver leur innocence.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2249,7 +2255,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 117,
     genre: ['Action'],
     saga: '',
-    description: 'Une toxicomane condamnée à mort est recrutée par les services secrets français et transformée en tueuse d\'élite redoutable mais tourmentée.',
+    description:
+      "Une toxicomane condamnée à mort est recrutée par les services secrets français et transformée en tueuse d'élite redoutable mais tourmentée.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -2265,8 +2272,7 @@ export const baseMoviesAction: BaseMovie[] = [
       { name: 'Lisa Pelikan' },
       { name: 'Ashley Johnson' },
     ],
-    coverUrl:
-      '/movies_pictures/48a878a9ddc2.jpg',
+    coverUrl: '/movies_pictures/48a878a9ddc2.jpg',
     releaseDate: '1990-03-09',
     length: 105,
     genre: ['Action', 'Drame'],
@@ -2331,7 +2337,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 131,
     genre: ['Action'],
     saga: '',
-    description: 'Deux policiers de Los Angeles, l\'un bruyant et l\'autre discret, enquêtent sur un trafic d\'héroïne qui les mène jusqu\'à des flics corrompus.',
+    description:
+      "Deux policiers de Los Angeles, l'un bruyant et l'autre discret, enquêtent sur un trafic d'héroïne qui les mène jusqu'à des flics corrompus.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2368,7 +2375,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 117,
     genre: ['Action'],
     saga: '',
-    description: 'Omni Consumer Products tente de créer un RoboCop plus obéissant tandis que Murphy affronte un criminel devenu cyborg encore plus dangereux.',
+    description:
+      'Omni Consumer Products tente de créer un RoboCop plus obéissant tandis que Murphy affronte un criminel devenu cyborg encore plus dangereux.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2405,7 +2413,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 107,
     genre: ['Action'],
     saga: '',
-    description: 'Un jeune pilote de NASCAR est entraîné par un vétéran impitoyable pour affronter les dangers de la piste et les pièges d\'un magnat du sport.',
+    description:
+      "Un jeune pilote de NASCAR est entraîné par un vétéran impitoyable pour affronter les dangers de la piste et les pièges d'un magnat du sport.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2447,8 +2456,7 @@ export const baseMoviesAction: BaseMovie[] = [
       { name: 'Simon Yam' },
       { name: 'Fennie Yuen' },
     ],
-    coverUrl:
-      '/movies_pictures/640f58edc270.jpg',
+    coverUrl: '/movies_pictures/640f58edc270.jpg',
     releaseDate: '1990-08-17',
     length: 136,
     genre: ['Action', 'Guerre', 'Drame'],
@@ -2491,7 +2499,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 96,
     genre: ['Action', 'Science Fiction', 'Thriller'],
     saga: '',
-    description: 'Un scientifique défiguré par des gangsters développe une peau synthétique lui permettant de se déguiser et de traquer ceux qui l\'ont détruit.',
+    description:
+      "Un scientifique défiguré par des gangsters développe une peau synthétique lui permettant de se déguiser et de traquer ceux qui l'ont détruit.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2507,8 +2516,7 @@ export const baseMoviesAction: BaseMovie[] = [
       { name: 'George Dickerson' },
       { name: 'Art LaFleur' },
     ],
-    coverUrl:
-      '/movies_pictures/81ea061af120.jpg',
+    coverUrl: '/movies_pictures/81ea061af120.jpg',
     releaseDate: '1990-09-14',
     length: 89,
     genre: ['Action', 'Thriller'],
@@ -2537,7 +2545,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 93,
     genre: ['Action', 'Thriller'],
     saga: '',
-    description: 'Un policier de Seattle découvre qu\'il est la cible d\'un tueur engagé par un trafiquant qu\'il a arrêté, et que sa propre unité le trahit.',
+    description:
+      "Un policier de Seattle découvre qu'il est la cible d'un tueur engagé par un trafiquant qu'il a arrêté, et que sa propre unité le trahit.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2553,8 +2562,7 @@ export const baseMoviesAction: BaseMovie[] = [
       { name: 'Kenneth Tsang' },
       { name: 'Shing Fui-On' },
     ],
-    coverUrl:
-      '/movies_pictures/bcfb19cfcdf1.jpg',
+    coverUrl: '/movies_pictures/bcfb19cfcdf1.jpg',
     releaseDate: '1991-02-02',
     length: 103,
     genre: ['Action', 'Comédie', 'Policier'],
@@ -2576,8 +2584,7 @@ export const baseMoviesAction: BaseMovie[] = [
       { name: 'Ikeda Shoko' },
       { name: 'Aldo Sambrell' },
     ],
-    coverUrl:
-      '/movies_pictures/37f462a7752b.jpg',
+    coverUrl: '/movies_pictures/37f462a7752b.jpg',
     releaseDate: '1991-02-07',
     length: 106,
     genre: ['Action', 'Aventure', 'Comédie'],
@@ -2599,8 +2606,7 @@ export const baseMoviesAction: BaseMovie[] = [
       { name: 'Scott Glenn' },
       { name: 'Jennifer Jason Leigh' },
     ],
-    coverUrl:
-      '/movies_pictures/307f314f02f9.jpg',
+    coverUrl: '/movies_pictures/307f314f02f9.jpg',
     releaseDate: '1991-05-24',
     length: 137,
     genre: ['Action', 'Drame', 'Thriller'],
@@ -2643,7 +2649,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 122,
     genre: ['Action'],
     saga: '',
-    description: 'Un agent du FBI infiltré dans une bande de surfeurs découvre que ses amis sont les braqueurs masqués qu\'il traque depuis des mois.',
+    description:
+      "Un agent du FBI infiltré dans une bande de surfeurs découvre que ses amis sont les braqueurs masqués qu'il traque depuis des mois.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -2680,7 +2687,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 110,
     genre: ['Action'],
     saga: '',
-    description: 'Des jumeaux séparés à la naissance se retrouvent à Hong Kong pour venger la mort de leurs parents face à un trafiquant de drogue impitoyable.',
+    description:
+      'Des jumeaux séparés à la naissance se retrouvent à Hong Kong pour venger la mort de leurs parents face à un trafiquant de drogue impitoyable.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2696,8 +2704,7 @@ export const baseMoviesAction: BaseMovie[] = [
       { name: 'Kent Cheng' },
       { name: 'Jacky Cheung' },
     ],
-    coverUrl:
-      '/movies_pictures/cafcb1b50836.jpg',
+    coverUrl: '/movies_pictures/cafcb1b50836.jpg',
     releaseDate: '1991-08-15',
     length: 134,
     genre: ['Action', 'Aventure', 'Historique'],
@@ -2719,8 +2726,7 @@ export const baseMoviesAction: BaseMovie[] = [
       { name: 'Max Mok' },
       { name: 'David Chiang' },
     ],
-    coverUrl:
-      '/movies_pictures/98d1a578eec4.jpg',
+    coverUrl: '/movies_pictures/98d1a578eec4.jpg',
     releaseDate: '1992-04-16',
     length: 113,
     genre: ['Action', 'Aventure', 'Historique'],
@@ -2742,8 +2748,7 @@ export const baseMoviesAction: BaseMovie[] = [
       { name: 'Hung Yan-yan' },
       { name: 'John Wakefield' },
     ],
-    coverUrl:
-      '/movies_pictures/112a4baafe2c.jpg',
+    coverUrl: '/movies_pictures/112a4baafe2c.jpg',
     releaseDate: '1993-02-11',
     length: 112,
     genre: ['Action', 'Aventure', 'Historique'],
@@ -2772,7 +2777,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 105,
     genre: ['Action'],
     saga: '',
-    description: 'Un vétéran du Vietnam traque les trafiquants qui ont tué son ami et protège une jeune prostituée dans les bas-fonds de la Nouvelle-Orléans.',
+    description:
+      'Un vétéran du Vietnam traque les trafiquants qui ont tué son ami et protège une jeune prostituée dans les bas-fonds de la Nouvelle-Orléans.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2788,8 +2794,7 @@ export const baseMoviesAction: BaseMovie[] = [
       { name: 'Philip Kwok' },
       { name: 'Anthony Wong' },
     ],
-    coverUrl:
-      '/movies_pictures/7c0770a5a4ca.jpg',
+    coverUrl: '/movies_pictures/7c0770a5a4ca.jpg',
     releaseDate: '1992-04-16',
     length: 128,
     genre: ['Action', 'Policier', 'Thriller'],
@@ -2831,8 +2836,7 @@ export const baseMoviesAction: BaseMovie[] = [
       { name: "Ed O'Ross" },
       { name: 'Jerry Orbach' },
     ],
-    coverUrl:
-      '/movies_pictures/a11f1ac5e077.jpg',
+    coverUrl: '/movies_pictures/a11f1ac5e077.jpg',
     releaseDate: '1992-07-10',
     length: 102,
     genre: ['Action', 'Science Fiction'],
@@ -2875,7 +2879,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 104,
     genre: ['Action', 'Jeunesse'],
     saga: '',
-    description: 'Trois frères entraînés au ninjutsu par leur grand-père japonais doivent sauver leur père, FBI, des griffes d\'un criminel international.',
+    description:
+      "Trois frères entraînés au ninjutsu par leur grand-père japonais doivent sauver leur père, FBI, des griffes d'un criminel international.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -2912,7 +2917,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 103,
     genre: ['Action'],
     saga: '',
-    description: 'Un médecin embarqué sur un paquebot de luxe doit déjouer le plan d\'un terroriste qui menace de le faire exploser avec des passagers otages.',
+    description:
+      "Un médecin embarqué sur un paquebot de luxe doit déjouer le plan d'un terroriste qui menace de le faire exploser avec des passagers otages.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2935,7 +2941,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 84,
     genre: ['Action', 'Thriller'],
     saga: '',
-    description: 'Un agent antiterroriste de la FAA doit déjouer un détournement d\'avion et sauver les passagers en utilisant ses compétences de combat au corps à corps.',
+    description:
+      "Un agent antiterroriste de la FAA doit déjouer un détournement d'avion et sauver les passagers en utilisant ses compétences de combat au corps à corps.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2972,7 +2979,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 95,
     genre: ['Action'],
     saga: '',
-    description: 'Un expert en sécurité est piégé dans un centre commercial verrouillé avec sa fille pendant qu\'un braquage tourne au carnage.',
+    description:
+      "Un expert en sécurité est piégé dans un centre commercial verrouillé avec sa fille pendant qu'un braquage tourne au carnage.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3009,7 +3017,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 113,
     genre: ['Action'],
     saga: '',
-    description: 'Un guide de montagne expert en sauvetage est forcé par des mercenaires de participer à un braquage en altitude dans les Rocheuses.',
+    description:
+      'Un guide de montagne expert en sauvetage est forcé par des mercenaires de participer à un braquage en altitude dans les Rocheuses.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3046,7 +3055,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 130,
     genre: ['Action'],
     saga: '',
-    description: 'Un garçon fan de cinéma d\'action voit son héros préféré sortir de l\'écran pour combattre un méchant capable de passer du film à la réalité.',
+    description:
+      "Un garçon fan de cinéma d'action voit son héros préféré sortir de l'écran pour combattre un méchant capable de passer du film à la réalité.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3083,13 +3093,12 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 130,
     genre: ['Action'],
     saga: '',
-    description: 'Le docteur Kimble, injustement condamné pour le meurtre de sa femme, échappe à la police et traque le vrai assassin pendant sa cavale.',
+    description:
+      'Le docteur Kimble, injustement condamné pour le meurtre de sa femme, échappe à la police et traque le vrai assassin pendant sa cavale.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTOR, year: 1994 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTOR, year: 1994 }],
   },
   {
     title: 'True Romance',
@@ -3101,8 +3110,7 @@ export const baseMoviesAction: BaseMovie[] = [
       { name: 'Val Kilmer' },
       { name: 'Christopher Walken' },
     ],
-    coverUrl:
-      '/movies_pictures/f3a94c84e98a.jpg',
+    coverUrl: '/movies_pictures/f3a94c84e98a.jpg',
     releaseDate: '1993-09-10',
     length: 119,
     genre: ['Action', 'Romance', 'Policier'],
@@ -3145,7 +3153,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 115,
     genre: ['Action'],
     saga: '',
-    description: 'Un policier cryogénisé se réveille en 2032 pour traquer un criminel également décongelé dans une société pacifiée devenue étrangement conformiste.',
+    description:
+      'Un policier cryogénisé se réveille en 2032 pour traquer un criminel également décongelé dans une société pacifiée devenue étrangement conformiste.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -3182,7 +3191,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 104,
     genre: ['Action'],
     saga: '',
-    description: 'RoboCop défend des résistants expulsés de Détroit par une corporation qui veut raser leurs quartiers pour construire une utopie pour riches.',
+    description:
+      'RoboCop défend des résistants expulsés de Détroit par une corporation qui veut raser leurs quartiers pour construire une utopie pour riches.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3198,8 +3208,7 @@ export const baseMoviesAction: BaseMovie[] = [
       { name: 'Felix Wong' },
       { name: 'Andy Lau' },
     ],
-    coverUrl:
-      '/movies_pictures/cbc487ee8231.jpg',
+    coverUrl: '/movies_pictures/cbc487ee8231.jpg',
     releaseDate: '1994-02-03',
     length: 102,
     genre: ['Action', 'Comédie'],
@@ -3242,7 +3251,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 116,
     genre: ['Action'],
     saga: 'Speed',
-    description: 'Un policier et une conductrice de bus doivent maintenir un bus au-dessus de cinquante miles à l\'heure, sinon une bombe posée par un terroriste explosera.',
+    description:
+      "Un policier et une conductrice de bus doivent maintenir un bus au-dessus de cinquante miles à l'heure, sinon une bombe posée par un terroriste explosera.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -3282,7 +3292,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 121,
     genre: ['Action'],
     saga: 'Speed',
-    description: 'Une croisière de luxe devient un piège mortel lorsqu\'un ancien amant vengeur prend le contrôle du navire et le dirige vers un pétrolier.',
+    description:
+      "Une croisière de luxe devient un piège mortel lorsqu'un ancien amant vengeur prend le contrôle du navire et le dirige vers un pétrolier.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -3298,8 +3309,7 @@ export const baseMoviesAction: BaseMovie[] = [
       { name: 'Forest Whitaker' },
       { name: 'Suzy Amis' },
     ],
-    coverUrl:
-      '/movies_pictures/13c0d68d9acd.jpg',
+    coverUrl: '/movies_pictures/13c0d68d9acd.jpg',
     releaseDate: '1994-07-01',
     length: 121,
     genre: ['Action', 'Thriller'],
@@ -3337,13 +3347,13 @@ export const baseMoviesAction: BaseMovie[] = [
         name: 'Tom Arnold',
       },
     ],
-    coverUrl:
-      '/movies_pictures/38d140b905d5.jpg',
+    coverUrl: '/movies_pictures/38d140b905d5.jpg',
     releaseDate: '1994-07-15',
     length: 141,
     genre: ['Action'],
     saga: '',
-    description: 'Un agent secret mène une double vie auprès de sa femme jusqu\'à ce qu\'un réseau terroriste le force à mêler sa famille à une mission explosive.',
+    description:
+      "Un agent secret mène une double vie auprès de sa femme jusqu'à ce qu'un réseau terroriste le force à mêler sa famille à une mission explosive.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -3391,7 +3401,7 @@ export const baseMoviesAction: BaseMovie[] = [
     genre: ['Action', 'Drame', 'Romance'],
     saga: '',
     description:
-      "Un épéiste solitaire erre dans le désert chinois, hanté par des amours perdues et des duels qui ont marqué sa vie de mercenaire légendaire.",
+      'Un épéiste solitaire erre dans le désert chinois, hanté par des amours perdues et des duels qui ont marqué sa vie de mercenaire légendaire.',
     fromEntity: null,
     countryOrigin: ['Chine'],
     selectDisplayOrder: 0,
@@ -3412,7 +3422,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 116,
     genre: ['Action'],
     saga: '',
-    description: 'Un médecin urgentiste est traqué par la police après avoir découvert que son patron corrompu l\'a piégé pour un meurtre qu\'il n\'a pas commis.',
+    description:
+      "Un médecin urgentiste est traqué par la police après avoir découvert que son patron corrompu l'a piégé pour un meurtre qu'il n'a pas commis.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3449,7 +3460,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 110,
     genre: ['Action'],
     saga: '',
-    description: 'Un tueur solitaire héberge une jeune voisine dont la famille a été massacrée, et lui apprend à se venger tout en développant une relation protectrice.',
+    description:
+      'Un tueur solitaire héberge une jeune voisine dont la famille a été massacrée, et lui apprend à se venger tout en développant une relation protectrice.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
@@ -3508,7 +3520,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 102,
     genre: ['Action'],
     saga: '',
-    description: 'Le colonel Guile mène une équipe internationale contre le dictateur M. Bison qui a kidnappé des otages pour étendre son empire criminel.',
+    description:
+      'Le colonel Guile mène une équipe internationale contre le dictateur M. Bison qui a kidnappé des otages pour étendre son empire criminel.',
     fromEntity: {
       entityType: 'game',
       title: 'Street Fighter / Fighting Street',
@@ -3528,8 +3541,7 @@ export const baseMoviesAction: BaseMovie[] = [
       { name: 'Tom Gilroy' },
       { name: 'Marc Martínez' },
     ],
-    coverUrl:
-      'https://img.festival-cannes.com/eyJidWNrZXQiOiJtZWRpYSIsImtleSI6InVwbG9hZHNcLzIwMjNcLzAzXC8xOTAwMy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE2MDAsImZpdCI6ImNvdmVyIn19fQ==',
+    coverUrl: '/movies_pictures/19003.webp',
     releaseDate: '1995-04-07',
     length: 109,
     genre: ['Guerre', 'Drame', 'Historique'],
@@ -3572,7 +3584,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 96,
     genre: ['Action'],
     saga: '',
-    description: 'Dans une mégapole dystopique, le juge Dredd est accusé d\'un crime qu\'il n\'a pas commis et doit nettoyer les rues tout en prouvant son innocence.',
+    description:
+      "Dans une mégapole dystopique, le juge Dredd est accusé d'un crime qu'il n'a pas commis et doit nettoyer les rues tout en prouvant son innocence.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3610,7 +3623,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 100,
     genre: ['Action'],
     saga: '',
-    description: 'Un expert en ordinateurs embarqué dans un train à grande vitesse doit empêcher un hacker de détourner le convoi vers une collision programmée.',
+    description:
+      'Un expert en ordinateurs embarqué dans un train à grande vitesse doit empêcher un hacker de détourner le convoi vers une collision programmée.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3642,13 +3656,13 @@ export const baseMoviesAction: BaseMovie[] = [
         name: 'Jack Black',
       },
     ],
-    coverUrl:
-      '/movies_pictures/d8231e36795e.jpg',
+    coverUrl: '/movies_pictures/d8231e36795e.jpg',
     releaseDate: '1995-07-28',
     length: 135,
     genre: ['Action'],
     saga: '',
-    description: 'Dans un monde recouvert par les océans, un mutant aux branchies escorte une femme porteuse d\'une carte vers la terre ferme légendaire.',
+    description:
+      "Dans un monde recouvert par les océans, un mutant aux branchies escorte une femme porteuse d'une carte vers la terre ferme légendaire.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -3685,7 +3699,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 132,
     genre: ['Action'],
     saga: '',
-    description: 'Un tueur d\'élite vétéran est traqué par un jeune rival impitoyable dans un duel à travers San Francisco où chaque victime devient un piège.',
+    description:
+      "Un tueur d'élite vétéran est traqué par un jeune rival impitoyable dans un duel à travers San Francisco où chaque victime devient un piège.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3722,7 +3737,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 130,
     genre: ['Action'],
     saga: 'James Bond',
-    description: 'James Bond affronte un ancien collègue devenu criminel qui contrôle une arme satellite soviétique capable de détruire des villes entières.',
+    description:
+      'James Bond affronte un ancien collègue devenu criminel qui contrôle une arme satellite soviétique capable de détruire des villes entières.',
     fromEntity: {
       entityType: 'book',
       title: 'Casino Royale',
@@ -3749,7 +3765,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 108,
     genre: ['Action', 'Policier', 'Horreur'],
     saga: '',
-    description: 'Deux frères criminels et leur otage familiale sont retenus captifs dans un bar mexicain peuplé de vampires affamés jusqu\'à l\'aube.',
+    description:
+      "Deux frères criminels et leur otage familiale sont retenus captifs dans un bar mexicain peuplé de vampires affamés jusqu'à l'aube.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3794,7 +3811,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 170,
     genre: ['Action'],
     saga: '',
-    description: 'Un lieutenant de police obsédé traque un braqueur de banques méthodique à Los Angeles, dans un duel où professionnalisme et honneur se confrontent.',
+    description:
+      'Un lieutenant de police obsédé traque un braqueur de banques méthodique à Los Angeles, dans un duel où professionnalisme et honneur se confrontent.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -3817,7 +3835,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 133,
     genre: ['Action', 'Thriller'],
     saga: '',
-    description: 'Un agent du Secret Service traque des terroristes qui ont volé un avion présidentiel de rechange, le Air Force One, avec la famille du président à bord.',
+    description:
+      'Un agent du Secret Service traque des terroristes qui ont volé un avion présidentiel de rechange, le Air Force One, avec la famille du président à bord.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3854,7 +3873,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 95,
     genre: ['Action'],
     saga: '',
-    description: 'Un aventurier part à la recherche d\'un légendaire lingot d\'or volé dans un monastère tibétain, affrontant des combattants lors d\'un tournoi mortel.',
+    description:
+      "Un aventurier part à la recherche d'un légendaire lingot d'or volé dans un monastère tibétain, affrontant des combattants lors d'un tournoi mortel.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3877,7 +3897,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 136,
     genre: ['Action', 'Aventure', 'Thriller'],
     saga: '',
-    description: 'Un chimiste et un ancien du SAS doivent désamorcer des missiles empoisonnés sur Alcatraz, où des mercenaires retiennent des otages.',
+    description:
+      'Un chimiste et un ancien du SAS doivent désamorcer des missiles empoisonnés sur Alcatraz, où des mercenaires retiennent des otages.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3900,7 +3921,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 136,
     genre: ['Action', 'Thriller'],
     saga: '',
-    description: 'Un chimiste et un ancien du SAS doivent désamorcer des missiles empoisonnés sur Alcatraz, où des mercenaires retiennent des otages.',
+    description:
+      'Un chimiste et un ancien du SAS doivent désamorcer des missiles empoisonnés sur Alcatraz, où des mercenaires retiennent des otages.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3937,7 +3959,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 115,
     genre: ['Action'],
     saga: '',
-    description: 'Un ancien agent de la CIA doit protéger une témoin clé contre une conspiration gouvernementale qui veut effacer toute trace de son ancienne unité.',
+    description:
+      'Un ancien agent de la CIA doit protéger une témoin clé contre une conspiration gouvernementale qui veut effacer toute trace de son ancienne unité.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3958,7 +3981,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 113,
     genre: ['Action', 'Aventure'],
     saga: '',
-    description: 'Des chasseurs de tornades risquent leur vie pour déployer un système de mesure au cœur d\'une série de tornades dévastatrices dans l\'Oklahoma.',
+    description:
+      "Des chasseurs de tornades risquent leur vie pour déployer un système de mesure au cœur d'une série de tornades dévastatrices dans l'Oklahoma.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4022,7 +4046,7 @@ export const baseMoviesAction: BaseMovie[] = [
     genre: ['Guerre', 'Drame', 'Historique'],
     saga: '',
     description:
-      'Pendant la Première Guerre mondiale, le caporal Conan et son lieutenant mènent une escouade de soldats impitoyables sur le front de l\'Est.',
+      "Pendant la Première Guerre mondiale, le caporal Conan et son lieutenant mènent une escouade de soldats impitoyables sur le front de l'Est.",
     fromEntity: {
       entityType: 'book',
       title: 'Capitaine Conan',
@@ -4042,8 +4066,7 @@ export const baseMoviesAction: BaseMovie[] = [
       { name: 'Françoise Yip' },
       { name: 'Patrick Lung' },
     ],
-    coverUrl:
-      '/movies_pictures/656e03acb514.jpg',
+    coverUrl: '/movies_pictures/656e03acb514.jpg',
     releaseDate: '1996-11-09',
     length: 99,
     genre: ['Action', 'Science Fiction'],
@@ -4091,7 +4114,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 114,
     genre: ['Action'],
     saga: '',
-    description: 'Après l\'effondrement d\'un tunnel sous l\'Hudson, un chauffeur de camion doit organiser l\'évacuation des survivants avant que l\'eau ne les noie.',
+    description:
+      "Après l'effondrement d'un tunnel sous l'Hudson, un chauffeur de camion doit organiser l'évacuation des survivants avant que l'eau ne les noie.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4156,7 +4180,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 103,
     genre: ['Action', 'Policier'],
     saga: '',
-    description: 'Un gangster impitoyable surnommé Dobermann traque un flic corrompu qui lui a volé de l\'argent, dans une violence stylisée à travers la France.',
+    description:
+      "Un gangster impitoyable surnommé Dobermann traque un flic corrompu qui lui a volé de l'argent, dans une violence stylisée à travers la France.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4201,7 +4226,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 138,
     genre: ['Action', 'Policier', 'Science Fiction'],
     saga: '',
-    description: 'Un agent du FBI et un terroriste échangent leurs visages par chirurgie plastique, plongeant chacun dans la vie de l\'autre avec des conséquences mortelles.',
+    description:
+      "Un agent du FBI et un terroriste échangent leurs visages par chirurgie plastique, plongeant chacun dans la vie de l'autre avec des conséquences mortelles.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4239,7 +4265,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 138,
     genre: ['Action', 'Thriller'],
     saga: '',
-    description: 'Un agent du FBI et un terroriste échangent leurs visages par chirurgie plastique, chacun devant vivre dans la peau de son pire ennemi.',
+    description:
+      'Un agent du FBI et un terroriste échangent leurs visages par chirurgie plastique, chacun devant vivre dans la peau de son pire ennemi.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -4262,7 +4289,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 124,
     genre: ['Action', 'Policier', 'Drame'],
     saga: '',
-    description: 'Des terroristes kazakhs détournent l\'avion présidentiel américain et le président, ancien militaire, doit reprendre le contrôle de son appareil.',
+    description:
+      "Des terroristes kazakhs détournent l'avion présidentiel américain et le président, ancien militaire, doit reprendre le contrôle de son appareil.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4285,7 +4313,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 110,
     genre: ['Action'],
     saga: '',
-    description: 'Un expert en sécurité aérienne est embarqué de force dans un avion transportant des criminiels dangereux qui prennent le contrôle du vol.',
+    description:
+      'Un expert en sécurité aérienne est embarqué de force dans un avion transportant des criminiels dangereux qui prennent le contrôle du vol.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -4322,7 +4351,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 101,
     genre: ['Action'],
     saga: '',
-    description: 'Un négociateur du FBI affronte un ancien collègue reconverti en kidnappeur qui connaît toutes les failles du système qu\'il a lui-même conçu.',
+    description:
+      "Un négociateur du FBI affronte un ancien collègue reconverti en kidnappeur qui connaît toutes les failles du système qu'il a lui-même conçu.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4359,7 +4389,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 124,
     genre: ['Action'],
     saga: '',
-    description: 'Un tueur à gages surnommé le Chacal est engagé pour assassiner le président des États-Unis, et seul un agent du FBI peut le stopper.',
+    description:
+      'Un tueur à gages surnommé le Chacal est engagé pour assassiner le président des États-Unis, et seul un agent du FBI peut le stopper.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4381,7 +4412,7 @@ export const baseMoviesAction: BaseMovie[] = [
     genre: ['Action', 'Comédie', 'Thriller'],
     saga: '',
     description:
-      'Un agent secret amnésique est traqué par la CIA et la mafia après une chute d\'avion en Afrique du Sud, ne sachant plus de quel côté il se bat.',
+      "Un agent secret amnésique est traqué par la CIA et la mafia après une chute d'avion en Afrique du Sud, ne sachant plus de quel côté il se bat.",
     fromEntity: null,
     countryOrigin: ['Chine'],
     selectDisplayOrder: 0,
@@ -4404,7 +4435,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 106,
     genre: ['Action', 'Horreur'],
     saga: '',
-    description: 'Des chasseurs de requins découvrent un navire fantôme dans les eaux somaliennes et se retrouvent face à des prédateurs géants bien plus dangereux.',
+    description:
+      'Des chasseurs de requins découvrent un navire fantôme dans les eaux somaliennes et se retrouvent face à des prédateurs géants bien plus dangereux.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4441,7 +4473,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 132,
     genre: ['Action'],
     saga: '',
-    description: 'Les trois mousquetaires vieillissants tentent de libérer le mystérieux prisonnier masqué de la Bastille, révélé être le frère jumeau du roi.',
+    description:
+      'Les trois mousquetaires vieillissants tentent de libérer le mystérieux prisonnier masqué de la Bastille, révélé être le frère jumeau du roi.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4478,7 +4511,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 139,
     genre: ['Action'],
     saga: '',
-    description: 'Un lézard géant muté par les essais nucléaires ravage New York tandis qu\'un biologiste et un reporter tentent de comprendre et d\'arrêter la créature.',
+    description:
+      "Un lézard géant muté par les essais nucléaires ravage New York tandis qu'un biologiste et un reporter tentent de comprendre et d'arrêter la créature.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -4515,7 +4549,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 151,
     genre: ['Action'],
     saga: '',
-    description: 'Une équipe de foreurs pétroliers est envoyée dans l\'espace pour percer un astéroide géant et y placer une bombe nucléaire avant qu\'il ne frappe la Terre.',
+    description:
+      "Une équipe de foreurs pétroliers est envoyée dans l'espace pour percer un astéroide géant et y placer une bombe nucléaire avant qu'il ne frappe la Terre.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -4552,7 +4587,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 169,
     genre: ['Guerre'],
     saga: '',
-    description: 'Après le débarquement en Normandie, un capitaine et son escouade traversent la France en guerre pour retrouver et ramener un parachutiste dont les trois frères sont morts.',
+    description:
+      'Après le débarquement en Normandie, un capitaine et son escouade traversent la France en guerre pour retrouver et ramener un parachutiste dont les trois frères sont morts.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -4581,7 +4617,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 140,
     genre: ['Action', 'Thriller'],
     saga: '',
-    description: 'Un négociateur du FBI pris en otage dans son propre commissariat par des collègues qu\'il accuse de corruption doit prouver son innocence depuis l\'intérieur.',
+    description:
+      "Un négociateur du FBI pris en otage dans son propre commissariat par des collègues qu'il accuse de corruption doit prouver son innocence depuis l'intérieur.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4618,7 +4655,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 116,
     genre: ['Action'],
     saga: '',
-    description: 'Un vétéran juif américain retourne au Viêt Nam pour retrouver un pilote abattu et découvre que son ami est encore vivant mais captif.',
+    description:
+      'Un vétéran juif américain retourne au Viêt Nam pour retrouver un pilote abattu et découvre que son ami est encore vivant mais captif.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4677,7 +4715,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 132,
     genre: ['Action'],
     saga: '',
-    description: 'Un avocat de Droit civil se retrouve traqué par la NSA après avoir reçu par accident une preuve compromettant un assassinat politique.',
+    description:
+      'Un avocat de Droit civil se retrouve traqué par la NSA après avoir reçu par accident une preuve compromettant un assassinat politique.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4748,7 +4787,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 101,
     genre: ['Action', 'Thriller', 'Comédie'],
     saga: '',
-    description: 'Un ancien agent de la CIA traqué par son ex-employeur traverse les États-Unis en hiver pour déposer une preuve compromettante au Congrès.',
+    description:
+      'Un ancien agent de la CIA traqué par son ex-employeur traverse les États-Unis en hiver pour déposer une preuve compromettante au Congrès.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4785,7 +4825,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 122,
     genre: ['Guerre'],
     saga: '',
-    description: 'Trois vétérans du Viêt Nam découvrent que leurs souvenirs de guerre ont été manipulés par des expériences secrètes de l\'armée américaine.',
+    description:
+      "Trois vétérans du Viêt Nam découvrent que leurs souvenirs de guerre ont été manipulés par des expériences secrètes de l'armée américaine.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4806,7 +4847,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 158,
     genre: ['Action', 'Drame'],
     saga: '',
-    description: 'Jeanne d\'Arc mène les armées françaises contre les Anglais pendant la guerre de Cent Ans, guidée par des voix divines qui la mènent jusqu\'au bûcher.',
+    description:
+      "Jeanne d'Arc mène les armées françaises contre les Anglais pendant la guerre de Cent Ans, guidée par des voix divines qui la mènent jusqu'au bûcher.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4829,7 +4871,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 155,
     genre: ['Action'],
     saga: '',
-    description: 'Maximus, général romain réduit en esclave, devient gladiateur et conspire pour venger la mort de sa famille en défiant l\'empereur Commode dans l\'arène.',
+    description:
+      "Maximus, général romain réduit en esclave, devient gladiateur et conspire pour venger la mort de sa famille en défiant l'empereur Commode dans l'arène.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -4856,7 +4899,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 120,
     genre: ['Action', 'Aventure', 'Drame', 'Fantastique'],
     saga: '',
-    description: 'Deux maîtres d\'arts martiaux et une guerrière mystérieuse poursuivent une épée légendaire volée dans la Chine du XVIIIe siècle.',
+    description:
+      "Deux maîtres d'arts martiaux et une guerrière mystérieuse poursuivent une épée légendaire volée dans la Chine du XVIIIe siècle.",
     fromEntity: {
       entityType: 'book',
       title: 'Tigre et Dragon',
@@ -4881,8 +4925,7 @@ export const baseMoviesAction: BaseMovie[] = [
       { name: 'Brandon Merrill' },
       { name: 'Roger Yuan' },
     ],
-    coverUrl:
-      '/movies_pictures/fa226b90adda.jpg',
+    coverUrl: '/movies_pictures/fa226b90adda.jpg',
     releaseDate: '2000-05-26',
     length: 110,
     genre: ['Action', 'Comédie', 'Western'],
@@ -4911,13 +4954,12 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 116,
     genre: ['Guerre', 'Thriller'],
     saga: '',
-    description: 'Des marines américains capturent un sous-marin allemand pour récupérer sa machine Enigma et décoder les communications nazies pendant la Seconde Guerre mondiale.',
+    description:
+      'Des marines américains capturent un sous-marin allemand pour récupérer sa machine Enigma et décoder les communications nazies pendant la Seconde Guerre mondiale.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_SOUND_EDITING, year: 2001 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_SOUND_EDITING, year: 2001 }],
   },
   {
     title: '60 secondes chrono',
@@ -4950,7 +4992,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 118,
     genre: ['Action'],
     saga: '',
-    description: 'Un voleur de voitures légendaire doit voler cinquante voitures en une nuit pour sauver son frère des griffes d\'un gangster impitoyable.',
+    description:
+      "Un voleur de voitures légendaire doit voler cinquante voitures en une nuit pour sauver son frère des griffes d'un gangster impitoyable.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4987,7 +5030,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 99,
     genre: ['Action'],
     saga: '',
-    description: 'John Shaft, détective privé au tempérament explosif, enquête sur un meurtre raciste à Harlem et affronte la corruption policière et la mafia.',
+    description:
+      'John Shaft, détective privé au tempérament explosif, enquête sur un meurtre raciste à Harlem et affronte la corruption policière et la mafia.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5010,7 +5054,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 165,
     genre: ['Action', 'Drame', 'Guerre'],
     saga: '',
-    description: 'Un père de famille pacifiste de Caroline du Sud prend les armes pendant la guerre d\'Indépendance pour venger la mort de son fils.',
+    description:
+      "Un père de famille pacifiste de Caroline du Sud prend les armes pendant la guerre d'Indépendance pour venger la mort de son fils.",
     fromEntity: null,
     countryOrigin: ['Allemagne'],
     selectDisplayOrder: 0,
@@ -5047,7 +5092,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 102,
     genre: ['Action'],
     saga: '',
-    description: 'Un gangster londonien retourne à Seattle pour enquêter sur la mort de son frère et découvre une conspiration impliquant l\'industrie du porno.',
+    description:
+      "Un gangster londonien retourne à Seattle pour enquêter sur la mort de son frère et découvre une conspiration impliquant l'industrie du porno.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5070,7 +5116,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 98,
     genre: ['Action'],
     saga: '',
-    description: 'Trois détectives privées enquêtent sur le meurtre de leur patron et découvrent un complot impliquant des ordinateurs de pointe et des milliards volés.',
+    description:
+      'Trois détectives privées enquêtent sur le meurtre de leur patron et découvrent un complot impliquant des ordinateurs de pointe et des milliards volés.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -5093,7 +5140,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 142,
     genre: ['Action'],
     saga: '',
-    description: 'Au XVIIIe siècle, une bête mystérieuse terrorise la Gévaudan et un naturaliste enquête sur des créatures liées à une conspiration aristocratique.',
+    description:
+      'Au XVIIIe siècle, une bête mystérieuse terrorise la Gévaudan et un naturaliste enquête sur des créatures liées à une conspiration aristocratique.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
@@ -5117,7 +5165,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 131,
     genre: ['Guerre', 'Drame'],
     saga: '',
-    description: 'Pendant la bataille de Stalingrad, des soldats allemands et russes livrent un combat acharné dans les ruines d\'une ville où chaque mètre coûte des vies.',
+    description:
+      "Pendant la bataille de Stalingrad, des soldats allemands et russes livrent un combat acharné dans les ruines d'une ville où chaque mètre coûte des vies.",
     fromEntity: null,
     countryOrigin: ['Russie'],
     selectDisplayOrder: 0,
@@ -5154,7 +5203,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 100,
     genre: ['Action'],
     saga: '',
-    description: 'Un clone du tueur en série le plus recherché des États-Unis est créé pour le traquer, mais finit par développer une conscience troublante.',
+    description:
+      'Un clone du tueur en série le plus recherché des États-Unis est créé pour le traquer, mais finit par développer une conscience troublante.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5191,7 +5241,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 98,
     genre: ['Action'],
     saga: '',
-    description: 'Un inspecteur français enquête sur le meurtre de sa fille à Paris et découvre un réseau de traite humaine mené par la Triade.',
+    description:
+      'Un inspecteur français enquête sur le meurtre de sa fille à Paris et découvre un réseau de traite humaine mené par la Triade.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5228,7 +5279,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 124,
     genre: ['Action'],
     saga: '',
-    description: 'Un espion britannique infiltré en Corée du Nord doit empêcher un réseau de vendre une arme biologique sur le marché noir international.',
+    description:
+      'Un espion britannique infiltré en Corée du Nord doit empêcher un réseau de vendre une arme biologique sur le marché noir international.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5265,7 +5317,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 116,
     genre: ['Action'],
     saga: '',
-    description: 'Un pilote de l\'armée de l\'air américaine abattu en Serbie doit échapper aux forces ennemies avec l\'aide d\'un éclaireur local.',
+    description:
+      "Un pilote de l'armée de l'air américaine abattu en Serbie doit échapper aux forces ennemies avec l'aide d'un éclaireur local.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5301,8 +5354,7 @@ export const baseMoviesAction: BaseMovie[] = [
       { name: 'Georges Siatidis' },
       { name: 'Katrin Cartlidge' },
     ],
-    coverUrl:
-      '/movies_pictures/7e838a08013a.jpg',
+    coverUrl: '/movies_pictures/7e838a08013a.jpg',
     releaseDate: '2001-09-19',
     length: 98,
     genre: ['Guerre', 'Drame', 'Comédie'],
@@ -5345,13 +5397,12 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 122,
     genre: ['Action', 'Policier'],
     saga: '',
-    description: 'Un jeune policier idéaliste passe vingt-quatre heures avec un inspecteur corrompu qui le plonge dans la violence et les compromissions de Los Angeles.',
+    description:
+      'Un jeune policier idéaliste passe vingt-quatre heures avec un inspecteur corrompu qui le plonge dans la violence et les compromissions de Los Angeles.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ACTOR, year: 2002 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ACTOR, year: 2002 }],
   },
   {
     title: 'Wasabi',
@@ -5384,7 +5435,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 94,
     genre: ['Action'],
     saga: '',
-    description: 'Un flic japonais débarque à Paris pour hériter d\'une banque et découvrir la fille qu\'il ignorait, tout en affrontant le clan yakuza qui la traque.',
+    description:
+      "Un flic japonais débarque à Paris pour hériter d'une banque et découvrir la fille qu'il ignorait, tout en affrontant le clan yakuza qui la traque.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -5421,7 +5473,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 95,
     genre: ['Action'],
     saga: '',
-    description: 'Un dentiste timide tombe amoureux d\'une patiente et se retrouve mêlé à un complot impliquant des diamants volés et des tueurs impitoyables.',
+    description:
+      "Un dentiste timide tombe amoureux d'une patiente et se retrouve mêlé à un complot impliquant des diamants volés et des tueurs impitoyables.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5458,7 +5511,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 126,
     genre: ['Action'],
     saga: '',
-    description: 'Un vétéran de la CIA a vingt-quatre heures pour sauver son protégé condamné à mort en Chine tout en couvrant une opération interne compromise.',
+    description:
+      'Un vétéran de la CIA a vingt-quatre heures pour sauver son protégé condamné à mort en Chine tout en couvrant une opération interne compromise.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5495,7 +5549,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 144,
     genre: ['Guerre', 'Drame', 'Historique'],
     saga: '',
-    description: 'Une mission de capture de hauts responsables somaliens tourne au désastre lorsque deux hélicoptères Black Hawk sont abattus à Mogadiscio.',
+    description:
+      'Une mission de capture de hauts responsables somaliens tourne au désastre lorsque deux hélicoptères Black Hawk sont abattus à Mogadiscio.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5532,11 +5587,12 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 98,
     genre: ['Action'],
     saga: '',
-    description: 'Dans un futur proche, un joueur de star de rollerball se rebelle contre les propriétaires qui transforment le sport en spectacle de plus en plus mortel.',
+    description:
+      'Dans un futur proche, un joueur de star de rollerball se rebelle contre les propriétaires qui transforment le sport en spectacle de plus en plus mortel.',
     fromEntity: {
       entityType: 'book',
-      title: "Roller Ball Murder",
-      secondEntityKey: "William Harrison",
+      title: 'Roller Ball Murder',
+      secondEntityKey: 'William Harrison',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5573,7 +5629,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 108,
     genre: ['Action'],
     saga: '',
-    description: 'Un pilote de bateau découvre que sa dernière livraison contient des explosifs et devient la cible d\'un complot visant à déclencher une guerre.',
+    description:
+      "Un pilote de bateau découvre que sa dernière livraison contient des explosifs et devient la cible d'un complot visant à déclencher une guerre.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5596,7 +5653,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 107,
     genre: ['Action', 'Thriller'],
     saga: '',
-    description: 'Un négociateur du SWAT et son équipe assiégés dans un immeuble doivent protéger un otage recherché par des mercenaires impitoyables.',
+    description:
+      'Un négociateur du SWAT et son équipe assiégés dans un immeuble doivent protéger un otage recherché par des mercenaires impitoyables.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -5619,7 +5677,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 92,
     genre: ['Action', 'Fantastique'],
     saga: '',
-    description: 'Un guerrier du désert d\'Égypte ancienne devient roi en affrontant des armées et des créatures mythiques pour unifier les tribus de la terre.',
+    description:
+      "Un guerrier du désert d'Égypte ancienne devient roi en affrontant des armées et des créatures mythiques pour unifier les tribus de la terre.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5656,7 +5715,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 124,
     genre: ['Action'],
     saga: '',
-    description: 'Un analyste de la CIA déjoue un complot visant à provoquer une guerre entre les États-Unis et la Russie en détournant une ogive nucléaire.',
+    description:
+      'Un analyste de la CIA déjoue un complot visant à provoquer une guerre entre les États-Unis et la Russie en détournant une ogive nucléaire.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5693,7 +5753,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 102,
     genre: ['Action'],
     saga: '',
-    description: 'Vingt ans après que des dragons ont décimé l\'humanité, un groupe de survivants part à la recherche de la femelle responsable de leur reproduction.',
+    description:
+      "Vingt ans après que des dragons ont décimé l'humanité, un groupe de survivants part à la recherche de la femelle responsable de leur reproduction.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5730,7 +5791,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 91,
     genre: ['Action'],
     saga: '',
-    description: 'Un expert en déminage doit désamorcer une série de bombes posées dans la ville par un ancien collègue qu\'il croyait mort.',
+    description:
+      "Un expert en déminage doit désamorcer une série de bombes posées dans la ville par un ancien collègue qu'il croyait mort.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5758,7 +5820,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 108,
     genre: ['Action'],
     saga: '',
-    description: 'Tin, élevé dans un village rural, part à Bangkok récupérer la tête sacrée de Bouddha volée, déchaînant des combats au muay thaï éblouissants.',
+    description:
+      'Tin, élevé dans un village rural, part à Bangkok récupérer la tête sacrée de Bouddha volée, déchaînant des combats au muay thaï éblouissants.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -5795,7 +5858,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 121,
     genre: ['Action'],
     saga: '',
-    description: 'Une équipe de Navy SEALs désobéit aux ordres pour sauver des réfugiés nigérians massacrés par des rebelles lors d\'une mission d\'extraction.',
+    description:
+      "Une équipe de Navy SEALs désobéit aux ordres pour sauver des réfugiés nigérians massacrés par des rebelles lors d'une mission d'extraction.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5832,7 +5896,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 110,
     genre: ['Action'],
     saga: '',
-    description: 'Allan Quatermain rassemble des héros victoriens légendaires pour contrer un criminel qui menace de déclencher une guerre mondiale.',
+    description:
+      'Allan Quatermain rassemble des héros victoriens légendaires pour contrer un criminel qui menace de déclencher une guerre mondiale.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5853,7 +5918,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 117,
     genre: ['Action', 'Thriller', 'Policier'],
     saga: '',
-    description: 'Une unité SWAT de Los Angeles doit escorter un baron de la drogue arrêté qui offre 100 millions à quiconque le libérera, attirant des mercenaires.',
+    description:
+      'Une unité SWAT de Los Angeles doit escorter un baron de la drogue arrêté qui offre 100 millions à quiconque le libérera, attirant des mercenaires.',
     fromEntity: {
       entityType: 'serie',
       title: 'S.W.A.T.',
@@ -5894,7 +5960,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 111,
     genre: ['Action'],
     saga: '',
-    description: 'Un criminel sort de prison et planifie un casse de diamants à Los Angeles en recrutant une équipe hétéroclite de spécialistes du vol.',
+    description:
+      'Un criminel sort de prison et planifie un casse de diamants à Los Angeles en recrutant une équipe hétéroclite de spécialistes du vol.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5917,7 +5984,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 99,
     genre: ['Action'],
     saga: '',
-    description: 'Un roi Qin unifie la Chine grâce à un nommé Sans Nom, qui raconte comment il a éliminé trois assassins légendaires menaçant le trône.',
+    description:
+      'Un roi Qin unifie la Chine grâce à un nommé Sans Nom, qui raconte comment il a éliminé trois assassins légendaires menaçant le trône.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -5940,7 +6008,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 118,
     genre: ['Action'],
     saga: '',
-    description: 'Un garde du corps disgracié doit protéger un témoin clé contre des assassins pendant qu\'il tente de restaurer sa relation avec son fils.',
+    description:
+      "Un garde du corps disgracié doit protéger un témoin clé contre des assassins pendant qu'il tente de restaurer sa relation avec son fils.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5963,11 +6032,12 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 119,
     genre: ['Action', 'Science Fiction'],
     saga: '',
-    description: 'Un ingénieur spécialisé en projets secrets voit sa mémoire effacée après chaque mission et doit retrouver ce qu\'il a construit avant qu\'il ne détruise le monde.',
+    description:
+      "Un ingénieur spécialisé en projets secrets voit sa mémoire effacée après chaque mission et doit retrouver ce qu'il a construit avant qu'il ne détruise le monde.",
     fromEntity: {
       entityType: 'book',
-      title: "Paycheck",
-      secondEntityKey: "Philip K. Dick",
+      title: 'Paycheck',
+      secondEntityKey: 'Philip K. Dick',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6001,7 +6071,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 86,
     genre: ['Action'],
     saga: '',
-    description: 'Un ancien agent de la CIA traque le tueur qui a assassiné sa femme et sa fille, découvrant une conspiration gouvernementale bien plus vaste.',
+    description:
+      'Un ancien agent de la CIA traque le tueur qui a assassiné sa femme et sa fille, découvrant une conspiration gouvernementale bien plus vaste.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6038,7 +6109,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 146,
     genre: ['Action'],
     saga: '',
-    description: 'Un ex-agent traumatisé bodyguard d\'une fillette mexicaine sombre dans une vendetta sanglante lorsqu\'elle est kidnappée par un réseau criminel.',
+    description:
+      "Un ex-agent traumatisé bodyguard d'une fillette mexicaine sombre dans une vendetta sanglante lorsqu'elle est kidnappée par un réseau criminel.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6062,7 +6134,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 163,
     genre: ['Action', 'Historique'],
     saga: '',
-    description: 'Achille, Hector et Pâris s\'affrontent lors du siège légendaire de Troie, déclenché par l\'enlèvement d\'Hélène et mené par les armées grecques.',
+    description:
+      "Achille, Hector et Pâris s'affrontent lors du siège légendaire de Troie, déclenché par l'enlèvement d'Hélène et mené par les armées grecques.",
     fromEntity: {
       entityType: 'book',
       title: "L'iliade",
@@ -6089,7 +6162,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 119,
     genre: ['Action', 'Romance'],
     saga: '',
-    description: 'Deux policiers enquêtent sur une série de meurtres liés à une légende de dague volante dans la Chine des Tang, entre intrigue et arts martiaux.',
+    description:
+      'Deux policiers enquêtent sur une série de meurtres liés à une légende de dague volante dans la Chine des Tang, entre intrigue et arts martiaux.',
     fromEntity: null,
     countryOrigin: ['Chine'],
     selectDisplayOrder: 0,
@@ -6112,7 +6186,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 126,
     genre: ['Action', 'Aventure'],
     saga: '',
-    description: 'Arthur, chevalier romano-britannique, tire Excalibur de la pierre et unit les chevaliers de la Table ronde contre les envahisseurs saxons.',
+    description:
+      'Arthur, chevalier romano-britannique, tire Excalibur de la pierre et unit les chevaliers de la Table ronde contre les envahisseurs saxons.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6135,7 +6210,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 175,
     genre: ['Action', 'Biographie'],
     saga: '',
-    description: 'Alexandre le Grand conquiert l\'empire perse et atteint les confins de l\'Inde, dans une épopée marquée par la gloire militaire et les trahisons intimes.',
+    description:
+      "Alexandre le Grand conquiert l'empire perse et atteint les confins de l'Inde, dans une épopée marquée par la gloire militaire et les trahisons intimes.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6158,7 +6234,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 103,
     genre: ['Action'],
     saga: '',
-    description: 'Un homme élevé comme un chien de combat par un parrain criminel londonien découvre la vie normale grâce à un facteur qui devient son ami.',
+    description:
+      'Un homme élevé comme un chien de combat par un parrain criminel londonien découvre la vie normale grâce à un facteur qui devient son ami.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -6195,7 +6272,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 98,
     genre: ['Action'],
     saga: '',
-    description: 'Un négociateur du LAPD voit sa propre famille prise en otage pendant qu\'il tente de calmer une prise d\'otages dans un bus scolaire.',
+    description:
+      "Un négociateur du LAPD voit sa propre famille prise en otage pendant qu'il tente de calmer une prise d'otages dans un bus scolaire.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6232,7 +6310,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 106,
     genre: ['Action'],
     saga: '',
-    description: 'Un voleur de voitures de luxe tombe amoureux de la femme d\'un gangster mafieux et doit planifier un casse impossible pour fuir avec elle.',
+    description:
+      "Un voleur de voitures de luxe tombe amoureux de la femme d'un gangster mafieux et doit planifier un casse impossible pour fuir avec elle.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6269,7 +6348,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 144,
     genre: ['Action', 'Aventure', 'Historique'],
     saga: '',
-    description: 'Un forgeron français part en croisade à Jérusalem et se retrouve défenseur de la ville sainte face à Saladin et aux armées musulmanes.',
+    description:
+      'Un forgeron français part en croisade à Jérusalem et se retrouve défenseur de la ville sainte face à Saladin et aux armées musulmanes.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6306,7 +6386,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 120,
     genre: ['Action'],
     saga: '',
-    description: 'Un couple marié découvre que chacun est un tueur à gages employé par des agences rivales, et que leur prochaine mission est d\'éliminer l\'autre.',
+    description:
+      "Un couple marié découvre que chacun est un tueur à gages employé par des agences rivales, et que leur prochaine mission est d'éliminer l'autre.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -6343,7 +6424,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 111,
     genre: ['Action'],
     saga: '',
-    description: 'Kham, élevé avec un éléphant de compagnie, part à Sydney le retrouver après sa vente à des trafiquants et déchaîne un combat acharné.',
+    description:
+      'Kham, élevé avec un éléphant de compagnie, part à Sydney le retrouver après sa vente à des trafiquants et déchaîne un combat acharné.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6380,7 +6462,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 94,
     genre: ['Action'],
     saga: '',
-    description: 'Des voleurs de haut vol planifient un casse spectaculaire dans une banque new-yorkaise, mais les tensions internes menacent le plan.',
+    description:
+      'Des voleurs de haut vol planifient un casse spectaculaire dans une banque new-yorkaise, mais les tensions internes menacent le plan.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6403,7 +6486,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 96,
     genre: ['Action', 'Policier', 'Drame'],
     saga: '',
-    description: 'Un propriétaire de diner de l\'Indiana devient héros local après avoir tué deux braqueurs, révélant un passé criminel qu\'il croyait enterré.',
+    description:
+      "Un propriétaire de diner de l'Indiana devient héros local après avoir tué deux braqueurs, révélant un passé criminel qu'il croyait enterré.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6439,14 +6523,13 @@ export const baseMoviesAction: BaseMovie[] = [
       { name: 'Alice Taglioni' },
       { name: 'Philippe Torreton' },
     ],
-    coverUrl:
-      'https://medias.unifrance.org/medias/4/0/4/format_page/les-chevaliers-du-ciel.jpg',
+    coverUrl: '/movies_pictures/les-chevaliers-du-ciel.jpg',
     releaseDate: '2005-10-19',
     length: 102,
     genre: ['Action', 'Aventure'],
     saga: '',
     description:
-      'Deux pilotes de chasse français interceptent un avion de tourisme détourné au-dessus de Paris et doivent l\'empêcher de s\'écraser sur la capitale.',
+      "Deux pilotes de chasse français interceptent un avion de tourisme détourné au-dessus de Paris et doivent l'empêcher de s'écraser sur la capitale.",
     fromEntity: {
       entityType: 'comic',
       title: 'Les Chevaliers du ciel',
@@ -6473,7 +6556,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 105,
     genre: ['Action', 'Science Fiction'],
     saga: '',
-    description: 'Des marines envoyés sur Mars affrontent des créatures démoniaques libérées par une expérience scientifique, dans une adaptation du jeu vidéo culte.',
+    description:
+      'Des marines envoyés sur Mars affrontent des créatures démoniaques libérées par une expérience scientifique, dans une adaptation du jeu vidéo culte.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6489,14 +6573,13 @@ export const baseMoviesAction: BaseMovie[] = [
       { name: 'Daniel Brühl' },
       { name: 'Gary Lewis' },
     ],
-    coverUrl:
-      '/movies_pictures/89a7d48fefa5.jpg',
+    coverUrl: '/movies_pictures/89a7d48fefa5.jpg',
     releaseDate: '2005-11-09',
     length: 116,
     genre: ['Guerre', 'Drame', 'Historique'],
     saga: '',
     description:
-      'Le soir de Noël 1914, des soldats français, allemands et écossais cessez-le-feu spontanément pour chanter et jouer au football dans le no man\'s land.',
+      "Le soir de Noël 1914, des soldats français, allemands et écossais cessez-le-feu spontanément pour chanter et jouer au football dans le no man's land.",
     fromEntity: null,
     countryOrigin: ['France', 'Allemagne', 'Royaume-Uni', 'Belgique'],
     selectDisplayOrder: 0,
@@ -6519,7 +6602,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 93,
     genre: ['Action', 'Science Fiction'],
     saga: '',
-    description: 'Dans une cité utopique du futur, une assassin rebelle découvre que son gouvernement cache un secret qui remet en cause toute l\'humanité.',
+    description:
+      "Dans une cité utopique du futur, une assassin rebelle découvre que son gouvernement cache un secret qui remet en cause toute l'humanité.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6556,7 +6640,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 104,
     genre: ['Action'],
     saga: '',
-    description: 'Un maître d\'arts martiaux chinois affronte des étrangers qui veulent prouver la supériorité de leurs styles lors d\'un tournoi mortel.',
+    description:
+      "Un maître d'arts martiaux chinois affronte des étrangers qui veulent prouver la supériorité de leurs styles lors d'un tournoi mortel.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6593,7 +6678,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 105,
     genre: ['Action'],
     saga: '',
-    description: 'Un flic alcoolique doit escorter un témoin corrompu jusqu\'au tribunal à travers seize pâtés de maisons où des assassins l\'attendent.',
+    description:
+      "Un flic alcoolique doit escorter un témoin corrompu jusqu'au tribunal à travers seize pâtés de maisons où des assassins l'attendent.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6616,7 +6702,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 87,
     genre: ['Action', 'Science Fiction'],
     saga: '',
-    description: 'Une guerrière atteinte d\'un virus vampirique a douze heures pour protéger un garçon convoité par un gouvernement totalitaire qui la traque sans relâche.',
+    description:
+      "Une guerrière atteinte d'un virus vampirique a douze heures pour protéger un garçon convoité par un gouvernement totalitaire qui la traque sans relâche.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6653,7 +6740,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 132,
     genre: ['Action'],
     saga: '',
-    description: 'Dans une Grande-Bretagne totalitaire, un masqué nommé V incite une jeune femme à rejoindre sa rébellion contre un régime oppressif.',
+    description:
+      'Dans une Grande-Bretagne totalitaire, un masqué nommé V incite une jeune femme à rejoindre sa rébellion contre un régime oppressif.',
     fromEntity: {
       entityType: 'comic',
       title: 'V pour Vendetta',
@@ -6680,7 +6768,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 93,
     genre: ['Action', 'Comédie'],
     saga: '',
-    description: 'Deux mexicaines opposées unissent leurs forces pour devenir des hors-la-loi et voler une banque appartenant au tyran qui a ruiné leurs familles.',
+    description:
+      'Deux mexicaines opposées unissent leurs forces pour devenir des hors-la-loi et voler une banque appartenant au tyran qui a ruiné leurs familles.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6703,11 +6792,12 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 140,
     genre: ['Action', 'Drame'],
     saga: '',
-    description: 'Des jeunes Américains s\'engagent comme pilotes dans l\'escadrille Lafayette pendant la Première Guerre mondiale, affrontant l\'aviation allemande au-dessus des tranchées.',
+    description:
+      "Des jeunes Américains s'engagent comme pilotes dans l'escadrille Lafayette pendant la Première Guerre mondiale, affrontant l'aviation allemande au-dessus des tranchées.",
     fromEntity: {
       entityType: 'book',
-      title: "Beowulf",
-      secondEntityKey: "Anonyme",
+      title: 'Beowulf',
+      secondEntityKey: 'Anonyme',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6723,14 +6813,13 @@ export const baseMoviesAction: BaseMovie[] = [
       { name: 'Sami Bouajila' },
       { name: 'Bernard Blancan' },
     ],
-    coverUrl:
-      '/movies_pictures/42413b30b6d6.jpg',
+    coverUrl: '/movies_pictures/42413b30b6d6.jpg',
     releaseDate: '2006-09-27',
     length: 128,
     genre: ['Guerre', 'Drame', 'Historique'],
     saga: '',
     description:
-      'Quatre soldats nord-africains combattent pour la France libérée pendant la Seconde Guerre mondiale, mais le pays qu\'ils défendent les traite en citoyens de seconde zone.',
+      "Quatre soldats nord-africains combattent pour la France libérée pendant la Seconde Guerre mondiale, mais le pays qu'ils défendent les traite en citoyens de seconde zone.",
     fromEntity: null,
     countryOrigin: ['France', 'Maroc', 'Belgique', 'Algérie'],
     selectDisplayOrder: 0,
@@ -6750,7 +6839,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 141,
     genre: ['Guerre', 'Drame'],
     saga: '',
-    description: 'La bataille d\'Iwo Jima racontée du point de vue des soldats japonais, dont le général Kuribayashi défend l\'île contre l\'invasion américaine.',
+    description:
+      "La bataille d'Iwo Jima racontée du point de vue des soldats japonais, dont le général Kuribayashi défend l'île contre l'invasion américaine.",
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Japon'],
     selectDisplayOrder: 0,
@@ -6787,7 +6877,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 117,
     genre: ['Action'],
     saga: '',
-    description: 'Le roi Léonidas et trois cents Spartiates tiennent le défilé des Thermopyles face à l\'immense armée de Xerxès, dans un combat légendaire pour la liberté.',
+    description:
+      "Le roi Léonidas et trois cents Spartiates tiennent le défilé des Thermopyles face à l'immense armée de Xerxès, dans un combat légendaire pour la liberté.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -6810,7 +6901,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 105,
     genre: ['Action', 'Horreur'],
     saga: '',
-    description: 'Des militaires, des zombies et des survivants s\'affrontent dans un Texas infecté par un gaz biologique qui transforme les humains en morts-vivants affamés.',
+    description:
+      "Des militaires, des zombies et des survivants s'affrontent dans un Texas infecté par un gaz biologique qui transforme les humains en morts-vivants affamés.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6833,11 +6925,12 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 124,
     genre: ['Action', 'Thriller'],
     saga: '',
-    description: 'Un sniper d\'élite est piégé et accusé d\'avoir tenté d\'assassiner le président, et doit démasquer le complot qui l\'a utilisé comme pion.',
+    description:
+      "Un sniper d'élite est piégé et accusé d'avoir tenté d'assassiner le président, et doit démasquer le complot qui l'a utilisé comme pion.",
     fromEntity: {
       entityType: 'book',
-      title: "Point of Impact",
-      secondEntityKey: "Stephen Hunter",
+      title: 'Point of Impact',
+      secondEntityKey: 'Stephen Hunter',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6860,7 +6953,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 96,
     genre: ['Action'],
     saga: '',
-    description: 'Une ancienne cascadeuse et une bande de femmes traquées par un tueur au volant d\'un camion attaqué se vengent sur une route déserte du Texas.',
+    description:
+      "Une ancienne cascadeuse et une bande de femmes traquées par un tueur au volant d'un camion attaqué se vengent sur une route déserte du Texas.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -6876,14 +6970,13 @@ export const baseMoviesAction: BaseMovie[] = [
       { name: 'Marc Barbé' },
       { name: 'Eric Savin' },
     ],
-    coverUrl:
-      '/movies_pictures/21a4abf68a5a.jpg',
+    coverUrl: '/movies_pictures/21a4abf68a5a.jpg',
     releaseDate: '2007-10-03',
     length: 111,
     genre: ['Guerre', 'Drame'],
     saga: '',
     description:
-      'Deux soldats américains en Afghanistan, l\'un expérimenté et l\'autre novice, sont isolés derrière les lignes ennemies et doivent survivre ensemble.',
+      "Deux soldats américains en Afghanistan, l'un expérimenté et l'autre novice, sont isolés derrière les lignes ennemies et doivent survivre ensemble.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -6911,7 +7004,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 126,
     genre: ['Action', 'Drame'],
     saga: '',
-    description: 'Trois frères d\'armes s\'affrontent lors de la guerre civile chinoise, déchirés entre loyauté, idéologie et amour pour la même femme.',
+    description:
+      "Trois frères d'armes s'affrontent lors de la guerre civile chinoise, déchirés entre loyauté, idéologie et amour pour la même femme.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -6934,7 +7028,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 92,
     genre: ['Action'],
     saga: '',
-    description: 'L\'Agent 47, tueur génétiquement modifié, est traqué par Interpol et la Russie après un double assassinat qui le piège dans un complot politique.',
+    description:
+      "L'Agent 47, tueur génétiquement modifié, est traqué par Interpol et la Russie après un double assassinat qui le piège dans un complot politique.",
     fromEntity: {
       entityType: 'game',
       title: 'Hitman',
@@ -6975,7 +7070,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 99,
     genre: ['Action'],
     saga: '',
-    description: 'Un chasseur de primes traque un criminel devenu héros populaire à travers les États-Unis, dans une chasse médiatisée aux enjeux moraux ambigus.',
+    description:
+      'Un chasseur de primes traque un criminel devenu héros populaire à travers les États-Unis, dans une chasse médiatisée aux enjeux moraux ambigus.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7013,11 +7109,12 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 101,
     genre: ['Action'],
     saga: '',
-    description: 'Un mercenaire escorte une jeune femme de l\'Europe de l\'Est aux États-Unis, sans savoir qu\'elle porte un secret convoité par une secte et une multinationale.',
+    description:
+      "Un mercenaire escorte une jeune femme de l'Europe de l'Est aux États-Unis, sans savoir qu'elle porte un secret convoité par une secte et une multinationale.",
     fromEntity: {
       entityType: 'book',
-      title: "Babylon Babies",
-      secondEntityKey: "Maurice G. Dantec",
+      title: 'Babylon Babies',
+      secondEntityKey: 'Maurice G. Dantec',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7033,8 +7130,7 @@ export const baseMoviesAction: BaseMovie[] = [
       { name: 'Déborah François' },
       { name: 'Maya Sansa' },
     ],
-    coverUrl:
-      '/movies_pictures/0c88bef3b249.jpg',
+    coverUrl: '/movies_pictures/0c88bef3b249.jpg',
     releaseDate: '2008-03-05',
     length: 118,
     genre: ['Guerre', 'Thriller', 'Historique'],
@@ -7065,7 +7161,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 113,
     genre: ['Action'],
     saga: '',
-    description: 'Un adolescent déménage en Floride et est entraîné au MMA underground par un mentor solitaire pour affronter le champion local qui l\'a humilié.',
+    description:
+      "Un adolescent déménage en Floride et est entraîné au MMA underground par un mentor solitaire pour affronter le champion local qui l'a humilié.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7102,7 +7199,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 104,
     genre: ['Action', 'Fantastique'],
     saga: '',
-    description: 'Un adolescent américain et un vieux guerrier légendaire traversent la Chine antique pour rendre un bâton magique au Roi Singe emprisonné.',
+    description:
+      'Un adolescent américain et un vieux guerrier légendaire traversent la Chine antique pour rendre un bâton magique au Roi Singe emprisonné.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7139,7 +7237,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 135,
     genre: ['Action'],
     saga: '',
-    description: 'Speed Racer, pilote prodige, entre dans la course la plus dangereuse du monde pour honorer la mémoire de son frère et démasquer la corruption du sport.',
+    description:
+      'Speed Racer, pilote prodige, entre dans la course la plus dangereuse du monde pour honorer la mémoire de son frère et démasquer la corruption du sport.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7162,7 +7261,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 91,
     genre: ['Catastrophe', 'Thriller', 'Science Fiction'],
     saga: '',
-    description: 'Dans une réserve naturelle indienne, des créatures invincibles attaquent une équipe de secours qui découvre une légende amérindienne devenue réalité.',
+    description:
+      'Dans une réserve naturelle indienne, des créatures invincibles attaquent une équipe de secours qui découvre une légende amérindienne devenue réalité.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7199,7 +7299,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 110,
     genre: ['Action'],
     saga: '',
-    description: 'Un agent du CONTROL et son partenaire maladroit affrontent KAOS, organisation criminelle dirigée par un génie du mal obsédé par le chaos.',
+    description:
+      'Un agent du CONTROL et son partenaire maladroit affrontent KAOS, organisation criminelle dirigée par un génie du mal obsédé par le chaos.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7222,7 +7323,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 110,
     genre: ['Action'],
     saga: '',
-    description: 'Un comptable découvre qu\'il appartient à une confrérie de tueurs capables de courber les balles et que son père était l\'un des plus redoutables.',
+    description:
+      "Un comptable découvre qu'il appartient à une confrérie de tueurs capables de courber les balles et que son père était l'un des plus redoutables.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7259,7 +7361,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 105,
     genre: ['Action'],
     saga: '',
-    description: 'Dans une prison privée du futur, les détenus participent à une course mortelle télévisée où seuls les survivants gagnent leur liberté.',
+    description:
+      'Dans une prison privée du futur, les détenus participent à une course mortelle télévisée où seuls les survivants gagnent leur liberté.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7282,7 +7385,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 99,
     genre: ['Action', 'Thriller'],
     saga: '',
-    description: 'Un tueur à gages américain en mission à Bangkok tombe amoureux d\'une femme sourde et hésite entre accomplir son contrat et sauver sa cible.',
+    description:
+      "Un tueur à gages américain en mission à Bangkok tombe amoureux d'une femme sourde et hésite entre accomplir son contrat et sauver sa cible.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7319,7 +7423,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 128,
     genre: ['Action', 'Thriller', 'Drame'],
     saga: '',
-    description: 'Un agent de la CIA en Jordanie manipule un informateur local pour démasquer un réseau terroriste, dans un jeu d\'espionnage aux conséquences tragiques.',
+    description:
+      "Un agent de la CIA en Jordanie manipule un informateur local pour démasquer un réseau terroriste, dans un jeu d'espionnage aux conséquences tragiques.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7356,7 +7461,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 98,
     genre: ['Action'],
     saga: '',
-    description: 'Dans l\'ancien royaume d\'Ayutthaya, un prince banni apprend les arts martiaux pour reconquérir son trône et venger la mort de ses parents.',
+    description:
+      "Dans l'ancien royaume d'Ayutthaya, un prince banni apprend les arts martiaux pour reconquérir son trône et venger la mort de ses parents.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7376,7 +7482,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 108,
     genre: ['Action', 'Thriller', 'Aventure'],
     saga: '',
-    description: 'Nerio Winch, milliardaire, est assassiné et son fils adoptif Largo hérite de l\'empire W Group, déclenchant une guerre de succession mortelle.',
+    description:
+      "Nerio Winch, milliardaire, est assassiné et son fils adoptif Largo hérite de l'empire W Group, déclenchant une guerre de succession mortelle.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -7392,14 +7499,13 @@ export const baseMoviesAction: BaseMovie[] = [
       { name: 'Alicja Bachleda' },
       { name: 'George MacKay' },
     ],
-    coverUrl:
-      '/movies_pictures/d032862f05f7.jpg',
+    coverUrl: '/movies_pictures/d032862f05f7.jpg',
     releaseDate: '2008-12-31',
     length: 137,
     genre: ['Guerre', 'Drame', 'Historique'],
     saga: '',
     description:
-      'Un capitaine juif américain mène ses hommes à travers les Alpes autrichiennes pour sauver des prisonniers d\'un convoi en route vers un camp de concentration.',
+      "Un capitaine juif américain mène ses hommes à travers les Alpes autrichiennes pour sauver des prisonniers d'un convoi en route vers un camp de concentration.",
     fromEntity: {
       entityType: 'book',
       title: 'Defiance',
@@ -7440,7 +7546,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 96,
     genre: ['Action'],
     saga: 'Street Fighter',
-    description: 'Chun-Li quitte Interpol pour infiltrer l\'organisation de Bison et venger le meurtre de son père dans les rues de Bangkok.',
+    description:
+      "Chun-Li quitte Interpol pour infiltrer l'organisation de Bison et venger le meurtre de son père dans les rues de Bangkok.",
     fromEntity: {
       entityType: 'game',
       title: 'Street Fighter / Fighting Street',
@@ -7475,7 +7582,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 85,
     genre: ['Action'],
     saga: 'Dragon Ball',
-    description: 'Goku, adolescent possédant des pouvoirs surhumains, doit rassembler les Dragon Balls avant que le seigneur Piccolo ne les utilise pour conquérir la Terre.',
+    description:
+      'Goku, adolescent possédant des pouvoirs surhumains, doit rassembler les Dragon Balls avant que le seigneur Piccolo ne les utilise pour conquérir la Terre.',
     fromEntity: {
       entityType: 'manga',
       title: 'Dragon Ball',
@@ -7502,7 +7610,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 96,
     genre: ['Action'],
     saga: '',
-    description: 'Un tueur à gages atteint d\'une maladie cardiaque doit rester en hyper-tension pour survivre pendant qu\'il traque un chef de cartel mexicain.',
+    description:
+      "Un tueur à gages atteint d'une maladie cardiaque doit rester en hyper-tension pour survivre pendant qu'il traque un chef de cartel mexicain.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7540,7 +7649,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 105,
     genre: ['Action'],
     saga: '',
-    description: 'Un vendeur ambulant découvre les combats clandestins de New York et gravit les échelons sous la tutelle d\'un impresario impitoyable.',
+    description:
+      "Un vendeur ambulant découvre les combats clandestins de New York et gravit les échelons sous la tutelle d'un impresario impitoyable.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7563,7 +7673,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 88,
     genre: ['Action', 'Horreur', 'Science Fiction'],
     saga: '',
-    description: 'Deux prédateurs préhistoriques gigantesques libérés de la glace arctique sèment la destruction dans les océans du Pacifique.',
+    description:
+      'Deux prédateurs préhistoriques gigantesques libérés de la glace arctique sèment la destruction dans les océans du Pacifique.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7586,7 +7697,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 118,
     genre: ['Action'],
     saga: '',
-    description: 'Une unité d\'élite militaire affronte l\'organisation Cobra qui menace de déclencher une guerre mondiale avec des armes nanotechnologiques.',
+    description:
+      "Une unité d'élite militaire affronte l'organisation Cobra qui menace de déclencher une guerre mondiale avec des armes nanotechnologiques.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -7609,11 +7721,12 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 106,
     genre: ['Action', 'Thriller'],
     saga: '',
-    description: 'Un contrôleur aérien new-yorkais négocie avec un braqueur qui a pris en otage un métro entier et exige une rançon dans l\'heure qui suit.',
+    description:
+      "Un contrôleur aérien new-yorkais négocie avec un braqueur qui a pris en otage un métro entier et exige une rançon dans l'heure qui suit.",
     fromEntity: {
       entityType: 'book',
-      title: "The Taking of Pelham One Two Three",
-      secondEntityKey: "John Godey",
+      title: 'The Taking of Pelham One Two Three',
+      secondEntityKey: 'John Godey',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7629,19 +7742,17 @@ export const baseMoviesAction: BaseMovie[] = [
       { name: 'Michael Fassbender' },
       { name: 'Christoph Waltz' },
     ],
-    coverUrl:
-      '/movies_pictures/5d0602486e43.jpg',
+    coverUrl: '/movies_pictures/5d0602486e43.jpg',
     releaseDate: '2009-08-21',
     length: 153,
     genre: ['Guerre'],
     saga: '',
-    description: 'Pendant la Seconde Guerre mondiale, une jeune juive et une escouade de soldats juifs américains complotent séparément pour éliminer l\'élite nazie.',
+    description:
+      "Pendant la Seconde Guerre mondiale, une jeune juive et une escouade de soldats juifs américains complotent séparément pour éliminer l'élite nazie.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTOR, year: 2010 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTOR, year: 2010 }],
   },
   {
     title: 'Top Cops',
@@ -7674,7 +7785,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 109,
     genre: ['Action'],
     saga: '',
-    description: 'Deux agents du FBI aux méthodes opposées doivent s\'allier pour traquer un tueur en série qui les manipule depuis le début de l\'enquête.',
+    description:
+      "Deux agents du FBI aux méthodes opposées doivent s'allier pour traquer un tueur en série qui les manipule depuis le début de l'enquête.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7706,13 +7818,13 @@ export const baseMoviesAction: BaseMovie[] = [
         name: 'Woody Harrelson',
       },
     ],
-    coverUrl:
-      '/movies_pictures/dba03b0edeab.jpg',
+    coverUrl: '/movies_pictures/dba03b0edeab.jpg',
     releaseDate: '2009-11-13',
     length: 158,
     genre: ['Action', 'Drame'],
     saga: '',
-    description: 'Face à la fin prochaine du monde prédite par les Mayas, une famille tente de survivre aux cataclysmes tandis que l\'élite fuit vers des arks.',
+    description:
+      "Face à la fin prochaine du monde prédite par les Mayas, une famille tente de survivre aux cataclysmes tandis que l'élite fuit vers des arks.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -7749,7 +7861,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 128,
     genre: ['Action', 'Mystère'],
     saga: 'Sherlock Holmes',
-    description: 'Holmes et Watson déjouent un lord sataniste qui prétend revenir d\'entre les morts pour renverser le gouvernement britannique.',
+    description:
+      "Holmes et Watson déjouent un lord sataniste qui prétend revenir d'entre les morts pour renverser le gouvernement britannique.",
     fromEntity: {
       entityType: 'book',
       title: 'Une étude en rouge',
@@ -7790,7 +7903,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 129,
     genre: ['Action'],
     saga: 'Sherlock Holmes',
-    description: 'Holmes traque le professeur Moriarty à travers l\'Europe alors que ce dernier complote pour déclencher une guerre mondiale depuis l\'ombre.',
+    description:
+      "Holmes traque le professeur Moriarty à travers l'Europe alors que ce dernier complote pour déclencher une guerre mondiale depuis l'ombre.",
     fromEntity: {
       entityType: 'book',
       title: 'Une étude en rouge',
@@ -7831,7 +7945,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 104,
     genre: ['Action'],
     saga: '',
-    description: 'Un homme infiltré dans la mafia philadelphienne tombe amoureux de la fille du parrain et doit choisir entre loyauté familiale et rébellion.',
+    description:
+      'Un homme infiltré dans la mafia philadelphienne tombe amoureux de la fille du parrain et doit choisir entre loyauté familiale et rébellion.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7868,7 +7983,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 110,
     genre: ['Action'],
     saga: '',
-    description: 'Un policier de Los Angeles découvre que son partenaire est impliqué dans un trafic de drogue et doit choisir entre la loi et la loyauté.',
+    description:
+      'Un policier de Los Angeles découvre que son partenaire est impliqué dans un trafic de drogue et doit choisir entre la loi et la loyauté.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7891,7 +8007,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 109,
     genre: ['Action'],
     saga: '',
-    description: 'Dans un monde post-apocalyptique, un homme solitaire traverse l\'Amérique en protégeant un livre sacré convoité par un despote qui veut contrôler les esprits.',
+    description:
+      "Dans un monde post-apocalyptique, un homme solitaire traverse l'Amérique en protégeant un livre sacré convoité par un despote qui veut contrôler les esprits.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -7929,7 +8046,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 92,
     genre: ['Action'],
     saga: '',
-    description: 'Un ambassadeur américain à Paris et son gendarme stagiaire déjouent un complot terroriste visant un sommet international.',
+    description:
+      'Un ambassadeur américain à Paris et son gendarme stagiaire déjouent un complot terroriste visant un sommet international.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -7966,7 +8084,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 115,
     genre: ['Action'],
     saga: '',
-    description: 'Un officier américain en Irak cherche des armes de destruction massive et découvre que les renseignements qui ont justifié la guerre étaient falsifiés.',
+    description:
+      'Un officier américain en Irak cherche des armes de destruction massive et découvre que les renseignements qui ont justifié la guerre étaient falsifiés.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -8029,7 +8148,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 106,
     genre: ['Action'],
     saga: '',
-    description: 'Persée, demi-dieu fils de Zeus, doit affronter la Kraken et le roi Acrisius pour sauver la princesse Andromède et le royaume d\'Argos.',
+    description:
+      "Persée, demi-dieu fils de Zeus, doit affronter la Kraken et le roi Acrisius pour sauver la princesse Andromède et le royaume d'Argos.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -8066,7 +8186,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 140,
     genre: ['Action', 'Aventure', 'Drame'],
     saga: '',
-    description: 'Robin Longstride revient des croisades et rejoint une bande d\'outlaws en forêt de Sherwood pour combattre la corruption du prince Jean.',
+    description:
+      "Robin Longstride revient des croisades et rejoint une bande d'outlaws en forêt de Sherwood pour combattre la corruption du prince Jean.",
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -8103,7 +8224,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 116,
     genre: ['Action'],
     saga: '',
-    description: 'Un prince persan doit renvoyer les Sables du temps dans leur dague pour annuler un cataclysme qu\'il a involontairement déclenché.',
+    description:
+      "Un prince persan doit renvoyer les Sables du temps dans leur dague pour annuler un cataclysme qu'il a involontairement déclenché.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -8140,7 +8262,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 140,
     genre: ['Action'],
     saga: '',
-    description: 'Un adolescent déménage en Chine et apprend le kung-fu auprès d\'un concierge taciturne pour affronter des harceleurs lors d\'un tournoi.',
+    description:
+      "Un adolescent déménage en Chine et apprend le kung-fu auprès d'un concierge taciturne pour affronter des harceleurs lors d'un tournoi.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -8163,7 +8286,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 114,
     genre: ['Action'],
     saga: '',
-    description: 'Des vétérans du Viêt Nam traqués à tort pour un crime qu\'ils n\'ont pas commis utilisent leurs talents militaires pour échapper à l\'armée américaine.',
+    description:
+      "Des vétérans du Viêt Nam traqués à tort pour un crime qu'ils n'ont pas commis utilisent leurs talents militaires pour échapper à l'armée américaine.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -8200,7 +8324,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 103,
     genre: ['Action'],
     saga: '',
-    description: 'Une agente du FBI protège un espion playboy lors d\'une mission mondiale où séduction, trahison et complots d\'État se mêlent sans arrêt.',
+    description:
+      "Une agente du FBI protège un espion playboy lors d'une mission mondiale où séduction, trahison et complots d'État se mêlent sans arrêt.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -8237,7 +8362,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 100,
     genre: ['Action'],
     saga: '',
-    description: 'Une agente de la CIA est accusée d\'être une espionne russe endormie et doit prouver son innocence tout en déjouant un complot d\'assassinat présidentiel.',
+    description:
+      "Une agente de la CIA est accusée d'être une espionne russe endormie et doit prouver son innocence tout en déjouant un complot d'assassinat présidentiel.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -8274,7 +8400,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 92,
     genre: ['Action', 'Science Fiction'],
     saga: 'Tekken',
-    description: 'Dans un futur où le combat est loi, un jeune homme entre dans le tournoi Tekken pour affronter le dirigeant tyrannique qui a tué sa mère.',
+    description:
+      'Dans un futur où le combat est loi, un jeune homme entre dans le tournoi Tekken pour affronter le dirigeant tyrannique qui a tué sa mère.',
     fromEntity: {
       entityType: 'game',
       title: 'Tekken',
@@ -8315,7 +8442,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 90,
     genre: ['Action', 'Science Fiction'],
     saga: 'Tekken',
-    description: 'Kazuya Mishima revient de l\'enfer pour participer au King of Iron Fist Tournament et affronter son père Heihachi dans une vendetta familiale.',
+    description:
+      "Kazuya Mishima revient de l'enfer pour participer au King of Iron Fist Tournament et affronter son père Heihachi dans une vendetta familiale.",
     fromEntity: {
       entityType: 'game',
       title: 'Tekken',
@@ -8364,7 +8492,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 119,
     genre: ['Action', 'Comédie'],
     saga: '',
-    description: 'Un playboy paresseux hérite d\'un empire médiatique et devient masqué le Frelon vert, combattant le crime avec son chauffeur et inventeur de génie.',
+    description:
+      "Un playboy paresseux hérite d'un empire médiatique et devient masqué le Frelon vert, combattant le crime avec son chauffeur et inventeur de génie.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -8387,7 +8516,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 114,
     genre: ['Action', 'Aventure', 'Thriller'],
     saga: '',
-    description: 'Largo enquête sur le meurtre de son père adoptif et découvre une conspiration internationale impliquant des mercenaires et des gouvernements corrompus.',
+    description:
+      'Largo enquête sur le meurtre de son père adoptif et découvre une conspiration internationale impliquant des mercenaires et des gouvernements corrompus.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -8424,7 +8554,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 109,
     genre: ['Action'],
     saga: '',
-    description: 'Une jeune femme internée dans un asile s\'évade dans des mondes fantastiques où elle rassemble des guerrières pour planifier une évasion réelle.',
+    description:
+      "Une jeune femme internée dans un asile s'évade dans des mondes fantastiques où elle rassemble des guerrières pour planifier une évasion réelle.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -8461,7 +8592,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 108,
     genre: ['Action'],
     saga: '',
-    description: 'Une femme traumatisée par le meurtre de ses parents devient tueuse d\'élite pour infiltrer le cartel responsable et accomplir sa vengeance.',
+    description:
+      "Une femme traumatisée par le meurtre de ses parents devient tueuse d'élite pour infiltrer le cartel responsable et accomplir sa vengeance.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -8499,7 +8631,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 90,
     genre: ['Action'],
     saga: '',
-    description: 'Case Walker, champion de MMA reclus, entraîne quatre combattants pour un tournoi underground où loyauté et trahison se mêlent.',
+    description:
+      'Case Walker, champion de MMA reclus, entraîne quatre combattants pour un tournoi underground où loyauté et trahison se mêlent.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -8536,7 +8669,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 127,
     genre: ['Action'],
     saga: '',
-    description: 'Dans un futur proche, un ancien boxeur entraîne un robot de combat pour des matchs clandestins et renoue avec son fils grâce à cette passion commune.',
+    description:
+      'Dans un futur proche, un ancien boxeur entraîne un robot de combat pour des matchs clandestins et renoue avec son fils grâce à cette passion commune.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -8573,7 +8707,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 99,
     genre: ['Action'],
     saga: '',
-    description: 'Dix ans après, Persée doit empêcher Kronos de s\'échapper du Tartare et ravager le monde, avec l\'aide de dieux affaiblis et de créatures mythiques.',
+    description:
+      "Dix ans après, Persée doit empêcher Kronos de s'échapper du Tartare et ravager le monde, avec l'aide de dieux affaiblis et de créatures mythiques.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -8610,7 +8745,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 109,
     genre: ['Action'],
     saga: '',
-    description: 'Un pilote de bateau contraint de transporter de la drogue pour sauver sa famille se retrouve traqué par la DEA et son ancien associé criminel.',
+    description:
+      'Un pilote de bateau contraint de transporter de la drogue pour sauver sa famille se retrouve traqué par la DEA et son ancien associé criminel.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -8633,11 +8769,12 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 146,
     genre: ['Guerre', 'Drame'],
     saga: '',
-    description: 'Pendant la Première Guerre mondiale, un cheval de ferme est réquisitionné et traverse le conflit, retrouvant son jeune maître sur les champs de bataille.',
+    description:
+      'Pendant la Première Guerre mondiale, un cheval de ferme est réquisitionné et traverse le conflit, retrouvant son jeune maître sur les champs de bataille.',
     fromEntity: {
       entityType: 'book',
-      title: "Cheval de guerre",
-      secondEntityKey: "Michael Morpurgo",
+      title: 'Cheval de guerre',
+      secondEntityKey: 'Michael Morpurgo',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -8674,7 +8811,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 115,
     genre: ['Action'],
     saga: '',
-    description: 'Une agente du MI6 protège une témoin clé dans une planque suédoise jusqu\'à ce que des tueurs découvrent leur cachette et lancent l\'assaut.',
+    description:
+      "Une agente du MI6 protège une témoin clé dans une planque suédoise jusqu'à ce que des tueurs découvrent leur cachette et lancent l'assaut.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -8711,7 +8849,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 98,
     genre: ['Action'],
     saga: '',
-    description: 'Un agent du NCIS traque un tueur en série qui cible ses anciennes cibles, plongeant sa propre famille dans une chasse à l\'homme mortelle.',
+    description:
+      "Un agent du NCIS traque un tueur en série qui cible ses anciennes cibles, plongeant sa propre famille dans une chasse à l'homme mortelle.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -8739,7 +8878,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 101,
     genre: ['Action'],
     saga: '',
-    description: 'Une escoude de policiers indonésiens doit nettoyer un immeuble contrôlé par un baron de la drogue, étage par étage, dans un combat sans merci.',
+    description:
+      'Une escoude de policiers indonésiens doit nettoyer un immeuble contrôlé par un baron de la drogue, étage par étage, dans un combat sans merci.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -8762,7 +8902,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 131,
     genre: ['Action'],
     saga: '',
-    description: 'Des marines américaines affrontent une flotte alien lors d\'exercices navals près de Hawaï, utilisant des navires de guerre réels contre des vaisseaux extraterrestres.',
+    description:
+      "Des marines américaines affrontent une flotte alien lors d'exercices navals près de Hawaï, utilisant des navires de guerre réels contre des vaisseaux extraterrestres.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -8799,7 +8940,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 92,
     genre: ['Action'],
     saga: '',
-    description: 'Deux flics de la Nouvelle-Orléans traquent un trafiquant de drogue impitoyable dans les bayous, dans une vendetta sanglante.',
+    description:
+      'Deux flics de la Nouvelle-Orléans traquent un trafiquant de drogue impitoyable dans les bayous, dans une vendetta sanglante.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -8836,7 +8978,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 95,
     genre: ['Action'],
     saga: '',
-    description: 'Le juge Dredd et une recrue patrouillent dans une tour de 200 étages contrôlée par un baron de la drogue qui les enferme pour les éliminer.',
+    description:
+      'Le juge Dredd et une recrue patrouillent dans une tour de 200 étages contrôlée par un baron de la drogue qui les enferme pour les éliminer.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -8874,7 +9017,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 109,
     genre: ['Action'],
     saga: '',
-    description: 'Deux policiers de Los Angeles filment leur patrouille quotidienne jusqu\'à ce qu\'ils croisent la route d\'un cartel mexicain impitoyable.',
+    description:
+      "Deux policiers de Los Angeles filment leur patrouille quotidienne jusqu'à ce qu'ils croisent la route d'un cartel mexicain impitoyable.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -8911,7 +9055,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 107,
     genre: ['Action'],
     saga: '',
-    description: 'Un ancien héros de guerre doit défendre une famille attaquée par des membres d\'un gang qu\'il a autrefois combattus en Afghanistan.',
+    description:
+      "Un ancien héros de guerre doit défendre une famille attaquée par des membres d'un gang qu'il a autrefois combattus en Afghanistan.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -8934,7 +9079,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 88,
     genre: ['Action'],
     saga: '',
-    description: 'Les célèbres frère et sœur, devenus chasseurs de sorcières, traquent une enchanteresse qui prépare un rituel lors du sabbat de la pleine lune.',
+    description:
+      'Les célèbres frère et sœur, devenus chasseurs de sorcières, traquent une enchanteresse qui prépare un rituel lors du sabbat de la pleine lune.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -8957,7 +9103,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 110,
     genre: ['Action'],
     saga: '',
-    description: 'L\'équipe G.I. Joe affronte Zartan, qui a infiltré la Maison-Blanche en se faisant passer pour le président, pour déclencher l\'Apocalypse.',
+    description:
+      "L'équipe G.I. Joe affronte Zartan, qui a infiltré la Maison-Blanche en se faisant passer pour le président, pour déclencher l'Apocalypse.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -8980,7 +9127,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 90,
     genre: ['Action', 'Policier', 'Drame'],
     saga: '',
-    description: 'Un expatrié américain tient un club de boxe thaïlandais à Bangkok et sombre dans la violence lorsque la police locale et la mafia s\'affrontent.',
+    description:
+      "Un expatrié américain tient un club de boxe thaïlandais à Bangkok et sombre dans la violence lorsque la police locale et la mafia s'affrontent.",
     fromEntity: null,
     countryOrigin: ['Danemark'],
     selectDisplayOrder: 0,
@@ -9017,7 +9165,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 116,
     genre: ['Action'],
     saga: '',
-    description: 'Un ancien enquêteur de l\'ONU parcourt le monde en guerre contre une pandémie zombie pour identifier son origine et trouver un remède.',
+    description:
+      "Un ancien enquêteur de l'ONU parcourt le monde en guerre contre une pandémie zombie pour identifier son origine et trouver un remède.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9054,7 +9203,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 131,
     genre: ['Action'],
     saga: '',
-    description: 'Des terroristes nord-coréens prennent d\'assaut la Maison-Blanche pendant qu\'un agent du Secret Service tente de sauver le président otage.',
+    description:
+      "Des terroristes nord-coréens prennent d'assaut la Maison-Blanche pendant qu'un agent du Secret Service tente de sauver le président otage.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9091,7 +9241,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 131,
     genre: ['Action'],
     saga: 'Pacific Rim',
-    description: 'Des pilotes de jaegers, robots géants, affrontent des kaijus surgissant d\'une faille sous-marine pour empêcher l\'extinction de l\'humanité.',
+    description:
+      "Des pilotes de jaegers, robots géants, affrontent des kaijus surgissant d'une faille sous-marine pour empêcher l'extinction de l'humanité.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -9109,13 +9260,13 @@ export const baseMoviesAction: BaseMovie[] = [
       { name: 'Charlie Day' },
       { name: 'Burn Gorman' },
     ],
-    coverUrl:
-      '/movies_pictures/526f290d1033.jpg',
+    coverUrl: '/movies_pictures/526f290d1033.jpg',
     releaseDate: '2018-03-21',
     length: 111,
     genre: ['Science Fiction'],
     saga: 'Pacific Rim',
-    description: 'Une nouvelle génération de pilotes défend la Terre contre des kaijus améliorés et une menace interne qui veut ouvrir de nouvelles failles.',
+    description:
+      'Une nouvelle génération de pilotes défend la Terre contre des kaijus améliorés et une menace interne qui veut ouvrir de nouvelles failles.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -9138,7 +9289,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 109,
     genre: ['Action', 'Comédie'],
     saga: '',
-    description: 'Un agent de la DEA et un escroc infiltré dans un cartel mexicain découvrent qu\'ils ont été mutuellement manipulés par leurs propres agences.',
+    description:
+      "Un agent de la DEA et un escroc infiltré dans un cartel mexicain découvrent qu'ils ont été mutuellement manipulés par leurs propres agences.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9175,7 +9327,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 115,
     genre: ['Action'],
     saga: '',
-    description: 'Ray Breslin, expert en évasion, est enfermé dans une prison ultra-sécurisée conçue pour le retenir, et doit organiser une sortie impossible.',
+    description:
+      'Ray Breslin, expert en évasion, est enfermé dans une prison ultra-sécurisée conçue pour le retenir, et doit organiser une sortie impossible.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9206,7 +9359,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 103,
     genre: ['Action'],
     saga: '',
-    description: 'Un jeune prodige du tai-chi est attiré dans des combats clandestins mortels par un promoteur impitoyable qui veut exploiter son talent.',
+    description:
+      'Un jeune prodige du tai-chi est attiré dans des combats clandestins mortels par un promoteur impitoyable qui veut exploiter son talent.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9229,7 +9383,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 114,
     genre: ['Action', 'Aventure', 'Science Fiction'],
     saga: '',
-    description: 'Un adolescent prodige est entraîné dans une école militaire spatiale pour commander la flotte terrestre contre une invasion d\'insectoïdes aliens.',
+    description:
+      "Un adolescent prodige est entraîné dans une école militaire spatiale pour commander la flotte terrestre contre une invasion d'insectoïdes aliens.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9252,7 +9407,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 100,
     genre: ['Action', 'Thriller'],
     saga: '',
-    description: 'Un agent de la DEA retraité affronte un cartel de la meth qui menace sa fille et sa nouvelle communauté rurale dans une guerre personnelle.',
+    description:
+      'Un agent de la DEA retraité affronte un cartel de la meth qui menace sa fille et sa nouvelle communauté rurale dans une guerre personnelle.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9289,7 +9445,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 128,
     genre: ['Action'],
     saga: '',
-    description: 'Un samouraï banni s\'allie à des ronin pour venger la mort de leur seigneur et affronter un sorcier qui a usurpé le shogunat.',
+    description:
+      "Un samouraï banni s'allie à des ronin pour venger la mort de leur seigneur et affronter un sorcier qui a usurpé le shogunat.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9312,7 +9469,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 121,
     genre: ['Guerre', 'Action', 'Drame'],
     saga: '',
-    description: 'Des Navy SEALs en Afghanistan traquent un chef taliban responsable de la mort d\'un informateur, dans une mission où loyauté et vengeance se confondent.',
+    description:
+      "Des Navy SEALs en Afghanistan traquent un chef taliban responsable de la mort d'un informateur, dans une mission où loyauté et vengeance se confondent.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9349,7 +9507,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 118,
     genre: ['Action'],
     saga: '',
-    description: 'Un policier mortellement blessé ressuscite en cyborg policier programmé pour nettoyer Détroit, mais des souvenirs humains remettent en question sa mission.',
+    description:
+      'Un policier mortellement blessé ressuscite en cyborg policier programmé pour nettoyer Détroit, mais des souvenirs humains remettent en question sa mission.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9370,7 +9529,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 105,
     genre: ['Action', 'Aventure'],
     saga: '',
-    description: 'Un esclave gladiateur enchaîné à Pompéi tente de sauver la femme qu\'il aime alors que le Vésuve entre en éruption et engloutit la cité romaine.',
+    description:
+      "Un esclave gladiateur enchaîné à Pompéi tente de sauver la femme qu'il aime alors que le Vésuve entre en éruption et engloutit la cité romaine.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9393,7 +9553,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 102,
     genre: ['Action', 'Historique', 'Peplum'],
     saga: '',
-    description: 'Thémistocle d\'Athènes rallie les cités grecques pour affronter la flotte perse de Xerxès lors de la bataille décisive de Salamine.',
+    description:
+      "Thémistocle d'Athènes rallie les cités grecques pour affronter la flotte perse de Xerxès lors de la bataille décisive de Salamine.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -9421,7 +9582,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 118,
     genre: ['Action'],
     saga: '',
-    description: 'Une unité d\'experts en art est envoyée en Europe pendant la Seconde Guerre mondiale pour sauver des chefs-d\'œuvre volés par les nazis.',
+    description:
+      "Une unité d'experts en art est envoyée en Europe pendant la Seconde Guerre mondiale pour sauver des chefs-d'œuvre volés par les nazis.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -9458,7 +9620,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 132,
     genre: ['Action'],
     saga: 'Need for Speed',
-    description: 'Un pilote de rue injustement accusé de meurtre participe à une course clandestine légendaire pour prouver son innocence et démasquer le vrai coupable.',
+    description:
+      'Un pilote de rue injustement accusé de meurtre participe à une course clandestine légendaire pour prouver son innocence et démasquer le vrai coupable.',
     fromEntity: {
       entityType: 'game',
       title: 'The Need for Speed',
@@ -9499,7 +9662,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 109,
     genre: ['Action'],
     saga: '',
-    description: 'Une unité d\'élite de la DEA est éliminée une par une après qu\'un cartel récupère des millions volés lors d\'une opération compromise.',
+    description:
+      "Une unité d'élite de la DEA est éliminée une par une après qu'un cartel récupère des millions volés lors d'une opération compromise.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9536,7 +9700,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 123,
     genre: ['Action'],
     saga: 'MonsterVerse',
-    description: 'Des créatures préhistoriques gigantesques se réveillent et s\'affrontent tandis qu\'un ingénieur parcourt le monde pour retrouver son père et comprendre le chaos.',
+    description:
+      "Des créatures préhistoriques gigantesques se réveillent et s'affrontent tandis qu'un ingénieur parcourt le monde pour retrouver son père et comprendre le chaos.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -9573,7 +9738,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 132,
     genre: ['Action'],
     saga: 'MonsterVerse',
-    description: 'Des cryptozoologistes affrontent des titans anciens, dont King Ghidorah, alors que Godzilla doit reprendre sa place de roi pour sauver la planète.',
+    description:
+      'Des cryptozoologistes affrontent des titans anciens, dont King Ghidorah, alors que Godzilla doit reprendre sa place de roi pour sauver la planète.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -9596,7 +9762,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 148,
     genre: ['Action'],
     saga: '',
-    description: 'Rama infiltré la mafia indonésienne en sortant de prison et se retrouve pris entre guerres de gangs, flics corrompus et combats martiaux brutaux.',
+    description:
+      'Rama infiltré la mafia indonésienne en sortant de prison et se retrouve pris entre guerres de gangs, flics corrompus et combats martiaux brutaux.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -9633,7 +9800,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 89,
     genre: ['Action'],
     saga: '',
-    description: 'Une femme dont le cerveau débloque des capacités surhumaines après une overdose accidentelle devient une arme redoutable traquée par des trafiquants.',
+    description:
+      'Une femme dont le cerveau débloque des capacités surhumaines après une overdose accidentelle devient une arme redoutable traquée par des trafiquants.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
@@ -9676,7 +9844,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 101,
     genre: ['Action'],
     saga: '',
-    description: 'Quatre tortues mutantes et leur maître rat combattent Shredder et son clan Foot dans les égouts de New York pour protéger la ville.',
+    description:
+      'Quatre tortues mutantes et leur maître rat combattent Shredder et son clan Foot dans les égouts de New York pour protéger la ville.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -9697,7 +9866,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 133,
     genre: ['Guerre', 'Biographie', 'Drame'],
     saga: '',
-    description: 'Chris Kyle, sniper américain le plus létal de l\'histoire militaire US, lutte entre ses missions en Irak et les traumatismes qui déchirent sa famille.',
+    description:
+      "Chris Kyle, sniper américain le plus létal de l'histoire militaire US, lutte entre ses missions en Irak et les traumatismes qui déchirent sa famille.",
     fromEntity: {
       entityType: 'book',
       title: 'American Sniper',
@@ -9724,7 +9894,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 150,
     genre: ['Action'],
     saga: '',
-    description: 'Moïse affronte le pharaon Ramsès II pour libérer les Hébreux d\'Égypte, dans une épopée biblique marquée par les dix plaies divines.',
+    description:
+      "Moïse affronte le pharaon Ramsès II pour libérer les Hébreux d'Égypte, dans une épopée biblique marquée par les dix plaies divines.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9761,7 +9932,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 115,
     genre: ['Action'],
     saga: '',
-    description: 'Un samouraï déchu rassemble des guerriers pour venger la mort de son seigneur et renverser un ministre corrompu qui a trahi le clan.',
+    description:
+      'Un samouraï déchu rassemble des guerriers pour venger la mort de son seigneur et renverser un ministre corrompu qui a trahi le clan.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9792,7 +9964,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 114,
     genre: ['Action'],
     saga: '',
-    description: 'Un père désespéré prend en otage un médecin et son personnel pour obtenir une greffe cardiaque que le système refuse à sa fille mourante.',
+    description:
+      'Un père désespéré prend en otage un médecin et son personnel pour obtenir une greffe cardiaque que le système refuse à sa fille mourante.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9815,7 +9988,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 97,
     genre: ['Action'],
     saga: '',
-    description: 'L\'Agent 47 traque une jeune femme liée à un programme génétique de tueurs d\'élite, tout en échappant à une organisation rivale qui le chasse.',
+    description:
+      "L'Agent 47 traque une jeune femme liée à un programme génétique de tueurs d'élite, tout en échappant à une organisation rivale qui le chasse.",
     fromEntity: {
       entityType: 'game',
       title: 'Hitman',
@@ -9842,7 +10016,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 116,
     genre: ['Action', 'Comédie'],
     saga: '',
-    description: 'Un agent de la CIA et un espion du KGB doivent s\'allier pendant la Guerre froide pour empêcher une organisation criminelle de déclencher une guerre.',
+    description:
+      "Un agent de la CIA et un espion du KGB doivent s'allier pendant la Guerre froide pour empêcher une organisation criminelle de déclencher une guerre.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -9899,7 +10074,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 108,
     genre: ['Action', 'Comédie', 'Fantastique'],
     saga: '',
-    description: 'Les sœurs Bennet combattent des hordes de morts-vivants dans l\'Angleterre régence tout en naviguant les conventions amoureuses de leur époque.',
+    description:
+      "Les sœurs Bennet combattent des hordes de morts-vivants dans l'Angleterre régence tout en naviguant les conventions amoureuses de leur époque.",
     fromEntity: {
       entityType: 'book',
       title: 'Orgueil et Préjugés et Zombies',
@@ -9926,7 +10102,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 127,
     genre: ['Action', 'Aventure', 'Fantastique'],
     saga: '',
-    description: 'Un dieu égyptien déchu s\'allie à un mortel volubile pour affronter Set, qui a usurpé le trône et plongé le royaume dans le chaos.',
+    description:
+      "Un dieu égyptien déchu s'allie à un mortel volubile pour affronter Set, qui a usurpé le trône et plongé le royaume dans le chaos.",
     fromEntity: null,
     countryOrigin: ['Australie'],
     selectDisplayOrder: 0,
@@ -9949,7 +10126,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 99,
     genre: ['Action', 'Thriller'],
     saga: '',
-    description: 'Des terroristes attaquent Londres pendant la visite du Premier ministre britannique et son garde du corps doit le protéger dans une ville en flammes.',
+    description:
+      'Des terroristes attaquent Londres pendant la visite du Premier ministre britannique et son garde du corps doit le protéger dans une ville en flammes.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9975,7 +10153,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 113,
     genre: ['Action'],
     saga: '',
-    description: 'La conscience d\'un agent de la CIA mortellement blessé est implantée dans le cerveau d\'un criminel dangereux pour retrouver un hacker disparu.',
+    description:
+      "La conscience d'un agent de la CIA mortellement blessé est implantée dans le cerveau d'un criminel dangereux pour retrouver un hacker disparu.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -9999,7 +10178,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 112,
     genre: ['Action'],
     saga: '',
-    description: 'Les Tortues Ninja affrontent Shredder et découvrent une invasion alien menée par Krang, qui menace de transformer la Terre en colonie.',
+    description:
+      'Les Tortues Ninja affrontent Shredder et découvrent une invasion alien menée par Krang, qui menace de transformer la Terre en colonie.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -10031,7 +10211,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 110,
     genre: ['Action'],
     saga: '',
-    description: 'Tarzan, élevé par des gorilles en Afrique, retourne au monde civilisé pour protéger son foyer jungle contre un mercenaire avide de richesse.',
+    description:
+      'Tarzan, élevé par des gorilles en Afrique, retourne au monde civilisé pour protéger son foyer jungle contre un mercenaire avide de richesse.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -10068,7 +10249,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 103,
     genre: ['Action'],
     saga: '',
-    description: 'Deux mercenaires occidentaux découvrent que la Grande Muraille de Chine protège le monde depuis des millénaires contre des créatures monstrueuses.',
+    description:
+      'Deux mercenaires occidentaux découvrent que la Grande Muraille de Chine protège le monde depuis des millénaires contre des créatures monstrueuses.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -10091,7 +10273,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 115,
     genre: ['Action'],
     saga: '',
-    description: 'Un condamné à mort est plongé dans les souvenirs de son ancêtre assassin du XVe siècle pour localiser un artefact créé par une civilisation perdue.',
+    description:
+      'Un condamné à mort est plongé dans les souvenirs de son ancêtre assassin du XVe siècle pour localiser un artefact créé par une civilisation perdue.',
     fromEntity: {
       entityType: 'game',
       title: "Assassin's Creed",
@@ -10132,7 +10315,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 115,
     genre: ['Action'],
     saga: '',
-    description: 'Un pilote de ligne recruté par la CIA devient contrebandier de drogue pour le compte des Contras, puis informateur du DEA dans une affaire explosive.',
+    description:
+      'Un pilote de ligne recruté par la CIA devient contrebandier de drogue pour le compte des Contras, puis informateur du DEA dans une affaire explosive.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -10155,7 +10339,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 129,
     genre: ['Action', 'Policier', 'Drame'],
     saga: '',
-    description: 'Un gangster irlandais monte dans la hiérarchie du crime organisé à Boston pendant la Prohibition, mais le pouvoir a un prix moral élevé.',
+    description:
+      'Un gangster irlandais monte dans la hiérarchie du crime organisé à Boston pendant la Prohibition, mais le pouvoir a un prix moral élevé.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -10178,7 +10363,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 124,
     genre: ['Action'],
     saga: '',
-    description: 'Cinq lycéens découvrent qu\'ils sont les Rangers et doivent maîtriser leurs Zords pour affronter Rita Repulsa menaçant de conquérir la Terre.',
+    description:
+      "Cinq lycéens découvrent qu'ils sont les Rangers et doivent maîtriser leurs Zords pour affronter Rita Repulsa menaçant de conquérir la Terre.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -10201,7 +10387,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 126,
     genre: ['Action'],
     saga: '',
-    description: 'Arthur, élevé dans les bas-fonds de Londres, découvre qu\'il est le roi légitime et doit maîtriser Excalibur pour renverser le tyrannique Vortigern.',
+    description:
+      "Arthur, élevé dans les bas-fonds de Londres, découvre qu'il est le roi légitime et doit maîtriser Excalibur pour renverser le tyrannique Vortigern.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -10238,7 +10425,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 110,
     genre: ['Action'],
     saga: '',
-    description: 'Une archéologue et un commando militaire réveillent une princesse égyptienne maudite qui cherche à conquérir le monde moderne avec des pouvoirs anciens.',
+    description:
+      'Une archéologue et un commando militaire réveillent une princesse égyptienne maudite qui cherche à conquérir le monde moderne avec des pouvoirs anciens.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -10275,7 +10463,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 113,
     genre: ['Action'],
     saga: '',
-    description: 'Un chauffeur prodige atteint de acouphènes ne peut conduire qu\'en écoutant de la musique, jusqu\'à ce qu\'un braquage tourne au désastre.',
+    description:
+      "Un chauffeur prodige atteint de acouphènes ne peut conduire qu'en écoutant de la musique, jusqu'à ce qu'un braquage tourne au désastre.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -10312,7 +10501,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 115,
     genre: ['Action'],
     saga: '',
-    description: 'Une espionne MI6 envoyée à Berlin en pleine guerre froide doit récupérer une liste d\'agents avant qu\'elle ne tombe entre de mauvaises mains.',
+    description:
+      "Une espionne MI6 envoyée à Berlin en pleine guerre froide doit récupérer une liste d'agents avant qu'elle ne tombe entre de mauvaises mains.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -10335,7 +10525,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 95,
     genre: ['Action'],
     saga: '',
-    description: 'Le Pistolero Roland Deschain poursuit l\'Homme en Noir à travers des mondes parallèles pour protéger la Tour Sombre, clé de l\'univers.',
+    description:
+      "Le Pistolero Roland Deschain poursuit l'Homme en Noir à travers des mondes parallèles pour protéger la Tour Sombre, clé de l'univers.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -10372,7 +10563,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 93,
     genre: ['Action'],
     saga: '',
-    description: 'Un voleur de voitures de luxe expert accepte un casse en France pour voler une Ferrari rare, mais le propriétaire est un parrain de la mafia.',
+    description:
+      'Un voleur de voitures de luxe expert accepte un casse en France pour voler une Ferrari rare, mais le propriétaire est un parrain de la mafia.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -10395,7 +10587,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 111,
     genre: ['Action'],
     saga: '',
-    description: 'Un jeune homme traumatisé par un attentat terroriste est recruté par un vétéran de la CIA pour traquer un réseau de vendeurs d\'armes chimiques.',
+    description:
+      "Un jeune homme traumatisé par un attentat terroriste est recruté par un vétéran de la CIA pour traquer un réseau de vendeurs d'armes chimiques.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -10432,7 +10625,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 117,
     genre: ['Action'],
     saga: '',
-    description: 'Un policier humain et son partenaire orc découvrent une elfe porteuse d\'un artefact magique convoité par une secte et des gangs de Los Angeles.',
+    description:
+      "Un policier humain et son partenaire orc découvrent une elfe porteuse d'un artefact magique convoité par une secte et des gangs de Los Angeles.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -10470,7 +10664,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 93,
     genre: ['Action'],
     saga: '',
-    description: 'Breslin est contraint de retourner dans une prison high-tech pour en extraire un informateur détenu dans une section secrète nommée Hades.',
+    description:
+      'Breslin est contraint de retourner dans une prison high-tech pour en extraire un informateur détenu dans une section secrète nommée Hades.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -10493,7 +10688,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 102,
     genre: ['Action'],
     saga: '',
-    description: 'Un expert en sécurité doit sauver sa famille prise en otage dans le plus haut gratte-ciel du monde qu\'il a lui-même conçu, en proie aux flammes.',
+    description:
+      "Un expert en sécurité doit sauver sa famille prise en otage dans le plus haut gratte-ciel du monde qu'il a lui-même conçu, en proie aux flammes.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -10516,7 +10712,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 108,
     genre: ['Action', 'Aventure', 'Fantastique'],
     saga: 'Bleach',
-    description: 'Ichigo Kurosaki obtient les pouvoirs d\'une Shinigami et doit protéger les humains des esprits malveillants tout en chassant les Hollows.',
+    description:
+      "Ichigo Kurosaki obtient les pouvoirs d'une Shinigami et doit protéger les humains des esprits malveillants tout en chassant les Hollows.",
     fromEntity: {
       entityType: 'manga' as const,
       title: 'Bleach',
@@ -10563,7 +10760,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 114,
     genre: ['Action'],
     saga: '',
-    description: 'Une équipe océanographique libère accidentellement un requin préhistorique géant, le Megalodon, qui menace les plages bondées de la Chine.',
+    description:
+      'Une équipe océanographique libère accidentellement un requin préhistorique géant, le Megalodon, qui menace les plages bondées de la Chine.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -10600,7 +10798,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 122,
     genre: ['Action', 'Science Fiction'],
     saga: '',
-    description: 'Une cyborg amnésique retrouve des réflexes de guerrière dans une cité dystopique et se lance à la recherche de son passé oublié.',
+    description:
+      'Une cyborg amnésique retrouve des réflexes de guerrière dans une cité dystopique et se lance à la recherche de son passé oublié.',
     fromEntity: {
       entityType: 'manga',
       title: 'Gunnm',
@@ -10639,7 +10838,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 97,
     genre: ['Action'],
     saga: '',
-    description: 'Breslin doit infiltrer une prison satellite en orbite pour libérer un hacker détenu par une organisation qui contrôle les flux financiers mondiaux.',
+    description:
+      'Breslin doit infiltrer une prison satellite en orbite pour libérer un hacker détenu par une organisation qui contrôle les flux financiers mondiaux.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -10662,7 +10862,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 121,
     genre: ['Action', 'Thriller'],
     saga: '',
-    description: 'Un agent du Secret Service traque les responsables d\'une attaque contre le président des États-Unis et sa garde rapprochée à Washington.',
+    description:
+      "Un agent du Secret Service traque les responsables d'une attaque contre le président des États-Unis et sa garde rapprochée à Washington.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -10699,7 +10900,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 128,
     genre: ['Action'],
     saga: '',
-    description: 'Six milliardaires simulant leur mort forment une équipe clandestine pour renverser des dictateurs et des criminels que la justice ne peut atteindre.',
+    description:
+      'Six milliardaires simulant leur mort forment une équipe clandestine pour renverser des dictateurs et des criminels que la justice ne peut atteindre.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -10737,7 +10939,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 119,
     genre: ['Guerre', 'Drame'],
     saga: '',
-    description: 'Deux soldats britanniques traversent le no man\'s land pour délivrer un message qui pourrait sauver 1 600 hommes d\'une charge suicide.',
+    description:
+      "Deux soldats britanniques traversent le no man's land pour délivrer un message qui pourrait sauver 1 600 hommes d'une charge suicide.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -10778,7 +10981,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 97,
     genre: ['Action'],
     saga: '',
-    description: 'Un programmeur forcé de participer à un jeu mortel se voit greffer deux pistolets sur les mains et devient la proie d\'une chasse urbaine télévisée.',
+    description:
+      "Un programmeur forcé de participer à un jeu mortel se voit greffer deux pistolets sur les mains et devient la proie d'une chasse urbaine télévisée.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -10815,7 +11019,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 100,
     genre: ['Action'],
     saga: '',
-    description: 'Un ancien agent des forces spéciales revit la même journée assassinée encore et encore, cherchant qui l\'a piégé et comment briser la boucle.',
+    description:
+      "Un ancien agent des forces spéciales revit la même journée assassinée encore et encore, cherchant qui l'a piégé et comment briser la boucle.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -10838,7 +11043,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 109,
     genre: ['Action'],
     saga: '',
-    description: 'Un soldat tué au combat est ressuscité par une nanotechnologie qui lui donne des capacités surhumaines, mais aussi de fausses mémoires manipulées.',
+    description:
+      'Un soldat tué au combat est ressuscité par une nanotechnologie qui lui donne des capacités surhumaines, mais aussi de fausses mémoires manipulées.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -10861,7 +11067,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 116,
     genre: ['Action'],
     saga: '',
-    description: 'Un mercenaire est engagé pour extraire le fils d\'un baron de la drogue à Dhaka, mais la mission se complique lorsque la ville entière se retourne contre lui.',
+    description:
+      "Un mercenaire est engagé pour extraire le fils d'un baron de la drogue à Dhaka, mais la mission se complique lorsque la ville entière se retourne contre lui.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -10898,7 +11105,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 96,
     genre: ['Action'],
     saga: '',
-    description: 'Une tueuse d\'élite traquée par sa propre agence doit démasquer qui l\'a piégée tout en protégeant sa famille, sans savoir qui lui est encore loyal.',
+    description:
+      "Une tueuse d'élite traquée par sa propre agence doit démasquer qui l'a piégée tout en protégeant sa famille, sans savoir qui lui est encore loyal.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -10920,7 +11128,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 105,
     genre: ['Action'],
     saga: '',
-    description: 'Une femme envoie un message vocal explicite à son amant qui le reçoit par erreur, déclenchant une course folle à Cabo San Lucas pour réparer la situation.',
+    description:
+      'Une femme envoie un message vocal explicite à son amant qui le reçoit par erreur, déclenchant une course folle à Cabo San Lucas pour réparer la situation.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -10957,7 +11166,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 91,
     genre: ['Guerre'],
     saga: '',
-    description: 'Un capitaine de destroyer américain escorte un convoi allié à travers l\'Atlantique pendant qu\'une meute de sous-marins nazis le traque sans relâche.',
+    description:
+      "Un capitaine de destroyer américain escorte un convoi allié à travers l'Atlantique pendant qu'une meute de sous-marins nazis le traque sans relâche.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -10980,7 +11190,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 88,
     genre: ['Action', 'Comédie', 'Horreur'],
     saga: '',
-    description: 'Un homme muet accepte un job de nettoyage nocturne dans un parc d\'attractions hanté où des animatroniques possédés attaquent quiconque s\'y trouve.',
+    description:
+      "Un homme muet accepte un job de nettoyage nocturne dans un parc d'attractions hanté où des animatroniques possédés attaquent quiconque s'y trouve.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -11017,7 +11228,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 109,
     genre: ['Action'],
     saga: '',
-    description: 'Un Navy SEAL découvre un complot au sein de son unité et doit protéger sa famille tout en traquant les responsables d\'une opération secrète compromise.',
+    description:
+      "Un Navy SEAL découvre un complot au sein de son unité et doit protéger sa famille tout en traquant les responsables d'une opération secrète compromise.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -11060,7 +11272,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 148,
     genre: ['Action'],
     saga: '',
-    description: 'Un mercenaire rassemble une équipe pour pénétrer à Las Vegas, en quarantaine zombie, et voler 200 millions d\'un casino avant un bombardement.',
+    description:
+      "Un mercenaire rassemble une équipe pour pénétrer à Las Vegas, en quarantaine zombie, et voler 200 millions d'un casino avant un bombardement.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -11083,7 +11296,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 118,
     genre: ['Action'],
     saga: '',
-    description: 'Un chauffeur de camion britannique sombre dans la violence après le meurtre de son fils, traquant les responsables à travers les milieux criminels.',
+    description:
+      'Un chauffeur de camion britannique sombre dans la violence après le meurtre de son fils, traquant les responsables à travers les milieux criminels.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -11120,7 +11334,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 91,
     genre: ['Action'],
     saga: '',
-    description: 'Une femme atteinte d\'un trouble rare qui la pousse à des accès de violence doit retrouver l\'assassin de son mentor avant qu\'il ne la tue à son tour.',
+    description:
+      "Une femme atteinte d'un trouble rare qui la pousse à des accès de violence doit retrouver l'assassin de son mentor avant qu'il ne la tue à son tour.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -11143,7 +11358,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 127,
     genre: ['Action'],
     saga: '',
-    description: 'Le célèbre croque-mort de Las Vegas recrute une bande de voleurs européens pour un casse de coffres-forts pendant l\'apocalypse zombie.',
+    description:
+      "Le célèbre croque-mort de Las Vegas recrute une bande de voleurs européens pour un casse de coffres-forts pendant l'apocalypse zombie.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -11180,7 +11396,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 118,
     genre: ['Action'],
     saga: '',
-    description: 'Un profiler du FBI traque une voleuse d\'art et un escroc international dans une chasse au trésor mondiale mêlant trahisons et fausses alliances.',
+    description:
+      "Un profiler du FBI traque une voleuse d'art et un escroc international dans une chasse au trésor mondiale mêlant trahisons et fausses alliances.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -11203,7 +11420,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 130,
     genre: ['Action', 'Aventure', 'Science Fiction'],
     saga: '',
-    description: 'Deux astronautes et une conspiracy theorist découvrent que la Lune est une structure artificielle qui s\'éloigne de la Terre, menaçant l\'humanité.',
+    description:
+      "Deux astronautes et une conspiracy theorist découvrent que la Lune est une structure artificielle qui s'éloigne de la Terre, menaçant l'humanité.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -11226,7 +11444,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 115,
     genre: ['Action'],
     saga: '',
-    description: 'Nathan Drake, chasseur de trésors, s\'associe à un vétéran pour retrouver la fortune de Ferdinand Magellan avant un baron de la drogue impitoyable.',
+    description:
+      "Nathan Drake, chasseur de trésors, s'associe à un vétéran pour retrouver la fortune de Ferdinand Magellan avant un baron de la drogue impitoyable.",
     fromEntity: {
       entityType: 'game',
       title: "Uncharted : Drake's Fortune",
@@ -11253,7 +11472,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 136,
     genre: ['Action'],
     saga: '',
-    description: 'Deux braqueurs volent une ambulance avec une paramédic et un patient blessé à bord, poursuivis par la police à travers les rues de Los Angeles.',
+    description:
+      'Deux braqueurs volent une ambulance avec une paramédic et un patient blessé à bord, poursuivis par la police à travers les rues de Los Angeles.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -11290,7 +11510,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 112,
     genre: ['Action'],
     saga: '',
-    description: 'Une romancière d\'aventures et un mannequin partent en Amazonie pour retrouver la sœur disparue de cette dernière et une cité légendaire.',
+    description:
+      "Une romancière d'aventures et un mannequin partent en Amazonie pour retrouver la sœur disparue de cette dernière et une cité légendaire.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -11311,7 +11532,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 182,
     genre: ['Action', 'Drame', 'Historique'],
     saga: '',
-    description: 'Deux héros indiens légendaires s\'unissent contre la domination britannique dans une épopée musicale mêlant révolte, amitié et combats spectaculaires.',
+    description:
+      "Deux héros indiens légendaires s'unissent contre la domination britannique dans une épopée musicale mêlant révolte, amitié et combats spectaculaires.",
     fromEntity: null,
     countryOrigin: ['Inde'],
     selectDisplayOrder: 0,
@@ -11331,7 +11553,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 137,
     genre: ['Action', 'Aventure', 'Drame'],
     saga: '',
-    description: 'Un prince viking jure de venger le meurtre de son père par son oncle usurpateur, dans une quête sanglante guidée par les prophéties des valkyries.',
+    description:
+      'Un prince viking jure de venger le meurtre de son père par son oncle usurpateur, dans une quête sanglante guidée par les prophéties des valkyries.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -11354,7 +11577,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 129,
     genre: ['Action'],
     saga: '',
-    description: 'Un tueur d\'élite de la CIA traqué par son propre agency doit protéger une témoin clé tout en affrontant un mercenaire sadique engagé pour l\'éliminer.',
+    description:
+      "Un tueur d'élite de la CIA traqué par son propre agency doit protéger une témoin clé tout en affrontant un mercenaire sadique engagé pour l'éliminer.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -11382,7 +11606,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 126,
     genre: ['Action'],
     saga: '',
-    description: 'Des tueurs à gages aux objectifs contradictoires se croisent dans un train à grande vitesse reliant Tokyo à Kyoto, dans un ballet de trahisons.',
+    description:
+      'Des tueurs à gages aux objectifs contradictoires se croisent dans un train à grande vitesse reliant Tokyo à Kyoto, dans un ballet de trahisons.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -11419,7 +11644,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 102,
     genre: ['Action'],
     saga: '',
-    description: 'Un adolescent des quartiers populaires enquête sur un super-héros disparu et découvre qu\'un homme reclus pourrait être le légendaire Samaritain.',
+    description:
+      "Un adolescent des quartiers populaires enquête sur un super-héros disparu et découvre qu'un homme reclus pourrait être le légendaire Samaritain.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -11440,7 +11666,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 135,
     genre: ['Action', 'Drame', 'Historique', 'Guerre'],
     saga: '',
-    description: 'Les Agojié, guerrières du royaume africain du Dahomey, défendent leur peuple contre des envahisseurs et des trafiquants d\'esclaves au XIXe siècle.',
+    description:
+      "Les Agojié, guerrières du royaume africain du Dahomey, défendent leur peuple contre des envahisseurs et des trafiquants d'esclaves au XIXe siècle.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -11463,7 +11690,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 112,
     genre: ['Action', 'Comédie', 'Thriller'],
     saga: '',
-    description: 'Le Père Noël, ancien guerrier nordique, doit sauver une famille prise en otage le soir de Noël en affrontant une équipe de mercenaires impitoyables.',
+    description:
+      'Le Père Noël, ancien guerrier nordique, doit sauver une famille prise en otage le soir de Noël en affrontant une équipe de mercenaires impitoyables.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -11495,19 +11723,17 @@ export const baseMoviesAction: BaseMovie[] = [
         name: 'Kuranosuke Sasaki',
       },
     ],
-    coverUrl:
-      '/movies_pictures/cb542fd95035.jpg',
+    coverUrl: '/movies_pictures/cb542fd95035.jpg',
     releaseDate: '2023-01-01',
     length: 125,
     genre: ['Action'],
     saga: '',
-    description: 'Dans le Japon d\'après-guerre, un démineur traumatisé voit Godzilla émerger des profondeurs et doit affronter à la fois le monstre et ses propres démons.',
+    description:
+      "Dans le Japon d'après-guerre, un démineur traumatisé voit Godzilla émerger des profondeurs et doit affronter à la fois le monstre et ses propres démons.",
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 30,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2024 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2024 }],
   },
   {
     title: 'Operation Fortune',
@@ -11560,7 +11786,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 137,
     genre: ['Action'],
     saga: '',
-    description: 'Une tueuse à gages légendaire de l\'agence où elle travaille depuis dix ans doit éliminer ses anciens collègues lorsque son contrat est résilié.',
+    description:
+      "Une tueuse à gages légendaire de l'agence où elle travaille depuis dix ans doit éliminer ses anciens collègues lorsque son contrat est résilié.",
     fromEntity: null,
     countryOrigin: ['Corée du Sud'],
     selectDisplayOrder: 0,
@@ -11583,7 +11810,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 119,
     genre: ['Action', 'Policier', 'Drame'],
     saga: '',
-    description: 'Une détective traumatisée traque un tueur en série qui imite ses propres méthodes, dans une chasse où victime et chasseur se confondent.',
+    description:
+      'Une détective traumatisée traque un tueur en série qui imite ses propres méthodes, dans une chasse où victime et chasseur se confondent.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -11620,7 +11848,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 123,
     genre: ['Action'],
     saga: '',
-    description: 'Un interprète afghan sauvé par des Navy SEALs revient en Afghanistan pour extraire la famille de son ancien officier, traqué par les talibans.',
+    description:
+      'Un interprète afghan sauvé par des Navy SEALs revient en Afghanistan pour extraire la famille de son ancien officier, traqué par les talibans.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -11648,7 +11877,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 116,
     genre: ['Action', 'Romance'],
     saga: '',
-    description: 'Un fermier timide découvre que la femme qu\'il a rencontrée est une espionne traquée par des tueurs internationaux, et part à sa rescousse.',
+    description:
+      "Un fermier timide découvre que la femme qu'il a rencontrée est une espionne traquée par des tueurs internationaux, et part à sa rescousse.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -11685,7 +11915,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 112,
     genre: ['Action', 'Aventure', 'Fantastique'],
     saga: 'Saint Seiya',
-    description: 'Un orphelin découvre qu\'il est le chevalier de Pégase et doit protéger une jeune réincarnation de la déesse Athéna contre des forces sombres.',
+    description:
+      "Un orphelin découvre qu'il est le chevalier de Pégase et doit protéger une jeune réincarnation de la déesse Athéna contre des forces sombres.",
     fromEntity: {
       entityType: 'manga' as const,
       title: 'Saint Seiya',
@@ -11712,7 +11943,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 120,
     genre: ['Action'],
     saga: '',
-    description: 'Un agent infiltré dans une organisation criminelle française tombe amoureux de la sœur de son objectif, compromettant sa mission et sa couverture.',
+    description:
+      'Un agent infiltré dans une organisation criminelle française tombe amoureux de la sœur de son objectif, compromettant sa mission et sa couverture.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
@@ -11750,7 +11982,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 96,
     genre: ['Action'],
     saga: '',
-    description: 'Un ancien agent de la CIA doit infiltrer une prison colombienne pour extraire un informateur détenu par un baron de la drogue sadique.',
+    description:
+      'Un ancien agent de la CIA doit infiltrer une prison colombienne pour extraire un informateur détenu par un baron de la drogue sadique.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -11773,7 +12006,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 122,
     genre: ['Action'],
     saga: '',
-    description: 'Tyler Rake survit à sa mission au Bangladesh et doit extraire la famille d\'un gangster géorgien d\'une prison de haute sécurité.',
+    description:
+      "Tyler Rake survit à sa mission au Bangladesh et doit extraire la famille d'un gangster géorgien d'une prison de haute sécurité.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -11796,11 +12030,12 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 116,
     genre: ['Action', 'Science Fiction'],
     saga: '',
-    description: 'Des chercheurs océanographiques descendent dans les profondeurs de la fosse des Mariannes et affrontent plusieurs Megalodons et des pirates criminels.',
+    description:
+      'Des chercheurs océanographiques descendent dans les profondeurs de la fosse des Mariannes et affrontent plusieurs Megalodons et des pirates criminels.',
     fromEntity: {
       entityType: 'book',
-      title: "Meg",
-      secondEntityKey: "Steve Alten",
+      title: 'Meg',
+      secondEntityKey: 'Steve Alten',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -11837,7 +12072,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 135,
     genre: ['Action'],
     saga: '',
-    description: 'Un joueur de Gran Turismo en ligne est recruté par Nissan pour courir aux vrais 24 Heures du Mans aux côtés d\'un entraîneur exigeant.',
+    description:
+      "Un joueur de Gran Turismo en ligne est recruté par Nissan pour courir aux vrais 24 Heures du Mans aux côtés d'un entraîneur exigeant.",
     fromEntity: {
       entityType: 'game',
       title: 'Gran Turismo',
@@ -11862,7 +12098,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 105,
     genre: ['Action', 'Thriller'],
     saga: '',
-    description: 'Un ancien agent d\'une organisation secrète gouvernementale traque impitoyablement ceux qui ont causé la mort de sa voisine et déclenché sa vengeance.',
+    description:
+      "Un ancien agent d'une organisation secrète gouvernementale traque impitoyablement ceux qui ont causé la mort de sa voisine et déclenché sa vengeance.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -11899,7 +12136,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 122,
     genre: ['Action'],
     saga: '',
-    description: 'Une agente du MI6 traque un vendeur d\'armes international tout en découvrant que sa propre agence dissimule des secrets mortels.',
+    description:
+      "Une agente du MI6 traque un vendeur d'armes international tout en découvrant que sa propre agence dissimule des secrets mortels.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -11936,7 +12174,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 121,
     genre: ['Action'],
     saga: '',
-    description: 'Un videur expert débarque dans une ville du Missouri pour pacifier un bar, mais se heurte à un magnat local qui contrôle tout le territoire.',
+    description:
+      'Un videur expert débarque dans une ville du Missouri pour pacifier un bar, mais se heurte à un magnat local qui contrôle tout le territoire.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -11967,7 +12206,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 120,
     genre: ['Action'],
     saga: '',
-    description: 'Un jeune homme traumatise par le meurtre de sa mère infiltré un club exclusif de Bombay pour venger sa communauté des élites corrompues.',
+    description:
+      'Un jeune homme traumatise par le meurtre de sa mère infiltré un club exclusif de Bombay pour venger sa communauté des élites corrompues.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -11998,7 +12238,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 125,
     genre: ['Action'],
     saga: '',
-    description: 'Un cascadeur hollywoodien reprend du service pour retrouver une star disparue et déjouer une conspiration sur un plateau de tournage.',
+    description:
+      'Un cascadeur hollywoodien reprend du service pour retrouver une star disparue et déjouer une conspiration sur un plateau de tournage.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -12035,7 +12276,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 120,
     genre: ['Action'],
     saga: '',
-    description: 'Un ancien marine se heurte à la police d\'une petite ville qui confisque légalement son argent, déclenchant une confrontation méthodique et implacable.',
+    description:
+      "Un ancien marine se heurte à la police d'une petite ville qui confisque légalement son argent, déclenchant une confrontation méthodique et implacable.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -12066,7 +12308,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 122,
     genre: ['Action'],
     saga: '',
-    description: 'Deux chasseurs de tornades aux méthodes opposées s\'unissent pour tester un système de prédiction alors que des super-tornades ravagent l\'Oklahoma.',
+    description:
+      "Deux chasseurs de tornades aux méthodes opposées s'unissent pour tester un système de prédiction alors que des super-tornades ravagent l'Oklahoma.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -12089,7 +12332,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 100,
     genre: ['Action', 'Aventure', 'Drame'],
     saga: '',
-    description: 'Largo Winch doit sauver son empire financier et son amour des griffes d\'un homme d\'affaires impitoyable qui complote depuis l\'ombre.',
+    description:
+      "Largo Winch doit sauver son empire financier et son amour des griffes d'un homme d'affaires impitoyable qui complote depuis l'ombre.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -12120,7 +12364,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 148,
     genre: ['Action'],
     saga: '',
-    description: 'Des décennies après Maximus, un gladiateur en secret cherche à renverser les empereurs tyranniques qui ont plongé Rome dans le chaos et la guerre.',
+    description:
+      'Des décennies après Maximus, un gladiateur en secret cherche à renverser les empereurs tyranniques qui ont plongé Rome dans le chaos et la guerre.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -12157,7 +12402,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 119,
     genre: ['Action'],
     saga: '',
-    description: 'Un agent de la TSA contraint de laisser passer un colis dangereux doit déjouer seul un complot terroriste dans l\'aéroport où il travaille depuis des années.',
+    description:
+      "Un agent de la TSA contraint de laisser passer un colis dangereux doit déjouer seul un complot terroriste dans l'aéroport où il travaille depuis des années.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -12195,7 +12441,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 116,
     genre: ['Action', 'Thriller'],
     saga: '',
-    description: 'Un ouvrier du bâtiment aux compétences militaires oubliées reprend les armes lorsque des trafiquants kidnappent la fille de sa voisine.',
+    description:
+      'Un ouvrier du bâtiment aux compétences militaires oubliées reprend les armes lorsque des trafiquants kidnappent la fille de sa voisine.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -12215,7 +12462,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 102,
     genre: ['Action', 'Fantastique'],
     saga: '',
-    description: 'Dans le Japon féodal, un jeune guerrier revêt une armure légendaire pour protéger son village et affronter les seigneurs qui menacent sa terre natale.',
+    description:
+      'Dans le Japon féodal, un jeune guerrier revêt une armure légendaire pour protéger son village et affronter les seigneurs qui menacent sa terre natale.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -12255,7 +12503,8 @@ export const baseMoviesAction: BaseMovie[] = [
     length: 172,
     genre: ['Fantastique', 'Peplum'],
     saga: '',
-    description: 'Ulysse entreprend le périlleux voyage de retour vers Ithaque après la guerre de Troie, affrontant dieux, monstres et tempêtes sur son chemin.',
+    description:
+      'Ulysse entreprend le périlleux voyage de retour vers Ithaque après la guerre de Troie, affrontant dieux, monstres et tempêtes sur son chemin.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,

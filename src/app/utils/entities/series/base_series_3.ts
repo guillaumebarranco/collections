@@ -3994,7 +3994,7 @@ export const baseSeries3: BaseSerie[] = [
     genre: ['Documentaire', 'Biographie'],
     seasonsData: [{ seasonNumber: 1, nbEpisodes: 3, totalLength: 190 }],
     description:
-      'Mini-série documentaire Netflix en 3 parties sur la vie d\'Arnold Schwarzenegger : bodybuilding, Hollywood et gouverneur de Californie.',
+      "Mini-série documentaire Netflix en 3 parties sur la vie d'Arnold Schwarzenegger : bodybuilding, Hollywood et gouverneur de Californie.",
     saga: '',
     fromEntity: null,
     countryOrigin: 'États-Unis',
@@ -4568,11 +4568,9 @@ export const baseSeries3: BaseSerie[] = [
   {
     title: 'La mort de la femme du pasteur',
     director: 'Julia Willoughby Nason, Michael Gasparro',
-    actors: [
-      { name: 'Mica Miller' },
-      { name: 'John-Paul Miller' },
-    ],
-    coverUrl: '',
+    actors: [{ name: 'Mica Miller' }, { name: 'John-Paul Miller' }],
+    coverUrl:
+      '/series_pictures/13f080c64233.jpg',
     releaseDate: '2026-08-26',
     endDate: '2026-08-26',
     genre: ['Documentaire'],
@@ -4586,11 +4584,9 @@ export const baseSeries3: BaseSerie[] = [
   {
     title: 'La Vérité kidnappée : Du rêve au cauchemar américain',
     director: 'Felicity Morris, Bernadette Higgins',
-    actors: [
-      { name: 'Denise Huskins' },
-      { name: 'Aaron Quinn' },
-    ],
-    coverUrl: '',
+    actors: [{ name: 'Denise Huskins' }, { name: 'Aaron Quinn' }],
+    coverUrl:
+      '/series_pictures/17966717655f.jpg',
     releaseDate: '2024-01-17',
     endDate: '2024-01-17',
     genre: ['Documentaire'],
@@ -4604,11 +4600,9 @@ export const baseSeries3: BaseSerie[] = [
   {
     title: 'Notre mère meurtrière',
     director: 'Skye Borgman',
-    actors: [
-      { name: 'Lori Vallow' },
-      { name: 'Chad Daybell' },
-    ],
-    coverUrl: '',
+    actors: [{ name: 'Lori Vallow' }, { name: 'Chad Daybell' }],
+    coverUrl:
+      '/series_pictures/16cd3eaa315b.jpg',
     releaseDate: '2022-09-14',
     endDate: '2022-09-14',
     genre: ['Documentaire'],

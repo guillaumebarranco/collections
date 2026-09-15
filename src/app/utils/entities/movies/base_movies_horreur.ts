@@ -3121,8 +3121,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
       { name: 'Kurume Arisaka' },
       { name: 'Masatoshi Matsuo' },
     ],
-    coverUrl:
-      'https://resizing.flixster.com/Ehx2xS4JM9xTe1iOSTkto_xhf0Q=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzI1NDk0NTY3LWI5YjktNDJmNC05Yzc0LWZkYjc5YzNjN2YyZC5qcGc=',
+    coverUrl: '/movies_pictures/sgswgsghshdhr.jpg',
     releaseDate: '2001-02-09',
     length: 119,
     genre: ['Horreur', 'Science Fiction'],
@@ -7337,8 +7336,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
       { name: 'Djimon Hounsou' },
       { name: 'Matt Nable' },
     ],
-    coverUrl:
-      '/movies_pictures/3f735de7b47a.jpg',
+    coverUrl: '/movies_pictures/3f735de7b47a.jpg',
     releaseDate: '2026-04-10',
     length: 86,
     genre: ['Horreur', 'Thriller', 'Action'],

@@ -4665,8 +4665,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Dorothée Blanck' },
       { name: 'Michel Legrand' },
     ],
-    coverUrl:
-      'https://www.cnc.fr/documents/36995/77409/Cl%C3%A9o+de+5+%C3%A0+7+d%27Agn%C3%A8s+Varda.jpg/bc889c2b-a27d-6386-465c-9adcb83dea9f?t=1567004514223&thumb=cncThumb',
+    coverUrl: 'qdsfsdegsegesgege.jpg',
     releaseDate: '1962-04-11',
     length: 90,
     genre: ['Drame'],
@@ -4688,8 +4687,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Louis Seigner' },
       { name: 'Lilla Brignone' },
     ],
-    coverUrl:
-      'https://img.festival-cannes.com/eyJidWNrZXQiOiJtZWRpYSIsImtleSI6InVwbG9hZHNcLzIwMjNcLzAzXC8xNzI5OC1zY2FsZWQuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxNjAwLCJmaXQiOiJjb3ZlciJ9fX0=',
+    coverUrl: '/movies_pictures/17298-scaled.webp',
     releaseDate: '1962-04-12',
     length: 126,
     genre: ['Drame', 'Romance'],
@@ -8123,8 +8121,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Halvar Björk' },
       { name: 'Marianne Aminoff' },
     ],
-    coverUrl:
-      'https://img.festival-cannes.com/eyJidWNrZXQiOiJtZWRpYSIsImtleSI6InVwbG9hZHNcLzIwMTdcLzAzXC9GaWxlbmFtZV9fMTQ1NzBfNTRmODVkYTIwOTYzNi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE2MDAsImZpdCI6ImNvdmVyIn19fQ==',
+    coverUrl: '/movies_pictures/Filename__14570_54f85da209636.webp',
     releaseDate: '1978-10-08',
     length: 99,
     genre: ['Drame'],
@@ -8998,8 +8995,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Bernard-Pierre Donnadieu' },
       { name: 'Isabelle Sadoyan' },
     ],
-    coverUrl:
-      'https://medias.unifrance.org/medias/58/152/38970/format_page/le-retour-de-martin-guerre.jpg',
+    coverUrl: '/movies_pictures/le-retour-de-martin-guerre.jpg',
     releaseDate: '1982-05-14',
     length: 122,
     genre: ['Drame', 'Historique', 'Mystère'],
@@ -9727,8 +9723,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Geneviève Fontanel' },
       { name: 'Jean-Pierre Darroussin' },
     ],
-    coverUrl:
-      'https://medias.unifrance.org/medias/247/225/57847/format_page/notre-histoire.jpg',
+    coverUrl: '/movies_pictures/notre-histoire.jpg',
     releaseDate: '1984-05-23',
     length: 110,
     genre: ['Drame', 'Comédie', 'Romance'],
@@ -11884,8 +11879,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Michel Blanc' },
       { name: 'Gérard Desartre' },
     ],
-    coverUrl:
-      'https://medias.unifrance.org/medias/147/101/91539/format_page/uranus.jpg',
+    coverUrl: '/movies_pictures/uranus.jpg',
     releaseDate: '1990-09-12',
     length: 100,
     genre: ['Drame', 'Comédie', 'Historique'],
@@ -13720,8 +13714,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'André Dussollier' },
       { name: 'Daniel Prévost' },
     ],
-    coverUrl:
-      'https://medias.unifrance.org/medias/92/97/155996/format_page/colonel-chabert.jpg',
+    coverUrl: '/movies_pictures/colonel-chabert.jpg',
     releaseDate: '1994-09-21',
     length: 110,
     genre: ['Drame', 'Historique'],
@@ -14797,8 +14790,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Alan Rickman' },
       { name: 'Julia Roberts' },
     ],
-    coverUrl:
-      'https://pics.filmaffinity.com/Michael_Collins-828573881-large.jpg',
+    coverUrl: '/movies_pictures/Michael_Collins-828573881-large.jpg',
     releaseDate: '1996-10-11',
     length: 133,
     genre: ['Drame', 'Biographie', 'Guerre', 'Historique'],
@@ -16026,8 +16018,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Jacques Dutronc' },
       { name: 'Bernard Fresson' },
     ],
-    coverUrl:
-      'https://medias.unifrance.org/medias/100/0/100/format_page/place-vendome.jpg',
+    coverUrl: '/movies_pictures/place-vendome.jpg',
     releaseDate: '1998-10-07',
     length: 117,
     genre: ['Drame', 'Thriller'],
@@ -16279,8 +16270,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Michel Serrault' },
       { name: 'Isabelle Carré' },
     ],
-    coverUrl:
-      'https://medias.unifrance.org/medias/186/0/186/format_page/les-enfants-du-marais.jpg',
+    coverUrl: '/movies_pictures/les-enfants-du-marais.jpg',
     releaseDate: '1999-03-03',
     length: 115,
     genre: ['Drame', 'Comédie'],
@@ -16408,8 +16398,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Vincent Perez' },
       { name: 'Marcello Mazzarella' },
     ],
-    coverUrl:
-      'https://img.festival-cannes.com/eyJidWNrZXQiOiJtZWRpYSIsImtleSI6InVwbG9hZHNcLzIwMjNcLzAzXC8xOTIyNC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE2MDAsImZpdCI6ImNvdmVyIn19fQ==',
+    coverUrl: '/movies_pictures/19224.webp',
     releaseDate: '1999-05-16',
     length: 162,
     genre: ['Drame', 'Historique'],
@@ -22104,8 +22093,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Abdelhamid Aktouche' },
       { name: 'Bouraouïa Marzouk' },
     ],
-    coverUrl:
-      'https://medias.unifrance.org/medias/132/118/30340/format_page/la-graine-et-le-mulet.jpg',
+    coverUrl: '/movies_pictures/la-graine-et-le-mulet.jpg',
     releaseDate: '2007-12-12',
     length: 151,
     genre: ['Drame'],
@@ -23447,8 +23435,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Mary Tsoni' },
       { name: 'Christos Passalis' },
     ],
-    coverUrl:
-      'https://cinedweller.com/movie/canine-la-critique-du-film/potemkine-canine-dvd/',
+    coverUrl: '/movies_pictures/potemkine-canine-DVD.jpg',
     releaseDate: '2009-10-23',
     length: 94,
     genre: ['Drame'],
@@ -23470,8 +23457,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Brice Fournier' },
       { name: 'Stéphan Wojtowicz' },
     ],
-    coverUrl:
-      'https://medias.unifrance.org/medias/78/153/39246/format_page/a-l-origine.jpg',
+    coverUrl: '/movies_pictures/a-l-origine.webp',
     releaseDate: '2009-11-11',
     length: 130,
     genre: ['Drame'],
@@ -24012,8 +23998,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Ahn Nae-sang' },
       { name: 'Kim Yong-taek' },
     ],
-    coverUrl:
-      'https://resizing.flixster.com/1G3nD43dJ8isGbMJqm0MHj4FGyk=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2NiZTQ4MmYyLWY2NTUtNGZjOC04ZmY5LTlkZjhkMDliYWFlOC5qcGc=',
+    coverUrl: '/movies_pictures/fsefdgdrhdrd.jpg',
     releaseDate: '2010-05-13',
     length: 139,
     genre: ['Drame'],
@@ -26065,8 +26050,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Ahd Kamel' },
       { name: 'Sultan Al Assaf' },
     ],
-    coverUrl:
-      'https://cdn1.cinenode.com/movie_poster/157/full/wadjda-157125.jpg',
+    coverUrl: '/movies_pictures/wadjda-157125.jpg',
     releaseDate: '2012-08-31',
     length: 98,
     genre: ['Drame', 'Jeunesse'],
@@ -27564,8 +27548,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Marianne Denicourt' },
       { name: 'Félix Moati' },
     ],
-    coverUrl:
-      'https://medias.unifrance.org/medias/113/240/127089/format_page/hippocrate.jpg',
+    coverUrl: '/movies_pictures/hippocrate.jpg',
     releaseDate: '2014-09-03',
     length: 102,
     genre: ['Drame', 'Comédie'],
@@ -37668,8 +37651,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Vincent Perez' },
       { name: 'Patsy Ferran' },
     ],
-    coverUrl:
-      '/movies_pictures/708f874d77a5.jpg',
+    coverUrl: '/movies_pictures/708f874d77a5.jpg',
     releaseDate: '2025-05-28',
     length: 93,
     genre: ['Drame'],

@@ -281,8 +281,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
       { name: 'Anton Diffring' },
       { name: 'Jeremy Spenser' },
     ],
-    coverUrl:
-      'https://medias.unifrance.org/medias/103/197/50535/format_page/fahrenheit-451.jpg',
+    coverUrl: '/movies_pictures/fahrenheit-451.jpg',
     releaseDate: '1966-09-16',
     length: 112,
     genre: ['Science Fiction', 'Dystopie'],

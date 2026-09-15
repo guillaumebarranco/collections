@@ -2516,8 +2516,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Nicole Daresco' },
       { name: 'André Pousse' },
     ],
-    coverUrl:
-      'https://medias.unifrance.org/medias/178/217/55730/format_page/le-pacha.jpg',
+    coverUrl: '/movies_pictures/le-pacha.jpg',
     releaseDate: '1968-03-14',
     length: 82,
     genre: ['Policier', 'Comédie'],
@@ -3212,8 +3211,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Sean Connery' },
       { name: 'Vanessa Redgrave' },
     ],
-    coverUrl:
-      '/movies_pictures/63ec34285b5f.jpg',
+    coverUrl: '/movies_pictures/63ec34285b5f.jpg',
     releaseDate: '1974-11-24',
     length: 128,
     genre: ['Policier', 'Mystère'],
@@ -3886,8 +3884,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Pierre Saintons' },
       { name: 'Maurice Barrier' },
     ],
-    coverUrl:
-      'https://medias.unifrance.org/medias/209/95/90065/format_page/le-marginal.jpg',
+    coverUrl: '/movies_pictures/le-marginal.jpg',
     releaseDate: '1983-10-26',
     length: 100,
     genre: ['Policier', 'Action', 'Thriller'],
@@ -7960,7 +7957,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Michel Duchaussoy' },
     ],
     coverUrl:
-      'https://assets.diverto.tv/media/remote/aHR0cHM6Ly9pbWFnZS50bWRiLm9yZy90L3AvL29yaWdpbmFsLy9uUVB2Tm9UNldtbUZZVFM2Vm9GdU9FU3k3SmsuanBn?fit=contain&fm=webp&s=434f065762281df4d85f396dceaedf8a',
+      '/movies_pictures/movies_pictures/aHR0cHM6Ly9pbWFnZS50bWRiLm9yZy90L3AvL29yaWdpbmFsLy9uUVB2Tm9UNldtbUZZVFM2Vm9GdU9FU3k3SmsuanBn.webp',
     releaseDate: '2002-10-23',
     length: 116,
     genre: ['Policier', 'Thriller'],
@@ -8808,7 +8805,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Jacques Bonnaffé' },
     ],
     coverUrl:
-      'https://medias.unifrance.org/medias/248/5/1528/format_page/lemming.jpg',
+      '/movies_pictures/movies_pictures/aHR0cHM6Ly9pbWFnZS50bWRiLm9yZy90L3AvL29yaWdpbmFsLy9uUVB2Tm9UNldtbUZZVFM2Vm9GdU9FU3k3SmsuanBnlemming.jpg',
     releaseDate: '2005-05-11',
     length: 129,
     genre: ['Thriller', 'Drame'],
@@ -14479,8 +14476,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Willem Dafoe' },
       { name: 'Alexander Babara' },
     ],
-    coverUrl:
-      '/movies_pictures/745d7013ea18.jpg',
+    coverUrl: '/movies_pictures/745d7013ea18.jpg',
     releaseDate: '2021-09-10',
     length: 112,
     genre: ['Thriller', 'Drame'],
@@ -14764,8 +14760,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Lee Jung-hyun' },
       { name: 'Park Yong-woo' },
     ],
-    coverUrl:
-      '/movies_pictures/815e10fec191.jpg',
+    coverUrl: '/movies_pictures/815e10fec191.jpg',
     releaseDate: '2022-06-29',
     length: 138,
     genre: ['Thriller', 'Romance', 'Policier', 'Mystère'],

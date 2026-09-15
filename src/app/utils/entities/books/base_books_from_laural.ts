@@ -1408,8 +1408,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: "L'orpheline du Temple",
     author: 'Victoria Mas',
-    coverUrl:
-      '/books_pictures/9c32099d2337.jpg',
+    coverUrl: '/books_pictures/9c32099d2337.jpg',
     pages: 176,
     genre: ['Littérature'],
     saga: '',
@@ -1634,7 +1633,7 @@ export const baseBooksFromLaural: BaseBook[] = [
     title: 'La Maison dans laquelle - Intégrale',
     author: 'Mariam Petrosyan',
     coverUrl:
-      'https://cdn1.booknode.com/book_cover/1137/la_maison_dans_laquelle_integrale-1137450-264-432.webp',
+      '/books_pictures/la_maison_dans_laquelle_integrale-1137450-264-432.jpg',
     pages: 1074,
     genre: ['Littérature'],
     saga: 'La Maison dans laquelle',
@@ -2531,8 +2530,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Les Renaissances',
     author: 'Agnès Martin-Lugand',
-    coverUrl:
-      '/books_pictures/3f53c0f16d44.jpg',
+    coverUrl: '/books_pictures/3f53c0f16d44.jpg',
     pages: 464,
     genre: ['Littérature'],
     saga: '',
@@ -3711,8 +3709,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Une patiente exemplaire',
     author: 'Sarah A. Denzil',
-    coverUrl:
-      '/books_pictures/6c340be39fd3.jpg',
+    coverUrl: '/books_pictures/6c340be39fd3.jpg',
     pages: 318,
     genre: ['Thriller'],
     saga: 'Isabel Fielding',
@@ -3754,8 +3751,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Vers ma fin',
     author: 'Sophie White',
-    coverUrl:
-      '/books_pictures/764138f56bf3.jpg',
+    coverUrl: '/books_pictures/764138f56bf3.jpg',
     pages: 251,
     genre: ['Horreur'],
     saga: '',

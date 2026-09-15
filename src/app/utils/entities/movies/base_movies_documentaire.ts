@@ -282,8 +282,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
       { name: 'Norman Yarborough' },
       { name: 'Houston Elmore' },
     ],
-    coverUrl:
-      'https://images.squarespace-cdn.com/content/v1/54cbff1ae4b083ce027bcb31/1618593363238-QSKK5U0942YST88ZJRDD/upload?format=1000w',
+    coverUrl: '/movies_pictures/upload.webp',
     releaseDate: '1976-10-15',
     length: 103,
     genre: ['Documentaire'],
@@ -385,8 +384,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
       { name: 'Abraham Bomba' },
       { name: 'Franz Suchomel' },
     ],
-    coverUrl:
-      'https://www.yadvashem.org/sites/default/files/styles/main_image_1block/public/shoah-poster.jpg?itok=REFku4xW',
+    coverUrl: '/movies_pictures/shoah-poster.jpg',
     releaseDate: '1985-04-30',
     length: 566,
     genre: ['Documentaire', 'Historique'],
@@ -701,8 +699,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
       { name: 'Britney Spears' },
       { name: 'Ben Affleck' },
     ],
-    coverUrl:
-      'https://img.festival-cannes.com/eyJidWNrZXQiOiJtZWRpYSIsImtleSI6InVwbG9hZHNcLzIwMjNcLzAzXC8xOTU1Ny5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE2MDAsImZpdCI6ImNvdmVyIn19fQ==',
+    coverUrl: '/movies_pictures/19557.webp',
     releaseDate: '2004-06-25',
     length: 122,
     genre: ['Documentaire'],
@@ -1908,7 +1905,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
       { name: 'Jeff Orlowski' },
     ],
     coverUrl:
-      'https://assets.diverto.tv/media/remote/aHR0cHM6Ly9pbWFnZS50bWRiLm9yZy90L3AvL29yaWdpbmFsLy85V2JDVzJPN3g0WVdzem1hU3k5cVlIVE1hZmQuanBn?fit=contain&fm=webp&s=5c1709eda2c33844b2cdfc46df25ab1c',
+      '/movies_pictures/aHR0cHM6Ly9pbWFnZS50bWRiLm9yZy90L3AvL29yaWdpbmFsLy85V2JDVzJPN3g0WVdzem1hU3k5cVlIVE1hZmQuanBn.webp',
     releaseDate: '2020-09-09',
     length: 94,
     genre: ['Documentaire'],
