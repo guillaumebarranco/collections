@@ -1632,5 +1632,5 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
-  },
+  }
 ];
