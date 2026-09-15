@@ -2646,7 +2646,7 @@ export const baseBooksInspiringMovies: BaseBook[] = [
     title: 'The Sing-song Girls of Shanghai',
     author: 'Han Bangqing',
     coverUrl:
-      'https://cup-us.imgix.net/covers/9780231122696.jpg?auto=format&w=1500',
+      '/books_pictures/3dda4c21b7f9.jpg',
     pages: 592,
     genre: ['Classiques', 'Littérature'],
     saga: '',
