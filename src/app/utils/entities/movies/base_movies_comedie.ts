@@ -7274,8 +7274,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Carol Cheng' },
       { name: 'Raymond Wong' },
     ],
-    coverUrl:
-      '/movies_pictures/1c20d42d4cda.jpg',
+    coverUrl: '/movies_pictures/1c20d42d4cda.jpg',
     releaseDate: '1988-02-11',
     length: 90,
     genre: ['Comédie', 'Romance'],
@@ -17891,8 +17890,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Albert Finney' },
       { name: 'Marion Cotillard' },
     ],
-    coverUrl:
-      '/movies_pictures/db19e954bb4e.jpg',
+    coverUrl: '/movies_pictures/db19e954bb4e.jpg',
     releaseDate: '2006-11-10',
     length: 117,
     genre: ['Comédie', 'Romance'],
@@ -23144,8 +23142,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Randall Park' },
       { name: 'Diana Bang' },
     ],
-    coverUrl:
-      '/movies_pictures/21ca2f49c3be.jpg',
+    coverUrl: '/movies_pictures/21ca2f49c3be.jpg',
     releaseDate: '2014-12-25',
     length: 112,
     genre: ['Comédie', 'Action'],
@@ -26260,8 +26257,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Timothée Chalamet' },
       { name: 'Frances McDormand' },
     ],
-    coverUrl:
-      '/movies_pictures/b61a6ba4ebf6.jpg',
+    coverUrl: '/movies_pictures/b61a6ba4ebf6.jpg',
     releaseDate: '2021-10-22',
     length: 107,
     genre: ['Comédie', 'Drame', 'Romance'],
@@ -26464,8 +26460,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Mylène Demongeot' },
       { name: 'Liliane Rovère' },
     ],
-    coverUrl:
-      '/movies_pictures/bfe3c28f3ecc.jpg',
+    coverUrl: '/movies_pictures/bfe3c28f3ecc.jpg',
     releaseDate: '2022-02-21',
     length: 97,
     genre: ['Comédie'],
@@ -26618,8 +26613,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Noémie Merlant' },
       { name: 'Jean-Claude Pautot' },
     ],
-    coverUrl:
-      '/movies_pictures/09122704857c.jpg',
+    coverUrl: '/movies_pictures/09122704857c.jpg',
     releaseDate: '2022-10-12',
     length: 99,
     genre: ['Comédie', 'Thriller', 'Policier'],
@@ -26889,8 +26883,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Nathan Lane' },
       { name: 'Parker Posey' },
     ],
-    coverUrl:
-      '/movies_pictures/babb1f7784af.jpg',
+    coverUrl: '/movies_pictures/babb1f7784af.jpg',
     releaseDate: '2023-04-21',
     length: 179,
     genre: ['Comédie', 'Drame', 'Horreur', 'Fantastique'],
@@ -27251,8 +27244,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Michael Fassbender' },
       { name: 'Simone Kirby' },
     ],
-    coverUrl:
-      '/movies_pictures/2e10111db5cd.jpg',
+    coverUrl: '/movies_pictures/2e10111db5cd.jpg',
     releaseDate: '2024-01-22',
     length: 105,
     genre: ['Comédie', 'Drame', 'Biographie', 'Comédie musicale'],
@@ -27368,8 +27360,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Raphaël Quenard' },
       { name: 'Manuel Guillot' },
     ],
-    coverUrl:
-      '/movies_pictures/7ddbc1cda758.jpg',
+    coverUrl: '/movies_pictures/7ddbc1cda758.jpg',
     releaseDate: '2024-05-14',
     length: 80,
     genre: ['Comédie'],
@@ -27485,8 +27476,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Jacques Develay' },
       { name: 'David Ayala' },
     ],
-    coverUrl:
-      '/movies_pictures/68c8ba732e4b.jpg',
+    coverUrl: '/movies_pictures/68c8ba732e4b.jpg',
     releaseDate: '2024-10-16',
     length: 102,
     genre: ['Comédie', 'Thriller', 'Drame'],
@@ -27814,7 +27804,8 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Kirby Bliss Blanton' },
       { name: 'Miles Teller' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/9aed79214e70.jpg',
     releaseDate: '2012-03-02',
     length: 88,
     genre: ['Comédie'],

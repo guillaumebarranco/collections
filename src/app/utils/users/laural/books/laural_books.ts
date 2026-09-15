@@ -5,7 +5,7 @@ export const lauralBooks: UserBook[] = [
     title: 'La Maison au milieu de la Mer Céruléenne',
     author: 'T.J. Klune',
     firstReadDate: '2025-02-18',
-    lastReadDate: '',
+    lastReadDate: '2025-02-18',
     otherReadDates: [],
     rating: 4.5,
     reading: false,

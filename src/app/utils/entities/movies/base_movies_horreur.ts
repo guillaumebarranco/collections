@@ -1204,8 +1204,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
       { name: 'Roland Topor' },
       { name: 'Walter Ladengast' },
     ],
-    coverUrl:
-      '/movies_pictures/8d628d1083b3.jpg',
+    coverUrl: '/movies_pictures/8d628d1083b3.jpg',
     releaseDate: '1979-01-17',
     length: 107,
     genre: ['Horreur', 'Drame', 'Fantastique'],
@@ -6699,8 +6698,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
       { name: 'Ross Paul' },
       { name: 'Jaime Hill' },
     ],
-    coverUrl:
-      '/movies_pictures/6976abd45a9a.jpg',
+    coverUrl: '/movies_pictures/6976abd45a9a.jpg',
     releaseDate: '2022-12-02',
     length: 100,
     genre: ['Horreur'],
@@ -7339,7 +7337,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
       { name: 'Djimon Hounsou' },
       { name: 'Matt Nable' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/3f735de7b47a.jpg',
     releaseDate: '2026-04-10',
     length: 86,
     genre: ['Horreur', 'Thriller', 'Action'],

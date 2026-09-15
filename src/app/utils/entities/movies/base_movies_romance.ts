@@ -120,8 +120,8 @@ export const baseMoviesRomance: BaseMovie[] = [
       'Un boxeur américain rentre au village irlandais de ses parents et courtise une rousse indomptable.',
     fromEntity: {
       entityType: 'book',
-      title: "Jeux interdits",
-      secondEntityKey: "François Boyer",
+      title: 'Jeux interdits',
+      secondEntityKey: 'François Boyer',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -161,7 +161,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 118,
     genre: ['Romance', 'Comédie'],
     saga: '',
-    description: 'Une princesse étouffée par ses obligations s\'échappe incognito à Rome et tombe amoureuse d\'un journaliste américain qui ignore son identité royale.',
+    description:
+      "Une princesse étouffée par ses obligations s'échappe incognito à Rome et tombe amoureuse d'un journaliste américain qui ignore son identité royale.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -206,8 +207,7 @@ export const baseMoviesRomance: BaseMovie[] = [
       { name: 'Lois Chiles' },
       { name: "Patrick O'Neal" },
     ],
-    coverUrl:
-      '/movies_pictures/35b140fcc664.jpg',
+    coverUrl: '/movies_pictures/35b140fcc664.jpg',
     releaseDate: '1973-10-16',
     length: 118,
     genre: ['Romance', 'Drame'],
@@ -250,7 +250,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 115,
     genre: ['Romance', 'Science Fiction', 'Drame'],
     saga: '',
-    description: 'Une extraterrestre prend l\'apparence du défunt mari d\'une veuve et doit regagner sa planète tout en développant un lien humain avec elle.',
+    description:
+      "Une extraterrestre prend l'apparence du défunt mari d'une veuve et doit regagner sa planète tout en développant un lien humain avec elle.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -335,7 +336,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 100,
     genre: ['Romance'],
     saga: '',
-    description: 'Françoise, surnommée Baby, passe l\'été dans un resort et apprend à danser avec Johnny, danseur professionnel, dans une romance estivale emblématique.',
+    description:
+      "Françoise, surnommée Baby, passe l'été dans un resort et apprend à danser avec Johnny, danseur professionnel, dans une romance estivale emblématique.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -372,7 +374,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 104,
     genre: ['Romance'],
     saga: '',
-    description: 'Un barman charismatique monte à New York pour réussir et tombe amoureux d\'une femme qui le pousse à choisir entre argent et amour.',
+    description:
+      "Un barman charismatique monte à New York pour réussir et tombe amoureux d'une femme qui le pousse à choisir entre argent et amour.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -388,8 +391,7 @@ export const baseMoviesRomance: BaseMovie[] = [
       { name: 'John Goodman' },
       { name: 'Audrey Hepburn' },
     ],
-    coverUrl:
-      '/movies_pictures/d9ea5669788f.jpg',
+    coverUrl: '/movies_pictures/d9ea5669788f.jpg',
     releaseDate: '1989-12-22',
     length: 123,
     genre: ['Romance', 'Fantastique', 'Drame'],
@@ -432,7 +434,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 119,
     genre: ['Romance'],
     saga: '',
-    description: 'Un homme d\'affaires richissime embauche une prostituée pour l\'accompagner lors d\'événements sociaux, et leur arrangement se transforme en vraie romance.',
+    description:
+      "Un homme d'affaires richissime embauche une prostituée pour l'accompagner lors d'événements sociaux, et leur arrangement se transforme en vraie romance.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -469,7 +472,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 127,
     genre: ['Romance', 'Fantastique'],
     saga: '',
-    description: 'Un homme assassiné revient comme esprit pour protéger sa petite amie et la guider vers la vérité grâce à une médium, dans une romance surnaturelle.',
+    description:
+      'Un homme assassiné revient comme esprit pour protéger sa petite amie et la guider vers la vérité grâce à une médium, dans une romance surnaturelle.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -506,7 +510,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 124,
     genre: ['Romance', 'Thriller', 'Policier'],
     saga: '',
-    description: 'Lula et Sailor, amants fuyant la violence et la jalousie, traversent l\'Amérique dans une odyssée où passion, musique et danger se confondent.',
+    description:
+      "Lula et Sailor, amants fuyant la violence et la jalousie, traversent l'Amérique dans une odyssée où passion, musique et danger se confondent.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -522,14 +527,13 @@ export const baseMoviesRomance: BaseMovie[] = [
       { name: 'Nathan Lane' },
       { name: 'Kate Nelligan' },
     ],
-    coverUrl:
-      '/movies_pictures/c18b73098c6e.jpg',
+    coverUrl: '/movies_pictures/c18b73098c6e.jpg',
     releaseDate: '1991-10-11',
     length: 118,
     genre: ['Romance', 'Comédie', 'Drame'],
     saga: '',
     description:
-      'Johnny, ex-détenu, tombe amoureux de Frankie, serveuse méfiante, et tente de la convaincre que l\'amour vaut le risque d\'une nouvelle déception.',
+      "Johnny, ex-détenu, tombe amoureux de Frankie, serveuse méfiante, et tente de la convaincre que l'amour vaut le risque d'une nouvelle déception.",
     fromEntity: {
       entityType: 'book',
       title: 'Frankie and Johnny in the Clair de Lune',
@@ -567,7 +571,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 94,
     genre: ['Romance'],
     saga: '',
-    description: 'Un danseur de compétition australien choisit une partenaire débutante et défie les règles rigides du monde du ballroom pour danser avec passion.',
+    description:
+      'Un danseur de compétition australien choisit une partenaire débutante et défie les règles rigides du monde du ballroom pour danser avec passion.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -583,8 +588,7 @@ export const baseMoviesRomance: BaseMovie[] = [
       { name: 'Isabel Glasser' },
       { name: 'George Wendt' },
     ],
-    coverUrl:
-      '/movies_pictures/cafec4823fa0.jpg',
+    coverUrl: '/movies_pictures/cafec4823fa0.jpg',
     releaseDate: '1992-12-16',
     length: 102,
     genre: ['Romance', 'Science Fiction', 'Drame'],
@@ -606,8 +610,7 @@ export const baseMoviesRomance: BaseMovie[] = [
       { name: 'Julianne Moore' },
       { name: 'Oliver Platt' },
     ],
-    coverUrl:
-      '/movies_pictures/8440f219de03.jpg',
+    coverUrl: '/movies_pictures/8440f219de03.jpg',
     releaseDate: '1993-04-16',
     length: 98,
     genre: ['Romance', 'Comédie', 'Drame'],
@@ -650,7 +653,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 105,
     genre: ['Romance'],
     saga: '',
-    description: 'Une veuve parle au radio d\'un homme qu\'elle aime sans l\'avoir rencontré, attirant l\'attention d\'une journaliste qui veut les réunir.',
+    description:
+      "Une veuve parle au radio d'un homme qu'elle aime sans l'avoir rencontré, attirant l'attention d'une journaliste qui veut les réunir.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -666,8 +670,7 @@ export const baseMoviesRomance: BaseMovie[] = [
       { name: 'Faye Wong' },
       { name: 'Valerie Chow' },
     ],
-    coverUrl:
-      '/movies_pictures/be18ab832973.jpg',
+    coverUrl: '/movies_pictures/be18ab832973.jpg',
     releaseDate: '1994-07-14',
     length: 102,
     genre: ['Romance', 'Drame', 'Comédie'],
@@ -710,7 +713,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 102,
     genre: ['Romance'],
     saga: '',
-    description: 'Une jeune veuve mexicaine et un chef américain tombent amoureux en préparant une sauce ancestral, entre traditions culinaires et passions brûlantes.',
+    description:
+      'Une jeune veuve mexicaine et un chef américain tombent amoureux en préparant une sauce ancestral, entre traditions culinaires et passions brûlantes.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -747,7 +751,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 120,
     genre: ['Romance', 'Drame'],
     saga: '',
-    description: 'Shakespeare revisité en Miami contemporaine : Roméo et Juliette s\'aiment malgré la guerre entre leurs familles mafieuses rivales.',
+    description:
+      "Shakespeare revisité en Miami contemporaine : Roméo et Juliette s'aiment malgré la guerre entre leurs familles mafieuses rivales.",
     fromEntity: {
       entityType: 'book',
       title: 'Roméo et Juliette',
@@ -788,7 +793,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 195,
     genre: ['Romance', 'Drame'],
     saga: '',
-    description: 'Rose, jeune aristocrate, tombe amoureuse de Jack, artiste pauvre, à bord du Titanic lors de sa traversée fatale de l\'Atlantique en 1912.',
+    description:
+      "Rose, jeune aristocrate, tombe amoureuse de Jack, artiste pauvre, à bord du Titanic lors de sa traversée fatale de l'Atlantique en 1912.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -837,7 +843,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 119,
     genre: ['Romance'],
     saga: '',
-    description: 'Un chirurgien cardiaque et une enseignante s\'accordent sur un mariage sans amour pour satisfaire leurs familles, mais les sentiments apparaissent.',
+    description:
+      "Un chirurgien cardiaque et une enseignante s'accordent sur un mariage sans amour pour satisfaire leurs familles, mais les sentiments apparaissent.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -896,7 +903,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 119,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Ted, obsédé par son amour lycéen pour Mary, embauche un détective pour la retrouver quinze ans plus tard, avec des conséquences absurdes.',
+    description:
+      'Ted, obsédé par son amour lycéen pour Mary, embauche un détective pour la retrouver quinze ans plus tard, avec des conséquences absurdes.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -917,7 +925,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 121,
     genre: ['Romance', 'Comédie'],
     saga: '',
-    description: 'Une princesse déguisée en servante rencontre un prince lors d\'un bal masqué, mais leur différence de rang menace leur idylle.',
+    description:
+      "Une princesse déguisée en servante rencontre un prince lors d'un bal masqué, mais leur différence de rang menace leur idylle.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -940,7 +949,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 126,
     genre: ['Romance', 'Comédie musicale'],
     saga: '',
-    description: 'Un jeune Cubain passionné de salsa arrive à Houston et tombe amoureux d\'une danseuse lors d\'un concours qui pourrait changer leurs vies.',
+    description:
+      "Un jeune Cubain passionné de salsa arrive à Houston et tombe amoureux d'une danseuse lors d'un concours qui pourrait changer leurs vies.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -977,7 +987,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 178,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'La Mort prend l\'apparence d\'un jeune homme pour apprendre la vie humaine et tombe amoureuse de la fille du magnat qu\'elle est venue chercher.',
+    description:
+      "La Mort prend l'apparence d'un jeune homme pour apprendre la vie humaine et tombe amoureuse de la fille du magnat qu'elle est venue chercher.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -1000,7 +1011,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 123,
     genre: ['Romance', 'Comédie'],
     saga: '',
-    description: 'Jeune Shakespeare, en panne d\'inspiration, tombe amoureux d\'une femme qui veut jouer au théâtre alors que les femmes en sont interdites.',
+    description:
+      "Jeune Shakespeare, en panne d'inspiration, tombe amoureux d'une femme qui veut jouer au théâtre alors que les femmes en sont interdites.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1045,7 +1057,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 119,
     genre: ['Romance'],
     saga: '',
-    description: 'Un libraire veuf et une femme mariée échangent des emails anonymes sans savoir qu\'ils se croisent déjà dans la vie réelle à New York.',
+    description:
+      "Un libraire veuf et une femme mariée échangent des emails anonymes sans savoir qu'ils se croisent déjà dans la vie réelle à New York.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1082,7 +1095,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 95,
     genre: ['Romance', 'Comédie'],
     saga: '',
-    description: 'Une belle lycéenne populaire accepte de transformer un voisin intellectuel en prince du bal, mais le projet les rapproche plus qu\'elle ne l\'avait prévu.',
+    description:
+      "Une belle lycéenne populaire accepte de transformer un voisin intellectuel en prince du bal, mais le projet les rapproche plus qu'elle ne l'avait prévu.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -1105,7 +1119,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 97,
     genre: ['Romance', 'Comédie'],
     saga: '',
-    description: 'Une lycéenne ne peut sortir que si sa sœur aînée trouve un petit ami, ce qui pousse un rebelle à séduire la cadette pour de l\'argent.',
+    description:
+      "Une lycéenne ne peut sortir que si sa sœur aînée trouve un petit ami, ce qui pousse un rebelle à séduire la cadette pour de l'argent.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -1142,7 +1157,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 124,
     genre: ['Romance'],
     saga: '',
-    description: 'Une star de cinéma tombe amoureuse d\'un libraire discret de Notting Hill, mais leur différence de statut complique chaque moment ensemble.',
+    description:
+      "Une star de cinéma tombe amoureuse d'un libraire discret de Notting Hill, mais leur différence de statut complique chaque moment ensemble.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -1163,7 +1179,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 94,
     genre: ['Romance', 'Comédie'],
     saga: '',
-    description: 'Deux amis d\'enfance se retrouvent à l\'université, passant de l\'amitié à la tension amoureuse après des années de complicité platonique.',
+    description:
+      "Deux amis d'enfance se retrouvent à l'université, passant de l'amitié à la tension amoureuse après des années de complicité platonique.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1200,7 +1217,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 108,
     genre: ['Comédie', 'Romance'],
     saga: 'Mon Beau-Père et... Moi',
-    description: 'Un infirmier excentrique doit gagner l\'approbation du père surprotecteur de sa fiancée, un ex-agent de la CIA méfiant.',
+    description:
+      "Un infirmier excentrique doit gagner l'approbation du père surprotecteur de sa fiancée, un ex-agent de la CIA méfiant.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -1237,7 +1255,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 127,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Un publicitaire séducteur est contraint de vivre comme une femme pour comprendre leurs désirs et sauver sa carrière, tout en découvrant l\'empathie.',
+    description:
+      "Un publicitaire séducteur est contraint de vivre comme une femme pour comprendre leurs désirs et sauver sa carrière, tout en découvrant l'empathie.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -1274,7 +1293,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 120,
     genre: ['Romance'],
     saga: '',
-    description: 'Une femme libre convainc un publicitaire workaholic de vivre un mois avec elle, transformant sa vision du temps et de l\'amour.',
+    description:
+      "Une femme libre convainc un publicitaire workaholic de vivre un mois avec elle, transformant sa vision du temps et de l'amour.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1311,7 +1331,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 97,
     genre: ['Comédie', 'Romance'],
     saga: 'Bridget Jones',
-    description: 'Bridget, célibataire trentenaire, tient un journal de ses efforts pour maigrir, arrêter de fumer et séduire son patron séduisant mais infidèle.',
+    description:
+      'Bridget, célibataire trentenaire, tient un journal de ses efforts pour maigrir, arrêter de fumer et séduire son patron séduisant mais infidèle.',
     fromEntity: {
       entityType: 'book',
       title: 'Le Journal de Bridget Jones',
@@ -1336,7 +1357,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 108,
     genre: ['Comédie', 'Romance'],
     saga: 'Bridget Jones',
-    description: 'Bridget, enceinte et incertaine du père, doit choisir entre son ex Daniel et le sage Mark Darcy dans une suite chaotique et tendre.',
+    description:
+      'Bridget, enceinte et incertaine du père, doit choisir entre son ex Daniel et le sage Mark Darcy dans une suite chaotique et tendre.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -1373,7 +1395,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 183,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Deux pilotes amis s\'éprennent de la même infirmière avant et pendant l\'attaque japonaise sur Pearl Harbor, dans une épopée romantique et guerrière.',
+    description:
+      "Deux pilotes amis s'éprennent de la même infirmière avant et pendant l'attaque japonaise sur Pearl Harbor, dans une épopée romantique et guerrière.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -1410,7 +1433,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 111,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Mia découvre qu\'elle est l\'héritière d\'un petit royaume européen et doit apprendre les règles de la cour tout en gardant ses pieds sur terre.',
+    description:
+      "Mia découvre qu'elle est l'héritière d'un petit royaume européen et doit apprendre les règles de la cour tout en gardant ses pieds sur terre.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -1447,7 +1471,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 90,
     genre: ['Romance'],
     saga: '',
-    description: 'Un chirurgien britannique et une fleuriste new-yorkaise tombent amoureux lors d\'un bref séjour, puis tentent de maintenir leur relation à distance.',
+    description:
+      "Un chirurgien britannique et une fleuriste new-yorkaise tombent amoureux lors d'un bref séjour, puis tentent de maintenir leur relation à distance.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1504,7 +1529,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 101,
     genre: ['Romance'],
     saga: '',
-    description: 'Landon, jeune rebelle, tombe amoureux de Jamie, fille du pasteur atteinte d\'une maladie incurable, dans une romance adolescente marquée par le temps.',
+    description:
+      "Landon, jeune rebelle, tombe amoureux de Jamie, fille du pasteur atteinte d'une maladie incurable, dans une romance adolescente marquée par le temps.",
     fromEntity: {
       entityType: 'book',
       title: 'À tout jamais',
@@ -1545,7 +1571,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 96,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Un célibataire parie qu\'il peut rester quarante jours sans relation sexuelle, juste au moment où la femme de ses rêves entre dans sa vie.',
+    description:
+      "Un célibataire parie qu'il peut rester quarante jours sans relation sexuelle, juste au moment où la femme de ses rêves entre dans sa vie.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -1582,7 +1609,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 105,
     genre: ['Romance'],
     saga: '',
-    description: 'Un chef étoilé tombe amoureux d\'une femme qui ne peut sentir ni goûter, et tente de la séduire par d\'autres sens et par la cuisine.',
+    description:
+      "Un chef étoilé tombe amoureux d'une femme qui ne peut sentir ni goûter, et tente de la séduire par d'autres sens et par la cuisine.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -1619,7 +1647,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 101,
     genre: ['Romance'],
     saga: '',
-    description: 'Une femme amnésique oublie son mari chaque matin, et celui-ci doit la reconquérir jour après jour avec patience et créativité.',
+    description:
+      'Une femme amnésique oublie son mari chaque matin, et celui-ci doit la reconquérir jour après jour avec patience et créativité.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1656,7 +1685,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 93,
     genre: ['Romance'],
     saga: '',
-    description: 'Julien et Sophie, amis d\'enfance, transforment leurs défis en jeu où l\'audace masque des sentiments qu\'ils refusent d\'assumer pendant des décennies.',
+    description:
+      "Julien et Sophie, amis d'enfance, transforment leurs défis en jeu où l'audace masque des sentiments qu'ils refusent d'assumer pendant des décennies.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1676,7 +1706,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 135,
     genre: ['Romance'],
     saga: '',
-    description: 'Plusieurs histoires d\'amour s\'entrecroisent à Londres à l\'approche de Noël, entre premiers baisers, deuils, trahisons et déclarations inattendues.',
+    description:
+      "Plusieurs histoires d'amour s'entrecroisent à Londres à l'approche de Noël, entre premiers baisers, deuils, trahisons et déclarations inattendues.",
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 30,
@@ -1713,7 +1744,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 96,
     genre: ['Romance', 'Drame'],
     saga: '',
-    description: 'Une danseuse hip-hop rêve de chorégrapher pour une star et doit surmonter rivalités, trahisons et obstacles pour réaliser son ambition.',
+    description:
+      'Une danseuse hip-hop rêve de chorégrapher pour une star et doit surmonter rivalités, trahisons et obstacles pour réaliser son ambition.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -1750,7 +1782,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 128,
     genre: ['Romance'],
     saga: '',
-    description: 'Une mère divorcée tombe amoureuse d\'un jeune acteur venu chez elle pour préparer un rôle, bouleversant sa vie rangée à San Francisco.',
+    description:
+      "Une mère divorcée tombe amoureuse d'un jeune acteur venu chez elle pour préparer un rôle, bouleversant sa vie rangée à San Francisco.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1773,7 +1806,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 99,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Après un accident, une femme perd la mémoire récente et son mari tente de la reconquérir chaque jour comme s\'il la rencontrait à nouveau.',
+    description:
+      "Après un accident, une femme perd la mémoire récente et son mari tente de la reconquérir chaque jour comme s'il la rencontrait à nouveau.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -1794,7 +1828,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 86,
     genre: ['Romance', 'Comédie musicale'],
     saga: '',
-    description: 'Johnny revient dans un resort des Catskills et forme une danseuse talentueuse pour un spectacle qui ravive souvenirs et passions.',
+    description:
+      'Johnny revient dans un resort des Catskills et forme une danseuse talentueuse pour un spectacle qui ravive souvenirs et passions.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1825,7 +1860,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 108,
     genre: ['Romance'],
     saga: '',
-    description: 'Joel et Clementine effacent leurs souvenirs d\'amour après une rupture, mais Joel tente de préserver les moments heureux pendant la procédure.',
+    description:
+      "Joel et Clementine effacent leurs souvenirs d'amour après une rupture, mais Joel tente de préserver les moments heureux pendant la procédure.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -1863,7 +1899,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 109,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Un lycéen découvre que sa voisine est une ancienne star du porno et tombe amoureux d\'elle malgré les préjugés de son entourage.',
+    description:
+      "Un lycéen découvre que sa voisine est une ancienne star du porno et tombe amoureux d'elle malgré les préjugés de son entourage.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -1900,7 +1937,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 113,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Mia Thermopolis doit se marier pour conserver la couronne de Génovia et découvre un prétendant tout en retrouvant un ancien amour.',
+    description:
+      'Mia Thermopolis doit se marier pour conserver la couronne de Génovia et découvre un prétendant tout en retrouvant un ancien amour.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -1937,7 +1975,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 121,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Un jeune homme tombe amoureux d\'une étudiante atteinte d\'Alzheimer précoce et consigne leurs moments dans un journal pour qu\'elle se souvienne.',
+    description:
+      "Un jeune homme tombe amoureux d'une étudiante atteinte d'Alzheimer précoce et consigne leurs moments dans un journal pour qu'elle se souvienne.",
     fromEntity: {
       entityType: 'book',
       title: 'Les pages de notre amour',
@@ -1978,7 +2017,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 106,
     genre: ['Romance'],
     saga: '',
-    description: 'Une jeune chanteuse de gospel découvre le monde du R&B et tombe amoureuse de son mentor, entre ambition artistique et choix personnels difficiles.',
+    description:
+      'Une jeune chanteuse de gospel découvre le monde du R&B et tombe amoureuse de son mentor, entre ambition artistique et choix personnels difficiles.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -2001,7 +2041,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 115,
     genre: ['Comédie'],
     saga: '',
-    description: 'Greg Focker présente ses parents libéraux à la famille ultra-contrôlée de sa fiancée, dans une comédie de quiproquos avant le mariage.',
+    description:
+      'Greg Focker présente ses parents libéraux à la famille ultra-contrôlée de sa fiancée, dans une comédie de quiproquos avant le mariage.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -2038,7 +2079,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 118,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Un conseiller amoureux professionnel aide un comptable timide à séduire une femme, jusqu\'à ce que ses propres méthodes soient remises en question.',
+    description:
+      "Un conseiller amoureux professionnel aide un comptable timide à séduire une femme, jusqu'à ce que ses propres méthodes soient remises en question.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -2075,7 +2117,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 105,
     genre: ['Comédie'],
     saga: '',
-    description: 'Une jeune Noire et un jeune Blanc s\'éprendent malgré les préjugés de leurs familles et de leur entourage dans une comédie romantique des années 2000.',
+    description:
+      "Une jeune Noire et un jeune Blanc s'éprendent malgré les préjugés de leurs familles et de leur entourage dans une comédie romantique des années 2000.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -2112,7 +2155,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 124,
     genre: ['Thriller', 'Romance'],
     saga: '',
-    description: 'Un ancien joueur de tennis s\'introduit dans une famille aisée londonienne et doit choisir entre une relation stable et une passion dangereuse.',
+    description:
+      "Un ancien joueur de tennis s'introduit dans une famille aisée londonienne et doit choisir entre une relation stable et une passion dangereuse.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -2135,7 +2179,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 119,
     genre: ['Comédie', 'Romance'],
     saga: 'Quatre filles et un jean',
-    description: 'Quatre amies partagent un jean magique qui leur va à tour de rôle pendant un été où chacune vit ses propres épreuves amoureuses et familiales.',
+    description:
+      'Quatre amies partagent un jean magique qui leur va à tour de rôle pendant un été où chacune vit ses propres épreuves amoureuses et familiales.',
     fromEntity: {
       entityType: 'book',
       title: 'Quatre filles et un jean',
@@ -2176,7 +2221,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 129,
     genre: ['Romance'],
     saga: '',
-    description: 'Elizabeth Bennet croise le riche et distant M. Darcy dans l\'Angleterre du XIXe siècle, où orgueil et malentendus menacent leur attirance mutuelle.',
+    description:
+      "Elizabeth Bennet croise le riche et distant M. Darcy dans l'Angleterre du XIXe siècle, où orgueil et malentendus menacent leur attirance mutuelle.",
     fromEntity: {
       entityType: 'book',
       title: 'Orgueil et Préjugés',
@@ -2201,7 +2247,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 95,
     genre: ['Romance', 'Comédie'],
     saga: '',
-    description: 'Un architecte veuf voit le fantôme de sa défunte fiancée et tombe amoureux d\'une médium qui peut communiquer avec elle.',
+    description:
+      "Un architecte veuf voit le fantôme de sa défunte fiancée et tombe amoureux d'une médium qui peut communiquer avec elle.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2224,7 +2271,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 145,
     genre: ['Romance', 'Drame'],
     saga: '',
-    description: 'Chiyo devient la geisha Sayuri à Kyoto et navigue entre mécènes, rivalités et amour interdit dans le Japon d\'avant-guerre.',
+    description:
+      "Chiyo devient la geisha Sayuri à Kyoto et navigue entre mécènes, rivalités et amour interdit dans le Japon d'avant-guerre.",
     fromEntity: {
       entityType: 'book',
       title: 'Geisha',
@@ -2269,7 +2317,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 99,
     genre: ['Romance'],
     saga: '',
-    description: 'Un veuf envoie des messages à sa femme décédée via une boîte aux lettres du lac et reçoit une réponse d\'une femme qui traverse elle aussi une épreuve.',
+    description:
+      "Un veuf envoie des messages à sa femme décédée via une boîte aux lettres du lac et reçoit une réponse d'une femme qui traverse elle aussi une épreuve.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2306,7 +2355,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 104,
     genre: ['Drame', 'Romance'],
     saga: 'Sexy Dance',
-    description: 'Un danseur de rue condamné à des travaux d\'intérêt général intègre une école de danse classique et tombe amoureux de son élève rigide.',
+    description:
+      "Un danseur de rue condamné à des travaux d'intérêt général intègre une école de danse classique et tombe amoureux de son élève rigide.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -2343,7 +2393,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 98,
     genre: ['Drame', 'Romance'],
     saga: 'Sexy Dance',
-    description: 'Un danseur de hip-hop rejoint une école d\'art prestigieuse et s\'efforce de prouver sa valeur aux côtés d\'une chorégraphe exigeante qu\'il séduit.',
+    description:
+      "Un danseur de hip-hop rejoint une école d'art prestigieuse et s'efforce de prouver sa valeur aux côtés d'une chorégraphe exigeante qu'il séduit.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -2380,7 +2431,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 107,
     genre: ['Drame', 'Romance'],
     saga: 'Sexy Dance',
-    description: 'Des danseurs de rue s\'affrontent lors d\'un concours à Las Vegas où loyauté, ambition et romance se mêlent sur scène.',
+    description:
+      "Des danseurs de rue s'affrontent lors d'un concours à Las Vegas où loyauté, ambition et romance se mêlent sur scène.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -2417,7 +2469,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 99,
     genre: ['Drame', 'Romance'],
     saga: 'Sexy Dance',
-    description: 'Emily rejoint un crew de danseurs à Miami pour sauver sa sœur et découvre une scène électrisante où passion artistique et amour se croisent.',
+    description:
+      'Emily rejoint un crew de danseurs à Miami pour sauver sa sœur et découvre une scène électrisante où passion artistique et amour se croisent.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -2440,7 +2493,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 112,
     genre: ['Drame'],
     saga: 'Sexy Dance',
-    description: 'Des danseurs de différentes villes s\'unissent pour un battle à Las Vegas où leur rêve commun les rapproche autant que leurs rivalités passées.',
+    description:
+      "Des danseurs de différentes villes s'unissent pour un battle à Las Vegas où leur rêve commun les rapproche autant que leurs rivalités passées.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -2463,7 +2517,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 136,
     genre: ['Romance', 'Comédie'],
     saga: '',
-    description: 'Deux femmes épuisées par leurs vies amoureuses échangent leurs maisons entre Los Angeles et l\'Angleterre et rencontrent de nouveaux amours.',
+    description:
+      "Deux femmes épuisées par leurs vies amoureuses échangent leurs maisons entre Los Angeles et l'Angleterre et rencontrent de nouveaux amours.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2501,7 +2556,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 101,
     genre: ['Romance'],
     saga: '',
-    description: 'Un séducteur invétéré parie qu\'il peut faire tomber amoureuse une jeune femme timide, mais finit par être sincèrement touché par elle.',
+    description:
+      "Un séducteur invétéré parie qu'il peut faire tomber amoureuse une jeune femme timide, mais finit par être sincèrement touché par elle.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -2538,7 +2594,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 126,
     genre: ['Romance', 'Drame'],
     saga: '',
-    description: 'Une veuve reçoit des lettres laissées par son défunt mari pour l\'aider à surmonter le deuil et à retrouver le chemin de la vie.',
+    description:
+      "Une veuve reçoit des lettres laissées par son défunt mari pour l'aider à surmonter le deuil et à retrouver le chemin de la vie.",
     fromEntity: {
       entityType: 'book',
       title: 'P.S. I Love You',
@@ -2579,7 +2636,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 96,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Une lycéenne enceinte décide de donner son bébé à un couple et traverse grossesse, adoption et premiers amours avec humour et lucidité.',
+    description:
+      'Une lycéenne enceinte décide de donner son bébé à un couple et traverse grossesse, adoption et premiers amours avec humour et lucidité.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -2616,7 +2674,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 111,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Une femme a été demoiselle d\'honneur vingt-sept fois sans jamais être la mariée, jusqu\'à ce qu\'un journaliste révèle son histoire et un homme la voie enfin.',
+    description:
+      "Une femme a été demoiselle d'honneur vingt-sept fois sans jamais être la mariée, jusqu'à ce qu'un journaliste révèle son histoire et un homme la voie enfin.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -2653,7 +2712,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 101,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Le meilleur ami d\'un homme sur le point de se marier réalise qu\'il aime la future mariée et tente de saboter le mariage avec des moyens douteux.',
+    description:
+      "Le meilleur ami d'un homme sur le point de se marier réalise qu'il aime la future mariée et tente de saboter le mariage avec des moyens douteux.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -2691,7 +2751,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 99,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Un étudiant en médecine tombe amoureux d\'une actrice lors d\'un voyage à Las Vegas où mensonges, paris et malentendus compliquent leur idylle.',
+    description:
+      "Un étudiant en médecine tombe amoureux d'une actrice lors d'un voyage à Las Vegas où mensonges, paris et malentendus compliquent leur idylle.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -2714,7 +2775,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 96,
     genre: ['Romance'],
     saga: '',
-    description: 'Deux Américaines à Barcelone tombent sous le charme d\'un peintre espagnol et entrent dans un triangle amoureux avec son ex-femme instable.',
+    description:
+      "Deux Américaines à Barcelone tombent sous le charme d'un peintre espagnol et entrent dans un triangle amoureux avec son ex-femme instable.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2751,7 +2813,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 145,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Carrie, Samantha, Charlotte et Miranda quittent New York pour le mariage de Miranda et vivent une escapade où amitié, amour et désir se confrontent.',
+    description:
+      'Carrie, Samantha, Charlotte et Miranda quittent New York pour le mariage de Miranda et vivent une escapade où amitié, amour et désir se confrontent.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -2788,7 +2851,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 89,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Deux amies rivales depuis l\'enfance s\'affrontent pour le même poste et le même homme, jusqu\'à ce que leur amitié reprenne le dessus.',
+    description:
+      "Deux amies rivales depuis l'enfance s'affrontent pour le même poste et le même homme, jusqu'à ce que leur amitié reprenne le dessus.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -2825,7 +2889,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 100,
     genre: ['Romance'],
     saga: '',
-    description: 'Will et Emily se croisent régulièrement sans jamais être disponibles en même temps, dans une comédie romantique sur le timing et les occasions manquées.',
+    description:
+      'Will et Emily se croisent régulièrement sans jamais être disponibles en même temps, dans une comédie romantique sur le timing et les occasions manquées.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2862,7 +2927,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 102,
     genre: ['Comédie', 'Romance', 'Jeunesse'],
     saga: '',
-    description: 'Un homme de trente-sept ans revient soudain dans son corps de lycéen et tente de corriger ses erreurs tout en retrouvant son amour d\'adolescence.',
+    description:
+      "Un homme de trente-sept ans revient soudain dans son corps de lycéen et tente de corriger ses erreurs tout en retrouvant son amour d'adolescence.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -2899,7 +2965,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 108,
     genre: ['Romance'],
     saga: '',
-    description: 'Une éditrice canadienne force son assistant à l\'épouser pour éviter l\'expulsion, mais un week-end en Alaska bouleverse leurs rapports.',
+    description:
+      "Une éditrice canadienne force son assistant à l'épouser pour éviter l'expulsion, mais un week-end en Alaska bouleverse leurs rapports.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -2936,7 +3003,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 95,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Tom revit ses 500 jours avec Summer, entre euphorie, déception et prise de conscience sur la différence entre attente romantique et réalité.',
+    description:
+      'Tom revit ses 500 jours avec Summer, entre euphorie, déception et prise de conscience sur la différence entre attente romantique et réalité.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -2973,7 +3041,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 108,
     genre: ['Romance', 'Drame'],
     saga: '',
-    description: 'Une étudiante tombe amoureuse d\'un soldat et entretient une correspondance intense, mais la guerre et le temps testent la solidité de leur lien.',
+    description:
+      "Une étudiante tombe amoureuse d'un soldat et entretient une correspondance intense, mais la guerre et le temps testent la solidité de leur lien.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3010,7 +3079,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 125,
     genre: ['Romance'],
     saga: '',
-    description: 'Plusieurs couples et célibataires croisent leurs destins amoureux à Los Angeles le jour de la Saint-Valentin dans une comédie chorale.',
+    description:
+      'Plusieurs couples et célibataires croisent leurs destins amoureux à Los Angeles le jour de la Saint-Valentin dans une comédie chorale.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -3047,7 +3117,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 113,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'À New York, Tyler, jeune homme en colère, tombe amoureux d\'une étudiante dont la famille cache des blessures liées à un drame familial.',
+    description:
+      "À New York, Tyler, jeune homme en colère, tombe amoureux d'une étudiante dont la famille cache des blessures liées à un drame familial.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -3084,7 +3155,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 105,
     genre: ['Romance'],
     saga: '',
-    description: 'Un séducteur professionnel est payé pour briser le cœur d\'une femme indépendante, mais finit par tomber sincèrement amoureux d\'elle.',
+    description:
+      "Un séducteur professionnel est payé pour briser le cœur d'une femme indépendante, mais finit par tomber sincèrement amoureux d'elle.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
@@ -3121,7 +3193,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 110,
     genre: ['Romance'],
     saga: '',
-    description: 'Une journaliste embauchée pour retrouver un homme disparaît dans les Bahamas et finit par tomber amoureuse de sa cible insaisissable.',
+    description:
+      'Une journaliste embauchée pour retrouver un homme disparaît dans les Bahamas et finit par tomber amoureuse de sa cible insaisissable.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -3158,7 +3231,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 105,
     genre: ['Romance'],
     saga: '',
-    description: 'Une Américaine en Italie découvre une lettre d\'amour adressée à Juliette et part à la recherche de son auteur avec la petite-fille concernée.',
+    description:
+      "Une Américaine en Italie découvre une lettre d'amour adressée à Juliette et part à la recherche de son auteur avec la petite-fille concernée.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -3192,7 +3266,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 133,
     genre: ['Romance', 'Drame'],
     saga: '',
-    description: 'Après un divorce, Liz voyage en Italie, Inde et Bali pour retrouver équilibre, spiritualité et un amour inattendu.',
+    description:
+      'Après un divorce, Liz voyage en Italie, Inde et Bali pour retrouver équilibre, spiritualité et un amour inattendu.',
     fromEntity: {
       entityType: 'book',
       title: 'Mange, prie, aime',
@@ -3233,7 +3308,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 102,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Une journaliste sportive et un joueur de baseball à la retraite s\'éloignent géographiquement mais tentent de maintenir leur relation à distance.',
+    description:
+      "Une journaliste sportive et un joueur de baseball à la retraite s'éloignent géographiquement mais tentent de maintenir leur relation à distance.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -3256,7 +3332,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 112,
     genre: ['Romance'],
     saga: '',
-    description: 'Un représentant pharmaceutique séducteur tombe amoureux d\'une jeune femme atteinte de la maladie de Parkinson, bouleversant sa vision du couple.',
+    description:
+      "Un représentant pharmaceutique séducteur tombe amoureux d'une jeune femme atteinte de la maladie de Parkinson, bouleversant sa vision du couple.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -3279,7 +3356,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 98,
     genre: ['Comédie'],
     saga: '',
-    description: 'Greg tente d\'organiser les fêtes de fin d\'année avec ses beaux-parents tout en gérant ses propres parents et une nouvelle grossesse surprise.',
+    description:
+      "Greg tente d'organiser les fêtes de fin d'année avec ses beaux-parents tout en gérant ses propres parents et une nouvelle grossesse surprise.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -3316,7 +3394,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 108,
     genre: ['Romance'],
     saga: '',
-    description: 'Deux amis décident de ne maintenir qu\'une relation physique sans sentiments, mais leurs règles s\'effondrent quand l\'un d\'eux tombe amoureux.',
+    description:
+      "Deux amis décident de ne maintenir qu'une relation physique sans sentiments, mais leurs règles s'effondrent quand l'un d'eux tombe amoureux.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -3353,7 +3432,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 106,
     genre: ['Romance'],
     saga: '',
-    description: 'Un homme découvre que sa vie amoureuse est orchestrée par une agence secrète qui manipule les rencontres selon un plan mystérieux.',
+    description:
+      'Un homme découvre que sa vie amoureuse est orchestrée par une agence secrète qui manipule les rencontres selon un plan mystérieux.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -3390,7 +3470,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 94,
     genre: ['Romance', 'Fantastique'],
     saga: '',
-    description: 'Un scénariste nostalgique se retrouve transporté dans le Paris des années 1920 où il croise artistes légendaires et une femme qui bouleverse sa vision du présent.',
+    description:
+      'Un scénariste nostalgique se retrouve transporté dans le Paris des années 1920 où il croise artistes légendaires et une femme qui bouleverse sa vision du présent.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -3427,7 +3508,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 109,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Deux amis décident d\'ajouter du sexe à leur relation sans complications, mais les règles deviennent difficiles à tenir quand les sentiments apparaissent.',
+    description:
+      "Deux amis décident d'ajouter du sexe à leur relation sans complications, mais les règles deviennent difficiles à tenir quand les sentiments apparaissent.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -3464,7 +3546,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 107,
     genre: ['Romance'],
     saga: '',
-    description: 'Emma et Dexter se croisent le soir de leur remise de diplômes et se retrouvent chaque année le même jour, entre amitié, regrets et amour différé.',
+    description:
+      'Emma et Dexter se croisent le soir de leur remise de diplômes et se retrouvent chaque année le même jour, entre amitié, regrets et amour différé.',
     fromEntity: {
       entityType: 'book',
       title: 'Un jour',
@@ -3491,7 +3574,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 97,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Lola, lycéenne parisienne, vit ses premiers amours, mensonges et ruptures sous l\'œil de sa mère qui tente de comprendre la génération Facebook.',
+    description:
+      "Lola, lycéenne parisienne, vit ses premiers amours, mensonges et ruptures sous l'œil de sa mère qui tente de comprendre la génération Facebook.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
@@ -3528,7 +3612,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 101,
     genre: ['Romance'],
     saga: '',
-    description: 'Un marine survit à la guerre grâce à une photo trouvée et part à sa recherche, tombant amoureux de la femme qu\'elle représente.',
+    description:
+      "Un marine survit à la guerre grâce à une photo trouvée et part à sa recherche, tombant amoureux de la femme qu'elle représente.",
     fromEntity: {
       entityType: 'book',
       title: 'Le porte bonheur',
@@ -3569,7 +3654,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 98,
     genre: ['Romance', 'Comédie'],
     saga: '',
-    description: 'Un zombie tombe amoureux d\'une humaine survivante, et leur lien semble le rendre à nouveau humain dans un monde post-apocalyptique.',
+    description:
+      "Un zombie tombe amoureux d'une humaine survivante, et leur lien semble le rendre à nouveau humain dans un monde post-apocalyptique.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -3606,7 +3692,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 92,
     genre: ['Romance'],
     saga: '',
-    description: 'Une quarantenaire tombe amoureuse d\'un jeune acteur de dix-neuf ans, provoquant moqueries, doutes et remise en question de sa vie professionnelle.',
+    description:
+      "Une quarantenaire tombe amoureuse d'un jeune acteur de dix-neuf ans, provoquant moqueries, doutes et remise en question de sa vie professionnelle.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -3669,7 +3756,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 94,
     genre: ['Drame'],
     saga: '',
-    description: 'Isabelle, lycéenne parisienne, explore sa sexualité en se prostituant secrètement, entre désir, culpabilité et quête de liberté.',
+    description:
+      'Isabelle, lycéenne parisienne, explore sa sexualité en se prostituant secrètement, entre désir, culpabilité et quête de liberté.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 10,
@@ -3706,7 +3794,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 123,
     genre: ['Romance', 'Fantastique'],
     saga: '',
-    description: 'Tim découvre qu\'il peut voyager dans le temps et l\'utilise pour améliorer sa vie amoureuse, jusqu\'à comprendre la valeur de chaque instant ordinaire.',
+    description:
+      "Tim découvre qu'il peut voyager dans le temps et l'utilise pour améliorer sa vie amoureuse, jusqu'à comprendre la valeur de chaque instant ordinaire.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -3729,7 +3818,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 126,
     genre: ['Romance', 'Drame'],
     saga: '',
-    description: 'Hazel et Gus, deux adolescents atteints de cancer, tombent amoureux et partent à la recherche d\'un auteur qu\'ils admirent pour donner un sens à leur temps restant.',
+    description:
+      "Hazel et Gus, deux adolescents atteints de cancer, tombent amoureux et partent à la recherche d'un auteur qu'ils admirent pour donner un sens à leur temps restant.",
     fromEntity: {
       entityType: 'book',
       title: 'Nos étoiles contraires',
@@ -3770,7 +3860,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 94,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Une femme tombe amoureuse d\'un homme atteint d\'une maladie terminale et décide de vivre pleinement chaque moment de leur relation.',
+    description:
+      "Une femme tombe amoureuse d'un homme atteint d'une maladie terminale et décide de vivre pleinement chaque moment de leur relation.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3793,7 +3884,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 119,
     genre: ['Romance', 'Dystopie'],
     saga: '',
-    description: 'Dans un monde où les célibataires doivent trouver un partenaire sous peine d\'être transformés en animaux, un homme fuit les règles absurdes de l\'amour.',
+    description:
+      "Dans un monde où les célibataires doivent trouver un partenaire sous peine d'être transformés en animaux, un homme fuit les règles absurdes de l'amour.",
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -3827,7 +3919,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 111,
     genre: ['Romance'],
     saga: '',
-    description: 'Une jeune femme doit choisir entre rester avec son petit ami stable et repartir avec le premier amour revenu dans sa vie après des années d\'absence.',
+    description:
+      "Une jeune femme doit choisir entre rester avec son petit ami stable et repartir avec le premier amour revenu dans sa vie après des années d'absence.",
     fromEntity: {
       entityType: 'book',
       title: 'Un choix',
@@ -3868,7 +3961,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 128,
     genre: ['Romance'],
     saga: '',
-    description: 'Une actrice en devenir et un pianiste de jazz s\'éprendront à Los Angeles, mais leurs ambitions artistiques menacent de les éloigner l\'un de l\'autre.',
+    description:
+      "Une actrice en devenir et un pianiste de jazz s'éprendront à Los Angeles, mais leurs ambitions artistiques menacent de les éloigner l'un de l'autre.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -3898,7 +3992,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 92,
     genre: ['Romance', 'Drame'],
     saga: '',
-    description: 'Une femme mariée tombe amoureuse d\'une ouvrière du bâtiment lors d\'une nuit torride qui bouleverse sa vie et ses certitudes.',
+    description:
+      "Une femme mariée tombe amoureuse d'une ouvrière du bâtiment lors d'une nuit torride qui bouleverse sa vie et ses certitudes.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3921,7 +4016,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 92,
     genre: ['Romance', 'Comédie'],
     saga: '',
-    description: 'Une journaliste se fait passer pour la tutrice du prince d\'Aldovia et tombe amoureuse de lui pendant qu\'elle enquête sur sa réputation.',
+    description:
+      "Une journaliste se fait passer pour la tutrice du prince d'Aldovia et tombe amoureuse de lui pendant qu'elle enquête sur sa réputation.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3958,7 +4054,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 104,
     genre: ['Romance'],
     saga: '',
-    description: 'Une star de country revient dans sa ville natale pour un enterrement et retrouve la femme qu\'il a abandonnée au moment de leur mariage.',
+    description:
+      "Une star de country revient dans sa ville natale pour un enterrement et retrouve la femme qu'il a abandonnée au moment de leur mariage.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -3995,7 +4092,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 96,
     genre: ['Romance'],
     saga: '',
-    description: 'Deux meilleures amies tombent amoureuses du même homme et doivent choisir entre leur amitié et leurs sentiments respectifs.',
+    description:
+      'Deux meilleures amies tombent amoureuses du même homme et doivent choisir entre leur amitié et leurs sentiments respectifs.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4032,7 +4130,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 105,
     genre: ['Romance', 'Comédie'],
     saga: 'The Kissing Booth',
-    description: 'Elle tombe amoureuse du meilleur ami de son frère aîné, malgré la règle interdisant de fréquenter les amis de la famille.',
+    description:
+      'Elle tombe amoureuse du meilleur ami de son frère aîné, malgré la règle interdisant de fréquenter les amis de la famille.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -4066,7 +4165,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 132,
     genre: ['Romance', 'Comédie'],
     saga: 'The Kissing Booth',
-    description: 'Elle part à Boston pour ses études pendant que son petit ami s\'éloigne, et doit gérer jalousie, nouveaux crushs et le retour du kissing booth.',
+    description:
+      "Elle part à Boston pour ses études pendant que son petit ami s'éloigne, et doit gérer jalousie, nouveaux crushs et le retour du kissing booth.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -4103,7 +4203,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 113,
     genre: ['Comédie', 'Romance'],
     saga: 'The Kissing Booth',
-    description: 'Elle doit choisir entre deux universités et deux avenirs amoureux pendant un dernier été entre amis avant la séparation.',
+    description:
+      'Elle doit choisir entre deux universités et deux avenirs amoureux pendant un dernier été entre amis avant la séparation.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -4140,7 +4241,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 105,
     genre: ['Romance'],
     saga: '',
-    description: 'Deux assistants exécutifs rivaux s\'allient pour piéger leurs patrons exigeants et les pousser à rompre, mais le plan les rapproche plus qu\'ils ne l\'imaginaient.',
+    description:
+      "Deux assistants exécutifs rivaux s'allient pour piéger leurs patrons exigeants et les pousser à rompre, mais le plan les rapproche plus qu'ils ne l'imaginaient.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -4163,7 +4265,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 99,
     genre: ['Comédie'],
     saga: '',
-    description: 'Les lettres d\'amour secrètes de Lara Jean sont envoyées par accident à ses anciens crushs, bouleversant sa vie lycéenne et ses sentiments.',
+    description:
+      "Les lettres d'amour secrètes de Lara Jean sont envoyées par accident à ses anciens crushs, bouleversant sa vie lycéenne et ses sentiments.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -4186,7 +4289,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 84,
     genre: ['Romance', 'Comédie'],
     saga: '',
-    description: 'Une écrivaine spécialisée dans les romans de Jane Austen retourne dans sa ville natale à Noël et retrouve un amour de jeunesse devenu architecte.',
+    description:
+      'Une écrivaine spécialisée dans les romans de Jane Austen retourne dans sa ville natale à Noël et retrouve un amour de jeunesse devenu architecte.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4215,7 +4319,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 101,
     genre: ['Romance'],
     saga: '',
-    description: 'Une pâtissière de Chicago et une princesse montovienne se ressemblent comme deux gouttes d\'eau et échangent leurs rôles pour une semaine.',
+    description:
+      "Une pâtissière de Chicago et une princesse montovienne se ressemblent comme deux gouttes d'eau et échangent leurs rôles pour une semaine.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -4252,7 +4357,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 118,
     genre: ['Romance'],
     saga: '',
-    description: 'Un architecte retrouve son ex-petite amie dans un vol Paris-New York, mais elle ne se souvient plus de lui après un accident qui a effacé ses souvenirs.',
+    description:
+      'Un architecte retrouve son ex-petite amie dans un vol Paris-New York, mais elle ne se souvient plus de lui après un accident qui a effacé ses souvenirs.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
@@ -4283,7 +4389,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 89,
     genre: ['Romance'],
     saga: '',
-    description: 'Un lycéen propose ses services comme faux petit ami et développe de vrais sentiments pour une cliente, tout en gérant d\'autres missions.',
+    description:
+      "Un lycéen propose ses services comme faux petit ami et développe de vrais sentiments pour une cliente, tout en gérant d'autres missions.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4306,7 +4413,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 98,
     genre: ['Romance', 'Comédie'],
     saga: '',
-    description: 'Une city girl hérite d\'une auberge néo-zélandaise et tombe amoureuse du charpentier local qui l\'aide à rénover le lieu.',
+    description:
+      "Une city girl hérite d'une auberge néo-zélandaise et tombe amoureuse du charpentier local qui l'aide à rénover le lieu.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4343,7 +4451,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 103,
     genre: ['Romance'],
     saga: '',
-    description: 'Une femme désabusée tombe amoureuse d\'un homme énigmatique pendant les fêtes, alors qu\'elle tente de reprendre pied après une greffe du cœur.',
+    description:
+      "Une femme désabusée tombe amoureuse d'un homme énigmatique pendant les fêtes, alors qu'elle tente de reprendre pied après une greffe du cœur.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -4380,7 +4489,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 103,
     genre: ['Romance', 'Jeunesse'],
     saga: '',
-    description: 'Lady, cocker spaniel raffinée, rencontre Tramp, chien errant libre, et découvre l\'amour au-delà des différences de milieu dans un Paris canin.',
+    description:
+      "Lady, cocker spaniel raffinée, rencontre Tramp, chien errant libre, et découvre l'amour au-delà des différences de milieu dans un Paris canin.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -4417,7 +4527,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 102,
     genre: ['Romance', 'Comédie'],
     saga: 'A Tous les Garçons',
-    description: 'Lara Jean découvre que Peter a peut-être encore des sentiments pour son ex pendant qu\'un autre garçon lui déclare sa flamme.',
+    description:
+      "Lara Jean découvre que Peter a peut-être encore des sentiments pour son ex pendant qu'un autre garçon lui déclare sa flamme.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -4454,7 +4565,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 115,
     genre: ['Romance', 'Comédie'],
     saga: 'A Tous les Garçons',
-    description: 'Lara Jean et Peter affrontent la fin du lycée et le choix des universités, qui menace leur relation à long terme.',
+    description:
+      'Lara Jean et Peter affrontent la fin du lycée et le choix des universités, qui menace leur relation à long terme.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -4477,7 +4589,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 113,
     genre: ['Romance'],
     saga: '',
-    description: 'Une héritière et un boxeur fauché simulent un couple pour satisfaire leurs familles respectives, mais le mensonge devient une vraie complicité.',
+    description:
+      'Une héritière et un boxeur fauché simulent un couple pour satisfaire leurs familles respectives, mais le mensonge devient une vraie complicité.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -4514,7 +4627,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 124,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Emma Woodhouse, jeune femme intelligente et impertinente, s\'immisce dans la vie amoureuse de son entourage avant de découvrir ses propres sentiments.',
+    description:
+      "Emma Woodhouse, jeune femme intelligente et impertinente, s'immisce dans la vie amoureuse de son entourage avant de découvrir ses propres sentiments.",
     fromEntity: {
       entityType: 'book',
       title: 'Emma',
@@ -4555,7 +4669,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 100,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Lors d\'un mariage, une maladie, des ex et des malentendus font dérailler le week-end, revu sous plusieurs versions d\'une même journée.',
+    description:
+      "Lors d'un mariage, une maladie, des ex et des malentendus font dérailler le week-end, revu sous plusieurs versions d'une même journée.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -4578,7 +4693,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 104,
     genre: ['Romance'],
     saga: '',
-    description: 'Une jeune femme découvre que son père a une seconde famille et s\'installe chez eux au Brésil, où l\'amour et la réconciliation s\'entremêlent.',
+    description:
+      "Une jeune femme découvre que son père a une seconde famille et s'installe chez eux au Brésil, où l'amour et la réconciliation s'entremêlent.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -4615,7 +4731,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 123,
     genre: ['Romance', 'Thriller'],
     saga: '',
-    description: 'Une jeune épouse hantée par l\'ombre de Rebecca, première femme de son mari, découvre des secrets sombres dans le manoir de Manderley.',
+    description:
+      "Une jeune épouse hantée par l'ombre de Rebecca, première femme de son mari, découvre des secrets sombres dans le manoir de Manderley.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -4652,7 +4769,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 104,
     genre: ['Romance'],
     saga: '',
-    description: 'Deux célibataires en manque de plan de Saint-Valentin s\'associent pour assister ensemble aux fêtes de fin d\'année et finissent par s\'attacher.',
+    description:
+      "Deux célibataires en manque de plan de Saint-Valentin s'associent pour assister ensemble aux fêtes de fin d'année et finissent par s'attacher.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -4690,7 +4808,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 97,
     genre: ['Romance'],
     saga: '',
-    description: 'Stacy, princesse par le mariage, retrouve sa sosie et une troisième look-alike lors d\'une cérémonie de couronnement pleine de quiproquos romantiques.',
+    description:
+      "Stacy, princesse par le mariage, retrouve sa sosie et une troisième look-alike lors d'une cérémonie de couronnement pleine de quiproquos romantiques.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -4709,7 +4828,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 105,
     genre: ['Romance'],
     saga: '',
-    description: 'Un jeune couple polonais lutte contre la maladie et la distance pour préserver leur amour, entre sacrifices, espoir et épreuves du quotidien.',
+    description:
+      'Un jeune couple polonais lutte contre la maladie et la distance pour préserver leur amour, entre sacrifices, espoir et épreuves du quotidien.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -4746,7 +4866,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 110,
     genre: ['Romance'],
     saga: '',
-    description: 'Une journaliste enquête sur une lettre d\'amour trouvée dans les ruines d\'un immeuble et reconstitue une passion secrète des années 1960.',
+    description:
+      "Une journaliste enquête sur une lettre d'amour trouvée dans les ruines d'un immeuble et reconstitue une passion secrète des années 1960.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4769,7 +4890,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 101,
     genre: ['Romance'],
     saga: '',
-    description: 'Une artiste et un célèbre chef s\'affrontent lors d\'un concours culinaire télévisé où rivalité professionnelle cède la place à l\'attirance.',
+    description:
+      "Une artiste et un célèbre chef s'affrontent lors d'un concours culinaire télévisé où rivalité professionnelle cède la place à l'attirance.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -4806,7 +4928,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 88,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Une influenceuse humiliée par son ex transforme un lycéen discret en relooking total pour le présenter au bal de promo et regagner sa popularité.',
+    description:
+      'Une influenceuse humiliée par son ex transforme un lycéen discret en relooking total pour le présenter au bal de promo et regagner sa popularité.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -4829,7 +4952,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 88,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Thibault aime secrètement sa meilleure amie depuis l\'enfance, mais elle ne le voit que comme un frère jusqu\'à ce qu\'un voyage change la donne.',
+    description:
+      "Thibault aime secrètement sa meilleure amie depuis l'enfance, mais elle ne le voit que comme un frère jusqu'à ce qu'un voyage change la donne.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 10,
@@ -4866,7 +4990,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 104,
     genre: ['Romance'],
     saga: '',
-    description: 'Une femme part à la rencontre d\'un homme rencontré en ligne à Noël et découvre qu\'il l\'a séduite avec de fausses photos, mais une vraie complicité naît.',
+    description:
+      "Une femme part à la rencontre d'un homme rencontré en ligne à Noël et découvre qu'il l'a séduite avec de fausses photos, mais une vraie complicité naît.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -4903,7 +5028,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 107,
     genre: ['Romance'],
     saga: '',
-    description: 'Margaret doit retrouver une relique volée avec l\'aide de Stacy et d\'une sosie, dans une aventure royale où les sentiments se compliquent.',
+    description:
+      "Margaret doit retrouver une relique volée avec l'aide de Stacy et d'une sosie, dans une aventure royale où les sentiments se compliquent.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -4963,7 +5089,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 113,
     genre: ['Romance'],
     saga: '',
-    description: 'Une lycéenne espionne son voisin par la fenêtre et entame une relation secrète avec lui malgré les interdits familiaux et sociaux.',
+    description:
+      'Une lycéenne espionne son voisin par la fenêtre et entame une relation secrète avec lui malgré les interdits familiaux et sociaux.',
     fromEntity: {
       entityType: 'book',
       title: 'À Travers Ma Fenêtre',
@@ -5004,7 +5131,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 116,
     genre: ['Romance'],
     saga: '',
-    description: 'Une adolescente en deuil croise le fantôme de son père défunt et apprend à avancer grâce à une amitié qui la pousse à embrasser la vie.',
+    description:
+      'Une adolescente en deuil croise le fantôme de son père défunt et apprend à avancer grâce à une amitié qui la pousse à embrasser la vie.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -5027,7 +5155,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 101,
     genre: ['Romance'],
     saga: '',
-    description: 'Une musicienne classique et un rockeur excentrique sont contraints de collaborer sur une chanson de mariage et découvrent une alchimie inattendue.',
+    description:
+      'Une musicienne classique et un rockeur excentrique sont contraints de collaborer sur une chanson de mariage et découvrent une alchimie inattendue.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -5064,7 +5193,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 96,
     genre: ['Romance'],
     saga: '',
-    description: 'Une Allemande en vacances à Hamburg tombe amoureuse d\'un guide local et doit choisir entre retourner chez elle et suivre son cœur.',
+    description:
+      "Une Allemande en vacances à Hamburg tombe amoureuse d'un guide local et doit choisir entre retourner chez elle et suivre son cœur.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5088,7 +5218,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 91,
     genre: ['Romance'],
     saga: '',
-    description: 'Un couple en crise décide de se séparer mais continue de vivre sous le même toit, oscillant entre rupture, jalousie et attachement persistant.',
+    description:
+      'Un couple en crise décide de se séparer mais continue de vivre sous le même toit, oscillant entre rupture, jalousie et attachement persistant.',
     fromEntity: {
       entityType: 'book',
       title: 'Hello Goodbye and Everything in Between',
@@ -5129,7 +5260,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 122,
     genre: ['Romance'],
     saga: '',
-    description: 'Deux adolescents atteints de maladies cardiaques se rencontrent en cure et vivent un amour intense malgré la fragilité de leurs corps.',
+    description:
+      'Deux adolescents atteints de maladies cardiaques se rencontrent en cure et vivent un amour intense malgré la fragilité de leurs corps.',
     fromEntity: {
       entityType: 'book',
       title: 'Nos cœurs meurtris',
@@ -5157,7 +5289,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 127,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Une jeune femme découvre que son mari cache une double vie et doit reconstruire son existence en affrontant vérité, culpabilité et désir de recommencer.',
+    description:
+      'Une jeune femme découvre que son mari cache une double vie et doit reconstruire son existence en affrontant vérité, culpabilité et désir de recommencer.',
     fromEntity: {
       entityType: 'book',
       title: 'Tout le bleu du ciel',
@@ -5196,7 +5329,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 127,
     genre: ['Romance'],
     saga: '',
-    description: 'Une pianiste prodige atteinte d\'une maladie dégénérative tombe amoureuse d\'un astronaute dont la mission l\'éloigne de la Terre.',
+    description:
+      "Une pianiste prodige atteinte d'une maladie dégénérative tombe amoureuse d'un astronaute dont la mission l'éloigne de la Terre.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5233,7 +5367,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 106,
     genre: ['Romance'],
     saga: '',
-    description: 'Une jeune femme retourne dans sa ville natale à Noël et retrouve son amour de lycée, entre traditions familiales et seconde chance sentimentale.',
+    description:
+      'Une jeune femme retourne dans sa ville natale à Noël et retrouve son amour de lycée, entre traditions familiales et seconde chance sentimentale.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5261,7 +5396,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 103,
     genre: ['Romance'],
     saga: '',
-    description: 'Une jeune femme revient dans sa ville natale et retrouve son amour de lycée, entre souvenirs d\'enfance et choix qui ont séparé leurs chemins.',
+    description:
+      "Une jeune femme revient dans sa ville natale et retrouve son amour de lycée, entre souvenirs d'enfance et choix qui ont séparé leurs chemins.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -5284,7 +5420,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 96,
     genre: ['Romance'],
     saga: '',
-    description: 'Une femme en plein divorce croise un homme charmant lors d\'un voyage de groupe, mais leurs vies compliquées rendent l\'idylle difficile à concrétiser.',
+    description:
+      "Une femme en plein divorce croise un homme charmant lors d'un voyage de groupe, mais leurs vies compliquées rendent l'idylle difficile à concrétiser.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5321,7 +5458,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 105,
     genre: ['Romance'],
     saga: '',
-    description: 'Une femme en deuil envoie des textos au numéro de son défunt fiancé, reçus par un journaliste qui finit par tomber amoureux d\'elle.',
+    description:
+      "Une femme en deuil envoie des textos au numéro de son défunt fiancé, reçus par un journaliste qui finit par tomber amoureux d'elle.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -5358,7 +5496,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 91,
     genre: ['Romance'],
     saga: '',
-    description: 'Après avoir échangé leurs numéros dans un train, Hadley et Oliver se cherchent à New York et se demandent si le hasard peut fonder une vraie histoire.',
+    description:
+      'Après avoir échangé leurs numéros dans un train, Hadley et Oliver se cherchent à New York et se demandent si le hasard peut fonder une vraie histoire.',
     fromEntity: {
       entityType: 'book',
       title: "La Probabilité statistique de l'amour au premier regard",
@@ -5399,7 +5538,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 104,
     genre: ['Romance'],
     saga: '',
-    description: 'Une femme découvre que son compagnon la trompe et décide de le piéger en organisant une fausse infidélité pour tester sa réaction.',
+    description:
+      'Une femme découvre que son compagnon la trompe et décide de le piéger en organisant une fausse infidélité pour tester sa réaction.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -5437,7 +5577,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 91,
     genre: ['Romance'],
     saga: '',
-    description: 'Deux étrangers se rencontrent lors d\'une nuit d\'escale à Istanbul et partagent leurs secrets avant de reprendre chacun leur vol.',
+    description:
+      "Deux étrangers se rencontrent lors d'une nuit d'escale à Istanbul et partagent leurs secrets avant de reprendre chacun leur vol.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5475,7 +5616,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 95,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Une mécanicienne indépendante tombe amoureuse d\'un client charismatique qui menace de faire fermer son garage familial.',
+    description:
+      "Une mécanicienne indépendante tombe amoureuse d'un client charismatique qui menace de faire fermer son garage familial.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -5512,7 +5654,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 113,
     genre: ['Romance'],
     saga: '',
-    description: 'Une Américaine part étudier à Oxford et tombe amoureuse d\'un Britannique dont la vie cache des secrets qui remettent en cause leur avenir.',
+    description:
+      "Une Américaine part étudier à Oxford et tombe amoureuse d'un Britannique dont la vie cache des secrets qui remettent en cause leur avenir.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -5543,7 +5686,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 100,
     genre: ['Romance'],
     saga: '',
-    description: 'Une femme suit une série de cartes postales laissées par sa défunte mère et rencontre un homme qui l\'aide à comprendre le message final.',
+    description:
+      "Une femme suit une série de cartes postales laissées par sa défunte mère et rencontre un homme qui l'aide à comprendre le message final.",
     fromEntity: {
       entityType: 'book',
       title: "La carte qui mène jusqu'à toi",
@@ -5578,7 +5722,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 108,
     genre: ['Romance'],
     saga: '',
-    description: 'Une photographe new-yorkaise tombe amoureuse d\'un homme dont la vie semble trop parfaite, jusqu\'à ce que le passé remonte à la surface.',
+    description:
+      "Une photographe new-yorkaise tombe amoureuse d'un homme dont la vie semble trop parfaite, jusqu'à ce que le passé remonte à la surface.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -5609,7 +5754,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 132,
     genre: ['Romance'],
     saga: '',
-    description: 'Dans les années 1960, une publicitaire est chargée de vendre la mission Apollo au public et flirte avec un lanceur NASA sceptique.',
+    description:
+      'Dans les années 1960, une publicitaire est chargée de vendre la mission Apollo au public et flirte avec un lanceur NASA sceptique.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -5646,7 +5792,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 160,
     genre: ['Romance', 'Drame'],
     saga: '',
-    description: 'Jackie et Clotaire, amants adolescents des années 1980, se retrouvent des décennies plus tard et mesurent ce que leur passion dévorante a laissé derrière elle.',
+    description:
+      'Jackie et Clotaire, amants adolescents des années 1980, se retrouvent des décennies plus tard et mesurent ce que leur passion dévorante a laissé derrière elle.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
@@ -5683,7 +5830,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 105,
     genre: ['Romance'],
     saga: '',
-    description: 'Une femme piégée dans une arnaque sentimentale en ligne part à la recherche de l\'homme qui l\'a dupée, mais découvre une vérité inattendue.',
+    description:
+      "Une femme piégée dans une arnaque sentimentale en ligne part à la recherche de l'homme qui l'a dupée, mais découvre une vérité inattendue.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5706,7 +5854,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 115,
     genre: ['Romance'],
     saga: '',
-    description: 'Une femme de quarante ans tombe amoureuse du fils de son ex-petit ami lors d\'une réunion de lycée, remettant en question ses choix de vie.',
+    description:
+      "Une femme de quarante ans tombe amoureuse du fils de son ex-petit ami lors d'une réunion de lycée, remettant en question ses choix de vie.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -5743,7 +5892,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 104,
     genre: ['Romance'],
     saga: '',
-    description: 'Une jeune femme découvre qu\'elle peut remonter le temps pour corriger ses erreurs amoureuses, mais chaque changement bouleverse sa vie de façon imprévisible.',
+    description:
+      "Une jeune femme découvre qu'elle peut remonter le temps pour corriger ses erreurs amoureuses, mais chaque changement bouleverse sa vie de façon imprévisible.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -5766,7 +5916,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 118,
     genre: ['Romance'],
     saga: '',
-    description: 'Noah et Nick tentent de reconstruire leur relation après les révélations du premier volet, entre jalousie, secrets familiaux et passion adolescente.',
+    description:
+      'Noah et Nick tentent de reconstruire leur relation après les révélations du premier volet, entre jalousie, secrets familiaux et passion adolescente.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5788,7 +5939,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 95,
     genre: ['Romance'],
     saga: '',
-    description: 'Une Parisienne déçue par l\'amour rencontre un acteur britannique excentrique qui lui propose un pacte amoureux pour redécouvrir la romance.',
+    description:
+      "Une Parisienne déçue par l'amour rencontre un acteur britannique excentrique qui lui propose un pacte amoureux pour redécouvrir la romance.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 10,
@@ -5825,7 +5977,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 98,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Une libraire parisienne obsédée par Jane Austen croise un écrivain britannique et doit choisir entre fiction romantique et amour réel.',
+    description:
+      'Une libraire parisienne obsédée par Jane Austen croise un écrivain britannique et doit choisir entre fiction romantique et amour réel.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 10,
@@ -5862,7 +6015,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 98,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Une styliste parisienne et un chef étoilé s\'affrontent puis s\'attirent lors d\'un défi culinaire où ego, passion et romance se mélangent.',
+    description:
+      "Une styliste parisienne et un chef étoilé s'affrontent puis s'attirent lors d'un défi culinaire où ego, passion et romance se mélangent.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 10,
@@ -5899,7 +6053,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 105,
     genre: ['Romance', 'Jeunesse', 'Drame'],
     saga: '',
-    description: 'Deux pompiers s\'affrontent lors d\'une compétition internationale et découvrent que leur rivalité cache une attirance qu\'ils peinent à avouer.',
+    description:
+      "Deux pompiers s'affrontent lors d'une compétition internationale et découvrent que leur rivalité cache une attirance qu'ils peinent à avouer.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
@@ -5936,7 +6091,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 134,
     genre: ['Drame'],
     saga: '',
-    description: 'Une réalisatrice et ses sœurs retournent dans la maison familiale norvégienne où secrets, rivalités et héritage parental remontent à la surface.',
+    description:
+      'Une réalisatrice et ses sœurs retournent dans la maison familiale norvégienne où secrets, rivalités et héritage parental remontent à la surface.',
     fromEntity: null,
     countryOrigin: ['Suède'],
     selectDisplayOrder: 10,
@@ -5970,7 +6126,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 104,
     genre: ['Romance'],
     saga: '',
-    description: 'Une jeune femme hérite d\'un vignoble en Bourgogne et doit choisir entre vendre la propriété familiale et suivre son cœur vers un vigneron local.',
+    description:
+      "Une jeune femme hérite d'un vignoble en Bourgogne et doit choisir entre vendre la propriété familiale et suivre son cœur vers un vigneron local.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -6007,7 +6164,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 120,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un prodige du ping-pong des années 1950 gravit les échelons du sport professionnel tout en poursuivant une obsession amoureuse destructrice.',
+    description:
+      'Un prodige du ping-pong des années 1950 gravit les échelons du sport professionnel tout en poursuivant une obsession amoureuse destructrice.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -6044,7 +6202,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 118,
     genre: ['Romance'],
     saga: '',
-    description: 'Deux amis d\'enfance partent chaque année en vacances ensemble, mais leurs sentiments refoulés menacent de transformer leur tradition estivale.',
+    description:
+      "Deux amis d'enfance partent chaque année en vacances ensemble, mais leurs sentiments refoulés menacent de transformer leur tradition estivale.",
     fromEntity: {
       entityType: 'book',
       title: 'People We Meet on Vacation',
@@ -6064,7 +6223,8 @@ export const baseMoviesRomance: BaseMovie[] = [
       { name: 'Levon Hawke' },
       { name: 'Zach Braff' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/3685b3197927.jpg',
     releaseDate: '2026-06-19',
     length: 95,
     genre: ['Romance', 'Drame'],

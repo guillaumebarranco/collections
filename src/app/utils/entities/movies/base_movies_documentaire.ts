@@ -108,8 +108,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
       { name: 'Jean-Pierre Sergent' },
       { name: 'Régis Debray' },
     ],
-    coverUrl:
-      '/movies_pictures/f6a83ac9f43d.png',
+    coverUrl: '/movies_pictures/f6a83ac9f43d.png',
     releaseDate: '1961-10-20',
     length: 90,
     genre: ['Documentaire'],
@@ -131,8 +130,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
       { name: 'Albert Grossman' },
       { name: 'Alan Price' },
     ],
-    coverUrl:
-      '/movies_pictures/2844e8619164.jpg',
+    coverUrl: '/movies_pictures/2844e8619164.jpg',
     releaseDate: '1967-05-17',
     length: 96,
     genre: ['Documentaire', 'Comédie musicale', 'Biographie'],
@@ -152,8 +150,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
       { name: 'James J. Terlizzi' },
       { name: 'Eddie Doucette' },
     ],
-    coverUrl:
-      '/movies_pictures/c0092a97d99f.jpg',
+    coverUrl: '/movies_pictures/c0092a97d99f.jpg',
     releaseDate: '1967-10-03',
     length: 84,
     genre: ['Documentaire'],
@@ -175,8 +172,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
       { name: 'Louis Grave' },
       { name: 'Helmut Tausend' },
     ],
-    coverUrl:
-      '/movies_pictures/aa05e508c1ff.jpg',
+    coverUrl: '/movies_pictures/aa05e508c1ff.jpg',
     releaseDate: '1969-09-18',
     length: 251,
     genre: ['Documentaire', 'Guerre', 'Historique'],
@@ -198,8 +194,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
       { name: 'Santana' },
       { name: 'Joe Cocker' },
     ],
-    coverUrl:
-      '/movies_pictures/4cd2604ef78a.jpg',
+    coverUrl: '/movies_pictures/4cd2604ef78a.jpg',
     releaseDate: '1970-03-26',
     length: 184,
     genre: ['Documentaire', 'Comédie musicale'],
@@ -265,8 +260,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
       { name: 'David Maysles' },
       { name: 'Jerry Torre' },
     ],
-    coverUrl:
-      '/movies_pictures/e212bdd51e62.jpg',
+    coverUrl: '/movies_pictures/e212bdd51e62.jpg',
     releaseDate: '1975-09-27',
     length: 95,
     genre: ['Documentaire', 'Biographie'],
@@ -311,8 +305,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
       { name: 'Levon Helm' },
       { name: 'Bob Dylan' },
     ],
-    coverUrl:
-      '/movies_pictures/b942a2c2b87e.jpg',
+    coverUrl: '/movies_pictures/b942a2c2b87e.jpg',
     releaseDate: '1978-04-26',
     length: 117,
     genre: ['Documentaire', 'Comédie musicale'],
@@ -328,8 +321,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
     title: 'Koyaanisqatsi',
     director: 'Godfrey Reggio',
     actors: [{ name: 'Lou Dobbs' }, { name: 'Ted Koppel' }],
-    coverUrl:
-      '/movies_pictures/253eebabbae9.jpg',
+    coverUrl: '/movies_pictures/253eebabbae9.jpg',
     releaseDate: '1982-04-27',
     length: 86,
     genre: ['Documentaire'],
@@ -349,8 +341,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
       { name: 'Alexandra Stewart' },
       { name: 'Arielle Dombasle' },
     ],
-    coverUrl:
-      '/movies_pictures/1ece52458f97.jpg',
+    coverUrl: '/movies_pictures/1ece52458f97.jpg',
     releaseDate: '1983-02-02',
     length: 100,
     genre: ['Documentaire'],
@@ -372,8 +363,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
       { name: 'Jerry Harrison' },
       { name: 'Bernie Worrell' },
     ],
-    coverUrl:
-      '/movies_pictures/c80e43e162ca.jpg',
+    coverUrl: '/movies_pictures/c80e43e162ca.jpg',
     releaseDate: '1984-04-24',
     length: 88,
     genre: ['Documentaire', 'Comédie musicale'],
@@ -418,8 +408,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
       { name: 'Dennis White' },
       { name: 'Don Metcalfe' },
     ],
-    coverUrl:
-      '/movies_pictures/73791ef22cb0.jpg',
+    coverUrl: '/movies_pictures/73791ef22cb0.jpg',
     releaseDate: '1988-08-25',
     length: 103,
     genre: ['Documentaire', 'Policier'],
@@ -441,8 +430,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
       { name: 'Pat Boone' },
       { name: 'Rhonda Britton' },
     ],
-    coverUrl:
-      '/movies_pictures/afeb5c664852.jpg',
+    coverUrl: '/movies_pictures/afeb5c664852.jpg',
     releaseDate: '1989-12-20',
     length: 91,
     genre: ['Documentaire', 'Comédie'],
@@ -464,8 +452,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
       { name: 'Willi Ninja' },
       { name: 'Venus Xtravaganza' },
     ],
-    coverUrl:
-      '/movies_pictures/80ee1c2215ff.jpg',
+    coverUrl: '/movies_pictures/80ee1c2215ff.jpg',
     releaseDate: '1991-03-13',
     length: 78,
     genre: ['Documentaire'],
@@ -487,8 +474,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
       { name: 'Maxon Crumb' },
       { name: 'Robert Hughes' },
     ],
-    coverUrl:
-      '/movies_pictures/72f3a3d5dfb3.jpg',
+    coverUrl: '/movies_pictures/72f3a3d5dfb3.jpg',
     releaseDate: '1994-04-22',
     length: 119,
     genre: ['Documentaire', 'Biographie'],
@@ -531,7 +517,8 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
     length: 80,
     genre: ['Documentaire'],
     saga: '',
-    description: 'Plongée macroscopique dans la vie des insectes d\'une prairie, filmée comme une épopée miniature.',
+    description:
+      "Plongée macroscopique dans la vie des insectes d'une prairie, filmée comme une épopée miniature.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -547,8 +534,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
       { name: 'Omara Portuondo' },
       { name: 'Ry Cooder' },
     ],
-    coverUrl:
-      '/movies_pictures/d81eb109d905.jpg',
+    coverUrl: '/movies_pictures/d81eb109d905.jpg',
     releaseDate: '1999-06-04',
     length: 105,
     genre: ['Documentaire', 'Comédie musicale'],
@@ -564,8 +550,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
     title: 'Le Peuple migrateur',
     director: 'Jacques Perrin',
     actors: [{ name: 'Jacques Perrin' }, { name: 'Philippe Labro' }],
-    coverUrl:
-      '/movies_pictures/10197fa675af.jpg',
+    coverUrl: '/movies_pictures/10197fa675af.jpg',
     releaseDate: '2001-12-12',
     length: 89,
     genre: ['Documentaire'],
@@ -581,8 +566,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
     title: 'Être et avoir',
     director: 'Nicolas Philibert',
     actors: [{ name: 'Georges Lopez' }],
-    coverUrl:
-      '/movies_pictures/56d1af999aea.jpg',
+    coverUrl: '/movies_pictures/56d1af999aea.jpg',
     releaseDate: '2002-08-28',
     length: 104,
     genre: ['Documentaire'],
@@ -608,13 +592,12 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
     length: 120,
     genre: ['Documentaire'],
     saga: '',
-    description: 'Michael Moore interroge la culture des armes aux États-Unis à partir de la fusillade de Columbine.',
+    description:
+      'Michael Moore interroge la culture des armes aux États-Unis à partir de la fusillade de Columbine.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_DOCUMENTARY, year: 2003 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_DOCUMENTARY, year: 2003 }],
   },
   {
     title: 'Capturing the Friedmans',
@@ -626,8 +609,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
       { name: 'David Friedman' },
       { name: 'Seth Friedman' },
     ],
-    coverUrl:
-      '/movies_pictures/36ff41d646e4.jpg',
+    coverUrl: '/movies_pictures/36ff41d646e4.jpg',
     releaseDate: '2003-05-30',
     length: 107,
     genre: ['Documentaire'],
@@ -649,8 +631,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
       { name: 'Joe Simpson' },
       { name: 'Simon Yates' },
     ],
-    coverUrl:
-      '/movies_pictures/4c0d92fa9bfa.jpg',
+    coverUrl: '/movies_pictures/4c0d92fa9bfa.jpg',
     releaseDate: '2003-11-21',
     length: 106,
     genre: ['Documentaire', 'Aventure'],
@@ -698,14 +679,13 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
       { name: 'Lisa Ganjhu' },
       { name: 'Stephen Siegel' },
     ],
-    coverUrl:
-      '/movies_pictures/1dda743d3c86.jpg',
+    coverUrl: '/movies_pictures/1dda743d3c86.jpg',
     releaseDate: '2004-05-07',
     length: 100,
     genre: ['Documentaire', 'Comédie'],
     saga: '',
     description:
-      'Morgan Spurlock se nourrit exclusivement de McDonald\'s pendant 30 jours pour mesurer les effets sur sa santé.',
+      "Morgan Spurlock se nourrit exclusivement de McDonald's pendant 30 jours pour mesurer les effets sur sa santé.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -728,7 +708,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
     genre: ['Documentaire'],
     saga: '',
     description:
-      "Pamphlet de Michael Moore sur George W. Bush, le 11-Septembre et la guerre en Irak.",
+      'Pamphlet de Michael Moore sur George W. Bush, le 11-Septembre et la guerre en Irak.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -742,8 +722,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
       { name: 'Raphael Arison' },
       { name: 'Msafiri' },
     ],
-    coverUrl:
-      '/movies_pictures/dc38b005e5b0.jpg',
+    coverUrl: '/movies_pictures/dc38b005e5b0.jpg',
     releaseDate: '2004-09-01',
     length: 107,
     genre: ['Documentaire'],
@@ -772,13 +751,12 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
     length: 80,
     genre: ['Documentaire'],
     saga: '',
-    description: 'Sur la banquise antarctique, le cycle de vie des manchots empereurs, entre migration, reproduction et survie.',
+    description:
+      'Sur la banquise antarctique, le cycle de vie des manchots empereurs, entre migration, reproduction et survie.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_DOCUMENTARY, year: 2006 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_DOCUMENTARY, year: 2006 }],
   },
   {
     title: 'Enron : The Smartest Guys in the Room',
@@ -790,8 +768,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
       { name: 'Andrew Fastow' },
       { name: 'Sherron Watkins' },
     ],
-    coverUrl:
-      '/movies_pictures/cf522a50438c.jpg',
+    coverUrl: '/movies_pictures/cf522a50438c.jpg',
     releaseDate: '2005-04-22',
     length: 110,
     genre: ['Documentaire'],
@@ -838,7 +815,8 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
     length: 40,
     genre: ['Documentaire'],
     saga: '',
-    description: 'Documentaire immersif retraçant les missions Apollo et les premiers pas de l\'homme sur la Lune, entre archives et reconstitutions.',
+    description:
+      "Documentaire immersif retraçant les missions Apollo et les premiers pas de l'homme sur la Lune, entre archives et reconstitutions.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -854,8 +832,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
       { name: 'Jewel Palovak' },
       { name: 'Franc Fallico' },
     ],
-    coverUrl:
-      '/movies_pictures/029678dd7f9a.jpg',
+    coverUrl: '/movies_pictures/029678dd7f9a.jpg',
     releaseDate: '2005-08-12',
     length: 103,
     genre: ['Documentaire', 'Biographie'],
@@ -883,7 +860,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
     genre: ['Documentaire'],
     saga: '',
     description:
-      'Al Gore présente les enjeux du réchauffement climatique à travers conférences, données et appels à l\'action.',
+      "Al Gore présente les enjeux du réchauffement climatique à travers conférences, données et appels à l'action.",
     fromEntity: {
       entityType: 'book',
       title: 'An Inconvenient Truth',
@@ -905,8 +882,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
       { name: 'Linda Peeno' },
       { name: 'Billy Bob Thornton' },
     ],
-    coverUrl:
-      '/movies_pictures/6512caf19803.jpg',
+    coverUrl: '/movies_pictures/6512caf19803.jpg',
     releaseDate: '2007-06-22',
     length: 123,
     genre: ['Documentaire'],
@@ -928,8 +904,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
       { name: 'Lars Ulrich' },
       { name: 'Slash' },
     ],
-    coverUrl:
-      '/movies_pictures/94ab6f0ed5e0.jpg',
+    coverUrl: '/movies_pictures/94ab6f0ed5e0.jpg',
     releaseDate: '2008-01-18',
     length: 81,
     genre: ['Documentaire', 'Comédie musicale', 'Biographie', 'Comédie'],
@@ -977,8 +952,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
       { name: 'Barbara Kowalcyk' },
       { name: 'Carole Morison' },
     ],
-    coverUrl:
-      '/movies_pictures/7e52ded4379c.jpg',
+    coverUrl: '/movies_pictures/7e52ded4379c.jpg',
     releaseDate: '2008-09-07',
     length: 94,
     genre: ['Documentaire'],
@@ -1004,8 +978,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
       { name: 'Chris Marker' },
       { name: 'Jacques Demy' },
     ],
-    coverUrl:
-      '/movies_pictures/cfb3c3be80c9.jpg',
+    coverUrl: '/movies_pictures/cfb3c3be80c9.jpg',
     releaseDate: '2008-12-17',
     length: 110,
     genre: ['Documentaire', 'Biographie'],
@@ -1030,7 +1003,8 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
     length: 120,
     genre: ['Documentaire'],
     saga: '',
-    description: 'Survol de la planète et alerte écologique sur l\'impact de l\'humanité sur les écosystèmes, narré par Yann Arthus-Bertrand.',
+    description:
+      "Survol de la planète et alerte écologique sur l'impact de l'humanité sur les écosystèmes, narré par Yann Arthus-Bertrand.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1075,7 +1049,8 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
     length: 111,
     genre: ['Documentaire', 'Comédie musicale'],
     saga: '',
-    description: 'Film construit à partir des répétitions de Michael Jackson pour sa série de concerts This Is It, interrompue par sa mort.',
+    description:
+      'Film construit à partir des répétitions de Michael Jackson pour sa série de concerts This Is It, interrompue par sa mort.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1090,7 +1065,8 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
     length: 104,
     genre: ['Documentaire'],
     saga: '',
-    description: 'Ode visuelle aux océans et à leurs habitants, filmée à travers le monde pour révéler la beauté et la fragilité du milieu marin.',
+    description:
+      'Ode visuelle aux océans et à leurs habitants, filmée à travers le monde pour révéler la beauté et la fragilité du milieu marin.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1106,8 +1082,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
       { name: 'Invader' },
       { name: 'Ron English' },
     ],
-    coverUrl:
-      '/movies_pictures/6242f095037f.png',
+    coverUrl: '/movies_pictures/6242f095037f.png',
     releaseDate: '2010-04-16',
     length: 87,
     genre: ['Documentaire', 'Comédie'],
@@ -1128,7 +1103,8 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
     length: 108,
     genre: ['Documentaire'],
     saga: '',
-    description: 'Analyse de la crise financière de 2008, de la dérégulation aux conflits d\'intérêts qui ont mené à l\'effondrement mondial.',
+    description:
+      "Analyse de la crise financière de 2008, de la dérégulation aux conflits d'intérêts qui ont mené à l'effondrement mondial.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1144,8 +1120,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
       { name: 'Miguel Cortez' },
       { name: 'Misha Pemble-Belkin' },
     ],
-    coverUrl:
-      '/movies_pictures/888e16fc87dc.jpg',
+    coverUrl: '/movies_pictures/888e16fc87dc.jpg',
     releaseDate: '2010-06-25',
     length: 93,
     genre: ['Documentaire', 'Guerre'],
@@ -1211,8 +1186,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
       { name: 'Masuhiro Yamamoto' },
       { name: 'Yamamoto-san' },
     ],
-    coverUrl:
-      '/movies_pictures/c558c918634b.jpg',
+    coverUrl: '/movies_pictures/c558c918634b.jpg',
     releaseDate: '2011-06-11',
     length: 81,
     genre: ['Documentaire', 'Biographie'],
@@ -1241,7 +1215,8 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
     length: 90,
     genre: ['Documentaire'],
     saga: '',
-    description: 'Documentaire sur J. K. Rowling et la genèse de Harry Potter, de l\'écriture à l\'engouement mondial.',
+    description:
+      "Documentaire sur J. K. Rowling et la genèse de Harry Potter, de l'écriture à l'engouement mondial.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1257,8 +1232,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
       { name: 'Charlie Parker' },
       { name: 'Bruce Sanborn' },
     ],
-    coverUrl:
-      '/movies_pictures/c28c70cb0852.jpg',
+    coverUrl: '/movies_pictures/c28c70cb0852.jpg',
     releaseDate: '2012-07-13',
     length: 99,
     genre: ['Documentaire', 'Thriller'],
@@ -1302,8 +1276,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
       { name: 'Susy Buchan' },
       { name: 'Mark Polley' },
     ],
-    coverUrl:
-      '/movies_pictures/7e9b40582ee0.jpg',
+    coverUrl: '/movies_pictures/7e9b40582ee0.jpg',
     releaseDate: '2012-08-29',
     length: 108,
     genre: ['Documentaire', 'Biographie'],
@@ -1347,8 +1320,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
       { name: 'Dean Gomersall' },
       { name: 'Jeffrey Ventre' },
     ],
-    coverUrl:
-      '/movies_pictures/ed9909fc214e.jpg',
+    coverUrl: '/movies_pictures/ed9909fc214e.jpg',
     releaseDate: '2013-07-19',
     length: 83,
     genre: ['Documentaire'],
@@ -1369,8 +1341,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
       { name: 'Juliano Ribeiro Salgado' },
       { name: 'Wim Wenders' },
     ],
-    coverUrl:
-      '/movies_pictures/3cbce64f6f13.jpg',
+    coverUrl: '/movies_pictures/3cbce64f6f13.jpg',
     releaseDate: '2014-05-20',
     length: 110,
     genre: ['Documentaire', 'Biographie'],
@@ -1391,8 +1362,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
       { name: 'Inong' },
       { name: 'Amir Siahaan' },
     ],
-    coverUrl:
-      '/movies_pictures/6374006251cf.jpg',
+    coverUrl: '/movies_pictures/6374006251cf.jpg',
     releaseDate: '2014-08-28',
     length: 103,
     genre: ['Documentaire'],
@@ -1443,7 +1413,8 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
     length: 52,
     genre: ['Documentaire'],
     saga: '',
-    description: 'Making-of d\'Interstellar : Christopher Nolan, l\'équipe et les scientifiques derrière le voyage spatial du film.',
+    description:
+      "Making-of d'Interstellar : Christopher Nolan, l'équipe et les scientifiques derrière le voyage spatial du film.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1459,8 +1430,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
       { name: 'Mike Rinder' },
       { name: 'Marty Rathbun' },
     ],
-    coverUrl:
-      '/movies_pictures/a606220ecf80.jpg',
+    coverUrl: '/movies_pictures/a606220ecf80.jpg',
     releaseDate: '2015-01-25',
     length: 119,
     genre: ['Documentaire'],
@@ -1502,8 +1472,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
     title: 'Human',
     director: 'Yann Arthus-Bertrand',
     actors: [{ name: 'Yann Arthus-Bertrand' }],
-    coverUrl:
-      '/movies_pictures/b87edacc42e4.jpg',
+    coverUrl: '/movies_pictures/b87edacc42e4.jpg',
     releaseDate: '2015-09-12',
     length: 188,
     genre: ['Documentaire'],
@@ -1525,8 +1494,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
       { name: 'Vandana Shiva' },
       { name: 'Pierre Rabhi' },
     ],
-    coverUrl:
-      '/movies_pictures/fc53c0aa0f80.jpg',
+    coverUrl: '/movies_pictures/fc53c0aa0f80.jpg',
     releaseDate: '2015-12-02',
     length: 118,
     genre: ['Documentaire'],
@@ -1570,8 +1538,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
       { name: 'Newt Gingrich' },
       { name: 'Cory Booker' },
     ],
-    coverUrl:
-      '/movies_pictures/9016f90fe8dd.jpg',
+    coverUrl: '/movies_pictures/9016f90fe8dd.jpg',
     releaseDate: '2016-10-07',
     length: 100,
     genre: ['Documentaire', 'Historique'],
@@ -1661,8 +1628,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
       { name: 'Hugo van Lawick' },
       { name: 'Brett Morgen' },
     ],
-    coverUrl:
-      '/movies_pictures/772ce4e26b35.jpg',
+    coverUrl: '/movies_pictures/772ce4e26b35.jpg',
     releaseDate: '2017-10-20',
     length: 90,
     genre: ['Documentaire', 'Biographie'],
@@ -1706,8 +1672,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
       { name: 'Lawrence Wright' },
       { name: 'Peter Neubauer' },
     ],
-    coverUrl:
-      '/movies_pictures/05844403343e.jpg',
+    coverUrl: '/movies_pictures/05844403343e.jpg',
     releaseDate: '2018-06-29',
     length: 96,
     genre: ['Documentaire'],
@@ -1728,8 +1693,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
       { name: 'Keire Johnson' },
       { name: 'Nina Caputo' },
     ],
-    coverUrl:
-      '/movies_pictures/228a84f8b970.jpg',
+    coverUrl: '/movies_pictures/228a84f8b970.jpg',
     releaseDate: '2018-08-17',
     length: 93,
     genre: ['Documentaire'],
@@ -1789,8 +1753,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
       { name: 'Gabrielle Bevilaqua' },
       { name: 'Marc Weinstein' },
     ],
-    coverUrl:
-      '/movies_pictures/932a08b445c6.jpg',
+    coverUrl: '/movies_pictures/932a08b445c6.jpg',
     releaseDate: '2019-01-18',
     length: 97,
     genre: ['Documentaire'],
@@ -1834,8 +1797,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
       { name: 'Ljutvie Sam' },
       { name: 'Mustafa Sam' },
     ],
-    coverUrl:
-      '/movies_pictures/22c940efb83b.jpg',
+    coverUrl: '/movies_pictures/22c940efb83b.jpg',
     releaseDate: '2019-07-26',
     length: 87,
     genre: ['Documentaire'],
@@ -1877,8 +1839,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
       { name: 'Hamza Al-Kateab' },
       { name: 'Sama Al-Kateab' },
     ],
-    coverUrl:
-      '/movies_pictures/98f3e7e24fd9.jpg',
+    coverUrl: '/movies_pictures/98f3e7e24fd9.jpg',
     releaseDate: '2019-09-13',
     length: 100,
     genre: ['Documentaire', 'Guerre'],
@@ -1907,7 +1868,8 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
     length: 82,
     genre: ['Documentaire'],
     saga: '',
-    description: 'Documentaire sur la tournée et l\'univers de Nekfeu autour de l\'album Les Étoiles Vagabondes.',
+    description:
+      "Documentaire sur la tournée et l'univers de Nekfeu autour de l'album Les Étoiles Vagabondes.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1951,7 +1913,8 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
     length: 94,
     genre: ['Documentaire'],
     saga: '',
-    description: 'Enquête sur l\'économie de l\'attention des réseaux sociaux et la manipulation algorithmique des comportements humains.',
+    description:
+      "Enquête sur l'économie de l'attention des réseaux sociaux et la manipulation algorithmique des comportements humains.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1961,8 +1924,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
     title: 'Gunda',
     director: 'Viktor Kossakovsky',
     actors: [{ name: 'Gunda' }],
-    coverUrl:
-      '/movies_pictures/3b428175fa29.jpg',
+    coverUrl: '/movies_pictures/3b428175fa29.jpg',
     releaseDate: '2020-11-11',
     length: 93,
     genre: ['Documentaire'],
@@ -2013,7 +1975,8 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
     length: 109,
     genre: ['Documentaire', 'Biographie'],
     saga: '',
-    description: 'À travers des décennies d\'archives personnelles, Val Kilmer raconte sa carrière, sa maladie et sa relation à Hollywood.',
+    description:
+      "À travers des décennies d'archives personnelles, Val Kilmer raconte sa carrière, sa maladie et sa relation à Hollywood.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2029,8 +1992,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
       { name: 'Narongsak Osatanakorn' },
       { name: 'Ekkaphon Chanthawong' },
     ],
-    coverUrl:
-      '/movies_pictures/f70120630518.jpeg',
+    coverUrl: '/movies_pictures/f70120630518.jpeg',
     releaseDate: '2021-10-08',
     length: 107,
     genre: ['Documentaire', 'Aventure'],
@@ -2050,8 +2012,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
       { name: 'Vincent Munier' },
       { name: 'Marie Amiguet' },
     ],
-    coverUrl:
-      '/movies_pictures/27cea9c0c444.jpg',
+    coverUrl: '/movies_pictures/27cea9c0c444.jpg',
     releaseDate: '2021-12-15',
     length: 92,
     genre: ['Documentaire', 'Aventure'],
@@ -2106,7 +2067,8 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
     length: 91,
     genre: ['Documentaire'],
     saga: '',
-    description: 'Portrait de la star brésilienne Anitta, entre succès international, identité et face plus intime de l\'artiste.',
+    description:
+      "Portrait de la star brésilienne Anitta, entre succès international, identité et face plus intime de l'artiste.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2121,8 +2083,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
       { name: 'Miranda July' },
       { name: 'Sara Dosa' },
     ],
-    coverUrl:
-      '/movies_pictures/af3f3909d1e3.jpg',
+    coverUrl: '/movies_pictures/af3f3909d1e3.jpg',
     releaseDate: '2022-07-06',
     length: 93,
     genre: ['Documentaire', 'Romance', 'Biographie'],
@@ -2144,8 +2105,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
       { name: 'Iggy Pop' },
       { name: 'Brian Eno' },
     ],
-    coverUrl:
-      '/movies_pictures/e3adb058cd86.jpg',
+    coverUrl: '/movies_pictures/e3adb058cd86.jpg',
     releaseDate: '2022-09-16',
     length: 135,
     genre: ['Documentaire', 'Comédie musicale', 'Biographie'],
@@ -2188,7 +2148,8 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
     length: 113,
     genre: ['Documentaire'],
     saga: '',
-    description: 'Portrait d\'Anita Pallenberg, muse et actrice liée aux Rolling Stones, entre rock, style et tourments des sixties.',
+    description:
+      "Portrait d'Anita Pallenberg, muse et actrice liée aux Rolling Stones, entre rock, style et tourments des sixties.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2206,8 +2167,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
       { name: 'Noelle Perdue' },
       { name: 'Wolf Hudson' },
     ],
-    coverUrl:
-      '/movies_pictures/6c0e44af5e26.jpg',
+    coverUrl: '/movies_pictures/6c0e44af5e26.jpg',
     releaseDate: '2023-03-15',
     length: 94,
     genre: ['Documentaire'],
@@ -2229,8 +2189,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
       { name: 'Christopher Lloyd' },
       { name: 'Wendy Crewson' },
     ],
-    coverUrl:
-      '/movies_pictures/554482081db5.jpeg',
+    coverUrl: '/movies_pictures/554482081db5.jpeg',
     releaseDate: '2023-05-12',
     length: 95,
     genre: ['Documentaire', 'Biographie'],
@@ -2294,7 +2253,8 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
     length: 95,
     genre: ['Documentaire'],
     saga: '',
-    description: 'Portrait documentaire de Sylvester Stallone, de ses débuts difficiles à Hollywood jusqu\'à Rocky et sa carrière d\'icône de l\'action.',
+    description:
+      "Portrait documentaire de Sylvester Stallone, de ses débuts difficiles à Hollywood jusqu'à Rocky et sa carrière d'icône de l'action.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2329,8 +2289,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
       { name: 'Habib Ahanda' },
       { name: 'José Pliya' },
     ],
-    coverUrl:
-      '/movies_pictures/8bc6b7f6b9ca.jpg',
+    coverUrl: '/movies_pictures/8bc6b7f6b9ca.jpg',
     releaseDate: '2024-09-18',
     length: 68,
     genre: ['Documentaire'],
@@ -2373,7 +2332,8 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
     length: 90,
     genre: ['Documentaire'],
     saga: '',
-    description: 'Documentaire sur un médecin engagé auprès des populations vulnérables, entre vocation humanitaire et réalité du terrain.',
+    description:
+      'Documentaire sur un médecin engagé auprès des populations vulnérables, entre vocation humanitaire et réalité du terrain.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2384,13 +2344,13 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
     title: "L'Ascension brisée de Moriah Wilson",
     director: 'Marina Zenovich',
     actors: [{ name: 'Moriah Wilson' }],
-    coverUrl: '',
+    coverUrl: '/movies_pictures/53401f856f24.jpg',
     releaseDate: '2026-04-03',
     length: 97,
     genre: ['Documentaire'],
     saga: '',
     description:
-      "Documentaire sur la vie de la cycliste Moriah Wilson, son meurtre et la traque de la personne reconnue coupable.",
+      'Documentaire sur la vie de la cycliste Moriah Wilson, son meurtre et la traque de la personne reconnue coupable.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
