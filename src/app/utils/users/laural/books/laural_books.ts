@@ -1107,23 +1107,6 @@ export const lauralBooks: UserBook[] = [
   },
 
   {
-    title: "L'empire des ouragans",
-    author: 'Alexiane de Lys',
-    firstReadDate: '2024-10-11',
-    lastReadDate: '2024-10-11',
-    otherReadDates: [],
-    rating: 4,
-    reading: false,
-    readTimes: 1,
-    owned: true,
-    borrowed: '',
-    loaned: '',
-    readPriority: 1,
-    wantToReadAgain: false,
-    ratingComment: '',
-  },
-
-  {
     title: "L'Encyclopédie féerique d'Emily Wilde",
     author: 'Heather Fawcett',
     firstReadDate: '',
@@ -2605,10 +2588,10 @@ export const lauralBooks: UserBook[] = [
   {
     title: "L'Empire des ouragans (L'Empire des ouragans, #1)",
     author: 'Alexiane de Lys',
-    firstReadDate: '',
-    lastReadDate: '',
+    firstReadDate: '2024-10-11',
+    lastReadDate: '2024-10-11',
     otherReadDates: [],
-    rating: 3.75,
+    rating: 4,
     reading: false,
     readTimes: 1,
     owned: false,

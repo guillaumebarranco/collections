@@ -5803,28 +5803,6 @@ export const baseMoviesHorreur: BaseMovie[] = [
     oscars: [],
   },
   {
-    title: 'Héréditaire',
-    director: 'Ari Aster',
-    actors: [
-      { name: 'Toni Collette' },
-      { name: 'Alex Wolff' },
-      { name: 'Milly Shapiro' },
-      { name: 'Gabriel Byrne' },
-      { name: 'Ann Dowd' },
-    ],
-    coverUrl: '/movies_pictures/4edc7f2bad7e.jpg',
-    releaseDate: '2018-01-21',
-    length: 127,
-    genre: ['Horreur', 'Drame'],
-    saga: '',
-    description:
-      'Une famille déchirée par le deuil découvre que leur lignée est liée à un culte démoniaque visant les enfants.',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
     title: 'Gonjiam : Hôpital hanté',
     director: 'Jung Bum-shik',
     actors: [

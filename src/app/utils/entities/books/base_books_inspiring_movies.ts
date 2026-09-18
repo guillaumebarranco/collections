@@ -170,10 +170,10 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Khatyn',
     author: 'Ales Adamovich',
-    coverUrl: '',
+    coverUrl: '/books_pictures/806b0b61c8ba.jpg',
     pages: 330,
     genre: ['Fiction historique'],
-    saga: '/books_pictures/806b0b61c8ba.jpg',
+    saga: '',
     sagaOrder: 0,
     sagaFinished: false,
     releaseDate: '1972-01-01',
@@ -2645,8 +2645,7 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'The Sing-song Girls of Shanghai',
     author: 'Han Bangqing',
-    coverUrl:
-      '/books_pictures/3dda4c21b7f9.jpg',
+    coverUrl: '/books_pictures/3dda4c21b7f9.jpg',
     pages: 592,
     genre: ['Classiques', 'Littérature'],
     saga: '',
@@ -2661,7 +2660,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Intimacy',
     author: 'Hanif Kureishi',
-    coverUrl: '',
+    coverUrl:
+      'https://m.media-amazon.com/images/I/71ncbhpduqL._AC_UF1000,1000_QL80_.jpg',
     pages: 124,
     genre: ['Littérature'],
     saga: '',
