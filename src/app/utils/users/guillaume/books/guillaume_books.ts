@@ -1884,4 +1884,21 @@ export const guillaumeBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: "",
   },
+
+  {
+    title: "Pourquoi Trump ne mange pas de Tofu",
+    author: "Suzanne Zaccour",
+    firstReadDate: "2026-09-19",
+    lastReadDate: "2026-09-19",
+    otherReadDates: [],
+    rating: 3.75,
+    reading: false,
+    readTimes: 1,
+    owned: true,
+    borrowed: "",
+    loaned: "",
+    readPriority: 3,
+    wantToReadAgain: false,
+    ratingComment: "",
+  },
 ];
