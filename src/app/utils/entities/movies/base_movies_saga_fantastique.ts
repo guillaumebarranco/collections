@@ -26,7 +26,8 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     length: 152,
     genre: ['Fantastique'],
     saga: 'Wizarding World',
-    description: 'Harry Potter découvre qu\'il est un sorcier et entre à Poudlard, où il affronte Voldemort pour la première fois depuis sa naissance.',
+    description:
+      "Harry Potter découvre qu'il est un sorcier et entre à Poudlard, où il affronte Voldemort pour la première fois depuis sa naissance.",
     fromEntity: {
       entityType: 'book',
       title: "Harry Potter à l'école des sorciers",
@@ -61,7 +62,8 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     length: 161,
     genre: ['Fantastique'],
     saga: 'Wizarding World',
-    description: 'Harry revient à Poudlard où des élèves sont pétrifiés par une créature libérée depuis la Chambre des Secrets.',
+    description:
+      'Harry revient à Poudlard où des élèves sont pétrifiés par une créature libérée depuis la Chambre des Secrets.',
     fromEntity: {
       entityType: 'book',
       title: 'Harry Potter et la Chambre des secrets',
@@ -102,7 +104,8 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     length: 142,
     genre: ['Fantastique'],
     saga: 'Wizarding World',
-    description: 'Harry découvre que Sirius Black, évadé d\'Azkaban, est lié au meurtre de ses parents et à la vérité sur Pettigrew.',
+    description:
+      "Harry découvre que Sirius Black, évadé d'Azkaban, est lié au meurtre de ses parents et à la vérité sur Pettigrew.",
     fromEntity: {
       entityType: 'book',
       title: "Harry Potter et le Prisonnier d'Azkaban",
@@ -143,7 +146,8 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     length: 157,
     genre: ['Fantastique'],
     saga: 'Wizarding World',
-    description: 'Harry est mystérieusement sélectionné pour le Tournoi des Trois Sorciers, où un complot le mène au cœeur d\'un piège de Voldemort.',
+    description:
+      "Harry est mystérieusement sélectionné pour le Tournoi des Trois Sorciers, où un complot le mène au cœeur d'un piège de Voldemort.",
     fromEntity: {
       entityType: 'book',
       title: 'Harry Potter et la Coupe de feu',
@@ -190,7 +194,8 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     length: 138,
     genre: ['Fantastique'],
     saga: 'Wizarding World',
-    description: 'Harry forme l\'Armée de Dumbledore pour combattre les Mangemorts et affronte les mensonges du Ministère de la Magie.',
+    description:
+      "Harry forme l'Armée de Dumbledore pour combattre les Mangemorts et affronte les mensonges du Ministère de la Magie.",
     fromEntity: {
       entityType: 'book',
       title: "Harry Potter et l'Ordre du Phénix",
@@ -228,7 +233,8 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     length: 153,
     genre: ['Fantastique'],
     saga: 'Wizarding World',
-    description: 'Harry découvre le passé de Voldemort avec Dumbledore tandis que Drago Malfoy exécute une mission pour le Seigneur des Ténèbres.',
+    description:
+      'Harry découvre le passé de Voldemort avec Dumbledore tandis que Drago Malfoy exécute une mission pour le Seigneur des Ténèbres.',
     fromEntity: {
       entityType: 'book',
       title: 'Harry Potter et le Prince de sang-mêlé',
@@ -269,7 +275,8 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     length: 146,
     genre: ['Fantastique'],
     saga: 'Wizarding World',
-    description: 'Harry, Ron et Hermione quittent Poudlard pour détruire les Horcruxes de Voldemort, traqués par les forces du mal.',
+    description:
+      'Harry, Ron et Hermione quittent Poudlard pour détruire les Horcruxes de Voldemort, traqués par les forces du mal.',
     fromEntity: {
       entityType: 'book',
       title: 'Harry Potter et les Reliques de la Mort',
@@ -310,7 +317,8 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     length: 130,
     genre: ['Fantastique'],
     saga: 'Wizarding World',
-    description: 'La bataille finale de Poudlard oppose les sorciers au régime de Voldemort alors que Harry affronte son destin.',
+    description:
+      'La bataille finale de Poudlard oppose les sorciers au régime de Voldemort alors que Harry affronte son destin.',
     fromEntity: {
       entityType: 'book',
       title: 'Harry Potter et les Reliques de la Mort',
@@ -337,7 +345,8 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     length: 133,
     genre: ['Fantastique'],
     saga: 'Wizarding World',
-    description: 'Le magizoologiste Newt Scamander perd ses créatures magiques à New York et découvre une obscurial liée à un complot sorcier.',
+    description:
+      'Le magizoologiste Newt Scamander perd ses créatures magiques à New York et découvre une obscurial liée à un complot sorcier.',
     fromEntity: {
       entityType: 'book',
       title: "Harry Potter à l'école des sorciers",
@@ -345,9 +354,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 2017 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 2017 }],
   },
   {
     title: 'Les Animaux Fantastiques 2 : Les crimes de Grindelwald',
@@ -366,7 +373,8 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     length: 134,
     genre: ['Fantastique'],
     saga: 'Wizarding World',
-    description: 'Grindelwald s\'échappe et cherche à recruter Credence Barebone pendant que Dumbledore envoie Newt enquêter en Europe.',
+    description:
+      "Grindelwald s'échappe et cherche à recruter Credence Barebone pendant que Dumbledore envoie Newt enquêter en Europe.",
     fromEntity: {
       entityType: 'book',
       title: "Harry Potter à l'école des sorciers",
@@ -393,7 +401,8 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     length: 142,
     genre: ['Fantastique'],
     saga: 'Wizarding World',
-    description: 'Dumbledore envoie Newt et son équipe arrêter Grindelwald avant qu\'il ne déclenche une guerre entre sorciers et Moldus.',
+    description:
+      "Dumbledore envoie Newt et son équipe arrêter Grindelwald avant qu'il ne déclenche une guerre entre sorciers et Moldus.",
     fromEntity: {
       entityType: 'book',
       title: "Harry Potter à l'école des sorciers",
@@ -434,7 +443,8 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     length: 121,
     genre: ['Action'],
     saga: 'Underworld',
-    description: 'La vampire Selene découvre un complot de son clan impliquant les Lycans et un humain, Michael, qui pourrait être la clé d\'une guerre.',
+    description:
+      "La vampire Selene découvre un complot de son clan impliquant les Lycans et un humain, Michael, qui pourrait être la clé d'une guerre.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
@@ -471,7 +481,8 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     length: 106,
     genre: ['Action'],
     saga: 'Underworld',
-    description: 'Selene et Michael affrontent les vampires anciens et les Lycans pour empêcher la libération de William, premier Lycan.',
+    description:
+      'Selene et Michael affrontent les vampires anciens et les Lycans pour empêcher la libération de William, premier Lycan.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
@@ -508,7 +519,8 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     length: 92,
     genre: ['Action'],
     saga: 'Underworld',
-    description: 'Origines du conflit : le vampire Viktor asservit le Lycan Lucian, dont la révolte déclenche une guerre séculaire.',
+    description:
+      'Origines du conflit : le vampire Viktor asservit le Lycan Lucian, dont la révolte déclenche une guerre séculaire.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
@@ -545,7 +557,8 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     length: 88,
     genre: ['Action'],
     saga: 'Underworld',
-    description: 'Douze ans après, Selene s\'échappe d\'une cryogénisation et découvre que sa fille est la clé d\'une guerre entre humains et immortels.',
+    description:
+      "Douze ans après, Selene s'échappe d'une cryogénisation et découvre que sa fille est la clé d'une guerre entre humains et immortels.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
@@ -582,7 +595,8 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     length: 91,
     genre: ['Action', 'Fantastique'],
     saga: 'Underworld',
-    description: 'Selene est traquée par les vampires et les Lycans alors qu\'elle cherche à mettre fin au conflit millénaire entre les deux races.',
+    description:
+      "Selene est traquée par les vampires et les Lycans alors qu'elle cherche à mettre fin au conflit millénaire entre les deux races.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
@@ -619,7 +633,8 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     length: 122,
     genre: ['Fantastique'],
     saga: 'Twilight',
-    description: 'Bella Swan tombe amoureuse du vampire Edward Cullen à Forks, attirant l\'attention d\'un clan de vampires nomades dangereux.',
+    description:
+      "Bella Swan tombe amoureuse du vampire Edward Cullen à Forks, attirant l'attention d'un clan de vampires nomades dangereux.",
     fromEntity: {
       entityType: 'book',
       title: 'Fascination',
@@ -661,7 +676,8 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     length: 130,
     genre: ['Fantastique'],
     saga: 'Twilight',
-    description: 'Edward quitte Bella pour la protéger, mais elle se rapproche de Jacob, un loup-garou lié à une guerre ancestrale avec les vampires.',
+    description:
+      'Edward quitte Bella pour la protéger, mais elle se rapproche de Jacob, un loup-garou lié à une guerre ancestrale avec les vampires.',
     fromEntity: {
       entityType: 'book',
       title: 'Tentation',
@@ -702,7 +718,8 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     length: 124,
     genre: ['Fantastique'],
     saga: 'Twilight',
-    description: 'Bella doit choisir entre Edward et Jacob tandis qu\'une armée de nouveau-nés vampires menace Forks.',
+    description:
+      "Bella doit choisir entre Edward et Jacob tandis qu'une armée de nouveau-nés vampires menace Forks.",
     fromEntity: {
       entityType: 'book',
       title: 'Hésitation',
@@ -730,7 +747,8 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     length: 117,
     genre: ['Fantastique'],
     saga: 'Twilight',
-    description: 'Bella épouse Edward et tombe enceinte d\'un enfant hybride que les Volturi considèrent comme une menace.',
+    description:
+      "Bella épouse Edward et tombe enceinte d'un enfant hybride que les Volturi considèrent comme une menace.",
     fromEntity: {
       entityType: 'book',
       title: 'Révélation',
@@ -758,7 +776,8 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     length: 115,
     genre: ['Fantastique'],
     saga: 'Twilight',
-    description: 'Les Cullen et leurs alliés affrontent les Volturi qui veulent détruire la fille de Bella, Renesmee.',
+    description:
+      'Les Cullen et leurs alliés affrontent les Volturi qui veulent détruire la fille de Bella, Renesmee.',
     fromEntity: {
       entityType: 'book',
       title: 'Révélation',
@@ -799,7 +818,8 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     length: 178,
     genre: ['Fantastique'],
     saga: 'Tolkien',
-    description: 'Frodon Sacquet porte l\'Anneau Unique à travers la Terre du Milieu, accompagné d\'une communauté formée pour le protéger.',
+    description:
+      "Frodon Sacquet porte l'Anneau Unique à travers la Terre du Milieu, accompagné d'une communauté formée pour le protéger.",
     fromEntity: {
       entityType: 'book',
       title: "La Communauté de l'Anneau",
@@ -845,7 +865,8 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     length: 179,
     genre: ['Fantastique'],
     saga: 'Tolkien',
-    description: 'La communauté se disperse : Frodon et Sam poursuivent leur route vers Mordor tandis que les autres défendent le Rohan.',
+    description:
+      'La communauté se disperse : Frodon et Sam poursuivent leur route vers Mordor tandis que les autres défendent le Rohan.',
     fromEntity: {
       entityType: 'book',
       title: 'Les deux tours',
@@ -889,7 +910,8 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     length: 201,
     genre: ['Fantastique'],
     saga: 'Tolkien',
-    description: 'La guerre pour la Terre du Milieu atteint son paroxysme pendant que Frodon et Sam s\'approachent du Mont Destin.',
+    description:
+      "La guerre pour la Terre du Milieu atteint son paroxysme pendant que Frodon et Sam s'approachent du Mont Destin.",
     fromEntity: {
       entityType: 'book',
       title: 'Le retour du roi',
@@ -943,7 +965,8 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     length: 228,
     genre: ['Fantastique'],
     saga: 'Tolkien',
-    description: 'Version étendue du premier volet avec scènes supplémentaires approfondissant les personnages et les intrigues de la Terre du Milieu.',
+    description:
+      'Version étendue du premier volet avec scènes supplémentaires approfondissant les personnages et les intrigues de la Terre du Milieu.',
     fromEntity: {
       entityType: 'book',
       title: "La Communauté de l'Anneau",
@@ -984,7 +1007,8 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     length: 235,
     genre: ['Fantastique'],
     saga: 'Tolkien',
-    description: 'Version étendue du deuxième volet enrichie de scènes supplémentaires sur la communauté dispersée et la bataille du Rohan.',
+    description:
+      'Version étendue du deuxième volet enrichie de scènes supplémentaires sur la communauté dispersée et la bataille du Rohan.',
     fromEntity: {
       entityType: 'book',
       title: 'Les deux tours',
@@ -1025,7 +1049,8 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     length: 264,
     genre: ['Fantastique'],
     saga: 'Tolkien',
-    description: 'Version étendue du troisième volet avec scènes additionnelles sur la bataille de Minas Tirith et la destruction de l\'Anneau.',
+    description:
+      "Version étendue du troisième volet avec scènes additionnelles sur la bataille de Minas Tirith et la destruction de l'Anneau.",
     fromEntity: {
       entityType: 'book',
       title: 'Le retour du roi',
@@ -1052,7 +1077,8 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     length: 77,
     genre: ['Animation', 'Fantastique', 'Jeunesse'],
     saga: 'Tolkien',
-    description: 'Bilbo Sacquet accompagne des nains dans une quête pour récupérer leur trésor gardé par le dragon Smaug.',
+    description:
+      'Bilbo Sacquet accompagne des nains dans une quête pour récupérer leur trésor gardé par le dragon Smaug.',
     fromEntity: {
       entityType: 'book',
       title: 'Bilbo le Hobbit',
@@ -1079,7 +1105,8 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     length: 132,
     genre: ['Animation', 'Fantastique'],
     saga: 'Tolkien',
-    description: 'Adaptation animée de la première moitié de la trilogie de Tolkien, de la Comté à la bataille de Helm.',
+    description:
+      'Adaptation animée de la première moitié de la trilogie de Tolkien, de la Comté à la bataille de Helm.',
     fromEntity: {
       entityType: 'book',
       title: "La Communauté de l'Anneau",
@@ -1120,7 +1147,8 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     length: 98,
     genre: ['Animation', 'Fantastique', 'Jeunesse'],
     saga: 'Tolkien',
-    description: 'Suite animée couvrant la fin de la quête de Frodon et la bataille pour la Terre du Milieu.',
+    description:
+      'Suite animée couvrant la fin de la quête de Frodon et la bataille pour la Terre du Milieu.',
     fromEntity: {
       entityType: 'book',
       title: 'Le retour du roi',
@@ -1156,7 +1184,8 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     length: 134,
     genre: ['Fantastique'],
     saga: 'Tolkien',
-    description: 'Cent ans avant la trilogie, la princesse Héra défend le Rohan contre Wulf, seigneur de guerre qui veut s\'emparer du trône.',
+    description:
+      "Cent ans avant la trilogie, la princesse Héra défend le Rohan contre Wulf, seigneur de guerre qui veut s'emparer du trône.",
     fromEntity: {
       entityType: 'book',
       title: "La Communauté de l'Anneau",
@@ -1197,7 +1226,8 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     length: 169,
     genre: ['Fantastique', 'Aventure'],
     saga: 'Tolkien',
-    description: 'Bilbo Sacquet rejoint Gandalf et treize nains pour reconquérir Erebor, la montagne du dragon Smaug.',
+    description:
+      'Bilbo Sacquet rejoint Gandalf et treize nains pour reconquérir Erebor, la montagne du dragon Smaug.',
     fromEntity: {
       entityType: 'book',
       title: 'Bilbo le Hobbit',
@@ -1238,7 +1268,8 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     length: 161,
     genre: ['Fantastique'],
     saga: 'Tolkien',
-    description: 'La compagnie traverse la Forêt Noire et Laketown pour affronter Smaug dans la Montagne Solitaire.',
+    description:
+      'La compagnie traverse la Forêt Noire et Laketown pour affronter Smaug dans la Montagne Solitaire.',
     fromEntity: {
       entityType: 'book',
       title: 'Bilbo le Hobbit',
@@ -1279,7 +1310,8 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     length: 144,
     genre: ['Fantastique'],
     saga: 'Tolkien',
-    description: 'Smaug attaque Laketown et une bataille éclate entre nains, elfes, hommes et orques pour le contrôle d\'Erebor.',
+    description:
+      "Smaug attaque Laketown et une bataille éclate entre nains, elfes, hommes et orques pour le contrôle d'Erebor.",
     fromEntity: {
       entityType: 'book',
       title: 'Bilbo le Hobbit',
@@ -1322,7 +1354,8 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     length: 140,
     genre: ['Fantastique'],
     saga: '',
-    description: 'Quatre enfants évacués découvrent Narnia, royaume en hiver éternel, et s\'allient au lion Aslan contre la Sorcière Blanche.',
+    description:
+      "Quatre enfants évacués découvrent Narnia, royaume en hiver éternel, et s'allient au lion Aslan contre la Sorcière Blanche.",
     fromEntity: {
       entityType: 'book',
       title:
@@ -1365,7 +1398,8 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     length: 150,
     genre: ['Fantastique', 'Aventure'],
     saga: 'Narnia',
-    description: 'Les Pevensie reviennent à Narnia pour aider le prince Caspian à reprendre le trône usurpé par son oncle Miraz.',
+    description:
+      'Les Pevensie reviennent à Narnia pour aider le prince Caspian à reprendre le trône usurpé par son oncle Miraz.',
     fromEntity: {
       entityType: 'book',
       title: 'Le Monde de Narnia (Tome 4) Le Prince Caspian',
@@ -1397,7 +1431,8 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     length: 117,
     genre: ['Fantastique', 'Aventure'],
     saga: 'Le Monde de Narnia',
-    description: 'Lucy et Edmund, avec leur cousin Eustache, embarquent sur le Passeur d\'Aurore pour retrouver les sept seigneurs exilés.',
+    description:
+      "Lucy et Edmund, avec leur cousin Eustache, embarquent sur le Passeur d'Aurore pour retrouver les sept seigneurs exilés.",
     fromEntity: {
       entityType: 'book',
       title: "Le Monde de Narnia (Tome 5) L'Odyssée du Passeur d'Aurore",
@@ -1433,13 +1468,13 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
         name: 'Penelope Mitchell',
       },
     ],
-    coverUrl:
-      '/movies_pictures/fc7dffb2f2ca.jpg',
+    coverUrl: '/movies_pictures/fc7dffb2f2ca.jpg',
     releaseDate: '2004-04-02',
     length: 122,
     genre: ['Action', 'Fantastique'],
     saga: 'Hellboy',
-    description: 'Hellboy est recruté par une organisation secrète britannique pour affronter la sorcière Nimue, la Blood Queen, qui veut déclencher l\'apocalypse.',
+    description:
+      "Hellboy est recruté par une organisation secrète britannique pour affronter la sorcière Nimue, la Blood Queen, qui veut déclencher l'apocalypse.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
@@ -1471,13 +1506,13 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
         name: 'Luke Goss',
       },
     ],
-    coverUrl:
-      '/movies_pictures/7079cdf512d8.jpg',
+    coverUrl: '/movies_pictures/7079cdf512d8.jpg',
     releaseDate: '2008-07-11',
     length: 120,
     genre: ['Action', 'Fantastique'],
     saga: 'Hellboy',
-    description: 'Hellboy affronte le prince elfe Nuada qui veut réveiller l\'armée dorée des trolls pour détruire l\'humanité.',
+    description:
+      "Hellboy affronte le prince elfe Nuada qui veut réveiller l'armée dorée des trolls pour détruire l'humanité.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
@@ -1514,7 +1549,8 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     length: 121,
     genre: ['Action', 'Fantastique'],
     saga: '',
-    description: 'Hellboy est recruté par une organisation secrète britannique pour affronter la sorcière Nimue, la Blood Queen, qui veut déclencher l\'apocalypse.',
+    description:
+      "Hellboy est recruté par une organisation secrète britannique pour affronter la sorcière Nimue, la Blood Queen, qui veut déclencher l'apocalypse.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
@@ -1524,6 +1560,9 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     title: 'Pirates des Caraïbes : La malédiction du Black Pearl',
     director: 'Gore Verbinski',
     actors: [
+      {
+        name: 'Johnny Depp',
+      },
       {
         name: 'Geoffrey Rush',
       },
@@ -1551,7 +1590,8 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     length: 143,
     genre: ['Aventure', 'Fantastique'],
     saga: 'Pirates des Caraïbes',
-    description: 'Le forgeron Will Turner et le pirate Jack Sparrow affrontent des pirates maudits qui cherchent à briser leur malédiction aztèque.',
+    description:
+      'Le forgeron Will Turner et le pirate Jack Sparrow affrontent des pirates maudits qui cherchent à briser leur malédiction aztèque.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -1561,6 +1601,9 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     title: 'Pirates des Caraïbes 2 : Le Secret du Coffre Maudit',
     director: 'Gore Verbinski',
     actors: [
+      {
+        name: 'Johnny Depp',
+      },
       {
         name: 'Orlando Bloom',
       },
@@ -1588,13 +1631,12 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     length: 151,
     genre: ['Aventure', 'Fantastique'],
     saga: 'Pirates des Caraïbes',
-    description: 'Jack Sparrow doit échapper à une dette de sang avec Davy Jones tandis que Will et Elizabeth cherchent le coffre contenant son cœur.',
+    description:
+      'Jack Sparrow doit échapper à une dette de sang avec Davy Jones tandis que Will et Elizabeth cherchent le coffre contenant son cœur.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2007 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2007 }],
   },
   {
     title: "Pirates des Caraïbes 3 : Jusqu'au Bout du Monde",
@@ -1613,7 +1655,8 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     length: 169,
     genre: ['Aventure', 'Fantastique'],
     saga: 'Pirates des Caraïbes',
-    description: 'Will, Elizabeth et Barbossa unissent leurs forces pour sauver Jack des enfers et affronter la Compagnie de la Corne de la Mer.',
+    description:
+      'Will, Elizabeth et Barbossa unissent leurs forces pour sauver Jack des enfers et affronter la Compagnie de la Corne de la Mer.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -1650,7 +1693,8 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     length: 137,
     genre: ['Aventure', 'Fantastique'],
     saga: 'Pirates des Caraïbes',
-    description: 'Jack Sparrow cherche la Fontaine de Jouvence en même temps que Barbossa et le pirate Blackbeard.',
+    description:
+      'Jack Sparrow cherche la Fontaine de Jouvence en même temps que Barbossa et le pirate Blackbeard.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -1687,7 +1731,8 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     length: 129,
     genre: ['Aventure', 'Fantastique'],
     saga: 'Pirates des Caraïbes',
-    description: 'Jack Sparrow est traqué par le capitaine fantôme Salazar et cherche le Trident de Poséidon pour regagner le contrôle de la mer.',
+    description:
+      'Jack Sparrow est traqué par le capitaine fantôme Salazar et cherche le Trident de Poséidon pour regagner le contrôle de la mer.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -1724,7 +1769,8 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     length: 99,
     genre: ['Jeunesse', 'Fantastique', 'Aventure'],
     saga: 'Sonic',
-    description: 'Le hérisson supersonique Sonic fuit le Dr. Robotnik et se lie au shérif de Green Hills, Tom Wachowski.',
+    description:
+      'Le hérisson supersonique Sonic fuit le Dr. Robotnik et se lie au shérif de Green Hills, Tom Wachowski.',
     fromEntity: {
       entityType: 'game',
       title: 'Sonic the Hedgehog',
@@ -1765,7 +1811,8 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     length: 122,
     genre: ['Aventure', 'Jeunesse', 'Fantastique'],
     saga: 'Sonic',
-    description: 'Sonic et Tails affrontent Knuckles et le Dr. Robotnik à la recherche de la Master Emerald.',
+    description:
+      'Sonic et Tails affrontent Knuckles et le Dr. Robotnik à la recherche de la Master Emerald.',
     fromEntity: {
       entityType: 'game',
       title: 'Sonic the Hedgehog',
@@ -1806,7 +1853,8 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     length: 110,
     genre: ['Aventure', 'Jeunesse', 'Fantastique'],
     saga: 'Sonic',
-    description: 'Sonic, Tails et Knuckles affrontent Shadow the Hedgehog, créature créée par le gouvernement avec des pouvoirs supérieurs.',
+    description:
+      'Sonic, Tails et Knuckles affrontent Shadow the Hedgehog, créature créée par le gouvernement avec des pouvoirs supérieurs.',
     fromEntity: {
       entityType: 'game',
       title: 'Sonic the Hedgehog',
@@ -1842,13 +1890,13 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
         name: 'Ernie Hudson',
       },
     ],
-    coverUrl:
-      '/movies_pictures/36c47a750abf.jpg',
+    coverUrl: '/movies_pictures/36c47a750abf.jpg',
     releaseDate: '1984-12-12',
     length: 107,
     genre: ['Fantastique'],
     saga: 'Ghostbusters',
-    description: 'Trois chercheurs en parapsychologie créent une entreprise de chasse aux fantômes et affrontent une invasion surnaturelle à New York.',
+    description:
+      'Trois chercheurs en parapsychologie créent une entreprise de chasse aux fantômes et affrontent une invasion surnaturelle à New York.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
@@ -1880,13 +1928,13 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
         name: 'Annie Potts',
       },
     ],
-    coverUrl:
-      '/movies_pictures/37732d9df863.jpg',
+    coverUrl: '/movies_pictures/37732d9df863.jpg',
     releaseDate: '1989-12-13',
     length: 108,
     genre: ['Fantastique', 'Comédie'],
     saga: 'Ghostbusters',
-    description: 'Les Ghostbusters découvrent un flux de slime sous Manhattan qui nourrit les esprits et menace la ville.',
+    description:
+      'Les Ghostbusters découvrent un flux de slime sous Manhattan qui nourrit les esprits et menace la ville.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
@@ -1923,7 +1971,8 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     length: 124,
     genre: ['Fantastique', 'Comédie'],
     saga: 'Ghostbusters',
-    description: 'Une famille découvre l\'héritage Ghostbusters quand des créatures surnaturelles menacent leur ville de Summerville.',
+    description:
+      "Une famille découvre l'héritage Ghostbusters quand des créatures surnaturelles menacent leur ville de Summerville.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
@@ -1961,7 +2010,8 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     length: 115,
     genre: ['Fantastique'],
     saga: 'Ghostbusters',
-    description: 'Les Ghostbusters, anciens et nouveaux, affrontent une entité glaciale qui menace de plonger New York dans un hiver éternel.',
+    description:
+      'Les Ghostbusters, anciens et nouveaux, affrontent une entité glaciale qui menace de plonger New York dans un hiver éternel.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,

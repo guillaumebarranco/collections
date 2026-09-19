@@ -1,0 +1,48 @@
+:host {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.3;
+  text-wrap: nowrap;
+  border: 1px solid;
+}
+
+:host(.person-badge--director) {
+  background: #dbeafe;
+  color: #1e40af;
+  border-color: #93c5fd;
+}
+
+:host(.person-badge--actor) {
+  background: #e8eaf0;
+  color: #4a5568;
+  border-color: #d1d5db;
+}
+
+:host(.person-badge--author) {
+  background: #ede9fe;
+  color: #5b21b6;
+  border-color: #c4b5fd;
+}
+
+:host(.person-badge--musician) {
+  background: #fce7f3;
+  color: #9d174d;
+  border-color: #f9a8d4;
+}
+
+:host(.person-badge--producer) {
+  background: #ccfbf1;
+  color: #115e59;
+  border-color: #5eead4;
+}
+
+:host(.person-badge--cancelled) {
+  background: #ffedd5;
+  color: #c2410c;
+  border-color: #fb923c;
+  font-weight: 600;
+}

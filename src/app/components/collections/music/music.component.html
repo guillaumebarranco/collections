@@ -11,7 +11,11 @@
 
   <div class="music-content">
     <h3 class="music-title">{{ music().title }}</h3>
-    <p class="music-artist">{{ music().artist }}</p>
+    <p class="music-artist">
+      @for (name of (music().artist | personNames); track name) {
+      <app-person-badge [name]="name" variant="musician" />
+      }
+    </p>
     <p class="music-album">{{ music().album }}</p>
 
     <div class="music-footer">

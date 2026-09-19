@@ -65,8 +65,18 @@
       >À relire</span
     >
     }
-    <p class="comic-designer">Dessinateur : {{ comic.designer }}</p>
-    <p class="comic-writer">Scénariste : {{ comic.writer }}</p>
+    <p class="comic-designer">
+      Dessinateur :
+      @for (name of (comic.designer | personNames); track name) {
+      <app-person-badge [name]="name" variant="author" />
+      }
+    </p>
+    <p class="comic-writer">
+      Scénariste :
+      @for (name of (comic.writer | personNames); track name) {
+      <app-person-badge [name]="name" variant="author" />
+      }
+    </p>
     @if (comic.description) {
     <p class="comic-description">{{ comic.description }}</p>
     } @if (comic.pages) {

@@ -89,7 +89,10 @@
           } @else {
           <span class="children-books-author-title-chevron">▼</span>
           }
-          {{ authorGroup.author }} ({{ authorGroup.readChildrenBooks.length }} lus) ({{
+          @for (name of (authorGroup.author | personNames); track name) {
+          <app-person-badge [name]="name" variant="author" />
+          }
+          ({{ authorGroup.readChildrenBooks.length }} lus) ({{
             authorGroup.missingChildrenBooks.length
           }}
           restants à lire)

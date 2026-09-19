@@ -1,0 +1,188 @@
+@use "../../styles/containers.scss" as containers;
+
+.cancelled-people-page {
+  @include containers.container-base;
+}
+
+.cancelled-people-header {
+  margin-bottom: 24px;
+  text-align: center;
+
+  h1 {
+    @include containers.header-title-base;
+
+    & {
+      margin-bottom: 8px;
+    }
+  }
+}
+
+.cancelled-people-intro {
+  margin: 0 auto 8px;
+  max-width: 720px;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 1.05rem;
+  line-height: 1.5;
+
+  a {
+    color: #a3bffa;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+}
+
+.cancelled-people-count {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 0.95rem;
+}
+
+.cancelled-people-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.cancelled-people-tabs {
+  flex: 1 1 auto;
+}
+
+.cancelled-people-search {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: min(100%, 260px);
+}
+
+.cancelled-people-search__label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.cancelled-people-search__input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+  font: inherit;
+
+  &::placeholder {
+    color: rgba(255, 255, 255, 0.45);
+  }
+
+  &:focus {
+    outline: 2px solid #667eea;
+    outline-offset: 2px;
+  }
+}
+
+.cancelled-people-empty {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.05rem;
+  margin: 40px 0;
+}
+
+.cancelled-people-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 32px;
+}
+
+.cancelled-people-section {
+  background: #fff;
+  border-radius: 12px;
+  padding: 18px 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.cancelled-people-section__title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 14px;
+  font-size: 1.2rem;
+  color: #2c3e50;
+}
+
+.cancelled-people-section__count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.6rem;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.cancelled-people-section__empty {
+  margin: 0;
+  color: #868e96;
+  font-size: 0.95rem;
+}
+
+.cancelled-people-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+.cancelled-people-list__item {
+  padding: 10px 12px;
+  border-radius: 8px;
+  background: #f8f9fa;
+  border: 1px solid #ecf0f1;
+}
+
+.cancelled-people-list__name {
+  margin: 0;
+}
+
+.cancelled-people-list__reason {
+  margin: 4px 0 0;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  color: #5c6770;
+}
+
+.cancelled-people-list__sources {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+  margin: 8px 0 0;
+  font-size: 0.82rem;
+
+  a {
+    color: #5a67d8;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+
+    &:hover,
+    &:focus-visible {
+      color: #434190;
+    }
+  }
+}
+
+@include containers.responsive-base {
+  .cancelled-people-toolbar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .cancelled-people-section {
+    padding: 14px 14px;
+  }
+}

@@ -212,7 +212,9 @@
             {{ isActorCollapsed(actorGroup.actor) ? "▶" : "▼" }}
           </span>
 
-          {{ actorGroup.actor }}
+          @for (name of (actorGroup.actor | personNames); track name) {
+          <app-person-badge [name]="name" variant="actor" />
+          }
           ({{ actorGroup.seenMovies.length }} films vus) ({{
             actorGroup.missingMovies.length
           }}
@@ -370,7 +372,9 @@
           <span class="movies-saga-toggle-icon">
             {{ isDirectorCollapsed(directorGroup.director) ? "▶" : "▼" }}
           </span>
-          {{ directorGroup.director }}
+          @for (name of (directorGroup.director | personNames); track name) {
+          <app-person-badge [name]="name" variant="director" />
+          }
           ({{ directorGroup.seenMovies.length }} films vus) ({{
             directorGroup.missingMovies.length
           }}

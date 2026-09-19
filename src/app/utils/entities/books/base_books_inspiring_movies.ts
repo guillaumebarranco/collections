@@ -2661,7 +2661,7 @@ export const baseBooksInspiringMovies: BaseBook[] = [
     title: 'Intimacy',
     author: 'Hanif Kureishi',
     coverUrl:
-      'https://m.media-amazon.com/images/I/71ncbhpduqL._AC_UF1000,1000_QL80_.jpg',
+      '/books_pictures/e29dde1014f1.jpg',
     pages: 124,
     genre: ['Littérature'],
     saga: '',

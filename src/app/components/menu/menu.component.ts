@@ -45,6 +45,7 @@ export class MenuComponent implements OnInit {
     'adaptations',
     'quizzs',
     'entity-stats',
+    'cancelled-people',
     'change-password',
   ]);
 
@@ -202,6 +203,13 @@ export class MenuComponent implements OnInit {
       hideOnMobile: false,
       group: 'extras',
     },
+    {
+      label: 'Cancelled People',
+      icon: '🚫',
+      key: 'cancelled-people',
+      hideOnMobile: false,
+      group: 'extras',
+    },
   ];
 
   constructor() {
@@ -311,7 +319,7 @@ export class MenuComponent implements OnInit {
     return this.visibleMenuItems.filter((item) => screenKeys.has(item.key));
   }
 
-  /** Entrées du sous-menu Extras (Adaptations, Quizz). */
+  /** Entrées du sous-menu Extras (Adaptations, Quizz, Records, etc.). */
   get extrasMenuItems() {
     return this.visibleMenuItems.filter(
       (item) => (item as { group?: string }).group === 'extras'

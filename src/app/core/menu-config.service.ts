@@ -18,6 +18,7 @@ export const CONFIGURABLE_MENU_KEYS = [
   'quizzs',
   'records',
   'entity-stats',
+  'cancelled-people',
 ] as const;
 
 export type MenuConfigKey = (typeof CONFIGURABLE_MENU_KEYS)[number];
@@ -44,7 +45,13 @@ function readStored(): Set<string> {
     );
     const storedSet = new Set(valid);
     // Clé "adaptations" (ex. "mix") : l’afficher par défaut si absente du storage
-    for (const key of ['adaptations', 'quizzs', 'records', 'entity-stats'] as const) {
+    for (const key of [
+      'adaptations',
+      'quizzs',
+      'records',
+      'entity-stats',
+      'cancelled-people',
+    ] as const) {
       if (!storedSet.has(key)) {
         storedSet.add(key);
         try {

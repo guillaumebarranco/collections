@@ -78,7 +78,11 @@
       >À relire</span
     >
     }
-    <p class="book-author">{{ manga.author }}</p>
+    <p class="book-author">
+      @for (name of (manga.author | personNames); track name) {
+      <app-person-badge [name]="name" variant="author" />
+      }
+    </p>
     @if (manga.description) {
     <p class="manga-description">{{ manga.description }}</p>
     } @if (manga.nbTomes) {

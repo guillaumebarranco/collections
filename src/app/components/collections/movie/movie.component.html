@@ -172,7 +172,7 @@
     } @if (directorsList().length > 0) {
     <div class="movie-directors">
       @for (director of visibleDirectors(); track director) {
-      <span class="movie-director-badge">{{ director }}</span>
+      <app-person-badge [name]="director" variant="director" />
       } @if (directorsList().length > 2) {
       <button
         type="button"
@@ -186,7 +186,7 @@
     } @if (movie.actors && movie.actors.length > 0) {
     <div class="movie-actors">
       @for (actor of visibleActors(); track actor.name) {
-      <span class="movie-actor-badge">{{ actor.name }}</span>
+      <app-person-badge [name]="actor.name" variant="actor" />
       } @if (movie.actors.length > 3) {
       <button
         type="button"

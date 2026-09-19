@@ -90,6 +90,8 @@ import { buildMovieWatchFollowUpProgress } from '../../../utils/movie-watch-foll
 import { BadgesService } from '../../../services/badges.service';
 import { isOfflineModeBlockingOtherUsers } from '../../../core/offline/offline-mode.utils';
 import { OfflineRestrictedMessageComponent } from '../../../components/shared/offline-restricted-message/offline-restricted-message.component';
+import { PersonBadgeComponent } from '../../../components/shared/person-badge/person-badge.component';
+import { PersonNamesPipe } from '../../../components/shared/person-badge/person-names.pipe';
 
 type RecommendationDetail = { userId: string; rating: number };
 type RecommendedMovie = Movie & {
@@ -110,6 +112,8 @@ type RecommendedMovie = Movie & {
     StatsDisplayComponent,
     SortDropdownComponent,
     OfflineRestrictedMessageComponent,
+    PersonBadgeComponent,
+    PersonNamesPipe,
   ],
   templateUrl: './movies.component.html',
   styleUrls: ['./movies.component.scss'],

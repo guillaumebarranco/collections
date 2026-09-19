@@ -37,6 +37,8 @@ import { BookInspiredMoviesModalComponent } from '../../modals/book-inspired-mov
 import { AuthService } from '../../../core/auth.service';
 import { isBookApproximateReadDate } from '../../../utils/approximate-date-badges.utils';
 import { bookHasInspiredMovies } from '../../../utils/book-movie-adaptations.utils';
+import { PersonBadgeComponent } from '../../shared/person-badge/person-badge.component';
+import { PersonNamesPipe } from '../../shared/person-badge/person-names.pipe';
 
 @Component({
   selector: 'app-book',
@@ -47,6 +49,8 @@ import { bookHasInspiredMovies } from '../../../utils/book-movie-adaptations.uti
     EntityCardComponent,
     EntityCardRatingAndButtonsComponent,
     CanEditDirective,
+    PersonBadgeComponent,
+    PersonNamesPipe,
   ],
   templateUrl: './book.component.html',
   styleUrls: ['./book.component.scss'],

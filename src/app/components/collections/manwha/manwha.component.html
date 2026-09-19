@@ -71,7 +71,11 @@
       >À relire</span
     >
     }
-    <p class="book-author">{{ manwha.author }}</p>
+    <p class="book-author">
+      @for (name of (manwha.author | personNames); track name) {
+      <app-person-badge [name]="name" variant="author" />
+      }
+    </p>
     @if (manwha.description) {
     <p class="manwha-description">{{ manwha.description }}</p>
     } @if (manwha.nbChapters) {

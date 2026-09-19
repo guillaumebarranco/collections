@@ -89,7 +89,10 @@
           } @else {
           <span class="books-author-title-chevron">▼</span>
           }
-          {{ authorGroup.author }} ({{ authorGroup.readBooks.length }} lus) ({{
+          @for (name of (authorGroup.author | personNames); track name) {
+          <app-person-badge [name]="name" variant="author" />
+          }
+          ({{ authorGroup.readBooks.length }} lus) ({{
             authorGroup.missingBooks.length
           }}
           restants à lire)

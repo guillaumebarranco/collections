@@ -69,6 +69,7 @@ import { AdaptationsComponent } from './containers/adaptations/adaptations.compo
 import { QuizzsComponent } from './containers/collections/quizzs/quizzs.component';
 import { RecordsComponent } from './containers/records/records.component';
 import { EntityStatsComponent } from './containers/entity-stats/entity-stats.component';
+import { CancelledPeopleComponent } from './containers/cancelled-people/cancelled-people.component';
 import { ChangePasswordComponent } from './components/change-password/change-password.component';
 
 export const routes: Routes = [
@@ -172,6 +173,10 @@ export const routes: Routes = [
   {
     path: 'quizzs',
     component: QuizzsComponent,
+  },
+  {
+    path: 'cancelled-people',
+    component: CancelledPeopleComponent,
   },
   {
     path: 'select-movies',
@@ -447,6 +452,10 @@ export const routes: Routes = [
       {
         path: 'entity-stats',
         component: EntityStatsComponent,
+      },
+      {
+        path: 'cancelled-people',
+        component: CancelledPeopleComponent,
       },
       {
         path: 'select-movies',

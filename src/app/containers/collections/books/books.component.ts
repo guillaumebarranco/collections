@@ -17,6 +17,8 @@ import {
   StatItemColor,
 } from '../../../components/shared/stats-display/stats-display.component';
 import { BooksHeaderComponent } from './books-header/books-header.component';
+import { PersonBadgeComponent } from '../../../components/shared/person-badge/person-badge.component';
+import { PersonNamesPipe } from '../../../components/shared/person-badge/person-names.pipe';
 
 import { Book } from '../../../models/book-model';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
@@ -92,6 +94,8 @@ type RecommendedBook = Book & {
     MatDialogModule,
 
     BooksHeaderComponent,
+    PersonBadgeComponent,
+    PersonNamesPipe,
     OfflineRestrictedMessageComponent,
     LoaderComponent,
   ],

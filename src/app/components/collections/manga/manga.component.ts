@@ -29,6 +29,8 @@ import {
   MoveEntityReviewModalResult,
 } from '../../modals/move-entity-review-modal/move-entity-review-modal.component';
 import { MovieCommunityWatchersModalComponent } from '../../modals/movie-community-watchers-modal/movie-community-watchers-modal.component';
+import { PersonBadgeComponent } from '../../shared/person-badge/person-badge.component';
+import { PersonNamesPipe } from '../../shared/person-badge/person-names.pipe';
 
 @Component({
   selector: 'app-manga',
@@ -39,6 +41,8 @@ import { MovieCommunityWatchersModalComponent } from '../../modals/movie-communi
     EntityCardRatingAndButtonsComponent,
     MatDialogModule,
     CanEditDirective,
+    PersonBadgeComponent,
+    PersonNamesPipe,
   ],
   templateUrl: './manga.component.html',
   styleUrls: ['./manga.component.scss'],

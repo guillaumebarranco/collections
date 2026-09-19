@@ -17,6 +17,8 @@ import {
   StatItemColor,
 } from '../../../components/shared/stats-display/stats-display.component';
 import { ChildrenBooksHeaderComponent } from './children-books-header/children-books-header.component';
+import { PersonBadgeComponent } from '../../../components/shared/person-badge/person-badge.component';
+import { PersonNamesPipe } from '../../../components/shared/person-badge/person-names.pipe';
 
 import { ChildrenBook } from '../../../models/children-book-model';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
@@ -92,6 +94,8 @@ type RecommendedChildrenBook = ChildrenBook & {
     MatDialogModule,
 
     ChildrenBooksHeaderComponent,
+    PersonBadgeComponent,
+    PersonNamesPipe,
     OfflineRestrictedMessageComponent,
     LoaderComponent,
   ],

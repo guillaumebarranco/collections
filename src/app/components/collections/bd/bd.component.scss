@@ -5,11 +5,15 @@
 }
 
 .book-author {
-  @include components.component-author-base;
+  @include components.person-badges-row;
 }
 
 .book-pages {
   @include components.component-secondary-info-base;
+}
+
+.book-pages--people {
+  @include components.person-badges-row;
 }
 
 .book-read-times {

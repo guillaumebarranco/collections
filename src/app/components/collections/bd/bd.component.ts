@@ -29,6 +29,8 @@ import {
 import { MovieCommunityWatchersModalComponent } from '../../modals/movie-community-watchers-modal/movie-community-watchers-modal.component';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
 import { isBdApproximateReadDate } from '../../../utils/approximate-date-badges.utils';
+import { PersonBadgeComponent } from '../../shared/person-badge/person-badge.component';
+import { PersonNamesPipe } from '../../shared/person-badge/person-names.pipe';
 
 @Component({
   selector: 'app-bd',
@@ -39,6 +41,8 @@ import { isBdApproximateReadDate } from '../../../utils/approximate-date-badges.
     EntityCardRatingAndButtonsComponent,
     MatDialogModule,
     CanEditDirective,
+    PersonBadgeComponent,
+    PersonNamesPipe,
   ],
   templateUrl: './bd.component.html',
   styleUrls: ['./bd.component.scss'],

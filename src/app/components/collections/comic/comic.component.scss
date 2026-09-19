@@ -6,7 +6,9 @@
 
 .comic-designer,
 .comic-writer {
-  @include components.component-author-base;
+  @include components.person-badges-row;
+  color: #7f8c8d;
+  font-size: 0.9rem;
 }
 
 .comic-pages {

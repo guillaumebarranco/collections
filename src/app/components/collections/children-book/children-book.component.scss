@@ -10,7 +10,7 @@
 }
 
 .childrenBook-author {
-  @include components.component-author-base;
+  @include components.person-badges-row;
 }
 
 .childrenBook-saga {

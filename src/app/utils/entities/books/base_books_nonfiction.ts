@@ -324,4 +324,19 @@ export const baseBooksNonfiction: BaseBook[] = [
     countryOrigin: 'France',
     selectDisplayOrder: 0,
   },
+  {
+    title: 'Les nouvelles solitudes',
+    author: 'Marie-France Hirigoyen',
+    coverUrl: '/books_pictures/63203dea369d.jpg',
+    pages: 215,
+    genre: ['Nonfiction'],
+    saga: '',
+    sagaOrder: 0,
+    sagaFinished: false,
+    releaseDate: '2007-10-25',
+    description:
+      'La psychanalyste analyse la montée de la solitude dans les sociétés développées, la précarisation des liens intimes et ce que la solitude choisie peut aussi apporter.',
+    countryOrigin: 'France',
+    selectDisplayOrder: 0,
+  },
 ];

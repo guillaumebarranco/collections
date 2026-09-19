@@ -33,6 +33,8 @@ import {
 import { MovieCommunityWatchersModalComponent } from '../../modals/movie-community-watchers-modal/movie-community-watchers-modal.component';
 import { AuthService } from '../../../core/auth.service';
 import { isBookApproximateReadDate } from '../../../utils/approximate-date-badges.utils';
+import { PersonBadgeComponent } from '../../shared/person-badge/person-badge.component';
+import { PersonNamesPipe } from '../../shared/person-badge/person-names.pipe';
 
 @Component({
   selector: 'app-children-book',
@@ -43,6 +45,8 @@ import { isBookApproximateReadDate } from '../../../utils/approximate-date-badge
     EntityCardComponent,
     EntityCardRatingAndButtonsComponent,
     CanEditDirective,
+    PersonBadgeComponent,
+    PersonNamesPipe,
   ],
   templateUrl: './children-book.component.html',
   styleUrls: ['./children-book.component.scss'],

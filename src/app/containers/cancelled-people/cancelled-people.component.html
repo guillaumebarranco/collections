@@ -1,0 +1,106 @@
+<app-menu></app-menu>
+
+<div class="cancelled-people-page">
+  <header class="cancelled-people-header">
+    <h1>Cancelled People</h1>
+    <p class="cancelled-people-intro">
+      Personnes à écarter en raison de prises de position d’extrême droite,
+      d’actes criminels ou d’autres faits graves. Base reprise de la liste
+      <a
+        href="https://www.senscritique.com/liste/c_est_cancelled_aussi/3456473"
+        target="_blank"
+        rel="noopener noreferrer"
+        >C’est cancelled aussi</a
+      >
+      sur SensCritique, complétée par
+      <a
+        href="https://www.imdb.com/fr/list/ls545291044/"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Mostly or Completely canceled artists and creators</a
+      >
+      sur IMDb.
+    </p>
+    <p class="cancelled-people-count">
+      {{ totalPeopleCount() }}
+      {{ totalPeopleCount() <= 1 ? 'personne listée' : 'personnes listées' }}
+    </p>
+  </header>
+
+  <div class="cancelled-people-toolbar">
+    <app-view-toggle
+      [toggleClass]="'cancelled-people-tabs'"
+      [options]="categoryTabOptions"
+      [selected]="selectedCategoryId()"
+      (selectedChange)="onCategoryTabChange($event)"
+    ></app-view-toggle>
+
+    <div class="cancelled-people-search">
+      <label
+        class="cancelled-people-search__label"
+        for="cancelled-people-search-input"
+        >Rechercher</label
+      >
+      <input
+        id="cancelled-people-search-input"
+        type="search"
+        class="cancelled-people-search__input"
+        placeholder="Nom ou motif…"
+        [value]="searchQuery()"
+        (input)="onSearchInput($event)"
+        autocomplete="off"
+        spellcheck="false"
+      />
+    </div>
+  </div>
+
+  @if (visibleCategories().length === 0) {
+  <p class="cancelled-people-empty">
+    Aucune personne ne correspond à cette recherche.
+  </p>
+  } @else {
+  <div class="cancelled-people-sections">
+    @for (category of visibleCategories(); track category.id) {
+    <section class="cancelled-people-section">
+      <h2 class="cancelled-people-section__title">
+        {{ category.label }}
+        <span class="cancelled-people-section__count">
+          {{ category.people.length }}
+        </span>
+      </h2>
+
+      @if (category.people.length === 0) {
+      <p class="cancelled-people-section__empty">
+        Aucun nom dans cette catégorie pour le moment.
+      </p>
+      } @else {
+      <ul class="cancelled-people-list">
+        @for (person of category.people; track person.name) {
+        <li class="cancelled-people-list__item">
+          <p class="cancelled-people-list__name">
+            <app-person-badge
+              [name]="person.name"
+              [variant]="badgeVariantForCategory(category.id)"
+            />
+          </p>
+          @if (person.reason) {
+          <p class="cancelled-people-list__reason">{{ person.reason }}</p>
+          }
+          @if (person.sources; as sources) {
+          <p class="cancelled-people-list__sources">
+            @for (src of sources; track src; let i = $index) {
+            <a [href]="src" target="_blank" rel="noopener noreferrer">{{
+              sources.length > 1 ? 'Source ' + (i + 1) : 'Source'
+            }}</a>
+            }
+          </p>
+          }
+        </li>
+        }
+      </ul>
+      }
+    </section>
+    }
+  </div>
+  }
+</div>

@@ -67,9 +67,17 @@
       >À relire</span
     >
     }
-    <p class="book-author">{{ bd.designer }}</p>
+    <p class="book-author">
+      @for (name of (bd.designer | personNames); track name) {
+      <app-person-badge [name]="name" variant="author" />
+      }
+    </p>
     @if (bd.writer && bd.writer !== bd.designer) {
-    <p class="book-pages">{{ bd.writer }}</p>
+    <p class="book-pages book-pages--people">
+      @for (name of (bd.writer | personNames); track name) {
+      <app-person-badge [name]="name" variant="author" />
+      }
+    </p>
     } @if (bd.description) {
     <p class="bd-description">{{ bd.description }}</p>
     } @if (bd.pages) {

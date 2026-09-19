@@ -5,11 +5,15 @@
 }
 
 .serie-director {
-  @include components.component-author-base;
+  @include components.person-badges-row;
+  color: #7f8c8d;
+  font-size: 0.9rem;
 }
 
 .serie-actors {
-  @include components.component-secondary-info-base;
+  @include components.person-badges-row;
+  color: #95a5a6;
+  font-size: 0.85rem;
 }
 
 .serie-seasons {

@@ -89,7 +89,11 @@
     @if (childrenBook.saga && childrenBook.sagaOrder) {
     <p class="childrenBook-saga">{{ childrenBook.saga }} : Tome {{ childrenBook.sagaOrder }}</p>
     }
-    <p class="childrenBook-author">{{ childrenBook.author }}</p>
+    <p class="childrenBook-author">
+      @for (name of (childrenBook.author | personNames); track name) {
+      <app-person-badge [name]="name" variant="author" />
+      }
+    </p>
     @if(childrenBook.releaseDate) {
     <p class="childrenBook-pages">Paru en {{ childrenBook.releaseDate | date : "yyyy" }}</p>
     } @if (childrenBook.description) {

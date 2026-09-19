@@ -7326,4 +7326,28 @@ export const baseMoviesHorreur: BaseMovie[] = [
     selectDisplayOrder: 0,
     oscars: [],
   },
+  {
+    title: 'Primate',
+    director: 'Johannes Roberts',
+    actors: [
+      { name: 'Johnny Sequoyah' },
+      { name: 'Jessica Alexander' },
+      { name: 'Troy Kotsur' },
+      { name: 'Victoria Wyant' },
+      { name: 'Gia Hunter' },
+      { name: 'Benjamin Cheng' },
+    ],
+    coverUrl:
+      '/movies_pictures/67d70ae0d266.jpg',
+    releaseDate: '2025-09-18',
+    length: 89,
+    genre: ['Horreur', 'Thriller'],
+    saga: '',
+    description:
+      'Lucy et ses amis passent les vacances dans la villa familiale à Hawaï, jusqu’à ce que Ben, le chimpanzé de la famille, contracte la rage et bascule dans la violence.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
 ];

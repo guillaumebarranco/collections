@@ -55,6 +55,14 @@
   font-style: italic;
 }
 
+@mixin person-badges-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin: 0 0 8px 0;
+}
+
 // Styles de base pour les informations secondaires (acteurs, pages, etc.)
 @mixin component-secondary-info-base {
   margin: 0 0 8px 0;

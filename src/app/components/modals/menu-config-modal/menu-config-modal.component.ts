@@ -46,6 +46,11 @@ const CONFIGURABLE_ITEMS: {
     label: 'Statistiques des entités',
     icon: '📈',
   },
+  {
+    key: 'cancelled-people',
+    label: 'Cancelled People',
+    icon: '🚫',
+  },
 ];
 
 type PreferencesTab = 'menu' | 'offline';

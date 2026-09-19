@@ -68,11 +68,18 @@
       >À revoir</span
     >
     }
-    <p class="serie-director">Créé par {{ serie.director }}</p>
+    <p class="serie-director">
+      Créé par
+      @for (name of (serie.director | personNames); track name) {
+      <app-person-badge [name]="name" variant="director" />
+      }
+    </p>
     @if (serie.actors && serie.actors.length > 0) {
     <p class="serie-actors">
-      Avec {{ serie.actors[0].name
-      }}{{ serie.actors.length > 1 ? ", " + serie.actors[1].name : "" }}
+      Avec
+      @for (actor of serie.actors.slice(0, 2); track actor.name) {
+      <app-person-badge [name]="actor.name" variant="actor" />
+      }
     </p>
     }
     <p class="serie-release-date">{{ serie.releaseDate | date : "yyyy" }}</p>

@@ -4,10 +4,12 @@ import { CommonModule } from '@angular/common';
 import { isBaseEntityView } from '../../../core/config';
 import { StarInfo } from '../../../models/various-model';
 import { getRatingStars } from '../../../utils/constants';
+import { PersonBadgeComponent } from '../../shared/person-badge/person-badge.component';
+import { PersonNamesPipe } from '../../shared/person-badge/person-names.pipe';
 
 @Component({
   selector: 'app-music',
-  imports: [CommonModule],
+  imports: [CommonModule, PersonBadgeComponent, PersonNamesPipe],
   templateUrl: './music.component.html',
   styleUrls: ['./music.component.scss'],
 })

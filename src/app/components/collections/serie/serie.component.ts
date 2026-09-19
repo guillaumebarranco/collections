@@ -38,6 +38,8 @@ import {
   type SerieLastViewedSeasonInfo,
 } from '../../../utils/series.utils';
 import { MovieCommunityWatchersModalComponent } from '../../modals/movie-community-watchers-modal/movie-community-watchers-modal.component';
+import { PersonBadgeComponent } from '../../shared/person-badge/person-badge.component';
+import { PersonNamesPipe } from '../../shared/person-badge/person-names.pipe';
 
 @Component({
   selector: 'app-serie',
@@ -48,6 +50,8 @@ import { MovieCommunityWatchersModalComponent } from '../../modals/movie-communi
     EntityCardComponent,
     EntityCardRatingAndButtonsComponent,
     CanEditDirective,
+    PersonBadgeComponent,
+    PersonNamesPipe,
   ],
   templateUrl: './serie.component.html',
   styleUrls: ['./serie.component.scss'],
