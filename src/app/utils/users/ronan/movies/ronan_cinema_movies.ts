@@ -3729,7 +3729,7 @@ export const ronanCinemaMovies: UserMovies = [
   {
     title: 'La femme de ménage',
     director: 'Paul Feig',
-    rating: 3,
+    rating: 2.5,
     timesWatched: 2,
     firstViewedDate: "2025-12-24",
     lastViewedDate: "2026-09-19",
