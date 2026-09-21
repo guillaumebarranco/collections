@@ -1125,18 +1125,18 @@ export const baseSeries: BaseSerie[] = [
     director: 'Matt Corman, Chris Ord',
     actors: [
       {
-        name: "Charlie Cox",
+        name: 'Charlie Cox',
       },
       {
         name: "Vincent D'Onofrio",
       },
       {
-        name: "Jon Bernthal",
-      }
+        name: 'Jon Bernthal',
+      },
     ],
-    coverUrl: "/series_pictures/bbc8d10a4b3c.jpg",
-    releaseDate: "2024-03-10",
-    endDate: "",
+    coverUrl: '/series_pictures/bbc8d10a4b3c.jpg',
+    releaseDate: '2024-03-10',
+    endDate: '',
     genre: ['Action', 'Crime', 'Drama'],
     seasonsData: [
       {
@@ -1148,12 +1148,12 @@ export const baseSeries: BaseSerie[] = [
         seasonNumber: 2,
         nbEpisodes: 5,
         totalLength: 500,
-      }
+      },
     ],
-    description: "",
+    description: '',
     fromEntity: null,
-    saga: "Marvel Cinematic Universe",
-    countryOrigin: "États-Unis",
+    saga: 'Marvel Cinematic Universe',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Emily in Paris',
@@ -2182,6 +2182,30 @@ export const baseSeries: BaseSerie[] = [
     countryOrigin: 'États-Unis',
   },
   {
+    title: 'Lanterns',
+    director: 'Chris Mundy',
+    actors: [
+      { name: 'Kyle Chandler' },
+      { name: 'Aaron Pierre' },
+      { name: 'Kelly Macdonald' },
+    ],
+    coverUrl:
+      '/series_pictures/ca9ace77b7dd.jpg',
+    releaseDate: '2026-08-16',
+    endDate: '',
+    genre: ['Crime', 'Drama', 'Sci-Fi'],
+    seasonsData: [{ seasonNumber: 1, nbEpisodes: 8, totalLength: 440 }],
+    description:
+      'John Stewart, nouvelle recrue du Green Lantern Corps, et le légendaire Hal Jordan enquêtent sur un meurtre dans le cœur de l’Amérique, une affaire qui les plonge dans un mystère terrestre aux implications intergalactiques.',
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Green Lantern',
+      secondEntityKey: 'John Broome',
+    },
+    saga: 'DC Comics',
+    countryOrigin: 'États-Unis',
+  },
+  {
     title: 'Le Jeu de la Dame',
     director: 'Scott Frank',
     actors: [
@@ -2260,6 +2284,9 @@ export const baseSeries: BaseSerie[] = [
       },
       {
         name: 'Sophia Di Martino',
+      },
+      {
+        name: 'Jonathan Majors',
       },
     ],
     coverUrl: '/series_pictures/loki.jpg',

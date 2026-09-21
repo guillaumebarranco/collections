@@ -664,7 +664,9 @@
         [readOnly]="selectedView() === 'watchlist'"
         [isWatchList]="selectedView() === 'watchlist'"
         [selectedView]="selectedView()"
-        [showCommunityWatchersButton]="selectedView() === 'watched'"
+        [showCommunityWatchersButton]="
+          selectedView() === 'watched' || selectedView() === 'watchlist'
+        "
         [showTopFiveSelector]="showTopFiveRank()"
         [topFiveRank]="getTopFiveRank(movie)"
         [userLists]="userMoviesLists()"

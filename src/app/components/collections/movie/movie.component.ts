@@ -101,7 +101,7 @@ export class MovieComponent {
   @Input() showTopFiveSelector = false;
   @Input() topFiveRank: number | null = null;
   @Output() topFiveRankChange = new EventEmitter<number | null>();
-  /** Affiche le bouton communauté (films vus — qui a vu ce film). */
+  /** Affiche le bouton communauté (films vus et à voir — qui a vu ce film). */
   @Input() showCommunityWatchersButton = false;
 
   /** Listes de films de l'utilisateur (pour "Ajouter à une liste"). Défini uniquement sur sa propre collection. */

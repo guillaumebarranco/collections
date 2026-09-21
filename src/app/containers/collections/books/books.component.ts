@@ -296,7 +296,7 @@ export class BooksComponent implements OnInit {
     }
   }
 
-  /** Après readlist → lu : rafraîchit les listes puis modale félicitations / badges (profil affiché = le vôtre). */
+  /** Après readlist → en cours : rafraîchit, vide la recherche et ouvre la vue « En cours ». */
   async onReadlistStartedReading(book: Book): Promise<void> {
     const userId = this.getActiveUserId();
     const ok =
@@ -305,11 +305,15 @@ export class BooksComponent implements OnInit {
         : await markReadlistBookAsStartedApi(book, userId);
     if (ok) {
       await this.refreshBooks();
+      this.onViewChange('readingInProgress');
     }
   }
 
   async onReadlistMarkedAsRead(book: Book): Promise<void> {
     await this.refreshBooks();
+    this.onViewChange(
+      this.selectedView() === 'readingInProgress' ? 'read' : 'readlist'
+    );
     if (this.isViewingOtherProfile()) return;
     const progressRows = buildBookReadFollowUpProgress(book, this.allBooks());
     void this.badgesService.loadFromApi(this.getActiveUserId());
@@ -703,6 +707,7 @@ export class BooksComponent implements OnInit {
 
   onViewChange(view: BookView) {
     this.selectedView.set(view);
+    this.searchTerm.set('');
     if (view === 'readlist' || view === 'readingInProgress') {
       this.selectedSort.set('readPriority');
     }
