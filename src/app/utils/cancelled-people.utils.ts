@@ -3,7 +3,8 @@ import cancelledPeopleJson from '../containers/cancelled-people/cancelled-people
 
 const cancelledPeopleData = cancelledPeopleJson as CancelledPeopleFile;
 
-function normalizePersonName(name: string): string {
+function normalizePersonName(name: string | null | undefined): string {
+  if (!name) return '';
   return name
     .trim()
     .toLowerCase()
@@ -16,7 +17,9 @@ function normalizePersonName(name: string): string {
 
 const CANCELLED_NAMES = new Set(
   cancelledPeopleData.categories.flatMap((category) =>
-    category.people.map((person) => normalizePersonName(person.name))
+    category.people
+      .map((person) => normalizePersonName(person.name))
+      .filter(Boolean)
   )
 );
 
