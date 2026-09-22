@@ -14407,7 +14407,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       "Trois sœurs Dashwood naviguent entre amour et contraintes sociales dans l'Angleterre georgienne.",
     fromEntity: {
       entityType: 'book',
-      title: 'Raison et Sentiments',
+      title: 'Raison et sentiments',
       secondEntityKey: 'Jane Austen',
     },
     countryOrigin: ['Royaume-Uni', 'États-Unis'],

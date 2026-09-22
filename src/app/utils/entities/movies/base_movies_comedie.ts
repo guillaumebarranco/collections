@@ -24281,7 +24281,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       "Bridget, quadragénaire célibataire, découvre qu'elle est enceinte sans savoir si le père est son ex Mark ou le séduisant Jack.",
     fromEntity: {
       entityType: 'book',
-      title: 'Bridget Jones’s Baby',
+      title: 'Bridget Jones : Baby',
       secondEntityKey: 'Helen Fielding',
     },
     countryOrigin: ['Royaume-Uni', 'États-Unis', 'France'],

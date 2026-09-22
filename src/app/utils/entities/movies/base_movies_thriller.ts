@@ -8187,11 +8187,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     saga: '',
     description:
       'Deux inspecteurs coréens enquêtent sur une série de meurtres de femmes dans une petite ville des années 1980.',
-    fromEntity: {
-      entityType: 'book',
-      title: 'Come to See Me',
-      secondEntityKey: 'Kim Kwang-lim',
-    },
+    fromEntity: null,
     countryOrigin: ['Corée du Sud'],
     selectDisplayOrder: 0,
     oscars: [],

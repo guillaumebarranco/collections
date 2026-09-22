@@ -1820,10 +1820,10 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Fast Food Nation',
     author: 'Eric Schlosser',
-    coverUrl: '',
+    coverUrl: '/books_pictures/26485b5e7fd8.jpg',
     pages: 385,
     genre: ['Nonfiction'],
-    saga: '/books_pictures/26485b5e7fd8.jpg',
+    saga: '',
     sagaOrder: 0,
     sagaFinished: false,
     releaseDate: '2001-01-01',
@@ -2660,8 +2660,7 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Intimacy',
     author: 'Hanif Kureishi',
-    coverUrl:
-      '/books_pictures/e29dde1014f1.jpg',
+    coverUrl: '/books_pictures/e29dde1014f1.jpg',
     pages: 124,
     genre: ['Littérature'],
     saga: '',
@@ -2676,7 +2675,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Ne le dis à personne',
     author: 'Harlan Coben',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/408956f5ab66.jpg',
     pages: 554,
     genre: ['Thriller'],
     saga: '',
@@ -2691,7 +2691,7 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'The Carpetbaggers',
     author: 'Harold Robbins',
-    coverUrl: '',
+    coverUrl: '/books_pictures/c65bbbbab385.jpg',
     pages: 679,
     genre: ['Fiction'],
     saga: '',
@@ -2706,7 +2706,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Farewell to the Master',
     author: 'Harry Bates',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/1124e0c3be3f.jpg',
     pages: 46,
     genre: ['Science Fiction'],
     saga: '',
@@ -2721,7 +2722,7 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Make Room! Make Room!',
     author: 'Harry Harrison',
-    coverUrl: '',
+    coverUrl: '/books_pictures/449d1f5944f5.jpg',
     pages: 229,
     genre: ['Science Fiction', 'Dystopie'],
     saga: '',
@@ -2736,7 +2737,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Drive My Car',
     author: 'Haruki Murakami',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/df086670b193.jpg',
     pages: 60,
     genre: ['Littérature'],
     saga: '',
@@ -2751,7 +2753,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Professeur Unrat',
     author: 'Heinrich Mann',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/6d3311482853.jpg',
     pages: 288,
     genre: ['Classiques'],
     saga: '',
@@ -2766,7 +2769,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: "La Marquise d'O",
     author: 'Heinrich von Kleist',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/fdb2933ea975.jpg',
     pages: 207,
     genre: ['Classiques'],
     saga: '',
@@ -2779,24 +2783,10 @@ export const baseBooksInspiringMovies: BaseBook[] = [
     selectDisplayOrder: 0,
   },
   {
-    title: "Bridget Jones's Baby",
-    author: 'Helen Fielding',
-    coverUrl: '',
-    pages: 240,
-    genre: ['Romance'],
-    saga: 'Bridget Jones',
-    sagaOrder: 3,
-    sagaFinished: true,
-    releaseDate: '2016-01-01',
-    description:
-      'Bridget Jones, enceinte, ne sait pas si le père est Mark Darcy ou son ex Daniel Cleaver.',
-    countryOrigin: 'Royaume-Uni',
-    selectDisplayOrder: 0,
-  },
-  {
     title: 'Dead Man Walking',
     author: 'Helen Prejean',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/f5e9c3e75ea8.jpg',
     pages: 299,
     genre: ['Nonfiction'],
     saga: '',
@@ -2811,7 +2801,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Dialogue avec mon jardinier',
     author: 'Henri Cueco',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/f542c2ffcf7e.jpg',
     pages: 220,
     genre: ['Littérature'],
     saga: '',
@@ -2826,7 +2817,7 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Jules et Jim',
     author: 'Henri-Pierre Roché',
-    coverUrl: '',
+    coverUrl: '/books_pictures/063c30f37aa2.jpg',
     pages: 239,
     genre: ['Littérature'],
     saga: '',
@@ -2841,7 +2832,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Les Deux Anglaises et le Continent',
     author: 'Henri-Pierre Roché',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/9ef85b9c2d01.jpg',
     pages: 303,
     genre: ['Littérature'],
     saga: '',
@@ -2856,7 +2848,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'What Ever Happened to Baby Jane?',
     author: 'Henry Farrell',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/03af4522bb2d.jpg',
     pages: 134,
     genre: ['Thriller', 'Horreur'],
     saga: '',
@@ -2871,7 +2864,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Tom Jones',
     author: 'Henry Fielding',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/492f74adf810.webp',
     pages: 1100,
     genre: ['Classiques'],
     saga: '',
@@ -2886,7 +2880,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Billy Budd',
     author: 'Herman Melville',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/71e363c6933c.jpg',
     pages: 183,
     genre: ['Classiques'],
     saga: '',
@@ -2901,7 +2896,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Mudbound',
     author: 'Hillary Jordan',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/b3f3408729c1.jpg',
     pages: 335,
     genre: ['Fiction historique'],
     saga: '',
@@ -2916,7 +2912,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Rocket Boys',
     author: 'Homer Hickam',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/180e33e6d140.jpg',
     pages: 368,
     genre: ['Biographie'],
     saga: '',
@@ -2931,7 +2928,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Illusions perdues',
     author: 'Honoré de Balzac',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/60a6dea4b824.jpg',
     pages: 664,
     genre: ['Classiques'],
     saga: 'La Comédie humaine',
@@ -2946,7 +2944,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Le Colonel Chabert',
     author: 'Honoré de Balzac',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/f22b79bd53d7.jpg',
     pages: 174,
     genre: ['Classiques', 'Fiction historique'],
     saga: 'La Comédie humaine',
@@ -2961,7 +2960,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: "They Shoot Horses, Don't They?",
     author: 'Horace McCoy',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/321dec95d8bd.jpg',
     pages: 224,
     genre: ['Littérature'],
     saga: '',
@@ -2976,7 +2976,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: "I'm Thinking of Ending Things",
     author: 'Iain Reid',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/737f54eee106.jpg',
     pages: 224,
     genre: ['Thriller', 'Horreur'],
     saga: '',
@@ -2991,7 +2992,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: "L'Inconfort des inconnus",
     author: 'Ian McEwan',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/3b2402c700d4.jpg',
     pages: 128,
     genre: ['Littérature', 'Thriller'],
     saga: '',
@@ -3006,7 +3008,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: "Rosemary's Baby",
     author: 'Ira Levin',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/2a74d2076e81.jpg',
     pages: 251,
     genre: ['Horreur', 'Thriller'],
     saga: '',
@@ -3021,7 +3024,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'The Boys from Brazil',
     author: 'Ira Levin',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/2fa9bb73651b.jpg',
     pages: 280,
     genre: ['Thriller'],
     saga: '',
@@ -3036,7 +3040,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Beaches',
     author: 'Iris Rainer Dart',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/743bbaa2b457.jpg',
     pages: 311,
     genre: ['Fiction'],
     saga: '',
@@ -3051,7 +3056,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Yentl the Yeshiva Boy',
     author: 'Isaac Bashevis Singer',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/411042a8218d.jpg',
     pages: 58,
     genre: ['Littérature'],
     saga: '',
@@ -3066,7 +3072,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Moonfleet',
     author: 'J. Meade Falkner',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/89c7c68a0c2a.jpg',
     pages: 204,
     genre: ['Aventure', 'Classiques'],
     saga: '',
@@ -3081,7 +3088,7 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'La Guerre du feu',
     author: 'J.-H. Rosny aîné',
-    coverUrl: '',
+    coverUrl: '/books_pictures/18da9f19e92a.jpg',
     pages: 236,
     genre: ['Aventure', 'Science Fiction'],
     saga: '',
@@ -3096,7 +3103,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Layer Cake',
     author: 'J.J. Connolly',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/ef6bee58dbfd.jpg',
     pages: 309,
     genre: ['Policier'],
     saga: '',
@@ -3111,7 +3119,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: "L'Invasion des profanateurs",
     author: 'Jack Finney',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/3bf9b0e147be.jpg',
     pages: 248,
     genre: ['Science Fiction', 'Horreur'],
     saga: 'Invasion of the Body Snatchers',
@@ -3126,7 +3135,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'The Body Snatchers',
     author: 'Jack Finney',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/34c721a552b7.jpg',
     pages: 191,
     genre: ['Science Fiction', 'Horreur'],
     saga: 'Invasion of the Body Snatchers',
@@ -3141,7 +3151,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'The Trouble with Harry',
     author: 'Jack Trevor Story',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/3b71cbc8e93e.jpg',
     pages: 121,
     genre: ['Policier'],
     saga: '',
@@ -3156,7 +3167,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'La Vache et le Prisonnier',
     author: 'Jacques Antoine',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/1a379e703a9e.jpg',
     pages: 180,
     genre: ['Fiction historique'],
     saga: '',
@@ -3171,7 +3183,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Les Destinées sentimentales',
     author: 'Jacques Chardonne',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/44aa16ded4ab.jpg',
     pages: 447,
     genre: ['Littérature'],
     saga: '',
@@ -3186,7 +3199,7 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: "L'Instinct de mort",
     author: 'Jacques Mesrine',
-    coverUrl: '',
+    coverUrl: '/books_pictures/c2957a8f6668.jpg',
     pages: 375,
     genre: ['Biographie'],
     saga: '',
@@ -3201,7 +3214,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Le Caporal épinglé',
     author: 'Jacques Perret',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/2c495ad2138f.jpg',
     pages: 502,
     genre: ['Fiction historique'],
     saga: '',
@@ -3216,7 +3230,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Remember This House',
     author: 'James Baldwin',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/bfa62e8192e9.jpg',
     pages: 576,
     genre: ['Nonfiction'],
     saga: '',
@@ -3231,7 +3246,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Si Beale Street pouvait parler',
     author: 'James Baldwin',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/40571a49ee40.jpeg',
     pages: 197,
     genre: ['Littérature'],
     saga: '',
@@ -3246,7 +3262,7 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Deliverance',
     author: 'James Dickey',
-    coverUrl: '',
+    coverUrl: '/books_pictures/229fe9472dee.jpg',
     pages: 236,
     genre: ['Thriller', 'Aventure'],
     saga: '',
@@ -3261,7 +3277,7 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'L.A. Confidential',
     author: 'James Ellroy',
-    coverUrl: '',
+    coverUrl: '/books_pictures/752988acb881.jpg',
     pages: 496,
     genre: ['Policier'],
     saga: 'Quatuor de Los Angeles',
@@ -3276,7 +3292,7 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Drugstore Cowboy',
     author: 'James Fogle',
-    coverUrl: '',
+    coverUrl: '/books_pictures/94f2cfbb2e63.jpg',
     pages: 214,
     genre: ['Fiction'],
     saga: '',
@@ -3291,7 +3307,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Beat the Devil',
     author: 'James Helvick',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/b9abcdf5d1e7.jpg',
     pages: 256,
     genre: ['Aventure'],
     saga: '',
@@ -3306,7 +3323,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Goodbye, Mr. Chips',
     author: 'James Hilton',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/d5b30d72448e.jpg',
     pages: 134,
     genre: ['Fiction'],
     saga: '',
@@ -3321,7 +3339,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Lost Horizon',
     author: 'James Hilton',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/4ed7ec36df18.jpg',
     pages: 238,
     genre: ['Aventure', 'Fantastique'],
     saga: '',
@@ -3336,7 +3355,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'From Here to Eternity',
     author: 'James Jones',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/cbc6c5f7b35c.jpg',
     pages: 829,
     genre: ['Fiction historique'],
     saga: '',
@@ -3351,7 +3371,7 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'The Thin Red Line',
     author: 'James Jones',
-    coverUrl: '',
+    coverUrl: '/books_pictures/e4f6a671a50d.jpg',
     pages: 477,
     genre: ['Fiction historique'],
     saga: '',
@@ -3366,7 +3386,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Midnight Cowboy',
     author: 'James Leo Herlihy',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/2d9c324c4900.jpg',
     pages: 113,
     genre: ['Littérature'],
     saga: '',
@@ -3381,7 +3402,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Double Indemnity',
     author: 'James M. Cain',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/1489cfe9ca88.jpg',
     pages: 158,
     genre: ['Policier'],
     saga: '',
@@ -3396,7 +3418,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Le facteur sonne toujours deux fois',
     author: 'James M. Cain',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/2da2d6801def.jpg',
     pages: 112,
     genre: ['Policier'],
     saga: '',
@@ -3411,7 +3434,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'The Grizzly King',
     author: 'James Oliver Curwood',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/ec1bc7208114.jpg',
     pages: 164,
     genre: ['Aventure'],
     saga: '',
@@ -3426,7 +3450,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Persuasion',
     author: 'Jane Austen',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/b5a3e0eca29e.jpg',
     pages: 268,
     genre: ['Classiques', 'Romance'],
     saga: '',
@@ -3439,24 +3464,10 @@ export const baseBooksInspiringMovies: BaseBook[] = [
     selectDisplayOrder: 0,
   },
   {
-    title: 'Raison et Sensibilité',
-    author: 'Jane Austen',
-    coverUrl: '',
-    pages: 110,
-    genre: ['Classiques', 'Romance'],
-    saga: '',
-    sagaOrder: 0,
-    sagaFinished: false,
-    releaseDate: '1811-10-30',
-    description:
-      'Elinor et Marianne Dashwood, l’une réservée, l’autre passionnée, affrontent ruine et déceptions amoureuses.',
-    countryOrigin: 'Royaume-Uni',
-    selectDisplayOrder: 0,
-  },
-  {
     title: 'The Last Station',
     author: 'Jay Parini',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/626e561a2f60.jpg',
     pages: 290,
     genre: ['Fiction historique'],
     saga: '',
@@ -3471,7 +3482,7 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Jean le Bleu',
     author: 'Jean Giono',
-    coverUrl: '',
+    coverUrl: '/books_pictures/60f641b7987e.jpg',
     pages: 251,
     genre: ['Littérature'],
     saga: '',
@@ -3486,7 +3497,7 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Le Hussard sur le toit',
     author: 'Jean Giono',
-    coverUrl: '',
+    coverUrl: '/books_pictures/5fcba4217d25.jpg',
     pages: 500,
     genre: ['Aventure', 'Littérature'],
     saga: '',
@@ -3501,7 +3512,7 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Pouce !',
     author: 'Jean Laborde',
-    coverUrl: '',
+    coverUrl: '/books_pictures/5a72d04cc656.jpg',
     pages: 220,
     genre: ['Policier'],
     saga: '',
@@ -3516,7 +3527,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'In God We Trust: All Others Pay Cash',
     author: 'Jean Shepherd',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/d0d88bc28828.jpg',
     pages: 264,
     genre: ['Fiction'],
     saga: '',
@@ -3531,7 +3543,7 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Le Scaphandre et le Papillon',
     author: 'Jean-Dominique Bauby',
-    coverUrl: '',
+    coverUrl: '/books_pictures/870a47971e3d.jpg',
     pages: 139,
     genre: ['Biographie'],
     saga: '',
@@ -3546,7 +3558,7 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Kennedy et moi',
     author: 'Jean-Paul Dubois',
-    coverUrl: '',
+    coverUrl: '/books_pictures/67998dd7ea69.jpg',
     pages: 213,
     genre: ['Littérature'],
     saga: '',
@@ -3561,7 +3573,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'The Bone Collector',
     author: 'Jeffery Deaver',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/5bf285388f8f.jpg',
     pages: 445,
     genre: ['Policier', 'Thriller'],
     saga: 'Lincoln Rhyme',
@@ -3576,7 +3589,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Cendres et diamant',
     author: 'Jerzy Andrzejewski',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/167a05cc4d27.jpg',
     pages: 404,
     genre: ['Fiction historique'],
     saga: '',
@@ -3591,7 +3605,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Being There',
     author: 'Jerzy Kosiński',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/12c0b5bf5271.jpg',
     pages: 118,
     genre: ['Littérature'],
     saga: '',
@@ -3606,7 +3621,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'A Hell of a Woman',
     author: 'Jim Thompson',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/ca7f8a7b0d8f.jpg',
     pages: 184,
     genre: ['Policier'],
     saga: '',
@@ -3621,7 +3637,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Pop. 1280',
     author: 'Jim Thompson',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/1cab1e2de5f3.jpg',
     pages: 215,
     genre: ['Policier'],
     saga: '',
@@ -3636,7 +3653,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'The Getaway',
     author: 'Jim Thompson',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/0961f632f4df.jpg',
     pages: 180,
     genre: ['Policier'],
     saga: '',
@@ -3651,7 +3669,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'When Marnie Was There',
     author: 'Joan G. Robinson',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/9d96483ee6ca.jpg',
     pages: 288,
     genre: ['Jeunesse', 'Fantastique'],
     saga: '',
@@ -3666,7 +3685,7 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Picnic at Hanging Rock',
     author: 'Joan Lindsay',
-    coverUrl: '',
+    coverUrl: '/books_pictures/72dcadbe5937.jpg',
     pages: 192,
     genre: ['Fantastique', 'Thriller'],
     saga: '',
@@ -3681,7 +3700,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'She Said',
     author: 'Jodi Kantor',
-    coverUrl: '',
+    coverUrl:
+      'https://cdn1.booknode.com/book_cover/1456/she_said-1456198-264-432.webp',
     pages: 320,
     genre: ['Nonfiction'],
     saga: '',
@@ -3696,7 +3716,7 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Primary Colors',
     author: 'Joe Klein',
-    coverUrl: '',
+    coverUrl: '/books_pictures/b9adc9c12c49.jpg',
     pages: 384,
     genre: ['Fiction'],
     saga: '',
@@ -3711,7 +3731,7 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Touching the Void',
     author: 'Joe Simpson',
-    coverUrl: '',
+    coverUrl: '/books_pictures/3d84016e4fc2.jpg',
     pages: 187,
     genre: ['Nonfiction', 'Aventure'],
     saga: '',
@@ -3726,7 +3746,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Chasing the Scream',
     author: 'Johann Hari',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/c9eb20cd1258.jpg',
     pages: 400,
     genre: ['Nonfiction'],
     saga: '',
@@ -3741,10 +3762,11 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Laisse-moi entrer',
     author: 'John Ajvide Lindqvist',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/9141415b2d7d.jpg',
     pages: 448,
     genre: ['Horreur'],
-    saga: 'Låt den rätte komma in',
+    saga: '',
     sagaOrder: 1,
     sagaFinished: false,
     releaseDate: '2004-01-01',
@@ -3754,24 +3776,10 @@ export const baseBooksInspiringMovies: BaseBook[] = [
     selectDisplayOrder: 0,
   },
   {
-    title: 'Låt den rätte komma in',
-    author: 'John Ajvide Lindqvist',
-    coverUrl: '',
-    pages: 455,
-    genre: ['Horreur'],
-    saga: 'Låt den rätte komma in',
-    sagaOrder: 1,
-    sagaFinished: false,
-    releaseDate: '2004-01-01',
-    description:
-      'Titre original de Laisse-moi entrer : amitié, harcèlement et vampirisme dans la banlieue de Stockholm.',
-    countryOrigin: 'Suède',
-    selectDisplayOrder: 0,
-  },
-  {
     title: 'In the Heat of the Night',
     author: 'John Ball',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/29d7867493d3.jpg',
     pages: 247,
     genre: ['Policier'],
     saga: '',
@@ -3786,7 +3794,7 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Elegy for Iris',
     author: 'John Bayley',
-    coverUrl: '',
+    coverUrl: '/books_pictures/b92363ee205f.jpg',
     pages: 275,
     genre: ['Biographie'],
     saga: '',
@@ -3801,7 +3809,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Evil Angels',
     author: 'John Bryson',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/ad53be7f570f.jpg',
     pages: 550,
     genre: ['Nonfiction'],
     saga: '',
@@ -3816,7 +3825,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Les 39 Marches',
     author: 'John Buchan',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/2132f96f276f.jpg',
     pages: 116,
     genre: ['Thriller', 'Aventure'],
     saga: 'Richard Hannay',
@@ -3831,7 +3841,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Cape Fear',
     author: 'John D. MacDonald',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/0298a10d3a17.jpg',
     pages: 115,
     genre: ['Thriller'],
     saga: '',
@@ -3846,7 +3857,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'The Cider House Rules',
     author: 'John Irving',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/1b3c2f4a39e0.jpg',
     pages: 598,
     genre: ['Littérature'],
     saga: '',
@@ -3861,7 +3873,7 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: "L'Espion qui venait du froid",
     author: 'John le Carré',
-    coverUrl: '',
+    coverUrl: '/books_pictures/35503e710488.jpg',
     pages: 256,
     genre: ['Thriller'],
     saga: 'George Smiley',
@@ -3876,7 +3888,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'La Taupe',
     author: 'John le Carré',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/783091a5b03b.jpg',
     pages: 460,
     genre: ['Thriller'],
     saga: 'George Smiley',
@@ -3891,7 +3904,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'The Constant Gardener',
     author: 'John le Carré',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/6c659cf96213.jpg',
     pages: 557,
     genre: ['Thriller'],
     saga: '',
@@ -3906,7 +3920,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Leaving Las Vegas',
     author: "John O'Brien",
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/c27722befed6.jpg',
     pages: 189,
     genre: ['Littérature'],
     saga: '',
@@ -3921,7 +3936,7 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: "À l'est d'Éden",
     author: 'John Steinbeck',
-    coverUrl: '',
+    coverUrl: '/books_pictures/44cc50910e63.jpg',
     pages: 631,
     genre: ['Classiques'],
     saga: '',
@@ -3936,7 +3951,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'The Witches of Eastwick',
     author: 'John Updike',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/ba977361c72b.jpg',
     pages: 333,
     genre: ['Fantastique'],
     saga: '',
@@ -3951,7 +3967,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Brainwash',
     author: 'John Wainwright',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/12d8ff517747.jpg',
     pages: 191,
     genre: ['Thriller'],
     saga: '',
@@ -3966,7 +3983,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'The Half-Life',
     author: 'Jonathan Raymond',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/1395ff9209e7.jpg',
     pages: 367,
     genre: ['Littérature'],
     saga: '',
@@ -3979,24 +3997,10 @@ export const baseBooksInspiringMovies: BaseBook[] = [
     selectDisplayOrder: 0,
   },
   {
-    title: 'Extremely Loud & Incredibly Close',
-    author: 'Jonathan Safran Foer',
-    coverUrl: '',
-    pages: 368,
-    genre: ['Littérature'],
-    saga: '',
-    sagaOrder: 0,
-    sagaFinished: false,
-    releaseDate: '2005-01-01',
-    description:
-      'Oskar, neuf ans, parcourt New York après le 11-Septembre, une clé au poing, en quête de son père.',
-    countryOrigin: 'États-Unis',
-    selectDisplayOrder: 0,
-  },
-  {
     title: 'Le Thème du traître et du héros',
     author: 'Jorge Luis Borges',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/46146244d435.jpg',
     pages: 20,
     genre: ['Littérature', 'Classiques'],
     saga: '',
@@ -4011,7 +4015,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Le Deuxième Souffle',
     author: 'José Giovanni',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/fa3470a9cb6f.jpg',
     pages: 248,
     genre: ['Policier'],
     saga: '',
@@ -4026,7 +4031,7 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Les Aventuriers',
     author: 'José Giovanni',
-    coverUrl: '',
+    coverUrl: '/books_pictures/440eb22230f7.jpg',
     pages: 277,
     genre: ['Aventure', 'Policier'],
     saga: '',
@@ -4041,7 +4046,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Infância dos Mortos',
     author: 'José Louzeiro',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/ededbc7f947c.jpg',
     pages: 228,
     genre: ['Fiction'],
     saga: '',
@@ -4056,7 +4062,7 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Un sac de billes',
     author: 'Joseph Joffo',
-    coverUrl: '',
+    coverUrl: '/books_pictures/89eb66957634.jpg',
     pages: 253,
     genre: ['Biographie', 'Fiction historique'],
     saga: '',
@@ -4071,7 +4077,7 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Belle de jour',
     author: 'Joseph Kessel',
-    coverUrl: '',
+    coverUrl: '/books_pictures/4a5af14b23f9.jpg',
     pages: 153,
     genre: ['Littérature'],
     saga: '',
@@ -4086,7 +4092,7 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Immodest Acts',
     author: 'Judith C. Brown',
-    coverUrl: '',
+    coverUrl: '/books_pictures/c50624cd27f9.jpg',
     pages: 222,
     genre: ['Nonfiction'],
     saga: '',
@@ -4101,7 +4107,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Ordinary People',
     author: 'Judith Guest',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/5b36e75c47ea.jpg',
     pages: 245,
     genre: ['Fiction'],
     saga: '',
@@ -4114,24 +4121,10 @@ export const baseBooksInspiringMovies: BaseBook[] = [
     selectDisplayOrder: 0,
   },
   {
-    title: 'Le Tour du monde en quatre-vingts jours',
-    author: 'Jules Verne',
-    coverUrl: '',
-    pages: 225,
-    genre: ['Classiques', 'Aventure'],
-    saga: '',
-    sagaOrder: 0,
-    sagaFinished: false,
-    releaseDate: '1872-01-01',
-    description:
-      'Phileas Fogg parie qu’il fera le tour du globe en quatre-vingts jours, Passepartout à ses trousses.',
-    countryOrigin: 'France',
-    selectDisplayOrder: 0,
-  },
-  {
     title: 'Las babas del diablo',
     author: 'Julio Cortázar',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/7493dc70bc02.jpg',
     pages: 25,
     genre: ['Littérature'],
     saga: '',
@@ -4146,7 +4139,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Ningen no jôken',
     author: 'Junpei Gomikawa',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/99cf36253478.jpg',
     pages: 400,
     genre: ['Fiction historique'],
     saga: '',
@@ -4161,7 +4155,7 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Moi, Christiane F., 13 ans, droguée, prostituée',
     author: 'Kai Hermann',
-    coverUrl: '',
+    coverUrl: '/books_pictures/01f9a45d3c4e.jpg',
     pages: 279,
     genre: ['Biographie'],
     saga: '',
@@ -4176,7 +4170,7 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'La Ferme africaine',
     author: 'Karen Blixen',
-    coverUrl: '',
+    coverUrl: '/books_pictures/6e42654bd30c.jpg',
     pages: 336,
     genre: ['Biographie', 'Littérature'],
     saga: '',
@@ -4191,7 +4185,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'The Descendants',
     author: 'Kaui Hart Hemmings',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/fea5c943f2c4.jpg',
     pages: 297,
     genre: ['Littérature'],
     saga: '',
@@ -4206,7 +4201,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Les Vestiges du jour',
     author: 'Kazuo Ishiguro',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/5511e7b0ff1a.jpg',
     pages: 245,
     genre: ['Littérature'],
     saga: '',
@@ -4221,7 +4217,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Never Let Me Go',
     author: 'Kazuo Ishiguro',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/1f68cb93e3de.jpg',
     pages: 319,
     genre: ['Dystopie', 'Science Fiction'],
     saga: '',
@@ -4236,7 +4233,7 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Les Cerfs-volants de Kaboul',
     author: 'Khaled Hosseini',
-    coverUrl: '',
+    coverUrl: '/books_pictures/8e022cf6d2be.jpg',
     pages: 371,
     genre: ['Littérature'],
     saga: '',
@@ -4249,24 +4246,10 @@ export const baseBooksInspiringMovies: BaseBook[] = [
     selectDisplayOrder: 0,
   },
   {
-    title: 'Come to See Me',
-    author: 'Kim Kwang-lim',
-    coverUrl: '',
-    pages: 40,
-    genre: ['Poésie'],
-    saga: '',
-    sagaOrder: 0,
-    sagaFinished: false,
-    releaseDate: '1990-01-01',
-    description:
-      'Poème coréen dont Lee Chang-dong a tiré Poetry : la langue, le deuil et la violence faite aux femmes.',
-    countryOrigin: 'Corée du Sud',
-    selectDisplayOrder: 0,
-  },
-  {
     title: 'Mephisto',
     author: 'Klaus Mann',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/fd1f23e6d357.jpg',
     pages: 379,
     genre: ['Littérature', 'Fiction historique'],
     saga: '',
@@ -4281,7 +4264,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Honogurai mizu no soko kara',
     author: 'Koji Suzuki',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/5ee0898b86bc.jpg',
     pages: 277,
     genre: ['Horreur'],
     saga: '',
@@ -4296,7 +4280,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Ring',
     author: 'Kōji Suzuki',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/24f9b7feaf25.jpg',
     pages: 286,
     genre: ['Horreur'],
     saga: 'Ring',
@@ -4311,7 +4296,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'The Go-Between',
     author: 'L. P. Hartley',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/80a3c38e8372.jpg',
     pages: 296,
     genre: ['Littérature', 'Classiques'],
     saga: '',
@@ -4326,7 +4312,7 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Kwaidan',
     author: 'Lafcadio Hearn',
-    coverUrl: '',
+    coverUrl: '/books_pictures/b794a7f926a4.jpg',
     pages: 198,
     genre: ['Fantastique', 'Horreur'],
     saga: '',
@@ -4341,7 +4327,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Wag the Dog',
     author: 'Larry Beinhart',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/b48bf6b974fc.jpg',
     pages: 420,
     genre: ['Fiction'],
     saga: '',
@@ -4356,7 +4343,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Terms of Endearment',
     author: 'Larry McMurtry',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/0cf158b04937.jpg',
     pages: 410,
     genre: ['Fiction'],
     saga: 'Aurora Greenway',
@@ -4371,7 +4359,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'The Last Picture Show',
     author: 'Larry McMurtry',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/a107e9a84bb9.jpg',
     pages: 256,
     genre: ['Littérature'],
     saga: 'Thalia',
@@ -4386,7 +4375,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Invincible',
     author: 'Laura Hillenbrand',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/3735b9ed091d.jpg',
     pages: 578,
     genre: ['Biographie'],
     saga: '',
@@ -4401,7 +4391,7 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Seabiscuit: An American Legend',
     author: 'Laura Hillenbrand',
-    coverUrl: '',
+    coverUrl: '/books_pictures/8fc1484909bb.jpg',
     pages: 453,
     genre: ['Nonfiction'],
     saga: '',
@@ -4416,7 +4406,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: "Gentleman's Agreement",
     author: 'Laura Z. Hobson',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/fb3194712eea.jpg',
     pages: 278,
     genre: ['Fiction'],
     saga: '',
@@ -4431,7 +4422,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: '8 Million Ways to Die',
     author: 'Lawrence Block',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/e07562cacada.jpg',
     pages: 320,
     genre: ['Policier'],
     saga: 'Matthew Scudder',
@@ -4446,7 +4438,7 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Going Clear',
     author: 'Lawrence Wright',
-    coverUrl: '',
+    coverUrl: '/books_pictures/03c848df0a2e.jpg',
     pages: 448,
     genre: ['Nonfiction'],
     saga: '',
@@ -4461,7 +4453,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Can You Ever Forgive Me?',
     author: 'Lee Israel',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/4115310520e4.jpg',
     pages: 144,
     genre: ['Biographie'],
     saga: '',
@@ -4476,7 +4469,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'The IPCRESS File',
     author: 'Len Deighton',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/159443ff53c8.jpg',
     pages: 223,
     genre: ['Thriller'],
     saga: '',
@@ -4491,7 +4485,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Le Contexte',
     author: 'Leonardo Sciascia',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/a79312df01c3.jpg',
     pages: 152,
     genre: ['Policier', 'Littérature'],
     saga: '',
@@ -4506,7 +4501,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'La Vénus à la fourrure',
     author: 'Leopold von Sacher-Masoch',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/cbe28211369d.jpg',
     pages: 199,
     genre: ['Littérature', 'Classiques'],
     saga: '',
@@ -4521,7 +4517,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Adieu ma concubine',
     author: 'Lilian Lee',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/180e50d4c568.jpg',
     pages: 304,
     genre: ['Fiction historique', 'Littérature'],
     saga: '',
@@ -4536,7 +4533,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Pentimento',
     author: 'Lillian Hellman',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/acd3c4e76c25.jpg',
     pages: 258,
     genre: ['Biographie'],
     saga: '',
@@ -4551,7 +4549,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'We Need to Talk About Kevin',
     author: 'Lionel Shriver',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/0d9a31e9e530.jpg',
     pages: 468,
     genre: ['Thriller'],
     saga: '',
@@ -4566,7 +4565,7 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Obsession',
     author: 'Lionel White',
-    coverUrl: '',
+    coverUrl: '/books_pictures/706801d082bc.jpg',
     pages: 191,
     genre: ['Policier'],
     saga: '',
@@ -4581,7 +4580,8 @@ export const baseBooksInspiringMovies: BaseBook[] = [
   {
     title: 'Still Alice',
     author: 'Lisa Genova',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/dc5b3ce90050.jpg',
     pages: 319,
     genre: ['Fiction'],
     saga: '',
@@ -10337,21 +10337,6 @@ export const baseBooksInspiringMovies: BaseBook[] = [
     releaseDate: '1817-01-01',
     description:
       'Intrigues écossaises autour du hors-la-loi Rob Roy MacGregor.',
-    countryOrigin: 'Royaume-Uni',
-    selectDisplayOrder: 0,
-  },
-  {
-    title: 'Raison et Sentiments',
-    author: 'Jane Austen',
-    coverUrl: '',
-    pages: 400,
-    genre: ['Classiques', 'Romance'],
-    saga: '',
-    sagaOrder: 0,
-    sagaFinished: false,
-    releaseDate: '1811-01-01',
-    description:
-      'Elinor et Marianne Dashwood naviguent entre raison, passions et mariages.',
     countryOrigin: 'Royaume-Uni',
     selectDisplayOrder: 0,
   },

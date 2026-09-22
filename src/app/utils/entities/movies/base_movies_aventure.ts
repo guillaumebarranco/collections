@@ -76,7 +76,8 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 113,
     genre: ['Aventure', 'Drame'],
     saga: 'Le Comte de Monte-Cristo',
-    description: 'Adaptation classique : Edmond Dantès, trahi et enfermé aux Château d\'If, revient riche et transformé pour punir ses anciens amis devenus ennemis.',
+    description:
+      "Adaptation classique : Edmond Dantès, trahi et enfermé aux Château d'If, revient riche et transformé pour punir ses anciens amis devenus ennemis.",
     fromEntity: {
       entityType: 'book' as const,
       title: 'Le Comte de Monte-Cristo',
@@ -117,7 +118,8 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 183,
     genre: ['Aventure', 'Drame'],
     saga: 'Le Comte de Monte-Cristo',
-    description: 'Version française du roman de Dumas où le marin Edmond Dantès se fait passer pour le comte de Monte-Cristo pour orchestrer une vengeance méthodique.',
+    description:
+      'Version française du roman de Dumas où le marin Edmond Dantès se fait passer pour le comte de Monte-Cristo pour orchestrer une vengeance méthodique.',
     fromEntity: {
       entityType: 'book' as const,
       title: 'Le Comte de Monte-Cristo',
@@ -158,7 +160,8 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 175,
     genre: ['Aventure', 'Drame'],
     saga: 'Le Comte de Monte-Cristo',
-    description: 'Edmond Dantès s\'évade de prison, découvre un trésor et revient sous une nouvelle identité pour détruire ceux qui ont orchestré son emprisonnement.',
+    description:
+      "Edmond Dantès s'évade de prison, découvre un trésor et revient sous une nouvelle identité pour détruire ceux qui ont orchestré son emprisonnement.",
     fromEntity: {
       entityType: 'book' as const,
       title: 'Le Comte de Monte-Cristo',
@@ -199,7 +202,8 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 103,
     genre: ['Aventure', 'Drame'],
     saga: 'Le Comte de Monte-Cristo',
-    description: 'Téléfilm où le jeune Dantès, condamné à tort, s\'échappe, accumule fortune et influence, puis revient déguisé pour régler ses comptes avec ses traîtres.',
+    description:
+      "Téléfilm où le jeune Dantès, condamné à tort, s'échappe, accumule fortune et influence, puis revient déguisé pour régler ses comptes avec ses traîtres.",
     fromEntity: {
       entityType: 'book' as const,
       title: 'Le Comte de Monte-Cristo',
@@ -226,7 +230,8 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 131,
     genre: ['Aventure', 'Drame'],
     saga: 'Le Comte de Monte-Cristo',
-    description: 'Edmond Dantès, emprisonné quatorze ans, retrouve la liberté grâce à un trésor caché et revient à Marseille pour se venger de Fernand et de ses complices.',
+    description:
+      'Edmond Dantès, emprisonné quatorze ans, retrouve la liberté grâce à un trésor caché et revient à Marseille pour se venger de Fernand et de ses complices.',
     fromEntity: {
       entityType: 'book' as const,
       title: 'Le Comte de Monte-Cristo',
@@ -264,7 +269,8 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 178,
     genre: ['Aventure'],
     saga: 'Le Comte de Monte-Cristo',
-    description: 'Injustement emprisonné, Edmond Dantès s\'évade, accumule une fortune et revient à Paris sous l\'identité du comte de Monte-Cristo pour se venger de ceux qui l\'ont trahi.',
+    description:
+      "Injustement emprisonné, Edmond Dantès s'évade, accumule une fortune et revient à Paris sous l'identité du comte de Monte-Cristo pour se venger de ceux qui l'ont trahi.",
     fromEntity: {
       entityType: 'book',
       title: 'Le Comte de Monte-Cristo',
@@ -572,7 +578,7 @@ export const baseMoviesAventure: BaseMovie[] = [
       "Phileas Fogg parie qu'il fera le tour du monde en quatre-vingts jours, Passepartout sur les talons.",
     fromEntity: {
       entityType: 'book',
-      title: 'Le Tour du monde en quatre-vingts jours',
+      title: 'Le tour du monde en 80 jours',
       secondEntityKey: 'Jules Verne',
     },
     countryOrigin: ['États-Unis'],
@@ -624,7 +630,8 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 212,
     genre: ['Aventure', 'Drame'],
     saga: '',
-    description: 'Un prince juif de Jérusalem est trahi par un ami romain, réduit en esclave puis revient chercher vengeance lors d\'une célèbre course de chars.',
+    description:
+      "Un prince juif de Jérusalem est trahi par un ami romain, réduit en esclave puis revient chercher vengeance lors d'une célèbre course de chars.",
     fromEntity: {
       entityType: 'book',
       title: 'Ben-Hur',
@@ -677,7 +684,8 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 104,
     genre: ['Aventure', 'Jeunesse'],
     saga: 'Tintin',
-    description: 'Tintin et Milou enquêtent sur la Toison d\'or volée et découvrent une conspiration autour d\'un magnat grec et de son neveu suspecté de trafic.',
+    description:
+      "Tintin et Milou enquêtent sur la Toison d'or volée et découvrent une conspiration autour d'un magnat grec et de son neveu suspecté de trafic.",
     fromEntity: {
       entityType: 'bd',
       title: 'Le Secret de La Licorne',
@@ -718,7 +726,8 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 105,
     genre: ['Aventure', 'Jeunesse'],
     saga: 'Tintin',
-    description: 'Tintin enquête sur le vol de cargaisons d\'oranges bleues entre l\'Espagne et le Maroc, mêlant espionnage, contrebande et complot international.',
+    description:
+      "Tintin enquête sur le vol de cargaisons d'oranges bleues entre l'Espagne et le Maroc, mêlant espionnage, contrebande et complot international.",
     fromEntity: {
       entityType: 'bd',
       title: 'Le Secret de La Licorne',
@@ -745,7 +754,8 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 107,
     genre: ['Aventure', 'Mystère'],
     saga: 'Tintin',
-    description: 'Tintin et Milou poursuivent des pirates dans un trésor englouti, croisant le capitaine Haddock et le professeur Tournesol dans une aventure en motion capture.',
+    description:
+      'Tintin et Milou poursuivent des pirates dans un trésor englouti, croisant le capitaine Haddock et le professeur Tournesol dans une aventure en motion capture.',
     fromEntity: {
       entityType: 'bd',
       title: 'Le Secret de La Licorne',
@@ -786,11 +796,12 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 227,
     genre: ['Aventure'],
     saga: '',
-    description: 'T.E. Lawrence, officier britannique, s\'allie aux tribus arabes pendant la Première Guerre mondiale pour mener une guerre du désert contre l\'Empire ottoman.',
+    description:
+      "T.E. Lawrence, officier britannique, s'allie aux tribus arabes pendant la Première Guerre mondiale pour mener une guerre du désert contre l'Empire ottoman.",
     fromEntity: {
       entityType: 'book',
-      title: "Les Sept Piliers de la sagesse",
-      secondEntityKey: "T. E. Lawrence",
+      title: 'Les Sept Piliers de la sagesse',
+      secondEntityKey: 'T. E. Lawrence',
     },
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -870,11 +881,12 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 105,
     genre: ['Aventure', 'Comédie'],
     saga: 'Fantomas',
-    description: 'Le super-criminel Fantomas échappe sans cesse à l\'inspecteur Juve et au journaliste Fandor grâce à déguisements et machinations toujours plus audacieux.',
+    description:
+      "Le super-criminel Fantomas échappe sans cesse à l'inspecteur Juve et au journaliste Fandor grâce à déguisements et machinations toujours plus audacieux.",
     fromEntity: {
       entityType: 'book',
-      title: "Fantômas",
-      secondEntityKey: "Marcel Allain et Pierre Souvestre",
+      title: 'Fantômas',
+      secondEntityKey: 'Marcel Allain et Pierre Souvestre',
     },
     countryOrigin: ['France', 'Italie'],
     selectDisplayOrder: 0,
@@ -916,8 +928,7 @@ export const baseMoviesAventure: BaseMovie[] = [
       { name: 'Michel Auclair' },
       { name: 'Pierre Brasseur' },
     ],
-    coverUrl:
-      '/movies_pictures/36fcc2d73bd1.jpg',
+    coverUrl: '/movies_pictures/36fcc2d73bd1.jpg',
     releaseDate: '1971-04-08',
     length: 100,
     genre: ['Aventure', 'Comédie', 'Romance'],
@@ -965,8 +976,7 @@ export const baseMoviesAventure: BaseMovie[] = [
       { name: 'Del Negro' },
       { name: 'Peter Berling' },
     ],
-    coverUrl:
-      '/movies_pictures/4d353c8211f6.jpg',
+    coverUrl: '/movies_pictures/4d353c8211f6.jpg',
     releaseDate: '1972-12-29',
     length: 94,
     genre: ['Aventure', 'Drame', 'Historique'],
@@ -988,8 +998,7 @@ export const baseMoviesAventure: BaseMovie[] = [
       { name: 'Dmitry Korshikov' },
       { name: 'Suimenkul Chokmorov' },
     ],
-    coverUrl:
-      '/movies_pictures/db2600a7fc43.jpg',
+    coverUrl: '/movies_pictures/db2600a7fc43.jpg',
     releaseDate: '1975-08-02',
     length: 144,
     genre: ['Aventure', 'Drame', 'Biographie'],
@@ -1015,8 +1024,7 @@ export const baseMoviesAventure: BaseMovie[] = [
       { name: 'Saeed Jaffrey' },
       { name: 'Shakira Caine' },
     ],
-    coverUrl:
-      '/movies_pictures/90e1fe1c0f99.jpg',
+    coverUrl: '/movies_pictures/90e1fe1c0f99.jpg',
     releaseDate: '1975-12-17',
     length: 129,
     genre: ['Aventure', 'Drame'],
@@ -1049,7 +1057,8 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 140,
     genre: ['Aventure', 'Drame', 'Fantastique'],
     saga: '',
-    description: 'De l\'ascension du roi Arthur à la quête du Graal, l\'épopée légendaire des chevaliers de la Table ronde et de l\'épée magique Excalibur.',
+    description:
+      "De l'ascension du roi Arthur à la quête du Graal, l'épopée légendaire des chevaliers de la Table ronde et de l'épée magique Excalibur.",
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -1120,11 +1129,12 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 129,
     genre: ['Aventure'],
     saga: '',
-    description: 'Conan, guerrier cimmerien, traque Thulsa Doom, le sorcier qui a massacré son village, à travers des terres de barbarie et de magie noire.',
+    description:
+      'Conan, guerrier cimmerien, traque Thulsa Doom, le sorcier qui a massacré son village, à travers des terres de barbarie et de magie noire.',
     fromEntity: {
       entityType: 'book',
-      title: "Conan le Barbare",
-      secondEntityKey: "Robert E. Howard",
+      title: 'Conan le Barbare',
+      secondEntityKey: 'Robert E. Howard',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -1140,8 +1150,7 @@ export const baseMoviesAventure: BaseMovie[] = [
       { name: 'Marie Laforêt' },
       { name: 'Maurice Auzel' },
     ],
-    coverUrl:
-      '/movies_pictures/e4d4f2c0ffe2.jpg',
+    coverUrl: '/movies_pictures/e4d4f2c0ffe2.jpg',
     releaseDate: '1984-03-28',
     length: 95,
     genre: ['Aventure', 'Comédie', 'Guerre'],
@@ -1185,8 +1194,7 @@ export const baseMoviesAventure: BaseMovie[] = [
       { name: 'Ian Holm' },
       { name: 'James Fox' },
     ],
-    coverUrl:
-      '/movies_pictures/edf281044674.jpg',
+    coverUrl: '/movies_pictures/edf281044674.jpg',
     releaseDate: '1984-03-30',
     length: 143,
     genre: ['Aventure', 'Drame'],
@@ -1212,8 +1220,7 @@ export const baseMoviesAventure: BaseMovie[] = [
       { name: 'Edward Fox' },
       { name: 'Daniel Day-Lewis' },
     ],
-    coverUrl:
-      '/movies_pictures/4556cc4e5a34.jpg',
+    coverUrl: '/movies_pictures/4556cc4e5a34.jpg',
     releaseDate: '1984-05-04',
     length: 132,
     genre: ['Aventure', 'Drame', 'Historique'],
@@ -1260,7 +1267,8 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 91,
     genre: ['Aventure', 'Comédie', 'Jeunesse'],
     saga: '',
-    description: 'Pee-wee Herman traverse les États-Unis à la recherche de son vélo volé, croisant des personnages hauts en couleur dans une odyssée burlesque.',
+    description:
+      'Pee-wee Herman traverse les États-Unis à la recherche de son vélo volé, croisant des personnages hauts en couleur dans une odyssée burlesque.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1283,7 +1291,8 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 126,
     genre: ['Aventure', 'Drame'],
     saga: '',
-    description: 'Au Moyen Âge, un mercenaire et une princesse s\'unissent pour affronter un évêque corrompu et protéger un trésor convoité par leurs ennemis.',
+    description:
+      "Au Moyen Âge, un mercenaire et une princesse s'unissent pour affronter un évêque corrompu et protéger un trésor convoité par leurs ennemis.",
     fromEntity: null,
     countryOrigin: ['Pays-Bas'],
     selectDisplayOrder: 0,
@@ -1320,7 +1329,8 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 109,
     genre: ['Aventure', 'Mystère', 'Jeunesse'],
     saga: 'Sherlock Holmes',
-    description: 'Un jeune prodige et son amie déchiffrent une énigme laissée par le fondateur d\'une société secrète et déclenchent une chasse au trésor à travers l\'Europe.',
+    description:
+      "Un jeune prodige et son amie déchiffrent une énigme laissée par le fondateur d'une société secrète et déclenchent une chasse au trésor à travers l'Europe.",
     fromEntity: {
       entityType: 'book' as const,
       title: 'Une étude en rouge',
@@ -1342,13 +1352,13 @@ export const baseMoviesAventure: BaseMovie[] = [
       { name: 'Martha Plimpton' },
       { name: 'Ke Huy Quan' },
     ],
-    coverUrl:
-      '/movies_pictures/5e81ee15893b.jpg',
+    coverUrl: '/movies_pictures/5e81ee15893b.jpg',
     releaseDate: '1985-12-04',
     length: 114,
     genre: ['Aventure'],
     saga: '',
-    description: 'Un groupe d\'enfants découvre une carte au trésor de pirates et s\'aventure dans des grottes pour sauver leurs maisons d\'un promoteur avide.',
+    description:
+      "Un groupe d'enfants découvre une carte au trésor de pirates et s'aventure dans des grottes pour sauver leurs maisons d'un promoteur avide.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -1386,8 +1396,7 @@ export const baseMoviesAventure: BaseMovie[] = [
       { name: 'André the Giant' },
       { name: 'Wallace Shawn' },
     ],
-    coverUrl:
-      '/movies_pictures/fa44b45904bb.jpeg',
+    coverUrl: '/movies_pictures/fa44b45904bb.jpeg',
     releaseDate: '1987-09-25',
     length: 98,
     genre: ['Aventure', 'Comédie', 'Romance', 'Fantastique'],
@@ -1413,8 +1422,7 @@ export const baseMoviesAventure: BaseMovie[] = [
       { name: 'Jack Wallace' },
       { name: 'André Lacombe' },
     ],
-    coverUrl:
-      '/movies_pictures/fcd8ec6883da.jpg',
+    coverUrl: '/movies_pictures/fcd8ec6883da.jpg',
     releaseDate: '1988-10-19',
     length: 96,
     genre: ['Aventure', 'Drame', 'Jeunesse'],
@@ -1462,7 +1470,8 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 128,
     genre: ['Aventure'],
     saga: '',
-    description: 'Le jeune Jim Hawkins embarque avec des pirates à la recherche d\'un trésor caché sur une île lointaine, entre loyauté, trahison et cartes marquées.',
+    description:
+      "Le jeune Jim Hawkins embarque avec des pirates à la recherche d'un trésor caché sur une île lointaine, entre loyauté, trahison et cartes marquées.",
     fromEntity: {
       entityType: 'book',
       title: "L'Île au trésor",
@@ -1487,7 +1496,8 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 143,
     genre: ['Aventure', 'Action'],
     saga: '',
-    description: 'Robin des Bois revient d\'Outremer, s\'installe dans la forêt de Sherwood et mène ses hommes contre le shérif de Nottingham pour défendre les opprimés.',
+    description:
+      "Robin des Bois revient d'Outremer, s'installe dans la forêt de Sherwood et mène ses hommes contre le shérif de Nottingham pour défendre les opprimés.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1503,8 +1513,7 @@ export const baseMoviesAventure: BaseMovie[] = [
       { name: 'Timothy Dalton' },
       { name: 'Paul Sorvino' },
     ],
-    coverUrl:
-      '/movies_pictures/502cdb0894ec.jpg',
+    coverUrl: '/movies_pictures/502cdb0894ec.jpg',
     releaseDate: '1991-06-21',
     length: 108,
     genre: ['Aventure', 'Science Fiction', 'Action'],
@@ -1551,11 +1560,12 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 142,
     genre: ['Aventure', 'Fantastique'],
     saga: '',
-    description: 'Peter Pan devenu adulte oublie son passé jusqu\'à ce que ses enfants soient enlevés par le capitaine Crochet, le forçant à retourner au Pays imaginaire.',
+    description:
+      "Peter Pan devenu adulte oublie son passé jusqu'à ce que ses enfants soient enlevés par le capitaine Crochet, le forçant à retourner au Pays imaginaire.",
     fromEntity: {
       entityType: 'book',
-      title: "Peter Pan",
-      secondEntityKey: "J. M. Barrie",
+      title: 'Peter Pan',
+      secondEntityKey: 'J. M. Barrie',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -1578,11 +1588,12 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 140,
     genre: ['Aventure', 'Romance'],
     saga: '',
-    description: 'Des astronautes en mission vers Mars découvrent une tempête mortelle et doivent improviser un retour vers la Terre avec des ressources limitées.',
+    description:
+      'Des astronautes en mission vers Mars découvrent une tempête mortelle et doivent improviser un retour vers la Terre avec des ressources limitées.',
     fromEntity: {
       entityType: 'book',
-      title: "Lonesome Dove",
-      secondEntityKey: "Larry McMurtry",
+      title: 'Lonesome Dove',
+      secondEntityKey: 'Larry McMurtry',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1625,17 +1636,16 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 112,
     genre: ['Aventure'],
     saga: '',
-    description: 'Pendant la guerre franco-indienne, un trappeur et ses fils adoptifs mohicans protègent les filles d\'un colonel britannique traquées par les Hurons.',
+    description:
+      "Pendant la guerre franco-indienne, un trappeur et ses fils adoptifs mohicans protègent les filles d'un colonel britannique traquées par les Hurons.",
     fromEntity: {
       entityType: 'book',
-      title: "Le Dernier des Mohicans",
-      secondEntityKey: "James Fenimore Cooper",
+      title: 'Le Dernier des Mohicans',
+      secondEntityKey: 'James Fenimore Cooper',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_SOUND, year: 1993 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_SOUND, year: 1993 }],
   },
   {
     title: '1492 : Christophe Colomb',
@@ -1688,7 +1698,8 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 104,
     genre: ['Aventure', 'Science Fiction', 'Comédie'],
     saga: 'Mario',
-    description: 'Les frères Mario plombiers sont transportés dans un monde parallèle dystopique où ils doivent affronter le roi Koopa pour sauver la princesse Daisy.',
+    description:
+      'Les frères Mario plombiers sont transportés dans un monde parallèle dystopique où ils doivent affronter le roi Koopa pour sauver la princesse Daisy.',
     fromEntity: {
       entityType: 'game',
       title: 'Super Mario Bros.',
@@ -1715,7 +1726,8 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 112,
     genre: ['Aventure', 'Jeunesse'],
     saga: '',
-    description: 'Un enfant en famille d\'accueil lie amitié avec une orque en captivité et monte une campagne pour la remettre en liberté dans l\'océan.',
+    description:
+      "Un enfant en famille d'accueil lie amitié avec une orque en captivité et monte une campagne pour la remettre en liberté dans l'océan.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1737,7 +1749,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     genre: ['Aventure', 'Drame', 'Historique'],
     saga: '',
     description:
-      'En Écosse du XVIIIe siècle, Rob Roy MacGregor défend l\'honneur de sa famille et de son clan contre un aristocrate qui trahit sa parole.',
+      "En Écosse du XVIIIe siècle, Rob Roy MacGregor défend l'honneur de sa famille et de son clan contre un aristocrate qui trahit sa parole.",
     fromEntity: {
       entityType: 'book',
       title: 'Rob Roy',
@@ -1764,7 +1776,8 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 124,
     genre: ['Aventure', 'Action'],
     saga: '',
-    description: 'Deux demi-frères rivaux se retrouvent sur une île hantée de pirates à la recherche d\'un trésor légendaire, entre duels, trahisons et malédictions.',
+    description:
+      "Deux demi-frères rivaux se retrouvent sur une île hantée de pirates à la recherche d'un trésor légendaire, entre duels, trahisons et malédictions.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1787,7 +1800,8 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 134,
     genre: ['Aventure'],
     saga: '',
-    description: 'Lancelot sauve Guenièvre et rejoint la Table ronde, mais son amour secret pour la reine menace l\'unité du royaume d\'Arthur.',
+    description:
+      "Lancelot sauve Guenièvre et rejoint la Table ronde, mais son amour secret pour la reine menace l'unité du royaume d'Arthur.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -1845,13 +1859,13 @@ export const baseMoviesAventure: BaseMovie[] = [
         name: 'Bradley Pierce',
       },
     ],
-    coverUrl:
-      '/movies_pictures/6af73f17f7fd.jpg',
+    coverUrl: '/movies_pictures/6af73f17f7fd.jpg',
     releaseDate: '1995-12-15',
     length: 104,
     genre: ['Aventure'],
     saga: 'Jumanji',
-    description: 'Deux enfants libèrent un jeu magique qui fait apparaître dans la réalité dangers de la jungle et animaux sauvages, piégeant leurs familles dans le chaos.',
+    description:
+      'Deux enfants libèrent un jeu magique qui fait apparaître dans la réalité dangers de la jungle et animaux sauvages, piégeant leurs familles dans le chaos.',
     fromEntity: {
       entityType: 'book',
       title: 'Jumanji',
@@ -1887,13 +1901,13 @@ export const baseMoviesAventure: BaseMovie[] = [
         name: 'Bobby Cannavale',
       },
     ],
-    coverUrl:
-      '/movies_pictures/e05fcf3def2b.jpg',
+    coverUrl: '/movies_pictures/e05fcf3def2b.jpg',
     releaseDate: '2017-12-20',
     length: 119,
     genre: ['Action'],
     saga: 'Jumanji',
-    description: 'Quatre lycéens sont aspirés dans le jeu Jumanji et incarnent des avatars aux pouvoirs limités pour accomplir une quête et rentrer chez eux.',
+    description:
+      'Quatre lycéens sont aspirés dans le jeu Jumanji et incarnent des avatars aux pouvoirs limités pour accomplir une quête et rentrer chez eux.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -1911,13 +1925,13 @@ export const baseMoviesAventure: BaseMovie[] = [
       { name: 'Awkwafina' },
       { name: 'Danny DeVito' },
     ],
-    coverUrl:
-      '/movies_pictures/c2f7adfa985b.jpg',
+    coverUrl: '/movies_pictures/c2f7adfa985b.jpg',
     releaseDate: '2019-12-04',
     length: 114,
     genre: ['Action'],
     saga: 'Jumanji',
-    description: 'Les joueurs de Jumanji retournent dans le jeu avec de nouveaux avatars et des niveaux plus dangereux pour sauver un ami coincé dans la machine.',
+    description:
+      'Les joueurs de Jumanji retournent dans le jeu avec de nouveaux avatars et des niveaux plus dangereux pour sauver un ami coincé dans la machine.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -1940,7 +1954,8 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 104,
     genre: ['Aventure', 'Fantastique'],
     saga: '',
-    description: 'Un garçon découvre qu\'il peut entrer dans les livres et doit sauver un monde fantastique menacé par un sorcier qui veut détruire l\'imaginaire.',
+    description:
+      "Un garçon découvre qu'il peut entrer dans les livres et doit sauver un monde fantastique menacé par un sorcier qui veut détruire l'imaginaire.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1963,7 +1978,8 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 100,
     genre: ['Aventure', 'Comédie'],
     saga: '',
-    description: 'Un snob parisien se retrouve entraîné par un chamane amazonien dans une aventure initiatique au cœur de la forêt tropicale brésilienne.',
+    description:
+      'Un snob parisien se retrouve entraîné par un chamane amazonien dans une aventure initiatique au cœur de la forêt tropicale brésilienne.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1986,7 +2002,8 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 103,
     genre: ['Aventure', 'Fantastique'],
     saga: '',
-    description: 'Un dragon et un chevalier s\'allient pour tromper les villageois et collecter de fausses offrandes, jusqu\'à ce qu\'une vraie menace les force à se battre pour de bon.',
+    description:
+      "Un dragon et un chevalier s'allient pour tromper les villageois et collecter de fausses offrandes, jusqu'à ce qu'une vraie menace les force à se battre pour de bon.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2032,7 +2049,8 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 98,
     genre: ['Aventure', 'Comédie'],
     saga: '',
-    description: 'Un pilote grincheux et une éditrice de mode échouent sur une île déserte des Tuamotu et doivent s\'unir pour échapper à des pirates.',
+    description:
+      "Un pilote grincheux et une éditrice de mode échouent sur une île déserte des Tuamotu et doivent s'unir pour échapper à des pirates.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2055,11 +2073,12 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 136,
     genre: ['Aventure'],
     saga: '',
-    description: 'Un ancien Zorro forme un voleur insolent pour démasquer un corrupteur qui complote contre la Californie espagnole et la fille du gouverneur.',
+    description:
+      'Un ancien Zorro forme un voleur insolent pour démasquer un corrupteur qui complote contre la Californie espagnole et la fille du gouverneur.',
     fromEntity: {
       entityType: 'book',
-      title: "The Curse of Capistrano",
-      secondEntityKey: "Johnston McCulley",
+      title: 'The Curse of Capistrano',
+      secondEntityKey: 'Johnston McCulley',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -2082,11 +2101,12 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 119,
     genre: ['Aventure'],
     saga: '',
-    description: 'Un backpacker américain découvre une plage paradisiaque cachée en Thaïlande, mais la communauté utopique dissimule des tensions et des secrets mortels.',
+    description:
+      'Un backpacker américain découvre une plage paradisiaque cachée en Thaïlande, mais la communauté utopique dissimule des tensions et des secrets mortels.',
     fromEntity: {
       entityType: 'book',
-      title: "La Plage",
-      secondEntityKey: "Alex Garland",
+      title: 'La Plage',
+      secondEntityKey: 'Alex Garland',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -2144,7 +2164,8 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 143,
     genre: ['Aventure'],
     saga: '',
-    description: 'Un ingénieur de FedEx survit seul sur une île déserte pendant quatre ans et apprend à vivre avec les ressources de la nature avant de tenter de rentrer.',
+    description:
+      'Un ingénieur de FedEx survit seul sur une île déserte pendant quatre ans et apprend à vivre avec les ressources de la nature avant de tenter de rentrer.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -2160,8 +2181,7 @@ export const baseMoviesAventure: BaseMovie[] = [
       { name: 'Paul Bettany' },
       { name: 'Shannyn Sossamon' },
     ],
-    coverUrl:
-      '/movies_pictures/6bdfe30ff217.jpg',
+    coverUrl: '/movies_pictures/6bdfe30ff217.jpg',
     releaseDate: '2001-05-11',
     length: 132,
     genre: ['Aventure', 'Comédie', 'Romance'],
@@ -2190,7 +2210,8 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 116,
     genre: ['Aventure', 'Comédie'],
     saga: '',
-    description: 'Un jeune homme obtient de faire un vœu à un génie moderne et prend la route mythique Interstate 60, où chaque étape lui révèle un choix de vie.',
+    description:
+      'Un jeune homme obtient de faire un vœu à un génie moderne et prend la route mythique Interstate 60, où chaque étape lui révèle un choix de vie.',
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Canada'],
     selectDisplayOrder: 0,
@@ -2214,10 +2235,11 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 138,
     genre: ['Aventure'],
     saga: '',
-    description: 'Durant les guerres napoléoniennes, le capitaine Aubrey et le chirurgien Maturin poursuivent une frégate française à travers les mers du Pacifique.',
+    description:
+      'Durant les guerres napoléoniennes, le capitaine Aubrey et le chirurgien Maturin poursuivent une frégate française à travers les mers du Pacifique.',
     fromEntity: {
       entityType: 'book',
-      title: "Master and Commander",
+      title: 'Master and Commander',
       secondEntityKey: "Patrick O'Brian",
     },
     countryOrigin: ['États-Unis'],
@@ -2258,7 +2280,8 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 110,
     genre: ['Aventure'],
     saga: '',
-    description: 'Deux tigres séparés par la capture et le commerce illégal retrouvent leur instinct sauvage et leur lien fraternel dans la jungle thaïlandaise.',
+    description:
+      'Deux tigres séparés par la capture et le commerce illégal retrouvent leur instinct sauvage et leur lien fraternel dans la jungle thaïlandaise.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
@@ -2281,8 +2304,13 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 120,
     genre: ['Aventure', 'Comédie'],
     saga: '',
-    description: 'Phileas Fogg parie qu\'il peut faire le tour du globe en quatre-vingts jours et embarque son domestique dans une course contre la montre pleine d\'embûches.',
-    fromEntity: null,
+    description:
+      "Phileas Fogg parie qu'il peut faire le tour du globe en quatre-vingts jours et embarque son domestique dans une course contre la montre pleine d'embûches.",
+    fromEntity: {
+      entityType: 'book',
+      title: 'Le tour du monde en 80 jours',
+      secondEntityKey: 'Jules Verne',
+    },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [],
@@ -2301,7 +2329,8 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 131,
     genre: ['Aventure', 'Policier'],
     saga: 'Arsène Lupin',
-    description: 'Un gentleman cambrioleur mène une double vie entre vols audacieux et enquête sur un trésor légendaire convoité par un criminel impitoyable.',
+    description:
+      'Un gentleman cambrioleur mène une double vie entre vols audacieux et enquête sur un trésor légendaire convoité par un criminel impitoyable.',
     fromEntity: {
       entityType: 'book',
       title: 'Arsène Lupin, gentleman cambrioleur',
@@ -2328,17 +2357,16 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 108,
     genre: ['Aventure', 'Jeunesse'],
     saga: '',
-    description: 'Trois enfants persécutés par le comte Olaf, qui convoite leur fortune, enchaînent gardiens excentriques et pièges mortels tout en déchiffrant le secret de leurs parents.',
+    description:
+      'Trois enfants persécutés par le comte Olaf, qui convoite leur fortune, enchaînent gardiens excentriques et pièges mortels tout en déchiffrant le secret de leurs parents.',
     fromEntity: {
       entityType: 'book',
-      title: "Les Désastreuses Aventures des orphelins Baudelaire",
-      secondEntityKey: "Lemony Snicket",
+      title: 'Les Désastreuses Aventures des orphelins Baudelaire',
+      secondEntityKey: 'Lemony Snicket',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_MAKEUP, year: 2005 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_MAKEUP, year: 2005 }],
   },
   {
     title: 'Benjamin Gates et le Trésor des Templiers',
@@ -2371,7 +2399,8 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 131,
     genre: ['Aventure'],
     saga: '',
-    description: 'Un chasseur de trésors et son équipe déchiffrent des indices dissimulés sur le Declaration of Independence pour retrouver le trésor des Templiers.',
+    description:
+      'Un chasseur de trésors et son équipe déchiffrent des indices dissimulés sur le Declaration of Independence pour retrouver le trésor des Templiers.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -2397,13 +2426,13 @@ export const baseMoviesAventure: BaseMovie[] = [
         name: 'Naomi Watts',
       },
     ],
-    coverUrl:
-      '/movies_pictures/ce2736656bb8.jpg',
+    coverUrl: '/movies_pictures/ce2736656bb8.jpg',
     releaseDate: '2005-12-10',
     length: 187,
     genre: ['Aventure'],
     saga: '',
-    description: 'Une équipe de cinéma et une script girl découvrent sur une île légendaire un gorille géant qu\'ils ramènent à New York, où la créature s\'éprend d\'elle.',
+    description:
+      "Une équipe de cinéma et une script girl découvrent sur une île légendaire un gorille géant qu'ils ramènent à New York, où la créature s'éprend d'elle.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -2430,7 +2459,8 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 139,
     genre: ['Aventure', 'Action'],
     saga: '',
-    description: 'Un chasseur maya capture par des guerriers est emmené vers un sacrifice rituel et doit s\'échapper à travers la jungle pour sauver sa famille.',
+    description:
+      "Un chasseur maya capture par des guerriers est emmené vers un sacrifice rituel et doit s'échapper à travers la jungle pour sauver sa famille.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2453,7 +2483,8 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 91,
     genre: ['Aventure', 'Comédie'],
     saga: '',
-    description: 'Trois frères américains en crise traversent l\'Inde en train après l\'exil imposé par leur mère, dans une quête de réconciliation familiale.',
+    description:
+      "Trois frères américains en crise traversent l'Inde en train après l'exil imposé par leur mère, dans une quête de réconciliation familiale.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2476,7 +2507,8 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 124,
     genre: ['Aventure'],
     saga: '',
-    description: 'Ben Gates doit prouver l\'innocence de ses ancêtres en retrouvant le mythique Livre des secrets des présidents américains avant ses rivaux.',
+    description:
+      "Ben Gates doit prouver l'innocence de ses ancêtres en retrouvant le mythique Livre des secrets des présidents américains avant ses rivaux.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -2499,7 +2531,8 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 96,
     genre: ['Aventure', 'Jeunesse'],
     saga: '',
-    description: 'Une fillette vivant seule sur une île tropicale avec son père scientifique et un iguane doit rester courageuse quand celui-ci disparaît en mer.',
+    description:
+      'Une fillette vivant seule sur une île tropicale avec son père scientifique et un iguane doit rester courageuse quand celui-ci disparaît en mer.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2528,7 +2561,8 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 93,
     genre: ['Aventure'],
     saga: '',
-    description: 'Un scientifique, son neveu et leur guide descendent dans un volcan islandais et découvrent un monde souterrain peuplé de créatures préhistoriques.',
+    description:
+      'Un scientifique, son neveu et leur guide descendent dans un volcan islandais et découvrent un monde souterrain peuplé de créatures préhistoriques.',
     fromEntity: {
       entityType: 'book',
       title: 'Voyage au Centre de la Terre',
@@ -2555,7 +2589,8 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 123,
     genre: ['Aventure', 'Comédie', 'Fantastique'],
     saga: '',
-    description: 'Un vieux conteur immortel parie son âme avec le diable et envoie les visiteurs de son théâtre ambulant dans des mondes imaginaires façonnés par leurs choix.',
+    description:
+      'Un vieux conteur immortel parie son âme avec le diable et envoie les visiteurs de son théâtre ambulant dans des mondes imaginaires façonnés par leurs choix.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -2576,7 +2611,8 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 103,
     genre: ['Aventure', 'Fantastique', 'Action'],
     saga: '',
-    description: 'Aang, jeune Avatar, doit maîtriser les quatre éléments pour empêcher la Nation du Feu de conquérir les royaumes dans une adaptation controversée.',
+    description:
+      'Aang, jeune Avatar, doit maîtriser les quatre éléments pour empêcher la Nation du Feu de conquérir les royaumes dans une adaptation controversée.',
     fromEntity: {
       entityType: 'serie',
       title: "Avatar, le dernier maître de l'air",
@@ -2598,13 +2634,13 @@ export const baseMoviesAventure: BaseMovie[] = [
       { name: 'Mads Mikkelsen' },
       { name: 'Christoph Waltz' },
     ],
-    coverUrl:
-      '/movies_pictures/c3c0ec7574cf.jpg',
+    coverUrl: '/movies_pictures/c3c0ec7574cf.jpg',
     releaseDate: '2011-10-12',
     length: 110,
     genre: ['Action'],
     saga: '',
-    description: 'D\'Artagnan rejoint Athos, Porthos et Aramis pour défendre l\'honneur de la reine et affronter le cardinal Richelieu dans une France du XVIIe siècle revisitée.',
+    description:
+      "D'Artagnan rejoint Athos, Porthos et Aramis pour défendre l'honneur de la reine et affronter le cardinal Richelieu dans une France du XVIIe siècle revisitée.",
     fromEntity: {
       entityType: 'book',
       title: 'Les Trois Mousquetaires',
@@ -2645,11 +2681,12 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 126,
     genre: ['Aventure', 'Drame'],
     saga: '',
-    description: 'Un orphelin vivant dans une gare parisienne des années 1930 découvre le lien entre un automate mystérieux et le pionnier du cinéma Georges Méliès.',
+    description:
+      'Un orphelin vivant dans une gare parisienne des années 1930 découvre le lien entre un automate mystérieux et le pionnier du cinéma Georges Méliès.',
     fromEntity: {
       entityType: 'book',
       title: "L'Invention de Hugo Cabret",
-      secondEntityKey: "Brian Selznick",
+      secondEntityKey: 'Brian Selznick',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -2678,7 +2715,8 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 94,
     genre: ['Aventure'],
     saga: '',
-    description: 'Sean Anderson suit des indices laissés par Jules Verne vers une île fantastique où dinosaures, volcan et trésors défient les lois de la nature.',
+    description:
+      'Sean Anderson suit des indices laissés par Jules Verne vers une île fantastique où dinosaures, volcan et trésors défient les lois de la nature.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -2699,7 +2737,8 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 127,
     genre: ['Aventure', 'Drame', 'Fantastique'],
     saga: '',
-    description: 'Après un naufrage, Pi Patel survit 227 jours sur un canot avec un tigre du Bengale, racontant une odyssée où réalisme et métaphore se mêlent.',
+    description:
+      'Après un naufrage, Pi Patel survit 227 jours sur un canot avec un tigre du Bengale, racontant une odyssée où réalisme et métaphore se mêlent.',
     fromEntity: {
       entityType: 'book',
       title: "L'Histoire de Pi",
@@ -2745,7 +2784,8 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 130,
     genre: ['Aventure', 'Fantastique', 'Jeunesse'],
     saga: '',
-    description: 'Un magicien de foire arrive dans la Terre d\'Oz par une tornade et doit unifier les habitants contre des sorcières maléfiques en se faisant passer pour un prophète.',
+    description:
+      "Un magicien de foire arrive dans la Terre d'Oz par une tornade et doit unifier les habitants contre des sorcières maléfiques en se faisant passer pour un prophète.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2768,7 +2808,8 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 114,
     genre: ['Aventure', 'Fantastique'],
     saga: '',
-    description: 'Jack, paysan devenu héros, escalade une liane magique vers un royaume de géants pour sauver une princesse et empêcher une invasion sur la Terre.',
+    description:
+      'Jack, paysan devenu héros, escalade une liane magique vers un royaume de géants pour sauver une princesse et empêcher une invasion sur la Terre.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2805,7 +2846,8 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 106,
     genre: ['Aventure'],
     saga: 'Percy Jackson',
-    description: 'Percy et ses amis demi-dieux traversent la Mer des Monstres pour récupérer la Toison d\'Or et sauver le camp où s\'entraînent les enfants des dieux.',
+    description:
+      "Percy et ses amis demi-dieux traversent la Mer des Monstres pour récupérer la Toison d'Or et sauver le camp où s'entraînent les enfants des dieux.",
     fromEntity: {
       entityType: 'book',
       title: 'La Mer des monstres',
@@ -2894,11 +2936,12 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 114,
     genre: ['Aventure'],
     saga: '',
-    description: 'Un employé de Life magazine timide part en quête d\'un photographe légendaire et se lance dans une aventure mondiale bien réelle.',
+    description:
+      "Un employé de Life magazine timide part en quête d'un photographe légendaire et se lance dans une aventure mondiale bien réelle.",
     fromEntity: {
       entityType: 'book',
-      title: "The Secret Life of Walter Mitty",
-      secondEntityKey: "James Thurber",
+      title: 'The Secret Life of Walter Mitty',
+      secondEntityKey: 'James Thurber',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2952,7 +2995,8 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 118,
     genre: ['Action'],
     saga: 'MonsterVerse',
-    description: 'Une expédition scientifique en 1973 débarque sur l\'île du Crâne et découvre Kong, géant protecteur d\'un écosystème peuplé de créatures terrifiantes.',
+    description:
+      "Une expédition scientifique en 1973 débarque sur l'île du Crâne et découvre Kong, géant protecteur d'un écosystème peuplé de créatures terrifiantes.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -2975,11 +3019,12 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 99,
     genre: ['Aventure', 'Jeunesse', 'Fantastique'],
     saga: '',
-    description: 'Clara entre dans un monde parallèle magique où elle doit retrouver une clé précieuse et restaurer l\'équilibre entre quatre royaumes enchantés.',
+    description:
+      "Clara entre dans un monde parallèle magique où elle doit retrouver une clé précieuse et restaurer l'équilibre entre quatre royaumes enchantés.",
     fromEntity: {
       entityType: 'book',
-      title: "Casse-Noisette et le Roi des souris",
-      secondEntityKey: "E. T. A. Hoffmann",
+      title: 'Casse-Noisette et le Roi des souris',
+      secondEntityKey: 'E. T. A. Hoffmann',
     },
     countryOrigin: ['Canada'],
     selectDisplayOrder: 0,
@@ -3029,7 +3074,8 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 109,
     genre: ['Aventure'],
     saga: '',
-    description: 'Sept ans après une invasion de monstres, Joel quitte son bunker pour retrouver son ex-petite amie à travers une Amérique ravagée et peuplée de créatures.',
+    description:
+      'Sept ans après une invasion de monstres, Joel quitte son bunker pour retrouver son ex-petite amie à travers une Amérique ravagée et peuplée de créatures.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3050,7 +3096,8 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 120,
     genre: ['Aventure', 'Comédie', 'Fantastique'],
     saga: '',
-    description: 'Le roi Arthur et les chevaliers de Kaamelott quittent la Table ronde pour une quête chaotique à travers une Bretagne médiévale décalée et burlesque.',
+    description:
+      'Le roi Arthur et les chevaliers de Kaamelott quittent la Table ronde pour une quête chaotique à travers une Bretagne médiévale décalée et burlesque.',
     fromEntity: {
       entityType: 'serie',
       title: 'Kaamelott',
@@ -3077,7 +3124,8 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 130,
     genre: ['Aventure', 'Drame', 'Fantastique'],
     saga: '',
-    description: 'Le chevalier Gawain accepte un défi surnaturel du Green Knight et entame un voyage initiatique où honneur, peur et désir le mettent à l\'épreuve.',
+    description:
+      "Le chevalier Gawain accepte un défi surnaturel du Green Knight et entame un voyage initiatique où honneur, peur et désir le mettent à l'épreuve.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3111,7 +3159,8 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 127,
     genre: ['Aventure', 'Fantastique'],
     saga: '',
-    description: 'Un capitaine de bateau et une chercheuse descendent l\'Amazone à la recherche un arbre légendaire aux pouvoirs de guérison, poursuivis par des chasseurs de trésors.',
+    description:
+      "Un capitaine de bateau et une chercheuse descendent l'Amazone à la recherche un arbre légendaire aux pouvoirs de guérison, poursuivis par des chasseurs de trésors.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -3129,13 +3178,13 @@ export const baseMoviesAventure: BaseMovie[] = [
       { name: 'Louis Garrel' },
       { name: 'Lyna Khoudri' },
     ],
-    coverUrl:
-      '/movies_pictures/093bb75f5f29.jpg',
+    coverUrl: '/movies_pictures/093bb75f5f29.jpg',
     releaseDate: '2023-01-01',
     length: 121,
     genre: ['Drame'],
     saga: '',
-    description: 'D\'Artagnan débarque à Paris, intègre les mousquetaires du roi et découvre une conspiration visant à déclencher une guerre entre France et Angleterre.',
+    description:
+      "D'Artagnan débarque à Paris, intègre les mousquetaires du roi et découvre une conspiration visant à déclencher une guerre entre France et Angleterre.",
     fromEntity: {
       entityType: 'book',
       title: 'Les Trois Mousquetaires',
@@ -3165,13 +3214,13 @@ export const baseMoviesAventure: BaseMovie[] = [
         name: 'Pio Marmaï',
       },
     ],
-    coverUrl:
-      '/movies_pictures/86dbbc2e8dcb.jpg',
+    coverUrl: '/movies_pictures/86dbbc2e8dcb.jpg',
     releaseDate: '2023-12-13',
     length: 114,
     genre: ['Aventure'],
     saga: '',
-    description: 'D\'Artagnan et ses compagnons poursuivent Milady de Winter à travers l\'Europe pour empêcher une attaque contre le royaume et sauver la reine.',
+    description:
+      "D'Artagnan et ses compagnons poursuivent Milady de Winter à travers l'Europe pour empêcher une attaque contre le royaume et sauver la reine.",
     fromEntity: {
       entityType: 'book',
       title: 'Les Trois Mousquetaires',
@@ -3198,7 +3247,8 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 128,
     genre: ['Aventure', 'Drame', 'Fantastique'],
     saga: '',
-    description: 'Dans un monde où certains humains se transforment en animaux, un père et son fils fuient les autorités pour échapper à une métamorphose imminente.',
+    description:
+      'Dans un monde où certains humains se transforment en animaux, un père et son fils fuient les autorités pour échapper à une métamorphose imminente.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -3219,7 +3269,8 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 101,
     genre: ['Aventure', 'Comédie', 'Fantastique', 'Jeunesse'],
     saga: '',
-    description: 'Quatre outsiders sont aspirés dans le monde cubique de Minecraft et doivent apprendre à construire et combattre pour sauver l\'univers du jeu.',
+    description:
+      "Quatre outsiders sont aspirés dans le monde cubique de Minecraft et doivent apprendre à construire et combattre pour sauver l'univers du jeu.",
     fromEntity: {
       entityType: 'game',
       title: 'Minecraft',
@@ -3254,11 +3305,12 @@ export const baseMoviesAventure: BaseMovie[] = [
     length: 125,
     genre: ['Aventure'],
     saga: '',
-    description: 'Adaptation live-action où un jeune Viking et un dragon nocturne brisent la guerre millénaire entre leur peuple et les créatures qu\'ils chassaient.',
+    description:
+      "Adaptation live-action où un jeune Viking et un dragon nocturne brisent la guerre millénaire entre leur peuple et les créatures qu'ils chassaient.",
     fromEntity: {
       entityType: 'book',
-      title: "How to Train Your Dragon",
-      secondEntityKey: "Cressida Cowell",
+      title: 'How to Train Your Dragon',
+      secondEntityKey: 'Cressida Cowell',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,

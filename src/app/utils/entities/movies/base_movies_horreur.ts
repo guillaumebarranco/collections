@@ -4711,7 +4711,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
       'Dans le New Mexico des années 1980, un garçon solitaire se lie à une voisine étrange qui ne sort que la nuit ; Matt Reeves transpose enneigée et mélancolique le vampirisme de Let the Right One In.',
     fromEntity: {
       entityType: 'book',
-      title: 'Låt den rätte komma in',
+      title: 'Laisse-moi entrer',
       secondEntityKey: 'John Ajvide Lindqvist',
     },
     countryOrigin: ['États-Unis', 'Royaume-Uni'],
@@ -7337,8 +7337,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
       { name: 'Gia Hunter' },
       { name: 'Benjamin Cheng' },
     ],
-    coverUrl:
-      '/movies_pictures/67d70ae0d266.jpg',
+    coverUrl: '/movies_pictures/67d70ae0d266.jpg',
     releaseDate: '2025-09-18',
     length: 89,
     genre: ['Horreur', 'Thriller'],
