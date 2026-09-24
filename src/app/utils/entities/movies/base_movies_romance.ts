@@ -3718,7 +3718,7 @@ export const baseMoviesRomance: BaseMovie[] = [
       'Adaptation féerique et musicale du roman de Vian : Colin et Chloé vivent un amour menacé par une maladie absurde et poétique.',
     fromEntity: {
       entityType: 'book',
-      title: "L'Écume des jours",
+      title: "L'écume des jours",
       secondEntityKey: 'Boris Vian',
     },
     countryOrigin: ['France', 'Belgique'],
@@ -5294,7 +5294,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: {
       entityType: 'book',
       title: 'Tout le bleu du ciel',
-      secondEntityKey: 'Mélissa Da Costa',
+      secondEntityKey: 'Melissa Da Costa',
     },
     countryOrigin: ['France'],
     selectDisplayOrder: 10,
@@ -6223,19 +6223,14 @@ export const baseMoviesRomance: BaseMovie[] = [
       { name: 'Levon Hawke' },
       { name: 'Zach Braff' },
     ],
-    coverUrl:
-      '/movies_pictures/3685b3197927.jpg',
+    coverUrl: '/movies_pictures/3685b3197927.jpg',
     releaseDate: '2026-06-19',
     length: 95,
     genre: ['Romance', 'Drame'],
     saga: '',
     description:
       "Une adolescente tombe amoureuse pour la première fois au cours d'un été, tout en apprenant à s'accepter.",
-    fromEntity: {
-      entityType: 'book',
-      title: 'Girls Like Girls',
-      secondEntityKey: 'Hayley Kiyoko',
-    },
+    fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [],

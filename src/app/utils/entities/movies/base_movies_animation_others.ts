@@ -30,7 +30,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 42,
     genre: ['Animation', 'Comédie musicale'],
     saga: '',
-    description: 'Ce mélange d\'animation et de documentaire suit Donald Duck et ses amis à travers l\'Amérique latine dans une célébration colorée des cultures sud-américaines.',
+    description:
+      "Ce mélange d'animation et de documentaire suit Donald Duck et ses amis à travers l'Amérique latine dans une célébration colorée des cultures sud-américaines.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -53,7 +54,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 62,
     genre: ['Animation', 'Aventure'],
     saga: '',
-    description: 'Tintin enquête sur le vol de modèles de bateaux et découvre un complot impliquant des contrebandiers et le fameux trésor du Sirius.',
+    description:
+      'Tintin enquête sur le vol de modèles de bateaux et découvre un complot impliquant des contrebandiers et le fameux trésor du Sirius.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -78,7 +80,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 68,
     genre: ['Animation'],
     saga: '',
-    description: 'Première adaptation animée du célèbre Gaulois qui résiste à l\'occupation romaine avec l\'aide de la potion magique du druide Panoramix.',
+    description:
+      "Première adaptation animée du célèbre Gaulois qui résiste à l'occupation romaine avec l'aide de la potion magique du druide Panoramix.",
     fromEntity: {
       entityType: 'bd',
       title: 'Astérix le Gaulois',
@@ -97,7 +100,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 90,
     genre: ['Comédie', 'Animation'],
     saga: 'Astérix',
-    description: 'Deux légionnaires romains découvrent le village d\'Astérix et tentent de s\'intégrer à la vie gauloise pour éviter le retour au camp.',
+    description:
+      "Deux légionnaires romains découvrent le village d'Astérix et tentent de s'intégrer à la vie gauloise pour éviter le retour au camp.",
     fromEntity: {
       entityType: 'bd',
       title: 'Astérix le Gaulois',
@@ -126,7 +130,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 72,
     genre: ['Animation'],
     saga: 'Astérix',
-    description: 'Panoramix promet à Cléopâtre de construire un palais en trois mois, obligeant Astérix et Obélix à superviser le chantier en Égypte.',
+    description:
+      'Panoramix promet à Cléopâtre de construire un palais en trois mois, obligeant Astérix et Obélix à superviser le chantier en Égypte.',
     fromEntity: {
       entityType: 'bd',
       title: 'Astérix et Cléopâtre',
@@ -146,7 +151,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 55,
     genre: ['Animation', 'Jeunesse'],
     saga: 'Astérix',
-    description: 'Ce prequel raconte l\'enfance d\'Obélix et l\'accident qui le rendit invincible en le plongeant dans la marmite de potion magique.',
+    description:
+      "Ce prequel raconte l'enfance d'Obélix et l'accident qui le rendit invincible en le plongeant dans la marmite de potion magique.",
     fromEntity: {
       entityType: 'bd',
       title: 'Astérix le Gaulois',
@@ -175,7 +181,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 85,
     genre: ['Animation'],
     saga: 'Astérix',
-    description: 'Obélix envoie par erreur un Indien gaulois en Amérique précolombienne, où il devient chef d\'une tribu en guerre avec ses voisins.',
+    description:
+      "Obélix envoie par erreur un Indien gaulois en Amérique précolombienne, où il devient chef d'une tribu en guerre avec ses voisins.",
     fromEntity: {
       entityType: 'bd',
       title: 'Astérix le Gaulois',
@@ -204,7 +211,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 78,
     genre: ['Animation'],
     saga: 'Astérix',
-    description: 'Astérix et Obélix entraînent un jeune Gaulois peureux pour effrayer des Vikings venus kidnapper le champion le plus courageux du village.',
+    description:
+      'Astérix et Obélix entraînent un jeune Gaulois peureux pour effrayer des Vikings venus kidnapper le champion le plus courageux du village.',
     fromEntity: {
       entityType: 'bd',
       title: 'Astérix le Gaulois',
@@ -233,7 +241,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 85,
     genre: ['Comédie', 'Fantastique', 'Aventure', 'Animation'],
     saga: 'Astérix',
-    description: 'César construit un quartier romain de luxe aux portes du village gaulois pour imposer la civilisation et briser la résistance locale.',
+    description:
+      'César construit un quartier romain de luxe aux portes du village gaulois pour imposer la civilisation et briser la résistance locale.',
     fromEntity: {
       entityType: 'bd',
       title: 'Le Domaine des dieux',
@@ -262,9 +271,10 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 85,
     genre: ['Animation'],
     saga: 'Astérix',
-    description: 'Panoramix part en quête d\'un nouveau druide et confie temporairement sa recette à Astérix et Obélix, provoquant le chaos dans le village.',
+    description:
+      "Panoramix part en quête d'un nouveau druide et confie temporairement sa recette à Astérix et Obélix, provoquant le chaos dans le village.",
     fromEntity: {
-      entityType: 'book',
+      entityType: 'bd',
       title: 'Astérix le Gaulois',
       secondEntityKey: 'René Goscinny',
     },
@@ -281,7 +291,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 15,
     genre: ['Animation', 'Jeunesse'],
     saga: 'Astérix',
-    description: 'Obélix, devenu druide par accident, doit sauver le village lorsque des Romains kidnappe Panoramix et que sa potion devient incontrôlable.',
+    description:
+      'Obélix, devenu druide par accident, doit sauver le village lorsque des Romains kidnappe Panoramix et que sa potion devient incontrôlable.',
     fromEntity: {
       entityType: 'bd',
       title: 'Astérix le Gaulois',
@@ -300,7 +311,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 90,
     genre: ['Animation', 'Aventure', 'Comédie'],
     saga: 'Astérix',
-    description: 'Astérix et Obélix partent en Nubie aider une reine à défendre son royaume contre une invasion orchestrée par un général romain.',
+    description:
+      'Astérix et Obélix partent en Nubie aider une reine à défendre son royaume contre une invasion orchestrée par un général romain.',
     fromEntity: {
       entityType: 'bd',
       title: 'Astérix le Gaulois',
@@ -341,7 +353,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 71,
     genre: ['Animation', 'Aventure'],
     saga: 'Tintin',
-    description: 'Tintin et ses amis poursuivent des Incas jusqu\'au Pérou pour sauver le professeur Tournesol et Haddock d\'un sacrifice au temple du Soleil.',
+    description:
+      "Tintin et ses amis poursuivent des Incas jusqu'au Pérou pour sauver le professeur Tournesol et Haddock d'un sacrifice au temple du Soleil.",
     fromEntity: {
       entityType: 'bd' as const,
       title: 'Le Temple du Soleil',
@@ -360,7 +373,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 60,
     genre: ['Animation', 'Aventure'],
     saga: 'Tintin',
-    description: 'Tintin enquête sur un trafic de drogue qui le mène de la Suisse à une île artificielle peuplée de requins et de complices impitoyables.',
+    description:
+      'Tintin enquête sur un trafic de drogue qui le mène de la Suisse à une île artificielle peuplée de requins et de complices impitoyables.',
     fromEntity: {
       entityType: 'bd' as const,
       title: 'Le Secret de La Licorne',
@@ -387,7 +401,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 78,
     genre: ['Animation', 'Jeunesse'],
     saga: '',
-    description: 'Duchesse et ses trois chatons, héritiers d\'une parisienne, sont abandonnés par un majordome avide et retrouvent leur chemin avec l\'aide de Thomas O\'Malley.',
+    description:
+      "Duchesse et ses trois chatons, héritiers d'une parisienne, sont abandonnés par un majordome avide et retrouvent leur chemin avec l'aide de Thomas O'Malley.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -406,7 +421,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 82,
     genre: ['Animation'],
     saga: '',
-    description: 'César, humilié par la résistance gauloise, impose à Astérix et Obélix douze épreuves aussi impossibles que les travaux d\'Hercule.',
+    description:
+      "César, humilié par la résistance gauloise, impose à Astérix et Obélix douze épreuves aussi impossibles que les travaux d'Hercule.",
     fromEntity: {
       entityType: 'bd',
       title: 'Astérix le Gaulois',
@@ -425,7 +441,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 92,
     genre: ['Action', 'Science Fiction'],
     saga: 'Spider-Man',
-    description: 'Peter Parker, étudiant timide, devient Spider-Man après avoir été mordu par une arachnide radioactive dans ce téléfilm pionnier de 1977.',
+    description:
+      'Peter Parker, étudiant timide, devient Spider-Man après avoir été mordu par une arachnide radioactive dans ce téléfilm pionnier de 1977.',
     fromEntity: {
       entityType: 'comic',
       title: 'Spider-Man',
@@ -451,7 +468,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 90,
     genre: ['Action', 'Science Fiction'],
     saga: 'Spider-Man',
-    description: 'Spider-Man affronte un scientifique devenu créature reptilienne dans cette suite télévisée qui étend l\'univers du premier film live-action.',
+    description:
+      "Spider-Man affronte un scientifique devenu créature reptilienne dans cette suite télévisée qui étend l'univers du premier film live-action.",
     fromEntity: {
       entityType: 'comic',
       title: 'Spider-Man',
@@ -470,7 +488,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 92,
     genre: ['Action', 'Aventure'],
     saga: 'Spider-Man',
-    description: 'Spider-Man doit déjouer les plans d\'un mystérieux criminel asiatique dans ce troisième téléfilm qui conclut la trilogie des années 1970-80.',
+    description:
+      "Spider-Man doit déjouer les plans d'un mystérieux criminel asiatique dans ce troisième téléfilm qui conclut la trilogie des années 1970-80.",
     fromEntity: {
       entityType: 'comic',
       title: 'Spider-Man',
@@ -497,7 +516,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 82,
     genre: ['Animation', 'Aventure'],
     saga: '',
-    description: 'Brisby, souris veuve, doit déplacer sa maison avant la moisson et découvre les expériences secrètes du laboratoire NIMH sur les rongeurs.',
+    description:
+      'Brisby, souris veuve, doit déplacer sa maison avant la moisson et découvre les expériences secrètes du laboratoire NIMH sur les rongeurs.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -516,7 +536,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 81,
     genre: ['Animation'],
     saga: '',
-    description: 'Obélix tombe amoureux de Falbala et doit la sauver lorsque César l\'envoie aux jeux du cirque avec Astérix prisonnier.',
+    description:
+      "Obélix tombe amoureux de Falbala et doit la sauver lorsque César l'envoie aux jeux du cirque avec Astérix prisonnier.",
     fromEntity: {
       entityType: 'bd',
       title: 'Astérix le Gaulois',
@@ -543,7 +564,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 80,
     genre: ['Animation', 'Fantastique', 'Jeunesse'],
     saga: '',
-    description: 'Taran, assistant porcier, part à la recherche du cochon oraculaire et affronte le Seigneur des Ténèbres qui convoite le chaudron magique.',
+    description:
+      'Taran, assistant porcier, part à la recherche du cochon oraculaire et affronte le Seigneur des Ténèbres qui convoite le chaudron magique.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -562,7 +584,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 79,
     genre: ['Animation'],
     saga: '',
-    description: 'Astérix et Obélix partent en Grande-Bretagne aider les Bretons à résister aux Romains en leur apportant un tonneau de potion magique.',
+    description:
+      'Astérix et Obélix partent en Grande-Bretagne aider les Bretons à résister aux Romains en leur apportant un tonneau de potion magique.',
     fromEntity: {
       entityType: 'bd',
       title: 'Astérix le Gaulois',
@@ -581,7 +604,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 74,
     genre: ['Animation', 'Mystère', 'Jeunesse'],
     saga: 'Sherlock Holmes',
-    description: 'Basil de Baker Street, souris détective inspirée de Sherlock Holmes, enquête sur le kidnapping d\'une jeune fille par le professeur Ratigan.',
+    description:
+      "Basil de Baker Street, souris détective inspirée de Sherlock Holmes, enquête sur le kidnapping d'une jeune fille par le professeur Ratigan.",
     fromEntity: {
       entityType: 'book',
       title: 'Les Aventures de Sherlock Holmes',
@@ -600,7 +624,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 74,
     genre: ['Animation', 'Aventure'],
     saga: '',
-    description: 'Chaton abandonné à New York, Oliver rejoint une bande de chiens errants menée par le charismatique Fagin et affronte un homme d\'affaires impitoyable.',
+    description:
+      "Chaton abandonné à New York, Oliver rejoint une bande de chiens errants menée par le charismatique Fagin et affronte un homme d'affaires impitoyable.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -619,7 +644,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 79,
     genre: ['Animation'],
     saga: '',
-    description: 'Obélix, devenu enfant après un accident de potion, doit être soigné par Getafix tandis qu\'Abraracourcix affronte un rival au village.',
+    description:
+      "Obélix, devenu enfant après un accident de potion, doit être soigné par Getafix tandis qu'Abraracourcix affronte un rival au village.",
     fromEntity: {
       entityType: 'bd',
       title: 'Astérix le Gaulois',
@@ -639,8 +665,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
       { name: 'Mayumi Shimizu' },
       { name: 'Michie Tomizawa' },
     ],
-    coverUrl:
-      '/movies_pictures/10dc7ca5ad98.jpg',
+    coverUrl: '/movies_pictures/10dc7ca5ad98.jpg',
     releaseDate: '1991-07-20',
     length: 118,
     genre: ['Animation', 'Drame', 'Romance'],
@@ -669,7 +694,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 75,
     genre: ['Animation', 'Jeunesse'],
     saga: '',
-    description: 'Fievel Souriskewitz arrive dans une ville du Far West où il doit affronter des chats et des souris en guerre pour retrouver sa famille.',
+    description:
+      'Fievel Souriskewitz arrive dans une ville du Far West où il doit affronter des chats et des souris en guerre pour retrouver sa famille.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -692,7 +718,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 94,
     genre: ['Animation', 'Aventure'],
     saga: '',
-    description: 'Porco Rosso, as de l\'aviation transformé en cochon, survole la Méditerranée des années 1930 en affrontant pirates et pilotes de chasse.',
+    description:
+      "Porco Rosso, as de l'aviation transformé en cochon, survole la Méditerranée des années 1930 en affrontant pirates et pilotes de chasse.",
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
@@ -707,7 +734,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 76,
     genre: ['Animation', 'Fantastique'],
     saga: '',
-    description: 'Jack Skellington, roi de la cité d\'Halloween, découvre Noël et tente de le diriger, provoquant un chaos qui menace les deux fêtes.',
+    description:
+      "Jack Skellington, roi de la cité d'Halloween, découvre Noël et tente de le diriger, provoquant un chaos qui menace les deux fêtes.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -726,7 +754,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 76,
     genre: ['Animation'],
     saga: 'DC Animated Universe',
-    description: 'Batman enquête sur le Phantasm, un tueur en série qui cible les anciens associés de la mafia, tandis que son passé amoureux refait surface.',
+    description:
+      'Batman enquête sur le Phantasm, un tueur en série qui cible les anciens associés de la mafia, tandis que son passé amoureux refait surface.',
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
@@ -745,7 +774,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 70,
     genre: ['Animation'],
     saga: 'DC Animated Universe',
-    description: 'Mr Freeze kidnappe Barbara Gordon pour sauver sa femme Alfred et Batman doit empêcher un échange qui mettrait en péril la vie de Batgirl.',
+    description:
+      'Mr Freeze kidnappe Barbara Gordon pour sauver sa femme Alfred et Batman doit empêcher un échange qui mettrait en péril la vie de Batgirl.',
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
@@ -768,7 +798,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 76,
     genre: ['Animation'],
     saga: 'DC Animated Universe',
-    description: 'Terry McGinnis, le nouveau Batman, enquête sur le retour du Joker dans un Gotham futuriste et découvre un secret lié au passé de Bruce Wayne.',
+    description:
+      'Terry McGinnis, le nouveau Batman, enquête sur le retour du Joker dans un Gotham futuriste et découvre un secret lié au passé de Bruce Wayne.',
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
@@ -797,7 +828,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 75,
     genre: ['Animation'],
     saga: 'DC Animated Universe',
-    description: 'Batman enquête sur Batwoman, une justicière masquée aux méthodes radicales, tandis qu\'un complot menace Gotham et la Bat-Family.',
+    description:
+      "Batman enquête sur Batwoman, une justicière masquée aux méthodes radicales, tandis qu'un complot menace Gotham et la Bat-Family.",
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
@@ -826,7 +858,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 75,
     genre: ['Animation'],
     saga: 'DC Animated Universe',
-    description: 'Batman affronte le Red Hood, un criminel impitoyable qui semble connaître son identité et dont le passé est lié au plus sombre secret de la Bat-Family.',
+    description:
+      'Batman affronte le Red Hood, un criminel impitoyable qui semble connaître son identité et dont le passé est lié au plus sombre secret de la Bat-Family.',
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
@@ -855,7 +888,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 67,
     genre: ['Animation'],
     saga: 'DC Animated Universe',
-    description: 'Superman et Batman unissent leurs forces lorsque Lex Luthor devient président des États-Unis et place une prime sur la tête de l\'homme de Krypton.',
+    description:
+      "Superman et Batman unissent leurs forces lorsque Lex Luthor devient président des États-Unis et place une prime sur la tête de l'homme de Krypton.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -880,7 +914,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 78,
     genre: ['Animation'],
     saga: 'DC Animated Universe',
-    description: 'Superman découvre que Kara Zor-El, sa cousine, a survécu à la destruction de Krypton et doit la protéger de Darkseid qui veut en faire une arme.',
+    description:
+      'Superman découvre que Kara Zor-El, sa cousine, a survécu à la destruction de Krypton et doit la protéger de Darkseid qui veut en faire une arme.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -905,7 +940,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 76,
     genre: ['Animation'],
     saga: 'DC Animated Universe',
-    description: 'Superman affronte un groupe de super-héros impitoyables qui estiment que la paix mondiale exige l\'élimination sans pitié de tous les criminels.',
+    description:
+      "Superman affronte un groupe de super-héros impitoyables qui estiment que la paix mondiale exige l'élimination sans pitié de tous les criminels.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -930,7 +966,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 64,
     genre: ['Animation'],
     saga: 'DC Animated Universe',
-    description: 'Adaptation des origines de Batman et de Jim Gordon, tous deux nouveaux à Gotham, confrontés à la corruption policière et au crime organisé.',
+    description:
+      'Adaptation des origines de Batman et de Jim Gordon, tous deux nouveaux à Gotham, confrontés à la corruption policière et au crime organisé.',
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
@@ -959,7 +996,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 78,
     genre: ['Animation'],
     saga: 'DC Animated Universe',
-    description: 'Batman vieillissant mène une rébellion contre le gouvernement américain tandis que Superman reçoit l\'ordre de l\'arrêter par la force.',
+    description:
+      "Batman vieillissant mène une rébellion contre le gouvernement américain tandis que Superman reçoit l'ordre de l'arrêter par la force.",
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
@@ -988,7 +1026,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 76,
     genre: ['Animation'],
     saga: 'DC Animated Universe',
-    description: 'Retraité depuis dix ans, Bruce Wayne reprend le manteau de Batman lorsque Gotham sombre dans la violence et que le Joker réapparaît.',
+    description:
+      'Retraité depuis dix ans, Bruce Wayne reprend le manteau de Batman lorsque Gotham sombre dans la violence et que le Joker réapparaît.',
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
@@ -1011,7 +1050,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 74,
     genre: ['Animation'],
     saga: 'DC Animated Universe',
-    description: 'Damian Wayne, fils secret de Batman et Talia al Ghul, découvre son héritage et affronte Deathstroke qui menace la Ligue des Assassins.',
+    description:
+      'Damian Wayne, fils secret de Batman et Talia al Ghul, découvre son héritage et affronte Deathstroke qui menace la Ligue des Assassins.',
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
@@ -1040,7 +1080,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 76,
     genre: ['Animation'],
     saga: 'DC Animated Universe',
-    description: 'Damian Wayne, devenu Robin, est tenté par le Court des Hiboux, une société secrète qui cherche à corrompre le jeune héritier de Batman.',
+    description:
+      'Damian Wayne, devenu Robin, est tenté par le Court des Hiboux, une société secrète qui cherche à corrompre le jeune héritier de Batman.',
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
@@ -1063,7 +1104,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 72,
     genre: ['Animation'],
     saga: 'DC Animated Universe',
-    description: 'Batman disparaît et la Bat-Family doit affronter Talia al Ghul et l\'Homme-B chauve-souris, un clone créé pour remplacer le Chevalier Noir.',
+    description:
+      "Batman disparaît et la Bat-Family doit affronter Talia al Ghul et l'Homme-B chauve-souris, un clone créé pour remplacer le Chevalier Noir.",
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
@@ -1086,7 +1128,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 76,
     genre: ['Animation'],
     saga: 'DC Animated Universe',
-    description: 'Adaptation controversée du récit emblématique où le Joker tente de prouver que n\'importe qui peut basculer dans la folie après une mauvaise journée.',
+    description:
+      "Adaptation controversée du récit emblématique où le Joker tente de prouver que n'importe qui peut basculer dans la folie après une mauvaise journée.",
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
@@ -1109,7 +1152,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 74,
     genre: ['Animation'],
     saga: 'DC Animated Universe',
-    description: 'Batman et Nightwing s\'allient à Harley Quinn pour traquer Poison Ivy et Floronic Man, déterminés à détruire l\'humanité pour sauver la planète.',
+    description:
+      "Batman et Nightwing s'allient à Harley Quinn pour traquer Poison Ivy et Floronic Man, déterminés à détruire l'humanité pour sauver la planète.",
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
@@ -1128,7 +1172,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 78,
     genre: ['Animation'],
     saga: 'DC Animated Universe',
-    description: 'Dans un Gotham victorien, Batman traque Jack l\'Éventreur tandis que la police le soupçonne lui-même d\'être le tueur en série.',
+    description:
+      "Dans un Gotham victorien, Batman traque Jack l'Éventreur tandis que la police le soupçonne lui-même d'être le tueur en série.",
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
@@ -1151,7 +1196,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 82,
     genre: ['Animation'],
     saga: 'DC Animated Universe',
-    description: 'Batman enquête sur Hush, un mystérieux ennemi qui connaît son identité secrète et manipule ses pires adversaires contre lui.',
+    description:
+      'Batman enquête sur Hush, un mystérieux ennemi qui connaît son identité secrète et manipule ses pires adversaires contre lui.',
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
@@ -1174,7 +1220,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 83,
     genre: ['Animation'],
     saga: 'DC Animated Universe',
-    description: 'Dans les années 1970, Batman rejoint d\'anciens maîtres d\'arts martiaux pour empêcher un artefact mortel de tomber entre de mauvaises mains.',
+    description:
+      "Dans les années 1970, Batman rejoint d'anciens maîtres d'arts martiaux pour empêcher un artefact mortel de tomber entre de mauvaises mains.",
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
@@ -1197,7 +1244,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 85,
     genre: ['Animation'],
     saga: 'DC Animated Universe',
-    description: 'Batman et Jim Gordon enquêtent sur une série de meurtres commis lors des fêtes à Gotham, alors que le crime organisé et les super-vilains émergent.',
+    description:
+      'Batman et Jim Gordon enquêtent sur une série de meurtres commis lors des fêtes à Gotham, alors que le crime organisé et les super-vilains émergent.',
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
@@ -1220,7 +1268,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 87,
     genre: ['Animation'],
     saga: 'DC Animated Universe',
-    description: 'L\'enquête sur le tueur Holiday se poursuit tandis que la guerre entre Falcone et Maroni plonge Gotham dans une spirale de violence et de trahisons.',
+    description:
+      "L'enquête sur le tueur Holiday se poursuit tandis que la guerre entre Falcone et Maroni plonge Gotham dans une spirale de violence et de trahisons.",
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
@@ -1243,7 +1292,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 90,
     genre: ['Animation'],
     saga: 'DC Animated Universe',
-    description: 'Dans une Gotham victorienne alternative, Batman affronte une menace inspirée de Lovecraft qui menace d\'engloutir la ville dans les ténèbres.',
+    description:
+      "Dans une Gotham victorienne alternative, Batman affronte une menace inspirée de Lovecraft qui menace d'engloutir la ville dans les ténèbres.",
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
@@ -1263,8 +1313,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
       { name: 'Norihei Miki' },
       { name: 'Akira Fukuzawa' },
     ],
-    coverUrl:
-      '/movies_pictures/f430e0443d0c.jpg',
+    coverUrl: '/movies_pictures/f430e0443d0c.jpg',
     releaseDate: '1994-07-16',
     length: 119,
     genre: ['Animation', 'Fantastique', 'Comédie'],
@@ -1293,7 +1342,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 90,
     genre: ['Animation', 'Jeunesse'],
     saga: '',
-    description: 'Odette, transformée en cygne par un sorcier maléfique, doit retrouver l\'amour du prince Derek pour briser le sortilège qui la retient captive.',
+    description:
+      "Odette, transformée en cygne par un sorcier maléfique, doit retrouver l'amour du prince Derek pour briser le sortilège qui la retient captive.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1342,7 +1392,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 78,
     genre: ['Animation', 'Jeunesse'],
     saga: '',
-    description: 'Balto, chien-loup moqué par les siens, guide un traîneau à travers une tempête pour livrer un sérum et sauver des enfants atteints de diphtérie.',
+    description:
+      'Balto, chien-loup moqué par les siens, guide un traîneau à travers une tempête pour livrer un sérum et sauver des enfants atteints de diphtérie.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1376,7 +1427,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 79,
     genre: ['Animation', 'Aventure'],
     saga: '',
-    description: 'Orphelin maltraité, James entre dans une pêche géante magique et part avec des insectes géants vers un monde où ses rêves deviennent possibles.',
+    description:
+      'Orphelin maltraité, James entre dans une pêche géante magique et part avec des insectes géants vers un monde où ses rêves deviennent possibles.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -1413,7 +1465,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 88,
     genre: ['Animation'],
     saga: '',
-    description: 'Michael Jordan rejoint les Looney Tunes pour disputer un match de basket décisif contre des extraterrestres qui ont volé les talents des NBA stars.',
+    description:
+      'Michael Jordan rejoint les Looney Tunes pour disputer un match de basket décisif contre des extraterrestres qui ont volé les talents des NBA stars.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -1428,7 +1481,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 22,
     genre: ['Animation', 'Jeunesse'],
     saga: 'Sonic',
-    description: 'Sonic et ses amis préparent Noël dans ce court métrage animé où le hérisson bleu découvre la magie des fêtes avec Tails et Knuckles.',
+    description:
+      'Sonic et ses amis préparent Noël dans ce court métrage animé où le hérisson bleu découvre la magie des fêtes avec Tails et Knuckles.',
     fromEntity: {
       entityType: 'game',
       title: 'Sonic the Hedgehog',
@@ -1447,7 +1501,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 57,
     genre: ['Animation', 'Science Fiction'],
     saga: 'Sonic',
-    description: 'Sonic et Tails affrontent Metal Sonic et le Dr Robotnik dans ce double OAV japonais qui adapte l\'univers du hérisson bleu pour le public animé.',
+    description:
+      "Sonic et Tails affrontent Metal Sonic et le Dr Robotnik dans ce double OAV japonais qui adapte l'univers du hérisson bleu pour le public animé.",
     fromEntity: {
       entityType: 'game',
       title: 'Sonic the Hedgehog',
@@ -1500,7 +1555,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 71,
     genre: ['Animation', 'Jeunesse'],
     saga: '',
-    description: 'Odette et Derek affrontent Clavius, sorcier en quête du trésor du royaume, qui menace de détruire leur bonheur avec un nouveau sortilège.',
+    description:
+      'Odette et Derek affrontent Clavius, sorcier en quête du trésor du royaume, qui menace de détruire leur bonheur avec un nouveau sortilège.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1520,7 +1576,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 71,
     genre: ['Animation'],
     saga: '',
-    description: 'Kirikou, petit garçon d\'un village africain, affronte Karaba la sorcière pour libérer son peuple et découvrir l\'origine de sa cruauté.',
+    description:
+      "Kirikou, petit garçon d'un village africain, affronte Karaba la sorcière pour libérer son peuple et découvrir l'origine de sa cruauté.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 25,
@@ -1539,7 +1596,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 82,
     genre: ['Animation', 'Policier', 'Drame'],
     saga: '',
-    description: 'Mima Kirigoe, idole pop reconvertie en actrice, sombre dans la paranoïa lorsqu\'un fan obsessionnel et des hallucinations brouillent réalité et fiction.',
+    description:
+      "Mima Kirigoe, idole pop reconvertie en actrice, sombre dans la paranoïa lorsqu'un fan obsessionnel et des hallucinations brouillent réalité et fiction.",
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
@@ -1554,7 +1612,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 99,
     genre: ['Animation', 'Aventure'],
     saga: '',
-    description: 'Moïse, élevé comme prince d\'Égypte, découvre ses origines hébraïques et affronte Ramsès pour libérer son peuple de l\'esclavage.',
+    description:
+      "Moïse, élevé comme prince d'Égypte, découvre ses origines hébraïques et affronte Ramsès pour libérer son peuple de l'esclavage.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -1577,7 +1636,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 124,
     genre: ['Animation', 'Jeunesse'],
     saga: '',
-    description: 'Deux sœurs jumelles séparées à la naissance se rencontrent au camp et complotent pour réunir leurs parents divorcés en échangeant leurs rôles.',
+    description:
+      'Deux sœurs jumelles séparées à la naissance se rencontrent au camp et complotent pour réunir leurs parents divorcés en échangeant leurs rôles.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1597,7 +1657,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 81,
     genre: ['Animation'],
     saga: 'South Park',
-    description: 'Les enfants de South Park provoquent une guerre entre le Canada et les États-Unis en soutenant un duo de comiques aux paroles scandaleuses.',
+    description:
+      'Les enfants de South Park provoquent une guerre entre le Canada et les États-Unis en soutenant un duo de comiques aux paroles scandaleuses.',
     fromEntity: {
       entityType: 'serie',
       title: 'South Park',
@@ -1616,7 +1677,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 67,
     genre: ['Animation', 'Comédie', 'Aventure'],
     saga: 'South Park',
-    description: 'Les garçons de South Park sont convoqués devant le Pentagone après que Butters ait ouvert une brèche vers Imaginationland, royaume de toutes les fictions.',
+    description:
+      'Les garçons de South Park sont convoqués devant le Pentagone après que Butters ait ouvert une brèche vers Imaginationland, royaume de toutes les fictions.',
     fromEntity: {
       entityType: 'serie' as const,
       title: 'South Park',
@@ -1635,7 +1697,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 59,
     genre: ['Animation', 'Comédie'],
     saga: 'South Park',
-    description: 'Stan, Kyle, Cartman et Kenny, devenus adultes, se retrouvent après la mort de l\'un d\'eux et découvrent que leur avenir dépend du passé.',
+    description:
+      "Stan, Kyle, Cartman et Kenny, devenus adultes, se retrouvent après la mort de l'un d'eux et découvrent que leur avenir dépend du passé.",
     fromEntity: {
       entityType: 'serie' as const,
       title: 'South Park',
@@ -1654,7 +1717,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 62,
     genre: ['Animation', 'Comédie'],
     saga: 'South Park',
-    description: 'Les adultes de South Park voyagent dans le temps pour empêcher la pandémie et corriger les conséquences désastreuses sur leur vie présente.',
+    description:
+      'Les adultes de South Park voyagent dans le temps pour empêcher la pandémie et corriger les conséquences désastreuses sur leur vie présente.',
     fromEntity: {
       entityType: 'serie' as const,
       title: 'South Park',
@@ -1673,7 +1737,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 48,
     genre: ['Animation', 'Comédie'],
     saga: 'South Park',
-    description: 'Cartman crée une fausse famille pour accéder à Paramount+ et provoque une guerre entre plateformes de streaming qui déchire South Park.',
+    description:
+      'Cartman crée une fausse famille pour accéder à Paramount+ et provoque une guerre entre plateformes de streaming qui déchire South Park.',
     fromEntity: {
       entityType: 'serie' as const,
       title: 'South Park',
@@ -1692,7 +1757,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 48,
     genre: ['Animation', 'Comédie'],
     saga: 'South Park',
-    description: 'La bataille entre services de streaming atteint son paroxysme tandis que les enfants tentent de restaurer l\'ordre dans un South Park dévasté.',
+    description:
+      "La bataille entre services de streaming atteint son paroxysme tandis que les enfants tentent de restaurer l'ordre dans un South Park dévasté.",
     fromEntity: {
       entityType: 'serie' as const,
       title: 'South Park',
@@ -1711,7 +1777,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 51,
     genre: ['Animation', 'Comédie', 'Science Fiction'],
     saga: 'South Park',
-    description: 'Cartman croit vivre dans un univers parallèle où il est victime de la discrimination tandis que des portails vers d\'autres réalités s\'ouvrent.',
+    description:
+      "Cartman croit vivre dans un univers parallèle où il est victime de la discrimination tandis que des portails vers d'autres réalités s'ouvrent.",
     fromEntity: {
       entityType: 'serie' as const,
       title: 'South Park',
@@ -1730,7 +1797,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 46,
     genre: ['Animation', 'Comédie'],
     saga: 'South Park',
-    description: 'Face à la censure et aux algorithmes, les habitants de South Park luttent pour préserver leur liberté d\'expression dans un monde numérique contrôlé.',
+    description:
+      "Face à la censure et aux algorithmes, les habitants de South Park luttent pour préserver leur liberté d'expression dans un monde numérique contrôlé.",
     fromEntity: {
       entityType: 'serie' as const,
       title: 'South Park',
@@ -1749,7 +1817,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 51,
     genre: ['Animation', 'Comédie'],
     saga: 'South Park',
-    description: 'Les habitants de South Park se tournent vers des médicaments contre l\'obésité, provoquant des conséquences sociales et économiques aussi absurdes que satiriques.',
+    description:
+      "Les habitants de South Park se tournent vers des médicaments contre l'obésité, provoquant des conséquences sociales et économiques aussi absurdes que satiriques.",
     fromEntity: {
       entityType: 'serie' as const,
       title: 'South Park',
@@ -1769,8 +1838,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
       { name: 'Naomi Uno' },
       { name: 'Akiko Yano' },
     ],
-    coverUrl:
-      '/movies_pictures/e7f6660a8a08.jpg',
+    coverUrl: '/movies_pictures/e7f6660a8a08.jpg',
     releaseDate: '1999-07-17',
     length: 104,
     genre: ['Animation', 'Comédie'],
@@ -1799,7 +1867,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 86,
     genre: ['Animation'],
     saga: '',
-    description: 'Un jeune garçon des années 1950 se lie d\'amitié avec un robot géant tombé du ciel, alors que le gouvernement américain le traque comme une menace.',
+    description:
+      "Un jeune garçon des années 1950 se lie d'amitié avec un robot géant tombé du ciel, alors que le gouvernement américain le traque comme une menace.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1815,8 +1884,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
       { name: 'Yukijiro Hotaru' },
       { name: 'Yūkei Ryu' },
     ],
-    coverUrl:
-      '/movies_pictures/244b5a0dc53f.jpg',
+    coverUrl: '/movies_pictures/244b5a0dc53f.jpg',
     releaseDate: '1999-11-17',
     length: 102,
     genre: ['Animation', 'Science Fiction', 'Thriller', 'Drame'],
@@ -1837,7 +1905,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 89,
     genre: ['Animation', 'Aventure'],
     saga: '',
-    description: 'Deux truands espagnols se font passer pour des dieux au cœur d\'une cité d\'or légendaire, entre trésors, trahisons et amitié improbable.',
+    description:
+      "Deux truands espagnols se font passer pour des dieux au cœur d'une cité d'or légendaire, entre trésors, trahisons et amitié improbable.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -1860,7 +1929,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 94,
     genre: ['Animation', 'Science Fiction'],
     saga: '',
-    description: 'Cale Tucker, jeune homme, part à la recherche du Titan, vaisseau capable de recréer la Terre après sa destruction par des aliens.',
+    description:
+      'Cale Tucker, jeune homme, part à la recherche du Titan, vaisseau capable de recréer la Terre après sa destruction par des aliens.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1879,7 +1949,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 76,
     genre: ['Animation'],
     saga: '',
-    description: 'Barbie raconte l\'histoire de Clara, jeune fille transportée dans un monde magique où elle doit briser un sortilège pour sauver le prince.',
+    description:
+      "Barbie raconte l'histoire de Clara, jeune fille transportée dans un monde magique où elle doit briser un sortilège pour sauver le prince.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1902,7 +1973,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 106,
     genre: ['Animation', 'Science Fiction'],
     saga: '',
-    description: 'Dr Aki Ross et une équipe de chercheurs luttent contre des fantômes destructeurs en cherchant huit esprits capables de restaurer la Terre.',
+    description:
+      'Dr Aki Ross et une équipe de chercheurs luttent contre des fantômes destructeurs en cherchant huit esprits capables de restaurer la Terre.',
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Japon'],
     selectDisplayOrder: 0,
@@ -1921,7 +1993,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 83,
     genre: ['Animation'],
     saga: '',
-    description: 'Raiponce, enfermée dans une tour par la sorcière Gothel, découvre sa véritable identité de princesse avec l\'aide d\'un jeune prince et d\'un dragon.',
+    description:
+      "Raiponce, enfermée dans une tour par la sorcière Gothel, découvre sa véritable identité de princesse avec l'aide d'un jeune prince et d'un dragon.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1936,7 +2009,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 81,
     genre: ['Animation'],
     saga: "L'Age de Glace",
-    description: 'Un mammouth solitaire, un paresseux bavard et un tigre aux dents de sabre escortent un bébé humain à travers la banquise en pleine ère glaciaire.',
+    description:
+      'Un mammouth solitaire, un paresseux bavard et un tigre aux dents de sabre escortent un bébé humain à travers la banquise en pleine ère glaciaire.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -1959,7 +2033,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 83,
     genre: ['Animation', 'Western'],
     saga: '',
-    description: 'Spirit, mustang indomptable, refuse d\'être apprivoisé par l\'armée et se lie d\'amitié avec un jeune Lakota qui partage sa soif de liberté.',
+    description:
+      "Spirit, mustang indomptable, refuse d'être apprivoisé par l'armée et se lie d'amitié avec un jeune Lakota qui partage sa soif de liberté.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1974,7 +2049,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 75,
     genre: ['Animation', 'Fantastique'],
     saga: '',
-    description: 'Haruka, lycéenne distraite, est transportée dans le royaume des chats où le prince Hiiro l\'invite à devenir reine et à oublier le monde des humains.',
+    description:
+      "Haruka, lycéenne distraite, est transportée dans le royaume des chats où le prince Hiiro l'invite à devenir reine et à oublier le monde des humains.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -1993,7 +2069,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 83,
     genre: ['Animation'],
     saga: '',
-    description: 'Odette, transformée en cygne par un sorcier maléfique, doit briser la malédiction avec l\'aide de ses amies fées et du prince Daniel.',
+    description:
+      "Odette, transformée en cygne par un sorcier maléfique, doit briser la malédiction avec l'aide de ses amies fées et du prince Daniel.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2009,14 +2086,13 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
       { name: 'Monica Viegas' },
       { name: 'Dirck Tack' },
     ],
-    coverUrl:
-      '/movies_pictures/92f77d3bf429.jpg',
+    coverUrl: '/movies_pictures/92f77d3bf429.jpg',
     releaseDate: '2003-06-11',
     length: 78,
     genre: ['Animation', 'Comédie', 'Aventure'],
     saga: '',
     description:
-      'Champion, cycliste malheureux, est kidnappé et sa grand-mère et son chien partent à sa recherche jusqu\'à Belleville, ville décadente et burlesque.',
+      "Champion, cycliste malheureux, est kidnappé et sa grand-mère et son chien partent à sa recherche jusqu'à Belleville, ville décadente et burlesque.",
     fromEntity: null,
     countryOrigin: ['France', 'Belgique', 'Canada', 'Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -2039,7 +2115,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 86,
     genre: ['Animation', 'Fantastique'],
     saga: '',
-    description: 'Situé en Afrique, ce conte animé suit des enfants liés à la pluie et à la sécheresse dans une quête pour restaurer l\'équilibre de leur village.',
+    description:
+      "Situé en Afrique, ce conte animé suit des enfants liés à la pluie et à la sécheresse dans une quête pour restaurer l'équilibre de leur village.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -2058,7 +2135,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 85,
     genre: ['Animation'],
     saga: '',
-    description: 'Analysa, princesse au cœur pur, affronte la reine Ariana qui complote pour voler le trône et corrompre le royaume de la princesse Anneliese.',
+    description:
+      'Analysa, princesse au cœur pur, affronte la reine Ariana qui complote pour voler le trône et corrompre le royaume de la princesse Anneliese.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2074,7 +2152,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 68,
     genre: ['Animation', 'Aventure'],
     saga: '',
-    description: 'Mickey, Donald et Dingo, gardiens du palais, deviennent mousquetaires du roi et affrontent le capitaine Pat Hibulaire qui complote un coup d\'État.',
+    description:
+      "Mickey, Donald et Dingo, gardiens du palais, deviennent mousquetaires du roi et affrontent le capitaine Pat Hibulaire qui complote un coup d'État.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -2111,7 +2190,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 108,
     genre: ['Animation'],
     saga: '',
-    description: 'Ce court métrage d\'animation en capture de mouvement suit un artiste de music-hall confronté aux changements du spectacle au début du XXe siècle.',
+    description:
+      "Ce court métrage d'animation en capture de mouvement suit un artiste de music-hall confronté aux changements du spectacle au début du XXe siècle.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2134,7 +2214,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 87,
     genre: ['Animation', 'Comédie'],
     saga: '',
-    description: 'Bob l\'éponge et Patrick partent à Bikini Bottom puis en surface pour récupérer la couronne volée du roi Neptune et sauver M. Krabs.',
+    description:
+      "Bob l'éponge et Patrick partent à Bikini Bottom puis en surface pour récupérer la couronne volée du roi Neptune et sauver M. Krabs.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2159,7 +2240,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 99,
     genre: ['Animation'],
     saga: '',
-    description: 'Un garçon sceptique monte dans un train magique en direction du Pôle Nord, où il découvre la magie de Noël et rencontre le Père Noël.',
+    description:
+      'Un garçon sceptique monte dans un train magique en direction du Pôle Nord, où il découvre la magie de Noël et rencontre le Père Noël.',
     fromEntity: {
       entityType: 'book',
       title: 'Le Pôle Express',
@@ -2182,7 +2264,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 70,
     genre: ['Animation'],
     saga: '',
-    description: 'Elina, fée sans ailes, part à l\'aventure dans Fairytopia pour sauver son monde des menaces de Laverna et retrouver la magie des fées.',
+    description:
+      "Elina, fée sans ailes, part à l'aventure dans Fairytopia pour sauver son monde des menaces de Laverna et retrouver la magie des fées.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2201,7 +2284,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 83,
     genre: ['Animation'],
     saga: '',
-    description: 'Barbie incarne Annika, princesse qui doit libérer sa sœur et son peuple d\'un sortilège avec l\'aide d\'un cheval ailé et de Brietta la fée.',
+    description:
+      "Barbie incarne Annika, princesse qui doit libérer sa sœur et son peuple d'un sortilège avec l'aide d'un cheval ailé et de Brietta la fée.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2224,7 +2308,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 91,
     genre: ['Animation', 'Comédie'],
     saga: '',
-    description: 'Rodney Copperbottom, inventeur, part pour Robot City afin de rencontrer son idole Bigweld et défendre les robots contre un tyran industriel.',
+    description:
+      'Rodney Copperbottom, inventeur, part pour Robot City afin de rencontrer son idole Bigweld et défendre les robots contre un tyran industriel.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2246,7 +2331,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 76,
     genre: ['Animation', 'Aventure', 'Jeunesse'],
     saga: '',
-    description: 'Pigeon maladroit recruté par la RAF pendant la Seconde Guerre mondiale, Vaillant doit prouver sa valeur lors d\'une mission de sauvetage derrière les lignes ennemies.',
+    description:
+      "Pigeon maladroit recruté par la RAF pendant la Seconde Guerre mondiale, Vaillant doit prouver sa valeur lors d'une mission de sauvetage derrière les lignes ennemies.",
     fromEntity: null,
     countryOrigin: ['Royaume-Uni', 'États-Unis'],
     selectDisplayOrder: 0,
@@ -2269,7 +2355,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 73,
     genre: ['Animation', 'Jeunesse'],
     saga: '',
-    description: 'Stitch, créature extraterrestre, voit sa programmation défaillir et Lilo doit l\'aider à retrouver sa place dans la famille avant qu\'il ne s\'autodétruise.',
+    description:
+      "Stitch, créature extraterrestre, voit sa programmation défaillir et Lilo doit l'aider à retrouver sa place dans la famille avant qu'il ne s'autodétruise.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2292,7 +2379,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 101,
     genre: ['Animation', 'Science Fiction'],
     saga: '',
-    description: 'Deux ans après le jeu, Cloud Strife affronte les vestiges de Sephiroth et protège Denzel, enfant atteint par la maladie du géostigma.',
+    description:
+      'Deux ans après le jeu, Cloud Strife affronte les vestiges de Sephiroth et protège Denzel, enfant atteint par la maladie du géostigma.',
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
@@ -2329,7 +2417,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 83,
     genre: ['Animation'],
     saga: 'Batman',
-    description: 'Le comte Dracula s\'installe à Gotham et Batman doit empêcher le vampire de transformer la ville en royaume de morts-vivants.',
+    description:
+      "Le comte Dracula s'installe à Gotham et Batman doit empêcher le vampire de transformer la ville en royaume de morts-vivants.",
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
@@ -2359,7 +2448,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 76,
     genre: ['Animation'],
     saga: 'Batman',
-    description: 'Six récits animés explorent Gotham sous différents angles, entre enquêtes de Batman, gangs de rue et menaces surnaturelles.',
+    description:
+      'Six récits animés explorent Gotham sous différents angles, entre enquêtes de Batman, gangs de rue et menaces surnaturelles.',
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
@@ -2382,7 +2472,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 72,
     genre: ['Animation'],
     saga: 'Batman',
-    description: 'Batman et Robin affrontent Two-Face, ancien allié de Bruce Wayne, dont la dualité menace de détruire Gotham avec une machine infernale.',
+    description:
+      'Batman et Robin affrontent Two-Face, ancien allié de Bruce Wayne, dont la dualité menace de détruire Gotham avec une machine infernale.',
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
@@ -2401,7 +2492,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 85,
     genre: ['Animation'],
     saga: 'Batman',
-    description: 'Batman et ses alliés sont projetés dans le Japon féodal et affrontent le Joker devenu shogun aux côtés de samouraïs et de ninjas.',
+    description:
+      'Batman et ses alliés sont projetés dans le Japon féodal et affrontent le Joker devenu shogun aux côtés de samouraïs et de ninjas.',
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
@@ -2424,7 +2516,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 84,
     genre: ['Animation'],
     saga: 'Batman',
-    description: 'Batman et les Tortues Ninja unissent leurs forces lorsque le Joker s\'allie au Shredder pour fusionner Gotham et New York en un chaos mutant.',
+    description:
+      "Batman et les Tortues Ninja unissent leurs forces lorsque le Joker s'allie au Shredder pour fusionner Gotham et New York en un chaos mutant.",
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
@@ -2450,7 +2543,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 76,
     genre: ['Animation'],
     saga: '',
-    description: 'Victor, fiancé maladroit, échappe à ses noces en proposant par erreur à Emily, mariée morte, de l\'épouser dans le monde des morts.',
+    description:
+      "Victor, fiancé maladroit, échappe à ses noces en proposant par erreur à Emily, mariée morte, de l'épouser dans le monde des morts.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -2469,7 +2563,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 75,
     genre: ['Animation'],
     saga: '',
-    description: 'Elina plonge dans Mermaidia pour sauver le prince Nalu et empêcher Laverna de s\'emparer du trident qui contrôle les océans magiques.',
+    description:
+      "Elina plonge dans Mermaidia pour sauver le prince Nalu et empêcher Laverna de s'emparer du trident qui contrôle les océans magiques.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2488,7 +2583,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 70,
     genre: ['Animation'],
     saga: '',
-    description: 'Barbie et ses amies créent un journal intime numérique qui devient le fil rouge de leurs aventures, amitiés et rêves de l\'été.',
+    description:
+      "Barbie et ses amies créent un journal intime numérique qui devient le fil rouge de leurs aventures, amitiés et rêves de l'été.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2507,7 +2603,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 83,
     genre: ['Animation'],
     saga: '',
-    description: 'Geneviève et ses onze sœurs découvrent une porte magique vers un royaume enchanté et doivent sauver leur père d\'un complot de leur tante.',
+    description:
+      "Geneviève et ses onze sœurs découvrent une porte magique vers un royaume enchanté et doivent sauver leur père d'un complot de leur tante.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2522,7 +2619,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 91,
     genre: ['Animation'],
     saga: "L'Age de Glace",
-    description: 'Manny, Sid et Diego affrontent une inondation imminente et découvrent une colonie de mammouths dont l\'une pourrait être la dernière femelle de l\'espèce.',
+    description:
+      "Manny, Sid et Diego affrontent une inondation imminente et découvrent une colonie de mammouths dont l'une pourrait être la dernière femelle de l'espèce.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -2541,7 +2639,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 98,
     genre: ['Animation', 'Science Fiction'],
     saga: '',
-    description: 'Une lycéenne découvre un portail vers le Japon médiéval et se retrouve mêlée à une guerre entre clans, entre loyauté familiale et amour impossible.',
+    description:
+      'Une lycéenne découvre un portail vers le Japon médiéval et se retrouve mêlée à une guerre entre clans, entre loyauté familiale et amour impossible.',
     fromEntity: {
       entityType: 'book',
       title: 'La Traversée du temps',
@@ -2568,7 +2667,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 91,
     genre: ['Animation', 'Horreur'],
     saga: '',
-    description: 'Dj, préadolescent, découvre que la maison de son voisin est une créature vivante qui dévore les enfants à l\'approche d\'Halloween.',
+    description:
+      "Dj, préadolescent, découvre que la maison de son voisin est une créature vivante qui dévore les enfants à l'approche d'Halloween.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2591,7 +2691,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 115,
     genre: ['Animation', 'Fantastique'],
     saga: '',
-    description: 'Le jeune prince Arren, hanté par la peur de la mort, rencontre l\'archimage Sparrowhawk et affronte une ombre qui menace l\'équilibre du monde.',
+    description:
+      "Le jeune prince Arren, hanté par la peur de la mort, rencontre l'archimage Sparrowhawk et affronte une ombre qui menace l'équilibre du monde.",
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
@@ -2614,7 +2715,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 86,
     genre: ['Animation', 'Aventure'],
     saga: '',
-    description: 'Boog, ours domestiqué, et Elliot, cerf maladroit, unissent les animaux de la forêt pour repousser les chasseurs qui envahissent leur territoire.',
+    description:
+      'Boog, ours domestiqué, et Elliot, cerf maladroit, unissent les animaux de la forêt pour repousser les chasseurs qui envahissent leur territoire.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2630,7 +2732,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 108,
     genre: ['Animation', 'Comédie musicale'],
     saga: '',
-    description: 'Mumble, manchot empereur incapable de chanter mais doué pour danser, part à la recherche de la cause du manque de poissons dans l\'Antarctique.',
+    description:
+      "Mumble, manchot empereur incapable de chanter mais doué pour danser, part à la recherche de la cause du manque de poissons dans l'Antarctique.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -2667,12 +2770,9 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 94,
     genre: ['Fantastique'],
     saga: 'Minimoys',
-    description: 'Arthur, dix ans, rétrécit pour entrer dans le monde des Minimoys et retrouver un trésor capable de sauver la maison familiale de la saisie.',
-    fromEntity: {
-      entityType: 'book',
-      title: 'Arthur et les Minimoys',
-      secondEntityKey: 'Luc Besson',
-    },
+    description:
+      'Arthur, dix ans, rétrécit pour entrer dans le monde des Minimoys et retrouver un trésor capable de sauver la maison familiale de la saisie.',
+    fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 25,
     oscars: [],
@@ -2708,12 +2808,9 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 94,
     genre: ['Aventure'],
     saga: 'Minimoys',
-    description: 'Arthur retourne chez les Minimoys pour les sauver de Maltazard, devenu géant et déterminé à envahir le monde des humains.',
-    fromEntity: {
-      entityType: 'book',
-      title: 'Arthur et les Minimoys',
-      secondEntityKey: 'Luc Besson',
-    },
+    description:
+      'Arthur retourne chez les Minimoys pour les sauver de Maltazard, devenu géant et déterminé à envahir le monde des humains.',
+    fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 25,
     oscars: [],
@@ -2743,7 +2840,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 101,
     genre: ['Aventure'],
     saga: 'Minimoys',
-    description: 'Arthur doit empêcher Maltazard de noyer le royaume des Minimoys et de conquérir le monde des hommes avec l\'aide de Selenia et de Darkos.',
+    description:
+      "Arthur doit empêcher Maltazard de noyer le royaume des Minimoys et de conquérir le monde des hommes avec l'aide de Selenia et de Darkos.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 25,
@@ -2762,7 +2860,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 75,
     genre: ['Animation'],
     saga: '',
-    description: 'Elina devient fée de l\'arc-en-ciel et doit protéger Fairytopia lorsque Laverna menace de voler la magie qui maintient l\'équilibre du royaume.',
+    description:
+      "Elina devient fée de l'arc-en-ciel et doit protéger Fairytopia lorsque Laverna menace de voler la magie qui maintient l'équilibre du royaume.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2781,7 +2880,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 86,
     genre: ['Animation'],
     saga: '',
-    description: 'Ro, élevée par des animaux sur une île tropicale, découvre qu\'elle est une princesse et doit reprendre son royaume des mains d\'une usurpatrice.',
+    description:
+      "Ro, élevée par des animaux sur une île tropicale, découvre qu'elle est une princesse et doit reprendre son royaume des mains d'une usurpatrice.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2804,7 +2904,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 74,
     genre: ['Animation', 'Jeunesse'],
     saga: '',
-    description: 'Cendrillon découvre que sa fée marraine a une fille, Lucifer, qui doit apprendre la magie pour sauver le royaume d\'une malédiction.',
+    description:
+      "Cendrillon découvre que sa fée marraine a une fille, Lucifer, qui doit apprendre la magie pour sauver le royaume d'une malédiction.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2829,7 +2930,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 86,
     genre: ['Animation'],
     saga: '',
-    description: 'Les Tortues Ninja affrontent une armée de créatures surnaturelles menée par le Shredder et un mystérieux millionnaire aux ambitions occultes.',
+    description:
+      'Les Tortues Ninja affrontent une armée de créatures surnaturelles menée par le Shredder et un mystérieux millionnaire aux ambitions occultes.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2850,7 +2952,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 85,
     genre: ['Animation', 'Comédie'],
     saga: '',
-    description: 'Un pingouin timide et maladroit rejoint l\'équipe de surf de son île et doit surmonter ses peurs pour remporter le championnat de glisse.',
+    description:
+      "Un pingouin timide et maladroit rejoint l'équipe de surf de son île et doit surmonter ses peurs pour remporter le championnat de glisse.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2869,7 +2972,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 90,
     genre: ['Animation', 'Drame', 'Fantastique'],
     saga: '',
-    description: 'La psychologue Paprika utilise un appareil expérimental pour pénétrer les rêves de ses patients, jusqu\'à ce que l\'outil tombe entre de mauvaises mains.',
+    description:
+      "La psychologue Paprika utilise un appareil expérimental pour pénétrer les rêves de ses patients, jusqu'à ce que l'outil tombe entre de mauvaises mains.",
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
@@ -2892,7 +2996,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 96,
     genre: ['Animation', 'Biographie'],
     saga: '',
-    description: 'Marjane raconte son enfance et son adolescence en Iran, entre révolution islamique, guerre et exil, avec un regard lucide et parfois caustique.',
+    description:
+      'Marjane raconte son enfance et son adolescence en Iran, entre révolution islamique, guerre et exil, avec un regard lucide et parfois caustique.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -2911,7 +3016,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 87,
     genre: ['Animation'],
     saga: 'Les Simpsons',
-    description: 'La famille Simpson fuit Springfield après que Homer ait pollué le lac local, déclenchant une crise qui menace d\'isoler la ville sous un dôme.',
+    description:
+      "La famille Simpson fuit Springfield après que Homer ait pollué le lac local, déclenchant une crise qui menace d'isoler la ville sous un dôme.",
     fromEntity: {
       entityType: 'serie',
       title: 'Les Simpsons',
@@ -2930,7 +3036,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 91,
     genre: ['Animation'],
     saga: '',
-    description: 'Barry B. Benson, abeille fraîchement diplômée, intente un procès aux humains pour vol de miel et remet en question l\'ordre établi de la ruche.',
+    description:
+      "Barry B. Benson, abeille fraîchement diplômée, intente un procès aux humains pour vol de miel et remet en question l'ordre établi de la ruche.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2953,11 +3060,12 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 114,
     genre: ['Animation', 'Aventure'],
     saga: '',
-    description: 'Le héros légendaire Beowulf affronte le monstre Grendel et sa mère, puis un dragon, dans une épopée où gloire et mensonge se mêlent.',
+    description:
+      'Le héros légendaire Beowulf affronte le monstre Grendel et sa mère, puis un dragon, dans une épopée où gloire et mensonge se mêlent.',
     fromEntity: {
       entityType: 'book',
-      title: "Beowulf",
-      secondEntityKey: "Anonyme",
+      title: 'Beowulf',
+      secondEntityKey: 'Anonyme',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2976,7 +3084,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 75,
     genre: ['Animation'],
     saga: '',
-    description: 'Mariposa, fée papillon timide, part à la recherche d\'un antidote pour sauver la reine des fées et prouver sa valeur à tout le royaume.',
+    description:
+      "Mariposa, fée papillon timide, part à la recherche d'un antidote pour sauver la reine des fées et prouver sa valeur à tout le royaume.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2995,7 +3104,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 78,
     genre: ['Animation'],
     saga: '',
-    description: 'Liana et Alexa, amies musiciennes, découvrent un miroir magique qui les mène dans un palais où elles doivent affronter une sorcière avide.',
+    description:
+      'Liana et Alexa, amies musiciennes, découvrent un miroir magique qui les mène dans un palais où elles doivent affronter une sorcière avide.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3014,7 +3124,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 75,
     genre: ['Animation'],
     saga: '',
-    description: 'Barbie raconte l\'histoire d\'Eden Starling, chanteuse égoïste qui apprend la générosité grâce au fantôme des Noëls passé, présent et futur.',
+    description:
+      "Barbie raconte l'histoire d'Eden Starling, chanteuse égoïste qui apprend la générosité grâce au fantôme des Noëls passé, présent et futur.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3029,7 +3140,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 86,
     genre: ['Animation'],
     saga: '',
-    description: 'Horton l\'éléphant entend une voix minuscule sur une fleur et protège la cité de Who-ville contre des animaux qui refusent de croire à son existence.',
+    description:
+      "Horton l'éléphant entend une voix minuscule sur une fleur et protège la cité de Who-ville contre des animaux qui refusent de croire à son existence.",
     fromEntity: {
       entityType: 'book',
       title: 'Horton entend un Zou!',
@@ -3049,8 +3161,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
       { name: 'Dror Harazi' },
       { name: 'Mickey Levy' },
     ],
-    coverUrl:
-      '/movies_pictures/1c09723626c0.jpg',
+    coverUrl: '/movies_pictures/1c09723626c0.jpg',
     releaseDate: '2008-06-12',
     length: 90,
     genre: ['Animation', 'Documentaire', 'Guerre'],
@@ -3079,7 +3190,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 82,
     genre: ['Animation', 'Jeunesse'],
     saga: '',
-    description: 'Ariel découvre l\'origine de la musique interdite dans le royaume sous-marin et doit affronter la sorcière Marina pour sauver son père.',
+    description:
+      "Ariel découvre l'origine de la musique interdite dans le royaume sous-marin et doit affronter la sorcière Marina pour sauver son père.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3116,7 +3228,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 96,
     genre: ['Animation', 'Action', 'Horreur'],
     saga: 'Resident Evil',
-    description: 'Leon S. Kennedy enquête sur une attaque bioterroriste dans un aéroport américain liée au virus T et à une entreprise pharmaceutique corrompue.',
+    description:
+      'Leon S. Kennedy enquête sur une attaque bioterroriste dans un aéroport américain liée au virus T et à une entreprise pharmaceutique corrompue.',
     fromEntity: {
       entityType: 'game',
       title: 'Resident Evil',
@@ -3157,7 +3270,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 96,
     genre: ['Animation', 'Action', 'Horreur'],
     saga: 'Resident Evil',
-    description: 'Leon Kennedy infiltre un pays en guerre civile où des B.O.W. sont utilisés comme armes et découvre un complot impliquant le gouvernement local.',
+    description:
+      'Leon Kennedy infiltre un pays en guerre civile où des B.O.W. sont utilisés comme armes et découvre un complot impliquant le gouvernement local.',
     fromEntity: {
       entityType: 'game',
       title: 'Resident Evil',
@@ -3176,7 +3290,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 97,
     genre: ['Animation', 'Action', 'Horreur'],
     saga: 'Resident Evil',
-    description: 'Chris Redfield et Leon Kennedy poursuivent Glenn Arias, qui projette de libérer un virus mortel dans les grandes villes du monde entier.',
+    description:
+      'Chris Redfield et Leon Kennedy poursuivent Glenn Arias, qui projette de libérer un virus mortel dans les grandes villes du monde entier.',
     fromEntity: {
       entityType: 'game',
       title: 'Resident Evil',
@@ -3217,7 +3332,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 91,
     genre: ['Animation', 'Action', 'Horreur'],
     saga: 'Resident Evil',
-    description: 'Leon Kennedy et Chris Redfield enquêtent sur un virus mortel lié à une île artificielle où le passé traumatique de plusieurs héros refait surface.',
+    description:
+      'Leon Kennedy et Chris Redfield enquêtent sur un virus mortel lié à une île artificielle où le passé traumatique de plusieurs héros refait surface.',
     fromEntity: {
       entityType: 'game',
       title: 'Resident Evil',
@@ -3240,7 +3356,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 78,
     genre: ['Animation'],
     saga: '',
-    description: 'Thumbelina, minuscule habitante d\'un jardin enchanté, lutte pour sauver son peuple des constructionneurs qui menacent de détruire son monde.',
+    description:
+      "Thumbelina, minuscule habitante d'un jardin enchanté, lutte pour sauver son peuple des constructionneurs qui menacent de détruire son monde.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3259,7 +3376,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 81,
     genre: ['Animation'],
     saga: '',
-    description: 'Corinne, fille de d\'Artagnan, rêve de devenir mousquetaire et rejoint trois amies pour défendre le prince Louis contre un complot au palais.',
+    description:
+      "Corinne, fille de d'Artagnan, rêve de devenir mousquetaire et rejoint trois amies pour défendre le prince Louis contre un complot au palais.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3274,7 +3392,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 100,
     genre: ['Animation', 'Fantastique'],
     saga: '',
-    description: 'Coraline découvre une porte vers un monde parallèle où ses parents semblent parfaits, jusqu\'à ce que cette autre réalité révèle son vrai visage.',
+    description:
+      "Coraline découvre une porte vers un monde parallèle où ses parents semblent parfaits, jusqu'à ce que cette autre réalité révèle son vrai visage.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -3289,7 +3408,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 94,
     genre: ['Animation'],
     saga: "L'Age de Glace",
-    description: 'En poursuivant Sid kidnappé, le trio découvre un monde souterrain peuplé de dinosaures et croise la route d\'une tigresse au grand cœur.',
+    description:
+      "En poursuivant Sid kidnappé, le trio découvre un monde souterrain peuplé de dinosaures et croise la route d'une tigresse au grand cœur.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -3310,7 +3430,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 96,
     genre: ['Animation', 'Aventure'],
     saga: '',
-    description: 'Gerry, romancier à succès, rencontre Karen, restauratrice, et accepte de l\'accompagner en Alaska où la vérité sur son passé refait surface.',
+    description:
+      "Gerry, romancier à succès, rencontre Karen, restauratrice, et accepte de l'accompagner en Alaska où la vérité sur son passé refait surface.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3325,7 +3446,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 90,
     genre: ['Animation'],
     saga: '',
-    description: 'Inventeur raté, Flint Lockwood crée une machine qui fait pleuvoir de la nourriture sur son île, jusqu\'à ce que le phénomène devienne incontrôlable.',
+    description:
+      "Inventeur raté, Flint Lockwood crée une machine qui fait pleuvoir de la nourriture sur son île, jusqu'à ce que le phénomène devienne incontrôlable.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -3362,7 +3484,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 96,
     genre: ['Animation'],
     saga: '',
-    description: 'Ebenezer Scrooge, avare implacable, est visité par trois esprits qui le confrontent à son passé, son présent et son avenir lors d\'une nuit de Noël.',
+    description:
+      "Ebenezer Scrooge, avare implacable, est visité par trois esprits qui le confrontent à son passé, son présent et son avenir lors d'une nuit de Noël.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3381,7 +3504,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 87,
     genre: ['Animation', 'Aventure', 'Comédie'],
     saga: '',
-    description: 'M. Renard, voleur compulsif, met sa famille en danger en braquant trois fermiers vindicatifs déterminés à l\'éliminer une bonne fois pour toutes.',
+    description:
+      "M. Renard, voleur compulsif, met sa famille en danger en braquant trois fermiers vindicatifs déterminés à l'éliminer une bonne fois pour toutes.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3400,7 +3524,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 83,
     genre: ['Animation'],
     saga: '',
-    description: 'Merliah, surfeuse californienne, découvre qu\'elle est une princesse sirène et doit sauver le royaume aquatique de Oceana d\'une menace mortelle.',
+    description:
+      "Merliah, surfeuse californienne, découvre qu'elle est une princesse sirène et doit sauver le royaume aquatique de Oceana d'une menace mortelle.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3419,7 +3544,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 83,
     genre: ['Animation'],
     saga: '',
-    description: 'Barbie et ses amies créent une revue de mode magique qui leur permet de résoudre des énigmes et d\'aider leur école en difficulté.',
+    description:
+      "Barbie et ses amies créent une revue de mode magique qui leur permet de résoudre des énigmes et d'aider leur école en difficulté.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3434,7 +3560,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 95,
     genre: ['Animation'],
     saga: 'Moi, Moche et Méchant',
-    description: 'Gru, super-vilain solitaire, adopte trois fillettes en pleine préparation d\'un vol lunaire qui pourrait bien changer sa vision de la vie.',
+    description:
+      "Gru, super-vilain solitaire, adopte trois fillettes en pleine préparation d'un vol lunaire qui pourrait bien changer sa vision de la vie.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -3449,7 +3576,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 98,
     genre: ['Animation'],
     saga: 'Moi, Moche et Méchant',
-    description: 'Gru, reconverti en père de famille, est recruté par une organisation secrète pour traquer un méchant qui menace le monde entier.',
+    description:
+      'Gru, reconverti en père de famille, est recruté par une organisation secrète pour traquer un méchant qui menace le monde entier.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -3464,7 +3592,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 91,
     genre: ['Animation'],
     saga: 'Moi, Moche et Méchant',
-    description: 'Les Minions traversent les âges à la recherche d\'un maître diabolique avant de servir Scarlet Overkill dans une aventure des années 1960.',
+    description:
+      "Les Minions traversent les âges à la recherche d'un maître diabolique avant de servir Scarlet Overkill dans une aventure des années 1960.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -3479,7 +3608,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 90,
     genre: ['Animation'],
     saga: 'Moi, Moche et Méchant',
-    description: 'Gru découvre un frère jumeau perdu tandis qu\'une ancienne star de télé enfants menace de voler la couronne de la reine d\'Angleterre.',
+    description:
+      "Gru découvre un frère jumeau perdu tandis qu'une ancienne star de télé enfants menace de voler la couronne de la reine d'Angleterre.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -3494,7 +3624,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 87,
     genre: ['Animation'],
     saga: 'Moi, Moche et Méchant',
-    description: 'Adolescent des années 1970, Gru rêve de rejoindre les Vicious 6 et doit faire ses preuves aux côtés de ses fidèles Minions.',
+    description:
+      'Adolescent des années 1970, Gru rêve de rejoindre les Vicious 6 et doit faire ses preuves aux côtés de ses fidèles Minions.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -3509,7 +3640,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 95,
     genre: ['Animation'],
     saga: 'Moi, Moche et Méchant',
-    description: 'Gru et sa famille sont en cavale lorsque son rival Maxime et une femme fatale menacent de kidnapper son bébé et de dévoiler ses secrets.',
+    description:
+      'Gru et sa famille sont en cavale lorsque son rival Maxime et une femme fatale menacent de kidnapper son bébé et de dévoiler ses secrets.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -3531,7 +3663,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 94,
     genre: ['Animation', 'Fantastique'],
     saga: '',
-    description: 'Arrietty, minuscule emprunteuse vivant sous une maison de campagne, se lie d\'amitié avec un garçon humain malade qui pourrait révéler son existence.',
+    description:
+      "Arrietty, minuscule emprunteuse vivant sous une maison de campagne, se lie d'amitié avec un garçon humain malade qui pourrait révéler son existence.",
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 25,
@@ -3554,7 +3687,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 88,
     genre: ['Animation', 'Aventure'],
     saga: '',
-    description: 'Samy, tortue de mer, traverse l\'océan depuis son élevage en aquarium jusqu\'à la plage où elle est née, guidée par son instinct et ses amis.',
+    description:
+      "Samy, tortue de mer, traverse l'océan depuis son élevage en aquarium jusqu'à la plage où elle est née, guidée par son instinct et ses amis.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3573,7 +3707,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 94,
     genre: ['Animation', 'Policier', 'Drame'],
     saga: '',
-    description: 'Chico, pianiste cubain, et Rita, chanteuse, vivent une passion tumultueuse à La Havane et New York entre jazz, gloire et séparation.',
+    description:
+      'Chico, pianiste cubain, et Rita, chanteuse, vivent une passion tumultueuse à La Havane et New York entre jazz, gloire et séparation.',
     fromEntity: null,
     countryOrigin: ['Espagne'],
     selectDisplayOrder: 0,
@@ -3592,7 +3727,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 75,
     genre: ['Animation'],
     saga: '',
-    description: 'Barbie et ses amies découvrent un monde secret peuplé de fées et doivent protéger la magie de la nature contre une menace industrielle.',
+    description:
+      'Barbie et ses amies découvrent un monde secret peuplé de fées et doivent protéger la magie de la nature contre une menace industrielle.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3611,7 +3747,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 75,
     genre: ['Animation'],
     saga: '',
-    description: 'Blair Willows, serveuse au palais, découvre qu\'elle ressemble à la princesse et doit prendre sa place pour déjouer une comploteuse au bal royal.',
+    description:
+      "Blair Willows, serveuse au palais, découvre qu'elle ressemble à la princesse et doit prendre sa place pour déjouer une comploteuse au bal royal.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3634,7 +3771,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 84,
     genre: ['Animation', 'Comédie'],
     saga: '',
-    description: 'Deux nains de jardin de familles rivales tombent amoureux dans cette adaptation shakespearienne transposée dans les jardins anglais.',
+    description:
+      'Deux nains de jardin de familles rivales tombent amoureux dans cette adaptation shakespearienne transposée dans les jardins anglais.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3649,7 +3787,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 107,
     genre: ['Animation', 'Aventure'],
     saga: '',
-    description: 'Caméléon timide devenu shérif d\'une ville du Far West, Rango doit affronter une sécheresse et des bandits pour gagner le respect des habitants.',
+    description:
+      "Caméléon timide devenu shérif d'une ville du Far West, Rango doit affronter une sécheresse et des bandits pour gagner le respect des habitants.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -3668,7 +3807,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 73,
     genre: ['Animation'],
     saga: '',
-    description: 'Merliah retourne à Oceana lorsque la magie des sirènes s\'affaiblit et doit affronter une reine des mers déterminée à conquérir les deux mondes.',
+    description:
+      "Merliah retourne à Oceana lorsque la magie des sirènes s'affaiblit et doit affronter une reine des mers déterminée à conquérir les deux mondes.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3687,7 +3827,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 75,
     genre: ['Animation'],
     saga: '',
-    description: 'Keira, popstar, et Tori, princesse, échangent leurs rôles et découvrent que l\'amitié et la musique valent plus que la célébrité ou la couronne.',
+    description:
+      "Keira, popstar, et Tori, princesse, échangent leurs rôles et découvrent que l'amitié et la musique valent plus que la célébrité ou la couronne.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3707,7 +3848,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 79,
     genre: ['Animation'],
     saga: '',
-    description: 'Dans un Paris dystopique, une famille dirige une boutique où l\'on vend des objets pour se suicider, jusqu\'à l\'arrivée d\'un enfant insouciant.',
+    description:
+      "Dans un Paris dystopique, une famille dirige une boutique où l'on vend des objets pour se suicider, jusqu'à l'arrivée d'un enfant insouciant.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -3732,7 +3874,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 93,
     genre: ['Animation'],
     saga: 'Madagascar',
-    description: 'Alex, Marty, Gloria et Melman s\'engagent dans un cirque européen pour regagner les États-Unis tout en échappant à la redoutable capitaine Chantale DuBois.',
+    description:
+      "Alex, Marty, Gloria et Melman s'engagent dans un cirque européen pour regagner les États-Unis tout en échappant à la redoutable capitaine Chantale DuBois.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -3747,7 +3890,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 88,
     genre: ['Animation'],
     saga: "L'Age de Glace",
-    description: 'Séparés par la dérive des continents, Manny et sa famille doivent regagner le continent tandis que Sid rencontre une grand-mère aussi excentrique que lui.',
+    description:
+      'Séparés par la dérive des continents, Manny et sa famille doivent regagner le continent tandis que Sid rencontre une grand-mère aussi excentrique que lui.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -3772,7 +3916,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 86,
     genre: ['Animation'],
     saga: '',
-    description: 'Ted, jeune garçon d\'une ville artificielle, cherche un arbre pour séduire Audrey et découvre l\'histoire tragique du Once-ler et du gardien des forêts.',
+    description:
+      "Ted, jeune garçon d'une ville artificielle, cherche un arbre pour séduire Audrey et découvre l'histoire tragique du Once-ler et du gardien des forêts.",
     fromEntity: {
       entityType: 'book',
       title: 'Le Lorax',
@@ -3797,7 +3942,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 92,
     genre: ['Animation', 'Comédie'],
     saga: '',
-    description: 'Norman, préadolescent capable de parler aux morts, doit utiliser son don pour sauver sa ville d\'une malédiction remontant à la chasse aux sorcières.',
+    description:
+      "Norman, préadolescent capable de parler aux morts, doit utiliser son don pour sauver sa ville d'une malédiction remontant à la chasse aux sorcières.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3812,7 +3958,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 91,
     genre: ['Animation', 'Comédie'],
     saga: '',
-    description: 'Dracula ouvre un hôtel pour monstres afin de protéger sa fille Mavis du monde des humains, jusqu\'à l\'arrivée imprévue d\'un voyageur.',
+    description:
+      "Dracula ouvre un hôtel pour monstres afin de protéger sa fille Mavis du monde des humains, jusqu'à l'arrivée imprévue d'un voyageur.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -3849,7 +3996,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 87,
     genre: ['Animation', 'Comédie', 'Fantastique'],
     saga: '',
-    description: 'Victor Frankenstein, jeune inventeur, tente de ramener à la vie son chien Sparky avec des conséquences aussi touchantes que monstrueuses.',
+    description:
+      'Victor Frankenstein, jeune inventeur, tente de ramener à la vie son chien Sparky avec des conséquences aussi touchantes que monstrueuses.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3864,7 +4012,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 82,
     genre: ['Animation', 'Science Fiction', 'Action'],
     saga: 'La guerre des mondes',
-    description: 'En 1914, une escadrille internationale de pilotes affronte une deuxième invasion martienne, quinze ans après la guerre des mondes de Wells.',
+    description:
+      'En 1914, une escadrille internationale de pilotes affronte une deuxième invasion martienne, quinze ans après la guerre des mondes de Wells.',
     fromEntity: {
       entityType: 'book',
       title: 'La guerre des mondes',
@@ -3887,7 +4036,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 83,
     genre: ['Animation'],
     saga: '',
-    description: 'Kristyn Farraday, passionnée de ballet, entre dans des mondes inspirés de ballets célèbres où elle doit danser pour briser des malédictions.',
+    description:
+      'Kristyn Farraday, passionnée de ballet, entre dans des mondes inspirés de ballets célèbres où elle doit danser pour briser des malédictions.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3906,7 +4056,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 75,
     genre: ['Animation'],
     saga: '',
-    description: 'Mariposa retourne au royaume des fées papillons pour empêcher une reine maléfique de voler la magie qui protège les habitants du royaume.',
+    description:
+      'Mariposa retourne au royaume des fées papillons pour empêcher une reine maléfique de voler la magie qui protège les habitants du royaume.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3925,7 +4076,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 72,
     genre: ['Animation'],
     saga: '',
-    description: 'Barbie et ses sœurs passent leurs vacances au club hippique et doivent sauver un cheval menacé tout en préparant une compétition équestre.',
+    description:
+      'Barbie et ses sœurs passent leurs vacances au club hippique et doivent sauver un cheval menacé tout en préparant une compétition équestre.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3962,7 +4114,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 102,
     genre: ['Animation', 'Fantastique'],
     saga: '',
-    description: 'Mary Katherine, adolescente, est miniaturisée et rejoint une guerre invisible dans la forêt pour sauver le monde des humains et celui des Leafmen.',
+    description:
+      'Mary Katherine, adolescente, est miniaturisée et rejoint une guerre invisible dans la forêt pour sauver le monde des humains et celui des Leafmen.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3985,7 +4138,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 115,
     genre: ['Animation', 'Science Fiction'],
     saga: '',
-    description: 'Albator, pirate de l\'espace, protège la Terre des dangers cosmiques dans cette adaptation CGI du célèbre manga de Leiji Matsumoto.',
+    description:
+      "Albator, pirate de l'espace, protège la Terre des dangers cosmiques dans cette adaptation CGI du célèbre manga de Leiji Matsumoto.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4006,7 +4160,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 95,
     genre: ['Animation', 'Comédie'],
     saga: '',
-    description: 'Flint et ses amis découvrent que l\'île où ils ont échoué abrite des créatures nourriture vivantes et doivent affronter une menace fromagère géante.',
+    description:
+      "Flint et ses amis découvrent que l'île où ils ont échoué abrite des créatures nourriture vivantes et doivent affronter une menace fromagère géante.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4025,7 +4180,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 137,
     genre: ['Animation'],
     saga: '',
-    description: 'Une princesse lunaire élevée par des paysans grandit à une vitesse prodigieuse et doit affronter son destin lorsque les nobles la convoitent.',
+    description:
+      'Une princesse lunaire élevée par des paysans grandit à une vitesse prodigieuse et doit affronter son destin lorsque les nobles la convoitent.',
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 1,
@@ -4044,7 +4200,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 83,
     genre: ['Animation'],
     saga: '',
-    description: 'Barbie et ses amies plongeuses découvrent une perle magique qui leur confère des pouvoirs aquatiques pour protéger les océans d\'un danger.',
+    description:
+      "Barbie et ses amies plongeuses découvrent une perle magique qui leur confère des pouvoirs aquatiques pour protéger les océans d'un danger.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4063,7 +4220,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 81,
     genre: ['Animation'],
     saga: '',
-    description: 'Alexa, princesse timide, découvre une porte secrète vers un royaume enchanté où elle doit affronter une sorcière pour sauver deux mondes.',
+    description:
+      'Alexa, princesse timide, découvre une porte secrète vers un royaume enchanté où elle doit affronter une sorcière pour sauver deux mondes.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4084,7 +4242,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 94,
     genre: ['Animation', 'Romance'],
     saga: '',
-    description: 'Jack, garçon au cœur mécanique, ne doit jamais tomber amoureux sous peine de mourir, mais rencontre une chanteuse de rue qui bouleverse sa vie.',
+    description:
+      'Jack, garçon au cœur mécanique, ne doit jamais tomber amoureux sous peine de mourir, mais rencontre une chanteuse de rue qui bouleverse sa vie.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4106,7 +4265,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 100,
     genre: ['Animation', 'Aventure'],
     saga: 'Lego',
-    description: 'Emmet, figurine ordinaire, est pris pour le héros légendaire et doit empêcher le tyran Lord Business de coller l\'univers Lego avec la Kragl.',
+    description:
+      "Emmet, figurine ordinaire, est pris pour le héros légendaire et doit empêcher le tyran Lord Business de coller l'univers Lego avec la Kragl.",
     fromEntity: {
       entityType: 'game',
       title: 'Lego Batman',
@@ -4135,7 +4295,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 104,
     genre: ['Animation'],
     saga: 'Lego',
-    description: 'Batman, héros solitaire obsédé par sa gloire, doit apprendre à travailler en équipe pour sauver Gotham du Joker et de sa bande de vilains.',
+    description:
+      'Batman, héros solitaire obsédé par sa gloire, doit apprendre à travailler en équipe pour sauver Gotham du Joker et de sa bande de vilains.',
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
@@ -4162,7 +4323,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 101,
     genre: ['Animation', 'Comédie'],
     saga: '',
-    description: 'Blu, Perla et leurs trois petits partent pour l\'Amazonie à la recherche d\'autres ara bleus et affrontent des braconniers dans la jungle.',
+    description:
+      "Blu, Perla et leurs trois petits partent pour l'Amazonie à la recherche d'autres ara bleus et affrontent des braconniers dans la jungle.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4177,7 +4339,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 76,
     genre: ['Animation'],
     saga: 'Batman Arkham',
-    description: 'La Suicide Squad infiltre l\'asile d\'Arkham pour récupérer un dispositif volé, alors que le Joker complote une évasion généralisée.',
+    description:
+      "La Suicide Squad infiltre l'asile d'Arkham pour récupérer un dispositif volé, alors que le Joker complote une évasion généralisée.",
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
@@ -4202,7 +4365,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 93,
     genre: ['Animation', 'Aventure', 'Fantastique', 'Jeunesse'],
     saga: '',
-    description: 'Ben et sa petite sœur Saoirse, dernière selkie, partent à la recherche de leur mère dans une Irlande peuplée de créatures celtiques.',
+    description:
+      'Ben et sa petite sœur Saoirse, dernière selkie, partent à la recherche de leur mère dans une Irlande peuplée de créatures celtiques.',
     fromEntity: null,
     countryOrigin: ['Irlande', 'Danemark', 'Belgique', 'Luxembourg'],
     selectDisplayOrder: 0,
@@ -4223,7 +4387,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 96,
     genre: ['Animation', 'Aventure', 'Comédie', 'Jeunesse'],
     saga: '',
-    description: 'Eggs, enfant élevé par des créatures souterraines, affronte un exterminateur vantard qui menace son monde caché sous la ville de Cheesebridge.',
+    description:
+      'Eggs, enfant élevé par des créatures souterraines, affronte un exterminateur vantard qui menace son monde caché sous la ville de Cheesebridge.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4244,7 +4409,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 95,
     genre: ['Animation', 'Aventure', 'Comédie', 'Jeunesse'],
     saga: '',
-    description: 'Manolo, torero rêvant de musique, descend aux Enfers pour retrouver son amour Maria et affronter le choix entre tradition familiale et passion.',
+    description:
+      'Manolo, torero rêvant de musique, descend aux Enfers pour retrouver son amour Maria et affronter le choix entre tradition familiale et passion.',
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Mexique'],
     selectDisplayOrder: 0,
@@ -4263,7 +4429,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 72,
     genre: ['Animation'],
     saga: '',
-    description: 'Corinne, princesse ordinaire, devient super-héroïne grâce à un collier magique et doit protéger son royaume d\'une vilaine aux pouvoirs obscurs.',
+    description:
+      "Corinne, princesse ordinaire, devient super-héroïne grâce à un collier magique et doit protéger son royaume d'une vilaine aux pouvoirs obscurs.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4282,7 +4449,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 87,
     genre: ['Animation'],
     saga: '',
-    description: 'Courtney, serveuse au château, et Erika, rockstar, découvrent qu\'elles sont des princesses jumelles séparées à la naissance et unissent leurs forces.',
+    description:
+      "Courtney, serveuse au château, et Erika, rockstar, découvrent qu'elles sont des princesses jumelles séparées à la naissance et unissent leurs forces.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4301,7 +4469,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 72,
     genre: ['Animation'],
     saga: '',
-    description: 'Barbie et ses sœurs s\'occupent de chiots adorables lors d\'un séjour au ranch et découvrent un complot visant à fermer le centre équestre.',
+    description:
+      "Barbie et ses sœurs s'occupent de chiots adorables lors d'un séjour au ranch et découvrent un complot visant à fermer le centre équestre.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4348,7 +4517,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 89,
     genre: ['Animation', 'Comédie', 'Jeunesse'],
     saga: 'Hôtel Transylvanie',
-    description: 'Dracula craint que son petit-fils humain ne soit pas un vampire et organise un camp d\'entraînement monstrueux pour éveiller ses pouvoirs.',
+    description:
+      "Dracula craint que son petit-fils humain ne soit pas un vampire et organise un camp d'entraînement monstrueux pour éveiller ses pouvoirs.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4369,7 +4539,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 97,
     genre: ['Animation', 'Comédie', 'Jeunesse'],
     saga: 'Hôtel Transylvanie',
-    description: 'Dracula part en croisière et tombe amoureux du capitaine, sans savoir que celui-ci cherche à détruire tous les monstres à bord.',
+    description:
+      'Dracula part en croisière et tombe amoureux du capitaine, sans savoir que celui-ci cherche à détruire tous les monstres à bord.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4390,7 +4561,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 87,
     genre: ['Animation', 'Comédie', 'Jeunesse'],
     saga: 'Hôtel Transylvanie',
-    description: 'Le ray de transformation de Van Helsing échange les corps de Dracula et Johnny, obligeant chacun à vivre dans la peau de l\'autre.',
+    description:
+      "Le ray de transformation de Van Helsing échange les corps de Dracula et Johnny, obligeant chacun à vivre dans la peau de l'autre.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4429,7 +4601,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 83,
     genre: ['Animation'],
     saga: '',
-    description: 'Barbie et ses amies, recrutées comme agents secrets, infiltrent une organisation criminelle lors d\'une mission sous couverture dans une école de mode.',
+    description:
+      "Barbie et ses amies, recrutées comme agents secrets, infiltrent une organisation criminelle lors d'une mission sous couverture dans une école de mode.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4448,7 +4621,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 83,
     genre: ['Animation'],
     saga: '',
-    description: 'Barbie joue une princesse qui devient astronaute et part dans l\'espace pour sauver sa planète d\'une menace intergalactique avec ses amies.',
+    description:
+      "Barbie joue une princesse qui devient astronaute et part dans l'espace pour sauver sa planète d'une menace intergalactique avec ses amies.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4467,7 +4641,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 72,
     genre: ['Animation'],
     saga: '',
-    description: 'Barbie et ses sœurs partent à la recherche de chiots perdus dans les montagnes enneigées et découvrent une aventure pleine de surprises hivernales.',
+    description:
+      'Barbie et ses sœurs partent à la recherche de chiots perdus dans les montagnes enneigées et découvrent une aventure pleine de surprises hivernales.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4482,7 +4657,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 6,
     genre: ['Animation'],
     saga: '',
-    description: 'Un poussin de pluvier apprend à surmonter sa peur des vagues en observant les crabes de la plage, dans un court métrage sans parole.',
+    description:
+      'Un poussin de pluvier apprend à surmonter sa peur des vagues en observant les crabes de la plage, dans un court métrage sans parole.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -4497,7 +4673,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 94,
     genre: ['Animation'],
     saga: "L'Age de Glace",
-    description: 'Scrat, toujours obsédé par son gland, provoque par accident une série de catastrophes cosmiques qui menacent l\'existence même de la Terre.',
+    description:
+      "Scrat, toujours obsédé par son gland, provoque par accident une série de catastrophes cosmiques qui menacent l'existence même de la Terre.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -4518,7 +4695,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 87,
     genre: ['Animation', 'Comédie'],
     saga: '',
-    description: 'Max, chien de compagnie jaloux, se retrouve perdu à New York avec ses amis animaux et doit regagner le cœur de sa maîtresse Katie.',
+    description:
+      'Max, chien de compagnie jaloux, se retrouve perdu à New York avec ses amis animaux et doit regagner le cœur de sa maîtresse Katie.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4537,7 +4715,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 102,
     genre: ['Animation'],
     saga: '',
-    description: 'Kubo, jeune conteur au Japon féodal, part à la recherche d\'une armure légendaire pour affronter un esprit vengeur lié à son passé familial.',
+    description:
+      "Kubo, jeune conteur au Japon féodal, part à la recherche d'une armure légendaire pour affronter un esprit vengeur lié à son passé familial.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4560,7 +4739,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 66,
     genre: ['Animation', 'Drame'],
     saga: '',
-    description: 'Courgette, neuf ans, est confié à un foyer pour enfants après la mort de sa mère et découvre l\'amitié malgré des blessures du passé.',
+    description:
+      "Courgette, neuf ans, est confié à un foyer pour enfants après la mort de sa mère et découvre l'amitié malgré des blessures du passé.",
     fromEntity: null,
     countryOrigin: ['Suisse'],
     selectDisplayOrder: 0,
@@ -4579,7 +4759,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 83,
     genre: ['Animation'],
     saga: '',
-    description: 'Barbie est aspirée dans un jeu vidéo et doit devenir héroïne pour sauver le royaume virtuel et retrouver le chemin vers le monde réel.',
+    description:
+      'Barbie est aspirée dans un jeu vidéo et doit devenir héroïne pour sauver le royaume virtuel et retrouver le chemin vers le monde réel.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4604,7 +4785,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 108,
     genre: ['Animation'],
     saga: 'Tous en scène',
-    description: 'Un koala théâtral en faillite organise un concours de chant pour relancer son ancien music-hall et réunir une troupe d\'animaux aux talents disparates.',
+    description:
+      "Un koala théâtral en faillite organise un concours de chant pour relancer son ancien music-hall et réunir une troupe d'animaux aux talents disparates.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -4641,7 +4823,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 110,
     genre: ['Animation'],
     saga: 'Tous en scène',
-    description: 'Buster Moon relance son spectacle avec un casting encore plus ambitieux, tandis que chaque artiste affronte la pression du succès et ses propres peurs.',
+    description:
+      'Buster Moon relance son spectacle avec un casting encore plus ambitieux, tandis que chaque artiste affronte la pression du succès et ses propres peurs.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -4664,7 +4847,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 78,
     genre: ['Animation', 'Comédie'],
     saga: '',
-    description: 'Hector, inspecteur du travail, enquête dans un parc d\'attractions où les employés cachent un secret : ce sont tous des monstres vivants.',
+    description:
+      "Hector, inspecteur du travail, enquête dans un parc d'attractions où les employés cachent un secret : ce sont tous des monstres vivants.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -4687,7 +4871,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 101,
     genre: ['Animation', 'Aventure'],
     saga: '',
-    description: 'Dans un Japon futuriste, un garçon part à la recherche de son chien exilé sur une île déchets peuplée de canidés abandonnés.',
+    description:
+      'Dans un Japon futuriste, un garçon part à la recherche de son chien exilé sur une île déchets peuplée de canidés abandonnés.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -4712,7 +4897,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 86,
     genre: ['Animation'],
     saga: '',
-    description: 'Le Grinch, créature misanthrope de Whoville, complote de voler Noël aux habitants du village jusqu\'à ce qu\'une fillette change sa vision du monde.',
+    description:
+      "Le Grinch, créature misanthrope de Whoville, complote de voler Noël aux habitants du village jusqu'à ce qu'une fillette change sa vision du monde.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -4731,7 +4917,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 117,
     genre: ['Animation'],
     saga: 'Spider-Verse',
-    description: 'Miles Morales devient Spider-Man dans un New York où plusieurs versions de l\'homme-araignée doivent s\'unir pour sauver le multivers.',
+    description:
+      "Miles Morales devient Spider-Man dans un New York où plusieurs versions de l'homme-araignée doivent s'unir pour sauver le multivers.",
     fromEntity: {
       entityType: 'comic',
       title: 'Spider-Man',
@@ -4754,7 +4941,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 140,
     genre: ['Animation'],
     saga: 'Spider-Verse',
-    description: 'Miles Morales affronte le Spot et doit rallier une nouvelle équipe de Spider-People pour protéger le multivers et ses proches.',
+    description:
+      'Miles Morales affronte le Spot et doit rallier une nouvelle équipe de Spider-People pour protéger le multivers et ses proches.',
     fromEntity: {
       entityType: 'comic',
       title: 'Spider-Man',
@@ -4777,7 +4965,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 107,
     genre: ['Animation'],
     saga: 'La Grande Aventure Lego',
-    description: 'Cinq ans après, Emmet et ses amis affrontent des envahisseurs du système Duplo qui détruisent Bricksburg et menacent l\'imaginaire des enfants.',
+    description:
+      "Cinq ans après, Emmet et ses amis affrontent des envahisseurs du système Duplo qui détruisent Bricksburg et menacent l'imaginaire des enfants.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -4802,7 +4991,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 96,
     genre: ['Animation'],
     saga: '',
-    description: 'Nicky Larson, détective privé maladroit, enquête sur la disparition d\'une jeune héritière dans cette comédie d\'action inspirée du manga City Hunter.',
+    description:
+      "Nicky Larson, détective privé maladroit, enquête sur la disparition d'une jeune héritière dans cette comédie d'action inspirée du manga City Hunter.",
     fromEntity: {
       entityType: 'manga',
       title: 'City Hunter',
@@ -4821,7 +5011,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 110,
     genre: ['Animation', 'Action', 'Aventure'],
     saga: '',
-    description: 'Nezha, enfant-démon rejeté par son village, doit prouver qu\'il n\'est pas une malédiction en affrontant une tempête surnaturelle menaçant sa communauté.',
+    description:
+      "Nezha, enfant-démon rejeté par son village, doit prouver qu'il n'est pas une malédiction en affrontant une tempête surnaturelle menaçant sa communauté.",
     fromEntity: null,
     countryOrigin: ['Chine'],
     selectDisplayOrder: 0,
@@ -4836,7 +5027,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 96,
     genre: ['Animation', 'Aventure'],
     saga: '',
-    description: 'Jesper, fils de postier, transforme un village glacial en forgeant une amitié avec Klaus, ermite solitaire qui fabrique des jouets pour les enfants.',
+    description:
+      'Jesper, fils de postier, transforme un village glacial en forgeant une amitié avec Klaus, ermite solitaire qui fabrique des jouets pour les enfants.',
     fromEntity: null,
     countryOrigin: ['Espagne'],
     selectDisplayOrder: 25,
@@ -4857,7 +5049,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 103,
     genre: ['Animation', 'Aventure', 'Fantastique'],
     saga: '',
-    description: 'Robyn, apprentie chasseuse, se lie à Mebh, jeune wolfwalker capable de devenir loup la nuit, dans une Irlande dominée par la chasse aux loups.',
+    description:
+      'Robyn, apprentie chasseuse, se lie à Mebh, jeune wolfwalker capable de devenir loup la nuit, dans une Irlande dominée par la chasse aux loups.',
     fromEntity: null,
     countryOrigin: ['Irlande', 'Luxembourg', 'France'],
     selectDisplayOrder: 0,
@@ -4872,7 +5065,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 116,
     genre: ['Animation', 'Action', 'Fantastique'],
     saga: 'New Gods',
-    description: 'Dans un Shanghai futuriste, le jeune Nezha renaît en pilote de course et doit maîtriser ses pouvoirs pour protéger sa ville d\'une menace surnaturelle.',
+    description:
+      "Dans un Shanghai futuriste, le jeune Nezha renaît en pilote de course et doit maîtriser ses pouvoirs pour protéger sa ville d'une menace surnaturelle.",
     fromEntity: null,
     countryOrigin: ['Chine'],
     selectDisplayOrder: 0,
@@ -4919,7 +5113,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 116,
     genre: ['Animation'],
     saga: '',
-    description: 'LeBron James rejoint les Looney Tunes dans le cyberespace pour sauver son fils et libérer les joueurs de la NBA piégés par une intelligence artificielle.',
+    description:
+      'LeBron James rejoint les Looney Tunes dans le cyberespace pour sauver son fils et libérer les joueurs de la NBA piégés par une intelligence artificielle.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -4938,7 +5133,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 95,
     genre: ['Animation'],
     saga: '',
-    description: 'Un photographe de montagne et un alpiniste obsédé par l\'Everest remontent le fil d\'une expédition historique et d\'un mystère vieux de cinquante ans.',
+    description:
+      "Un photographe de montagne et un alpiniste obsédé par l'Everest remontent le fil d'une expédition historique et d'un mystère vieux de cinquante ans.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -4975,7 +5171,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 100,
     genre: ['Animation'],
     saga: '',
-    description: 'Dans un Tokyo post-apocalyptique, Hibiki et Uta, jeunes habitants d\'une île artificielle, découvrent un lien mystérieux avec une catastrophe passée.',
+    description:
+      "Dans un Tokyo post-apocalyptique, Hibiki et Uta, jeunes habitants d'une île artificielle, découvrent un lien mystérieux avec une catastrophe passée.",
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 25,
@@ -5000,7 +5197,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 115,
     genre: ['Animation'],
     saga: '',
-    description: 'Jacob Holland, chasseur de monstres, forme une alliance inattendue avec une fillette intrépide qui voit autre chose que la terreur dans les océans.',
+    description:
+      'Jacob Holland, chasseur de monstres, forme une alliance inattendue avec une fillette intrépide qui voit autre chose que la terreur dans les océans.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5025,7 +5223,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 106,
     genre: ['Animation'],
     saga: '',
-    description: 'Krypto, chien de Superman, doit former une équipe d\'animaux dotés de super-pouvoirs pour sauver les maîtres capturés par un vilain technologique.',
+    description:
+      "Krypto, chien de Superman, doit former une équipe d'animaux dotés de super-pouvoirs pour sauver les maîtres capturés par un vilain technologique.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -5059,7 +5258,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 77,
     genre: ['Animation', 'Aventure', 'Comédie'],
     saga: 'La nuit au musée',
-    description: 'Nick Daley, fils du gardien de nuit, doit empêcher le retour du pharaon Kahmunrah qui menace de libérer les forces du mal emprisonnées dans le musée.',
+    description:
+      'Nick Daley, fils du gardien de nuit, doit empêcher le retour du pharaon Kahmunrah qui menace de libérer les forces du mal emprisonnées dans le musée.',
     fromEntity: {
       entityType: 'book',
       title: 'The Night at the Museum',
@@ -5082,7 +5282,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 92,
     genre: ['Animation'],
     saga: 'Mario',
-    description: 'Mario et Luigi, plombiers de Brooklyn, sont aspirés dans le Royaume Champignon et doivent affronter Bowser pour sauver la princesse Peach.',
+    description:
+      'Mario et Luigi, plombiers de Brooklyn, sont aspirés dans le Royaume Champignon et doivent affronter Bowser pour sauver la princesse Peach.',
     fromEntity: {
       entityType: 'game',
       title: 'Super Mario Bros.',
@@ -5117,7 +5318,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 101,
     genre: ['Animation'],
     saga: '',
-    description: 'Nimona, shapeshifter imprévisible, devient la partenaire du chevalier Ballister Blackheart dans une quête pour dénoncer l\'Ordre qui gouverne le royaume.',
+    description:
+      "Nimona, shapeshifter imprévisible, devient la partenaire du chevalier Ballister Blackheart dans une quête pour dénoncer l'Ordre qui gouverne le royaume.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5148,7 +5350,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 99,
     genre: ['Animation'],
     saga: '',
-    description: 'Les Tortues Ninja, adolescents mutants, tentent d\'être acceptées par les humains tout en affrontant une armée de mutants menée par Superfly.',
+    description:
+      "Les Tortues Ninja, adolescents mutants, tentent d'être acceptées par les humains tout en affrontant une armée de mutants menée par Superfly.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -5167,7 +5370,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 88,
     genre: ['Animation', 'Action', 'Mystère'],
     saga: '',
-    description: 'Dans un futur où Mars est colonisée, une détective et son android enquêtent sur la disparition d\'une étudiante révélant un complot d\'identité.',
+    description:
+      "Dans un futur où Mars est colonisée, une détective et son android enquêtent sur la disparition d'une étudiante révélant un complot d'identité.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -5182,7 +5386,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 15,
     genre: ['Animation', 'Drame'],
     saga: '',
-    description: 'Dans un monde post-apocalyptique, une jeune femme portant des cicatrices mystérieuses part à la recherche de sa mère et de la vérité sur son passé.',
+    description:
+      'Dans un monde post-apocalyptique, une jeune femme portant des cicatrices mystérieuses part à la recherche de sa mère et de la vérité sur son passé.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -5197,7 +5402,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 84,
     genre: ['Animation', 'Aventure'],
     saga: '',
-    description: 'Un chat solitaire survit à un cataclysme qui submerge le monde et forme une équipe improbable d\'animaux sur un bateau à la dérive.',
+    description:
+      "Un chat solitaire survit à un cataclysme qui submerge le monde et forme une équipe improbable d'animaux sur un bateau à la dérive.",
     fromEntity: null,
     countryOrigin: ['Lettonie', 'France', 'Belgique'],
     selectDisplayOrder: 0,
@@ -5212,7 +5418,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 144,
     genre: ['Animation', 'Action', 'Aventure'],
     saga: '',
-    description: 'Nezha et son ami Aobing affrontent de nouvelles forces divines qui remettent en cause leur destinée et l\'équilibre entre le monde des mortels et celui des immortels.',
+    description:
+      "Nezha et son ami Aobing affrontent de nouvelles forces divines qui remettent en cause leur destinée et l'équilibre entre le monde des mortels et celui des immortels.",
     fromEntity: null,
     countryOrigin: ['Chine'],
     selectDisplayOrder: 0,
@@ -5240,7 +5447,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 95,
     genre: ['Animation'],
     saga: '',
-    description: 'Un groupe de K-pop stars mène une double vie de chasseuses de démons et doit protéger leurs fans lors d\'un concert menacé par des forces surnaturelles.',
+    description:
+      "Un groupe de K-pop stars mène une double vie de chasseuses de démons et doit protéger leurs fans lors d'un concert menacé par des forces surnaturelles.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -5265,7 +5473,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 89,
     genre: ['Animation'],
     saga: '',
-    description: 'Dans un futur post-apocalyptique, Arco, jeune garçon curieux, traverse le temps et rencontre Iris, une fille déterminée à protéger sa communauté.',
+    description:
+      'Dans un futur post-apocalyptique, Arco, jeune garçon curieux, traverse le temps et rencontre Iris, une fille déterminée à protéger sa communauté.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 25,
@@ -5287,7 +5496,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 118,
     genre: ['Animation'],
     saga: '',
-    description: 'Scarlet, jeune fille du futur, découvre un lien mystérieux avec une civilisation passée et doit choisir entre deux mondes pour sauver l\'humanité.',
+    description:
+      "Scarlet, jeune fille du futur, découvre un lien mystérieux avec une civilisation passée et doit choisir entre deux mondes pour sauver l'humanité.",
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 5,
@@ -5321,7 +5531,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     length: 99,
     genre: ['Comédie', 'Aventure', 'Jeunesse', 'Animation'],
     saga: '',
-    description: 'Mario et ses alliés s\'aventurent dans l\'espace pour contrer une nouvelle menace cosmique qui met en péril le Royaume Champignon et des mondes lointains.',
+    description:
+      "Mario et ses alliés s'aventurent dans l'espace pour contrer une nouvelle menace cosmique qui met en péril le Royaume Champignon et des mondes lointains.",
     fromEntity: {
       entityType: 'game',
       title: 'Super Mario Galaxy',

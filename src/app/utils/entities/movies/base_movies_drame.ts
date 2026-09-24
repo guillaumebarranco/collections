@@ -1375,7 +1375,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       "Les Joad quittent l'Oklahoma de la Dust Bowl pour la Californie, et découvrent l'exploitation des migrants.",
     fromEntity: {
       entityType: 'book',
-      title: 'Les Raisins de la colère',
+      title: 'Les raisins de la colère',
       secondEntityKey: 'John Steinbeck',
     },
     countryOrigin: ['États-Unis'],
@@ -6434,7 +6434,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: {
       entityType: 'book',
       title: 'Médée',
-      secondEntityKey: 'Euripide',
+      secondEntityKey: 'Pierre Corneille',
     },
     countryOrigin: ['Italie', 'France', 'Allemagne'],
     selectDisplayOrder: 0,
@@ -11854,7 +11854,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       "L'été 1900, le petit Marcel voit son instituteur de père rater une chasse et devenir un héros malgré tout.",
     fromEntity: {
       entityType: 'book',
-      title: 'La Gloire de mon père',
+      title: 'La gloire de mon père',
       secondEntityKey: 'Marcel Pagnol',
     },
     countryOrigin: ['France'],
@@ -13522,7 +13522,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       '1572, Margot épouse Henri de Navarre ; la Saint-Barthélemy inonde le Louvre de sang.',
     fromEntity: {
       entityType: 'book',
-      title: 'La Reine Margot',
+      title: 'La reine Margot',
       secondEntityKey: 'Alexandre Dumas',
     },
     countryOrigin: ['France', 'Italie', 'Allemagne'],
@@ -25803,7 +25803,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       'Charlie, lycéen introverti, tisse une amitié avec deux camarades excentriques qui lui ouvrent un nouveau monde.',
     fromEntity: {
       entityType: 'book',
-      title: 'Le Monde de Charlie',
+      title: 'Le monde de Charlie',
       secondEntityKey: 'Stephen Chbosky',
     },
     countryOrigin: ['États-Unis'],
@@ -37650,11 +37650,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     saga: '',
     description:
       "Sofia accompagne sa mère malade en Espagne pour consulter un guérisseur, et s'émancipe en croisant une voyageuse énigmatique.",
-    fromEntity: {
-      entityType: 'book',
-      title: 'Hot Milk',
-      secondEntityKey: 'Deborah Levy',
-    },
+    fromEntity: null,
     countryOrigin: ['Royaume-Uni', 'Grèce'],
     selectDisplayOrder: 0,
     oscars: [],

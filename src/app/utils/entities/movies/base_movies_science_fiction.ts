@@ -5093,8 +5093,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
         name: 'William Houston',
       },
     ],
-    coverUrl:
-      '/movies_pictures/0bbd9cbcd3db.jpg',
+    coverUrl: '/movies_pictures/0bbd9cbcd3db.jpg',
     releaseDate: '2025-02-14',
     length: 127,
     genre: ['Science Fiction', 'Action', 'Romance', 'Horreur'],

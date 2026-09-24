@@ -6138,7 +6138,7 @@ export const baseMoviesAction: BaseMovie[] = [
       "Achille, Hector et Pâris s'affrontent lors du siège légendaire de Troie, déclenché par l'enlèvement d'Hélène et mené par les armées grecques.",
     fromEntity: {
       entityType: 'book',
-      title: "L'iliade",
+      title: "L'Iliade",
       secondEntityKey: 'Homère',
     },
     countryOrigin: ['États-Unis'],

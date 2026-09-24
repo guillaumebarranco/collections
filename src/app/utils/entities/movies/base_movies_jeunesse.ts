@@ -612,7 +612,7 @@ export const baseMoviesJeunesse: BaseMovie[] = [
     fromEntity: {
       entityType: 'book',
       title: 'La Belle et la Bête',
-      secondEntityKey: 'Jeanne-Marie Leprince de Beaumont',
+      secondEntityKey: 'Gabrielle-Suzanne de Villeneuve',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,

@@ -3216,7 +3216,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       'Hercule Poirot, bloqué dans la neige, découvre que tous les voyageurs ont poignardé Ratchett.',
     fromEntity: {
       entityType: 'book',
-      title: "Le Crime de l'Orient-Express",
+      title: "Le crime de l'Orient Express",
       secondEntityKey: 'Agatha Christie',
     },
     countryOrigin: ['Royaume-Uni'],
@@ -8225,7 +8225,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       "Le reporter Joseph Rouletabille enquête sur une tentative de meurtre dans une chambre verrouillée de l'intérieur.",
     fromEntity: {
       entityType: 'book',
-      title: 'Le Mystère de la chambre jaune',
+      title: 'Le mystère de la chambre jaune',
       secondEntityKey: 'Gaston Leroux',
     },
     countryOrigin: ['France'],

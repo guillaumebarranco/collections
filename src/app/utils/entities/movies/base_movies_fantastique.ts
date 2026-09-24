@@ -177,8 +177,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
       { name: 'Micheline Presle' },
       { name: 'Delphine Seyrig' },
     ],
-    coverUrl:
-      '/movies_pictures/db9a0d97cbfc.jpg',
+    coverUrl: '/movies_pictures/db9a0d97cbfc.jpg',
     releaseDate: '1970-12-16',
     length: 90,
     genre: ['Fantastique', 'Comédie musicale', 'Romance'],
@@ -204,8 +203,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
       { name: 'Franco Citti' },
       { name: 'Tessa Bouché' },
     ],
-    coverUrl:
-      '/movies_pictures/faea6f873c26.jpg',
+    coverUrl: '/movies_pictures/faea6f873c26.jpg',
     releaseDate: '1974-06-20',
     length: 130,
     genre: ['Fantastique', 'Aventure', 'Drame'],
@@ -215,7 +213,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
     fromEntity: {
       entityType: 'book',
       title: 'Les Mille et Une Nuits',
-      secondEntityKey: 'Anonyme',
+      secondEntityKey: 'Anonymous',
     },
     countryOrigin: ['Italie', 'France'],
     selectDisplayOrder: 0,
@@ -345,7 +343,8 @@ export const baseMoviesFantastique: BaseMovie[] = [
     length: 103,
     genre: ['Fantastique'],
     saga: 'Conan',
-    description: 'Conan escorte une princesse vers un temple maudit pour récupérer un joyau sacré et affronter une sorcière qui menace le monde.',
+    description:
+      'Conan escorte une princesse vers un temple maudit pour récupérer un joyau sacré et affronter une sorcière qui menace le monde.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -368,7 +367,8 @@ export const baseMoviesFantastique: BaseMovie[] = [
     length: 94,
     genre: ['Fantastique'],
     saga: '',
-    description: 'Un garçon lit un livre magique dont il devient le personnage principal et doit sauver le royaume de Fantasia menacé par le Néant.',
+    description:
+      'Un garçon lit un livre magique dont il devient le personnage principal et doit sauver le royaume de Fantasia menacé par le Néant.',
     fromEntity: {
       entityType: 'book',
       title: "L'Histoire sans fin",
@@ -417,7 +417,8 @@ export const baseMoviesFantastique: BaseMovie[] = [
     length: 94,
     genre: ['Fantastique', 'Aventure'],
     saga: '',
-    description: 'Jack, héros des bois, doit affronter le seigneur des ténèbres qui a enlevé la princesse Lili dans un monde féerique peuplé de lutins et de créatures.',
+    description:
+      'Jack, héros des bois, doit affronter le seigneur des ténèbres qui a enlevé la princesse Lili dans un monde féerique peuplé de lutins et de créatures.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -455,7 +456,8 @@ export const baseMoviesFantastique: BaseMovie[] = [
     length: 101,
     genre: ['Fantastique'],
     saga: '',
-    description: 'Dans un royaume menacé par une sorcière, une guerrière et un héros nommé Kalidor doivent protéger un talisman magique contre les forces du mal.',
+    description:
+      'Dans un royaume menacé par une sorcière, une guerrière et un héros nommé Kalidor doivent protéger un talisman magique contre les forces du mal.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -492,7 +494,8 @@ export const baseMoviesFantastique: BaseMovie[] = [
     length: 101,
     genre: ['Fantastique', 'Aventure'],
     saga: '',
-    description: 'Sarah, adolescente exaspérée, doit traverser un labyrinthe rempli de créatures étranges pour sauver son petit frère des griffes du Gobelin roi.',
+    description:
+      'Sarah, adolescente exaspérée, doit traverser un labyrinthe rempli de créatures étranges pour sauver son petit frère des griffes du Gobelin roi.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -534,8 +537,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
       { name: 'Wu Ma' },
       { name: 'Waise Lee' },
     ],
-    coverUrl:
-      '/movies_pictures/da5607763c1f.jpg',
+    coverUrl: '/movies_pictures/da5607763c1f.jpg',
     releaseDate: '1990-07-13',
     length: 104,
     genre: ['Fantastique', 'Romance', 'Aventure'],
@@ -564,7 +566,8 @@ export const baseMoviesFantastique: BaseMovie[] = [
     length: 125,
     genre: ['Fantastique'],
     saga: '',
-    description: 'Un nain fermier doit protéger un bébé prophétisé contre une reine maléfique et s\'allie à un guerrier avide de gloire pour traverser un monde dangereux.',
+    description:
+      "Un nain fermier doit protéger un bébé prophétisé contre une reine maléfique et s'allie à un guerrier avide de gloire pour traverser un monde dangereux.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -601,7 +604,8 @@ export const baseMoviesFantastique: BaseMovie[] = [
     length: 105,
     genre: ['Fantastique', 'Romance'],
     saga: '',
-    description: 'Créature aux ciseaux en guise de mains, Edward est recueilli par une famille de banlieue mais peine à s\'intégrer dans un monde qui le craint.',
+    description:
+      "Créature aux ciseaux en guise de mains, Edward est recueilli par une famille de banlieue mais peine à s'intégrer dans un monde qui le craint.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -622,7 +626,8 @@ export const baseMoviesFantastique: BaseMovie[] = [
     length: 90,
     genre: ['Fantastique', 'Aventure'],
     saga: '',
-    description: 'Bastien retourne dans Fantasia où la princesse Moon Child est menacée et doit retrouver le courage pour affronter de nouvelles forces du Néant.',
+    description:
+      'Bastien retourne dans Fantasia où la princesse Moon Child est menacée et doit retrouver le courage pour affronter de nouvelles forces du Néant.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -645,7 +650,8 @@ export const baseMoviesFantastique: BaseMovie[] = [
     length: 128,
     genre: ['Fantastique'],
     saga: '',
-    description: 'Le comte Dracula quitte la Transylvanie pour séduire la fiancée de son avocat anglais et étendre son empire de mort dans le Londres victorien.',
+    description:
+      'Le comte Dracula quitte la Transylvanie pour séduire la fiancée de son avocat anglais et étendre son empire de mort dans le Londres victorien.',
     fromEntity: {
       entityType: 'book',
       title: 'Dracula',
@@ -676,7 +682,8 @@ export const baseMoviesFantastique: BaseMovie[] = [
     length: 102,
     genre: ['Fantastique'],
     saga: '',
-    description: 'Un musicien ressuscité par un corbeau revient du monde des morts pour venger le meurtre de sa fiancée et de lui-même dans une nuit de violence.',
+    description:
+      'Un musicien ressuscité par un corbeau revient du monde des morts pour venger le meurtre de sa fiancée et de lui-même dans une nuit de violence.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -735,7 +742,8 @@ export const baseMoviesFantastique: BaseMovie[] = [
     length: 100,
     genre: ['Fantastique', 'Jeunesse'],
     saga: '',
-    description: 'Une psychologue et sa fille emménagent dans un manoir hanté où le gentil fantôme Casper tombe amoureux et cherche à retrouver ses souvenirs d\'homme.',
+    description:
+      "Une psychologue et sa fille emménagent dans un manoir hanté où le gentil fantôme Casper tombe amoureux et cherche à retrouver ses souvenirs d'homme.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -758,7 +766,8 @@ export const baseMoviesFantastique: BaseMovie[] = [
     length: 97,
     genre: ['Fantastique', 'Aventure'],
     saga: '',
-    description: 'Une archéologue et un policier enquêtent sur une malédiction égyptienne qui semble hanter le Louvre après l\'ouverture d\'une tombe scellée.',
+    description:
+      "Une archéologue et un policier enquêtent sur une malédiction égyptienne qui semble hanter le Louvre après l'ouverture d'une tombe scellée.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -781,7 +790,8 @@ export const baseMoviesFantastique: BaseMovie[] = [
     length: 113,
     genre: ['Fantastique'],
     saga: '',
-    description: 'Un adolescent perturbé voit un lapin géant lui annoncer la fin du monde et doit déchiffrer ses visions avant qu\'une catastrophe ne frappe sa petite ville.',
+    description:
+      "Un adolescent perturbé voit un lapin géant lui annoncer la fin du monde et doit déchiffrer ses visions avant qu'une catastrophe ne frappe sa petite ville.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -818,11 +828,12 @@ export const baseMoviesFantastique: BaseMovie[] = [
     length: 96,
     genre: ['Fantastique', 'Romance'],
     saga: '',
-    description: 'Une adolescente découvre une famille immortelle cachée dans la forêt et doit choisir entre l\'amour éternel et le cycle naturel de la vie.',
+    description:
+      "Une adolescente découvre une famille immortelle cachée dans la forêt et doit choisir entre l'amour éternel et le cycle naturel de la vie.",
     fromEntity: {
       entityType: 'book',
-      title: "Tuck Everlasting",
-      secondEntityKey: "Natalie Babbitt",
+      title: 'Tuck Everlasting',
+      secondEntityKey: 'Natalie Babbitt',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -859,11 +870,12 @@ export const baseMoviesFantastique: BaseMovie[] = [
     length: 125,
     genre: ['Fantastique', 'Drame'],
     saga: '',
-    description: 'Un fils sceptique tente de démêler le vrai du fabuleux dans les récits extravagants que son père mourant raconte sur sa vie d\'aventurier et d\'amoureux.',
+    description:
+      "Un fils sceptique tente de démêler le vrai du fabuleux dans les récits extravagants que son père mourant raconte sur sa vie d'aventurier et d'amoureux.",
     fromEntity: {
       entityType: 'book',
-      title: "Big Fish",
-      secondEntityKey: "Daniel Wallace",
+      title: 'Big Fish',
+      secondEntityKey: 'Daniel Wallace',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -900,11 +912,12 @@ export const baseMoviesFantastique: BaseMovie[] = [
     length: 96,
     genre: ['Fantastique', 'Aventure'],
     saga: '',
-    description: 'Dans un royaume où la magie est courante, une jeune femme maudite d\'obéissance doit briser le sort pour sauver le prince et reprendre sa liberté.',
+    description:
+      "Dans un royaume où la magie est courante, une jeune femme maudite d'obéissance doit briser le sort pour sauver le prince et reprendre sa liberté.",
     fromEntity: {
       entityType: 'book',
       title: "Ella l'ensorcelée",
-      secondEntityKey: "Gail Carson Levine",
+      secondEntityKey: 'Gail Carson Levine',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -936,13 +949,13 @@ export const baseMoviesFantastique: BaseMovie[] = [
         name: 'Silvia Colloca',
       },
     ],
-    coverUrl:
-      '/movies_pictures/55a03e7b71f5.jpg',
+    coverUrl: '/movies_pictures/55a03e7b71f5.jpg',
     releaseDate: '2004-05-07',
     length: 131,
     genre: ['Fantastique', 'Action'],
     saga: '',
-    description: 'Un chasseur de monstres envoyé par l\'Église affronte Dracula et ses créatures en Transylvanie aux côtés d\'une princesse guerrière et d\'un inventeur excentrique.',
+    description:
+      "Un chasseur de monstres envoyé par l'Église affronte Dracula et ses créatures en Transylvanie aux côtés d'une princesse guerrière et d'un inventeur excentrique.",
     fromEntity: {
       entityType: 'book',
       title: 'Dracula',
@@ -969,7 +982,8 @@ export const baseMoviesFantastique: BaseMovie[] = [
     length: 121,
     genre: ['Fantastique', 'Horreur'],
     saga: '',
-    description: 'Un exorciste cynique de Los Angeles enquête sur des démons qui contournent les règles de l\'enfer et doit empêcher une invasion surnaturelle.',
+    description:
+      "Un exorciste cynique de Los Angeles enquête sur des démons qui contournent les règles de l'enfer et doit empêcher une invasion surnaturelle.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -1006,7 +1020,8 @@ export const baseMoviesFantastique: BaseMovie[] = [
     length: 115,
     genre: ['Fantastique'],
     saga: '',
-    description: 'Un garçon pauvre remporte une visite dans l\'usine secrète de Willy Wonka, où enfants capricieux et inventions gourmandes révèlent les règles d\'un monde féérique.',
+    description:
+      "Un garçon pauvre remporte une visite dans l'usine secrète de Willy Wonka, où enfants capricieux et inventions gourmandes révèlent les règles d'un monde féérique.",
     fromEntity: {
       entityType: 'book',
       title: 'Charlie et la Chocolaterie',
@@ -1047,7 +1062,8 @@ export const baseMoviesFantastique: BaseMovie[] = [
     length: 118,
     genre: ['Fantastique'],
     saga: '',
-    description: 'Deux conteurs escrocs sont contraints d\'enquêter sur des disparitions mystérieuses dans une forêt où les légendes qu\'ils inventent semblent devenir réelles.',
+    description:
+      "Deux conteurs escrocs sont contraints d'enquêter sur des disparitions mystérieuses dans une forêt où les légendes qu'ils inventent semblent devenir réelles.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1084,11 +1100,12 @@ export const baseMoviesFantastique: BaseMovie[] = [
     length: 97,
     genre: ['Fantastique'],
     saga: '',
-    description: 'Une nounou au pouvoir magique discret transforme sept enfants turbulents et leur père veuf en apprenant à chacun discipline, respect et tendresse.',
+    description:
+      'Une nounou au pouvoir magique discret transforme sept enfants turbulents et leur père veuf en apprenant à chacun discipline, respect et tendresse.',
     fromEntity: {
       entityType: 'book',
-      title: "Nurse Matilda",
-      secondEntityKey: "Christianna Brand",
+      title: 'Nurse Matilda',
+      secondEntityKey: 'Christianna Brand',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1111,7 +1128,8 @@ export const baseMoviesFantastique: BaseMovie[] = [
     length: 109,
     genre: ['Fantastique', 'Drame'],
     saga: '',
-    description: 'Un concierge d\'un immeuble découvre une sirène-like nymphe poursuivie par des créatures et doit la protéger tout en déchiffrant son message.',
+    description:
+      "Un concierge d'un immeuble découvre une sirène-like nymphe poursuivie par des créatures et doit la protéger tout en déchiffrant son message.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1148,7 +1166,8 @@ export const baseMoviesFantastique: BaseMovie[] = [
     length: 118,
     genre: ['Fantastique', 'Guerre'],
     saga: '',
-    description: 'En Espagne franquiste, une fillette fascinée par les contes découvre un labyrinthe où une faune lui propose trois épreuves pour prouver qu\'elle est une princesse immortelle.',
+    description:
+      "En Espagne franquiste, une fillette fascinée par les contes découvre un labyrinthe où une faune lui propose trois épreuves pour prouver qu'elle est une princesse immortelle.",
     fromEntity: null,
     countryOrigin: ['Espagne'],
     selectDisplayOrder: 30,
@@ -1180,7 +1199,8 @@ export const baseMoviesFantastique: BaseMovie[] = [
     length: 103,
     genre: ['Fantastique'],
     saga: '',
-    description: 'Un adolescent des plaines découvre un œuf de dragon et devient Dragon Rider pour affronter le roi tyrannique Galbatorix aux côtés de Saphira.',
+    description:
+      'Un adolescent des plaines découvre un œuf de dragon et devient Dragon Rider pour affronter le roi tyrannique Galbatorix aux côtés de Saphira.',
     fromEntity: {
       entityType: 'book',
       title: 'Eragon (Eragon, #1)',
@@ -1221,11 +1241,12 @@ export const baseMoviesFantastique: BaseMovie[] = [
     length: 96,
     genre: ['Fantastique', 'Drame'],
     saga: '',
-    description: 'Deux enfants solitaires inventent un royaume imaginaire dans la forêt, jusqu\'à ce qu\'une tragédie force l\'un d\'eux à affronter seul la douleur et la mémoire.',
+    description:
+      "Deux enfants solitaires inventent un royaume imaginaire dans la forêt, jusqu'à ce qu'une tragédie force l'un d'eux à affronter seul la douleur et la mémoire.",
     fromEntity: {
       entityType: 'book',
-      title: "Le Pont de Terabithia",
-      secondEntityKey: "Katherine Paterson",
+      title: 'Le Pont de Terabithia',
+      secondEntityKey: 'Katherine Paterson',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -1262,7 +1283,8 @@ export const baseMoviesFantastique: BaseMovie[] = [
     length: 127,
     genre: ['Fantastique', 'Aventure'],
     saga: '',
-    description: 'Pour conquérir le cœur de sa belle, un jeune Anglais traverse un mur magique vers un royaume où sorcières, pirates volants et étoiles humaines s\'affrontent.',
+    description:
+      "Pour conquérir le cœur de sa belle, un jeune Anglais traverse un mur magique vers un royaume où sorcières, pirates volants et étoiles humaines s'affrontent.",
     fromEntity: {
       entityType: 'book',
       title: 'Stardust',
@@ -1303,7 +1325,8 @@ export const baseMoviesFantastique: BaseMovie[] = [
     length: 107,
     genre: ['Fantastique', 'Romance'],
     saga: '',
-    description: 'Une princesse de conte de fées débarque à New York et découvre que le monde réel complique son quête d\'amour véritable avec le prince qu\'elle croyait destiné.',
+    description:
+      "Une princesse de conte de fées débarque à New York et découvre que le monde réel complique son quête d'amour véritable avec le prince qu'elle croyait destiné.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -1326,7 +1349,8 @@ export const baseMoviesFantastique: BaseMovie[] = [
     length: 113,
     genre: ['Fantastique', 'Aventure'],
     saga: '',
-    description: 'Lyra, jeune orpheline, part à la recherche d\'un ami enlevé et découvre un complot impliquant poussière cosmique, armées d\'ours et mystérieux Gobblers.',
+    description:
+      "Lyra, jeune orpheline, part à la recherche d'un ami enlevé et découvre un complot impliquant poussière cosmique, armées d'ours et mystérieux Gobblers.",
     fromEntity: {
       entityType: 'book',
       title: 'Les Royaumes du Nord (À la croisée des mondes, #1)',
@@ -1334,9 +1358,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2008 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2008 }],
   },
   {
     title: 'Les Chroniques de Spiderwick',
@@ -1355,11 +1377,12 @@ export const baseMoviesFantastique: BaseMovie[] = [
     length: 96,
     genre: ['Fantastique'],
     saga: '',
-    description: 'Trois enfants découvrent un monde invisible de créatures magiques dans leur nouvelle maison et doivent protéger un grimoire convoité par un ogre.',
+    description:
+      'Trois enfants découvrent un monde invisible de créatures magiques dans leur nouvelle maison et doivent protéger un grimoire convoité par un ogre.',
     fromEntity: {
       entityType: 'book',
-      title: "Les Chroniques de Spiderwick",
-      secondEntityKey: "Holly Black et Tony DiTerlizzi",
+      title: 'Les Chroniques de Spiderwick',
+      secondEntityKey: 'Holly Black et Tony DiTerlizzi',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -1375,14 +1398,13 @@ export const baseMoviesFantastique: BaseMovie[] = [
       { name: 'Paul Dano' },
       { name: 'Forest Whitaker' },
     ],
-    coverUrl:
-      '/movies_pictures/38d1dd5c189c.jpg',
+    coverUrl: '/movies_pictures/38d1dd5c189c.jpg',
     releaseDate: '2009-10-16',
     length: 101,
     genre: ['Fantastique', 'Aventure', 'Jeunesse', 'Drame'],
     saga: '',
     description:
-      'Max, enfant colérique, s\'échappe dans un monde imaginaire peuplé de créatures géantes qu\'il doit apprivoiser pour retrouver le chemin du foyer.',
+      "Max, enfant colérique, s'échappe dans un monde imaginaire peuplé de créatures géantes qu'il doit apprivoiser pour retrouver le chemin du foyer.",
     fromEntity: {
       entityType: 'book',
       title: 'Max et les Maximonstres',
@@ -1424,7 +1446,8 @@ export const baseMoviesFantastique: BaseMovie[] = [
     length: 118,
     genre: ['Fantastique'],
     saga: 'Percy Jackson',
-    description: 'Percy découvre qu\'il est le fils de Poséidon et doit retrouver l\'éclair volé de Zeus pour empêcher une guerre entre les dieux de l\'Olympe.',
+    description:
+      "Percy découvre qu'il est le fils de Poséidon et doit retrouver l'éclair volé de Zeus pour empêcher une guerre entre les dieux de l'Olympe.",
     fromEntity: {
       entityType: 'book',
       title: 'Le Voleur de foudre',
@@ -1465,11 +1488,12 @@ export const baseMoviesFantastique: BaseMovie[] = [
     length: 108,
     genre: ['Fantastique'],
     saga: 'Disney Live Action',
-    description: 'Alice, adolescente troublée, retombe dans un pays fantastique où elle doit affronter la Red Queen et retrouver le Valet de cœur pour sauver ce monde.',
+    description:
+      'Alice, adolescente troublée, retombe dans un pays fantastique où elle doit affronter la Red Queen et retrouver le Valet de cœur pour sauver ce monde.',
     fromEntity: {
       entityType: 'book',
-      title: "Alice au pays des merveilles",
-      secondEntityKey: "Lewis Carroll",
+      title: 'Alice au pays des merveilles',
+      secondEntityKey: 'Lewis Carroll',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -1509,11 +1533,12 @@ export const baseMoviesFantastique: BaseMovie[] = [
     length: 113,
     genre: ['Fantastique'],
     saga: 'Disney Live Action',
-    description: 'Alice traverse un miroir magique pour retrouver ses amis du Pays des Merveilles et affronter le redoutable Time qui menace de figer le royaume.',
+    description:
+      'Alice traverse un miroir magique pour retrouver ses amis du Pays des Merveilles et affronter le redoutable Time qui menace de figer le royaume.',
     fromEntity: {
       entityType: 'book',
       title: "De l'autre côté du miroir",
-      secondEntityKey: "Lewis Carroll",
+      secondEntityKey: 'Lewis Carroll',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -1550,7 +1575,8 @@ export const baseMoviesFantastique: BaseMovie[] = [
     length: 107,
     genre: ['Aventure', 'Fantastique'],
     saga: '',
-    description: 'En 1912, une journaliste aventurière parcourt le monde pour sauver sa sœur malade et croise momies égyptiennes, pterodactyles et complots parisiens.',
+    description:
+      'En 1912, une journaliste aventurière parcourt le monde pour sauver sa sœur malade et croise momies égyptiennes, pterodactyles et complots parisiens.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1587,7 +1613,8 @@ export const baseMoviesFantastique: BaseMovie[] = [
     length: 109,
     genre: ['Fantastique', 'Aventure'],
     saga: '',
-    description: 'Un étudiant en physique libère par accident des forces magiques à New York et doit apprendre la sorcellerie auprès de son professeur pour les contenir.',
+    description:
+      'Un étudiant en physique libère par accident des forces magiques à New York et doit apprendre la sorcellerie auprès de son professeur pour les contenir.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -1624,7 +1651,8 @@ export const baseMoviesFantastique: BaseMovie[] = [
     length: 100,
     genre: ['Fantastique'],
     saga: '',
-    description: 'Dans un village menacé par un loup-garou, une jeune femme doit découvrir qui se cache sous la bête avant que la malédiction ne consume ceux qu\'elle aime.',
+    description:
+      "Dans un village menacé par un loup-garou, une jeune femme doit découvrir qui se cache sous la bête avant que la malédiction ne consume ceux qu'elle aime.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1647,7 +1675,8 @@ export const baseMoviesFantastique: BaseMovie[] = [
     length: 126,
     genre: ['Fantastique'],
     saga: '',
-    description: 'Blanche-Neige s\'échappe de la reine Ravenna et s\'allie à un chasseur pour mener la rébellion des habitants d\'un royaume ensorcelé.',
+    description:
+      "Blanche-Neige s'échappe de la reine Ravenna et s'allie à un chasseur pour mener la rébellion des habitants d'un royaume ensorcelé.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -1684,7 +1713,8 @@ export const baseMoviesFantastique: BaseMovie[] = [
     length: 130,
     genre: ['Fantastique', 'Aventure'],
     saga: '',
-    description: 'Oscar Diggs, magicien de foire, est emporté vers la Terre d\'Oz où il doit unifier trois sorcières et se faire passer pour le grand magicien prophétisé.',
+    description:
+      "Oscar Diggs, magicien de foire, est emporté vers la Terre d'Oz où il doit unifier trois sorcières et se faire passer pour le grand magicien prophétisé.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -1707,7 +1737,8 @@ export const baseMoviesFantastique: BaseMovie[] = [
     length: 92,
     genre: ['Fantastique'],
     saga: '',
-    description: 'Le prince Vlad Tepes accepte un pouvoir démoniaque pour défendre son royaume contre les Ottomans, au risque de devenir le vampire Dracula.',
+    description:
+      'Le prince Vlad Tepes accepte un pouvoir démoniaque pour défendre son royaume contre les Ottomans, au risque de devenir le vampire Dracula.',
     fromEntity: {
       entityType: 'book',
       title: 'Dracula',
@@ -1748,7 +1779,8 @@ export const baseMoviesFantastique: BaseMovie[] = [
     length: 111,
     genre: ['Fantastique'],
     saga: '',
-    description: 'Origines de Peter Pan : un orphelin londonien découvre Neverland, affronte le pirate Blackbeard et apprend à voler aux côtés de fées et d\'Indiens.',
+    description:
+      "Origines de Peter Pan : un orphelin londonien découvre Neverland, affronte le pirate Blackbeard et apprend à voler aux côtés de fées et d'Indiens.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1771,7 +1803,8 @@ export const baseMoviesFantastique: BaseMovie[] = [
     length: 114,
     genre: ['Fantastique'],
     saga: '',
-    description: 'Le chasseur Eric et la guerrière Sara doivent arrêter la sœur maléfique de Ravenna avant qu\'elle ne congèle le royaume et ne ressuscite sa sœur.',
+    description:
+      "Le chasseur Eric et la guerrière Sara doivent arrêter la sœur maléfique de Ravenna avant qu'elle ne congèle le royaume et ne ressuscite sa sœur.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -1808,7 +1841,8 @@ export const baseMoviesFantastique: BaseMovie[] = [
     length: 123,
     genre: ['Fantastique', 'Action'],
     saga: '',
-    description: 'Humains et orcs s\'affrontent sur Azeroth alors qu\'un chevalier humain et un guerrier orc cherchent à empêcher une invasion dévastatrice.',
+    description:
+      "Humains et orcs s'affrontent sur Azeroth alors qu'un chevalier humain et un guerrier orc cherchent à empêcher une invasion dévastatrice.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -1831,11 +1865,12 @@ export const baseMoviesFantastique: BaseMovie[] = [
     length: 127,
     genre: ['Fantastique', 'Aventure'],
     saga: '',
-    description: 'Jake découvre une maison temporelle abritant des enfants aux pouvoirs étranges et doit les protéger de créatures monstrueuses qui les traquent.',
+    description:
+      'Jake découvre une maison temporelle abritant des enfants aux pouvoirs étranges et doit les protéger de créatures monstrueuses qui les traquent.',
     fromEntity: {
       entityType: 'book',
-      title: "Miss Peregrine et les Enfants particuliers",
-      secondEntityKey: "Ransom Riggs",
+      title: 'Miss Peregrine et les Enfants particuliers',
+      secondEntityKey: 'Ransom Riggs',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -1858,7 +1893,8 @@ export const baseMoviesFantastique: BaseMovie[] = [
     length: 123,
     genre: ['Fantastique'],
     saga: '',
-    description: 'Dans une base militaire des années 1960, une femme de ménage muette noue un lien avec une créature aquatique enlevée et détenue comme secret d\'État.',
+    description:
+      "Dans une base militaire des années 1960, une femme de ménage muette noue un lien avec une créature aquatique enlevée et détenue comme secret d'État.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -1901,7 +1937,8 @@ export const baseMoviesFantastique: BaseMovie[] = [
     length: 100,
     genre: ['Fantastique'],
     saga: '',
-    description: 'Une princesse maudite par une sorcière doit briser le sort qui la transforme chaque nuit en ombre et retrouver l\'amour véritable.',
+    description:
+      "Une princesse maudite par une sorcière doit briser le sort qui la transforme chaque nuit en ombre et retrouver l'amour véritable.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1938,7 +1975,8 @@ export const baseMoviesFantastique: BaseMovie[] = [
     length: 106,
     genre: ['Fantastique', 'Comédie'],
     saga: '',
-    description: 'Un jeune garçin rencontre trois sorcières qui complotent pour transformer tous les enfants du pays en souris et doit les arrêter avec l\'aide de sa grand-mère.',
+    description:
+      "Un jeune garçin rencontre trois sorcières qui complotent pour transformer tous les enfants du pays en souris et doit les arrêter avec l'aide de sa grand-mère.",
     fromEntity: {
       entityType: 'book',
       title: 'Sacrées sorcières',
@@ -1980,11 +2018,12 @@ export const baseMoviesFantastique: BaseMovie[] = [
     length: 147,
     genre: ['Fantastique'],
     saga: '',
-    description: 'Deux amies d\'enfance sont enlevées vers une école magique où l\'on forme héros et méchants, mais leurs destins semblent s\'inverser dès leur arrivée.',
+    description:
+      "Deux amies d'enfance sont enlevées vers une école magique où l'on forme héros et méchants, mais leurs destins semblent s'inverser dès leur arrivée.",
     fromEntity: {
       entityType: 'book',
       title: "L'École du Bien et du Mal",
-      secondEntityKey: "Soman Chainani",
+      secondEntityKey: 'Soman Chainani',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2021,7 +2060,8 @@ export const baseMoviesFantastique: BaseMovie[] = [
     length: 119,
     genre: ['Fantastique', 'Comédie'],
     saga: '',
-    description: 'Des années après leur conte de fées, Giselle est aspirée dans le monde réel de New York où la magie de son bonheur menace de se retourner contre elle.',
+    description:
+      'Des années après leur conte de fées, Giselle est aspirée dans le monde réel de New York où la magie de son bonheur menace de se retourner contre elle.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -2041,7 +2081,8 @@ export const baseMoviesFantastique: BaseMovie[] = [
     length: 117,
     genre: ['Fantastique'],
     saga: '',
-    description: 'Un pantin de bois sculpté par un vieux menuisier prend vie et doit prouver son courage pour devenir un vrai petit garçon, guidé par une fée bleue.',
+    description:
+      'Un pantin de bois sculpté par un vieux menuisier prend vie et doit prouver son courage pour devenir un vrai petit garçon, guidé par une fée bleue.',
     fromEntity: {
       entityType: 'book',
       title: 'Pinocchio',
@@ -2049,9 +2090,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ANIMATED_FEATURE, year: 2023 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ANIMATED_FEATURE, year: 2023 }],
   },
   {
     title: "Donjons & Dragons : L'Honneur des voleurs",
@@ -2085,7 +2124,8 @@ export const baseMoviesFantastique: BaseMovie[] = [
     length: 134,
     genre: ['Fantastique', 'Aventure'],
     saga: '',
-    description: 'Un barde, une magicienne et leurs compagnons s\'allient à un paladin pour voler une relique et empêcher une sorcière rouge de conquérir le royaume.',
+    description:
+      "Un barde, une magicienne et leurs compagnons s'allient à un paladin pour voler une relique et empêcher une sorcière rouge de conquérir le royaume.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -2122,7 +2162,8 @@ export const baseMoviesFantastique: BaseMovie[] = [
     length: 116,
     genre: ['Fantastique', 'Jeunesse'],
     saga: '',
-    description: 'Avant de devenir l\'étrange chocolatier légendaire, Willy Wonka jeune lutte contre un cartel de confiseurs et invente ses premières recettes magiques.',
+    description:
+      "Avant de devenir l'étrange chocolatier légendaire, Willy Wonka jeune lutte contre un cartel de confiseurs et invente ses premières recettes magiques.",
     fromEntity: {
       entityType: 'book',
       title: 'Charlie et la Chocolaterie',
@@ -2163,7 +2204,8 @@ export const baseMoviesFantastique: BaseMovie[] = [
     length: 110,
     genre: ['Fantastique'],
     saga: '',
-    description: 'Une princesse promettue au prince d\'un royaume lointain découvre qu\'elle sert de sacrifice à un dragon et doit survivre seule dans des cavernes remplies de dangers.',
+    description:
+      "Une princesse promettue au prince d'un royaume lointain découvre qu'elle sert de sacrifice à un dragon et doit survivre seule dans des cavernes remplies de dangers.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,

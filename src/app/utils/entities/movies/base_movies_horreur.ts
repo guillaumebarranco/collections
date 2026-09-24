@@ -142,8 +142,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
       "Un savant devenu invisible s'enfonce dans la folie et terrorise un village anglais.",
     fromEntity: {
       entityType: 'book',
-      title: "L'Homme invisible",
-      secondEntityKey: 'H. G. Wells',
+      title: "L'homme invisible",
+      secondEntityKey: 'H.G. Wells',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,

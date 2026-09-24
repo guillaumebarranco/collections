@@ -2561,7 +2561,7 @@ export const baseMoviesAventure: BaseMovie[] = [
       'Un scientifique, son neveu et leur guide descendent dans un volcan islandais et découvrent un monde souterrain peuplé de créatures préhistoriques.',
     fromEntity: {
       entityType: 'book',
-      title: 'Voyage au Centre de la Terre',
+      title: 'Voyage au centre de la terre',
       secondEntityKey: 'Jules Verne',
     },
     countryOrigin: ['États-Unis'],
@@ -2713,7 +2713,11 @@ export const baseMoviesAventure: BaseMovie[] = [
     saga: '',
     description:
       'Sean Anderson suit des indices laissés par Jules Verne vers une île fantastique où dinosaures, volcan et trésors défient les lois de la nature.',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Voyage au centre de la terre',
+      secondEntityKey: 'Jules Verne',
+    },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
     oscars: [],
