@@ -1678,11 +1678,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     saga: '',
     description:
       "Une femme délaissée pousse son ancien amant dans les bras d'une jeune femme qu'elle sait perdue.",
-    fromEntity: {
-      entityType: 'book',
-      title: 'Les Dames du bois de Boulogne',
-      secondEntityKey: 'Honoré de Balzac',
-    },
+    fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
     oscars: [],

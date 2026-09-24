@@ -10,11 +10,12 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 83,
     genre: ['Animation', 'Fantastique'],
     saga: 'Disney Classique',
-    description: 'Blanche-Neige fuit la reine jalouse et trouve refuge chez sept nains, jusqu\'à ce qu\'une pomme empoisonnée la plonge dans un sommeil éternel.',
+    description:
+      "Blanche-Neige fuit la reine jalouse et trouve refuge chez sept nains, jusqu'à ce qu'une pomme empoisonnée la plonge dans un sommeil éternel.",
     fromEntity: {
       entityType: 'book',
-      title: "Blanche-Neige",
-      secondEntityKey: "Jacob et Wilhelm Grimm",
+      title: 'Blanche-Neige',
+      secondEntityKey: 'Jacob et Wilhelm Grimm',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -34,11 +35,12 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 88,
     genre: ['Animation'],
     saga: 'Disney Classique',
-    description: 'Marionnette animée par une fée, Pinocchio doit prouver qu\'il est brave et honnête pour devenir un vrai petit garçon.',
+    description:
+      "Marionnette animée par une fée, Pinocchio doit prouver qu'il est brave et honnête pour devenir un vrai petit garçon.",
     fromEntity: {
       entityType: 'book',
-      title: "Pinocchio",
-      secondEntityKey: "Carlo Collodi",
+      title: 'Pinocchio',
+      secondEntityKey: 'Carlo Collodi',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -63,7 +65,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 124,
     genre: ['Animation', 'Comédie musicale'],
     saga: 'Disney Classique',
-    description: 'Suite de huit séquences animées mises en musique par des œuvres classiques, de Bach à Stravinsky.',
+    description:
+      'Suite de huit séquences animées mises en musique par des œuvres classiques, de Bach à Stravinsky.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -88,17 +91,16 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 64,
     genre: ['Animation', 'Jeunesse'],
     saga: 'Disney Classique',
-    description: 'Dumbo, éléphanteau aux grandes oreilles moqué par le cirque, découvre qu\'il peut voler et devient une star malgré l\'adversité.',
+    description:
+      "Dumbo, éléphanteau aux grandes oreilles moqué par le cirque, découvre qu'il peut voler et devient une star malgré l'adversité.",
     fromEntity: {
       entityType: 'book',
-      title: "Dumbo",
-      secondEntityKey: "Helen Aberson",
+      title: 'Dumbo',
+      secondEntityKey: 'Helen Aberson',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 1942 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 1942 }],
   },
   {
     title: 'Bambi',
@@ -109,11 +111,12 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 70,
     genre: ['Animation', 'Drame'],
     saga: 'Disney Classique',
-    description: 'Bambi, jeune faon, grandit dans la forêt entre joies, amitié avec Panpan et Thumper, et la dure leçon de la chasse.',
+    description:
+      'Bambi, jeune faon, grandit dans la forêt entre joies, amitié avec Panpan et Thumper, et la dure leçon de la chasse.',
     fromEntity: {
       entityType: 'book',
-      title: "Bambi",
-      secondEntityKey: "Felix Salten",
+      title: 'Bambi',
+      secondEntityKey: 'Felix Salten',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -138,7 +141,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 71,
     genre: ['Animation'],
     saga: 'Disney Classique',
-    description: 'Donald Duck reçoit des cadeaux d\'Amérique latine et part en voyage musical avec José Carioca et Panchito Pistoles.',
+    description:
+      "Donald Duck reçoit des cadeaux d'Amérique latine et part en voyage musical avec José Carioca et Panchito Pistoles.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -153,7 +157,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 15,
     genre: ['Animation'],
     saga: 'Disney Classique',
-    description: 'Pierre, Petit Canard, Zoé et Sacha affrontent le loup dans une forêt hivernale, racontée par un narrateur et une fanfare.',
+    description:
+      'Pierre, Petit Canard, Zoé et Sacha affrontent le loup dans une forêt hivernale, racontée par un narrateur et une fanfare.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -168,11 +173,12 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 74,
     genre: ['Animation', 'Romance'],
     saga: 'Disney Classique',
-    description: 'Maltraitée par sa belle-famille, Cendrillon rencontre une fée marraine qui la mène au bal royal où le prince l\'attend.',
+    description:
+      "Maltraitée par sa belle-famille, Cendrillon rencontre une fée marraine qui la mène au bal royal où le prince l'attend.",
     fromEntity: {
       entityType: 'book',
-      title: "Cendrillon",
-      secondEntityKey: "Charles Perrault",
+      title: 'Cendrillon',
+      secondEntityKey: 'Charles Perrault',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -187,11 +193,12 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 75,
     genre: ['Animation', 'Fantastique'],
     saga: 'Disney Classique',
-    description: 'Alice tombe dans un terrier et traverse un monde absurde peuplé de créatures aussi loufoques que dangereuses.',
+    description:
+      'Alice tombe dans un terrier et traverse un monde absurde peuplé de créatures aussi loufoques que dangereuses.',
     fromEntity: {
       entityType: 'book',
-      title: "Alice au pays des merveilles",
-      secondEntityKey: "Lewis Carroll",
+      title: 'Alice au pays des merveilles',
+      secondEntityKey: 'Lewis Carroll',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -206,11 +213,12 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 77,
     genre: ['Animation'],
     saga: 'Disney Classique',
-    description: 'Wendy et ses frères suivent Peter Pan au Pays imaginaire, où ils affrontent le Capitaine Crochet et ses pirates.',
+    description:
+      'Wendy et ses frères suivent Peter Pan au Pays imaginaire, où ils affrontent le Capitaine Crochet et ses pirates.',
     fromEntity: {
       entityType: 'book',
-      title: "Peter Pan",
-      secondEntityKey: "J. M. Barrie",
+      title: 'Peter Pan',
+      secondEntityKey: 'J. M. Barrie',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -225,7 +233,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 76,
     genre: ['Animation', 'Romance'],
     saga: 'Disney Classique',
-    description: 'Lady, cocker élevée en appartement, rencontre Clochard, chien errant, et découvre un complot contre sa famille.',
+    description:
+      'Lady, cocker élevée en appartement, rencontre Clochard, chien errant, et découvre un complot contre sa famille.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -240,11 +249,12 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 75,
     genre: ['Animation', 'Fantastique'],
     saga: 'Disney Classique',
-    description: 'Princesse maudite à sa naissance, Aurore s\'endort le jour de ses seize ans et ne peut être réveillée que par un baiser d\'amour.',
+    description:
+      "Princesse maudite à sa naissance, Aurore s'endort le jour de ses seize ans et ne peut être réveillée que par un baiser d'amour.",
     fromEntity: {
       entityType: 'book',
-      title: "La Belle au bois dormant",
-      secondEntityKey: "Charles Perrault",
+      title: 'La Belle au bois dormant',
+      secondEntityKey: 'Charles Perrault',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -259,11 +269,12 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 79,
     genre: ['Animation'],
     saga: 'Disney Classique',
-    description: 'Pongo et Perdita rassemblent une armée d\'animaux pour sauver leurs quinze chiots des griffes de Cruella d\'Enfer.',
+    description:
+      "Pongo et Perdita rassemblent une armée d'animaux pour sauver leurs quinze chiots des griffes de Cruella d'Enfer.",
     fromEntity: {
       entityType: 'book',
-      title: "Les 101 Dalmatiens",
-      secondEntityKey: "Dodie Smith",
+      title: 'Les 101 Dalmatiens',
+      secondEntityKey: 'Dodie Smith',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -282,11 +293,12 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 79,
     genre: ['Animation'],
     saga: 'Disney Classique',
-    description: 'Merlin éduque le jeune Arthur, futur roi, en lui enseignant sagesse et magie à travers des leçons souvent loufoques.',
+    description:
+      'Merlin éduque le jeune Arthur, futur roi, en lui enseignant sagesse et magie à travers des leçons souvent loufoques.',
     fromEntity: {
       entityType: 'book',
       title: "L'Épée dans la pierre",
-      secondEntityKey: "T. H. White",
+      secondEntityKey: 'T. H. White',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -308,11 +320,12 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 78,
     genre: ['Animation'],
     saga: 'Disney Classique',
-    description: 'Mowgli, enfant élevé par les loups, doit quitter la jungle avant que Shere Khan, le tigre, ne le tue.',
+    description:
+      'Mowgli, enfant élevé par les loups, doit quitter la jungle avant que Shere Khan, le tigre, ne le tue.',
     fromEntity: {
       entityType: 'book',
-      title: "Le Livre de la jungle",
-      secondEntityKey: "Rudyard Kipling",
+      title: 'Le Livre de la jungle',
+      secondEntityKey: 'Rudyard Kipling',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -331,7 +344,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 83,
     genre: ['Animation'],
     saga: 'Disney Classique',
-    description: 'Robin Hood, renard hors-la-loi, vole les riches pour les pauvres et défie le Prince Jean et le shérif de Nottingham.',
+    description:
+      'Robin Hood, renard hors-la-loi, vole les riches pour les pauvres et défie le Prince Jean et le shérif de Nottingham.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -350,11 +364,12 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 74,
     genre: ['Animation'],
     saga: 'Disney Classique',
-    description: 'Winnie et ses amis de la Forêt des Rêves bleus partent à la recherche de la queue perdue de Bourriquet.',
+    description:
+      'Winnie et ses amis de la Forêt des Rêves bleus partent à la recherche de la queue perdue de Bourriquet.',
     fromEntity: {
       entityType: 'book',
-      title: "Winnie l’Ourson",
-      secondEntityKey: "A. A. Milne",
+      title: 'Winnie l’Ourson',
+      secondEntityKey: 'A. A. Milne',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -373,11 +388,12 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 78,
     genre: ['Animation'],
     saga: 'Disney Classique',
-    description: 'Deux souris de la Délégation internationale de secours partent en Australie sauver une fillette kidnappée par un trafiquant.',
+    description:
+      'Deux souris de la Délégation internationale de secours partent en Australie sauver une fillette kidnappée par un trafiquant.',
     fromEntity: {
       entityType: 'book',
-      title: "Les Aventures de Miss Bianca",
-      secondEntityKey: "Margery Sharp",
+      title: 'Les Aventures de Miss Bianca',
+      secondEntityKey: 'Margery Sharp',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -396,7 +412,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 128,
     genre: ['Animation', 'Aventure'],
     saga: 'Disney Classique',
-    description: 'Pete, orphelin, vit avec Elliott, dragon invisible, jusqu\'à ce que des chasseurs et une famille d\'accueil bouleversent leur vie.',
+    description:
+      "Pete, orphelin, vit avec Elliott, dragon invisible, jusqu'à ce que des chasseurs et une famille d'accueil bouleversent leur vie.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -415,11 +432,12 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 83,
     genre: ['Animation'],
     saga: 'Disney Classique',
-    description: 'Rox, renardeau, et Rouky, chiot de chasse, deviennent amis malgré l\'hostilité de leurs espèces et la saison de la chasse.',
+    description:
+      "Rox, renardeau, et Rouky, chiot de chasse, deviennent amis malgré l'hostilité de leurs espèces et la saison de la chasse.",
     fromEntity: {
       entityType: 'book',
-      title: "The Fox and the Hound",
-      secondEntityKey: "Daniel P. Mannix",
+      title: 'The Fox and the Hound',
+      secondEntityKey: 'Daniel P. Mannix',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -434,11 +452,12 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 83,
     genre: ['Animation'],
     saga: 'Disney Classique',
-    description: 'Ariel, princesse sirène, échange sa voix contre des jambes pour rejoindre le monde humain et séduire le prince Eric.',
+    description:
+      'Ariel, princesse sirène, échange sa voix contre des jambes pour rejoindre le monde humain et séduire le prince Eric.',
     fromEntity: {
       entityType: 'book',
-      title: "La Petite Sirène",
-      secondEntityKey: "Hans Christian Andersen",
+      title: 'La Petite Sirène',
+      secondEntityKey: 'Hans Christian Andersen',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -460,7 +479,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 77,
     genre: ['Animation'],
     saga: 'Disney Classique',
-    description: 'Bernard et Bianca volent en Australie pour retrouver Cody, enfant enlevé par le chasseur de crocodiles Percival McLeach.',
+    description:
+      'Bernard et Bianca volent en Australie pour retrouver Cody, enfant enlevé par le chasseur de crocodiles Percival McLeach.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -497,11 +517,12 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 84,
     genre: ['Animation', 'Comédie musicale'],
     saga: 'Disney Classique',
-    description: 'Belle accepte de vivre au château de la Bête maudite et découvre que l\'amour peut briser le sortilège qui l\'emprisonne.',
+    description:
+      "Belle accepte de vivre au château de la Bête maudite et découvre que l'amour peut briser le sortilège qui l'emprisonne.",
     fromEntity: {
       entityType: 'book',
-      title: "La Belle et la Bête",
-      secondEntityKey: "Jeanne-Marie Leprince de Beaumont",
+      title: 'La Belle et la Bête',
+      secondEntityKey: 'Jeanne-Marie Leprince de Beaumont',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -519,11 +540,12 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 90,
     genre: ['Animation'],
     saga: 'Disney Classique',
-    description: 'Aladdin, gamin des rues, libère un génie de la lampe et se fait passer pour un prince pour conquérir Jasmine et déjouer Jafar.',
+    description:
+      'Aladdin, gamin des rues, libère un génie de la lampe et se fait passer pour un prince pour conquérir Jasmine et déjouer Jafar.',
     fromEntity: {
       entityType: 'book',
-      title: "Aladin ou la Lampe merveilleuse",
-      secondEntityKey: "Les Mille et Une Nuits",
+      title: 'Les Mille et Une Nuits',
+      secondEntityKey: 'Anonymous',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -541,7 +563,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 69,
     genre: ['Animation'],
     saga: 'Disney Classique',
-    description: 'Jafar revient sous forme de génie et Aladdin doit empêcher le vizir de s\'emparer du trône d\'Agrabah.',
+    description:
+      "Jafar revient sous forme de génie et Aladdin doit empêcher le vizir de s'emparer du trône d'Agrabah.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -556,7 +579,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 88,
     genre: ['Animation'],
     saga: 'Disney Classique',
-    description: 'Simba, prince lion exilé après la mort de son père, doit reprendre sa place et libérer la savane de l\'emprise de Scar.',
+    description:
+      "Simba, prince lion exilé après la mort de son père, doit reprendre sa place et libérer la savane de l'emprise de Scar.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -578,7 +602,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 78,
     genre: ['Animation'],
     saga: 'Disney Classique',
-    description: 'Max, lycéen gêné par son père Dingo, part en voyage scolaire où ils apprennent tous deux à se comprendre.',
+    description:
+      'Max, lycéen gêné par son père Dingo, part en voyage scolaire où ils apprennent tous deux à se comprendre.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -593,7 +618,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 81,
     genre: ['Animation'],
     saga: 'Disney Classique',
-    description: 'Pocahontas, fille du chef Powhatan, tente de concilier son peuple et les colons anglais conduits par John Smith.',
+    description:
+      'Pocahontas, fille du chef Powhatan, tente de concilier son peuple et les colons anglais conduits par John Smith.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -611,11 +637,12 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 91,
     genre: ['Animation', 'Comédie musicale'],
     saga: 'Disney Classique',
-    description: 'Quasimodo, sonneur du beffroi, sort de Notre-Dame pour défendre Esmeralda contre le juge Frollo et ses soldats.',
+    description:
+      'Quasimodo, sonneur du beffroi, sort de Notre-Dame pour défendre Esmeralda contre le juge Frollo et ses soldats.',
     fromEntity: {
       entityType: 'book',
-      title: "Notre-Dame de Paris",
-      secondEntityKey: "Victor Hugo",
+      title: 'Notre-Dame de Paris',
+      secondEntityKey: 'Victor Hugo',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -630,7 +657,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 81,
     genre: ['Animation'],
     saga: 'Disney Classique',
-    description: 'Aladdin découvre que le Roi des voleurs est son père et doit l\'empêcher de voler un artefact capable de détruire Agrabah.',
+    description:
+      "Aladdin découvre que le Roi des voleurs est son père et doit l'empêcher de voler un artefact capable de détruire Agrabah.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -667,7 +695,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 93,
     genre: ['Animation'],
     saga: 'Disney Classique',
-    description: 'Hercule, demi-dieu rejeté sur Terre, doit prouver qu\'il est un vrai héros pour regagner l\'Olympe et affronter Hadès.',
+    description:
+      "Hercule, demi-dieu rejeté sur Terre, doit prouver qu'il est un vrai héros pour regagner l'Olympe et affronter Hadès.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -686,7 +715,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 76,
     genre: ['Animation'],
     saga: 'Disney Classique',
-    description: 'Christopher Robin part à l\'école et Winnie, Porcinet, Tigrou et Bourriquet traversent la Forêt des Rêves bleus pour lui dire au revoir.',
+    description:
+      "Christopher Robin part à l'école et Winnie, Porcinet, Tigrou et Bourriquet traversent la Forêt des Rêves bleus pour lui dire au revoir.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -701,7 +731,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 94,
     genre: ['Animation', 'Aventure'],
     saga: 'Disney Classique',
-    description: 'Anya, amnésique, est convaincue d\'être la grande-duchesse Anastasia et part à Paris prouver son identité face à Rasputin.',
+    description:
+      "Anya, amnésique, est convaincue d'être la grande-duchesse Anastasia et part à Paris prouver son identité face à Rasputin.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -716,11 +747,12 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 92,
     genre: ['Animation', 'Fantastique'],
     saga: 'Disney Classique',
-    description: 'Trois histoires dans le château : la préparation du Noël de Belle, une leçon de politesse de la Bête et le retour de Forte l\'orgue.',
+    description:
+      "Trois histoires dans le château : la préparation du Noël de Belle, une leçon de politesse de la Bête et le retour de Forte l'orgue.",
     fromEntity: {
       entityType: 'book',
-      title: "La Belle et la Bête",
-      secondEntityKey: "Jeanne-Marie Leprince de Beaumont",
+      title: 'La Belle et la Bête',
+      secondEntityKey: 'Jeanne-Marie Leprince de Beaumont',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -735,7 +767,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 72,
     genre: ['Animation', 'Aventure'],
     saga: 'Disney Classique',
-    description: 'Pocahontas voyage en Angleterre comme ambassadrice et découvre un monde où sa voix peut changer le destin de deux peuples.',
+    description:
+      'Pocahontas voyage en Angleterre comme ambassadrice et découvre un monde où sa voix peut changer le destin de deux peuples.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -750,7 +783,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 81,
     genre: ['Animation', 'Comédie musicale'],
     saga: 'Disney Classique',
-    description: 'Kiara, fille de Simba, tombe amoureuse de Kovu, héritier des hyènes exilées, et tente de réconcilier les deux tribus.',
+    description:
+      'Kiara, fille de Simba, tombe amoureuse de Kovu, héritier des hyènes exilées, et tente de réconcilier les deux tribus.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -782,17 +816,17 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
         name: 'Pat Morita',
       },
     ],
-    coverUrl:
-      '/movies_pictures/22cd485f61bb.jpg',
+    coverUrl: '/movies_pictures/22cd485f61bb.jpg',
     releaseDate: '1998-11-25',
     length: 88,
     genre: ['Animation'],
     saga: 'Disney Classique',
-    description: 'Mulan se fait passer pour un homme et rejoint l\'armée impériale pour sauver son père et défendre la Chine contre les Huns.',
+    description:
+      "Mulan se fait passer pour un homme et rejoint l'armée impériale pour sauver son père et défendre la Chine contre les Huns.",
     fromEntity: {
       entityType: 'book',
-      title: "La Ballade de Mulan",
-      secondEntityKey: "Anonyme",
+      title: 'La Ballade de Mulan',
+      secondEntityKey: 'Anonyme',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -817,17 +851,16 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 88,
     genre: ['Animation'],
     saga: 'Disney Classique',
-    description: 'Tarzan, élevé par des gorilles, découvre les humains et doit choisir entre la jungle et Jane, qu\'il aime.',
+    description:
+      "Tarzan, élevé par des gorilles, découvre les humains et doit choisir entre la jungle et Jane, qu'il aime.",
     fromEntity: {
       entityType: 'book',
-      title: "Tarzan",
-      secondEntityKey: "Edgar Rice Burroughs",
+      title: 'Tarzan',
+      secondEntityKey: 'Edgar Rice Burroughs',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 2000 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 2000 }],
   },
   {
     title: 'Fantasia 2000',
@@ -838,7 +871,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 75,
     genre: ['Animation', 'Comédie musicale'],
     saga: 'Disney Classique',
-    description: 'Neuf segments animés accompagnés de musique classique et contemporaine, dont le hippopotame danseur et Elgar.',
+    description:
+      'Neuf segments animés accompagnés de musique classique et contemporaine, dont le hippopotame danseur et Elgar.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -857,7 +891,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 77,
     genre: ['Animation'],
     saga: 'Disney Classique',
-    description: 'Tigrou part à la recherche de sa famille et découvre que ses amis de la Forêt des Rêves bleus sont sa vraie tribu.',
+    description:
+      'Tigrou part à la recherche de sa famille et découvre que ses amis de la Forêt des Rêves bleus sont sa vraie tribu.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -876,7 +911,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 79,
     genre: ['Animation'],
     saga: 'Disney Classique',
-    description: 'Max et Dingo s\'installent dans une communauté de sports extrêmes où Pete cherche à saboter le bonheur de Dingo.',
+    description:
+      "Max et Dingo s'installent dans une communauté de sports extrêmes où Pete cherche à saboter le bonheur de Dingo.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -913,7 +949,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 82,
     genre: ['Animation', 'Aventure'],
     saga: 'Disney Classique',
-    description: 'Aladar, iguanodon élevé par des lémuriens, guide un troupeau de dinosaures vers un sanctuaire après un cataclysme.',
+    description:
+      'Aladar, iguanodon élevé par des lémuriens, guide un troupeau de dinosaures vers un sanctuaire après un cataclysme.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -928,11 +965,12 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 75,
     genre: ['Animation', 'Jeunesse'],
     saga: 'Disney Classique',
-    description: 'Melody, fille d\'Ariel, part à la recherche de la mer pour briser la malédiction qui l\'empêche de nager.',
+    description:
+      "Melody, fille d'Ariel, part à la recherche de la mer pour briser la malédiction qui l'empêche de nager.",
     fromEntity: {
       entityType: 'book',
-      title: "La Petite Sirène",
-      secondEntityKey: "Hans Christian Andersen",
+      title: 'La Petite Sirène',
+      secondEntityKey: 'Hans Christian Andersen',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -947,7 +985,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 78,
     genre: ['Animation', 'Comédie'],
     saga: 'Disney Classique',
-    description: 'Kuzco, empereur inca arrogant, est transformé en lama et doit regagner son palais avec l\'aide du villageois Pacha.',
+    description:
+      "Kuzco, empereur inca arrogant, est transformé en lama et doit regagner son palais avec l'aide du villageois Pacha.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -966,7 +1005,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 69,
     genre: ['Animation'],
     saga: 'Disney Classique',
-    description: 'Clochard hérite d\'une fortune et doit choisir entre la vie de luxe et son amour pour Lady.',
+    description:
+      "Clochard hérite d'une fortune et doit choisir entre la vie de luxe et son amour pour Lady.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -981,7 +1021,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 96,
     genre: ['Animation', 'Aventure'],
     saga: 'Disney Classique',
-    description: 'Milo Thatch mène une expédition sous-marine pour retrouver Atlantis et protéger la princesse Kida de la cupidité.',
+    description:
+      'Milo Thatch mène une expédition sous-marine pour retrouver Atlantis et protéger la princesse Kida de la cupidité.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -1000,7 +1041,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 72,
     genre: ['Animation'],
     saga: 'Disney Classique',
-    description: 'Wendy, devenue adulte, doit retourner au Pays imaginaire pour sauver Peter Pan de la jalousie de Clochette.',
+    description:
+      'Wendy, devenue adulte, doit retourner au Pays imaginaire pour sauver Peter Pan de la jalousie de Clochette.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -1019,11 +1061,12 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 74,
     genre: ['Animation'],
     saga: 'Disney Classique',
-    description: 'Cendrillon apprend à être princesse à travers trois histoires où elle doit choisir entre devoir royal et amitié.',
+    description:
+      'Cendrillon apprend à être princesse à travers trois histoires où elle doit choisir entre devoir royal et amitié.',
     fromEntity: {
       entityType: 'book',
-      title: "Cendrillon",
-      secondEntityKey: "Charles Perrault",
+      title: 'Cendrillon',
+      secondEntityKey: 'Charles Perrault',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -1038,7 +1081,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 85,
     genre: ['Animation', 'Comédie'],
     saga: 'Disney Classique',
-    description: 'Lilo, fillette hawaïenne, adopte Stitch, expérience alien en cavale, et leur lien de famille défie les chasseurs intergalactiques.',
+    description:
+      'Lilo, fillette hawaïenne, adopte Stitch, expérience alien en cavale, et leur lien de famille défie les chasseurs intergalactiques.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -1063,11 +1107,12 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 72,
     genre: ['Animation'],
     saga: 'Disney Classique',
-    description: 'Tarzan et Jane revivent leurs premières aventures et affrontent de nouvelles menaces dans la jungle africaine.',
+    description:
+      'Tarzan et Jane revivent leurs premières aventures et affrontent de nouvelles menaces dans la jungle africaine.',
     fromEntity: {
       entityType: 'book',
-      title: "Tarzan",
-      secondEntityKey: "Edgar Rice Burroughs",
+      title: 'Tarzan',
+      secondEntityKey: 'Edgar Rice Burroughs',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -1089,11 +1134,12 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 95,
     genre: ['Animation', 'Aventure'],
     saga: 'Disney Classique',
-    description: 'Jim Hawkins, adolescent, embarque pour un voyage interstellaire à la recherche du trésor du pirate Flint.',
+    description:
+      'Jim Hawkins, adolescent, embarque pour un voyage interstellaire à la recherche du trésor du pirate Flint.',
     fromEntity: {
       entityType: 'book',
       title: "L'Île au trésor",
-      secondEntityKey: "Robert Louis Stevenson",
+      secondEntityKey: 'Robert Louis Stevenson',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -1112,7 +1158,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 74,
     genre: ['Animation'],
     saga: 'Disney Classique',
-    description: 'Le petit Patch, oublié au milieu de ses frères, rencontre son idole Thunderbolt et affronte Cruella ressuscitée.',
+    description:
+      'Le petit Patch, oublié au milieu de ses frères, rencontre son idole Thunderbolt et affronte Cruella ressuscitée.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -1131,11 +1178,12 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 72,
     genre: ['Animation'],
     saga: 'Disney Classique',
-    description: 'Mowgli vit dans le village mais retourne dans la jungle quand ses amis animaux ont besoin de lui.',
+    description:
+      'Mowgli vit dans le village mais retourne dans la jungle quand ses amis animaux ont besoin de lui.',
     fromEntity: {
       entityType: 'book',
-      title: "Le Livre de la jungle",
-      secondEntityKey: "Rudyard Kipling",
+      title: 'Le Livre de la jungle',
+      secondEntityKey: 'Rudyard Kipling',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -1154,7 +1202,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 75,
     genre: ['Animation'],
     saga: 'Disney Classique',
-    description: 'Porcinet part retrouver ses parents et découvre qu\'ils ont été capturés par un loup affamé dans un château hanté.',
+    description:
+      "Porcinet part retrouver ses parents et découvre qu'ils ont été capturés par un loup affamé dans un château hanté.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -1169,7 +1218,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 85,
     genre: ['Animation', 'Aventure'],
     saga: 'Disney Classique',
-    description: 'Kenai, transformé en ours par les esprits, apprend la fraternité avec Koda en chemin vers la montagne sacrée.',
+    description:
+      'Kenai, transformé en ours par les esprits, apprend la fraternité avec Koda en chemin vers la montagne sacrée.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -1188,7 +1238,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 77,
     genre: ['Animation'],
     saga: 'Disney Classique',
-    description: 'Retour en arrière sur la jeunesse de Timon et Pumbaa et leur rencontre avec Simba exilé dans la savane.',
+    description:
+      'Retour en arrière sur la jeunesse de Timon et Pumbaa et leur rencontre avec Simba exilé dans la savane.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -1207,7 +1258,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 65,
     genre: ['Animation'],
     saga: 'Disney Classique',
-    description: 'Petit Gourou, fils de Tigrou, tente de prouver sa bravoure en sauvant ses amis d\'un hiver rigoureux dans la Forêt des Rêves bleus.',
+    description:
+      "Petit Gourou, fils de Tigrou, tente de prouver sa bravoure en sauvant ses amis d'un hiver rigoureux dans la Forêt des Rêves bleus.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -1226,7 +1278,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 76,
     genre: ['Animation'],
     saga: 'Disney Classique',
-    description: 'Les vaches de la ferme du Little patch s\'organisent pour acheter leur liberté et échapper au boucher qui menace leur troupeau.',
+    description:
+      "Les vaches de la ferme du Little patch s'organisent pour acheter leur liberté et échapper au boucher qui menace leur troupeau.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -1241,7 +1294,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 79,
     genre: ['Animation', 'Jeunesse'],
     saga: 'Disney Classique',
-    description: 'Mulan et Shang escortent trois princesses vers des mariages politiques et découvrent que le cœur peut déjouer le devoir.',
+    description:
+      'Mulan et Shang escortent trois princesses vers des mariages politiques et découvrent que le cœur peut déjouer le devoir.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -1261,7 +1315,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 75,
     genre: ['Animation'],
     saga: 'Disney Classique',
-    description: 'Kuzco doit suivre des cours pour devenir un bon empereur, tandis que Yzma complote encore pour s\'emparer du trône.',
+    description:
+      "Kuzco doit suivre des cours pour devenir un bon empereur, tandis que Yzma complote encore pour s'emparer du trône.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -1276,7 +1331,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 72,
     genre: ['Animation'],
     saga: 'Disney Classique',
-    description: 'Tarzan enfant, rejeté par Kerchak, part seul dans la jungle et découvre qui il est vraiment.',
+    description:
+      'Tarzan enfant, rejeté par Kerchak, part seul dans la jungle et découvre qui il est vraiment.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -1295,7 +1351,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 81,
     genre: ['Animation'],
     saga: 'Disney Classique',
-    description: 'Chicken Little, poulet moqué après avoir crié au loup, doit prouver qu\'une invasion extraterrestre est réelle et sauver sa ville.',
+    description:
+      "Chicken Little, poulet moqué après avoir crié au loup, doit prouver qu'une invasion extraterrestre est réelle et sauver sa ville.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -1314,7 +1371,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 69,
     genre: ['Animation'],
     saga: 'Disney Classique',
-    description: 'Rox et Rouky retrouvent leurs amis dans la réserve naturelle où la menace humaine pèse à nouveau sur la faune.',
+    description:
+      'Rox et Rouky retrouvent leurs amis dans la réserve naturelle où la menace humaine pèse à nouveau sur la faune.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -1333,7 +1391,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 78,
     genre: ['Animation'],
     saga: 'Disney Classique',
-    description: 'Clochette, fée des pots and pans, découvre le Pays imaginaire et apprend que chaque talent, même le plus humble, a de la valeur.',
+    description:
+      'Clochette, fée des pots and pans, découvre le Pays imaginaire et apprend que chaque talent, même le plus humble, a de la valeur.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -1348,7 +1407,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 96,
     genre: ['Animation', 'Aventure'],
     saga: 'Disney Classique',
-    description: 'Volt, chien de fiction croyant avoir de vrais pouvoirs, traverse les États-Unis pour retrouver Penny, sa maîtresse enlevée.',
+    description:
+      'Volt, chien de fiction croyant avoir de vrais pouvoirs, traverse les États-Unis pour retrouver Penny, sa maîtresse enlevée.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -1363,11 +1423,12 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 97,
     genre: ['Animation'],
     saga: 'Disney Classique',
-    description: 'Tiana, serveuse de la Nouvelle-Orléans, embrasse une grenouille prince et se retrouve transformée en amphibiens dans la baie.',
+    description:
+      'Tiana, serveuse de la Nouvelle-Orléans, embrasse une grenouille prince et se retrouve transformée en amphibiens dans la baie.',
     fromEntity: {
       entityType: 'book',
-      title: "Le Roi Grenouille",
-      secondEntityKey: "Jacob et Wilhelm Grimm",
+      title: 'Le Roi Grenouille',
+      secondEntityKey: 'Jacob et Wilhelm Grimm',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -1392,11 +1453,12 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 101,
     genre: ['Animation'],
     saga: 'Disney Classique',
-    description: 'Raiponce, enfermée dans une tour, s\'évade avec Flynn Rider et découvre la vérité sur ses cheveux magiques et son passé.',
+    description:
+      "Raiponce, enfermée dans une tour, s'évade avec Flynn Rider et découvre la vérité sur ses cheveux magiques et son passé.",
     fromEntity: {
       entityType: 'book',
-      title: "Raiponce",
-      secondEntityKey: "Jacob et Wilhelm Grimm",
+      title: 'Raiponce',
+      secondEntityKey: 'Jacob et Wilhelm Grimm',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -1411,11 +1473,12 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 96,
     genre: ['Animation', 'Aventure'],
     saga: 'Disney Classique',
-    description: 'Blu, perroquet bleu domestiqué, retourne au Brésil pour sauver son espèce et tombe amoureux de Jewel.',
+    description:
+      'Blu, perroquet bleu domestiqué, retourne au Brésil pour sauver son espèce et tombe amoureux de Jewel.',
     fromEntity: {
       entityType: 'book',
-      title: "Raiponce",
-      secondEntityKey: "Jacob et Wilhelm Grimm",
+      title: 'Raiponce',
+      secondEntityKey: 'Jacob et Wilhelm Grimm',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -1434,7 +1497,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 75,
     genre: ['Animation'],
     saga: 'Disney Classique',
-    description: 'Clochette découvre qu\'elle est une fée de l\'autre côté de la rivière et doit choisir entre deux mondes et deux amitiés.',
+    description:
+      "Clochette découvre qu'elle est une fée de l'autre côté de la rivière et doit choisir entre deux mondes et deux amitiés.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -1449,7 +1513,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 101,
     genre: ['Animation'],
     saga: 'Disney Classique',
-    description: 'Ralph, méchant de jeu vidéo, quitte sa cabane pour prouver qu\'il peut être un héros et sauver la arcade.',
+    description:
+      "Ralph, méchant de jeu vidéo, quitte sa cabane pour prouver qu'il peut être un héros et sauver la arcade.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -1464,11 +1529,12 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 102,
     genre: ['Animation'],
     saga: 'Disney Classique',
-    description: 'Anna part retrouver sa sœur Elsa, reine aux pouvoirs glacials, pour sauver Arendelle d\'un hiver éternel.',
+    description:
+      "Anna part retrouver sa sœur Elsa, reine aux pouvoirs glacials, pour sauver Arendelle d'un hiver éternel.",
     fromEntity: {
       entityType: 'book',
-      title: "La Reine des neiges",
-      secondEntityKey: "Hans Christian Andersen",
+      title: 'La Reine des neiges',
+      secondEntityKey: 'Hans Christian Andersen',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -1486,13 +1552,12 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 102,
     genre: ['Animation'],
     saga: 'Disney Classique',
-    description: 'Hiro, prodige de la robotique, forme une équipe de super-héros avec Baymax, robot soignant, pour démasquer le responsable de la mort de son frère.',
+    description:
+      'Hiro, prodige de la robotique, forme une équipe de super-héros avec Baymax, robot soignant, pour démasquer le responsable de la mort de son frère.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ANIMATED_FEATURE, year: 2015 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ANIMATED_FEATURE, year: 2015 }],
   },
   {
     title: "Le Voyage d'Arlo",
@@ -1507,7 +1572,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 93,
     genre: ['Animation'],
     saga: 'Disney Classique',
-    description: 'Arlo, jeune dinosaure peureux, traverse un territoire hostile avec Spot, enfant sauvage, pour retrouver sa ferme familiale.',
+    description:
+      'Arlo, jeune dinosaure peureux, traverse un territoire hostile avec Spot, enfant sauvage, pour retrouver sa ferme familiale.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -1522,13 +1588,12 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 108,
     genre: ['Animation', 'Aventure'],
     saga: 'Disney Classique',
-    description: 'Judy Hopps, première lapine policière, s\'allie au renard Nick Wilde pour démasquer un complot visant les prédateurs de Zootopia.',
+    description:
+      "Judy Hopps, première lapine policière, s'allie au renard Nick Wilde pour démasquer un complot visant les prédateurs de Zootopia.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ANIMATED_FEATURE, year: 2017 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ANIMATED_FEATURE, year: 2017 }],
   },
   {
     title: 'Vaiana',
@@ -1539,7 +1604,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 107,
     genre: ['Animation'],
     saga: 'Disney Classique',
-    description: 'Vaiana, fille du chef polynésien, prend la mer avec Maui pour rendre le cœur à la déesse Te Fiti et sauver son île.',
+    description:
+      'Vaiana, fille du chef polynésien, prend la mer avec Maui pour rendre le cœur à la déesse Te Fiti et sauver son île.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -1554,7 +1620,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 105,
     genre: ['Animation'],
     saga: 'Disney Classique',
-    description: 'Miguel, passionné de musique, traverse le monde des morts le jour de la fête des morts pour retrouver son ancêtre musicien.',
+    description:
+      'Miguel, passionné de musique, traverse le monde des morts le jour de la fête des morts pour retrouver son ancêtre musicien.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -1576,7 +1643,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 112,
     genre: ['Animation'],
     saga: 'Disney Classique',
-    description: 'Ralph et Vanellope explorent Internet pour sauver le jeu Sugar Rush, où la popularité numérique menace leur amitié.',
+    description:
+      'Ralph et Vanellope explorent Internet pour sauver le jeu Sugar Rush, où la popularité numérique menace leur amitié.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -1598,11 +1666,12 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 103,
     genre: ['Animation'],
     saga: 'Disney Classique',
-    description: 'Elsa entend un appel mystérieux et part avec Anna et leurs amis découvrir l\'origine de ses pouvoirs et sauver leur royaume.',
+    description:
+      "Elsa entend un appel mystérieux et part avec Anna et leurs amis découvrir l'origine de ses pouvoirs et sauver leur royaume.",
     fromEntity: {
       entityType: 'book',
-      title: "La Reine des neiges",
-      secondEntityKey: "Hans Christian Andersen",
+      title: 'La Reine des neiges',
+      secondEntityKey: 'Hans Christian Andersen',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -1622,7 +1691,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 107,
     genre: ['Animation'],
     saga: 'Disney Classique',
-    description: 'Raya parcourt Kumandra pour retrouver le dragon Sisu et réunir les gemmes qui pourraient vaincre les Druun et sauver son père.',
+    description:
+      'Raya parcourt Kumandra pour retrouver le dragon Sisu et réunir les gemmes qui pourraient vaincre les Druun et sauver son père.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -1636,19 +1706,17 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
         name: 'Stephanie Beatriz',
       },
     ],
-    coverUrl:
-      '/movies_pictures/691b8789da3f.jpg',
+    coverUrl: '/movies_pictures/691b8789da3f.jpg',
     releaseDate: '2021-11-24',
     length: 102,
     genre: ['Animation'],
     saga: 'Disney Classique',
-    description: 'Mirabel, seule sans pouvoir magique dans sa famille, découvre que la maison enchantée des Madrigal se fissure et doit sauver l\'Encanto.',
+    description:
+      "Mirabel, seule sans pouvoir magique dans sa famille, découvre que la maison enchantée des Madrigal se fissure et doit sauver l'Encanto.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ANIMATED_FEATURE, year: 2022 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ANIMATED_FEATURE, year: 2022 }],
   },
   {
     title: 'Wish : Asha et la Bonne Étoile',
@@ -1675,7 +1743,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 95,
     genre: ['Animation'],
     saga: 'Disney Classique',
-    description: 'Asha souhaite sur une étoile qui prend vie et s\'allie à elle pour libérer Rosas du roi Magnifico, qui confisque les rêves de son peuple.',
+    description:
+      "Asha souhaite sur une étoile qui prend vie et s'allie à elle pour libérer Rosas du roi Magnifico, qui confisque les rêves de son peuple.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -1690,7 +1759,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 100,
     genre: ['Animation'],
     saga: 'Disney Classique',
-    description: 'Vaiana reçoit l\'appel des ancêtres océaniques et part avec Maui affronter une nouvelle menace qui menace les peuples insulaires.',
+    description:
+      "Vaiana reçoit l'appel des ancêtres océaniques et part avec Maui affronter une nouvelle menace qui menace les peuples insulaires.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -1721,7 +1791,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 108,
     genre: ['Animation'],
     saga: 'Disney Classique',
-    description: 'Judy et Nick enquêtent sur une nouvelle affaire qui remet en cause l\'équilibre fragile entre proies et prédateurs à Zootopia.',
+    description:
+      "Judy et Nick enquêtent sur une nouvelle affaire qui remet en cause l'équilibre fragile entre proies et prédateurs à Zootopia.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -1740,7 +1811,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 81,
     genre: ['Animation'],
     saga: 'Toy Story',
-    description: 'Woody, cowboy préféré d\'Andy, rivalise avec Buzz l\'Éclair, nouveau jouet, jusqu\'à ce qu\'ils doivent s\'unir pour rentrer à la maison.',
+    description:
+      "Woody, cowboy préféré d'Andy, rivalise avec Buzz l'Éclair, nouveau jouet, jusqu'à ce qu'ils doivent s'unir pour rentrer à la maison.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -1759,7 +1831,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 92,
     genre: ['Animation'],
     saga: 'Toy Story',
-    description: 'Woody est kidnappé par un collectionneur et découvre qu\'il était la star d\'une série western, tandis que Buzz mène une mission de sauvetage.',
+    description:
+      "Woody est kidnappé par un collectionneur et découvre qu'il était la star d'une série western, tandis que Buzz mène une mission de sauvetage.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -1778,7 +1851,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 103,
     genre: ['Animation'],
     saga: 'Toy Story',
-    description: 'Andy part à la fac et ses jouets atterrissent en crèche où Woody doit organiser une évasion avant la destruction.',
+    description:
+      'Andy part à la fac et ses jouets atterrissent en crèche où Woody doit organiser une évasion avant la destruction.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -1806,13 +1880,12 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 100,
     genre: ['Animation'],
     saga: 'Toy Story',
-    description: 'Woody rejoint une fourchette artisanale et rencontre Bo Peep, tandis qu\'il questionne son rôle de jouet et de leader.',
+    description:
+      "Woody rejoint une fourchette artisanale et rencontre Bo Peep, tandis qu'il questionne son rôle de jouet et de leader.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ANIMATED_FEATURE, year: 2020 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ANIMATED_FEATURE, year: 2020 }],
   },
   {
     title: "Buzz l'Éclair",
@@ -1829,7 +1902,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 105,
     genre: ['Animation', 'Aventure', 'Science Fiction'],
     saga: 'Toy Story',
-    description: 'Buzz découvre qu\'il était le personnage d\'une série de jouets et affronte l\'empereur Zurg dans une quête identitaire.',
+    description:
+      "Buzz découvre qu'il était le personnage d'une série de jouets et affronte l'empereur Zurg dans une quête identitaire.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1839,13 +1913,13 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     title: 'Fourmiz',
     director: 'Eric Darnell, Tim Johnson',
     actors: [{ name: 'Woody Allen' }],
-    coverUrl:
-      '/movies_pictures/0f7b00652df4.jpg',
+    coverUrl: '/movies_pictures/0f7b00652df4.jpg',
     releaseDate: '1998-10-02',
     length: 83,
     genre: ['Animation'],
     saga: 'Dreamworks',
-    description: 'Z, fourmi rêveur, quitte la colonie et tombe amoureux de la princesse Bala en déjouant un complot militaire.',
+    description:
+      'Z, fourmi rêveur, quitte la colonie et tombe amoureux de la princesse Bala en déjouant un complot militaire.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -1860,7 +1934,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 84,
     genre: ['Animation', 'Aventure'],
     saga: 'Dreamworks',
-    description: 'Ginger et les poules d\'une ferme anglaise construisent une machine volante pour échapper au producteur de pies Mrs Tweedy.',
+    description:
+      "Ginger et les poules d'une ferme anglaise construisent une machine volante pour échapper au producteur de pies Mrs Tweedy.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -1875,17 +1950,16 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 90,
     genre: ['Animation'],
     saga: 'Dreamworks',
-    description: 'Shrek, ogre solitaire, doit sauver la princesse Fiona pour récupérer son marais envahi par des créatures de contes.',
+    description:
+      'Shrek, ogre solitaire, doit sauver la princesse Fiona pour récupérer son marais envahi par des créatures de contes.',
     fromEntity: {
       entityType: 'book',
-      title: "Shrek !",
-      secondEntityKey: "William Steig",
+      title: 'Shrek !',
+      secondEntityKey: 'William Steig',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ANIMATED_FEATURE, year: 2002 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ANIMATED_FEATURE, year: 2002 }],
   },
   {
     title: 'Shrek 2',
@@ -1896,7 +1970,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 93,
     genre: ['Animation'],
     saga: 'Dreamworks',
-    description: 'Shrek et Fiona visitent le royaume de Far Far Away où le Roi Harold et la Fée marraine complotent contre l\'ogre.',
+    description:
+      "Shrek et Fiona visitent le royaume de Far Far Away où le Roi Harold et la Fée marraine complotent contre l'ogre.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -1922,7 +1997,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 90,
     genre: ['Animation'],
     saga: 'Dreamworks',
-    description: 'Oscar, petit poisson, se fait passer pour le tueur de requins pour impressionner la ville sous-marine de Récif City.',
+    description:
+      'Oscar, petit poisson, se fait passer pour le tueur de requins pour impressionner la ville sous-marine de Récif City.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -1937,7 +2013,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 86,
     genre: ['Animation', 'Aventure'],
     saga: 'Dreamworks',
-    description: 'Alex le lion, Marty le zèbre et leurs amis du zoo de Central Park s\'échouent à Madagascar et découvrent la vie sauvage.',
+    description:
+      "Alex le lion, Marty le zèbre et leurs amis du zoo de Central Park s'échouent à Madagascar et découvrent la vie sauvage.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -1956,7 +2033,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 83,
     genre: ['Animation', 'Comédie'],
     saga: 'Dreamworks',
-    description: 'RJ, raton laveur malin, manipule une famille de hérissons pour voler la nourriture d\'un développeur immobilier.',
+    description:
+      "RJ, raton laveur malin, manipule une famille de hérissons pour voler la nourriture d'un développeur immobilier.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -1971,7 +2049,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 93,
     genre: ['Animation'],
     saga: 'Dreamworks',
-    description: 'Shrek doit trouver l\'héritier du trôme de Far Far Away pendant que Prince Charmant tente de renverser le royaume.',
+    description:
+      "Shrek doit trouver l'héritier du trôme de Far Far Away pendant que Prince Charmant tente de renverser le royaume.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -2009,7 +2088,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 92,
     genre: ['Animation'],
     saga: 'Dreamworks',
-    description: 'Po, panda maladroit, est choisi comme Dragon Warrior et doit vaincre Tai Lung avec l\'aide des Cinq Cyclones.',
+    description:
+      "Po, panda maladroit, est choisi comme Dragon Warrior et doit vaincre Tai Lung avec l'aide des Cinq Cyclones.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -2024,7 +2104,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 89,
     genre: ['Animation', 'Comédie'],
     saga: 'Dreamworks',
-    description: 'Les animaux du zoo s\'écrasent en Afrique où Alex retrouve ses parents et Marty questionne son identité.',
+    description:
+      "Les animaux du zoo s'écrasent en Afrique où Alex retrouve ses parents et Marty questionne son identité.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -2039,7 +2120,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 94,
     genre: ['Animation'],
     saga: 'Dreamworks',
-    description: 'Susan, transformée en géante après une météorite, rejoint une équipe de monstres pour sauver la Terre d\'une invasion alien.',
+    description:
+      "Susan, transformée en géante après une météorite, rejoint une équipe de monstres pour sauver la Terre d'une invasion alien.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -2049,17 +2131,17 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     title: 'Dragons',
     director: 'Dean DeBlois, Chris Sanders',
     actors: [{ name: 'Jay Baruchel' }],
-    coverUrl:
-      '/movies_pictures/6736d9f3f112.jpg',
+    coverUrl: '/movies_pictures/6736d9f3f112.jpg',
     releaseDate: '2010-03-26',
     length: 98,
     genre: ['Animation'],
     saga: 'Dreamworks',
-    description: 'Harold, jeune Viking, apprivoise Krokmou, dragon que son village chasse, et bouleverse la guerre entre les deux peuples.',
+    description:
+      'Harold, jeune Viking, apprivoise Krokmou, dragon que son village chasse, et bouleverse la guerre entre les deux peuples.',
     fromEntity: {
       entityType: 'book',
-      title: "How to Train Your Dragon",
-      secondEntityKey: "Cressida Cowell",
+      title: 'How to Train Your Dragon',
+      secondEntityKey: 'Cressida Cowell',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -2074,7 +2156,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 93,
     genre: ['Animation'],
     saga: 'Dreamworks',
-    description: 'Shrek signe un pacte avec Rumpelstiltskin et se retrouve dans un monde où il n\'a jamais existé et où les ogres sont traqués.',
+    description:
+      "Shrek signe un pacte avec Rumpelstiltskin et se retrouve dans un monde où il n'a jamais existé et où les ogres sont traqués.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -2089,7 +2172,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 95,
     genre: ['Animation'],
     saga: 'Dreamworks',
-    description: 'Megamind, super-vilain vainqueur de Metro Man, s\'ennuie sans adversaire et crée Titan, héros qui devient plus dangereux que lui.',
+    description:
+      "Megamind, super-vilain vainqueur de Metro Man, s'ennuie sans adversaire et crée Titan, héros qui devient plus dangereux que lui.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -2104,7 +2188,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 90,
     genre: ['Animation', 'Action'],
     saga: 'Dreamworks',
-    description: 'Po affronte Lord Shen, paon qui menace la Chine avec des canons, et découvre la vérité sur la mort de ses parents.',
+    description:
+      'Po affronte Lord Shen, paon qui menace la Chine avec des canons, et découvre la vérité sur la mort de ses parents.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -2119,7 +2204,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 90,
     genre: ['Animation', 'Aventure'],
     saga: 'Dreamworks',
-    description: 'Le Chat Potté, spadassin légendaire, doit voler la haricot magique avant que le couple Jack et Jill ne l\'attrape.',
+    description:
+      "Le Chat Potté, spadassin légendaire, doit voler la haricot magique avant que le couple Jack et Jill ne l'attrape.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -2134,7 +2220,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 97,
     genre: ['Animation'],
     saga: 'Dreamworks',
-    description: 'Jack Frost rejoint le Père Noël, le Lapin de Pâques, la Fée des dents et Sandman pour empêcher Pitch Black de semer la peur.',
+    description:
+      'Jack Frost rejoint le Père Noël, le Lapin de Pâques, la Fée des dents et Sandman pour empêcher Pitch Black de semer la peur.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -2144,13 +2231,13 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     title: 'Dragons 2',
     director: 'Dean DeBlois',
     actors: [{ name: 'Jay Baruchel' }],
-    coverUrl:
-      '/movies_pictures/642ba3947f51.jpg',
+    coverUrl: '/movies_pictures/642ba3947f51.jpg',
     releaseDate: '2014-06-13',
     length: 102,
     genre: ['Animation'],
     saga: 'Dreamworks',
-    description: 'Harold et Krokmou découvrent une caverne de dragons captifs et affrontent Drago Bludvist, qui veut asservir tous les dragons.',
+    description:
+      'Harold et Krokmou découvrent une caverne de dragons captifs et affrontent Drago Bludvist, qui veut asservir tous les dragons.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -2175,7 +2262,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 95,
     genre: ['Animation'],
     saga: 'Dreamworks',
-    description: 'Po retrouve son père biologique et doit entraîner les pandas du village secret pour affronter Kai, esprit du passé.',
+    description:
+      'Po retrouve son père biologique et doit entraîner les pandas du village secret pour affronter Kai, esprit du passé.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -2200,7 +2288,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 92,
     genre: ['Animation'],
     saga: 'Dreamworks',
-    description: 'Princesse Poppy et Branch partent sauver leurs amis trolls enlevés par les Bergens, créatures qui les mangent pour être heureux.',
+    description:
+      'Princesse Poppy et Branch partent sauver leurs amis trolls enlevés par les Bergens, créatures qui les mangent pour être heureux.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2215,7 +2304,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 97,
     genre: ['Animation'],
     saga: 'Dreamworks',
-    description: 'Tim, sept ans, découvre que son bébé frère est un agent de Baby Corp envoyé empêcher les chiots de voler l\'amour des parents.',
+    description:
+      "Tim, sept ans, découvre que son bébé frère est un agent de Baby Corp envoyé empêcher les chiots de voler l'amour des parents.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -2229,13 +2319,13 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
         name: 'Jay Baruchel',
       },
     ],
-    coverUrl:
-      '/movies_pictures/c70b6d60e5fe.jpg',
+    coverUrl: '/movies_pictures/c70b6d60e5fe.jpg',
     releaseDate: '2019-02-22',
     length: 104,
     genre: ['Animation'],
     saga: 'Dreamworks',
-    description: 'Harold et Astrid cherchent un refuge légendaire pour les dragons alors que la chasse au trésor menace leur peuple.',
+    description:
+      'Harold et Astrid cherchent un refuge légendaire pour les dragons alors que la chasse au trésor menace leur peuple.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -2254,7 +2344,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 102,
     genre: ['Animation'],
     saga: 'Dreamworks',
-    description: 'Le Chat Potté, au bout de ses neuf vies, part retrouver la dernière étoile filante pour regagner une vie et affronter la Mort.',
+    description:
+      'Le Chat Potté, au bout de ses neuf vies, part retrouver la dernière étoile filante pour regagner une vie et affronter la Mort.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -2285,7 +2376,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 94,
     genre: ['Animation'],
     saga: 'Dreamworks',
-    description: 'Po doit choisir un successeur comme Dragon Warrior tout en affrontant la Caméléon, qui vole les pouvoirs des grands maîtres.',
+    description:
+      'Po doit choisir un successeur comme Dragon Warrior tout en affrontant la Caméléon, qui vole les pouvoirs des grands maîtres.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -2316,7 +2408,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 102,
     genre: ['Animation'],
     saga: 'Dreamworks',
-    description: 'Roz, robot de service échoué sur une île, apprend à survivre auprès des animaux et adopte un oison orphan qu\'elle élève.',
+    description:
+      "Roz, robot de service échoué sur une île, apprend à survivre auprès des animaux et adopte un oison orphan qu'elle élève.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -2331,7 +2424,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 95,
     genre: ['Animation', 'Aventure'],
     saga: 'Pixar',
-    description: 'Flik, fourmi inventeur, recrute des « guerriers » cirque pour défendre sa colonie contre les sauterelles de Hopper.',
+    description:
+      'Flik, fourmi inventeur, recrute des « guerriers » cirque pour défendre sa colonie contre les sauterelles de Hopper.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -2346,13 +2440,12 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 92,
     genre: ['Animation'],
     saga: 'Pixar',
-    description: 'Sulley et Mike, monstres du monde de l\'effroi, cachent une petite fille dans leur usine et bouleversent l\'économie des cris.',
+    description:
+      "Sulley et Mike, monstres du monde de l'effroi, cachent une petite fille dans leur usine et bouleversent l'économie des cris.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 2002 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 2002 }],
   },
   {
     title: 'Le monde de Nemo',
@@ -2363,13 +2456,12 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 100,
     genre: ['Animation'],
     saga: 'Pixar',
-    description: 'Marlin, poisson-clown anxieux, traverse l\'océan pour retrouver son fils Nemo, enlevé par un plongeur.',
+    description:
+      "Marlin, poisson-clown anxieux, traverse l'océan pour retrouver son fils Nemo, enlevé par un plongeur.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ANIMATED_FEATURE, year: 2004 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ANIMATED_FEATURE, year: 2004 }],
   },
   {
     title: 'Les Indestructibles',
@@ -2380,7 +2472,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 115,
     genre: ['Animation'],
     saga: 'Pixar',
-    description: 'La famille Parr, super-héros en retraite forcée, reprend du service pour affronter Syndrome, ancien fan devenu ennemi.',
+    description:
+      'La famille Parr, super-héros en retraite forcée, reprend du service pour affronter Syndrome, ancien fan devenu ennemi.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -2399,7 +2492,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 116,
     genre: ['Animation'],
     saga: 'Pixar',
-    description: 'Flash McQueen, voiture de course arrogante, découvre l\'amitié et l\'humilité dans Radiator Springs, village oublié de Route 66.',
+    description:
+      "Flash McQueen, voiture de course arrogante, découvre l'amitié et l'humilité dans Radiator Springs, village oublié de Route 66.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -2409,19 +2503,17 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     title: 'Ratatouille',
     director: 'Brad Bird',
     actors: [{ name: 'Patton Oswalt' }],
-    coverUrl:
-      '/movies_pictures/a17dc5138de8.jpg',
+    coverUrl: '/movies_pictures/a17dc5138de8.jpg',
     releaseDate: '2007-06-29',
     length: 111,
     genre: ['Animation'],
     saga: 'Pixar',
-    description: 'Remy, rat passionné de cuisine, s\'allie au plongeur Linguini pour cuisiner à Paris sous le nez du chef Skinner.',
+    description:
+      "Remy, rat passionné de cuisine, s'allie au plongeur Linguini pour cuisiner à Paris sous le nez du chef Skinner.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ANIMATED_FEATURE, year: 2008 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ANIMATED_FEATURE, year: 2008 }],
   },
   {
     title: 'WALL-E',
@@ -2432,13 +2524,12 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 98,
     genre: ['Animation'],
     saga: 'Pixar',
-    description: 'WALL-E, robot nettoyeur sur Terre déserte, tombe amoureux d\'EVE et part dans l\'espace réveiller l\'humanité sur un vaisseau.',
+    description:
+      "WALL-E, robot nettoyeur sur Terre déserte, tombe amoureux d'EVE et part dans l'espace réveiller l'humanité sur un vaisseau.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ANIMATED_FEATURE, year: 2009 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ANIMATED_FEATURE, year: 2009 }],
   },
   {
     title: 'Là-haut',
@@ -2449,7 +2540,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 96,
     genre: ['Animation', 'Aventure'],
     saga: 'Pixar',
-    description: 'Carl, veuf octogénaire, attache des milliers de ballons à sa maison pour réaliser le rêve d\'Afrique du Sud partagé avec sa femme Ellie.',
+    description:
+      "Carl, veuf octogénaire, attache des milliers de ballons à sa maison pour réaliser le rêve d'Afrique du Sud partagé avec sa femme Ellie.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -2467,7 +2559,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 106,
     genre: ['Animation'],
     saga: 'Pixar',
-    description: 'Flash McQueen participe à la Coupe du monde des voitures pendant que Martin, espion malgré lui, déjoue un complot pétrolier.',
+    description:
+      'Flash McQueen participe à la Coupe du monde des voitures pendant que Martin, espion malgré lui, déjoue un complot pétrolier.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -2482,13 +2575,12 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 93,
     genre: ['Animation'],
     saga: 'Pixar',
-    description: 'Merida, princesse écossaise, défie une tradition qui veut la marier de force et déclenche une malédiction sur sa famille.',
+    description:
+      'Merida, princesse écossaise, défie une tradition qui veut la marier de force et déclenche une malédiction sur sa famille.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ANIMATED_FEATURE, year: 2013 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ANIMATED_FEATURE, year: 2013 }],
   },
   {
     title: 'Monstres Academy',
@@ -2499,7 +2591,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 104,
     genre: ['Animation', 'Comédie'],
     saga: 'Pixar',
-    description: 'Mike et Sulley, étudiants à Monstres University, doivent gagner la compétition de scare pour rester dans la filière.',
+    description:
+      'Mike et Sulley, étudiants à Monstres University, doivent gagner la compétition de scare pour rester dans la filière.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -2514,7 +2607,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 84,
     genre: ['Animation'],
     saga: 'Pixar',
-    description: 'Dusty, avion-pulvérisateur, rêve de course aérienne et s\'entraîne pour participer au tour du monde des avions.',
+    description:
+      "Dusty, avion-pulvérisateur, rêve de course aérienne et s'entraîne pour participer au tour du monde des avions.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -2534,19 +2628,17 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
         name: 'Abby Abadi',
       },
     ],
-    coverUrl:
-      '/movies_pictures/5ea025e6daee.jpg',
+    coverUrl: '/movies_pictures/5ea025e6daee.jpg',
     releaseDate: '2015-06-19',
     length: 95,
     genre: ['Animation'],
     saga: 'Pixar',
-    description: 'Riley, onze ans, voit ses émotions Joy, Sadness, Anger, Fear et Disgust bouleversées par un déménagement à San Francisco.',
+    description:
+      'Riley, onze ans, voit ses émotions Joy, Sadness, Anger, Fear et Disgust bouleversées par un déménagement à San Francisco.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ANIMATED_FEATURE, year: 2016 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ANIMATED_FEATURE, year: 2016 }],
   },
   {
     title: 'Cars 3',
@@ -2557,7 +2649,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 102,
     genre: ['Animation'],
     saga: 'Pixar',
-    description: 'Flash McQueen, sur le déclin, s\'entraîne avec Cruz Ramirez pour affronter Jackson Storm, nouvelle star de la Piston Cup.',
+    description:
+      "Flash McQueen, sur le déclin, s'entraîne avec Cruz Ramirez pour affronter Jackson Storm, nouvelle star de la Piston Cup.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -2572,7 +2665,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 97,
     genre: ['Animation'],
     saga: 'Pixar',
-    description: 'Dory, poisson à mémoire courte, part retrouver ses parents avec Marlin et Nemo, guidée par des bribes de souvenirs.',
+    description:
+      'Dory, poisson à mémoire courte, part retrouver ses parents avec Marlin et Nemo, guidée par des bribes de souvenirs.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -2591,7 +2685,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 118,
     genre: ['Animation'],
     saga: 'Pixar',
-    description: 'Helen mène la campagne pour légaliser les super-héros tandis que Bob élève les enfants et affronte l\'Écran.',
+    description:
+      "Helen mène la campagne pour légaliser les super-héros tandis que Bob élève les enfants et affronte l'Écran.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -2606,7 +2701,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 102,
     genre: ['Animation'],
     saga: 'Pixar',
-    description: 'Dusty rejoint les pompiers aériens pour combattre un immense incendie de forêt et prouver sa valeur au-delà de la course.',
+    description:
+      'Dusty rejoint les pompiers aériens pour combattre un immense incendie de forêt et prouver sa valeur au-delà de la course.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -2631,7 +2727,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 100,
     genre: ['Animation'],
     saga: 'Pixar',
-    description: 'Joe Gardner, professeur de jazz, lutte pour retrouver son corps après un accident et aide une âme rebelle à trouver sa passion.',
+    description:
+      'Joe Gardner, professeur de jazz, lutte pour retrouver son corps après un accident et aide une âme rebelle à trouver sa passion.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -2649,7 +2746,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 95,
     genre: ['Animation', 'Aventure'],
     saga: 'Pixar',
-    description: 'Luca, jeune monstre marin, passe l\'été dans un village italien avec Alberto et découvre l\'amitié, la peur et la liberté.',
+    description:
+      "Luca, jeune monstre marin, passe l'été dans un village italien avec Alberto et découvre l'amitié, la peur et la liberté.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -2664,7 +2762,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 102,
     genre: ['Animation', 'Romance'],
     saga: 'Pixar',
-    description: 'Ember, jeune femme de feu, et Wade, inspecteur d\'eau, enquêtent sur une fuite dans leur ville où feu et eau ne se mélangent pas.',
+    description:
+      "Ember, jeune femme de feu, et Wade, inspecteur d'eau, enquêtent sur une fuite dans leur ville où feu et eau ne se mélangent pas.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -2679,7 +2778,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 96,
     genre: ['Animation'],
     saga: 'Pixar',
-    description: 'Riley, adolescente, affronte de nouvelles émotions alors que son corps change et que ses relations se complexifient.',
+    description:
+      'Riley, adolescente, affronte de nouvelles émotions alors que son corps change et que ses relations se complexifient.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -2700,7 +2800,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 98,
     genre: ['Animation', 'Aventure', 'Comédie', 'Jeunesse'],
     saga: 'Les Croods',
-    description: 'La famille Crood quitte sa grotte et traverse un monde préhistorique dangereux guidée par Guy, inventeur du futur.',
+    description:
+      'La famille Crood quitte sa grotte et traverse un monde préhistorique dangereux guidée par Guy, inventeur du futur.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2721,7 +2822,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 95,
     genre: ['Animation', 'Aventure', 'Comédie', 'Jeunesse'],
     saga: 'Les Croods',
-    description: 'Les Croods rencontrent les Bettermans, famille évoluée, et affrontent des créatures qui menacent leur nouveau paradis.',
+    description:
+      'Les Croods rencontrent les Bettermans, famille évoluée, et affrontent des créatures qui menacent leur nouveau paradis.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2742,7 +2844,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 92,
     genre: ['Animation', 'Aventure', 'Comédie', 'Jeunesse'],
     saga: '',
-    description: 'M. Peabody, chien génie, et son fils Sherman voyagent dans le temps et doivent réparer l\'histoire après une erreur avec Marie-Antoinette.',
+    description:
+      "M. Peabody, chien génie, et son fils Sherman voyagent dans le temps et doivent réparer l'histoire après une erreur avec Marie-Antoinette.",
     fromEntity: {
       entityType: 'serie',
       title: 'The Rocky and Bullwinkle Show',
@@ -2767,7 +2870,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 100,
     genre: ['Animation', 'Comédie', 'Jeunesse'],
     saga: '',
-    description: 'Mei Lee, treize ans, se transforme en panda rouge quand elle est émue et doit cacher son secret à sa mère et à la ville.',
+    description:
+      'Mei Lee, treize ans, se transforme en panda rouge quand elle est émue et doit cacher son secret à sa mère et à la ville.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2788,7 +2892,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 102,
     genre: ['Animation', 'Aventure', 'Science Fiction', 'Jeunesse'],
     saga: '',
-    description: 'La famille Clade explore un monde souterrain vivant à bord de leur vaisseau bio-organique pour sauver leur planète Avalonia.',
+    description:
+      'La famille Clade explore un monde souterrain vivant à bord de leur vaisseau bio-organique pour sauver leur planète Avalonia.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2808,7 +2913,8 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     length: 99,
     genre: ['Animation', 'Aventure', 'Science Fiction', 'Jeunesse'],
     saga: '',
-    description: 'Elio, garçon de onze ans, est téléporté dans le Communiverse où il est pris pour l\'ambassadeur de la Terre et doit sauver les deux mondes.',
+    description:
+      "Elio, garçon de onze ans, est téléporté dans le Communiverse où il est pris pour l'ambassadeur de la Terre et doit sauver les deux mondes.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,

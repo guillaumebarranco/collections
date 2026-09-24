@@ -2858,11 +2858,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     saga: '',
     description:
       "Un privé de Pennsylvanie enquête à New York auprès d'une call-girl, Bree, visée par un tueur.",
-    fromEntity: {
-      entityType: 'book',
-      title: 'Klute',
-      secondEntityKey: 'Dorothy Uhnak',
-    },
+    fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [{ type: OscarEnum.OSCAR_BEST_ACTRESS, year: 1972 }],
@@ -4650,11 +4646,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     saga: '',
     description:
       'Un garde forestier en Alaska enquête sur une série de meurtres dans une petite communauté isolée, où la nature et les habitants cachent des secrets.',
-    fromEntity: {
-      entityType: 'book',
-      title: 'Peur bleue',
-      secondEntityKey: 'Peter Benchley',
-    },
+    fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [],

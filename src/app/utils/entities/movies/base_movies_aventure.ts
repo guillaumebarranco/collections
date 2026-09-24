@@ -1405,7 +1405,7 @@ export const baseMoviesAventure: BaseMovie[] = [
       'Un grand-père lit à son petit-fils : escrime, géants, « as you wish » et Rodents of Unusual Size.',
     fromEntity: {
       entityType: 'book',
-      title: 'The Princess Bride',
+      title: 'Princess Bride',
       secondEntityKey: 'William Goldman',
     },
     countryOrigin: ['États-Unis'],
@@ -1866,11 +1866,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     saga: 'Jumanji',
     description:
       'Deux enfants libèrent un jeu magique qui fait apparaître dans la réalité dangers de la jungle et animaux sauvages, piégeant leurs familles dans le chaos.',
-    fromEntity: {
-      entityType: 'book',
-      title: 'Jumanji',
-      secondEntityKey: 'Chris Van Allsburg',
-    },
+    fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
     oscars: [],

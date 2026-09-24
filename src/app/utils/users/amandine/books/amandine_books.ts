@@ -1750,7 +1750,7 @@ export const amandineBooks: UserBooks = [
   },
 
   {
-    title: 'Alice aux pays des merveilles',
+    title: 'Alice au pays des merveilles',
     author: 'Lewis Carroll',
     firstReadDate: '',
     lastReadDate: '',
@@ -2363,7 +2363,7 @@ export const amandineBooks: UserBooks = [
 
   {
     title: "Le crépuscule et l'aube",
-    author: "Ken Follett",
+    author: 'Ken Follett',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -2379,10 +2379,10 @@ export const amandineBooks: UserBooks = [
   },
 
   {
-    title: "La chronique des Bridgerton, tome 1 : Daphné et le duc",
-    author: "Julia Quinn",
-    firstReadDate: "2026-05-04",
-    lastReadDate: "2026-05-04",
+    title: 'La chronique des Bridgerton, tome 1 : Daphné et le duc',
+    author: 'Julia Quinn',
+    firstReadDate: '2026-05-04',
+    lastReadDate: '2026-05-04',
     otherReadDates: [],
     rating: 3,
     reading: false,
@@ -2392,14 +2392,14 @@ export const amandineBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: "",
+    ratingComment: '',
   },
 
   {
-    title: "La chronique des Bridgerton, tome 2 : Anthony",
-    author: "Julia Quinn",
-    firstReadDate: "2026-05-04",
-    lastReadDate: "2026-05-04",
+    title: 'La chronique des Bridgerton, tome 2 : Anthony',
+    author: 'Julia Quinn',
+    firstReadDate: '2026-05-04',
+    lastReadDate: '2026-05-04',
     otherReadDates: [],
     rating: 3,
     reading: false,
@@ -2409,6 +2409,6 @@ export const amandineBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: "",
+    ratingComment: '',
   },
 ];

@@ -5772,7 +5772,7 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: 'Alice aux pays des merveilles',
+    title: 'Alice au pays des merveilles',
     author: 'Lewis Carroll',
     firstReadDate: '',
     lastReadDate: '',

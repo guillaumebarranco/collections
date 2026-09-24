@@ -17556,7 +17556,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       'Une jeune journaliste débarque chez une rédactrice de mode tyrannique et découvre que le succès professionnel a un prix personnel élevé.',
     fromEntity: {
       entityType: 'book',
-      title: "Le Diable s'habille en Prada",
+      title: "Le diable s'habille en Prada",
       secondEntityKey: 'Lauren Weisberger',
     },
     countryOrigin: ['États-Unis'],
@@ -23549,8 +23549,8 @@ export const baseMoviesComedie: BaseMovie[] = [
       "Sam, vendeur de charbon, se voit confier une mission par le génie de la lampe : sauver le monde avec l'aide de ses amis et de sa copine.",
     fromEntity: {
       entityType: 'book',
-      title: 'Aladin ou la Lampe merveilleuse',
-      secondEntityKey: 'Les Mille et Une Nuits',
+      title: 'Les Mille et Une Nuits',
+      secondEntityKey: 'Anonymous',
     },
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -27725,7 +27725,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       'Andy, devenue rédactrice en chef, retrouve Miranda Priestly dans une recomposition des rapports de pouvoir au sommet de la mode new-yorkaise.',
     fromEntity: {
       entityType: 'book',
-      title: "Le Diable s'habille en Prada",
+      title: "Le diable s'habille en Prada",
       secondEntityKey: 'Lauren Weisberger',
     },
     countryOrigin: ['États-Unis'],
