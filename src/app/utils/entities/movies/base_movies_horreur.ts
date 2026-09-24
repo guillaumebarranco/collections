@@ -220,7 +220,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
       "Un savant londonien libère son double maléfique par un sérum, jusqu'à ne plus pouvoir revenir.",
     fromEntity: {
       entityType: 'book',
-      title: "L'Étrange Cas du docteur Jekyll et de M. Hyde",
+      title: "L'étrange cas du docteur Jekyll et de Mr. Hyde",
       secondEntityKey: 'Robert Louis Stevenson',
     },
     countryOrigin: ['États-Unis'],

@@ -1970,7 +1970,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       "Tom Ripley s'incruste dans la vie de Philippe Greenleaf en Italie, jusqu'au meurtre sur un bateau.",
     fromEntity: {
       entityType: 'book',
-      title: 'The Talented Mr. Ripley',
+      title: 'Le Talentueux M. Ripley',
       secondEntityKey: 'Patricia Highsmith',
     },
     countryOrigin: ['France', 'Italie'],

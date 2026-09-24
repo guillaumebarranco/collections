@@ -540,7 +540,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       'Quatre sœurs grandissent dans le Massachusetts de la guerre de Sécession, entre vocation, amour et deuil.',
     fromEntity: {
       entityType: 'book',
-      title: 'Les Quatre Filles du docteur March',
+      title: 'Les filles du Docteur March',
       secondEntityKey: 'Louisa May Alcott',
     },
     countryOrigin: ['États-Unis'],
@@ -10264,11 +10264,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     saga: '',
     description:
       'Passion destructrice entre un écrivain timide et une femme libre et instable dans le sud de la France.',
-    fromEntity: {
-      entityType: 'book',
-      title: 'Le Diable en tête',
-      secondEntityKey: 'Philippe Djian',
-    },
+    fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
     oscars: [],

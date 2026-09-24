@@ -5074,6 +5074,39 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     oscars: [],
   },
   {
+    title: 'The Gorge',
+    director: 'Scott Derrickson',
+    actors: [
+      {
+        name: 'Miles Teller',
+      },
+      {
+        name: 'Anya Taylor-Joy',
+      },
+      {
+        name: 'Sigourney Weaver',
+      },
+      {
+        name: 'Sope Dirisu',
+      },
+      {
+        name: 'William Houston',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/0bbd9cbcd3db.jpg',
+    releaseDate: '2025-02-14',
+    length: 127,
+    genre: ['Science Fiction', 'Action', 'Romance', 'Horreur'],
+    saga: '',
+    description:
+      "Deux tireurs d'élite postés de part et d'autre d'une gorge classifiée brisent l'interdit de communiquer, puis découvrent la menace qu'ils sont chargés de contenir.",
+    fromEntity: null,
+    countryOrigin: ['États-Unis', 'Royaume-Uni'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
     title: 'Running Man',
     director: 'Edgar Wright',
     actors: [

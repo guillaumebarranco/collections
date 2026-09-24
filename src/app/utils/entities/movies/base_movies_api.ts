@@ -29,7 +29,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 92,
     genre: ['Fantastique'],
     saga: '',
-    description: 'Un homme mort revient comme fantôme drapé d\'un drap blanc et observe le temps défiler dans la maison qu\'il partageait avec sa femme.',
+    description:
+      "Un homme mort revient comme fantôme drapé d'un drap blanc et observe le temps défiler dans la maison qu'il partageait avec sa femme.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -64,7 +65,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 51,
     genre: ['Action'],
     saga: 'Marvel Cinematic Universe',
-    description: 'Frank Castle mène une dernière mission de vengeance contre le crime organisé dans un nouveau chapitre de la franchise.',
+    description:
+      'Frank Castle mène une dernière mission de vengeance contre le crime organisé dans un nouveau chapitre de la franchise.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -102,7 +104,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 127,
     genre: ['Biographie'],
     saga: '',
-    description: 'Biopic consacré à Michael Jackson, retraçant les moments clés de la carrière et de la vie du roi de la pop.',
+    description:
+      'Biopic consacré à Michael Jackson, retraçant les moments clés de la carrière et de la vie du roi de la pop.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -137,7 +140,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 80,
     genre: ['Comédie', 'Animation'],
     saga: '',
-    description: 'Comédie française suivant les aventures décalées de Jim Queen dans un univers satirique et burlesque.',
+    description:
+      'Comédie française suivant les aventures décalées de Jim Queen dans un univers satirique et burlesque.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -172,7 +176,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 146,
     genre: ['Drame'],
     saga: '',
-    description: 'Drame de Cristian Mungiu explorant les tensions familiales et sociales dans un village isolé au bord d\'un fjord.',
+    description:
+      "Drame de Cristian Mungiu explorant les tensions familiales et sociales dans un village isolé au bord d'un fjord.",
     fromEntity: null,
     countryOrigin: ['Norvège', 'Roumanie'],
     selectDisplayOrder: 0,
@@ -207,7 +212,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 109,
     genre: ['Science Fiction', 'Drame'],
     saga: '',
-    description: 'Thriller de Nicolas Winding Refn plongeant une femme dans un cauchemar psychologique aux frontières du réel.',
+    description:
+      'Thriller de Nicolas Winding Refn plongeant une femme dans un cauchemar psychologique aux frontières du réel.',
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Danemark'],
     selectDisplayOrder: 0,
@@ -245,7 +251,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 140,
     genre: ['Science Fiction', 'Fantastique', 'Horreur'],
     saga: '',
-    description: 'Film coréen de Na Hong-jin mêlant enquête policière et horreur dans une communauté rurale secrète.',
+    description:
+      'Film coréen de Na Hong-jin mêlant enquête policière et horreur dans une communauté rurale secrète.',
     fromEntity: null,
     countryOrigin: ['Corée du Sud'],
     selectDisplayOrder: 0,
@@ -280,7 +287,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 115,
     genre: ['Thriller', 'Drame'],
     saga: '',
-    description: 'Drame de James Gray centré sur une figure paternelle complexe et les liens familiaux dans l\'Amérique contemporaine.',
+    description:
+      "Drame de James Gray centré sur une figure paternelle complexe et les liens familiaux dans l'Amérique contemporaine.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -318,7 +326,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 147,
     genre: ['Historique'],
     saga: '',
-    description: 'Film de Kiyoshi Kurosawa mêlant fantastique et mélancolie autour d\'un château hanté par des secrets familiaux.',
+    description:
+      "Film de Kiyoshi Kurosawa mêlant fantastique et mélancolie autour d'un château hanté par des secrets familiaux.",
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
@@ -356,7 +365,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 116,
     genre: ['Policier'],
     saga: '',
-    description: 'Drame d\'Andy Garcia sur l\'ambition, la trahison et les liens familiaux dans le monde des affaires.',
+    description:
+      "Drame d'Andy Garcia sur l'ambition, la trahison et les liens familiaux dans le monde des affaires.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -391,7 +401,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 160,
     genre: ['Historique', 'Guerre', 'Biographie'],
     saga: '',
-    description: 'Adaptation historique retraçant une période décisive de la vie du général de Gaulle pendant la Seconde Guerre mondiale.',
+    description:
+      'Adaptation historique retraçant une période décisive de la vie du général de Gaulle pendant la Seconde Guerre mondiale.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -426,7 +437,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 107,
     genre: ['Drame'],
     saga: '',
-    description: 'Film onirique de Bertrand Mandico mêlant fantasy baroque, costumes extravagants et récit initiatique.',
+    description:
+      'Film onirique de Bertrand Mandico mêlant fantasy baroque, costumes extravagants et récit initiatique.',
     fromEntity: null,
     countryOrigin: ['France', 'Italie'],
     selectDisplayOrder: 0,
@@ -461,7 +473,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 160,
     genre: ['Drame'],
     saga: '',
-    description: 'Drame d\'Arthur Harari explorant l\'identité et la mémoire à travers le portrait d\'une femme énigmatique.',
+    description:
+      "Drame d'Arthur Harari explorant l'identité et la mémoire à travers le portrait d'une femme énigmatique.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -496,7 +509,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 66,
     genre: ['Comédie', 'Science Fiction'],
     saga: '',
-    description: 'Comédie absurde de Quentin Dupieux où un personnage est confronté à une perte vertigineuse de repères.',
+    description:
+      'Comédie absurde de Quentin Dupieux où un personnage est confronté à une perte vertigineuse de repères.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -531,7 +545,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 154,
     genre: ['Drame', 'Historique'],
     saga: '',
-    description: 'Thriller espagnol de Javier Calvo et Javier Ambrossi mêlant suspense et éléments surnaturels.',
+    description:
+      'Thriller espagnol de Javier Calvo et Javier Ambrossi mêlant suspense et éléments surnaturels.',
     fromEntity: null,
     countryOrigin: ['Espagne'],
     selectDisplayOrder: 0,
@@ -569,7 +584,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 102,
     genre: ['Science Fiction', 'Drame'],
     saga: '',
-    description: 'Drame intime sur une relation amoureuse qui s\'achève et les conséquences émotionnelles de la séparation.',
+    description:
+      "Drame intime sur une relation amoureuse qui s'achève et les conséquences émotionnelles de la séparation.",
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -604,7 +620,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 114,
     genre: ['Thriller'],
     saga: '',
-    description: 'Film de Léa Mysius composé de récits nocturnes entrelacés explorant la jeunesse et le désir.',
+    description:
+      'Film de Léa Mysius composé de récits nocturnes entrelacés explorant la jeunesse et le désir.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -642,7 +659,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 90,
     genre: ['Horreur'],
     saga: '',
-    description: 'Thriller horrifique dans l\'Angleterre victorienne où un tueur en série sème la terreur dans la haute société.',
+    description:
+      "Thriller horrifique dans l'Angleterre victorienne où un tueur en série sème la terreur dans la haute société.",
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -677,7 +695,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 133,
     genre: ['Comédie'],
     saga: '',
-    description: 'Comédie d\'Agnès Jaoui où une enquête policière autour d\'un objet volé révèle les hypocrisies d\'une bourgeoisie.',
+    description:
+      "Comédie d'Agnès Jaoui où une enquête policière autour d'un objet volé révèle les hypocrisies d'une bourgeoisie.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -715,7 +734,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 132,
     genre: ['Action', 'Science Fiction', 'Aventure'],
     saga: 'Star Wars',
-    description: 'Le chasseur de primes Mando et le petit Grogu partent en mission dans une aventure cinématographique de l\'univers Star Wars.',
+    description:
+      "Le chasseur de primes Mando et le petit Grogu partent en mission dans une aventure cinématographique de l'univers Star Wars.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -753,7 +773,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 93,
     genre: ['Comédie'],
     saga: '',
-    description: 'Drame sportif sur une joueuse de cricket qui brise les barrières du genre dans un pays conservateur.',
+    description:
+      'Drame sportif sur une joueuse de cricket qui brise les barrières du genre dans un pays conservateur.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -788,7 +809,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 130,
     genre: ['Thriller'],
     saga: '',
-    description: 'Thriller français de Wil Aime où un groupe d\'inconnus doit découvrir qui parmi eux est le traître.',
+    description:
+      "Thriller français de Wil Aime où un groupe d'inconnus doit découvrir qui parmi eux est le traître.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -823,7 +845,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 100,
     genre: ['Drame'],
     saga: '',
-    description: 'Drame de Vincent Garenq sur une femme confrontée au départ brutal de son compagnon et à ses conséquences.',
+    description:
+      'Drame de Vincent Garenq sur une femme confrontée au départ brutal de son compagnon et à ses conséquences.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -858,7 +881,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 98,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Film de Jean-Baptiste Leonetti sur des personnages ordinaires dont les destins se croisent dans une crise sociale.',
+    description:
+      'Film de Jean-Baptiste Leonetti sur des personnages ordinaires dont les destins se croisent dans une crise sociale.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -893,7 +917,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 126,
     genre: ['Horreur', 'Drame'],
     saga: '',
-    description: 'Réinterprétation du mythe de Frankenstein par Maggie Gyllenhaal, centrée sur la créature féminine.',
+    description:
+      'Réinterprétation du mythe de Frankenstein par Maggie Gyllenhaal, centrée sur la créature féminine.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -928,7 +953,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 119,
     genre: ['Drame'],
     saga: '',
-    description: 'Drame sud-coréen de Yoon Ga-eun sur les relations familiales et les choix de vie d\'une jeune femme.',
+    description:
+      "Drame sud-coréen de Yoon Ga-eun sur les relations familiales et les choix de vie d'une jeune femme.",
     fromEntity: null,
     countryOrigin: ['Corée du Sud'],
     selectDisplayOrder: 0,
@@ -963,7 +989,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 121,
     genre: ['Biographie', 'Drame'],
     saga: '',
-    description: 'Comédie dramatique de Kirk Jones sur un homme ordinaire qui découvre des forces insoupçonnées face à l\'adversité.',
+    description:
+      "Comédie dramatique de Kirk Jones sur un homme ordinaire qui découvre des forces insoupçonnées face à l'adversité.",
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -998,7 +1025,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 110,
     genre: ['Drame'],
     saga: '',
-    description: 'Drame de Maryam Touzani sur l\'amitié et la résilience de femmes marocaines dans un quartier populaire.',
+    description:
+      "Drame de Maryam Touzani sur l'amitié et la résilience de femmes marocaines dans un quartier populaire.",
     fromEntity: null,
     countryOrigin: ['Maroc', 'France'],
     selectDisplayOrder: 0,
@@ -1036,7 +1064,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 112,
     genre: ['Thriller'],
     saga: '',
-    description: 'Rachel, alcoolique, croit avoir vu un crime depuis son train quotidien et se retrouve au cœur d\'une enquête.',
+    description:
+      "Rachel, alcoolique, croit avoir vu un crime depuis son train quotidien et se retrouve au cœur d'une enquête.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1071,7 +1100,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 103,
     genre: ['Romance', 'Drame'],
     saga: '',
-    description: 'Comédie italienne sur un homme qui fabrique des larmes artificielles pour des cérémonies et découvre l\'émotion véritable.',
+    description:
+      "Comédie italienne sur un homme qui fabrique des larmes artificielles pour des cérémonies et découvre l'émotion véritable.",
     fromEntity: null,
     countryOrigin: ['Italie'],
     selectDisplayOrder: 0,
@@ -1106,7 +1136,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 139,
     genre: ['Thriller', 'Comédie'],
     saga: '',
-    description: 'Thriller de Park Chan-wook où un homme au chômage bascule dans la violence après une humiliation.',
+    description:
+      'Thriller de Park Chan-wook où un homme au chômage bascule dans la violence après une humiliation.',
     fromEntity: null,
     countryOrigin: ['Corée du Sud'],
     selectDisplayOrder: 0,
@@ -1141,7 +1172,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 94,
     genre: ['Drame'],
     saga: '',
-    description: 'Drame sur une journée décisive entre un père et son enfant, explorant le pardon et la réconciliation.',
+    description:
+      'Drame sur une journée décisive entre un père et son enfant, explorant le pardon et la réconciliation.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni', 'Nigeria'],
     selectDisplayOrder: 0,
@@ -1176,7 +1208,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 119,
     genre: ['Drame'],
     saga: '',
-    description: 'Drame psychologique de Lynne Ramsay sur une femme en proie à la dépression dans un isolement rural.',
+    description:
+      'Drame psychologique de Lynne Ramsay sur une femme en proie à la dépression dans un isolement rural.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1211,7 +1244,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 145,
     genre: ['Drame'],
     saga: '',
-    description: 'Drame de Cherien Dabis sur une famille palestinienne confrontée à la guerre et à l\'exil.',
+    description:
+      "Drame de Cherien Dabis sur une famille palestinienne confrontée à la guerre et à l'exil.",
     fromEntity: null,
     countryOrigin: ['Palestine', 'États-Unis'],
     selectDisplayOrder: 0,
@@ -1249,7 +1283,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 118,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Romance espagnole où une étudiante tombe amoureuse du beau-père de sa sœur lors d\'un été à la mer.',
+    description:
+      "Romance espagnole où une étudiante tombe amoureuse du beau-père de sa sœur lors d'un été à la mer.",
     fromEntity: null,
     countryOrigin: ['Espagne'],
     selectDisplayOrder: 0,
@@ -1284,7 +1319,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 119,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Suite romantique se déroulant à Londres où de nouveaux personnages vivent une passion interdite.',
+    description:
+      'Suite romantique se déroulant à Londres où de nouveaux personnages vivent une passion interdite.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -1322,7 +1358,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 131,
     genre: ['Thriller', 'Drame'],
     saga: '',
-    description: 'Un étudiant obsédé par un camarade aristocrate s\'infiltre dans sa famille lors d\'un été dans leur manoir.',
+    description:
+      "Un étudiant obsédé par un camarade aristocrate s'infiltre dans sa famille lors d'un été dans leur manoir.",
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -1360,7 +1397,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 93,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Comédie noire française sur deux amis qui montent une escroquerie dans leur village du Sud-Ouest.',
+    description:
+      'Comédie noire française sur deux amis qui montent une escroquerie dans leur village du Sud-Ouest.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1395,7 +1433,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 113,
     genre: ['Drame'],
     saga: '',
-    description: 'Drame sur deux sœurs danseuses qui rêvent de rejoindre une troupe de ballet prestigieuse à Las Vegas.',
+    description:
+      'Drame sur deux sœurs danseuses qui rêvent de rejoindre une troupe de ballet prestigieuse à Las Vegas.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1430,7 +1469,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 86,
     genre: ['Horreur'],
     saga: '',
-    description: 'Horreur norvégienne où une famille affamée accepte un dîner gratuit dans un théâtre qui cache une monstruosité.',
+    description:
+      'Horreur norvégienne où une famille affamée accepte un dîner gratuit dans un théâtre qui cache une monstruosité.',
     fromEntity: null,
     countryOrigin: ['Norvège'],
     selectDisplayOrder: 0,
@@ -1465,7 +1505,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 134,
     genre: ['Drame', 'Thriller'],
     saga: '',
-    description: 'Adaptation de Charlie Kaufman où une femme traverse un road trip intérieur hanté par la dépression et le temps.',
+    description:
+      'Adaptation de Charlie Kaufman où une femme traverse un road trip intérieur hanté par la dépression et le temps.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1503,10 +1544,11 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 152,
     genre: ['Horreur'],
     saga: '',
-    description: 'Danny Torrance, devenu adulte, protège une jeune télépathe des True Knot, secte qui se nourrit de pouvoirs psychiques.',
+    description:
+      'Danny Torrance, devenu adulte, protège une jeune télépathe des True Knot, secte qui se nourrit de pouvoirs psychiques.',
     fromEntity: {
       entityType: 'book',
-      title: 'Doctor Sleep',
+      title: 'Docteur Sleep',
       secondEntityKey: 'Stephen King',
     },
     countryOrigin: ['États-Unis'],
@@ -1542,7 +1584,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 95,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Une jeune femme est internée dans un centre de relooking luxueux qui cache des expériences dystopiques.',
+    description:
+      'Une jeune femme est internée dans un centre de relooking luxueux qui cache des expériences dystopiques.',
     fromEntity: null,
     countryOrigin: ['Espagne'],
     selectDisplayOrder: 0,
@@ -1577,7 +1620,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 105,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Drame de Thomas Lilti suivant des étudiants en médecine confrontés à la dureté de leurs premières gardes hospitalières.',
+    description:
+      'Drame de Thomas Lilti suivant des étudiants en médecine confrontés à la dureté de leurs premières gardes hospitalières.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1615,7 +1659,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 137,
     genre: ['Drame'],
     saga: '',
-    description: 'Un homme brisé par un drame familial doit s\'occuper de son neveu et affronter son passé à Manchester.',
+    description:
+      "Un homme brisé par un drame familial doit s'occuper de son neveu et affronter son passé à Manchester.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1656,7 +1701,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 136,
     genre: ['Drame', 'Science Fiction'],
     saga: '',
-    description: 'Deux sœurs affrontent une planète qui s\'approche de la Terre pendant qu\'une noce sombre se déroule dans un château.',
+    description:
+      "Deux sœurs affrontent une planète qui s'approche de la Terre pendant qu'une noce sombre se déroule dans un château.",
     fromEntity: null,
     countryOrigin: ['Danemark'],
     selectDisplayOrder: 0,
@@ -1694,7 +1740,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 127,
     genre: ['Drame'],
     saga: '',
-    description: 'Une jeune femme découvre qu\'une autre personne a volé son identité et mène une enquête pour reprendre sa vie.',
+    description:
+      "Une jeune femme découvre qu'une autre personne a volé son identité et mène une enquête pour reprendre sa vie.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1732,7 +1779,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 96,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Harry et Sally se croisent régulièrement sur dix ans à New York et se demandent si hommes et femmes peuvent être amis.',
+    description:
+      'Harry et Sally se croisent régulièrement sur dix ans à New York et se demandent si hommes et femmes peuvent être amis.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1767,7 +1815,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 90,
     genre: ['Comédie', 'Animation'],
     saga: '',
-    description: 'Un minuscule coquillage vivant dans une maison Airbnb filme sa vie et cherche sa famille disparue.',
+    description:
+      'Un minuscule coquillage vivant dans une maison Airbnb filme sa vie et cherche sa famille disparue.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1802,7 +1851,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 138,
     genre: ['Drame'],
     saga: '',
-    description: 'Une mère veuve élève seule son fils turbulent à Montréal dans un drame intense au format carré 1:1.',
+    description:
+      'Une mère veuve élève seule son fils turbulent à Montréal dans un drame intense au format carré 1:1.',
     fromEntity: null,
     countryOrigin: ['Canada'],
     selectDisplayOrder: 0,
@@ -1840,7 +1890,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 112,
     genre: ['Thriller'],
     saga: '',
-    description: 'Un procureur semble avoir commis le crime parfait jusqu\'à ce qu\'un inspecteur acharné le mette au défi sur le pont.',
+    description:
+      "Un procureur semble avoir commis le crime parfait jusqu'à ce qu'un inspecteur acharné le mette au défi sur le pont.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1878,7 +1929,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 97,
     genre: ['Comédie', 'Aventure'],
     saga: 'Crocodile Dundee',
-    description: 'Un chasseur australien des Outback découvre New York et sa culture urbaine dans une comédie culturelle.',
+    description:
+      'Un chasseur australien des Outback découvre New York et sa culture urbaine dans une comédie culturelle.',
     fromEntity: null,
     countryOrigin: ['Australie', 'États-Unis'],
     selectDisplayOrder: 0,
@@ -1916,7 +1968,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 111,
     genre: ['Comédie', 'Aventure'],
     saga: 'Crocodile Dundee',
-    description: 'Mick Dundee retourne en Australie où sa compagne est kidnappée par des trafiquants de drogue.',
+    description:
+      'Mick Dundee retourne en Australie où sa compagne est kidnappée par des trafiquants de drogue.',
     fromEntity: null,
     countryOrigin: ['Australie', 'États-Unis'],
     selectDisplayOrder: 0,
@@ -1954,7 +2007,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 95,
     genre: ['Comédie', 'Aventure'],
     saga: 'Crocodile Dundee',
-    description: 'Mick Dundee s\'installe à Los Angeles et affronte des trafiquants qui menacent sa famille.',
+    description:
+      "Mick Dundee s'installe à Los Angeles et affronte des trafiquants qui menacent sa famille.",
     fromEntity: null,
     countryOrigin: ['Australie', 'États-Unis'],
     selectDisplayOrder: 0,
@@ -1989,7 +2043,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 145,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Steven Spielberg explore une révélation mondiale sur l\'existence extraterrestre et ses conséquences pour l\'humanité.',
+    description:
+      "Steven Spielberg explore une révélation mondiale sur l'existence extraterrestre et ses conséquences pour l'humanité.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2018,7 +2073,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 117,
     genre: ['Comédie', 'Romance', 'Drame'],
     saga: '',
-    description: 'Une mère et sa fille reconstruisent leur relation après un accident qui révèle des secrets de couple.',
+    description:
+      'Une mère et sa fille reconstruisent leur relation après un accident qui révèle des secrets de couple.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2047,7 +2103,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 100,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Steven Soderbergh réunit une famille dysfonctionnelle autour d\'un événement qui force chacun à affronter son passé.',
+    description:
+      "Steven Soderbergh réunit une famille dysfonctionnelle autour d'un événement qui force chacun à affronter son passé.",
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -2079,7 +2136,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 111,
     genre: ['Horreur'],
     saga: '',
-    description: 'Des explorateurs urbains piégés dans les Backrooms, labyrinthe de bureaux jaunes infinis, tentent d\'en sortir vivants.',
+    description:
+      "Des explorateurs urbains piégés dans les Backrooms, labyrinthe de bureaux jaunes infinis, tentent d'en sortir vivants.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2108,7 +2166,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 102,
     genre: ['Jeunesse', 'Animation'],
     saga: 'Toy Story',
-    description: 'Woody, Buzz et les jouets affrontent une nouvelle aventure qui remet en question leur place dans la vie de leurs enfants.',
+    description:
+      'Woody, Buzz et les jouets affrontent une nouvelle aventure qui remet en question leur place dans la vie de leurs enfants.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2140,7 +2199,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 110,
     genre: ['Action', 'Fantastique'],
     saga: 'DCU',
-    description: 'Kara Zor-El, cousine de Superman, protège la Terre et découvre son destin de super-héroïne.',
+    description:
+      'Kara Zor-El, cousine de Superman, protège la Terre et découvre son destin de super-héroïne.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2169,7 +2229,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 111,
     genre: ['Drame'],
     saga: '',
-    description: 'August Pullman, garçon atteint de malformation faciale, intègre l\'école primaire et touche ceux qui l\'entourent.',
+    description:
+      "August Pullman, garçon atteint de malformation faciale, intègre l'école primaire et touche ceux qui l'entourent.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2204,7 +2265,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 103,
     genre: ['Comédie'],
     saga: '',
-    description: 'Comédie française sur un séducteur invétéré qui doit affronter la responsabilité quand sa compagne tombe enceinte.',
+    description:
+      'Comédie française sur un séducteur invétéré qui doit affronter la responsabilité quand sa compagne tombe enceinte.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -2236,7 +2298,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 160,
     genre: ['Historique', 'Guerre', 'Biographie'],
     saga: '',
-    description: 'Deuxième volet du diptyque d\'Antonin Baudry sur le général de Gaulle et son appel du 18 juin.',
+    description:
+      "Deuxième volet du diptyque d'Antonin Baudry sur le général de Gaulle et son appel du 18 juin.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -2271,7 +2334,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 108,
     genre: ['Dystopie'],
     saga: '',
-    description: 'Adaptation du roman de Stephen King où des adolescents doivent marcher sans s\'arrêter sous peine d\'être abattus.',
+    description:
+      "Adaptation du roman de Stephen King où des adolescents doivent marcher sans s'arrêter sous peine d'être abattus.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2318,7 +2382,8 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 140,
     genre: ['Action', 'Fantastique', 'Aventure'],
     saga: "Les Maîtres de l'univers",
-    description: 'He-Man défend Eternia contre Skeletor dans une adaptation live-action de la célèbre franchise des années 80.',
+    description:
+      'He-Man défend Eternia contre Skeletor dans une adaptation live-action de la célèbre franchise des années 80.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2326,28 +2391,29 @@ export const baseMoviesApi: BaseMovie[] = [
   },
 
   {
-    title: "Les Spécialistes",
-    director: "Guy Ritchie",
+    title: 'Les Spécialistes',
+    director: 'Guy Ritchie',
     actors: [
       {
-        name: "Henry Cavill",
+        name: 'Henry Cavill',
       },
       {
-        name: "Jack Gyllenhaal",
+        name: 'Jack Gyllenhaal',
       },
       {
-        name: "Eiza Gonzales",
+        name: 'Eiza Gonzales',
       },
       {
-        name: "Rosamund Pike",
+        name: 'Rosamund Pike',
       },
     ],
-    coverUrl: "/movies_pictures/c55a7eb093c4.jpg",
-    releaseDate: "2026-05-15",
+    coverUrl: '/movies_pictures/c55a7eb093c4.jpg',
+    releaseDate: '2026-05-15',
     length: 94,
     genre: ['Action'],
-    saga: "",
-    description: "Guy Ritchie réunit une équipe de criminels spécialisés pour un casse impossible aux enjeux internationaux.",
+    saga: '',
+    description:
+      'Guy Ritchie réunit une équipe de criminels spécialisés pour un casse impossible aux enjeux internationaux.',
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -2355,28 +2421,29 @@ export const baseMoviesApi: BaseMovie[] = [
   },
 
   {
-    title: "Un ours dans le Jura",
-    director: "Franck Dubosc",
+    title: 'Un ours dans le Jura',
+    director: 'Franck Dubosc',
     actors: [
       {
-        name: "Franck Dubosc",
+        name: 'Franck Dubosc',
       },
       {
-        name: "Laure Calamy",
+        name: 'Laure Calamy',
       },
       {
-        name: "Benoît Poelvoorde",
+        name: 'Benoît Poelvoorde',
       },
       {
-        name: "Joséphine de Meaux",
+        name: 'Joséphine de Meaux',
       },
     ],
-    coverUrl: "/movies_pictures/a870d5ca2919.jpg",
-    releaseDate: "2025-01-01",
+    coverUrl: '/movies_pictures/a870d5ca2919.jpg',
+    releaseDate: '2025-01-01',
     length: 113,
     genre: ['Comédie', 'Thriller'],
-    saga: "",
-    description: "Comédie de Franck Dubosc où un ours des Pyrénées débarque dans un village jurassien et bouleverse la vie locale.",
+    saga: '',
+    description:
+      'Comédie de Franck Dubosc où un ours des Pyrénées débarque dans un village jurassien et bouleverse la vie locale.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -2385,27 +2452,28 @@ export const baseMoviesApi: BaseMovie[] = [
 
   {
     title: "Chainsaw Man, le film : L'arc de Reze",
-    director: "Tatsuya Yoshihara",
+    director: 'Tatsuya Yoshihara',
     actors: [
       {
-        name: "Kikunosuke Toya",
+        name: 'Kikunosuke Toya',
       },
       {
-        name: "Shôgo Sakata",
+        name: 'Shôgo Sakata',
       },
       {
-        name: "Reina Ueda",
+        name: 'Reina Ueda',
       },
       {
-        name: "Natsuki Hanae",
+        name: 'Natsuki Hanae',
       },
     ],
-    coverUrl: "/movies_pictures/6f58a488e996.jpg",
-    releaseDate: "2025-10-22",
+    coverUrl: '/movies_pictures/6f58a488e996.jpg',
+    releaseDate: '2025-10-22',
     length: 101,
     genre: ['Animation'],
-    saga: "Chainsaw Man",
-    description: "Denji et sa tronçonneuse affrontent Reze, Bomb Devil, dans un arc d'action surnaturelle adapté du manga.",
+    saga: 'Chainsaw Man',
+    description:
+      "Denji et sa tronçonneuse affrontent Reze, Bomb Devil, dans un arc d'action surnaturelle adapté du manga.",
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
@@ -2413,31 +2481,32 @@ export const baseMoviesApi: BaseMovie[] = [
   },
 
   {
-    title: "Le Grand Jeu",
-    director: " Aaron Sorkin",
+    title: 'Le Grand Jeu',
+    director: ' Aaron Sorkin',
     actors: [
       {
-        name: "Jessica Chastain",
+        name: 'Jessica Chastain',
       },
       {
-        name: "Idris Elba",
+        name: 'Idris Elba',
       },
       {
-        name: "Kevin Costner",
+        name: 'Kevin Costner',
       },
       {
-        name: "Michael Cera",
+        name: 'Michael Cera',
       },
       {
-        name: "Jeremy Strong",
+        name: 'Jeremy Strong',
       },
     ],
-    coverUrl: "/movies_pictures/d762a53455b9.jpg",
-    releaseDate: "2017-09-08",
+    coverUrl: '/movies_pictures/d762a53455b9.jpg',
+    releaseDate: '2017-09-08',
     length: 140,
     genre: ['Thriller', 'Drame'],
-    saga: "",
-    description: "Molly Bloom, ex-skieuse olympique, dirige un empire de parties de poker clandestines fréquentées par célébrités et criminels.",
+    saga: '',
+    description:
+      'Molly Bloom, ex-skieuse olympique, dirige un empire de parties de poker clandestines fréquentées par célébrités et criminels.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2445,34 +2514,35 @@ export const baseMoviesApi: BaseMovie[] = [
   },
 
   {
-    title: "GOAT : Rêver plus Haut",
-    director: "Tyree Dillihay, Adam Rosette",
+    title: 'GOAT : Rêver plus Haut',
+    director: 'Tyree Dillihay, Adam Rosette',
     actors: [
       {
-        name: "Caleb McLaughlin",
+        name: 'Caleb McLaughlin',
       },
       {
-        name: "Gabrielle Union",
+        name: 'Gabrielle Union',
       },
       {
-        name: "Stephen Curry",
+        name: 'Stephen Curry',
       },
       {
-        name: "Aaron Pierre",
+        name: 'Aaron Pierre',
       },
       {
-        name: "Nicola Coughlan",
+        name: 'Nicola Coughlan',
       },
       {
-        name: "David Harbour",
+        name: 'David Harbour',
       },
     ],
-    coverUrl: "/movies_pictures/0d17b97be616.jpg",
-    releaseDate: "2026-02-11",
+    coverUrl: '/movies_pictures/0d17b97be616.jpg',
+    releaseDate: '2026-02-11',
     length: 100,
     genre: ['Jeunesse', 'Animation'],
-    saga: "",
-    description: "Animation sportive sur une chèvre qui rêve de jouer au football américain contre toute attente.",
+    saga: '',
+    description:
+      'Animation sportive sur une chèvre qui rêve de jouer au football américain contre toute attente.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2480,37 +2550,38 @@ export const baseMoviesApi: BaseMovie[] = [
   },
 
   {
-    title: "Kill Bill: The Whole Bloody Affair",
-    director: "Quentin Tarantino",
+    title: 'Kill Bill: The Whole Bloody Affair',
+    director: 'Quentin Tarantino',
     actors: [
       {
-        name: "Uma Thurman",
+        name: 'Uma Thurman',
       },
       {
-        name: "Lucy Liu",
+        name: 'Lucy Liu',
       },
       {
-        name: "David Carradine",
+        name: 'David Carradine',
       },
       {
-        name: "Julie Dreyfus",
+        name: 'Julie Dreyfus',
       },
       {
-        name: "Daryl Hannah",
+        name: 'Daryl Hannah',
       },
       {
-        name: "Michael Madsen",
+        name: 'Michael Madsen',
       },
       {
-        name: "Vivica A. Fox",
+        name: 'Vivica A. Fox',
       },
     ],
-    coverUrl: "/movies_pictures/4cc89e9112aa.jpg",
-    releaseDate: "2026-07-08",
+    coverUrl: '/movies_pictures/4cc89e9112aa.jpg',
+    releaseDate: '2026-07-08',
     length: 274,
     genre: ['Action'],
-    saga: "",
-    description: "Version intégrale des deux volumes de Kill Bill, réunissant la vendetta complète de la Mariée contre Bill.",
+    saga: '',
+    description:
+      'Version intégrale des deux volumes de Kill Bill, réunissant la vendetta complète de la Mariée contre Bill.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
