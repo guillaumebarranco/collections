@@ -1634,4 +1634,21 @@ export const guillaumeReadlistBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: '',
   },
+
+  {
+    title: "She Said",
+    author: "Jodi Kantor",
+    firstReadDate: '',
+    lastReadDate: '',
+    otherReadDates: [],
+    rating: 0,
+    reading: false,
+    readTimes: 1,
+    owned: false,
+    borrowed: '',
+    loaned: '',
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
 ];

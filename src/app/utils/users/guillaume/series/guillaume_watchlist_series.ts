@@ -1062,4 +1062,26 @@ export const guillaumeWatchListSeries: UserSeries = [
     borrowed: '',
     loaned: '',
   },
+
+  {
+    title: "Lanterns",
+    director: "Chris Mundy",
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      watching: true,
+      seasonTimesWatched: 0,
+      firstViewedDate: "",
+      lastViewedDate: "",
+      otherViewedDates: [],
+    }
+  ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: "",
+    borrowed: "",
+    loaned: "",
+  },
 ];

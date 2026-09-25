@@ -3810,4 +3810,22 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: "",
     loaned: "",
   },
+
+  {
+    title: "The Gorge",
+    director: "Scott Derrickson",
+    rating: 4.25,
+    timesWatched: 1,
+    firstViewedDate: "2026-09-23",
+    lastViewedDate: "2026-09-23",
+    otherSeenDates: [],
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: "",
+    inList: [],
+    borrowed: "",
+    loaned: "",
+  },
 ];
