@@ -112,13 +112,13 @@
         placeholder="Rechercher un film..."
         aria-label="Rechercher un film"
         [value]="searchTerm()"
-        (input)="searchTerm.set($any($event.target).value)"
+        (input)="onSearchInput($any($event.target).value)"
       />
     </div>
   </div>
 
   <div class="movies-grid" select-grid>
-    @for (movie of filteredMovies(); track
+    @for (movie of displayedMovies(); track
     `${movie.title}-${movie.director}`) {
     <div
       class="movie-poster"
@@ -126,7 +126,7 @@
       (click)="toggleSelection(movie)"
       [title]="movie.title + ' (' + movie.releaseDate.substring(0, 4) + ')'"
     >
-      <img [src]="movie.coverUrl" [alt]="movie.title" />
+      <img [src]="movie.coverUrl" [alt]="movie.title" loading="lazy" />
       <div class="overlay">
         <div class="checkmark"></div>
         <div class="movie-info">
@@ -137,6 +137,9 @@
         </div>
       </div>
     </div>
+    }
+    @if (hasMoreMovies()) {
+    <div #loadMore class="select-infinite-sentinel" aria-hidden="true"></div>
     }
   </div>
 

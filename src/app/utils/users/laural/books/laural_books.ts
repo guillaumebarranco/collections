@@ -1566,7 +1566,7 @@ export const lauralBooks: UserBook[] = [
   },
 
   {
-    title: 'Le Livre qui refusait de brûler',
+    title: 'Le livre qui refusait de brûler',
     author: 'Mark Lawrence',
     firstReadDate: '',
     lastReadDate: '',
@@ -2365,24 +2365,7 @@ export const lauralBooks: UserBook[] = [
   },
 
   {
-    title: 'Le livre qui refusait de brûler',
-    author: 'Mark Lawrence',
-    firstReadDate: '',
-    lastReadDate: '',
-    otherReadDates: [],
-    rating: 0,
-    reading: false,
-    readTimes: 1,
-    owned: false,
-    borrowed: '',
-    loaned: '',
-    readPriority: 1,
-    wantToReadAgain: false,
-    ratingComment: '',
-  },
-
-  {
-    title: "Le Rêve d'un Homme Ridicule",
+    title: "Le Rêve d'un homme ridicule",
     author: 'Fiodor Dostoïevski',
     firstReadDate: '2026-06-29',
     lastReadDate: '2026-06-29',

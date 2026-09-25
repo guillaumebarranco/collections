@@ -16,6 +16,20 @@ export const baseBooksFantasy: BaseBook[] = [
     selectDisplayOrder: 0,
   },
   {
+    title: 'Les Griffes et les Crocs',
+    author: 'Jo Walton',
+    coverUrl: '/books_pictures/0b2b7f834bec.jpg',
+    pages: 496,
+    genre: ['Fantasy'],
+    saga: '',
+    sagaOrder: 0,
+    sagaFinished: false,
+    releaseDate: '2003-11-01',
+    description: '',
+    countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 15,
+  },
+  {
     title: 'Le Chant du Troll',
     author: 'Pierre Bottero',
     coverUrl: '/books_pictures/72dfd3d4594f.jpg',
@@ -42,21 +56,6 @@ export const baseBooksFantasy: BaseBook[] = [
     description:
       'Le Cimmérien gagne sa vie l’épée à la main dans un âge hyborien.',
     countryOrigin: 'États-Unis',
-    selectDisplayOrder: 0,
-  },
-  {
-    title: "L'Épée dans la pierre",
-    author: 'T. H. White',
-    coverUrl: '/books_pictures/46dd49766a4c.jpg',
-    pages: 352,
-    genre: ['Fantasy', 'Classiques'],
-    saga: '',
-    sagaOrder: 0,
-    sagaFinished: false,
-    releaseDate: '1938-01-01',
-    description:
-      'Merlin éduque le jeune Arthur avant qu’il ne tire l’épée et devienne roi.',
-    countryOrigin: 'Royaume-Uni',
     selectDisplayOrder: 0,
   },
   {
@@ -581,21 +580,6 @@ export const baseBooksFantasy: BaseBook[] = [
     selectDisplayOrder: 0,
   },
   {
-    title: 'Les Griffes et les Crocs',
-    author: 'Jo Walton',
-    coverUrl:
-      '/books_pictures/0b2b7f834bec.jpg',
-    pages: 496,
-    genre: ['Fantasy', 'Classiques'],
-    saga: '',
-    sagaOrder: 0,
-    sagaFinished: false,
-    releaseDate: '2003-11-01',
-    description: '',
-    countryOrigin: 'Royaume-Uni',
-    selectDisplayOrder: 15,
-  },
-  {
     title: 'Gagner la guerre',
     author: 'Jean-Philippe Jaworski',
     coverUrl: '/books_pictures/7109gL1swXL._AC_UF1000,1000_QL80_.jpg',
@@ -740,8 +724,7 @@ export const baseBooksFantasy: BaseBook[] = [
   {
     title: 'Celle qui devint le soleil',
     author: 'Shelley Parker-Chan',
-    coverUrl:
-      '/books_pictures/f9607970741d.jpg',
+    coverUrl: '/books_pictures/f9607970741d.jpg',
     pages: 416,
     genre: ['Fantasy', 'Fiction historique'],
     saga: '',
@@ -835,5 +818,21 @@ export const baseBooksFantasy: BaseBook[] = [
     description: '',
     countryOrigin: 'États-Unis',
     selectDisplayOrder: 5,
-  }
+  },
+
+
+  {
+    title: 'Jonathan Strange et Mr Norrell',
+    author: 'Susanna Clarke',
+    coverUrl: '/books_pictures/be4fe12cb3b5.jpg',
+    pages: 1008,
+    genre: [],
+    saga: '',
+    sagaOrder: 0,
+    sagaFinished: false,
+    releaseDate: '',
+    description: '',
+    countryOrigin: '',
+    selectDisplayOrder: 0,
+  },
 ];

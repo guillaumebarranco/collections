@@ -1203,7 +1203,7 @@ export const baseMoviesAventure: BaseMovie[] = [
       "L'enfant élevé par les grands singes est ramené en Écosse, smoking et cri dans les bois.",
     fromEntity: {
       entityType: 'book',
-      title: 'Tarzan, seigneur de la jungle',
+      title: 'Tarzan',
       secondEntityKey: 'Edgar Rice Burroughs',
     },
     countryOrigin: ['Royaume-Uni'],

@@ -1443,7 +1443,7 @@ export const lucileBooks: UserBook[] = [
     ratingComment: '',
   },
   {
-    title: 'Hotel Magnifique',
+    title: 'Hôtel Magnifique',
     author: 'Emily J. Taylor',
     firstReadDate: '2023-05-24',
     lastReadDate: '2023-05-24',

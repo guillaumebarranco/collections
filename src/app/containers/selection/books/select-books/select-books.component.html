@@ -103,20 +103,20 @@
         placeholder="Rechercher un livre..."
         aria-label="Rechercher un livre"
         [value]="searchTerm()"
-        (input)="searchTerm.set($any($event.target).value)"
+        (input)="onSearchInput($any($event.target).value)"
       />
     </div>
   </div>
 
   <div class="books-grid" select-grid>
-    @for (book of filteredBooks(); track `${book.title}-${book.author}`) {
+    @for (book of displayedBooks(); track `${book.title}-${book.author}`) {
     <div
       class="book-cover"
       [class.selected]="isSelected(book)"
       (click)="toggleSelection(book)"
       [title]="book.title + ' - ' + book.author"
     >
-      <img [src]="book.coverUrl" [alt]="book.title" />
+      <img [src]="book.coverUrl" [alt]="book.title" loading="lazy" />
       <div class="overlay">
         <div class="checkmark"></div>
         <div class="book-info">
@@ -125,6 +125,9 @@
         </div>
       </div>
     </div>
+    }
+    @if (hasMoreBooks()) {
+    <div #loadMore class="select-infinite-sentinel" aria-hidden="true"></div>
     }
   </div>
 

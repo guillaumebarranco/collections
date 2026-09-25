@@ -1,4 +1,14 @@
-import { Component, signal, computed, inject, OnInit } from '@angular/core';
+import {
+  Component,
+  signal,
+  computed,
+  inject,
+  OnInit,
+  OnDestroy,
+  ElementRef,
+  viewChild,
+  effect,
+} from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MenuComponent } from '../../../../components/menu/menu.component';
 import { Book } from '../../../../models/book-model';
@@ -31,9 +41,15 @@ import { normalizeSearchText } from '../../../../utils/normalize-search-text';
 })
 export class SelectBooksComponent
   extends SelectEntitiesComponent
-  implements OnInit
+  implements OnInit, OnDestroy
 {
+  private static readonly pageSize = 500;
+
   private readonly dialog = inject(MatDialog);
+  private readonly loadMoreSentinel = viewChild<ElementRef<HTMLElement>>('loadMore');
+  private loadMoreObserver: IntersectionObserver | null = null;
+
+  readonly visibleCount = signal(SelectBooksComponent.pageSize);
 
   baseBooks = signal<LightBook[]>([]);
   userBooks = signal<Book[]>([]);
@@ -92,8 +108,52 @@ export class SelectBooksComponent
     });
   });
 
+  displayedBooks = computed(() =>
+    this.filteredBooks().slice(0, this.visibleCount())
+  );
+
+  hasMoreBooks = computed(
+    () => this.filteredBooks().length > this.visibleCount()
+  );
+
+  constructor() {
+    super();
+    effect((onCleanup) => {
+      const sentinel = this.loadMoreSentinel()?.nativeElement;
+      this.loadMoreObserver?.disconnect();
+      this.loadMoreObserver = null;
+      if (!sentinel || !this.hasMoreBooks()) return;
+
+      const observer = new IntersectionObserver(
+        (entries) => {
+          if (entries.some((entry) => entry.isIntersecting)) {
+            this.showMoreBooks();
+          }
+        },
+        { rootMargin: '400px' }
+      );
+      observer.observe(sentinel);
+      this.loadMoreObserver = observer;
+      onCleanup(() => observer.disconnect());
+    });
+  }
+
   selectedBooks = signal<Set<string>>(new Set());
   selectedCount = computed(() => this.selectedBooks().size);
+
+  ngOnDestroy(): void {
+    this.loadMoreObserver?.disconnect();
+  }
+
+  onSearchInput(value: string): void {
+    this.searchTerm.set(value);
+    this.visibleCount.set(SelectBooksComponent.pageSize);
+  }
+
+  showMoreBooks(): void {
+    if (!this.hasMoreBooks()) return;
+    this.visibleCount.update((count) => count + SelectBooksComponent.pageSize);
+  }
 
   async ngOnInit() {
     const userId = this.userId();

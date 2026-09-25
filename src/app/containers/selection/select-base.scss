@@ -166,6 +166,11 @@
   }
 }
 
+.select-infinite-sentinel {
+  height: 1px;
+  grid-column: 1 / -1;
+}
+
 // Item cover/poster commun
 %select-item {
   position: relative;

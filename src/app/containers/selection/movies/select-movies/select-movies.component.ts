@@ -1,4 +1,14 @@
-import { Component, signal, computed, inject, OnInit } from '@angular/core';
+import {
+  Component,
+  signal,
+  computed,
+  inject,
+  OnInit,
+  OnDestroy,
+  ElementRef,
+  viewChild,
+  effect,
+} from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MenuComponent } from '../../../../components/menu/menu.component';
 import { Movie } from '../../../../models/movie-model';
@@ -31,9 +41,15 @@ import { normalizeSearchText } from '../../../../utils/normalize-search-text';
 })
 export class SelectMoviesComponent
   extends SelectEntitiesComponent
-  implements OnInit
+  implements OnInit, OnDestroy
 {
+  private static readonly pageSize = 500;
+
   private readonly dialog = inject(MatDialog);
+  private readonly loadMoreSentinel = viewChild<ElementRef<HTMLElement>>('loadMore');
+  private loadMoreObserver: IntersectionObserver | null = null;
+
+  readonly visibleCount = signal(SelectMoviesComponent.pageSize);
 
   userMovies = signal<Movie[]>([]);
   watchlistMovies = signal<Movie[]>([]);
@@ -91,6 +107,36 @@ export class SelectMoviesComponent
     });
   });
 
+  displayedMovies = computed(() =>
+    this.filteredMovies().slice(0, this.visibleCount())
+  );
+
+  hasMoreMovies = computed(
+    () => this.filteredMovies().length > this.visibleCount()
+  );
+
+  constructor() {
+    super();
+    effect((onCleanup) => {
+      const sentinel = this.loadMoreSentinel()?.nativeElement;
+      this.loadMoreObserver?.disconnect();
+      this.loadMoreObserver = null;
+      if (!sentinel || !this.hasMoreMovies()) return;
+
+      const observer = new IntersectionObserver(
+        (entries) => {
+          if (entries.some((entry) => entry.isIntersecting)) {
+            this.showMoreMovies();
+          }
+        },
+        { rootMargin: '400px' }
+      );
+      observer.observe(sentinel);
+      this.loadMoreObserver = observer;
+      onCleanup(() => observer.disconnect());
+    });
+  }
+
   selectedMovies = signal<Set<string>>(new Set());
   selectedCount = computed(() => this.selectedMovies().size);
 
@@ -135,6 +181,20 @@ export class SelectMoviesComponent
         this.router.navigate([`${this.userId()}/movies`]);
       }
     });
+  }
+
+  ngOnDestroy(): void {
+    this.loadMoreObserver?.disconnect();
+  }
+
+  onSearchInput(value: string): void {
+    this.searchTerm.set(value);
+    this.visibleCount.set(SelectMoviesComponent.pageSize);
+  }
+
+  showMoreMovies(): void {
+    if (!this.hasMoreMovies()) return;
+    this.visibleCount.update((count) => count + SelectMoviesComponent.pageSize);
   }
 
   async ngOnInit() {

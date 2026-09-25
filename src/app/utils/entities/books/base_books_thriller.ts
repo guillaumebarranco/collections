@@ -73,21 +73,6 @@ export const baseBooksThriller: BaseBook[] = [
     selectDisplayOrder: 0,
   },
   {
-    title: 'Docteur Mabuse',
-    author: 'Norbert Jacques',
-    coverUrl: '/books_pictures/2bdc4454ca65.jpg',
-    pages: 320,
-    genre: ['Thriller', 'Classiques'],
-    saga: '',
-    sagaOrder: 0,
-    sagaFinished: false,
-    releaseDate: '1921-01-01',
-    description:
-      'Un génie du crime hypnotise et manipule la société de Weimar.',
-    countryOrigin: 'Allemagne',
-    selectDisplayOrder: 0,
-  },
-  {
     title: 'The House of Dr. Edwardes',
     author: 'Francis Beeding',
     coverUrl: '/books_pictures/979985ca4c25.jpg',
@@ -368,8 +353,7 @@ export const baseBooksThriller: BaseBook[] = [
   {
     title: 'Le roman maudit',
     author: 'Franck Thilliez',
-    coverUrl:
-      '/books_pictures/5543a0a2879b.jpg',
+    coverUrl: '/books_pictures/5543a0a2879b.jpg',
     pages: 400,
     genre: ['Thriller', 'Policier'],
     saga: '',
@@ -667,8 +651,7 @@ export const baseBooksThriller: BaseBook[] = [
   {
     title: 'La part des ténèbres',
     author: 'Stephen King',
-    coverUrl:
-      '/books_pictures/1cce7d0be6c6.jpg',
+    coverUrl: '/books_pictures/1cce7d0be6c6.jpg',
     pages: 560,
     genre: ['Thriller', 'Horreur'],
     saga: '',
@@ -697,8 +680,7 @@ export const baseBooksThriller: BaseBook[] = [
   {
     title: 'Si ça saigne',
     author: 'Stephen King',
-    coverUrl:
-      '/books_pictures/5c85a65a151b.jpg',
+    coverUrl: '/books_pictures/5c85a65a151b.jpg',
     pages: 400,
     genre: ['Thriller', 'Horreur'],
     saga: '',
@@ -712,8 +694,7 @@ export const baseBooksThriller: BaseBook[] = [
   {
     title: 'Revival',
     author: 'Stephen King',
-    coverUrl:
-      '/books_pictures/65eaf92a3537.jpg',
+    coverUrl: '/books_pictures/65eaf92a3537.jpg',
     pages: 400,
     genre: ['Thriller', 'Horreur'],
     saga: '',
@@ -727,8 +708,7 @@ export const baseBooksThriller: BaseBook[] = [
   {
     title: "L'institut",
     author: 'Stephen King',
-    coverUrl:
-      '/books_pictures/2d2902642850.jpg',
+    coverUrl: '/books_pictures/2d2902642850.jpg',
     pages: 560,
     genre: ['Thriller', 'Science Fiction'],
     saga: '',
@@ -742,8 +722,7 @@ export const baseBooksThriller: BaseBook[] = [
   {
     title: 'Après',
     author: 'Stephen King',
-    coverUrl:
-      '/books_pictures/c526c2eb2ea5.jpg',
+    coverUrl: '/books_pictures/c526c2eb2ea5.jpg',
     pages: 260,
     genre: ['Thriller', 'Horreur'],
     saga: '',
@@ -757,8 +736,7 @@ export const baseBooksThriller: BaseBook[] = [
   {
     title: 'Billy Summers',
     author: 'Stephen King',
-    coverUrl:
-      '/books_pictures/372eb50ef95b.jpg',
+    coverUrl: '/books_pictures/372eb50ef95b.jpg',
     pages: 520,
     genre: ['Thriller'],
     saga: '',
@@ -918,8 +896,7 @@ export const baseBooksThriller: BaseBook[] = [
   {
     title: 'Minuit 4',
     author: 'Stephen King',
-    coverUrl:
-      '/books_pictures/19b4f0c09a62.jpg',
+    coverUrl: '/books_pictures/19b4f0c09a62.jpg',
     pages: 360,
     genre: ['Thriller', 'Horreur'],
     saga: 'Quatre minuits après minuit',
@@ -942,6 +919,20 @@ export const baseBooksThriller: BaseBook[] = [
     releaseDate: '1991-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'American Psycho',
+    author: 'Bret Easton Ellis',
+    coverUrl: '/books_pictures/b6982bff2cce.jpg',
+    pages: 416,
+    genre: ['Thriller', 'Horreur'],
+    saga: '',
+    sagaOrder: 0,
+    sagaFinished: false,
+    releaseDate: '1991-03-16',
+    description: '',
+    countryOrigin: 'États-Unis',
     selectDisplayOrder: 0,
   },
   {
@@ -1075,8 +1066,7 @@ export const baseBooksThriller: BaseBook[] = [
   {
     title: 'Mystic River',
     author: 'Dennis Lehane',
-    coverUrl:
-      '/books_pictures/3e9e7c211a1f.jpg',
+    coverUrl: '/books_pictures/3e9e7c211a1f.jpg',
     pages: 496,
     genre: ['Thriller', 'Policier'],
     saga: '',
@@ -1114,21 +1104,6 @@ export const baseBooksThriller: BaseBook[] = [
     description:
       'Deux flics enquêtent sur des meurtres rituels dans les Alpes.',
     countryOrigin: 'France',
-    selectDisplayOrder: 0,
-  },
-  {
-    title: 'Battle Royale',
-    author: 'Koushun Takami',
-    coverUrl: '/books_pictures/10b3475f5508.jpg',
-    pages: 720,
-    genre: ['Thriller', 'Dystopie'],
-    saga: '',
-    sagaOrder: 0,
-    sagaFinished: false,
-    releaseDate: '1999-01-01',
-    description:
-      'Des collégiens sont forcés de s’entretuer dans une arène télévisée.',
-    countryOrigin: 'Japon',
     selectDisplayOrder: 0,
   },
   {
@@ -1218,8 +1193,7 @@ export const baseBooksThriller: BaseBook[] = [
   {
     title: 'La colline au gibet',
     author: 'Michel Bussi',
-    coverUrl:
-      '/books_pictures/08caeb01fb85.jpg',
+    coverUrl: '/books_pictures/08caeb01fb85.jpg',
     pages: 400,
     genre: ['Thriller', 'Policier'],
     saga: '',
@@ -1249,7 +1223,7 @@ export const baseBooksThriller: BaseBook[] = [
     author: 'Dan Brown',
     coverUrl: '/books_pictures/Da-Vinci-code.jpg',
     pages: 480,
-    genre: ['Thriller', 'Policier', 'Classiques'],
+    genre: ['Thriller', 'Policier'],
     saga: 'Robert Langdon',
     sagaOrder: 1,
     sagaFinished: false,
@@ -1361,8 +1335,7 @@ export const baseBooksThriller: BaseBook[] = [
   {
     title: 'Identités croisées',
     author: 'Harlan Coben',
-    coverUrl:
-      '/books_pictures/8fc4474a7f01.jpg',
+    coverUrl: '/books_pictures/8fc4474a7f01.jpg',
     pages: 400,
     genre: ['Thriller', 'Policier'],
     saga: '',
@@ -1376,8 +1349,7 @@ export const baseBooksThriller: BaseBook[] = [
   {
     title: 'Six ans déjà',
     author: 'Harlan Coben',
-    coverUrl:
-      '/books_pictures/7e7bfff9cede.jpg',
+    coverUrl: '/books_pictures/7e7bfff9cede.jpg',
     pages: 400,
     genre: ['Thriller', 'Policier'],
     saga: '',
@@ -1533,8 +1505,7 @@ export const baseBooksThriller: BaseBook[] = [
   {
     title: 'Malavita',
     author: 'Tonino Benacquista',
-    coverUrl:
-      '/books_pictures/4619cf9c8a01.jpg',
+    coverUrl: '/books_pictures/4619cf9c8a01.jpg',
     pages: 320,
     genre: ['Thriller', 'Policier'],
     saga: '',
@@ -1577,8 +1548,7 @@ export const baseBooksThriller: BaseBook[] = [
   {
     title: 'Prime time',
     author: 'Maxime Chattam',
-    coverUrl:
-      '/books_pictures/b181d619a822.jpg',
+    coverUrl: '/books_pictures/b181d619a822.jpg',
     pages: 400,
     genre: ['Thriller', 'Policier'],
     saga: '',
@@ -1718,8 +1688,7 @@ export const baseBooksThriller: BaseBook[] = [
   {
     title: 'Le signe',
     author: 'Raymond Khoury',
-    coverUrl:
-      '/books_pictures/7d7e1897ebd7.jpg',
+    coverUrl: '/books_pictures/7d7e1897ebd7.jpg',
     pages: 400,
     genre: ['Thriller', 'Aventure'],
     saga: '',
@@ -1803,8 +1772,7 @@ export const baseBooksThriller: BaseBook[] = [
   {
     title: 'Le frère de sang',
     author: 'Jacques Ravenne et Éric Giacometti',
-    coverUrl:
-      '/books_pictures/92ad266ac0f8.jpg',
+    coverUrl: '/books_pictures/92ad266ac0f8.jpg',
     pages: 400,
     genre: ['Thriller', 'Policier'],
     saga: 'Antoine Marcas',
@@ -2267,5 +2235,21 @@ export const baseBooksThriller: BaseBook[] = [
     description: '',
     countryOrigin: 'Japon',
     selectDisplayOrder: 0,
-  }
+  },
+
+
+  {
+    title: 'Le diable tout le temps',
+    author: 'Donald Ray Pollock',
+    coverUrl: '/books_pictures/fad48de6155a.jpg',
+    pages: 256,
+    genre: ['Littérature', 'Thriller'],
+    saga: '',
+    sagaOrder: 0,
+    sagaFinished: false,
+    releaseDate: '2011-01-01',
+    description: '',
+    countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
+  },
 ];

@@ -2238,7 +2238,7 @@ export const dantesBooks: UserBook[] = [
     ratingComment: '',
   },
   {
-    title: 'Le bourgeois Gentilshommes',
+    title: 'Le bourgeois gentilhomme',
     author: 'Molière',
     firstReadDate: '',
     lastReadDate: '',
