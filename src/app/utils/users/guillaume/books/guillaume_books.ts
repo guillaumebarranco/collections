@@ -1901,4 +1901,21 @@ export const guillaumeBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: "",
   },
+
+  {
+    title: "Féroce Déférence (Lettres d'enchantement, #0)",
+    author: "Rebecca Ross",
+    firstReadDate: "2026-09-26",
+    lastReadDate: "2026-09-26",
+    otherReadDates: [],
+    rating: 4.25,
+    reading: false,
+    readTimes: 1,
+    owned: false,
+    borrowed: "Lucile",
+    loaned: "",
+    readPriority: 3,
+    wantToReadAgain: false,
+    ratingComment: "",
+  },
 ];

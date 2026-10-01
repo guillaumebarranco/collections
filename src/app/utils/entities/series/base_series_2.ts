@@ -2617,24 +2617,51 @@ export const baseSeries2: BaseSerie[] = [
     title: 'Outer Banks',
     director: 'Josh Pate, Jonas Pate, Shannon Burke',
     actors: [
-      { name: 'Chase Stokes' },
-      { name: 'Madelyn Cline' },
-      { name: 'Rudy Pankow' },
+      {
+        name: "Chase Stokes",
+      },
+      {
+        name: "Madelyn Cline",
+      },
+      {
+        name: "Rudy Pankow",
+      }
     ],
-    coverUrl: '/series_pictures/817c1df0793c.jpg',
-    releaseDate: '2020-04-15',
-    endDate: '',
+    coverUrl: "/series_pictures/817c1df0793c.jpg",
+    releaseDate: "2020-04-15",
+    endDate: "2026-07-20",
     genre: ['Action', 'Crime', 'Drama'],
     seasonsData: [
-      { seasonNumber: 1, nbEpisodes: 10, totalLength: 500 },
-      { seasonNumber: 2, nbEpisodes: 10, totalLength: 500 },
-      { seasonNumber: 3, nbEpisodes: 10, totalLength: 500 },
-      { seasonNumber: 4, nbEpisodes: 10, totalLength: 500 },
+      {
+        seasonNumber: 1,
+        nbEpisodes: 10,
+        totalLength: 499,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 10,
+        totalLength: 488,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 10,
+        totalLength: 521,
+      },
+      {
+        seasonNumber: 4,
+        nbEpisodes: 10,
+        totalLength: 534,
+      },
+      {
+        seasonNumber: 5,
+        nbEpisodes: 10,
+        totalLength: 507,
+      }
     ],
-    description: '',
+    description: "",
     fromEntity: null,
-    saga: '',
-    countryOrigin: 'États-Unis',
+    saga: "",
+    countryOrigin: "États-Unis",
   },
   {
     title: 'Good Girls',

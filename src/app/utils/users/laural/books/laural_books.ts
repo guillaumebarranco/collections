@@ -2720,4 +2720,21 @@ export const lauralBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
+
+  {
+    title: "54 minutes",
+    author: "Marieke Nijkamp",
+    firstReadDate: "2026-09-26",
+    lastReadDate: "2026-09-26",
+    otherReadDates: [],
+    rating: 3.5,
+    reading: false,
+    readTimes: 1,
+    owned: false,
+    borrowed: "",
+    loaned: "",
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: "",
+  },
 ];

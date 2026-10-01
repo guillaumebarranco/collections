@@ -2587,4 +2587,74 @@ export const baseMoviesApi: BaseMovie[] = [
     selectDisplayOrder: 0,
     oscars: [],
   },
+
+  {
+    title: "La Plateforme",
+    director: "Galder Gaztelu-Urrutia",
+    actors: [
+      {
+        name: "Iván Massagué",
+      },
+      {
+        name: "Zorion Eguileor",
+      },
+      {
+        name: "Antonia San Juan",
+      },
+      {
+        name: "Emilio Buale",
+      },
+    ],
+    coverUrl: "https://fr.web.img6.acsta.net/pictures/19/09/02/16/57/3762755.jpg",
+    releaseDate: "2019-11-08",
+    length: 94,
+    genre: ['Thriller', 'Horreur', 'Dystopie', 'Drame', 'Mystère'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['Espagne'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+
+  {
+    title: "Digger",
+    director: " Alejandro González Iñárritu",
+    actors: [
+      {
+        name: "Tom Cruise",
+      },
+      {
+        name: "Riz Ahmed",
+      },
+      {
+        name: "John Goodman",
+      },
+      {
+        name: "Sandra Hüller",
+      },
+      {
+        name: "Jesse Plemons",
+      },
+      {
+        name: "Emma D'Arcy",
+      },
+      {
+        name: "Sophie Wilde",
+      },
+      {
+        name: "Burn Goreman",
+      },
+    ],
+    coverUrl: "https://m.media-amazon.com/images/M/MV5BYjVmMjY5OTUtMTRiYS00YTU5LWI3NGYtZGNlODI2YmU0NGE1XkEyXkFqcGc@._V1_.jpg",
+    releaseDate: "2026-09-30",
+    length: 129,
+    genre: ['Comédie', 'Drame'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
 ];
