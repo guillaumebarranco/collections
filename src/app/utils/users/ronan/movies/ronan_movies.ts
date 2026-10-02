@@ -23698,4 +23698,22 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
   },
+
+  {
+    title: "La Plateforme 2",
+    director: " Galder Gaztelu-Urrutia",
+    rating: 2,
+    timesWatched: 1,
+    firstViewedDate: "2026-10-01",
+    lastViewedDate: "2026-10-01",
+    otherSeenDates: [],
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: "",
+    inList: [],
+    borrowed: "",
+    loaned: "",
+  },
 ];

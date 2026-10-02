@@ -9993,4 +9993,26 @@ export const ronanSeries: UserSeries = [
     borrowed: "",
     loaned: "",
   },
+
+  {
+    title: "Nous les Menteurs",
+    director: "Julie Plec, Carina Adly Mackenzie",
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 3,
+        watching: false,
+        seasonTimesWatched: 1,
+        firstViewedDate: "2026-10-01",
+        lastViewedDate: "2026-10-01",
+        otherViewedDates: [],
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: "",
+    borrowed: "",
+    loaned: "",
+  },
 ];

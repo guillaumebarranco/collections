@@ -362,4 +362,41 @@ export const baseSeriesApi: BaseSerie[] = [
     saga: '',
     fromEntity: null,
   },
+
+  {
+    title: "Nous les Menteurs",
+    director: "Julie Plec, Carina Adly Mackenzie",
+    actors: [
+      {
+        name: "Emily Alyn",
+      },
+      {
+        name: "Lind Shubham Maheshwari",
+      },
+      {
+        name: "Esther McGregor",
+      },
+      {
+        name: "Joseph Zada",
+      },
+      {
+        name: "Caitlin FitzGerald",
+      },
+    ],
+    coverUrl: "https://fr.web.img2.acsta.net/img/69/ed/69ed106a8d27476a203f7fe18c930da8.jpg",
+    releaseDate: "2025-06-18",
+    endDate: "",
+    genre: ['Thriller'],
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 8,
+        totalLength: 448,
+      },
+    ],
+    description: "",
+    countryOrigin: "États-Unis",
+    saga: "",
+    fromEntity: null,
+  },
 ];

@@ -2737,4 +2737,21 @@ export const lauralBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: "",
   },
+
+  {
+    title: "Les Morsures du Silence ",
+    author: "Johana Gustawsson",
+    firstReadDate: "2026-09-30",
+    lastReadDate: "2026-09-30",
+    otherReadDates: [],
+    rating: 3.25,
+    reading: false,
+    readTimes: 1,
+    owned: false,
+    borrowed: "",
+    loaned: "",
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: "",
+  },
 ];

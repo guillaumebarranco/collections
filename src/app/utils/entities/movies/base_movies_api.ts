@@ -2657,4 +2657,30 @@ export const baseMoviesApi: BaseMovie[] = [
     selectDisplayOrder: 0,
     oscars: [],
   },
+
+  {
+    title: "La Plateforme 2",
+    director: " Galder Gaztelu-Urrutia",
+    actors: [
+      {
+        name: "Milena Smit",
+      },
+      {
+        name: "Natalia Tena",
+      },
+      {
+        name: "Hovik Keuchkerian",
+      },
+    ],
+    coverUrl: "https://fr.web.img4.acsta.net/img/c1/cb/c1cbe660582dd863581b0076dacf6dc8.jpg",
+    releaseDate: "2024-10-04",
+    length: 100,
+    genre: ['Horreur', 'Dystopie'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['Espagne'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
 ];
