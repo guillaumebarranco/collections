@@ -1328,7 +1328,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
   },
   {
-    title: "DAHMER : Monstre : L'histoire de Jeffrey Dahmer",
+    title: 'Monstre',
     director: 'Ryan Murphy, Ian Brennan',
     seasons: [
       {

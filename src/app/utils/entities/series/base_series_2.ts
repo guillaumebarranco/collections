@@ -3927,7 +3927,7 @@ export const baseSeries2: BaseSerie[] = [
     countryOrigin: 'Royaume-Uni',
   },
   {
-    title: "DAHMER : Monstre : L'histoire de Jeffrey Dahmer",
+    title: 'Monstre',
     director: 'Ryan Murphy, Ian Brennan',
     actors: [
       { name: 'Evan Peters' },
@@ -3941,12 +3941,18 @@ export const baseSeries2: BaseSerie[] = [
     coverUrl:
       '/series_pictures/115bb35fc4d4.jpg',
     releaseDate: '2022-09-21',
-    endDate: '2022-09-21',
+    endDate: '',
     genre: ['Crime', 'Drame', 'Horreur'],
-    seasonsData: [{ seasonNumber: 1, nbEpisodes: 10, totalLength: 500 }],
-    description: '',
+    seasonsData: [
+      { seasonNumber: 1, nbEpisodes: 10, totalLength: 500 },
+      { seasonNumber: 2, nbEpisodes: 9, totalLength: 495 },
+      { seasonNumber: 3, nbEpisodes: 8, totalLength: 480 },
+      { seasonNumber: 4, nbEpisodes: 8, totalLength: 480 },
+    ],
+    description:
+      "Anthologie, une affaire par saison : Dahmer – Monstre : L'Histoire de Jeffrey Dahmer, Monstres : L'histoire de Lyle et Erik Menendez, Monstre : L'histoire d'Ed Gein, Monstre : L'histoire de Lizzie Borden.",
     fromEntity: null,
-    saga: 'Monstre',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
