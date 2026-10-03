@@ -23716,4 +23716,22 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
   },
+
+  {
+    title: "Conclave",
+    director: "Edward Berger",
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: "2026-10-03",
+    lastViewedDate: "2026-10-03",
+    otherSeenDates: [],
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: "",
+    inList: [],
+    borrowed: "",
+    loaned: "",
+  },
 ];

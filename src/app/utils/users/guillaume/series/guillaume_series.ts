@@ -150,7 +150,7 @@ export const guillaumeSeries: UserSeries = [
       seasonTimesWatched: 20,
       firstViewedDate: "2013-05-04",
       lastViewedDate: "",
-      otherViewedDates: ["2020-10-25", "2021-08-15"],
+      otherViewedDates: ["2020-10-25", "2021-08-15", "2026-09-26"],
     },
     {
       seasonNumber: 9,
@@ -5650,5 +5650,27 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+  },
+
+  {
+    title: "La carte des désirs",
+    director: "Laura M. Campos, Gemma Ferraté",
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 3.75,
+      watching: false,
+      seasonTimesWatched: 1,
+      firstViewedDate: "2026-10-03",
+      lastViewedDate: "2026-10-03",
+      otherViewedDates: [],
+    }
+  ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: "",
+    borrowed: "",
+    loaned: "",
   },
 ];
