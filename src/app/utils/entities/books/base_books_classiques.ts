@@ -2298,7 +2298,7 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: "Le Rêve d'un homme ridicule",
     author: 'Fiodor Dostoïevski',
-    coverUrl: '',
+    coverUrl: '/books_pictures/9782330212506_1.webp',
     pages: 64,
     genre: ['Classiques'],
     saga: '',

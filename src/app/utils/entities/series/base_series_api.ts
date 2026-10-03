@@ -383,7 +383,7 @@ export const baseSeriesApi: BaseSerie[] = [
         name: "Caitlin FitzGerald",
       },
     ],
-    coverUrl: "https://fr.web.img2.acsta.net/img/69/ed/69ed106a8d27476a203f7fe18c930da8.jpg",
+    coverUrl: "/series_pictures/90a881f7d8c2.jpg",
     releaseDate: "2025-06-18",
     endDate: "",
     genre: ['Thriller'],

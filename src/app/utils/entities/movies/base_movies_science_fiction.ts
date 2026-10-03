@@ -4438,6 +4438,28 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     oscars: [],
   },
   {
+    title: 'La Plateforme',
+    director: 'Galder Gaztelu-Urrutia',
+    actors: [
+      { name: 'Iván Massagué' },
+      { name: 'Zorion Eguileor' },
+      { name: 'Antonia San Juan' },
+      { name: 'Emilio Buale' },
+      { name: 'Alexandra Masangkay' },
+    ],
+    coverUrl: '/movies_pictures/02dac3bc7021.jpg',
+    releaseDate: '2019-11-08',
+    length: 94,
+    genre: ['Science Fiction', 'Thriller', 'Horreur', 'Dystopie'],
+    saga: 'La Plateforme',
+    description:
+      "Dans une prison verticale, une plateforme de nourriture descend chaque jour d'étage en étage, et les détenus du bas ne récupèrent que les restes.",
+    fromEntity: null,
+    countryOrigin: ['Espagne'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+  {
     title: 'Code 8',
     director: 'Jeff Chan',
     actors: [
