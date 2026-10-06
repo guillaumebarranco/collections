@@ -17,5 +17,6 @@ export const dantesWatchListMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
 ];

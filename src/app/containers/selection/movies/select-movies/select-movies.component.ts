@@ -27,6 +27,12 @@ import { Router } from '@angular/router';
 import { getApiBaseUrl } from '../../../../core/config';
 import { getEmptyMovie } from '../../../../helpers/empty-entities-helper';
 import { normalizeSearchText } from '../../../../utils/normalize-search-text';
+import { firstValueFrom } from 'rxjs';
+import {
+  MoveEntityReviewModalComponent,
+  MoveEntityReviewModalData,
+  MoveEntityReviewModalResult,
+} from '../../../../components/modals/move-entity-review-modal/move-entity-review-modal.component';
 
 @Component({
   selector: 'app-select-movies',
@@ -50,6 +56,7 @@ export class SelectMoviesComponent
   private loadMoreObserver: IntersectionObserver | null = null;
 
   readonly visibleCount = signal(SelectMoviesComponent.pageSize);
+  readonly descriptionExpanded = signal(false);
 
   userMovies = signal<Movie[]>([]);
   watchlistMovies = signal<Movie[]>([]);
@@ -72,10 +79,20 @@ export class SelectMoviesComponent
     );
   });
 
-  // Films déjà en watchlist (toujours exclus de la liste pour éviter les doublons)
+  // Films déjà en watchlist (exclus du parcours, mais retrouvés par la recherche « films vus »).
   alreadyInWatchlistMovies = computed<Set<string>>(() => {
     const watchlistMovies = this.watchlistMovies();
     return new Set(watchlistMovies.map((movie) => this.getMovieKey(movie)));
+  });
+
+  /** Films du catalogue déjà dans « à voir », pas encore vus. */
+  watchlistMoviesInCatalog = computed<Movie[]>(() => {
+    const watchlistKeys = this.alreadyInWatchlistMovies();
+    const watchedKeys = this.watchedMovies();
+    return this.allMoviesMergedList().filter((movie) => {
+      const key = this.getMovieKey(movie);
+      return watchlistKeys.has(key) && !watchedKeys.has(key);
+    });
   });
 
   // Tous les films proposés : ni déjà vus, ni déjà en watchlist.
@@ -100,11 +117,28 @@ export class SelectMoviesComponent
     const normalizedTerm = normalizeSearchText(this.searchTerm().trim());
     const list = this.allMovies();
     if (!normalizedTerm) return list;
-    return list.filter((movie) => {
-      const title = normalizeSearchText(movie.title ?? '');
-      const director = normalizeSearchText(movie.director ?? '');
-      return title.includes(normalizedTerm) || director.includes(normalizedTerm);
-    });
+
+    const matches = list.filter((movie) =>
+      this.matchesSearch(movie, normalizedTerm)
+    );
+    if (this.isCinemaMode() || this.isWatchOrReadlistMode()) {
+      return matches;
+    }
+
+    const watchlistMatches = this.sortByDisplayOrder(
+      this.watchlistMoviesInCatalog().filter((movie) =>
+        this.matchesSearch(movie, normalizedTerm)
+      )
+    );
+    if (watchlistMatches.length === 0) return matches;
+
+    const alreadyListed = new Set(
+      matches.map((movie) => this.getMovieKey(movie))
+    );
+    const surfaced = watchlistMatches.filter(
+      (movie) => !alreadyListed.has(this.getMovieKey(movie))
+    );
+    return [...surfaced, ...matches];
   });
 
   displayedMovies = computed(() =>
@@ -142,6 +176,40 @@ export class SelectMoviesComponent
 
   isSelected(movie: Movie): boolean {
     return this.selectedMovies().has(this.getMovieKey(movie));
+  }
+
+  isOnWatchlist(movie: Movie): boolean {
+    return (
+      !this.isCinemaMode() &&
+      !this.isWatchOrReadlistMode() &&
+      this.alreadyInWatchlistMovies().has(this.getMovieKey(movie))
+    );
+  }
+
+  private matchesSearch(movie: Movie, normalizedTerm: string): boolean {
+    const title = normalizeSearchText(movie.title ?? '');
+    const director = normalizeSearchText(movie.director ?? '');
+    return title.includes(normalizedTerm) || director.includes(normalizedTerm);
+  }
+
+  private sortByDisplayOrder(movies: Movie[]): Movie[] {
+    return [...movies].sort(
+      (a, b) => (b.selectDisplayOrder ?? 0) - (a.selectDisplayOrder ?? 0)
+    );
+  }
+
+  private moviesEligibleForSubmit(): Movie[] {
+    if (this.isCinemaMode() || this.isWatchOrReadlistMode()) {
+      return this.allMovies();
+    }
+    const byKey = new Map<string, Movie>();
+    for (const movie of [
+      ...this.watchlistMoviesInCatalog(),
+      ...this.allMovies(),
+    ]) {
+      byKey.set(this.getMovieKey(movie), movie);
+    }
+    return [...byKey.values()];
   }
 
   private getMovieKey(movie: Movie): string {
@@ -233,7 +301,7 @@ export class SelectMoviesComponent
       await this.updateCinemaSelection();
       return;
     }
-    const selectedMoviesList = this.allMovies()
+    const selectedMoviesList = this.moviesEligibleForSubmit()
       .filter((movie) => this.isSelected(movie))
       .map((movie) => {
         return {
@@ -274,10 +342,87 @@ export class SelectMoviesComponent
         return;
       }
 
+      if (!this.isWatchOrReadlistMode() && selectedMoviesList.length === 1) {
+        await this.askRatingForJustWatchedMovie(selectedMoviesList[0]);
+      }
+
       this.router.navigate([`${this.userId()}/movies`]);
     } catch (error) {
       console.warn("Erreur réseau lors de l'ajout batch des films.", error);
     }
+  }
+
+  goBackToMovies(): void {
+    this.navigateToEntityList('movies');
+  }
+
+  /** Même fenêtre de note que « Je viens de voir ce film » sur un film à voir. */
+  private async askRatingForJustWatchedMovie(movie: Movie): Promise<void> {
+    const dialogRef = this.dialog.open<
+      MoveEntityReviewModalComponent,
+      MoveEntityReviewModalData,
+      MoveEntityReviewModalResult | undefined
+    >(MoveEntityReviewModalComponent, {
+      data: {
+        entityTitle: movie.title,
+        showViewedDateToday: !this.alreadyInWatchlistMovies().has(
+          this.getMovieKey(movie)
+        ),
+      },
+      width: 'auto',
+      maxWidth: '95vw',
+    });
+
+    const result = await firstValueFrom(dialogRef.afterClosed());
+    if (!result) return;
+
+    try {
+      const response = await fetch(`${getApiBaseUrl()}/movies/batch-rating`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          userId: this.userId(),
+          movies: [
+            {
+              title: movie.title,
+              director: movie.director,
+              rating: result.rating,
+              ratingComment: result.ratingComment,
+              ...(result.setViewedDateToToday
+                ? {
+                    firstViewedDate: this.todayIsoDate(),
+                    lastViewedDate: this.todayIsoDate(),
+                  }
+                : {}),
+            },
+          ],
+        }),
+      });
+
+      if (!response.ok) {
+        const payload = await response.json().catch(() => ({}));
+        console.warn(
+          'movies:batch-rating:error',
+          payload?.error || response.statusText
+        );
+      }
+    } catch (error) {
+      console.warn('movies:batch-rating:error', error);
+    }
+  }
+
+  private todayIsoDate(): string {
+    const today = new Date();
+    const year = today.getFullYear();
+    const month = String(today.getMonth() + 1).padStart(2, '0');
+    const day = String(today.getDate()).padStart(2, '0');
+    return `${year}-${month}-${day}`;
+  }
+
+  toggleDescription(): void {
+    this.descriptionExpanded.update((expanded) => !expanded);
   }
 
   private async updateCinemaSelection(): Promise<void> {

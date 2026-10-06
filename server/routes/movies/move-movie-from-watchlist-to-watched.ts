@@ -13,6 +13,7 @@ const {
   getUserMoviesFiles,
   removeMovieFromFile,
   getUserWatchlistMoviesFiles,
+  formatMovieLastUpdated,
 } = require('../../utils/movies/movies-utils');
 
 import type { UserMovie } from '../../../src/app/models/movie-model';
@@ -79,7 +80,7 @@ function formatUserMovie(
     typeof movie.borrowed === 'string' ? movie.borrowed : ''
   )}",\n    loaned: "${escapeString(
     typeof movie.loaned === 'string' ? movie.loaned : ''
-  )}",\n  },`;
+  )}",\n    lastUpdated: "${formatMovieLastUpdated()}",\n  },`;
 }
 
 function formatWatchlistMovie(movie: UserMovie) {
@@ -91,7 +92,7 @@ function formatWatchlistMovie(movie: UserMovie) {
     typeof movie.borrowed === 'string' ? movie.borrowed : ''
   )}",\n    loaned: "${escapeString(
     typeof movie.loaned === 'string' ? movie.loaned : ''
-  )}",\n  },`;
+  )}",\n    lastUpdated: "${formatMovieLastUpdated()}",\n  },`;
 }
 
 function getUserMoviesTargetFile(userId: string, isWatchlist: boolean) {

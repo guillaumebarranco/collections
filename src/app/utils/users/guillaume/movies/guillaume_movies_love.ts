@@ -17,6 +17,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: ["Mes romances", "Films d'écureuil"],
+    lastUpdated: '',
   },
   {
     title: 'The Princess Switch',
@@ -34,6 +35,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Petits coups montés',
@@ -51,6 +53,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Demain est un autre jour',
@@ -68,6 +71,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: ["Mes romances"],
+    lastUpdated: '',
   },
   {
     title: 'Champagne Problems',
@@ -85,6 +89,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Charlie, les filles lui disent merci',
@@ -102,6 +107,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Le Chasseur de primes',
@@ -119,6 +125,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'People We Meet on Vacation',
@@ -136,6 +143,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: ['Mes romances'],
+    lastUpdated: '',
   },
   {
     title: 'Tout le Bleu du Ciel',
@@ -153,6 +161,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Nos coeurs meurtris',
@@ -170,6 +179,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: ["Mes romances", "Films d'écureuil"],
+    lastUpdated: '',
   },
   {
     title: 'Au plaisir de se faire trahir',
@@ -187,6 +197,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "La Probabilité statistique de l'amour au premier regard",
@@ -204,6 +215,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Ce sera toi',
@@ -221,6 +233,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Hello, adieu, et nous au milieu',
@@ -238,6 +251,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Un Accord Parfait',
@@ -255,6 +269,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: ['Mes romances'],
+    lastUpdated: '',
   },
   {
     title: 'The In-between',
@@ -272,6 +287,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'À Travers Ma Fenêtre',
@@ -289,6 +305,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Love Hard',
@@ -306,6 +323,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "L'Amour complexe",
@@ -323,6 +341,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'La Belle et la Bête',
@@ -340,6 +359,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: ["Films d'écureuil"],
+    lastUpdated: '',
   },
   {
     title: 'Un choix',
@@ -357,6 +377,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: ['Mes romances'],
+    lastUpdated: '',
   },
   {
     title: "L'agence",
@@ -374,6 +395,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Un jour',
@@ -391,6 +413,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Sex Friends',
@@ -408,6 +431,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: ["Mes classiques", "Mes romances"],
+    lastUpdated: '',
   },
   {
     title: 'Love & autres drogues',
@@ -425,6 +449,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: ['Mes classiques', 'Mes romances'],
+    lastUpdated: '',
   },
   {
     title: 'Sexy Dance',
@@ -442,6 +467,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Sexy Dance 2',
@@ -459,6 +485,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Sexy Dance 3D',
@@ -476,6 +503,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: ['Mes classiques'],
+    lastUpdated: '',
   },
   {
     title: "L'Arnacœur",
@@ -493,6 +521,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: ['Mes romances'],
+    lastUpdated: '',
   },
   {
     title: 'Remember Me',
@@ -510,6 +539,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "Valentine's Day",
@@ -527,6 +557,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'La proposition',
@@ -544,6 +575,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: ['Mes romances'],
+    lastUpdated: '',
   },
   {
     title: '17 ans encore',
@@ -561,6 +593,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: ['Mes romances'],
+    lastUpdated: '',
   },
   {
     title: '(500) Jours Ensemble',
@@ -578,6 +611,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Jackpot',
@@ -595,6 +629,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: ['Mes romances'],
+    lastUpdated: '',
   },
   {
     title: 'Juno',
@@ -612,6 +647,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Orgueil et Préjugés',
@@ -629,6 +665,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Match Point',
@@ -646,6 +683,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Hitch : Expert en Séduction',
@@ -663,6 +701,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: ["Mes classiques", "Mes romances", "Films d'écureuil"],
+    lastUpdated: '',
   },
   {
     title: 'Des étoiles plein les yeux',
@@ -680,6 +719,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Eternal Sunshine of the Spotless Mind',
@@ -697,6 +737,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'The Girl Next Door',
@@ -714,6 +755,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: ["Mes classiques", "Mes romances", "Films d'écureuil"],
+    lastUpdated: '',
   },
   {
     title: 'Amour & Amnésie',
@@ -731,6 +773,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: ["Mes classiques", "Mes romances"],
+    lastUpdated: '',
   },
   {
     title: 'Love Actually',
@@ -748,6 +791,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "Le temps d'un automne",
@@ -765,6 +809,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: ['Mes romances'],
+    lastUpdated: '',
   },
   {
     title: 'Pearl Harbor',
@@ -782,6 +827,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: ['Mes romances'],
+    lastUpdated: '',
   },
   {
     title: 'Ce que Veulent les Femmes',
@@ -799,6 +845,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: ["Mes classiques", "Mes romances", "Films d'écureuil"],
+    lastUpdated: '',
   },
   {
     title: 'Coup de foudre à Notting Hill',
@@ -816,6 +863,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Rencontre avec Joe Black',
@@ -833,6 +881,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Pretty Woman',
@@ -850,6 +899,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: ["Mes romances", "Films d'écureuil"],
+    lastUpdated: '',
   },
   {
     title: "L'Amour puissance mille",
@@ -867,6 +917,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'La La Land',
@@ -884,6 +935,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "L'amour ouf",
@@ -901,6 +953,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'The Princess Switch : Switched Again',
@@ -918,6 +971,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Holidate',
@@ -935,6 +989,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Rich in Love',
@@ -952,6 +1007,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: ['Mes romances'],
+    lastUpdated: '',
   },
   {
     title: 'Isi & Ossi',
@@ -969,6 +1025,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Last Christmas',
@@ -986,6 +1043,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: '40 jours et 40 nuits',
@@ -1003,6 +1061,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: ["Mes classiques", "Mes romances"],
+    lastUpdated: '',
   },
   {
     title: 'Coup de foudre à Manhattan',
@@ -1020,6 +1079,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Love again: un peu, beaucoup, passionnément',
@@ -1037,6 +1097,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Honey',
@@ -1054,6 +1115,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Meilleures ennemies',
@@ -1071,6 +1133,7 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'La règle de novembre',
@@ -1088,5 +1151,6 @@ export const guillaumeMoviesLove: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
 ];

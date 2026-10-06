@@ -326,6 +326,7 @@ export const getMovieDataFromUserMovieAndBaseMovie = (
   inList: userMovie.inList ?? [],
   borrowed: userMovie.borrowed ?? '',
   loaned: userMovie.loaned ?? '',
+  lastUpdated: userMovie.lastUpdated ?? '',
 });
 
 export const getSerieDataFromUserSerieAndBaseSerie = (

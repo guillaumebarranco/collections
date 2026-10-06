@@ -26,6 +26,26 @@
 
 <app-select-entity class="select-movies-container">
   <div class="header" select-header>
+    @if (!isCinemaMode() && !isWatchOrReadlistMode()) {
+    <button
+      type="button"
+      class="select-movies-back"
+      (click)="goBackToMovies()"
+      aria-label="Retour aux films"
+    >
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path
+          d="M15 6L9 12l6 6"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2.2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      Précédent
+    </button>
+    }
     <h1>
       {{
         isCinemaMode()
@@ -37,60 +57,60 @@
     </h1>
 
     <div class="selection-description">
-      @if(isCinemaMode()) {
-      <p>
-        Bonjour {{ username() }} <br /><br />
-        Ici tu peux sélectionner les films que tu as vus au cinema.
-        <br /><br />
-        Les films déjà vus au cinema sont pré-cochés.
-      </p>
-      } @else if(!isWatchOrReadlistMode()) {
-      <p>
-        Bonjour {{ username() }} <br /><br />
-        Ici tu peux ajouter des films que tu as vu. La liste ci-dessous affiche
-        uniquement les films que tu n'as pas encore dans ta collection.
-        <br /><br />
-        Sélectionne les films que tu as vus, puis clique sur "Ajouter à mes
-        films vus".
-      </p>
-      @if (hasWatchedMoviesFromExistingCatalog()) {
-      <p>
-        Si tu ne trouves pas ton film dans la liste, ajoute-le d'abord dans les
-        entités (si jamais tu souhaites ajouter un grand nombre de films non
-        présents ici, le mieux reste de contacter l'administrateur) :
-      </p>
-      <div class="select-add-actions">
-        <button class="makya-btn" (click)="openRequestEntityAddDialog()">
-          Demander à l'admin l'ajout d'un film sur Makya
-        </button>
-        <button class="makya-btn" (click)="openAddMovieDialog()">
-          Ajouter manuellement un film qui n'existe pas encore sur Makya
-        </button>
-      </div>
-      }
-      } @else if(isWatchOrReadlistMode()) {
-      <p>
-        Bonjour {{ username() }} <br /><br />
-        Tu es en mode "Watchlist" ! Ici, tu peux sélectionner les films que tu
-        souhaites ajouter à ta liste de films à voir.
-        <br /><br />
-        Les films que tu as déjà vus sont automatiquement exclus de cette liste
-        pour t'éviter les doublons.
-      </p>
-      <p>
-        Si tu ne trouves pas ton film dans la liste, demande son ajout ou
-        ajoute-le manuellement (il ira dans ta watchlist) :
-      </p>
-      <div class="select-add-actions">
-        <button class="makya-btn" (click)="openRequestEntityAddDialog()">
-          Demander à l'admin l'ajout d'un film sur Makya
-        </button>
-        <button class="makya-btn" (click)="openAddMovieDialog()">
-          Ajouter manuellement un film qui n'existe pas encore sur Makya
-        </button>
-      </div>
-      } @else {
-      <!-- <p>
+      <div
+        class="selection-description__text"
+        [class.is-expanded]="descriptionExpanded()"
+      >
+        @if(isCinemaMode()) {
+        <p>
+          Bonjour {{ username() }} <br /><br />
+          Ici tu peux sélectionner les films que tu as vus au cinema.
+          <br /><br />
+          Les films déjà vus au cinema sont pré-cochés.
+        </p>
+        } @else if(!isWatchOrReadlistMode()) {
+        <p>
+          Bonjour {{ username() }} <br /><br />
+          Ici tu peux ajouter des films que tu as vu. La liste ci-dessous
+          affiche uniquement les films que tu n'as pas encore dans ta
+          collection.
+          <br /><br />
+          Une recherche retrouve aussi un film déjà dans tes films à voir. Le
+          sélectionner le passe dans tes films vus et le retire de cette liste.
+          <br /><br />
+          Sélectionne les films que tu as vus, puis clique sur "Ajouter à mes
+          films vus".
+        </p>
+        @if (hasWatchedMoviesFromExistingCatalog()) {
+        <p>
+          Si tu ne trouves pas ton film dans la liste, ajoute-le d'abord dans
+          les entités (si jamais tu souhaites ajouter un grand nombre de films
+          non présents ici, le mieux reste de contacter l'administrateur) :
+        </p>
+        <div class="select-add-actions">
+          <button class="makya-btn" (click)="openRequestEntityAddDialog()">
+            Demander à l'admin l'ajout d'un film sur Makya
+          </button>
+          <button class="makya-btn" (click)="openAddMovieDialog()">
+            Ajouter manuellement un film qui n'existe pas encore sur Makya
+          </button>
+        </div>
+        } } @else if(isWatchOrReadlistMode()) {
+        <p>
+          Bonjour {{ username() }} <br /><br />
+          Tu es en mode "Watchlist" ! Ici, tu peux sélectionner les films que tu
+          souhaites ajouter à ta liste de films à voir.
+          <br /><br />
+          Les films que tu as déjà vus sont automatiquement exclus de cette
+          liste pour t'éviter les doublons.
+        </p>
+        <p>
+          Si tu ne trouves pas ton film dans la liste, demande son ajout ou
+          ajoute-le manuellement (il ira dans ta watchlist) :
+        </p>
+
+        } @else {
+        <!-- <p>
         Bonjour {{ username() }} <br /><br />
         Si tu es ici, c'est que tu souhaites pouvoir faire ta collection de
         films regardés, pouvoir les noter, les trier par préférence, par date de
@@ -98,7 +118,26 @@
         Comment ça marche ? <br />
       </p> -->
 
-      }
+        }
+      </div>
+      <button
+        type="button"
+        class="selection-description__toggle"
+        (click)="toggleDescription()"
+        [attr.aria-expanded]="descriptionExpanded()"
+      >
+        {{ descriptionExpanded() ? "Voir moins" : "Voir plus" }}
+      </button>
+    </div>
+    <br />
+
+    <div class="select-add-actions">
+      <button class="makya-btn" (click)="openRequestEntityAddDialog()">
+        Demander à l'admin l'ajout d'un film sur Makya
+      </button>
+      <button class="makya-btn" (click)="openAddMovieDialog()">
+        Ajouter manuellement un film qui n'existe pas encore sur Makya
+      </button>
     </div>
   </div>
 
@@ -118,14 +157,17 @@
   </div>
 
   <div class="movies-grid" select-grid>
-    @for (movie of displayedMovies(); track
-    `${movie.title}-${movie.director}`) {
+    @for (movie of displayedMovies(); track `${movie.title}-${movie.director}`)
+    {
     <div
       class="movie-poster"
       [class.selected]="isSelected(movie)"
       (click)="toggleSelection(movie)"
       [title]="movie.title + ' (' + movie.releaseDate.substring(0, 4) + ')'"
     >
+      @if (isOnWatchlist(movie)) {
+      <span class="movie-poster__watchlist-badge">À voir</span>
+      }
       <img [src]="movie.coverUrl" [alt]="movie.title" loading="lazy" />
       <div class="overlay">
         <div class="checkmark"></div>
@@ -137,8 +179,7 @@
         </div>
       </div>
     </div>
-    }
-    @if (hasMoreMovies()) {
+    } @if (hasMoreMovies()) {
     <div #loadMore class="select-infinite-sentinel" aria-hidden="true"></div>
     }
   </div>

@@ -13,6 +13,9 @@ const {
   appendObjectToArrayFile,
   parseMoviesFromFile,
   getUserMoviesFiles,
+  getUserWatchlistMoviesFiles,
+  removeMovieFromFile,
+  formatMovieLastUpdated,
 } = require('../../utils/movies/movies-utils');
 
 const router = express.Router();
@@ -56,7 +59,42 @@ function formatUserMovie(movie: Movie) {
     movie.title
   )}",\n    director: "${escapeString(
     movie.director
-  )}",\n    rating: 0,\n    timesWatched: 1,\n    firstViewedDate: '',\n    lastViewedDate: '',\n    otherSeenDates: [],\n    seenAtCinema: false,\n    owned: false,\n    wantToSeeAgain: false,\n    watchPriority: 1,\n    ratingComment: '',\n    inList: [],\n    borrowed: '',\n    loaned: '',\n  },`;
+  )}",\n    rating: 0,\n    timesWatched: 1,\n    firstViewedDate: '',\n    lastViewedDate: '',\n    otherSeenDates: [],\n    seenAtCinema: false,\n    owned: false,\n    wantToSeeAgain: false,\n    watchPriority: 1,\n    ratingComment: '',\n    inList: [],\n    borrowed: '',\n    loaned: '',\n    lastUpdated: "${formatMovieLastUpdated()}",\n  },`;
+}
+
+function getTodayISO(): string {
+  const today = new Date();
+  const year = today.getFullYear();
+  const month = String(today.getMonth() + 1).padStart(2, '0');
+  const day = String(today.getDate()).padStart(2, '0');
+  return `${year}-${month}-${day}`;
+}
+
+function formatInList(inList: unknown): string {
+  if (!Array.isArray(inList) || inList.length === 0) return '[]';
+  return (
+    '[' +
+    inList
+      .map((name) => `"${escapeString(String(name))}"`)
+      .join(', ') +
+    ']'
+  );
+}
+
+/** Film déjà dans la watchlist : passage en « vu » en conservant listes, emprunt et prêt. */
+function formatWatchedMovieFromWatchlist(movie: Movie) {
+  const viewedDate = getTodayISO();
+  return `  {\n    title: "${escapeString(
+    movie.title
+  )}",\n    director: "${escapeString(
+    movie.director
+  )}",\n    rating: 0,\n    timesWatched: 1,\n    firstViewedDate: "${viewedDate}",\n    lastViewedDate: "${viewedDate}",\n    otherSeenDates: [],\n    seenAtCinema: false,\n    owned: false,\n    wantToSeeAgain: false,\n    watchPriority: 1,\n    ratingComment: '',\n    inList: ${formatInList(
+    movie.inList
+  )},\n    borrowed: "${escapeString(
+    typeof movie.borrowed === 'string' ? movie.borrowed : ''
+  )}",\n    loaned: "${escapeString(
+    typeof movie.loaned === 'string' ? movie.loaned : ''
+  )}",\n    lastUpdated: "${formatMovieLastUpdated()}",\n  },`;
 }
 
 function formatWatchlistMovie(movie: Movie) {
@@ -64,7 +102,7 @@ function formatWatchlistMovie(movie: Movie) {
     movie.title
   )}",\n    director: "${escapeString(
     movie.director
-  )}",\n    rating: 0,\n    timesWatched: 0,\n    firstViewedDate: '',\n    lastViewedDate: '',\n    otherSeenDates: [],\n    seenAtCinema: false,\n    owned: false,\n    wantToSeeAgain: false,\n    watchPriority: 1,\n    ratingComment: '',\n    inList: [],\n    borrowed: '',\n    loaned: '',\n  },`;
+  )}",\n    rating: 0,\n    timesWatched: 0,\n    firstViewedDate: '',\n    lastViewedDate: '',\n    otherSeenDates: [],\n    seenAtCinema: false,\n    owned: false,\n    wantToSeeAgain: false,\n    watchPriority: 1,\n    ratingComment: '',\n    inList: [],\n    borrowed: '',\n    loaned: '',\n    lastUpdated: "${formatMovieLastUpdated()}",\n  },`;
 }
 
 function getUserMoviesTargetFile(userId: string, isWatchlist: boolean) {
@@ -142,26 +180,101 @@ router.post('/add-existing', (req: any, res: any) => {
       existing.map((movie: Movie) => `${movie.title}|${movie.director}`)
     );
 
-    const toAdd = normalizedMovies.filter(
-      (movie: Movie) => !existingSet.has(`${movie.title}|${movie.director}`)
-    );
+    const movieKey = (movie: { title: string; director: string }) =>
+      `${movie.title}|${movie.director}`;
 
-    if (toAdd.length === 0) {
+    if (isWatchlist) {
+      const toAdd = normalizedMovies.filter(
+        (movie: Movie) => !existingSet.has(movieKey(movie))
+      );
+
+      if (toAdd.length === 0) {
+        res.status(409).json({ error: 'Movies already exist for user' });
+        return;
+      }
+
+      const userFile = getUserMoviesTargetFile(userId, true);
+      let nextContent = fs.readFileSync(userFile, 'utf8');
+      for (const movie of toAdd) {
+        nextContent = appendObjectToArrayFile(
+          userFile,
+          formatWatchlistMovie(movie)
+        );
+        fs.writeFileSync(userFile, nextContent, 'utf8');
+      }
+
+      res.json({
+        ok: true,
+        added: toAdd.length,
+        moved: 0,
+        file: userFile,
+      });
+      return;
+    }
+
+    const watchlistByKey = new Map<string, Movie>();
+    for (const watchlistFile of getUserWatchlistMoviesFiles(userId)) {
+      const fileContent = fs.readFileSync(watchlistFile, 'utf8');
+      for (const movie of parseMoviesFromFile(fileContent)) {
+        watchlistByKey.set(movieKey(movie), movie);
+      }
+    }
+
+    const toAdd: Movie[] = [];
+    const toMove: Movie[] = [];
+    for (const movie of normalizedMovies) {
+      const key = movieKey(movie);
+      if (existingSet.has(key)) continue;
+      const watchlistMovie = watchlistByKey.get(key);
+      if (watchlistMovie) {
+        toMove.push(watchlistMovie);
+      } else {
+        toAdd.push(movie);
+      }
+    }
+
+    if (toAdd.length === 0 && toMove.length === 0) {
       res.status(409).json({ error: 'Movies already exist for user' });
       return;
     }
 
-    const userFile = getUserMoviesTargetFile(userId, isWatchlist);
+    const userFile = getUserMoviesTargetFile(userId, false);
     let nextContent = fs.readFileSync(userFile, 'utf8');
-    const formatMovie = isWatchlist ? formatWatchlistMovie : formatUserMovie;
     for (const movie of toAdd) {
-      nextContent = appendObjectToArrayFile(userFile, formatMovie(movie));
+      nextContent = appendObjectToArrayFile(userFile, formatUserMovie(movie));
       fs.writeFileSync(userFile, nextContent, 'utf8');
+    }
+    for (const movie of toMove) {
+      nextContent = appendObjectToArrayFile(
+        userFile,
+        formatWatchedMovieFromWatchlist(movie)
+      );
+      fs.writeFileSync(userFile, nextContent, 'utf8');
+    }
+
+    const watchlistFiles = getUserWatchlistMoviesFiles(userId);
+    for (const movie of toMove) {
+      for (const watchlistFile of watchlistFiles) {
+        const fileContent = fs.readFileSync(watchlistFile, 'utf8');
+        try {
+          const updatedContent = removeMovieFromFile(fileContent, {
+            title: movie.title,
+            director: movie.director,
+          });
+          fs.writeFileSync(watchlistFile, updatedContent, 'utf8');
+          break;
+        } catch (error: any) {
+          if (error.message !== 'Movie not found') {
+            throw error;
+          }
+        }
+      }
     }
 
     res.json({
       ok: true,
       added: toAdd.length,
+      moved: toMove.length,
       file: userFile,
     });
   } catch (error: any) {

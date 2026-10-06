@@ -441,6 +441,7 @@ function parseMoviesFromFile(content: string): UserMovie[] {
               (parseBooleanField(objectText, 'loaned') ?? false
                 ? 'Inconnu'
                 : ''),
+            lastUpdated: parseStringField(objectText, 'lastUpdated') ?? '',
           } as UserMovie);
         }
       }
@@ -933,6 +934,7 @@ function updateMovieInFile(content: string, payload: MovieUpdatePayload) {
           if (payload.loaned !== undefined) {
             updated = upsertField(updated, 'loaned', payload.loaned ?? '');
           }
+          updated = upsertField(updated, 'lastUpdated', formatMovieLastUpdated());
 
           return (
             content.slice(0, objectStart) +
@@ -993,6 +995,7 @@ function updateMovieIdentityInFile(content: string, payload: MovieIdentityPayloa
           if (payload.director && payload.director !== director) {
             updated = replaceField(updated, 'director', payload.director);
           }
+          updated = upsertField(updated, 'lastUpdated', formatMovieLastUpdated());
 
           return (
             content.slice(0, objectStart) +
@@ -1167,6 +1170,7 @@ function removeMovieFromFile(content: string, payload: MovieRemovePayload) {
     borrowed: "${escapeString(movie.borrowed || '')}",
     loaned: "${escapeString(movie.loaned || '')}",
     inList: ${inList},
+    lastUpdated: "${escapeString(movie.lastUpdated || '')}",
   }`;
     })
     .join(',\n');
@@ -1195,6 +1199,15 @@ function getUserMoviesFiles(userId: string) {
         !file.includes('watchlist')
     )
     .map((file: string) => path.join(userMoviesDir, file));
+}
+
+function formatMovieLastUpdated(date = new Date()): string {
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, '0');
+  const day = String(date.getDate()).padStart(2, '0');
+  const hours = String(date.getHours()).padStart(2, '0');
+  const minutes = String(date.getMinutes()).padStart(2, '0');
+  return `${year}-${month}-${day}T${hours}:${minutes}`;
 }
 
 function getUserWatchlistMoviesFiles(userId: string) {
@@ -1250,6 +1263,7 @@ module.exports = {
   getUserMoviesFiles,
   getUserWatchlistMoviesFiles,
   getUserAllMoviesFiles,
+  formatMovieLastUpdated,
 };
 
 export {};

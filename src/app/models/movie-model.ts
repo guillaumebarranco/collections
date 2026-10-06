@@ -163,6 +163,8 @@ export interface UserMovie extends MandatoryMovieData {
   inList: string[];
   borrowed: string;
   loaned: string;
+  /** Dernière modification via l'interface, heure locale : YYYY-MM-DDTHH:mm. */
+  lastUpdated: string;
 }
 
 export type UserMovies = UserMovie[];

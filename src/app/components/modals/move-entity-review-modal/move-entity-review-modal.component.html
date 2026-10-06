@@ -52,8 +52,19 @@
         [value]="ratingComment()"
         (input)="onCommentInput($event)"
         aria-label="Commentaire optionnel"
-      ></textarea>
+      >      </textarea>
     </div>
+
+    @if (data.showViewedDateToday) {
+    <label class="move-entity-review-modal__viewed-date">
+      <input
+        type="checkbox"
+        [checked]="setViewedDateToToday()"
+        (change)="onViewedDateTodayChange($event)"
+      />
+      Mettre la date de visionnage à aujourd'hui
+    </label>
+    }
   </div>
   <div class="move-entity-review-modal__footer">
     <button type="button" class="makya-btn-small" (click)="cancel()">

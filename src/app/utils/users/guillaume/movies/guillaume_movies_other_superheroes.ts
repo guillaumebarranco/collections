@@ -17,6 +17,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Deadpool 2',
@@ -34,6 +35,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Daredevil',
@@ -51,6 +53,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'X-Men',
@@ -68,6 +71,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'X-men 2',
@@ -85,6 +89,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "X-Men : L'Affrontement Final",
@@ -102,6 +107,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'X-Men Origins : Wolverine',
@@ -119,6 +125,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'The Wolverine',
@@ -136,6 +143,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Logan',
@@ -153,6 +161,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'X-Men : Le Commencement',
@@ -170,6 +179,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'X-Men : Days of Future Past',
@@ -187,6 +197,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'X-Men : Apocalypse',
@@ -204,6 +215,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'X-Men :Dark Phoenix',
@@ -221,6 +233,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Venom',
@@ -238,6 +251,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Venom : Let There Be Carnage',
@@ -255,6 +269,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Spider-Man',
@@ -272,6 +287,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: ["Mes classiques"],
+    lastUpdated: '',
   },
   {
     title: 'Spider-Man 2',
@@ -289,6 +305,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Spider-Man 3',
@@ -306,6 +323,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'The Amazing Spider-Man',
@@ -323,6 +341,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "The Amazing Spider-Man : Le Destin d'un Héros",
@@ -340,6 +359,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Kick-Ass',
@@ -357,6 +377,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Kick-Ass 2',
@@ -374,6 +395,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Hancock',
@@ -391,6 +413,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Les 4 Fantastiques',
@@ -408,6 +431,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "Les 4 Fantastiques et le Surfeur d'Argent",
@@ -425,6 +449,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Ghost Rider',
@@ -442,6 +467,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Sky High',
@@ -459,6 +485,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Hulk',
@@ -476,6 +503,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'The Punisher',
@@ -493,6 +521,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: ['Mes classiques'],
+    lastUpdated: '',
   },
   {
     title: 'Les 4 Fantastiques',
@@ -510,5 +539,6 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
 ];

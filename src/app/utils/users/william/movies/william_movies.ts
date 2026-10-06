@@ -17,6 +17,7 @@ export const williamMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Cars 2',
@@ -34,6 +35,7 @@ export const williamMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Cars 3',
@@ -51,6 +53,7 @@ export const williamMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Planes',
@@ -68,6 +71,7 @@ export const williamMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Planes 2',
@@ -85,6 +89,7 @@ export const williamMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Le monde de Nemo',
@@ -102,6 +107,7 @@ export const williamMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Le monde de Dory',
@@ -119,6 +125,7 @@ export const williamMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Ratatouille',
@@ -136,6 +143,7 @@ export const williamMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Zootopie',
@@ -153,5 +161,6 @@ export const williamMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
 ];

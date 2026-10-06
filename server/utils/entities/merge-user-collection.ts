@@ -300,6 +300,7 @@ function mergeMovies(userMovies: any[]): any[] {
       inList: movie.inList ?? [],
       borrowed: movie.borrowed ?? '',
       loaned: movie.loaned ?? '',
+      lastUpdated: movie.lastUpdated ?? '',
     };
   });
 }

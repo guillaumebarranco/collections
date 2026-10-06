@@ -45,11 +45,27 @@ router.post('/batch-rating', (req: any, res: any) => {
         return;
       }
 
-      const payload = {
+      const payload: {
+        title: string;
+        director: string;
+        rating: number | undefined;
+        ratingComment?: string;
+        firstViewedDate?: string;
+        lastViewedDate?: string;
+      } = {
         title,
         director,
         rating: normalizeNumber(rawMovie?.rating, 'rating'),
       };
+      if (typeof rawMovie?.ratingComment === 'string') {
+        payload.ratingComment = rawMovie.ratingComment;
+      }
+      if (typeof rawMovie?.firstViewedDate === 'string') {
+        payload.firstViewedDate = rawMovie.firstViewedDate;
+      }
+      if (typeof rawMovie?.lastViewedDate === 'string') {
+        payload.lastViewedDate = rawMovie.lastViewedDate;
+      }
 
       let updated = false;
       for (const [filePath, state] of fileState.entries()) {

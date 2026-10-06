@@ -17,23 +17,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
-  },
-  {
-    title: "Whiplash",
-    director: "Damien Chazelle",
-    rating: 0,
-    timesWatched: 0,
-    firstViewedDate: "",
-    lastViewedDate: "",
-    otherSeenDates: [],
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 3,
-    ratingComment: "https://nakastream.tv/content/movie/244786",
-    borrowed: "",
-    loaned: "",
-    inList: [],
+    lastUpdated: "",
   },
   {
     title: "Gods of Egypt",
@@ -51,6 +35,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Pokémon : Détective Pikachu",
@@ -68,6 +53,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Le Crime de l'Orient-Express",
@@ -85,6 +71,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "About Time",
@@ -102,6 +89,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "L'Étrange Histoire de Benjamin Button",
@@ -119,6 +107,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Constantine",
@@ -136,6 +125,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Aviator",
@@ -153,6 +143,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "La Planète au trésor",
@@ -170,6 +161,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Gattaca",
@@ -187,6 +179,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "The Blues Brothers",
@@ -204,6 +197,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Borat",
@@ -221,6 +215,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Furiosa",
@@ -238,6 +233,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Reviens-moi",
@@ -255,6 +251,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "The Worst Person in the World",
@@ -272,6 +269,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "L'amour au présent",
@@ -289,6 +287,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Companion",
@@ -306,6 +305,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Predestination",
@@ -323,6 +323,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Philadelphia",
@@ -340,6 +341,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Sully",
@@ -357,6 +359,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Seul sur Mars",
@@ -374,6 +377,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Uncut Gems",
@@ -391,6 +395,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Once Upon a Time in Hollywood",
@@ -408,6 +413,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "À tous les garçons que j'ai aimés",
@@ -425,6 +431,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Avatar : De feu et de cendres",
@@ -442,6 +449,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Le Robot sauvage",
@@ -459,6 +467,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Running Man",
@@ -476,6 +485,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "The Whale",
@@ -493,6 +503,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Ballerina",
@@ -510,6 +521,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Le Mans 66",
@@ -527,6 +539,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Nobody 2",
@@ -544,6 +557,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Ennemi d'Etat",
@@ -561,6 +575,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "La Légende de Bagger Vance",
@@ -578,6 +593,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Ali",
@@ -595,6 +611,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Seul contre tous",
@@ -612,6 +629,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Bright",
@@ -629,6 +647,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Emancipation",
@@ -646,6 +665,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "L'Expert",
@@ -663,6 +683,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Copland",
@@ -680,6 +701,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Get Carter",
@@ -697,6 +719,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Les Maîtres du jeu",
@@ -714,6 +737,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Mafia Love",
@@ -731,6 +755,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Rambo: Last Blood",
@@ -748,6 +773,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "La Fin des temps",
@@ -765,6 +791,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Le Dernier rempart",
@@ -782,6 +809,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Hudson Hawk, gentleman et cambrioleur",
@@ -799,6 +827,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Piège en eaux troubles",
@@ -816,6 +845,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Le Chacal",
@@ -833,6 +863,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Mon voisin le tueur 2",
@@ -850,6 +881,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Les Larmes du soleil",
@@ -867,6 +899,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "16 Blocs",
@@ -884,6 +917,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Slevin",
@@ -901,6 +935,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Top Cops",
@@ -918,6 +953,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Sans issue",
@@ -935,6 +971,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Les Joueurs",
@@ -952,6 +989,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Le Talentueux Mr Ripley",
@@ -969,6 +1007,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Invictus",
@@ -986,6 +1025,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Spy game, jeu d'espions",
@@ -1003,6 +1043,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Le stratège",
@@ -1020,6 +1061,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "The Tree of Life",
@@ -1037,6 +1079,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "The Big Short",
@@ -1054,6 +1097,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Le Secret de la cité perdue",
@@ -1071,6 +1115,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Le Pont des espions",
@@ -1088,6 +1133,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "The Circle",
@@ -1105,6 +1151,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Asteroid City",
@@ -1122,6 +1169,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Jerry Maguire",
@@ -1139,6 +1187,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Tonnerre sous les Tropiques",
@@ -1156,6 +1205,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "La Momie",
@@ -1173,6 +1223,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Les Noces rebelles",
@@ -1190,6 +1241,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "J. Edgar",
@@ -1207,6 +1259,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "The Revenant",
@@ -1224,6 +1277,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Une bataille après l'autre",
@@ -1241,6 +1295,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Night Call",
@@ -1258,6 +1313,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Okja",
@@ -1275,6 +1331,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Reminiscence",
@@ -1292,6 +1349,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "47 Ronin",
@@ -1309,6 +1367,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Serenity",
@@ -1326,6 +1385,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "6 Underground",
@@ -1343,6 +1403,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "28 Jours en sursis",
@@ -1360,6 +1421,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "L'Amour sans préavis",
@@ -1377,6 +1439,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Zookeeper",
@@ -1394,6 +1457,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Happy Gilmore",
@@ -1411,6 +1475,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Empire du soleil",
@@ -1428,6 +1493,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Velvet Goldmine",
@@ -1445,6 +1511,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Shaft",
@@ -1462,6 +1529,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Le Règne du feu",
@@ -1479,6 +1547,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "The Machinist",
@@ -1496,6 +1565,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Exodus: Gods and Kings",
@@ -1513,6 +1583,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Scoop",
@@ -1530,6 +1601,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Deux Sœurs pour un roi",
@@ -1547,6 +1619,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Ghost in the Shell",
@@ -1564,6 +1637,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Scandale",
@@ -1581,6 +1655,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Hurlevent",
@@ -1598,6 +1673,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "La Loi du Silence",
@@ -1615,6 +1691,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Le Collectionneur",
@@ -1632,6 +1709,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Deep Impact",
@@ -1649,6 +1727,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "L'impasse",
@@ -1666,6 +1745,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Le Pianiste",
@@ -1683,6 +1763,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Le Discours d'un roi",
@@ -1700,6 +1781,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Imitation Game",
@@ -1717,6 +1799,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "M le Maudit",
@@ -1734,6 +1817,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Mad Max",
@@ -1751,6 +1835,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Mad Max 2",
@@ -1768,6 +1853,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Signes",
@@ -1785,6 +1871,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Jane Got a Gun",
@@ -1802,6 +1889,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Jackie",
@@ -1819,6 +1907,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Le Monde de Charlie",
@@ -1836,6 +1925,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "The Bling Ring",
@@ -1853,6 +1943,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Colonia",
@@ -1870,6 +1961,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Régression",
@@ -1887,6 +1979,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Respire",
@@ -1904,6 +1997,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Irréprochable",
@@ -1921,6 +2015,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Eugénie Grandet",
@@ -1938,6 +2033,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Ma mère, Dieu et Sylvie Vartan",
@@ -1955,6 +2051,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "La French",
@@ -1972,6 +2069,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "La Haine",
@@ -1989,6 +2087,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Le Grand bleu",
@@ -2006,6 +2105,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Zootopie",
@@ -2023,6 +2123,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Casablanca",
@@ -2040,6 +2141,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "The Rip",
@@ -2057,6 +2159,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Frankenstein",
@@ -2074,6 +2177,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Wonka",
@@ -2091,6 +2195,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Blonde",
@@ -2108,6 +2213,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Snowpiercer",
@@ -2125,6 +2231,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "District 9",
@@ -2142,6 +2249,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Public Enemies",
@@ -2159,6 +2267,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Troy",
@@ -2176,6 +2285,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "The Others",
@@ -2193,6 +2303,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Le Grinch",
@@ -2210,6 +2321,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Fight Club",
@@ -2227,6 +2339,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Insaisissables 3",
@@ -2244,6 +2357,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "F1",
@@ -2261,6 +2375,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "The Princess",
@@ -2278,6 +2393,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Hitman & Bodyguard 2",
@@ -2295,6 +2411,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Hellboy",
@@ -2312,6 +2429,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Nicky Larson Private Eyes",
@@ -2329,6 +2447,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Life : Origine inconnue",
@@ -2346,6 +2465,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "The Monuments Men",
@@ -2363,6 +2483,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Her",
@@ -2380,6 +2501,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Funny Games U.S.",
@@ -2397,6 +2519,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Le Secret de Brokeback Mountain",
@@ -2414,6 +2537,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Les Fils du vent",
@@ -2431,6 +2555,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Donnie Darko",
@@ -2448,6 +2573,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Risky Business",
@@ -2465,6 +2591,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Mise à prix",
@@ -2482,6 +2609,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Dunkerque",
@@ -2499,6 +2627,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "The Game",
@@ -2516,6 +2645,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Un homme en colère",
@@ -2533,6 +2663,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Arnaques, crimes & botanique",
@@ -2550,6 +2681,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Le Murder Club du jeudi",
@@ -2567,6 +2699,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Un flic à la maternelle",
@@ -2584,6 +2717,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Apollo 13",
@@ -2601,6 +2735,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "That Thing You Do!",
@@ -2618,6 +2753,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Cloud Atlas",
@@ -2635,6 +2771,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Des hommes d'honneur",
@@ -2652,6 +2789,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Barry Seal: American Traffic",
@@ -2669,6 +2807,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "L'Homme au masque de fer",
@@ -2686,6 +2825,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Feeling Minnesota",
@@ -2703,6 +2843,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Sweet November",
@@ -2720,6 +2861,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Jane",
@@ -2737,6 +2879,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Rachel se marie",
@@ -2754,6 +2897,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Max la Menace",
@@ -2771,6 +2915,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Un jour, peut-être",
@@ -2788,6 +2933,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Le Droit de tuer ?",
@@ -2805,6 +2951,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Ainsi va la vie",
@@ -2822,6 +2969,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Un Vent de folie",
@@ -2839,6 +2987,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Impardonnable",
@@ -2856,6 +3005,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Famille recomposée",
@@ -2873,6 +3023,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Sandy Wexler",
@@ -2890,6 +3041,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "American Bluff",
@@ -2907,6 +3059,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Vice",
@@ -2924,6 +3077,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "L'Homme qui murmurait à l'oreille des chevaux",
@@ -2941,6 +3095,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Last Vegas",
@@ -2958,6 +3113,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Barry Lyndon",
@@ -2975,6 +3131,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Vivre",
@@ -2992,6 +3149,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Tchao Pantin",
@@ -3009,6 +3167,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Ça chauffe au lycée Ridgemont",
@@ -3026,6 +3185,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Rupture fatale",
@@ -3043,6 +3203,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "The Crow",
@@ -3060,6 +3221,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Marty Supreme",
@@ -3077,6 +3239,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Le Tombeau des lucioles",
@@ -3094,6 +3257,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Madagascar",
@@ -3111,6 +3275,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Madagascar",
@@ -3128,6 +3293,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "The Predator",
@@ -3145,6 +3311,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "À tous les garçons : P.S. Je t'aime toujours",
@@ -3162,6 +3329,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "The King",
@@ -3179,6 +3347,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Tomb Raider",
@@ -3196,6 +3365,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Lion",
@@ -3213,6 +3383,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Jurassic World",
@@ -3230,6 +3401,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Roméo + Juliette",
@@ -3247,6 +3419,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "The Substance",
@@ -3264,6 +3437,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Monkey Man",
@@ -3281,6 +3455,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Astérix : Le Secret de la potion magique",
@@ -3298,6 +3473,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "KPop Demon Hunters",
@@ -3315,6 +3491,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Wedding Daze",
@@ -3332,6 +3509,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Monster",
@@ -3349,6 +3527,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Jane Austen a gâché ma vie",
@@ -3366,6 +3545,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Trouble Jeu",
@@ -3383,6 +3563,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Life of Chuck",
@@ -3400,6 +3581,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Luca",
@@ -3417,6 +3599,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Mission : Impossible – Rogue Nation",
@@ -3434,6 +3617,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Mission : Impossible – Fallout",
@@ -3451,6 +3635,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Mission: Impossible – Dead Reckoning Partie 1",
@@ -3468,6 +3653,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Mission: Impossible – The Final Reckoning",
@@ -3485,6 +3671,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Nezha Reborn",
@@ -3502,6 +3689,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Top Gun",
@@ -3519,6 +3707,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Ben-Hur",
@@ -3536,6 +3725,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Grease",
@@ -3553,6 +3743,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Transformers: The Last Knight",
@@ -3570,6 +3761,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Sherlock Holmes : Jeu d'ombres",
@@ -3587,6 +3779,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Un jour sans fin",
@@ -3604,6 +3797,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Super Mario Galaxy, le film",
@@ -3621,6 +3815,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "L'Âge de glace : Les Lois de l'Univers",
@@ -3638,6 +3833,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Your Name",
@@ -3655,6 +3851,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Nausicaä de la Vallée du Vent",
@@ -3672,6 +3869,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Kuzco, l'Empereur mégalo",
@@ -3689,6 +3887,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Akira",
@@ -3706,6 +3905,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Astérix : Le Domaine des dieux",
@@ -3723,6 +3923,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Venom : The Last Dance",
@@ -3740,6 +3941,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Underworld : Blood Wars",
@@ -3757,6 +3959,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Aquaman et le Royaume perdu",
@@ -3774,6 +3977,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Jungle Cruise",
@@ -3791,6 +3995,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Alibi.com",
@@ -3808,6 +4013,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "War Dogs",
@@ -3825,6 +4031,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Zombieland: Double Tap",
@@ -3842,6 +4049,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Vanilla Sky",
@@ -3859,6 +4067,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Gilbert Grape",
@@ -3876,6 +4085,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Le Mytho",
@@ -3893,6 +4103,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "L'Étoile de Harlem",
@@ -3910,6 +4121,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Ghosted",
@@ -3927,6 +4139,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Click : Télécommandez votre vie",
@@ -3944,6 +4157,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Red Sparrow",
@@ -3961,6 +4175,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Disparue",
@@ -3978,6 +4193,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Les Sept Samourais",
@@ -3995,6 +4211,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "La Colline aux coquelicots",
@@ -4012,6 +4229,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Le Château ambulant",
@@ -4029,6 +4247,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Kiki la petite sorcière",
@@ -4046,6 +4265,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Le Bossu de Notre-Dame",
@@ -4063,6 +4283,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Le Prince d'Égypte",
@@ -4080,6 +4301,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Rio",
@@ -4097,6 +4319,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Coco",
@@ -4114,6 +4337,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Thelma et Louise",
@@ -4131,6 +4355,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: ["Films d'écureuil"],
+    lastUpdated: "",
   },
   {
     title: "Une femme disparaît",
@@ -4148,6 +4373,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "WarGames",
@@ -4165,6 +4391,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "À la poursuite du diamant vert",
@@ -4182,6 +4409,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
+    lastUpdated: "",
   },
   {
     title: "Domino",
@@ -4199,23 +4427,24 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
-  }
-,
+    lastUpdated: "",
+  },
   {
     title: "Godzilla Minus One",
     director: "Takashi Yamazaki",
     rating: 0,
     timesWatched: 0,
-    firstViewedDate: '',
-    lastViewedDate: '',
+    firstViewedDate: "",
+    lastViewedDate: "",
     otherSeenDates: [],
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
-    ratingComment: '',
+    ratingComment: "",
+    borrowed: "",
+    loaned: "",
     inList: [],
-    borrowed: '',
-    loaned: '',
-  },
+    lastUpdated: "",
+  }
 ];

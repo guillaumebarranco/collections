@@ -17,5 +17,6 @@ export const emmanuelleWatchListMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
 ];

@@ -173,6 +173,7 @@ export const getFullMovie = (movie: BaseMovie): Movie => ({
   inList: [],
   borrowed: '',
   loaned: '',
+  lastUpdated: '',
 });
 
 export const getFullSerie = (serie: BaseSerie): Serie => ({

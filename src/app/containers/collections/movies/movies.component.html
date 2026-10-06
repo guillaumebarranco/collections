@@ -1,5 +1,6 @@
 <app-menu></app-menu>
 
+@if(!isMobile() || (isMobile() && mobileSelectedView())) {
 <div
   class="movies-container collection-view"
   [class.container-saga-mode]="
@@ -27,6 +28,7 @@
     [emptyMovieListNames]="emptyMovieListNames()"
     [selectedListFilter]="selectedListFilter()"
     (onViewChange)="onViewChange($any($event))"
+    (onMobileBack)="onMobileBack()"
     (onOpenViewConfig)="openViewConfig()"
     (onSearchChange)="onSearchChange($event)"
     (onTopFiveRankChange)="toggleTopFiveRankDisplay()"
@@ -214,8 +216,7 @@
 
           @for (name of (actorGroup.actor | personNames); track name) {
           <app-person-badge [name]="name" variant="actor" />
-          }
-          ({{ actorGroup.seenMovies.length }} films vus) ({{
+          } ({{ actorGroup.seenMovies.length }} films vus) ({{
             actorGroup.missingMovies.length
           }}
           films restants à voir)
@@ -374,8 +375,7 @@
           </span>
           @for (name of (directorGroup.director | personNames); track name) {
           <app-person-badge [name]="name" variant="director" />
-          }
-          ({{ directorGroup.seenMovies.length }} films vus) ({{
+          } ({{ directorGroup.seenMovies.length }} films vus) ({{
             directorGroup.missingMovies.length
           }}
           films restants à voir)
@@ -462,8 +462,8 @@
           films restants à voir)
         </button>
       </h2>
-      @if (!isOscarCountCollapsed(oscarGroup.oscarCount)) {
-      @if (oscarGroup.seenMovies.length > 0) {
+      @if (!isOscarCountCollapsed(oscarGroup.oscarCount)) { @if
+      (oscarGroup.seenMovies.length > 0) {
       <div class="movies">
         @for (movie of oscarGroup.seenMovies; track
         `${movie.title}-${movie.releaseDate}`; let i = $index) {
@@ -488,8 +488,7 @@
         </div>
         }
       </div>
-      }
-      @if (oscarGroup.missingMovies.length > 0) {
+      } @if (oscarGroup.missingMovies.length > 0) {
       <div class="movies-saga-missing">
         <p class="movies-saga-missing-label">Films pas encore vus</p>
         <div class="movies">
@@ -537,16 +536,16 @@
           <span class="movies-saga-toggle-icon">
             {{ isOscarYearCollapsed(yearGroup.year) ? "▶" : "▼" }}
           </span>
-          Oscars {{ yearGroup.year }}
-          ({{ yearGroup.seenCount }} films vus) ({{ yearGroup.missingCount }}
+          Oscars {{ yearGroup.year }} ({{ yearGroup.seenCount }} films vus) ({{
+            yearGroup.missingCount
+          }}
           films restants à voir)
         </button>
       </h2>
       @if (!isOscarYearCollapsed(yearGroup.year)) {
       <div class="movies-oscar-year-grid">
         @for (row of yearGroup.rows; track
-        `${row.movie.title}-${row.movie.director}-${row.missing}`)
-        {
+        `${row.movie.title}-${row.movie.director}-${row.missing}`) {
         <div
           class="movies-oscar-year-row"
           [class.movies-oscar-year-row--missing]="row.missing"
@@ -557,9 +556,7 @@
           [attr.role]="
             !row.missing && !isViewingOtherProfile() ? 'button' : null
           "
-          [attr.tabindex]="
-            !row.missing && !isViewingOtherProfile() ? 0 : null
-          "
+          [attr.tabindex]="!row.missing && !isViewingOtherProfile() ? 0 : null"
           [attr.aria-label]="
             row.categoryLabels.join(', ') + ' : ' + row.movie.title
           "
@@ -606,8 +603,8 @@
           </div>
           @if (row.missing) {
           <div class="movies-oscar-year-actions">
-            @if (!isViewingOtherProfile() && !movieAlreadyInUserWatchlist(row.movie))
-            {
+            @if (!isViewingOtherProfile() &&
+            !movieAlreadyInUserWatchlist(row.movie)) {
             <button
               type="button"
               class="makya-btn-small"
@@ -615,8 +612,8 @@
             >
               À voir
             </button>
-            } @if (canShowAddToMyWatchlist() && canAddMovieToMyWatchlist(row.movie))
-            {
+            } @if (canShowAddToMyWatchlist() &&
+            canAddMovieToMyWatchlist(row.movie)) {
             <button
               type="button"
               class="makya-btn-small"
@@ -627,8 +624,8 @@
             >
               À voir
             </button>
-            } @if (canShowAddToMyWatchlist() && canAddMovieToMyWatched(row.movie))
-            {
+            } @if (canShowAddToMyWatchlist() &&
+            canAddMovieToMyWatched(row.movie)) {
             <button
               type="button"
               class="makya-btn-small"
@@ -697,11 +694,64 @@
     (currentPageChange)="onPageChange($event)"
     (pageSizeChange)="onPageSizeChange($event)"
   />
-  }
-  } }
+  } } }
 </div>
-
-@if(isViewConfigOpen()) {
+} @else if (isLoadingMovies()) {
+<app-loader message="Chargement des films..." />
+} @else {
+<section class="mobile-view-picker" aria-label="Choisir une vue films">
+  <h1 class="mobile-view-picker__title">Films</h1>
+  <a
+    *appCanEdit
+    class="mobile-view-picker__shortcut"
+    [routerLink]="getSelectWatchedMoviesRoute()"
+  >
+    Je viens de voir un film
+  </a>
+  @for (visibleMovieViewOption of visibleMovieViewOptions(); track
+  visibleMovieViewOption.value) { @let preview =
+  mobileViewPreviews().get(visibleMovieViewOption.value);
+  <button
+    type="button"
+    class="mobile-view-selection"
+    (click)="onMobileSelectView(visibleMovieViewOption.value)"
+  >
+    @if (preview) {
+    <img
+      class="mobile-view-selection__poster"
+      [src]="preview.coverUrl"
+      [alt]="'Affiche de ' + preview.title"
+    />
+    } @else {
+    <span
+      class="mobile-view-selection__poster mobile-view-selection__poster--empty"
+      aria-hidden="true"
+      >🎬</span
+    >
+    }
+    <span class="mobile-view-selection__copy">
+      <span class="mobile-view-selection__label">{{
+        visibleMovieViewOption.label
+      }}</span>
+    </span>
+    <svg
+      class="mobile-view-selection__chevron"
+      viewBox="0 0 24 24"
+      aria-hidden="true"
+    >
+      <path
+        d="M9 6l6 6-6 6"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2.2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+  </button>
+  }
+</section>
+} @if(isViewConfigOpen()) {
 <div class="movies-config-overlay" (click)="closeViewConfig()">
   <div
     class="movies-config-content"
@@ -800,9 +850,7 @@
         <input
           type="checkbox"
           [checked]="optionalViewConfig().oscars"
-          (change)="
-            onOptionalViewChange('oscars', $any($event.target).checked)
-          "
+          (change)="onOptionalViewChange('oscars', $any($event.target).checked)"
         />
         Voir par Oscars
       </label>

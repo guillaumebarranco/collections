@@ -92,6 +92,7 @@ import { isOfflineModeBlockingOtherUsers } from '../../../core/offline/offline-m
 import { OfflineRestrictedMessageComponent } from '../../../components/shared/offline-restricted-message/offline-restricted-message.component';
 import { PersonBadgeComponent } from '../../../components/shared/person-badge/person-badge.component';
 import { PersonNamesPipe } from '../../../components/shared/person-badge/person-names.pipe';
+import { CanEditDirective } from '../../../directives/can-edit.directive';
 
 type RecommendationDetail = { userId: string; rating: number };
 type RecommendedMovie = Movie & {
@@ -105,7 +106,6 @@ type RecommendedMovie = Movie & {
     CommonModule,
     MovieComponent,
     MenuComponent,
-
     MoviesHeaderComponent,
     LoaderComponent,
     PaginationComponent,
@@ -114,6 +114,7 @@ type RecommendedMovie = Movie & {
     OfflineRestrictedMessageComponent,
     PersonBadgeComponent,
     PersonNamesPipe,
+    CanEditDirective,
   ],
   templateUrl: './movies.component.html',
   styleUrls: ['./movies.component.scss'],
@@ -144,6 +145,7 @@ export class MoviesComponent implements OnInit {
   searchTerm = signal<string>('');
   showTopFiveRank = signal<boolean>(false);
   isViewConfigOpen = signal<boolean>(false);
+  mobileSelectedView = signal<boolean>(false);
 
   optionalViewConfig = signal<Record<OptionalMovieView, boolean>>({
     cinema: true,
@@ -479,10 +481,7 @@ export class MoviesComponent implements OnInit {
     for (const list of this.userMoviesLists()) {
       counts.set(list.name, 0);
     }
-    for (const movie of [
-      ...this.allMovies(),
-      ...this.allWatchlistMovies(),
-    ]) {
+    for (const movie of [...this.allMovies(), ...this.allWatchlistMovies()]) {
       for (const name of movie.inList ?? []) {
         if (counts.has(name)) {
           counts.set(name, (counts.get(name) ?? 0) + 1);
@@ -533,6 +532,10 @@ export class MoviesComponent implements OnInit {
 
     return [];
   });
+
+  public isMobile(): boolean {
+    return window.innerWidth < 768;
+  }
 
   private loadParamsFromUrl(queryParams: Params) {
     if (
@@ -637,7 +640,10 @@ export class MoviesComponent implements OnInit {
       this.onViewChange('watched');
     }
     if (this.isViewingOtherProfile()) return;
-    const progressRows = buildMovieWatchFollowUpProgress(movie, this.allMovies());
+    const progressRows = buildMovieWatchFollowUpProgress(
+      movie,
+      this.allMovies()
+    );
     void this.badgesService.loadFromApi(this.getActiveUserId());
     this.dialog.open(MovieUpdateFollowUpModalComponent, {
       data: {
@@ -739,6 +745,11 @@ export class MoviesComponent implements OnInit {
       ...current,
       [view]: enabled,
     }));
+  }
+
+  /** Page de sélection pour ajouter un film aux films vus. */
+  getSelectWatchedMoviesRoute(): string[] {
+    return this.getSelectWatchlistRoute();
   }
 
   getSelectWatchlistRoute(): string[] {
@@ -951,8 +962,8 @@ export class MoviesComponent implements OnInit {
     const genreParts = Array.isArray(movie.genre)
       ? movie.genre
       : movie.genre
-        ? [movie.genre]
-        : [];
+      ? [movie.genre]
+      : [];
     const haystack = [
       movie.title,
       movie.director,
@@ -1285,5 +1296,159 @@ export class MoviesComponent implements OnInit {
   onPageSizeChange(size: number): void {
     this.pageSize.set(size);
     this.currentPage.set(1);
+  }
+
+  onMobileSelectView(view: MovieView): void {
+    this.mobileSelectedView.set(true);
+    this.onViewChange(view);
+  }
+
+  onMobileBack(): void {
+    this.mobileSelectedView.set(false);
+  }
+
+  /** Affiche associée à chaque vue mobile : un film différent, celui qui ouvre l'onglet. */
+  mobileViewPreviews = computed(() => {
+    const used = new Set<string>();
+    const previews = new Map<MovieView, { coverUrl: string; title: string }>();
+
+    for (const option of this.visibleMovieViewOptions()) {
+      const movie = this.pickDistinctPreviewMovie(
+        this.moviesAppearingInView(option.value),
+        used
+      );
+      if (!movie) continue;
+      previews.set(option.value, {
+        coverUrl: movie.coverUrl || '/movies_pictures/poster.jpg',
+        title: movie.title,
+      });
+    }
+
+    return previews;
+  });
+
+  private moviesAppearingInView(view: MovieView): Movie[] {
+    const watched = this.allMovies();
+    const watchlist = this.allWatchlistMovies();
+    const byLastViewed = (movies: Movie[]) =>
+      getSortedMovies([...movies], 'lastViewedDate');
+
+    switch (view) {
+      case 'watched':
+        return byLastViewed(watched);
+      case 'watchlist':
+        return getSortedMovies([...watchlist], 'watchPriority');
+      case 'toReWatch':
+        return byLastViewed(watched.filter((movie) => movie.wantToSeeAgain));
+      case 'cinema':
+        return byLastViewed(watched.filter((movie) => movie.seenAtCinema));
+      case 'owned':
+        return byLastViewed(watched.filter((movie) => movie.owned));
+      case 'borrowed':
+        return getSortedMovies(
+          this.uniqueMoviesByIdentity([
+            ...watched.filter((movie) => Boolean(movie.borrowed.trim())),
+            ...watchlist.filter((movie) => Boolean(movie.borrowed.trim())),
+          ]),
+          'title'
+        );
+      case 'loaned':
+        return getSortedMovies(
+          this.uniqueMoviesByIdentity([
+            ...watched.filter((movie) => Boolean(movie.loaned.trim())),
+            ...watchlist.filter((movie) => Boolean(movie.loaned.trim())),
+          ]),
+          'title'
+        );
+      case 'sagas':
+        return this.flattenSeenThenMissing(
+          getMoviesBySaga({
+            sortedMovies: [...watched],
+            allMovies: watched,
+            baseMovies: this.baseMoviesList(),
+            selectedSort: 'saga-count',
+          })
+        );
+      case 'actors':
+        return this.flattenSeenThenMissing(
+          getMoviesByActor({
+            sortedMovies: [...watched],
+            allMovies: watched,
+            baseMovies: this.baseMoviesList(),
+            selectedSort: 'actor-count',
+          })
+        );
+      case 'directors':
+        return this.flattenSeenThenMissing(
+          getMoviesByDirector({
+            sortedMovies: [...watched],
+            allMovies: watched,
+            baseMovies: this.baseMoviesList(),
+            selectedSort: 'director-count',
+          })
+        );
+      case 'countries':
+        return this.flattenSeenThenMissing(
+          getMoviesByCountry({
+            sortedMovies: [...watched],
+            allMovies: watched,
+            baseMovies: this.baseMoviesList(),
+            selectedSort: 'country-count',
+          })
+        );
+      case 'oscars':
+        return this.flattenSeenThenMissing(
+          getMoviesByOscarCount({
+            sortedMovies: [...watched],
+            allMovies: watched,
+            baseMovies: this.baseMoviesList(),
+          })
+        );
+      case 'oscarsByYear':
+        return getMoviesByOscarYear({
+          sortedMovies: [...watched],
+          allMovies: watched,
+          baseMovies: this.baseMoviesList(),
+        }).flatMap((group) => group.rows.map((row) => row.movie));
+      case 'recommendations':
+        return this.recommendations();
+      default:
+        return [];
+    }
+  }
+
+  private pickDistinctPreviewMovie(
+    candidates: Movie[],
+    used: Set<string>
+  ): Movie | null {
+    for (const movie of candidates) {
+      const key = this.getMovieIdentityKey(movie);
+      if (used.has(key)) continue;
+      used.add(key);
+      return movie;
+    }
+    return candidates[0] ?? null;
+  }
+
+  private uniqueMoviesByIdentity(movies: Movie[]): Movie[] {
+    const seen = new Set<string>();
+    const unique: Movie[] = [];
+    for (const movie of movies) {
+      const key = this.getMovieIdentityKey(movie);
+      if (seen.has(key)) continue;
+      seen.add(key);
+      unique.push(movie);
+    }
+    return unique;
+  }
+
+  private flattenSeenThenMissing(
+    groups: { seenMovies: Movie[]; missingMovies: Movie[] }[]
+  ): Movie[] {
+    const movies: Movie[] = [];
+    for (const group of groups) {
+      movies.push(...group.seenMovies, ...group.missingMovies);
+    }
+    return movies;
   }
 }

@@ -12,6 +12,7 @@ const {
   formatOtherSeenDatesTs,
   escapeString,
   appendObjectToArrayFile,
+  formatMovieLastUpdated,
   baseMovieExists,
   BASE_MOVIES_API_FILE,
 } = require('../../utils/movies/movies-utils');
@@ -76,7 +77,7 @@ function formatUserMovie(user: any): string {
         user.inList.map((s: any) => '"' + escapeString(s) + '"').join(', ') +
         ']'
       : '[]'
-  },\n    borrowed: "${escapeString(user.borrowed ?? '')}",\n    loaned: "${escapeString(user.loaned ?? '')}",\n  },`;
+  },\n    borrowed: "${escapeString(user.borrowed ?? '')}",\n    loaned: "${escapeString(user.loaned ?? '')}",\n    lastUpdated: "${formatMovieLastUpdated()}",\n  },`;
 }
 
 function getUserMoviesTargetFile(userId: string, isWatchlist: boolean) {

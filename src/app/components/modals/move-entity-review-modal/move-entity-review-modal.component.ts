@@ -17,11 +17,14 @@ export interface MoveEntityReviewModalData {
   entityTitle: string;
   /** Libellé du bouton de validation (ex. "Valider") */
   confirmLabel?: string;
+  /** Case « date de visionnage = aujourd'hui », affichée déjà cochée. */
+  showViewedDateToday?: boolean;
 }
 
 export interface MoveEntityReviewModalResult {
   rating: number;
   ratingComment: string;
+  setViewedDateToToday?: boolean;
 }
 
 @Component({
@@ -41,6 +44,7 @@ export class MoveEntityReviewModalComponent {
 
   readonly rating = signal<number>(0);
   readonly ratingComment = signal<string>('');
+  readonly setViewedDateToToday = signal(true);
 
   readonly confirmLabel = computed(
     () => this.data.confirmLabel ?? 'Valider'
@@ -86,6 +90,11 @@ export class MoveEntityReviewModalComponent {
     this.ratingComment.set(textarea.value ?? '');
   }
 
+  onViewedDateTodayChange(event: Event): void {
+    const input = event.target as HTMLInputElement;
+    this.setViewedDateToToday.set(input.checked);
+  }
+
   cancel(): void {
     this.dialogRef.close(undefined);
   }
@@ -94,6 +103,9 @@ export class MoveEntityReviewModalComponent {
     this.dialogRef.close({
       rating: this.rating(),
       ratingComment: this.ratingComment().trim(),
+      ...(this.data.showViewedDateToday
+        ? { setViewedDateToToday: this.setViewedDateToToday() }
+        : {}),
     });
   }
 }

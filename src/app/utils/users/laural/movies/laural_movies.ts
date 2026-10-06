@@ -17,6 +17,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Chappie',
@@ -34,6 +35,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "Harry Potter et le prisonnier d'Azkaban",
@@ -51,6 +53,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Harry Potter et la coupe de feu',
@@ -68,6 +71,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "Harry Potter et l'ordre du phénix",
@@ -85,6 +89,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Harry Potter et le prince de sang-mêlé',
@@ -102,6 +107,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Harry Potter et les reliques de la mort - partie 1',
@@ -119,6 +125,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Harry Potter et les reliques de la mort - partie 2',
@@ -136,6 +143,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Gourou',
@@ -153,6 +161,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Hamnet',
@@ -170,6 +179,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Hurlevent',
@@ -187,6 +197,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Dracula',
@@ -204,6 +215,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Marty Supreme',
@@ -221,6 +233,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Le Rêve Américain',
@@ -238,6 +251,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Projet Dernière Chance',
@@ -255,6 +269,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Memento',
@@ -272,6 +287,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "Le Diable s'habille en Prada 2",
@@ -289,6 +305,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Juste une illusion',
@@ -306,6 +323,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'The Drama',
@@ -323,6 +341,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Apocalypse Now',
@@ -340,6 +359,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "L'Objet du Délit",
@@ -357,6 +377,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Scary Movie (6)',
@@ -374,6 +395,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "Anatomie d'une chute",
@@ -391,6 +413,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Mulan',
@@ -408,6 +431,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Mulan 2',
@@ -425,6 +449,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Y a-t-il un flic pour sauver la reine ?',
@@ -442,6 +467,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: "Les Fils de l'homme",
@@ -459,6 +485,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'La cité de la peur',
@@ -476,6 +503,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Parasite',
@@ -493,6 +521,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'KPop Demon Hunters',
@@ -510,6 +539,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Hannah Montana - Le Film',
@@ -527,6 +557,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'La Cité de Dieu',
@@ -544,6 +575,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Moonlight',
@@ -561,6 +593,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Erin Brockovich, seule contre tous',
@@ -578,6 +611,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Fighter',
@@ -595,6 +629,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Lord of War',
@@ -612,6 +647,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Heat',
@@ -629,6 +665,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Les temps modernes',
@@ -646,6 +683,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Le cercle des poètes disparus',
@@ -663,6 +701,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'The Shining',
@@ -680,6 +719,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Psychose',
@@ -697,6 +737,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Pretty Woman',
@@ -714,6 +755,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Alien, le huitième passager',
@@ -731,6 +773,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Pulp Fiction',
@@ -748,6 +791,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Seven',
@@ -765,6 +809,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Akira',
@@ -782,6 +827,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Jurassic Park',
@@ -799,6 +845,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Thelma et Louise',
@@ -816,6 +863,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "Vol au-dessus d'un nid de coucou",
@@ -833,6 +881,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Rencontres du troisième type',
@@ -850,6 +899,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Little Miss Sunshine',
@@ -867,6 +917,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Kiss Kiss Bang Bang',
@@ -884,6 +935,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Mulholland Drive',
@@ -901,6 +953,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Requiem for a Dream',
@@ -918,6 +971,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Oldboy',
@@ -935,6 +989,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'La Ligne Verte',
@@ -952,6 +1007,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Will Hunting',
@@ -969,6 +1025,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Le Secret de Brokeback Mountain',
@@ -986,6 +1043,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Amadeus',
@@ -1003,6 +1061,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Orgueil et Préjugés',
@@ -1020,6 +1079,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Eternal Sunshine of the Spotless Mind',
@@ -1037,6 +1097,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Titanic',
@@ -1054,6 +1115,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Dirty Dancing',
@@ -1071,6 +1133,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Kill Bill: Vol. 1',
@@ -1088,6 +1151,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Kill Bill: Vol. 2',
@@ -1105,6 +1169,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Retour vers le futur',
@@ -1122,6 +1187,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Scarface',
@@ -1139,6 +1205,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'American Psycho',
@@ -1156,6 +1223,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Shrek',
@@ -1173,6 +1241,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Princesse Mononoké',
@@ -1190,6 +1259,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Le Tombeau des lucioles',
@@ -1207,6 +1277,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Fourmiz',
@@ -1224,6 +1295,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Mon voisin Totoro',
@@ -1241,6 +1313,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Fight Club',
@@ -1258,6 +1331,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Scream',
@@ -1275,6 +1349,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'La Légende de Tarzan et Jane',
@@ -1292,6 +1367,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'La vague',
@@ -1309,6 +1385,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Hannibal',
@@ -1326,6 +1403,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: "N'oublie Jamais",
@@ -1343,6 +1421,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: '10 bonnes raisons de te larguer',
@@ -1360,6 +1439,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Le Labyrinthe de Pan',
@@ -1377,6 +1457,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Big Fish',
@@ -1394,6 +1475,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Le Projet Blair Witch',
@@ -1411,6 +1493,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'La Vie est belle',
@@ -1428,6 +1511,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Paranoïak',
@@ -1445,6 +1529,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Eyes Wide Shut',
@@ -1462,6 +1547,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'The Machinist',
@@ -1479,6 +1565,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Le Comte de Monte-Cristo',
@@ -1496,6 +1583,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Barbie',
@@ -1513,6 +1601,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "Don't look up, déni cosmique",
@@ -1530,6 +1619,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Intouchables',
@@ -1547,6 +1637,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Challengers',
@@ -1564,6 +1655,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Oppenheimer',
@@ -1581,6 +1673,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Joker',
@@ -1598,6 +1691,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Joker : Folie à Deux',
@@ -1615,6 +1709,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Cinquante Nuances de Grey',
@@ -1632,6 +1727,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Into the Wild',
@@ -1649,6 +1745,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Black Swan',
@@ -1666,6 +1763,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Django Unchained',
@@ -1683,6 +1781,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "L'amour ouf",
@@ -1700,6 +1799,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Mickey 17',
@@ -1717,6 +1817,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Premier contact',
@@ -1734,6 +1835,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Interstellar',
@@ -1751,6 +1853,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Gone Girl',
@@ -1768,6 +1871,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Shutter Island',
@@ -1785,6 +1889,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Raiponce',
@@ -1802,6 +1907,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Vaiana',
@@ -1819,6 +1925,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Vaiana 2',
@@ -1836,6 +1943,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'WALL-E',
@@ -1853,6 +1961,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Là-haut',
@@ -1870,6 +1979,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Vice-Versa',
@@ -1887,6 +1997,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Soul',
@@ -1904,6 +2015,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Élémentaire',
@@ -1921,6 +2033,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Vice-Versa 2',
@@ -1938,6 +2051,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Coraline',
@@ -1955,6 +2069,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Destination Finale : Bloodlines',
@@ -1972,6 +2087,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: '(500) Jours Ensemble',
@@ -1989,6 +2105,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'About Time',
@@ -2006,6 +2123,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Yannick',
@@ -2023,6 +2141,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Mamma Mia!',
@@ -2040,6 +2159,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Call Me by Your Name',
@@ -2057,6 +2177,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Get Out',
@@ -2074,6 +2195,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Paddington',
@@ -2091,6 +2213,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Her',
@@ -2108,6 +2231,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Deux moi',
@@ -2125,6 +2249,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Happiness Therapy',
@@ -2142,6 +2267,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Warrior',
@@ -2159,6 +2285,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Le Monde de Charlie',
@@ -2176,6 +2303,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Les Filles du docteur March',
@@ -2193,6 +2321,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Last Night in Soho',
@@ -2210,6 +2339,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'The Visit',
@@ -2227,6 +2357,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "L'Abandon",
@@ -2244,6 +2375,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Ceux qui comptent',
@@ -2261,6 +2393,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'The Bride!',
@@ -2278,6 +2411,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'The World of Love',
@@ -2295,6 +2429,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Plus fort que moi',
@@ -2312,6 +2447,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Rue Málaga',
@@ -2329,6 +2465,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'La fille du train',
@@ -2346,6 +2483,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Fabricant de larmes',
@@ -2363,6 +2501,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Aucun autre choix',
@@ -2380,6 +2519,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Un jour avec mon père',
@@ -2397,6 +2537,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Die, My Love',
@@ -2414,6 +2555,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "Ce qu'il reste de nous",
@@ -2431,6 +2573,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'À contre-sens',
@@ -2448,6 +2591,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'À contre-sens : Londres',
@@ -2465,6 +2609,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Speak No Evil',
@@ -2482,6 +2627,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Saltburn',
@@ -2499,6 +2645,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Chien de la casse',
@@ -2516,6 +2663,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Oiseaux de paradis',
@@ -2533,6 +2681,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Kadaver',
@@ -2550,6 +2699,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Je veux juste en finir',
@@ -2567,6 +2717,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'The Father',
@@ -2584,6 +2735,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Doctor Sleep',
@@ -2601,6 +2753,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Paradise Hills',
@@ -2618,6 +2771,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Première Année',
@@ -2635,6 +2789,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Ne coupez pas !',
@@ -2652,6 +2807,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Manchester by the Sea',
@@ -2669,6 +2825,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Mustang',
@@ -2686,6 +2843,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Melancholia',
@@ -2703,6 +2861,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Une vie volée',
@@ -2720,6 +2879,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Ghost Dog : La Voie du samouraï',
@@ -2737,6 +2897,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Pink Floyd: The Wall',
@@ -2754,6 +2915,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Quand Harry rencontre Sally',
@@ -2771,6 +2933,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Rock Academy',
@@ -2788,6 +2951,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'La Couleur des sentiments',
@@ -2805,6 +2969,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'The Virgin Suicides',
@@ -2822,6 +2987,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Marcel le coquillage (avec ses chaussures)',
@@ -2839,6 +3005,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'The Trip',
@@ -2856,6 +3023,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Mommy',
@@ -2873,6 +3041,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'La Faille',
@@ -2890,6 +3059,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Star Wars : Épisode 1 - La menace fantôme',
@@ -2907,6 +3077,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "Star Wars: Episode 2 - L'attaque des clones",
@@ -2924,6 +3095,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Star Wars : Épisode 3 - La revanche des Sith',
@@ -2941,6 +3113,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Star Wars : Episode 4 - Un nouvel espoir',
@@ -2958,6 +3131,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "Star Wars : Episode 5 - L'empire contre-attaque",
@@ -2975,6 +3149,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Star Wars : Episode 6 - Le retour du Jedi',
@@ -2992,6 +3167,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Star Wars : Episode 7 - Le réveil de la Force',
@@ -3009,6 +3185,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Star Wars : Episode 8 - Le dernier Jedi',
@@ -3026,6 +3203,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "Star Wars : Episode 9 - L'ascension de Skywalker",
@@ -3043,6 +3221,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Training Day',
@@ -3060,6 +3239,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Il faut sauver le soldat Ryan',
@@ -3077,6 +3257,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Armageddon',
@@ -3094,6 +3275,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'V pour Vendetta',
@@ -3111,6 +3293,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Leon',
@@ -3128,6 +3311,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Baby Driver',
@@ -3145,6 +3329,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: '2012',
@@ -3162,6 +3347,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Inglourious Basterds',
@@ -3179,6 +3365,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Point Break',
@@ -3196,6 +3383,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Demolition Man',
@@ -3213,6 +3401,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Sherlock Holmes',
@@ -3230,6 +3419,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Hook ou la Revanche du capitaine Crochet',
@@ -3247,6 +3437,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Jumanji',
@@ -3264,6 +3455,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Les Goonies',
@@ -3281,6 +3473,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'La Boum',
@@ -3298,6 +3491,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'La Boum 2',
@@ -3315,6 +3509,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: "Le Diable s'Habille en Prada",
@@ -3332,6 +3527,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Tanguy',
@@ -3349,6 +3545,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Snatch',
@@ -3366,6 +3563,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Les 11 commandements',
@@ -3383,6 +3581,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Bruce tout-puissant',
@@ -3400,6 +3599,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Yamakasi',
@@ -3417,6 +3617,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Astérix et Obélix contre César',
@@ -3434,6 +3635,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Astérix & Obélix : Mission Cléopâtre',
@@ -3451,6 +3653,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Astérix aux Jeux Olympiques',
@@ -3468,6 +3671,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Nos Jours heureux',
@@ -3485,6 +3689,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Camping',
@@ -3502,6 +3707,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: '40 Ans, Toujours Puceau',
@@ -3519,6 +3725,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'The Mask',
@@ -3536,6 +3743,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Mrs. Doubtfire',
@@ -3553,6 +3761,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Le Dîner de Cons',
@@ -3570,6 +3779,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'The Big Lebowski',
@@ -3587,6 +3797,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Brice de Nice',
@@ -3604,6 +3815,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'La tour Montparnasse infernale',
@@ -3621,6 +3833,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Un indien dans la ville',
@@ -3638,6 +3851,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Fatal',
@@ -3655,6 +3869,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: '21 Jump Street',
@@ -3672,6 +3887,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Les visiteurs',
@@ -3689,6 +3905,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Ali G',
@@ -3706,6 +3923,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Le Prénom',
@@ -3723,6 +3941,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "Bienvenue chez les Ch'tis",
@@ -3740,6 +3959,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Le Grinch',
@@ -3757,6 +3977,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: "Chérie, j'ai rétréci les gosses",
@@ -3774,6 +3995,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Ace Ventura, détective pour chiens et chats',
@@ -3791,6 +4013,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Moulin Rouge !',
@@ -3808,6 +4031,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Grease',
@@ -3825,6 +4049,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: '8 Mile',
@@ -3842,6 +4067,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'A Star Is Born',
@@ -3859,6 +4085,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'American Beauty',
@@ -3876,6 +4103,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'The Truman Show',
@@ -3893,6 +4121,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Blood Diamond',
@@ -3910,6 +4139,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Million Dollar Baby',
@@ -3927,6 +4157,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Sept Vies',
@@ -3944,6 +4175,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Once Upon a Time in Hollywood',
@@ -3961,6 +4193,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "Le Discours d'un roi",
@@ -3978,6 +4211,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Autant en emporte le vent',
@@ -3995,6 +4229,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: "L'Échange",
@@ -4012,6 +4247,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Les Choristes',
@@ -4029,6 +4265,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Charlie et la Chocolaterie',
@@ -4046,6 +4283,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Alice au Pays des Merveilles',
@@ -4063,6 +4301,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "Alice de l'autre côté du miroir",
@@ -4080,6 +4319,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "Edward aux mains d'argent",
@@ -4097,6 +4337,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Le cercle : The ring',
@@ -4114,6 +4355,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: "L'exorciste",
@@ -4131,6 +4373,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Carrie au bal du diable',
@@ -4148,6 +4391,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Les oiseaux',
@@ -4165,6 +4409,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Les Dents de la mer',
@@ -4182,6 +4427,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Gremlins',
@@ -4199,6 +4445,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Sex Friends',
@@ -4216,6 +4463,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: "Valentine's Day",
@@ -4233,6 +4481,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Match Point',
@@ -4250,6 +4499,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Love Actually',
@@ -4267,6 +4517,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Pearl Harbor',
@@ -4284,6 +4535,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Coup de foudre à Notting Hill',
@@ -4301,6 +4553,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Le Journal de Bridget Jones',
@@ -4318,6 +4571,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Les 101 Dalmatiens',
@@ -4335,6 +4589,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'American Pie 3 : Marions-les',
@@ -4352,6 +4607,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'American Pie 4',
@@ -4369,6 +4625,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Rush Hour',
@@ -4386,6 +4643,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'La Momie',
@@ -4403,6 +4661,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Le Retour de la Momie',
@@ -4420,6 +4679,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Taxi',
@@ -4437,6 +4697,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Taxi 2',
@@ -4454,6 +4715,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Taxi 3',
@@ -4471,6 +4733,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Scary Movie',
@@ -4488,6 +4751,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Scary Movie 2',
@@ -4505,6 +4769,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Scary Movie 3',
@@ -4522,6 +4787,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Scary Movie 4',
@@ -4539,6 +4805,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Les Animaux Fantastiques',
@@ -4556,6 +4823,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Les Animaux Fantastiques 2 : Les crimes de Grindelwald',
@@ -4573,6 +4841,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Les Animaux Fantastiques 3 : Les Secrets de Dumbledore',
@@ -4590,6 +4859,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: "Le Seigneur des anneaux : La Communauté de l'anneau",
@@ -4607,6 +4877,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Le Seigneur des anneaux : Les Deux Tours',
@@ -4624,6 +4895,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Le Seigneur des anneaux : Le Retour du roi',
@@ -4641,6 +4913,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Le Seigneur des Anneaux - Le Retour du Roi - Version Longue',
@@ -4658,6 +4931,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Le Hobbit : Un voyage inattendu',
@@ -4675,6 +4949,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Le Hobbit : La Désolation de Smaug',
@@ -4692,6 +4967,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Entretien avec un vampire',
@@ -4709,6 +4985,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Le Hobbit : La Bataille des Cinq Armées',
@@ -4726,6 +5003,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Pirates des Caraïbes : La malédiction du Black Pearl',
@@ -4743,6 +5021,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Pirates des Caraïbes 2 : Le Secret du Coffre Maudit',
@@ -4760,6 +5039,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "Pirates des Caraïbes 3 : Jusqu'au Bout du Monde",
@@ -4777,6 +5057,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Terminator 2 : Le Jugement dernier',
@@ -4794,6 +5075,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Prometheus',
@@ -4811,6 +5093,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Alien vs. Predator',
@@ -4828,6 +5111,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Men in Black',
@@ -4845,6 +5129,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Hunger Games',
@@ -4862,6 +5147,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "Hunger Games : L'Embrasement",
@@ -4879,6 +5165,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Hunger Games : La Révolte - Partie 1',
@@ -4896,6 +5183,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Hunger Games : La Révolte, partie 2',
@@ -4913,6 +5201,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "Le Jour d'Après",
@@ -4930,6 +5219,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Minority Report',
@@ -4947,6 +5237,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'La guerre des mondes',
@@ -4964,6 +5255,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'E.T. the Extra-Terrestrial',
@@ -4981,6 +5273,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Ready Player One',
@@ -4998,6 +5291,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Le Cinquième Élément',
@@ -5015,6 +5309,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Je Suis une Légende',
@@ -5032,6 +5327,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Inception',
@@ -5049,6 +5345,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Mr. Nobody',
@@ -5066,6 +5363,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Signes',
@@ -5083,6 +5381,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Batman Begins',
@@ -5100,6 +5399,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'The Dark Knight : Le Chevalier Noir',
@@ -5117,6 +5417,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'The Dark Knight Rises',
@@ -5134,6 +5435,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Avengers',
@@ -5151,6 +5453,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "Avengers : L'Ère d'Ultron",
@@ -5168,6 +5471,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Avengers: Infinity War',
@@ -5185,6 +5489,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Battle Royale',
@@ -5202,6 +5507,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Le silence des agneaux',
@@ -5219,6 +5525,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Nocturnal Animals',
@@ -5236,6 +5543,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "L'effet papillon",
@@ -5253,6 +5561,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Phone Game',
@@ -5270,6 +5579,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Le Parfum',
@@ -5287,6 +5597,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Arrête-moi si tu peux',
@@ -5304,6 +5615,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "L'Associé du diable",
@@ -5321,6 +5633,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Sixième Sens',
@@ -5338,6 +5651,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Da Vinci Code',
@@ -5355,6 +5669,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Zodiac',
@@ -5372,6 +5687,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'The Usual Suspects',
@@ -5389,6 +5705,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Basic Instinct',
@@ -5406,6 +5723,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Les Trois Caballeros',
@@ -5423,6 +5741,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "Les Aventures de Winnie L'Ourson",
@@ -5440,6 +5759,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Blanche-Neige et les Sept Nains',
@@ -5457,6 +5777,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Pinocchio',
@@ -5475,6 +5796,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Fantasia',
@@ -5492,6 +5814,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Fantasia 2000',
@@ -5509,6 +5832,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Dumbo',
@@ -5526,6 +5850,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Bambi',
@@ -5543,6 +5868,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Pierre et le Loup',
@@ -5560,6 +5886,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Cendrillon',
@@ -5577,6 +5904,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Alice au pays des merveilles',
@@ -5594,6 +5922,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Peter Pan',
@@ -5611,6 +5940,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'La Belle et le Clochard',
@@ -5628,6 +5958,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "La Belle et le Clochard 2 : L'Appel de la rue",
@@ -5645,6 +5976,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'La Belle au bois dormant',
@@ -5662,6 +5994,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Les 101 Dalmatiens',
@@ -5679,6 +6012,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "Merlin l'enchanteur",
@@ -5696,6 +6030,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Le Livre de la jungle',
@@ -5713,6 +6048,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Le Livre de la jungle 2',
@@ -5730,6 +6066,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Robin des bois',
@@ -5747,6 +6084,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Robin des Bois',
@@ -5764,6 +6102,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Gang de requins',
@@ -5781,6 +6120,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Les Aventures de Bernard et Bianca',
@@ -5798,6 +6138,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Bernard et Bianca au pays des kangourous',
@@ -5815,6 +6156,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Peter Pan 2 : Retour au pays imaginaire',
@@ -5832,6 +6174,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Rox et Rouky',
@@ -5849,6 +6192,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'La petite sirène',
@@ -5866,6 +6210,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "La Petite Sirène 2 : Retour à l'océan",
@@ -5883,6 +6228,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'La Belle et la Bête',
@@ -5900,6 +6246,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Aladdin',
@@ -5917,6 +6264,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Le Retour de Jafar',
@@ -5934,6 +6282,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Aladdin et le Roi des voleurs',
@@ -5951,6 +6300,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Le Roi Lion',
@@ -5968,6 +6318,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "Le Roi Lion 2 : L'Honneur de la tribu",
@@ -5985,6 +6336,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Le Roi Lion 3 - Hakuna Matata',
@@ -6002,6 +6354,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Dingo et Max',
@@ -6019,6 +6372,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Le Petit Nicolas',
@@ -6036,6 +6390,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Pocahontas',
@@ -6053,6 +6408,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Pocahontas 2 : Un monde nouveau',
@@ -6070,6 +6426,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'The Princess Diaries 2: Royal Engagement',
@@ -6087,6 +6444,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Le Bon, la brute et le truand',
@@ -6104,6 +6462,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Le Bossu de Notre-Dame',
@@ -6121,6 +6480,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Anastasia',
@@ -6138,6 +6498,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Hercule',
@@ -6155,6 +6516,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Tarzan',
@@ -6172,6 +6534,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Tarzan 2',
@@ -6189,6 +6552,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "Kuzco, l'Empereur mégalo",
@@ -6206,6 +6570,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "Atlantide : L'Empire perdu",
@@ -6223,6 +6588,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Lilo et Stitch',
@@ -6240,6 +6606,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'La Planète au trésor',
@@ -6257,6 +6624,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Rio',
@@ -6274,6 +6642,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Les Mondes de Ralph',
@@ -6291,6 +6660,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Ralph 2.0',
@@ -6308,6 +6678,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'La Reine des Neiges',
@@ -6325,6 +6696,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Zootopie',
@@ -6342,6 +6714,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Coco',
@@ -6359,6 +6732,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Encanto',
@@ -6376,6 +6750,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'La Fée Clochette',
@@ -6393,6 +6768,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Toy Story',
@@ -6410,6 +6786,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Toy Story 2',
@@ -6427,6 +6804,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: '1001 Pattes',
@@ -6444,6 +6822,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Monstres et Cie',
@@ -6461,6 +6840,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Le monde de Nemo',
@@ -6478,6 +6858,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Les Indestructibles',
@@ -6495,6 +6876,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Ratatouille',
@@ -6512,6 +6894,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Rebelle',
@@ -6529,6 +6912,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Monstres Academy',
@@ -6546,6 +6930,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Le monde de Dory',
@@ -6563,6 +6948,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Shrek 2',
@@ -6580,6 +6966,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Madagascar',
@@ -6597,6 +6984,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Madagascar 2',
@@ -6614,6 +7002,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Dragons',
@@ -6631,6 +7020,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Dragons 2',
@@ -6648,6 +7038,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Megamind',
@@ -6665,6 +7056,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Les Cinq Légendes',
@@ -6682,6 +7074,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Le Château ambulant',
@@ -6699,6 +7092,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Ponyo',
@@ -6716,6 +7110,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Tous en scène',
@@ -6733,6 +7128,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Kirikou et la Sorcière',
@@ -6750,6 +7146,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "L'Étrange Noël de monsieur Jack",
@@ -6767,6 +7164,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Moi, Moche et Méchant',
@@ -6784,6 +7182,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Moi, Moche et Méchant 2',
@@ -6801,6 +7200,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Moi, Moche et Méchant 3',
@@ -6818,6 +7218,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "L'Âge de Glace",
@@ -6835,6 +7236,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "L'Âge de Glace 2",
@@ -6852,6 +7254,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Arthur et les Minimoys',
@@ -6869,6 +7272,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Tempête de Boulettes Géantes',
@@ -6886,6 +7290,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Les Simpson, le Film',
@@ -6903,6 +7308,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Space Jam',
@@ -6920,6 +7326,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Oliver et Compagnie',
@@ -6937,6 +7344,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'James et la Pêche géante',
@@ -6954,6 +7362,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "Le Prince d'Égypte",
@@ -6971,6 +7380,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "La Route d'Eldorado",
@@ -6988,6 +7398,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Les Noces funèbres',
@@ -7005,6 +7416,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Happy Feet',
@@ -7022,6 +7434,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Rango',
@@ -7039,6 +7452,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'La Grande Aventure Lego',
@@ -7056,6 +7470,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Piper',
@@ -7073,6 +7488,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Klaus',
@@ -7090,6 +7506,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Astérix le Gaulois',
@@ -7107,6 +7524,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "Les 12 Travaux d'Astérix",
@@ -7124,6 +7542,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Astérix et Cléopâtre',
@@ -7141,6 +7560,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Le Livre de la jungle',
@@ -7158,6 +7578,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Maléfique',
@@ -7175,6 +7596,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'La Belle et la Bête',
@@ -7192,6 +7614,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Nos étoiles contraires',
@@ -7209,6 +7632,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "Mémoires d'une geisha",
@@ -7226,6 +7650,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'James Bond : Demain ne meurt jamais',
@@ -7243,6 +7668,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'James Bond : Le monde ne suffit pas',
@@ -7260,6 +7686,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Banlieue 13',
@@ -7277,6 +7704,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Mission : Impossible',
@@ -7294,6 +7722,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Mission : Impossible 2',
@@ -7311,6 +7740,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Enola Holmes',
@@ -7328,6 +7758,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Incassable',
@@ -7345,6 +7776,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Split',
@@ -7362,6 +7794,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Glass',
@@ -7379,6 +7812,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Creed',
@@ -7396,6 +7830,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Creed II',
@@ -7413,6 +7848,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Sin City',
@@ -7430,6 +7866,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "OSS 117 : Le Caire, Nid d'Espions",
@@ -7447,6 +7884,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'OSS 117 : Rio ne Répond Plus',
@@ -7464,6 +7902,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'La nuit au musée',
@@ -7481,6 +7920,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Les Bronzés 3 : Amis pour la Vie',
@@ -7498,6 +7938,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'American Pie',
@@ -7515,6 +7956,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'American Pie 2',
@@ -7532,6 +7974,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Twilight : Chapitre 1 - Fascination',
@@ -7549,6 +7992,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Twilight : Chapitre 2 - Tentation',
@@ -7566,6 +8010,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Twilight : Chapitre 3 - Hésitation',
@@ -7583,6 +8028,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Twilight : Chapitre 4 - Révélation - Partie 1',
@@ -7600,6 +8046,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Twilight : Chapitre 4 - Révélation - Partie 2',
@@ -7617,6 +8064,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title:
@@ -7635,6 +8083,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'S.O.S. Fantômes',
@@ -7652,6 +8101,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Destination Finale',
@@ -7669,6 +8119,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Destination Finale 2',
@@ -7686,6 +8137,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Destination Finale 5',
@@ -7703,6 +8155,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'La Chute',
@@ -7720,6 +8173,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'James Bond: Meurs un autre jour',
@@ -7737,6 +8191,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Scream 2',
@@ -7754,6 +8209,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Scream 3',
@@ -7771,6 +8227,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Scream 4',
@@ -7788,6 +8245,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Scream',
@@ -7805,6 +8263,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Scream VI',
@@ -7822,6 +8281,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Scream 7',
@@ -7839,6 +8299,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: '28 jours plus tard',
@@ -7856,6 +8317,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'The Conjuring : Les Dossiers Warren',
@@ -7873,6 +8335,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Paranormal Activity',
@@ -7890,6 +8353,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Saw',
@@ -7907,6 +8371,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Divergente',
@@ -7924,6 +8389,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "Divergente 2 : L'Insurrection",
@@ -7941,6 +8407,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Divergente 3 : Au-delà du Mur',
@@ -7958,6 +8425,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Avatar',
@@ -7975,6 +8443,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'La Planète des singes : Les Origines',
@@ -7992,6 +8461,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "La Planète des singes : l'affrontement",
@@ -8009,6 +8479,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Deadpool',
@@ -8026,6 +8497,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'X-Men',
@@ -8043,6 +8515,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'X-men 2',
@@ -8060,6 +8533,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "X-Men : L'Affrontement Final",
@@ -8077,6 +8551,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'X-Men Origins : Wolverine',
@@ -8094,6 +8569,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'The Wolverine',
@@ -8111,6 +8587,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Logan',
@@ -8128,6 +8605,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'X-Men : Le Commencement',
@@ -8145,6 +8623,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'X-Men : Days of Future Past',
@@ -8162,6 +8641,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'X-Men : Apocalypse',
@@ -8179,6 +8659,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'X-Men :Dark Phoenix',
@@ -8196,6 +8677,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Venom',
@@ -8213,6 +8695,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Spider-Man',
@@ -8230,6 +8713,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Spider-Man 2',
@@ -8247,6 +8731,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Spider-Man 3',
@@ -8264,6 +8749,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Kick-Ass',
@@ -8281,6 +8767,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Les 4 Fantastiques',
@@ -8298,6 +8785,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Catwoman',
@@ -8315,6 +8803,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Iron Man',
@@ -8332,6 +8821,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Iron Man 2',
@@ -8349,6 +8839,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Les Gardiens de la Galaxie',
@@ -8366,6 +8857,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Batman',
@@ -8383,6 +8875,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Batman Returns',
@@ -8400,6 +8893,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Batman Forever',
@@ -8417,6 +8911,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Batman & Robin',
@@ -8434,6 +8929,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Aquaman',
@@ -8451,6 +8947,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Suicide Squad',
@@ -8468,6 +8965,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Watchmen : Les Gardiens',
@@ -8485,6 +8983,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Honey',
@@ -8502,6 +9001,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Nos coeurs meurtris',
@@ -8519,6 +9019,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "La Probabilité statistique de l'amour au premier regard",
@@ -8536,6 +9037,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'À Travers Ma Fenêtre',
@@ -8553,6 +9055,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Love Hard',
@@ -8570,6 +9073,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Love & autres drogues',
@@ -8587,6 +9091,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Sexy Dance',
@@ -8604,6 +9109,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Sexy Dance 4 : Miami Heat',
@@ -8621,6 +9127,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "L'Homme au masque de fer",
@@ -8638,6 +9145,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Remember Me',
@@ -8655,6 +9163,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: '17 ans encore',
@@ -8672,6 +9181,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'The Girl Next Door',
@@ -8689,6 +9199,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Ce que Veulent les Femmes',
@@ -8706,6 +9217,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Rencontre avec Joe Black',
@@ -8723,6 +9235,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'The Princess Switch',
@@ -8740,6 +9253,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Holidate',
@@ -8757,6 +9271,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: '40 jours et 40 nuits',
@@ -8774,6 +9289,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'My Oxford Year',
@@ -8791,6 +9307,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Sexe entre amis',
@@ -8808,6 +9325,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'La carte qui mène à toi',
@@ -8825,6 +9343,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'À tous les garçons : Pour toujours et à jamais',
@@ -8842,6 +9361,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Elle est trop bien',
@@ -8859,6 +9379,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Roméo + Juliette',
@@ -8876,6 +9397,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'GoldenEye',
@@ -8893,6 +9415,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: "Le Livre d'Eli",
@@ -8910,6 +9433,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Charlie et ses drôles de dames',
@@ -8927,6 +9451,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Hugo',
@@ -8944,6 +9469,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'La Plage',
@@ -8961,6 +9487,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Le Masque de Zorro',
@@ -8978,6 +9505,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Le Dernier des Mohicans',
@@ -8995,6 +9523,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Comme Cendrillon',
@@ -9012,6 +9541,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Lolita malgré moi',
@@ -9029,6 +9559,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: '30 ans sinon rien',
@@ -9046,6 +9577,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'À nous quatre',
@@ -9063,6 +9595,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Flubber',
@@ -9080,6 +9613,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Case départ',
@@ -9097,6 +9631,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Le Challenge',
@@ -9114,6 +9649,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Mon crime',
@@ -9131,6 +9667,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'The Boyfriend : Pourquoi lui ?',
@@ -9148,6 +9685,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'New York Melody',
@@ -9165,6 +9703,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Seven Psychopaths',
@@ -9182,6 +9721,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Bad Teacher',
@@ -9199,6 +9739,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Coco',
@@ -9216,6 +9757,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'La Course au jouet',
@@ -9233,6 +9775,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Mamma Mia! Here We Go Again',
@@ -9250,6 +9793,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Pitch Perfect',
@@ -9267,6 +9811,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Pitch Perfect 2',
@@ -9284,6 +9829,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Sweeney Todd : Le Diabolique Barbier de Fleet Street',
@@ -9301,6 +9847,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Mary Poppins',
@@ -9318,6 +9865,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Le Retour de Mary Poppins',
@@ -9335,6 +9883,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Marie Antoinette',
@@ -9352,6 +9901,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Thirteen',
@@ -9369,6 +9919,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Billy Elliot',
@@ -9386,6 +9937,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Braveheart',
@@ -9403,6 +9955,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Marriage Story',
@@ -9420,6 +9973,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Dunkerque',
@@ -9437,6 +9991,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Beauté cachée',
@@ -9454,6 +10009,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Gatsby le Magnifique',
@@ -9471,6 +10027,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'La Route',
@@ -9488,6 +10045,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Lost in Translation',
@@ -9505,6 +10063,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Gangs of New York',
@@ -9522,6 +10081,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Miss Peregrine et les Enfants particuliers',
@@ -9539,6 +10099,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Enchanted',
@@ -9556,6 +10117,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Casper',
@@ -9573,6 +10135,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Labyrinthe',
@@ -9590,6 +10153,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: "La Forme de l'eau",
@@ -9607,6 +10171,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Donnie Darko',
@@ -9624,6 +10189,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Willow',
@@ -9641,6 +10207,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'The Others',
@@ -9658,6 +10225,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Sleepy Hollow',
@@ -9675,6 +10243,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Paddington 2',
@@ -9692,6 +10261,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Ghost',
@@ -9709,6 +10279,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: "L'idée d'être avec toi",
@@ -9726,6 +10297,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'High School Musical 3 : Nos années lycée',
@@ -9743,6 +10315,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'High School Musical 2',
@@ -9760,6 +10333,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'High School Musical : Premiers pas sur scène',
@@ -9777,6 +10351,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Magic Mike',
@@ -9794,6 +10369,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Harry Potter et la chambre des secrets',
@@ -9811,6 +10387,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Troy',
@@ -9828,6 +10405,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Seul au monde',
@@ -9845,6 +10423,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Les déstreuses aventures des Orphelins Baudelaire',
@@ -9862,6 +10441,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Histoires enchantées',
@@ -9879,6 +10459,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "Dragon Ball Z : L'Attaque du dragon",
@@ -9896,6 +10477,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'RRRrrrr!!!',
@@ -9913,6 +10495,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: "Qu'est-ce qu'on a fait au bon dieu ?",
@@ -9930,6 +10513,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Babysitting',
@@ -9947,6 +10531,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Un jour sans fin',
@@ -9964,6 +10549,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Qui veut la peau de Roger Rabbit',
@@ -9981,6 +10567,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Van Helsing',
@@ -9998,6 +10585,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Hitch : Expert en Séduction',
@@ -10015,6 +10603,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'LOL (Laughing Out Loud)',
@@ -10032,6 +10621,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Sex and the City',
@@ -10049,6 +10639,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "Ocean's Eleven",
@@ -10066,6 +10657,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: "Maman j'ai raté l'avion",
@@ -10083,6 +10675,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Alien vs. Predator : Requiem',
@@ -10100,6 +10693,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Men in Black II',
@@ -10117,6 +10711,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Tenet',
@@ -10134,6 +10729,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Time Out',
@@ -10151,6 +10747,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "L'Armée des 12 singes",
@@ -10168,6 +10765,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Prisoners',
@@ -10185,6 +10783,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Baby boss',
@@ -10202,6 +10801,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'South Park, le Film',
@@ -10219,6 +10819,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Le Transporteur',
@@ -10236,6 +10837,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Daredevil',
@@ -10253,6 +10855,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Hancock',
@@ -10270,6 +10873,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "Les 4 Fantastiques et le Surfeur d'Argent",
@@ -10287,6 +10891,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Hulk',
@@ -10304,6 +10909,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Les Gardiens de la Galaxie Vol. 2',
@@ -10321,6 +10927,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Petits coups montés',
@@ -10338,6 +10945,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Demain est un autre jour',
@@ -10355,6 +10963,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'The In-between',
@@ -10372,6 +10981,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: "L'Amour complexe",
@@ -10389,6 +10999,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Sexy Dance 3D',
@@ -10406,6 +11017,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Jackpot',
@@ -10423,6 +11035,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Last Christmas',
@@ -10440,6 +11053,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Mon beau-père et moi',
@@ -10457,6 +11071,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Mon beau-père, mes parents et moi',
@@ -10474,6 +11089,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Mary à tout prix',
@@ -10491,6 +11107,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: '1917',
@@ -10508,6 +11125,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Gangster Squad',
@@ -10525,6 +11143,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "C'est la fin",
@@ -10542,6 +11161,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Twisters',
@@ -10559,6 +11179,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: "Les Ailes de l'enfer",
@@ -10576,6 +11197,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Ted',
@@ -10593,6 +11215,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Alvin et les Chipmunks',
@@ -10610,6 +11233,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Five',
@@ -10627,6 +11251,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Heretic',
@@ -10644,6 +11269,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Athena',
@@ -10661,6 +11287,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Steve Jobs',
@@ -10678,6 +11305,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Street Dancers',
@@ -10695,6 +11323,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Le Secret de Terabithia',
@@ -10712,6 +11341,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "L'Histoire sans fin",
@@ -10729,6 +11359,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Hérédité',
@@ -10746,6 +11377,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Stuart Little',
@@ -10763,6 +11395,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Insidious',
@@ -10780,6 +11413,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: "Le Crime de l'Orient-Express",
@@ -10797,6 +11431,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Le Village',
@@ -10814,6 +11449,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Insomnia',
@@ -10831,6 +11467,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Escape Game',
@@ -10848,6 +11485,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Good Time',
@@ -10865,6 +11503,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Sicario',
@@ -10882,6 +11521,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "Inside Man : L'Homme de l'intérieur",
@@ -10899,6 +11539,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Mystic River',
@@ -10916,6 +11557,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Dragon rouge',
@@ -10933,6 +11575,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'The Game',
@@ -10950,6 +11593,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Man on Fire',
@@ -10967,6 +11611,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Sucker Punch',
@@ -10984,6 +11629,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Only God Forgives',
@@ -11001,6 +11647,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "Braquage à l'italienne",
@@ -11018,6 +11665,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Pokémon, le film : Mewtwo contre-attaque',
@@ -11035,6 +11683,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'La ferme se rebelle',
@@ -11052,6 +11701,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Astérix et le Coup du menhir',
@@ -11069,6 +11719,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Vaillant, pigeon de combat !',
@@ -11086,6 +11737,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Danny the Dog',
@@ -11103,6 +11755,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Le Pôle Express',
@@ -11120,6 +11773,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Basil, détective privé',
@@ -11137,6 +11791,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Tintin et le Temple du Soleil',
@@ -11154,6 +11809,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Tintin et le lac aux requins',
@@ -11171,6 +11827,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Barbie et le Lac des cygnes',
@@ -11188,6 +11845,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Le Drôle de Noël de Scrooge',
@@ -11205,6 +11863,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Epic : La Bataille du royaume secret',
@@ -11222,6 +11881,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Le magasin des suicides',
@@ -11239,6 +11899,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'A Ghost Story',
@@ -11256,6 +11917,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Crocodile Dundee',
@@ -11273,6 +11935,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Les Aventures de Tintin',
@@ -11290,6 +11953,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'King Kong',
@@ -11307,6 +11971,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'La Vie Rêvée de Walter Mitty',
@@ -11324,6 +11989,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Moi, Cesar, 10 ans et demi, 1m39',
@@ -11341,6 +12007,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'La Beuze',
@@ -11358,6 +12025,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'L’Avare',
@@ -11375,6 +12043,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Wild Wild West',
@@ -11392,6 +12061,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: "Comment c'est loin",
@@ -11409,6 +12079,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Yes Man',
@@ -11426,6 +12097,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Dumb & Dumber',
@@ -11443,6 +12115,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Paul',
@@ -11460,6 +12133,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Amour et turbulences',
@@ -11477,6 +12151,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Junior',
@@ -11494,6 +12169,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Ace Ventura en Afrique',
@@ -11511,6 +12187,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Menteur, menteur',
@@ -11528,6 +12205,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Tonnerre sous les Tropiques',
@@ -11545,6 +12223,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Les Ensorceleuses',
@@ -11562,6 +12241,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Big Daddy',
@@ -11579,6 +12259,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Jack',
@@ -11596,6 +12277,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Neuilly, sa mère !',
@@ -11613,6 +12295,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Les petits mouchoirs',
@@ -11630,6 +12313,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: "Le Fabuleux Destin d'Amélie Poulain",
@@ -11647,6 +12331,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Les trois frères',
@@ -11664,6 +12349,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Les Beaux Gosses',
@@ -11681,6 +12367,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Tais-toi',
@@ -11698,6 +12385,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'La vérité si je mens !',
@@ -11715,6 +12403,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Steak',
@@ -11732,6 +12421,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Sex Academy',
@@ -11749,6 +12439,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Camp Rock',
@@ -11766,6 +12457,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Camp Rock 2',
@@ -11783,6 +12475,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Demolition',
@@ -11800,6 +12493,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'La rage au ventre',
@@ -11817,6 +12511,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Gran Torino',
@@ -11834,6 +12529,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Footloose',
@@ -11851,6 +12547,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Les Noces rebelles',
@@ -11868,6 +12565,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'The Revenant',
@@ -11885,6 +12583,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'The Fountain',
@@ -11902,6 +12601,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'To the Bone',
@@ -11919,6 +12619,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "L'Homme qui murmurait à l'oreille des chevaux",
@@ -11936,6 +12637,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'La Jeune Fille à la perle',
@@ -11953,6 +12655,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Deux Sœurs pour un roi',
@@ -11970,6 +12673,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Imitation Game',
@@ -11987,6 +12691,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'La Haine',
@@ -12004,6 +12709,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Polisse',
@@ -12021,6 +12727,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: "La vie d'Adèle",
@@ -12038,6 +12745,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Le Grand bleu',
@@ -12055,6 +12763,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'La Môme',
@@ -12072,6 +12781,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Mother!',
@@ -12089,6 +12799,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Neverland',
@@ -12106,6 +12817,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Le Monde après nous',
@@ -12123,6 +12835,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'The Reader',
@@ -12140,6 +12853,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Ed Wood',
@@ -12157,6 +12871,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Pan',
@@ -12174,6 +12889,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Avant toi',
@@ -12191,6 +12907,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: '99 Francs',
@@ -12208,6 +12925,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Dangereuse Alliance',
@@ -12225,6 +12943,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Le Pari',
@@ -12242,6 +12961,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Les Rois mages',
@@ -12259,6 +12979,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: '3 Billboards - Les Panneaux de la vengeance',
@@ -12276,6 +12997,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Porco Rosso',
@@ -12293,6 +13015,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Jackie Brown',
@@ -12310,6 +13033,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Bernie',
@@ -12327,6 +13051,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Only Lovers Left Alive',
@@ -12344,6 +13069,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Captain Fantastic',
@@ -12361,6 +13087,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Amityville',
@@ -12378,6 +13105,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Dans les hautes herbes',
@@ -12395,6 +13123,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'The Grudge',
@@ -12412,6 +13141,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Annabelle',
@@ -12429,6 +13159,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'L’Attaque du métro 123',
@@ -12446,6 +13177,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'La Doublure',
@@ -12463,6 +13195,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Le Rite',
@@ -12480,6 +13213,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Silent Hill',
@@ -12497,6 +13231,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Cloverfield',
@@ -12514,6 +13249,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: "L'île aux pirates",
@@ -12531,6 +13267,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: "Microcosmos : Le peuple de l'herbe",
@@ -12548,6 +13285,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Taram et le chaudron magique',
@@ -12565,6 +13303,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Phénomènes',
@@ -12582,6 +13321,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'The Lucky One',
@@ -12599,6 +13339,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "L'Amour en touriste",
@@ -12616,6 +13357,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Vicky Cristina Barcelona',
@@ -12633,6 +13375,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "Jeux d'enfants",
@@ -12650,6 +13393,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Cher John',
@@ -12667,6 +13411,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Scooby-Doo',
@@ -12684,6 +13429,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Looper',
@@ -12701,6 +13447,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Seul contre tous',
@@ -12718,6 +13465,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Deep Impact',
@@ -12735,6 +13483,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'The Guilty',
@@ -12752,6 +13501,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Le Jeu',
@@ -12769,6 +13519,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Drive',
@@ -12786,6 +13537,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Sous la Seine',
@@ -12803,6 +13555,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Le nombre 23',
@@ -12820,6 +13573,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Le Talentueux Mr Ripley',
@@ -12837,6 +13591,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: "Une bataille après l'autre",
@@ -12854,6 +13609,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: "L'impasse",
@@ -12871,6 +13627,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Pur-sang',
@@ -12888,6 +13645,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Gothika',
@@ -12905,6 +13663,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "Don't Breathe",
@@ -12922,6 +13681,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Mort ou vif',
@@ -12939,6 +13699,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'La soupe aux choux',
@@ -12956,6 +13717,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Sex intentions',
@@ -12973,6 +13735,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: '27 Robes',
@@ -12990,6 +13753,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Les Affranchis',
@@ -13007,6 +13771,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Dragons 3 : Le Monde caché',
@@ -13024,6 +13789,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Saw IV',
@@ -13041,6 +13807,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: "The Amazing Spider-Man : Le Destin d'un Héros",
@@ -13058,6 +13825,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'La Famille Addams',
@@ -13075,6 +13843,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Sister Act',
@@ -13092,6 +13861,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Crocodile Dundee 2',
@@ -13109,6 +13879,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Prédictions',
@@ -13126,6 +13897,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Dark Shadows',
@@ -13143,6 +13915,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: "Maman je m'occupe des méchants",
@@ -13160,6 +13933,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Dinosaure',
@@ -13177,6 +13951,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Princesse malgré elle',
@@ -13194,6 +13969,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Volt, star malgré lui',
@@ -13211,6 +13987,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: "L'Âge de Glace 4 : La Dérive des Continents",
@@ -13228,6 +14005,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: '2 Fast 2 Furious',
@@ -13245,6 +14023,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Beetlejuice',
@@ -13262,6 +14041,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Iznogoud',
@@ -13279,6 +14059,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Zombieland',
@@ -13296,6 +14077,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Exam',
@@ -13313,6 +14095,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Les Infiltrés',
@@ -13330,6 +14113,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: '16 Blocs',
@@ -13347,6 +14131,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'La chambre 1408',
@@ -13364,6 +14149,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Le Labyrinthe',
@@ -13381,6 +14167,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Shrek le Troisième',
@@ -13398,6 +14185,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: '28 Semaines Plus Tard',
@@ -13415,6 +14203,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Green Lantern',
@@ -13432,6 +14221,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Les Valseuses',
@@ -13449,6 +14239,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Mars Attacks !',
@@ -13466,6 +14257,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Hors de Prix',
@@ -13483,6 +14275,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Les Visiteurs II : Les couloirs du temps',
@@ -13500,6 +14293,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Le Terminal',
@@ -13517,6 +14311,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Amour & Amnésie',
@@ -13534,6 +14329,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: "Maman j'ai encore raté l'avion",
@@ -13551,6 +14347,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Very Bad Trip',
@@ -13568,6 +14365,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: "L'Âge de Glace 3 : Le Temps des Dinosaures",
@@ -13585,6 +14383,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: "L'Âge de glace : Les Lois de l'Univers",
@@ -13602,6 +14401,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Les bronzés font du ski',
@@ -13619,6 +14419,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'George de la jungle',
@@ -13636,6 +14437,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Zoolander',
@@ -13653,6 +14455,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Seuls Two',
@@ -13670,6 +14473,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "La momie : la tombe de l'empereur dragon",
@@ -13687,6 +14491,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Sexy Dance 2',
@@ -13704,6 +14509,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'La maison de cire',
@@ -13721,6 +14527,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Taxi 4',
@@ -13738,6 +14545,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Retour vers le futur 2',
@@ -13755,6 +14563,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Captain America : First Avenger',
@@ -13772,6 +14581,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Thor',
@@ -13789,6 +14599,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Hitman',
@@ -13806,6 +14617,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Le Choc des Titans',
@@ -13823,6 +14635,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Disclosure Day',
@@ -13840,6 +14653,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Le Vertige',
@@ -13857,6 +14671,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "À tous les garçons que j'ai aimés",
@@ -13874,6 +14689,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Cendrillon',
@@ -13891,6 +14707,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'American Nightmare',
@@ -13908,6 +14725,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Step Up: All In',
@@ -13925,6 +14743,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'La Chute Du Faucon Noir',
@@ -13942,6 +14761,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Le Parrain',
@@ -13959,6 +14779,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Horton',
@@ -13976,6 +14797,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Cendrillon 2 : Une vie de princesse',
@@ -13993,6 +14815,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Le Sourire de Mona Lisa',
@@ -14010,6 +14833,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'À contre-sens 2',
@@ -14027,6 +14851,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Noël à Pemberley',
@@ -14044,6 +14869,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'A Christmas Prince',
@@ -14061,6 +14887,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Begin Again',
@@ -14078,6 +14905,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Intolérable Cruauté',
@@ -14095,6 +14923,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "Isn't It Romantic",
@@ -14112,6 +14941,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'I Feel Pretty',
@@ -14129,6 +14959,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Tous nos jours parfaits',
@@ -14146,6 +14977,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Joli Désastre',
@@ -14163,6 +14995,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'À la folie... pas du tout',
@@ -14180,6 +15013,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'A Cure for Life',
@@ -14197,6 +15031,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "L'amour dans l'objectif",
@@ -14214,6 +15049,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "Larissa : L'autre facette d'Anitta",
@@ -14231,6 +15067,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "F*ckin' Fred : Comme un Léopard",
@@ -14248,6 +15085,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Falling Inn Love',
@@ -14265,6 +15103,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Désobéissance',
@@ -14282,6 +15121,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Madame Bovary',
@@ -14299,6 +15139,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: '6 Years',
@@ -14316,6 +15157,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'The Discovery',
@@ -14333,6 +15175,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Below Her Mouth',
@@ -14350,6 +15193,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'High School Musical 4',
@@ -14367,6 +15211,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'La Ballade de Buster Scruggs',
@@ -14384,6 +15229,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Gemma Bovery',
@@ -14401,6 +15247,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'J. K. Rowling : La Magie des mots',
@@ -14418,6 +15265,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "Steppin'",
@@ -14435,6 +15283,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Née pour danser 2',
@@ -14452,6 +15301,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "Elle s'appelait Sarah",
@@ -14469,6 +15319,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "L'Expérience interdite : Flatliners",
@@ -14486,6 +15337,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'White Bird',
@@ -14503,6 +15355,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Restless',
@@ -14520,6 +15373,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Tel père',
@@ -14537,6 +15391,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Last Night',
@@ -14554,6 +15409,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Les Garçons et Guillaume, à table !',
@@ -14571,6 +15427,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'This Is It',
@@ -14588,6 +15445,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Ibiza',
@@ -14605,6 +15463,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Alex Strangelove',
@@ -14622,6 +15481,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Playboy à saisir',
@@ -14639,6 +15499,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'The Kissing Booth',
@@ -14656,6 +15517,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'The Holiday',
@@ -14673,6 +15535,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Wild',
@@ -14690,6 +15553,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Step Sisters',
@@ -14707,6 +15571,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Blue Crush',
@@ -14724,6 +15589,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'The Fundamentals of Caring',
@@ -14741,6 +15607,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Le Cygne et la Princesse',
@@ -14758,6 +15625,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Un long dimanche de fiançailles',
@@ -14775,6 +15643,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Fievel au Far West',
@@ -14792,6 +15661,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Une journée à New York',
@@ -14809,6 +15679,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Gnoméo et Juliette',
@@ -14826,6 +15697,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Échange standard',
@@ -14843,6 +15715,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Starsky et Hutch',
@@ -14860,6 +15733,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Gomez et Tavarès',
@@ -14877,6 +15751,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Balto',
@@ -14894,6 +15769,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'American Gangster',
@@ -14911,6 +15787,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Stalingrad',
@@ -14928,6 +15805,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Australia',
@@ -14945,6 +15823,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Bandidas',
@@ -14962,6 +15841,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "Quasimodo d'El Paris",
@@ -14979,6 +15859,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Les Dents de la mer 3',
@@ -14996,6 +15877,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Endiablé',
@@ -15013,6 +15895,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "Interstellar: Nolan's Odyssey",
@@ -15030,6 +15913,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Esprits rebelles',
@@ -15047,6 +15931,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Le Voyage extraordinaire de Samy',
@@ -15064,6 +15949,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "Dreamcatcher : L'Attrape-rêves",
@@ -15081,6 +15967,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "L'Île de Nim",
@@ -15098,6 +15985,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "L'Affaire Tournesol",
@@ -15115,6 +16003,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Le Jaguar',
@@ -15132,6 +16021,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Lilo et Stitch 2',
@@ -15149,6 +16039,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Shakespeare in Love',
@@ -15166,6 +16057,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Polly et moi',
@@ -15183,6 +16075,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'The Town',
@@ -15200,6 +16093,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Rio 2',
@@ -15217,6 +16111,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Le Mac',
@@ -15234,6 +16129,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Le Secret de la Petite Sirène',
@@ -15251,6 +16147,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "La Marche de l'empereur",
@@ -15268,6 +16165,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Le Roi Arthur',
@@ -15285,6 +16183,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'The Place Beyond the Pines',
@@ -15302,6 +16201,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Cyprien',
@@ -15319,6 +16219,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Les Rebelles de la forêt',
@@ -15336,6 +16237,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Le Roi Scorpion',
@@ -15353,6 +16255,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'La Vérité si je mens ! 3',
@@ -15370,6 +16273,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: '102 Dalmatiens',
@@ -15387,6 +16291,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "Spirit, l'étalon des plaines",
@@ -15404,6 +16309,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Babe, le cochon devenu berger',
@@ -15421,6 +16327,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Docteur Dolittle',
@@ -15438,6 +16345,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Les Aristochats',
@@ -15455,6 +16363,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Sauvez Willy',
@@ -15472,6 +16381,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Belphégor, le fantôme du Louvre',
@@ -15489,6 +16399,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Podium',
@@ -15506,6 +16417,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Hypnose',
@@ -15523,6 +16435,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "La Jeune Fille de l'eau",
@@ -15540,6 +16453,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Jeepers Creepers - Le Chant Du Diable',
@@ -15557,6 +16471,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Misery',
@@ -15574,6 +16489,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Awake',
@@ -15591,6 +16507,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Contre-enquête',
@@ -15608,6 +16525,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'La Recrue',
@@ -15625,6 +16543,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Flight Plan',
@@ -15642,6 +16561,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "Bleu d'enfer",
@@ -15659,6 +16579,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Fenêtre secrète',
@@ -15676,6 +16597,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'From Hell',
@@ -15693,6 +16615,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Haute Voltige',
@@ -15710,6 +16633,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Simone',
@@ -15727,6 +16651,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Le merveilleux magasin de Mr Magorium',
@@ -15744,6 +16669,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Dark Skies',
@@ -15761,6 +16687,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "Albator, corsaire de l'espace",
@@ -15778,6 +16705,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Starship Troopers',
@@ -15795,6 +16723,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Une nouvelle chance',
@@ -15812,6 +16741,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "Un homme d'exception",
@@ -15829,6 +16759,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Le Professeur foldingue',
@@ -15846,6 +16777,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Flashdance',
@@ -15863,6 +16795,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "De l'eau pour les éléphants",
@@ -15880,6 +16813,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Crazy, Stupid, Love',
@@ -15897,6 +16831,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Le Sortilège de Cendrillon',
@@ -15914,6 +16849,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Spice World, le film',
@@ -15931,6 +16867,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Le Cygne et la Princesse 2',
@@ -15948,6 +16885,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Charlie',
@@ -15965,6 +16903,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Splash',
@@ -15982,6 +16921,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Richard au pays des livres magiques',
@@ -15999,6 +16939,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "L'Indien du placard",
@@ -16016,6 +16957,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Cœur de dragon',
@@ -16033,6 +16975,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'No et moi',
@@ -16050,6 +16993,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Quelques minutes après minuit',
@@ -16067,6 +17011,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Sleeping Beauty',
@@ -16084,6 +17029,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "K-PAX : l'homme qui vient de loin",
@@ -16101,6 +17047,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Last Days of Summer',
@@ -16118,6 +17065,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "L'Exorcisme d'Emily Rose",
@@ -16135,6 +17083,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Un monde meilleur',
@@ -16152,6 +17101,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'En pleine tempête',
@@ -16169,6 +17119,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Dance with Me',
@@ -16186,6 +17137,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Irréversible',
@@ -16203,6 +17155,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'A Single Man',
@@ -16220,6 +17173,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Coach Carter',
@@ -16237,6 +17191,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Donnie Brasco',
@@ -16254,6 +17209,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Carol',
@@ -16271,6 +17227,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Brisby et le Secret de NIMH',
@@ -16288,6 +17245,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'World Trade Center',
@@ -16305,6 +17263,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Now is Good',
@@ -16322,6 +17281,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Bel-Ami',
@@ -16339,6 +17299,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Peter et Elliott le dragon',
@@ -16356,6 +17317,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Coup de foudre à Manhattan',
@@ -16373,6 +17335,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Ma meilleure ennemie',
@@ -16390,6 +17353,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Un amour sans fin',
@@ -16407,6 +17371,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Poucelina',
@@ -16424,6 +17389,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Closer, entre adultes consentants',
@@ -16441,6 +17407,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Effets secondaires',
@@ -16458,6 +17425,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "L'Orphelinat",
@@ -16475,6 +17443,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Shame',
@@ -16492,6 +17461,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "L'Histoire sans fin 2 : Un nouveau chapitre",
@@ -16509,6 +17479,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Jack et la mécanique du cœur',
@@ -16526,6 +17497,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Elephant',
@@ -16543,6 +17515,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Harvey Milk',
@@ -16560,6 +17533,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'A Dangerous Method',
@@ -16577,6 +17551,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Anna Karénine',
@@ -16594,6 +17569,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'The Duchess',
@@ -16611,6 +17587,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Une merveilleuse histoire du temps',
@@ -16628,6 +17605,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "De rouille et d'os",
@@ -16645,6 +17623,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Auprès de moi toujours',
@@ -16662,6 +17641,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'The Giver',
@@ -16679,6 +17659,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
 
   {
@@ -16697,6 +17678,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Home',
@@ -16714,6 +17696,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Bowling for Columbine',
@@ -16731,6 +17714,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Safari',
@@ -16748,6 +17732,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'My Girl',
@@ -16765,6 +17750,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Molière',
@@ -16782,6 +17768,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Disjoncté',
@@ -16799,6 +17786,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Mon pire cauchemar',
@@ -16816,6 +17804,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Le Fils de Chucky',
@@ -16833,6 +17822,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "L'Aventure intérieure",
@@ -16850,6 +17840,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Sheitan',
@@ -16867,6 +17858,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Casper et Wendy',
@@ -16884,6 +17876,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "Comme t'y es belle !",
@@ -16901,6 +17894,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Stars 80',
@@ -16918,6 +17912,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'God Bless America',
@@ -16935,6 +17930,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Lizzie McGuire, le film',
@@ -16952,6 +17948,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'La Délicatesse',
@@ -16969,6 +17966,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "Wayne's World",
@@ -16986,6 +17984,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Trois Zéros',
@@ -17003,6 +18002,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Jean-Philippe',
@@ -17020,6 +18020,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "L'Étrange Pouvoir de Norman",
@@ -17037,6 +18038,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "L'Île des Miam-nimaux : Tempête de boulettes géantes 2",
@@ -17054,6 +18056,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Hocus Pocus : Les Trois Sorcières',
@@ -17071,6 +18074,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Six jours, sept nuits',
@@ -17088,6 +18092,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Paulette',
@@ -17105,6 +18110,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Gazon maudit',
@@ -17122,6 +18128,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Mais qui a tué Pamela Rose ?',
@@ -17139,6 +18146,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Mais qui a re-tué Pamela Rose ?',
@@ -17156,6 +18164,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Bienvenue à bord',
@@ -17173,6 +18182,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Allumeuses !',
@@ -17190,6 +18200,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Les Rois de la glisse',
@@ -17207,6 +18218,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "Ensemble, c'est tout",
@@ -17224,6 +18236,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Disco',
@@ -17241,6 +18254,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "Et si c'était vrai…",
@@ -17258,6 +18272,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Allô maman, ici bébé',
@@ -17275,6 +18290,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "L'amour dure trois ans",
@@ -17292,6 +18308,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Comme des bêtes',
@@ -17309,6 +18326,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Prête-moi ta main',
@@ -17326,6 +18344,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Marley et moi',
@@ -17343,6 +18362,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Joue-la comme Beckham',
@@ -17360,6 +18380,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Coyote Girls',
@@ -17377,6 +18398,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Le Boulet',
@@ -17394,6 +18416,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "L'Amour extra-large",
@@ -17411,6 +18434,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Camping 2',
@@ -17428,6 +18452,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Didier',
@@ -17445,6 +18470,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Chouchou',
@@ -17462,6 +18488,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Tout ce qui Brille',
@@ -17479,6 +18506,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Hollywoo',
@@ -17496,6 +18524,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Freaky Friday',
@@ -17513,6 +18542,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "Bridget Jones : L'Âge de raison",
@@ -17530,6 +18560,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Réussir ou mourir',
@@ -17547,6 +18578,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "Jeanne d'Arc",
@@ -17564,6 +18596,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Le Raid',
@@ -17581,6 +18614,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Crossroads',
@@ -17598,6 +18632,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Bronson',
@@ -17615,6 +18650,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Dobermann',
@@ -17632,6 +18668,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Mon ami Joe',
@@ -17649,6 +18686,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Chérie, nous avons été rétrécis',
@@ -17666,6 +18704,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "L'interview qui tue !",
@@ -17683,6 +18722,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Twister',
@@ -17700,6 +18740,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "L'ennemi public n°1",
@@ -17717,6 +18758,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "L'instinct de mort",
@@ -17734,6 +18776,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Tron',
@@ -17751,6 +18794,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Pompéi',
@@ -17768,6 +18812,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Robin des Bois, prince des voleurs',
@@ -17785,6 +18830,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "Charlie's Angels : Les Anges se déchaînent !",
@@ -17802,6 +18848,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "Tron : L'Héritage",
@@ -17819,6 +18866,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: "L'Abominable Vérité",
@@ -17836,6 +18884,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Sinbad : La Légende des sept mers',
@@ -17853,6 +18902,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Le Come-Back',
@@ -17870,6 +18920,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Dans la ligne de mire',
@@ -17887,6 +18938,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'À tout jamais, une histoire de Cendrillon',
@@ -17904,6 +18956,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'La Voleuse de livres',
@@ -17921,6 +18974,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Dirty Dancing 2',
@@ -17938,6 +18992,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Je veux vivre !',
@@ -17955,6 +19010,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Boys and Girls',
@@ -17972,6 +19028,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Save the Last Dance',
@@ -17989,6 +19046,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Les Rois du désert',
@@ -18006,6 +19064,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Les Folles Aventures de Bill et Ted',
@@ -18023,6 +19082,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Truman Capote',
@@ -18040,6 +19100,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
   {
     title: 'Dance-Off',
@@ -18057,6 +19118,7 @@ export const lauralMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     inList: [],
+    lastUpdated: '',
   },
 
   {
@@ -18075,6 +19137,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
 
   {
@@ -18093,6 +19156,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
 
   {
@@ -18111,6 +19175,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
 
   {
@@ -18129,6 +19194,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
 
   {
@@ -18147,6 +19213,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
 
   {
@@ -18165,6 +19232,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
 
   {
@@ -18183,6 +19251,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
 
   {
@@ -18201,6 +19270,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
 
   {
@@ -18219,6 +19289,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
 
   {
@@ -18237,6 +19308,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
 
   {
@@ -18255,6 +19327,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
 
   {
@@ -18273,6 +19346,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Hot Milk',
@@ -18290,6 +19364,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'La Pampa',
@@ -18307,6 +19382,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Thrash',
@@ -18324,6 +19400,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Projet X',
@@ -18341,6 +19418,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: 'Le Paradis',
@@ -18358,6 +19436,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
   {
     title: "L'Ascension brisée de Moriah Wilson",
@@ -18375,6 +19454,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
 
   {
@@ -18393,6 +19473,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
 
   {
@@ -18411,6 +19492,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
 
   {
@@ -18429,6 +19511,7 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
 
   {
@@ -18447,5 +19530,6 @@ export const lauralMovies: UserMovie[] = [
     inList: [],
     borrowed: '',
     loaned: '',
+    lastUpdated: '',
   },
 ];

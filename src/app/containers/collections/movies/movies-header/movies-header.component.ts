@@ -26,6 +26,7 @@ import { createCollectionHeaderMobileAccordion } from '../../../../utils/collect
 })
 export class MoviesHeaderComponent {
   onViewChange = output<MovieView>();
+  onMobileBack = output<void>();
   onOpenViewConfig = output<void>();
   onYearFilterChange = output<string>();
   onSearchChange = output<string>();
@@ -237,5 +238,9 @@ export class MoviesHeaderComponent {
     return hasNameParam
       ? `/${params['id']}/select-movies-owned`
       : '/select-movies-owned';
+  }
+
+  public isMobile(): boolean {
+    return window.innerWidth < 768;
   }
 }

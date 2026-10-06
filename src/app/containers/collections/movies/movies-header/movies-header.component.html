@@ -1,25 +1,45 @@
 <div class="movies-header">
-  <h1>
-    {{ moviesPageTitle() }} ({{
-      selectedView() === "recommendations"
-        ? recommendedMoviesCount()
-        : filteredMoviesByYearCount()
-    }})
-  </h1>
+  <div class="movies-header-title">
+    @if (isMobile()) {
+    <button
+      type="button"
+      class="movies-header-back"
+      (click)="onMobileBack.emit()"
+      aria-label="Retour au choix de la vue"
+    >
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path
+          d="M15 6L9 12l6 6"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2.2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+    </button>
+    }
+
+    <h1>
+      {{ moviesPageTitle() }} ({{
+        selectedView() === "recommendations"
+          ? recommendedMoviesCount()
+          : filteredMoviesByYearCount()
+      }})
+    </h1>
+  </div>
 
   @if(allMoviesCount() !== 0) {
   <div class="movies-header-top">
+    @if (!isMobile()) {
     <app-view-toggle
       [toggleClass]="'movies-view-toggle'"
       [options]="visibleMovieViewOptions()"
       [selected]="selectedView()"
       (selectedChange)="onViewChange.emit($any($event))"
     ></app-view-toggle>
-
-    @if (
-      (selectedView() === 'watched' || selectedView() === 'watchlist') &&
-      userMoviesLists().length > 0
-    ) {
+    } @if ( (selectedView() === 'watched' || selectedView() === 'watchlist') &&
+    userMoviesLists().length > 0 ) {
     <div
       class="movies-list-filters"
       role="group"
