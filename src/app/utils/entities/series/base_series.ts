@@ -2192,9 +2192,9 @@ export const baseSeries: BaseSerie[] = [
     coverUrl:
       '/series_pictures/ca9ace77b7dd.jpg',
     releaseDate: '2026-08-16',
-    endDate: '',
+    endDate: '2026-10-04',
     genre: ['Crime', 'Drama', 'Sci-Fi'],
-    seasonsData: [{ seasonNumber: 1, nbEpisodes: 8, totalLength: 440 }],
+    seasonsData: [{ seasonNumber: 1, nbEpisodes: 8, totalLength: 424 }],
     description:
       'John Stewart, nouvelle recrue du Green Lantern Corps, et le légendaire Hal Jordan enquêtent sur un meurtre dans le cœur de l’Amérique, une affaire qui les plonge dans un mystère terrestre aux implications intergalactiques.',
     fromEntity: {
