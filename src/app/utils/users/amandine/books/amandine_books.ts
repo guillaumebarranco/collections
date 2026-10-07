@@ -16,6 +16,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -33,6 +34,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -50,6 +52,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -67,6 +70,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -84,6 +88,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -101,6 +106,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -118,6 +124,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -135,6 +142,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -152,6 +160,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -169,6 +178,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -186,6 +196,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -203,6 +214,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -220,6 +232,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -237,6 +250,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -254,6 +268,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -271,6 +286,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -288,6 +304,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -305,6 +322,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -322,6 +340,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -339,6 +358,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -356,6 +376,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -373,6 +394,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -390,6 +412,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -407,6 +430,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -424,6 +448,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -441,6 +466,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -458,6 +484,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -475,6 +502,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -492,6 +520,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -509,6 +538,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -526,6 +556,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -543,6 +574,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -560,6 +592,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -577,6 +610,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -594,6 +628,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -611,6 +646,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -628,6 +664,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -645,6 +682,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -662,6 +700,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -679,6 +718,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -696,6 +736,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -713,6 +754,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -730,6 +772,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -747,6 +790,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -764,6 +808,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -781,6 +826,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -798,6 +844,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -815,6 +862,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -832,6 +880,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -849,6 +898,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -866,6 +916,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -884,6 +935,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -901,6 +953,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -918,6 +971,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -935,6 +989,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -952,6 +1007,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -969,6 +1025,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -986,6 +1043,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le Chien des Baskerville',
@@ -1002,6 +1060,7 @@ export const amandineBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: "L'Odyssée",
@@ -1018,6 +1077,7 @@ export const amandineBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Anges et démons',
@@ -1034,6 +1094,7 @@ export const amandineBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Un animal sauvage',
@@ -1050,6 +1111,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1067,6 +1129,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1084,6 +1147,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1101,6 +1165,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1118,6 +1183,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1135,6 +1201,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1152,6 +1219,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1169,6 +1237,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1186,6 +1255,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1203,6 +1273,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1220,6 +1291,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1237,6 +1309,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1254,6 +1327,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1271,6 +1345,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1288,6 +1363,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1305,6 +1381,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1322,6 +1399,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1339,6 +1417,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1356,6 +1435,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1373,6 +1453,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1390,6 +1471,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1407,6 +1489,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1424,6 +1507,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1441,6 +1525,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1458,6 +1543,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1475,6 +1561,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1492,6 +1579,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1509,6 +1597,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1526,6 +1615,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1543,6 +1633,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1560,6 +1651,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1577,6 +1669,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1594,6 +1687,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1611,6 +1705,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1628,6 +1723,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1645,6 +1741,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1662,6 +1759,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1679,6 +1777,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1696,6 +1795,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1713,6 +1813,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1730,6 +1831,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1747,6 +1849,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1764,6 +1867,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1781,6 +1885,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1798,6 +1903,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1815,6 +1921,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1832,6 +1939,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1849,6 +1957,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1866,6 +1975,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1883,6 +1993,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1900,6 +2011,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1917,6 +2029,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1934,6 +2047,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1951,6 +2065,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1968,6 +2083,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1985,6 +2101,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -2002,6 +2119,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -2019,6 +2137,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -2036,6 +2155,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -2053,6 +2173,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -2070,6 +2191,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -2087,6 +2209,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -2104,6 +2227,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -2121,6 +2245,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -2138,6 +2263,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -2155,6 +2281,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -2172,6 +2299,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -2189,6 +2317,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -2206,6 +2335,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -2223,6 +2353,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -2240,6 +2371,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -2257,6 +2389,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -2274,6 +2407,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -2291,6 +2425,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -2308,6 +2443,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -2325,6 +2461,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -2342,6 +2479,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -2359,6 +2497,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -2376,6 +2515,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -2393,6 +2533,7 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -2410,5 +2551,6 @@ export const amandineBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 ];

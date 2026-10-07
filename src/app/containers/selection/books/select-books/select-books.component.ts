@@ -27,6 +27,12 @@ import { SelectEntityComponent } from '../../../../components/entity/select-enti
 import { getApiBaseUrl } from '../../../../core/config';
 import { getEmptyBook } from '../../../../helpers/empty-entities-helper';
 import { normalizeSearchText } from '../../../../utils/normalize-search-text';
+import { firstValueFrom } from 'rxjs';
+import {
+  MoveEntityReviewModalComponent,
+  MoveEntityReviewModalData,
+  MoveEntityReviewModalResult,
+} from '../../../../components/modals/move-entity-review-modal/move-entity-review-modal.component';
 
 @Component({
   selector: 'app-select-books',
@@ -50,6 +56,7 @@ export class SelectBooksComponent
   private loadMoreObserver: IntersectionObserver | null = null;
 
   readonly visibleCount = signal(SelectBooksComponent.pageSize);
+  readonly descriptionExpanded = signal(false);
 
   baseBooks = signal<LightBook[]>([]);
   userBooks = signal<Book[]>([]);
@@ -71,10 +78,20 @@ export class SelectBooksComponent
     return this.userBooks().some((book) => baseKeys.has(this.getBookKey(book)));
   });
 
-  // Livres déjà en readlist (toujours exclus de la liste pour éviter les doublons)
+  // Livres déjà en readlist (exclus du parcours, mais retrouvés par la recherche « livres lus »).
   alreadyInReadlistBooks = computed<Set<string>>(() => {
     const readlistBooks = this.readlistBooks();
     return new Set(readlistBooks.map((book) => this.getBookKey(book)));
+  });
+
+  /** Livres du catalogue déjà dans « à lire », pas encore lus. */
+  readlistBooksInCatalog = computed<Book[]>(() => {
+    const readlistKeys = this.alreadyInReadlistBooks();
+    const readKeys = this.readBooks();
+    return this.allBooksMergedList().filter((book) => {
+      const key = this.getBookKey(book);
+      return readlistKeys.has(key) && !readKeys.has(key);
+    });
   });
 
   // Tous les livres proposés : ni déjà lus, ni déjà en readlist.
@@ -96,16 +113,26 @@ export class SelectBooksComponent
     const normalizedTerm = normalizeSearchText(this.searchTerm().trim());
     const list = this.allBooks();
     if (!normalizedTerm) return list;
-    return list.filter((book) => {
-      const title = normalizeSearchText(book.title ?? '');
-      const author = normalizeSearchText(book.author ?? '');
-      const saga = normalizeSearchText(book.saga ?? '');
-      return (
-        title.includes(normalizedTerm) ||
-        author.includes(normalizedTerm) ||
-        saga.includes(normalizedTerm)
-      );
-    });
+
+    const matches = list.filter((book) =>
+      this.matchesSearch(book, normalizedTerm)
+    );
+    if (this.isWatchOrReadlistMode()) {
+      return matches;
+    }
+
+    const readlistMatches = this.sortByDisplayOrder(
+      this.readlistBooksInCatalog().filter((book) =>
+        this.matchesSearch(book, normalizedTerm)
+      )
+    );
+    if (readlistMatches.length === 0) return matches;
+
+    const alreadyListed = new Set(matches.map((book) => this.getBookKey(book)));
+    const surfaced = readlistMatches.filter(
+      (book) => !alreadyListed.has(this.getBookKey(book))
+    );
+    return [...surfaced, ...matches];
   });
 
   displayedBooks = computed(() =>
@@ -174,6 +201,44 @@ export class SelectBooksComponent
     return this.selectedBooks().has(this.getBookKey(book));
   }
 
+  isOnReadlist(book: Book): boolean {
+    return (
+      !this.isWatchOrReadlistMode() &&
+      this.alreadyInReadlistBooks().has(this.getBookKey(book))
+    );
+  }
+
+  private matchesSearch(book: Book, normalizedTerm: string): boolean {
+    const title = normalizeSearchText(book.title ?? '');
+    const author = normalizeSearchText(book.author ?? '');
+    const saga = normalizeSearchText(book.saga ?? '');
+    return (
+      title.includes(normalizedTerm) ||
+      author.includes(normalizedTerm) ||
+      saga.includes(normalizedTerm)
+    );
+  }
+
+  private sortByDisplayOrder(books: Book[]): Book[] {
+    return [...books].sort(
+      (a, b) => (b.selectDisplayOrder ?? 0) - (a.selectDisplayOrder ?? 0)
+    );
+  }
+
+  private booksEligibleForSubmit(): Book[] {
+    if (this.isWatchOrReadlistMode()) {
+      return this.allBooks();
+    }
+    const byKey = new Map<string, Book>();
+    for (const book of [
+      ...this.readlistBooksInCatalog(),
+      ...this.allBooks(),
+    ]) {
+      byKey.set(this.getBookKey(book), book);
+    }
+    return [...byKey.values()];
+  }
+
   private getBookKey(book: Book): string {
     return `${book.title}-${book.author}`;
   }
@@ -218,7 +283,7 @@ export class SelectBooksComponent
   }
 
   protected async addSelectedBooks(): Promise<void> {
-    const selectedBooksList = this.allBooks()
+    const selectedBooksList = this.booksEligibleForSubmit()
       .filter((book) => this.isSelected(book))
       .map((book) => {
         return {
@@ -259,9 +324,87 @@ export class SelectBooksComponent
         return;
       }
 
+      if (!this.isWatchOrReadlistMode() && selectedBooksList.length === 1) {
+        await this.askRatingForJustReadBook(selectedBooksList[0]);
+      }
+
       this.router.navigate([`${this.userId()}/books`]);
     } catch (error) {
       console.warn("Erreur réseau lors de l'ajout batch des livres.", error);
     }
+  }
+
+  goBackToBooks(): void {
+    this.navigateToEntityList('books');
+  }
+
+  /** Même fenêtre de note que le passage d'un livre « à lire » vers « lu ». */
+  private async askRatingForJustReadBook(book: Book): Promise<void> {
+    const dialogRef = this.dialog.open<
+      MoveEntityReviewModalComponent,
+      MoveEntityReviewModalData,
+      MoveEntityReviewModalResult | undefined
+    >(MoveEntityReviewModalComponent, {
+      data: {
+        entityTitle: book.title,
+        showViewedDateToday: !this.alreadyInReadlistBooks().has(
+          this.getBookKey(book)
+        ),
+        viewedDateTodayLabel: "Mettre la date de lecture à aujourd'hui",
+      },
+      width: 'auto',
+      maxWidth: '95vw',
+    });
+
+    const result = await firstValueFrom(dialogRef.afterClosed());
+    if (!result) return;
+
+    try {
+      const response = await fetch(`${getApiBaseUrl()}/books/batch-rating`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          userId: this.userId(),
+          books: [
+            {
+              title: book.title,
+              author: book.author,
+              rating: result.rating,
+              ratingComment: result.ratingComment,
+              ...(result.setViewedDateToToday
+                ? {
+                    firstReadDate: this.todayIsoDate(),
+                    lastReadDate: this.todayIsoDate(),
+                  }
+                : {}),
+            },
+          ],
+        }),
+      });
+
+      if (!response.ok) {
+        const payload = await response.json().catch(() => ({}));
+        console.warn(
+          'books:batch-rating:error',
+          payload?.error || response.statusText
+        );
+      }
+    } catch (error) {
+      console.warn('books:batch-rating:error', error);
+    }
+  }
+
+  private todayIsoDate(): string {
+    const today = new Date();
+    const year = today.getFullYear();
+    const month = String(today.getMonth() + 1).padStart(2, '0');
+    const day = String(today.getDate()).padStart(2, '0');
+    return `${year}-${month}-${day}`;
+  }
+
+  toggleDescription(): void {
+    this.descriptionExpanded.update((expanded) => !expanded);
   }
 }

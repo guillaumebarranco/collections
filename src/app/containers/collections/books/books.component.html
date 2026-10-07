@@ -1,5 +1,6 @@
 <app-menu></app-menu>
 
+@if (!isMobile() || (isMobile() && mobileSelectedView())) {
 <div
   class="books-container collection-view"
   [class.container-saga-mode]="
@@ -26,6 +27,7 @@
     [sortOptions]="sortOptions()"
     [yearFilterOptions]="yearFilterOptions"
     (onViewChange)="onViewChange($any($event))"
+    (onMobileBack)="onMobileBack()"
     (onOpenViewConfig)="openViewConfig()"
     (onYearFilterChange)="onYearFilterChange($event)"
     (onSearchChange)="onSearchChange($event)"
@@ -293,8 +295,65 @@
   </div>
   }
 </div>
-
-@if (isViewConfigOpen()) {
+} @else if (isLoadingBooks()) {
+<app-loader message="Chargement des livres..." />
+} @else {
+<section class="mobile-view-picker" aria-label="Choisir une vue livres">
+  <h1 class="mobile-view-picker__title">Livres</h1>
+  <a
+    *appCanEdit
+    class="mobile-view-picker__shortcut"
+    [routerLink]="getSelectReadBooksRoute()"
+  >
+    Je viens de lire un livre
+  </a>
+  @for (viewOption of visibleViewOptions(); track viewOption.value) { @let
+  preview = mobileViewPreviews().get(viewOption.value);
+  <button
+    type="button"
+    class="mobile-view-selection"
+    (click)="onMobileSelectView(viewOption.value)"
+  >
+    @if (preview; as bookPreview) { @if (bookPreview.coverUrl) {
+    <img
+      class="mobile-view-selection__cover"
+      [src]="bookPreview.coverUrl"
+      [alt]="'Couverture de ' + bookPreview.title"
+    />
+    } @else {
+    <span
+      class="mobile-view-selection__cover mobile-view-selection__cover--empty"
+      aria-hidden="true"
+      >📖</span
+    >
+    } } @else {
+    <span
+      class="mobile-view-selection__cover mobile-view-selection__cover--empty"
+      aria-hidden="true"
+      >📖</span
+    >
+    }
+    <span class="mobile-view-selection__copy">
+      <span class="mobile-view-selection__label">{{ viewOption.label }}</span>
+    </span>
+    <svg
+      class="mobile-view-selection__chevron"
+      viewBox="0 0 24 24"
+      aria-hidden="true"
+    >
+      <path
+        d="M9 6l6 6-6 6"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2.2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+  </button>
+  }
+</section>
+} @if (isViewConfigOpen()) {
 <div class="books-config-overlay" (click)="closeViewConfig()">
   <div
     class="books-config-content"

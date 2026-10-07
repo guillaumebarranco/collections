@@ -16,6 +16,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le Procès",
@@ -32,6 +33,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Cent ans de solitude",
@@ -48,6 +50,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Hamlet",
@@ -64,6 +67,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le dernier jour d'un condamné",
@@ -80,6 +84,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "L'Histoire sans fin",
@@ -96,6 +101,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Orgueil et Préjugés",
@@ -112,6 +118,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Raison et sentiments",
@@ -128,6 +135,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Jane Eyre",
@@ -144,6 +152,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "L'homme invisible",
@@ -160,6 +169,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "The Invisible Life of Addie LaRue",
@@ -176,6 +186,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "La Maison des feuilles",
@@ -192,6 +203,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Player One",
@@ -208,6 +220,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Battle Royale",
@@ -224,6 +237,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le fantôme de Canterville",
@@ -240,6 +254,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "La Naissance de la tragédie",
@@ -256,6 +271,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Les Rêveries du promeneur solitaire",
@@ -272,6 +288,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Les Souffrances du jeune Werther",
@@ -288,6 +305,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Peau noire masques blancs",
@@ -304,6 +322,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Défier la nuit",
@@ -320,6 +339,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "La Maison sous la Maison",
@@ -336,6 +356,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "La Fille-Renard et la merveilleuse Boutique-sur-Pattes (1)",
@@ -352,6 +373,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "En bons pères de famille",
@@ -368,6 +390,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le livre qui brisa le monde",
@@ -384,6 +407,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le problème à trois corps",
@@ -400,6 +424,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Les disparus du phare de Tévennec",
@@ -416,6 +441,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le Comte de Monte-Cristo",
@@ -432,6 +458,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Bel-Ami",
@@ -448,6 +475,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "La Métamorphose",
@@ -464,6 +492,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "La voleuse de livres",
@@ -480,6 +509,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le rouge et le noir",
@@ -496,6 +526,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Les Dents de la mer",
@@ -512,6 +543,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Mary Poppins",
@@ -528,6 +560,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Gatsby le magnifique",
@@ -544,6 +577,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Je suis une légende",
@@ -560,6 +594,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Anna Karénine",
@@ -576,6 +611,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Jurassic Park",
@@ -592,6 +628,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "La chronique des Bridgerton : La reine Charlotte",
@@ -608,6 +645,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Des fleurs pour Algernon",
@@ -624,6 +662,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Fahrenheit 451",
@@ -640,6 +679,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Madame Bovary",
@@ -656,6 +696,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Médée",
@@ -672,6 +713,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Mystic River",
@@ -688,6 +730,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Nos plus belles années",
@@ -704,6 +747,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Sous la porte qui chuchote",
@@ -720,6 +764,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Un palais de flammes d'argent",
@@ -736,6 +781,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Une vie",
@@ -752,6 +798,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Voyage au bout de la nuit",
@@ -768,6 +815,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Les liaisons dangereuses",
@@ -784,6 +832,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Crime et châtiment",
@@ -800,6 +849,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "D'un monde à l'autre",
@@ -816,6 +866,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Les frontières de glace",
@@ -832,6 +883,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "L'île du destin",
@@ -848,6 +900,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "La Forêt des captifs",
@@ -864,6 +917,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "L'Œil d'Otolep",
@@ -880,6 +934,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Les Tentacules du mal",
@@ -896,6 +951,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Les Fiancés de l'Hiver",
@@ -912,6 +968,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Dark Shores",
@@ -928,6 +985,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Divines Rivalités (Lettres d'enchantement, #1)",
@@ -944,6 +1002,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "À couper le souffle",
@@ -960,6 +1019,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "À la recherche de l'esprit renard, tome 1 : Albans",
@@ -976,6 +1036,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "All of us villains, tome 1 : Le tournoi d'Ilvernath",
@@ -992,6 +1053,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Anatomy",
@@ -1008,6 +1070,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Appleseed",
@@ -1024,6 +1087,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Babel",
@@ -1040,6 +1104,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Beauté fatale",
@@ -1056,6 +1121,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Black girl unlimited",
@@ -1072,6 +1138,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Bréviaire du chaos",
@@ -1088,6 +1155,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Cadavre exquis",
@@ -1104,6 +1172,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Caraval, tome 1",
@@ -1120,6 +1189,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Ce coeur empoisonné",
@@ -1136,6 +1206,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Ce que font les filles à la nuit tombée",
@@ -1152,6 +1223,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Cérémonie d'orage",
@@ -1168,6 +1240,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Ceux de la montagne évanouie",
@@ -1184,6 +1257,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Ceux qui changent et ceux qui meurent",
@@ -1200,6 +1274,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Clamser à Tataouine",
@@ -1216,6 +1291,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Comme si la fin n'existait pas",
@@ -1232,6 +1308,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Comment voyager dans les Terres Oubliées",
@@ -1248,6 +1325,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Curious Tides, tome 1 : De la Lune et des Marées",
@@ -1264,6 +1342,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Dans la forêt profonde",
@@ -1280,6 +1359,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Dans la vie des pantins",
@@ -1296,6 +1376,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Dans notre univers, nous sommes infinis",
@@ -1312,6 +1393,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Days",
@@ -1328,6 +1410,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "De l'inconvénient d'être né",
@@ -1344,6 +1427,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Dernière soirée",
@@ -1360,6 +1444,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Devenir Fasciste : Ma Thérapie de conversion",
@@ -1376,6 +1461,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Devenir Zéro",
@@ -1392,6 +1478,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Du thé pour les fantômes",
@@ -1408,6 +1495,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Duchess",
@@ -1424,6 +1512,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Ecchymoses",
@@ -1440,6 +1529,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Éclosion",
@@ -1456,6 +1546,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Écosse : Hadrien et la licorne",
@@ -1472,6 +1563,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Entre leurs mains",
@@ -1488,6 +1580,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Esprit d'hiver",
@@ -1504,6 +1597,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Et si tu revenais",
@@ -1520,6 +1614,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Fenêtre sur le rien",
@@ -1536,6 +1631,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Hantise (Maison hantée)",
@@ -1552,6 +1648,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Heartless Hunter, tome 1",
@@ -1568,6 +1665,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Histoire de la fille qui ne voulait tuer personne",
@@ -1584,6 +1682,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Hollywoodland",
@@ -1600,6 +1699,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Hôtel Magnifique",
@@ -1616,6 +1716,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Idées reçues sur les phobies",
@@ -1632,6 +1733,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Il faut qu'on parle de Kevin",
@@ -1648,6 +1750,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Ilos, tome 1",
@@ -1664,6 +1767,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Into the deep",
@@ -1680,6 +1784,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Jake",
@@ -1696,6 +1801,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Je ne me lasse pas de vivre",
@@ -1712,6 +1818,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Je suis l'abysse",
@@ -1728,6 +1835,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Knulp",
@@ -1744,6 +1852,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "L'Amant de Lady Chatterley",
@@ -1760,6 +1869,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "L'arbre d'Halloween",
@@ -1776,6 +1886,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "L'Écorchée",
@@ -1792,6 +1903,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "L'égarée",
@@ -1808,6 +1920,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "L'Épaisseur d'un cheveu",
@@ -1824,6 +1937,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "L'Etoile du soir",
@@ -1840,6 +1954,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "L'étrange cas du Docteur Jekyll et de Monsieur Hyde",
@@ -1856,6 +1971,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "L'Hacienda",
@@ -1872,6 +1988,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "L'héritage de Judith Blackwood",
@@ -1888,6 +2005,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "L'Homme qui lisait des livres",
@@ -1904,6 +2022,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "L'homme qui prenait sa femme pour un chapeau et autres récits cliniques",
@@ -1920,6 +2039,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "L'homme qui rêvait d'aimer",
@@ -1936,6 +2056,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "L'horreur de Kill Creek",
@@ -1952,6 +2073,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "L'Île",
@@ -1968,6 +2090,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "L'océan au bout du chemin",
@@ -1984,6 +2107,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "La Ballade de l'impossible",
@@ -2000,6 +2124,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "La Cagnotte",
@@ -2016,6 +2141,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "La Dame en blanc",
@@ -2032,6 +2158,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "La demeure des Mah-Haut-Rels",
@@ -2048,6 +2175,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "La fille qui se noie",
@@ -2064,6 +2192,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "La foire des ténèbres",
@@ -2080,6 +2209,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "La Fugue",
@@ -2096,6 +2226,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "La Geste d'Hamlet Evans",
@@ -2112,6 +2243,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "La Mâchoire de Caïn",
@@ -2128,6 +2260,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "La Maison dans laquelle - Intégrale",
@@ -2144,6 +2277,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "La Panne",
@@ -2160,6 +2294,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "La Petite Boutique aux poisons",
@@ -2176,6 +2311,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "La promesse",
@@ -2192,6 +2328,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "La Société très secrète des sorcières extraordinaires",
@@ -2208,6 +2345,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "La Truite et le perroquet: Confidences du peuple des rivières",
@@ -2224,6 +2362,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "La Voie de l'Oré, tome 1 : Le Maître de l'Anarchie",
@@ -2240,6 +2379,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Labyrinthes",
@@ -2256,6 +2396,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Lapin maudit",
@@ -2272,6 +2413,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le Bal des folles",
@@ -2288,6 +2430,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le Cercle occulte des gentlemen",
@@ -2304,6 +2447,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le champ des soupirs",
@@ -2320,6 +2464,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le chant de la mutilation",
@@ -2336,6 +2481,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le Chant du Troll",
@@ -2352,6 +2498,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le chat qui reliait les âmes au Café Pont",
@@ -2368,6 +2515,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le Coeur synthétique",
@@ -2384,6 +2532,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le Démon de maître Prosper",
@@ -2400,6 +2549,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le Fort Intérieur et la sorcière de l'île Moufle",
@@ -2416,6 +2566,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le Livre des portes",
@@ -2432,6 +2583,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le Loup des steppes",
@@ -2448,6 +2600,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le Métier de vivre",
@@ -2464,6 +2617,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le monde de Charlie",
@@ -2480,6 +2634,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le monde de Sophie",
@@ -2496,6 +2651,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le mythe de Sisyphe",
@@ -2512,6 +2668,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le Nid du coucou",
@@ -2528,6 +2685,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le Paris des merveilles, tome 1 : Les enchantements d'Ambremer",
@@ -2544,6 +2702,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le Passeur de Prospera",
@@ -2560,6 +2719,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le Pavillon des Pivoines",
@@ -2576,6 +2736,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le Rouge et le Noir",
@@ -2592,6 +2753,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le secret de Crickley Hall",
@@ -2608,6 +2770,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le soleil se lèvera demain",
@@ -2624,6 +2787,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le Temps d'après",
@@ -2640,6 +2804,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Lemon",
@@ -2656,6 +2821,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Les amoureux de la lune",
@@ -2672,6 +2838,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Les Bouchères",
@@ -2688,6 +2855,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Les Brûleurs d'Or, tome 1 : Les apprentis de Mortcelieu",
@@ -2704,6 +2872,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Les Cahiers de Malte Laurids Brigge",
@@ -2720,6 +2889,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Les Carnets du sous-sol (Notes d'un souterrain)",
@@ -2736,6 +2906,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Les Chats et 14 Histoires mystérieuses diaboliques cruelles",
@@ -2752,6 +2923,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Les choses humaines",
@@ -2768,6 +2940,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Les Dangers de fumer au lit",
@@ -2784,6 +2957,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Les féministes t'encouragent à quitter ton mari, tuer tes enfants, pratiquer la sorcellerie, détruire le capitalisme et devenir trans-pédé-gouine",
@@ -2800,6 +2974,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Les Indignes",
@@ -2816,6 +2991,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Les Mots pour le dire",
@@ -2832,6 +3008,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Les Mystères de la côte  : Le crime de la falaise",
@@ -2848,6 +3025,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Les sept morts d'Evelyn Hardcastle",
@@ -2864,6 +3042,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Les Soeurs Carmines - Intégrale",
@@ -2880,6 +3059,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Les sœurs Wickwood",
@@ -2896,6 +3076,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Les Voleurs d'innocence",
@@ -2912,6 +3093,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Lettres à un jeune poète",
@@ -2928,6 +3110,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Lolita",
@@ -2944,6 +3127,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Mary",
@@ -2960,6 +3144,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Même le froid tremble",
@@ -2976,6 +3161,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Même pas morte",
@@ -2992,6 +3178,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Métro 2033",
@@ -3008,6 +3195,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Mi-Mouche, tome 1 : Tu veux te battre ?",
@@ -3024,6 +3212,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Millénium, tome 1 : Les hommes qui n'aimaient pas les femmes",
@@ -3040,6 +3229,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Mon mari",
@@ -3056,6 +3246,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Monstres ordinaires",
@@ -3072,6 +3263,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Mrs Dalloway",
@@ -3088,6 +3280,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Nos destins infinis",
@@ -3104,6 +3297,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Notre part de nuit",
@@ -3120,6 +3314,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Ouvre-moi",
@@ -3136,6 +3331,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Parasites",
@@ -3152,6 +3348,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Parmi les fleurs bruissent les secrets",
@@ -3168,6 +3365,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Psychoses",
@@ -3184,6 +3382,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Puisque rien ne dure",
@@ -3200,6 +3399,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Quand nos os retourneront à la terre",
@@ -3216,6 +3416,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Quatorze jours",
@@ -3232,6 +3433,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Regis",
@@ -3248,6 +3450,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Résister à la culpabilisation",
@@ -3264,6 +3467,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Se méfier de l'eau qui dort",
@@ -3280,6 +3484,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Serpent & Dove, tome 1",
@@ -3296,6 +3501,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Songlight",
@@ -3312,6 +3518,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Sorcières : La puissance invaincue des femmes",
@@ -3328,6 +3535,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Stella Maris",
@@ -3344,6 +3552,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Sur les cimes du désespoir",
@@ -3360,6 +3569,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Suzume (roman)",
@@ -3376,6 +3586,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Syllogismes de l'amertume",
@@ -3392,6 +3603,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Termush, côte Atlantique",
@@ -3408,6 +3620,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Tes pas dans l'escalier",
@@ -3424,6 +3637,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "The Fallen Empire, tome 1 : Phoenix Unbound",
@@ -3440,6 +3654,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "The Great Misfortune of Stella Sedgwick",
@@ -3456,6 +3671,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "The Westing Game",
@@ -3472,6 +3688,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Tomber sept fois, se relever huit",
@@ -3488,6 +3705,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Ton jour viendra",
@@ -3504,6 +3722,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Transformations",
@@ -3520,6 +3739,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Tu tueras l'ange",
@@ -3536,6 +3756,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Tu tueras le Roi",
@@ -3552,6 +3773,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Tu verras, les âmes se retrouvent toujours quelque part",
@@ -3568,6 +3790,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Ubik",
@@ -3584,6 +3807,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Un castor de dix-huit mètres",
@@ -3600,6 +3824,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Un don",
@@ -3616,6 +3841,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Une chambre à soi (Un lieu à soi)",
@@ -3632,6 +3858,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Unfair, tome 1 : Moon",
@@ -3648,6 +3875,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Veronika décide de mourir",
@@ -3664,6 +3892,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Vivre avec les hommes : Réflexions sur le procès Pelicot",
@@ -3680,6 +3909,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Vous êtes cordialement invités, tome 1",
@@ -3696,6 +3926,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "L'étrange cas du docteur Jekyll et de Mr. Hyde",
@@ -3712,6 +3943,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Œdipe roi",
@@ -3728,6 +3960,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Tentation",
@@ -3744,6 +3977,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Misery",
@@ -3760,6 +3994,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Fêtes galantes",
@@ -3776,6 +4011,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Poèmes saturniens",
@@ -3792,6 +4028,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Romances sans paroles",
@@ -3808,6 +4045,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Résister",
@@ -3824,6 +4062,7 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Les fourmis",
@@ -3840,5 +4079,6 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   }
 ];

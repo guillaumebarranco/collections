@@ -33,8 +33,13 @@ export function parseStringField(objectText: string, key: string) {
 
 export function unescapeString(value: string, quote: string) {
   return value
+    .replace(/\\\\/g, '\u0000')
+    .replace(/\\r\\n/g, '\n')
+    .replace(/\\n/g, '\n')
+    .replace(/\\r/g, '\n')
+    .replace(/\\t/g, '\t')
     .replace(new RegExp(`\\\\${quote}`, 'g'), quote)
-    .replace(/\\\\/g, '\\');
+    .replace(/\u0000/g, '\\');
 }
 
 export function parseNumberField(objectText: string, key: string) {

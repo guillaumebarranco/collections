@@ -77,6 +77,7 @@ import { BadgesService } from '../../../services/badges.service';
 import { isOfflineModeBlockingOtherUsers } from '../../../core/offline/offline-mode.utils';
 import { OfflineRestrictedMessageComponent } from '../../../components/shared/offline-restricted-message/offline-restricted-message.component';
 import { LoaderComponent } from '../../../components/shared/loader/loader.component';
+import { CanEditDirective } from '../../../directives/can-edit.directive';
 
 type RecommendationDetail = { userId: string; rating: number };
 type RecommendedBook = Book & {
@@ -98,6 +99,7 @@ type RecommendedBook = Book & {
     PersonNamesPipe,
     OfflineRestrictedMessageComponent,
     LoaderComponent,
+    CanEditDirective,
   ],
   templateUrl: './books.component.html',
   styleUrls: ['./books.component.scss'],
@@ -106,6 +108,7 @@ export class BooksComponent implements OnInit {
   selectedSort = signal<string>('readDate');
   selectedYearFilter = signal<string>('all');
   selectedView = signal<BookView>('read');
+  mobileSelectedView = signal<boolean>(false);
   searchTerm = signal<string>('');
 
   showTopFiveRank = signal<boolean>(false);
@@ -1114,5 +1117,163 @@ export class BooksComponent implements OnInit {
 
   toggleTopFiveRankDisplay(): void {
     this.showTopFiveRank.set(!this.showTopFiveRank());
+  }
+
+  public isMobile(): boolean {
+    return window.innerWidth < 768;
+  }
+
+  /** Page de sélection pour ajouter un livre aux livres lus. */
+  getSelectReadBooksRoute(): string[] {
+    const params: Params = this.activatedRoute.snapshot.params;
+    const hasNameParam = params['id'] !== undefined;
+    const userId = hasNameParam ? params['id'] : DEFAULT_USER_ID;
+    return hasNameParam ? [`/${userId}`, 'select-books'] : ['/select-books'];
+  }
+
+  onMobileSelectView(view: BookView): void {
+    this.mobileSelectedView.set(true);
+    this.onViewChange(view);
+  }
+
+  onMobileBack(): void {
+    this.mobileSelectedView.set(false);
+  }
+
+  /** Couverture associée à chaque vue mobile : un livre différent, celui qui ouvre l'onglet. */
+  mobileViewPreviews = computed(() => {
+    const used = new Set<string>();
+    const previews = new Map<BookView, { coverUrl: string; title: string }>();
+
+    for (const option of this.visibleViewOptions()) {
+      const book = this.pickDistinctPreviewBook(
+        this.booksAppearingInView(option.value),
+        used
+      );
+      if (!book) continue;
+      previews.set(option.value, {
+        coverUrl: book.coverUrl || '',
+        title: book.title,
+      });
+    }
+
+    return previews;
+  });
+
+  private booksAppearingInView(view: BookView): Book[] {
+    const read = this.allBooks();
+    const readlist = this.allReadlistBooks();
+    const byReadDate = (books: Book[]) => getSortedBooks([...books], 'readDate');
+
+    switch (view) {
+      case 'read':
+        return byReadDate(read);
+      case 'readlist':
+        return getSortedBooks(
+          [...readlist.filter((book) => !isReading(book))],
+          'readPriority'
+        );
+      case 'readingInProgress':
+        return getSortedBooks(
+          this.uniqueBooksByIdentity([
+            ...readlist.filter((book) => isReading(book)),
+            ...read.filter((book) => isReading(book)),
+          ]),
+          'readPriority'
+        );
+      case 'toReRead':
+        return byReadDate(
+          read.filter(
+            (book) => book.wantToReadAgain === true && !isReading(book)
+          )
+        );
+      case 'owned':
+        return byReadDate(
+          this.uniqueBooksByIdentity([
+            ...read.filter((book) => book.owned),
+            ...readlist.filter((book) => book.owned),
+          ])
+        );
+      case 'borrowed':
+        return byReadDate(
+          this.uniqueBooksByIdentity([
+            ...read.filter((book) => Boolean(book.borrowed?.trim())),
+            ...readlist.filter((book) => Boolean(book.borrowed?.trim())),
+          ])
+        );
+      case 'loaned':
+        return byReadDate(
+          this.uniqueBooksByIdentity([
+            ...read.filter((book) => Boolean(book.loaned?.trim())),
+            ...readlist.filter((book) => Boolean(book.loaned?.trim())),
+          ])
+        );
+      case 'authors':
+        return this.flattenReadThenMissing(
+          getBooksByAuthor({
+            sortedBooks: [...read],
+            allBooks: read,
+            baseBooks: this.baseBooksList(),
+            selectedSort: 'readDate',
+          })
+        );
+      case 'sagas':
+        return this.flattenReadThenMissing(
+          getBooksBySaga({
+            sortedBooks: [...read],
+            allBooks: read,
+            baseBooks: this.baseBooksList(),
+            selectedSort: 'readDate',
+          })
+        );
+      case 'countries':
+        return this.flattenReadThenMissing(
+          getBooksByCountry({
+            sortedBooks: [...read],
+            allBooks: read,
+            baseBooks: this.baseBooksList(),
+            selectedSort: 'country-count',
+          })
+        );
+      case 'recommendations':
+        return this.recommendations();
+      default:
+        return [];
+    }
+  }
+
+  private pickDistinctPreviewBook(
+    candidates: Book[],
+    used: Set<string>
+  ): Book | null {
+    for (const book of candidates) {
+      const key = this.getBookIdentityKey(book);
+      if (used.has(key)) continue;
+      used.add(key);
+      return book;
+    }
+    return candidates[0] ?? null;
+  }
+
+  private uniqueBooksByIdentity(books: Book[]): Book[] {
+    const seen = new Set<string>();
+    const unique: Book[] = [];
+    for (const book of books) {
+      const key = this.getBookIdentityKey(book);
+      if (seen.has(key)) continue;
+      seen.add(key);
+      unique.push(book);
+    }
+    return unique;
+  }
+
+  private flattenReadThenMissing(
+    groups: { readBooks: Book[]; missingBooks: Book[] }[]
+  ): Book[] {
+    const books: Book[] = [];
+    for (const group of groups) {
+      books.push(...group.readBooks, ...group.missingBooks);
+    }
+    return books;
   }
 }

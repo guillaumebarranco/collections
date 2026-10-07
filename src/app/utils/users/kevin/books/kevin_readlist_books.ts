@@ -16,6 +16,7 @@ export const kevinReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Elle est les Ténèbres - Part. 1",
@@ -32,6 +33,7 @@ export const kevinReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Elle est les Ténèbres - Part. 2",
@@ -48,6 +50,7 @@ export const kevinReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "L'Eau Dort - Part. 1",
@@ -64,6 +67,7 @@ export const kevinReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "L'Eau Dort - Part. 2",
@@ -80,6 +84,7 @@ export const kevinReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Les Soldats de Pierre - Part. 1",
@@ -96,6 +101,7 @@ export const kevinReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "La Voie des Ombres",
@@ -112,6 +118,7 @@ export const kevinReadListBooks: UserBooks = [
     readPriority: 3,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le Prisme Noir",
@@ -128,6 +135,7 @@ export const kevinReadListBooks: UserBooks = [
     readPriority: 2,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Les Soldats de Pierre - Part. 2",
@@ -144,6 +152,7 @@ export const kevinReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le Choix des Ombres",
@@ -160,6 +169,7 @@ export const kevinReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Au-delà des Ombres",
@@ -176,6 +186,7 @@ export const kevinReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le Feu de la Sorcière",
@@ -192,6 +203,7 @@ export const kevinReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Les Foudres de la Sorcière",
@@ -208,6 +220,7 @@ export const kevinReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "La Guerre de la Sorcière",
@@ -224,6 +237,7 @@ export const kevinReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le Portail de la Sorcière",
@@ -240,6 +254,7 @@ export const kevinReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "L'Etoile de la Sorcière",
@@ -256,6 +271,7 @@ export const kevinReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le Couteau Aveuglant",
@@ -272,6 +288,7 @@ export const kevinReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "L'Oeil Brisé",
@@ -288,6 +305,7 @@ export const kevinReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le Miroir de Sang",
@@ -304,6 +322,7 @@ export const kevinReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le Blanc Incandescent (1/2)",
@@ -320,6 +339,7 @@ export const kevinReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le Blanc Incandescent (2/2)",
@@ -336,6 +356,7 @@ export const kevinReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "La Horde du Contrevent",
@@ -352,6 +373,7 @@ export const kevinReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Un palais d'épines et de roses",
@@ -368,6 +390,7 @@ export const kevinReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Un palais de colère et de brume",
@@ -384,6 +407,7 @@ export const kevinReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Un palais de cendres et de ruines",
@@ -400,6 +424,7 @@ export const kevinReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Un palais de glace et de lumière",
@@ -416,6 +441,7 @@ export const kevinReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Un palais de flammes d'argent",
@@ -432,6 +458,7 @@ export const kevinReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le Comte de Monte-Cristo",
@@ -448,6 +475,7 @@ export const kevinReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Là où chantent les écrevisses",
@@ -464,6 +492,7 @@ export const kevinReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le Portrait de Dorian Gray",
@@ -480,6 +509,7 @@ export const kevinReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Alchemised",
@@ -496,6 +526,7 @@ export const kevinReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Les serres sous le velours noir",
@@ -512,6 +543,7 @@ export const kevinReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le Parfum",
@@ -528,6 +560,7 @@ export const kevinReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   }
 ,
   {
@@ -545,5 +578,6 @@ export const kevinReadListBooks: UserBooks = [
     readPriority: 3,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
 ];

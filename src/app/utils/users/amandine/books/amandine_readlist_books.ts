@@ -16,6 +16,7 @@ export const amandineReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Atlas : L'histoire de Pa Salt",
@@ -32,6 +33,7 @@ export const amandineReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le Comte de Monte-Cristo",
@@ -48,5 +50,6 @@ export const amandineReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   }
 ];

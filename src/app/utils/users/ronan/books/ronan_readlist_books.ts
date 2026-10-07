@@ -16,6 +16,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Voyage au centre de la terre",
@@ -32,6 +33,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le tour du monde en 80 jours",
@@ -48,6 +50,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Vingt Mille Lieues sous les mers",
@@ -64,6 +67,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "L'Île mystérieuse",
@@ -80,6 +84,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "De la Terre à la Lune",
@@ -96,6 +101,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le Portrait de Dorian Gray",
@@ -112,6 +118,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "La Ferme des animaux",
@@ -128,6 +135,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Orgueil et Préjugés",
@@ -144,6 +152,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "1984",
@@ -160,6 +169,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Fondation",
@@ -176,6 +186,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Fahrenheit 451",
@@ -192,6 +203,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Dracula",
@@ -208,6 +220,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Jane Eyre",
@@ -224,6 +237,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Carrie",
@@ -240,6 +254,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Désolation",
@@ -256,6 +271,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Gatsby le magnifique",
@@ -272,6 +288,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "La guerre des mondes",
@@ -288,6 +305,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "La machine à explorer le temps",
@@ -304,6 +322,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "L'homme invisible",
@@ -320,6 +339,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Alchemised",
@@ -336,6 +356,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "L'Odyssée",
@@ -352,6 +373,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "L'Iliade",
@@ -368,6 +390,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Là où chantent les écrevisses",
@@ -384,6 +407,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Les sortceliers",
@@ -400,6 +424,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le livre interdit",
@@ -416,6 +441,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le sceptre maudit",
@@ -432,6 +458,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le dragon renégat",
@@ -448,6 +475,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le continent interdit",
@@ -464,6 +492,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Dans le piège de Magister",
@@ -480,6 +509,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Tara Duncan et l'invasion fantôme",
@@ -496,6 +526,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "L'impératrice maléfique",
@@ -512,6 +543,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Tara Duncan contre la reine noire",
@@ -528,6 +560,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Dragons contre Démons",
@@ -544,6 +577,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "La Guerre des planètes",
@@ -560,6 +594,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "L'Ultime Combat",
@@ -576,6 +611,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Tara et Cal",
@@ -592,6 +628,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le Trône de fer, L'Intégrale Tome 1",
@@ -608,6 +645,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le Trône de fer, L'Intégrale Tome 2",
@@ -624,6 +662,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le Trône de fer, L'Intégrale Tome 3",
@@ -640,6 +679,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Hunger Games",
@@ -656,6 +696,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "L'Embrasement",
@@ -672,6 +713,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "La Révolte",
@@ -688,6 +730,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "La Ballade du serpent et de l'oiseau chanteur",
@@ -704,6 +747,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Lever de soleil sur la moisson",
@@ -720,6 +764,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le Calice des dieux",
@@ -736,6 +781,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "La Déesse aux trois visages",
@@ -752,6 +798,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le Labyrinthe",
@@ -768,6 +815,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Player One",
@@ -784,6 +832,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Ready Player Two",
@@ -800,6 +849,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Les secrets de la femme de ménage",
@@ -816,6 +866,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "La femme de ménage se marie",
@@ -832,6 +883,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "La femme de ménage voit tout",
@@ -848,6 +900,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Les Trois Mousquetaires",
@@ -864,6 +917,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Les filles du Docteur March",
@@ -880,6 +934,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Dark Shores",
@@ -896,6 +951,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Notre-Dame de Paris",
@@ -912,6 +968,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le vicomte de Bragelonne",
@@ -928,6 +985,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "La reine Margot",
@@ -944,6 +1002,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le Trône de fer, L'Intégrale Tome 4",
@@ -960,6 +1019,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le Trône de fer, L'Intégrale Tome 5",
@@ -976,6 +1036,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Cinq semaines en ballon",
@@ -992,6 +1053,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Autour de la Lune",
@@ -1008,6 +1070,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "The Dead zone",
@@ -1024,6 +1087,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Gagner la guerre",
@@ -1040,6 +1104,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le Nom du Vent",
@@ -1056,6 +1121,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "La Peur du Sage (2/2)",
@@ -1072,6 +1138,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "La Peur du Sage (1/2)",
@@ -1088,6 +1155,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "L'étranger",
@@ -1104,6 +1172,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Hamlet",
@@ -1120,6 +1189,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Macbeth",
@@ -1136,6 +1206,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Les terribles aventures du futur Capitaine Crochet",
@@ -1152,6 +1223,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le chant des Géants",
@@ -1168,6 +1240,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "L'antidote mortel",
@@ -1184,6 +1257,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Terres brisées",
@@ -1200,6 +1274,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Lame brisée",
@@ -1216,6 +1291,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Destin brisé",
@@ -1232,6 +1308,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Murtagh",
@@ -1248,6 +1325,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Eon et le douxième dragon",
@@ -1264,6 +1342,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Celle qui devint le soleil",
@@ -1280,6 +1359,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le livre qui refusait de brûler",
@@ -1296,6 +1376,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le livre qui brisa le monde",
@@ -1312,6 +1393,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Les enfants de la lampe magique",
@@ -1328,6 +1410,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le roman maudit",
@@ -1344,6 +1427,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Après",
@@ -1360,6 +1444,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "L'institut",
@@ -1376,6 +1461,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Billy Summers",
@@ -1392,6 +1478,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Minuit 2",
@@ -1408,6 +1495,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Minuit 4",
@@ -1424,6 +1512,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Si ça saigne",
@@ -1440,6 +1529,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "La part des ténèbres",
@@ -1456,6 +1546,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Revival",
@@ -1472,6 +1563,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Robin des Bois",
@@ -1488,6 +1580,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "L'île des esclaves",
@@ -1504,6 +1597,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Les quatre accords toltèques",
@@ -1520,6 +1614,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le signe",
@@ -1536,6 +1631,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Micro",
@@ -1552,6 +1648,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "La colline au gibet",
@@ -1568,6 +1665,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le code du samouraï",
@@ -1584,6 +1682,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le temps des chimères",
@@ -1600,6 +1699,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Identités croisées",
@@ -1616,6 +1716,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le frère de sang",
@@ -1632,6 +1733,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Prime time",
@@ -1648,6 +1750,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Six ans déjà",
@@ -1664,6 +1767,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le livre du voyage",
@@ -1680,5 +1784,6 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   }
 ];

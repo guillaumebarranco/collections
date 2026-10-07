@@ -38,6 +38,7 @@ import { CanEditDirective } from '../../../../directives/can-edit.directive';
 })
 export class BooksHeaderComponent {
   onViewChange = output<BookView>();
+  onMobileBack = output<void>();
   onOpenViewConfig = output<void>();
   onYearFilterChange = output<string>();
   onSearchChange = output<string>();
@@ -185,6 +186,10 @@ export class BooksHeaderComponent {
       ? 'Recommandations'
       : 'Livres lus'
   );
+
+  public isMobile(): boolean {
+    return window.innerWidth < 768;
+  }
 
   getSelectBooksRoute(): string {
     const params: Params = this.activatedRoute.snapshot.params;

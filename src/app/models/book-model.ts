@@ -88,6 +88,8 @@ export interface UserBook extends MandatoryBookData {
   ratingComment: string;
   borrowed: string;
   loaned: string;
+  /** Citations extraites du livre. */
+  quotes: string[];
 }
 
 export type UserBooks = UserBook[];

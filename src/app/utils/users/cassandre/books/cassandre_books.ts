@@ -16,6 +16,7 @@ export const cassandreBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Cinquante nuances plus sombres',
@@ -32,6 +33,7 @@ export const cassandreBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Cinquante nuances plus claires',
@@ -48,6 +50,7 @@ export const cassandreBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -65,6 +68,7 @@ export const cassandreBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -82,6 +86,7 @@ export const cassandreBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -99,6 +104,7 @@ export const cassandreBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -116,6 +122,7 @@ export const cassandreBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -133,6 +140,7 @@ export const cassandreBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -150,6 +158,7 @@ export const cassandreBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -167,6 +176,7 @@ export const cassandreBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -184,6 +194,7 @@ export const cassandreBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -201,6 +212,7 @@ export const cassandreBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -218,6 +230,7 @@ export const cassandreBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -235,6 +248,7 @@ export const cassandreBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -252,6 +266,7 @@ export const cassandreBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -269,5 +284,6 @@ export const cassandreBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 ];

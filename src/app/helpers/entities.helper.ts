@@ -107,6 +107,7 @@ export const getBookDataFromUserBookAndBaseBook = (
   ratingComment: userBook.ratingComment ?? '',
   countryOrigin: baseBook?.countryOrigin ?? '',
   selectDisplayOrder: baseBook?.selectDisplayOrder ?? 0,
+  quotes: userBook.quotes ?? [],
 });
 
 export const getComicDataFromUserComicAndBaseComic = (

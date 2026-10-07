@@ -10,6 +10,7 @@ const {
   parseStringField,
   parseNumberField,
   parseBooleanField,
+  unescapeString,
 } = require('../utils');
 const {
   parseReadingFromFile,
@@ -111,11 +112,7 @@ function parseStringArrayField(objectText: string, key: string): string[] {
   while (match) {
     const quote = match[1];
     const raw = match[2];
-    result.push(
-      quote === '"'
-        ? raw.replace(/\\"/g, '"').replace(/\\\\/g, '\\')
-        : raw.replace(/\\'/g, "'").replace(/\\\\/g, '\\')
-    );
+    result.push(unescapeString(raw, quote));
     match = regex.exec(inner);
   }
   return result;
@@ -127,6 +124,49 @@ function formatOtherReadDatesTs(dates: string[] | undefined): string {
   }
   const parts = dates.map((d) => `"${escapeString(d)}"`);
   return `[${parts.join(', ')}]`;
+}
+
+function upsertQuotesField(objectText: string, quotes: string[]) {
+  const serialized = `quotes: ${formatOtherReadDatesTs(quotes)}`;
+  const keyMatch = /quotes\s*:/.exec(objectText);
+  if (!keyMatch || keyMatch.index === undefined) {
+    return objectText.replace(/\n(\s*)\}\s*$/, `\n$1  ${serialized},\n$1}`);
+  }
+  const keyIndex = keyMatch.index;
+  const bracketStart = objectText.indexOf('[', keyIndex);
+  if (bracketStart === -1) {
+    return objectText.replace(/\n(\s*)\}\s*$/, `\n$1  ${serialized},\n$1}`);
+  }
+  let depth = 0;
+  let i = bracketStart;
+  let quote: string | null = null;
+  while (i < objectText.length) {
+    const char = objectText[i];
+    if (quote) {
+      if (char === '\\') {
+        i += 2;
+        continue;
+      }
+      if (char === quote) quote = null;
+      i += 1;
+      continue;
+    }
+    if (char === '"' || char === "'") {
+      quote = char;
+      i += 1;
+      continue;
+    }
+    if (char === '[') depth += 1;
+    else if (char === ']') {
+      depth -= 1;
+      if (depth === 0) {
+        i += 1;
+        break;
+      }
+    }
+    i += 1;
+  }
+  return objectText.slice(0, keyIndex) + serialized + objectText.slice(i);
 }
 
 function upsertOtherReadDatesField(objectText: string, dates: string[]) {
@@ -222,6 +262,7 @@ function parseBooksFromFile(content: string): UserBook[] {
             wantToReadAgain:
               parseBooleanField(objectText, 'wantToReadAgain') ?? false,
             ratingComment: parseStringField(objectText, 'ratingComment') ?? '',
+            quotes: parseStringArrayField(objectText, 'quotes'),
           } as UserBook);
         }
       }
@@ -560,11 +601,21 @@ function updateBookInFile(content: string, payload: BookUpdatePayload) {
             'wantToReadAgain',
             payload.wantToReadAgain
           );
-          updated = upsertField(
-            updated,
-            'ratingComment',
-            payload.ratingComment ?? ''
-          );
+          if (payload.ratingComment !== undefined) {
+            updated = upsertField(
+              updated,
+              'ratingComment',
+              payload.ratingComment ?? ''
+            );
+          }
+          if (Array.isArray(payload.quotes)) {
+            updated = upsertQuotesField(
+              updated,
+              payload.quotes.filter(
+                (quote) => typeof quote === 'string' && quote.trim()
+              )
+            );
+          }
 
           return (
             content.slice(0, objectStart) +
@@ -787,6 +838,7 @@ ${formatReadingTsLine(book.reading)}    readTimes: ${book.readTimes ?? 0},
     readPriority: ${book.readPriority ?? 1},
     wantToReadAgain: ${book.wantToReadAgain ?? false},
     ratingComment: "${escapeString(book.ratingComment ?? '')}",
+    quotes: ${formatOtherReadDatesTs(book.quotes)},
   }`
     )
     .join(',\n');

@@ -16,5 +16,6 @@ export const clemenceReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 ];

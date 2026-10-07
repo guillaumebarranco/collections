@@ -17,8 +17,10 @@ export interface MoveEntityReviewModalData {
   entityTitle: string;
   /** Libellé du bouton de validation (ex. "Valider") */
   confirmLabel?: string;
-  /** Case « date de visionnage = aujourd'hui », affichée déjà cochée. */
+  /** Case « date du jour », affichée déjà cochée. */
   showViewedDateToday?: boolean;
+  /** Libellé de la case. Par défaut : date de visionnage. */
+  viewedDateTodayLabel?: string;
 }
 
 export interface MoveEntityReviewModalResult {

@@ -334,6 +334,7 @@ function mergeBooks(userBooks: any[]): any[] {
       ratingComment: book.ratingComment ?? '',
       countryOrigin: base?.countryOrigin ?? '',
       selectDisplayOrder: base?.selectDisplayOrder ?? 0,
+      quotes: book.quotes ?? [],
     };
   });
 }

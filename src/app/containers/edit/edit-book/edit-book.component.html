@@ -221,6 +221,27 @@
         placeholder="Optionnel"
       ></textarea>
     </div>
+
+    <div class="form-row">
+      <span class="quotes-label">Citations</span>
+      @for (quote of bookForm()?.quotes ?? []; track $index) {
+      <div class="quote-row">
+        <textarea
+          rows="2"
+          [ngModel]="quote"
+          (ngModelChange)="updateQuote($index, $event)"
+          [name]="'quote-' + $index"
+          placeholder="Citation"
+        ></textarea>
+        <button type="button" class="quote-remove" (click)="removeQuote($index)">
+          Retirer
+        </button>
+      </div>
+      }
+      <button type="button" class="quote-add" (click)="addQuote()">
+        Ajouter une citation
+      </button>
+    </div>
     } @if (isAdminView() && bookEntityForm()) {
     <div class="form-row">
       <label for="entityPages">Pages</label>

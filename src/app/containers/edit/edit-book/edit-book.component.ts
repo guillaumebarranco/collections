@@ -45,6 +45,7 @@ type EditBookForm = {
   sagaFinished: boolean;
   wantToReadAgain: boolean;
   ratingComment: string;
+  quotes: string[];
 };
 
 type EditBookEntityForm = {
@@ -174,6 +175,41 @@ export class EditBookComponent {
     });
   }
 
+  addQuote(): void {
+    const form = this.bookForm();
+    if (!form) {
+      return;
+    }
+    this.bookForm.set({
+      ...form,
+      quotes: [...form.quotes, ''],
+    });
+  }
+
+  updateQuote(index: number, value: string): void {
+    const form = this.bookForm();
+    if (!form || index < 0 || index >= form.quotes.length) {
+      return;
+    }
+    const quotes = [...form.quotes];
+    quotes[index] = value;
+    this.bookForm.set({
+      ...form,
+      quotes,
+    });
+  }
+
+  removeQuote(index: number): void {
+    const form = this.bookForm();
+    if (!form || index < 0 || index >= form.quotes.length) {
+      return;
+    }
+    this.bookForm.set({
+      ...form,
+      quotes: form.quotes.filter((_, quoteIndex) => quoteIndex !== index),
+    });
+  }
+
   updateField<K extends keyof EditBookForm>(field: K, value: string | number) {
     const current = this.bookForm();
     if (!current) return;
@@ -300,6 +336,7 @@ export class EditBookComponent {
           readPriority: Math.min(3, Math.max(1, form.readPriority ?? 1)),
           wantToReadAgain: form.wantToReadAgain,
           ratingComment: form.ratingComment ?? '',
+          quotes: form.quotes.map((quote) => quote.trim()).filter(Boolean),
           entity: this.isAdminView()
             ? this.toEntityPayload(this.bookEntityForm())
             : undefined,
@@ -497,6 +534,9 @@ export class EditBookComponent {
       sagaFinished: book.sagaFinished,
       wantToReadAgain: book.wantToReadAgain ?? false,
       ratingComment: book.ratingComment ?? '',
+      quotes: [...(book.quotes ?? [])].map((quote) =>
+        quote.replace(/\\r\\n/g, '\n').replace(/\\n/g, '\n').replace(/\\r/g, '\n')
+      ),
     };
   }
 

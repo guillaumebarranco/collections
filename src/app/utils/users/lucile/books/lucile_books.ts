@@ -16,6 +16,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -33,6 +34,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -50,6 +52,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -67,6 +70,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -84,6 +88,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -101,6 +106,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -118,6 +124,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -135,6 +142,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -152,6 +160,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -169,6 +178,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -186,6 +196,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -203,6 +214,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -220,6 +232,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -237,6 +250,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -254,6 +268,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -271,6 +286,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -288,6 +304,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -305,6 +322,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -322,6 +340,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -339,6 +358,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -356,6 +376,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -373,6 +394,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -390,6 +412,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -407,6 +430,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -424,6 +448,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -441,6 +466,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -458,6 +484,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -475,6 +502,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -492,6 +520,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -509,6 +538,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -526,6 +556,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -543,6 +574,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -560,6 +592,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -577,6 +610,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le tourbillon des possibles',
@@ -593,6 +627,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Rebel Witch (Heartless Hunter, #2)',
@@ -609,6 +644,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "A Witch's Guide to fake dating a demon",
@@ -625,6 +661,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Jamais 203',
@@ -641,6 +678,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Dans ses yeux',
@@ -657,6 +695,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'The Break Up Artists',
@@ -673,6 +712,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'ascension d'une légende (Atalante, #2)",
@@ -689,6 +729,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Villa Gloria',
@@ -705,6 +746,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La fille roi du pays maudit',
@@ -721,6 +763,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'The American Roommate Experiment (Spanish Love Deception, #2)',
@@ -737,6 +780,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'The Forest Grimm',
@@ -753,6 +797,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les Azalées fleurissent en hiver',
@@ -769,6 +814,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Défendre l'aube",
@@ -785,6 +831,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "La légion d'Oria (Affronter la nuit, #1)",
@@ -801,6 +848,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Impitoyables Serments (Lettres d'enchantement, #2)",
@@ -817,6 +865,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Heartless Hunter (The Crimson Moth, #1)',
@@ -833,6 +882,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "La naissance d'une guerrière (Atalante, #1)",
@@ -849,6 +899,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La Duchesse des ombres',
@@ -865,6 +916,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les Derniers Retrouveurs (Agence Perdido, #1)',
@@ -881,6 +933,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'Empire des ouragans (L'Empire des ouragans, #1)",
@@ -897,6 +950,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La Théorie des couleurs',
@@ -913,6 +967,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Tenir debout',
@@ -929,6 +984,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Songlight (La trilogie des Torches, #1)',
@@ -945,6 +1001,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Un Été pour te retrouver (Seasons #4)',
@@ -961,6 +1018,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Dark Skies (Dark Shores, #2)',
@@ -977,6 +1035,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Du chaos naissent les étoiles',
@@ -993,6 +1052,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Possession (Les Jumeaux Crochemort, #2)',
@@ -1009,6 +1069,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Divines Rivalités (Lettres d'enchantement, #1)",
@@ -1025,6 +1086,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Recettes cubaines pour guérir un coeur brisé',
@@ -1041,6 +1103,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Bretzel Break',
@@ -1057,6 +1120,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Les Coquillages ne s'ouvrent qu'en été",
@@ -1073,6 +1137,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Défier la nuit',
@@ -1089,6 +1154,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le Labyrinthe sans fin (Les Whisperwicks, #1)',
@@ -1105,6 +1171,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Nuit Noire: Fille des Déferlantes (1)',
@@ -1121,6 +1188,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Un printemps pour te succomber (Seasons #3)',
@@ -1137,6 +1205,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La Dernière Allumette',
@@ -1153,6 +1222,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Fourth Wing (The Empyrean, #1)',
@@ -1169,6 +1239,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Ce Don Perfide (The Last Finestra, #1)',
@@ -1185,6 +1256,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Plein-Ciel',
@@ -1201,6 +1273,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Un hiver pour te résister (Seasons #2)',
@@ -1217,6 +1290,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les Sœurs Wickwood',
@@ -1233,6 +1307,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Un coeur pour Noël',
@@ -1249,6 +1324,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Cursed Crowns (Twin Crowns #2)',
@@ -1265,6 +1341,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Un automne pour te pardonner (Seasons, #1)',
@@ -1281,6 +1358,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La Reine traîtresse',
@@ -1297,6 +1375,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Paix à mon âme',
@@ -1313,6 +1392,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'Effet Boule de Neige",
@@ -1329,6 +1409,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La Maison sous la Maison',
@@ -1345,6 +1426,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La Société très secrète des Sorcières extraordinaires',
@@ -1361,6 +1443,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La Fille-Renard et la merveilleuse Boutique-sur-Pattes (1)',
@@ -1377,6 +1460,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La Cour de la Haute Montagne (The Five Crowns, #1)',
@@ -1393,6 +1477,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La Malédiction (Les Jumeaux Crochemort, #1)',
@@ -1409,6 +1494,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La Cartomancienne (Les Arcanes de Brume, #1)',
@@ -1425,6 +1511,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Love on the Brain',
@@ -1441,6 +1528,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Hôtel Magnifique',
@@ -1457,6 +1545,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Red Stone (Red Stone, #1)',
@@ -1473,6 +1562,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Nos plus belles années',
@@ -1489,6 +1579,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Jeux et merveilles',
@@ -1505,6 +1596,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Fabricant de larmes - partie 1',
@@ -1521,6 +1613,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Ici et seulement Ici',
@@ -1537,6 +1630,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le Pont des Tempêtes (The Bridge Kingdom, #1)',
@@ -1553,6 +1647,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'L.a mer sans nom (Fable, #2)',
@@ -1569,6 +1664,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "La Chasseuse et l'Alchimiste",
@@ -1585,6 +1681,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les Souvenirs de Ferdinand Taupe (Mémoires de la forêt, #1)',
@@ -1601,6 +1698,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Twin Crowns',
@@ -1617,6 +1715,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le Règne des chimères (Les Royaumes immobiles, #2)',
@@ -1633,6 +1732,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Quelqu'un à qui parler",
@@ -1649,6 +1749,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Le Dit des cigales (Le Grimoire d'Elfie, #2)",
@@ -1665,6 +1766,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'île presque (Le Grimoire d'Elfie, #1)",
@@ -1681,6 +1783,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le bruit de la pluie',
@@ -1697,6 +1800,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La voie de la sagesse',
@@ -1713,6 +1817,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La Nouvelle(s) (s) (Elles, #1)',
@@ -1729,6 +1834,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Madeleine, résistante - Tome 1 - La Rose dégoupillée',
@@ -1745,6 +1851,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La remplaçante',
@@ -1761,6 +1868,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Tu comprendras quand tu seras plus grande',
@@ -1777,6 +1885,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Un prince sans royaume (Vango, #2)',
@@ -1793,6 +1902,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Vango: Entre ciel et terre (Vango #1)',
@@ -1809,6 +1919,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Tobie Lolness - Đôi mắt Elisha',
@@ -1825,6 +1936,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Tobie Lolness',
@@ -1841,6 +1953,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les Nymphéas noirs',
@@ -1857,6 +1970,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'On la trouvait plutôt jolie',
@@ -1873,6 +1987,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les Papillons',
@@ -1889,6 +2004,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les Oubliés du dimanche',
@@ -1905,6 +2021,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le temps est assassin',
@@ -1921,6 +2038,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Insectes',
@@ -1937,6 +2055,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Gravé dans le Sable',
@@ -1953,6 +2072,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Fais de beaux rêves...',
@@ -1969,6 +2089,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Au soleil redouté',
@@ -1985,6 +2106,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'aventurière des mers (Fable, #1)",
@@ -2001,6 +2123,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les Sœurs Hollow',
@@ -2017,6 +2140,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Sous la porte qui chuchote',
@@ -2033,6 +2157,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Mon ami Pierrot',
@@ -2049,6 +2174,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Ma Crohn de vie, histoire d'une rescapée à l'intestin malade",
@@ -2065,6 +2191,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les Tourmentés',
@@ -2081,6 +2208,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La Princesse sans visage (Les Royaumes immobiles, #1)',
@@ -2097,6 +2225,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le Temps des sorcières',
@@ -2113,6 +2242,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les Dix Mille Portes de January',
@@ -2129,6 +2259,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le Monde après nous',
@@ -2145,6 +2276,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'Été où tout a fondu",
@@ -2161,6 +2293,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le Craquant de la nougatine',
@@ -2177,6 +2310,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Là où les arbres rencontrent les étoiles',
@@ -2193,6 +2327,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'Année de grâce",
@@ -2209,6 +2344,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Désenchantées',
@@ -2225,6 +2361,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Ainsi gèlent les bulles de savon',
@@ -2241,6 +2378,7 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Gallant',
@@ -2257,5 +2395,6 @@ export const lucileBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 ];

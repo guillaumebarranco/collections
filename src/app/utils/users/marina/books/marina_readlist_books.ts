@@ -16,6 +16,7 @@ export const marinaReadListBooks: UserBook[] = [
     readPriority: 3,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La femme de ménage se marie',
@@ -32,6 +33,7 @@ export const marinaReadListBooks: UserBook[] = [
     readPriority: 2,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La femme de ménage voit tout',
@@ -48,6 +50,7 @@ export const marinaReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'empire des femmes tome 2 Teneros",
@@ -64,6 +67,7 @@ export const marinaReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Lever de soleil sur la moisson',
@@ -80,6 +84,7 @@ export const marinaReadListBooks: UserBook[] = [
     readPriority: 2,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Les aiguilles d'or",
@@ -96,6 +101,7 @@ export const marinaReadListBooks: UserBook[] = [
     readPriority: 2,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'amulette",
@@ -112,6 +118,7 @@ export const marinaReadListBooks: UserBook[] = [
     readPriority: 2,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La locataire',
@@ -128,5 +135,6 @@ export const marinaReadListBooks: UserBook[] = [
     readPriority: 2,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 ];

@@ -16,5 +16,6 @@ export const lucileReadListBooks: UserBook[] = [
     readPriority: 3,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 ];

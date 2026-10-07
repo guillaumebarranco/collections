@@ -24,6 +24,26 @@
 
 <app-select-entity class="select-books-container">
   <div class="header" select-header>
+    @if (!isWatchOrReadlistMode()) {
+    <button
+      type="button"
+      class="select-books-back"
+      (click)="goBackToBooks()"
+      aria-label="Retour aux livres"
+    >
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path
+          d="M15 6L9 12l6 6"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2.2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      Précédent
+    </button>
+    }
     <h1>
       {{
         isWatchOrReadlistMode()
@@ -33,11 +53,18 @@
     </h1>
 
     <div class="selection-description">
+      <div
+        class="selection-description__text"
+        [class.is-expanded]="descriptionExpanded()"
+      >
       @if(!isWatchOrReadlistMode()) {
       <p>
         Bonjour {{ username() }} <br /><br />
         Ici tu peux ajouter des livres que tu as lu. La liste ci-dessous affiche
         uniquement les livres que tu n'as pas encore dans ta collection.
+        <br /><br />
+        Une recherche retrouve aussi un livre déjà dans tes livres à lire. Le
+        sélectionner le passe dans tes livres lus et le retire de cette liste.
         <br /><br />
         Sélectionne les livres que tu as lus, puis clique sur "Ajouter à mes
         livres lus".
@@ -90,6 +117,15 @@
       </p> -->
 
       }
+      </div>
+      <button
+        type="button"
+        class="selection-description__toggle"
+        (click)="toggleDescription()"
+        [attr.aria-expanded]="descriptionExpanded()"
+      >
+        {{ descriptionExpanded() ? "Voir moins" : "Voir plus" }}
+      </button>
     </div>
   </div>
 
@@ -116,6 +152,9 @@
       (click)="toggleSelection(book)"
       [title]="book.title + ' - ' + book.author"
     >
+      @if (isOnReadlist(book)) {
+      <span class="book-cover__readlist-badge">À lire</span>
+      }
       <img [src]="book.coverUrl" [alt]="book.title" loading="lazy" />
       <div class="overlay">
         <div class="checkmark"></div>

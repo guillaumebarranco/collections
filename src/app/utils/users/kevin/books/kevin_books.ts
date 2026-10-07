@@ -16,6 +16,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: "L'Alchimiste",
@@ -32,6 +33,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Le prisme noir',
@@ -48,6 +50,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Le Signe des quatre',
@@ -64,6 +67,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Le Voleur de foudre',
@@ -80,6 +84,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'La Mer des monstres',
@@ -96,6 +101,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Le Sort du titan',
@@ -112,6 +118,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'La Bataille du labyrinthe',
@@ -128,6 +135,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Le Dernier Olympien',
@@ -144,6 +152,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: "Héros de l'Olympe, Tome 1 : Le Héros perdu",
@@ -160,6 +169,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Ils étaient dix',
@@ -176,6 +186,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Madame Bovary',
@@ -192,6 +203,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Candide',
@@ -208,6 +220,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Hunger Games',
@@ -224,6 +237,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: "L'Embrasement",
@@ -240,6 +254,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'La Révolte',
@@ -256,6 +271,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: "La Ballade du serpent et de l'oiseau chanteur",
@@ -272,6 +288,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Croc-Blanc',
@@ -288,6 +305,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Robinson Crusoe',
@@ -304,6 +322,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: "L'Apprenti Assassin",
@@ -320,6 +339,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: "L'Assassin du Roi",
@@ -336,6 +356,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'La Nef du Crépuscule',
@@ -352,6 +373,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Le Poison de la Vengeance',
@@ -368,6 +390,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'La Voie Magique',
@@ -384,6 +407,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'La Reine Solitaire',
@@ -400,6 +424,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Le Prophète Blanc',
@@ -416,6 +441,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'La Secte Maudite',
@@ -432,6 +458,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Les Secrets de Castelcerf',
@@ -448,6 +475,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Serments et Deuils',
@@ -464,6 +492,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Le Dragon des Glaces',
@@ -480,6 +509,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: "L'Homme Noir",
@@ -496,6 +526,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Adieux et Retrouvailles',
@@ -512,6 +543,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: "Le Fou et l'Assassin",
@@ -528,6 +560,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: "La Fille de l'Assassin",
@@ -544,6 +577,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'En Quête de Vengeance',
@@ -560,6 +594,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: "Le Retour de l'Assassin",
@@ -576,6 +611,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: "Sur les Rives de l'Art",
@@ -592,6 +628,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: "Le Destin de l'Assassin",
@@ -608,6 +645,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Quand Vient la Horde',
@@ -624,6 +662,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Les annales du Disque-Monde, tome 1 : La huitième couleur',
@@ -640,6 +679,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: "N'oublie Jamais",
@@ -656,6 +696,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Les Grands Jeux',
@@ -672,6 +713,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: "L'Aube Obscure",
@@ -688,6 +730,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: "L'Empire Ultime",
@@ -704,6 +747,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: "Le puits de l'Ascension",
@@ -720,6 +764,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Le Héros des Siècles',
@@ -736,6 +781,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Les Voleurs de fumée, tome 1',
@@ -752,6 +798,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Le Démon et mademoiselle Prym',
@@ -768,6 +815,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: 'Les Maîtres Enlumineurs',
@@ -784,6 +832,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: "Le royaume de Pierre d'Angle, tome 1 : L'art du naufrage",
@@ -800,6 +849,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Cycle de Tschai - Intégrale',
@@ -816,6 +866,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Les Mensonges de Locke Lamora',
@@ -832,6 +883,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Des Horizons Rouge Sang',
@@ -848,6 +900,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'La République des Voleurs',
@@ -864,6 +917,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'La Compagnie Noire',
@@ -880,6 +934,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Le Château Noir',
@@ -896,6 +951,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'La Rose Blanche',
@@ -912,6 +968,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: "L'Enfant de Poussière",
@@ -928,6 +985,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'La Peste et la Vigne',
@@ -944,6 +1002,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Les Chiens et la Charrue',
@@ -960,6 +1019,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'La Maison des Veilleurs',
@@ -976,6 +1036,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'La Sorcière Captive',
@@ -992,6 +1053,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: "L'Héritière Rebelle",
@@ -1008,6 +1070,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: "L'Empire Libéré",
@@ -1024,6 +1087,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'La Voie des Rois (1/2)',
@@ -1040,6 +1104,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'La Voie des Rois (2/2)',
@@ -1056,6 +1121,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Le livre des Radieux (1/2)',
@@ -1072,6 +1138,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Le Livre des Radieux (2/2)',
@@ -1088,6 +1155,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Justicière (1/2)',
@@ -1104,6 +1172,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Justicière (2/2)',
@@ -1120,6 +1189,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Rythme de Guerre (1/2)',
@@ -1136,6 +1206,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Rythme de Guerre (2/2)',
@@ -1152,6 +1223,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Le Don de Mort',
@@ -1168,6 +1240,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'La Grande Traque',
@@ -1184,6 +1257,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Le Don de Vie',
@@ -1200,6 +1274,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: "L'Etoile de Feu",
@@ -1216,6 +1291,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'La Guerre Céleste',
@@ -1232,6 +1308,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'La Dixième Prophétie',
@@ -1248,6 +1325,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Les Jardins de la Lune',
@@ -1264,6 +1342,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Les Portes de la Maison des Morts',
@@ -1280,6 +1359,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Les Souvenirs de la Glace',
@@ -1296,6 +1376,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'La Maison des Chaînes',
@@ -1312,6 +1393,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Les Marées de Minuit',
@@ -1328,6 +1410,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: "L'Alliage de la Justice",
@@ -1344,6 +1427,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Jeux de Masques',
@@ -1360,6 +1444,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Les Bracelets des Larmes',
@@ -1376,6 +1461,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: "Les Princes d'Ambre - Cycle 1",
@@ -1392,6 +1478,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Le Trône du Dragon',
@@ -1408,6 +1495,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: "Le Roi de l'Orage",
@@ -1424,6 +1512,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: "La Maison de l'Ancêtre",
@@ -1440,6 +1529,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: "La Pierre de l'Adieu",
@@ -1456,6 +1546,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Le Livre du Nécromant',
@@ -1472,6 +1563,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Le Cri de Camaris',
@@ -1488,6 +1580,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: "L'Ombre de la Roue",
@@ -1504,6 +1597,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: "La Tour de l'Ange Vert",
@@ -1520,6 +1614,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Tuer la Reine',
@@ -1536,6 +1631,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Défendre le Prince',
@@ -1552,6 +1648,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Écraser le roi',
@@ -1568,6 +1665,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Un jour de nuit tombée',
@@ -1584,6 +1682,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: "Le Prieuré de l'Oranger",
@@ -1600,6 +1699,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'La Tempête des Echos',
@@ -1616,6 +1716,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'La Mémoire de Babel',
@@ -1632,6 +1733,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Les Disparus du Clairdelune',
@@ -1648,6 +1750,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: "Les Fiancés de l'Hiver",
@@ -1664,6 +1767,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Le Retour du Hiérophante',
@@ -1680,6 +1784,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Les Terres Closes',
@@ -1696,6 +1801,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: "Eclat de l'Aube",
@@ -1712,6 +1818,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Les Osseleurs',
@@ -1728,6 +1835,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Le Souffle du Moissonneur',
@@ -1744,6 +1852,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Le Métal Perdu',
@@ -1760,6 +1869,7 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1778,6 +1888,7 @@ export const kevinBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment:
       "Des idées intéressantes mais une écriture qui laisse à désirer. L'histoire est assez classique sans grande surprise. La fin du tome est tout de même sympathique sans être extraordinaire.",
+    quotes: [],
   },
 
   {
@@ -1796,6 +1907,7 @@ export const kevinBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment:
       "Le second tome est largement meilleur que le premier. Les intrigues sont plus intéressantes, mieux développées, mais surtout la fin du tome est beaucoup plus poignante. Dommage que l'œuvre manque de complexité.",
+    quotes: [],
   },
 
   {
@@ -1814,6 +1926,7 @@ export const kevinBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment:
       "La fin est incomplète, il manque un livre mais on peut s'en satisfaire. Cela dit, beaucoup d'intrigues non traitées et d'éléments importants passés sous silence.",
+    quotes: [],
   },
 
   {
@@ -1832,6 +1945,7 @@ export const kevinBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment:
       'Très bon livre, très agréable à lire, il lui manque juste ces petits événements marquants et exceptionnels qui provoquent tant de sentiment, qui en aurait fait une pépite.',
+    quotes: [],
   },
 
   {
@@ -1849,6 +1963,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
 
   {
@@ -1866,6 +1981,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 3,
     wantToReadAgain: false,
     ratingComment: "Tout ce qui manquait au premier tome se retrouve dans celui-là.",
+    quotes: [],
   },
 
   {
@@ -1883,6 +1999,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "Livre assez simple et classique. Quelques lenteurs, beaucoup de passages inutiles mais un potentiel intéressant.\\n\\nLa note :\\n- Écriture : 1\\n- Le monde : 0,5\\n- Les personnages : 0,5\\n- L'histoire : 0,5\\n- Le bonus coup de cœur : 0\\nTotal :",
+    quotes: [],
   },
 
   {
@@ -1900,6 +2017,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "Encore une fois beaucoup trop de passages inintéressant. Le monde et le système de magie sont très peu développés. Aucune surprise... Une lecture peu marquante, qui doit sa mauvaise note à un potentiel gâché.",
+    quotes: [],
   },
 
   {
@@ -1917,6 +2035,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "Bien meilleur que les deux précédentes tomes, il se passe des choses mais malheureusement pas assez. \n\nLa note :\n- Écriture : 1/1\n- Le monde : 0,5/1\n- Les personnages : 0,5/1\n- L'histoire : 0,5\\1\n- Le bonus coup de cœur : 0,5/1\nTotal :",
+    quotes: [],
   },
 
   {
@@ -1934,6 +2053,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "Une histoire simple ancrée dans le réel qui ne manque pas de rebondissements. Un récit humain plaisant à lire, qui devient un excellent premier tome de saga dans ses derniers chapitres.",
+    quotes: [],
   },
 
   {
@@ -1951,6 +2071,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "Encore un très bon livre, mais la surprise du premier tome s'efface et la qualité des personnages ne suffit pas à compenser une intrigue moins prenante.",
+    quotes: [],
   },
 
   {
@@ -1968,6 +2089,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "Le livre est à nouveau bien écrit, emballant quant à son univers mais trop répétitif quant à la quête du personnage principal.",
+    quotes: [],
   },
 
   {
@@ -1985,6 +2107,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "Le livre s'éloigne enfin de la relation entre les deux amoureux éternels de la saga, et présente superbement de nouvelles relations ainsi qu'un nouveau monde. Mon seul regret tient à mon manque de connaissance sur la période et les personnages historiques décrits. Néanmoins, le procédé de la tragédie subtilement annoncé tout au long du tome est splendide.",
+    quotes: [],
   },
 
   {
@@ -2002,6 +2125,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 2,
     wantToReadAgain: false,
     ratingComment: "On met du temps à rentrer dedans mais le livre devient très prenant. Dommage que les intrigues manquent de clarté et tombent un peu dans le redondance (ennemis récurrents...). Peut être un point qui sera corrigé par les éclaircissements des prochains tomes.",
+    quotes: [],
   },
 
   {
@@ -2019,6 +2143,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 2,
     wantToReadAgain: false,
     ratingComment: "Ce livre était juste génial. Le changement de point de vue du narrateur est intéressant et surprenant, et l'intrigue du tome est juste géniale à suivre! Politique, magie, combats et retournements de situation... Le manque de moment réellement émouvant est tout ce qui empêche ce tome de décrocher les 5 étoiles.",
+    quotes: [],
   },
 
   {
@@ -2036,6 +2161,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "D'un coup on change totalement de point de vue et de continent, ça semble hasardeux. Ce livre a des aspects intéressants, mais trop de lenteur à mon goût, et plus que tout on a du mal à caractériser les personnages. Les dernières pages réhaussent un peu le niveau tout en laissant un sentiment de déception : l'histoire est bonne mais mal réalisée.",
+    quotes: [],
   },
 
   {
@@ -2053,6 +2179,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "Le livre est intéressant, et j'ai apprécié découvrir petit à petit l'avis de l'auteur sur le rapport entre l'identité et la situation sociale. Néanmoins, la métaphore me paraît repoussante et le propos en lui même n'a rien de révolutionnaire. Une lecture qui ne m'aura pas marqué. ",
+    quotes: [],
   },
 
   {
@@ -2070,6 +2197,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "Une suite de nouvelle assez géniale. Les textes sont courts, percutants, parfois incompréhensible quant à leur objectif mais toutefois plaisant à lire. Difficile après en avoir fini un de ne pas prendre quelques secondes pour apprécier ce qu'on a lu. Rien que pour ça, la note vaut plus que 3. Néanmoins aucun texte ne me chamboule complètement. Ces nouvelles semblent liées autours du thème de l'alcool, mais j'ai manqué la connexion. Mention spéciale pour \"Et si vous dansiez\", \"La troisième chose qui a tué mon père\" et \"Un dernier mot\" qui auraient pu porter ce livre à 4 étoiles.",
+    quotes: [],
   },
 
   {
@@ -2087,6 +2215,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "Soyons honnête, ce livre n'est pas sans défaut. Certains passages (la traque) m'ont moins marqué que d'autres. Mais les questionnements qu'il apporte sur notre société, la vision si juste qu'avait son auteur il y a pourtant une génération, les questionnements qu'il créer et la justesse des personnages en font pour moi un chef d'œuvre.",
+    quotes: [],
   },
 
   {
@@ -2104,6 +2233,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "Être pris de court par l'intrigue, voilà longtemps que ça ne m'était pas arrivé. Pourtant, à y réfléchir, tout était si évident... Au delà d'une écriture très agréable et d'une édition magnifique (les quelques illustrations valent le coup) ce livre réuni mes ingrédients préférés : des personnages intéressants et maîtrisés, des enjeux de grande échelle à la fois politique et militaires. Pourtant, sur toute la lecture le livre m'a laissé sur ma faim : intéressant mais pas transcendant. Et tout change sur le dernier chapitre. C'est ce que j'aime, rien de plus à dire. C'est fou que je l'ai pas vu venir quand même...",
+    quotes: [],
   },
 
   {
@@ -2121,5 +2251,6 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "Dans la lignée du premier tome, on suit des personnages et une intrigue bien menés. Plusieurs chapitres sont intéressants mais la relation entre Irmine et Kassis me pose problème : elle est centrale et pourtant elle manque cruellement de développement et de cohérence. Malgré tout, les autres aspects du livre sont toujours cools à lire. ",
+    quotes: [],
   },
 ];

@@ -20,8 +20,7 @@
     >
       👥
     </button>
-    }
-    } @if (hasInspiredMovies()) {
+    } } @if (hasInspiredMovies()) {
     <button
       type="button"
       class="edit-button inspired-movies-button"
@@ -113,6 +112,28 @@
     <p class="book-pages">
       <span>{{ book.pages }}</span> pages
     </p>
+    } @if (book.quotes.length && !isBaseEntityView) {
+    <div class="book-quotes">
+      <p class="book-quotes__label">Citations</p>
+      <blockquote
+        #firstQuote
+        class="book-quotes__item"
+        [class.book-quotes__item--clamped]="!quotesExpanded()"
+      >{{ formatQuote(book.quotes[0]) }}</blockquote>
+      @if (quotesExpanded()) {
+      @for (quote of book.quotes.slice(1); track $index) {
+      <blockquote class="book-quotes__item">{{ formatQuote(quote) }}</blockquote>
+      } } @if (book.quotes.length > 1 || firstQuoteOverflows()) {
+      <button
+        type="button"
+        class="book-quotes__toggle"
+        (click)="toggleQuotes()"
+        [attr.aria-expanded]="quotesExpanded()"
+      >
+        {{ quotesExpanded() ? "Voir moins" : "Voir plus" }}
+      </button>
+      }
+    </div>
     } @if ((book.lastReadDate || book.firstReadDate).includes('-') &&
     !isBaseEntityView) {
     <p class="book-read-times">
@@ -144,7 +165,7 @@
       (addToMyDone)="addToMyRead.emit(book)"
     />
     } @if (isBaseEntityView) {
-    <p class="book-genre">{{ book.genre.join(', ') }}</p>
+    <p class="book-genre">{{ book.genre.join(", ") }}</p>
     }
   </div>
 </app-entity-card>

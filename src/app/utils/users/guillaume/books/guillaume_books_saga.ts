@@ -16,6 +16,7 @@ export const guillaumeBooksSaga: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: "L'Embrasement",
@@ -32,6 +33,7 @@ export const guillaumeBooksSaga: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'La Révolte',
@@ -48,6 +50,7 @@ export const guillaumeBooksSaga: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: "La Ballade du serpent et de l'oiseau chanteur",
@@ -64,6 +67,7 @@ export const guillaumeBooksSaga: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Lever de soleil sur la moisson',
@@ -80,6 +84,7 @@ export const guillaumeBooksSaga: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: "Harry Potter à l'école des sorciers",
@@ -96,6 +101,7 @@ export const guillaumeBooksSaga: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Harry Potter et la Chambre des secrets',
@@ -112,6 +118,7 @@ export const guillaumeBooksSaga: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: "Harry Potter et le Prisonnier d'Azkaban",
@@ -128,6 +135,7 @@ export const guillaumeBooksSaga: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Harry Potter et la Coupe de feu',
@@ -144,6 +152,7 @@ export const guillaumeBooksSaga: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: 'Marine',
+    quotes: [],
   },
   {
     title: "Harry Potter et l'Ordre du Phénix",
@@ -160,6 +169,7 @@ export const guillaumeBooksSaga: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Harry Potter et le Prince de sang-mêlé',
@@ -176,6 +186,7 @@ export const guillaumeBooksSaga: UserBooks = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: 'Harry Potter et les Reliques de la Mort',
@@ -192,6 +203,7 @@ export const guillaumeBooksSaga: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: "Harry Potter et l'Enfant maudit",
@@ -208,6 +220,7 @@ export const guillaumeBooksSaga: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Fascination',
@@ -224,6 +237,7 @@ export const guillaumeBooksSaga: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Tentation',
@@ -240,6 +254,7 @@ export const guillaumeBooksSaga: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Hésitation',
@@ -256,6 +271,7 @@ export const guillaumeBooksSaga: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Révélation',
@@ -272,6 +288,7 @@ export const guillaumeBooksSaga: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Midnight Sun',
@@ -288,6 +305,7 @@ export const guillaumeBooksSaga: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Le Voleur de foudre',
@@ -304,6 +322,7 @@ export const guillaumeBooksSaga: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: 'Maxime',
+    quotes: [],
   },
   {
     title: 'La Mer des monstres',
@@ -320,6 +339,7 @@ export const guillaumeBooksSaga: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: 'Maxime',
+    quotes: [],
   },
   {
     title: 'Le Sort du titan',
@@ -336,6 +356,7 @@ export const guillaumeBooksSaga: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'La Bataille du labyrinthe',
@@ -352,6 +373,7 @@ export const guillaumeBooksSaga: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Le Dernier Olympien',
@@ -368,6 +390,7 @@ export const guillaumeBooksSaga: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Le Calice des dieux',
@@ -384,6 +407,7 @@ export const guillaumeBooksSaga: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Divergente',
@@ -400,6 +424,7 @@ export const guillaumeBooksSaga: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: "Divergente Tome 2 : L'Insurrection",
@@ -416,6 +441,7 @@ export const guillaumeBooksSaga: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Divergente Tome 3 : Allégeance',
@@ -432,6 +458,7 @@ export const guillaumeBooksSaga: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Le Labyrinthe',
@@ -448,6 +475,7 @@ export const guillaumeBooksSaga: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Une étude en rouge',
@@ -464,6 +492,7 @@ export const guillaumeBooksSaga: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Le Signe des quatre',
@@ -480,6 +509,7 @@ export const guillaumeBooksSaga: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Le Chien des Baskerville',
@@ -496,6 +526,7 @@ export const guillaumeBooksSaga: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'La vallée de la peur',
@@ -512,6 +543,7 @@ export const guillaumeBooksSaga: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Absolu - Les Mobilisés',
@@ -528,6 +560,7 @@ export const guillaumeBooksSaga: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Absolu - Les Effacés',
@@ -544,6 +577,7 @@ export const guillaumeBooksSaga: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Absolu - Les Éveillés',
@@ -560,6 +594,7 @@ export const guillaumeBooksSaga: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Inside Mac: Tome 1',
@@ -576,6 +611,7 @@ export const guillaumeBooksSaga: UserBooks = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: 'Inside Mac: Tome 2',
@@ -592,6 +628,7 @@ export const guillaumeBooksSaga: UserBooks = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: ["J'ai menti pour toi, j'ai triché. J'ai tué pour toi ! Tu n'étais pas prévue, d'accord ? Rien de tout ça n'était prévu ! J'avais un plan bien précis, et je devais m'y tenir. Tu crois que c'est facile pour moi, maintenant que j'ai goûté à toi ? Maintenant que je sais ce que c'est que de t'avoir dans ma vie, de devoir t'en sortir ? Je ne parle jamais, c'est ça ? Mais il n'y a rien à dire, putain de merde. J'ai rompu la promesse faite à mon mentor, je risque de me foutre un cartel entier à dos pour toi, je n'ai jamais touché cette femme et je ne le ferai jamais, pour toi. J'ai mis en danger ma famille, mon honneur, j'ai trahi ma parole et mes proches. Je pense à toi toutes les putains de secondes qui s'écoulent du réveil jusqu'à la nuit !\n\nJe ne te dis pas \"je t'aime\". Je le fais."],
   },
   {
     title: 'Player One',
@@ -608,6 +645,7 @@ export const guillaumeBooksSaga: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Ready Player Two',
@@ -624,6 +662,7 @@ export const guillaumeBooksSaga: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'La femme de ménage',
@@ -640,6 +679,7 @@ export const guillaumeBooksSaga: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: 'Chloé',
+    quotes: [],
   },
   {
     title: 'Les secrets de la femme de ménage',
@@ -656,6 +696,7 @@ export const guillaumeBooksSaga: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'La femme de ménage se marie',
@@ -672,6 +713,7 @@ export const guillaumeBooksSaga: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'La femme de ménage voit tout',
@@ -688,6 +730,7 @@ export const guillaumeBooksSaga: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Les Trois Mousquetaires',
@@ -704,6 +747,7 @@ export const guillaumeBooksSaga: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Le Faucon malté',
@@ -720,6 +764,7 @@ export const guillaumeBooksSaga: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: 'Aelys',
+    quotes: [],
   },
   {
     title: "L'ennemi public n°2",
@@ -736,6 +781,7 @@ export const guillaumeBooksSaga: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Devine qui vient tuer',
@@ -752,5 +798,6 @@ export const guillaumeBooksSaga: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 ];

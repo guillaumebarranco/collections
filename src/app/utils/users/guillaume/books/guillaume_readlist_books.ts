@@ -16,6 +16,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 2,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Les liaisons dangereuses",
@@ -32,6 +33,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 2,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Les filles du Docteur March",
@@ -48,6 +50,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 2,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Circe",
@@ -64,6 +67,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le chant d'Achille",
@@ -80,6 +84,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Dark Shores",
@@ -96,6 +101,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le Horla",
@@ -112,6 +118,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "L'écume des jours",
@@ -128,6 +135,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Notre-Dame de Paris",
@@ -144,6 +152,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le roi de fer",
@@ -160,6 +169,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le vicomte de Bragelonne",
@@ -176,6 +186,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "La reine Margot",
@@ -192,6 +203,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 2,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le Trône de fer, L'Intégrale Tome 4",
@@ -208,6 +220,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le Trône de fer, L'Intégrale Tome 5",
@@ -224,6 +237,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Robinson Crusoe",
@@ -240,6 +254,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 2,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Cyrano de Bergerac",
@@ -256,6 +271,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Où vont les larmes quand elles sèchent",
@@ -272,6 +288,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 2,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Autour de la Lune",
@@ -288,6 +305,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 2,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Les deux tours",
@@ -304,6 +322,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 2,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le retour du roi",
@@ -320,6 +339,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 2,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Leçons de chimie",
@@ -336,6 +356,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Gagner la guerre",
@@ -352,6 +373,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 2,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "L'enfer",
@@ -368,6 +390,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "L'epopée de Gilgamesh",
@@ -384,6 +407,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Hamlet",
@@ -400,6 +424,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 2,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Macbeth",
@@ -416,6 +441,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "La dernière chanson",
@@ -432,6 +458,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Fais un voeu",
@@ -448,6 +475,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Au rythme de ton souffle",
@@ -464,6 +492,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Un havre de paix",
@@ -480,6 +509,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "L'amour aux temps du choléra",
@@ -496,6 +526,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Tout le bleu du ciel",
@@ -512,6 +543,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 2,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Don Quichotte",
@@ -528,6 +560,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Autant en emporte le vent",
@@ -544,6 +577,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Les Mille et Une Nuits",
@@ -560,6 +594,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Anna Karénine",
@@ -576,6 +611,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "L'espace d'un an",
@@ -592,6 +628,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Princess Bride",
@@ -608,6 +645,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "La Maison des feuilles",
@@ -624,6 +662,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "La Révoltée",
@@ -640,6 +679,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "L'impure",
@@ -656,6 +696,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Un raccourci dans le temps",
@@ -672,6 +713,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Les voyages de Gulliver",
@@ -688,6 +730,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Rien qu'un surhomme",
@@ -704,6 +747,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le Souffle de la Hyène",
@@ -720,6 +764,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le Journal d'Anne Frank",
@@ -736,6 +781,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Eragon (Eragon, #1)",
@@ -752,6 +798,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "The Invisible Life of Addie LaRue",
@@ -768,6 +815,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 2,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "La Dame aux camélias",
@@ -784,6 +832,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "L'Alchimiste",
@@ -800,6 +849,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 2,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Nous",
@@ -816,6 +866,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 2,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le dernier voeu (The Witcher, #1)",
@@ -832,6 +883,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 2,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "La vague",
@@ -848,6 +900,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "La carte qui mène jusqu'à toi",
@@ -864,6 +917,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Emma",
@@ -880,6 +934,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 2,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "La Métamorphose",
@@ -896,6 +951,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Sa majesté des mouches",
@@ -912,6 +968,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Des fleurs pour Algernon",
@@ -928,6 +985,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le dernier jour d'un condamné",
@@ -944,6 +1002,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "20 ans après",
@@ -960,6 +1019,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Othello",
@@ -976,6 +1036,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "La psy",
@@ -992,6 +1053,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le Talentueux M. Ripley",
@@ -1008,6 +1070,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 2,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Millénium, Tome 1 : Les hommes qui n'aimaient pas les femmes",
@@ -1024,6 +1087,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 2,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Sublimes: La Chimère",
@@ -1040,6 +1104,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 3,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "La faucheuse tome 1",
@@ -1056,6 +1121,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 3,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "La Vérité sur l'Affaire Harry Quebert",
@@ -1072,6 +1138,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le Procès",
@@ -1088,6 +1155,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Demain est un autre jour",
@@ -1104,6 +1172,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Divergente : Raconté par Quatre",
@@ -1120,6 +1189,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 2,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le prestige",
@@ -1136,6 +1206,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 2,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Chroniques martiennes",
@@ -1152,6 +1223,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Les Montagnes hallucinées",
@@ -1168,6 +1240,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le problème à trois corps",
@@ -1184,6 +1257,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 2,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "King Kong Théorie",
@@ -1200,6 +1274,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Les Aventures de Sherlock Holmes",
@@ -1216,6 +1291,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Les Mémoires de Sherlock Holmes",
@@ -1232,6 +1308,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le Retour de Sherlock Holmes",
@@ -1248,6 +1325,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Son dernier coup d'archet",
@@ -1264,6 +1342,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Les Archives de Sherlock Holmes",
@@ -1280,6 +1359,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Les Griffes et les Crocs",
@@ -1296,6 +1376,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Becoming",
@@ -1312,6 +1393,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Une terre promise",
@@ -1328,6 +1410,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le manuscrit inachevé",
@@ -1344,6 +1427,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Raison et sentiments",
@@ -1360,6 +1444,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 2,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Casino Royale",
@@ -1376,6 +1461,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 3,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le mystère de la chambre jaune",
@@ -1392,6 +1478,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le jeu de la dame",
@@ -1408,6 +1495,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 3,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "The Way I Used to Be",
@@ -1424,6 +1512,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 3,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le capitalisme patriarcal",
@@ -1440,6 +1529,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 2,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "King's Game Spiral",
@@ -1456,6 +1546,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Je t'ai aimé dans une autre vie",
@@ -1472,6 +1563,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 3,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "L'Invitée surprise",
@@ -1488,6 +1580,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 3,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "On n'a qu'une vie ! : Conseils pour souffler, déculpabiliser et (re)prendre du plaisir",
@@ -1504,6 +1597,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 3,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Le Démon et mademoiselle Prym",
@@ -1520,6 +1614,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 2,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Vingt-quatre heures de la vie d'une femme",
@@ -1536,6 +1631,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 2,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "The Blind Side",
@@ -1552,6 +1648,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Nos cœurs meurtris",
@@ -1568,6 +1665,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "La Vengeance de la Veuve Noire",
@@ -1584,6 +1682,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "L'éveil",
@@ -1600,6 +1699,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "Les nouvelles solitudes",
@@ -1616,6 +1716,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
   {
     title: "She Said",
@@ -1632,5 +1733,6 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   }
 ];

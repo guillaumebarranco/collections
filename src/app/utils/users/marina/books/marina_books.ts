@@ -16,6 +16,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Dracula',
@@ -32,6 +33,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Candide',
@@ -48,6 +50,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Gatsby le magnifique',
@@ -64,6 +67,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'Odyssée",
@@ -80,6 +84,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Roméo et Juliette',
@@ -96,6 +101,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Don Quichotte',
@@ -112,6 +118,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le meilleur des mondes',
@@ -128,6 +135,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le Petit Prince',
@@ -144,6 +152,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Un palais d'épines et de roses",
@@ -160,6 +169,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les sortceliers',
@@ -176,6 +186,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le livre interdit',
@@ -192,6 +203,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Dans le piège de Magister',
@@ -208,6 +220,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La peste',
@@ -224,6 +237,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les fourberies de Scapin',
@@ -240,6 +254,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'avare",
@@ -256,6 +271,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Tartuffe',
@@ -272,6 +288,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le Monde de Narnia (Tome 1) Le Neveu du Magicien',
@@ -288,6 +305,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title:
@@ -305,6 +323,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Et ils meurent tous les deux à la fin',
@@ -321,6 +340,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Hunger Games',
@@ -337,6 +357,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'Embrasement",
@@ -353,6 +374,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La Révolte',
@@ -369,6 +391,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "La Ballade du serpent et de l'oiseau chanteur",
@@ -385,6 +408,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Harry Potter à l'école des sorciers",
@@ -401,6 +425,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Harry Potter et la Chambre des secrets',
@@ -417,6 +442,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Harry Potter et le Prisonnier d'Azkaban",
@@ -433,6 +459,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Harry Potter et la Coupe de feu',
@@ -449,6 +476,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Harry Potter et l'Ordre du Phénix",
@@ -465,6 +493,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Harry Potter et le Prince de sang-mêlé',
@@ -481,6 +510,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Harry Potter et les Reliques de la Mort',
@@ -497,6 +527,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Harry Potter et l'Enfant maudit",
@@ -513,6 +544,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Fascination',
@@ -529,6 +561,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Tentation',
@@ -545,6 +578,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Hésitation',
@@ -561,6 +595,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Révélation',
@@ -577,6 +612,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Midnight Sun',
@@ -593,6 +629,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le Voleur de foudre',
@@ -609,6 +646,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La Mer des monstres',
@@ -625,6 +663,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le Sort du titan',
@@ -641,6 +680,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La Bataille du labyrinthe',
@@ -657,6 +697,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le Dernier Olympien',
@@ -673,6 +714,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le Labyrinthe',
@@ -689,6 +731,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La femme de ménage',
@@ -705,6 +748,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les secrets de la femme de ménage',
@@ -721,6 +765,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les Trois Mousquetaires',
@@ -737,6 +782,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Blackwater I : La crue',
@@ -753,6 +799,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Blackwater II : La digue',
@@ -769,6 +816,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Blackwater III : La maison',
@@ -785,6 +833,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Blackwater IV : La guerre',
@@ -801,6 +850,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Blackwater V : La fortune',
@@ -817,6 +867,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Blackwater VI : Pluie',
@@ -833,6 +884,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Un palais de colère et de brume',
@@ -849,6 +901,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Un palais de cendres et de ruines',
@@ -865,6 +918,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Un palais de glace et de lumière',
@@ -881,6 +935,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Un palais de flammes d'argent",
@@ -897,6 +952,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Joyland',
@@ -913,6 +969,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Marche ou crève',
@@ -929,6 +986,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Contes',
@@ -945,6 +1003,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Dom Juan',
@@ -961,6 +1020,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Katie',
@@ -977,6 +1037,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Lune froide sur babylone',
@@ -993,6 +1054,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La psy',
@@ -1009,6 +1071,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'empire des Femmes tome 1 Sapentia",
@@ -1025,6 +1088,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La maison des mensonges',
@@ -1041,6 +1105,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Et si les chats disparaissaient du monde',
@@ -1057,6 +1122,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Meurtres et pépites de chocolat',
@@ -1073,6 +1139,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Meurtres et cheesecake aux cerises',
@@ -1089,6 +1156,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le prince cruel',
@@ -1105,6 +1173,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le roi maléfique',
@@ -1121,6 +1190,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La reine sans royaume',
@@ -1137,6 +1207,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le prestige',
@@ -1153,6 +1224,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les contes interdits : Peter Pan',
@@ -1169,6 +1241,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Réflexion',
@@ -1185,6 +1258,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Oser ses rêves',
@@ -1201,6 +1275,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le jeu du maître',
@@ -1217,6 +1292,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Avant le labyrinthe',
@@ -1233,6 +1309,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La braise',
@@ -1249,6 +1326,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le labyrinthe : Le destin de Newt',
@@ -1265,6 +1343,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le premier qui meurt à la fin',
@@ -1281,6 +1360,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Éclats d'étoiles",
@@ -1297,6 +1377,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La faucheuse tome 1',
@@ -1313,6 +1394,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La faucheuse tome 2 Thunderhead',
@@ -1329,6 +1411,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La faucheuse tome 3 le glas',
@@ -1345,6 +1428,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Uglies',
@@ -1361,6 +1445,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "King's Game",
@@ -1377,6 +1462,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "King's Game Spiral",
@@ -1393,6 +1479,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "King's Game Origin",
@@ -1409,6 +1496,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "King's Game Extreme",
@@ -1425,6 +1513,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "King's Game Apocalypse",
@@ -1441,6 +1530,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Fandom tome 1',
@@ -1457,6 +1547,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Fandom tome 2 la soulèvement',
@@ -1473,6 +1564,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'De sang et de Rage',
@@ -1489,6 +1581,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "La guerre des elfes l'intégral",
@@ -1505,6 +1598,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Retour à l'état sauvage",
@@ -1521,6 +1615,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'À feu et à sang',
@@ -1537,6 +1632,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les mystères de la forêt',
@@ -1553,6 +1649,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Avant la tempête',
@@ -1569,6 +1666,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Sur le sentier de la guerre',
@@ -1585,6 +1683,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Une sombre prophétie',
@@ -1601,6 +1700,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Minuit',
@@ -1617,6 +1717,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Clair de lune',
@@ -1633,6 +1734,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Aurore',
@@ -1649,6 +1751,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Nuit étoilée',
@@ -1665,6 +1768,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Crépuscule',
@@ -1681,6 +1785,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Coucher de soleil',
@@ -1697,6 +1802,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Battle Royale',
@@ -1713,6 +1819,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Dans son silence',
@@ -1729,5 +1836,6 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 ];

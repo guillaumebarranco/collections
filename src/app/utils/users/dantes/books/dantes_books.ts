@@ -16,6 +16,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -33,6 +34,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les Hauts de Hurlevent',
@@ -49,6 +51,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -66,6 +69,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -83,6 +87,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -100,6 +105,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -117,6 +123,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -134,6 +141,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -151,6 +159,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -168,6 +177,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -185,6 +195,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -202,6 +213,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -219,6 +231,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -236,6 +249,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -253,6 +267,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -270,6 +285,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -287,6 +303,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -304,6 +321,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -321,6 +339,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -338,6 +357,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -355,6 +375,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -372,6 +393,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -389,6 +411,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -406,6 +429,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -423,6 +447,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -440,6 +465,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -457,6 +483,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -474,6 +501,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -491,6 +519,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -508,6 +537,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -525,6 +555,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -542,6 +573,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -559,6 +591,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -576,6 +609,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -593,6 +627,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -610,6 +645,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -627,6 +663,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -644,6 +681,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -661,6 +699,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -678,6 +717,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -695,6 +735,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -712,6 +753,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -729,6 +771,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -746,6 +789,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -763,6 +807,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -780,6 +825,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -797,6 +843,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -814,6 +861,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -831,6 +879,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -848,6 +897,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -865,6 +915,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -882,6 +933,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -899,6 +951,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -916,6 +969,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -933,6 +987,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -950,6 +1005,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -967,6 +1023,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -984,6 +1041,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1001,6 +1059,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1018,6 +1077,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1035,6 +1095,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1052,6 +1113,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1069,6 +1131,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1086,6 +1149,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1103,6 +1167,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1120,6 +1185,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1137,6 +1203,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1154,6 +1221,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1171,6 +1239,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1188,6 +1257,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1205,6 +1275,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1222,6 +1293,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1239,6 +1311,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1256,6 +1329,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1273,6 +1347,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1290,6 +1365,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1307,6 +1383,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1324,6 +1401,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1341,6 +1419,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1358,6 +1437,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1375,6 +1455,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1392,6 +1473,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1409,6 +1491,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1426,6 +1509,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1443,6 +1527,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1460,6 +1545,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1477,6 +1563,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1494,6 +1581,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1511,6 +1599,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1528,6 +1617,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1545,6 +1635,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1562,6 +1653,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1579,6 +1671,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1596,6 +1689,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1613,6 +1707,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1630,6 +1725,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1647,6 +1743,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1664,6 +1761,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1681,6 +1779,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1698,6 +1797,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1715,6 +1815,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1732,6 +1833,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1749,6 +1851,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1766,6 +1869,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1783,6 +1887,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1800,6 +1905,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1817,6 +1923,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1834,6 +1941,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1851,6 +1959,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1868,6 +1977,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Autant en emporte le vent',
@@ -1884,6 +1994,7 @@ export const dantesBooks: UserBook[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Bel-Ami',
@@ -1900,6 +2011,7 @@ export const dantesBooks: UserBook[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Les filles du Docteur March',
@@ -1916,6 +2028,7 @@ export const dantesBooks: UserBook[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Le Château des Papes : Les Intriguants',
@@ -1932,6 +2045,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le Château des Papes II : Les bâtisseurs',
@@ -1948,6 +2062,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le Château des Papes III : Les Impétueux',
@@ -1964,6 +2079,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'No Pasaran le jeu',
@@ -1980,6 +2096,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le Passeur',
@@ -1996,6 +2113,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Délivrez-nous du mal',
@@ -2012,6 +2130,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Pardonnez nos offenses',
@@ -2028,6 +2147,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'éclat de dieu ou le roman du temps",
@@ -2044,6 +2164,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Un homme averti ne vaut rien',
@@ -2060,6 +2181,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Quitte Rome ou meurs',
@@ -2076,6 +2198,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'America I : La treizième colonie',
@@ -2092,6 +2215,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'America II : La main rouge',
@@ -2108,6 +2232,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Le dernier jour d'un condamné",
@@ -2124,6 +2249,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Hernani',
@@ -2140,6 +2266,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Cromwell',
@@ -2156,6 +2283,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Lucrèce Borgia',
@@ -2172,6 +2300,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les châtiments',
@@ -2188,6 +2317,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les Contemplations',
@@ -2204,6 +2334,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les Orientales',
@@ -2220,6 +2351,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La peste',
@@ -2236,6 +2368,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le bourgeois gentilhomme',
@@ -2252,6 +2385,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les fourberies de Scapin',
@@ -2268,6 +2402,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'avare",
@@ -2284,6 +2419,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'école des femmes",
@@ -2300,6 +2436,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'école des maris",
@@ -2316,6 +2453,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Tartuffe',
@@ -2332,6 +2470,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les précieuses ridicules',
@@ -2348,6 +2487,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le Misanthrope',
@@ -2364,6 +2504,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le Cid',
@@ -2380,6 +2521,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le mariage de Figaro',
@@ -2396,6 +2538,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le barbier de Seville',
@@ -2412,6 +2555,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'autre Tartuffe ou la mère coupable",
@@ -2428,6 +2572,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: '20 ans après',
@@ -2444,6 +2589,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le Collier de la reine',
@@ -2460,6 +2606,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La Fille du marquis',
@@ -2476,6 +2623,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Un Monde sans fin',
@@ -2492,6 +2640,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Une Colonne de feu',
@@ -2508,6 +2657,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les armes de la lumière',
@@ -2524,6 +2674,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Le crépuscule et l'aube",
@@ -2540,6 +2691,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La chute des géants',
@@ -2556,6 +2708,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'hiver du monde",
@@ -2572,6 +2725,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Aux portes de l'éternité",
@@ -2588,6 +2742,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le Cercle des jours',
@@ -2604,6 +2759,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Anges et démons',
@@ -2620,6 +2776,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le Symbole Perdu',
@@ -2636,6 +2793,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Inferno',
@@ -2652,6 +2810,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Origine',
@@ -2668,6 +2827,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le Secret des secrets',
@@ -2684,6 +2844,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Forteresse Digitale',
@@ -2700,6 +2861,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Deception Point',
@@ -2716,6 +2878,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "La Vérité sur l'Affaire Harry Quebert",
@@ -2732,6 +2895,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le Livre des Baltimore',
@@ -2748,6 +2912,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'Affaire Alaska Sanders",
@@ -2764,6 +2929,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La chambre 622',
@@ -2780,6 +2946,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les derniers de nos pères',
@@ -2796,6 +2963,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Pantagruel',
@@ -2812,6 +2980,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Gargantua',
@@ -2828,6 +2997,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le rouge et le noir',
@@ -2844,6 +3014,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'De grandes espérances',
@@ -2860,6 +3031,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Oliver Twist',
@@ -2876,6 +3048,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le nom de la rose',
@@ -2892,6 +3065,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les oiseaux se cachent pour mourir',
@@ -2908,6 +3082,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Mon bel Oranger',
@@ -2924,6 +3099,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "La promesse de l'aube",
@@ -2940,6 +3116,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les Aventures de Sherlock Holmes',
@@ -2956,6 +3133,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les Mémoires de Sherlock Holmes',
@@ -2972,6 +3150,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le Retour de Sherlock Holmes',
@@ -2988,6 +3167,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Son dernier coup d'archet",
@@ -3004,6 +3184,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les Archives de Sherlock Holmes',
@@ -3020,6 +3201,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Arsène Lupin, gentleman cambrioleur',
@@ -3036,6 +3218,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Arsène Lupin contre Herlock Sholmès',
@@ -3052,6 +3235,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'Aiguille creuse",
@@ -3068,6 +3252,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "La double vie d'Arsène Lupin",
@@ -3084,6 +3269,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Les trois crimes d'Arsène Lupin",
@@ -3100,6 +3286,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le Bouchon de cristal',
@@ -3116,6 +3303,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Les Confidences d'Arsène Lupin",
@@ -3132,6 +3320,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'Éclat d'obus",
@@ -3148,6 +3337,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Le Triangle d'or",
@@ -3164,6 +3354,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'Île aux trente cercueils",
@@ -3180,6 +3371,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les Dents du tigre',
@@ -3196,6 +3388,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Les Huit Coups de l'horloge",
@@ -3212,6 +3405,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La Comtesse de Cagliostro',
@@ -3228,6 +3422,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La Demoiselle aux yeux verts',
@@ -3244,6 +3439,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Le Cabochon d'émeraude suivi de L'Homme à la peau de bique",
@@ -3260,6 +3456,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'Agence Barnett et Cie",
@@ -3276,6 +3473,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La Demeure mystérieuse',
@@ -3292,6 +3490,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La Barre-y-va',
@@ -3308,6 +3507,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La Femme aux deux sourires',
@@ -3324,6 +3524,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Victor, de la Brigade mondaine',
@@ -3340,6 +3541,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La Cagliostro se venge',
@@ -3356,6 +3558,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Le Dernier Amour d'Arsène Lupin",
@@ -3372,6 +3575,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'Arrestation d'Arsène Lupin",
@@ -3388,6 +3592,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les Trois Yeux',
@@ -3404,6 +3609,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le Formidable Événement',
@@ -3420,6 +3626,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Dorothée, danseuse de corde',
@@ -3436,6 +3643,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La Vie extravagante de Balthazar',
@@ -3452,6 +3660,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   // Livres ajoutés depuis liste Makya (sauf déjà présents: Cyrano, Don Quichotte, Hamlet, Macbeth, Roméo et Juliette)
   {
@@ -3469,6 +3678,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'Arbre des possible",
@@ -3485,6 +3695,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les fourmis',
@@ -3501,6 +3712,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le jour des fourmis',
@@ -3517,6 +3729,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La révolution des fourmis',
@@ -3533,6 +3746,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les Thanatonautes',
@@ -3549,6 +3763,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'empire des Anges",
@@ -3565,6 +3780,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Nous, les dieux',
@@ -3581,6 +3797,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Pélléas et Mélisande',
@@ -3597,6 +3814,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La vie des Abeilles',
@@ -3613,6 +3831,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'intelligence des Fleurs",
@@ -3629,6 +3848,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La mort',
@@ -3645,6 +3865,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les nouvelles enquêtes de Maigret',
@@ -3661,6 +3882,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les 13 coupables',
@@ -3677,6 +3899,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Songe d'une nuit d'été",
@@ -3693,6 +3916,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La Nuit des rois',
@@ -3709,6 +3933,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le marchand de Venise',
@@ -3725,6 +3950,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La mégère apprivoisée',
@@ -3741,6 +3967,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Richard II',
@@ -3757,6 +3984,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Richard III',
@@ -3773,6 +4001,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Othello',
@@ -3789,6 +4018,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le roi Lear',
@@ -3805,6 +4035,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Antoine et Cléopâtre',
@@ -3821,6 +4052,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Antigone',
@@ -3837,6 +4069,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Eurydice',
@@ -3853,6 +4086,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Thomas Becket',
@@ -3869,6 +4103,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "La Guerre de Troie n'aura pas lieu",
@@ -3885,6 +4120,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Chantecler',
@@ -3901,6 +4137,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'Aiglon",
@@ -3917,6 +4154,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La Divine Comédie',
@@ -3933,6 +4171,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'Énéide",
@@ -3949,6 +4188,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Lancelot ou le Chevalier de la charrette',
@@ -3965,6 +4205,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Yvain ou le Chevalier au lion',
@@ -3981,6 +4222,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Perceval ou le Conte du Graal',
@@ -3997,6 +4239,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La Prophétie des Andes',
@@ -4013,6 +4256,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La Dixième Prophétie',
@@ -4029,6 +4273,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le Secret de Shambhala',
@@ -4045,6 +4290,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le Capital',
@@ -4061,6 +4307,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le Manifeste du parti communiste',
@@ -4077,6 +4324,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Eichmann à Jérusalem',
@@ -4093,6 +4341,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'Origine des espèces",
@@ -4109,6 +4358,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Utopie',
@@ -4125,6 +4375,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les Mémoires',
@@ -4141,6 +4392,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "La Gloire de l'Empire",
@@ -4157,6 +4409,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'Amour est un plaisir",
@@ -4173,6 +4426,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Histoire du Juif errant',
@@ -4189,6 +4443,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Guide des égarés',
@@ -4205,6 +4460,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Et moi je vis toujours',
@@ -4221,6 +4477,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Un Hosanna sans fin',
@@ -4237,6 +4494,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'Évangile selon Pilate",
@@ -4253,6 +4511,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Ulysse from Bagdad',
@@ -4269,6 +4528,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Oscar et la dame en rose',
@@ -4285,6 +4545,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Paradis perdus',
@@ -4301,6 +4562,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La Porte du ciel',
@@ -4317,6 +4579,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Soleil sombre',
@@ -4333,6 +4596,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La Lumière du bonheur',
@@ -4349,6 +4613,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les dieux ne sont pas morts',
@@ -4365,6 +4630,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La nouvelle Eurydice',
@@ -4381,6 +4647,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Mémoire d'Hadrien",
@@ -4397,6 +4664,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'œuvre au noir",
@@ -4413,6 +4681,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le cheval noir à la tête blanche',
@@ -4429,6 +4698,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La vieille dame et moi',
@@ -4445,6 +4715,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "La forêt d'Ardenne",
@@ -4461,6 +4732,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Du côté d'Ostende",
@@ -4477,6 +4749,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -4494,6 +4767,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -4511,6 +4785,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -4528,6 +4803,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -4545,6 +4821,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -4562,6 +4839,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -4579,6 +4857,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -4596,6 +4875,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -4613,6 +4893,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -4630,6 +4911,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -4647,6 +4929,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -4664,6 +4947,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -4681,6 +4965,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -4698,6 +4983,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -4715,6 +5001,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -4732,6 +5019,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -4749,6 +5037,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -4766,6 +5055,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -4783,6 +5073,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -4800,6 +5091,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -4817,6 +5109,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -4834,6 +5127,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -4851,6 +5145,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -4868,6 +5163,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -4885,6 +5181,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -4902,6 +5199,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -4919,6 +5217,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -4936,6 +5235,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -4953,6 +5253,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -4970,6 +5271,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -4987,6 +5289,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5004,6 +5307,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5021,6 +5325,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5038,6 +5343,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5055,6 +5361,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5072,6 +5379,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5089,6 +5397,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5106,6 +5415,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5123,6 +5433,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5140,6 +5451,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5157,6 +5469,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5174,6 +5487,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5191,6 +5505,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5208,6 +5523,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5225,6 +5541,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5242,6 +5559,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5259,6 +5577,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5276,6 +5595,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5293,6 +5613,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5310,6 +5631,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5327,6 +5649,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5344,6 +5667,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5361,6 +5685,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5378,6 +5703,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5395,6 +5721,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5412,6 +5739,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5429,6 +5757,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5446,6 +5775,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5463,6 +5793,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5480,6 +5811,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5497,6 +5829,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5514,6 +5847,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5531,6 +5865,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5548,6 +5883,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5565,6 +5901,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5582,6 +5919,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5599,6 +5937,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5616,6 +5955,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5633,6 +5973,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5650,6 +5991,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5667,6 +6009,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5684,6 +6027,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5701,6 +6045,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5718,6 +6063,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5735,6 +6081,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5752,6 +6099,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5769,6 +6117,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5786,6 +6135,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5803,6 +6153,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5820,6 +6171,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5837,6 +6189,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5854,6 +6207,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5871,6 +6225,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5888,6 +6243,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5905,6 +6261,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5922,6 +6279,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5939,6 +6297,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5956,6 +6315,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5973,6 +6333,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -5990,6 +6351,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -6007,6 +6369,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -6024,6 +6387,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -6041,6 +6405,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -6058,6 +6423,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -6075,6 +6441,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -6092,6 +6459,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -6109,6 +6477,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -6126,6 +6495,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -6143,6 +6513,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -6160,6 +6531,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -6177,6 +6549,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -6194,6 +6567,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -6211,6 +6585,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -6228,6 +6603,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -6245,6 +6621,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -6262,6 +6639,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -6279,6 +6657,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -6296,6 +6675,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -6313,6 +6693,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -6330,6 +6711,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -6347,6 +6729,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -6364,6 +6747,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -6381,6 +6765,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -6398,6 +6783,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -6415,6 +6801,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -6432,6 +6819,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -6449,6 +6837,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -6466,6 +6855,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -6483,6 +6873,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -6500,6 +6891,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -6517,6 +6909,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -6534,6 +6927,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -6551,6 +6945,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -6568,6 +6963,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -6585,6 +6981,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -6602,6 +6999,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -6619,6 +7017,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -6636,6 +7035,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -6653,6 +7053,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -6670,6 +7071,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -6687,6 +7089,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -6704,6 +7107,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -6721,6 +7125,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -6738,6 +7143,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -6755,6 +7161,7 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -6772,5 +7179,6 @@ export const dantesBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 ];

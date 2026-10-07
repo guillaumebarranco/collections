@@ -62,7 +62,10 @@
         [checked]="setViewedDateToToday()"
         (change)="onViewedDateTodayChange($event)"
       />
-      Mettre la date de visionnage à aujourd'hui
+      {{
+        data.viewedDateTodayLabel ??
+          "Mettre la date de visionnage à aujourd'hui"
+      }}
     </label>
     }
   </div>

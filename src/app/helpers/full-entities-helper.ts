@@ -80,6 +80,7 @@ export const getFullBook = (book: BaseBook): Book => ({
   ratingComment: '',
   countryOrigin: book.countryOrigin ?? '',
   selectDisplayOrder: book.selectDisplayOrder ?? 0,
+  quotes: [],
 });
 
 export const getFullGame = (game: BaseGame): Game => ({

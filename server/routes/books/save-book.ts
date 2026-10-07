@@ -29,6 +29,7 @@ interface SaveBookUserPayload {
   readPriority: number | undefined;
   wantToReadAgain: boolean;
   ratingComment: string;
+  quotes?: string[];
 }
 
 const router = express.Router();
@@ -71,6 +72,12 @@ router.post('/', (req: any, res: any) => {
       payload.otherReadDates = input.otherReadDates.filter(
         (d: unknown) => typeof d === 'string' && d.trim()
       );
+    }
+
+    if (Array.isArray(input.quotes)) {
+      payload.quotes = input.quotes
+        .filter((quote: unknown) => typeof quote === 'string' && quote.trim())
+        .map((quote: string) => quote.trim());
     }
 
     const entityPayload = input.entity || null;

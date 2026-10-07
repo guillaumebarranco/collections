@@ -73,6 +73,7 @@ export const getEmptyBook = (book: BaseBook | LightBook): Book => {
     countryOrigin: full.countryOrigin ?? '',
     selectDisplayOrder: book.selectDisplayOrder ?? 0,
     pages: full.pages ?? 0,
+    quotes: [],
   };
 };
 

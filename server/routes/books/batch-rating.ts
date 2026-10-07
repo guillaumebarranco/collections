@@ -43,11 +43,27 @@ router.post('/batch-rating', (req: any, res: any) => {
         return;
       }
 
-      const payload = {
+      const payload: {
+        title: string;
+        author: string;
+        rating: number | undefined;
+        ratingComment?: string;
+        firstReadDate?: string;
+        lastReadDate?: string;
+      } = {
         title,
         author,
         rating: normalizeNumber(rawBook?.rating, 'rating'),
       };
+      if (typeof rawBook?.ratingComment === 'string') {
+        payload.ratingComment = rawBook.ratingComment;
+      }
+      if (typeof rawBook?.firstReadDate === 'string') {
+        payload.firstReadDate = rawBook.firstReadDate;
+      }
+      if (typeof rawBook?.lastReadDate === 'string') {
+        payload.lastReadDate = rawBook.lastReadDate;
+      }
 
       let updated = false;
       for (const [filePath, state] of fileState.entries()) {

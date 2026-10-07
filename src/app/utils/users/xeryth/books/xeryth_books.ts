@@ -16,6 +16,7 @@ export const xerythBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -33,5 +34,6 @@ export const xerythBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 ];

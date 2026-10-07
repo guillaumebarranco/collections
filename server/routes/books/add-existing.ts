@@ -9,6 +9,8 @@ const {
   appendObjectToArrayFile,
   parseBooksFromFile,
   getUserBooksFiles,
+  getUserReadlistBooksFiles,
+  removeBookFromFile,
 } = require('../../utils/books/books-utils');
 
 const router = express.Router();
@@ -52,7 +54,54 @@ function formatUserBook(book: any) {
     book.title
   )}",\n    author: "${escapeString(
     book.author
-  )}",\n    firstReadDate: '',\n    lastReadDate: '',\n    otherReadDates: [],\n    rating: 0,\n    reading: false,\n    readTimes: 1,\n    owned: false,\n    borrowed: '',\n    loaned: '',\n    readPriority: 1,\n    wantToReadAgain: false,\n    ratingComment: '',\n  },`;
+  )}",\n    firstReadDate: '',\n    lastReadDate: '',\n    otherReadDates: [],\n    rating: 0,\n    reading: false,\n    readTimes: 1,\n    owned: false,\n    borrowed: '',\n    loaned: '',\n    readPriority: 1,\n    wantToReadAgain: false,\n    ratingComment: '',\n    quotes: [],\n  },`;
+}
+
+function getTodayISO(): string {
+  const today = new Date();
+  const year = today.getFullYear();
+  const month = String(today.getMonth() + 1).padStart(2, '0');
+  const day = String(today.getDate()).padStart(2, '0');
+  return `${year}-${month}-${day}`;
+}
+
+function formatOtherReadDates(otherReadDates: unknown): string {
+  if (!Array.isArray(otherReadDates) || otherReadDates.length === 0) {
+    return '[]';
+  }
+  return (
+    '[' +
+    otherReadDates
+      .filter((date) => typeof date === 'string' && date.trim())
+      .map((date) => `"${escapeString(String(date))}"`)
+      .join(', ') +
+    ']'
+  );
+}
+
+/** Livre déjà dans la readlist : passage en « lu » en conservant emprunt, prêt et possession. */
+function formatReadBookFromReadlist(book: any) {
+  const readDate = getTodayISO();
+  const readPriority = Number(book.readPriority);
+  return `  {\n    title: "${escapeString(
+    book.title
+  )}",\n    author: "${escapeString(
+    book.author
+  )}",\n    firstReadDate: "${readDate}",\n    lastReadDate: "${readDate}",\n    otherReadDates: ${formatOtherReadDates(
+    book.otherReadDates
+  )},\n    rating: 0,\n    reading: false,\n    readTimes: 1,\n    owned: ${
+    book.owned ?? false
+  },\n    borrowed: "${escapeString(
+    typeof book.borrowed === 'string' ? book.borrowed : ''
+  )}",\n    loaned: "${escapeString(
+    typeof book.loaned === 'string' ? book.loaned : ''
+  )}",\n    readPriority: ${
+    Number.isFinite(readPriority) && readPriority > 0 ? readPriority : 1
+  },\n    wantToReadAgain: ${
+    book.wantToReadAgain ?? false
+  },\n    ratingComment: '',\n    quotes: ${formatOtherReadDates(
+    book.quotes
+  )},\n  },`;
 }
 
 function getUserBooksTargetFile(userId: string, isReadlist: boolean) {
@@ -130,25 +179,98 @@ router.post('/add-existing', (req: any, res: any) => {
       existing.map((book: any) => `${book.title}|${book.author}`)
     );
 
-    const toAdd = normalizedBooks.filter(
-      (book: any) => !existingSet.has(`${book.title}|${book.author}`)
-    );
+    const bookKey = (book: { title: string; author: string }) =>
+      `${book.title}|${book.author}`;
 
-    if (toAdd.length === 0) {
+    if (isReadlist) {
+      const toAdd = normalizedBooks.filter(
+        (book: any) => !existingSet.has(bookKey(book))
+      );
+
+      if (toAdd.length === 0) {
+        res.status(409).json({ error: 'Books already exist for user' });
+        return;
+      }
+
+      const userFile = getUserBooksTargetFile(userId, true);
+      let nextContent = fs.readFileSync(userFile, 'utf8');
+      for (const book of toAdd) {
+        nextContent = appendObjectToArrayFile(userFile, formatUserBook(book));
+        fs.writeFileSync(userFile, nextContent, 'utf8');
+      }
+
+      res.json({
+        ok: true,
+        added: toAdd.length,
+        moved: 0,
+        file: userFile,
+      });
+      return;
+    }
+
+    const readlistByKey = new Map<string, any>();
+    for (const readlistFile of getUserReadlistBooksFiles(userId)) {
+      const fileContent = fs.readFileSync(readlistFile, 'utf8');
+      for (const book of parseBooksFromFile(fileContent)) {
+        readlistByKey.set(bookKey(book), book);
+      }
+    }
+
+    const toAdd: any[] = [];
+    const toMove: any[] = [];
+    for (const book of normalizedBooks) {
+      const key = bookKey(book);
+      if (existingSet.has(key)) continue;
+      const readlistBook = readlistByKey.get(key);
+      if (readlistBook) {
+        toMove.push(readlistBook);
+      } else {
+        toAdd.push(book);
+      }
+    }
+
+    if (toAdd.length === 0 && toMove.length === 0) {
       res.status(409).json({ error: 'Books already exist for user' });
       return;
     }
 
-    const userFile = getUserBooksTargetFile(userId, isReadlist);
+    const userFile = getUserBooksTargetFile(userId, false);
     let nextContent = fs.readFileSync(userFile, 'utf8');
     for (const book of toAdd) {
       nextContent = appendObjectToArrayFile(userFile, formatUserBook(book));
       fs.writeFileSync(userFile, nextContent, 'utf8');
     }
+    for (const book of toMove) {
+      nextContent = appendObjectToArrayFile(
+        userFile,
+        formatReadBookFromReadlist(book)
+      );
+      fs.writeFileSync(userFile, nextContent, 'utf8');
+    }
+
+    const readlistFiles = getUserReadlistBooksFiles(userId);
+    for (const book of toMove) {
+      for (const readlistFile of readlistFiles) {
+        const fileContent = fs.readFileSync(readlistFile, 'utf8');
+        try {
+          const updatedContent = removeBookFromFile(fileContent, {
+            title: book.title,
+            author: book.author,
+          });
+          fs.writeFileSync(readlistFile, updatedContent, 'utf8');
+          break;
+        } catch (error: any) {
+          if (error.message !== 'Book not found') {
+            throw error;
+          }
+        }
+      }
+    }
 
     res.json({
       ok: true,
       added: toAdd.length,
+      moved: toMove.length,
       file: userFile,
     });
   } catch (error: any) {

@@ -16,6 +16,7 @@ export const clemenceBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
 
   {
@@ -33,6 +34,7 @@ export const clemenceBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
 
   {
@@ -50,6 +52,7 @@ export const clemenceBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
 
   {
@@ -67,6 +70,7 @@ export const clemenceBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: [],
   },
 
   {
@@ -84,6 +88,7 @@ export const clemenceBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -101,6 +106,7 @@ export const clemenceBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -118,6 +124,7 @@ export const clemenceBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -135,6 +142,7 @@ export const clemenceBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -152,6 +160,7 @@ export const clemenceBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -169,6 +178,7 @@ export const clemenceBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -186,6 +196,7 @@ export const clemenceBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -203,5 +214,6 @@ export const clemenceBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 ];

@@ -4,18 +4,19 @@ export const guillaumeBooks: UserBooks = [
   {
     title: 'Une enfance en nORd',
     author: 'Marion Cuerq',
-    firstReadDate: "2025-05-13",
-    lastReadDate: "2025-05-13",
+    firstReadDate: '2025-05-13',
+    lastReadDate: '2025-05-13',
     otherReadDates: [],
     rating: 5,
     reading: false,
     readTimes: 1,
     owned: true,
-    borrowed: "",
-    loaned: "",
+    borrowed: '',
+    loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: "",
+    ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les liaisons dangereuses',
@@ -32,6 +33,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Castel Boy',
@@ -48,6 +50,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'En bons pères de famille',
@@ -64,6 +67,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Où va l'argent des pauvres",
@@ -80,6 +84,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les tout-petits face aux écrans',
@@ -96,6 +101,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les serres sous le velours noir',
@@ -112,6 +118,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Ne tirez pas sur l'oiseau moqueur",
@@ -128,6 +135,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les Hauts de Hurlevent',
@@ -144,6 +152,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Voyage au centre de la terre',
@@ -160,6 +169,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le tour du monde en 80 jours',
@@ -176,6 +186,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Vingt Mille Lieues sous les mers',
@@ -192,6 +203,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'Île mystérieuse",
@@ -208,6 +220,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'De la Terre à la Lune',
@@ -224,6 +237,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le Comte de Monte-Cristo',
@@ -240,6 +254,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Frankenstein',
@@ -256,6 +271,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le Portrait de Dorian Gray',
@@ -272,6 +288,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La Ferme des animaux',
@@ -288,6 +305,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Orgueil et Préjugés',
@@ -304,6 +322,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: '1984',
@@ -320,6 +339,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Fondation',
@@ -336,6 +356,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Fahrenheit 451',
@@ -352,6 +373,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Miss Marple au club du mardi',
@@ -368,6 +390,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'Affaire Protheroe",
@@ -384,6 +407,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Le crime de l'Orient Express",
@@ -400,6 +424,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Mort sur le Nil',
@@ -416,6 +441,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Ils étaient dix',
@@ -432,6 +458,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le Meurtre de Roger Ackroyd',
@@ -448,6 +475,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Meurtre en Mésopotamie',
@@ -464,6 +492,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Cinq petits cochons',
@@ -480,6 +509,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Dracula',
@@ -496,6 +526,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Jane Eyre',
@@ -512,6 +543,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Une vie',
@@ -528,6 +560,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La tête sur les épaules',
@@ -544,6 +577,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La Nuit des temps',
@@ -560,6 +594,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La Horde du Contrevent',
@@ -576,6 +611,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Madame Bovary',
@@ -592,6 +628,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Bel-Ami',
@@ -608,6 +645,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Résister',
@@ -624,6 +662,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le coût de la virilité',
@@ -640,6 +679,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Sois jeune et tais-toi',
@@ -656,6 +696,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'Île au trésor",
@@ -672,6 +713,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Faites-les lire !',
@@ -688,6 +730,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Candide',
@@ -704,6 +747,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Carrie',
@@ -720,6 +764,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Désolation',
@@ -736,6 +781,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'étrange cas du docteur Jekyll et de Mr. Hyde",
@@ -752,6 +798,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'ordinatueur",
@@ -768,6 +815,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La Potion magique de Georges Bouillon',
@@ -784,6 +832,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Gatsby le magnifique',
@@ -800,6 +849,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La guerre des mondes',
@@ -816,6 +866,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La machine à explorer le temps',
@@ -832,6 +883,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'homme invisible",
@@ -848,6 +900,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La photo qui tue',
@@ -864,6 +917,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les pages de notre amour',
@@ -880,6 +934,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'À tout jamais',
@@ -896,6 +951,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le porte bonheur',
@@ -912,6 +968,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Memento mori',
@@ -928,6 +985,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Un choix',
@@ -944,6 +1002,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Viridia: Les racines du pouvoir',
@@ -960,6 +1019,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Alchemised',
@@ -976,6 +1036,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: true,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Une seconde chance',
@@ -992,6 +1053,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'Iliade",
@@ -1008,6 +1070,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'Odyssée",
@@ -1024,6 +1087,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Adam',
@@ -1040,6 +1104,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Là où chantent les écrevisses',
@@ -1056,22 +1121,24 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Roméo et Juliette',
     author: 'William Shakespeare',
-    firstReadDate: "2026-01-04",
-    lastReadDate: "2026-01-04",
+    firstReadDate: '2026-01-04',
+    lastReadDate: '2026-01-04',
     otherReadDates: [],
     rating: 3.5,
     reading: false,
     readTimes: 1,
     owned: false,
-    borrowed: "",
-    loaned: "",
+    borrowed: '',
+    loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: "",
+    ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La brute',
@@ -1088,6 +1155,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'The Dead zone',
@@ -1104,6 +1172,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le Parfum',
@@ -1120,6 +1189,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les piliers de la terre',
@@ -1136,6 +1206,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La fille du train',
@@ -1152,6 +1223,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Faust',
@@ -1168,6 +1240,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Les Fiancés de l'Hiver",
@@ -1184,6 +1257,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les Disparus du Clairdelune',
@@ -1200,6 +1274,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 3,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La Mémoire de Babel',
@@ -1216,6 +1291,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 3,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La Tempête des Echos',
@@ -1232,6 +1308,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 3,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Il était une fois: Tome 1 : Mon premier baiser',
@@ -1248,6 +1325,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 3,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Il était une fois: Tome 2 : Mon dernier amour',
@@ -1264,6 +1342,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Numéro quatre',
@@ -1280,6 +1359,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 3,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Tartuffe',
@@ -1296,6 +1376,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le Cid',
@@ -1312,6 +1393,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'Aiguille creuse",
@@ -1328,6 +1410,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le pouvoir des six',
@@ -1344,6 +1427,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 3,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Un palais d'épines et de roses",
@@ -1360,6 +1444,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 3,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Dom Juan',
@@ -1376,6 +1461,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Un palais de colère et de brume',
@@ -1392,6 +1478,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 3,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Un palais de cendres et de ruines',
@@ -1408,6 +1495,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 3,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Un palais de glace et de lumière',
@@ -1424,6 +1512,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 3,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1441,6 +1530,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 3,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1458,6 +1548,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 2,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1475,23 +1566,25 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
     title: 'La Controverse de Valladolid',
     author: 'Jean-Claude Carrière',
-    firstReadDate: "2026-04-15",
-    lastReadDate: "2026-04-15",
+    firstReadDate: '2026-04-15',
+    lastReadDate: '2026-04-15',
     otherReadDates: [],
     rating: 4,
     reading: false,
     readTimes: 1,
     owned: false,
-    borrowed: "",
-    loaned: "",
+    borrowed: '',
+    loaned: '',
     readPriority: 2,
     wantToReadAgain: false,
-    ratingComment: "",
+    ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le Bro Code',
@@ -1508,6 +1601,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1526,6 +1620,7 @@ export const guillaumeBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment:
       "C'est particulier quand même les romans noirs. Mais franchement c'est un bon bouquin, surtout la fin !\nJe trouve que ça a ses avantages d'avoir parfois un polar à la Agatha Christie, assez léger sur le ton, et parfois un roman noir comme ça.\n\nJe me suis déjà fait plusieurs fois la remarque sur certains Agatha Christie que la fin était toujours super, mais que parfois le reste du livre était un peu creux, heureusement qu'ils sont souvent courts donc ça se voit pas trop\nAvec Le Dahlia Noir clairement, c'est pas uniquement l'enquête qui fait le bouquin mais aussi les protagonistes et ce qui se passe à côté, y'a plus de tension constante je trouve. Mais forcément c'est très glauque etc\nContent de l'avoir lu en tout cas",
+    quotes: [],
   },
 
   {
@@ -1543,6 +1638,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 3,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1560,6 +1656,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 3,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1577,6 +1674,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1594,23 +1692,25 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 3,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
     title: 'Cinq semaines en ballon',
     author: 'Jules Verne',
-    firstReadDate: "2026-05-18",
-    lastReadDate: "2026-05-18",
+    firstReadDate: '2026-05-18',
+    lastReadDate: '2026-05-18',
     otherReadDates: [],
     rating: 4,
     reading: false,
     readTimes: 1,
     owned: false,
-    borrowed: "",
-    loaned: "",
+    borrowed: '',
+    loaned: '',
     readPriority: 3,
     wantToReadAgain: false,
-    ratingComment: "",
+    ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1628,40 +1728,43 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 2,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
     title: 'La voleuse de livres',
     author: 'Markus Zusak',
-    firstReadDate: '2026-07-03',
-    lastReadDate: '2026-07-03',
+    firstReadDate: "2026-07-03",
+    lastReadDate: "2026-07-03",
     otherReadDates: [],
     rating: 4.5,
     reading: false,
     readTimes: 1,
     owned: true,
-    borrowed: '',
-    loaned: '',
+    borrowed: "",
+    loaned: "",
     readPriority: 3,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
+    quotes: ["Les minutes étaient cruelles.\nLes heures étaient une punition.\nQuand il était éveillé, le sablier du temps se déversait au-dessus de lui et menaçait de l'étouffer. Mais il le laissait vivre. On peut faire beaucoup de mal à quelqu'un en le laissant vivre."],
   },
 
   {
     title: 'Plein-Ciel',
     author: 'Siècle Vaëlban',
-    firstReadDate: '2026-07-20',
-    lastReadDate: '2026-07-20',
+    firstReadDate: "2026-07-20",
+    lastReadDate: "2026-07-20",
     otherReadDates: [],
     rating: 4.25,
     reading: false,
     readTimes: 1,
     owned: false,
-    borrowed: '',
-    loaned: '',
+    borrowed: "",
+    loaned: "",
     readPriority: 3,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
+    quotes: ["La nature ne fait pas d'erreur, elle diversifie ses créations."],
   },
 
   {
@@ -1679,23 +1782,25 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 2,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
     title: 'Moi les hommes, je les déteste',
     author: 'Pauline Harmange',
-    firstReadDate: "2026-07-23",
-    lastReadDate: "2026-07-23",
+    firstReadDate: '2026-07-23',
+    lastReadDate: '2026-07-23',
     otherReadDates: [],
     rating: 4,
     reading: false,
     readTimes: 1,
     owned: false,
-    borrowed: "",
-    loaned: "",
+    borrowed: '',
+    loaned: '',
     readPriority: 2,
     wantToReadAgain: false,
-    ratingComment: "",
+    ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -1713,113 +1818,121 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 2,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
-    title: "Le trouble borderline : Pour mieux comprendre la personnalité limite",
-    author: "Jean-Pierre Guichard",
-    firstReadDate: "2026-07-31",
-    lastReadDate: "2026-07-31",
+    title:
+      'Le trouble borderline : Pour mieux comprendre la personnalité limite',
+    author: 'Jean-Pierre Guichard',
+    firstReadDate: '2026-07-31',
+    lastReadDate: '2026-07-31',
     otherReadDates: [],
     rating: 4,
     reading: false,
     readTimes: 1,
     owned: false,
-    borrowed: "",
-    loaned: "",
+    borrowed: '',
+    loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: "",
+    ratingComment: '',
+    quotes: [],
   },
 
   {
-    title: "Désirer la violence",
-    author: "Chloé Thibaud",
-    firstReadDate: "2026-08-07",
-    lastReadDate: "2026-08-07",
+    title: 'Désirer la violence',
+    author: 'Chloé Thibaud',
+    firstReadDate: '2026-08-07',
+    lastReadDate: '2026-08-07',
     otherReadDates: [],
     rating: 4.5,
     reading: false,
     readTimes: 1,
     owned: false,
-    borrowed: "",
-    loaned: "",
+    borrowed: '',
+    loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: "",
+    ratingComment: '',
+    quotes: [],
   },
 
   {
-    title: "Le Petit Prince",
-    author: "Antoine de Saint-Exupéry",
-    firstReadDate: "2026-08-17",
-    lastReadDate: "2026-08-17",
+    title: 'Le Petit Prince',
+    author: 'Antoine de Saint-Exupéry',
+    firstReadDate: '2026-08-17',
+    lastReadDate: '2026-08-17',
     otherReadDates: [],
     rating: 3.5,
     reading: false,
     readTimes: 1,
     owned: false,
-    borrowed: "",
-    loaned: "",
+    borrowed: '',
+    loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: "",
+    ratingComment: '',
+    quotes: [],
   },
 
   {
-    title: "Les Sirènes",
-    author: "Emilia Hart",
-    firstReadDate: "2026-08-26",
-    lastReadDate: "2026-08-26",
+    title: 'Les Sirènes',
+    author: 'Emilia Hart',
+    firstReadDate: '2026-08-26',
+    lastReadDate: '2026-08-26',
     otherReadDates: [],
     rating: 4,
     reading: false,
     readTimes: 1,
     owned: false,
-    borrowed: "",
-    loaned: "",
+    borrowed: '',
+    loaned: '',
     readPriority: 3,
     wantToReadAgain: false,
-    ratingComment: "",
+    ratingComment: '',
+    quotes: [],
   },
 
   {
-    title: "Le Passeur",
-    author: "Lois Lowry",
-    firstReadDate: "2026-08-28",
-    lastReadDate: "2026-08-28",
+    title: 'Le Passeur',
+    author: 'Lois Lowry',
+    firstReadDate: '2026-08-28',
+    lastReadDate: '2026-08-28',
     otherReadDates: [],
     rating: 4.5,
     reading: false,
     readTimes: 1,
     owned: true,
-    borrowed: "",
-    loaned: "",
+    borrowed: '',
+    loaned: '',
     readPriority: 3,
     wantToReadAgain: false,
-    ratingComment: "",
+    ratingComment: '',
+    quotes: [],
   },
 
   {
     title: "Renoncer à la dépendance affective : S'aimer et se laisser aimer",
-    author: "Catherine Dupont",
-    firstReadDate: "2026-08-31",
-    lastReadDate: "2026-08-31",
+    author: 'Catherine Dupont',
+    firstReadDate: '2026-08-31',
+    lastReadDate: '2026-08-31',
     otherReadDates: [],
     rating: 3.5,
     reading: false,
     readTimes: 1,
     owned: false,
-    borrowed: "",
-    loaned: "",
+    borrowed: '',
+    loaned: '',
     readPriority: 3,
     wantToReadAgain: false,
-    ratingComment: "",
+    ratingComment: '',
+    quotes: [],
   },
 
   {
-    title: "Post-romantique",
-    author: "Aline Laurent-Mayard",
+    title: 'Post-romantique',
+    author: 'Aline Laurent-Mayard',
     firstReadDate: "2026-09-02",
     lastReadDate: "2026-09-02",
     otherReadDates: [],
@@ -1832,62 +1945,66 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 3,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: ["Dans les textes de loi, le marché immobilier, l'industrie du mariage, les applis de rencontre... Le couple est omniprésent. Pas n'importe lequel, évidemment : le couple amoureux et monogame, qui emménage ensemble après un ou deux ans de relation et élève deux marmots jusqu'à ce que la mort les sépare. Un couple dont les membres croient à l'amour inconditionnel et acceptent de se sacrifier et de souffrir au nom de l'amour.\n\nCe mythe de l'amour romantique, qui nous rendrait immanquablement heureux·ses, qui triompherait de tout et serait digne de tous les sacrifices, est sacrément problématique. Il crée un terreau fertile aux inégalités domestiques, aux violences conjugales et, paradoxalement, à l'isolement social. Et quand cela arrive, les personnes en couple sont prises au piège. Car en faisant du couple romantique le seul mode de vie qui vaille, le partriarcart a rendu quasi inaccessible tout autre mode de vie, notamment le célibat (trop cher) et l'habitat collectif (trop rare). Quand on n'a nulle part où aller, comment s'échapper d'une relation dangereuse ?\n\nEn nous privant d'alternatives au couple, le mythe romantique nous empêche de choisir la vie qui nous convient le mieux. Il nous impose un modèle unique et marginalise les personnes qui ne veulent pas ou n'ont pas les moyens (physiques, financiers, ou émotionnels notamment) de se mettre en couple traditionnel."],
   },
 
   {
     title: "King's Game",
-    author: "Nobuaki Kanazawa",
-    firstReadDate: "2026-09-04",
-    lastReadDate: "2026-09-04",
+    author: 'Nobuaki Kanazawa',
+    firstReadDate: '2026-09-04',
+    lastReadDate: '2026-09-04',
     otherReadDates: [],
     rating: 3.25,
     reading: false,
     readTimes: 1,
     owned: false,
-    borrowed: "Marina",
-    loaned: "",
+    borrowed: 'Marina',
+    loaned: '',
     readPriority: 3,
     wantToReadAgain: false,
-    ratingComment: "",
+    ratingComment: '',
+    quotes: [],
   },
 
   {
-    title: "Borderline: Une vie au bord du gouffre",
-    author: "Catherine S. Danemark et Michel Kummer",
-    firstReadDate: "2026-09-10",
-    lastReadDate: "2026-09-10",
+    title: 'Borderline: Une vie au bord du gouffre',
+    author: 'Catherine S. Danemark et Michel Kummer',
+    firstReadDate: '2026-09-10',
+    lastReadDate: '2026-09-10',
     otherReadDates: [],
     rating: 4,
     reading: false,
     readTimes: 1,
     owned: false,
-    borrowed: "",
-    loaned: "",
+    borrowed: '',
+    loaned: '',
     readPriority: 3,
     wantToReadAgain: false,
-    ratingComment: "",
+    ratingComment: '',
+    quotes: [],
   },
 
   {
-    title: "Lucas",
-    author: "Eny Heli",
-    firstReadDate: "2026-09-14",
-    lastReadDate: "2026-09-14",
+    title: 'Lucas',
+    author: 'Eny Heli',
+    firstReadDate: '2026-09-14',
+    lastReadDate: '2026-09-14',
     otherReadDates: [],
     rating: 4,
     reading: false,
     readTimes: 1,
     owned: false,
-    borrowed: "",
-    loaned: "",
+    borrowed: '',
+    loaned: '',
     readPriority: 3,
     wantToReadAgain: false,
-    ratingComment: "",
+    ratingComment: '',
+    quotes: [],
   },
 
   {
-    title: "Pourquoi Trump ne mange pas de Tofu",
-    author: "Suzanne Zaccour",
+    title: 'Pourquoi Trump ne mange pas de Tofu',
+    author: 'Suzanne Zaccour',
     firstReadDate: "2026-09-19",
     lastReadDate: "2026-09-19",
     otherReadDates: [],
@@ -1900,22 +2017,24 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 3,
     wantToReadAgain: false,
     ratingComment: "",
+    quotes: ["Parce que, pour nous, quelques minutes de plaisir gustatif justifient d'imposer à un animal une vie entière de souffrances", "Le plaisir de l'homme est au sommet de la pyramide : au-dessus des femmes dans la hiérarchie sexuelle, au-dessus des animaux dans la hiérarchie alimentaire.", "Notre société considère les atrocités comme étant soit trop extraordinaires pour être crédibles, soit trop ordinaires pour être atroces. Si cela se produit, alors ce n'est pas si grave, et si c'est vraiment grave, cela ne se produit pas.", "- La victime portait une jupe courte - ça ne compte pas.\n- La victime ne s'est pas débattue - ça ne compte pas.\n- Il n'y a pas eu de pénétration - ça ne compte pas.\n- La victime connaît son agresseur - ça ne compte pas.\n- L'agresseur est un \"bon gars\" - ça ne compte pas.\n- Il a \"juste\" insisté - ça ne compte pas.\n\nEt ainsi de suite, jusqu'à ce qu'il ne reste que le \"viol de fond de ruelle\" [...] Ce scénario est la principale forme de violence sexuelle que notre société reconnaît et dénonce : la reste est largement ignoré.", "La \"viande\" est une construction sociale qui désigne certains cadavres jugés comestibles."],
   },
 
   {
     title: "Féroce Déférence (Lettres d'enchantement, #0)",
-    author: "Rebecca Ross",
-    firstReadDate: "2026-09-26",
-    lastReadDate: "2026-09-26",
+    author: 'Rebecca Ross',
+    firstReadDate: '2026-09-26',
+    lastReadDate: '2026-09-26',
     otherReadDates: [],
     rating: 4.25,
     reading: false,
     readTimes: 1,
     owned: false,
-    borrowed: "Lucile",
-    loaned: "",
+    borrowed: 'Lucile',
+    loaned: '',
     readPriority: 3,
     wantToReadAgain: false,
-    ratingComment: "",
+    ratingComment: '',
+    quotes: [],
   },
 ];

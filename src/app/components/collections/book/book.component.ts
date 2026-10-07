@@ -1,10 +1,15 @@
 import {
+  AfterViewInit,
   ChangeDetectionStrategy,
   Component,
+  ElementRef,
   EventEmitter,
   Input,
+  OnChanges,
   OnInit,
   Output,
+  SimpleChanges,
+  ViewChild,
   inject,
   signal,
 } from '@angular/core';
@@ -56,13 +61,17 @@ import { PersonNamesPipe } from '../../shared/person-badge/person-names.pipe';
   styleUrls: ['./book.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class BookComponent implements OnInit {
+export class BookComponent implements OnInit, OnChanges, AfterViewInit {
   private readonly activatedRoute = inject(ActivatedRoute);
   private readonly router = inject(Router);
   private readonly dialog = inject(MatDialog);
   private readonly authService = inject(AuthService);
 
   readonly hasInspiredMovies = signal(false);
+  readonly quotesExpanded = signal(false);
+  readonly firstQuoteOverflows = signal(false);
+
+  @ViewChild('firstQuote') firstQuote?: ElementRef<HTMLElement>;
 
   @Input() book!: any;
 
@@ -114,8 +123,62 @@ export class BookComponent implements OnInit {
     void this.refreshInspiredMovies();
   }
 
+  ngOnChanges(changes: SimpleChanges): void {
+    if (!changes['book'] || changes['book'].firstChange) {
+      return;
+    }
+    const previous = changes['book'].previousValue;
+    const current = changes['book'].currentValue;
+    const sameQuotes =
+      previous?.title === current?.title &&
+      previous?.author === current?.author &&
+      previous?.quotes?.[0] === current?.quotes?.[0] &&
+      previous?.quotes?.length === current?.quotes?.length;
+    if (sameQuotes) {
+      return;
+    }
+    this.quotesExpanded.set(false);
+    this.firstQuoteOverflows.set(false);
+    setTimeout(() => this.measureFirstQuote());
+  }
+
+  ngAfterViewInit(): void {
+    requestAnimationFrame(() => this.measureFirstQuote());
+  }
+
   requestEdit(): void {
     this.editRequested.emit();
+  }
+
+  toggleQuotes(): void {
+    this.quotesExpanded.update((expanded) => !expanded);
+  }
+
+  formatQuote(quote: string): string {
+    return quote
+      .replace(/\\r\\n/g, '\n')
+      .replace(/\\n/g, '\n')
+      .replace(/\\r/g, '\n');
+  }
+
+  private measureFirstQuote(): void {
+    const element = this.firstQuote?.nativeElement;
+    if (!element || this.quotesExpanded()) {
+      return;
+    }
+    const wasClamped = element.classList.contains('book-quotes__item--clamped');
+    if (wasClamped) {
+      element.classList.remove('book-quotes__item--clamped');
+    }
+    const fullHeight = element.scrollHeight;
+    if (wasClamped) {
+      element.classList.add('book-quotes__item--clamped');
+    }
+    const lineHeight = parseFloat(getComputedStyle(element).lineHeight);
+    if (!Number.isFinite(lineHeight) || lineHeight <= 0) {
+      return;
+    }
+    this.firstQuoteOverflows.set(fullHeight > lineHeight * 4 + 1);
   }
 
   openInspiredMoviesModal(): void {

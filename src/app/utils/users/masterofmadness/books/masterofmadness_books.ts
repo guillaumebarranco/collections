@@ -16,6 +16,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les Hauts de Hurlevent',
@@ -32,6 +33,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Frankenstein',
@@ -48,6 +50,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le Portrait de Dorian Gray',
@@ -64,6 +67,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La Ferme des animaux',
@@ -80,6 +84,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: '1984',
@@ -96,6 +101,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Fahrenheit 451',
@@ -112,6 +118,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Dracula',
@@ -128,6 +135,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Une vie',
@@ -144,6 +152,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Madame Bovary',
@@ -160,6 +169,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Bel-Ami',
@@ -176,6 +186,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Candide',
@@ -192,6 +203,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Carrie',
@@ -208,6 +220,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Tristan et Iseult',
@@ -224,6 +237,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Voyage au bout de la nuit',
@@ -240,6 +254,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le Petit Prince',
@@ -256,6 +271,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "La Communauté de l'Anneau",
@@ -272,6 +288,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les Contemplations',
@@ -288,6 +305,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le bourgeois gentilhomme',
@@ -304,6 +322,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les fourberies de Scapin',
@@ -320,6 +339,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Tartuffe',
@@ -336,6 +356,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les précieuses ridicules',
@@ -352,6 +373,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le Misanthrope',
@@ -368,6 +390,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le Cid',
@@ -384,6 +407,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le mariage de Figaro',
@@ -400,6 +424,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Gargantua',
@@ -416,6 +441,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Antigone',
@@ -432,6 +458,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Lancelot ou le Chevalier de la charrette',
@@ -448,6 +475,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Yvain ou le Chevalier au lion',
@@ -464,6 +492,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Perceval ou le Conte du Graal',
@@ -480,6 +509,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'étranger",
@@ -496,6 +526,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'Enfant de Poussière",
@@ -512,6 +543,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La Peste et la Vigne',
@@ -528,6 +560,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les Chiens et la Charrue',
@@ -544,6 +577,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La Maison des Veilleurs',
@@ -560,6 +594,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'épée de la providence (The Witcher, #2)",
@@ -576,6 +611,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le dernier voeu (The Witcher, #1)',
@@ -592,6 +628,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Les ténèbres (Journal d'un vampire, #2)",
@@ -608,6 +645,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Le réveil (Journal d'un vampire, #1)",
@@ -624,6 +662,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Harry Potter à l'école des sorciers",
@@ -640,6 +679,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Harry Potter et la Chambre des secrets',
@@ -656,6 +696,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Harry Potter et le Prisonnier d'Azkaban",
@@ -672,6 +713,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Harry Potter et la Coupe de feu',
@@ -688,6 +730,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Harry Potter et l'Ordre du Phénix",
@@ -704,6 +747,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Harry Potter et le Prince de sang-mêlé',
@@ -720,6 +764,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Harry Potter et les Reliques de la Mort',
@@ -736,6 +781,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Fascination',
@@ -752,6 +798,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Tentation',
@@ -768,6 +815,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Hésitation',
@@ -784,6 +832,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Révélation',
@@ -800,6 +849,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les liaisons dangereuses',
@@ -816,6 +866,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les piliers de la terre',
@@ -832,6 +883,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le Horla',
@@ -848,6 +900,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Cyrano de Bergerac',
@@ -864,6 +917,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Hamlet',
@@ -880,6 +934,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Pélléas et Mélisande',
@@ -896,6 +951,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Pierre et Jean',
@@ -912,6 +968,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Mont-Oriol',
@@ -928,6 +985,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Fort comme la mort',
@@ -944,6 +1002,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Notre Cœur',
@@ -960,6 +1019,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La Maison Tellier',
@@ -976,6 +1036,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'Inutile Beauté",
@@ -992,6 +1053,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Au soleil',
@@ -1008,6 +1070,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Sur l'eau",
@@ -1024,6 +1087,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La Vie errante',
@@ -1040,6 +1104,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Contes de la bécasse',
@@ -1056,6 +1121,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'Education sentimentale",
@@ -1072,6 +1138,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Salammbô',
@@ -1088,6 +1155,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Trois contes',
@@ -1104,6 +1172,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Bouvard et Pécuchet',
@@ -1120,6 +1189,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Dictionnaire des idées reçues',
@@ -1136,6 +1206,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Thérèse Raquin',
@@ -1152,6 +1223,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La Fortune des Rougon',
@@ -1168,6 +1240,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La Curée',
@@ -1184,6 +1257,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le Ventre de Paris',
@@ -1200,6 +1274,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La Bête humaine',
@@ -1216,6 +1291,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Joyland',
@@ -1232,6 +1308,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Salem',
@@ -1248,6 +1325,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Simetierre',
@@ -1264,6 +1342,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Misery',
@@ -1280,6 +1359,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La Ligne verte',
@@ -1296,6 +1376,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La peau sur les os',
@@ -1312,6 +1393,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: '22/11/63',
@@ -1328,6 +1410,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Docteur Sleep',
@@ -1344,6 +1427,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Marche ou crève',
@@ -1360,6 +1444,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Running man',
@@ -1376,6 +1461,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Mr. Mercedes',
@@ -1392,6 +1478,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Carnets noirs',
@@ -1408,6 +1495,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Fin de ronde',
@@ -1424,6 +1512,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le Père Goriot',
@@ -1440,6 +1529,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "La Fille aux yeux d'or",
@@ -1456,6 +1546,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'À rebours',
@@ -1472,6 +1563,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le Drageoir aux épices',
@@ -1488,6 +1580,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les Soirées de Médan',
@@ -1504,6 +1597,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les Travailleurs de la mer',
@@ -1520,6 +1614,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Ruy Blas',
@@ -1536,6 +1631,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Petits Poèmes en prose',
@@ -1552,6 +1648,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les Fleurs du Mal',
@@ -1568,6 +1665,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Fêtes galantes',
@@ -1584,6 +1682,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Poèmes saturniens',
@@ -1600,6 +1699,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Romances sans paroles',
@@ -1616,6 +1716,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Une saison en enfer',
@@ -1632,6 +1733,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les Illuminations',
@@ -1648,6 +1750,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Méditations poétiques',
@@ -1664,6 +1767,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les Diaboliques',
@@ -1680,6 +1784,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les Amours jaunes',
@@ -1696,6 +1801,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La Naissance de la tragédie',
@@ -1712,6 +1818,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "La Vénus d'Ille",
@@ -1728,6 +1835,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Les Crimes de l'amour",
@@ -1744,6 +1852,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La Philosophie dans le boudoir',
@@ -1760,6 +1869,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les Rêveries du promeneur solitaire',
@@ -1776,6 +1886,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La Religieuse',
@@ -1792,6 +1903,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les Salons',
@@ -1808,6 +1920,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Les Egarements du cœur et de l'esprit",
@@ -1824,6 +1937,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Atala',
@@ -1840,6 +1954,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les Souffrances du jeune Werther',
@@ -1856,6 +1971,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Manon Lescaut',
@@ -1872,6 +1988,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Après m'avoir fait tant mourir",
@@ -1888,6 +2005,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Fables',
@@ -1904,6 +2022,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les Amours de Psyché et de Cupidon',
@@ -1920,6 +2039,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Contes',
@@ -1936,6 +2056,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'Autre monde",
@@ -1952,6 +2073,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le Médecin volant',
@@ -1968,6 +2090,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le Médecin malgré lui',
@@ -1984,6 +2107,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'George Dandin',
@@ -2000,6 +2124,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'avare",
@@ -2016,6 +2141,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Dom Juan',
@@ -2032,6 +2158,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Médée',
@@ -2048,6 +2175,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le Menteur',
@@ -2064,6 +2192,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'Illusion comique",
@@ -2080,6 +2209,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Phèdre',
@@ -2096,6 +2226,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Iphigénie',
@@ -2112,6 +2243,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Britannicus',
@@ -2128,6 +2260,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Bérénice',
@@ -2144,6 +2277,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Pour un nouveau roman',
@@ -2160,6 +2294,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les Gommes',
@@ -2176,6 +2311,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Djinn',
@@ -2192,6 +2328,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La Jalousie',
@@ -2208,6 +2345,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La Modification',
@@ -2224,6 +2362,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'Emploi du temps",
@@ -2240,6 +2379,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Petite histoire de la littérature française',
@@ -2256,6 +2396,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les Choses',
@@ -2272,6 +2413,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Passacaille',
@@ -2288,6 +2430,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Aurélien',
@@ -2304,6 +2447,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le Bestiaire',
@@ -2320,6 +2464,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Alcools',
@@ -2336,6 +2481,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Poèmes à Lou',
@@ -2352,6 +2498,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Calligrammes',
@@ -2368,6 +2515,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'Eau et les Rêves",
@@ -2384,6 +2532,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Le degré zéro de l'écriture",
@@ -2400,6 +2549,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Fragments d'un discours amoureux",
@@ -2416,6 +2566,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Autobiographie des objets',
@@ -2432,6 +2583,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Sortie d'usine",
@@ -2448,6 +2600,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Tous les matins du monde',
@@ -2464,6 +2617,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les Soleils des indépendances',
@@ -2480,6 +2634,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Allah n'est pas obligé",
@@ -2496,6 +2651,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Cahier d'un retour au pays natal",
@@ -2512,6 +2668,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Texaco',
@@ -2528,6 +2685,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Solibo magnifique',
@@ -2544,6 +2702,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Pays rêvé, Pays réel',
@@ -2560,6 +2719,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Lettre à la femme aimée au sujet de la mort',
@@ -2576,6 +2736,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Petite éloge de la poésie',
@@ -2592,6 +2753,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Du côté de chez Swan',
@@ -2608,6 +2770,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'Etoile d'Alger",
@@ -2624,6 +2787,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Nedjma',
@@ -2640,6 +2804,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le cercle des représailles',
@@ -2656,6 +2821,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Pour un oui ou pour un non',
@@ -2672,6 +2838,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Juste la fin du monde',
@@ -2688,6 +2855,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Roberto Zucco',
@@ -2704,6 +2872,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Ronce-Rose',
@@ -2720,6 +2889,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Oreille rouge',
@@ -2736,6 +2906,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Aurais-je été résistant ou bourreau ?',
@@ -2752,6 +2923,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Huis clos',
@@ -2768,6 +2940,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les Mots',
@@ -2784,6 +2957,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Je suis un écrivain japonais',
@@ -2800,6 +2974,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Nous, l'Europe banquet des peuples",
@@ -2816,6 +2991,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Chien 51',
@@ -2832,6 +3008,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Zem',
@@ -2848,6 +3025,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Cahier de verdure',
@@ -2864,6 +3042,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Eupalinos',
@@ -2880,6 +3059,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Connaissance de l'Est",
@@ -2896,6 +3076,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Clair-obscur',
@@ -2912,6 +3093,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le parti pris des choses',
@@ -2928,6 +3110,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La Terre et le sang',
@@ -2944,6 +3127,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le Fils du pauvre',
@@ -2960,6 +3144,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les Hirondelles de Kaboul',
@@ -2976,6 +3161,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Ce que le jour doit à la nuit',
@@ -2992,6 +3178,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'Attentat",
@@ -3008,6 +3195,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Comme un roman',
@@ -3024,6 +3212,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La Fée Carabine',
@@ -3040,6 +3229,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Des souris et des hommes',
@@ -3056,6 +3246,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Vipère au poing',
@@ -3072,6 +3263,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Terrienne',
@@ -3088,6 +3280,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Noire – la vie méconnue de Claudette Colvin',
@@ -3104,6 +3297,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Ravage',
@@ -3120,6 +3314,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Rue Darwin',
@@ -3136,6 +3331,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Arthur Rimbaud le voleur de feu',
@@ -3152,6 +3348,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Ça t'apprendra à vivre",
@@ -3168,6 +3365,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le Terrier',
@@ -3184,6 +3382,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Peau noire masques blancs',
@@ -3200,6 +3399,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Je m'en vais",
@@ -3216,6 +3416,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'En salle',
@@ -3232,6 +3433,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Et la terre se transmet comme la langue',
@@ -3248,6 +3450,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Gravitations',
@@ -3264,6 +3467,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les Chevaliers du subjonctif',
@@ -3280,6 +3484,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La Grammaire est une chanson douce',
@@ -3296,6 +3501,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Métamorphoses',
@@ -3312,6 +3518,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Œdipe roi',
@@ -3328,6 +3535,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Histoire d'un voyage fait en la terre du Brésil",
@@ -3344,6 +3552,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les Regrets',
@@ -3360,6 +3569,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'Adolescence clémentine",
@@ -3376,6 +3586,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Bilbo le Hobbit',
@@ -3392,6 +3603,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -3409,6 +3621,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -3426,6 +3639,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   /* Journal d'un vampire – tomes 3 à 11 */
@@ -3444,6 +3658,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Le Royaume des ombres (Journal d'un vampire, #4)",
@@ -3460,6 +3675,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'Ultime Crépuscule (Journal d'un vampire, #5)",
@@ -3476,6 +3692,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Dévoreur (Journal d'un vampire, #6)",
@@ -3492,6 +3709,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Le Chant de la lune (Journal d'un vampire, #7)",
@@ -3508,6 +3726,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Cruelle Destinée (Journal d'un vampire, #8)",
@@ -3524,6 +3743,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Le Cauchemar (Journal d'un vampire, #9)",
@@ -3540,6 +3760,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "La Traque (Journal d'un vampire, #10)",
@@ -3556,6 +3777,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Rédemption (Journal d'un vampire, #11)",
@@ -3572,6 +3794,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   /* Saga Oscar Pill */
   {
@@ -3589,6 +3812,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Les Deux Royaumes',
@@ -3605,6 +3829,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le Secret des Éternels',
@@ -3621,6 +3846,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "L'allié des ténèbres",
@@ -3637,6 +3863,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: "Cérébra, l'Ultime Voyage",
@@ -3653,6 +3880,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   /* Saga L'Assistant du vampire */
   {
@@ -3670,6 +3898,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Le Cauchemar Continue',
@@ -3686,6 +3915,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'Jeux de Sang',
@@ -3702,6 +3932,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
   {
     title: 'La Montagne des Vampires',
@@ -3718,6 +3949,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -3735,6 +3967,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -3752,6 +3985,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -3769,6 +4003,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -3786,6 +4021,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -3803,6 +4039,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -3820,6 +4057,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -3837,6 +4075,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -3854,6 +4093,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -3871,6 +4111,7 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 
   {
@@ -3888,5 +4129,6 @@ export const masterofmadnessBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    quotes: [],
   },
 ];
