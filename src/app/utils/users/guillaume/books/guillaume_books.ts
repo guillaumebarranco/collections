@@ -2037,4 +2037,21 @@ export const guillaumeBooks: UserBooks = [
     ratingComment: '',
     quotes: [],
   },
+
+  {
+    title: "Les nouvelles solitudes",
+    author: "Marie-France Hirigoyen",
+    firstReadDate: "2026-10-05",
+    lastReadDate: "2026-10-05",
+    otherReadDates: [],
+    rating: 3.5,
+    reading: false,
+    readTimes: 1,
+    owned: true,
+    borrowed: "",
+    loaned: "",
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: "",
+  },
 ];

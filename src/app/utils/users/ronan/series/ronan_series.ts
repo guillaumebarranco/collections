@@ -10015,4 +10015,26 @@ export const ronanSeries: UserSeries = [
     borrowed: "",
     loaned: "",
   },
+
+  {
+    title: "Lanterns",
+    director: "Chris Mundy",
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 3,
+      watching: false,
+      seasonTimesWatched: 1,
+      firstViewedDate: "2026-10-05",
+      lastViewedDate: "2026-10-05",
+      otherViewedDates: [],
+    }
+  ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: "",
+    borrowed: "",
+    loaned: "",
+  },
 ];

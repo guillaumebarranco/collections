@@ -1487,8 +1487,8 @@ export const guillaumeReadlistBooks: UserBooks = [
     lastReadDate: "",
     otherReadDates: [],
     rating: 0,
-    reading: false,
-    readTimes: 1,
+    reading: true,
+    readTimes: 0,
     owned: true,
     borrowed: "",
     loaned: "",
@@ -1702,6 +1702,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     quotes: [],
   },
   {
+<<<<<<< Updated upstream
     title: "Les nouvelles solitudes",
     author: "Marie-France Hirigoyen",
     firstReadDate: "",
@@ -1719,6 +1720,8 @@ export const guillaumeReadlistBooks: UserBooks = [
     quotes: [],
   },
   {
+=======
+>>>>>>> Stashed changes
     title: "She Said",
     author: "Jodi Kantor",
     firstReadDate: "",
