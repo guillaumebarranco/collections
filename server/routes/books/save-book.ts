@@ -19,7 +19,7 @@ interface SaveBookUserPayload {
   author: string;
   rating: number | undefined;
   readTimes: number | undefined;
-  reading: boolean;
+  reading?: boolean;
   firstReadDate: string | undefined;
   lastReadDate: string | undefined;
   otherReadDates?: string[];
@@ -56,7 +56,6 @@ router.post('/', (req: any, res: any) => {
       author,
       rating: normalizeNumber(input.rating, 'rating'),
       readTimes: normalizeNumber(input.readTimes, 'readTimes'),
-      reading: normalizeBoolean(input.reading, 'reading') ?? false,
       firstReadDate: normalizeString(input.firstReadDate, 'firstReadDate'),
       lastReadDate: normalizeString(input.lastReadDate, 'lastReadDate'),
       owned: normalizeBoolean(input.owned, 'owned'),
@@ -67,6 +66,11 @@ router.post('/', (req: any, res: any) => {
         normalizeBoolean(input.wantToReadAgain, 'wantToReadAgain') ?? false,
       ratingComment: normalizeString(input.ratingComment, 'ratingComment') ?? '',
     };
+
+    const reading = normalizeBoolean(input.reading, 'reading');
+    if (reading !== undefined) {
+      payload.reading = reading;
+    }
 
     if (Array.isArray(input.otherReadDates)) {
       payload.otherReadDates = input.otherReadDates.filter(

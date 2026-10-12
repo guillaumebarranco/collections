@@ -327,6 +327,7 @@ export class EditBookComponent {
           author: book.author,
           rating: form.rating,
           readTimes: form.readTimes,
+          reading: book.reading ?? false,
           firstReadDate: form.firstReadDate,
           lastReadDate: form.lastReadDate,
           otherReadDates: normalizeActivityExtraDates(form.otherReadDates),
