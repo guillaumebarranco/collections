@@ -163,4 +163,23 @@ export const williamMovies: UserMovies = [
     inList: [],
     lastUpdated: '',
   },
+
+  {
+    title: "Monstres et Cie",
+    director: "Pete Docter",
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: "2026-10-11",
+    lastViewedDate: "2026-10-11",
+    otherSeenDates: [],
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: "",
+    inList: [],
+    borrowed: '',
+    loaned: '',
+    lastUpdated: "2026-10-11T13:36",
+  },
 ];

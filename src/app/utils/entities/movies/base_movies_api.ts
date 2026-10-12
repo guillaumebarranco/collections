@@ -2683,4 +2683,33 @@ export const baseMoviesApi: BaseMovie[] = [
     selectDisplayOrder: 0,
     oscars: [],
   },
+
+  {
+    title: "Animals",
+    director: "Ben Affleck",
+    actors: [
+      {
+        name: "Ben Affleck",
+      },
+      {
+        name: "Kerry Washington",
+      },
+      {
+        name: "Gillian Anderson",
+      },
+      {
+        name: "Steven Yeun",
+      },
+    ],
+    coverUrl: "https://www.ecranlarge.com/content/uploads/2026/01/8318c06373acd968023aa5afab9c2ae6.jpg",
+    releaseDate: "2026-10-09",
+    length: 106,
+    genre: ['Thriller'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
 ];
