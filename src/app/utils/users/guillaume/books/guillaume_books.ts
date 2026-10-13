@@ -2065,4 +2065,22 @@ export const guillaumeBooks: UserBooks = [
     ratingComment: '',
     quotes: [],
   },
+
+  {
+    title: "Le jeu de la dame",
+    author: "Walter Tevis",
+    firstReadDate: "2026-10-12",
+    lastReadDate: "2026-10-12",
+    otherReadDates: [],
+    rating: 4.25,
+    reading: false,
+    readTimes: 1,
+    owned: true,
+    borrowed: "",
+    loaned: "",
+    readPriority: 3,
+    wantToReadAgain: false,
+    ratingComment: "",
+    quotes: [],
+  },
 ];
