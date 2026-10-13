@@ -3,7 +3,11 @@
 <ng-template #selectionSummaryBand>
   <div class="selection-info">
     <span class="count">{{ selectedCount() }} film(s) sélectionné(s)</span>
+    @if (isJustSeenMode() && !searchTerm().trim()) {
+    <span class="total">Recherche un titre pour afficher des films</span>
+    } @else {
     <span class="total">sur {{ filteredMovies().length }}</span>
+    }
   </div>
 
   <div class="actions">
@@ -13,7 +17,9 @@
       [disabled]="selectedCount() === 0"
     >
       {{
-        isCinemaMode()
+        isJustSeenMode()
+          ? "Enregistrer ce visionnage"
+          : isCinemaMode()
           ? "Modifier mes films vus au cinema"
           : isWatchOrReadlistMode()
           ? "Ajouter à mes films à voir"
@@ -48,7 +54,9 @@
     }
     <h1>
       {{
-        isCinemaMode()
+        isJustSeenMode()
+          ? "Je viens de voir un film"
+          : isCinemaMode()
           ? "Modifier mes films vus au cinema"
           : isWatchOrReadlistMode()
           ? "Sélectionner des films pour ma watchlist"
@@ -61,7 +69,18 @@
         class="selection-description__text"
         [class.is-expanded]="descriptionExpanded()"
       >
-        @if(isCinemaMode()) {
+        @if (isJustSeenMode()) {
+        <p>
+          Bonjour {{ username() }} <br /><br />
+          Recherche le film que tu viens de voir, par son titre ou son
+          réalisateur. Rien ne s'affiche tant que tu n'as pas commencé à taper.
+          <br /><br />
+          Tu le trouveras même si tu ne l'as jamais vu, s'il est dans tes films
+          à voir, si tu l'as déjà vu une ou plusieurs fois, ou s'il est dans tes
+          films à revoir. S'il est déjà dans tes films vus, un visionnage de
+          plus est enregistré.
+        </p>
+        } @else if(isCinemaMode()) {
         <p>
           Bonjour {{ username() }} <br /><br />
           Ici tu peux sélectionner les films que tu as vus au cinema.
@@ -148,7 +167,11 @@
       <input
         class="select-search-input"
         type="text"
-        placeholder="Rechercher un film..."
+        [placeholder]="
+          isJustSeenMode()
+            ? 'Rechercher le film que tu viens de voir...'
+            : 'Rechercher un film...'
+        "
         aria-label="Rechercher un film"
         [value]="searchTerm()"
         (input)="onSearchInput($any($event.target).value)"
@@ -156,6 +179,15 @@
     </div>
   </div>
 
+  @if (isJustSeenMode() && displayedMovies().length === 0) {
+  <div class="select-empty-state" select-grid>
+    @if (!searchTerm().trim()) {
+    <p>Recherche le film que tu viens de voir.</p>
+    } @else {
+    <p>Aucun film ne correspond à ta recherche.</p>
+    }
+  </div>
+  } @else {
   <div class="movies-grid" select-grid>
     @for (movie of displayedMovies(); track `${movie.title}-${movie.director}`)
     {
@@ -165,7 +197,17 @@
       (click)="toggleSelection(movie)"
       [title]="movie.title + ' (' + movie.releaseDate.substring(0, 4) + ')'"
     >
-      @if (isOnWatchlist(movie)) {
+      @if (isWantToSeeAgain(movie)) {
+      <span
+        class="movie-poster__watchlist-badge movie-poster__watchlist-badge--rewatch"
+        >À revoir</span
+      >
+      } @else if (isAlreadyWatched(movie)) {
+      <span
+        class="movie-poster__watchlist-badge movie-poster__watchlist-badge--watched"
+        >Déjà vu</span
+      >
+      } @else if (isOnWatchlist(movie)) {
       <span class="movie-poster__watchlist-badge">À voir</span>
       }
       <img [src]="movie.coverUrl" [alt]="movie.title" loading="lazy" />
@@ -183,6 +225,7 @@
     <div #loadMore class="select-infinite-sentinel" aria-hidden="true"></div>
     }
   </div>
+  }
 
   <div
     class="toolbar toolbar--footer"

@@ -155,5 +155,13 @@
     font-weight: 700;
     line-height: 1.2;
     pointer-events: none;
+
+    &--watched {
+      background: rgba(0, 105, 180, 0.95);
+    }
+
+    &--rewatch {
+      background: rgba(176, 112, 16, 0.95);
+    }
   }
 }

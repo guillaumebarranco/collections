@@ -3,7 +3,11 @@
 <ng-template #selectionSummaryBand>
   <div class="selection-info">
     <span class="count">{{ selectedCount() }} livre(s) sélectionné(s)</span>
+    @if (isJustReadMode() && !searchTerm().trim()) {
+    <span class="total">Recherche un titre pour afficher des livres</span>
+    } @else {
     <span class="total">sur {{ filteredBooks().length }}</span>
+    }
   </div>
 
   <div class="actions">
@@ -13,7 +17,9 @@
       [disabled]="selectedCount() === 0"
     >
       {{
-        isWatchOrReadlistMode()
+        isJustReadMode()
+          ? "Enregistrer cette lecture"
+          : isWatchOrReadlistMode()
           ? "Ajouter à mes livres à lire"
           : "Ajouter à mes livres lus"
       }}
@@ -46,7 +52,9 @@
     }
     <h1>
       {{
-        isWatchOrReadlistMode()
+        isJustReadMode()
+          ? "Je viens de lire un livre"
+          : isWatchOrReadlistMode()
           ? "Sélectionner des livres pour ma readlist"
           : "Ajouter des livres lus"
       }}
@@ -57,7 +65,30 @@
         class="selection-description__text"
         [class.is-expanded]="descriptionExpanded()"
       >
-      @if(!isWatchOrReadlistMode()) {
+      @if (isJustReadMode()) {
+      <p>
+        Bonjour {{ username() }} <br /><br />
+        Recherche le livre que tu viens de lire, par son titre, son auteur ou
+        sa saga. Rien ne s'affiche tant que tu n'as pas commencé à taper.
+        <br /><br />
+        Tu le trouveras même si tu ne l'as jamais lu, s'il est dans tes livres
+        à lire, si tu l'as déjà lu une ou plusieurs fois, ou s'il est dans tes
+        livres à relire. S'il est déjà dans tes livres lus, une lecture de plus
+        est enregistrée.
+      </p>
+      <p>
+        Si tu ne trouves pas ton livre, demande son ajout ou ajoute-le
+        manuellement :
+      </p>
+      <div class="select-add-actions">
+        <button class="makya-btn" (click)="openRequestEntityAddDialog()">
+          Demander à l'admin l'ajout d'un livre sur Makya
+        </button>
+        <button class="makya-btn" (click)="openAddBookDialog()">
+          Ajouter manuellement un livre qui n'existe pas encore sur Makya
+        </button>
+      </div>
+      } @else if(!isWatchOrReadlistMode()) {
       <p>
         Bonjour {{ username() }} <br /><br />
         Ici tu peux ajouter des livres que tu as lu. La liste ci-dessous affiche
@@ -136,7 +167,11 @@
       <input
         class="select-search-input"
         type="text"
-        placeholder="Rechercher un livre..."
+        [placeholder]="
+          isJustReadMode()
+            ? 'Rechercher le livre que tu viens de lire...'
+            : 'Rechercher un livre...'
+        "
         aria-label="Rechercher un livre"
         [value]="searchTerm()"
         (input)="onSearchInput($any($event.target).value)"
@@ -144,6 +179,15 @@
     </div>
   </div>
 
+  @if (isJustReadMode() && displayedBooks().length === 0) {
+  <div class="select-empty-state" select-grid>
+    @if (!searchTerm().trim()) {
+    <p>Recherche le livre que tu viens de lire.</p>
+    } @else {
+    <p>Aucun livre ne correspond à ta recherche.</p>
+    }
+  </div>
+  } @else {
   <div class="books-grid" select-grid>
     @for (book of displayedBooks(); track `${book.title}-${book.author}`) {
     <div
@@ -152,7 +196,17 @@
       (click)="toggleSelection(book)"
       [title]="book.title + ' - ' + book.author"
     >
-      @if (isOnReadlist(book)) {
+      @if (isWantToReadAgain(book)) {
+      <span
+        class="book-cover__readlist-badge book-cover__readlist-badge--reread"
+        >À relire</span
+      >
+      } @else if (isAlreadyRead(book)) {
+      <span
+        class="book-cover__readlist-badge book-cover__readlist-badge--read"
+        >Déjà lu</span
+      >
+      } @else if (isOnReadlist(book)) {
       <span class="book-cover__readlist-badge">À lire</span>
       }
       <img [src]="book.coverUrl" [alt]="book.title" loading="lazy" />
@@ -169,6 +223,7 @@
     <div #loadMore class="select-infinite-sentinel" aria-hidden="true"></div>
     }
   </div>
+  }
 
   <div
     class="toolbar toolbar--footer"

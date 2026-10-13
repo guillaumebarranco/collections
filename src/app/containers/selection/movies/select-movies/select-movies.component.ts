@@ -26,6 +26,7 @@ import { SelectEntityComponent } from '../../../../components/entity/select-enti
 import { Router } from '@angular/router';
 import { getApiBaseUrl } from '../../../../core/config';
 import { getEmptyMovie } from '../../../../helpers/empty-entities-helper';
+import { markMovieAsReWatched } from '../../../collections/movies/movies.controller';
 import { normalizeSearchText } from '../../../../utils/normalize-search-text';
 import { firstValueFrom } from 'rxjs';
 import {
@@ -49,13 +50,26 @@ export class SelectMoviesComponent
   extends SelectEntitiesComponent
   implements OnInit, OnDestroy
 {
-  private static readonly pageSize = 500;
+  private static readonly catalogPageSize = 500;
+  private static readonly justSeenPageSize = 200;
 
   private readonly dialog = inject(MatDialog);
   private readonly loadMoreSentinel = viewChild<ElementRef<HTMLElement>>('loadMore');
   private loadMoreObserver: IntersectionObserver | null = null;
 
-  readonly visibleCount = signal(SelectMoviesComponent.pageSize);
+  readonly visibleCount = signal(SelectMoviesComponent.catalogPageSize);
+
+  /** « Je viens de voir un film » : recherche libre, y compris les films déjà vus. */
+  isJustSeenMode(): boolean {
+    return this.activatedRoute.snapshot.queryParams['justSeen'] === 'true';
+  }
+
+  private pageSize(): number {
+    return this.isJustSeenMode()
+      ? SelectMoviesComponent.justSeenPageSize
+      : SelectMoviesComponent.catalogPageSize;
+  }
+
   readonly descriptionExpanded = signal(false);
 
   userMovies = signal<Movie[]>([]);
@@ -113,7 +127,25 @@ export class SelectMoviesComponent
     );
   });
 
+  private readonly userMoviesByKey = computed(() => {
+    const map = new Map<string, Movie>();
+    for (const movie of this.userMovies()) {
+      map.set(this.getMovieKey(movie), movie);
+    }
+    return map;
+  });
+
   filteredMovies = computed<Movie[]>(() => {
+    if (this.isJustSeenMode()) {
+      const normalizedTerm = normalizeSearchText(this.searchTerm().trim());
+      if (!normalizedTerm) return [];
+      return this.sortByDisplayOrder(
+        this.allMoviesMergedList().filter((movie) =>
+          this.matchesSearch(movie, normalizedTerm)
+        )
+      );
+    }
+
     const normalizedTerm = normalizeSearchText(this.searchTerm().trim());
     const list = this.allMovies();
     if (!normalizedTerm) return list;
@@ -186,6 +218,18 @@ export class SelectMoviesComponent
     );
   }
 
+  isAlreadyWatched(movie: Movie): boolean {
+    return (
+      this.isJustSeenMode() &&
+      this.watchedMovies().has(this.getMovieKey(movie))
+    );
+  }
+
+  isWantToSeeAgain(movie: Movie): boolean {
+    if (!this.isJustSeenMode()) return false;
+    return !!this.userMoviesByKey().get(this.getMovieKey(movie))?.wantToSeeAgain;
+  }
+
   private matchesSearch(movie: Movie, normalizedTerm: string): boolean {
     const title = normalizeSearchText(movie.title ?? '');
     const director = normalizeSearchText(movie.director ?? '');
@@ -199,6 +243,9 @@ export class SelectMoviesComponent
   }
 
   private moviesEligibleForSubmit(): Movie[] {
+    if (this.isJustSeenMode()) {
+      return this.allMoviesMergedList();
+    }
     if (this.isCinemaMode() || this.isWatchOrReadlistMode()) {
       return this.allMovies();
     }
@@ -257,12 +304,12 @@ export class SelectMoviesComponent
 
   onSearchInput(value: string): void {
     this.searchTerm.set(value);
-    this.visibleCount.set(SelectMoviesComponent.pageSize);
+    this.visibleCount.set(this.pageSize());
   }
 
   showMoreMovies(): void {
     if (!this.hasMoreMovies()) return;
-    this.visibleCount.update((count) => count + SelectMoviesComponent.pageSize);
+    this.visibleCount.update((count) => count + this.pageSize());
   }
 
   async ngOnInit() {
@@ -297,6 +344,10 @@ export class SelectMoviesComponent
   }
 
   protected async addSelectedMovies(): Promise<void> {
+    if (this.isJustSeenMode()) {
+      await this.addJustSeenSelection();
+      return;
+    }
     if (this.isCinemaMode()) {
       await this.updateCinemaSelection();
       return;
@@ -356,8 +407,84 @@ export class SelectMoviesComponent
     this.navigateToEntityList('movies');
   }
 
+  /**
+   * Enregistre un visionnage quel que soit le statut du film :
+   * nouveau, watchlist, déjà vu ou à revoir.
+   */
+  private async addJustSeenSelection(): Promise<void> {
+    const selectedMovies = this.moviesEligibleForSubmit().filter((movie) =>
+      this.isSelected(movie)
+    );
+    if (selectedMovies.length === 0) return;
+
+    const alreadyWatched: Movie[] = [];
+    const toAdd: { title: string; director: string }[] = [];
+    for (const movie of selectedMovies) {
+      if (this.watchedMovies().has(this.getMovieKey(movie))) {
+        alreadyWatched.push(movie);
+      } else {
+        toAdd.push({ title: movie.title, director: movie.director });
+      }
+    }
+
+    if (toAdd.length > 0) {
+      const added = await this.postAddExistingMovies(toAdd, false);
+      if (!added) return;
+    }
+
+    for (const movie of alreadyWatched) {
+      const userMovie = this.userMoviesByKey().get(this.getMovieKey(movie));
+      if (!userMovie) continue;
+      const rewatched = await markMovieAsReWatched(userMovie, this.userId());
+      if (!rewatched) return;
+    }
+
+    if (selectedMovies.length === 1) {
+      await this.askRatingForJustWatchedMovie(selectedMovies[0]);
+    }
+
+    this.router.navigate([`${this.userId()}/movies`]);
+  }
+
+  private async postAddExistingMovies(
+    movies: { title: string; director: string }[],
+    watchlist: boolean
+  ): Promise<boolean> {
+    try {
+      const response = await fetch(`${getApiBaseUrl()}/movies/add-existing`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          userId: this.userId(),
+          movies,
+          watchlist,
+        }),
+      });
+
+      if (!response.ok) {
+        const payload = await response.json().catch(() => ({}));
+        console.warn(
+          "Échec de l'ajout batch des films :",
+          payload?.error || response.statusText
+        );
+        return false;
+      }
+      return true;
+    } catch (error) {
+      console.warn("Erreur réseau lors de l'ajout batch des films.", error);
+      return false;
+    }
+  }
+
   /** Même fenêtre de note que « Je viens de voir ce film » sur un film à voir. */
   private async askRatingForJustWatchedMovie(movie: Movie): Promise<void> {
+    const key = this.getMovieKey(movie);
+    const alreadyWatched = this.watchedMovies().has(key);
+    const userMovie = alreadyWatched
+      ? this.userMoviesByKey().get(key)
+      : undefined;
     const dialogRef = this.dialog.open<
       MoveEntityReviewModalComponent,
       MoveEntityReviewModalData,
@@ -365,9 +492,14 @@ export class SelectMoviesComponent
     >(MoveEntityReviewModalComponent, {
       data: {
         entityTitle: movie.title,
-        showViewedDateToday: !this.alreadyInWatchlistMovies().has(
-          this.getMovieKey(movie)
-        ),
+        showViewedDateToday:
+          !this.alreadyInWatchlistMovies().has(key) && !alreadyWatched,
+        ...(userMovie
+          ? {
+              initialRating: userMovie.rating,
+              initialRatingComment: userMovie.ratingComment ?? '',
+            }
+          : {}),
       },
       width: 'auto',
       maxWidth: '95vw',

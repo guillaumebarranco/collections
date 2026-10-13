@@ -26,6 +26,7 @@ import { SelectEntityComponent } from '../../../../components/entity/select-enti
 
 import { getApiBaseUrl } from '../../../../core/config';
 import { getEmptyBook } from '../../../../helpers/empty-entities-helper';
+import { markBookAsReRead } from '../../../collections/books/books.controller';
 import { normalizeSearchText } from '../../../../utils/normalize-search-text';
 import { firstValueFrom } from 'rxjs';
 import {
@@ -49,13 +50,26 @@ export class SelectBooksComponent
   extends SelectEntitiesComponent
   implements OnInit, OnDestroy
 {
-  private static readonly pageSize = 500;
+  private static readonly catalogPageSize = 500;
+  private static readonly justReadPageSize = 200;
 
   private readonly dialog = inject(MatDialog);
   private readonly loadMoreSentinel = viewChild<ElementRef<HTMLElement>>('loadMore');
   private loadMoreObserver: IntersectionObserver | null = null;
 
-  readonly visibleCount = signal(SelectBooksComponent.pageSize);
+  readonly visibleCount = signal(SelectBooksComponent.catalogPageSize);
+
+  /** « Je viens de lire un livre » : recherche libre, y compris les livres déjà lus. */
+  isJustReadMode(): boolean {
+    return this.activatedRoute.snapshot.queryParams['justRead'] === 'true';
+  }
+
+  private pageSize(): number {
+    return this.isJustReadMode()
+      ? SelectBooksComponent.justReadPageSize
+      : SelectBooksComponent.catalogPageSize;
+  }
+
   readonly descriptionExpanded = signal(false);
 
   baseBooks = signal<LightBook[]>([]);
@@ -109,7 +123,25 @@ export class SelectBooksComponent
     );
   });
 
+  private readonly userBooksByKey = computed(() => {
+    const map = new Map<string, Book>();
+    for (const book of this.userBooks()) {
+      map.set(this.getBookKey(book), book);
+    }
+    return map;
+  });
+
   filteredBooks = computed<Book[]>(() => {
+    if (this.isJustReadMode()) {
+      const normalizedTerm = normalizeSearchText(this.searchTerm().trim());
+      if (!normalizedTerm) return [];
+      return this.sortByDisplayOrder(
+        this.allBooksMergedList().filter((book) =>
+          this.matchesSearch(book, normalizedTerm)
+        )
+      );
+    }
+
     const normalizedTerm = normalizeSearchText(this.searchTerm().trim());
     const list = this.allBooks();
     if (!normalizedTerm) return list;
@@ -174,12 +206,12 @@ export class SelectBooksComponent
 
   onSearchInput(value: string): void {
     this.searchTerm.set(value);
-    this.visibleCount.set(SelectBooksComponent.pageSize);
+    this.visibleCount.set(this.pageSize());
   }
 
   showMoreBooks(): void {
     if (!this.hasMoreBooks()) return;
-    this.visibleCount.update((count) => count + SelectBooksComponent.pageSize);
+    this.visibleCount.update((count) => count + this.pageSize());
   }
 
   async ngOnInit() {
@@ -208,6 +240,17 @@ export class SelectBooksComponent
     );
   }
 
+  isAlreadyRead(book: Book): boolean {
+    return (
+      this.isJustReadMode() && this.readBooks().has(this.getBookKey(book))
+    );
+  }
+
+  isWantToReadAgain(book: Book): boolean {
+    if (!this.isJustReadMode()) return false;
+    return !!this.userBooksByKey().get(this.getBookKey(book))?.wantToReadAgain;
+  }
+
   private matchesSearch(book: Book, normalizedTerm: string): boolean {
     const title = normalizeSearchText(book.title ?? '');
     const author = normalizeSearchText(book.author ?? '');
@@ -226,6 +269,9 @@ export class SelectBooksComponent
   }
 
   private booksEligibleForSubmit(): Book[] {
+    if (this.isJustReadMode()) {
+      return this.allBooksMergedList();
+    }
     if (this.isWatchOrReadlistMode()) {
       return this.allBooks();
     }
@@ -283,6 +329,10 @@ export class SelectBooksComponent
   }
 
   protected async addSelectedBooks(): Promise<void> {
+    if (this.isJustReadMode()) {
+      await this.addJustReadSelection();
+      return;
+    }
     const selectedBooksList = this.booksEligibleForSubmit()
       .filter((book) => this.isSelected(book))
       .map((book) => {
@@ -338,8 +388,82 @@ export class SelectBooksComponent
     this.navigateToEntityList('books');
   }
 
+  /**
+   * Enregistre une lecture quel que soit le statut du livre :
+   * nouveau, readlist, déjà lu ou à relire.
+   */
+  private async addJustReadSelection(): Promise<void> {
+    const selectedBooks = this.booksEligibleForSubmit().filter((book) =>
+      this.isSelected(book)
+    );
+    if (selectedBooks.length === 0) return;
+
+    const alreadyRead: Book[] = [];
+    const toAdd: { title: string; author: string }[] = [];
+    for (const book of selectedBooks) {
+      if (this.readBooks().has(this.getBookKey(book))) {
+        alreadyRead.push(book);
+      } else {
+        toAdd.push({ title: book.title, author: book.author });
+      }
+    }
+
+    if (toAdd.length > 0) {
+      const added = await this.postAddExistingBooks(toAdd, false);
+      if (!added) return;
+    }
+
+    for (const book of alreadyRead) {
+      const userBook = this.userBooksByKey().get(this.getBookKey(book));
+      if (!userBook) continue;
+      const reread = await markBookAsReRead(userBook, this.userId());
+      if (!reread) return;
+    }
+
+    if (selectedBooks.length === 1) {
+      await this.askRatingForJustReadBook(selectedBooks[0]);
+    }
+
+    this.router.navigate([`${this.userId()}/books`]);
+  }
+
+  private async postAddExistingBooks(
+    books: { title: string; author: string }[],
+    readlist: boolean
+  ): Promise<boolean> {
+    try {
+      const response = await fetch(`${getApiBaseUrl()}/books/add-existing`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          userId: this.userId(),
+          books,
+          readlist,
+        }),
+      });
+
+      if (!response.ok) {
+        const payload = await response.json().catch(() => ({}));
+        console.warn(
+          "Échec de l'ajout batch des livres :",
+          payload?.error || response.statusText
+        );
+        return false;
+      }
+      return true;
+    } catch (error) {
+      console.warn("Erreur réseau lors de l'ajout batch des livres.", error);
+      return false;
+    }
+  }
+
   /** Même fenêtre de note que le passage d'un livre « à lire » vers « lu ». */
   private async askRatingForJustReadBook(book: Book): Promise<void> {
+    const key = this.getBookKey(book);
+    const alreadyRead = this.readBooks().has(key);
+    const userBook = alreadyRead ? this.userBooksByKey().get(key) : undefined;
     const dialogRef = this.dialog.open<
       MoveEntityReviewModalComponent,
       MoveEntityReviewModalData,
@@ -347,10 +471,15 @@ export class SelectBooksComponent
     >(MoveEntityReviewModalComponent, {
       data: {
         entityTitle: book.title,
-        showViewedDateToday: !this.alreadyInReadlistBooks().has(
-          this.getBookKey(book)
-        ),
+        showViewedDateToday:
+          !this.alreadyInReadlistBooks().has(key) && !alreadyRead,
         viewedDateTodayLabel: "Mettre la date de lecture à aujourd'hui",
+        ...(userBook
+          ? {
+              initialRating: userBook.rating,
+              initialRatingComment: userBook.ratingComment ?? '',
+            }
+          : {}),
       },
       width: 'auto',
       maxWidth: '95vw',

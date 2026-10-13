@@ -17,6 +17,10 @@ export interface MoveEntityReviewModalData {
   entityTitle: string;
   /** Libellé du bouton de validation (ex. "Valider") */
   confirmLabel?: string;
+  /** Note déjà enregistrée, pour ne pas repartir de zéro (film déjà vu). */
+  initialRating?: number;
+  /** Commentaire déjà enregistré. */
+  initialRatingComment?: string;
   /** Case « date du jour », affichée déjà cochée. */
   showViewedDateToday?: boolean;
   /** Libellé de la case. Par défaut : date de visionnage. */
@@ -47,6 +51,16 @@ export class MoveEntityReviewModalComponent {
   readonly rating = signal<number>(0);
   readonly ratingComment = signal<string>('');
   readonly setViewedDateToToday = signal(true);
+
+  constructor() {
+    const initialRating = this.data.initialRating;
+    if (typeof initialRating === 'number' && Number.isFinite(initialRating)) {
+      this.setRating(initialRating);
+    }
+    if (typeof this.data.initialRatingComment === 'string') {
+      this.ratingComment.set(this.data.initialRatingComment);
+    }
+  }
 
   readonly confirmLabel = computed(
     () => this.data.confirmLabel ?? 'Valider'
