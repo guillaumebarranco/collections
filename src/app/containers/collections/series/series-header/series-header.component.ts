@@ -17,19 +17,21 @@ import { StatsDisplayComponent } from '../../../../components/shared/stats-displ
 import { ActivatedRoute, Params, RouterModule } from '@angular/router';
 import { SerieView } from '../series.utils';
 import { StatItem } from '../../../../components/shared/stats-display/stats-display.component';
-import { FormsModule } from '@angular/forms';
+import { EntitySearchFieldComponent } from '../../../../components/shared/entity-search-field/entity-search-field.component';
 import { CanEditDirective } from '../../../../directives/can-edit.directive';
 import { createCollectionHeaderMobileAccordion } from '../../../../utils/collection-header-mobile';
+import { CollectionMobileBackComponent } from '../../../../components/shared/collection-mobile-back/collection-mobile-back.component';
 
 @Component({
   selector: 'app-series-header',
   imports: [
     RouterModule,
-    FormsModule,
+    EntitySearchFieldComponent,
     ViewToggleComponent,
     SortDropdownComponent,
     StatsDisplayComponent,
     CanEditDirective,
+    CollectionMobileBackComponent,
   ],
   templateUrl: './series-header.component.html',
   styleUrls: ['./series-header.component.scss'],
@@ -37,6 +39,7 @@ import { createCollectionHeaderMobileAccordion } from '../../../../utils/collect
 })
 export class SeriesHeaderComponent {
   onViewChange = output<SerieView>();
+  onMobileBack = output<void>();
   onOpenViewConfig = output<void>();
   onSearchChange = output<string>();
   onSortChange = output<string>();
@@ -162,6 +165,15 @@ export class SeriesHeaderComponent {
 
   toggleToolsPanel(): void {
     this.mobileAccordion.toggleToolsPanel();
+  }
+
+  handleSearchChange(value: string): void {
+    this.searchTerm.set(value);
+    this.onSearchChange.emit(value);
+  }
+
+  isMobile(): boolean {
+    return window.innerWidth < 768;
   }
 
   seriesPageTitle = computed(() =>

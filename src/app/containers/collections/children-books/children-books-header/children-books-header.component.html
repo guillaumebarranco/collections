@@ -1,11 +1,16 @@
 <div class="children-books-header">
-  <h1>
-    {{ childrenBooksPageTitle() }} ({{
-      selectedView() === "recommendations"
-        ? recommendedChildrenBooksCount()
-        : filteredChildrenBooksCount()
-    }})
-  </h1>
+  <div class="collection-header-title">
+    @if (isMobile()) {
+    <app-collection-mobile-back (back)="onMobileBack.emit()" />
+    }
+    <h1>
+      {{ childrenBooksPageTitle() }} ({{
+        selectedView() === "recommendations"
+          ? recommendedChildrenBooksCount()
+          : filteredChildrenBooksCount()
+      }})
+    </h1>
+  </div>
 
   @if(allChildrenBooksCount() === 0) {
   <div class="empty-state">
@@ -18,6 +23,7 @@
     </button>
   </div>
   } @else {
+  @if (!isMobile()) {
   <div class="children-books-header-top">
     <app-view-toggle
       [toggleClass]="'children-books-view-toggle'"
@@ -26,6 +32,7 @@
       (selectedChange)="onViewChange.emit($any($event))"
     ></app-view-toggle>
   </div>
+  }
 
   <div class="children-books-header-tools-accordion">
     @if (isMobileViewport()) {
@@ -37,6 +44,13 @@
     >
       Afficher les actions et statistiques
     </button>
+    @if (showFiltersAndSearch() && canShowFiltersAndSearch()) {
+    <app-entity-search-field
+      placeholder="Rechercher par titre, auteur, genre..."
+      [value]="searchTerm()"
+      (valueChange)="handleSearchChange($event)"
+    />
+    }
     }
 
     <div
@@ -136,14 +150,13 @@
         </div>
       </div>
 
-      <div class="entity-input-search">
-        <input
-          type="text"
-          placeholder="Rechercher par titre, auteur, genre..."
-          [ngModel]="searchTerm()"
-          (ngModelChange)="onSearchChange.emit($event)"
-        />
-      </div>
+      @if (!isMobileViewport()) {
+      <app-entity-search-field
+        placeholder="Rechercher par titre, auteur, genre..."
+        [value]="searchTerm()"
+        (valueChange)="handleSearchChange($event)"
+      />
+      }
       } @if(noDataForThisView()) {
       <div class="empty-state">
         <p class="empty-message">{{ noDataMessageText() }}</p>

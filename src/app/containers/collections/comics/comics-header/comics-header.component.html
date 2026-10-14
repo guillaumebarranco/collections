@@ -1,13 +1,19 @@
 <div class="comics-header">
-  <h1>
-    {{ comicsPageTitle() }} ({{
-      selectedView() === "recommendations"
-        ? recommendedComicsCount()
-        : filteredComicsCount()
-    }})
-  </h1>
+  <div class="collection-header-title">
+    @if (isMobile()) {
+    <app-collection-mobile-back (back)="onMobileBack.emit()" />
+    }
+    <h1>
+      {{ comicsPageTitle() }} ({{
+        selectedView() === "recommendations"
+          ? recommendedComicsCount()
+          : filteredComicsCount()
+      }})
+    </h1>
+  </div>
 
   @if(allComicsCount() !== 0 || allReadlistComicsCount() !== 0) {
+  @if (!isMobile()) {
   <div class="comics-header-top">
     <app-view-toggle
       [toggleClass]="'comics-view-toggle'"
@@ -16,6 +22,7 @@
       (selectedChange)="onViewChange.emit($any($event))"
     ></app-view-toggle>
   </div>
+  }
 
   <div class="comics-header-tools-accordion">
     @if (isMobileViewport()) {
@@ -27,6 +34,13 @@
     >
       Afficher les actions et statistiques
     </button>
+    @if (showFiltersAndSearch() && canShowFiltersAndSearch()) {
+    <app-entity-search-field
+      placeholder="Rechercher par titre, designer, genre..."
+      [value]="searchTerm()"
+      (valueChange)="handleSearchChange($event)"
+    />
+    }
     }
 
     <div
@@ -109,14 +123,13 @@
         }
       </div>
 
-      <div class="entity-input-search">
-        <input
-          type="text"
-          placeholder="Rechercher par titre, designer, genre..."
-          [ngModel]="searchTerm()"
-          (ngModelChange)="onSearchChange.emit($event)"
-        />
-      </div>
+      @if (!isMobileViewport()) {
+      <app-entity-search-field
+        placeholder="Rechercher par titre, designer, genre..."
+        [value]="searchTerm()"
+        (valueChange)="handleSearchChange($event)"
+      />
+      }
       } @if (noDataForThisView() && allComicsCount() !== 0) {
       <div class="empty-state">
         <p class="empty-message">{{ noDataMessageText() }}</p>

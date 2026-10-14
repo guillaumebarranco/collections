@@ -100,6 +100,13 @@
     >
       Afficher les actions et statistiques
     </button>
+    @if (showFiltersAndSearch() && canShowFiltersAndSearch()) {
+    <app-entity-search-field
+      placeholder="Rechercher par titre, réalisateur, acteur..."
+      [value]="searchTerm()"
+      (valueChange)="handleSearchChange($event)"
+    />
+    }
     }
 
     <div
@@ -173,16 +180,15 @@
         <ng-content select="[movies-filters]"></ng-content>
       </div>
 
+      @if (!isMobileViewport()) {
       <div class="movies-search-and-lists">
-        <div class="entity-input-search">
-          <input
-            type="text"
-            placeholder="Rechercher par titre, réalisateur, acteur..."
-            [ngModel]="searchTerm()"
-            (ngModelChange)="handleSearchChange($event)"
-          />
-        </div>
+        <app-entity-search-field
+          placeholder="Rechercher par titre, réalisateur, acteur..."
+          [value]="searchTerm()"
+          (valueChange)="handleSearchChange($event)"
+        />
       </div>
+      }
       } @if(noDataForThisView() && allMoviesCount() !== 0) {
       <div class="empty-state">
         <p class="empty-message">{{ noDataMessageText() }}</p>

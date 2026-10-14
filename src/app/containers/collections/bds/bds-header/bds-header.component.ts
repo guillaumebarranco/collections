@@ -17,19 +17,21 @@ import { StatsDisplayComponent } from '../../../../components/shared/stats-displ
 import { ActivatedRoute, Params, RouterModule } from '@angular/router';
 import { BdView } from '../bds.utils';
 import { StatItem } from '../../../../components/shared/stats-display/stats-display.component';
-import { FormsModule } from '@angular/forms';
+import { EntitySearchFieldComponent } from '../../../../components/shared/entity-search-field/entity-search-field.component';
 import { createCollectionHeaderMobileAccordion } from '../../../../utils/collection-header-mobile';
+import { CollectionMobileBackComponent } from '../../../../components/shared/collection-mobile-back/collection-mobile-back.component';
 import { CanEditDirective } from '../../../../directives/can-edit.directive';
 
 @Component({
   selector: 'app-bds-header',
   imports: [
     RouterModule,
-    FormsModule,
+    EntitySearchFieldComponent,
     ViewToggleComponent,
     SortDropdownComponent,
     StatsDisplayComponent,
     CanEditDirective,
+    CollectionMobileBackComponent,
   ],
   templateUrl: './bds-header.component.html',
   styleUrls: ['./bds-header.component.scss'],
@@ -37,6 +39,7 @@ import { CanEditDirective } from '../../../../directives/can-edit.directive';
 })
 export class BdsHeaderComponent {
   onViewChange = output<BdView>();
+  onMobileBack = output<void>();
   onOpenViewConfig = output<void>();
   onSearchChange = output<string>();
   onSortChange = output<string>();
@@ -148,6 +151,15 @@ export class BdsHeaderComponent {
 
   toggleToolsPanel(): void {
     this.mobileAccordion.toggleToolsPanel();
+  }
+
+  handleSearchChange(value: string): void {
+    this.searchTerm.set(value);
+    this.onSearchChange.emit(value);
+  }
+
+  isMobile(): boolean {
+    return window.innerWidth < 768;
   }
 
   bdsPageTitle = computed(() =>

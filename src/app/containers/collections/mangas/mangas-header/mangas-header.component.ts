@@ -17,19 +17,21 @@ import { StatsDisplayComponent } from '../../../../components/shared/stats-displ
 import { ActivatedRoute, Params, RouterModule } from '@angular/router';
 import { MangaView } from '../mangas.utils';
 import { StatItem } from '../../../../components/shared/stats-display/stats-display.component';
-import { FormsModule } from '@angular/forms';
+import { EntitySearchFieldComponent } from '../../../../components/shared/entity-search-field/entity-search-field.component';
 import { createCollectionHeaderMobileAccordion } from '../../../../utils/collection-header-mobile';
+import { CollectionMobileBackComponent } from '../../../../components/shared/collection-mobile-back/collection-mobile-back.component';
 import { CanEditDirective } from '../../../../directives/can-edit.directive';
 
 @Component({
   selector: 'app-mangas-header',
   imports: [
     RouterModule,
-    FormsModule,
+    EntitySearchFieldComponent,
     ViewToggleComponent,
     SortDropdownComponent,
     StatsDisplayComponent,
     CanEditDirective,
+    CollectionMobileBackComponent,
   ],
   templateUrl: './mangas-header.component.html',
   styleUrls: ['./mangas-header.component.scss'],
@@ -37,6 +39,7 @@ import { CanEditDirective } from '../../../../directives/can-edit.directive';
 })
 export class MangasHeaderComponent {
   onViewChange = output<MangaView>();
+  onMobileBack = output<void>();
   onOpenViewConfig = output<void>();
   onSearchChange = output<string>();
   onSortChange = output<string>();
@@ -159,6 +162,15 @@ export class MangasHeaderComponent {
 
   toggleToolsPanel(): void {
     this.mobileAccordion.toggleToolsPanel();
+  }
+
+  handleSearchChange(value: string): void {
+    this.searchTerm.set(value);
+    this.onSearchChange.emit(value);
+  }
+
+  isMobile(): boolean {
+    return window.innerWidth < 768;
   }
 
   mangasPageTitle = computed(() =>

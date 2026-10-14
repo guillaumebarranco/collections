@@ -38,6 +38,8 @@ import {
 } from './musics.utils';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
 import { LoaderComponent } from '../../../components/shared/loader/loader.component';
+import { MobileCollectionPickerComponent } from '../../../components/shared/mobile-collection-picker/mobile-collection-picker.component';
+import { pickMobileViewCovers } from '../../../utils/mobile-view-previews';
 
 @Component({
   selector: 'app-musics',
@@ -49,6 +51,7 @@ import { LoaderComponent } from '../../../components/shared/loader/loader.compon
     AlbumModalComponent,
     MusicsHeaderComponent,
     LoaderComponent,
+    MobileCollectionPickerComponent,
   ],
   templateUrl: './musics.component.html',
   styleUrls: ['./musics.component.scss'],
@@ -62,6 +65,7 @@ export class MusicsComponent implements OnInit {
 
   selectedSort = signal<string>('rating');
   selectedViewMode = signal<string>('albums'); // 'albums' ou 'all'
+  mobileSelectedView = signal(false);
   selectedFilter = signal<string>('popular'); // 'all' ou 'popular'
   searchTerm = signal<string>('');
 
@@ -286,6 +290,44 @@ export class MusicsComponent implements OnInit {
   onSortChange(sortValue: string) {
     this.selectedSort.set(sortValue);
   }
+
+  isMobile(): boolean {
+    return window.innerWidth < 768;
+  }
+
+  onMobileSelectView(view: string): void {
+    this.mobileSelectedView.set(true);
+    this.onViewModeChange(view);
+  }
+
+  onMobileBack(): void {
+    this.mobileSelectedView.set(false);
+  }
+
+  mobileViewPreviews = computed(() =>
+    pickMobileViewCovers(this.viewOptions, (view) => {
+      if (view === 'albums') {
+        const seen = new Set<string>();
+        const albums: { key: string; coverUrl: string; title: string }[] = [];
+        for (const music of this.allMusics()) {
+          const key = `${music.album}|${music.artist}`;
+          if (seen.has(key)) continue;
+          seen.add(key);
+          albums.push({
+            key,
+            coverUrl: music.coverUrl,
+            title: music.album || music.title,
+          });
+        }
+        return albums;
+      }
+      return this.allMusics().map((music) => ({
+        key: `${music.title}|${music.artist}`,
+        coverUrl: music.coverUrl,
+        title: music.title,
+      }));
+    })
+  );
 
   onViewModeChange(viewMode: string) {
     this.selectedViewMode.set(viewMode);

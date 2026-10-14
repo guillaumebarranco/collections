@@ -1,5 +1,6 @@
 <app-menu></app-menu>
 
+@if (!isMobile() || mobileSelectedView()) {
 <div class="series-container collection-view">
   @if (isLoadingSeries()) {
   <app-loader message="Chargement des séries..." />
@@ -17,6 +18,7 @@
     [sortOptions]="sortOptions()"
     [showTopFiveRank]="showTopFiveRank()"
     (onViewChange)="onViewChange($any($event))"
+    (onMobileBack)="onMobileBack()"
     (onOpenViewConfig)="openViewConfig()"
     (onSearchChange)="onSearchChange($event)"
     (onSortChange)="onSortChange($event)"
@@ -248,8 +250,18 @@
   }
   }
 </div>
-
-@if (isViewConfigOpen()) {
+} @else if (isLoadingSeries()) {
+<app-loader message="Chargement des séries..." />
+} @else {
+<app-mobile-collection-picker
+  title="Séries"
+  ariaLabel="Choisir une vue séries"
+  emptyIcon="📺"
+  [options]="visibleViewOptions()"
+  [previews]="mobileViewPreviews()"
+  (selected)="onMobileSelectView($event)"
+/>
+} @if (isViewConfigOpen()) {
 <div class="series-config-overlay" (click)="closeViewConfig()">
   <div
     class="series-config-content"

@@ -66,6 +66,11 @@ import { BadgesService } from '../../../services/badges.service';
 import { isOfflineModeBlockingOtherUsers } from '../../../core/offline/offline-mode.utils';
 import { OfflineRestrictedMessageComponent } from '../../../components/shared/offline-restricted-message/offline-restricted-message.component';
 import { LoaderComponent } from '../../../components/shared/loader/loader.component';
+import { MobileCollectionPickerComponent } from '../../../components/shared/mobile-collection-picker/mobile-collection-picker.component';
+import {
+  mergeUniqueByKey,
+  pickMobileViewCovers,
+} from '../../../utils/mobile-view-previews';
 import { openCollectionEntityFollowUpModal } from '../../../utils/collection-entity-follow-up-dialog';
 import { buildSeriesWatchFollowUpProgress } from '../../../utils/collection-read-badge-follow-up.utils';
 
@@ -87,6 +92,7 @@ type RecommendedSerie = Serie & {
     RouterLink,
     OfflineRestrictedMessageComponent,
     LoaderComponent,
+    MobileCollectionPickerComponent,
   ],
   templateUrl: './series.component.html',
   styleUrls: ['./series.component.scss'],
@@ -107,6 +113,7 @@ export class SeriesComponent implements OnInit {
 
   selectedSort = signal<string>('rating');
   selectedView = signal<SerieView>('finished');
+  mobileSelectedView = signal(false);
   searchTerm = signal<string>('');
   showTopFiveRank = signal<boolean>(false);
   isViewConfigOpen = signal<boolean>(false);
@@ -506,6 +513,83 @@ export class SeriesComponent implements OnInit {
 
   onSortChange(sortValue: string) {
     this.selectedSort.set(sortValue);
+  }
+
+  isMobile(): boolean {
+    return window.innerWidth < 768;
+  }
+
+  onMobileSelectView(view: string): void {
+    this.mobileSelectedView.set(true);
+    this.onViewChange(view as SerieView);
+  }
+
+  onMobileBack(): void {
+    this.mobileSelectedView.set(false);
+  }
+
+  mobileViewPreviews = computed(() =>
+    pickMobileViewCovers(this.visibleViewOptions(), (view) =>
+      this.seriesForMobilePreview(view).map((serie) => ({
+        key: `${serie.title}|${serie.director}`,
+        coverUrl: serie.coverUrl,
+        title: serie.title,
+      }))
+    )
+  );
+
+  private seriesForMobilePreview(view: SerieView): Serie[] {
+    const key = (serie: Serie) => `${serie.title}|${serie.director}`;
+    if (view === 'watchlist') {
+      return this.allWatchlistSeries().filter(
+        (serie) => !isSerieWatchlistInProgress(serie)
+      );
+    }
+    if (view === 'watchingInProgress') {
+      return mergeUniqueByKey(
+        [
+          this.allWatchlistSeries().filter((serie) =>
+            isSerieWatchlistInProgress(serie)
+          ),
+          this.allSeries().filter((serie) =>
+            isSerieFinishedWithNewSeasonInProgress(serie)
+          ),
+        ],
+        key
+      );
+    }
+    if (view === 'owned') {
+      return this.allSeries().filter((serie) => serie.owned);
+    }
+    if (view === 'borrowed') {
+      return mergeUniqueByKey(
+        [
+          this.allSeries().filter((serie) => Boolean(serie.borrowed.trim())),
+          this.allWatchlistSeries().filter((serie) =>
+            Boolean(serie.borrowed.trim())
+          ),
+        ],
+        key
+      );
+    }
+    if (view === 'loaned') {
+      return mergeUniqueByKey(
+        [
+          this.allSeries().filter((serie) => Boolean(serie.loaned.trim())),
+          this.allWatchlistSeries().filter((serie) =>
+            Boolean(serie.loaned.trim())
+          ),
+        ],
+        key
+      );
+    }
+    if (view === 'toReWatch') {
+      return this.allSeries().filter((serie) => serie.wantToWatchAgain);
+    }
+    if (view === 'recommendations') {
+      return this.recommendedSeries();
+    }
+    return this.allSeries();
   }
 
   onViewChange(view: SerieView) {

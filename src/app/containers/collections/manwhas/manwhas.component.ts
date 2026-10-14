@@ -64,6 +64,11 @@ import { BadgesService } from '../../../services/badges.service';
 import { isOfflineModeBlockingOtherUsers } from '../../../core/offline/offline-mode.utils';
 import { OfflineRestrictedMessageComponent } from '../../../components/shared/offline-restricted-message/offline-restricted-message.component';
 import { LoaderComponent } from '../../../components/shared/loader/loader.component';
+import { MobileCollectionPickerComponent } from '../../../components/shared/mobile-collection-picker/mobile-collection-picker.component';
+import {
+  mergeUniqueByKey,
+  pickMobileViewCovers,
+} from '../../../utils/mobile-view-previews';
 import { openCollectionEntityFollowUpModal } from '../../../utils/collection-entity-follow-up-dialog';
 import { buildManwhaReadlistFollowUpProgress } from '../../../utils/collection-read-badge-follow-up.utils';
 
@@ -84,6 +89,7 @@ type RecommendedManwha = Manwha & {
     ManwhasHeaderComponent,
     OfflineRestrictedMessageComponent,
     LoaderComponent,
+    MobileCollectionPickerComponent,
   ],
   templateUrl: './manwhas.component.html',
   styleUrls: ['./manwhas.component.scss'],
@@ -106,6 +112,7 @@ export class ManwhasComponent implements OnInit {
 
   selectedSort = signal<string>('rating');
   selectedView = signal<ManwhaView>('read');
+  mobileSelectedView = signal(false);
   searchTerm = signal<string>('');
   showTopFiveRank = signal<boolean>(false);
   isViewConfigOpen = signal<boolean>(false);
@@ -462,6 +469,69 @@ export class ManwhasComponent implements OnInit {
       this.isInitializing = false;
     });
     await this.refreshManwhas();
+  }
+
+  isMobile(): boolean {
+    return window.innerWidth < 768;
+  }
+
+  onMobileSelectView(view: string): void {
+    this.mobileSelectedView.set(true);
+    this.onViewChange(view as ManwhaView);
+  }
+
+  onMobileBack(): void {
+    this.mobileSelectedView.set(false);
+  }
+
+  mobileViewPreviews = computed(() =>
+    pickMobileViewCovers(this.visibleViewOptions(), (view) =>
+      this.manwhasForMobilePreview(view).map((manwha) => ({
+        key: `${manwha.title}|${manwha.author}`,
+        coverUrl: manwha.coverUrl,
+        title: manwha.title,
+      }))
+    )
+  );
+
+  private manwhasForMobilePreview(view: ManwhaView): Manwha[] {
+    const key = (manwha: Manwha) => `${manwha.title}|${manwha.author}`;
+    if (view === 'readlist') {
+      return this.allReadlistManwhas().filter((manwha) => !isReading(manwha));
+    }
+    if (view === 'readingInProgress') {
+      return this.allReadlistManwhas().filter((manwha) => isReading(manwha));
+    }
+    if (view === 'owned') {
+      return this.allManwhas().filter((manwha) => manwha.owned);
+    }
+    if (view === 'borrowed') {
+      return mergeUniqueByKey(
+        [
+          this.allManwhas().filter((manwha) => Boolean(manwha.borrowed.trim())),
+          this.allReadlistManwhas().filter((manwha) =>
+            Boolean(manwha.borrowed.trim())
+          ),
+        ],
+        key
+      );
+    }
+    if (view === 'loaned') {
+      return mergeUniqueByKey(
+        [
+          this.allManwhas().filter((manwha) => Boolean(manwha.loaned.trim())),
+          this.allReadlistManwhas().filter((manwha) =>
+            Boolean(manwha.loaned.trim())
+          ),
+        ],
+        key
+      );
+    }
+    if (view === 'toReRead') {
+      return this.allManwhas().filter((manwha) => manwha.wantToReadAgain);
+    }
+    if (view === 'recommendations') return this.recommendedManwhas();
+    return this.allManwhas();
   }
 
   onViewChange(view: ManwhaView) {

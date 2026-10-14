@@ -1,5 +1,6 @@
 <app-menu></app-menu>
 
+@if (!isMobile() || mobileSelectedView()) {
 <div
   class="children-books-container collection-view"
   [class.container-saga-mode]="
@@ -26,6 +27,7 @@
     [sortOptions]="sortOptions()"
     [yearFilterOptions]="yearFilterOptions"
     (onViewChange)="onViewChange($any($event))"
+    (onMobileBack)="onMobileBack()"
     (onOpenViewConfig)="openViewConfig()"
     (onYearFilterChange)="onYearFilterChange($event)"
     (onSearchChange)="onSearchChange($event)"
@@ -293,8 +295,18 @@
   </div>
   }
 </div>
-
-@if (isViewConfigOpen()) {
+} @else if (isLoadingChildrenBooks()) {
+<app-loader message="Chargement des livres..." />
+} @else {
+<app-mobile-collection-picker
+  title="Livres pour enfants"
+  ariaLabel="Choisir une vue livres pour enfants"
+  emptyIcon="🧒"
+  [options]="visibleViewOptions()"
+  [previews]="mobileViewPreviews()"
+  (selected)="onMobileSelectView($event)"
+/>
+} @if (isViewConfigOpen()) {
 <div class="children-books-config-overlay" (click)="closeViewConfig()">
   <div
     class="children-books-config-content"

@@ -61,6 +61,13 @@
     >
       Afficher les actions et statistiques
     </button>
+    @if (showFiltersAndSearch() && canShowFiltersAndSearch()) {
+    <app-entity-search-field
+      placeholder="Rechercher par titre, auteur, genre..."
+      [value]="searchTerm()"
+      (valueChange)="handleSearchChange($event)"
+    />
+    }
     }
 
     <div
@@ -160,14 +167,13 @@
         </div>
       </div>
 
-      <div class="entity-input-search">
-        <input
-          type="text"
-          placeholder="Rechercher par titre, auteur, genre..."
-          [ngModel]="searchTerm()"
-          (ngModelChange)="onSearchChange.emit($event)"
-        />
-      </div>
+      @if (!isMobileViewport()) {
+      <app-entity-search-field
+        placeholder="Rechercher par titre, auteur, genre..."
+        [value]="searchTerm()"
+        (valueChange)="handleSearchChange($event)"
+      />
+      }
       } @if(noDataForThisView()) {
       <div class="empty-state">
         <p class="empty-message">{{ noDataMessageText() }}</p>

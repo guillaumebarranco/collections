@@ -77,6 +77,11 @@ import { BadgesService } from '../../../services/badges.service';
 import { isOfflineModeBlockingOtherUsers } from '../../../core/offline/offline-mode.utils';
 import { OfflineRestrictedMessageComponent } from '../../../components/shared/offline-restricted-message/offline-restricted-message.component';
 import { LoaderComponent } from '../../../components/shared/loader/loader.component';
+import { MobileCollectionPickerComponent } from '../../../components/shared/mobile-collection-picker/mobile-collection-picker.component';
+import {
+  mergeUniqueByKey,
+  pickMobileViewCovers,
+} from '../../../utils/mobile-view-previews';
 
 type RecommendationDetail = { userId: string; rating: number };
 type RecommendedChildrenBook = ChildrenBook & {
@@ -98,6 +103,7 @@ type RecommendedChildrenBook = ChildrenBook & {
     PersonNamesPipe,
     OfflineRestrictedMessageComponent,
     LoaderComponent,
+    MobileCollectionPickerComponent,
   ],
   templateUrl: './children-books.component.html',
   styleUrls: ['./children-books.component.scss'],
@@ -106,6 +112,7 @@ export class ChildrenBooksComponent implements OnInit {
   selectedSort = signal<string>('readDate');
   selectedYearFilter = signal<string>('all');
   selectedView = signal<ChildrenBookView>('read');
+  mobileSelectedView = signal(false);
   searchTerm = signal<string>('');
 
   showTopFiveRank = signal<boolean>(false);
@@ -701,6 +708,83 @@ export class ChildrenBooksComponent implements OnInit {
 
   onYearFilterChange(year: string) {
     this.selectedYearFilter.set(year);
+  }
+
+  isMobile(): boolean {
+    return window.innerWidth < 768;
+  }
+
+  onMobileSelectView(view: string): void {
+    this.mobileSelectedView.set(true);
+    this.onViewChange(view as ChildrenBookView);
+  }
+
+  onMobileBack(): void {
+    this.mobileSelectedView.set(false);
+  }
+
+  mobileViewPreviews = computed(() =>
+    pickMobileViewCovers(this.visibleViewOptions(), (view) =>
+      this.childrenBooksForMobilePreview(view).map((book) => ({
+        key: `${book.title}|${book.author}`,
+        coverUrl: book.coverUrl,
+        title: book.title,
+      }))
+    )
+  );
+
+  private childrenBooksForMobilePreview(
+    view: ChildrenBookView
+  ): ChildrenBook[] {
+    const key = (book: ChildrenBook) => `${book.title}|${book.author}`;
+    if (view === 'readlist') {
+      return this.allReadlistChildrenBooks().filter((book) => !isReading(book));
+    }
+    if (view === 'readingInProgress') {
+      return mergeUniqueByKey(
+        [
+          this.allReadlistChildrenBooks().filter((book) => isReading(book)),
+          this.allChildrenBooks().filter((book) => isReading(book)),
+        ],
+        key
+      );
+    }
+    if (view === 'owned') {
+      return mergeUniqueByKey(
+        [
+          this.allChildrenBooks().filter((book) => book.owned),
+          this.allReadlistChildrenBooks().filter((book) => book.owned),
+        ],
+        key
+      );
+    }
+    if (view === 'borrowed') {
+      return mergeUniqueByKey(
+        [
+          this.allChildrenBooks().filter((book) => Boolean(book.borrowed.trim())),
+          this.allReadlistChildrenBooks().filter((book) =>
+            Boolean(book.borrowed.trim())
+          ),
+        ],
+        key
+      );
+    }
+    if (view === 'loaned') {
+      return mergeUniqueByKey(
+        [
+          this.allChildrenBooks().filter((book) => Boolean(book.loaned.trim())),
+          this.allReadlistChildrenBooks().filter((book) =>
+            Boolean(book.loaned.trim())
+          ),
+        ],
+        key
+      );
+    }
+    if (view === 'toReRead') {
+      return this.allChildrenBooks().filter((book) => book.wantToReadAgain);
+    }
+    if (view === 'recommendations') return this.recommendedChildrenBooks();
+    return this.allChildrenBooks();
   }
 
   onViewChange(view: ChildrenBookView) {

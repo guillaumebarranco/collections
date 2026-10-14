@@ -11,15 +11,20 @@ import {
 import { ViewToggleComponent } from '../../../../components/shared/view-toggle/view-toggle.component';
 import { ActivatedRoute, Params, RouterModule } from '@angular/router';
 import { MovieView } from '../movies.utils';
-import { FormsModule } from '@angular/forms';
 import { DEFAULT_USER_ID } from '../../../../utils/constants';
+import { EntitySearchFieldComponent } from '../../../../components/shared/entity-search-field/entity-search-field.component';
 import type { UserMovieListItem } from '../../../../models/movie-list.model';
 import { CanEditDirective } from '../../../../directives/can-edit.directive';
 import { createCollectionHeaderMobileAccordion } from '../../../../utils/collection-header-mobile';
 
 @Component({
   selector: 'app-movies-header',
-  imports: [RouterModule, FormsModule, ViewToggleComponent, CanEditDirective],
+  imports: [
+    RouterModule,
+    ViewToggleComponent,
+    CanEditDirective,
+    EntitySearchFieldComponent,
+  ],
   templateUrl: './movies-header.component.html',
   styleUrls: ['./movies-header.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,

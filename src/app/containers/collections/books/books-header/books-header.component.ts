@@ -17,8 +17,8 @@ import { StatsDisplayComponent } from '../../../../components/shared/stats-displ
 import { ActivatedRoute, Params, Router, RouterModule } from '@angular/router';
 import { BookView } from '../books.utils';
 import { StatItem } from '../../../../components/shared/stats-display/stats-display.component';
-import { FormsModule } from '@angular/forms';
 import { DEFAULT_USER_ID } from '../../../../utils/constants';
+import { EntitySearchFieldComponent } from '../../../../components/shared/entity-search-field/entity-search-field.component';
 import { createCollectionHeaderMobileAccordion } from '../../../../utils/collection-header-mobile';
 import { CanEditDirective } from '../../../../directives/can-edit.directive';
 
@@ -26,11 +26,11 @@ import { CanEditDirective } from '../../../../directives/can-edit.directive';
   selector: 'app-books-header',
   imports: [
     RouterModule,
-    FormsModule,
     ViewToggleComponent,
     SortDropdownComponent,
     StatsDisplayComponent,
     CanEditDirective,
+    EntitySearchFieldComponent,
   ],
   templateUrl: './books-header.component.html',
   styleUrls: ['./books-header.component.scss'],
@@ -165,6 +165,11 @@ export class BooksHeaderComponent {
 
   toggleToolsPanel(): void {
     this.mobileAccordion.toggleToolsPanel();
+  }
+
+  handleSearchChange(value: string): void {
+    this.searchTerm.set(value);
+    this.onSearchChange.emit(value);
   }
 
   booksPageTitle = computed(() =>

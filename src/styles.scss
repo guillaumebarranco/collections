@@ -349,6 +349,18 @@ ul li {
     gap: 2px;
   }
 
+  .collection-header-title:has(.collection-header-back) {
+    display: grid;
+    grid-template-columns: 44px 1fr 44px;
+    align-items: center;
+    margin-bottom: 10px;
+
+    h1 {
+      grid-column: 2;
+      margin: 0;
+    }
+  }
+
   .entity-input-search {
     margin: 12px 0 8px;
     max-width: 100%;

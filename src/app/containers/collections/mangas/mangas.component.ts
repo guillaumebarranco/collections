@@ -65,6 +65,11 @@ import { BadgesService } from '../../../services/badges.service';
 import { isOfflineModeBlockingOtherUsers } from '../../../core/offline/offline-mode.utils';
 import { OfflineRestrictedMessageComponent } from '../../../components/shared/offline-restricted-message/offline-restricted-message.component';
 import { LoaderComponent } from '../../../components/shared/loader/loader.component';
+import { MobileCollectionPickerComponent } from '../../../components/shared/mobile-collection-picker/mobile-collection-picker.component';
+import {
+  mergeUniqueByKey,
+  pickMobileViewCovers,
+} from '../../../utils/mobile-view-previews';
 import { openCollectionEntityFollowUpModal } from '../../../utils/collection-entity-follow-up-dialog';
 import { buildMangaReadlistFollowUpProgress } from '../../../utils/collection-read-badge-follow-up.utils';
 
@@ -87,6 +92,7 @@ type RecommendedManga = Manga & {
     RouterLink,
     OfflineRestrictedMessageComponent,
     LoaderComponent,
+    MobileCollectionPickerComponent,
   ],
   templateUrl: './mangas.component.html',
   styleUrls: ['./mangas.component.scss'],
@@ -109,6 +115,7 @@ export class MangasComponent implements OnInit {
 
   selectedSort = signal<string>('rating');
   selectedView = signal<MangaView>('read');
+  mobileSelectedView = signal(false);
   searchTerm = signal<string>('');
   showTopFiveRank = signal<boolean>(false);
   isViewConfigOpen = signal<boolean>(false);
@@ -467,6 +474,69 @@ export class MangasComponent implements OnInit {
       this.isInitializing = false;
     });
     await this.refreshMangas();
+  }
+
+  isMobile(): boolean {
+    return window.innerWidth < 768;
+  }
+
+  onMobileSelectView(view: string): void {
+    this.mobileSelectedView.set(true);
+    this.onViewChange(view as MangaView);
+  }
+
+  onMobileBack(): void {
+    this.mobileSelectedView.set(false);
+  }
+
+  mobileViewPreviews = computed(() =>
+    pickMobileViewCovers(this.visibleViewOptions(), (view) =>
+      this.mangasForMobilePreview(view).map((manga) => ({
+        key: `${manga.title}|${manga.author}`,
+        coverUrl: manga.coverUrl,
+        title: manga.title,
+      }))
+    )
+  );
+
+  private mangasForMobilePreview(view: MangaView): Manga[] {
+    const key = (manga: Manga) => `${manga.title}|${manga.author}`;
+    if (view === 'readlist') {
+      return this.allReadlistMangas().filter((manga) => !isReading(manga));
+    }
+    if (view === 'readingInProgress') {
+      return this.allReadlistMangas().filter((manga) => isReading(manga));
+    }
+    if (view === 'owned') {
+      return this.allMangas().filter((manga) => manga.owned);
+    }
+    if (view === 'borrowed') {
+      return mergeUniqueByKey(
+        [
+          this.allMangas().filter((manga) => Boolean(manga.borrowed.trim())),
+          this.allReadlistMangas().filter((manga) =>
+            Boolean(manga.borrowed.trim())
+          ),
+        ],
+        key
+      );
+    }
+    if (view === 'loaned') {
+      return mergeUniqueByKey(
+        [
+          this.allMangas().filter((manga) => Boolean(manga.loaned.trim())),
+          this.allReadlistMangas().filter((manga) =>
+            Boolean(manga.loaned.trim())
+          ),
+        ],
+        key
+      );
+    }
+    if (view === 'toReRead') {
+      return this.allMangas().filter((manga) => manga.wantToReadAgain);
+    }
+    if (view === 'recommendations') return this.recommendedMangas();
+    return this.allMangas();
   }
 
   onViewChange(view: MangaView) {

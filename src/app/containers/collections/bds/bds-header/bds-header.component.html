@@ -1,13 +1,19 @@
 <div class="bds-header">
-  <h1>
-    {{ bdsPageTitle() }} ({{
-      selectedView() === "recommendations"
-        ? recommendedBdsCount()
-        : filteredBdsCount()
-    }})
-  </h1>
+  <div class="collection-header-title">
+    @if (isMobile()) {
+    <app-collection-mobile-back (back)="onMobileBack.emit()" />
+    }
+    <h1>
+      {{ bdsPageTitle() }} ({{
+        selectedView() === "recommendations"
+          ? recommendedBdsCount()
+          : filteredBdsCount()
+      }})
+    </h1>
+  </div>
 
   @if(allBdsCount() !== 0 || allReadlistBdsCount() !== 0) {
+  @if (!isMobile()) {
   <div class="bds-header-top">
     <app-view-toggle
       [toggleClass]="'bds-view-toggle'"
@@ -16,6 +22,7 @@
       (selectedChange)="onViewChange.emit($any($event))"
     ></app-view-toggle>
   </div>
+  }
 
   <div class="bds-header-tools-accordion">
     @if (isMobileViewport()) {
@@ -27,6 +34,13 @@
     >
       Afficher les actions et statistiques
     </button>
+    @if (showFiltersAndSearch() && canShowFiltersAndSearch()) {
+    <app-entity-search-field
+      placeholder="Rechercher par titre, designer, genre..."
+      [value]="searchTerm()"
+      (valueChange)="handleSearchChange($event)"
+    />
+    }
     }
 
     <div
@@ -109,14 +123,13 @@
         }
       </div>
 
-      <div class="entity-input-search">
-        <input
-          type="text"
-          placeholder="Rechercher par titre, designer, genre..."
-          [ngModel]="searchTerm()"
-          (ngModelChange)="onSearchChange.emit($event)"
-        />
-      </div>
+      @if (!isMobileViewport()) {
+      <app-entity-search-field
+        placeholder="Rechercher par titre, designer, genre..."
+        [value]="searchTerm()"
+        (valueChange)="handleSearchChange($event)"
+      />
+      }
       } @if (noDataForThisView() && allBdsCount() !== 0) {
       <div class="empty-state">
         <p class="empty-message">{{ noDataMessageText() }}</p>

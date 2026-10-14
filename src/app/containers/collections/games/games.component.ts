@@ -58,6 +58,11 @@ import { BadgesService } from '../../../services/badges.service';
 import { isOfflineModeBlockingOtherUsers } from '../../../core/offline/offline-mode.utils';
 import { OfflineRestrictedMessageComponent } from '../../../components/shared/offline-restricted-message/offline-restricted-message.component';
 import { LoaderComponent } from '../../../components/shared/loader/loader.component';
+import { MobileCollectionPickerComponent } from '../../../components/shared/mobile-collection-picker/mobile-collection-picker.component';
+import {
+  mergeUniqueByKey,
+  pickMobileViewCovers,
+} from '../../../utils/mobile-view-previews';
 import { openCollectionEntityFollowUpModal } from '../../../utils/collection-entity-follow-up-dialog';
 import { buildGameGamelistFollowUpProgress } from '../../../utils/game-gamelist-follow-up.utils';
 
@@ -86,6 +91,7 @@ import {
     RouterLink,
     OfflineRestrictedMessageComponent,
     LoaderComponent,
+    MobileCollectionPickerComponent,
   ],
   templateUrl: './games.component.html',
   styleUrls: ['./games.component.scss'],
@@ -108,6 +114,7 @@ export class GamesComponent implements OnInit {
     getDefaultGamesSortForView('played')
   );
   selectedView = signal<GameView>('played');
+  mobileSelectedView = signal(false);
   searchTerm = signal<string>('');
   showTopFiveRank = signal<boolean>(false);
   isViewConfigOpen = signal<boolean>(false);
@@ -426,6 +433,71 @@ export class GamesComponent implements OnInit {
 
   onSortChange(sortValue: string) {
     this.selectedSort.set(sortValue);
+  }
+
+  isMobile(): boolean {
+    return window.innerWidth < 768;
+  }
+
+  onMobileSelectView(view: string): void {
+    this.mobileSelectedView.set(true);
+    this.onViewChange(view as GameView);
+  }
+
+  onMobileBack(): void {
+    this.mobileSelectedView.set(false);
+  }
+
+  mobileViewPreviews = computed(() =>
+    pickMobileViewCovers(this.visibleViewOptions(), (view) =>
+      this.gamesForMobilePreview(view).map((game) => ({
+        key: `${game.title}|${game.editor}`,
+        coverUrl: game.coverUrl,
+        title: game.title,
+      }))
+    )
+  );
+
+  private gamesForMobilePreview(view: GameView): Game[] {
+    const key = (game: Game) => `${game.title}|${game.editor}`;
+    if (view === 'gamelist') return this.allGamelistGames();
+    if (view === 'played') {
+      return mergeUniqueByKey(
+        [
+          this.allGames(),
+          this.allGamelistGames().filter((game) => isGameCurrentlyPlaying(game)),
+        ],
+        key
+      );
+    }
+    if (view === 'inProgress') return this.gamesInProgress();
+    if (view === 'platined') {
+      return this.allGames().filter((game) => game.platined);
+    }
+    if (view === 'owned') return this.allGames().filter((game) => game.owned);
+    if (view === 'borrowed') {
+      return mergeUniqueByKey(
+        [
+          this.allGames().filter((game) => Boolean(game.borrowed.trim())),
+          this.allGamelistGames().filter((game) => Boolean(game.borrowed.trim())),
+        ],
+        key
+      );
+    }
+    if (view === 'loaned') {
+      return mergeUniqueByKey(
+        [
+          this.allGames().filter((game) => Boolean(game.loaned.trim())),
+          this.allGamelistGames().filter((game) => Boolean(game.loaned.trim())),
+        ],
+        key
+      );
+    }
+    if (view === 'toRePlay') {
+      return this.allGames().filter((game) => game.wantToPlayAgain);
+    }
+    if (view === 'recommendations') return this.recommendedGames();
+    return this.allGames();
   }
 
   onViewChange(view: GameView) {

@@ -1,5 +1,6 @@
 <app-menu></app-menu>
 
+@if (!isMobile() || mobileSelectedView()) {
 <div class="musics-container collection-view">
   @if (isLoadingMusics()) {
   <app-loader message="Chargement des musiques..." />
@@ -17,6 +18,7 @@
     [filterOptions]="filterOptions"
     [sortOptions]="sortOptions"
     (onViewModeChange)="onViewModeChange($any($event))"
+    (onMobileBack)="onMobileBack()"
     (onFilterChange)="onFilterChange($event)"
     (onSearchChange)="onSearchChange($event)"
     (onSortChange)="onSortChange($event)"
@@ -82,6 +84,18 @@
   }
   }
 </div>
+} @else if (isLoadingMusics()) {
+<app-loader message="Chargement des musiques..." />
+} @else {
+<app-mobile-collection-picker
+  title="Musiques"
+  ariaLabel="Choisir une vue musiques"
+  emptyIcon="🎵"
+  [options]="viewOptions"
+  [previews]="mobileViewPreviews()"
+  (selected)="onMobileSelectView($event)"
+/>
+}
 
 <app-album-modal
   [album]="selectedAlbum()"

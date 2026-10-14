@@ -61,6 +61,11 @@ import { BadgesService } from '../../../services/badges.service';
 import { isOfflineModeBlockingOtherUsers } from '../../../core/offline/offline-mode.utils';
 import { OfflineRestrictedMessageComponent } from '../../../components/shared/offline-restricted-message/offline-restricted-message.component';
 import { LoaderComponent } from '../../../components/shared/loader/loader.component';
+import { MobileCollectionPickerComponent } from '../../../components/shared/mobile-collection-picker/mobile-collection-picker.component';
+import {
+  mergeUniqueByKey,
+  pickMobileViewCovers,
+} from '../../../utils/mobile-view-previews';
 import { openCollectionEntityFollowUpModal } from '../../../utils/collection-entity-follow-up-dialog';
 import { buildBdReadlistFollowUpProgress } from '../../../utils/collection-read-badge-follow-up.utils';
 
@@ -83,6 +88,7 @@ type RecommendedBd = Bd & {
     RouterLink,
     OfflineRestrictedMessageComponent,
     LoaderComponent,
+    MobileCollectionPickerComponent,
   ],
   templateUrl: './bds.component.html',
   styleUrls: ['./bds.component.scss'],
@@ -103,6 +109,7 @@ export class BdsComponent implements OnInit {
 
   selectedSort = signal<string>('rating');
   selectedView = signal<BdView>('read');
+  mobileSelectedView = signal(false);
   searchTerm = signal<string>('');
   showTopFiveRank = signal<boolean>(false);
   isViewConfigOpen = signal<boolean>(false);
@@ -390,6 +397,58 @@ export class BdsComponent implements OnInit {
     this.loadViewConfigFromStorage();
     this.loadViewPreferencesFromStorage();
     await this.refreshBds();
+  }
+
+  isMobile(): boolean {
+    return window.innerWidth < 768;
+  }
+
+  onMobileSelectView(view: string): void {
+    this.mobileSelectedView.set(true);
+    this.onViewChange(view as BdView);
+  }
+
+  onMobileBack(): void {
+    this.mobileSelectedView.set(false);
+  }
+
+  mobileViewPreviews = computed(() =>
+    pickMobileViewCovers(this.visibleViewOptions(), (view) =>
+      this.bdsForMobilePreview(view).map((bd) => ({
+        key: `${bd.title}|${bd.writer}`,
+        coverUrl: bd.coverUrl,
+        title: bd.title,
+      }))
+    )
+  );
+
+  private bdsForMobilePreview(view: BdView): Bd[] {
+    const key = (bd: Bd) => `${bd.title}|${bd.writer}`;
+    if (view === 'readlist') return this.allReadlistBds();
+    if (view === 'owned') return this.allBds().filter((bd) => bd.owned);
+    if (view === 'borrowed') {
+      return mergeUniqueByKey(
+        [
+          this.allBds().filter((bd) => Boolean(bd.borrowed.trim())),
+          this.allReadlistBds().filter((bd) => Boolean(bd.borrowed.trim())),
+        ],
+        key
+      );
+    }
+    if (view === 'loaned') {
+      return mergeUniqueByKey(
+        [
+          this.allBds().filter((bd) => Boolean(bd.loaned.trim())),
+          this.allReadlistBds().filter((bd) => Boolean(bd.loaned.trim())),
+        ],
+        key
+      );
+    }
+    if (view === 'toReRead') {
+      return this.allBds().filter((bd) => bd.wantToReadAgain);
+    }
+    if (view === 'recommendations') return this.recommendedBds();
+    return this.allBds();
   }
 
   onViewChange(view: BdView) {

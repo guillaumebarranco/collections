@@ -1,5 +1,6 @@
 <app-menu></app-menu>
 
+@if (!isMobile() || mobileSelectedView()) {
 <div class="manwhas-container collection-view">
   @if (isLoadingManwhas()) {
   <app-loader message="Chargement des manhwas..." />
@@ -18,6 +19,7 @@
     [sortOptions]="sortOptions()"
     [showTopFiveRank]="showTopFiveRank()"
     (onViewChange)="onViewChange($any($event))"
+    (onMobileBack)="onMobileBack()"
     (onOpenViewConfig)="openViewConfig()"
     (onSearchChange)="onSearchChange($event)"
     (onSortChange)="onSortChange($event)"
@@ -99,8 +101,18 @@
   }
   }
 </div>
-
-@if (isViewConfigOpen()) {
+} @else if (isLoadingManwhas()) {
+<app-loader message="Chargement des manhwas..." />
+} @else {
+<app-mobile-collection-picker
+  title="Manwhas"
+  ariaLabel="Choisir une vue manwhas"
+  emptyIcon="🎨"
+  [options]="visibleViewOptions()"
+  [previews]="mobileViewPreviews()"
+  (selected)="onMobileSelectView($event)"
+/>
+} @if (isViewConfigOpen()) {
 <div class="manwhas-config-overlay" (click)="closeViewConfig()">
   <div
     class="manwhas-config-content"

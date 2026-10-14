@@ -1,0 +1,9 @@
+<div class="entity-input-search">
+  <input
+    type="text"
+    [placeholder]="placeholder()"
+    [attr.aria-label]="placeholder()"
+    [ngModel]="value()"
+    (ngModelChange)="valueChange.emit($event)"
+  />
+</div>

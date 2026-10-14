@@ -1,11 +1,16 @@
 <div class="mangas-header">
-  <h1>
-    {{ mangasPageTitle() }} ({{
-      selectedView() === "recommendations"
-        ? recommendedMangasCount()
-        : filteredMangasCount()
-    }})
-  </h1>
+  <div class="collection-header-title">
+    @if (isMobile()) {
+    <app-collection-mobile-back (back)="onMobileBack.emit()" />
+    }
+    <h1>
+      {{ mangasPageTitle() }} ({{
+        selectedView() === "recommendations"
+          ? recommendedMangasCount()
+          : filteredMangasCount()
+      }})
+    </h1>
+  </div>
 
   @if(allMangasCount() === 0 && allReadlistMangasCount() === 0) {
   <div class="empty-state">
@@ -18,6 +23,7 @@
     </button>
   </div>
   } @else {
+  @if (!isMobile()) {
   <div class="mangas-header-top">
     <app-view-toggle
       [toggleClass]="'mangas-view-toggle'"
@@ -26,6 +32,7 @@
       (selectedChange)="onViewChange.emit($any($event))"
     ></app-view-toggle>
   </div>
+  }
 
   <div class="mangas-header-tools-accordion">
     @if (isMobileViewport()) {
@@ -37,6 +44,13 @@
     >
       Afficher les actions et statistiques
     </button>
+    @if (showFiltersAndSearch() && canShowFiltersAndSearch()) {
+    <app-entity-search-field
+      placeholder="Rechercher par titre, auteur, genre..."
+      [value]="searchTerm()"
+      (valueChange)="handleSearchChange($event)"
+    />
+    }
     }
 
     <div
@@ -123,14 +137,13 @@
         }
       </div>
 
-      <div class="entity-input-search">
-        <input
-          type="text"
-          placeholder="Rechercher par titre, auteur, genre..."
-          [ngModel]="searchTerm()"
-          (ngModelChange)="onSearchChange.emit($event)"
-        />
-      </div>
+      @if (!isMobileViewport()) {
+      <app-entity-search-field
+        placeholder="Rechercher par titre, auteur, genre..."
+        [value]="searchTerm()"
+        (valueChange)="handleSearchChange($event)"
+      />
+      }
       } @if (noDataForThisView() && allMangasCount() !== 0) {
       <div class="empty-state">
         <p class="empty-message">{{ noDataMessageText() }}</p>

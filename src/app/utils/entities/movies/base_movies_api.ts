@@ -2701,7 +2701,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: "Steven Yeun",
       },
     ],
-    coverUrl: "https://www.ecranlarge.com/content/uploads/2026/01/8318c06373acd968023aa5afab9c2ae6.jpg",
+    coverUrl: "/movies_pictures/29c2ff023e4a.jpg",
     releaseDate: "2026-10-09",
     length: 106,
     genre: ['Thriller'],

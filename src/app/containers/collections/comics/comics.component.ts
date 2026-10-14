@@ -61,6 +61,11 @@ import { BadgesService } from '../../../services/badges.service';
 import { isOfflineModeBlockingOtherUsers } from '../../../core/offline/offline-mode.utils';
 import { OfflineRestrictedMessageComponent } from '../../../components/shared/offline-restricted-message/offline-restricted-message.component';
 import { LoaderComponent } from '../../../components/shared/loader/loader.component';
+import { MobileCollectionPickerComponent } from '../../../components/shared/mobile-collection-picker/mobile-collection-picker.component';
+import {
+  mergeUniqueByKey,
+  pickMobileViewCovers,
+} from '../../../utils/mobile-view-previews';
 import { openCollectionEntityFollowUpModal } from '../../../utils/collection-entity-follow-up-dialog';
 import { buildComicReadlistFollowUpProgress } from '../../../utils/collection-read-badge-follow-up.utils';
 type RecommendationDetail = { userId: string; rating: number };
@@ -82,6 +87,7 @@ type RecommendedComic = Comic & {
     RouterLink,
     OfflineRestrictedMessageComponent,
     LoaderComponent,
+    MobileCollectionPickerComponent,
   ],
   templateUrl: './comics.component.html',
   styleUrls: ['./comics.component.scss'],
@@ -102,6 +108,7 @@ export class ComicsComponent implements OnInit {
 
   selectedSort = signal<string>('rating');
   selectedView = signal<ComicView>('read');
+  mobileSelectedView = signal(false);
   searchTerm = signal<string>('');
   showTopFiveRank = signal<boolean>(false);
   isViewConfigOpen = signal<boolean>(false);
@@ -394,6 +401,64 @@ export class ComicsComponent implements OnInit {
     this.loadViewConfigFromStorage();
     this.loadViewPreferencesFromStorage();
     await this.refreshComics();
+  }
+
+  isMobile(): boolean {
+    return window.innerWidth < 768;
+  }
+
+  onMobileSelectView(view: string): void {
+    this.mobileSelectedView.set(true);
+    this.onViewChange(view as ComicView);
+  }
+
+  onMobileBack(): void {
+    this.mobileSelectedView.set(false);
+  }
+
+  mobileViewPreviews = computed(() =>
+    pickMobileViewCovers(this.visibleViewOptions(), (view) =>
+      this.comicsForMobilePreview(view).map((comic) => ({
+        key: `${comic.title}|${comic.writer}`,
+        coverUrl: comic.coverUrl,
+        title: comic.title,
+      }))
+    )
+  );
+
+  private comicsForMobilePreview(view: ComicView): Comic[] {
+    const key = (comic: Comic) => `${comic.title}|${comic.writer}`;
+    if (view === 'readlist') return this.allReadlistComics();
+    if (view === 'owned') {
+      return this.allComics().filter((comic) => comic.owned);
+    }
+    if (view === 'borrowed') {
+      return mergeUniqueByKey(
+        [
+          this.allComics().filter((comic) => Boolean(comic.borrowed.trim())),
+          this.allReadlistComics().filter((comic) =>
+            Boolean(comic.borrowed.trim())
+          ),
+        ],
+        key
+      );
+    }
+    if (view === 'loaned') {
+      return mergeUniqueByKey(
+        [
+          this.allComics().filter((comic) => Boolean(comic.loaned.trim())),
+          this.allReadlistComics().filter((comic) =>
+            Boolean(comic.loaned.trim())
+          ),
+        ],
+        key
+      );
+    }
+    if (view === 'toReRead') {
+      return this.allComics().filter((comic) => comic.wantToReadAgain);
+    }
+    if (view === 'recommendations') return this.recommendedComics();
+    return this.allComics();
   }
 
   onViewChange(view: ComicView) {

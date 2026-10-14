@@ -1,13 +1,19 @@
 <div class="series-header">
-  <h1>
-    {{ seriesPageTitle() }} ({{
-      selectedView() === "recommendations"
-        ? recommendedSeriesCount()
-        : filteredSeriesCount()
-    }})
-  </h1>
+  <div class="collection-header-title">
+    @if (isMobile()) {
+    <app-collection-mobile-back (back)="onMobileBack.emit()" />
+    }
+    <h1>
+      {{ seriesPageTitle() }} ({{
+        selectedView() === "recommendations"
+          ? recommendedSeriesCount()
+          : filteredSeriesCount()
+      }})
+    </h1>
+  </div>
 
   @if(allSeriesCount() !== 0) {
+  @if (!isMobile()) {
   <div class="series-header-top">
     <app-view-toggle
       [toggleClass]="'series-view-toggle'"
@@ -16,6 +22,7 @@
       (selectedChange)="onViewChange.emit($any($event))"
     ></app-view-toggle>
   </div>
+  }
 
   <div class="series-header-tools-accordion">
     @if (isMobileViewport()) {
@@ -27,6 +34,13 @@
     >
       Afficher les actions et statistiques
     </button>
+    @if (showFiltersAndSearch() && canShowFiltersAndSearch()) {
+    <app-entity-search-field
+      placeholder="Rechercher par titre, réalisateur, acteur..."
+      [value]="searchTerm()"
+      (valueChange)="handleSearchChange($event)"
+    />
+    }
     }
 
     <div
@@ -117,14 +131,13 @@
         }
       </div>
 
-      <div class="entity-input-search">
-        <input
-          type="text"
-          placeholder="Rechercher par titre, réalisateur, acteur..."
-          [ngModel]="searchTerm()"
-          (ngModelChange)="onSearchChange.emit($event)"
-        />
-      </div>
+      @if (!isMobileViewport()) {
+      <app-entity-search-field
+        placeholder="Rechercher par titre, réalisateur, acteur..."
+        [value]="searchTerm()"
+        (valueChange)="handleSearchChange($event)"
+      />
+      }
       } @if (noDataForThisView() && allSeriesCount() !== 0) {
       <div class="empty-state">
         <p class="empty-message">{{ noDataMessageText() }}</p>

@@ -12510,4 +12510,50 @@ export const baseMoviesAction: BaseMovie[] = [
     selectDisplayOrder: 30,
     oscars: [],
   },
+  {
+    title: 'Street Fighter',
+    director: 'Kitao Sakurai',
+    actors: [
+      {
+        name: 'Noah Centineo',
+      },
+      {
+        name: 'Andrew Koji',
+      },
+      {
+        name: 'Callina Liang',
+      },
+      {
+        name: 'Roman Reigns',
+      },
+      {
+        name: 'David Dastmalchian',
+      },
+      {
+        name: 'Cody Rhodes',
+      },
+      {
+        name: 'Jason Momoa',
+      },
+      {
+        name: '50 Cent',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/dd45a5bb932a.jpg',
+    releaseDate: '2026-10-16',
+    length: 119,
+    genre: ['Action', 'Aventure'],
+    saga: 'Street Fighter',
+    description:
+      'En 1993, Ryu et Ken Masters sont ramenés au combat lorsque Chun-Li les recrute pour le tournoi World Warrior, derrière lequel se cache un complot qui les force à s’affronter.',
+    fromEntity: {
+      entityType: 'game',
+      title: 'Street Fighter / Fighting Street',
+      secondEntityKey: 'Capcom',
+    },
+    countryOrigin: ['États-Unis', 'Japon'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
 ];

@@ -1,5 +1,10 @@
 <div class="musics-header">
-  <h1>Musiques écoutées ({{ allMusicsCount() }})</h1>
+  <div class="collection-header-title">
+    @if (isMobile()) {
+    <app-collection-mobile-back (back)="onMobileBack.emit()" />
+    }
+    <h1>Musiques écoutées ({{ allMusicsCount() }})</h1>
+  </div>
 
   @if(allMusicsCount() === 0) {
   <div class="empty-state">
@@ -14,6 +19,7 @@
     </button>
   </div>
   } @if(allMusicsCount() !== 0) {
+  @if (!isMobile()) {
   <div class="musics-header-top">
     <app-view-toggle
       [toggleClass]="'musics-view-toggle'"
@@ -22,6 +28,7 @@
       (selectedChange)="onViewModeChange.emit($any($event))"
     ></app-view-toggle>
   </div>
+  }
 
   <div class="musics-header-tools-accordion">
     @if (isMobileViewport()) {
@@ -33,6 +40,13 @@
     >
       Afficher les actions et statistiques
     </button>
+    @if (showFiltersAndSearch()) {
+    <app-entity-search-field
+      placeholder="Rechercher par titre, artiste, album..."
+      [value]="searchTerm()"
+      (valueChange)="handleSearchChange($event)"
+    />
+    }
     }
 
     <div
@@ -100,14 +114,13 @@
         </div>
       </div>
 
-      <div class="entity-input-search">
-        <input
-          type="text"
-          placeholder="Rechercher par titre, artiste, album..."
-          [ngModel]="searchTerm()"
-          (ngModelChange)="onSearchChange.emit($event)"
-        />
-      </div>
+      @if (!isMobileViewport()) {
+      <app-entity-search-field
+        placeholder="Rechercher par titre, artiste, album..."
+        [value]="searchTerm()"
+        (valueChange)="handleSearchChange($event)"
+      />
+      }
       }
     </div>
   </div>

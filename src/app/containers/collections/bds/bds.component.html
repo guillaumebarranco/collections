@@ -1,5 +1,6 @@
 <app-menu></app-menu>
 
+@if (!isMobile() || mobileSelectedView()) {
 <div class="bds-container collection-view">
   @if (isLoadingBds()) {
   <app-loader message="Chargement des BD..." />
@@ -18,6 +19,7 @@
     [sortOptions]="sortOptions()"
     [showTopFiveRank]="showTopFiveRank()"
     (onViewChange)="onViewChange($any($event))"
+    (onMobileBack)="onMobileBack()"
     (onOpenViewConfig)="openViewConfig()"
     (onSearchChange)="onSearchChange($event)"
     (onSortChange)="onSortChange($event)"
@@ -172,8 +174,18 @@
   }
   }
 </div>
-
-@if (isViewConfigOpen()) {
+} @else if (isLoadingBds()) {
+<app-loader message="Chargement des BD..." />
+} @else {
+<app-mobile-collection-picker
+  title="BD"
+  ariaLabel="Choisir une vue BD"
+  emptyIcon="📗"
+  [options]="visibleViewOptions()"
+  [previews]="mobileViewPreviews()"
+  (selected)="onMobileSelectView($event)"
+/>
+} @if (isViewConfigOpen()) {
 <div class="bds-config-overlay" (click)="closeViewConfig()">
   <div
     class="bds-config-content"
