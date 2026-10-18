@@ -399,4 +399,41 @@ export const baseSeriesApi: BaseSerie[] = [
     saga: "",
     fromEntity: null,
   },
+
+  {
+    title: "Paul",
+    director: "Paul Mirabel, Antoine de Bary, Nathanaël Munnich",
+    actors: [
+      {
+        name: "Paul Mirabel",
+      },
+      {
+        name: "Abraham Wapler",
+      },
+      {
+        name: "Enya Baroux",
+      },
+      {
+        name: "Vincent Chalambert",
+      },
+      {
+        name: "Marine Leonardi",
+      },
+    ],
+    coverUrl: "https://m.media-amazon.com/images/M/MV5BMjM1NDA1ZmYtYTNhZi00ZTQ0LWI1Y2UtYjJmM2Y4MWUzZjA1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    releaseDate: "2026-10-02",
+    endDate: "",
+    genre: ['Comédie'],
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 6,
+        totalLength: 183,
+      },
+    ],
+    description: "",
+    countryOrigin: "France",
+    saga: "",
+    fromEntity: null,
+  },
 ];

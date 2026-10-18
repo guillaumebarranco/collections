@@ -10037,4 +10037,26 @@ export const ronanSeries: UserSeries = [
     borrowed: "",
     loaned: "",
   },
+
+  {
+    title: "Paul",
+    director: "Paul Mirabel, Antoine de Bary, Nathanaël Munnich",
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 2.5,
+        watching: false,
+        seasonTimesWatched: 1,
+        firstViewedDate: "2026-10-07",
+        lastViewedDate: "2026-10-07",
+        otherViewedDates: [],
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: "",
+    borrowed: "",
+    loaned: "",
+  },
 ];

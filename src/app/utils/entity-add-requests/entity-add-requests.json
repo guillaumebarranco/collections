@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "id": "a409807d-94eb-481a-9f2e-b44d42615286",
+    "entityType": "serie",
+    "title": "L'Arene",
+    "secondaryKey": "Netflix",
+    "secondaryKeyField": "director",
+    "requestedBy": "ronan",
+    "requestedAt": "2026-10-16T14:58:35.268Z"
+  }
+]
