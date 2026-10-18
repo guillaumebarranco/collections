@@ -364,28 +364,28 @@ export const baseSeriesApi: BaseSerie[] = [
   },
 
   {
-    title: "Nous les Menteurs",
-    director: "Julie Plec, Carina Adly Mackenzie",
+    title: 'Nous les Menteurs',
+    director: 'Julie Plec, Carina Adly Mackenzie',
     actors: [
       {
-        name: "Emily Alyn",
+        name: 'Emily Alyn',
       },
       {
-        name: "Lind Shubham Maheshwari",
+        name: 'Lind Shubham Maheshwari',
       },
       {
-        name: "Esther McGregor",
+        name: 'Esther McGregor',
       },
       {
-        name: "Joseph Zada",
+        name: 'Joseph Zada',
       },
       {
-        name: "Caitlin FitzGerald",
+        name: 'Caitlin FitzGerald',
       },
     ],
-    coverUrl: "/series_pictures/90a881f7d8c2.jpg",
-    releaseDate: "2025-06-18",
-    endDate: "",
+    coverUrl: '/series_pictures/90a881f7d8c2.jpg',
+    releaseDate: '2025-06-18',
+    endDate: '',
     genre: ['Thriller'],
     seasonsData: [
       {
@@ -394,35 +394,36 @@ export const baseSeriesApi: BaseSerie[] = [
         totalLength: 448,
       },
     ],
-    description: "",
-    countryOrigin: "États-Unis",
-    saga: "",
+    description: '',
+    countryOrigin: 'États-Unis',
+    saga: '',
     fromEntity: null,
   },
 
   {
-    title: "Paul",
-    director: "Paul Mirabel, Antoine de Bary, Nathanaël Munnich",
+    title: 'Paul',
+    director: 'Paul Mirabel, Antoine de Bary, Nathanaël Munnich',
     actors: [
       {
-        name: "Paul Mirabel",
+        name: 'Paul Mirabel',
       },
       {
-        name: "Abraham Wapler",
+        name: 'Abraham Wapler',
       },
       {
-        name: "Enya Baroux",
+        name: 'Enya Baroux',
       },
       {
-        name: "Vincent Chalambert",
+        name: 'Vincent Chalambert',
       },
       {
-        name: "Marine Leonardi",
+        name: 'Marine Leonardi',
       },
     ],
-    coverUrl: "https://m.media-amazon.com/images/M/MV5BMjM1NDA1ZmYtYTNhZi00ZTQ0LWI1Y2UtYjJmM2Y4MWUzZjA1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-    releaseDate: "2026-10-02",
-    endDate: "",
+    coverUrl:
+      'https://m.media-amazon.com/images/M/MV5BMjM1NDA1ZmYtYTNhZi00ZTQ0LWI1Y2UtYjJmM2Y4MWUzZjA1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+    releaseDate: '2026-10-02',
+    endDate: '',
     genre: ['Comédie'],
     seasonsData: [
       {
@@ -431,9 +432,42 @@ export const baseSeriesApi: BaseSerie[] = [
         totalLength: 183,
       },
     ],
-    description: "",
-    countryOrigin: "France",
-    saga: "",
+    description: '',
+    countryOrigin: 'France',
+    saga: '',
+    fromEntity: null,
+  },
+
+  {
+    title: "L'Arène",
+    director: 'Netflix',
+    actors: [
+      {
+        name: 'Ciryl Gane',
+      },
+      {
+        name: 'Cédric Doumbè',
+      },
+      {
+        name: 'Benoît Saint-Denis',
+      },
+    ],
+    coverUrl:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHFNO-h7wm2cGVYuP6zySnj8g2kyyRkcaC1euh1Ep4ksBaLWzFrDrJvw3t&s=10',
+    releaseDate: '2026-09-30',
+    endDate: '',
+    genre: ['Sport'],
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 10,
+        totalLength: 507,
+      },
+    ],
+    description:
+      'Compétition de MMA : Ciryl Gane, Cédric Doumbè et Benoît Saint-Denis encadrent 38 combattants amateurs pour 100 000 € et un contrat professionnel.',
+    countryOrigin: 'France',
+    saga: '',
     fromEntity: null,
   },
 ];
