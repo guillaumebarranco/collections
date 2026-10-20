@@ -2589,28 +2589,28 @@ export const baseMoviesApi: BaseMovie[] = [
   },
 
   {
-    title: "La Plateforme",
-    director: "Galder Gaztelu-Urrutia",
+    title: 'La Plateforme',
+    director: 'Galder Gaztelu-Urrutia',
     actors: [
       {
-        name: "Iván Massagué",
+        name: 'Iván Massagué',
       },
       {
-        name: "Zorion Eguileor",
+        name: 'Zorion Eguileor',
       },
       {
-        name: "Antonia San Juan",
+        name: 'Antonia San Juan',
       },
       {
-        name: "Emilio Buale",
+        name: 'Emilio Buale',
       },
     ],
-    coverUrl: "/movies_pictures/bf44437e5dd7.jpg",
-    releaseDate: "2019-11-08",
+    coverUrl: '/movies_pictures/bf44437e5dd7.jpg',
+    releaseDate: '2019-11-08',
     length: 94,
     genre: ['Thriller', 'Horreur', 'Dystopie', 'Drame', 'Mystère'],
-    saga: "",
-    description: "",
+    saga: '',
+    description: '',
     fromEntity: null,
     countryOrigin: ['Espagne'],
     selectDisplayOrder: 0,
@@ -2618,40 +2618,40 @@ export const baseMoviesApi: BaseMovie[] = [
   },
 
   {
-    title: "Digger",
-    director: " Alejandro González Iñárritu",
+    title: 'Digger',
+    director: ' Alejandro González Iñárritu',
     actors: [
       {
-        name: "Tom Cruise",
+        name: 'Tom Cruise',
       },
       {
-        name: "Riz Ahmed",
+        name: 'Riz Ahmed',
       },
       {
-        name: "John Goodman",
+        name: 'John Goodman',
       },
       {
-        name: "Sandra Hüller",
+        name: 'Sandra Hüller',
       },
       {
-        name: "Jesse Plemons",
+        name: 'Jesse Plemons',
       },
       {
         name: "Emma D'Arcy",
       },
       {
-        name: "Sophie Wilde",
+        name: 'Sophie Wilde',
       },
       {
-        name: "Burn Goreman",
+        name: 'Burn Goreman',
       },
     ],
-    coverUrl: "/movies_pictures/80dac1af5896.jpg",
-    releaseDate: "2026-09-30",
+    coverUrl: '/movies_pictures/80dac1af5896.jpg',
+    releaseDate: '2026-09-30',
     length: 129,
     genre: ['Comédie', 'Drame'],
-    saga: "",
-    description: "",
+    saga: '',
+    description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2659,25 +2659,25 @@ export const baseMoviesApi: BaseMovie[] = [
   },
 
   {
-    title: "La Plateforme 2",
-    director: " Galder Gaztelu-Urrutia",
+    title: 'La Plateforme 2',
+    director: ' Galder Gaztelu-Urrutia',
     actors: [
       {
-        name: "Milena Smit",
+        name: 'Milena Smit',
       },
       {
-        name: "Natalia Tena",
+        name: 'Natalia Tena',
       },
       {
-        name: "Hovik Keuchkerian",
+        name: 'Hovik Keuchkerian',
       },
     ],
-    coverUrl: "/movies_pictures/128ef31c1d88.jpg",
-    releaseDate: "2024-10-04",
+    coverUrl: '/movies_pictures/128ef31c1d88.jpg',
+    releaseDate: '2024-10-04',
     length: 100,
     genre: ['Horreur', 'Dystopie'],
-    saga: "",
-    description: "",
+    saga: '',
+    description: '',
     fromEntity: null,
     countryOrigin: ['Espagne'],
     selectDisplayOrder: 0,
@@ -2685,28 +2685,68 @@ export const baseMoviesApi: BaseMovie[] = [
   },
 
   {
-    title: "Animals",
-    director: "Ben Affleck",
+    title: 'Animals',
+    director: 'Ben Affleck',
     actors: [
       {
-        name: "Ben Affleck",
+        name: 'Ben Affleck',
       },
       {
-        name: "Kerry Washington",
+        name: 'Kerry Washington',
       },
       {
-        name: "Gillian Anderson",
+        name: 'Gillian Anderson',
       },
       {
-        name: "Steven Yeun",
+        name: 'Steven Yeun',
       },
     ],
-    coverUrl: "/movies_pictures/29c2ff023e4a.jpg",
-    releaseDate: "2026-10-09",
+    coverUrl: '/movies_pictures/29c2ff023e4a.jpg',
+    releaseDate: '2026-10-09',
     length: 106,
     genre: ['Thriller'],
-    saga: "",
-    description: "",
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+
+  {
+    title: 'The Social Reckoning',
+    director: 'Aaron Sorkin',
+    actors: [
+      {
+        name: 'Mikey Madison',
+      },
+      {
+        name: 'Jeremy Allen White',
+      },
+      {
+        name: 'Jeremy Strong',
+      },
+      {
+        name: 'Betty Gilpin',
+      },
+      {
+        name: 'Bill Burr',
+      },
+      {
+        name: 'Wunmi Mosaku',
+      },
+      {
+        name: 'Billy Magnussen',
+      },
+    ],
+    coverUrl:
+      'https://www.critikat.com/wp-content/uploads/2026/09/9e553042ac8f31f580cb0540fae60dc4.webp',
+    releaseDate: '2026-10-09',
+    length: 112,
+    genre: ['Drame', 'Thriller'],
+    saga: '',
+    description:
+      "Frances Haugen, jeune ingénieure chez Facebook, s'associe au journaliste Jeff Horwitz pour révéler les secrets les mieux gardés du réseau social.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
