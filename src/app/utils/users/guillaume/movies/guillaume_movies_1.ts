@@ -4066,4 +4066,23 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: "",
     lastUpdated: "2026-10-16T10:17",
   },
+
+  {
+    title: "Nobody 2",
+    director: "Timo Tjahjanto",
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: "2026-10-19",
+    lastViewedDate: "2026-10-19",
+    otherSeenDates: [],
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: "",
+    inList: [],
+    borrowed: "",
+    loaned: "",
+    lastUpdated: "2026-10-19T20:17",
+  },
 ];

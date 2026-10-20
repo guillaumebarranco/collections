@@ -10059,4 +10059,26 @@ export const ronanSeries: UserSeries = [
     borrowed: "",
     loaned: "",
   },
+
+  {
+    title: "L'Arène",
+    director: "Netflix",
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 4,
+      watching: false,
+      seasonTimesWatched: 1,
+      firstViewedDate: "2026-10-16",
+      lastViewedDate: "2026-10-16",
+      otherViewedDates: [],
+    }
+  ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: "",
+    borrowed: "",
+    loaned: "",
+  },
 ];
