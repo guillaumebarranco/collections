@@ -2689,24 +2689,25 @@ export const baseMoviesApi: BaseMovie[] = [
     director: 'Ben Affleck',
     actors: [
       {
-        name: "Ben Affleck",
+        name: 'Ben Affleck',
       },
       {
-        name: "Kerry Washington",
+        name: 'Kerry Washington',
       },
       {
-        name: "Gillian Anderson",
+        name: 'Gillian Anderson',
       },
       {
-        name: "Steven Yeun",
-      }
+        name: 'Steven Yeun',
+      },
     ],
-    coverUrl: "https://m.media-amazon.com/images/M/MV5BZmY3MmZiZjctOTgyYy00OGIxLTkwMDUtNDU3MGNkMGI3YWJlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-    releaseDate: "2026-10-09",
+    coverUrl:
+      'https://m.media-amazon.com/images/M/MV5BZmY3MmZiZjctOTgyYy00OGIxLTkwMDUtNDU3MGNkMGI3YWJlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+    releaseDate: '2026-10-09',
     length: 106,
     genre: ['Thriller'],
-    saga: "",
-    description: "",
+    saga: '',
+    description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2754,33 +2755,78 @@ export const baseMoviesApi: BaseMovie[] = [
   },
 
   {
-    title: "Sacrifice",
-    director: "Romain Gavras",
+    title: 'Sacrifice',
+    director: 'Romain Gavras',
     actors: [
       {
-        name: "Chris Evans",
+        name: 'Chris Evans',
       },
       {
-        name: "Anya Taylor-Joy",
+        name: 'Anya Taylor-Joy',
       },
       {
-        name: "Vincent Cassel",
+        name: 'Vincent Cassel',
       },
       {
-        name: "Salma Hayek",
+        name: 'Salma Hayek',
       },
       {
-        name: "John Malkovich",
+        name: 'John Malkovich',
       },
     ],
-    coverUrl: "https://m.media-amazon.com/images/M/MV5BY2FmMzhmNzQtMmVlNS00OGM1LTlhMzYtNmI2MDA0NjU3YWQ3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-    releaseDate: "2026-10-16",
+    coverUrl:
+      'https://m.media-amazon.com/images/M/MV5BY2FmMzhmNzQtMmVlNS00OGM1LTlhMzYtNmI2MDA0NjU3YWQ3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+    releaseDate: '2026-10-16',
     length: 103,
     genre: ['Comédie', 'Drame'],
-    saga: "",
-    description: "",
+    saga: '',
+    description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+
+  {
+    title: 'Raison et Sentiments',
+    director: 'Georgia Oakley',
+    actors: [
+      {
+        name: 'Daisy Edgar-Jones',
+      },
+      {
+        name: 'Esmé Creed-Miles',
+      },
+      {
+        name: 'Caitríona Balfe',
+      },
+      {
+        name: 'Frank Dillane',
+      },
+      {
+        name: 'Herbert Nordrum',
+      },
+      {
+        name: 'George MacKay',
+      },
+      {
+        name: 'Fiona Shaw',
+      },
+    ],
+    coverUrl:
+      'https://fr.web.img5.acsta.net/img/25/06/25065d844cf983b62abba5f0ca2c1a64.jpg',
+    releaseDate: '2026-09-23',
+    length: 132,
+    genre: ['Drame', 'Romance', 'Historique'],
+    saga: '',
+    description:
+      "Privées d'héritage après la mort de leur père, Elinor et Marianne Dashwood affrontent amours et conventions dans l'Angleterre géorgienne.",
+    fromEntity: {
+      entityType: 'book',
+      title: 'Raison et sentiments',
+      secondEntityKey: 'Jane Austen',
+    },
+    countryOrigin: ['Royaume-Uni', 'États-Unis'],
     selectDisplayOrder: 0,
     oscars: [],
   },
