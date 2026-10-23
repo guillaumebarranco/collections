@@ -2689,24 +2689,24 @@ export const baseMoviesApi: BaseMovie[] = [
     director: 'Ben Affleck',
     actors: [
       {
-        name: 'Ben Affleck',
+        name: "Ben Affleck",
       },
       {
-        name: 'Kerry Washington',
+        name: "Kerry Washington",
       },
       {
-        name: 'Gillian Anderson',
+        name: "Gillian Anderson",
       },
       {
-        name: 'Steven Yeun',
-      },
+        name: "Steven Yeun",
+      }
     ],
-    coverUrl: '/movies_pictures/29c2ff023e4a.jpg',
-    releaseDate: '2026-10-09',
+    coverUrl: "https://m.media-amazon.com/images/M/MV5BZmY3MmZiZjctOTgyYy00OGIxLTkwMDUtNDU3MGNkMGI3YWJlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    releaseDate: "2026-10-09",
     length: 106,
     genre: ['Thriller'],
-    saga: '',
-    description: '',
+    saga: "",
+    description: "",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2747,6 +2747,38 @@ export const baseMoviesApi: BaseMovie[] = [
     saga: '',
     description:
       "Frances Haugen, jeune ingénieure chez Facebook, s'associe au journaliste Jeff Horwitz pour révéler les secrets les mieux gardés du réseau social.",
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+
+  {
+    title: "Sacrifice",
+    director: "Romain Gavras",
+    actors: [
+      {
+        name: "Chris Evans",
+      },
+      {
+        name: "Anya Taylor-Joy",
+      },
+      {
+        name: "Vincent Cassel",
+      },
+      {
+        name: "Salma Hayek",
+      },
+      {
+        name: "John Malkovich",
+      },
+    ],
+    coverUrl: "https://m.media-amazon.com/images/M/MV5BY2FmMzhmNzQtMmVlNS00OGM1LTlhMzYtNmI2MDA0NjU3YWQ3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    releaseDate: "2026-10-16",
+    length: 103,
+    genre: ['Comédie', 'Drame'],
+    saga: "",
+    description: "",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,

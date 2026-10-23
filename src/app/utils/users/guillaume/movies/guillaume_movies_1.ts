@@ -4085,4 +4085,23 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: "",
     lastUpdated: "2026-10-19T20:17",
   },
+
+  {
+    title: "Mulan",
+    director: "Barry Cook, Tony Bancroft",
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: "2026-10-22",
+    lastViewedDate: "2026-10-22",
+    otherSeenDates: [],
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: "",
+    inList: [],
+    borrowed: '',
+    loaned: '',
+    lastUpdated: "2026-10-22T08:51",
+  },
 ];
