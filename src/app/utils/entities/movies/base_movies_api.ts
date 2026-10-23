@@ -2788,7 +2788,6 @@ export const baseMoviesApi: BaseMovie[] = [
   },
 
   {
-<<<<<<< Updated upstream
     title: 'Raison et Sentiments',
     director: 'Georgia Oakley',
     actors: [
@@ -2828,29 +2827,32 @@ export const baseMoviesApi: BaseMovie[] = [
       secondEntityKey: 'Jane Austen',
     },
     countryOrigin: ['Royaume-Uni', 'États-Unis'],
-=======
-    title: "Primetime ",
-    director: "Lance Oppenheim",
+    oscars: [],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Primetime',
+    director: 'Lance Oppenheim',
     actors: [
       {
-        name: "Robert Pattinson",
+        name: 'Robert Pattinson',
       },
       {
-        name: "Merritt Wever",
+        name: 'Merritt Wever',
       },
       {
-        name: "Skyler Gisondo",
+        name: 'Skyler Gisondo',
       },
     ],
-    coverUrl: "https://www.cinehorizons.net/sites/default/files/affiches/877000573-chappie.jpg",
-    releaseDate: "2026-09-23",
+    coverUrl:
+      'https://fr.web.img2.acsta.net/img/b2/33/b2335224732f2a74fd22019277712f13.jpg',
+    releaseDate: '2026-09-23',
     length: 110,
     genre: ['Thriller', 'Drame'],
-    saga: "",
-    description: "",
+    saga: '',
+    description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
->>>>>>> Stashed changes
     selectDisplayOrder: 0,
     oscars: [],
   },
