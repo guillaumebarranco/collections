@@ -19532,4 +19532,23 @@ export const lauralMovies: UserMovie[] = [
     loaned: '',
     lastUpdated: '',
   },
+
+  {
+    title: "Primetime ",
+    director: "Lance Oppenheim",
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: "2026-10-14",
+    lastViewedDate: "",
+    otherSeenDates: [],
+    seenAtCinema: true,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: "",
+    inList: [],
+    borrowed: "",
+    loaned: "",
+    lastUpdated: "2026-10-23T13:14",
+  },
 ];
