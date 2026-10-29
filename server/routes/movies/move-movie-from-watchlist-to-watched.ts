@@ -16,6 +16,14 @@ const {
   formatMovieLastUpdated,
 } = require('../../utils/movies/movies-utils');
 
+function formatQuotesTs(quotes: unknown): string {
+  const list = Array.isArray(quotes)
+    ? quotes.filter((quote) => typeof quote === 'string' && quote.trim())
+    : [];
+  if (list.length === 0) return '[]';
+  return `[${list.map((quote: string) => `"${escapeString(quote)}"`).join(', ')}]`;
+}
+
 import type { UserMovie } from '../../../src/app/models/movie-model';
 
 const router = express.Router();
@@ -80,7 +88,7 @@ function formatUserMovie(
     typeof movie.borrowed === 'string' ? movie.borrowed : ''
   )}",\n    loaned: "${escapeString(
     typeof movie.loaned === 'string' ? movie.loaned : ''
-  )}",\n    lastUpdated: "${formatMovieLastUpdated()}",\n  },`;
+  )}",\n    lastUpdated: "${formatMovieLastUpdated()}",\n    quotes: ${formatQuotesTs(movie.quotes)},\n  },`;
 }
 
 function formatWatchlistMovie(movie: UserMovie) {
@@ -92,7 +100,7 @@ function formatWatchlistMovie(movie: UserMovie) {
     typeof movie.borrowed === 'string' ? movie.borrowed : ''
   )}",\n    loaned: "${escapeString(
     typeof movie.loaned === 'string' ? movie.loaned : ''
-  )}",\n    lastUpdated: "${formatMovieLastUpdated()}",\n  },`;
+  )}",\n    lastUpdated: "${formatMovieLastUpdated()}",\n    quotes: ${formatQuotesTs(movie.quotes)},\n  },`;
 }
 
 function getUserMoviesTargetFile(userId: string, isWatchlist: boolean) {

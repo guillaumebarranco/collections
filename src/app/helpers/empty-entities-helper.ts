@@ -39,6 +39,7 @@ export const getEmptyMovie = (movie: BaseMovie | LightMovie): Movie => {
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   };
 };
 

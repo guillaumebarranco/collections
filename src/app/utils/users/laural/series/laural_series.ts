@@ -21,6 +21,7 @@ export const lauralSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -70,6 +71,7 @@ export const lauralSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -155,6 +157,7 @@ export const lauralSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -231,6 +234,7 @@ export const lauralSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -262,6 +266,7 @@ export const lauralSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -311,6 +316,7 @@ export const lauralSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -360,6 +366,7 @@ export const lauralSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -409,6 +416,7 @@ export const lauralSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -467,6 +475,7 @@ export const lauralSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -498,6 +507,7 @@ export const lauralSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -529,6 +539,7 @@ export const lauralSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -560,6 +571,7 @@ export const lauralSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -609,6 +621,7 @@ export const lauralSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -676,6 +689,7 @@ export const lauralSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -734,6 +748,7 @@ export const lauralSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -774,6 +789,7 @@ export const lauralSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -859,6 +875,7 @@ export const lauralSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -908,6 +925,7 @@ export const lauralSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -957,6 +975,7 @@ export const lauralSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -988,6 +1007,7 @@ export const lauralSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1010,6 +1030,7 @@ export const lauralSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1032,6 +1053,7 @@ export const lauralSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1054,6 +1076,7 @@ export const lauralSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1283,6 +1306,7 @@ export const lauralSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1323,6 +1347,7 @@ export const lauralSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1381,6 +1406,7 @@ export const lauralSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1403,6 +1429,7 @@ export const lauralSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1425,6 +1452,7 @@ export const lauralSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1474,6 +1502,7 @@ export const lauralSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1496,6 +1525,7 @@ export const lauralSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1518,6 +1548,7 @@ export const lauralSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'La Vérité kidnappée : Du rêve au cauchemar américain',
@@ -1539,6 +1570,7 @@ export const lauralSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Notre mère meurtrière',
@@ -1560,5 +1592,6 @@ export const lauralSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 ];

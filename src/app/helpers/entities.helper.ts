@@ -328,6 +328,7 @@ export const getMovieDataFromUserMovieAndBaseMovie = (
   borrowed: userMovie.borrowed ?? '',
   loaned: userMovie.loaned ?? '',
   lastUpdated: userMovie.lastUpdated ?? '',
+  quotes: userMovie.quotes ?? [],
 });
 
 export const getSerieDataFromUserSerieAndBaseSerie = (
@@ -354,4 +355,5 @@ export const getSerieDataFromUserSerieAndBaseSerie = (
   borrowed: userSerie.borrowed ?? '',
   loaned: userSerie.loaned ?? '',
   fromEntity: baseSerie?.fromEntity ?? null,
+  quotes: userSerie.quotes ?? [],
 });

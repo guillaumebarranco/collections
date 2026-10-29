@@ -18,6 +18,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: ['Mes classiques'],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Mickey 17',
@@ -36,6 +37,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Ladies First',
@@ -54,6 +56,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: ["Films d'écureuil"],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Carry-On',
@@ -72,6 +75,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Comte de Monte-Cristo',
@@ -90,6 +94,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Challengers',
@@ -108,6 +113,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Road House',
@@ -126,6 +132,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Damsel',
@@ -144,6 +151,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Sly',
@@ -162,6 +170,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Gran Turismo',
@@ -180,6 +189,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Oppenheimer',
@@ -198,6 +208,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Barbie',
@@ -216,6 +227,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Creed III',
@@ -234,6 +246,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Babylon',
@@ -252,6 +265,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Chat Potté 2 : La Dernière Quête',
@@ -270,6 +284,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'École du Bien et du Mal",
@@ -288,6 +303,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Samaritan',
@@ -306,6 +322,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Prey',
@@ -324,6 +341,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Bullet Train',
@@ -342,6 +360,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le haut du panier',
@@ -360,6 +379,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Top Gun : Maverick',
@@ -378,6 +398,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Everything Everywhere All at Once',
@@ -396,6 +417,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Don't look up, déni cosmique",
@@ -414,6 +436,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Red Notice',
@@ -432,6 +455,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Guilty',
@@ -450,6 +474,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La méthode Williams',
@@ -468,6 +493,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Free Guy',
@@ -486,6 +512,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Jolt',
@@ -504,6 +531,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Terminal',
@@ -522,6 +550,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Tanguy',
@@ -540,6 +569,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The One',
@@ -558,6 +588,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Training Day',
@@ -576,6 +607,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Shaolin Soccer',
@@ -594,6 +626,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Mulholland Drive',
@@ -612,6 +645,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Replicant',
@@ -630,6 +664,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Battle Royale',
@@ -648,6 +683,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Miss Détective',
@@ -666,6 +702,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "A l'aube du 6ème jour",
@@ -684,6 +721,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Memento',
@@ -702,6 +740,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Snatch',
@@ -720,6 +759,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Requiem for a Dream',
@@ -738,6 +778,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Gladiator',
@@ -756,6 +797,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Rebel Ridge',
@@ -774,6 +816,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: '84 m²',
@@ -792,6 +835,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Brick',
@@ -810,6 +854,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La carte qui mène à toi',
@@ -828,6 +873,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: ['Mes romances'],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les 4 fantastiques',
@@ -846,6 +892,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Premier contact',
@@ -864,6 +911,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Sexe entre amis',
@@ -882,6 +930,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Source Code',
@@ -900,6 +949,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le témoin amoureux',
@@ -918,6 +968,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Une femme en jeu',
@@ -936,6 +987,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Lettres à Juliette',
@@ -954,6 +1006,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'My Oxford Year',
@@ -972,6 +1025,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Ordinary Angels',
@@ -990,6 +1044,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'French Lover',
@@ -1008,6 +1063,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Thunderbolts',
@@ -1026,6 +1082,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le silence des agneaux',
@@ -1044,6 +1101,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Maintenance Required',
@@ -1062,6 +1120,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Nocturnal Animals',
@@ -1080,6 +1139,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Superman',
@@ -1098,6 +1158,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Superman II',
@@ -1116,6 +1177,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Superman Returns',
@@ -1134,6 +1196,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Enemy',
@@ -1152,6 +1215,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Forever My Girl',
@@ -1170,6 +1234,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Dans tes rêves',
@@ -1188,6 +1253,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La femme de ménage',
@@ -1206,6 +1272,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Eaux profondes',
@@ -1224,6 +1291,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Nobody',
@@ -1242,6 +1310,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Clones',
@@ -1260,6 +1329,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La Vie est belle',
@@ -1278,6 +1348,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La Mort aux trousses',
@@ -1296,6 +1367,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Sans identité',
@@ -1314,6 +1386,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La Colère des Titans',
@@ -1332,6 +1405,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Neuilly, sa mère !',
@@ -1350,6 +1424,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Neuilly, sa mère sa mère',
@@ -1368,6 +1443,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Seuls Two',
@@ -1386,6 +1462,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Fabuleux Destin d'Amélie Poulain",
@@ -1404,6 +1481,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Jeux d'enfants",
@@ -1422,6 +1500,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les trois frères',
@@ -1440,6 +1519,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Quai des Brumes',
@@ -1458,6 +1538,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Patients',
@@ -1476,6 +1557,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Babysitting',
@@ -1494,6 +1576,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Babysitting 2',
@@ -1512,6 +1595,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Bienvenue chez les Ch'tis",
@@ -1530,6 +1614,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Beaux Gosses',
@@ -1548,6 +1633,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Tais-toi',
@@ -1566,6 +1652,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Steak',
@@ -1584,6 +1671,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Deux Frères',
@@ -1602,6 +1690,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Choristes',
@@ -1620,6 +1709,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Jusqu'au bout du rêve",
@@ -1638,6 +1728,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Nouveaux Mutants',
@@ -1656,6 +1747,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Seven Sisters',
@@ -1674,6 +1766,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Moulin Rouge !',
@@ -1692,6 +1785,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Entre deux rives',
@@ -1710,6 +1804,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Cruella',
@@ -1728,6 +1823,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1747,6 +1843,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Coursier',
@@ -1765,6 +1862,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1784,6 +1882,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Fanfan la Tulipe',
@@ -1802,6 +1901,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Adèle Blanc-Sec',
@@ -1820,6 +1920,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1839,6 +1940,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Braquage à l'italienne",
@@ -1857,6 +1959,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Titanic',
@@ -1875,6 +1978,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: ['Mes romances'],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Souviens-toi... l'été dernier",
@@ -1893,6 +1997,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Insomnia',
@@ -1911,6 +2016,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Dragonball Evolution',
@@ -1929,6 +2035,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1948,6 +2055,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'LOL (Laughing Out Loud)',
@@ -1966,6 +2074,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1985,6 +2094,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'American Psycho',
@@ -2003,6 +2113,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Ghost Writer',
@@ -2021,6 +2132,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Chérie, j'ai rétréci les gosses",
@@ -2039,6 +2151,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2058,6 +2171,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Big Mamma',
@@ -2076,6 +2190,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Big Mamma 2',
@@ -2094,6 +2209,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Ce soir je dors chez toi',
@@ -2112,6 +2228,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Rasta Rockett',
@@ -2130,6 +2247,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Yao',
@@ -2148,6 +2266,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Bienvenue à Marly-Gomont',
@@ -2166,6 +2285,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2185,6 +2305,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2204,6 +2325,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2223,6 +2345,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2242,6 +2365,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2261,6 +2385,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2280,6 +2405,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2299,6 +2425,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2318,6 +2445,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2337,6 +2465,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2356,6 +2485,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2375,6 +2505,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2394,6 +2525,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2413,6 +2545,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: ['Mes classiques', 'Mes romances'],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2432,6 +2565,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2451,6 +2585,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2470,6 +2605,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2489,6 +2625,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2508,6 +2645,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2528,6 +2666,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2547,6 +2686,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2566,6 +2706,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2585,6 +2726,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2604,6 +2746,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2623,6 +2766,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2642,6 +2786,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2661,6 +2806,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: ['Mes romances'],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2680,6 +2826,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2699,6 +2846,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2718,6 +2866,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2737,6 +2886,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2756,6 +2906,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2775,6 +2926,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2794,6 +2946,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2813,6 +2966,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2832,6 +2986,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2851,6 +3006,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2870,6 +3026,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2889,6 +3046,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2908,6 +3066,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2927,6 +3086,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2946,6 +3106,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2965,6 +3126,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2984,6 +3146,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3003,6 +3166,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3022,6 +3186,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3041,6 +3206,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3060,6 +3226,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3079,6 +3246,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3098,6 +3266,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Hot Shots!',
@@ -3116,6 +3285,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Hot Shots! 2',
@@ -3134,6 +3304,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3153,6 +3324,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3172,6 +3344,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3191,6 +3364,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3210,6 +3384,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3229,6 +3404,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3248,6 +3424,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3267,6 +3444,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3286,6 +3464,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3305,6 +3484,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3324,6 +3504,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3343,6 +3524,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3362,6 +3544,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3381,6 +3564,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3400,6 +3584,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3419,6 +3604,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3438,6 +3624,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3457,6 +3644,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3476,6 +3664,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3495,6 +3684,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3514,6 +3704,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3533,6 +3724,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3552,6 +3744,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3571,6 +3764,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3590,6 +3784,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3609,6 +3804,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3628,6 +3824,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3647,6 +3844,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3666,6 +3864,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3685,6 +3884,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3704,6 +3904,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3723,6 +3924,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3742,6 +3944,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3761,6 +3964,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3780,6 +3984,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3799,6 +4004,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3818,6 +4024,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3837,6 +4044,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3856,6 +4064,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3875,6 +4084,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3894,6 +4104,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3913,6 +4124,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3932,6 +4144,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3951,6 +4164,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3970,6 +4184,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3989,6 +4204,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4008,6 +4224,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4027,6 +4244,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4046,6 +4264,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4065,6 +4284,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: "",
     loaned: "",
     lastUpdated: "2026-10-16T10:17",
+    quotes: [],
   },
 
   {
@@ -4084,6 +4304,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: "",
     loaned: "",
     lastUpdated: "2026-10-19T20:17",
+    quotes: [],
   },
 
   {
@@ -4103,5 +4324,6 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: "2026-10-22T08:51",
+    quotes: [],
   },
 ];

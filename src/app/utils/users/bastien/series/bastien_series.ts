@@ -42,6 +42,7 @@ export const bastienSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Arcane',
@@ -74,6 +75,7 @@ export const bastienSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Bloqués',
@@ -126,6 +128,7 @@ export const bastienSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Altered Carbon',
@@ -158,6 +161,7 @@ export const bastienSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Brooklyn Nine-Nine',
@@ -250,6 +254,7 @@ export const bastienSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Cloak & Dagger',
@@ -282,6 +287,7 @@ export const bastienSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Community',
@@ -354,6 +360,7 @@ export const bastienSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Daredevil',
@@ -396,6 +403,7 @@ export const bastienSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Hawkeye',
@@ -418,6 +426,7 @@ export const bastienSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Gotham',
@@ -480,6 +489,7 @@ export const bastienSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Heroes',
@@ -532,6 +542,7 @@ export const bastienSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Iron Fist',
@@ -564,6 +575,7 @@ export const bastienSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Jessica Jones',
@@ -606,6 +618,7 @@ export const bastienSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: "Jupiter's Legacy",
@@ -628,6 +641,7 @@ export const bastienSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Locke & Key',
@@ -670,6 +684,7 @@ export const bastienSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Loki',
@@ -702,6 +717,7 @@ export const bastienSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Luke Cage',
@@ -734,6 +750,7 @@ export const bastienSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Malcolm in the Middle',
@@ -816,6 +833,7 @@ export const bastienSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Misfits',
@@ -878,6 +896,7 @@ export const bastienSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Mercredi',
@@ -910,6 +929,7 @@ export const bastienSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Obi-Wan Kenobi',
@@ -932,6 +952,7 @@ export const bastienSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'One Piece (live-action)',
@@ -954,6 +975,7 @@ export const bastienSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Smallville',
@@ -1066,6 +1088,7 @@ export const bastienSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'South Park',
@@ -1338,6 +1361,7 @@ export const bastienSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Squid Game',
@@ -1380,6 +1404,7 @@ export const bastienSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Stranger Things',
@@ -1442,6 +1467,7 @@ export const bastienSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Supernatural',
@@ -1604,6 +1630,7 @@ export const bastienSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'The Boys',
@@ -1656,6 +1683,7 @@ export const bastienSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'The Defenders',
@@ -1678,6 +1706,7 @@ export const bastienSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'The Falcon and the Winter Soldier',
@@ -1700,6 +1729,7 @@ export const bastienSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'The Office',
@@ -1802,6 +1832,7 @@ export const bastienSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'The Shannara Chronicles',
@@ -1834,6 +1865,7 @@ export const bastienSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'The Punisher',
@@ -1866,6 +1898,7 @@ export const bastienSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'WandaVision',
@@ -1888,6 +1921,7 @@ export const bastienSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Yu Yu Hakusho (live-action)',
@@ -1910,5 +1944,6 @@ export const bastienSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 ];

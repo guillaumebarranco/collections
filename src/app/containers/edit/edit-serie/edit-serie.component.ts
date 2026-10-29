@@ -66,6 +66,7 @@ type EditSerieForm = {
   watchPriority: number;
   wantToWatchAgain: boolean;
   ratingComment: string;
+  quotes: string[];
 };
 
 type EditSerieEntityForm = {
@@ -402,6 +403,7 @@ export class EditSerieComponent {
           watchPriority: Math.min(3, Math.max(1, form.watchPriority ?? 1)),
           wantToWatchAgain: form.wantToWatchAgain,
           ratingComment: form.ratingComment ?? '',
+          quotes: form.quotes.map((quote) => quote.trim()).filter(Boolean),
           entity: this.isAdminView()
             ? this.toEntityPayload(this.serieEntityForm())
             : undefined,
@@ -602,6 +604,9 @@ export class EditSerieComponent {
       watchPriority: Math.min(3, Math.max(1, serie.watchPriority ?? 1)),
       wantToWatchAgain: serie.wantToWatchAgain ?? false,
       ratingComment: serie.ratingComment ?? '',
+      quotes: [...(serie.quotes ?? [])].map((quote) =>
+        quote.replace(/\\r\\n/g, '\n').replace(/\\n/g, '\n').replace(/\\r/g, '\n')
+      ),
     };
   }
 
@@ -637,6 +642,41 @@ export class EditSerieComponent {
       saga: form.saga ?? '',
       fromEntity: form.fromEntity,
     };
+  }
+
+  addQuote(): void {
+    const form = this.serieForm();
+    if (!form) {
+      return;
+    }
+    this.serieForm.set({
+      ...form,
+      quotes: [...form.quotes, ''],
+    });
+  }
+
+  updateQuote(index: number, value: string): void {
+    const form = this.serieForm();
+    if (!form || index < 0 || index >= form.quotes.length) {
+      return;
+    }
+    const quotes = [...form.quotes];
+    quotes[index] = value;
+    this.serieForm.set({
+      ...form,
+      quotes,
+    });
+  }
+
+  removeQuote(index: number): void {
+    const form = this.serieForm();
+    if (!form || index < 0 || index >= form.quotes.length) {
+      return;
+    }
+    this.serieForm.set({
+      ...form,
+      quotes: form.quotes.filter((_, quoteIndex) => quoteIndex !== index),
+    });
   }
 
   updateCheckbox(field: 'owned' | 'wantToWatchAgain', checked: boolean) {

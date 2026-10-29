@@ -165,6 +165,8 @@ export interface UserMovie extends MandatoryMovieData {
   loaned: string;
   /** Dernière modification via l'interface, heure locale : YYYY-MM-DDTHH:mm. */
   lastUpdated: string;
+  /** Citations extraites du film. */
+  quotes: string[];
 }
 
 export type UserMovies = UserMovie[];

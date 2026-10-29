@@ -175,6 +175,7 @@ export const getFullMovie = (movie: BaseMovie): Movie => ({
   borrowed: '',
   loaned: '',
   lastUpdated: '',
+  quotes: [],
 });
 
 export const getFullSerie = (serie: BaseSerie): Serie => ({
@@ -197,4 +198,5 @@ export const getFullSerie = (serie: BaseSerie): Serie => ({
   fromEntity: serie.fromEntity ?? null,
   borrowed: '',
   loaned: '',
+  quotes: [],
 });

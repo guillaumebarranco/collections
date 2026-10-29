@@ -18,6 +18,14 @@ const {
   formatMovieLastUpdated,
 } = require('../../utils/movies/movies-utils');
 
+function formatQuotesTs(quotes: unknown): string {
+  const list = Array.isArray(quotes)
+    ? quotes.filter((quote) => typeof quote === 'string' && quote.trim())
+    : [];
+  if (list.length === 0) return '[]';
+  return `[${list.map((quote: string) => `"${escapeString(quote)}"`).join(', ')}]`;
+}
+
 const router = express.Router();
 
 const usersRootDir = path.join(
@@ -59,7 +67,7 @@ function formatUserMovie(movie: Movie) {
     movie.title
   )}",\n    director: "${escapeString(
     movie.director
-  )}",\n    rating: 0,\n    timesWatched: 1,\n    firstViewedDate: '',\n    lastViewedDate: '',\n    otherSeenDates: [],\n    seenAtCinema: false,\n    owned: false,\n    wantToSeeAgain: false,\n    watchPriority: 1,\n    ratingComment: '',\n    inList: [],\n    borrowed: '',\n    loaned: '',\n    lastUpdated: "${formatMovieLastUpdated()}",\n  },`;
+  )}",\n    rating: 0,\n    timesWatched: 1,\n    firstViewedDate: '',\n    lastViewedDate: '',\n    otherSeenDates: [],\n    seenAtCinema: false,\n    owned: false,\n    wantToSeeAgain: false,\n    watchPriority: 1,\n    ratingComment: '',\n    inList: [],\n    borrowed: '',\n    loaned: '',\n    lastUpdated: "${formatMovieLastUpdated()}",\n    quotes: ${formatQuotesTs(movie.quotes)},\n  },`;
 }
 
 function getTodayISO(): string {
@@ -94,7 +102,7 @@ function formatWatchedMovieFromWatchlist(movie: Movie) {
     typeof movie.borrowed === 'string' ? movie.borrowed : ''
   )}",\n    loaned: "${escapeString(
     typeof movie.loaned === 'string' ? movie.loaned : ''
-  )}",\n    lastUpdated: "${formatMovieLastUpdated()}",\n  },`;
+  )}",\n    lastUpdated: "${formatMovieLastUpdated()}",\n    quotes: ${formatQuotesTs(movie.quotes)},\n  },`;
 }
 
 function formatWatchlistMovie(movie: Movie) {
@@ -102,7 +110,7 @@ function formatWatchlistMovie(movie: Movie) {
     movie.title
   )}",\n    director: "${escapeString(
     movie.director
-  )}",\n    rating: 0,\n    timesWatched: 0,\n    firstViewedDate: '',\n    lastViewedDate: '',\n    otherSeenDates: [],\n    seenAtCinema: false,\n    owned: false,\n    wantToSeeAgain: false,\n    watchPriority: 1,\n    ratingComment: '',\n    inList: [],\n    borrowed: '',\n    loaned: '',\n    lastUpdated: "${formatMovieLastUpdated()}",\n  },`;
+  )}",\n    rating: 0,\n    timesWatched: 0,\n    firstViewedDate: '',\n    lastViewedDate: '',\n    otherSeenDates: [],\n    seenAtCinema: false,\n    owned: false,\n    wantToSeeAgain: false,\n    watchPriority: 1,\n    ratingComment: '',\n    inList: [],\n    borrowed: '',\n    loaned: '',\n    lastUpdated: "${formatMovieLastUpdated()}",\n    quotes: ${formatQuotesTs(movie.quotes)},\n  },`;
 }
 
 function getUserMoviesTargetFile(userId: string, isWatchlist: boolean) {

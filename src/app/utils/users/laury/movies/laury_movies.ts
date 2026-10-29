@@ -18,6 +18,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -37,6 +38,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -56,6 +58,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -75,6 +78,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -94,6 +98,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -113,6 +118,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -132,6 +138,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -151,6 +158,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -170,6 +178,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -189,6 +198,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -208,6 +218,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -227,6 +238,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -246,6 +258,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -265,6 +278,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -284,6 +298,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -303,6 +318,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -322,6 +338,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -341,6 +358,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -360,6 +378,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -379,6 +398,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -398,6 +418,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -417,6 +438,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -436,6 +458,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -455,6 +478,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -474,6 +498,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -493,6 +518,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -512,6 +538,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -531,6 +558,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -550,6 +578,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -569,6 +598,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -588,6 +618,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -607,6 +638,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -626,6 +658,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -645,6 +678,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -664,6 +698,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -683,6 +718,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -702,6 +738,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -721,6 +758,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -740,6 +778,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -759,6 +798,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -778,6 +818,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -797,6 +838,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -816,6 +858,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -835,6 +878,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -854,6 +898,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -873,6 +918,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -892,6 +938,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -911,6 +958,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -930,6 +978,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -949,6 +998,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -968,6 +1018,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -987,6 +1038,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1006,6 +1058,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1025,6 +1078,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1044,6 +1098,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1063,6 +1118,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1082,6 +1138,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1101,6 +1158,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1120,6 +1178,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1139,6 +1198,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1158,6 +1218,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1177,6 +1238,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1196,6 +1258,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1215,6 +1278,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1234,6 +1298,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1253,6 +1318,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1272,6 +1338,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1291,6 +1358,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1310,6 +1378,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1329,6 +1398,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1348,6 +1418,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1367,6 +1438,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1386,6 +1458,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1405,6 +1478,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1424,6 +1498,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1443,6 +1518,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1462,6 +1538,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1481,6 +1558,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1500,6 +1578,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1519,6 +1598,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1538,6 +1618,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1557,6 +1638,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1576,6 +1658,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1595,6 +1678,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1614,6 +1698,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1633,6 +1718,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1652,6 +1738,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1671,6 +1758,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1690,6 +1778,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1709,6 +1798,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1728,6 +1818,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1747,6 +1838,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1766,6 +1858,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1785,6 +1878,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1804,6 +1898,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1823,6 +1918,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1842,6 +1938,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1861,6 +1958,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1880,6 +1978,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1899,6 +1998,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1918,6 +2018,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1937,6 +2038,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1956,6 +2058,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1975,6 +2078,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1994,6 +2098,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2013,6 +2118,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2032,6 +2138,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2051,6 +2158,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2070,6 +2178,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2089,6 +2198,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2108,6 +2218,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2127,6 +2238,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2146,6 +2258,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2165,6 +2278,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2184,6 +2298,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2203,6 +2318,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2222,6 +2338,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2241,6 +2358,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2260,6 +2378,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2279,6 +2398,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2298,6 +2418,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2317,6 +2438,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2336,6 +2458,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2355,6 +2478,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2374,6 +2498,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2393,6 +2518,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2412,6 +2538,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2431,6 +2558,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2450,6 +2578,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2469,6 +2598,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2488,6 +2618,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2507,6 +2638,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2526,6 +2658,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2545,6 +2678,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2564,6 +2698,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2583,6 +2718,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2602,6 +2738,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2621,6 +2758,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2640,6 +2778,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2659,6 +2798,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2678,6 +2818,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2697,6 +2838,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2716,6 +2858,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2735,6 +2878,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2754,6 +2898,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2773,6 +2918,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2792,6 +2938,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2811,6 +2958,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2830,6 +2978,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2849,6 +2998,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2868,6 +3018,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2887,6 +3038,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2906,6 +3058,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2925,6 +3078,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2944,6 +3098,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2963,6 +3118,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2982,6 +3138,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3001,6 +3158,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3020,6 +3178,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3039,6 +3198,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3058,6 +3218,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3077,6 +3238,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3096,6 +3258,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3115,6 +3278,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3134,6 +3298,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3153,6 +3318,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3172,6 +3338,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3191,6 +3358,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3210,6 +3378,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3229,6 +3398,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3248,6 +3418,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3267,6 +3438,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3286,6 +3458,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3305,6 +3478,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3324,6 +3498,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3343,6 +3518,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3362,6 +3538,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3381,6 +3558,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3400,6 +3578,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3419,6 +3598,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3438,6 +3618,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3457,6 +3638,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3476,6 +3658,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3495,6 +3678,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3514,6 +3698,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3533,6 +3718,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3552,6 +3738,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3571,6 +3758,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3590,6 +3778,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3609,6 +3798,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3628,6 +3818,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3647,6 +3838,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3666,6 +3858,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3685,6 +3878,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3704,6 +3898,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3723,6 +3918,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3742,6 +3938,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3761,6 +3958,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3780,6 +3978,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3799,6 +3998,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3818,6 +4018,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3837,6 +4038,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3856,6 +4058,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3875,6 +4078,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3894,6 +4098,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3913,6 +4118,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3932,6 +4138,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3951,6 +4158,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3970,6 +4178,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3989,6 +4198,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4009,6 +4219,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4028,6 +4239,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4047,6 +4259,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4066,6 +4279,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4085,6 +4299,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4104,6 +4319,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4123,6 +4339,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4142,6 +4359,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4161,6 +4379,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4180,6 +4399,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4199,6 +4419,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4218,6 +4439,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4237,6 +4459,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4256,6 +4479,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4275,6 +4499,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4294,6 +4519,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4313,6 +4539,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4332,6 +4559,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4351,6 +4579,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4370,6 +4599,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4389,6 +4619,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4408,6 +4639,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4427,6 +4659,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4446,6 +4679,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4465,6 +4699,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4484,6 +4719,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4503,6 +4739,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4522,6 +4759,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4541,6 +4779,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4560,6 +4799,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4579,6 +4819,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4598,6 +4839,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4617,6 +4859,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4636,6 +4879,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4655,6 +4899,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4674,6 +4919,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4693,6 +4939,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4712,6 +4959,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4731,6 +4979,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4750,6 +4999,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4769,6 +5019,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4788,6 +5039,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4807,6 +5059,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4826,6 +5079,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4845,6 +5099,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4864,6 +5119,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4883,6 +5139,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4902,6 +5159,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4921,6 +5179,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4940,6 +5199,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4959,6 +5219,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4978,6 +5239,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4997,6 +5259,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5016,6 +5279,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5035,6 +5299,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5054,6 +5319,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5073,6 +5339,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5092,6 +5359,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5111,6 +5379,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5130,6 +5399,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5149,6 +5419,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5168,6 +5439,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5187,6 +5459,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5206,6 +5479,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5225,6 +5499,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5244,6 +5519,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5263,6 +5539,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5282,6 +5559,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5301,6 +5579,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5320,6 +5599,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5339,6 +5619,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5358,6 +5639,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5377,6 +5659,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5396,6 +5679,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5415,6 +5699,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5434,6 +5719,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5453,6 +5739,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5472,6 +5759,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5491,6 +5779,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5510,6 +5799,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5529,6 +5819,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5548,6 +5839,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5567,6 +5859,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5586,6 +5879,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5605,6 +5899,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5624,6 +5919,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5643,6 +5939,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5662,6 +5959,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5681,6 +5979,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5700,6 +5999,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5719,6 +6019,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5738,6 +6039,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5757,6 +6059,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5776,6 +6079,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5795,6 +6099,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5814,6 +6119,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5833,6 +6139,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5852,6 +6159,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5871,6 +6179,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5890,6 +6199,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5909,6 +6219,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5928,6 +6239,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5947,6 +6259,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5966,6 +6279,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5985,6 +6299,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6004,6 +6319,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6023,6 +6339,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6042,6 +6359,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6061,6 +6379,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6080,6 +6399,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6099,6 +6419,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6118,6 +6439,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6137,6 +6459,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6156,6 +6479,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6175,6 +6499,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6194,6 +6519,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6213,6 +6539,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6232,6 +6559,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6251,6 +6579,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6270,6 +6599,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6289,6 +6619,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6308,6 +6639,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6327,6 +6659,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6346,6 +6679,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6365,6 +6699,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6384,6 +6719,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6403,6 +6739,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6422,6 +6759,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6441,6 +6779,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6460,6 +6799,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6479,6 +6819,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6498,6 +6839,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6517,6 +6859,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6536,6 +6879,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6555,6 +6899,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6574,6 +6919,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6593,6 +6939,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6612,6 +6959,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6631,6 +6979,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6650,6 +6999,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6669,6 +7019,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6688,6 +7039,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6707,6 +7059,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6726,6 +7079,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6745,6 +7099,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6764,6 +7119,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6783,6 +7139,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6802,6 +7159,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6821,6 +7179,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6840,6 +7199,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6859,6 +7219,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6878,6 +7239,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6897,6 +7259,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6916,6 +7279,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6935,6 +7299,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6954,6 +7319,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6973,6 +7339,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6992,6 +7359,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7011,6 +7379,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7030,6 +7399,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7049,6 +7419,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7068,6 +7439,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7087,6 +7459,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7106,6 +7479,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7125,6 +7499,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7144,6 +7519,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7163,6 +7539,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7182,6 +7559,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7201,6 +7579,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7220,6 +7599,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7239,6 +7619,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7258,6 +7639,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7277,6 +7659,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7296,6 +7679,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7315,6 +7699,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7334,6 +7719,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7353,6 +7739,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7372,6 +7759,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7391,6 +7779,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7410,6 +7799,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7429,6 +7819,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7448,6 +7839,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7467,6 +7859,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7486,6 +7879,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7505,6 +7899,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7524,6 +7919,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7543,6 +7939,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7562,6 +7959,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7581,6 +7979,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7600,6 +7999,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7619,6 +8019,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7638,6 +8039,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7657,6 +8059,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7676,6 +8079,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7695,6 +8099,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7714,6 +8119,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7733,6 +8139,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7752,6 +8159,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7771,6 +8179,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7790,6 +8199,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7809,6 +8219,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7828,6 +8239,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7847,6 +8259,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7866,6 +8279,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7885,6 +8299,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7904,6 +8319,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7923,6 +8339,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7942,6 +8359,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7961,6 +8379,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7980,6 +8399,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7999,6 +8419,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8018,6 +8439,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8037,6 +8459,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8056,6 +8479,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8075,6 +8499,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8094,6 +8519,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8113,6 +8539,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8132,6 +8559,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8151,6 +8579,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8170,6 +8599,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8189,6 +8619,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8208,6 +8639,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8227,6 +8659,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8247,6 +8680,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8266,6 +8700,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8285,6 +8720,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8304,6 +8740,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8323,6 +8760,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8342,6 +8780,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8361,6 +8800,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8380,6 +8820,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8399,6 +8840,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8418,6 +8860,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8437,6 +8880,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8456,6 +8900,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8475,6 +8920,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8494,6 +8940,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8513,6 +8960,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8532,6 +8980,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8551,6 +9000,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8570,6 +9020,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8589,6 +9040,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8608,6 +9060,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8627,6 +9080,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8646,6 +9100,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8665,6 +9120,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8684,6 +9140,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8703,6 +9160,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8722,6 +9180,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8741,6 +9200,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8760,6 +9220,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8779,6 +9240,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8798,6 +9260,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8817,6 +9280,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8836,6 +9300,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8855,6 +9320,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8874,6 +9340,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8893,6 +9360,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8912,6 +9380,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8931,6 +9400,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8950,6 +9420,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8969,6 +9440,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8988,6 +9460,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9007,6 +9480,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9026,6 +9500,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9045,6 +9520,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9064,6 +9540,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9083,6 +9560,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9102,6 +9580,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9121,6 +9600,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9140,6 +9620,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9159,6 +9640,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9178,6 +9660,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9197,6 +9680,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9216,6 +9700,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9235,6 +9720,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9254,6 +9740,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9273,6 +9760,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9292,6 +9780,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9311,6 +9800,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9330,6 +9820,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9349,6 +9840,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9368,6 +9860,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9387,6 +9880,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9406,6 +9900,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9425,6 +9920,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9444,6 +9940,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9463,6 +9960,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9482,6 +9980,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9501,6 +10000,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9520,6 +10020,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9539,6 +10040,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9558,6 +10060,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9577,6 +10080,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9596,6 +10100,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9615,6 +10120,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9634,6 +10140,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9653,6 +10160,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9672,6 +10180,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9691,6 +10200,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9710,6 +10220,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9729,6 +10240,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9748,6 +10260,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9767,6 +10280,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9786,6 +10300,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9805,6 +10320,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9824,6 +10340,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9843,6 +10360,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9862,6 +10380,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9881,6 +10400,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9900,6 +10420,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9920,6 +10441,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9939,6 +10461,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9958,6 +10481,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9977,6 +10501,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9996,6 +10521,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10015,6 +10541,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10034,6 +10561,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10053,6 +10581,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10072,6 +10601,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10091,6 +10621,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10110,6 +10641,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10129,6 +10661,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10148,6 +10681,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10167,6 +10701,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10186,6 +10721,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10205,6 +10741,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10224,6 +10761,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10243,6 +10781,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10262,6 +10801,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10281,6 +10821,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10300,6 +10841,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10319,6 +10861,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10338,6 +10881,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10357,6 +10901,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10376,6 +10921,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10395,6 +10941,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10414,6 +10961,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10433,6 +10981,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10452,6 +11001,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10471,6 +11021,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10490,6 +11041,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10509,6 +11061,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10528,6 +11081,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10547,6 +11101,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10566,6 +11121,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10585,6 +11141,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10604,6 +11161,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10623,6 +11181,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10642,6 +11201,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10661,6 +11221,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10680,6 +11241,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10699,6 +11261,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10718,6 +11281,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10737,6 +11301,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10756,6 +11321,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10775,6 +11341,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10794,6 +11361,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10813,6 +11381,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10832,6 +11401,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10851,6 +11421,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10870,6 +11441,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10889,6 +11461,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10908,6 +11481,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10927,6 +11501,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10946,6 +11521,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10965,6 +11541,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10984,6 +11561,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11003,6 +11581,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11022,6 +11601,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11041,6 +11621,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11060,6 +11641,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11079,6 +11661,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11098,6 +11681,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11117,6 +11701,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11136,6 +11721,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11155,6 +11741,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11174,6 +11761,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11193,6 +11781,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11212,6 +11801,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11231,6 +11821,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11250,6 +11841,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11269,6 +11861,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11288,6 +11881,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11307,6 +11901,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11326,6 +11921,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11345,6 +11941,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11364,6 +11961,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11383,6 +11981,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11402,6 +12001,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11421,6 +12021,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11440,6 +12041,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11459,6 +12061,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11478,6 +12081,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11497,6 +12101,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11516,6 +12121,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11535,6 +12141,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11554,6 +12161,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11573,6 +12181,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11592,6 +12201,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11611,6 +12221,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11630,6 +12241,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11649,6 +12261,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11668,6 +12281,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11687,6 +12301,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11706,6 +12321,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11725,6 +12341,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11744,6 +12361,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11763,6 +12381,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11782,6 +12401,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11801,6 +12421,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11820,6 +12441,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11839,6 +12461,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11858,6 +12481,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11877,6 +12501,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11896,6 +12521,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11915,6 +12541,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11934,6 +12561,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11953,6 +12581,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11972,6 +12601,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11991,6 +12621,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12010,6 +12641,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12029,6 +12661,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12048,6 +12681,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12067,6 +12701,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12086,6 +12721,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12105,6 +12741,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12124,6 +12761,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12143,6 +12781,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12162,6 +12801,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12181,6 +12821,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12200,6 +12841,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12219,6 +12861,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12238,6 +12881,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12257,6 +12901,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12276,6 +12921,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12295,6 +12941,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12314,6 +12961,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12333,6 +12981,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12352,6 +13001,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12371,6 +13021,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12390,6 +13041,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12409,6 +13061,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12428,6 +13081,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12447,6 +13101,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12466,6 +13121,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12485,6 +13141,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12504,6 +13161,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12523,6 +13181,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12542,6 +13201,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12561,6 +13221,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12580,6 +13241,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12599,6 +13261,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12618,6 +13281,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12637,6 +13301,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12656,6 +13321,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12675,6 +13341,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12694,6 +13361,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12713,6 +13381,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12732,6 +13401,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12751,6 +13421,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12770,6 +13441,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12789,6 +13461,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12808,6 +13481,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12827,6 +13501,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12846,6 +13521,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12865,6 +13541,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12884,6 +13561,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12903,6 +13581,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12922,6 +13601,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12941,6 +13621,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12960,6 +13641,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12979,6 +13661,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12998,6 +13681,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13017,6 +13701,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13036,6 +13721,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13055,6 +13741,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13074,6 +13761,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13093,6 +13781,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13112,6 +13801,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13131,6 +13821,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13150,6 +13841,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13169,6 +13861,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13188,6 +13881,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13207,6 +13901,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13226,6 +13921,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13245,6 +13941,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13264,6 +13961,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13283,6 +13981,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13302,6 +14001,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13321,6 +14021,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13340,6 +14041,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13359,6 +14061,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13378,6 +14081,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13397,6 +14101,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13416,6 +14121,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13435,6 +14141,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13454,6 +14161,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13473,6 +14181,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13492,6 +14201,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13511,6 +14221,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13530,6 +14241,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13549,6 +14261,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13568,6 +14281,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13587,6 +14301,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13606,6 +14321,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13625,6 +14341,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13644,6 +14361,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13663,6 +14381,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13682,6 +14401,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13701,6 +14421,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13720,6 +14441,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13739,6 +14461,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13758,6 +14481,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13777,6 +14501,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13796,6 +14521,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13815,6 +14541,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13834,6 +14561,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13853,6 +14581,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13872,6 +14601,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13891,6 +14621,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13910,6 +14641,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13929,6 +14661,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13948,6 +14681,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13967,6 +14701,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13986,6 +14721,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -14005,6 +14741,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -14024,6 +14761,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -14043,6 +14781,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -14062,6 +14801,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -14081,6 +14821,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -14100,6 +14841,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -14119,6 +14861,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -14138,6 +14881,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -14157,6 +14901,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -14176,6 +14921,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -14195,6 +14941,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -14214,6 +14961,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -14233,6 +14981,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -14252,6 +15001,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -14271,6 +15021,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -14290,6 +15041,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -14309,6 +15061,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -14328,6 +15081,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -14347,6 +15101,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -14366,6 +15121,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -14385,6 +15141,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -14404,6 +15161,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -14423,6 +15181,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -14442,6 +15201,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -14461,6 +15221,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -14480,6 +15241,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -14499,6 +15261,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -14518,6 +15281,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -14537,6 +15301,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -14556,6 +15321,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -14575,6 +15341,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -14594,6 +15361,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -14613,6 +15381,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -14632,6 +15401,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -14651,6 +15421,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -14670,6 +15441,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -14689,6 +15461,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -14708,6 +15481,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -14727,6 +15501,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -14746,6 +15521,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -14765,6 +15541,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -14784,6 +15561,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -14803,6 +15581,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -14822,6 +15601,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -14841,6 +15621,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -14860,6 +15641,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -14879,6 +15661,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -14898,6 +15681,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -14917,6 +15701,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -14936,6 +15721,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -14955,6 +15741,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -14974,6 +15761,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -14993,6 +15781,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -15012,6 +15801,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -15031,6 +15821,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -15050,6 +15841,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -15069,6 +15861,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -15088,6 +15881,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -15107,6 +15901,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -15126,6 +15921,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -15145,6 +15941,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -15164,6 +15961,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -15183,6 +15981,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -15202,6 +16001,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -15221,6 +16021,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -15240,6 +16041,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -15259,6 +16061,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -15278,6 +16081,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -15297,6 +16101,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -15316,6 +16121,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -15335,6 +16141,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -15354,6 +16161,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -15373,6 +16181,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -15392,6 +16201,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -15411,6 +16221,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -15430,6 +16241,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -15449,6 +16261,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -15468,6 +16281,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -15487,6 +16301,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -15506,6 +16321,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -15525,6 +16341,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -15544,6 +16361,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -15563,6 +16381,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -15582,6 +16401,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -15601,6 +16421,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -15620,6 +16441,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -15639,6 +16461,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -15658,6 +16481,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -15677,6 +16501,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -15696,6 +16521,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -15715,6 +16541,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -15734,6 +16561,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -15753,6 +16581,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -15772,6 +16601,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -15791,6 +16621,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -15810,6 +16641,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -15829,6 +16661,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -15848,6 +16681,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -15867,6 +16701,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -15886,6 +16721,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -15905,6 +16741,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -15924,6 +16761,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -15943,6 +16781,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -15962,6 +16801,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -15981,6 +16821,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -16000,6 +16841,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -16019,6 +16861,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -16038,6 +16881,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -16057,6 +16901,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -16076,6 +16921,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -16095,6 +16941,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -16114,6 +16961,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -16133,6 +16981,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -16152,6 +17001,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -16171,6 +17021,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -16190,6 +17041,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -16209,6 +17061,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -16228,6 +17081,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -16247,6 +17101,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -16266,6 +17121,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -16285,6 +17141,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -16304,6 +17161,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -16323,6 +17181,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -16342,6 +17201,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -16361,6 +17221,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -16380,6 +17241,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -16399,6 +17261,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -16418,6 +17281,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -16437,6 +17301,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -16456,6 +17321,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -16475,6 +17341,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -16494,6 +17361,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -16513,6 +17381,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -16532,6 +17401,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -16551,6 +17421,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -16570,6 +17441,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -16589,6 +17461,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -16608,6 +17481,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -16627,6 +17501,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -16646,6 +17521,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -16665,6 +17541,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -16684,6 +17561,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -16703,6 +17581,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -16722,6 +17601,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -16741,6 +17621,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -16760,6 +17641,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -16779,6 +17661,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -16798,6 +17681,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -16817,6 +17701,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -16836,6 +17721,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -16855,6 +17741,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -16874,6 +17761,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -16893,6 +17781,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -16912,6 +17801,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -16931,6 +17821,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -16950,6 +17841,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -16969,6 +17861,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -16988,6 +17881,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -17007,6 +17901,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -17026,6 +17921,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -17045,6 +17941,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -17064,6 +17961,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -17083,6 +17981,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -17102,6 +18001,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -17121,6 +18021,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -17140,6 +18041,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -17159,6 +18061,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -17178,6 +18081,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -17197,6 +18101,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -17216,6 +18121,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -17235,6 +18141,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -17254,6 +18161,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -17273,6 +18181,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -17292,6 +18201,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -17311,6 +18221,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -17330,6 +18241,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -17349,6 +18261,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -17368,6 +18281,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -17387,6 +18301,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -17406,6 +18321,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -17425,6 +18341,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -17444,6 +18361,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -17463,6 +18381,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -17482,6 +18401,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -17501,6 +18421,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -17520,6 +18441,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -17539,6 +18461,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -17558,6 +18481,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -17577,6 +18501,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -17596,6 +18521,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -17615,6 +18541,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -17634,6 +18561,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -17653,6 +18581,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -17672,6 +18601,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -17691,6 +18621,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -17710,6 +18641,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -17729,6 +18661,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -17748,6 +18681,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -17767,6 +18701,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -17786,6 +18721,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -17805,6 +18741,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -17824,6 +18761,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -17843,6 +18781,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -17862,6 +18801,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -17881,6 +18821,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -17900,6 +18841,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -17919,6 +18861,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -17938,6 +18881,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -17957,6 +18901,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -17976,6 +18921,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -17995,6 +18941,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -18014,6 +18961,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -18033,6 +18981,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -18052,6 +19001,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -18071,6 +19021,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -18090,6 +19041,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -18109,6 +19061,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -18128,6 +19081,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -18147,6 +19101,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -18166,6 +19121,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -18185,6 +19141,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -18204,6 +19161,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -18223,6 +19181,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -18242,6 +19201,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -18261,6 +19221,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -18280,6 +19241,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -18299,6 +19261,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -18318,6 +19281,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -18337,6 +19301,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -18356,6 +19321,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -18375,6 +19341,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -18394,6 +19361,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -18413,6 +19381,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -18432,6 +19401,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -18451,6 +19421,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -18470,6 +19441,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -18489,6 +19461,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -18508,6 +19481,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -18527,6 +19501,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -18546,6 +19521,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -18565,6 +19541,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -18584,6 +19561,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -18603,6 +19581,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -18622,6 +19601,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -18641,6 +19621,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -18660,6 +19641,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -18679,6 +19661,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -18698,6 +19681,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -18717,6 +19701,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -18736,6 +19721,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -18755,6 +19741,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -18774,6 +19761,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -18793,6 +19781,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -18812,6 +19801,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -18831,6 +19821,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -18850,6 +19841,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -18869,6 +19861,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -18888,6 +19881,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -18907,6 +19901,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -18926,6 +19921,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -18945,6 +19941,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -18964,6 +19961,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -18983,6 +19981,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -19002,6 +20001,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -19021,6 +20021,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -19040,6 +20041,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -19059,6 +20061,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -19078,6 +20081,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -19097,6 +20101,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -19116,6 +20121,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -19135,6 +20141,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -19154,6 +20161,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -19173,6 +20181,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -19192,6 +20201,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -19211,6 +20221,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -19230,6 +20241,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -19249,6 +20261,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -19268,6 +20281,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -19287,6 +20301,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -19306,6 +20321,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -19325,6 +20341,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -19344,6 +20361,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: '15 Minutes',
@@ -19362,6 +20380,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'À bras ouverts',
@@ -19380,6 +20399,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'On ne choisit pas sa famille',
@@ -19398,6 +20418,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Aeon Flux',
@@ -19416,6 +20437,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Amityville',
@@ -19434,6 +20456,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Amityville 2 : Le Possédé',
@@ -19452,6 +20475,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Apocalypto',
@@ -19470,6 +20494,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Au-delà de nos rêves',
@@ -19488,6 +20513,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Bangkok Dangerous',
@@ -19506,6 +20532,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Contagion',
@@ -19524,6 +20551,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Détour mortel',
@@ -19542,6 +20570,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Esther',
@@ -19560,6 +20589,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Évolution',
@@ -19578,6 +20608,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Instinct de survie',
@@ -19596,6 +20627,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Reef',
@@ -19614,6 +20646,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Reef: Stalked',
@@ -19632,6 +20665,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La Chute de Londres',
@@ -19650,6 +20684,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La Chute du président',
@@ -19668,6 +20703,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La Colline a des yeux 2',
@@ -19686,6 +20722,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Titan A.E.',
@@ -19704,6 +20741,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Ultraviolet',
@@ -19722,6 +20760,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Un crime dans la tête',
@@ -19740,6 +20779,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Barbecue',
@@ -19758,6 +20798,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Radin !',
@@ -19776,6 +20817,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Eyjafjallajökull',
@@ -19794,6 +20836,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Rien à déclarer',
@@ -19812,6 +20855,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La Maison du bonheur',
@@ -19830,6 +20874,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La Doublure',
@@ -19848,6 +20893,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Dracula',
@@ -19866,6 +20912,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Freddy : Les Griffes de la nuit',
@@ -19884,6 +20931,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Griffes de la nuit',
@@ -19902,6 +20950,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Freddy contre Jason',
@@ -19920,6 +20969,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: '13 Fantômes',
@@ -19938,6 +20988,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Megan',
@@ -19956,6 +21007,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Mirrors',
@@ -19974,6 +21026,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Mirrors 2',
@@ -19992,6 +21045,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Laisse-moi entrer',
@@ -20010,6 +21064,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La Vérité si je mens ! 2',
@@ -20028,6 +21083,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Rite',
@@ -20046,6 +21102,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Silent Hill',
@@ -20064,6 +21121,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Silent Hill: Revelation',
@@ -20082,6 +21140,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Robots',
@@ -20100,6 +21159,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Supercondriaque',
@@ -20118,6 +21178,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Cloverfield',
@@ -20136,6 +21197,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Crazies',
@@ -20154,6 +21216,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Darkest Hour',
@@ -20172,6 +21235,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Green Hornet',
@@ -20190,6 +21254,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Mon beau-père, mes parents et moi',
@@ -20208,6 +21273,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Mon beau-père et nous',
@@ -20226,6 +21292,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Monster House',
@@ -20244,6 +21311,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Mr. Brooks',
@@ -20262,6 +21330,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Nid de guêpes',
@@ -20280,6 +21349,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Passager 57',
@@ -20298,6 +21368,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Repo Men',
@@ -20316,6 +21387,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Rencontres du troisième type',
@@ -20334,6 +21406,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Ultime Décision',
@@ -20352,6 +21425,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Désaxé',
@@ -20370,6 +21444,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Desperado',
@@ -20388,6 +21463,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Desperados',
@@ -20406,6 +21482,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Enfants de la pluie',
@@ -20424,6 +21501,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Femmes de ses rêves',
@@ -20442,6 +21520,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Griffes du cauchemar',
@@ -20460,6 +21539,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Ma sorcière bien-aimée',
@@ -20478,6 +21558,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La Prophétie des ombres',
@@ -20496,6 +21577,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Jeu de la mort',
@@ -20514,6 +21596,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Tour du monde en quatre-vingts jours',
@@ -20532,6 +21615,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Contes de Terremer',
@@ -20550,6 +21634,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Mystère à Venise',
@@ -20568,6 +21653,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Profession profiler',
@@ -20586,6 +21672,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Désigné pour mourir',
@@ -20604,6 +21691,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Jean (2016)',
@@ -20622,6 +21710,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -20641,6 +21730,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -20660,6 +21750,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -20679,6 +21770,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -20698,6 +21790,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -20717,6 +21810,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -20736,6 +21830,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -20755,6 +21850,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -20774,6 +21870,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -20793,6 +21890,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -20812,6 +21910,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -20831,6 +21930,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -20850,6 +21950,7 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -20869,5 +21970,6 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 ];

@@ -18,6 +18,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -37,6 +38,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -56,6 +58,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -75,6 +78,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -94,6 +98,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -113,6 +118,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -132,6 +138,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -151,6 +158,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -170,6 +178,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -189,6 +198,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -208,6 +218,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -227,6 +238,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -246,6 +258,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -265,6 +278,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -284,6 +298,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -303,6 +318,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -322,6 +338,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -341,6 +358,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -360,6 +378,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -379,6 +398,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -398,6 +418,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -417,6 +438,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -436,6 +458,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -455,6 +478,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -474,6 +498,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -493,6 +518,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -512,6 +538,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -531,6 +558,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -550,6 +578,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -569,6 +598,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -588,6 +618,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -607,6 +638,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -626,6 +658,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -645,6 +678,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -664,6 +698,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -683,6 +718,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -702,6 +738,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -721,6 +758,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -740,6 +778,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -759,6 +798,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -778,6 +818,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -797,6 +838,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -816,6 +858,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -835,6 +878,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -854,6 +898,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -873,6 +918,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -892,6 +938,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -911,6 +958,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -930,6 +978,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -949,6 +998,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -968,6 +1018,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -987,6 +1038,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1006,6 +1058,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1025,6 +1078,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1044,6 +1098,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1063,6 +1118,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1082,6 +1138,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1101,6 +1158,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1120,6 +1178,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1139,6 +1198,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1158,6 +1218,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1177,6 +1238,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1196,6 +1258,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1215,6 +1278,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1234,6 +1298,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1253,6 +1318,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1272,6 +1338,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1291,6 +1358,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1310,6 +1378,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1329,6 +1398,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1348,6 +1418,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1367,6 +1438,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1386,6 +1458,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1405,6 +1478,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1424,6 +1498,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1443,6 +1518,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1462,6 +1538,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1481,6 +1558,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1500,6 +1578,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1519,6 +1598,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1538,6 +1618,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1557,6 +1638,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1576,6 +1658,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1595,6 +1678,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1614,6 +1698,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1633,6 +1718,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1652,6 +1738,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1671,6 +1758,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1690,6 +1778,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1709,6 +1798,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1728,6 +1818,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1747,6 +1838,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1766,6 +1858,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1785,6 +1878,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1804,6 +1898,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1823,6 +1918,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1842,6 +1938,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1861,6 +1958,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1880,6 +1978,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1899,6 +1998,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1918,6 +2018,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1937,6 +2038,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1956,6 +2058,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1975,6 +2078,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1994,6 +2098,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2013,6 +2118,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2032,6 +2138,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2051,6 +2158,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2070,6 +2178,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2089,6 +2198,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2108,6 +2218,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2127,6 +2238,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2146,6 +2258,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2165,6 +2278,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2184,6 +2298,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2203,6 +2318,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2222,6 +2338,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2241,6 +2358,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2260,6 +2378,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2279,6 +2398,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2298,6 +2418,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2317,6 +2438,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2336,6 +2458,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2355,6 +2478,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2374,6 +2498,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2393,6 +2518,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2412,6 +2538,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2431,6 +2558,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2450,6 +2578,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2469,6 +2598,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2488,6 +2618,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2507,6 +2638,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2527,6 +2659,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2546,6 +2679,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2565,6 +2699,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2584,6 +2719,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2603,6 +2739,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2622,6 +2759,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2641,6 +2779,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2660,6 +2799,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2679,6 +2819,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2698,6 +2839,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2717,6 +2859,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2736,6 +2879,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2755,6 +2899,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2774,6 +2919,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2793,6 +2939,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2812,6 +2959,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2831,6 +2979,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2850,6 +2999,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2869,6 +3019,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2888,6 +3039,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2907,6 +3059,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2926,6 +3079,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2945,6 +3099,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2964,6 +3119,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2983,6 +3139,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3002,6 +3159,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3021,6 +3179,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3040,6 +3199,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3059,6 +3219,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3078,6 +3239,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3097,6 +3259,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3116,6 +3279,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3135,6 +3299,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3154,6 +3319,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3173,6 +3339,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3192,6 +3359,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3211,6 +3379,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3230,6 +3399,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3249,6 +3419,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3268,6 +3439,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3287,6 +3459,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3306,6 +3479,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3325,6 +3499,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3344,6 +3519,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3363,6 +3539,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3382,6 +3559,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3401,6 +3579,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3420,6 +3599,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3439,6 +3619,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3458,6 +3639,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3477,6 +3659,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3496,6 +3679,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3515,6 +3699,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3534,6 +3719,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3553,6 +3739,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3572,6 +3759,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3591,6 +3779,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3610,6 +3799,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3629,6 +3819,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3648,6 +3839,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3667,6 +3859,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3686,6 +3879,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3705,6 +3899,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3724,6 +3919,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3743,6 +3939,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3762,6 +3959,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3781,6 +3979,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3800,6 +3999,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3819,6 +4019,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3838,6 +4039,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3857,6 +4059,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3876,6 +4079,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3895,6 +4099,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3914,6 +4119,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3933,6 +4139,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3952,6 +4159,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3971,6 +4179,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3990,6 +4199,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4009,6 +4219,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4028,6 +4239,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4047,6 +4259,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4066,6 +4279,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4085,6 +4299,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4104,6 +4319,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4123,6 +4339,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4142,6 +4359,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4161,6 +4379,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4180,6 +4399,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4199,6 +4419,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4218,6 +4439,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4237,6 +4459,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4256,6 +4479,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4275,6 +4499,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4294,6 +4519,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4313,6 +4539,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4332,6 +4559,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4351,6 +4579,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4370,6 +4599,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4389,6 +4619,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4408,6 +4639,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4427,6 +4659,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4446,6 +4679,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4465,6 +4699,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4484,6 +4719,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4503,6 +4739,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4522,6 +4759,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4541,6 +4779,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4560,6 +4799,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4579,6 +4819,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4598,6 +4839,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4617,6 +4859,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4636,6 +4879,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4655,6 +4899,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4674,6 +4919,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4693,6 +4939,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4712,6 +4959,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4731,6 +4979,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4750,6 +4999,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4769,6 +5019,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4788,6 +5039,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4807,6 +5059,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4826,6 +5079,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4845,6 +5099,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4864,6 +5119,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4883,6 +5139,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4902,6 +5159,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4921,6 +5179,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4940,6 +5199,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4959,6 +5219,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4978,6 +5239,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -4997,6 +5259,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5016,6 +5279,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5035,6 +5299,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5054,6 +5319,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5073,6 +5339,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5092,6 +5359,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5111,6 +5379,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5130,6 +5399,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5149,6 +5419,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5168,6 +5439,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5187,6 +5459,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5206,6 +5479,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5225,6 +5499,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5244,6 +5519,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5263,6 +5539,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5282,6 +5559,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5301,6 +5579,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5320,6 +5599,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5339,6 +5619,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5358,6 +5639,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5377,6 +5659,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5396,6 +5679,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5415,6 +5699,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5434,6 +5719,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5453,6 +5739,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5472,6 +5759,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5491,6 +5779,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5510,6 +5799,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5529,6 +5819,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5548,6 +5839,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5567,6 +5859,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5586,6 +5879,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5605,6 +5899,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5624,6 +5919,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5643,6 +5939,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5662,6 +5959,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5681,6 +5979,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5700,6 +5999,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5719,6 +6019,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5738,6 +6039,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5757,6 +6059,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5776,6 +6079,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5795,6 +6099,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5814,6 +6119,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5833,6 +6139,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5852,6 +6159,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5871,6 +6179,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5890,6 +6199,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5909,6 +6219,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5928,6 +6239,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5947,6 +6259,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5966,6 +6279,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -5985,6 +6299,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6004,6 +6319,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6023,6 +6339,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6042,6 +6359,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6061,6 +6379,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6080,6 +6399,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6099,6 +6419,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6118,6 +6439,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6137,6 +6459,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6156,6 +6479,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6175,6 +6499,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6194,6 +6519,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6213,6 +6539,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6232,6 +6559,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6251,6 +6579,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6270,6 +6599,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6289,6 +6619,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6308,6 +6639,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6327,6 +6659,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6346,6 +6679,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6365,6 +6699,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6384,6 +6719,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6403,6 +6739,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6422,6 +6759,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6441,6 +6779,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6460,6 +6799,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6479,6 +6819,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6498,6 +6839,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6517,6 +6859,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6536,6 +6879,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6555,6 +6899,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6574,6 +6919,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6593,6 +6939,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6612,6 +6959,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6631,6 +6979,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6650,6 +6999,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6669,6 +7019,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6688,6 +7039,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6707,6 +7059,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6726,6 +7079,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6745,6 +7099,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6764,6 +7119,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6783,6 +7139,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6802,6 +7159,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6821,6 +7179,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6840,6 +7199,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6859,6 +7219,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6878,6 +7239,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6897,6 +7259,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6916,6 +7279,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6935,6 +7299,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6954,6 +7319,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6973,6 +7339,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6992,6 +7359,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7011,6 +7379,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7030,6 +7399,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7049,6 +7419,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7068,6 +7439,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7087,6 +7459,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7107,6 +7480,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7126,6 +7500,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7145,6 +7520,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7164,6 +7540,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7183,6 +7560,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7202,6 +7580,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7222,6 +7601,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7241,6 +7621,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7260,6 +7641,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7279,6 +7661,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7298,6 +7681,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7317,6 +7701,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7336,6 +7721,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7355,6 +7741,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7374,6 +7761,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7393,6 +7781,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7412,6 +7801,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7431,6 +7821,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7450,6 +7841,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7469,6 +7861,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7488,6 +7881,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7507,6 +7901,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7526,6 +7921,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7545,6 +7941,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7564,6 +7961,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7583,6 +7981,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7602,6 +8001,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7621,6 +8021,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7640,6 +8041,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7659,6 +8061,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7678,6 +8081,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7697,6 +8101,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7716,6 +8121,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7735,6 +8141,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7754,6 +8161,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7773,6 +8181,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7792,6 +8201,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7811,6 +8221,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7830,6 +8241,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7849,6 +8261,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7868,6 +8281,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7887,6 +8301,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7906,6 +8321,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7925,6 +8341,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7944,6 +8361,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7963,6 +8381,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7982,6 +8401,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8001,6 +8421,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8020,6 +8441,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8039,6 +8461,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8058,6 +8481,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8077,6 +8501,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8096,6 +8521,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8115,6 +8541,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8134,6 +8561,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8153,6 +8581,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8172,6 +8601,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8191,6 +8621,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8210,6 +8641,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8229,6 +8661,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8248,6 +8681,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8267,6 +8701,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8286,6 +8721,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8305,6 +8741,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8324,6 +8761,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8343,6 +8781,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8362,6 +8801,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8381,6 +8821,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8400,6 +8841,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8419,6 +8861,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8438,6 +8881,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8457,6 +8901,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8476,6 +8921,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8495,6 +8941,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8514,6 +8961,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8533,6 +8981,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8552,6 +9001,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8571,6 +9021,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8590,6 +9041,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8609,6 +9061,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8628,6 +9081,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8647,6 +9101,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8666,6 +9121,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8685,6 +9141,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8704,6 +9161,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8723,6 +9181,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8742,6 +9201,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8761,6 +9221,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8780,6 +9241,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8799,6 +9261,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8818,6 +9281,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8837,6 +9301,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8856,6 +9321,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8875,6 +9341,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8894,6 +9361,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8913,6 +9381,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8932,6 +9401,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8951,6 +9421,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8970,6 +9441,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8989,6 +9461,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9008,6 +9481,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9027,6 +9501,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9046,6 +9521,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9065,6 +9541,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9084,6 +9561,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9103,6 +9581,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9122,6 +9601,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9141,6 +9621,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9160,6 +9641,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9179,6 +9661,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9198,6 +9681,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9217,6 +9701,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9236,6 +9721,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9255,6 +9741,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9274,6 +9761,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9293,6 +9781,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9312,6 +9801,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9331,6 +9821,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9350,6 +9841,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9369,6 +9861,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9388,6 +9881,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9407,6 +9901,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9426,6 +9921,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9445,6 +9941,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9464,6 +9961,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9483,6 +9981,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9502,6 +10001,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9521,6 +10021,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9540,6 +10041,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9559,6 +10061,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9578,6 +10081,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9597,6 +10101,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9616,6 +10121,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9635,6 +10141,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9654,6 +10161,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9673,6 +10181,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9692,6 +10201,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9711,6 +10221,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9730,6 +10241,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9749,6 +10261,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9768,6 +10281,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9787,6 +10301,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9806,6 +10321,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9825,6 +10341,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9844,6 +10361,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9863,6 +10381,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9882,6 +10401,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9901,6 +10421,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9920,6 +10441,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9939,6 +10461,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9958,6 +10481,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9977,6 +10501,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -9996,6 +10521,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10015,6 +10541,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10034,6 +10561,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10053,6 +10581,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10072,6 +10601,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10091,6 +10621,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10110,6 +10641,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10129,6 +10661,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10148,6 +10681,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10167,6 +10701,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10186,6 +10721,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10205,6 +10741,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10224,6 +10761,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10243,6 +10781,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10262,6 +10801,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10281,6 +10821,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10300,6 +10841,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10319,6 +10861,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10338,6 +10881,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10357,6 +10901,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10376,6 +10921,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10395,6 +10941,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10414,6 +10961,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10433,6 +10981,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10452,6 +11001,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10471,6 +11021,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10490,6 +11041,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10509,6 +11061,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10528,6 +11081,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10547,6 +11101,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10566,6 +11121,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10585,6 +11141,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10604,6 +11161,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10623,6 +11181,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10642,6 +11201,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10661,6 +11221,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10680,6 +11241,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10699,6 +11261,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10718,6 +11281,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10737,6 +11301,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10756,6 +11321,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10775,6 +11341,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10794,6 +11361,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10813,6 +11381,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10832,6 +11401,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10851,6 +11421,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10870,6 +11441,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10889,6 +11461,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10908,6 +11481,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10927,6 +11501,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10946,6 +11521,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10965,6 +11541,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -10984,6 +11561,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11003,6 +11581,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11022,6 +11601,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11041,6 +11621,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11060,6 +11641,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11079,6 +11661,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11098,6 +11681,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11117,6 +11701,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11136,6 +11721,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11155,6 +11741,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11174,6 +11761,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11193,6 +11781,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11212,6 +11801,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11231,6 +11821,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11250,6 +11841,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11269,6 +11861,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11288,6 +11881,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11307,6 +11901,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11326,6 +11921,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11345,6 +11941,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11364,6 +11961,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11383,6 +11981,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11402,6 +12001,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11421,6 +12021,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11440,6 +12041,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11459,6 +12061,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11478,6 +12081,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11497,6 +12101,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11516,6 +12121,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11535,6 +12141,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11554,6 +12161,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11573,6 +12181,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11592,6 +12201,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11611,6 +12221,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11630,6 +12241,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11649,6 +12261,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11668,6 +12281,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11687,6 +12301,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11706,6 +12321,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11725,6 +12341,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11744,6 +12361,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11763,6 +12381,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11782,6 +12401,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11801,6 +12421,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11820,6 +12441,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11839,6 +12461,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11858,6 +12481,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11877,6 +12501,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11896,6 +12521,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11915,6 +12541,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11934,6 +12561,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11953,6 +12581,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11972,6 +12601,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -11991,6 +12621,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12010,6 +12641,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12029,6 +12661,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12048,6 +12681,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12067,6 +12701,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12086,6 +12721,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12105,6 +12741,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12124,6 +12761,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12143,6 +12781,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12162,6 +12801,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12181,6 +12821,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12200,6 +12841,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12219,6 +12861,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12238,6 +12881,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12257,6 +12901,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12276,6 +12921,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12295,6 +12941,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12314,6 +12961,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12333,6 +12981,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12352,6 +13001,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12371,6 +13021,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12390,6 +13041,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12409,6 +13061,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12428,6 +13081,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12447,6 +13101,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12466,6 +13121,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12485,6 +13141,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12504,6 +13161,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12523,6 +13181,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12542,6 +13201,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12561,6 +13221,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12580,6 +13241,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12599,6 +13261,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12618,6 +13281,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12637,6 +13301,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12656,6 +13321,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12675,6 +13341,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12694,6 +13361,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12713,6 +13381,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12732,6 +13401,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12751,6 +13421,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12770,6 +13441,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12789,6 +13461,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12808,6 +13481,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12827,6 +13501,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12846,6 +13521,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12865,6 +13541,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12884,6 +13561,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12903,6 +13581,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12922,6 +13601,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12941,6 +13621,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12960,6 +13641,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12979,6 +13661,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -12998,6 +13681,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13017,6 +13701,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13036,6 +13721,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13055,6 +13741,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13074,6 +13761,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13093,6 +13781,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13112,6 +13801,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13131,6 +13821,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13150,6 +13841,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13169,6 +13861,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13188,6 +13881,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13207,6 +13901,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13226,6 +13921,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13245,6 +13941,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13264,6 +13961,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13283,6 +13981,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13302,6 +14001,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13321,6 +14021,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13340,6 +14041,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13359,6 +14061,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13378,6 +14081,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13397,6 +14101,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13416,6 +14121,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13435,6 +14141,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13454,6 +14161,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13473,6 +14181,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13492,6 +14201,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13511,6 +14221,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13530,6 +14241,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13549,6 +14261,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13568,6 +14281,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13587,6 +14301,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13606,6 +14321,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13625,6 +14341,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13644,6 +14361,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13663,6 +14381,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13682,6 +14401,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13701,6 +14421,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13720,6 +14441,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13739,6 +14461,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13758,6 +14481,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13777,6 +14501,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13796,6 +14521,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13815,6 +14541,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13834,6 +14561,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13853,6 +14581,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13872,6 +14601,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13891,6 +14621,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13910,6 +14641,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -13929,6 +14661,7 @@ export const lucileMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Princess Switch',
@@ -13947,5 +14680,6 @@ export const lucileMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 ];

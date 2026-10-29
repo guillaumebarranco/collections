@@ -18,6 +18,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -37,6 +38,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -56,6 +58,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -75,6 +78,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -94,6 +98,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -113,6 +118,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -132,6 +138,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -151,6 +158,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -170,6 +178,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -189,6 +198,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -208,6 +218,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -227,6 +238,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -246,6 +258,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -265,6 +278,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -284,6 +298,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -303,6 +318,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -322,6 +338,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -341,6 +358,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -360,6 +378,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -379,6 +398,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -398,6 +418,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -417,6 +438,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -436,6 +458,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -455,6 +478,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -474,6 +498,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -493,6 +518,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -512,6 +538,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -531,6 +558,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -550,6 +578,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -569,6 +598,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -588,6 +618,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -607,6 +638,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -626,6 +658,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -645,6 +678,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -664,6 +698,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -683,6 +718,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -702,6 +738,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -721,6 +758,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -740,6 +778,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -759,6 +798,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -778,6 +818,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -797,6 +838,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -816,6 +858,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -835,6 +878,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -854,6 +898,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -873,6 +918,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -892,6 +938,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -911,6 +958,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -930,6 +978,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -949,6 +998,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -968,6 +1018,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -987,6 +1038,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1006,6 +1058,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1025,6 +1078,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1044,6 +1098,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1063,6 +1118,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1082,6 +1138,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1101,6 +1158,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1120,6 +1178,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1139,6 +1198,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1158,6 +1218,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1177,6 +1238,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1196,6 +1258,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1215,6 +1278,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1234,6 +1298,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1253,6 +1318,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1272,6 +1338,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1291,6 +1358,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1310,6 +1378,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1329,6 +1398,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1348,6 +1418,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1367,6 +1438,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1386,6 +1458,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1405,6 +1478,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1424,6 +1498,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1443,6 +1518,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1462,6 +1538,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1481,6 +1558,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1500,6 +1578,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1519,6 +1598,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1538,6 +1618,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1557,6 +1638,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1576,6 +1658,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1595,6 +1678,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1614,6 +1698,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1633,6 +1718,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1652,6 +1738,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1671,6 +1758,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1690,6 +1778,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1709,6 +1798,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1728,6 +1818,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1747,6 +1838,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1766,6 +1858,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1785,6 +1878,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1804,6 +1898,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1823,6 +1918,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1842,6 +1938,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1861,6 +1958,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1880,6 +1978,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1899,6 +1998,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1918,6 +2018,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1937,6 +2038,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1956,6 +2058,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1975,6 +2078,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1994,6 +2098,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2013,6 +2118,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2032,6 +2138,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2051,6 +2158,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2070,6 +2178,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2089,6 +2198,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2108,6 +2218,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2127,6 +2238,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2146,6 +2258,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2165,6 +2278,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2184,6 +2298,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2203,6 +2318,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2223,6 +2339,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2242,6 +2359,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2261,6 +2379,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2280,6 +2399,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2299,6 +2419,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2318,6 +2439,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2337,6 +2459,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2356,6 +2479,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2375,6 +2499,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2394,6 +2519,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2413,6 +2539,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2432,6 +2559,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2451,6 +2579,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2470,6 +2599,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2489,6 +2619,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2508,6 +2639,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2527,6 +2659,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2546,6 +2679,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2565,6 +2699,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2584,6 +2719,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2603,6 +2739,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2622,6 +2759,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2641,6 +2779,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2660,6 +2799,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2679,6 +2819,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2698,6 +2839,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2717,6 +2859,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2736,6 +2879,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2755,6 +2899,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2774,6 +2919,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2793,6 +2939,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2812,6 +2959,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2831,6 +2979,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2850,6 +2999,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2869,6 +3019,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2888,6 +3039,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2907,6 +3059,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2926,6 +3079,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2945,6 +3099,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2964,6 +3119,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2983,6 +3139,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3002,6 +3159,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3021,6 +3179,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3040,6 +3199,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3059,6 +3219,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3078,6 +3239,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3097,6 +3259,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3116,6 +3279,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3135,6 +3299,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3154,6 +3319,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3173,6 +3339,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3192,6 +3359,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3211,6 +3379,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3230,6 +3399,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3249,6 +3419,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3268,6 +3439,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3287,6 +3459,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3306,6 +3479,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3325,6 +3499,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3344,6 +3519,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3363,6 +3539,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3382,6 +3559,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3401,6 +3579,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3420,6 +3599,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3439,6 +3619,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3458,6 +3639,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3477,6 +3659,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3496,6 +3679,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3515,6 +3699,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3534,6 +3719,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3553,6 +3739,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3572,6 +3759,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3591,6 +3779,7 @@ export const cassandreMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Pokémon, le film : Mewtwo contre-attaque',
@@ -3609,5 +3798,6 @@ export const cassandreMovies: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 ];

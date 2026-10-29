@@ -81,6 +81,15 @@ router.post('/', (req: any, res: any) => {
       ratingComment: normalizeString(input.ratingComment, 'ratingComment') ?? '',
       borrowed: normalizeString(input.borrowed, 'borrowed') ?? '',
       loaned: normalizeString(input.loaned, 'loaned') ?? '',
+      ...(Array.isArray(input.quotes)
+        ? {
+            quotes: input.quotes
+              .filter(
+                (quote: unknown) => typeof quote === 'string' && quote.trim()
+              )
+              .map((quote: string) => quote.trim()),
+          }
+        : {}),
     };
 
     const entityPayload = input.entity || null;

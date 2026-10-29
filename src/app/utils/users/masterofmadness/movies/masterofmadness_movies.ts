@@ -18,6 +18,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -37,6 +38,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -56,6 +58,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -75,6 +78,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -94,6 +98,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -113,6 +118,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -132,6 +138,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -151,6 +158,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -170,6 +178,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -189,6 +198,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -208,6 +218,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -227,6 +238,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -246,6 +258,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -265,6 +278,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -284,6 +298,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -303,6 +318,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -322,6 +338,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -341,6 +358,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -360,6 +378,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -379,6 +398,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -398,6 +418,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -417,6 +438,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -436,6 +458,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -455,6 +478,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -474,6 +498,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -493,6 +518,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -512,6 +538,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -531,6 +558,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -550,6 +578,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -569,6 +598,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -588,6 +618,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -607,6 +638,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -626,6 +658,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -645,6 +678,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -664,6 +698,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -683,6 +718,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -702,6 +738,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -721,6 +758,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -740,6 +778,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -759,6 +798,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -778,6 +818,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -797,6 +838,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -816,6 +858,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -835,6 +878,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -854,6 +898,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -873,6 +918,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -892,6 +938,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -911,6 +958,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -930,6 +978,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -949,6 +998,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -968,6 +1018,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -987,6 +1038,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1006,6 +1058,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1025,6 +1078,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1044,6 +1098,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1063,6 +1118,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1082,6 +1138,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1101,6 +1158,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1120,6 +1178,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1139,6 +1198,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1158,6 +1218,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1177,6 +1238,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1196,6 +1258,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1215,6 +1278,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1234,6 +1298,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1253,6 +1318,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1272,6 +1338,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1291,6 +1358,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1310,6 +1378,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1329,6 +1398,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1348,6 +1418,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1367,6 +1438,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1386,6 +1458,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1405,6 +1478,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1424,6 +1498,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1443,6 +1518,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1462,6 +1538,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1481,6 +1558,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1500,6 +1578,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1519,6 +1598,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1538,6 +1618,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1557,6 +1638,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1576,6 +1658,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1595,6 +1678,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1614,6 +1698,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1633,6 +1718,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1652,6 +1738,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1671,6 +1758,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1690,6 +1778,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1709,6 +1798,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1728,6 +1818,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1747,6 +1838,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1766,6 +1858,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1785,6 +1878,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1804,6 +1898,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1823,6 +1918,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1842,6 +1938,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1862,6 +1959,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1881,6 +1979,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1900,6 +1999,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1919,6 +2019,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1938,6 +2039,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1957,6 +2059,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1976,6 +2079,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1995,6 +2099,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2014,6 +2119,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2033,6 +2139,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2052,6 +2159,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2071,6 +2179,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2090,6 +2199,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2109,6 +2219,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2128,6 +2239,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2147,6 +2259,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2166,6 +2279,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2185,6 +2299,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2204,6 +2319,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2223,6 +2339,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2242,6 +2359,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2261,6 +2379,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2280,6 +2399,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2299,6 +2419,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2318,6 +2439,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2337,6 +2459,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2356,6 +2479,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2375,6 +2499,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2394,6 +2519,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2413,6 +2539,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2432,6 +2559,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2451,6 +2579,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2470,6 +2599,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2489,6 +2619,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2508,6 +2639,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2527,6 +2659,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2546,6 +2679,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2565,6 +2699,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2584,6 +2719,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2603,6 +2739,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2622,6 +2759,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2641,6 +2779,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2660,6 +2799,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2679,6 +2819,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2698,6 +2839,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2717,6 +2859,7 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2736,5 +2879,6 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 ];

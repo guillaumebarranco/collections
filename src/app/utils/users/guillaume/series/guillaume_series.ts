@@ -75,6 +75,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'How I Met Your Mother',
@@ -168,6 +169,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: 'Loki',
@@ -198,6 +200,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Le Jeu de la Dame',
@@ -219,6 +222,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'WandaVision',
@@ -240,6 +244,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Obi-Wan Kenobi',
@@ -261,6 +266,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Squid Game',
@@ -300,6 +306,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Bodies',
@@ -321,6 +328,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Breaking Bad',
@@ -378,6 +386,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Umbrella Academy',
@@ -417,6 +426,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'You',
@@ -474,6 +484,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'HPI',
@@ -513,6 +524,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'The Boys',
@@ -570,6 +582,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Stranger Things',
@@ -627,6 +640,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Lupin',
@@ -666,6 +680,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'La servante écarlate',
@@ -723,6 +738,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Arcane',
@@ -753,6 +769,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'South Park',
@@ -999,6 +1016,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Les Simpsons',
@@ -1326,6 +1344,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Monstre',
@@ -1347,6 +1366,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Daredevil',
@@ -1386,6 +1406,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Black Doves',
@@ -1407,6 +1428,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'House of Cards',
@@ -1473,6 +1495,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Daredevil : Born Again',
@@ -1503,6 +1526,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Jessica Jones',
@@ -1542,6 +1566,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Luke Cage',
@@ -1572,6 +1597,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Iron Fist',
@@ -1602,6 +1628,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'The Defenders',
@@ -1623,6 +1650,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'The Last of Us',
@@ -1653,6 +1681,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Obsession',
@@ -1674,6 +1703,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Cobra',
@@ -1695,6 +1725,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Nicky Larson',
@@ -1716,6 +1747,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Yu-Gi-Oh!',
@@ -1800,6 +1832,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Olive et Tom : Le retour',
@@ -1839,6 +1872,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: '13 Reasons Why',
@@ -1887,6 +1921,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Castle',
@@ -1971,6 +2006,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Mentalist',
@@ -2051,6 +2087,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Astérix & Obélix : Le Combat des Chefs',
@@ -2072,6 +2109,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Bet',
@@ -2093,6 +2131,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Brooklyn Nine-Nine',
@@ -2177,6 +2216,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Cobra Kai',
@@ -2243,6 +2283,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Mercredi',
@@ -2273,6 +2314,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Montre jamais ça à personne',
@@ -2303,6 +2345,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Arnold',
@@ -2324,6 +2367,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Arrow',
@@ -2408,6 +2452,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'The Flash',
@@ -2501,6 +2546,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Ironheart',
@@ -2522,6 +2568,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Reacher',
@@ -2561,6 +2608,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Rhythm + Flow',
@@ -2582,6 +2630,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Nouvelle École',
@@ -2630,6 +2679,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'iZombie',
@@ -2687,6 +2737,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'La Casa de Papel',
@@ -2744,6 +2795,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Lucifer',
@@ -2810,6 +2862,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'The Punisher',
@@ -2840,6 +2893,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Rick and Morty',
@@ -2915,6 +2969,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Sense8',
@@ -2945,6 +3000,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Suits, Avocats sur mesure',
@@ -3038,6 +3094,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'The End of the F***ing World',
@@ -3068,6 +3125,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Under the Dome',
@@ -3107,6 +3165,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Superman & Lois',
@@ -3155,6 +3214,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Locke & Key',
@@ -3194,6 +3254,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Un gars, une fille',
@@ -3251,6 +3312,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: "Sydney Fox, l'aventurière",
@@ -3290,6 +3352,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Scorpion',
@@ -3338,6 +3401,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'H',
@@ -3386,6 +3450,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Destin : La Saga Winx',
@@ -3416,6 +3481,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Solo Leveling',
@@ -3446,6 +3512,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Walker, Texas Ranger',
@@ -3539,6 +3606,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'How I Met Your Father',
@@ -3569,6 +3637,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Caméra Café',
@@ -3617,6 +3686,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Ms. Marvel',
@@ -3638,6 +3708,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -3660,6 +3731,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Mon amie Adèle',
@@ -3681,6 +3753,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Emily in Paris',
@@ -3738,6 +3811,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'The Glory',
@@ -3759,6 +3833,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'FUBAR',
@@ -3789,6 +3864,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'En un battement',
@@ -3819,6 +3895,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'One Piece (live-action)',
@@ -3849,6 +3926,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Yu Yu Hakusho (live-action)',
@@ -3870,6 +3948,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Bloqués',
@@ -3891,6 +3970,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Death Note',
@@ -3912,6 +3992,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -3943,6 +4024,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -3992,6 +4074,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -4041,6 +4124,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -4081,6 +4165,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -4193,6 +4278,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -4251,6 +4337,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -4372,6 +4459,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -4394,6 +4482,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -4560,6 +4649,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -4600,6 +4690,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -4676,6 +4767,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -4788,6 +4880,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -4819,6 +4912,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'No Game No Life',
@@ -4840,6 +4934,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -4871,6 +4966,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: "La vie secrète d'un ado ordinaire",
@@ -4928,6 +5024,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Why Women Kill',
@@ -4958,6 +5055,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: 'https://nakastream.tv/content/tv/87428',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Amicalement vôtre',
@@ -4979,6 +5077,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Modern Family',
@@ -5090,6 +5189,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: 'New Girl',
@@ -5165,6 +5265,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
 
   {
@@ -5187,6 +5288,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -5236,6 +5338,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -5276,6 +5379,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -5307,6 +5411,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -5356,6 +5461,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -5423,6 +5529,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -5472,6 +5579,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -5521,6 +5629,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -5570,6 +5679,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -5619,6 +5729,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -5650,6 +5761,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -5672,6 +5784,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
 
   {
@@ -5694,5 +5807,6 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
 ];

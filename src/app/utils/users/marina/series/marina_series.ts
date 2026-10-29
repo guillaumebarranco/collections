@@ -52,6 +52,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -75,6 +76,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -158,6 +160,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -251,6 +254,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -344,6 +348,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -397,6 +402,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -460,6 +466,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -503,6 +510,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -576,6 +584,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -659,6 +668,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -722,6 +732,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -745,6 +756,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -788,6 +800,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -851,6 +864,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -874,6 +888,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -907,6 +922,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -960,6 +976,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1023,6 +1040,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1096,6 +1114,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1139,6 +1158,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1202,6 +1222,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1255,6 +1276,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1338,6 +1360,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1461,6 +1484,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1504,6 +1528,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1587,6 +1612,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1670,6 +1696,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1703,6 +1730,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1756,6 +1784,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2119,6 +2148,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2142,6 +2172,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2175,6 +2206,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2228,6 +2260,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2281,6 +2314,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2314,6 +2348,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2337,6 +2372,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2360,6 +2396,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2383,6 +2420,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2416,6 +2454,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2449,6 +2488,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2562,6 +2602,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2605,6 +2646,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2638,6 +2680,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2661,6 +2704,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2684,6 +2728,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   /* Séries issues des listes Marina (catalogue base_series / base_series_animees) */
@@ -2708,6 +2753,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Les maîtres de la peur (Fear Itself)',
@@ -2730,6 +2776,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Gossip Girl',
@@ -2752,6 +2799,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Santa Clarita Diet',
@@ -2774,6 +2822,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Cassandra',
@@ -2796,6 +2845,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Good Doctor',
@@ -2818,6 +2868,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Apple cider vinegar',
@@ -2840,6 +2891,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'La chute de la maison Usher',
@@ -2862,6 +2914,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Pretty Little Liars',
@@ -2884,6 +2937,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Orange is the New Black',
@@ -2906,6 +2960,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'The Good Place',
@@ -2928,6 +2983,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Dead to Me',
@@ -2950,6 +3006,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Insatiable',
@@ -2972,6 +3029,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'The Haunting of Hill House',
@@ -2994,6 +3052,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'The Haunting of Bly Manor',
@@ -3016,6 +3075,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Sweet Home',
@@ -3038,6 +3098,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'I Am a Killer',
@@ -3060,6 +3121,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Les chroniques de la peur',
@@ -3082,6 +3144,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Poupée russe',
@@ -3104,6 +3167,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Mon petit renne',
@@ -3126,6 +3190,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Slasher',
@@ -3148,6 +3213,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Scream Queens',
@@ -3170,6 +3236,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Hannah Montana',
@@ -3192,6 +3259,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Phénomène Raven',
@@ -3214,6 +3282,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Les sorciers de Waverly Place',
@@ -3236,6 +3305,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'La vie de palace de Zack et Cody',
@@ -3258,6 +3328,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'La vie de croisière de Zack et Cody',
@@ -3280,6 +3351,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Phineas et Ferb',
@@ -3302,6 +3374,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Jessie',
@@ -3324,6 +3397,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Drôle de frère - La guerre des Stevens',
@@ -3346,6 +3420,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Lizzie McGuire',
@@ -3368,6 +3443,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Shake It Up',
@@ -3390,6 +3466,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Austin et Ally',
@@ -3412,6 +3489,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Phil du futur',
@@ -3434,6 +3512,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Cory est dans la place',
@@ -3456,6 +3535,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Sonny',
@@ -3478,6 +3558,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Jonas L.A',
@@ -3500,6 +3581,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Bonne chance Charlie',
@@ -3522,6 +3604,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Section Genius',
@@ -3544,6 +3627,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Violetta',
@@ -3566,6 +3650,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'La petite sirène',
@@ -3588,6 +3673,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Tic et Tac, les rangers du risque',
@@ -3610,6 +3696,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Aladdin',
@@ -3632,6 +3719,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Timon et Pumbaa',
@@ -3654,6 +3742,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'La cour de récré',
@@ -3676,6 +3765,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Hercule',
@@ -3698,6 +3788,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: "Les aventures de Buzz l'Éclair",
@@ -3720,6 +3811,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'La légende de Tarzan',
@@ -3742,6 +3834,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Kim Possible',
@@ -3764,6 +3857,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Lilo et Stitch la série',
@@ -3786,6 +3880,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'American Dragon Jake Long',
@@ -3808,6 +3903,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'W.I.T.C.H.',
@@ -3830,6 +3926,7 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: "Kuzco, un empereur à l'école",
@@ -3852,5 +3949,6 @@ export const marinaSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 ];

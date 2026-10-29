@@ -88,6 +88,7 @@ ${formatSeasons(seasons)}
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },`;
 }
 
@@ -103,6 +104,7 @@ ${formatSeasons(seasons)}
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },`;
 }
 

@@ -52,6 +52,7 @@ export const masterofmadnessSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -75,6 +76,7 @@ export const masterofmadnessSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -98,6 +100,7 @@ export const masterofmadnessSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -161,6 +164,7 @@ export const masterofmadnessSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -254,6 +258,7 @@ export const masterofmadnessSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -327,6 +332,7 @@ export const masterofmadnessSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -420,6 +426,7 @@ export const masterofmadnessSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -503,6 +510,7 @@ export const masterofmadnessSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -536,6 +544,7 @@ export const masterofmadnessSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -569,6 +578,7 @@ export const masterofmadnessSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -602,6 +612,7 @@ export const masterofmadnessSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -625,6 +636,7 @@ export const masterofmadnessSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -658,6 +670,7 @@ export const masterofmadnessSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -741,6 +754,7 @@ export const masterofmadnessSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -804,6 +818,7 @@ export const masterofmadnessSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -837,6 +852,7 @@ export const masterofmadnessSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -940,6 +956,7 @@ export const masterofmadnessSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1013,6 +1030,7 @@ export const masterofmadnessSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1086,6 +1104,7 @@ export const masterofmadnessSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1319,6 +1338,7 @@ export const masterofmadnessSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1552,6 +1572,7 @@ export const masterofmadnessSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1655,6 +1676,7 @@ export const masterofmadnessSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1778,6 +1800,7 @@ export const masterofmadnessSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1841,6 +1864,7 @@ export const masterofmadnessSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1884,6 +1908,7 @@ export const masterofmadnessSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2067,6 +2092,7 @@ export const masterofmadnessSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2110,6 +2136,7 @@ export const masterofmadnessSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2133,6 +2160,7 @@ export const masterofmadnessSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2256,6 +2284,7 @@ export const masterofmadnessSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2339,6 +2368,7 @@ export const masterofmadnessSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2422,6 +2452,7 @@ export const masterofmadnessSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2675,6 +2706,7 @@ export const masterofmadnessSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2698,6 +2730,7 @@ export const masterofmadnessSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2731,6 +2764,7 @@ export const masterofmadnessSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2764,6 +2798,7 @@ export const masterofmadnessSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -3127,6 +3162,7 @@ export const masterofmadnessSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -3210,6 +3246,7 @@ export const masterofmadnessSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -3263,6 +3300,7 @@ export const masterofmadnessSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -3296,6 +3334,7 @@ export const masterofmadnessSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -3339,6 +3378,7 @@ export const masterofmadnessSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -3362,6 +3402,7 @@ export const masterofmadnessSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -3405,6 +3446,7 @@ export const masterofmadnessSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -3458,5 +3500,6 @@ export const masterofmadnessSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 ];

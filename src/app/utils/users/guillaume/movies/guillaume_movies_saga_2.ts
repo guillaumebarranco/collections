@@ -18,6 +18,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La Nuit au musée 2',
@@ -36,6 +37,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Banlieue 13',
@@ -54,6 +56,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Banlieue 13 : Ultimatum',
@@ -72,6 +75,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Resident Evil',
@@ -90,6 +94,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Resident Evil : Apocalypse',
@@ -108,6 +113,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Resident Evil : Extinction',
@@ -126,6 +132,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Resident Evil : Afterlife',
@@ -144,6 +151,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Resident Evil : Retribution',
@@ -162,6 +170,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Rush Hour',
@@ -180,6 +189,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: ["Mes classiques", "Films d'écureuil"],
     lastUpdated: "2026-10-26T19:06",
+    quotes: [],
   },
   {
     title: 'Rush Hour 2',
@@ -198,6 +208,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: "2026-10-26T20:59",
+    quotes: [],
   },
   {
     title: 'Rush Hour 3',
@@ -216,6 +227,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Ocean's Eleven",
@@ -234,6 +246,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: ['Mes classiques'],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Ocean's Twelve",
@@ -252,6 +265,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Ocean's Thirteen",
@@ -270,6 +284,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Ocean's Eight",
@@ -288,6 +303,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Pirates des Caraïbes : La malédiction du Black Pearl',
@@ -306,6 +322,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Pirates des Caraïbes 2 : Le Secret du Coffre Maudit',
@@ -324,6 +341,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Pirates des Caraïbes 3 : Jusqu'au Bout du Monde",
@@ -342,6 +360,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Taxi',
@@ -360,6 +379,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: ['Mes classiques'],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Taxi 2',
@@ -378,6 +398,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Taxi 3',
@@ -396,6 +417,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Taxi 4',
@@ -414,6 +436,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Scary Movie',
@@ -432,6 +455,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: ['Mes classiques'],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Scary Movie 2',
@@ -450,6 +474,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Scary Movie 3',
@@ -468,6 +493,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Scary Movie 4',
@@ -486,6 +512,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Kill Bill: Vol. 1',
@@ -504,6 +531,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: ["Mes classiques", "Films d'écureuil"],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Kill Bill: Vol. 2',
@@ -522,6 +550,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: ["Films d'écureuil"],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Hellboy',
@@ -540,6 +569,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Hellboy 2 : Les Légions d'Or Maudites",
@@ -558,6 +588,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les bronzés',
@@ -576,6 +607,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les bronzés font du ski',
@@ -594,6 +626,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Bronzés 3 : Amis pour la Vie',
@@ -612,6 +645,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Transporteur',
@@ -630,6 +664,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Transporteur 2',
@@ -648,6 +683,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Transporteur 3',
@@ -666,6 +702,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'xXx',
@@ -684,6 +721,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'xXx² : The Next Level',
@@ -702,6 +740,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Sin City',
@@ -720,6 +759,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Sin City : J'ai Tué pour Elle",
@@ -738,6 +778,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Blade',
@@ -756,6 +797,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Blade II',
@@ -774,6 +816,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Blade : Trinity',
@@ -792,6 +835,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Scooby-Doo',
@@ -810,6 +854,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Scooby-Doo 2: Monsters Unleashed',
@@ -828,6 +873,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Inspecteur Gadget 2',
@@ -846,6 +892,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Matrix',
@@ -864,6 +911,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Matrix Reloaded',
@@ -882,6 +930,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Matrix Revolutions',
@@ -900,6 +949,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Spy Kids',
@@ -918,6 +968,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Spy Kids 2 : Espions en herbe',
@@ -936,6 +987,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Spy Kids 3 : Mission 3D',
@@ -954,6 +1006,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Bad Boys',
@@ -972,6 +1025,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Bad Boys II',
@@ -990,6 +1044,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Men in Black',
@@ -1008,6 +1063,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Men in Black II',
@@ -1026,6 +1082,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: "",
     inList: ["Mes classiques"],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Men in Black 3',
@@ -1044,6 +1101,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Lara Croft : Tomb Raider',
@@ -1062,6 +1120,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Tomb Raider : le berceau de la vie',
@@ -1080,6 +1139,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La Momie',
@@ -1098,6 +1158,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: ["Mes classiques", "Films d'écureuil"],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Retour de la Momie',
@@ -1116,6 +1177,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La momie : la tombe de l'empereur dragon",
@@ -1134,6 +1196,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'arme fatale",
@@ -1152,6 +1215,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: ['Mes classiques'],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'arme fatale 2",
@@ -1170,6 +1234,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'arme fatale 3",
@@ -1188,6 +1253,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'arme fatale 4",
@@ -1206,6 +1272,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Predator',
@@ -1224,6 +1291,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Predator 2',
@@ -1242,6 +1310,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Predators',
@@ -1260,6 +1329,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Alien, le huitième passager',
@@ -1278,6 +1348,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Aliens, le retour',
@@ -1296,6 +1367,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Alien 3',
@@ -1314,6 +1386,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Alien : La Résurrection',
@@ -1332,6 +1405,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Alien vs. Predator',
@@ -1350,6 +1424,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Alien vs. Predator : Requiem',
@@ -1368,6 +1443,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Independence Day',
@@ -1386,6 +1462,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: ['Mes classiques'],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Maman j'ai raté l'avion",
@@ -1404,6 +1481,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Maman j'ai encore raté l'avion",
@@ -1422,6 +1500,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Retour vers le futur',
@@ -1440,6 +1519,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: "",
     inList: ["Mes classiques"],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Retour vers le futur 2',
@@ -1458,6 +1538,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Retour vers le futur 3',
@@ -1476,6 +1557,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Rambo : First Blood',
@@ -1494,6 +1576,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Rambo 2 : la mission',
@@ -1512,6 +1595,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Rambo 3',
@@ -1530,6 +1614,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'John Rambo',
@@ -1548,6 +1633,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Parrain',
@@ -1566,6 +1652,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Parrain 2',
@@ -1584,6 +1671,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Scream',
@@ -1602,6 +1690,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Scream 2',
@@ -1620,6 +1709,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Scream 3',
@@ -1638,6 +1728,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Scream 4',
@@ -1656,6 +1747,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Avatar',
@@ -1674,6 +1766,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: ["Mes classiques"],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Avatar : La Voie de l'Eau",
@@ -1692,6 +1785,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'American Pie',
@@ -1710,6 +1804,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'American Pie 2',
@@ -1728,6 +1823,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'American Pie 3 : Marions-les',
@@ -1746,6 +1842,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'American Pie Presents: Beta House',
@@ -1764,6 +1861,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'American Pie Presents: The Naked Mile',
@@ -1782,6 +1880,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'American Pie Presents: Band Camp',
@@ -1800,6 +1899,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'American Pie Presents: The Book of Love',
@@ -1818,6 +1918,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'American Pie 4',
@@ -1836,6 +1937,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1855,6 +1957,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     borrowed: "",
     loaned: "",
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1874,6 +1977,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     borrowed: "",
     loaned: "",
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1893,5 +1997,6 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     borrowed: "",
     loaned: "",
     lastUpdated: '',
+    quotes: [],
   },
 ];

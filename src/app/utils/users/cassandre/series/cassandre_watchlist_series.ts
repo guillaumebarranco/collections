@@ -22,6 +22,7 @@ export const cassandreWatchListSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Anohana',
@@ -44,6 +45,7 @@ export const cassandreWatchListSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Steins Gate',
@@ -66,5 +68,6 @@ export const cassandreWatchListSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 ];

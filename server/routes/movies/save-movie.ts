@@ -32,6 +32,7 @@ interface SaveMovieUserPayload {
   inList?: string[];
   borrowed?: string;
   loaned?: string;
+  quotes?: string[];
 }
 
 const router = express.Router();
@@ -87,6 +88,11 @@ router.post('/', (req: any, res: any) => {
       payload.otherSeenDates = input.otherSeenDates.filter(
         (d: unknown) => typeof d === 'string'
       );
+    }
+    if (Array.isArray(input.quotes)) {
+      payload.quotes = input.quotes
+        .filter((quote: unknown) => typeof quote === 'string' && quote.trim())
+        .map((quote: string) => quote.trim());
     }
 
     const entityPayload = input.entity || null;

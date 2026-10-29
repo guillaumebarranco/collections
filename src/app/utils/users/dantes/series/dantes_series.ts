@@ -22,6 +22,7 @@ export const dantesSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -85,6 +86,7 @@ export const dantesSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -178,6 +180,7 @@ export const dantesSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -271,6 +274,7 @@ export const dantesSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -334,6 +338,7 @@ export const dantesSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -387,6 +392,7 @@ export const dantesSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -410,6 +416,7 @@ export const dantesSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -513,6 +520,7 @@ export const dantesSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -566,6 +574,7 @@ export const dantesSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -589,6 +598,7 @@ export const dantesSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -632,6 +642,7 @@ export const dantesSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -665,6 +676,7 @@ export const dantesSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -688,6 +700,7 @@ export const dantesSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -821,6 +834,7 @@ export const dantesSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -874,6 +888,7 @@ export const dantesSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -947,6 +962,7 @@ export const dantesSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1180,6 +1196,7 @@ export const dantesSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1413,6 +1430,7 @@ export const dantesSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1546,6 +1564,7 @@ export const dantesSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1629,6 +1648,7 @@ export const dantesSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1662,6 +1682,7 @@ export const dantesSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2025,6 +2046,7 @@ export const dantesSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2058,6 +2080,7 @@ export const dantesSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2101,6 +2124,7 @@ export const dantesSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2124,6 +2148,7 @@ export const dantesSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2157,6 +2182,7 @@ export const dantesSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2180,6 +2206,7 @@ export const dantesSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2223,6 +2250,7 @@ export const dantesSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2266,6 +2294,7 @@ export const dantesSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2359,6 +2388,7 @@ export const dantesSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2422,6 +2452,7 @@ export const dantesSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2505,6 +2536,7 @@ export const dantesSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2548,5 +2580,6 @@ export const dantesSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 ];

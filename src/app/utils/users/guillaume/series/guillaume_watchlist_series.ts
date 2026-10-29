@@ -20,6 +20,7 @@ export const guillaumeWatchListSeries: UserSeries = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "Altered Carbon",
@@ -50,6 +51,7 @@ export const guillaumeWatchListSeries: UserSeries = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "Siren",
@@ -89,6 +91,7 @@ export const guillaumeWatchListSeries: UserSeries = [
     ratingComment: "https://nakastream.tv/content/tv/71886",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "The Penguin",
@@ -110,6 +113,7 @@ export const guillaumeWatchListSeries: UserSeries = [
     ratingComment: "Saison 1/1 épisode 3/8",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "FlashForward",
@@ -131,6 +135,7 @@ export const guillaumeWatchListSeries: UserSeries = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "Mr. Robot",
@@ -179,6 +184,7 @@ export const guillaumeWatchListSeries: UserSeries = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "Invincible",
@@ -218,6 +224,7 @@ export const guillaumeWatchListSeries: UserSeries = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "Westworld",
@@ -266,6 +273,7 @@ export const guillaumeWatchListSeries: UserSeries = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "Chuck",
@@ -323,6 +331,7 @@ export const guillaumeWatchListSeries: UserSeries = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "Godfather of Harlem",
@@ -362,6 +371,7 @@ export const guillaumeWatchListSeries: UserSeries = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "La traque dans le sang",
@@ -392,6 +402,7 @@ export const guillaumeWatchListSeries: UserSeries = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "Poupée russe",
@@ -422,6 +433,7 @@ export const guillaumeWatchListSeries: UserSeries = [
     ratingComment: "Saison 1/2 épisode 4/8",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "Bref",
@@ -443,6 +455,7 @@ export const guillaumeWatchListSeries: UserSeries = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "Batwoman",
@@ -482,6 +495,7 @@ export const guillaumeWatchListSeries: UserSeries = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "Gotham",
@@ -539,6 +553,7 @@ export const guillaumeWatchListSeries: UserSeries = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "La Quatrième dimension",
@@ -596,6 +611,7 @@ export const guillaumeWatchListSeries: UserSeries = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "Buffy contre les vampires",
@@ -671,6 +687,7 @@ export const guillaumeWatchListSeries: UserSeries = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "LOST : Les disparus",
@@ -737,6 +754,7 @@ export const guillaumeWatchListSeries: UserSeries = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "Alias",
@@ -794,6 +812,7 @@ export const guillaumeWatchListSeries: UserSeries = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "Swamp Thing",
@@ -815,6 +834,7 @@ export const guillaumeWatchListSeries: UserSeries = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "Le Continental",
@@ -836,6 +856,7 @@ export const guillaumeWatchListSeries: UserSeries = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "Unforgettable",
@@ -884,6 +905,7 @@ export const guillaumeWatchListSeries: UserSeries = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "Smallville",
@@ -986,6 +1008,7 @@ export const guillaumeWatchListSeries: UserSeries = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "Agatha All Along",
@@ -1007,6 +1030,7 @@ export const guillaumeWatchListSeries: UserSeries = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "She-Hulk : Attorney at Law",
@@ -1028,5 +1052,6 @@ export const guillaumeWatchListSeries: UserSeries = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   }
 ];

@@ -82,6 +82,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'How I Met Your Mother',
@@ -184,6 +185,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Loki',
@@ -216,6 +218,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Le Jeu de la Dame',
@@ -238,6 +241,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'WandaVision',
@@ -260,6 +264,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Obi-Wan Kenobi',
@@ -282,6 +287,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Squid Game',
@@ -324,6 +330,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Breaking Bad',
@@ -386,6 +393,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Umbrella Academy',
@@ -438,6 +446,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'You',
@@ -500,6 +509,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'The Boys',
@@ -562,6 +572,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Stranger Things',
@@ -624,6 +635,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Lupin',
@@ -666,6 +678,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Arcane',
@@ -698,6 +711,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'South Park',
@@ -980,6 +994,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Daredevil',
@@ -1022,6 +1037,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Daredevil : Born Again',
@@ -1056,6 +1072,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Jessica Jones',
@@ -1098,6 +1115,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Luke Cage',
@@ -1130,6 +1148,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Iron Fist',
@@ -1162,6 +1181,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'The Defenders',
@@ -1184,6 +1204,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'The Last of Us',
@@ -1216,6 +1237,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: '13 Reasons Why',
@@ -1268,6 +1290,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Astérix & Obélix : Le Combat des Chefs',
@@ -1290,6 +1313,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Brooklyn Nine-Nine',
@@ -1382,6 +1406,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Mercredi',
@@ -1414,6 +1439,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Montre jamais ça à personne',
@@ -1446,6 +1472,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Arnold',
@@ -1468,6 +1495,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Arrow',
@@ -1560,6 +1588,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'The Flash',
@@ -1662,6 +1691,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'La Casa de Papel',
@@ -1714,6 +1744,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Lucifer',
@@ -1786,6 +1817,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'The Punisher',
@@ -1818,6 +1850,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Rick and Morty',
@@ -1910,6 +1943,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Sense8',
@@ -1942,6 +1976,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'The End of the F***ing World',
@@ -1974,6 +2009,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Superman & Lois',
@@ -2026,6 +2062,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Locke & Key',
@@ -2068,6 +2105,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Mon amie Adèle',
@@ -2090,6 +2128,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Agent Carter',
@@ -2122,6 +2161,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Agents of S.H.I.E.L.D.',
@@ -2204,6 +2244,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Ahsoka',
@@ -2226,6 +2267,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Altered Carbon',
@@ -2258,6 +2300,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Avatar: The Last Airbender',
@@ -2300,6 +2343,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Avengers Assemble',
@@ -2342,6 +2386,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Bloqués',
@@ -2364,6 +2409,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Bodyguard',
@@ -2386,6 +2432,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Cloak & Dagger',
@@ -2418,6 +2465,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Community',
@@ -2490,6 +2538,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Constantine',
@@ -2512,6 +2561,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Death Note',
@@ -2534,6 +2584,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Desperate Housewives',
@@ -2626,6 +2677,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Dexter',
@@ -2718,6 +2770,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Family Business',
@@ -2760,6 +2813,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Game of Thrones',
@@ -2852,6 +2906,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Gotham',
@@ -2914,6 +2969,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Hawkeye',
@@ -2936,6 +2992,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Heroes',
@@ -2988,6 +3045,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Heroes Reborn',
@@ -3010,6 +3068,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Inhumans',
@@ -3032,6 +3091,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: "Jupiter's Legacy",
@@ -3054,6 +3114,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Les Grands',
@@ -3096,6 +3157,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Malcolm in the Middle',
@@ -3178,6 +3240,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Mindhunter',
@@ -3210,6 +3273,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Misfits',
@@ -3272,6 +3336,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Mortel',
@@ -3304,6 +3369,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Naruto',
@@ -3376,6 +3442,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Penny Dreadful',
@@ -3418,6 +3485,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Runaways',
@@ -3440,6 +3508,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Samurai Champloo',
@@ -3462,6 +3531,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Shameless',
@@ -3584,6 +3654,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Smallville',
@@ -3696,6 +3767,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Sons of Anarchy',
@@ -3778,6 +3850,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Spartacus',
@@ -3820,6 +3893,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Star Wars Rebels',
@@ -3872,6 +3946,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Star Wars: The Clone Wars',
@@ -3954,6 +4029,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Supernatural',
@@ -4116,6 +4192,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Teen Wolf',
@@ -4188,6 +4265,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'The Big Bang Theory',
@@ -4320,6 +4398,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'The Falcon and the Winter Soldier',
@@ -4342,6 +4421,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'The Get Down',
@@ -4374,6 +4454,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'The Office',
@@ -4476,6 +4557,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'The Originals',
@@ -4538,6 +4620,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'The Returned',
@@ -4560,6 +4643,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'The Shannara Chronicles',
@@ -4592,6 +4676,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'The Tomorrow People',
@@ -4614,6 +4699,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'The Vampire Diaries',
@@ -4706,6 +4792,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Vikings',
@@ -4778,6 +4865,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Watchmen',
@@ -4800,6 +4888,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Yu Yu Hakusho',
@@ -4852,6 +4941,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'One Piece (live-action)',
@@ -4884,6 +4974,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'His & Hers',
@@ -4906,6 +4997,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Dexter: New Blood',
@@ -4928,6 +5020,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Dexter: Resurrection',
@@ -4960,6 +5053,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: "L'Attaque des Titans",
@@ -5012,6 +5106,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Assassination Classroom',
@@ -5044,6 +5139,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Soul Eater',
@@ -5066,6 +5162,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Full Metal Alchemist',
@@ -5098,6 +5195,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Fullmetal Alchemist: Brotherhood',
@@ -5130,6 +5228,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Eyeshield 21',
@@ -5172,6 +5271,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Galactik Football',
@@ -5214,6 +5314,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'La Légende de Korra',
@@ -5266,6 +5367,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'One Punch Man',
@@ -5308,6 +5410,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Naruto Shippuden',
@@ -5540,6 +5643,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'One Piece',
@@ -5772,6 +5876,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Dragon Ball',
@@ -5874,6 +5979,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Dragon Ball Z',
@@ -5996,6 +6102,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Dragon Ball GT',
@@ -6058,6 +6165,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Le marsupilami',
@@ -6100,6 +6208,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Oggy et les cafards',
@@ -6182,6 +6291,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Les Tortues Ninja',
@@ -6304,6 +6414,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Pokémon',
@@ -6556,6 +6667,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Jackie Chan (série animée)',
@@ -6588,6 +6700,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Marcelino',
@@ -6610,6 +6723,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Les Simpsons',
@@ -6972,6 +7086,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Fairy Tail',
@@ -7074,6 +7189,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Fruit Basket',
@@ -7116,6 +7232,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Hamtaro',
@@ -7138,6 +7255,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'winx club',
@@ -7160,6 +7278,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Fallout',
@@ -7192,6 +7311,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Wonder Man',
@@ -7214,6 +7334,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -7237,6 +7358,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -7260,6 +7382,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -7283,6 +7406,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -7306,6 +7430,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -7329,6 +7454,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -7372,6 +7498,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -7395,6 +7522,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -7426,6 +7554,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -7449,6 +7578,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -7472,6 +7602,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -7512,6 +7643,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
 
   {
@@ -7585,6 +7717,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -7668,6 +7801,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -7721,6 +7855,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -7764,6 +7899,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -7797,6 +7933,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -7830,6 +7967,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -7863,6 +8001,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -7896,6 +8035,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -7919,6 +8059,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -7942,6 +8083,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -7965,6 +8107,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -8008,6 +8151,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -8051,6 +8195,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -8074,6 +8219,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -8097,6 +8243,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -8120,6 +8267,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -8153,6 +8301,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -8176,6 +8325,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -8199,6 +8349,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -8222,6 +8373,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -8245,6 +8397,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -8268,6 +8421,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -8301,6 +8455,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -8344,6 +8499,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -8367,6 +8523,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -8390,6 +8547,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -8513,6 +8671,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -8556,6 +8715,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -8579,6 +8739,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -8652,6 +8813,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -8735,6 +8897,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -8766,6 +8929,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
 
   {
@@ -8919,6 +9083,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -8952,6 +9117,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -9025,6 +9191,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -9078,6 +9245,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -9131,6 +9299,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -9184,6 +9353,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -9224,6 +9394,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
 
   {
@@ -9247,6 +9418,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -9280,6 +9452,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -9333,6 +9506,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -9356,6 +9530,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -9449,6 +9624,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -9472,6 +9648,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -9525,6 +9702,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -9548,6 +9726,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -9581,6 +9760,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -9644,6 +9824,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -9667,6 +9848,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -9734,6 +9916,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
 
   {
@@ -9756,6 +9939,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
 
   {
@@ -9778,6 +9962,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
 
   {
@@ -9800,6 +9985,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
 
   {
@@ -9858,6 +10044,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
 
   {
@@ -9880,6 +10067,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
 
   {
@@ -9902,6 +10090,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
 
   {
@@ -9942,6 +10131,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
 
   {
@@ -10000,6 +10190,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
 
   {
@@ -10022,6 +10213,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
 
   {
@@ -10044,6 +10236,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
 
   {
@@ -10066,6 +10259,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
 
   {
@@ -10088,6 +10282,7 @@ export const ronanSeries: UserSeries = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
 
   {
@@ -10128,5 +10323,6 @@ export const ronanSeries: UserSeries = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
 ];

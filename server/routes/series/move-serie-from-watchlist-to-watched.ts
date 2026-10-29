@@ -17,6 +17,14 @@ const {
 
 const router = express.Router();
 
+function formatQuotesTs(quotes: unknown): string {
+  const list = Array.isArray(quotes)
+    ? quotes.filter((quote) => typeof quote === 'string' && quote.trim())
+    : [];
+  if (list.length === 0) return '[]';
+  return `[${list.map((quote: string) => `"${escapeString(quote)}"`).join(', ')}]`;
+}
+
 const usersRootDir = path.join(
   __dirname,
   '..',
@@ -295,6 +303,7 @@ ${formatSeasons(merged)}
     ratingComment: "${escapeString(ratingComment)}",
     borrowed: "${escapeString(typeof serie.borrowed === 'string' ? serie.borrowed : '')}",
     loaned: "${escapeString(typeof serie.loaned === 'string' ? serie.loaned : '')}",
+    quotes: ${formatQuotesTs(serie.quotes)},
   },`;
 }
 

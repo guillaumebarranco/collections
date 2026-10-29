@@ -2702,7 +2702,7 @@ export const baseMoviesApi: BaseMovie[] = [
       },
     ],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BZmY3MmZiZjctOTgyYy00OGIxLTkwMDUtNDU3MGNkMGI3YWJlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+      '/movies_pictures/ac09ef84cb50.jpg',
     releaseDate: '2026-10-09',
     length: 106,
     genre: ['Thriller'],
@@ -2741,7 +2741,7 @@ export const baseMoviesApi: BaseMovie[] = [
       },
     ],
     coverUrl:
-      'https://www.critikat.com/wp-content/uploads/2026/09/9e553042ac8f31f580cb0540fae60dc4.webp',
+      '/movies_pictures/bf3772f135c8.webp',
     releaseDate: '2026-10-09',
     length: 112,
     genre: ['Drame', 'Thriller'],
@@ -2775,7 +2775,7 @@ export const baseMoviesApi: BaseMovie[] = [
       },
     ],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BY2FmMzhmNzQtMmVlNS00OGM1LTlhMzYtNmI2MDA0NjU3YWQ3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+      '/movies_pictures/c29a6a53ac80.jpg',
     releaseDate: '2026-10-16',
     length: 103,
     genre: ['Comédie', 'Drame'],
@@ -2814,7 +2814,7 @@ export const baseMoviesApi: BaseMovie[] = [
       },
     ],
     coverUrl:
-      'https://fr.web.img5.acsta.net/img/25/06/25065d844cf983b62abba5f0ca2c1a64.jpg',
+      '/movies_pictures/e7b4d5a6c666.jpg',
     releaseDate: '2026-09-23',
     length: 132,
     genre: ['Drame', 'Romance', 'Historique'],
@@ -2845,7 +2845,7 @@ export const baseMoviesApi: BaseMovie[] = [
       },
     ],
     coverUrl:
-      'https://fr.web.img2.acsta.net/img/b2/33/b2335224732f2a74fd22019277712f13.jpg',
+      '/movies_pictures/d774bda9d992.jpg',
     releaseDate: '2026-09-23',
     length: 110,
     genre: ['Thriller', 'Drame'],
@@ -2858,31 +2858,32 @@ export const baseMoviesApi: BaseMovie[] = [
   },
 
   {
-    title: "Clayface",
-    director: "James Watkins",
+    title: 'Clayface',
+    director: 'James Watkins',
     actors: [
       {
-        name: "Tom Rhys Harries",
+        name: 'Tom Rhys Harries',
       },
       {
-        name: "Naomi Ackie",
+        name: 'Naomi Ackie',
       },
       {
-        name: "Max Minghella",
+        name: 'Max Minghella',
       },
       {
-        name: "Eddie Marsan",
+        name: 'Eddie Marsan',
       },
       {
-        name: "Joshua James",
+        name: 'Joshua James',
       },
     ],
-    coverUrl: "https://m.media-amazon.com/images/M/MV5BYTAyMjgxZjctMjRjNC00Zjg1LWJiNzctMDkxYzk0NWVmODMwXkEyXkFqcGc@._V1_.jpg",
-    releaseDate: "2026-10-21",
+    coverUrl:
+      '/movies_pictures/c8537d5fce1b.jpg',
+    releaseDate: '2026-10-21',
     length: 108,
     genre: ['Thriller', 'Horreur'],
-    saga: "DCU",
-    description: "",
+    saga: 'DCU',
+    description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2890,25 +2891,26 @@ export const baseMoviesApi: BaseMovie[] = [
   },
 
   {
-    title: "Karma",
-    director: "Guillaume Canet",
+    title: 'Karma',
+    director: 'Guillaume Canet',
     actors: [
       {
-        name: "Marion Cotillard",
+        name: 'Marion Cotillard',
       },
       {
-        name: "Denis Ménochet",
+        name: 'Denis Ménochet',
       },
       {
-        name: "Leonardo Sbaraglia",
+        name: 'Leonardo Sbaraglia',
       },
     ],
-    coverUrl: "https://fr.web.img2.acsta.net/img/94/0a/940afff3ed3b09677bf94e2bc7c3009b.jpg",
-    releaseDate: "2026-10-21",
+    coverUrl:
+      '/movies_pictures/8fadeed11b48.jpg',
+    releaseDate: '2026-10-21',
     length: 140,
     genre: ['Drame'],
-    saga: "",
-    description: "",
+    saga: '',
+    description: '',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -2916,37 +2918,38 @@ export const baseMoviesApi: BaseMovie[] = [
   },
 
   {
-    title: "Les Miserables",
-    director: " Fred Cavayé",
+    title: 'Les Miserables',
+    director: ' Fred Cavayé',
     actors: [
       {
-        name: "Vincent Lindon",
+        name: 'Vincent Lindon',
       },
       {
-        name: "Tahar Rahim",
+        name: 'Tahar Rahim',
       },
       {
-        name: "Noémie Merlant",
+        name: 'Noémie Merlant',
       },
       {
-        name: "Benjamin Lavernhe",
+        name: 'Benjamin Lavernhe',
       },
       {
-        name: "Camille Cottin",
+        name: 'Camille Cottin',
       },
       {
-        name: "Vassili Schneider",
+        name: 'Vassili Schneider',
       },
       {
-        name: "Megan Northam",
+        name: 'Megan Northam',
       },
     ],
-    coverUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR01a3ZsCqJ3H3VRRaXeYfxbpuKUzPSG4_xvvsWNK9Uk_cKLPbQDvOUqh_I&s=10",
-    releaseDate: "2026-10-14",
+    coverUrl:
+      '/movies_pictures/744b3253475f.jpg',
+    releaseDate: '2026-10-14',
     length: 174,
     genre: ['Policier', 'Drame', 'Historique'],
-    saga: "",
-    description: "",
+    saga: '',
+    description: '',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -2955,27 +2958,64 @@ export const baseMoviesApi: BaseMovie[] = [
 
   {
     title: "L'Amour de ta Vie",
-    director: "Rachel Morrison",
+    director: 'Rachel Morrison',
     actors: [
       {
-        name: "Margaret Qualley",
+        name: 'Margaret Qualley',
       },
       {
-        name: "Gabriel Basso",
+        name: 'Gabriel Basso',
       },
       {
-        name: "Aaron Pierre",
+        name: 'Aaron Pierre',
       },
       {
-        name: "Patrick Schwarzenegger",
+        name: 'Patrick Schwarzenegger',
       },
     ],
-    coverUrl: "https://fr.web.img6.acsta.net/img/01/a6/01a6a010b00a50b0c5c57d554763ba56.jpg",
-    releaseDate: "2026-10-14",
+    coverUrl:
+      '/movies_pictures/80706f7517d7.jpg',
+    releaseDate: '2026-10-14',
     length: 109,
     genre: ['Romance', 'Drame'],
-    saga: "",
-    description: "",
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+
+  {
+    title: "Si tu m'écoutes",
+    director: 'Leah McKendrick',
+    actors: [
+      {
+        name: 'Zoey Deutch',
+      },
+      {
+        name: 'Nick Robinson',
+      },
+      {
+        name: 'Nick Offerman',
+      },
+      {
+        name: 'Lukas Gage',
+      },
+      {
+        name: 'Harry Shum Jr.',
+      },
+      {
+        name: 'Ciara Bravo',
+      },
+    ],
+    coverUrl: '/movies_pictures/0228aa16bed6.jpg',
+    releaseDate: '2026-06-19',
+    length: 115,
+    genre: ['Romance', 'Comédie'],
+    saga: '',
+    description:
+      'Pour affronter la mort de sa sœur, Jill lui laisse des messages vocaux. Le numéro est réattribué à un inconnu, qui tombe amoureux de sa voix.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,

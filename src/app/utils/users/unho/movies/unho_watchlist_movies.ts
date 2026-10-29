@@ -18,6 +18,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La Ligne Verte',
@@ -36,6 +37,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Gladiator',
@@ -54,6 +56,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Mulholland Drive',
@@ -72,6 +75,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Evadés',
@@ -90,6 +94,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'E.T. the Extra-Terrestrial',
@@ -108,6 +113,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Fabuleux Destin d'Amélie Poulain",
@@ -126,6 +132,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Lost in Translation',
@@ -144,6 +151,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Top Gun : Maverick',
@@ -162,6 +170,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Top Gun',
@@ -180,6 +189,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La Haine',
@@ -198,6 +208,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "2001 : L'Odyssée de l'espace",
@@ -216,6 +227,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Oppenheimer',
@@ -234,6 +246,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Prey',
@@ -252,6 +265,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Requiem for a Dream',
@@ -270,6 +284,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le silence des agneaux',
@@ -288,6 +303,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: '28 jours plus tard',
@@ -306,6 +322,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Ready Player One',
@@ -324,6 +341,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'exorciste",
@@ -342,6 +360,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Sixième Sens',
@@ -360,6 +379,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Big Lebowski',
@@ -378,6 +398,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Will Hunting',
@@ -396,6 +417,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Into the Wild',
@@ -414,6 +436,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'No Country for Old Men',
@@ -432,6 +455,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: '127 Heures',
@@ -450,6 +474,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Black Swan',
@@ -468,6 +493,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Edge of Tomorrow',
@@ -486,6 +512,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Loup de Wall Street',
@@ -504,6 +531,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Prisoners',
@@ -522,6 +550,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Elysium',
@@ -540,6 +569,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Last Action Hero',
@@ -558,6 +588,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Sinners',
@@ -576,6 +607,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: '12 Years a Slave',
@@ -594,6 +626,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Une bataille après l'autre",
@@ -612,6 +645,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Règne du feu',
@@ -630,6 +664,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Northman',
@@ -648,6 +683,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Lady Vengeance',
@@ -666,6 +702,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Super Mario Bros. le Film',
@@ -684,6 +721,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Cinq Légendes',
@@ -702,6 +740,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Toy Story 2',
@@ -720,6 +759,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Toy Story 3',
@@ -738,6 +778,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Tombeau des lucioles',
@@ -756,6 +797,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Kiki la petite sorcière',
@@ -774,6 +816,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Prince d'Égypte",
@@ -792,6 +835,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Coraline',
@@ -810,6 +854,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Orange mécanique',
@@ -828,6 +873,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Dernier Pub avant la fin du monde',
@@ -846,6 +892,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Batman',
@@ -864,6 +911,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Batman Returns',
@@ -882,6 +930,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Batman',
@@ -900,6 +949,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Mars Attacks !',
@@ -918,6 +968,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Labyrinthe',
@@ -936,6 +987,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Wicked: For Good',
@@ -954,6 +1006,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Anora',
@@ -972,6 +1025,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Substance',
@@ -990,6 +1044,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Hunger Games : La Ballade du serpent et de l'oiseau chanteur",
@@ -1008,6 +1063,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Godzilla Minus One',
@@ -1026,6 +1082,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Killers of the Flower Moon',
@@ -1044,6 +1101,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'It Chapter Two',
@@ -1062,6 +1120,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Toy Story 4',
@@ -1080,6 +1139,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La Forme de l'eau",
@@ -1098,6 +1158,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Sicario',
@@ -1116,6 +1177,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Gatsby le Magnifique',
@@ -1134,6 +1196,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Incendies',
@@ -1152,6 +1215,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Dernier des Mohicans',
@@ -1170,6 +1234,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La Folle Journée de Ferris Bueller',
@@ -1188,6 +1253,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Goonies',
@@ -1206,6 +1272,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Evil Dead',
@@ -1224,6 +1291,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Love Actually',
@@ -1242,6 +1310,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Avengers',
@@ -1260,6 +1329,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Avengers : L'Ère d'Ultron",
@@ -1278,6 +1348,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Avengers: Infinity War',
@@ -1296,6 +1367,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Avengers: Endgame',
@@ -1314,6 +1386,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Star Wars : Episode 8 - Le dernier Jedi',
@@ -1332,6 +1405,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Star Wars : Episode 9 - L'ascension de Skywalker",
@@ -1350,6 +1424,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Terminator 2 : Le Jugement dernier',
@@ -1368,6 +1443,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Matrix Reloaded',
@@ -1386,6 +1462,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Matrix Revolutions',
@@ -1404,6 +1481,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Alien : La Résurrection',
@@ -1422,6 +1500,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Animaux Fantastiques 3 : Les Secrets de Dumbledore',
@@ -1440,6 +1519,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'James Bond : Spectre',
@@ -1458,6 +1538,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'James Bond : Mourir Peut Attendre',
@@ -1476,6 +1557,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Resident Evil',
@@ -1494,6 +1576,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Resident Evil : Apocalypse',
@@ -1512,6 +1595,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Resident Evil : Extinction',
@@ -1530,6 +1614,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Resident Evil : Afterlife',
@@ -1548,6 +1633,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Resident Evil : Retribution',
@@ -1566,6 +1652,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Pirates des Caraïbes 5 : La Vengeance de Salazar',
@@ -1584,5 +1671,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 ];

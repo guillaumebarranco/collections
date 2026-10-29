@@ -67,7 +67,10 @@
       @for (music of sortedStandaloneMusics(); track
       `${music.title}-${music.artist}`) {
       <div class="music-card">
-        <app-music [music]="music"></app-music>
+        <app-music
+        [music]="music"
+        (quotesUpdated)="onMusicQuotesUpdated($event)"
+      ></app-music>
       </div>
       }
     </div>
@@ -77,7 +80,10 @@
   <div class="musics">
     @for (music of sortedMusics(); track `${music.title}-${music.artist}`) {
     <div class="music-card">
-      <app-music [music]="music"></app-music>
+      <app-music
+        [music]="music"
+        (quotesUpdated)="onMusicQuotesUpdated($event)"
+      ></app-music>
     </div>
     }
   </div>
@@ -100,5 +106,8 @@
 <app-album-modal
   [album]="selectedAlbum()"
   [isOpen]="isAlbumModalOpen()"
+  [userId]="activeUserId()"
+  [canEditQuotes]="canEditQuotes()"
   (close)="closeAlbumModal()"
+  (quotesUpdated)="onMusicQuotesUpdated($event)"
 ></app-album-modal>

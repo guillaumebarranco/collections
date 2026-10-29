@@ -34,6 +34,7 @@ async function getAllMusicsData(musics: UserMusic[]): Promise<Music[]> {
       releaseDate: definitiveMatchingMusic?.releaseDate || '',
       duration: definitiveMatchingMusic?.duration || 0,
       genre: definitiveMatchingMusic?.genre || '',
+      quotes: music.quotes ?? [],
     };
   });
 }

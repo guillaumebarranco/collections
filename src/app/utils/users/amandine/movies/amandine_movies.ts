@@ -18,6 +18,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Mickey 17',
@@ -36,6 +37,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Comte de Monte-Cristo',
@@ -54,6 +56,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Oppenheimer',
@@ -72,6 +75,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Barbie',
@@ -90,6 +94,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Babylon',
@@ -108,6 +113,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'École du Bien et du Mal",
@@ -126,6 +132,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Free Guy',
@@ -144,6 +151,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Tenet',
@@ -162,6 +170,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Mulan',
@@ -180,6 +189,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Palm Springs',
@@ -198,6 +208,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Guns Akimbo',
@@ -216,6 +227,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Joker',
@@ -234,6 +246,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Deux moi',
@@ -252,6 +265,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Aladdin',
@@ -270,6 +284,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le chant du loup',
@@ -288,6 +303,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'A Star Is Born',
@@ -306,6 +322,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'E.T. the Extra-Terrestrial',
@@ -324,6 +341,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La soupe aux choux',
@@ -342,6 +360,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'aile ou la cuisse",
@@ -360,6 +379,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Taxi Driver',
@@ -378,6 +398,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les aventures de Rabbi Jacob',
@@ -396,6 +417,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La Folie des grandeurs',
@@ -414,6 +436,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Gendarme de Saint-Tropez',
@@ -432,6 +455,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les oiseaux',
@@ -450,6 +474,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Psychose',
@@ -468,6 +493,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les temps modernes',
@@ -486,6 +512,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Maman je m'occupe des méchants",
@@ -504,6 +531,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Yamakasi',
@@ -522,6 +550,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Kingsman : Le Cercle d'or",
@@ -540,6 +569,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Baby Driver',
@@ -558,6 +588,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Cinquante Nuances de Grey',
@@ -576,6 +607,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Kingsman : Services Secrets',
@@ -594,6 +626,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Lucy',
@@ -612,6 +645,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le médaillon',
@@ -630,6 +664,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Smoking',
@@ -648,6 +683,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Brice de Nice',
@@ -666,6 +702,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La guerre des mondes',
@@ -684,6 +721,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La tour Montparnasse infernale',
@@ -702,6 +740,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Dirty Dancing',
@@ -720,6 +759,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le flic de Beverly Hills',
@@ -738,6 +778,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Maléfique',
@@ -756,6 +797,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Loup de Wall Street',
@@ -774,6 +816,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Gravity',
@@ -792,6 +835,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Elysium',
@@ -810,6 +854,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Majordome',
@@ -828,6 +873,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'World War Z',
@@ -846,6 +892,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Django Unchained',
@@ -864,6 +911,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Time Out',
@@ -882,6 +930,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Footloose',
@@ -900,6 +949,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Intouchables',
@@ -918,6 +968,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Qui veut la peau de Roger Rabbit',
@@ -936,6 +987,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Comment tuer son boss',
@@ -954,6 +1006,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Drive',
@@ -972,6 +1025,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Artist',
@@ -990,6 +1044,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Sucker Punch',
@@ -1008,6 +1063,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Social Network',
@@ -1026,6 +1082,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: '127 Heures',
@@ -1044,6 +1101,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Black Swan',
@@ -1062,6 +1120,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Inception',
@@ -1080,6 +1139,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Fatal',
@@ -1098,6 +1158,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Karate Kid',
@@ -1116,6 +1177,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Alice au Pays des Merveilles',
@@ -1134,6 +1196,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Shutter Island',
@@ -1152,6 +1215,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Percy Jackson : Le Voleur de Foudre',
@@ -1170,6 +1234,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Zombieland',
@@ -1188,6 +1253,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Mr. Nobody',
@@ -1206,6 +1272,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Inglourious Basterds',
@@ -1224,6 +1291,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Reservoir Dogs',
@@ -1242,6 +1310,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Jurassic Park',
@@ -1260,6 +1329,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les visiteurs',
@@ -1278,6 +1348,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le fugitif',
@@ -1296,6 +1367,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Gran Torino',
@@ -1314,6 +1386,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Slumdog Millionaire',
@@ -1332,6 +1405,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Wanted : Choisis ton Destin',
@@ -1350,6 +1424,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Jumper',
@@ -1368,6 +1443,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Je Suis une Légende',
@@ -1386,6 +1462,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: '28 Semaines Plus Tard',
@@ -1404,6 +1481,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Jumanji',
@@ -1422,6 +1500,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Waterworld',
@@ -1440,6 +1519,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Judge Dredd',
@@ -1458,6 +1538,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Un indien dans la ville',
@@ -1476,6 +1557,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'À la Recherche du Bonheur',
@@ -1494,6 +1576,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Hors de Prix',
@@ -1512,6 +1595,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: '300',
@@ -1530,6 +1614,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Blood Diamond',
@@ -1548,6 +1633,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Nos Jours heureux',
@@ -1566,6 +1652,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Diable s'Habille en Prada",
@@ -1584,6 +1671,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Da Vinci Code',
@@ -1602,6 +1690,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title:
@@ -1621,6 +1710,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'King Kong',
@@ -1639,6 +1729,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Nanny McPhee',
@@ -1657,6 +1748,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Lord of War',
@@ -1675,6 +1767,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: '40 Ans, Toujours Puceau',
@@ -1693,6 +1786,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Charlie et la Chocolaterie',
@@ -1711,6 +1805,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Mr. & Mrs. Smith',
@@ -1729,6 +1824,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Baby Sittor',
@@ -1747,6 +1843,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Million Dollar Baby',
@@ -1765,6 +1862,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Leon',
@@ -1783,6 +1881,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Mask',
@@ -1801,6 +1900,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'True Lies',
@@ -1819,6 +1919,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Forrest Gump',
@@ -1837,6 +1938,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Speed',
@@ -1855,6 +1957,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Pulp Fiction',
@@ -1873,6 +1976,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La cité de la peur',
@@ -1891,6 +1995,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Mrs. Doubtfire',
@@ -1909,6 +2014,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Dîner de Cons',
@@ -1927,6 +2033,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1946,6 +2053,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Jour d'Après",
@@ -1964,6 +2072,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Van Helsing',
@@ -1982,6 +2091,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Shaun of the Dead',
@@ -2000,6 +2110,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Choristes',
@@ -2018,6 +2129,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'EuroTrip',
@@ -2036,6 +2148,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les 11 commandements',
@@ -2054,6 +2167,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Saw',
@@ -2072,6 +2186,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'effet papillon",
@@ -2090,6 +2205,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Bruce tout-puissant',
@@ -2108,6 +2224,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Moi, Cesar, 10 ans et demi, 1m39',
@@ -2126,6 +2243,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Arrête-moi si tu peux',
@@ -2144,6 +2262,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Equilibrium',
@@ -2162,6 +2281,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: '28 jours plus tard',
@@ -2180,6 +2300,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le cercle : The ring',
@@ -2198,6 +2319,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Phone Game',
@@ -2216,6 +2338,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Panic Room',
@@ -2234,6 +2357,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Astérix & Obélix : Mission Cléopâtre',
@@ -2252,6 +2376,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Cinquième Élément',
@@ -2270,6 +2395,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'American Beauty',
@@ -2288,6 +2414,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Sixième Sens',
@@ -2306,6 +2433,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Wild Wild West',
@@ -2324,6 +2452,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Sex intentions',
@@ -2342,6 +2471,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Armageddon',
@@ -2360,6 +2490,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Godzilla',
@@ -2378,6 +2509,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Mon voisin le tueur',
@@ -2396,6 +2528,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La Ligne Verte',
@@ -2414,6 +2547,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Tanguy',
@@ -2432,6 +2566,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The One',
@@ -2450,6 +2585,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Wasabi',
@@ -2468,6 +2604,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Shaolin Soccer',
@@ -2486,6 +2623,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Battle Royale',
@@ -2504,6 +2642,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Miss Détective',
@@ -2522,6 +2661,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Snatch',
@@ -2540,6 +2680,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Requiem for a Dream',
@@ -2558,6 +2699,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Gladiator',
@@ -2576,6 +2718,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Sexe entre amis',
@@ -2594,6 +2737,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Source Code',
@@ -2612,6 +2756,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le témoin amoureux',
@@ -2630,6 +2775,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Lettres à Juliette',
@@ -2648,6 +2794,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Harry Potter à l'école des sorciers",
@@ -2666,6 +2813,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Harry Potter et la chambre des secrets',
@@ -2684,6 +2832,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Harry Potter et le prisonnier d'Azkaban",
@@ -2702,6 +2851,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Harry Potter et la coupe de feu',
@@ -2720,6 +2870,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Harry Potter et l'ordre du phénix",
@@ -2738,6 +2889,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Harry Potter et le prince de sang-mêlé',
@@ -2756,6 +2908,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Harry Potter et les reliques de la mort - partie 1',
@@ -2774,6 +2927,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Harry Potter et les reliques de la mort - partie 2',
@@ -2792,6 +2946,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Star Wars : Épisode 1 - La menace fantôme',
@@ -2810,6 +2965,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Star Wars: Episode 2 - L'attaque des clones",
@@ -2828,6 +2984,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Star Wars : Épisode 3 - La revanche des Sith',
@@ -2846,6 +3003,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Star Wars : Episode 4 - Un nouvel espoir',
@@ -2864,6 +3022,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Star Wars : Episode 5 - L'empire contre-attaque",
@@ -2882,6 +3041,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Star Wars : Episode 6 - Le retour du Jedi',
@@ -2900,6 +3060,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Star Wars : Episode 7 - Le réveil de la Force',
@@ -2918,6 +3079,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Star Wars : Episode 8 - Le dernier Jedi',
@@ -2936,6 +3098,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Terminator 2 : Le Jugement dernier',
@@ -2954,6 +3117,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Dune',
@@ -2972,6 +3136,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Dune : Partie 2',
@@ -2990,6 +3155,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Murder Mystery',
@@ -3008,6 +3174,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Animaux Fantastiques',
@@ -3026,6 +3193,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Animaux Fantastiques 2 : Les crimes de Grindelwald',
@@ -3044,6 +3212,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Animaux Fantastiques 3 : Les Secrets de Dumbledore',
@@ -3062,6 +3231,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Enola Holmes',
@@ -3080,6 +3250,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Enola Holmes 2',
@@ -3098,6 +3269,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'A couteaux tirés',
@@ -3116,6 +3288,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'A couteaux tirés 2 : Glass Onion',
@@ -3134,6 +3307,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'James Bond: Meurs un autre jour',
@@ -3152,6 +3326,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'James Bond : Casino Royale',
@@ -3170,6 +3345,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'James Bond : Quantum of Solace',
@@ -3188,6 +3364,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'James Bond : Skyfall',
@@ -3206,6 +3383,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'James Bond : Spectre',
@@ -3224,6 +3402,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'James Bond : Mourir Peut Attendre',
@@ -3242,6 +3421,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "OSS 117 : Le Caire, Nid d'Espions",
@@ -3260,6 +3440,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'OSS 117 : Rio ne Répond Plus',
@@ -3278,6 +3459,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Incassable',
@@ -3296,6 +3478,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Split',
@@ -3314,6 +3497,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Insaisissables',
@@ -3332,6 +3516,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Divergente',
@@ -3350,6 +3535,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Taken',
@@ -3368,6 +3554,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Labyrinthe',
@@ -3386,6 +3573,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Hunger Games',
@@ -3404,6 +3592,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Hunger Games : La Révolte - Partie 1',
@@ -3422,6 +3611,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Very Bad Trip',
@@ -3440,6 +3630,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Very Bad Trip 2',
@@ -3458,6 +3649,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Die Hard : Piège de cristal',
@@ -3476,6 +3668,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Die Hard 2 : 58 minutes pour vivre',
@@ -3494,6 +3687,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Die Hard 3 : une journée en enfer',
@@ -3512,6 +3706,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Die Hard 4 : Retour en Enfer',
@@ -3530,6 +3725,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Twilight : Chapitre 1 - Fascination',
@@ -3548,6 +3744,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Twilight : Chapitre 2 - Tentation',
@@ -3566,6 +3763,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Twilight : Chapitre 3 - Hésitation',
@@ -3584,6 +3782,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Twilight : Chapitre 4 - Révélation - Partie 1',
@@ -3602,6 +3801,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Twilight : Chapitre 4 - Révélation - Partie 2',
@@ -3620,6 +3820,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Underworld',
@@ -3638,6 +3839,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Underworld 2 : Évolution',
@@ -3656,6 +3858,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Underworld 3 : Le Soulèvement des Lycans',
@@ -3674,6 +3877,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Underworld 4 : Nouvelle ère',
@@ -3692,6 +3896,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Destination Finale',
@@ -3710,6 +3915,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Destination Finale 2',
@@ -3728,6 +3934,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Destination Finale 3',
@@ -3746,6 +3953,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Destination Finale 4',
@@ -3764,6 +3972,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Avatar',
@@ -3782,6 +3991,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'American Pie',
@@ -3800,6 +4010,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'American Pie 2',
@@ -3818,6 +4029,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La nuit au musée',
@@ -3836,6 +4048,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La Nuit au musée 2',
@@ -3854,6 +4067,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Resident Evil',
@@ -3872,6 +4086,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Resident Evil : Apocalypse',
@@ -3890,6 +4105,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Rush Hour',
@@ -3908,6 +4124,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Rush Hour 2',
@@ -3926,6 +4143,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Rush Hour 3',
@@ -3944,6 +4162,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Ocean's Eleven",
@@ -3962,6 +4181,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Ocean's Twelve",
@@ -3980,6 +4200,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Ocean's Thirteen",
@@ -3998,6 +4219,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Ocean's Eight",
@@ -4016,6 +4238,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Pirates des Caraïbes : La malédiction du Black Pearl',
@@ -4034,6 +4257,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Pirates des Caraïbes 2 : Le Secret du Coffre Maudit',
@@ -4052,6 +4276,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Pirates des Caraïbes 3 : Jusqu'au Bout du Monde",
@@ -4070,6 +4295,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Taxi',
@@ -4088,6 +4314,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Taxi 2',
@@ -4106,6 +4333,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Taxi 3',
@@ -4124,6 +4352,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Taxi 4',
@@ -4142,6 +4371,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Scary Movie',
@@ -4160,6 +4390,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Scary Movie 2',
@@ -4178,6 +4409,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Kill Bill: Vol. 1',
@@ -4196,6 +4428,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Kill Bill: Vol. 2',
@@ -4214,6 +4447,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Hellboy',
@@ -4232,6 +4466,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Hellboy 2 : Les Légions d'Or Maudites",
@@ -4250,6 +4485,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les bronzés',
@@ -4268,6 +4504,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les bronzés font du ski',
@@ -4286,6 +4523,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Bronzés 3 : Amis pour la Vie',
@@ -4304,6 +4542,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Transporteur',
@@ -4322,6 +4561,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'xXx',
@@ -4340,6 +4580,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Sin City',
@@ -4358,6 +4599,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Blade',
@@ -4376,6 +4618,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Blade II',
@@ -4394,6 +4637,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Matrix',
@@ -4412,6 +4656,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Spy Kids',
@@ -4430,6 +4675,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Bad Boys',
@@ -4448,6 +4694,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Bad Boys II',
@@ -4466,6 +4713,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Men in Black',
@@ -4484,6 +4732,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Men in Black II',
@@ -4502,6 +4751,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Men in Black 3',
@@ -4520,6 +4770,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Lara Croft : Tomb Raider',
@@ -4538,6 +4789,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Tomb Raider : le berceau de la vie',
@@ -4556,6 +4808,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La Momie',
@@ -4574,6 +4827,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Retour de la Momie',
@@ -4592,6 +4846,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La momie : la tombe de l'empereur dragon",
@@ -4610,6 +4865,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'arme fatale",
@@ -4628,6 +4884,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'arme fatale 2",
@@ -4646,6 +4903,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'arme fatale 3",
@@ -4664,6 +4922,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'arme fatale 4",
@@ -4682,6 +4941,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Predator',
@@ -4700,6 +4960,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Predator 2',
@@ -4718,6 +4979,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Predators',
@@ -4736,6 +4998,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Alien, le huitième passager',
@@ -4754,6 +5017,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Aliens, le retour',
@@ -4772,6 +5036,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Alien 3',
@@ -4790,6 +5055,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Alien : La Résurrection',
@@ -4808,6 +5074,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Alien vs. Predator',
@@ -4826,6 +5093,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Alien vs. Predator : Requiem',
@@ -4844,6 +5112,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Maman j'ai raté l'avion",
@@ -4862,6 +5131,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Maman j'ai encore raté l'avion",
@@ -4880,6 +5150,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Retour vers le futur',
@@ -4898,6 +5169,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Rambo : First Blood',
@@ -4916,6 +5188,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Mon inconnue',
@@ -4934,6 +5207,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Princess Switch',
@@ -4952,6 +5226,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Tout le Bleu du Ciel',
@@ -4970,6 +5245,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La Probabilité statistique de l'amour au premier regard",
@@ -4988,6 +5264,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Love Hard',
@@ -5006,6 +5283,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La Belle et la Bête',
@@ -5024,6 +5302,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Un jour',
@@ -5042,6 +5321,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Sex Friends',
@@ -5060,6 +5340,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Love & autres drogues',
@@ -5078,6 +5359,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Sexy Dance',
@@ -5096,6 +5378,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Sexy Dance 2',
@@ -5114,6 +5397,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Sexy Dance 3D',
@@ -5132,6 +5416,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'Arnacœur",
@@ -5150,6 +5435,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Valentine's Day",
@@ -5168,6 +5454,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: '17 ans encore',
@@ -5186,6 +5473,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Jackpot',
@@ -5204,6 +5492,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Orgueil et Préjugés',
@@ -5222,6 +5511,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Match Point',
@@ -5240,6 +5530,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Hitch : Expert en Séduction',
@@ -5258,6 +5549,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Amour & Amnésie',
@@ -5276,6 +5568,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Love Actually',
@@ -5294,6 +5587,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le temps d'un automne",
@@ -5312,6 +5606,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Pearl Harbor',
@@ -5330,6 +5625,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Ce que Veulent les Femmes',
@@ -5348,6 +5644,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Coup de foudre à Notting Hill',
@@ -5366,6 +5663,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Rencontre avec Joe Black',
@@ -5384,6 +5682,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Pretty Woman',
@@ -5402,6 +5701,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La La Land',
@@ -5420,6 +5720,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'amour ouf",
@@ -5438,6 +5739,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Princess Switch : Switched Again',
@@ -5456,6 +5758,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Holidate',
@@ -5474,6 +5777,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Avengers',
@@ -5492,6 +5796,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Avengers : L'Ère d'Ultron",
@@ -5510,6 +5815,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Avengers: Infinity War',
@@ -5528,6 +5834,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Avengers: Endgame',
@@ -5546,6 +5853,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Captain America : First Avenger',
@@ -5564,6 +5872,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Captain America : Le Soldat de l'Hiver",
@@ -5582,6 +5891,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Captain America : Civil War',
@@ -5600,6 +5910,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Iron Man',
@@ -5618,6 +5929,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Iron Man 2',
@@ -5636,6 +5948,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'Incroyable Hulk",
@@ -5654,6 +5967,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Thor',
@@ -5672,6 +5986,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Thor : le monde des ténèbres',
@@ -5690,6 +6005,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Gardiens de la Galaxie',
@@ -5708,6 +6024,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Gardiens de la Galaxie Vol. 2',
@@ -5726,6 +6043,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Ant-Man',
@@ -5744,6 +6062,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Batman',
@@ -5762,6 +6081,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Batman Returns',
@@ -5780,6 +6100,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Batman Forever',
@@ -5798,6 +6119,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Batman & Robin',
@@ -5816,6 +6138,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Batman Begins',
@@ -5834,6 +6157,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Dark Knight : Le Chevalier Noir',
@@ -5852,6 +6176,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Dark Knight Rises',
@@ -5870,6 +6195,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Suicide Squad',
@@ -5888,6 +6214,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Watchmen : Les Gardiens',
@@ -5906,6 +6233,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Catwoman',
@@ -5924,6 +6252,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Wonder Woman',
@@ -5942,6 +6271,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Deadpool',
@@ -5960,6 +6290,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Deadpool 2',
@@ -5978,6 +6309,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'X-Men',
@@ -5996,6 +6328,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'X-men 2',
@@ -6014,6 +6347,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "X-Men : L'Affrontement Final",
@@ -6032,6 +6366,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'X-Men Origins : Wolverine',
@@ -6050,6 +6385,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'X-Men : Le Commencement',
@@ -6068,6 +6404,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'X-Men : Days of Future Past',
@@ -6086,6 +6423,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'X-Men : Apocalypse',
@@ -6104,6 +6442,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Venom',
@@ -6122,6 +6461,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Spider-Man',
@@ -6140,6 +6480,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Spider-Man 2',
@@ -6158,6 +6499,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Spider-Man 3',
@@ -6176,6 +6518,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Amazing Spider-Man',
@@ -6194,6 +6537,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The Amazing Spider-Man : Le Destin d'un Héros",
@@ -6212,6 +6556,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Kick-Ass',
@@ -6230,6 +6575,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Kick-Ass 2',
@@ -6248,6 +6594,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Hancock',
@@ -6266,6 +6613,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les 4 Fantastiques',
@@ -6284,6 +6632,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les 4 Fantastiques et le Surfeur d'Argent",
@@ -6302,6 +6651,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Ghost Rider',
@@ -6320,6 +6670,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Sky High',
@@ -6338,6 +6689,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Hulk',
@@ -6356,6 +6708,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Dragons',
@@ -6374,6 +6727,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Dragons 2',
@@ -6392,6 +6746,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Mondes de Ralph',
@@ -6410,6 +6765,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Super Mario Bros. le Film',
@@ -6428,6 +6784,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Encanto',
@@ -6446,6 +6803,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Baby boss',
@@ -6464,6 +6822,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Vaiana',
@@ -6482,6 +6841,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Vice-Versa',
@@ -6500,6 +6860,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Nouveaux Héros',
@@ -6518,6 +6879,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La Reine des Neiges',
@@ -6536,6 +6898,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Moi, Moche et Méchant',
@@ -6554,6 +6917,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Moi, Moche et Méchant 2',
@@ -6572,6 +6936,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'Âge de Glace",
@@ -6590,6 +6955,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'Âge de Glace 2",
@@ -6608,6 +6974,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Rebelle',
@@ -6626,6 +6993,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Arthur et les Minimoys',
@@ -6644,6 +7012,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Arthur et la Vengeance de Maltazard',
@@ -6662,6 +7031,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La Princesse et la Grenouille',
@@ -6680,6 +7050,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Tempête de Boulettes Géantes',
@@ -6698,6 +7069,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'WALL-E',
@@ -6716,6 +7088,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Kung Fu Panda',
@@ -6734,6 +7107,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Simpson, le Film',
@@ -6752,6 +7126,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Ratatouille',
@@ -6770,6 +7145,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Shrek',
@@ -6788,6 +7164,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Shrek 2',
@@ -6806,6 +7183,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Shrek le Troisième',
@@ -6824,6 +7202,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Indestructibles',
@@ -6842,6 +7221,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Indestructibles 2',
@@ -6860,6 +7240,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Monstres et Cie',
@@ -6878,6 +7259,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Toy Story',
@@ -6896,6 +7278,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Toy Story 2',
@@ -6914,6 +7297,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Toy Story 3',
@@ -6932,6 +7316,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'South Park, le Film',
@@ -6950,6 +7335,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Tarzan',
@@ -6968,6 +7354,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Fourmiz',
@@ -6986,6 +7373,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Mulan',
@@ -7004,6 +7392,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Princesse Mononoké',
@@ -7022,6 +7411,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Hercule',
@@ -7040,6 +7430,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Pocahontas',
@@ -7058,6 +7449,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Space Jam',
@@ -7076,6 +7468,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Roi Lion',
@@ -7094,6 +7487,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Aladdin',
@@ -7112,6 +7506,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La petite sirène',
@@ -7130,6 +7525,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Peter Pan',
@@ -7148,6 +7544,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Pinocchio',
@@ -7167,6 +7564,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Raya et le Dernier Dragon',
@@ -7185,6 +7583,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le monde de Nemo',
@@ -7203,6 +7602,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -7222,6 +7622,7 @@ export const amandineMovies1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Frankenstein',
@@ -7240,6 +7641,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Wicked',
@@ -7258,6 +7660,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Wonka',
@@ -7276,6 +7679,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Élémentaire',
@@ -7294,6 +7698,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La Petite Sirène',
@@ -7312,6 +7717,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Donjons & Dragons : L'Honneur des voleurs",
@@ -7330,6 +7736,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Il était une fois 2',
@@ -7348,6 +7755,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Pinocchio',
@@ -7366,6 +7774,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Blonde',
@@ -7384,6 +7793,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Elvis',
@@ -7402,6 +7812,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Downton Abbey II : Une nouvelle ère',
@@ -7420,6 +7831,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Morbius',
@@ -7438,6 +7850,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Mort sur le Nil',
@@ -7456,6 +7869,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The King's Man : Première mission",
@@ -7474,6 +7888,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'West Side Story',
@@ -7492,6 +7907,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Cendrillon',
@@ -7510,6 +7926,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "He's All That",
@@ -7528,6 +7945,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "S.O.S. Fantômes : L'Héritage",
@@ -7546,6 +7964,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Jungle Cruise',
@@ -7564,6 +7983,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Old',
@@ -7582,6 +8002,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Luca',
@@ -7600,6 +8021,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Cruella',
@@ -7618,6 +8040,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'À tous les garçons : Pour toujours et à jamais',
@@ -7636,6 +8059,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Sacrées sorcières',
@@ -7654,6 +8078,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: '2 Hearts',
@@ -7672,6 +8097,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Rebecca',
@@ -7690,6 +8116,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Kissing Booth 2',
@@ -7708,6 +8135,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Hollywood',
@@ -7726,6 +8154,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Love Wedding Repeat',
@@ -7744,6 +8173,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Emma.',
@@ -7762,6 +8192,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "À tous les garçons : P.S. Je t'aime toujours",
@@ -7780,6 +8211,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: '1917',
@@ -7798,6 +8230,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Gentlemen',
@@ -7816,6 +8249,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La Belle et le Clochard',
@@ -7834,6 +8268,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La Reine des neiges 2',
@@ -7852,6 +8287,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Klaus',
@@ -7870,6 +8306,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Maléfique : Le Pouvoir du Mal',
@@ -7888,6 +8325,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The King',
@@ -7906,6 +8344,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Parasite',
@@ -7924,6 +8363,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Rocketman',
@@ -7942,6 +8382,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Pokémon : Détective Pikachu',
@@ -7960,6 +8401,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Dumbo',
@@ -7978,6 +8420,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Retour de Mary Poppins',
@@ -7996,6 +8439,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Bohemian Rhapsody',
@@ -8014,6 +8458,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Mamma Mia! Here We Go Again',
@@ -8032,6 +8477,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Jurassic World: Fallen Kingdom',
@@ -8050,6 +8496,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'BlacKkKlansman',
@@ -8068,6 +8515,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Tomb Raider',
@@ -8086,6 +8534,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Pitch Perfect 3',
@@ -8104,6 +8553,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Greatest Showman',
@@ -8122,6 +8572,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Jumanji : Bienvenue dans la jungle',
@@ -8140,6 +8591,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Paddington 2',
@@ -8158,6 +8610,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Crime de l'Orient-Express",
@@ -8176,6 +8629,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Pirates des Caraïbes 5 : La Vengeance de Salazar',
@@ -8194,6 +8648,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Miss Peregrine et les Enfants particuliers',
@@ -8212,6 +8667,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Lion',
@@ -8230,6 +8686,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Piper',
@@ -8248,6 +8705,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Warcraft',
@@ -8266,6 +8724,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Livre de la jungle',
@@ -8284,6 +8743,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Zootopie',
@@ -8302,6 +8762,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Nouveau Stagiaire',
@@ -8320,6 +8781,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Jurassic World',
@@ -8338,6 +8800,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Pitch Perfect 2',
@@ -8356,6 +8819,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Cendrillon',
@@ -8374,6 +8838,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Paddington',
@@ -8392,6 +8857,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Big Eyes',
@@ -8410,6 +8876,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La Grande Aventure Lego',
@@ -8428,6 +8895,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Snowpiercer',
@@ -8446,6 +8914,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'About Time',
@@ -8464,6 +8933,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Monstres Academy',
@@ -8482,6 +8952,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Gatsby le Magnifique',
@@ -8500,6 +8971,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Monde fantastique d'Oz",
@@ -8518,6 +8990,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Warm Bodies',
@@ -8536,6 +9009,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Misérables',
@@ -8554,6 +9028,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Hobbit : Un voyage inattendu',
@@ -8572,6 +9047,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Pitch Perfect',
@@ -8590,6 +9066,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Hôtel Transylvanie',
@@ -8608,6 +9085,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Ted',
@@ -8626,6 +9104,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Dark Shadows',
@@ -8644,6 +9123,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Chat Potté',
@@ -8662,6 +9142,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Aventures de Tintin',
@@ -8680,6 +9161,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Hugo',
@@ -8698,6 +9180,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La Planète des singes : Les Origines',
@@ -8716,6 +9199,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Kung Fu Panda 2',
@@ -8734,6 +9218,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Minuit à Paris',
@@ -8752,6 +9237,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Rio',
@@ -8770,6 +9256,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Rango',
@@ -8788,6 +9275,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Raiponce',
@@ -8806,6 +9294,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Little White Lies',
@@ -8824,6 +9313,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Arrietty, le petit monde des chapardeurs',
@@ -8842,6 +9332,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'Apprenti sorcier",
@@ -8860,6 +9351,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Sherlock Holmes',
@@ -8878,6 +9370,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Lovely Bones',
@@ -8896,6 +9389,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Jennifer's Body",
@@ -8914,6 +9408,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'District 9',
@@ -8932,6 +9427,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Orphan',
@@ -8950,6 +9446,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Public Enemies',
@@ -8968,6 +9465,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La proposition',
@@ -8986,6 +9484,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Là-haut',
@@ -9004,6 +9503,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Coraline',
@@ -9022,6 +9522,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Meilleures ennemies',
@@ -9040,6 +9541,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'Étrange Histoire de Benjamin Button",
@@ -9058,6 +9560,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Volt, star malgré lui',
@@ -9076,6 +9579,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Madagascar 2',
@@ -9094,6 +9598,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Ponyo',
@@ -9112,6 +9617,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Mamma Mia!',
@@ -9130,6 +9636,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Monde de Narnia : Le Prince Caspian',
@@ -9148,6 +9655,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Sex and the City',
@@ -9166,6 +9674,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: '27 Robes',
@@ -9184,6 +9693,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Alvin et les Chipmunks',
@@ -9202,6 +9712,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Sweeney Todd : Le Diabolique Barbier de Fleet Street',
@@ -9220,6 +9731,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Enchanted',
@@ -9238,6 +9750,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'P.S. I Love You',
@@ -9256,6 +9769,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Stardust',
@@ -9274,6 +9788,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Hairspray',
@@ -9292,6 +9807,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Secret de Terabithia',
@@ -9310,6 +9826,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Happy Feet',
@@ -9328,6 +9845,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Labyrinthe de Pan',
@@ -9346,6 +9864,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Marie Antoinette',
@@ -9364,6 +9883,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Noces funèbres',
@@ -9382,6 +9902,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Madagascar',
@@ -9400,6 +9921,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Constantine',
@@ -9418,6 +9940,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Aviator',
@@ -9436,6 +9959,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les déstreuses aventures des Orphelins Baudelaire',
@@ -9454,6 +9978,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Benjamin Gates et le Trésor des Templiers',
@@ -9472,6 +9997,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Mulan 2',
@@ -9490,6 +10016,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Princess Diaries 2: Royal Engagement',
@@ -9508,6 +10035,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Mickey, Donald, Dingo : Les Trois Mousquetaires',
@@ -9526,6 +10054,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Village',
@@ -9544,6 +10073,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Comme Cendrillon',
@@ -9562,6 +10092,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Troy',
@@ -9580,6 +10111,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Lolita malgré moi',
@@ -9598,6 +10130,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: '30 ans sinon rien',
@@ -9616,6 +10149,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Ella au pays enchanté',
@@ -9634,6 +10168,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Une nana au poil',
@@ -9652,6 +10187,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Big Fish',
@@ -9670,6 +10206,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Manoir hanté et les 999 Fantômes',
@@ -9688,6 +10225,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Dernier Samouraï',
@@ -9706,6 +10244,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Frère des ours',
@@ -9724,6 +10263,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'George de la Jungle 2',
@@ -9742,6 +10282,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Un vendredi dingue, dingue, dingue',
@@ -9760,6 +10301,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Comment se faire larguer en dix leçons',
@@ -9778,6 +10320,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Thirteen',
@@ -9796,6 +10339,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Chicago',
@@ -9814,6 +10358,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La Planète au trésor',
@@ -9832,6 +10377,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Tuck Everlasting',
@@ -9850,6 +10396,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: '8 Mile',
@@ -9868,6 +10415,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Royaume des chats',
@@ -9886,6 +10434,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Lilo et Stitch',
@@ -9904,6 +10453,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Insomnia',
@@ -9922,6 +10472,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Princesse malgré elle',
@@ -9940,6 +10491,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Others',
@@ -9958,6 +10510,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La Planète des singes',
@@ -9976,6 +10529,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Voyage de Chihiro',
@@ -9994,6 +10548,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La Revanche d'une blonde",
@@ -10012,6 +10567,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'A.I. Intelligence artificielle',
@@ -10030,6 +10586,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Atlantide : L'Empire perdu",
@@ -10048,6 +10605,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Moulin Rouge !',
@@ -10066,6 +10624,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Journal de Bridget Jones',
@@ -10084,6 +10643,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Kuzco, l'Empereur mégalo",
@@ -10102,6 +10662,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Grinch',
@@ -10120,6 +10681,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Charlie et ses drôles de dames',
@@ -10138,6 +10700,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Mon beau-père et moi',
@@ -10156,6 +10719,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Chicken Run',
@@ -10174,6 +10738,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Billy Elliot',
@@ -10192,6 +10757,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Dinosaure',
@@ -10210,6 +10776,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La Route d'Eldorado",
@@ -10228,6 +10795,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La Petite Sirène 2 : Retour à l'océan",
@@ -10246,6 +10814,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Fantasia 2000',
@@ -10264,6 +10833,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Stuart Little',
@@ -10282,6 +10852,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Sleepy Hollow',
@@ -10300,6 +10871,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Fight Club',
@@ -10318,6 +10890,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: '10 bonnes raisons de te larguer',
@@ -10336,6 +10909,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Elle est trop bien',
@@ -10354,6 +10928,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Prince d'Égypte",
@@ -10372,6 +10947,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: '1001 Pattes',
@@ -10390,6 +10966,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Roi Lion 2 : L'Honneur de la tribu",
@@ -10408,6 +10985,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Pocahontas 2 : Un monde nouveau',
@@ -10426,6 +11004,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'À nous quatre',
@@ -10444,6 +11023,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Mary à tout prix',
@@ -10462,6 +11042,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Monde magique de la Belle et la Bête',
@@ -10480,6 +11061,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Flubber',
@@ -10498,6 +11080,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Anastasia',
@@ -10516,6 +11099,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Titanic',
@@ -10534,6 +11118,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Tower of Terror',
@@ -10552,6 +11137,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Souviens-toi... l'été dernier",
@@ -10570,6 +11156,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Gattaca',
@@ -10588,6 +11175,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Face/Off',
@@ -10606,6 +11194,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Monde perdu : Jurassic Park',
@@ -10624,6 +11213,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Austin Powers',
@@ -10642,6 +11232,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Mars Attacks !',
@@ -10660,6 +11251,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les 101 Dalmatiens',
@@ -10678,6 +11270,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Roméo + Juliette',
@@ -10696,6 +11289,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Matilda',
@@ -10714,6 +11308,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Bossu de Notre-Dame',
@@ -10732,6 +11327,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'James et la Pêche géante',
@@ -10750,6 +11346,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'GoldenEye',
@@ -10768,6 +11365,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Casper',
@@ -10786,6 +11384,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Braveheart',
@@ -10804,6 +11403,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Super Noël',
@@ -10822,6 +11422,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Entretien avec un vampire',
@@ -10840,6 +11441,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Retour de Jafar',
@@ -10858,6 +11460,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Ace Ventura, détective pour chiens et chats',
@@ -10876,6 +11479,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'Étrange Noël de monsieur Jack",
@@ -10894,6 +11498,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Un jour sans fin',
@@ -10912,6 +11517,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: '3 Ninjas',
@@ -10930,6 +11536,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Strictly Ballroom',
@@ -10948,6 +11555,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'JFK',
@@ -10966,6 +11574,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La Famille Addams',
@@ -10984,6 +11593,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Hook ou la Revanche du capitaine Crochet',
@@ -11002,6 +11612,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Edward aux mains d'argent",
@@ -11020,6 +11631,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Ghost',
@@ -11038,6 +11650,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Kiki la petite sorcière',
@@ -11056,6 +11669,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Indiana Jones et la Dernière Croisade',
@@ -11074,6 +11688,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Oliver et Compagnie',
@@ -11092,6 +11707,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Tombeau des lucioles',
@@ -11110,6 +11726,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Mon voisin Totoro',
@@ -11128,6 +11745,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Beetlejuice',
@@ -11146,6 +11764,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Château dans le ciel',
@@ -11164,6 +11783,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Labyrinthe',
@@ -11182,6 +11802,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Gremlins',
@@ -11200,6 +11821,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'S.O.S. Fantômes',
@@ -11218,6 +11840,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Indiana Jones et le Temple maudit',
@@ -11236,6 +11859,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Nausicaä de la Vallée du Vent',
@@ -11254,6 +11878,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Grease 2',
@@ -11272,6 +11897,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Blues Brothers',
@@ -11290,6 +11916,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Halloween',
@@ -11308,6 +11935,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Grease',
@@ -11326,6 +11954,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Livre de la jungle',
@@ -11344,6 +11973,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La Mélodie du bonheur',
@@ -11362,6 +11992,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Mary Poppins',
@@ -11380,6 +12011,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Parapluies de Cherbourg',
@@ -11398,6 +12030,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'West Side Story',
@@ -11416,6 +12049,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La Belle au bois dormant',
@@ -11434,6 +12068,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La Belle et le Clochard',
@@ -11452,6 +12087,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Vacances romaines',
@@ -11470,6 +12106,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Chantons sous la pluie',
@@ -11488,6 +12125,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Alice au pays des merveilles',
@@ -11506,6 +12144,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Cendrillon',
@@ -11524,6 +12163,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Pierre et le Loup',
@@ -11542,6 +12182,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Trois Caballeros',
@@ -11560,6 +12201,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Saludos Amigos',
@@ -11578,6 +12220,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Bambi',
@@ -11596,6 +12239,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Dumbo',
@@ -11614,6 +12258,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Fantasia',
@@ -11632,6 +12277,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Magicien d'Oz",
@@ -11650,6 +12296,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Blanche-Neige et les Sept Nains',
@@ -11668,5 +12315,6 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 ];

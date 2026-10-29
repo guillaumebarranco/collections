@@ -20,6 +20,14 @@ const { normalizeWatchPriority } = require('../../utils/watch-priority-utils');
 
 const router = express.Router();
 
+function formatQuotesTs(quotes: unknown): string {
+  const list = Array.isArray(quotes)
+    ? quotes.filter((quote) => typeof quote === 'string' && quote.trim())
+    : [];
+  if (list.length === 0) return '[]';
+  return `[${list.map((quote: string) => `"${escapeString(quote)}"`).join(', ')}]`;
+}
+
 function formatBaseMovie(entity: any): string {
   const actors = Array.isArray(entity.actors) ? entity.actors : [];
   const actorsLines = actors
@@ -77,7 +85,7 @@ function formatUserMovie(user: any): string {
         user.inList.map((s: any) => '"' + escapeString(s) + '"').join(', ') +
         ']'
       : '[]'
-  },\n    borrowed: "${escapeString(user.borrowed ?? '')}",\n    loaned: "${escapeString(user.loaned ?? '')}",\n    lastUpdated: "${formatMovieLastUpdated()}",\n  },`;
+  },\n    borrowed: "${escapeString(user.borrowed ?? '')}",\n    loaned: "${escapeString(user.loaned ?? '')}",\n    lastUpdated: "${formatMovieLastUpdated()}",\n    quotes: ${formatQuotesTs(user.quotes)},\n  },`;
 }
 
 function getUserMoviesTargetFile(userId: string, isWatchlist: boolean) {

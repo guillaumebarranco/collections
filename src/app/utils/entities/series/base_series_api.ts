@@ -421,7 +421,7 @@ export const baseSeriesApi: BaseSerie[] = [
       },
     ],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BMjM1NDA1ZmYtYTNhZi00ZTQ0LWI1Y2UtYjJmM2Y4MWUzZjA1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+      '/series_pictures/529bd74a2976.jpg',
     releaseDate: '2026-10-02',
     endDate: '',
     genre: ['Comédie'],
@@ -453,7 +453,7 @@ export const baseSeriesApi: BaseSerie[] = [
       },
     ],
     coverUrl:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHFNO-h7wm2cGVYuP6zySnj8g2kyyRkcaC1euh1Ep4ksBaLWzFrDrJvw3t&s=10',
+      '/series_pictures/a63ec739a899.jpg',
     releaseDate: '2026-09-30',
     endDate: '',
     genre: ['Sport'],
@@ -488,7 +488,7 @@ export const baseSeriesApi: BaseSerie[] = [
         name: "Timothy Simons",
       },
     ],
-    coverUrl: "https://fr.web.img5.acsta.net/img/a3/59/a359079011d778a73942a68f0ba8edf5.jpg",
+    coverUrl: "/series_pictures/36535082a4f8.jpg",
     releaseDate: "2024-09-25",
     endDate: "",
     genre: ['Comédie romantique'],

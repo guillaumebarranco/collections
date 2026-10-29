@@ -40,6 +40,7 @@ import {
 import { MovieCommunityWatchersModalComponent } from '../../modals/movie-community-watchers-modal/movie-community-watchers-modal.component';
 import { PersonBadgeComponent } from '../../shared/person-badge/person-badge.component';
 import { PersonNamesPipe } from '../../shared/person-badge/person-names.pipe';
+import { EntityQuotesComponent } from '../../shared/entity-quotes/entity-quotes.component';
 
 @Component({
   selector: 'app-serie',
@@ -52,6 +53,7 @@ import { PersonNamesPipe } from '../../shared/person-badge/person-names.pipe';
     CanEditDirective,
     PersonBadgeComponent,
     PersonNamesPipe,
+    EntityQuotesComponent,
   ],
   templateUrl: './serie.component.html',
   styleUrls: ['./serie.component.scss'],

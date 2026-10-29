@@ -232,6 +232,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -255,6 +256,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -378,6 +380,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -441,6 +444,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -464,6 +468,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -537,6 +542,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -570,6 +576,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -753,6 +760,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -796,6 +804,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -839,6 +848,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -892,6 +902,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -915,6 +926,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -938,6 +950,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1001,6 +1014,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1024,6 +1038,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1077,6 +1092,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1160,6 +1176,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1283,6 +1300,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1406,6 +1424,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1449,6 +1468,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1532,6 +1552,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1615,6 +1636,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1738,6 +1760,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1761,6 +1784,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2014,6 +2038,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2037,6 +2062,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2090,6 +2116,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2183,6 +2210,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2206,6 +2234,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2229,6 +2258,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2262,6 +2292,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2295,6 +2326,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2348,6 +2380,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2391,6 +2424,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2424,6 +2458,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2467,6 +2502,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Code Geass',
@@ -2499,6 +2535,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'GTO : Great Teacher Onizuka',
@@ -2521,6 +2558,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Psycho-Pass',
@@ -2563,6 +2601,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Your Lie in April',
@@ -2585,6 +2624,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Sword Art Online',
@@ -2637,6 +2677,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Tokyo Ghoul',
@@ -2689,6 +2730,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Fairy Tail',
@@ -2791,6 +2833,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Fate/zero',
@@ -2823,6 +2866,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Fate Stay Night',
@@ -2845,6 +2889,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Fate Apocrypha',
@@ -2867,6 +2912,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Fate Grand Order',
@@ -2889,6 +2935,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Fate Unlimited blade works',
@@ -2921,6 +2968,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'RWBY',
@@ -3023,6 +3071,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Elfen Lied',
@@ -3045,6 +3094,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Angel Beats!',
@@ -3067,6 +3117,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Charlotte',
@@ -3089,6 +3140,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Clannad',
@@ -3121,6 +3173,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Mirai Nikki',
@@ -3143,6 +3196,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Durarara!!',
@@ -3195,6 +3249,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Nana',
@@ -3217,6 +3272,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Black Butler',
@@ -3269,6 +3325,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Violet Evergarden',
@@ -3291,6 +3348,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'The Promised Neverland',
@@ -3323,6 +3381,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Death Parade',
@@ -3345,6 +3404,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Magia record',
@@ -3387,6 +3447,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Gambling School',
@@ -3419,6 +3480,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Oshi no Ko',
@@ -3451,6 +3513,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Another',
@@ -3473,6 +3536,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Solo Leveling',
@@ -3505,6 +3569,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Tower of god',
@@ -3537,6 +3602,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Noblesse',
@@ -3559,6 +3625,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Beyblade',
@@ -3601,6 +3668,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'High school of the dead',
@@ -3623,6 +3691,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Deadman Wonderland',
@@ -3645,6 +3714,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Danganronpa',
@@ -3667,6 +3737,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: "Darwin's Game",
@@ -3689,6 +3760,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Toriko',
@@ -3711,6 +3783,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Aggretsuko',
@@ -3773,6 +3846,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Sailor Moon',
@@ -3835,6 +3909,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Fruit Basket',
@@ -3877,6 +3952,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Guilty Crown',
@@ -3899,6 +3975,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Sakura chasseuse de cartes',
@@ -3921,6 +3998,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Hamtaro',
@@ -3943,6 +4021,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Higurashi no naku koro ni',
@@ -3965,6 +4044,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Umineko no naku koro ni',
@@ -3987,6 +4067,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Romeo X Juliet',
@@ -4009,6 +4090,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Jeanne et Serge',
@@ -4031,6 +4113,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Toradora !',
@@ -4053,6 +4136,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Tonari no Kaibutsu-kun',
@@ -4075,6 +4159,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Maid sama',
@@ -4097,6 +4182,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'My happy marriage',
@@ -4119,6 +4205,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Yakuza fiancee',
@@ -4141,6 +4228,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'Si je suis la vilaine, autant mater le boss final',
@@ -4163,6 +4251,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'winx club',
@@ -4185,6 +4274,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'magical girl raising project',
@@ -4207,6 +4297,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: 'wish upon the pleiades',
@@ -4229,6 +4320,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -4282,6 +4374,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -4305,6 +4398,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -4388,6 +4482,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -4451,6 +4546,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -4514,6 +4610,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -4567,6 +4664,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -4610,6 +4708,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -4653,6 +4752,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -4686,6 +4786,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -4719,6 +4820,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -4742,6 +4844,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -4775,6 +4878,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -4808,6 +4912,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -4851,6 +4956,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -4914,6 +5020,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -4947,6 +5054,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -4970,6 +5078,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -5023,6 +5132,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -5046,6 +5156,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -5109,6 +5220,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -5142,6 +5254,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -5165,6 +5278,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -5248,6 +5362,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -5331,6 +5446,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -5424,6 +5540,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -5447,6 +5564,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -5680,6 +5798,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -5703,6 +5822,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -5776,6 +5896,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -5809,6 +5930,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -5832,6 +5954,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -5865,6 +5988,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -5918,6 +6042,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -6011,6 +6136,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -6064,6 +6190,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -6097,6 +6224,7 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -6170,5 +6298,6 @@ export const cassandreSeries: UserSeries = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 ];

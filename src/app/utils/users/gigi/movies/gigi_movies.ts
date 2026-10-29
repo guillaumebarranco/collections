@@ -18,6 +18,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -37,6 +38,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -56,6 +58,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -75,6 +78,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -94,6 +98,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -113,6 +118,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -132,6 +138,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -151,6 +158,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -170,6 +178,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -189,6 +198,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -208,6 +218,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -227,6 +238,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -246,6 +258,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -265,6 +278,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -284,6 +298,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -303,6 +318,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -322,6 +338,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -341,6 +358,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -360,6 +378,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -379,6 +398,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -398,6 +418,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -417,6 +438,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -436,6 +458,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -455,6 +478,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -474,6 +498,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -493,6 +518,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -512,6 +538,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -531,6 +558,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -550,6 +578,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -569,6 +598,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -588,6 +618,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -607,6 +638,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -626,6 +658,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -645,6 +678,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -664,6 +698,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -683,6 +718,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -702,6 +738,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -721,6 +758,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -740,6 +778,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -759,6 +798,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -778,6 +818,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -797,6 +838,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -816,6 +858,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -835,6 +878,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -854,6 +898,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -873,6 +918,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -892,6 +938,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -911,6 +958,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -930,6 +978,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -949,6 +998,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -968,6 +1018,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -987,6 +1038,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1006,6 +1058,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1025,6 +1078,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1044,6 +1098,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1063,6 +1118,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1082,6 +1138,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1101,6 +1158,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1120,6 +1178,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1139,6 +1198,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1158,6 +1218,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1177,6 +1238,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1196,6 +1258,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1215,6 +1278,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1234,6 +1298,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1253,6 +1318,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1272,6 +1338,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1291,6 +1358,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1310,6 +1378,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1329,6 +1398,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1348,6 +1418,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1367,6 +1438,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1386,6 +1458,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1405,6 +1478,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1424,6 +1498,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1443,6 +1518,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1462,6 +1538,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1481,6 +1558,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1500,6 +1578,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1519,6 +1598,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1538,6 +1618,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1557,6 +1638,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1576,6 +1658,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1595,6 +1678,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1614,6 +1698,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1633,6 +1718,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1652,6 +1738,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1671,6 +1758,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1690,6 +1778,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1709,6 +1798,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1728,6 +1818,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1747,6 +1838,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1766,6 +1858,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1785,6 +1878,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1804,6 +1898,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1823,6 +1918,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1842,6 +1938,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1861,6 +1958,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1880,6 +1978,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1899,6 +1998,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1918,6 +2018,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1937,6 +2038,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1956,6 +2058,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1975,6 +2078,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -1994,6 +2098,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2013,6 +2118,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2032,6 +2138,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2051,6 +2158,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2070,6 +2178,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2089,6 +2198,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2108,6 +2218,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2127,6 +2238,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2146,6 +2258,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2165,6 +2278,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2184,6 +2298,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2203,6 +2318,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2222,6 +2338,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2241,6 +2358,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2260,6 +2378,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2279,6 +2398,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2298,6 +2418,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2317,6 +2438,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2336,6 +2458,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2355,6 +2478,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2374,6 +2498,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2393,6 +2518,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2412,6 +2538,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2431,6 +2558,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2450,6 +2578,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2469,6 +2598,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2488,6 +2618,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2507,6 +2638,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2526,6 +2658,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2545,6 +2678,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2564,6 +2698,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2583,6 +2718,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2602,6 +2738,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2621,6 +2758,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2640,6 +2778,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2659,6 +2798,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2678,6 +2818,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2697,6 +2838,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2716,6 +2858,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2735,6 +2878,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2754,6 +2898,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2773,6 +2918,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2792,6 +2938,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2811,6 +2958,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2830,6 +2978,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2849,6 +2998,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2868,6 +3018,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2887,6 +3038,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2906,6 +3058,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2925,6 +3078,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2944,6 +3098,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2963,6 +3118,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -2982,6 +3138,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3001,6 +3158,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3020,6 +3178,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3039,6 +3198,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3058,6 +3218,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3077,6 +3238,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3096,6 +3258,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3115,6 +3278,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3134,6 +3298,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3153,6 +3318,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3172,6 +3338,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3191,6 +3358,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3210,6 +3378,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3229,6 +3398,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3248,6 +3418,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3267,6 +3438,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3286,6 +3458,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3305,6 +3478,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3324,6 +3498,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3343,6 +3518,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3362,6 +3538,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3381,6 +3558,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3400,6 +3578,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3419,6 +3598,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3438,6 +3618,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3457,6 +3638,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3476,6 +3658,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3495,6 +3678,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3514,6 +3698,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3533,6 +3718,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3552,6 +3738,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3571,6 +3758,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3590,6 +3778,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3609,6 +3798,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3628,6 +3818,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3647,6 +3838,7 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -3666,5 +3858,6 @@ export const gigiMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 ];

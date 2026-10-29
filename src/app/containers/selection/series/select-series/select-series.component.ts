@@ -168,6 +168,7 @@ export class SelectSeriesComponent
       ratingComment: '',
       borrowed: '',
       loaned: '',
+      quotes: [],
     }));
   }
 

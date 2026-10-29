@@ -203,6 +203,8 @@
     <p class="movie-release-date">{{ movie.releaseDate | date : "yyyy" }}</p>
     @if (movie.description) {
     <p class="movie-description">{{ movie.description }}</p>
+    } @if (movie.quotes.length && !isBaseEntityView) {
+    <app-entity-quotes [quotes]="movie.quotes" />
     } @if (movie.timesWatched && movie.timesWatched >
     1 && !isBaseEntityView) {
     <p class="movie-times-watched">🎬 Visionné {{ movie.timesWatched }} fois</p>

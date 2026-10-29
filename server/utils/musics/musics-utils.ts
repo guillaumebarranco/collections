@@ -26,7 +26,9 @@ const BASE_MUSICS_DIR = path.join(
 
 import type { BaseMusic, UserMusic } from '../../../src/app/models/music-model';
 
-type MusicUpdatePayload = Partial<Pick<UserMusic, 'rating' | 'timesListened'>> &
+type MusicUpdatePayload = Partial<
+  Pick<UserMusic, 'rating' | 'timesListened' | 'quotes'>
+> &
   Pick<UserMusic, 'title' | 'artist'>;
 
 function getArrayBounds(content: string, exportIndex: number) {
@@ -70,6 +72,82 @@ function unescapeString(value: string, quote: string) {
   return value
     .replace(new RegExp(`\\\\${quote}`, 'g'), quote)
     .replace(/\\\\/g, '\\');
+}
+
+function parseStringArrayField(objectText: string, key: string): string[] {
+  const keyMatch = new RegExp(`\\n\\s*${key}\\s*:`).exec(objectText);
+  if (!keyMatch || keyMatch.index === undefined) return [];
+  const afterKey = objectText.slice(keyMatch.index);
+  const bracketStart = afterKey.indexOf('[');
+  if (bracketStart === -1) return [];
+  let depth = 1;
+  let i = bracketStart + 1;
+  while (i < afterKey.length && depth > 0) {
+    const c = afterKey[i];
+    if (c === '[') depth += 1;
+    else if (c === ']') depth -= 1;
+    i += 1;
+  }
+  const inner = afterKey.slice(bracketStart + 1, i - 1);
+  if (!inner.trim()) return [];
+  const regex = /(['"])((?:\\.|(?!\1).)*)\1/g;
+  const result: string[] = [];
+  let match = regex.exec(inner);
+  while (match) {
+    result.push(unescapeString(match[2], match[1]));
+    match = regex.exec(inner);
+  }
+  return result;
+}
+
+function formatQuotesTs(quotes: string[] | undefined): string {
+  if (!Array.isArray(quotes) || quotes.length === 0) {
+    return '[]';
+  }
+  return `[${quotes.map((quote) => `"${escapeString(quote)}"`).join(', ')}]`;
+}
+
+function upsertQuotesField(objectText: string, quotes: string[]) {
+  const serialized = `quotes: ${formatQuotesTs(quotes)}`;
+  const keyMatch = /\n\s*quotes\s*:/.exec(objectText);
+  if (!keyMatch || keyMatch.index === undefined) {
+    return objectText.replace(/\n(\s*)\}\s*$/, `\n$1  ${serialized},\n$1}`);
+  }
+  const keyIndex = keyMatch.index + keyMatch[0].indexOf('quotes');
+  const bracketStart = objectText.indexOf('[', keyIndex);
+  if (bracketStart === -1) {
+    return objectText.replace(/\n(\s*)\}\s*$/, `\n$1  ${serialized},\n$1}`);
+  }
+  let depth = 0;
+  let i = bracketStart;
+  let quote: string | null = null;
+  while (i < objectText.length) {
+    const char = objectText[i];
+    if (quote) {
+      if (char === '\\') {
+        i += 2;
+        continue;
+      }
+      if (char === quote) quote = null;
+      i += 1;
+      continue;
+    }
+    if (char === '"' || char === "'") {
+      quote = char;
+      i += 1;
+      continue;
+    }
+    if (char === '[') depth += 1;
+    else if (char === ']') {
+      depth -= 1;
+      if (depth === 0) {
+        i += 1;
+        break;
+      }
+    }
+    i += 1;
+  }
+  return objectText.slice(0, keyIndex) + serialized + objectText.slice(i);
 }
 
 function parseNumberField(objectText: string, key: string) {
@@ -151,6 +229,7 @@ function parseUserMusicsFromFile(content: string): UserMusic[] {
             artist,
             rating: parseNumberField(objectText, 'rating') ?? 0,
             timesListened: parseNumberField(objectText, 'timesListened') ?? 0,
+            quotes: parseStringArrayField(objectText, 'quotes'),
           } as UserMusic);
         }
       }
@@ -303,6 +382,14 @@ function updateMusicInFile(content: string, payload: MusicUpdatePayload) {
           let updated = objectText;
           updated = replaceField(updated, 'rating', payload.rating);
           updated = replaceField(updated, 'timesListened', payload.timesListened);
+          if (Array.isArray(payload.quotes)) {
+            updated = upsertQuotesField(
+              updated,
+              payload.quotes.filter(
+                (quote) => typeof quote === 'string' && quote.trim()
+              )
+            );
+          }
 
           return (
             content.slice(0, objectStart) +

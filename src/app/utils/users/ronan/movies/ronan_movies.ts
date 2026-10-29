@@ -18,6 +18,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Sexe entre amis",
@@ -36,6 +37,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Une femme en jeu",
@@ -54,6 +56,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Oscar",
@@ -72,6 +75,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Sixième Sens",
@@ -90,6 +94,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Target",
@@ -108,6 +113,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Hyper tension",
@@ -126,6 +132,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'Apprenti sorcier",
@@ -144,6 +151,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Casper",
@@ -162,6 +170,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La Belle et le Clochard",
@@ -180,6 +189,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The Sex List",
@@ -198,6 +208,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les Evadés",
@@ -216,6 +227,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "20 ans d'écart",
@@ -234,6 +246,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Walter",
@@ -252,6 +265,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Prénom",
@@ -270,6 +284,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Malavita",
@@ -288,6 +303,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The Punisher",
@@ -306,6 +322,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Moi, Moche et Méchant 2",
@@ -324,6 +341,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Jason Bourne",
@@ -342,6 +360,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Jungle Cruise",
@@ -360,6 +379,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "À tous les garçons : Pour toujours et à jamais",
@@ -378,6 +398,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "À tous les garçons : P.S. Je t'aime toujours",
@@ -396,6 +417,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Klaus",
@@ -414,6 +436,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Pokémon : Détective Pikachu",
@@ -432,6 +455,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Dumbo",
@@ -450,6 +474,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Crime de l'Orient-Express",
@@ -468,6 +493,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Miss Peregrine et les Enfants particuliers",
@@ -486,6 +512,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Monde fantastique d'Oz",
@@ -504,6 +531,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Warm Bodies",
@@ -522,6 +550,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Dark Shadows",
@@ -540,6 +569,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Chat Potté",
@@ -558,6 +588,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Hugo",
@@ -576,6 +607,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Rango",
@@ -594,6 +626,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Jennifer's Body",
@@ -612,6 +645,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Meilleures ennemies",
@@ -630,6 +664,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'Étrange Histoire de Benjamin Button",
@@ -648,6 +683,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Monde de Narnia : Le Prince Caspian",
@@ -666,6 +702,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Secret de Terabithia",
@@ -684,6 +721,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Happy Feet",
@@ -702,6 +740,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Constantine",
@@ -720,6 +759,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Lilo et Stitch",
@@ -738,6 +778,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Chicken Run",
@@ -756,6 +797,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Dinosaure",
@@ -774,6 +816,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Prince d'Égypte",
@@ -792,6 +835,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Roi Lion 2 : L'Honneur de la tribu",
@@ -810,6 +854,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Mary à tout prix",
@@ -828,6 +873,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Flubber",
@@ -846,6 +892,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Mars Attacks !",
@@ -864,6 +911,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Matilda",
@@ -882,6 +930,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Entretien avec un vampire",
@@ -900,6 +949,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'Étrange Noël de monsieur Jack",
@@ -918,6 +968,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "3 Ninjas",
@@ -936,6 +987,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Edward aux mains d'argent",
@@ -954,6 +1006,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Kiki la petite sorcière",
@@ -972,6 +1025,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Grease",
@@ -990,6 +1044,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Mary Poppins",
@@ -1008,6 +1063,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Bambi",
@@ -1026,6 +1082,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Dumbo",
@@ -1044,6 +1101,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Magicien d'Oz",
@@ -1062,6 +1120,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Blanche-Neige et les Sept Nains",
@@ -1080,6 +1139,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'Agence tous risques",
@@ -1098,6 +1158,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Benjamin Gates et le Livre des secrets",
@@ -1116,6 +1177,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Danny the Dog",
@@ -1134,6 +1196,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les Fils du vent",
@@ -1152,6 +1215,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Street Dancers",
@@ -1170,6 +1234,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La Plage",
@@ -1188,6 +1253,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les Ailes de l'enfer",
@@ -1206,6 +1272,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "I, Robot",
@@ -1224,6 +1291,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Carry-On",
@@ -1242,6 +1310,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Road House",
@@ -1260,6 +1329,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Damsel",
@@ -1278,6 +1348,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Sly",
@@ -1296,6 +1367,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Samaritan",
@@ -1314,6 +1386,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Prey",
@@ -1332,6 +1405,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Red Notice",
@@ -1350,6 +1424,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The Guilty",
@@ -1368,6 +1443,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Terminal",
@@ -1386,6 +1462,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Tanguy",
@@ -1404,6 +1481,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Wasabi",
@@ -1422,6 +1500,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Training Day",
@@ -1440,6 +1519,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Battle Royale",
@@ -1458,6 +1538,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Memento",
@@ -1476,6 +1557,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Snatch",
@@ -1494,6 +1576,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Gladiator",
@@ -1512,6 +1595,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Source Code",
@@ -1530,6 +1614,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Superman",
@@ -1548,6 +1633,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Superman II",
@@ -1566,6 +1652,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Superman Returns",
@@ -1584,6 +1671,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Enemy",
@@ -1602,6 +1690,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Chaos Walking",
@@ -1620,6 +1709,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Love and Monsters",
@@ -1638,6 +1728,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Mulan",
@@ -1656,6 +1747,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Palm Springs",
@@ -1674,6 +1766,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Guns Akimbo",
@@ -1692,6 +1785,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Bird Box",
@@ -1710,6 +1804,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "E.T. the Extra-Terrestrial",
@@ -1728,6 +1823,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The Shining",
@@ -1746,6 +1842,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Taxi Driver",
@@ -1764,6 +1861,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Gendarme de Saint-Tropez",
@@ -1782,6 +1880,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Yamakasi",
@@ -1800,6 +1899,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "DodgeBall: Même pas mal",
@@ -1818,6 +1918,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Garfield",
@@ -1836,6 +1937,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Harold & Kumar Go to White Castle",
@@ -1854,6 +1956,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Jour d'Après",
@@ -1872,6 +1975,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Van Helsing",
@@ -1890,6 +1994,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Man on Fire",
@@ -1908,6 +2013,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Shaun of the Dead",
@@ -1926,6 +2032,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "EuroTrip",
@@ -1944,6 +2051,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "RRRrrrr!!!",
@@ -1962,6 +2070,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Saw",
@@ -1980,6 +2089,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Oldboy",
@@ -1998,6 +2108,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Bruce tout-puissant",
@@ -2016,6 +2127,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Moi, Cesar, 10 ans et demi, 1m39",
@@ -2034,6 +2146,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Equilibrium",
@@ -2052,6 +2165,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Minority Report",
@@ -2070,6 +2184,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Panic Room",
@@ -2088,6 +2203,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Cinquième Élément",
@@ -2106,6 +2222,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "American Beauty",
@@ -2124,6 +2241,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Wild Wild West",
@@ -2142,6 +2260,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Armageddon",
@@ -2160,6 +2279,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The Truman Show",
@@ -2178,6 +2298,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Godzilla",
@@ -2196,6 +2317,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Death Note",
@@ -2214,6 +2336,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Atomic Blonde",
@@ -2232,6 +2355,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Baby Driver",
@@ -2250,6 +2374,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Swiss Army Man",
@@ -2268,6 +2393,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Room",
@@ -2286,6 +2412,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Gone Girl",
@@ -2304,6 +2431,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Brice de Nice",
@@ -2322,6 +2450,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Dirty Dancing",
@@ -2340,6 +2469,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Scarface",
@@ -2358,6 +2488,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Hors de Prix",
@@ -2376,6 +2507,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "300",
@@ -2394,6 +2526,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Camping",
@@ -2412,6 +2545,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Incontrôlable",
@@ -2430,6 +2564,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "King Kong",
@@ -2448,6 +2583,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Nanny McPhee",
@@ -2466,6 +2602,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Mr. & Mrs. Smith",
@@ -2484,6 +2621,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The Descent",
@@ -2502,6 +2640,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Million Dollar Baby",
@@ -2520,6 +2659,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The Mask",
@@ -2538,6 +2678,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Forrest Gump",
@@ -2556,6 +2697,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Pulp Fiction",
@@ -2574,6 +2716,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Mrs. Doubtfire",
@@ -2592,6 +2735,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The Big Lebowski",
@@ -2610,6 +2754,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Edge of Tomorrow",
@@ -2628,6 +2773,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Prisoners",
@@ -2646,6 +2792,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Gravity",
@@ -2664,6 +2811,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "World War Z",
@@ -2682,6 +2830,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "After Earth",
@@ -2700,6 +2849,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Oblivion",
@@ -2718,6 +2868,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Django Unchained",
@@ -2736,6 +2887,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Dredd",
@@ -2754,6 +2906,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The Dictator",
@@ -2772,6 +2925,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The Lucky One",
@@ -2790,6 +2944,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Prometheus",
@@ -2808,6 +2963,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "21 Jump Street",
@@ -2826,6 +2982,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Chronicle",
@@ -2844,6 +3001,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Real Steel",
@@ -2862,6 +3020,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Intouchables",
@@ -2880,6 +3039,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: "2026-10-15T20:18",
+    quotes: [],
   },
   {
     title: "Warrior",
@@ -2898,6 +3058,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Never Back Down 2: The Beatdown",
@@ -2916,6 +3077,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The Raid",
@@ -2934,6 +3096,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Bloodsport",
@@ -2952,6 +3115,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "RoboCop",
@@ -2970,6 +3134,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "I Love You Phillip Morris",
@@ -2988,6 +3153,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Gran Torino",
@@ -3006,6 +3172,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'Œil du mal",
@@ -3024,6 +3191,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Slumdog Millionaire",
@@ -3042,6 +3210,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Wanted : Choisis ton Destin",
@@ -3060,6 +3229,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Never Back Down",
@@ -3078,6 +3248,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Jumper",
@@ -3096,6 +3267,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Paranormal Activity",
@@ -3114,6 +3286,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Into the Wild",
@@ -3132,6 +3305,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Evan tout-puissant",
@@ -3150,6 +3324,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "No Country for Old Men",
@@ -3168,6 +3343,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Zodiac",
@@ -3186,6 +3362,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Jumanji",
@@ -3204,6 +3381,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Judge Dredd",
@@ -3222,6 +3400,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The Usual Suspects",
@@ -3240,6 +3419,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Un indien dans la ville",
@@ -3258,6 +3438,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les Tuche",
@@ -3276,6 +3457,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Super 8",
@@ -3294,6 +3476,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Sucker Punch",
@@ -3312,6 +3495,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Paul",
@@ -3330,6 +3514,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The Social Network",
@@ -3348,6 +3533,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "127 Heures",
@@ -3366,6 +3552,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Black Swan",
@@ -3384,6 +3571,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Inception",
@@ -3402,6 +3590,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Fatal",
@@ -3420,6 +3609,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The Karate Kid",
@@ -3438,6 +3628,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Shutter Island",
@@ -3456,6 +3647,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Brothers",
@@ -3474,6 +3666,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Lucky Luke",
@@ -3492,6 +3685,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "2012",
@@ -3510,6 +3704,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Zombieland",
@@ -3528,6 +3723,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Mr. Nobody",
@@ -3546,6 +3742,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Inglourious Basterds",
@@ -3564,6 +3761,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Basic Instinct",
@@ -3582,6 +3780,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Reservoir Dogs",
@@ -3600,6 +3799,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Point Break",
@@ -3618,6 +3818,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Total Recall",
@@ -3636,6 +3837,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Last Action Hero",
@@ -3654,6 +3856,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Jurassic Park",
@@ -3672,6 +3875,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Demolition Man",
@@ -3690,6 +3894,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Stuart Little",
@@ -3708,6 +3913,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Cars 2",
@@ -3726,6 +3932,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "1001 Pattes",
@@ -3744,6 +3951,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Boss Level",
@@ -3762,6 +3970,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Parasite",
@@ -3780,6 +3989,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Iron Man",
@@ -3798,6 +4008,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Iron Man 2",
@@ -3816,6 +4027,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Batman",
@@ -3834,6 +4046,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Batman Returns",
@@ -3852,6 +4065,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Batman Forever",
@@ -3870,6 +4084,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Batman & Robin",
@@ -3888,6 +4103,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Batman Begins",
@@ -3906,6 +4122,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Zack Snyder's Justice League",
@@ -3924,6 +4141,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Catwoman",
@@ -3942,6 +4160,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Wonder Woman 1984",
@@ -3960,6 +4179,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Daredevil",
@@ -3978,6 +4198,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "X-Men",
@@ -3996,6 +4217,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Spider-Man",
@@ -4014,6 +4236,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Kick-Ass",
@@ -4032,6 +4255,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Hancock",
@@ -4050,6 +4274,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Sky High",
@@ -4068,6 +4293,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Hulk",
@@ -4086,6 +4312,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'Arnacœur",
@@ -4104,6 +4331,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Remember Me",
@@ -4122,6 +4350,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Valentine's Day",
@@ -4140,6 +4369,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "(500) Jours Ensemble",
@@ -4158,6 +4388,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Juno",
@@ -4176,6 +4407,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Hitch : Expert en Séduction",
@@ -4194,6 +4426,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Eternal Sunshine of the Spotless Mind",
@@ -4212,6 +4445,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The Girl Next Door",
@@ -4230,6 +4464,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Love Actually",
@@ -4248,6 +4483,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Pearl Harbor",
@@ -4266,6 +4502,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Coup de foudre à Notting Hill",
@@ -4284,6 +4521,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Pretty Woman",
@@ -4302,6 +4540,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Holidate",
@@ -4320,6 +4559,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Dragons",
@@ -4338,6 +4578,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Ralph 2.0",
@@ -4356,6 +4597,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Encanto",
@@ -4374,6 +4616,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Cars",
@@ -4392,6 +4635,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Cars 3",
@@ -4410,6 +4654,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les Nouveaux Héros",
@@ -4428,6 +4673,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Rebelle",
@@ -4446,6 +4692,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Kung Fu Panda",
@@ -4464,6 +4711,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Ratatouille",
@@ -4482,6 +4730,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Shrek",
@@ -4500,6 +4749,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Shrek 2",
@@ -4518,6 +4768,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les Indestructibles",
@@ -4536,6 +4787,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Monstres et Cie",
@@ -4554,6 +4806,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Toy Story",
@@ -4572,6 +4825,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Toy Story 2",
@@ -4590,6 +4844,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "South Park, le Film",
@@ -4608,6 +4863,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Tarzan",
@@ -4626,6 +4882,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Princesse Mononoké",
@@ -4644,6 +4901,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Hercule",
@@ -4662,6 +4920,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Pocahontas",
@@ -4680,6 +4939,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Space Jam",
@@ -4698,6 +4958,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Roi Lion",
@@ -4716,6 +4977,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Aladdin",
@@ -4734,6 +4996,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Peter Pan",
@@ -4752,6 +5015,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Pinocchio",
@@ -4770,6 +5034,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Raya et le Dernier Dragon",
@@ -4788,6 +5053,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "2 Fast 2 Furious",
@@ -4806,6 +5072,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Rocky",
@@ -4824,6 +5091,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Rocky II",
@@ -4842,6 +5110,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Rocky III",
@@ -4860,6 +5129,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Rocky IV",
@@ -4878,6 +5148,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Rocky V",
@@ -4896,6 +5167,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Rocky Balboa",
@@ -4914,6 +5186,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Terminator",
@@ -4932,6 +5205,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Terminator 2 : Le Jugement dernier",
@@ -4950,6 +5224,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Terminator 3 : Le Soulèvement des machines",
@@ -4968,6 +5243,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Terminator: Dark Fate",
@@ -4986,6 +5262,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Murder Mystery",
@@ -5004,6 +5281,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "John Wick",
@@ -5022,6 +5300,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Enola Holmes",
@@ -5040,6 +5319,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Wake up dead man : une histoire à couteaux tirés",
@@ -5058,6 +5338,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "James Bond : Casino Royale",
@@ -5076,6 +5357,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "James Bond : Skyfall",
@@ -5094,6 +5376,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "James Bond : Spectre",
@@ -5112,6 +5395,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Split",
@@ -5130,6 +5414,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Divergente",
@@ -5148,6 +5433,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Taken",
@@ -5166,6 +5452,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Underworld",
@@ -5184,6 +5471,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Banlieue 13",
@@ -5202,6 +5490,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Banlieue 13 : Ultimatum",
@@ -5220,6 +5509,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Rush Hour",
@@ -5238,6 +5528,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Ocean's Eleven",
@@ -5256,6 +5547,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Taxi",
@@ -5274,6 +5566,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Taxi 2",
@@ -5292,6 +5585,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Taxi 3",
@@ -5310,6 +5604,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Taxi 4",
@@ -5328,6 +5623,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Scary Movie",
@@ -5346,6 +5642,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Scary Movie 2",
@@ -5364,6 +5661,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Scary Movie 3",
@@ -5382,6 +5680,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Scary Movie 4",
@@ -5400,6 +5699,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Kill Bill: Vol. 1",
@@ -5418,6 +5718,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Kill Bill: Vol. 2",
@@ -5436,6 +5737,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Hellboy",
@@ -5454,6 +5756,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Transporteur",
@@ -5472,6 +5775,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "xXx",
@@ -5490,6 +5794,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Sin City",
@@ -5508,6 +5813,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Blade",
@@ -5526,6 +5832,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Blade II",
@@ -5544,6 +5851,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Scooby-Doo",
@@ -5562,6 +5870,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Scooby-Doo 2: Monsters Unleashed",
@@ -5580,6 +5889,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The Matrix Reloaded",
@@ -5598,6 +5908,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The Matrix Revolutions",
@@ -5616,6 +5927,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Spy Kids",
@@ -5634,6 +5946,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Spy Kids 3 : Mission 3D",
@@ -5652,6 +5965,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Bad Boys",
@@ -5670,6 +5984,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Bad Boys II",
@@ -5688,6 +6003,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Men in Black",
@@ -5706,6 +6022,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Men in Black II",
@@ -5724,6 +6041,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Men in Black 3",
@@ -5742,6 +6060,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Lara Croft : Tomb Raider",
@@ -5760,6 +6079,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Predator",
@@ -5778,6 +6098,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Alien, le huitième passager",
@@ -5796,6 +6117,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Independence Day",
@@ -5814,6 +6136,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Retour vers le futur",
@@ -5832,6 +6155,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Scream",
@@ -5850,6 +6174,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Scream 2",
@@ -5868,6 +6193,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Scream 3",
@@ -5886,6 +6212,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Scream 4",
@@ -5904,6 +6231,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "American Pie",
@@ -5922,6 +6250,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "American Pie 2",
@@ -5940,6 +6269,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "American Pie Presents: Beta House",
@@ -5958,6 +6288,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "American Pie Presents: The Naked Mile",
@@ -5976,6 +6307,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "American Pie Presents: Band Camp",
@@ -5994,6 +6326,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "American Pie Presents: The Book of Love",
@@ -6012,6 +6345,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Frankenstein",
@@ -6030,6 +6364,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Wicked",
@@ -6048,6 +6383,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Morbius",
@@ -6066,6 +6402,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "West Side Story",
@@ -6084,6 +6421,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Old",
@@ -6102,6 +6440,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Luca",
@@ -6120,6 +6459,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The Gentlemen",
@@ -6138,6 +6478,7 @@ export const ronanMovies: UserMovies = [
     loaned: "Guillaume",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The King",
@@ -6156,6 +6497,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "BlacKkKlansman",
@@ -6174,6 +6516,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La Grande Aventure Lego",
@@ -6192,6 +6535,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Snowpiercer",
@@ -6210,6 +6554,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Ted",
@@ -6228,6 +6573,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Kung Fu Panda 2",
@@ -6246,6 +6592,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Rio",
@@ -6264,6 +6611,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Sherlock Holmes",
@@ -6282,6 +6630,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Là-haut",
@@ -6300,6 +6649,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Mamma Mia!",
@@ -6318,6 +6668,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Alvin et les Chipmunks",
@@ -6336,6 +6687,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Stardust",
@@ -6354,6 +6706,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Madagascar",
@@ -6372,6 +6725,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Troy",
@@ -6390,6 +6744,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Big Fish",
@@ -6408,6 +6763,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "8 Mile",
@@ -6426,6 +6782,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Insomnia",
@@ -6444,6 +6801,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Voyage de Chihiro",
@@ -6462,6 +6820,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Sleepy Hollow",
@@ -6480,6 +6839,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Fight Club",
@@ -6498,6 +6858,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Mon voisin Totoro",
@@ -6516,6 +6877,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Beetlejuice",
@@ -6534,6 +6896,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Château dans le ciel",
@@ -6552,6 +6915,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Gremlins",
@@ -6570,6 +6934,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "West Side Story",
@@ -6588,6 +6953,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Cinq nuits chez Freddy 2",
@@ -6606,6 +6972,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Ballerina",
@@ -6624,6 +6991,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Destination Finale : Bloodlines",
@@ -6642,6 +7010,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Until Dawn : La mort sans fin",
@@ -6660,6 +7029,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Gladiator II",
@@ -6678,6 +7048,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Robot sauvage",
@@ -6696,6 +7067,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Anora",
@@ -6714,6 +7086,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The Substance",
@@ -6732,6 +7105,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The Marching Band",
@@ -6750,6 +7124,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Emilia Pérez",
@@ -6768,6 +7143,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Megalopolis",
@@ -6786,6 +7162,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Rebel Moon – Part Two: The Scargiver",
@@ -6804,6 +7181,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Godzilla × Kong: The New Empire",
@@ -6822,6 +7200,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Madame Web",
@@ -6840,6 +7219,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Argylle",
@@ -6858,6 +7238,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Rebel Moon - Partie 1 : Enfant du feu",
@@ -6876,6 +7257,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les Trois Mousquetaires : Milady",
@@ -6894,6 +7276,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Wish : Asha et la Bonne Étoile",
@@ -6912,6 +7295,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Hunger Games : La Ballade du serpent et de l'oiseau chanteur",
@@ -6930,6 +7314,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Pauvres Créatures",
@@ -6948,6 +7333,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The Equalizer 3",
@@ -6966,6 +7352,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Teenage Mutant Ninja Turtles: Mutant Mayhem",
@@ -6984,6 +7371,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Yannick",
@@ -7002,6 +7390,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Insidious: The Red Door",
@@ -7020,6 +7409,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Nimona",
@@ -7038,6 +7428,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Extraction 2",
@@ -7056,6 +7447,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Mon crime",
@@ -7074,6 +7466,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Transformers: Rise of the Beasts",
@@ -7092,6 +7485,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Killers of the Flower Moon",
@@ -7110,6 +7504,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les trois mousquetaires: D'Artagnan",
@@ -7128,6 +7523,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Shazam! La Rage des Dieux",
@@ -7146,6 +7542,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Knock at the Cabin",
@@ -7164,6 +7561,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Past Lives – Nos vies d'avant",
@@ -7182,6 +7580,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Alibi.com 2",
@@ -7200,6 +7599,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Slumberland",
@@ -7218,6 +7618,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Werewolf by Night",
@@ -7236,6 +7637,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The Fabelmans",
@@ -7254,6 +7656,7 @@ export const ronanMovies: UserMovies = [
     loaned: "Sabrina",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The Whale",
@@ -7272,6 +7675,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Krypto et les Super-Animaux",
@@ -7290,6 +7694,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "One Piece Film: Red",
@@ -7308,6 +7713,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The Princess",
@@ -7326,6 +7732,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Visiteur du Futur",
@@ -7344,6 +7751,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Jurassic World : Le Monde d'après",
@@ -7362,6 +7770,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Ténor",
@@ -7380,6 +7789,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Ambulance",
@@ -7398,6 +7808,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Matrix Resurrections",
@@ -7416,6 +7827,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "tick, tick... BOOM!",
@@ -7434,6 +7846,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Army of Thieves",
@@ -7452,6 +7865,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The Last Duel",
@@ -7470,6 +7884,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The Stronghold",
@@ -7488,6 +7903,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The Trip",
@@ -7506,6 +7922,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The Suicide Squad",
@@ -7524,6 +7941,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Space Jam : Nouvelle Ère",
@@ -7542,6 +7960,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Un papa hors pair",
@@ -7560,6 +7979,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Hitman & Bodyguard 2",
@@ -7578,6 +7998,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Un homme en colère",
@@ -7596,6 +8017,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Godzilla vs. Kong",
@@ -7614,6 +8036,7 @@ export const ronanMovies: UserMovies = [
     loaned: "Guillaume",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Boîte noire",
@@ -7632,6 +8055,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Malcolm & Marie",
@@ -7650,6 +8074,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The Little Things",
@@ -7668,6 +8093,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Soul",
@@ -7686,6 +8112,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Balle Perdue",
@@ -7704,6 +8131,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Da 5 Bloods : Frères de sang",
@@ -7722,6 +8150,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Extraction",
@@ -7740,6 +8169,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les Nouveaux Mutants",
@@ -7758,6 +8188,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Sans un bruit 2",
@@ -7776,6 +8207,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Bloodshot",
@@ -7794,6 +8226,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The Invisible Man",
@@ -7812,6 +8245,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "En avant",
@@ -7830,6 +8264,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Bad Boys for Life",
@@ -7848,6 +8283,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Zombieland: Double Tap",
@@ -7866,6 +8302,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Gemini Man",
@@ -7884,6 +8321,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Mans 66",
@@ -7902,6 +8340,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Marriage Story",
@@ -7920,6 +8359,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Play",
@@ -7938,6 +8378,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "It Chapter Two",
@@ -7956,6 +8397,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Toy Story 4",
@@ -7974,6 +8416,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The Specials",
@@ -7992,6 +8435,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Yesterday",
@@ -8010,6 +8454,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Tolkien",
@@ -8028,6 +8473,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Hellboy",
@@ -8046,6 +8492,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Bumblebee",
@@ -8064,6 +8511,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The Meg",
@@ -8082,6 +8530,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Skyscraper",
@@ -8100,6 +8549,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Astérix : Le Secret de la potion magique",
@@ -8118,6 +8568,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Pacific Rim: Uprising",
@@ -8136,6 +8587,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Justice League",
@@ -8154,6 +8606,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Blade Runner 2049",
@@ -8172,6 +8625,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Lady Bird",
@@ -8190,6 +8644,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La Colle",
@@ -8208,6 +8663,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "American Assassin",
@@ -8226,6 +8682,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Transformers: The Last Knight",
@@ -8244,6 +8701,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Good Time",
@@ -8262,6 +8720,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Power Rangers",
@@ -8280,6 +8739,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Get Out",
@@ -8298,6 +8758,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Call Me by Your Name",
@@ -8316,6 +8777,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Alibi.com",
@@ -8334,6 +8796,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Tous en scène",
@@ -8352,6 +8815,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "War Dogs",
@@ -8370,6 +8834,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The Nice Guys",
@@ -8388,6 +8853,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Kung Fu Panda 3",
@@ -8406,6 +8872,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Ip Man 3",
@@ -8424,6 +8891,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Crimson Peak",
@@ -8442,6 +8910,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Hitman: Agent 47",
@@ -8460,6 +8929,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Sicario",
@@ -8478,6 +8948,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Maggie",
@@ -8496,6 +8967,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Batman vs. Robin",
@@ -8514,6 +8986,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Chappie",
@@ -8532,6 +9005,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Astérix : Le Domaine des dieux",
@@ -8550,6 +9024,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Comment tuer son boss 2",
@@ -8568,6 +9043,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Fury",
@@ -8586,6 +9062,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "22 Jump Street",
@@ -8604,6 +9081,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The Grand Budapest Hotel",
@@ -8622,6 +9100,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The Monuments Men",
@@ -8640,6 +9119,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Whiplash",
@@ -8658,6 +9138,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Paranormal Activity: The Marked Ones",
@@ -8676,6 +9157,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Her",
@@ -8694,6 +9176,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Dallas Buyers Club",
@@ -8712,6 +9195,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Star Trek Into Darkness",
@@ -8730,6 +9214,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Dragon Ball Z: Battle of Gods",
@@ -8748,6 +9233,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Evil Dead",
@@ -8766,6 +9252,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Jobs",
@@ -8784,6 +9271,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Hansel & Gretel : Witch Hunters",
@@ -8802,6 +9290,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Gangster Squad",
@@ -8820,6 +9309,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Batman: The Dark Knight Returns, Part 2",
@@ -8838,6 +9328,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Astérix et Obélix : Au service de Sa Majesté",
@@ -8856,6 +9347,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Paranormal Activity 4",
@@ -8874,6 +9366,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Seven Psychopaths",
@@ -8892,6 +9385,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Batman: The Dark Knight Returns, Part 1",
@@ -8910,6 +9404,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Magic Mike",
@@ -8928,6 +9423,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Battleship",
@@ -8946,6 +9442,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Sinister",
@@ -8964,6 +9461,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Paranormal Activity 3",
@@ -8982,6 +9480,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Batman: Year One",
@@ -9000,6 +9499,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Bad Teacher",
@@ -9018,6 +9518,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Paranormal Activity 2",
@@ -9036,6 +9537,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Incendies",
@@ -9054,6 +9556,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Piranha 3D",
@@ -9072,6 +9575,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Scott Pilgrim",
@@ -9090,6 +9594,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "One Piece Film: Strong World",
@@ -9108,6 +9613,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Saw VI",
@@ -9126,6 +9632,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Coco",
@@ -9144,6 +9651,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Star Trek",
@@ -9162,6 +9670,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Ip Man",
@@ -9180,6 +9689,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Saw V",
@@ -9198,6 +9708,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Hitman",
@@ -9216,6 +9727,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Saw IV",
@@ -9234,6 +9746,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Funny Games U.S.",
@@ -9252,6 +9765,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "[REC]",
@@ -9270,6 +9784,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "High School Musical 2",
@@ -9288,6 +9803,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Sunshine",
@@ -9306,6 +9822,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "TMNT : Les Tortues Ninja",
@@ -9324,6 +9841,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Hot Fuzz",
@@ -9342,6 +9860,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Eragon",
@@ -9360,6 +9879,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Saw III",
@@ -9378,6 +9898,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Astérix et les Vikings",
@@ -9396,6 +9917,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Little Miss Sunshine",
@@ -9414,6 +9936,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Saw II",
@@ -9432,6 +9955,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Secret de Brokeback Mountain",
@@ -9450,6 +9974,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Kiss Kiss Bang Bang",
@@ -9468,6 +9993,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Château ambulant",
@@ -9486,6 +10012,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Lost in Translation",
@@ -9504,6 +10031,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Mystic River",
@@ -9522,6 +10050,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Identity",
@@ -9540,6 +10069,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Gangs of New York",
@@ -9558,6 +10088,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Hero",
@@ -9576,6 +10107,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Zoolander",
@@ -9594,6 +10126,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Hannibal",
@@ -9612,6 +10145,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Pacte des loups",
@@ -9630,6 +10164,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Donnie Darko",
@@ -9648,6 +10183,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Erin Brockovich, seule contre tous",
@@ -9666,6 +10202,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "American Psycho",
@@ -9684,6 +10221,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "American History X",
@@ -9702,6 +10240,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The Game",
@@ -9720,6 +10259,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "George de la jungle",
@@ -9738,6 +10278,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Heat",
@@ -9756,6 +10297,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The Crow",
@@ -9774,6 +10316,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Dragon Ball Z: Bojack Unbound",
@@ -9792,6 +10335,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Sister Act",
@@ -9810,6 +10354,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Thelma et Louise",
@@ -9828,6 +10373,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Dragon Ball Z: The Tree of Might",
@@ -9846,6 +10392,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Rain Man",
@@ -9864,6 +10411,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Akira",
@@ -9882,6 +10430,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Big",
@@ -9900,6 +10449,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Willow",
@@ -9918,6 +10468,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Full Metal Jacket",
@@ -9936,6 +10487,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Evil Dead II",
@@ -9954,6 +10506,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Stand by Me",
@@ -9972,6 +10525,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La Folle Journée de Ferris Bueller",
@@ -9990,6 +10544,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Top Gun",
@@ -10008,6 +10563,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les Goonies",
@@ -10026,6 +10582,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Amadeus",
@@ -10044,6 +10601,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Risky Business",
@@ -10062,6 +10620,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Conan le Barbare",
@@ -10080,6 +10639,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Evil Dead",
@@ -10098,6 +10658,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Il était une fois dans l'Ouest",
@@ -10116,6 +10677,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Astérix et Cléopâtre",
@@ -10134,6 +10696,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Casablanca",
@@ -10152,6 +10715,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le haut du panier",
@@ -10170,6 +10734,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Premier contact",
@@ -10188,6 +10753,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le silence des agneaux",
@@ -10206,6 +10772,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le chant du loup",
@@ -10224,6 +10791,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les aventures de Rabbi Jacob",
@@ -10242,6 +10810,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La Folie des grandeurs",
@@ -10260,6 +10829,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "12 hommes en colère",
@@ -10278,6 +10848,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les 11 commandements",
@@ -10296,6 +10867,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Arrête-moi si tu peux",
@@ -10314,6 +10886,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La Ligne Verte",
@@ -10332,6 +10905,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La tour Montparnasse infernale",
@@ -10350,6 +10924,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Over the Top : Le bras de fer",
@@ -10368,6 +10943,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Karate Kid",
@@ -10386,6 +10962,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "À la Recherche du Bonheur",
@@ -10404,6 +10981,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Blood Diamond",
@@ -10422,6 +11000,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Prestige",
@@ -10440,6 +11019,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Admis à tout prix",
@@ -10458,6 +11038,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Nos Jours heureux",
@@ -10476,6 +11057,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Da Vinci Code",
@@ -10494,6 +11076,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "40 Ans, Toujours Puceau",
@@ -10512,6 +11095,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Charlie et la Chocolaterie",
@@ -10530,6 +11114,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Dîner de Cons",
@@ -10548,6 +11133,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Will Hunting",
@@ -10566,6 +11152,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Loup de Wall Street",
@@ -10584,6 +11171,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La Vie Rêvée de Walter Mitty",
@@ -10602,6 +11190,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The Conjuring : Les Dossiers Warren",
@@ -10620,6 +11209,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "No pain no gain",
@@ -10638,6 +11228,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Time Out",
@@ -10656,6 +11247,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Qui veut la peau de Roger Rabbit",
@@ -10674,6 +11266,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Voyage au Centre de la Terre",
@@ -10692,6 +11285,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Je Suis une Légende",
@@ -10710,6 +11304,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Supergrave",
@@ -10728,6 +11323,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Prémonitions",
@@ -10746,6 +11342,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Seven",
@@ -10764,6 +11361,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Comment tuer son boss",
@@ -10782,6 +11380,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The Artist",
@@ -10800,6 +11399,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Percy Jackson : Le Voleur de Foudre",
@@ -10818,6 +11418,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Manoir hanté et les 999 Fantômes",
@@ -10836,6 +11437,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Hook ou la Revanche du capitaine Crochet",
@@ -10854,6 +11456,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Fourmiz",
@@ -10872,6 +11475,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Eh mec, elle est où ma caisse ?",
@@ -10890,6 +11494,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Amour et turbulences",
@@ -10908,6 +11513,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "From Paris with Love",
@@ -10926,6 +11532,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Seul au monde",
@@ -10944,6 +11551,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Fighting",
@@ -10962,6 +11570,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Ali G",
@@ -10980,6 +11589,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Pas un bruit",
@@ -10998,6 +11608,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Adam à travers le temps",
@@ -11016,6 +11627,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Deux moi",
@@ -11034,6 +11646,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Watchmen : Les Gardiens",
@@ -11052,6 +11665,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "X-men 2",
@@ -11070,6 +11684,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "X-Men Origins : Wolverine",
@@ -11088,6 +11703,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Venom : Let There Be Carnage",
@@ -11106,6 +11722,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Mon inconnue",
@@ -11124,6 +11741,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Un jour",
@@ -11142,6 +11760,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Sexy Dance 3D",
@@ -11160,6 +11779,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La proposition",
@@ -11178,6 +11798,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "17 ans encore",
@@ -11196,6 +11817,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Ce que Veulent les Femmes",
@@ -11214,6 +11836,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Arthur et la Vengeance de Maltazard",
@@ -11232,6 +11855,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "WALL-E",
@@ -11250,6 +11874,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Shrek le Troisième",
@@ -11268,6 +11893,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Shrek 4 : Il Était une Fin",
@@ -11286,6 +11912,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Star Wars : Épisode 1 - La menace fantôme",
@@ -11304,6 +11931,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Star Wars : Episode 4 - Un nouvel espoir",
@@ -11322,6 +11950,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Star Wars : Episode 6 - Le retour du Jedi",
@@ -11340,6 +11969,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Fast and Furious",
@@ -11358,6 +11988,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Fast and Furious : Tokyo Drift",
@@ -11376,6 +12007,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Fast & Furious 4",
@@ -11394,6 +12026,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Terminator Renaissance",
@@ -11412,6 +12045,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "John Wick : Chapitre 2",
@@ -11430,6 +12064,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Jack Reacher : Never Go Back",
@@ -11448,6 +12083,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "A couteaux tirés 2 : Glass Onion",
@@ -11466,6 +12102,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "James Bond : Quantum of Solace",
@@ -11484,6 +12121,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "OSS 117 : Rio ne Répond Plus",
@@ -11502,6 +12140,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Labyrinthe",
@@ -11520,6 +12159,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Very Bad Trip",
@@ -11538,6 +12178,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Die Hard : Piège de cristal",
@@ -11556,6 +12197,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Die Hard 3 : une journée en enfer",
@@ -11574,6 +12216,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Die Hard 4 : Retour en Enfer",
@@ -11592,6 +12235,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Twilight : Chapitre 1 - Fascination",
@@ -11610,6 +12254,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Underworld 2 : Évolution",
@@ -11628,6 +12273,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Destination Finale",
@@ -11646,6 +12292,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Pirates des Caraïbes : La malédiction du Black Pearl",
@@ -11664,6 +12311,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Pirates des Caraïbes 2 : Le Secret du Coffre Maudit",
@@ -11682,6 +12330,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Blade : Trinity",
@@ -11700,6 +12349,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Tomb Raider : le berceau de la vie",
@@ -11718,6 +12368,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Alien vs. Predator",
@@ -11736,6 +12387,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Independence Day 2",
@@ -11754,6 +12406,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Retour vers le futur 2",
@@ -11772,6 +12425,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Rambo : First Blood",
@@ -11790,6 +12444,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "American Pie 3 : Marions-les",
@@ -11808,6 +12463,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "American Pie 4",
@@ -11826,6 +12482,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Élémentaire",
@@ -11844,6 +12501,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The Kissing Booth 2",
@@ -11862,6 +12520,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Rocketman",
@@ -11880,6 +12539,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Monstres Academy",
@@ -11898,6 +12558,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Gatsby le Magnifique",
@@ -11916,6 +12577,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Hôtel Transylvanie",
@@ -11934,6 +12596,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "District 9",
@@ -11952,6 +12615,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Public Enemies",
@@ -11970,6 +12634,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Volt, star malgré lui",
@@ -11988,6 +12653,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Madagascar 2",
@@ -12006,6 +12672,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Sex and the City",
@@ -12024,6 +12691,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Benjamin Gates et le Trésor des Templiers",
@@ -12042,6 +12710,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Mulan 2",
@@ -12060,6 +12729,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "30 ans sinon rien",
@@ -12078,6 +12748,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Dernier Samouraï",
@@ -12096,6 +12767,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Frère des ours",
@@ -12114,6 +12786,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Mon beau-père et moi",
@@ -12132,6 +12805,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Monde magique de la Belle et la Bête",
@@ -12150,6 +12824,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Austin Powers",
@@ -12168,6 +12843,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les 101 Dalmatiens",
@@ -12186,6 +12862,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Bossu de Notre-Dame",
@@ -12204,6 +12881,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Un jour sans fin",
@@ -12222,6 +12900,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Indiana Jones et la Dernière Croisade",
@@ -12240,6 +12919,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Indiana Jones et le Temple maudit",
@@ -12258,6 +12938,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Pierre et le Loup",
@@ -12276,6 +12957,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Escape Game",
@@ -12294,6 +12976,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Mission : Impossible – Fallout",
@@ -12312,6 +12995,7 @@ export const ronanMovies: UserMovies = [
     loaned: "Guillaume",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Ne coupez pas !",
@@ -12330,6 +13014,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Ça",
@@ -12348,6 +13033,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Star Trek : Sans limites",
@@ -12366,6 +13052,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Dernier train pour Busan",
@@ -12384,6 +13071,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Conjuring 2 : Le Cas Enfield",
@@ -12402,6 +13090,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Insidious : Chapitre 2",
@@ -12420,6 +13109,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "New York Melody",
@@ -12438,6 +13128,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Percy Jackson : La Mer des monstres",
@@ -12456,6 +13147,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "G.I. Joe : Conspiration",
@@ -12474,6 +13166,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Sexy Dance 4 : Miami Heat",
@@ -12492,6 +13185,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Happy New Year",
@@ -12510,6 +13204,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Mission : Impossible - Protocole Fantôme",
@@ -12528,6 +13223,7 @@ export const ronanMovies: UserMovies = [
     loaned: "Guillaume",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "10 ans déjà !",
@@ -12546,6 +13242,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Saw 3D : Chapitre final",
@@ -12564,6 +13261,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Superman/Batman : Apocalypse",
@@ -12582,6 +13280,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Batman et Red Hood : Sous le masque rouge",
@@ -12600,6 +13299,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Ip Man 2 : Le Retour du grand maître",
@@ -12618,6 +13318,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Nanny McPhee et le Big Bang",
@@ -12636,6 +13337,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "G.I. Joe : Le Réveil du Cobra",
@@ -12654,6 +13356,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "High School Musical 3 : Nos années lycée",
@@ -12672,6 +13375,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Hannibal Lecter : Les Origines du mal",
@@ -12690,6 +13394,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Mission : Impossible III",
@@ -12708,6 +13413,7 @@ export const ronanMovies: UserMovies = [
     loaned: "Guillaume",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Treize à la douzaine 2",
@@ -12726,6 +13432,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Gang de requins",
@@ -12744,6 +13451,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Collatéral",
@@ -12762,6 +13470,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Rock Academy",
@@ -12780,6 +13489,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Comment se faire larguer en dix leçons",
@@ -12798,6 +13508,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Spy Kids 2 : Espions en herbe",
@@ -12816,6 +13527,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La Légende de Tarzan et Jane",
@@ -12834,6 +13546,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Projet Blair Witch",
@@ -12852,6 +13565,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Monde perdu : Jurassic Park",
@@ -12870,6 +13584,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Mission : Impossible",
@@ -12888,6 +13603,7 @@ export const ronanMovies: UserMovies = [
     loaned: "Guillaume",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Dragon Ball Z : Fusions",
@@ -12906,6 +13622,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Dragon Ball Z : Bio-Broly",
@@ -12924,6 +13641,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Sister Act, acte 2",
@@ -12942,6 +13660,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La Liste de Schindler",
@@ -12960,6 +13679,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Dragon Ball Z : Broly le super guerrier",
@@ -12978,6 +13698,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les Tortues Ninja 2 : Les héros sont de retour",
@@ -12996,6 +13717,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Dragon Ball Z : Le Robot des glaces",
@@ -13014,6 +13736,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Superman IV : Le Face-à-face",
@@ -13032,6 +13755,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Breakfast Club",
@@ -13050,6 +13774,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les Dents de la mer, 2ᵉ partie",
@@ -13068,6 +13793,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'exorciste",
@@ -13086,6 +13812,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les temps modernes",
@@ -13104,6 +13831,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'effet papillon",
@@ -13122,6 +13850,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "28 jours plus tard",
@@ -13140,6 +13869,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'Associé du diable",
@@ -13158,6 +13888,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La guerre des mondes",
@@ -13176,6 +13907,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les Infiltrés",
@@ -13194,6 +13926,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Diable s'Habille en Prada",
@@ -13212,6 +13945,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "V pour Vendetta",
@@ -13230,6 +13964,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Monde de Narnia : Le Lion, la Sorcière Blanche et l'Armoire Magique",
@@ -13248,6 +13983,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La cité de la peur",
@@ -13266,6 +14002,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Maléfique",
@@ -13284,6 +14021,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les seigneurs",
@@ -13302,6 +14040,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Expendables 2",
@@ -13320,6 +14059,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le cercle des poètes disparus",
@@ -13338,6 +14078,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Sept Vies",
@@ -13356,6 +14097,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Course à la mort",
@@ -13374,6 +14116,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Rien que pour vos cheveux",
@@ -13392,6 +14135,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "28 Semaines Plus Tard",
@@ -13410,6 +14154,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Paranoïak",
@@ -13428,6 +14173,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Dumb & Dumber",
@@ -13446,6 +14192,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Expendables : Unité Spéciale",
@@ -13464,6 +14211,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Choc des Titans",
@@ -13482,6 +14230,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Alice au Pays des Merveilles",
@@ -13500,6 +14249,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les visiteurs",
@@ -13518,6 +14268,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Cendrillon",
@@ -13536,6 +14287,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La Belle au bois dormant",
@@ -13554,6 +14306,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'Incroyable Hulk",
@@ -13572,6 +14325,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "X-Men : L'Affrontement Final",
@@ -13590,6 +14344,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "X-Men : Le Commencement",
@@ -13608,6 +14363,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les 4 Fantastiques",
@@ -13626,6 +14382,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les 4 Fantastiques et le Surfeur d'Argent",
@@ -13644,6 +14401,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La Probabilité statistique de l'amour au premier regard",
@@ -13662,6 +14420,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'agence",
@@ -13680,6 +14439,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Love & autres drogues",
@@ -13698,6 +14458,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Sexy Dance",
@@ -13716,6 +14477,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Sexy Dance 2",
@@ -13734,6 +14496,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Jackpot",
@@ -13752,6 +14515,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Amour & Amnésie",
@@ -13770,6 +14534,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "40 jours et 40 nuits",
@@ -13788,6 +14553,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les Mondes de Ralph",
@@ -13806,6 +14572,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La Reine des Neiges",
@@ -13824,6 +14591,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Moi, Moche et Méchant",
@@ -13842,6 +14610,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les Cinq Légendes",
@@ -13860,6 +14629,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'Âge de Glace",
@@ -13878,6 +14648,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'Âge de Glace 2",
@@ -13896,6 +14667,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'Âge de Glace 4 : La Dérive des Continents",
@@ -13914,6 +14686,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Arthur 3 : La Guerre des Deux Mondes",
@@ -13932,6 +14705,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La Princesse et la Grenouille",
@@ -13950,6 +14724,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Monstres contre Aliens",
@@ -13968,6 +14743,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les Simpson, le Film",
@@ -13986,6 +14762,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le monde de Nemo",
@@ -14004,6 +14781,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La petite sirène",
@@ -14022,6 +14800,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Star Wars: Episode 2 - L'attaque des clones",
@@ -14040,6 +14819,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Star Wars : Episode 5 - L'empire contre-attaque",
@@ -14058,6 +14838,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Fast & Furious 5",
@@ -14076,6 +14857,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "A couteaux tirés",
@@ -14094,6 +14876,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "OSS 117 : Le Caire, Nid d'Espions",
@@ -14112,6 +14895,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "OSS 117 : Alerte Rouge en Afrique Noire",
@@ -14130,6 +14914,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Incassable",
@@ -14148,6 +14933,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La mémoire dans la peau",
@@ -14166,6 +14952,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La Mort dans la Peau",
@@ -14184,6 +14971,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La Vengeance dans la Peau",
@@ -14202,6 +14990,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Die Hard 2 : 58 minutes pour vivre",
@@ -14220,6 +15009,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Destination Finale 2",
@@ -14238,6 +15028,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Destination Finale 3",
@@ -14256,6 +15047,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Destination Finale 4",
@@ -14274,6 +15066,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Destination Finale 5",
@@ -14292,6 +15085,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La nuit au musée",
@@ -14310,6 +15104,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La Nuit au musée 2",
@@ -14328,6 +15123,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Pirates des Caraïbes 3 : Jusqu'au Bout du Monde",
@@ -14346,6 +15142,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Hellboy 2 : Les Légions d'Or Maudites",
@@ -14364,6 +15161,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les bronzés",
@@ -14382,6 +15180,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les bronzés font du ski",
@@ -14400,6 +15199,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Transporteur 2",
@@ -14418,6 +15218,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Transporteur 3",
@@ -14436,6 +15237,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Sin City : J'ai Tué pour Elle",
@@ -14454,6 +15256,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Matrix",
@@ -14472,6 +15275,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La Momie",
@@ -14490,6 +15294,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Retour de la Momie",
@@ -14508,6 +15313,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La momie : la tombe de l'empereur dragon",
@@ -14526,6 +15332,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'arme fatale",
@@ -14544,6 +15351,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Maman j'ai raté l'avion",
@@ -14562,6 +15370,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Retour vers le futur 3",
@@ -14580,6 +15389,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Rambo 2 : la mission",
@@ -14598,6 +15408,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Parrain",
@@ -14616,6 +15427,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Parrain 2",
@@ -14634,6 +15446,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le monde de Dory",
@@ -14652,6 +15465,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "S.O.S. Fantômes : L'Héritage",
@@ -14670,6 +15484,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Maléfique : Le Pouvoir du Mal",
@@ -14688,6 +15503,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Nouveau Stagiaire",
@@ -14706,6 +15522,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les Aventures de Tintin",
@@ -14724,6 +15541,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La Planète des singes : Les Origines",
@@ -14742,6 +15560,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les Noces funèbres",
@@ -14760,6 +15579,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La Planète au trésor",
@@ -14778,6 +15598,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Atlantide : L'Empire perdu",
@@ -14796,6 +15617,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La Route d'Eldorado",
@@ -14814,6 +15636,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "S.O.S. Fantômes",
@@ -14832,6 +15655,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Livre de la jungle",
@@ -14850,6 +15674,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Alice au pays des merveilles",
@@ -14868,6 +15693,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Sale temps à l'hôtel El Royale",
@@ -14886,6 +15712,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "À tous les garçons que j'ai aimés",
@@ -14904,6 +15731,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Equalizer 2",
@@ -14922,6 +15750,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La Forme de l'eau",
@@ -14940,6 +15769,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La Tour sombre",
@@ -14958,6 +15788,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Dunkerque",
@@ -14976,6 +15807,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Roi Arthur : La Légende d'Excalibur",
@@ -14994,6 +15826,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The Boyfriend : Pourquoi lui ?",
@@ -15012,6 +15845,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "American Nightmare 3 : Élections",
@@ -15030,6 +15864,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Alice de l'autre côté du miroir",
@@ -15048,6 +15883,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Chasseur et la Reine des glaces",
@@ -15066,6 +15902,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Livre de la jungle",
@@ -15084,6 +15921,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les Huit Salopards",
@@ -15102,6 +15940,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Agents très spéciaux : Code U.N.C.L.E.",
@@ -15120,6 +15959,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Éternelle Adaline",
@@ -15138,6 +15978,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Hobbit : La Bataille des Cinq Armées",
@@ -15156,6 +15997,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "American Nightmare 2 : Anarchy",
@@ -15174,6 +16016,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Noé",
@@ -15192,6 +16035,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "300 : La Naissance d'un Empire",
@@ -15210,6 +16054,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Hobbit : La Désolation de Smaug",
@@ -15228,6 +16073,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Et (beaucoup) plus si affinités",
@@ -15246,6 +16092,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les Miller, une famille en herbe",
@@ -15264,6 +16111,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Copains pour toujours 2",
@@ -15282,6 +16130,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les Stagiaires",
@@ -15300,6 +16149,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "C'est la fin",
@@ -15318,6 +16168,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "American Nightmare",
@@ -15336,6 +16187,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Monde de Charlie",
@@ -15354,6 +16206,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Superman contre l'Élite",
@@ -15372,6 +16225,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Blanche-Neige et le Chasseur",
@@ -15390,6 +16244,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Madagascar 3 : Bons Baisers d'Europe",
@@ -15408,6 +16263,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Lorax",
@@ -15426,6 +16282,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Voyage au centre de la Terre 2 : L'Île mystérieuse",
@@ -15444,6 +16301,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La Cabane dans les bois",
@@ -15462,6 +16320,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Sherlock Holmes : Jeu d'ombres",
@@ -15480,6 +16339,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les Trois Mousquetaires",
@@ -15498,6 +16358,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La Couleur des sentiments",
@@ -15516,6 +16377,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La Colline aux coquelicots",
@@ -15534,6 +16396,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Copains pour toujours",
@@ -15552,6 +16415,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Superman/Batman : Ennemis publics",
@@ -15570,6 +16434,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Indiana Jones et le Royaume du crâne de cristal",
@@ -15588,6 +16453,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les Chroniques de Spiderwick",
@@ -15606,6 +16472,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Astérix aux Jeux Olympiques",
@@ -15624,6 +16491,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "À la croisée des mondes : La Boussole d'or",
@@ -15642,6 +16510,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Boulevard de la mort",
@@ -15660,6 +16529,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Inside Man : L'Homme de l'intérieur",
@@ -15678,6 +16548,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "High School Musical : Premiers pas sur scène",
@@ -15696,6 +16567,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Fils du Mask",
@@ -15714,6 +16586,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Pôle Express",
@@ -15732,6 +16605,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Master and Commander : De l'autre côté du monde",
@@ -15750,6 +16624,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Batman : La Mystérieuse Batwoman",
@@ -15768,6 +16643,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Seigneur des anneaux : Les Deux Tours",
@@ -15786,6 +16662,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Seigneur des anneaux : La Communauté de l'anneau",
@@ -15804,6 +16681,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Mission : Impossible 2",
@@ -15822,6 +16700,7 @@ export const ronanMovies: UserMovies = [
     loaned: "Guillaume",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Ghost Dog : La Voie du samouraï",
@@ -15840,6 +16719,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Dragon Ball Z : L'Attaque du dragon",
@@ -15858,6 +16738,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Dragon Ball Z : Rivaux dangereux",
@@ -15876,6 +16757,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les Tortues Ninja 3",
@@ -15894,6 +16776,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Dragon Ball Z : L'Histoire de Trunks",
@@ -15912,6 +16795,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Bodyguard",
@@ -15930,6 +16814,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Dernier des Mohicans",
@@ -15948,6 +16833,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Dragon Ball Z : L'Offensive des cyborgs",
@@ -15966,6 +16852,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Dragon Ball Z : La Revanche de Cooler",
@@ -15984,6 +16871,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Dragon Ball Z : La Menace de Namek",
@@ -16002,6 +16890,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Dragon Ball Z : Le Père de Sangoku",
@@ -16020,6 +16909,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les Tortues Ninja",
@@ -16038,6 +16928,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Dragon Ball Z : À la poursuite de Garlic",
@@ -16056,6 +16947,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Insaisissables 2",
@@ -16074,6 +16966,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Nicky Larson Private Eyes",
@@ -16092,6 +16985,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Beauté cachée",
@@ -16110,6 +17004,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les Figures de l'ombre",
@@ -16128,6 +17023,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Secret de Charlie",
@@ -16146,6 +17042,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Dernier Exorcisme",
@@ -16164,6 +17061,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La Rafle",
@@ -16182,6 +17080,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Livre d'Eli",
@@ -16200,6 +17099,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La Route",
@@ -16218,6 +17118,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les Fils de l'homme",
@@ -16236,6 +17137,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La Colline a des yeux",
@@ -16254,6 +17156,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Hooligans",
@@ -16272,6 +17175,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les Dalton",
@@ -16290,6 +17194,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "F.B.I. : Fausses blondes infiltrées",
@@ -16308,6 +17213,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Deux Frères",
@@ -16326,6 +17232,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'Armée des morts",
@@ -16344,6 +17251,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Treize à la douzaine",
@@ -16362,6 +17270,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Seigneur des anneaux : Le Retour du roi",
@@ -16380,6 +17289,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Dragon rouge",
@@ -16398,6 +17308,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Charlie et ses drôles de dames",
@@ -16416,6 +17327,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Masque de Zorro",
@@ -16434,6 +17346,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La Course au jouet",
@@ -16452,6 +17365,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Lancelot, le premier chevalier",
@@ -16470,6 +17384,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Astérix et les Indiens",
@@ -16488,6 +17403,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Dracula",
@@ -16506,6 +17422,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Dragon Ball Z : Cent Mille Guerriers de métal",
@@ -16524,6 +17441,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "S.O.S. Fantômes 2",
@@ -16542,6 +17460,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'Histoire sans fin",
@@ -16560,6 +17479,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les Aventuriers de l'Arche perdue",
@@ -16578,6 +17498,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les Dents de la mer",
@@ -16596,6 +17517,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les Valseuses",
@@ -16614,6 +17536,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The Rip",
@@ -16632,6 +17555,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Leon",
@@ -16650,6 +17574,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Prédictions",
@@ -16668,6 +17593,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Vice-Versa 2",
@@ -16686,6 +17612,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Furiosa",
@@ -16704,6 +17631,7 @@ export const ronanMovies: UserMovies = [
     loaned: "Guillaume",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Mad Max: Fury Road",
@@ -16722,6 +17650,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Sinners",
@@ -16740,6 +17669,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Predestination",
@@ -16758,6 +17688,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Looper",
@@ -16776,6 +17707,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Nobody",
@@ -16794,6 +17726,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Uncut Gems",
@@ -16812,6 +17745,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Once Upon a Time in Hollywood",
@@ -16830,6 +17764,7 @@ export const ronanMovies: UserMovies = [
     loaned: "Guillaume",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'Âge de Glace 3 : Le Temps des Dinosaures",
@@ -16848,6 +17783,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les Choristes",
@@ -16866,6 +17802,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'arme fatale 2",
@@ -16884,6 +17821,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'arme fatale 3",
@@ -16902,6 +17840,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Maman j'ai encore raté l'avion",
@@ -16920,6 +17859,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Ocean's Twelve",
@@ -16938,6 +17878,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Ocean's Thirteen",
@@ -16956,6 +17897,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Greenland - Le Dernier Refuge",
@@ -16974,6 +17916,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Arco",
@@ -16992,6 +17935,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La Cité de Dieu",
@@ -17010,6 +17954,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Gourou",
@@ -17028,6 +17973,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "28 ans plus tard",
@@ -17046,6 +17992,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'Amour, c'est surcoté ",
@@ -17064,6 +18011,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Seigneur des Anneaux - La Communauté de l'Anneau - Version Longue",
@@ -17082,6 +18030,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Seigneur des Anneaux - Les Deux Tours - Version Longue",
@@ -17100,6 +18049,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Seigneur des Anneaux - Le Retour du Roi - Version Longue",
@@ -17118,6 +18068,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Sonic 2, le film",
@@ -17136,6 +18087,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Avignon",
@@ -17154,6 +18106,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Sonic 3, le film",
@@ -17172,6 +18125,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "N'oublie Jamais",
@@ -17190,6 +18144,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "KPop Demon Hunters",
@@ -17208,6 +18163,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Astérix et Obélix contre César",
@@ -17226,6 +18182,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Evasion",
@@ -17244,6 +18201,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Ali",
@@ -17262,6 +18220,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Père et fille",
@@ -17280,6 +18239,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Seul contre tous",
@@ -17298,6 +18258,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Bright",
@@ -17316,6 +18277,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Expendables 3",
@@ -17334,6 +18296,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Hudson Hawk, gentleman et cambrioleur",
@@ -17352,6 +18315,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Menteur, menteur",
@@ -17370,6 +18334,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Fous d'Irène",
@@ -17388,6 +18353,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "M. Popper et ses pingouins",
@@ -17406,6 +18372,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Invictus",
@@ -17424,6 +18391,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Au-delà",
@@ -17442,6 +18410,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Contagion",
@@ -17460,6 +18429,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Nouveau Départ",
@@ -17478,6 +18448,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The Big Short",
@@ -17496,6 +18467,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Alliés",
@@ -17514,6 +18486,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Ad Astra",
@@ -17532,6 +18505,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Secret de la cité perdue",
@@ -17550,6 +18524,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Anges et démons",
@@ -17568,6 +18543,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Tonnerre sous les Tropiques",
@@ -17586,6 +18562,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Night and Day",
@@ -17604,6 +18581,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Barry Seal: American Traffic",
@@ -17622,6 +18600,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La Momie",
@@ -17640,6 +18619,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The Revenant",
@@ -17658,6 +18638,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Prince of Persia : Les Sables du temps",
@@ -17676,6 +18657,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Night Call",
@@ -17694,6 +18676,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Eddie the Eagle",
@@ -17712,6 +18695,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "47 Ronin",
@@ -17730,6 +18714,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Mise à prix",
@@ -17748,6 +18733,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Buried",
@@ -17766,6 +18752,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "6 Underground",
@@ -17784,6 +18771,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Collision",
@@ -17802,6 +18790,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Histoires enchantées",
@@ -17820,6 +18809,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Mytho",
@@ -17838,6 +18828,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The Ridiculous 6",
@@ -17856,6 +18847,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Règne du feu",
@@ -17874,6 +18866,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Fighter",
@@ -17892,6 +18885,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "American Bluff",
@@ -17910,6 +18904,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Exodus: Gods and Kings",
@@ -17928,6 +18923,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The Island",
@@ -17946,6 +18942,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Ghost in the Shell",
@@ -17964,6 +18961,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Jojo Rabbit",
@@ -17982,6 +18980,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La Chute de la Maison-Blanche",
@@ -18000,6 +18999,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La Chute du Président Nixon",
@@ -18018,6 +19018,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Your Name",
@@ -18036,6 +19037,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les Tontons flingueurs",
@@ -18054,6 +19056,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Discours d'un roi",
@@ -18072,6 +19075,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Imitation Game",
@@ -18090,6 +19094,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Signes",
@@ -18108,6 +19113,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La Colère des Titans",
@@ -18126,6 +19132,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Neuilly, sa mère !",
@@ -18144,6 +19151,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Neuilly, sa mère sa mère",
@@ -18162,6 +19170,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Jack Mimoun et les Secrets de Val Verde",
@@ -18180,6 +19189,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les petits mouchoirs",
@@ -18198,6 +19208,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Seuls Two",
@@ -18216,6 +19227,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La Haine",
@@ -18234,6 +19246,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Fabuleux Destin d'Amélie Poulain",
@@ -18252,6 +19265,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Polisse",
@@ -18270,6 +19284,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Grand bleu",
@@ -18288,6 +19303,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Jeux d'enfants",
@@ -18306,6 +19322,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les trois frères",
@@ -18324,6 +19341,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Qu'est-ce qu'on a fait au bon dieu ?",
@@ -18342,6 +19360,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Patients",
@@ -18360,6 +19379,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Babysitting",
@@ -18378,6 +19398,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Babysitting 2",
@@ -18396,6 +19417,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Bienvenue chez les Ch'tis",
@@ -18414,6 +19436,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les Beaux Gosses",
@@ -18432,6 +19455,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Tais-toi",
@@ -18450,6 +19474,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Kuzco, l'Empereur mégalo",
@@ -18468,6 +19493,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "O'Brother",
@@ -18486,6 +19512,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Bugonia",
@@ -18504,6 +19531,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Marsupilami",
@@ -18522,6 +19550,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Kraven the Hunter",
@@ -18540,6 +19569,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Bad Boys Ride or Die",
@@ -18558,6 +19588,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Nope",
@@ -18576,6 +19607,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'Auberge Espagnol",
@@ -18594,6 +19626,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Hamnet",
@@ -18612,6 +19645,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Hannah Montana - Le Film",
@@ -18630,6 +19664,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les Poupées Russes",
@@ -18648,6 +19683,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Rêve Américain",
@@ -18666,6 +19702,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Scream 7",
@@ -18684,6 +19721,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Marty Supreme",
@@ -18702,6 +19740,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le flic de Beverly Hills",
@@ -18720,6 +19759,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Dragon Ball : Salut ! Son Goku et ses amis sont de retour !!",
@@ -18738,6 +19778,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La Venue de l'Avenir",
@@ -18756,6 +19797,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Scarlet et l'éternité",
@@ -18774,6 +19816,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Valeur sentimentale (2025)",
@@ -18792,6 +19835,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Materialists",
@@ -18810,6 +19854,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Peaky Blinders : L'Immortel",
@@ -18828,6 +19873,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Projet Dernière Chance",
@@ -18846,6 +19892,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Sur la piste du Marsupilami",
@@ -18864,6 +19911,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Casse-tête Chinois",
@@ -18882,6 +19930,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Gilbert Grape",
@@ -18900,6 +19949,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Kong: Skull Island",
@@ -18918,6 +19968,7 @@ export const ronanMovies: UserMovies = [
     loaned: "Guillaume",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Ace Ventura, détective pour chiens et chats",
@@ -18936,6 +19987,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Super Mario Galaxy, le film",
@@ -18954,6 +20006,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les Profs",
@@ -18972,6 +20025,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les Tuche 2 : Le Rêve américain",
@@ -18990,6 +20044,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'Élève Ducobu",
@@ -19008,6 +20063,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les Vacances de Ducobu",
@@ -19026,6 +20082,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Petit Nicolas",
@@ -19044,6 +20101,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The Drama",
@@ -19062,6 +20120,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Lord of War",
@@ -19080,6 +20139,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Monde de Narnia : L'Odyssée du Passeur d'Aurore",
@@ -19098,6 +20158,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Adèle Blanc-Sec",
@@ -19116,6 +20177,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Jeu",
@@ -19134,6 +20196,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Gendarme à New York",
@@ -19152,6 +20215,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Street Fighter : La Légende de Chun-Li",
@@ -19170,6 +20234,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Tekken",
@@ -19188,6 +20253,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The Perfect Date",
@@ -19206,6 +20272,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Sans issue",
@@ -19224,6 +20291,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Promised Land",
@@ -19242,6 +20310,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Inferno",
@@ -19260,6 +20329,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Mort ou vif",
@@ -19278,6 +20348,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Sécurité rapprochée",
@@ -19296,6 +20367,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Happiness Therapy",
@@ -19314,6 +20386,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Red Sparrow",
@@ -19332,6 +20405,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Royaume interdit",
@@ -19350,6 +20424,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Sans aucun remords",
@@ -19368,6 +20443,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Cher John",
@@ -19386,6 +20462,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Epic : La Bataille du royaume secret",
@@ -19404,6 +20481,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Black/White",
@@ -19422,6 +20500,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Colombiana",
@@ -19440,6 +20519,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Seven Sisters",
@@ -19458,6 +20538,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Yoroï",
@@ -19476,6 +20557,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Mulan",
@@ -19494,6 +20576,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Naruto Shippuden : Le Film",
@@ -19512,6 +20595,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Naruto Shippuden : Les Liens",
@@ -19530,6 +20614,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Naruto Shippuden : La Tour perdue",
@@ -19548,6 +20633,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The Last: Naruto the Movie",
@@ -19566,6 +20652,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Boruto : Naruto, le film",
@@ -19584,6 +20671,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Son of Batman",
@@ -19602,6 +20690,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Batman: Assault on Arkham",
@@ -19620,6 +20709,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Pokémon, le film : Mewtwo contre-attaque",
@@ -19638,6 +20728,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Coursier",
@@ -19656,6 +20747,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Case départ",
@@ -19674,6 +20766,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Monty Python - Sacré Graal !",
@@ -19692,6 +20785,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Arnaques, crimes & botanique",
@@ -19710,6 +20804,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Dragonball Evolution",
@@ -19728,6 +20823,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Chérie, j'ai rétréci les gosses",
@@ -19746,6 +20842,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Iznogoud",
@@ -19764,6 +20861,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "George de la Jungle 2",
@@ -19782,6 +20880,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Souviens-toi... l'été dernier",
@@ -19800,6 +20899,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Don't Breathe",
@@ -19818,6 +20918,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La femme à la fenêtre",
@@ -19836,6 +20937,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La maison de cire",
@@ -19854,6 +20956,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Happy Death Day",
@@ -19872,6 +20975,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Annabelle",
@@ -19890,6 +20994,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Escape Room",
@@ -19908,6 +21013,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Escape Game 2",
@@ -19926,6 +21032,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Astérix et le Coup du menhir",
@@ -19944,6 +21051,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les 12 Travaux d'Astérix",
@@ -19962,6 +21070,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Kirikou et la Sorcière",
@@ -19980,6 +21089,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Camp Rock",
@@ -19998,6 +21108,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Coco",
@@ -20016,6 +21127,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Charlie, les filles lui disent merci",
@@ -20034,6 +21146,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "LOL (Laughing Out Loud)",
@@ -20052,6 +21165,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Friendzone",
@@ -20070,6 +21184,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Big Mamma",
@@ -20088,6 +21203,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Elephant Man",
@@ -20106,6 +21222,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Need for Speed",
@@ -20124,6 +21241,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Gods of Egypt",
@@ -20142,6 +21260,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Du Plomb dans la tête",
@@ -20160,6 +21279,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Passengers",
@@ -20178,6 +21298,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Largo Winch",
@@ -20196,6 +21317,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Hors normes",
@@ -20214,6 +21336,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Sens de la fête",
@@ -20232,6 +21355,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Robin des Bois",
@@ -20250,6 +21374,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Raging Bull",
@@ -20268,6 +21393,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Licorice Pizza",
@@ -20286,6 +21412,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Jusqu'en enfer",
@@ -20304,6 +21431,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Oz the Great and Powerful",
@@ -20322,6 +21450,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La Mouche",
@@ -20340,6 +21469,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Juste une illusion",
@@ -20358,6 +21488,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'Épreuve du feu",
@@ -20376,6 +21507,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Eyes Wide Shut",
@@ -20394,6 +21526,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Mords-moi sans hésitation",
@@ -20412,6 +21545,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Vaillant, pigeon de combat !",
@@ -20430,6 +21564,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "How High",
@@ -20448,6 +21583,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Spoof Movie",
@@ -20466,6 +21602,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Big movie",
@@ -20484,6 +21621,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Austin Powers - L'Espion qui m'a tirée",
@@ -20502,6 +21640,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Johnny English",
@@ -20520,6 +21659,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Sex Academy",
@@ -20538,6 +21678,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Tucker et Dale fightent le mal",
@@ -20556,6 +21697,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Sans identité",
@@ -20574,6 +21716,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Push",
@@ -20592,6 +21735,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Du sang et des larmes",
@@ -20610,6 +21754,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Zack et Miri font un porno",
@@ -20628,6 +21773,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "A Ghost Story",
@@ -20646,6 +21792,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The Punisher: One Last Kill",
@@ -20664,6 +21811,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La Guerre des boutons",
@@ -20682,6 +21830,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les Visiteurs en Amérique",
@@ -20700,6 +21849,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Brightburn : L'enfant du mal",
@@ -20718,6 +21868,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Pirates des Caraïbes 4 : La Fontaine de jouvence",
@@ -20736,6 +21887,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Peter Pan 2 : Retour au pays imaginaire",
@@ -20754,6 +21906,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les 101 Dalmatiens",
@@ -20772,6 +21925,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Merlin l'enchanteur",
@@ -20790,6 +21944,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Robin des bois",
@@ -20808,6 +21963,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Rox et Rouky",
@@ -20826,6 +21982,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La Belle et la Bête",
@@ -20844,6 +22001,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Roi Lion 3 - Hakuna Matata",
@@ -20862,6 +22020,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La ferme se rebelle",
@@ -20880,6 +22039,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Chicken Little",
@@ -20898,6 +22058,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Voyage d'Arlo",
@@ -20916,6 +22077,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Nos voisins, les hommes",
@@ -20934,6 +22096,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'Âge de glace : Les Lois de l'Univers",
@@ -20952,6 +22115,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Roi Lion",
@@ -20970,6 +22134,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Mémoires d'une geisha",
@@ -20988,6 +22153,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La Nuit au musée : Le Secret des Pharaons",
@@ -21006,6 +22172,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Underworld : Blood Wars",
@@ -21024,6 +22191,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Blade Runner",
@@ -21042,6 +22210,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Elektra",
@@ -21060,6 +22229,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Superman III",
@@ -21078,6 +22248,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Honey",
@@ -21096,6 +22267,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Click : Télécommandez votre vie",
@@ -21114,6 +22286,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The Woman in the Window",
@@ -21132,6 +22305,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Kingdom of Heaven",
@@ -21150,6 +22324,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Braquage à l'italienne",
@@ -21168,6 +22343,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Géant de fer",
@@ -21186,6 +22362,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "South Park : Post Covid",
@@ -21204,6 +22381,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "South Park : Post Covid : Le retour du Covid",
@@ -21222,6 +22400,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "South Park : Les Guerres du streaming",
@@ -21240,6 +22419,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "South Park : Les Guerres du streaming, partie 2",
@@ -21258,6 +22438,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Un p'tit truc en plus",
@@ -21276,6 +22457,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les Rois mages",
@@ -21294,6 +22476,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Fondateur",
@@ -21312,6 +22495,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "10 Cloverfield Lane",
@@ -21330,6 +22514,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Attack the Block",
@@ -21348,6 +22533,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Jackie Brown",
@@ -21366,6 +22552,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Juste la fin du monde",
@@ -21384,6 +22571,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Legend",
@@ -21402,6 +22590,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Captain Fantastic",
@@ -21420,6 +22609,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Réalité",
@@ -21438,6 +22628,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "On ne choisit pas sa famille",
@@ -21456,6 +22647,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Rien à déclarer",
@@ -21474,6 +22666,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The Darkest Hour",
@@ -21492,6 +22685,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Michael",
@@ -21510,6 +22704,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Jim Queen",
@@ -21528,6 +22723,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Fjord",
@@ -21546,6 +22742,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Her Private Hell",
@@ -21564,6 +22761,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Hope",
@@ -21582,6 +22780,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Paper Tiger",
@@ -21600,6 +22799,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Château d'Arioka",
@@ -21618,6 +22818,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Diamond",
@@ -21636,6 +22837,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La Bataille de Gaulle : L’âge de fer",
@@ -21654,6 +22856,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Roma Elastica",
@@ -21672,6 +22875,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'Inconnue",
@@ -21690,6 +22894,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Vertige",
@@ -21708,6 +22913,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La Bola Negra",
@@ -21726,6 +22932,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The End of It",
@@ -21744,6 +22951,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Histoires de la Nuit",
@@ -21762,6 +22970,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Victorian Psycho",
@@ -21780,6 +22989,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'Objet du Délit",
@@ -21798,6 +23008,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Mandalorian & Grogu",
@@ -21816,6 +23027,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Apocalypse Now",
@@ -21834,6 +23046,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "2001 : L'Odyssée de l'espace",
@@ -21852,6 +23065,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Scary Movie (6)",
@@ -21870,6 +23084,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Obsession",
@@ -21888,6 +23103,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Dernier Pub avant la fin du monde",
@@ -21906,6 +23122,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Oliver Twist",
@@ -21924,6 +23141,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Première Année",
@@ -21942,6 +23160,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Manchester by the Sea",
@@ -21960,6 +23179,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Quand Harry rencontre Sally",
@@ -21978,6 +23198,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Mommy",
@@ -21996,6 +23217,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La Faille",
@@ -22014,6 +23236,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Crocodile Dundee",
@@ -22032,6 +23255,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Crocodile Dundee 2",
@@ -22050,6 +23274,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Crocodile Dundee 3",
@@ -22068,6 +23293,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les Étoiles Vagabondes",
@@ -22086,6 +23312,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Easy Girl",
@@ -22104,6 +23331,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Jawbreaker",
@@ -22122,6 +23350,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Midnight Special",
@@ -22140,6 +23369,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "THX 1138",
@@ -22158,6 +23388,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Death Note (2006)",
@@ -22176,6 +23407,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Death Note : The Last Name",
@@ -22194,6 +23426,7 @@ export const ronanMovies: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   }
 ,
   {
@@ -22213,6 +23446,7 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -22232,6 +23466,7 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -22251,6 +23486,7 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -22270,6 +23506,7 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -22289,6 +23526,7 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -22308,6 +23546,7 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -22327,6 +23566,7 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -22346,6 +23586,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -22365,6 +23606,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -22384,6 +23626,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -22403,6 +23646,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -22422,6 +23666,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -22441,6 +23686,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -22460,6 +23706,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -22479,6 +23726,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -22498,6 +23746,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -22517,6 +23766,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -22536,6 +23786,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -22555,6 +23806,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -22574,6 +23826,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -22593,6 +23846,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -22612,6 +23866,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -22631,6 +23886,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -22650,6 +23906,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -22669,6 +23926,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -22688,6 +23946,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -22707,6 +23966,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -22726,6 +23986,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -22745,6 +24006,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -22764,6 +24026,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -22783,6 +24046,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -22802,6 +24066,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -22821,6 +24086,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -22840,6 +24106,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -22859,6 +24126,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -22878,6 +24146,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -22897,6 +24166,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -22916,6 +24186,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -22935,6 +24206,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -22954,6 +24226,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -22973,6 +24246,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -22992,6 +24266,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -23011,6 +24286,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -23030,6 +24306,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -23049,6 +24326,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -23068,6 +24346,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -23087,6 +24366,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -23106,6 +24386,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -23125,6 +24406,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -23144,6 +24426,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -23163,6 +24446,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -23182,6 +24466,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -23201,6 +24486,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -23220,6 +24506,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -23239,6 +24526,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -23258,6 +24546,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -23277,6 +24566,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -23296,6 +24586,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -23315,6 +24606,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -23334,6 +24626,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -23353,6 +24646,7 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -23372,6 +24666,7 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -23391,6 +24686,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -23410,6 +24706,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -23429,6 +24726,7 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -23448,6 +24746,7 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -23467,6 +24766,7 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -23486,6 +24786,7 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -23505,6 +24806,7 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -23524,6 +24826,7 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -23543,6 +24846,7 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -23562,6 +24866,7 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -23581,6 +24886,7 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -23600,6 +24906,7 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -23619,6 +24926,7 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -23638,6 +24946,7 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -23657,6 +24966,7 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -23676,6 +24986,7 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -23695,6 +25006,7 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -23714,6 +25026,7 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -23733,6 +25046,7 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -23752,6 +25066,7 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -23771,6 +25086,7 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -23790,6 +25106,7 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -23809,6 +25126,7 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -23828,6 +25146,7 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -23847,6 +25166,7 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -23866,6 +25186,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -23885,6 +25206,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -23904,6 +25226,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -23923,6 +25246,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -23942,6 +25266,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -23961,6 +25286,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -23980,6 +25306,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -23999,6 +25326,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -24018,6 +25346,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -24037,6 +25366,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -24056,6 +25386,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -24075,6 +25406,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -24094,6 +25426,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -24113,6 +25446,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -24132,6 +25466,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -24151,6 +25486,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -24170,6 +25506,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -24189,6 +25526,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -24208,6 +25546,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -24227,6 +25566,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -24246,6 +25586,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -24265,6 +25606,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -24284,6 +25626,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -24303,6 +25646,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -24322,6 +25666,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -24341,6 +25686,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -24360,6 +25706,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -24379,6 +25726,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -24398,6 +25746,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -24417,6 +25766,7 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -24436,6 +25786,7 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -24455,6 +25806,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -24474,6 +25826,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -24493,6 +25846,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -24512,6 +25866,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -24531,6 +25886,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -24550,6 +25906,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -24569,6 +25926,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -24588,6 +25946,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -24607,6 +25966,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -24626,6 +25986,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -24645,6 +26006,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -24664,6 +26026,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -24683,6 +26046,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -24702,6 +26066,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -24721,6 +26086,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -24740,6 +26106,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -24759,6 +26126,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -24778,6 +26146,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -24797,6 +26166,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -24816,6 +26186,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -24835,6 +26206,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -24854,6 +26226,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -24873,6 +26246,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -24892,6 +26266,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -24911,6 +26286,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -24930,6 +26306,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -24949,6 +26326,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -24968,6 +26346,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -24987,6 +26366,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -25006,6 +26386,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -25025,6 +26406,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -25044,6 +26426,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -25063,6 +26446,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -25082,6 +26466,7 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -25101,6 +26486,7 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -25120,6 +26506,7 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -25139,6 +26526,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: "2026-10-09T19:49",
+    quotes: [],
   },
 
   {
@@ -25158,6 +26546,7 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     lastUpdated: "2026-10-21T08:20",
+    quotes: [],
   },
 
   {
@@ -25177,6 +26566,7 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: "2026-10-11T18:22",
+    quotes: [],
   },
 
   {
@@ -25196,6 +26586,7 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     lastUpdated: "2026-10-12T20:31",
+    quotes: [],
   },
 
   {
@@ -25215,6 +26606,7 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     lastUpdated: "2026-10-14T13:09",
+    quotes: [],
   },
 
   {
@@ -25234,6 +26626,7 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     lastUpdated: "2026-10-20T14:44",
+    quotes: [],
   },
 
   {
@@ -25253,6 +26646,7 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     lastUpdated: "2026-10-21T08:17",
+    quotes: [],
   },
 
   {
@@ -25272,6 +26666,7 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     lastUpdated: "2026-10-24T13:25",
+    quotes: [],
   },
 
   {
@@ -25291,6 +26686,7 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     lastUpdated: "2026-10-24T13:28",
+    quotes: [],
   },
 
   {
@@ -25310,6 +26706,7 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     lastUpdated: "2026-10-24T13:37",
+    quotes: [],
   },
 
   {
@@ -25329,5 +26726,6 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     lastUpdated: "2026-10-28T08:25",
+    quotes: [],
   },
 ];

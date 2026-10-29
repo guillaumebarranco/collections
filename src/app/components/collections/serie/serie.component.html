@@ -89,6 +89,8 @@
     <p class="serie-saga">Saga {{ serie.saga }}</p>
     }     @if (serie.description) {
     <p class="serie-description">{{ serie.description }}</p>
+    } @if (serie.quotes.length && !isBaseEntityView) {
+    <app-entity-quotes [quotes]="serie.quotes" />
     } @if (!isBaseEntityView && getLastViewedSeasonInfo(); as lastSeason) {
     <p class="serie-times-watched">
       Dernière saison (saison {{ lastSeason.seasonNumber }}) vue le

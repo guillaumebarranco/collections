@@ -70,6 +70,7 @@ type EditMovieForm = {
   watchPriority: number;
   ratingComment: string;
   inList: string[];
+  quotes: string[];
 };
 
 type EditMovieEntityForm = {
@@ -326,6 +327,41 @@ export class EditMovieComponent {
     this.fromEntitySourceType.set((fe?.entityType ?? '') as MovieFromEntityType | '');
   }
 
+  addQuote(): void {
+    const form = this.movieForm();
+    if (!form) {
+      return;
+    }
+    this.movieForm.set({
+      ...form,
+      quotes: [...form.quotes, ''],
+    });
+  }
+
+  updateQuote(index: number, value: string): void {
+    const form = this.movieForm();
+    if (!form || index < 0 || index >= form.quotes.length) {
+      return;
+    }
+    const quotes = [...form.quotes];
+    quotes[index] = value;
+    this.movieForm.set({
+      ...form,
+      quotes,
+    });
+  }
+
+  removeQuote(index: number): void {
+    const form = this.movieForm();
+    if (!form || index < 0 || index >= form.quotes.length) {
+      return;
+    }
+    this.movieForm.set({
+      ...form,
+      quotes: form.quotes.filter((_, quoteIndex) => quoteIndex !== index),
+    });
+  }
+
   updateOtherSeenDates(dates: string[]): void {
     const current = this.movieForm();
     if (!current) {
@@ -466,6 +502,7 @@ export class EditMovieComponent {
           watchPriority: Math.min(3, Math.max(1, form.watchPriority ?? 1)),
           ratingComment: form.ratingComment ?? '',
           inList: form.inList ?? [],
+          quotes: form.quotes.map((quote) => quote.trim()).filter(Boolean),
           entity: this.isAdminView()
             ? this.toEntityPayload(this.movieEntityForm())
             : undefined,
@@ -672,6 +709,9 @@ export class EditMovieComponent {
       watchPriority: Math.min(3, Math.max(1, movie.watchPriority ?? 1)),
       ratingComment: movie.ratingComment ?? '',
       inList: movie.inList ?? [],
+      quotes: [...(movie.quotes ?? [])].map((quote) =>
+        quote.replace(/\\r\\n/g, '\n').replace(/\\n/g, '\n').replace(/\\r/g, '\n')
+      ),
     };
   }
 

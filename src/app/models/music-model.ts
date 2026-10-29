@@ -14,6 +14,8 @@ export interface BaseMusic extends MandatoryMusicData {
 export interface UserMusic extends MandatoryMusicData {
   rating: number;
   timesListened: number;
+  /** Citations extraites du morceau. */
+  quotes: string[];
 }
 
 export type UserMusics = UserMusic[];

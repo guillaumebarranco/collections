@@ -68,6 +68,8 @@ export interface UserSerie extends MandatorySerieData {
   ratingComment: string;
   borrowed: string;
   loaned: string;
+  /** Citations extraites de la série. */
+  quotes: string[];
 }
 
 export type UserSeries = UserSerie[];

@@ -22,9 +22,27 @@
           @for (music of album()!.musics; track music.title; let i = $index) {
             <div class="track-item">
               <span class="track-number">{{ i + 1 }}</span>
-              <div class="track-info">
-                <span class="track-title">{{ music.title }}</span>
-                <span class="track-duration">{{ formatDuration(music.duration) }}</span>
+              <div class="track-main">
+                <div class="track-info">
+                  <span class="track-title">{{ music.title }}</span>
+                  <span class="track-duration">{{ formatDuration(music.duration) }}</span>
+                </div>
+                @if (music.quotes.length > 0) {
+                <app-entity-quotes [quotes]="music.quotes" />
+                }
+                @if (canEditQuotes()) {
+                <button
+                  type="button"
+                  class="track-quotes-edit"
+                  (click)="openQuotesEditor(music)"
+                >
+                  {{
+                    music.quotes.length
+                      ? "Modifier les citations"
+                      : "Ajouter une citation"
+                  }}
+                </button>
+                }
               </div>
               <span class="track-listens">🎧 {{ music.timesListened }}</span>
             </div>

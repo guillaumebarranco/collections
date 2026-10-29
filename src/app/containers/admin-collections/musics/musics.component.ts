@@ -58,6 +58,7 @@ export class AdminMusicsComponent implements OnInit {
       releaseDate: music.releaseDate,
       duration: music.duration,
       genre: music.genre,
+      quotes: [],
     }));
     this.allMusics.set(musics);
   }

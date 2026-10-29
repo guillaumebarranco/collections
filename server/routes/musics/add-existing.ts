@@ -16,7 +16,7 @@ function formatUserMusic(music: any) {
     music.title
   )}",\n    artist: "${escapeString(
     music.artist
-  )}",\n    rating: 0,\n    timesListened: 1,\n  },`;
+  )}",\n    rating: 0,\n    timesListened: 1,\n    quotes: [],\n  },`;
 }
 
 router.post('/add-existing', (req: any, res: any) => {

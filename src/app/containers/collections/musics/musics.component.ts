@@ -22,7 +22,7 @@ import {
 } from '../../../components/modals/album-modal/album-modal.component';
 import { Music } from '../../../models/music-model';
 import { normalizeSearchText } from '../../../utils/normalize-search-text';
-import { ActivatedRoute, Params, Router } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import {
   getAllBaseMusics,
   getAllMusics,
@@ -37,6 +37,7 @@ import {
   musicViewOptions,
 } from './musics.utils';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
+import { AuthService } from '../../../core/auth.service';
 import { LoaderComponent } from '../../../components/shared/loader/loader.component';
 import { MobileCollectionPickerComponent } from '../../../components/shared/mobile-collection-picker/mobile-collection-picker.component';
 import { pickMobileViewCovers } from '../../../utils/mobile-view-previews';
@@ -58,6 +59,7 @@ import { pickMobileViewCovers } from '../../../utils/mobile-view-previews';
 })
 export class MusicsComponent implements OnInit {
   activatedRoute = inject(ActivatedRoute);
+  private readonly authService = inject(AuthService);
   private readonly router = inject(Router);
   private readonly localStorageService = inject(LocalStorageService);
   private isLoadingPreferences = false;
@@ -100,11 +102,7 @@ export class MusicsComponent implements OnInit {
   }
 
   allMusics = computed<Music[]>(() => {
-    const params: Params = this.activatedRoute.snapshot.params;
-    const hasNameParam = params['id'] !== undefined;
-    return hasNameParam
-      ? this.musicsList()[params['id']] || []
-      : this.musicsList()[DEFAULT_USER_ID];
+    return this.musicsList()[this.getActiveUserId()] || [];
   });
 
   /** True si l'utilisateur a des musiques (affiche stats, filtres, recherche). */
@@ -348,8 +346,15 @@ export class MusicsComponent implements OnInit {
   }
 
   getActiveUserId(): string {
-    const params: Params = this.activatedRoute.snapshot.params;
-    return params['id'] ?? DEFAULT_USER_ID;
+    let route: ActivatedRoute | null = this.activatedRoute;
+    while (route) {
+      const id = route.snapshot.params['id'];
+      if (typeof id === 'string' && id) {
+        return id;
+      }
+      route = route.parent;
+    }
+    return DEFAULT_USER_ID;
   }
 
   private calculateTotalDuration(): string {
@@ -411,8 +416,53 @@ export class MusicsComponent implements OnInit {
     this.selectedAlbum.set(null);
   }
 
+  activeUserId(): string {
+    return this.getActiveUserId();
+  }
+
+  canEditQuotes(): boolean {
+    return this.authService.canEdit(this.getActiveUserId());
+  }
+
+  onMusicQuotesUpdated(update: {
+    title: string;
+    artist: string;
+    quotes: string[];
+  }): void {
+    const userId = this.getActiveUserId();
+    this.musicsList.update((list) => {
+      const current = list[userId] ?? [];
+      return {
+        ...list,
+        [userId]: current.map((music) =>
+          music.title === update.title && music.artist === update.artist
+            ? { ...music, quotes: update.quotes }
+            : music
+        ),
+      };
+    });
+    const album = this.selectedAlbum();
+    if (!album) {
+      return;
+    }
+    this.selectedAlbum.set({
+      ...album,
+      musics: album.musics.map((music) =>
+        music.title === update.title && music.artist === update.artist
+          ? { ...music, quotes: update.quotes }
+          : music
+      ),
+    });
+  }
+
   private matchesSearch(music: Music, term: string): boolean {
-    const haystack = [music.title, music.artist, music.album, music.genre]
+    const haystack = [
+      music.title,
+      music.artist,
+      music.album,
+      music.genre,
+      ...(music.quotes ?? []),
+    ]
       .filter(Boolean)
       .join(' ');
 

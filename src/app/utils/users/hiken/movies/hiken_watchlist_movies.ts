@@ -18,6 +18,7 @@ export const hikenWatchListMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -37,5 +38,6 @@ export const hikenWatchListMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
     lastUpdated: '',
+    quotes: [],
   },
 ];

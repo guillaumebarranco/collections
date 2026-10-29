@@ -248,9 +248,9 @@ function parseBooleanField(objectText: string, key: string) {
 }
 
 function parseStringArrayField(objectText: string, key: string) {
-  const keyIndex = objectText.indexOf(key);
-  if (keyIndex === -1) return null;
-  const afterKey = objectText.slice(keyIndex + key.length);
+  const keyMatch = new RegExp(`\\n\\s*${key}\\s*:`).exec(objectText);
+  if (!keyMatch || keyMatch.index === undefined) return null;
+  const afterKey = objectText.slice(keyMatch.index);
   const bracketStart = afterKey.indexOf('[');
   if (bracketStart === -1) return null;
   let depth = 1;
@@ -280,6 +280,49 @@ function formatOtherSeenDatesTs(dates: string[] | undefined): string {
   }
   const parts = dates.map((d) => `"${escapeString(d)}"`);
   return `[${parts.join(', ')}]`;
+}
+
+function upsertQuotesField(objectText: string, quotes: string[]) {
+  const serialized = `quotes: ${formatOtherSeenDatesTs(quotes)}`;
+  const keyMatch = /\n\s*quotes\s*:/.exec(objectText);
+  if (!keyMatch || keyMatch.index === undefined) {
+    return objectText.replace(/\n(\s*)\}\s*$/, `\n$1  ${serialized},\n$1}`);
+  }
+  const keyIndex = keyMatch.index + keyMatch[0].indexOf('quotes');
+  const bracketStart = objectText.indexOf('[', keyIndex);
+  if (bracketStart === -1) {
+    return objectText.replace(/\n(\s*)\}\s*$/, `\n$1  ${serialized},\n$1}`);
+  }
+  let depth = 0;
+  let i = bracketStart;
+  let quote: string | null = null;
+  while (i < objectText.length) {
+    const char = objectText[i];
+    if (quote) {
+      if (char === '\\') {
+        i += 2;
+        continue;
+      }
+      if (char === quote) quote = null;
+      i += 1;
+      continue;
+    }
+    if (char === '"' || char === "'") {
+      quote = char;
+      i += 1;
+      continue;
+    }
+    if (char === '[') depth += 1;
+    else if (char === ']') {
+      depth -= 1;
+      if (depth === 0) {
+        i += 1;
+        break;
+      }
+    }
+    i += 1;
+  }
+  return objectText.slice(0, keyIndex) + serialized + objectText.slice(i);
 }
 
 function upsertOtherSeenDatesField(objectText: string, dates: string[]) {
@@ -442,6 +485,7 @@ function parseMoviesFromFile(content: string): UserMovie[] {
                 ? 'Inconnu'
                 : ''),
             lastUpdated: parseStringField(objectText, 'lastUpdated') ?? '',
+            quotes: parseStringArrayField(objectText, 'quotes') ?? [],
           } as UserMovie);
         }
       }
@@ -934,6 +978,14 @@ function updateMovieInFile(content: string, payload: MovieUpdatePayload) {
           if (payload.loaned !== undefined) {
             updated = upsertField(updated, 'loaned', payload.loaned ?? '');
           }
+          if (Array.isArray(payload.quotes)) {
+            updated = upsertQuotesField(
+              updated,
+              payload.quotes.filter(
+                (quote) => typeof quote === 'string' && quote.trim()
+              )
+            );
+          }
           updated = upsertField(updated, 'lastUpdated', formatMovieLastUpdated());
 
           return (
@@ -1171,6 +1223,7 @@ function removeMovieFromFile(content: string, payload: MovieRemovePayload) {
     loaned: "${escapeString(movie.loaned || '')}",
     inList: ${inList},
     lastUpdated: "${escapeString(movie.lastUpdated || '')}",
+    quotes: ${formatOtherSeenDatesTs(movie.quotes)},
   }`;
     })
     .join(',\n');

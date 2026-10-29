@@ -4,162 +4,189 @@ export const musicsMaxBoublil: UserMusic[] = [
     title: 'Ce soir, tu vas prendre',
     artist: 'Max Boublil',
     rating: 0,
-    timesListened: 0
+    timesListened: 0,
+    quotes: [],
   },
   {
     title: 'Une larme qui coule',
     artist: 'Max Boublil',
     rating: 0,
-    timesListened: 0
+    timesListened: 0,
+    quotes: [],
   },
   {
     title: 'Montrez les nous',
     artist: 'Max Boublil',
     rating: 0,
-    timesListened: 0
+    timesListened: 0,
+    quotes: [],
   },
   {
     title: 'Susan Boyle',
     artist: 'Max Boublil',
     rating: 0,
-    timesListened: 0
+    timesListened: 0,
+    quotes: [],
   },
   {
     title: 'Chatroulette',
     artist: 'Max Boublil',
     rating: 0,
-    timesListened: 0
+    timesListened: 0,
+    quotes: [],
   },
   {
     title: "L'Inconnue du boulevard Bessières",
     artist: 'Max Boublil',
     rating: 0,
-    timesListened: 0
+    timesListened: 0,
+    quotes: [],
   },
   {
     title: "Depuis que tu n'es plus là",
     artist: 'Max Boublil',
     rating: 0,
-    timesListened: 0
+    timesListened: 0,
+    quotes: [],
   },
   {
     title: 'Chanson raciste',
     artist: 'Max Boublil',
     rating: 0,
-    timesListened: 0
+    timesListened: 0,
+    quotes: [],
   },
   {
     title: 'Clash gentil',
     artist: 'Max Boublil',
     rating: 0,
-    timesListened: 0
+    timesListened: 0,
+    quotes: [],
   },
   {
     title: 'Joyeux Noël',
     artist: 'Max Boublil',
     rating: 0,
-    timesListened: 0
+    timesListened: 0,
+    quotes: [],
   },
   {
     title: "J'aime les moches",
     artist: 'Max Boublil',
     rating: 0,
-    timesListened: 0
+    timesListened: 0,
+    quotes: [],
   },
   {
     title: "Mon coloc'",
     artist: 'Max Boublil',
     rating: 0,
-    timesListened: 0
+    timesListened: 0,
+    quotes: [],
   },
   {
     title: "J'kiffe ton tugudu",
     artist: 'Max Boublil',
     rating: 0,
-    timesListened: 0
+    timesListened: 0,
+    quotes: [],
   },
   {
     title: 'Tous des mythos',
     artist: 'Max Boublil',
     rating: 0,
-    timesListened: 0
+    timesListened: 0,
+    quotes: [],
   },
   {
     title: 'Moyen Moyenne',
     artist: 'Max Boublil',
     rating: 0,
-    timesListened: 0
+    timesListened: 0,
+    quotes: [],
   },
   {
     title: 'Bois !',
     artist: 'Max Boublil',
     rating: 0,
-    timesListened: 0
+    timesListened: 0,
+    quotes: [],
   },
   {
     title: 'En couple',
     artist: 'Max Boublil',
     rating: 0,
-    timesListened: 0
+    timesListened: 0,
+    quotes: [],
   },
   {
     title: 'Boom Boom Boom',
     artist: 'Max Boublil',
     rating: 0,
-    timesListened: 0
+    timesListened: 0,
+    quotes: [],
   },
   {
     title: 'Exhibitiodance',
     artist: 'Max Boublil',
     rating: 0,
-    timesListened: 0
+    timesListened: 0,
+    quotes: [],
   },
   {
     title: "T'es bonne…",
     artist: 'Max Boublil',
     rating: 0,
-    timesListened: 0
+    timesListened: 0,
+    quotes: [],
   },
   {
     title: "J'entends rien !",
     artist: 'Max Boublil',
     rating: 0,
-    timesListened: 0
+    timesListened: 0,
+    quotes: [],
   },
   {
     title: 'Prête-moi ta meuf',
     artist: 'Max Boublil',
     rating: 0,
-    timesListened: 0
+    timesListened: 0,
+    quotes: [],
   },
   {
     title: 'Put Your Sex in the Air',
     artist: 'Max Boublil',
     rating: 0,
-    timesListened: 0
+    timesListened: 0,
+    quotes: [],
   },
   {
     title: 'Addict',
     artist: 'Max Boublil',
     rating: 0,
-    timesListened: 0
+    timesListened: 0,
+    quotes: [],
   },
   {
     title: "FREDDY (C'est trop gros)",
     artist: 'Max Boublil',
     rating: 0,
-    timesListened: 0
+    timesListened: 0,
+    quotes: [],
   },
   {
     title: 'En boîte',
     artist: 'Max Boublil',
     rating: 0,
-    timesListened: 0
+    timesListened: 0,
+    quotes: [],
   },
   {
     title: 'Pâte à crêpe',
     artist: 'Max Boublil',
     rating: 0,
-    timesListened: 0
+    timesListened: 0,
+    quotes: [],
   },
 ];

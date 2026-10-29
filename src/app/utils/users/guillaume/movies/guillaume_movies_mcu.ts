@@ -18,6 +18,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Avengers : L'Ère d'Ultron",
@@ -36,6 +37,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Avengers: Infinity War',
@@ -54,6 +56,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Avengers: Endgame',
@@ -72,6 +75,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Captain America : First Avenger',
@@ -90,6 +94,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Captain America : Le Soldat de l'Hiver",
@@ -108,6 +113,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Captain America : Civil War',
@@ -126,6 +132,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Captain America: Brave New World',
@@ -144,6 +151,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Iron Man',
@@ -162,6 +170,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Iron Man 2',
@@ -180,6 +189,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Iron Man 3',
@@ -198,6 +208,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'Incroyable Hulk",
@@ -216,6 +227,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Thor',
@@ -234,6 +246,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Thor : le monde des ténèbres',
@@ -252,6 +265,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Thor: Ragnarok',
@@ -270,6 +284,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Thor : Love & Thunder',
@@ -288,6 +303,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Captain Marvel',
@@ -306,6 +322,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Marvels',
@@ -324,6 +341,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Shang-Chi et la Légende des Dix Anneaux',
@@ -342,6 +360,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Doctor Strange',
@@ -360,6 +379,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Doctor Strange dans le Multivers de la Folie',
@@ -378,6 +398,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Black Panther',
@@ -396,6 +417,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Black Panther : Wakanda pour Toujours',
@@ -414,6 +436,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Gardiens de la Galaxie',
@@ -432,6 +455,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Gardiens de la Galaxie Vol. 2',
@@ -450,6 +474,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Gardiens de la Galaxie Vol. 3',
@@ -468,6 +493,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Ant-Man',
@@ -486,6 +512,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Ant-Man et la Guêpe',
@@ -504,6 +531,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Ant-Man et la Guêpe : Quantumania',
@@ -522,6 +550,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Spider-Man: Homecoming',
@@ -540,6 +569,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Spider-Man: Far From Home',
@@ -558,6 +588,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Spider-Man : No Way Home',
@@ -576,6 +607,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Black Widow',
@@ -594,6 +626,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Éternels',
@@ -612,6 +645,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Deadpool et Wolverine',
@@ -630,5 +664,6 @@ export const guillaumeMoviesMcu: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 ];

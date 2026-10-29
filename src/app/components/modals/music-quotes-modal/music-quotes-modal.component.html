@@ -1,0 +1,32 @@
+<h2 mat-dialog-title>Citations — {{ data.title }}</h2>
+<div mat-dialog-content>
+  <p class="music-quotes-artist">{{ data.artist }}</p>
+  @for (quote of quotes(); track $index) {
+  <div class="quote-row">
+    <textarea
+      rows="2"
+      [ngModel]="quote"
+      (ngModelChange)="updateQuote($index, $event)"
+      [name]="'quote-' + $index"
+      placeholder="Citation"
+    ></textarea>
+    <button type="button" class="quote-remove" (click)="removeQuote($index)">
+      Retirer
+    </button>
+  </div>
+  }
+  <button type="button" class="quote-add" (click)="addQuote()">
+    Ajouter une citation
+  </button>
+  @if (errorMessage()) {
+  <p class="music-quotes-error">{{ errorMessage() }}</p>
+  }
+</div>
+<div mat-dialog-actions>
+  <button type="button" class="quote-cancel" (click)="close()" [disabled]="isSaving()">
+    Annuler
+  </button>
+  <button type="button" class="quote-save" (click)="save()" [disabled]="isSaving()">
+    {{ isSaving() ? "Enregistrement..." : "Enregistrer" }}
+  </button>
+</div>

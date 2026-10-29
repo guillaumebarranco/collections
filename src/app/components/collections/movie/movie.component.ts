@@ -41,6 +41,7 @@ import { DEFAULT_USER_ID } from '../../../utils/constants';
 import { MovieView } from '../../../containers/collections/movies/movies.utils';
 import { isMovieApproximateViewDate } from '../../../utils/approximate-date-badges.utils';
 import { PersonBadgeComponent } from '../../shared/person-badge/person-badge.component';
+import { EntityQuotesComponent } from '../../shared/entity-quotes/entity-quotes.component';
 
 @Component({
   selector: 'app-movie',
@@ -52,6 +53,7 @@ import { PersonBadgeComponent } from '../../shared/person-badge/person-badge.com
     EntityCardRatingAndButtonsComponent,
     CanEditDirective,
     PersonBadgeComponent,
+    EntityQuotesComponent,
   ],
   templateUrl: './movie.component.html',
   styleUrls: ['./movie.component.scss'],

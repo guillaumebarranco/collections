@@ -18,6 +18,17 @@
     </p>
     <p class="music-album">{{ music().album }}</p>
 
+    @if (music().quotes.length > 0 && !isBaseEntityView) {
+    <app-entity-quotes [quotes]="music().quotes" />
+    }
+    @if (canEditQuotes()) {
+    <button type="button" class="music-quotes-edit" (click)="openQuotesEditor()">
+      {{
+        music().quotes.length ? "Modifier les citations" : "Ajouter une citation"
+      }}
+    </button>
+    }
+
     <div class="music-footer">
       <span class="music-duration">{{ formatDuration(music().duration) }}</span>
       @if (music().rating > 0 && !isBaseEntityView) {

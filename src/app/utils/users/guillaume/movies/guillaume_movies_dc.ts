@@ -18,6 +18,7 @@ export const guillaumeMoviesDc: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Batman',
@@ -36,6 +37,7 @@ export const guillaumeMoviesDc: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Batman Returns',
@@ -54,6 +56,7 @@ export const guillaumeMoviesDc: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Batman Forever',
@@ -72,6 +75,7 @@ export const guillaumeMoviesDc: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Batman & Robin',
@@ -90,6 +94,7 @@ export const guillaumeMoviesDc: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Batman Begins',
@@ -108,6 +113,7 @@ export const guillaumeMoviesDc: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Dark Knight : Le Chevalier Noir',
@@ -126,6 +132,7 @@ export const guillaumeMoviesDc: UserMovies = [
     loaned: '',
     inList: ["Mes classiques"],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Dark Knight Rises',
@@ -144,6 +151,7 @@ export const guillaumeMoviesDc: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Batman',
@@ -162,6 +170,7 @@ export const guillaumeMoviesDc: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Batman v Superman : L'Aube de la Justice",
@@ -180,6 +189,7 @@ export const guillaumeMoviesDc: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Shazam!',
@@ -198,6 +208,7 @@ export const guillaumeMoviesDc: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Aquaman',
@@ -216,6 +227,7 @@ export const guillaumeMoviesDc: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Black Adam',
@@ -234,6 +246,7 @@ export const guillaumeMoviesDc: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Justice League',
@@ -252,6 +265,7 @@ export const guillaumeMoviesDc: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Zack Snyder's Justice League",
@@ -270,6 +284,7 @@ export const guillaumeMoviesDc: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Suicide Squad',
@@ -288,6 +303,7 @@ export const guillaumeMoviesDc: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Man of Steel',
@@ -306,6 +322,7 @@ export const guillaumeMoviesDc: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Superman',
@@ -324,6 +341,7 @@ export const guillaumeMoviesDc: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Watchmen : Les Gardiens',
@@ -342,6 +360,7 @@ export const guillaumeMoviesDc: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Catwoman',
@@ -360,6 +379,7 @@ export const guillaumeMoviesDc: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Wonder Woman',
@@ -378,6 +398,7 @@ export const guillaumeMoviesDc: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Wonder Woman 1984',
@@ -396,6 +417,7 @@ export const guillaumeMoviesDc: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Flash',
@@ -414,6 +436,7 @@ export const guillaumeMoviesDc: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Birds of Prey',
@@ -432,5 +455,6 @@ export const guillaumeMoviesDc: UserMovies = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 ];

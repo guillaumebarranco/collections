@@ -1,0 +1,23 @@
+@if (quotes().length) {
+<div class="entity-quotes">
+  <p class="entity-quotes__label">Citations</p>
+  <blockquote
+    #firstQuote
+    class="entity-quotes__item"
+    [class.entity-quotes__item--clamped]="!quotesExpanded()"
+  >{{ formatQuote(quotes()[0]) }}</blockquote>
+  @if (quotesExpanded()) {
+  @for (quote of quotes().slice(1); track $index) {
+  <blockquote class="entity-quotes__item">{{ formatQuote(quote) }}</blockquote>
+  } } @if (quotes().length > 1 || firstQuoteOverflows()) {
+  <button
+    type="button"
+    class="entity-quotes__toggle"
+    (click)="toggleQuotes()"
+    [attr.aria-expanded]="quotesExpanded()"
+  >
+    {{ quotesExpanded() ? "Voir moins" : "Voir plus" }}
+  </button>
+  }
+</div>
+}

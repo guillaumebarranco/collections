@@ -48,6 +48,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -124,6 +125,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -209,6 +211,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -231,6 +234,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -271,6 +275,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -356,6 +361,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -387,6 +393,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -472,6 +479,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -566,6 +574,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -588,6 +597,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -628,6 +638,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -668,6 +679,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -744,6 +756,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -766,6 +779,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -842,6 +856,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -873,6 +888,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -904,6 +920,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -935,6 +952,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1020,6 +1038,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1042,6 +1061,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1091,6 +1111,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1140,6 +1161,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1189,6 +1211,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1238,6 +1261,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1350,6 +1374,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1426,6 +1451,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1484,6 +1510,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1560,6 +1587,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1591,6 +1619,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1622,6 +1651,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1662,6 +1692,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1720,6 +1751,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1787,6 +1819,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1881,6 +1914,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1966,6 +2000,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -1997,6 +2032,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2046,6 +2082,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2068,6 +2105,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2126,6 +2164,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2148,6 +2187,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2170,6 +2210,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2192,6 +2233,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2223,6 +2265,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2263,6 +2306,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2294,6 +2338,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2325,6 +2370,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2374,6 +2420,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2423,6 +2470,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2463,6 +2511,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2530,6 +2579,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2741,6 +2791,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2799,6 +2850,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2875,6 +2927,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -2987,6 +3040,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -3063,6 +3117,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -3139,6 +3194,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -3161,6 +3217,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -3192,6 +3249,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -3232,6 +3290,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -3263,6 +3322,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -3357,6 +3417,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -3379,6 +3440,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 
   {
@@ -3401,6 +3463,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: "Atypical",
@@ -3449,6 +3512,7 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
   {
     title: "The Offer",
@@ -3470,5 +3534,6 @@ export const lucileSeries: UserSerie[] = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
+    quotes: [],
   },
 ];

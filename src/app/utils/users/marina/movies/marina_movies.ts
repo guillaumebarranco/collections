@@ -18,6 +18,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Comte de Monte-Cristo',
@@ -36,6 +37,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Challengers',
@@ -54,6 +56,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Barbie',
@@ -72,6 +75,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Bullet Train',
@@ -90,6 +94,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Battle Royale',
@@ -108,6 +113,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Miss Détective',
@@ -126,6 +132,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Premier contact',
@@ -144,6 +151,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Shaun of the Dead',
@@ -162,6 +170,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'RRRrrrr!!!',
@@ -180,6 +189,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Saw',
@@ -198,6 +208,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Oldboy',
@@ -216,6 +227,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Bruce tout-puissant',
@@ -234,6 +246,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Moi, Cesar, 10 ans et demi, 1m39',
@@ -252,6 +265,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Arrête-moi si tu peux',
@@ -270,6 +284,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le cercle : The ring',
@@ -288,6 +303,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Mulan',
@@ -306,6 +322,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Aladdin',
@@ -324,6 +341,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Bird Box',
@@ -342,6 +360,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Shining',
@@ -360,6 +379,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'exorciste",
@@ -378,6 +398,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les aventures de Rabbi Jacob',
@@ -396,6 +417,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La Folie des grandeurs',
@@ -414,6 +436,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Gendarme de Saint-Tropez',
@@ -432,6 +455,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Astérix et Obélix contre César',
@@ -450,6 +474,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Astérix & Obélix : Mission Cléopâtre',
@@ -468,6 +493,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Astérix aux Jeux Olympiques',
@@ -486,6 +512,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Truman Show',
@@ -504,6 +531,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La Ligne Verte',
@@ -522,6 +550,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Diable s'Habille en Prada",
@@ -540,6 +569,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Camping',
@@ -558,6 +588,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Volver',
@@ -576,6 +607,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title:
@@ -595,6 +627,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Charlie et la Chocolaterie',
@@ -613,6 +646,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Forrest Gump',
@@ -631,6 +665,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Mrs. Doubtfire',
@@ -649,6 +684,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Dîner de Cons',
@@ -667,6 +703,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -686,6 +723,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Baby Driver',
@@ -704,6 +742,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Visit',
@@ -722,6 +761,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Labyrinthe 2 : La Terre Brûlée',
@@ -740,6 +780,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Cinquante Nuances de Grey',
@@ -758,6 +799,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Gone Girl',
@@ -776,6 +818,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Lucy',
@@ -794,6 +837,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le médaillon',
@@ -812,6 +856,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Brice de Nice',
@@ -830,6 +875,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Yes Man',
@@ -848,6 +894,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Paranormal Activity',
@@ -866,6 +913,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Evan tout-puissant',
@@ -884,6 +932,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Jumanji',
@@ -902,6 +951,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Un indien dans la ville',
@@ -920,6 +970,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Black Swan',
@@ -938,6 +989,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Karate Kid',
@@ -956,6 +1008,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Alice au Pays des Merveilles',
@@ -974,6 +1027,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Shutter Island',
@@ -992,6 +1046,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Percy Jackson : Le Voleur de Foudre',
@@ -1010,6 +1065,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Lucky Luke',
@@ -1028,6 +1084,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le beau-père',
@@ -1046,6 +1103,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: '2012',
@@ -1064,6 +1122,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Zombieland',
@@ -1082,6 +1141,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Maléfique',
@@ -1100,6 +1160,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Conjuring : Les Dossiers Warren',
@@ -1118,6 +1179,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: '21 Jump Street',
@@ -1136,6 +1198,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Intouchables',
@@ -1154,6 +1217,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Jurassic Park',
@@ -1172,6 +1236,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les visiteurs',
@@ -1190,6 +1255,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Prénom',
@@ -1208,6 +1274,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Sous la Seine',
@@ -1226,6 +1293,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Shotgun Wedding',
@@ -1244,6 +1312,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Furiosa',
@@ -1262,6 +1331,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Companion',
@@ -1280,6 +1350,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Drôle de Noël de Scrooge',
@@ -1298,6 +1369,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'M. Popper et ses pingouins',
@@ -1316,6 +1388,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Secret de la cité perdue',
@@ -1334,6 +1407,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Circle',
@@ -1352,6 +1426,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Mise à prix',
@@ -1370,6 +1445,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Impardonnable',
@@ -1388,6 +1464,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Mytho',
@@ -1406,6 +1483,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Your Name',
@@ -1424,6 +1502,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Annihilation',
@@ -1442,6 +1521,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Filles du docteur March',
@@ -1460,6 +1540,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Neuilly, sa mère !',
@@ -1478,6 +1559,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La vie d'Adèle",
@@ -1496,6 +1578,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les trois frères',
@@ -1514,6 +1597,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Qu'est-ce qu'on a fait au bon dieu ?",
@@ -1532,6 +1616,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Bienvenue chez les Ch'tis",
@@ -1550,6 +1635,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La vérité si je mens !',
@@ -1568,6 +1654,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Speak No Evil',
@@ -1586,6 +1673,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Passengers',
@@ -1604,6 +1692,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Chaperon rouge',
@@ -1622,6 +1711,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Black/White',
@@ -1640,6 +1730,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Seven Sisters',
@@ -1658,6 +1749,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Vendredi 13',
@@ -1676,6 +1768,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La Nuit des masques',
@@ -1694,6 +1787,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Griffes de la nuit',
@@ -1712,6 +1806,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Monde après nous',
@@ -1730,6 +1825,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Anatomie d'une chute",
@@ -1748,6 +1844,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Dragons',
@@ -1766,6 +1863,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Dragons 2',
@@ -1784,6 +1882,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Dragons 3 : Le Monde caché',
@@ -1802,6 +1901,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Spider-Man: New Generation',
@@ -1820,6 +1920,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Spider-Man : À Travers le Spider-Verse',
@@ -1838,6 +1939,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Mondes de Ralph',
@@ -1856,6 +1958,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Ralph 2.0',
@@ -1874,6 +1977,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Super Mario Bros. le Film',
@@ -1892,6 +1996,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Encanto',
@@ -1910,6 +2015,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Cars',
@@ -1928,6 +2034,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Cars 3',
@@ -1946,6 +2053,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Baby boss',
@@ -1964,6 +2072,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Vaiana',
@@ -1982,6 +2091,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Vice-Versa',
@@ -2000,6 +2110,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Nouveaux Héros',
@@ -2018,6 +2129,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La Reine des Neiges',
@@ -2036,6 +2148,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Moi, Moche et Méchant',
@@ -2054,6 +2167,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Moi, Moche et Méchant 2',
@@ -2072,6 +2186,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Cinq Légendes',
@@ -2090,6 +2205,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'Âge de Glace",
@@ -2108,6 +2224,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'Âge de Glace 2",
@@ -2126,6 +2243,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'Âge de Glace 3 : Le Temps des Dinosaures",
@@ -2144,6 +2262,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'Âge de Glace 4 : La Dérive des Continents",
@@ -2162,6 +2281,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Rebelle',
@@ -2180,6 +2300,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Arthur et les Minimoys',
@@ -2198,6 +2319,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Arthur et la Vengeance de Maltazard',
@@ -2216,6 +2338,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La Princesse et la Grenouille',
@@ -2234,6 +2357,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Tempête de Boulettes Géantes',
@@ -2252,6 +2376,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Monstres contre Aliens',
@@ -2270,6 +2395,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'WALL-E',
@@ -2288,6 +2414,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Kung Fu Panda',
@@ -2306,6 +2433,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Bee Movie : Drôle d'Abeille",
@@ -2324,6 +2452,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Simpson, le Film',
@@ -2342,6 +2471,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Ratatouille',
@@ -2360,6 +2490,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Shrek',
@@ -2378,6 +2509,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Shrek 2',
@@ -2396,6 +2528,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Shrek le Troisième',
@@ -2414,6 +2547,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Shrek 4 : Il Était une Fin',
@@ -2432,6 +2566,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Indestructibles',
@@ -2450,6 +2585,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Indestructibles 2',
@@ -2468,6 +2604,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le monde de Nemo',
@@ -2486,6 +2623,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le monde de Dory',
@@ -2504,6 +2642,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Planes',
@@ -2522,6 +2661,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Monstres et Cie',
@@ -2540,6 +2680,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Toy Story',
@@ -2558,6 +2699,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Toy Story 2',
@@ -2576,6 +2718,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Toy Story 3',
@@ -2594,6 +2737,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Tarzan',
@@ -2612,6 +2756,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Fourmiz',
@@ -2630,6 +2775,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Hercule',
@@ -2648,6 +2794,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Pocahontas',
@@ -2666,6 +2813,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Roi Lion',
@@ -2684,6 +2832,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Aladdin',
@@ -2702,6 +2851,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La petite sirène',
@@ -2720,6 +2870,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Peter Pan',
@@ -2738,6 +2889,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Pinocchio',
@@ -2757,6 +2909,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Megamind',
@@ -2775,6 +2928,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Élémentaire',
@@ -2793,6 +2947,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Luca',
@@ -2811,6 +2966,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Blanche-Neige et les Sept Nains',
@@ -2829,6 +2985,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Cendrillon',
@@ -2847,6 +3004,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Pierre et le Loup',
@@ -2865,6 +3023,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Trois Caballeros',
@@ -2883,6 +3042,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Saludos Amigos',
@@ -2901,6 +3061,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Bambi',
@@ -2919,6 +3080,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Dumbo',
@@ -2937,6 +3099,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Fantasia',
@@ -2955,6 +3118,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Alice au pays des merveilles',
@@ -2973,6 +3137,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La Belle au bois dormant',
@@ -2991,6 +3156,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La Belle et le Clochard',
@@ -3009,6 +3175,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Livre de la jungle',
@@ -3027,6 +3194,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Oliver et Compagnie',
@@ -3045,6 +3213,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Tombeau des lucioles',
@@ -3063,6 +3232,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Kiki la petite sorcière',
@@ -3081,6 +3251,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'Étrange Noël de monsieur Jack",
@@ -3099,6 +3270,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le retour de Jafar',
@@ -3117,6 +3289,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Bossu de Notre-Dame',
@@ -3135,6 +3308,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les 101 Dalmatiens',
@@ -3153,6 +3327,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Anastasia',
@@ -3171,6 +3346,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Monde magique de la Belle et la Bête',
@@ -3189,6 +3365,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Prince d'Égypte",
@@ -3207,6 +3384,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: '1001 Pattes',
@@ -3225,6 +3403,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Roi Lion 2 : L'Honneur de la tribu",
@@ -3243,6 +3422,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Pocahontas 2 : Un monde nouveau',
@@ -3261,6 +3441,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La Route d'Eldorado",
@@ -3279,6 +3460,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La Petite Sirène 2 : Retour à l'océan",
@@ -3297,6 +3479,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Fantasia 2000',
@@ -3315,6 +3498,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Kuzco, l'Empereur mégalo",
@@ -3333,6 +3517,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Atlantide : L'Empire perdu",
@@ -3351,6 +3536,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Voyage de Chihiro',
@@ -3369,6 +3555,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Lilo et Stitch',
@@ -3387,6 +3574,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La Planète au trésor',
@@ -3405,6 +3593,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Frère des ours',
@@ -3423,6 +3612,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Mickey, Donald, Dingo : Les Trois Mousquetaires',
@@ -3441,6 +3631,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Mulan 2',
@@ -3459,6 +3650,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Noces funèbres',
@@ -3477,6 +3669,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Madagascar',
@@ -3495,6 +3688,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Happy Feet',
@@ -3513,6 +3707,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Volt, star malgré lui',
@@ -3531,6 +3726,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Madagascar 2',
@@ -3549,6 +3745,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Là-haut',
@@ -3567,6 +3764,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Coraline',
@@ -3585,6 +3783,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Rio',
@@ -3603,6 +3802,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Rango',
@@ -3621,6 +3821,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Raiponce',
@@ -3639,6 +3840,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Kung Fu Panda 2',
@@ -3657,6 +3859,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Chat Potté',
@@ -3675,6 +3878,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Hôtel Transylvanie',
@@ -3693,6 +3897,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Monstres Academy',
@@ -3711,6 +3916,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Zootopie',
@@ -3729,6 +3935,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La Reine des neiges 2',
@@ -3747,6 +3954,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Klaus',
@@ -3765,6 +3973,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Chat Potté 2 : La Dernière Quête',
@@ -3783,6 +3992,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Vice-Versa 2',
@@ -3801,6 +4011,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'KPop Demon Hunters',
@@ -3819,6 +4030,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Nope',
@@ -3837,6 +4049,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Hannah Montana - Le Film',
@@ -3855,6 +4068,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Aquaman',
@@ -3873,6 +4087,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Suicide Squad',
@@ -3891,6 +4106,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Wonder Woman 1984',
@@ -3909,6 +4125,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Wicked',
@@ -3927,6 +4144,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Wonka',
@@ -3945,6 +4163,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La Petite Sirène',
@@ -3963,6 +4182,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Il était une fois 2',
@@ -3981,6 +4201,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Cruella',
@@ -3999,6 +4220,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'À tous les garçons : Pour toujours et à jamais',
@@ -4017,6 +4239,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Sacrées sorcières',
@@ -4035,6 +4258,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Parasite',
@@ -4053,6 +4277,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Dumbo',
@@ -4071,6 +4296,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Retour de Mary Poppins',
@@ -4089,6 +4315,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Mamma Mia! Here We Go Again',
@@ -4107,6 +4334,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Pitch Perfect 3',
@@ -4125,6 +4353,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Greatest Showman',
@@ -4143,6 +4372,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Le Crime de l'Orient-Express",
@@ -4161,6 +4391,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Miss Peregrine et les Enfants particuliers',
@@ -4179,6 +4410,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Pitch Perfect 2',
@@ -4197,6 +4429,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Cendrillon',
@@ -4215,6 +4448,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Paddington',
@@ -4233,6 +4467,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Pitch Perfect',
@@ -4251,6 +4486,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Dark Shadows',
@@ -4269,6 +4505,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Lovely Bones',
@@ -4287,6 +4524,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Orphan',
@@ -4305,6 +4543,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Meilleures ennemies',
@@ -4323,6 +4562,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Mamma Mia!',
@@ -4341,6 +4581,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Monde de Narnia : Le Prince Caspian',
@@ -4359,6 +4600,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: '27 Robes',
@@ -4377,6 +4619,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Alvin et les Chipmunks',
@@ -4395,6 +4638,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Sweeney Todd : Le Diabolique Barbier de Fleet Street',
@@ -4413,6 +4657,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Enchanted',
@@ -4431,6 +4676,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Hairspray',
@@ -4449,6 +4695,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Secret de Terabithia',
@@ -4467,6 +4714,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Labyrinthe de Pan',
@@ -4485,6 +4733,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Princess Diaries 2: Royal Engagement',
@@ -4503,6 +4752,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Comme Cendrillon',
@@ -4521,6 +4771,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Lolita malgré moi',
@@ -4539,6 +4790,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: '30 ans sinon rien',
@@ -4557,6 +4809,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Ella au pays enchanté',
@@ -4575,6 +4828,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Manoir hanté et les 999 Fantômes',
@@ -4593,6 +4847,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Princesse malgré elle',
@@ -4611,6 +4866,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Others',
@@ -4629,6 +4885,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La Revanche d'une blonde",
@@ -4647,6 +4904,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Grinch',
@@ -4665,6 +4923,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Mon beau-père et moi',
@@ -4683,6 +4942,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Stuart Little',
@@ -4701,6 +4961,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Sleepy Hollow',
@@ -4719,6 +4980,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'À nous quatre',
@@ -4737,6 +4999,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Mary à tout prix',
@@ -4755,6 +5018,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Flubber',
@@ -4773,6 +5037,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Titanic',
@@ -4791,6 +5056,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Souviens-toi... l'été dernier",
@@ -4809,6 +5075,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Roméo + Juliette',
@@ -4827,6 +5094,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Casper',
@@ -4845,6 +5113,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La Famille Addams',
@@ -4863,6 +5132,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Hook ou la Revanche du capitaine Crochet',
@@ -4881,6 +5151,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Edward aux mains d'argent",
@@ -4899,6 +5170,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Ghost',
@@ -4917,6 +5189,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Beetlejuice',
@@ -4935,6 +5208,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Gremlins',
@@ -4953,6 +5227,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Halloween',
@@ -4971,6 +5246,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Mary Poppins',
@@ -4989,6 +5265,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Zootopie 2',
@@ -5007,6 +5284,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Conjuring : L'Heure du jugement",
@@ -5025,6 +5303,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Dragons',
@@ -5043,6 +5322,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Destination Finale : Bloodlines',
@@ -5061,6 +5341,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Vaiana 2',
@@ -5079,6 +5360,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Juré n°2',
@@ -5097,6 +5379,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Robot sauvage',
@@ -5115,6 +5398,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Beetlejuice Beetlejuice',
@@ -5133,6 +5417,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Substance',
@@ -5151,6 +5436,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Kung Fu Panda 4',
@@ -5169,6 +5455,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Wish : Asha et la Bonne Étoile',
@@ -5187,6 +5474,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Hunger Games : La Ballade du serpent et de l'oiseau chanteur",
@@ -5205,6 +5493,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Cinq nuits chez Freddy',
@@ -5223,6 +5512,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les trois mousquetaires: D'Artagnan",
@@ -5241,6 +5531,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Scream VI',
@@ -5259,6 +5550,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Menu',
@@ -5277,6 +5569,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Whale',
@@ -5295,6 +5588,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Scream',
@@ -5313,6 +5607,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Conjuring : Sous l'emprise du diable",
@@ -5331,6 +5626,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Soul',
@@ -5349,6 +5645,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Sans un bruit 2',
@@ -5367,6 +5664,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Invisible Man',
@@ -5385,6 +5683,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Zombieland: Double Tap',
@@ -5403,6 +5702,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Toy Story 4',
@@ -5421,6 +5721,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Escape Game',
@@ -5439,6 +5740,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Grinch',
@@ -5457,6 +5759,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "À tous les garçons que j'ai aimés",
@@ -5475,6 +5778,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Crazy Rich Asians',
@@ -5493,6 +5797,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Mission : Impossible – Fallout',
@@ -5511,6 +5816,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'American Nightmare 4 : Les Origines',
@@ -5529,6 +5835,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Astérix : Le Secret de la potion magique',
@@ -5547,6 +5854,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Sans un bruit',
@@ -5565,6 +5873,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Hérédité',
@@ -5583,6 +5892,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Ça',
@@ -5601,6 +5911,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "La Forme de l'eau",
@@ -5619,6 +5930,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La Planète des singes : Suprématie',
@@ -5637,6 +5949,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Get Out',
@@ -5655,6 +5968,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Call Me by Your Name',
@@ -5673,6 +5987,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Trolls',
@@ -5691,6 +6006,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Tous en scène',
@@ -5709,6 +6025,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Alice de l'autre côté du miroir",
@@ -5727,6 +6044,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Dernier train pour Busan',
@@ -5745,6 +6063,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Conjuring 2 : Le Cas Enfield',
@@ -5763,6 +6082,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Kung Fu Panda 3',
@@ -5781,6 +6101,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Crimson Peak',
@@ -5799,6 +6120,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Astérix : Le Domaine des dieux',
@@ -5817,6 +6139,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'American Nightmare 2 : Anarchy',
@@ -5835,6 +6158,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Insidious : Chapitre 2',
@@ -5853,6 +6177,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Percy Jackson : La Mer des monstres',
@@ -5871,6 +6196,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Miller, une famille en herbe',
@@ -5889,6 +6215,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Stagiaires',
@@ -5907,6 +6234,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'American Nightmare',
@@ -5925,6 +6253,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Gatsby le Magnifique',
@@ -5943,6 +6272,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Evil Dead',
@@ -5961,6 +6291,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Hansel & Gretel : Witch Hunters',
@@ -5979,6 +6310,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Mama',
@@ -5997,6 +6329,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Astérix et Obélix : Au service de Sa Majesté',
@@ -6015,6 +6348,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Blanche-Neige et le Chasseur',
@@ -6033,6 +6367,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Madagascar 3 : Bons Baisers d'Europe",
@@ -6051,6 +6386,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Sinister',
@@ -6069,6 +6405,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Happy New Year',
@@ -6087,6 +6424,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Un monstre à Paris',
@@ -6105,6 +6443,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Trois Mousquetaires',
@@ -6123,6 +6462,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La Couleur des sentiments',
@@ -6141,6 +6481,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Bad Teacher',
@@ -6159,6 +6500,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Saw 3D : Chapitre final',
@@ -6177,6 +6519,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Insidious',
@@ -6195,6 +6538,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Dernier Exorcisme',
@@ -6213,6 +6557,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Saw VI',
@@ -6231,6 +6576,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Saw V',
@@ -6249,6 +6595,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'High School Musical 3 : Nos années lycée',
@@ -6267,6 +6614,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Chroniques de Spiderwick',
@@ -6285,6 +6633,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "À la croisée des mondes : La Boussole d'or",
@@ -6303,6 +6652,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Saw IV',
@@ -6321,6 +6671,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'High School Musical 2',
@@ -6339,6 +6690,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Hot Fuzz',
@@ -6357,6 +6709,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Saw III',
@@ -6375,6 +6728,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Astérix et les Vikings',
@@ -6393,6 +6747,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La Colline a des yeux',
@@ -6411,6 +6766,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'High School Musical : Premiers pas sur scène',
@@ -6429,6 +6785,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Treize à la douzaine 2',
@@ -6447,6 +6804,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Saw II',
@@ -6465,6 +6823,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Dalton',
@@ -6483,6 +6842,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Pôle Express',
@@ -6501,6 +6861,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Gang de requins',
@@ -6519,6 +6880,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Château ambulant',
@@ -6537,6 +6899,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'F.B.I. : Fausses blondes infiltrées',
@@ -6555,6 +6918,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Choristes',
@@ -6573,6 +6937,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Treize à la douzaine',
@@ -6591,6 +6956,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La Légende de Tarzan et Jane',
@@ -6609,6 +6975,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Astérix et les Indiens',
@@ -6627,6 +6994,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Sister Act, acte 2',
@@ -6645,6 +7013,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Sister Act',
@@ -6663,6 +7032,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Evil Dead II',
@@ -6681,6 +7051,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Astérix et Cléopâtre',
@@ -6699,6 +7070,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -6718,6 +7090,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Love Hard',
@@ -6736,6 +7109,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La Belle et la Bête',
@@ -6754,6 +7128,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Valentine's Day",
@@ -6772,6 +7147,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La proposition',
@@ -6790,6 +7166,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: '17 ans encore',
@@ -6808,6 +7185,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Orgueil et Préjugés',
@@ -6826,6 +7204,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Hitch : Expert en Séduction',
@@ -6844,6 +7223,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La La Land',
@@ -6862,6 +7242,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Holidate',
@@ -6880,6 +7261,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'LOL (Laughing Out Loud)',
@@ -6898,6 +7280,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Avengers',
@@ -6916,6 +7299,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Avengers : L'Ère d'Ultron",
@@ -6934,6 +7318,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Avengers: Infinity War',
@@ -6952,6 +7337,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Avengers: Endgame',
@@ -6970,6 +7356,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Captain America : First Avenger',
@@ -6988,6 +7375,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Captain America : Le Soldat de l'Hiver",
@@ -7006,6 +7394,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Captain America : Civil War',
@@ -7024,6 +7413,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Iron Man',
@@ -7042,6 +7432,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Iron Man 2',
@@ -7060,6 +7451,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Captain Marvel',
@@ -7078,6 +7470,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Gardiens de la Galaxie',
@@ -7096,6 +7489,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Ant-Man',
@@ -7114,6 +7508,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Ant-Man et la Guêpe',
@@ -7132,6 +7527,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Spider-Man: Homecoming',
@@ -7150,6 +7546,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Spider-Man: Far From Home',
@@ -7168,6 +7565,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Spider-Man : No Way Home',
@@ -7186,6 +7584,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Deadpool',
@@ -7204,6 +7603,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Spider-Man',
@@ -7222,6 +7622,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Spider-Man 2',
@@ -7240,6 +7641,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Spider-Man 3',
@@ -7258,6 +7660,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Amazing Spider-Man',
@@ -7276,6 +7679,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "The Amazing Spider-Man : Le Destin d'un Héros",
@@ -7294,6 +7698,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Harry Potter à l'école des sorciers",
@@ -7312,6 +7717,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Harry Potter et la chambre des secrets',
@@ -7330,6 +7736,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Harry Potter et le prisonnier d'Azkaban",
@@ -7348,6 +7755,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Harry Potter et la coupe de feu',
@@ -7366,6 +7774,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Harry Potter et l'ordre du phénix",
@@ -7384,6 +7793,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Harry Potter et le prince de sang-mêlé',
@@ -7402,6 +7812,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Harry Potter et les reliques de la mort - partie 1',
@@ -7420,6 +7831,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Harry Potter et les reliques de la mort - partie 2',
@@ -7438,6 +7850,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Scooby-Doo',
@@ -7456,6 +7869,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Scooby-Doo 2: Monsters Unleashed',
@@ -7474,6 +7888,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Men in Black',
@@ -7492,6 +7907,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La Momie',
@@ -7510,6 +7926,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Retour de la Momie',
@@ -7528,6 +7945,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Maman j'ai raté l'avion",
@@ -7546,6 +7964,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Labyrinthe',
@@ -7564,6 +7983,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Labyrinthe 3 : Le remède mortel',
@@ -7582,6 +8002,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Hunger Games',
@@ -7600,6 +8021,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Hunger Games : L'Embrasement",
@@ -7618,6 +8040,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Hunger Games : La Révolte - Partie 1',
@@ -7636,6 +8059,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Hunger Games : La Révolte, partie 2',
@@ -7654,6 +8078,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'John Wick',
@@ -7672,6 +8097,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Animaux Fantastiques',
@@ -7690,6 +8116,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Animaux Fantastiques 2 : Les crimes de Grindelwald',
@@ -7708,6 +8135,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Animaux Fantastiques 3 : Les Secrets de Dumbledore',
@@ -7726,6 +8154,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Enola Holmes',
@@ -7744,6 +8173,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'A couteaux tirés',
@@ -7762,6 +8192,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'James Bond : Skyfall',
@@ -7780,6 +8211,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "OSS 117 : Le Caire, Nid d'Espions",
@@ -7798,6 +8230,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'OSS 117 : Rio ne Répond Plus',
@@ -7816,6 +8249,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Glass',
@@ -7834,6 +8268,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La Vengeance dans la Peau',
@@ -7852,6 +8287,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Insaisissables',
@@ -7870,6 +8306,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Insaisissables 2',
@@ -7888,6 +8325,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Divergente',
@@ -7906,6 +8344,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Divergente 2 : L'Insurrection",
@@ -7924,6 +8363,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Divergente 3 : Au-delà du Mur',
@@ -7942,6 +8382,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La nuit au musée',
@@ -7960,6 +8401,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La Nuit au musée 2',
@@ -7978,6 +8420,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Ocean's Eleven",
@@ -7996,6 +8439,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Ocean's Eight",
@@ -8014,6 +8458,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Pirates des Caraïbes : La malédiction du Black Pearl',
@@ -8032,6 +8477,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Pirates des Caraïbes 2 : Le Secret du Coffre Maudit',
@@ -8050,6 +8496,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Pirates des Caraïbes 3 : Jusqu'au Bout du Monde",
@@ -8068,6 +8515,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Pirates des Caraïbes 5 : La Vengeance de Salazar',
@@ -8086,6 +8534,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Scary Movie',
@@ -8104,6 +8553,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Scary Movie 2',
@@ -8122,6 +8572,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les bronzés',
@@ -8140,6 +8591,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les bronzés font du ski',
@@ -8158,6 +8610,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les Bronzés 3 : Amis pour la Vie',
@@ -8176,6 +8629,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Twilight : Chapitre 1 - Fascination',
@@ -8194,6 +8648,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Twilight : Chapitre 2 - Tentation',
@@ -8212,6 +8667,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Twilight : Chapitre 3 - Hésitation',
@@ -8230,6 +8686,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Twilight : Chapitre 4 - Révélation - Partie 1',
@@ -8248,6 +8705,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Twilight : Chapitre 4 - Révélation - Partie 2',
@@ -8266,6 +8724,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Destination Finale',
@@ -8284,6 +8743,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Destination Finale 2',
@@ -8302,6 +8762,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Destination Finale 3',
@@ -8320,6 +8781,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Destination Finale 4',
@@ -8338,6 +8800,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Destination Finale 5',
@@ -8356,6 +8819,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Scream',
@@ -8374,6 +8838,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Scream 2',
@@ -8392,6 +8857,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Scream 3',
@@ -8410,6 +8876,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Scream 4',
@@ -8428,6 +8895,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Avatar',
@@ -8446,6 +8914,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Eaux profondes',
@@ -8464,6 +8933,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Panic Room',
@@ -8482,6 +8952,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Cinquième Élément',
@@ -8500,6 +8971,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Knock Knock',
@@ -8518,6 +8990,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Dangereuse séduction',
@@ -8536,6 +9009,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Artist',
@@ -8554,6 +9028,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'Héritage",
@@ -8572,6 +9047,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Mothers' Instinct",
@@ -8590,6 +9066,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8609,6 +9086,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8628,6 +9106,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8647,6 +9126,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8666,6 +9146,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8685,6 +9166,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8704,6 +9186,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8723,6 +9206,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8742,6 +9226,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8761,6 +9246,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8780,6 +9266,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8799,6 +9286,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8818,6 +9306,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8837,6 +9326,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8856,6 +9346,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   {
@@ -8875,6 +9366,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 
   /* Films issus des listes Marina (base_movies_from_marina) */
@@ -8895,6 +9387,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Jessie',
@@ -8913,6 +9406,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Dans les hautes herbes',
@@ -8931,6 +9425,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La fracture',
@@ -8949,6 +9444,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Ghostland',
@@ -8967,6 +9463,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Don't Breathe",
@@ -8985,6 +9482,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'I Spit on Your Grave',
@@ -9003,6 +9501,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Black Phone',
@@ -9021,6 +9520,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Ma',
@@ -9039,6 +9539,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Intrusion',
@@ -9057,6 +9558,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "L'intrusion",
@@ -9075,6 +9577,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Weekend Away',
@@ -9093,6 +9596,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La femme à la fenêtre',
@@ -9111,6 +9615,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Obsession secrète',
@@ -9129,6 +9634,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Fatale',
@@ -9147,6 +9653,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Rivales',
@@ -9165,6 +9672,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Rencontre fatale',
@@ -9183,6 +9691,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Mea Culpa',
@@ -9201,6 +9710,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Double vice',
@@ -9219,6 +9729,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Liaison fatale',
@@ -9237,6 +9748,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Fair Play',
@@ -9255,6 +9767,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Jane Doe Identity',
@@ -9273,6 +9786,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La maison de cire',
@@ -9291,6 +9805,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Happy Death Day',
@@ -9309,6 +9824,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Action ou vérité',
@@ -9327,6 +9843,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Play or Die',
@@ -9345,6 +9862,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Affamés',
@@ -9363,6 +9881,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Farm',
@@ -9381,6 +9900,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Couple modèle',
@@ -9399,6 +9919,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Jamais plus',
@@ -9417,6 +9938,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La maison des 1000 morts',
@@ -9435,6 +9957,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Grudge',
@@ -9453,6 +9976,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Annabelle',
@@ -9471,6 +9995,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La nonne',
@@ -9489,6 +10014,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Mortuary',
@@ -9507,6 +10033,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Escape Room',
@@ -9525,6 +10052,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Final Girl',
@@ -9543,6 +10071,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Barbie dans Casse-noisette',
@@ -9561,6 +10090,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Barbie, princesse Raiponce',
@@ -9579,6 +10109,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Barbie et le Lac des cygnes',
@@ -9597,6 +10128,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Barbie : Cœur de princesse',
@@ -9615,6 +10147,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Barbie Fairytopia',
@@ -9633,6 +10166,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Barbie et le Cheval magique',
@@ -9651,6 +10185,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Barbie Fairytopia: Mermaidia',
@@ -9669,6 +10204,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le Journal de Barbie',
@@ -9687,6 +10223,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Barbie au bal des douze princesses',
@@ -9705,6 +10242,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Barbie Fairytopia: Magie de l'arc-en-ciel",
@@ -9723,6 +10261,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Barbie, princesse de l'Île merveilleuse",
@@ -9741,6 +10280,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Barbie: Mariposa et ses amies les fées papillons',
@@ -9759,6 +10299,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Barbie et le Palais de diamant',
@@ -9777,6 +10318,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Barbie et la Magie de Noël',
@@ -9795,6 +10337,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Barbie présente Lilipucia',
@@ -9813,6 +10356,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Barbie et les Trois Mousquetaires',
@@ -9831,6 +10375,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Barbie et le Secret des sirènes',
@@ -9849,6 +10394,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Barbie: La Magie de la mode',
@@ -9867,6 +10413,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Barbie: Le Secret des fées',
@@ -9885,6 +10432,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Barbie, apprentie princesse',
@@ -9903,6 +10451,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Barbie : Le Secret des sirènes 2',
@@ -9921,6 +10470,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Barbie : La Princesse et la Popstar',
@@ -9939,6 +10489,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Barbie : Rêve de danseuse étoile',
@@ -9957,6 +10508,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Barbie : Mariposa et le Royaume des fées',
@@ -9975,6 +10527,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Barbie et ses sœurs au club hippique',
@@ -9993,6 +10546,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Barbie et la Magie des perles',
@@ -10011,6 +10565,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Barbie et la Porte secrète',
@@ -10029,6 +10584,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Barbie en super princesse',
@@ -10047,6 +10603,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Barbie : Rock et Royales',
@@ -10065,6 +10622,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Barbie et ses sœurs : La Grande Aventure des chiots',
@@ -10083,6 +10641,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Barbie : Agents secrets',
@@ -10101,6 +10660,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Barbie : Aventure dans les étoiles',
@@ -10119,6 +10679,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Barbie et ses sœurs : À la recherche des chiots',
@@ -10137,6 +10698,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Barbie : Héroïne de jeu vidéo',
@@ -10155,6 +10717,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Ugly Stepsister',
@@ -10173,6 +10736,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le cas 39',
@@ -10191,6 +10755,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Tin et Tina',
@@ -10209,6 +10774,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Run Rabbit Run',
@@ -10227,6 +10793,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Eli',
@@ -10245,6 +10812,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Autant en emporte le vent',
@@ -10263,6 +10831,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Barbare',
@@ -10281,6 +10850,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le coup du siècle',
@@ -10299,6 +10869,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Us',
@@ -10317,6 +10888,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les guetteurs',
@@ -10335,6 +10907,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Midsommar',
@@ -10353,6 +10926,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'I See You',
@@ -10371,6 +10945,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le monde de John',
@@ -10389,6 +10964,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Baba Yaga',
@@ -10407,6 +10983,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Dans les angles morts',
@@ -10425,6 +11002,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Identity',
@@ -10443,6 +11021,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Jeu intérieur',
@@ -10461,6 +11040,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Re Member',
@@ -10479,6 +11059,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Ne t'endors pas",
@@ -10497,6 +11078,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Don't Worry Darling",
@@ -10515,6 +11097,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Les couleurs du mal Rouge',
@@ -10533,6 +11116,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Privilege',
@@ -10551,6 +11135,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Séminaire',
@@ -10569,6 +11154,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "N'écoute pas",
@@ -10587,6 +11173,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Creep',
@@ -10605,6 +11192,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Hypnotique',
@@ -10623,6 +11211,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Don't Move",
@@ -10641,6 +11230,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'La prison de verre',
@@ -10659,6 +11249,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Locked In',
@@ -10677,6 +11268,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Brick',
@@ -10695,6 +11287,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Irrémédiable',
@@ -10713,6 +11306,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Chez moi',
@@ -10731,6 +11325,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Wounds',
@@ -10749,6 +11344,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'The Perfection',
@@ -10767,6 +11363,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Eileen',
@@ -10785,6 +11382,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Escape Game 2',
@@ -10803,6 +11401,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Ma sorcière bien aimée',
@@ -10821,6 +11420,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Astérix et le Coup du menhir',
@@ -10839,6 +11439,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Astérix chez les Bretons',
@@ -10857,6 +11458,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Astérix et la Surprise de César',
@@ -10875,6 +11477,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: "Les 12 Travaux d'Astérix",
@@ -10893,6 +11496,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Astérix le Gaulois',
@@ -10911,6 +11515,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Kirikou et la Sorcière',
@@ -10929,6 +11534,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Le magasin des suicides',
@@ -10947,6 +11553,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Charlie et la Chocolaterie',
@@ -10965,6 +11572,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Kuzco 2',
@@ -10983,6 +11591,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Camp Rock',
@@ -11001,6 +11610,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
   {
     title: 'Camp Rock 2',
@@ -11019,5 +11629,6 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
     lastUpdated: '',
+    quotes: [],
   },
 ];

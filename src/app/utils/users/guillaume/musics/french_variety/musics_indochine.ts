@@ -6,17 +6,20 @@ export const musicsIndochine: UserMusic[] = [
     artist: 'Indochine',
     rating: 0,
     timesListened: 200,
+    quotes: [],
   },
   {
     title: "L'aventurier",
     artist: 'Indochine',
     rating: 0,
     timesListened: 250,
+    quotes: [],
   },
   {
     title: 'Trois nuits par semaine',
     artist: 'Indochine',
     rating: 0,
     timesListened: 80,
+    quotes: [],
   },
 ];

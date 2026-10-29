@@ -239,6 +239,7 @@ export class SelectMusicsComponent
         ...music,
         rating: 0,
         timesListened: 0,
+        quotes: [],
       }))
     );
   }

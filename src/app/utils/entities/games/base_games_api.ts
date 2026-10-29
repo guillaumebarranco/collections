@@ -532,7 +532,7 @@ export const baseGamesApi: BaseGame[] = [
     title: "Marvel's Wolverine",
     editor: "Insomniac Games",
     hero: "Wolverine",
-    coverUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKpHmjBPdK65s36axLcklpQIqEbPSIxpDhy8W0d0elt58Bp7BpcTSV_7EB&s=10",
+    coverUrl: "/games_pictures/b783d5f6c03b.jpg",
     releaseDate: "2026-09-15",
     averageTimeToFinish: 20,
     averageTimeToHundredPercent: 0,

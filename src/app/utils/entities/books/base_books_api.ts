@@ -20,7 +20,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: "Martyrs - Livre 3",
     author: "Oliver Peru",
-    coverUrl: "https://m.media-amazon.com/images/I/71mNnFt9DRL._SL1051_.jpg",
+    coverUrl: "/books_pictures/9d0dfa5cc8c4.jpg",
     pages: 896,
     genre: ['Fantasy', 'Aventure'],
     saga: "Martyrs",
@@ -35,7 +35,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: "Saison Funeste",
     author: "Glen Cook",
-    coverUrl: "https://lecultedapophis.com/wp-content/uploads/2016/12/saisons_funestes.jpg?w=185",
+    coverUrl: "/books_pictures/49a3aa884e6b.jpg",
     pages: 400,
     genre: [],
     saga: "Les Annales de la Compagnie Noire",

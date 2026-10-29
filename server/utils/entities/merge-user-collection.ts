@@ -301,6 +301,7 @@ function mergeMovies(userMovies: any[]): any[] {
       borrowed: movie.borrowed ?? '',
       loaned: movie.loaned ?? '',
       lastUpdated: movie.lastUpdated ?? '',
+      quotes: movie.quotes ?? [],
     };
   });
 }
@@ -399,6 +400,7 @@ function mergeSeries(userSeries: any[]): any[] {
       borrowed: serie.borrowed ?? '',
       loaned: serie.loaned ?? '',
       fromEntity: base?.fromEntity ?? null,
+      quotes: serie.quotes ?? [],
     };
   });
 }
@@ -570,6 +572,7 @@ function mergeMusics(userMusics: any[]): any[] {
       releaseDate: base?.releaseDate || '',
       duration: base?.duration || 0,
       genre: base?.genre || '',
+      quotes: music.quotes ?? [],
     };
   });
 }

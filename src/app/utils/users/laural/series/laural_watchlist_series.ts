@@ -57,6 +57,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "The Penguin",
@@ -78,6 +79,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "Doctor Who",
@@ -207,6 +209,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "The Glory",
@@ -228,6 +231,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "How I Met Your Mother",
@@ -321,6 +325,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "Twin Peaks",
@@ -360,6 +365,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "Alice in borderland",
@@ -399,6 +405,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "Scream",
@@ -438,6 +445,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "The Witcher",
@@ -486,6 +494,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "Altered Carbon",
@@ -516,6 +525,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "Black Mirror",
@@ -591,6 +601,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "Breaking Bad",
@@ -648,6 +659,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "Desperate Housewives",
@@ -732,6 +744,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "Emily in Paris",
@@ -789,6 +802,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "La servante écarlate",
@@ -846,6 +860,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "Locke & Key",
@@ -885,6 +900,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "New Girl",
@@ -960,6 +976,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "Chernobyl",
@@ -981,6 +998,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "True Detective",
@@ -1029,6 +1047,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "Peaky Blinders",
@@ -1095,6 +1114,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "The Crown",
@@ -1161,6 +1181,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "Westworld",
@@ -1209,6 +1230,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "Euphoria",
@@ -1248,6 +1270,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "Bates Motel",
@@ -1305,6 +1328,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "NCIS",
@@ -1389,6 +1413,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "American Horror Story",
@@ -1473,6 +1498,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "Once Upon a Time",
@@ -1548,6 +1574,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "Grey's Anatomy",
@@ -1632,6 +1659,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "Charmed",
@@ -1716,6 +1744,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "L'Été où je suis devenue jolie",
@@ -1755,6 +1784,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "Une nounou d'enfer",
@@ -1821,6 +1851,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "The Walking Dead",
@@ -1932,6 +1963,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "Ghost Whisperer",
@@ -1989,6 +2021,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "Riverdale",
@@ -2064,6 +2097,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "Le Destin de Lisa",
@@ -2094,6 +2128,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "One Piece (live-action)",
@@ -2124,6 +2159,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "Sense8",
@@ -2154,6 +2190,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "Siren",
@@ -2193,6 +2230,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "Squid Game",
@@ -2232,6 +2270,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "Stranger Things",
@@ -2289,6 +2328,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "The Big Bang Theory",
@@ -2409,6 +2449,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "The Vampire Diaries",
@@ -2493,6 +2534,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "The Last of Us",
@@ -2523,6 +2565,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "Umbrella Academy",
@@ -2571,6 +2614,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "Under the Dome",
@@ -2610,6 +2654,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "Vikings",
@@ -2676,6 +2721,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "You",
@@ -2733,6 +2779,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "His & Hers",
@@ -2754,6 +2801,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "Orange is the New Black",
@@ -2829,6 +2877,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "Insatiable",
@@ -2859,6 +2908,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "Poupée russe",
@@ -2889,6 +2939,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "Lizzie McGuire",
@@ -2919,6 +2970,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "Dragon Ball",
@@ -3012,6 +3064,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "Death Note",
@@ -3033,6 +3086,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "Arcane",
@@ -3063,6 +3117,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   },
   {
     title: "Sailor Moon",
@@ -3120,5 +3175,6 @@ export const lauralWatchListSeries: UserSerie[] = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+    quotes: [],
   }
 ];

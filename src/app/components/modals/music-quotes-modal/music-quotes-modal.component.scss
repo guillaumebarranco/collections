@@ -1,0 +1,46 @@
+.music-quotes-artist {
+  margin: 0 0 12px;
+  color: #5d6d7e;
+}
+
+.quote-row {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+  margin-bottom: 8px;
+}
+
+.quote-row textarea {
+  flex: 1;
+}
+
+.quote-remove,
+.quote-add,
+.quote-save,
+.quote-cancel {
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 8px 12px;
+}
+
+.quote-remove,
+.quote-add,
+.quote-save {
+  background: #667eea;
+  color: #fff;
+}
+
+.quote-add {
+  margin-top: 4px;
+}
+
+.quote-cancel {
+  background: #ecf0f1;
+  color: #2c3e50;
+}
+
+.music-quotes-error {
+  margin: 12px 0 0;
+  color: #c0392b;
+}
