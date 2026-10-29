@@ -137,6 +137,10 @@
     <app-dashboard-entities-stats></app-dashboard-entities-stats>
     }
 
+    @if (selectedTab() === 'quotes') {
+    <app-dashboard-quotes></app-dashboard-quotes>
+    }
+
     <!-- Activité mensuelle (30 j. / 12 mois) -->
     @if (selectedTab() === 'monthlyActivity') {
     <div class="dashboard-section">

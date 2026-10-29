@@ -1,0 +1,82 @@
+.quotes-container {
+  background: white;
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  min-width: 0;
+  box-sizing: border-box;
+
+  h2 {
+    margin: 0 0 20px 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2c3e50;
+    border-bottom: 2px solid #ecf0f1;
+    padding-bottom: 10px;
+  }
+}
+
+.quotes-status {
+  margin: 8px 0 0;
+  color: #6c757d;
+}
+
+.quotes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.quote-work {
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 12px;
+  padding: 16px 18px;
+}
+
+.quote-work__header {
+  margin-bottom: 12px;
+
+  h3 {
+    margin: 0;
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #212529;
+  }
+
+  p {
+    margin: 4px 0 0;
+    color: #6c757d;
+    font-size: 0.9rem;
+  }
+}
+
+.quote-work__quote {
+  margin: 0 0 10px;
+  padding: 0 0 0 12px;
+  border-left: 3px solid #764ba2;
+  color: #3d4a57;
+  font-size: 0.95rem;
+  font-style: italic;
+  line-height: 1.45;
+  white-space: pre-line;
+  overflow-wrap: anywhere;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .quotes-container {
+    padding: 20px;
+
+    h2 {
+      font-size: 1.3rem;
+    }
+  }
+
+  .quote-work {
+    padding: 14px;
+  }
+}

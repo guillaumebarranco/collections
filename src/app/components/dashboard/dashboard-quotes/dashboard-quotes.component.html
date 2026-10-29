@@ -1,0 +1,32 @@
+<div class="quotes-container">
+  <h2>💬 Citations</h2>
+
+  <app-view-toggle
+    toggleClass="quotes-entity-tabs"
+    [options]="entityTabOptions"
+    [selected]="selectedEntity()"
+    (selectedChange)="selectEntity($event)"
+  ></app-view-toggle>
+
+  @if (isLoading()) {
+  <p class="quotes-status">Chargement des citations...</p>
+  } @else if (quotedWorks().length === 0) {
+  <p class="quotes-status">{{ emptyMessage() }}</p>
+  } @else {
+  <div class="quotes-list">
+    @for (work of quotedWorks(); track work.title + work.subtitle) {
+    <article class="quote-work">
+      <header class="quote-work__header">
+        <h3>{{ work.title }}</h3>
+        @if (work.subtitle) {
+        <p>{{ work.subtitle }}</p>
+        }
+      </header>
+      @for (quote of work.quotes; track $index) {
+      <blockquote class="quote-work__quote">{{ quote }}</blockquote>
+      }
+    </article>
+    }
+  </div>
+  }
+</div>

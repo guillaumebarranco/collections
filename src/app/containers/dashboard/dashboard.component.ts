@@ -19,6 +19,7 @@ import {
   StatItemColor,
 } from '../../components/shared/stats-display/stats-display.component';
 import { DashboardEntitiesStatsComponent } from '../../components/dashboard/dashboard-entities-stats/dashboard-entities-stats.component';
+import { DashboardQuotesComponent } from '../../components/dashboard/dashboard-quotes/dashboard-quotes.component';
 import { DashboardUserTodosComponent } from '../../components/dashboard/dashboard-user-todos/dashboard-user-todos.component';
 import { DashboardFeedComponent } from '../../components/dashboard/dashboard-feed/dashboard-feed.component';
 import { DashboardMonthlyActivityComponent } from '../../components/dashboard/dashboard-monthly-activity/dashboard-monthly-activity.component';
@@ -164,6 +165,7 @@ type BadgeGroup = {
     ViewToggleComponent,
     StatsDisplayComponent,
     DashboardEntitiesStatsComponent,
+    DashboardQuotesComponent,
     DashboardUserTodosComponent,
     DashboardFeedComponent,
     DashboardMonthlyActivityComponent,
@@ -193,7 +195,7 @@ export class DashboardComponent implements OnInit {
   private fullCollectionsLoaded = signal(false);
   private dashboardLoadGeneration = 0;
   selectedTab = signal<
-    'overview' | 'entities' | 'monthlyActivity' | 'top5' | 'badges'
+    'overview' | 'entities' | 'quotes' | 'monthlyActivity' | 'top5' | 'badges'
   >('overview');
 
   /** Sous-vue de l’onglet Top 5 : personnel par défaut, ou classements statistiques. */
@@ -238,6 +240,7 @@ export class DashboardComponent implements OnInit {
     { value: 'overview', label: "Vue d'ensemble" },
     { value: 'monthlyActivity', label: 'Mon activité' },
     { value: 'entities', label: 'Statistiques par entité' },
+    { value: 'quotes', label: 'Citations' },
     { value: 'top5', label: 'Top 5' },
     { value: 'badges', label: 'Badges' },
   ];
@@ -960,7 +963,7 @@ export class DashboardComponent implements OnInit {
   }
 
   onTabChange(
-    tab: 'overview' | 'entities' | 'monthlyActivity' | 'top5' | 'badges'
+    tab: 'overview' | 'entities' | 'quotes' | 'monthlyActivity' | 'top5' | 'badges'
   ): void {
     this.selectedTab.set(tab);
     if (this.tabNeedsFullCollections(tab)) {
@@ -969,9 +972,9 @@ export class DashboardComponent implements OnInit {
   }
 
   private tabNeedsFullCollections(
-    tab: 'overview' | 'entities' | 'monthlyActivity' | 'top5' | 'badges'
+    tab: 'overview' | 'entities' | 'quotes' | 'monthlyActivity' | 'top5' | 'badges'
   ): boolean {
-    // « Statistiques par entité » charge ses GET full en autonomie.
+    // « Statistiques par entité » et « Citations » chargent leurs GET en autonomie.
     return tab === 'monthlyActivity' || tab === 'top5' || tab === 'badges';
   }
 

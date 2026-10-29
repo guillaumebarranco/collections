@@ -264,7 +264,7 @@
       @for (quote of serieForm()?.quotes ?? []; track $index) {
       <div class="quote-row">
         <textarea
-          rows="2"
+          rows="6"
           [ngModel]="quote"
           (ngModelChange)="updateQuote($index, $event)"
           [name]="'quote-' + $index"
