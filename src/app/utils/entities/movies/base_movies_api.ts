@@ -2856,4 +2856,129 @@ export const baseMoviesApi: BaseMovie[] = [
     selectDisplayOrder: 0,
     oscars: [],
   },
+
+  {
+    title: "Clayface",
+    director: "James Watkins",
+    actors: [
+      {
+        name: "Tom Rhys Harries",
+      },
+      {
+        name: "Naomi Ackie",
+      },
+      {
+        name: "Max Minghella",
+      },
+      {
+        name: "Eddie Marsan",
+      },
+      {
+        name: "Joshua James",
+      },
+    ],
+    coverUrl: "https://m.media-amazon.com/images/M/MV5BYTAyMjgxZjctMjRjNC00Zjg1LWJiNzctMDkxYzk0NWVmODMwXkEyXkFqcGc@._V1_.jpg",
+    releaseDate: "2026-10-21",
+    length: 108,
+    genre: ['Thriller', 'Horreur'],
+    saga: "DCU",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+
+  {
+    title: "Karma",
+    director: "Guillaume Canet",
+    actors: [
+      {
+        name: "Marion Cotillard",
+      },
+      {
+        name: "Denis Ménochet",
+      },
+      {
+        name: "Leonardo Sbaraglia",
+      },
+    ],
+    coverUrl: "https://fr.web.img2.acsta.net/img/94/0a/940afff3ed3b09677bf94e2bc7c3009b.jpg",
+    releaseDate: "2026-10-21",
+    length: 140,
+    genre: ['Drame'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+
+  {
+    title: "Les Miserables",
+    director: " Fred Cavayé",
+    actors: [
+      {
+        name: "Vincent Lindon",
+      },
+      {
+        name: "Tahar Rahim",
+      },
+      {
+        name: "Noémie Merlant",
+      },
+      {
+        name: "Benjamin Lavernhe",
+      },
+      {
+        name: "Camille Cottin",
+      },
+      {
+        name: "Vassili Schneider",
+      },
+      {
+        name: "Megan Northam",
+      },
+    ],
+    coverUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR01a3ZsCqJ3H3VRRaXeYfxbpuKUzPSG4_xvvsWNK9Uk_cKLPbQDvOUqh_I&s=10",
+    releaseDate: "2026-10-14",
+    length: 174,
+    genre: ['Policier', 'Drame', 'Historique'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+
+  {
+    title: "L'Amour de ta Vie",
+    director: "Rachel Morrison",
+    actors: [
+      {
+        name: "Margaret Qualley",
+      },
+      {
+        name: "Gabriel Basso",
+      },
+      {
+        name: "Aaron Pierre",
+      },
+      {
+        name: "Patrick Schwarzenegger",
+      },
+    ],
+    coverUrl: "https://fr.web.img6.acsta.net/img/01/a6/01a6a010b00a50b0c5c57d554763ba56.jpg",
+    releaseDate: "2026-10-14",
+    length: 109,
+    genre: ['Romance', 'Drame'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
 ];

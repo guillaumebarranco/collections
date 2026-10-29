@@ -512,16 +512,37 @@ export const baseSeries2: BaseSerie[] = [
   {
     title: 'Cyberpunk: Edgerunners',
     director: 'Hiroyuki Imaishi',
-    actors: [{ name: 'KENN' }, { name: 'Aoi Yūki' }, { name: 'Zach Aguilar' }],
-    coverUrl: '/series_pictures/32f74cf2b7b0.jpg',
-    releaseDate: '2022-09-13',
-    endDate: '2022-09-13',
+    actors: [
+      {
+        name: "KENN",
+      },
+      {
+        name: "Aoi Yūki",
+      },
+      {
+        name: "Zach Aguilar",
+      }
+    ],
+    coverUrl: "/series_pictures/32f74cf2b7b0.jpg",
+    releaseDate: "2022-09-13",
+    endDate: "",
     genre: ['Action', 'Animation', 'Sci-Fi'],
-    seasonsData: [{ seasonNumber: 1, nbEpisodes: 10, totalLength: 300 }],
-    description: '',
-    fromEntity: null,
-    saga: '',
-    countryOrigin: 'Japon',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 10,
+        totalLength: 255,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 10,
+        totalLength: 279,
+      }
+    ],
+    description: "",
+    fromEntity: { entityType: "game", title: "Cyberpunk 2077", secondEntityKey: "CD Projekt Red" },
+    saga: "",
+    countryOrigin: "Japon",
   },
   {
     title: 'Archer',

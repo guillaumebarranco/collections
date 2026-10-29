@@ -470,4 +470,48 @@ export const baseSeriesApi: BaseSerie[] = [
     saga: '',
     fromEntity: null,
   },
+
+  {
+    title: "Nobody Want This",
+    director: "Erin Foster",
+    actors: [
+      {
+        name: "Kristen Bell",
+      },
+      {
+        name: "Adam Brody",
+      },
+      {
+        name: "Justine Lupe",
+      },
+      {
+        name: "Timothy Simons",
+      },
+    ],
+    coverUrl: "https://fr.web.img5.acsta.net/img/a3/59/a359079011d778a73942a68f0ba8edf5.jpg",
+    releaseDate: "2024-09-25",
+    endDate: "",
+    genre: ['Comédie romantique'],
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 10,
+        totalLength: 259,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 10,
+        totalLength: 261,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 10,
+        totalLength: 280,
+      },
+    ],
+    description: "",
+    countryOrigin: "États-Unis",
+    saga: "",
+    fromEntity: null,
+  },
 ];

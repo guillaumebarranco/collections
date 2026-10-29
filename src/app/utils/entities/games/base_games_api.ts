@@ -527,4 +527,19 @@ export const baseGamesApi: BaseGame[] = [
     description: "",
     fromEntity: null,
   },
+
+  {
+    title: "Marvel's Wolverine",
+    editor: "Insomniac Games",
+    hero: "Wolverine",
+    coverUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKpHmjBPdK65s36axLcklpQIqEbPSIxpDhy8W0d0elt58Bp7BpcTSV_7EB&s=10",
+    releaseDate: "2026-09-15",
+    averageTimeToFinish: 20,
+    averageTimeToHundredPercent: 0,
+    platform: "Playstation 5",
+    saga: "",
+    platineTime: 25,
+    description: "",
+    fromEntity: null,
+  },
 ];

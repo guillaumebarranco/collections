@@ -5149,4 +5149,19 @@ export const ronanGames: UserGames = [
       { finishedGame: false, finishedGameWithHundredPercent: false, platinedGame: true, additionnalEstimatedTime: 0, sessionStartDate: "2026-08-05", sessionEndDate: "2026-08-09" }
     ],
   },
+
+  {
+    title: "Marvel's Wolverine",
+    editor: "Insomniac Games",
+    rating: 3.5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
+    ratingComment: "",
+    borrowed: "",
+    loaned: "",
+    sessions: [
+      { finishedGame: false, finishedGameWithHundredPercent: false, platinedGame: true, additionnalEstimatedTime: 0, sessionStartDate: "2026-09-15", sessionEndDate: "2026-10-27" }
+    ],
+  },
 ];

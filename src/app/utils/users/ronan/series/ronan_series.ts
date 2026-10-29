@@ -8741,23 +8741,31 @@ export const ronanSeries: UserSeries = [
     title: 'Cyberpunk: Edgerunners',
     director: 'Hiroyuki Imaishi',
     seasons: [
-      {
-        seasonNumber: 1,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-
-        otherViewedDates: [],
-      },
-    ],
-    owned: false,
+    {
+      seasonNumber: 1,
+      seasonRating: 4,
+      watching: false,
+      seasonTimesWatched: 1,
+      firstViewedDate: "",
+      lastViewedDate: "",
+      otherViewedDates: [],
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 3,
+      watching: false,
+      seasonTimesWatched: 1,
+      firstViewedDate: "2026-10-28",
+      lastViewedDate: "2026-10-28",
+      otherViewedDates: [],
+    }
+  ],
+    owned: true,
     watchPriority: 1,
     wantToWatchAgain: false,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
+    ratingComment: "",
+    borrowed: "",
+    loaned: "",
   },
 
   {
@@ -10074,6 +10082,46 @@ export const ronanSeries: UserSeries = [
       otherViewedDates: [],
     }
   ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: "",
+    borrowed: "",
+    loaned: "",
+  },
+
+  {
+    title: "Nobody Want This",
+    director: "Erin Foster",
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 3.5,
+        watching: false,
+        seasonTimesWatched: 1,
+        firstViewedDate: "",
+        lastViewedDate: "",
+        otherViewedDates: [],
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 3.5,
+        watching: false,
+        seasonTimesWatched: 1,
+        firstViewedDate: "",
+        lastViewedDate: "",
+        otherViewedDates: [],
+      },
+      {
+        seasonNumber: 3,
+        seasonRating: 3.5,
+        watching: false,
+        seasonTimesWatched: 1,
+        firstViewedDate: "2026-10-28",
+        lastViewedDate: "2026-10-28",
+        otherViewedDates: [],
+      }
+    ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
