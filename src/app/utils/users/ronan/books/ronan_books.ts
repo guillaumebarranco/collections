@@ -1778,4 +1778,22 @@ export const ronanBooks: UserBooks = [
     ratingComment: "",
     quotes: [],
   },
+
+  {
+    title: "Nous Deviendrons l'Ouragan",
+    author: "Margot Dessenne",
+    firstReadDate: "2026-11-02",
+    lastReadDate: "2026-11-02",
+    otherReadDates: [],
+    rating: 4.5,
+    reading: false,
+    readTimes: 1,
+    owned: false,
+    borrowed: "",
+    loaned: "",
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: "",
+    quotes: [],
+  },
 ];

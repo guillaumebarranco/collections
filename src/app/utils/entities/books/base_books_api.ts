@@ -46,4 +46,19 @@ export const baseBooksApi: BaseBook[] = [
     countryOrigin: "Royaume-Uni",
     selectDisplayOrder: 0,
   },
+
+  {
+    title: "Nous Deviendrons l'Ouragan",
+    author: "Margot Dessenne",
+    coverUrl: "https://www.margotdessenne.fr/wp-content/uploads/2026/01/Nous-deviendrons-lOuragan-OK.jpg",
+    pages: 576,
+    genre: ['Science Fiction', 'Policier', 'Fantastique', 'Fiction'],
+    saga: "",
+    sagaOrder: 0,
+    sagaFinished: true,
+    releaseDate: "2026-09-02",
+    description: "",
+    countryOrigin: "France",
+    selectDisplayOrder: 0,
+  },
 ];

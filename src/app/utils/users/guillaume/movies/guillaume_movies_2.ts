@@ -112,8 +112,8 @@ export const guillaumeMoviesPage2: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: ["Mes romances", "Films d'écureuil"],
-    lastUpdated: '',
-    quotes: [],
+    lastUpdated: "2026-10-30T17:08",
+    quotes: ["I can survive just fine without you, you know ?\n\nBut there exist a chance that this life can be a little less mundane with you in it."],
   },
   {
     title: 'Guns Akimbo',

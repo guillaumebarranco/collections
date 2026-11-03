@@ -3021,4 +3021,36 @@ export const baseMoviesApi: BaseMovie[] = [
     selectDisplayOrder: 0,
     oscars: [],
   },
+
+  {
+    title: "The Love Hypothesis",
+    director: "Claire Scanlon",
+    actors: [
+      {
+        name: "Lili Reinhart",
+      },
+      {
+        name: "Tom Bateman",
+      },
+      {
+        name: "Rachel Marsh",
+      },
+      {
+        name: "Arty Froushan",
+      },
+      {
+        name: "Nicholas Duvernay",
+      },
+    ],
+    coverUrl: "https://m.media-amazon.com/images/M/MV5BZWU3OGNlZjgtYzgzZi00MjgxLTk0M2EtNmI5NjMzZDg3NGZiXkEyXkFqcGc@._V1_.jpg",
+    releaseDate: "2026-09-23",
+    length: 112,
+    genre: ['Comédie', 'Romance'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
 ];
