@@ -84,7 +84,7 @@ export const musicsKenyArkana: UserMusic[] = [
     artist: 'Keny Arkana',
     rating: 0,
     timesListened: 80,
-    quotes: [],
+    quotes: ["Papa dit que les politiques sont des prédateurs, qui sèment la peur et qui ont un estomac à la place du coeur."],
   },
   {
     title: 'Entre Les Mots : Du Local Au Global',

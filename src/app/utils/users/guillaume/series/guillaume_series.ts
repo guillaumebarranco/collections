@@ -169,7 +169,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
-    quotes: [],
+    quotes: ["T'essayes de marquer un point pour quoi ? C'est pas parce qu'elle t'as blessé une fois que tu dois la blesser maintenant. Ça fonctionne pas comme ça le mariage."],
   },
   {
     title: 'Loki',

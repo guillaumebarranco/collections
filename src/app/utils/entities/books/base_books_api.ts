@@ -61,4 +61,19 @@ export const baseBooksApi: BaseBook[] = [
     countryOrigin: "France",
     selectDisplayOrder: 0,
   },
+
+  {
+    title: "Pauvres Créatures ",
+    author: "Alasdair Gray",
+    coverUrl: "https://www.cinehorizons.net/sites/default/files/affiches/877000573-chappie.jpg",
+    pages: 320,
+    genre: [],
+    saga: "",
+    sagaOrder: 0,
+    sagaFinished: true,
+    releaseDate: "2024-01-12",
+    description: "",
+    countryOrigin: "Royaume-Uni",
+    selectDisplayOrder: 0,
+  },
 ];

@@ -312,7 +312,7 @@ export const musicsOrelsan: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 200,
-    quotes: [],
+    quotes: ["Demandes à un fou s'il est fou, tu verras ce qu'il te répond."],
   },
 
   // Album : La fête est finie - Épilogue (2018)
@@ -335,7 +335,7 @@ export const musicsOrelsan: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 100,
-    quotes: [],
+    quotes: ["Un ancien fan m'a dit \"t'es trop commercial\". J'lui ai dit je sais pas c'que ça veut dire \"trop commercial\". Il a dit \"quand tout le monde aime bien c'est trop commercial\". J'lui ai dit tu fais quoi dans la vie il a dit \"j'suis commercial\". Ok.", "Fermez vos gueules j'ai gagné mes procès. Mes textes étaient mieux quand le juge les posait."],
   },
   {
     title: 'Adieu les filles',
@@ -505,7 +505,7 @@ export const musicsOrelsan: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 21,
-    quotes: [],
+    quotes: ["Ma mère rentre dans ma chambre me dit \"mets pas ton pyj\". Ton père t'emmène voir SOS Fantômes 2 en ville. Y'a école demain mais j'suis au cinema. C'est le plus beau jour de ma vie dites rien à mon p'tit frère il sait pas."],
   },
   {
     title: 'Toujours perdu quand même',
@@ -605,7 +605,7 @@ export const musicsOrelsan: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
-    quotes: [],
+    quotes: ["J'envoie des signaux mais tu vois pas que j'fais semblant d'être intéressé. J'reste poli 3 minutes après j'commence à oublier le respect."],
   },
   {
     title: 'Encore une fois (feat. Yamê)',

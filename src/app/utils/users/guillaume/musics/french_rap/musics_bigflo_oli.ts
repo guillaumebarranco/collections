@@ -603,7 +603,7 @@ export const musicsBigfloOli: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 27,
-    quotes: [],
+    quotes: ["C'est devenu l'inconnu que je connais le mieux."],
   },
   {
     title: 'Stade',

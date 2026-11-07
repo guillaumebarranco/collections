@@ -3053,4 +3053,103 @@ export const baseMoviesApi: BaseMovie[] = [
     selectDisplayOrder: 0,
     oscars: [],
   },
+
+  {
+    title: "Godzilla Minus Zero",
+    director: "Takashi Yamazaki",
+    actors: [
+      {
+        name: "Ryūnosuke Kamiki",
+      },
+      {
+        name: "Minami Hamabe",
+      },
+      {
+        name: "Miou Tanaka",
+      },
+      {
+        name: "Yuki Yamada",
+      },
+      {
+        name: "Hidetaka Yoshioka",
+      },
+      {
+        name: "Sakura Andô",
+      },
+    ],
+    coverUrl: "https://www.franceinfo.fr/pictures/At1vOF42xjJeRsIv1suysKQ1o7k/0x0:810x1080/fit-in/750x/filters:format(jpg)/2026/10/27/6ae0c575a85ae988586953.jpg",
+    releaseDate: "2026-11-04",
+    length: 135,
+    genre: ['Action', 'Science Fiction', 'Drame', 'Catastrophe'],
+    saga: "Godzilla",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+
+  {
+    title: "La carte qui mène jusqu'à toi",
+    director: "Lasse Hallström",
+    actors: [
+      {
+        name: "Madelyn Cline",
+      },
+      {
+        name: "K. J. Apa",
+      },
+      {
+        name: "Sofia Wylie",
+      },
+      {
+        name: "Madison Thompson",
+      },
+    ],
+    coverUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmbNadJH4xTtBaFsE7Fyyq9BExvky3ClUBf8o0BWMk0w&s=10",
+    releaseDate: "2025-08-20",
+    length: 98,
+    genre: ['Romance'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
+
+  {
+    title: "Rental Family",
+    director: " Hikari",
+    actors: [
+      {
+        name: "Brendan Fraser",
+      },
+      {
+        name: "Takehiro Hira",
+      },
+      {
+        name: "Mari Yamamoto",
+      },
+      {
+        name: "Shannon Mahina Gorman",
+      },
+      {
+        name: "Akira Emoto",
+      },
+      {
+        name: "Shino Shinozaki",
+      },
+    ],
+    coverUrl: "https://m.media-amazon.com/images/M/MV5BMzFiNTViOTQtOTUxNi00ODczLWI0MTgtNDE1ZWU5YmIzMjY2XkEyXkFqcGc@._V1_.jpg",
+    releaseDate: "2026-02-04",
+    length: 110,
+    genre: ['Comédie', 'Drame'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['États-Unis', 'Japon'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
 ];

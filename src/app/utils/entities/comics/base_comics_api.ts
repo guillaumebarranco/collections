@@ -116,4 +116,17 @@ export const baseComicsApi: BaseComic[] = [
     sagaOrder: 4,
     description: "",
   },
+
+  {
+    title: "Absolute Batman T.3",
+    writer: "Scott Snyder",
+    designer: "Eric Canete, Nick Dragotta",
+    coverUrl: "https://bdi.dlpdomain.com/album/9791026855859/couv/M385x862/absolute-batman-tome-3.jpg",
+    releaseDate: "2026-09-25",
+    pages: 0,
+    genre: "Super-héro",
+    saga: "Absolute Batman",
+    sagaOrder: 3,
+    description: "",
+  },
 ];

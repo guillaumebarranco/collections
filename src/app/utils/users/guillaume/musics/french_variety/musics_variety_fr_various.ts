@@ -125,7 +125,7 @@ export const musicsVarietyFrVarious: UserMusic[] = [
     artist: 'William Sheller',
     rating: 0,
     timesListened: 100,
-    quotes: [],
+    quotes: ["Quel que soit le temps que ça prenne, quel que soit l'enjeu, je veux être un homme heureux."],
   },
   {
     title: 'Ziggy (Un garçon pas comme les autres)',

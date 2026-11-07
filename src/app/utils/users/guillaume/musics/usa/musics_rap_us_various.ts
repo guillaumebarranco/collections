@@ -20,7 +20,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     artist: 'Shaggy',
     rating: 0,
     timesListened: 250,
-    quotes: [],
+    quotes: ["You're a queen and so you should be treated."],
   },
   {
     title: "It Wasn't Me",

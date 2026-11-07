@@ -302,7 +302,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     artist: 'Hippocampe Fou',
     rating: 0,
     timesListened: 14,
-    quotes: [],
+    quotes: ["J'avance à petits pas, m'éteins à petit feu. Ma femme est une déesse, mérite-t-elle un demi-vieux ?"],
   },
   {
     title: "J'ai fini le taf",
