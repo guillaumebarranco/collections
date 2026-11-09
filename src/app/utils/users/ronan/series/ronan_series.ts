@@ -10325,4 +10325,27 @@ export const ronanSeries: UserSeries = [
     loaned: "",
     quotes: [],
   },
+
+  {
+    title: "Campus Drivers",
+    director: "Thomas Boullé",
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 3,
+        watching: false,
+        seasonTimesWatched: 1,
+        firstViewedDate: "2026-11-08",
+        lastViewedDate: "2026-11-08",
+        otherViewedDates: [],
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: "",
+    borrowed: "",
+    loaned: "",
+    quotes: [],
+  },
 ];

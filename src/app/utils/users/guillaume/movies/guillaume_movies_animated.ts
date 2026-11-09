@@ -271,7 +271,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     title: 'Les Nouveaux Héros',
     director: 'Don Hall, Chris Williams',
     rating: 3.75,
-    timesWatched: 2,
+    timesWatched: 3,
     firstViewedDate: "2016-11-07",
     lastViewedDate: "2026-10-25",
     otherSeenDates: ["2016-11-07"],
@@ -283,7 +283,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
-    lastUpdated: "2026-10-26T17:36",
+    lastUpdated: "2026-11-08T16:33",
     quotes: [],
   },
   {

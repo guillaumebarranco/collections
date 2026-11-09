@@ -63,9 +63,9 @@ export const baseBooksApi: BaseBook[] = [
   },
 
   {
-    title: "Pauvres Créatures ",
+    title: "Pauvres Créatures",
     author: "Alasdair Gray",
-    coverUrl: "https://www.cinehorizons.net/sites/default/files/affiches/877000573-chappie.jpg",
+    coverUrl: "https://editions-metailie.com/wp-content/uploads/2014/01/editions-metailie.com-pauvres-creatures-couv-ok-hd-pauvres-creatures-sept-023.jpg",
     pages: 320,
     genre: [],
     saga: "",

@@ -514,4 +514,56 @@ export const baseSeriesApi: BaseSerie[] = [
     saga: "",
     fromEntity: null,
   },
+
+  {
+    title: "Campus Drivers",
+    director: "Thomas Boullé",
+    actors: [
+      {
+        name: "Carmen Kassovitz",
+      },
+      {
+        name: "Baptiste Masseline",
+      },
+      {
+        name: "Madior Fall",
+      },
+      {
+        name: "Esteban Vial",
+      },
+      {
+        name: "Félix Nebel",
+      },
+      {
+        name: "Enzo Lorente",
+      },
+      {
+        name: "Paolo Luka-Noé",
+      },
+      {
+        name: "Eloïse Rey",
+      },
+      {
+        name: "Louna Balavoine",
+      },
+      {
+        name: "Cassandra Cano",
+      },
+    ],
+    coverUrl: "https://m.media-amazon.com/images/M/MV5BZTJmZmM1MjctNDE0Mi00Y2I3LWFmNGEtZDJlNWM0MjQ2YjVjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    releaseDate: "2026-11-06",
+    endDate: "",
+    genre: ['Comédie romantique'],
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 6,
+        totalLength: 240,
+      },
+    ],
+    description: "",
+    countryOrigin: "France",
+    saga: "",
+    fromEntity: null,
+  },
 ];

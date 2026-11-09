@@ -4065,7 +4065,7 @@ export const lauralReadListBooks: UserBook[] = [
     quotes: [],
   },
   {
-    title: "Pauvres Créatures ",
+    title: "Pauvres Créatures",
     author: "Alasdair Gray",
     firstReadDate: "",
     lastReadDate: "",

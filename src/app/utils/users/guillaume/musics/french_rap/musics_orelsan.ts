@@ -447,7 +447,7 @@ export const musicsOrelsan: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 46,
-    quotes: [],
+    quotes: ["J'te promet d'avoir des doutes, parce que douter c'est le contraire de s'en foutre."],
   },
   {
     title: 'Casseurs Flowters Infinity',

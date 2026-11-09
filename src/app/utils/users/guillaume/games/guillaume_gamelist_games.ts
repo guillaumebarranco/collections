@@ -150,5 +150,27 @@ export const guillaumeGameListGames: UserGames = [
       currentlyPlaying: true,
     }
     ],
+  },
+  {
+    title: "The Legend of Zelda: Ocarina of Time (2026)",
+    editor: "Nintendo",
+    rating: 0,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
+    ratingComment: "",
+    borrowed: "",
+    loaned: "",
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 6,
+      sessionStartDate: "2026-11-07",
+      sessionEndDate: "",
+      currentlyPlaying: true,
+    }
+    ],
   }
 ];

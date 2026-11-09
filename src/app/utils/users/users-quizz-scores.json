@@ -20,5 +20,16 @@
       "total": 20,
       "completedAt": "2026-06-27T16:51:04.333Z"
     }
+  ],
+  "ronan": [
+    {
+      "entityType": "serie",
+      "entityTitle": "How I Met Your Mother",
+      "creator": "Guillaume",
+      "level": 1,
+      "correct": 17,
+      "total": 20,
+      "completedAt": "2026-11-08T18:54:35.462Z"
+    }
   ]
 }

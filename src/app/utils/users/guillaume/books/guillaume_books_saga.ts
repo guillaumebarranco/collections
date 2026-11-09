@@ -186,7 +186,7 @@ export const guillaumeBooksSaga: UserBooks = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
-    quotes: [],
+    quotes: ["Well, we find we appreciate you more and more, Mum, now that we're washing our own socks."],
   },
   {
     title: 'Harry Potter et les Reliques de la Mort',
