@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 import { getApiBaseUrl } from '../../../core/config';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
+import { trimStringFields } from '../../../utils/trim-string-fields';
 import { CountrySelectComponent } from '../../../components/shared/country-select/country-select.component';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSelectModule } from '@angular/material/select';
@@ -199,7 +200,11 @@ export class AddChildrenBookComponent {
   }
 
   async onSubmit() {
-    const entity = this.entityForm();
+    const entity = trimStringFields(this.entityForm(), [
+      'title',
+      'author',
+      'saga',
+    ]);
     const user = this.userForm();
 
     if (!entity.title || !entity.author) {

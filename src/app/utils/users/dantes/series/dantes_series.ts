@@ -1347,4 +1347,483 @@ export const dantesSeries: UserSerie[] = [
     loaned: '',
     quotes: [],
   },
+{
+    title: "Bob l'éponge",
+    director: 'Stephen Hillenburg',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        watching: false,
+        seasonTimesWatched: 0,
+        firstViewedDate: '',
+        lastViewedDate: '',
+
+        otherViewedDates: [],
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 0,
+        watching: false,
+        seasonTimesWatched: 0,
+        firstViewedDate: '',
+        lastViewedDate: '',
+
+        otherViewedDates: [],
+      },
+      {
+        seasonNumber: 3,
+        seasonRating: 0,
+        watching: false,
+        seasonTimesWatched: 0,
+        firstViewedDate: '',
+        lastViewedDate: '',
+
+        otherViewedDates: [],
+      },
+      {
+        seasonNumber: 4,
+        seasonRating: 0,
+        watching: false,
+        seasonTimesWatched: 0,
+        firstViewedDate: '',
+        lastViewedDate: '',
+
+        otherViewedDates: [],
+      },
+      {
+        seasonNumber: 5,
+        seasonRating: 0,
+        watching: false,
+        seasonTimesWatched: 0,
+        firstViewedDate: '',
+        lastViewedDate: '',
+
+        otherViewedDates: [],
+      },
+      {
+        seasonNumber: 6,
+        seasonRating: 0,
+        watching: false,
+        seasonTimesWatched: 0,
+        firstViewedDate: '',
+        lastViewedDate: '',
+
+        otherViewedDates: [],
+      },
+      {
+        seasonNumber: 7,
+        seasonRating: 0,
+        watching: false,
+        seasonTimesWatched: 0,
+        firstViewedDate: '',
+        lastViewedDate: '',
+
+        otherViewedDates: [],
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+    quotes: [],
+  },
+{
+    title: 'Les Simpsons',
+    director: 'Matt Groening',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        watching: false,
+        seasonTimesWatched: 0,
+        firstViewedDate: '',
+        lastViewedDate: '',
+
+        otherViewedDates: [],
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 0,
+        watching: false,
+        seasonTimesWatched: 0,
+        firstViewedDate: '',
+        lastViewedDate: '',
+
+        otherViewedDates: [],
+      },
+      {
+        seasonNumber: 3,
+        seasonRating: 0,
+        watching: false,
+        seasonTimesWatched: 0,
+        firstViewedDate: '',
+        lastViewedDate: '',
+
+        otherViewedDates: [],
+      },
+      {
+        seasonNumber: 4,
+        seasonRating: 0,
+        watching: false,
+        seasonTimesWatched: 0,
+        firstViewedDate: '',
+        lastViewedDate: '',
+
+        otherViewedDates: [],
+      },
+      {
+        seasonNumber: 5,
+        seasonRating: 0,
+        watching: false,
+        seasonTimesWatched: 0,
+        firstViewedDate: '',
+        lastViewedDate: '',
+
+        otherViewedDates: [],
+      },
+      {
+        seasonNumber: 6,
+        seasonRating: 0,
+        watching: false,
+        seasonTimesWatched: 0,
+        firstViewedDate: '',
+        lastViewedDate: '',
+
+        otherViewedDates: [],
+      },
+      {
+        seasonNumber: 7,
+        seasonRating: 0,
+        watching: false,
+        seasonTimesWatched: 0,
+        firstViewedDate: '',
+        lastViewedDate: '',
+
+        otherViewedDates: [],
+      },
+      {
+        seasonNumber: 8,
+        seasonRating: 0,
+        watching: false,
+        seasonTimesWatched: 0,
+        firstViewedDate: '',
+        lastViewedDate: '',
+
+        otherViewedDates: [],
+      },
+      {
+        seasonNumber: 9,
+        seasonRating: 0,
+        watching: false,
+        seasonTimesWatched: 0,
+        firstViewedDate: '',
+        lastViewedDate: '',
+
+        otherViewedDates: [],
+      },
+      {
+        seasonNumber: 10,
+        seasonRating: 0,
+        watching: false,
+        seasonTimesWatched: 0,
+        firstViewedDate: '',
+        lastViewedDate: '',
+
+        otherViewedDates: [],
+      },
+      {
+        seasonNumber: 11,
+        seasonRating: 0,
+        watching: false,
+        seasonTimesWatched: 0,
+        firstViewedDate: '',
+        lastViewedDate: '',
+
+        otherViewedDates: [],
+      },
+      {
+        seasonNumber: 12,
+        seasonRating: 0,
+        watching: false,
+        seasonTimesWatched: 0,
+        firstViewedDate: '',
+        lastViewedDate: '',
+
+        otherViewedDates: [],
+      },
+      {
+        seasonNumber: 13,
+        seasonRating: 0,
+        watching: false,
+        seasonTimesWatched: 0,
+        firstViewedDate: '',
+        lastViewedDate: '',
+
+        otherViewedDates: [],
+      },
+      {
+        seasonNumber: 14,
+        seasonRating: 0,
+        watching: false,
+        seasonTimesWatched: 0,
+        firstViewedDate: '',
+        lastViewedDate: '',
+
+        otherViewedDates: [],
+      },
+      {
+        seasonNumber: 15,
+        seasonRating: 0,
+        watching: false,
+        seasonTimesWatched: 0,
+        firstViewedDate: '',
+        lastViewedDate: '',
+
+        otherViewedDates: [],
+      },
+      {
+        seasonNumber: 16,
+        seasonRating: 0,
+        watching: false,
+        seasonTimesWatched: 0,
+        firstViewedDate: '',
+        lastViewedDate: '',
+
+        otherViewedDates: [],
+      },
+      {
+        seasonNumber: 17,
+        seasonRating: 0,
+        watching: false,
+        seasonTimesWatched: 0,
+        firstViewedDate: '',
+        lastViewedDate: '',
+
+        otherViewedDates: [],
+      },
+      {
+        seasonNumber: 18,
+        seasonRating: 0,
+        watching: false,
+        seasonTimesWatched: 0,
+        firstViewedDate: '',
+        lastViewedDate: '',
+
+        otherViewedDates: [],
+      },
+      {
+        seasonNumber: 19,
+        seasonRating: 0,
+        watching: false,
+        seasonTimesWatched: 0,
+        firstViewedDate: '',
+        lastViewedDate: '',
+
+        otherViewedDates: [],
+      },
+      {
+        seasonNumber: 20,
+        seasonRating: 0,
+        watching: false,
+        seasonTimesWatched: 0,
+        firstViewedDate: '',
+        lastViewedDate: '',
+
+        otherViewedDates: [],
+      },
+      {
+        seasonNumber: 21,
+        seasonRating: 0,
+        watching: false,
+        seasonTimesWatched: 0,
+        firstViewedDate: '',
+        lastViewedDate: '',
+
+        otherViewedDates: [],
+      },
+      {
+        seasonNumber: 22,
+        seasonRating: 0,
+        watching: false,
+        seasonTimesWatched: 0,
+        firstViewedDate: '',
+        lastViewedDate: '',
+
+        otherViewedDates: [],
+      },
+      {
+        seasonNumber: 23,
+        seasonRating: 0,
+        watching: false,
+        seasonTimesWatched: 0,
+        firstViewedDate: '',
+        lastViewedDate: '',
+
+        otherViewedDates: [],
+      },
+      {
+        seasonNumber: 24,
+        seasonRating: 0,
+        watching: false,
+        seasonTimesWatched: 0,
+        firstViewedDate: '',
+        lastViewedDate: '',
+
+        otherViewedDates: [],
+      },
+      {
+        seasonNumber: 25,
+        seasonRating: 0,
+        watching: false,
+        seasonTimesWatched: 0,
+        firstViewedDate: '',
+        lastViewedDate: '',
+
+        otherViewedDates: [],
+      },
+      {
+        seasonNumber: 26,
+        seasonRating: 0,
+        watching: false,
+        seasonTimesWatched: 0,
+        firstViewedDate: '',
+        lastViewedDate: '',
+
+        otherViewedDates: [],
+      },
+      {
+        seasonNumber: 27,
+        seasonRating: 0,
+        watching: false,
+        seasonTimesWatched: 0,
+        firstViewedDate: '',
+        lastViewedDate: '',
+
+        otherViewedDates: [],
+      },
+      {
+        seasonNumber: 28,
+        seasonRating: 0,
+        watching: false,
+        seasonTimesWatched: 0,
+        firstViewedDate: '',
+        lastViewedDate: '',
+
+        otherViewedDates: [],
+      },
+      {
+        seasonNumber: 29,
+        seasonRating: 0,
+        watching: false,
+        seasonTimesWatched: 0,
+        firstViewedDate: '',
+        lastViewedDate: '',
+
+        otherViewedDates: [],
+      },
+      {
+        seasonNumber: 30,
+        seasonRating: 0,
+        watching: false,
+        seasonTimesWatched: 0,
+        firstViewedDate: '',
+        lastViewedDate: '',
+
+        otherViewedDates: [],
+      },
+      {
+        seasonNumber: 31,
+        seasonRating: 0,
+        watching: false,
+        seasonTimesWatched: 0,
+        firstViewedDate: '',
+        lastViewedDate: '',
+
+        otherViewedDates: [],
+      },
+      {
+        seasonNumber: 32,
+        seasonRating: 0,
+        watching: false,
+        seasonTimesWatched: 0,
+        firstViewedDate: '',
+        lastViewedDate: '',
+
+        otherViewedDates: [],
+      },
+      {
+        seasonNumber: 33,
+        seasonRating: 0,
+        watching: false,
+        seasonTimesWatched: 0,
+        firstViewedDate: '',
+        lastViewedDate: '',
+
+        otherViewedDates: [],
+      },
+      {
+        seasonNumber: 34,
+        seasonRating: 0,
+        watching: false,
+        seasonTimesWatched: 0,
+        firstViewedDate: '',
+        lastViewedDate: '',
+
+        otherViewedDates: [],
+      },
+      {
+        seasonNumber: 35,
+        seasonRating: 0,
+        watching: false,
+        seasonTimesWatched: 0,
+        firstViewedDate: '',
+        lastViewedDate: '',
+
+        otherViewedDates: [],
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+    quotes: [],
+  },
+{
+    title: 'Arcane',
+    director: 'Pascal Charrue, Arnaud Delord',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        watching: false,
+        seasonTimesWatched: 0,
+        firstViewedDate: '',
+        lastViewedDate: '',
+
+        otherViewedDates: [],
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 0,
+        watching: false,
+        seasonTimesWatched: 0,
+        firstViewedDate: '',
+        lastViewedDate: '',
+
+        otherViewedDates: [],
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+    quotes: [],
+  },
 ];

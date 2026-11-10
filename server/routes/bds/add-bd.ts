@@ -94,9 +94,9 @@ router.post('/add', (req: any, res: any) => {
     const user = input.user || {};
     const isReadlist = normalizeBoolean(input.readlist, 'readlist') ?? false;
 
-    const title = normalizeString(entity.title, 'title');
-    const writer = normalizeString(entity.writer, 'writer');
-    const designer = normalizeString(entity.designer, 'designer');
+    const title = normalizeString(entity.title, 'title')?.trim();
+    const writer = normalizeString(entity.writer, 'writer')?.trim();
+    const designer = normalizeString(entity.designer, 'designer')?.trim();
     if (!title || !writer || !designer) {
       res.status(400).json({ error: 'Missing title, writer or designer' });
       return;
@@ -115,7 +115,7 @@ router.post('/add', (req: any, res: any) => {
       releaseDate: normalizeString(entity.releaseDate, 'releaseDate') || '',
       pages: normalizeNumber(entity.pages, 'pages') || 0,
       genre: normalizeString(entity.genre, 'genre') || '',
-      saga: normalizeString(entity.saga, 'saga') || '',
+      saga: normalizeString(entity.saga, 'saga')?.trim() || '',
       sagaOrder: normalizeNumber(entity.sagaOrder, 'sagaOrder') ?? 0,
       description: normalizeString(entity.description, 'description') ?? '',
     };

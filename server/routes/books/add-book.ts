@@ -112,8 +112,8 @@ router.post('/add', (req: any, res: any) => {
     const user = input.user || {};
     const isReadlist = normalizeBoolean(input.readlist, 'readlist') ?? false;
 
-    const title = normalizeString(entity.title, 'title');
-    const author = normalizeString(entity.author, 'author');
+    const title = normalizeString(entity.title, 'title')?.trim();
+    const author = normalizeString(entity.author, 'author')?.trim();
     if (!title || !author) {
       res.status(400).json({ error: 'Missing title or author' });
       return;
@@ -130,7 +130,7 @@ router.post('/add', (req: any, res: any) => {
       coverUrl: normalizeString(entity.coverUrl, 'coverUrl') || '',
       pages: normalizeNumber(entity.pages, 'pages') || 0,
       genre: normalizeGenre(entity.genre),
-      saga: normalizeString(entity.saga, 'saga') || '',
+      saga: normalizeString(entity.saga, 'saga')?.trim() || '',
       sagaOrder: normalizeNumber(entity.sagaOrder, 'sagaOrder') || 0,
       sagaFinished:
         normalizeBoolean(entity.sagaFinished, 'sagaFinished') ?? false,

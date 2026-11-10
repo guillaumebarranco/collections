@@ -218,7 +218,7 @@ export const baseGamesApi: BaseGame[] = [
     platineTime: 0,
     description: '',
     fromEntity: {
-      entityType: 'anime',
+      entityType: 'serie',
       title: 'Galactik Football',
       secondEntityKey: 'Charles Barrez, Vincent Vandelli',
     },

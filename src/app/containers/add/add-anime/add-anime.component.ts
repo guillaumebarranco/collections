@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 import { getApiBaseUrl } from '../../../core/config';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
+import { trimStringFields } from '../../../utils/trim-string-fields';
 import { CountrySelectComponent } from '../../../components/shared/country-select/country-select.component';
 import { normalizeAnimeGenres, UserAnimeSeason } from '../../../models/anime-model';
 import { ExtraDatesListComponent } from '../../../components/shared/extra-dates-list/extra-dates-list.component';
@@ -236,7 +237,11 @@ export class AddAnimeComponent {
   }
 
   async onSubmit() {
-    const entity = this.entityForm();
+    const entity = trimStringFields(this.entityForm(), [
+      'title',
+      'director',
+      'saga',
+    ]);
     if (!entity.title || !entity.director) {
       this.errorMessage.set('Titre et créateur sont obligatoires.');
       return;

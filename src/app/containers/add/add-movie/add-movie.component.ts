@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 import { getApiBaseUrl } from '../../../core/config';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
+import { trimStringFields } from '../../../utils/trim-string-fields';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSelectModule } from '@angular/material/select';
 import {
@@ -216,7 +217,11 @@ export class AddMovieComponent {
   }
 
   async onSubmit() {
-    const entity = this.entityForm();
+    const entity = trimStringFields(this.entityForm(), [
+      'title',
+      'director',
+      'saga',
+    ]);
     const user = this.userForm();
 
     if (!entity.title || !entity.director) {

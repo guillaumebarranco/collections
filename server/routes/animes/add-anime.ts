@@ -161,8 +161,8 @@ router.post('/add', (req: any, res: any) => {
     const user = input.user || {};
     const isWatchlist = normalizeBoolean(input.watchlist, 'watchlist') ?? false;
 
-    const title = normalizeString(entity.title, 'title');
-    const director = normalizeString(entity.director, 'director');
+    const title = normalizeString(entity.title, 'title')?.trim();
+    const director = normalizeString(entity.director, 'director')?.trim();
     if (!title || !director) {
       res.status(400).json({ error: 'Missing title or director' });
       return;
@@ -175,7 +175,7 @@ router.post('/add', (req: any, res: any) => {
 
     const rawActors = Array.isArray(entity.actors) ? entity.actors : [];
     const actors = rawActors
-      .map((name: string) => normalizeString(name, 'actor'))
+      .map((name: string) => normalizeString(name, 'actor')?.trim())
       .filter((name: string | undefined) => Boolean(name));
 
     const seasonsData = Array.isArray(entity.seasonsData)
@@ -201,7 +201,7 @@ router.post('/add', (req: any, res: any) => {
       seasonsData,
       description: normalizeString(entity.description, 'description') ?? '',
       countryOrigin: normalizeString(entity.countryOrigin, 'countryOrigin') ?? '',
-      saga: normalizeString(entity.saga, 'saga') ?? '',
+      saga: normalizeString(entity.saga, 'saga')?.trim() ?? '',
     };
 
     const rawUserSeasons = Array.isArray(user.seasons) ? user.seasons : [];

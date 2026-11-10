@@ -105,8 +105,8 @@ router.post('/add', (req: any, res: any) => {
     const entity = input.entity || {};
     const user = input.user || {};
 
-    const title = normalizeString(entity.title, 'title');
-    const editor = normalizeString(entity.editor, 'editor');
+    const title = normalizeString(entity.title, 'title')?.trim();
+    const editor = normalizeString(entity.editor, 'editor')?.trim();
     if (!title || !editor) {
       res.status(400).json({ error: 'Missing title or editor' });
       return;
@@ -120,7 +120,7 @@ router.post('/add', (req: any, res: any) => {
     const entityPayload = {
       title,
       editor,
-      hero: normalizeString(entity.hero, 'hero') || '',
+      hero: normalizeString(entity.hero, 'hero')?.trim() || '',
       coverUrl: normalizeString(entity.coverUrl, 'coverUrl') || '',
       releaseDate: normalizeString(entity.releaseDate, 'releaseDate') || '',
       averageTimeToFinish:
@@ -130,8 +130,8 @@ router.post('/add', (req: any, res: any) => {
           entity.averageTimeToHundredPercent,
           'averageTimeToHundredPercent'
         ) ?? 0,
-      platform: normalizeString(entity.platform, 'platform') || '',
-      saga: normalizeString(entity.saga, 'saga') || '',
+      platform: normalizeString(entity.platform, 'platform')?.trim() || '',
+      saga: normalizeString(entity.saga, 'saga')?.trim() || '',
       platineTime: normalizeNumber(entity.platineTime, 'platineTime') ?? 0,
       description: normalizeString(entity.description, 'description') ?? '',
     };

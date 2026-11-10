@@ -118,37 +118,6 @@ export const lauralWatchListAnimes: UserAnime[] = [
     quotes: [],
   },
 {
-    title: "Arcane",
-    director: "Pascal Charrue, Arnaud Delord",
-    seasons: [
-    {
-      seasonNumber: 1,
-      seasonRating: 3.5,
-      watching: true,
-      seasonTimesWatched: 1,
-      firstViewedDate: "",
-      lastViewedDate: "",
-      otherViewedDates: [],
-    },
-    {
-      seasonNumber: 2,
-      seasonRating: 0,
-      watching: true,
-      seasonTimesWatched: 0,
-      firstViewedDate: "",
-      lastViewedDate: "",
-      otherViewedDates: [],
-    }
-  ],
-    owned: false,
-    watchPriority: 3,
-    wantToWatchAgain: false,
-    ratingComment: "",
-    borrowed: "",
-    loaned: "",
-    quotes: [],
-  },
-{
     title: "Sailor Moon",
     director: "Inconnu",
     seasons: [

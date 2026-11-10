@@ -83,8 +83,8 @@ router.post('/add', (req: any, res: any) => {
     const user = input.user || {};
     const isReadlist = normalizeBoolean(input.readlist, 'readlist') ?? false;
 
-    const title = normalizeString(entity.title, 'title');
-    const author = normalizeString(entity.author, 'author');
+    const title = normalizeString(entity.title, 'title')?.trim();
+    const author = normalizeString(entity.author, 'author')?.trim();
     if (!title || !author) {
       res.status(400).json({ error: 'Missing title or author' });
       return;

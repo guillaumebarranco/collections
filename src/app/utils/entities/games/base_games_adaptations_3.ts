@@ -2127,7 +2127,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     platineTime: 0,
     description: '',
     fromEntity: {
-      entityType: 'anime' as const,
+      entityType: 'serie' as const,
       title: 'Les Simpsons',
       secondEntityKey: 'Matt Groening',
     },
@@ -2145,7 +2145,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     platineTime: 0,
     description: '',
     fromEntity: {
-      entityType: 'anime' as const,
+      entityType: 'serie' as const,
       title: 'Les Simpsons',
       secondEntityKey: 'Matt Groening',
     },
@@ -2163,7 +2163,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     platineTime: 0,
     description: '',
     fromEntity: {
-      entityType: 'anime' as const,
+      entityType: 'serie' as const,
       title: 'Les Simpsons',
       secondEntityKey: 'Matt Groening',
     },
@@ -2181,7 +2181,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     platineTime: 0,
     description: '',
     fromEntity: {
-      entityType: 'anime' as const,
+      entityType: 'serie' as const,
       title: 'Les Simpsons',
       secondEntityKey: 'Matt Groening',
     },
@@ -2199,7 +2199,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     platineTime: 0,
     description: '',
     fromEntity: {
-      entityType: 'anime' as const,
+      entityType: 'serie' as const,
       title: 'Les Simpsons',
       secondEntityKey: 'Matt Groening',
     },
@@ -2217,7 +2217,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     platineTime: 0,
     description: '',
     fromEntity: {
-      entityType: 'anime' as const,
+      entityType: 'serie' as const,
       title: 'Les Simpsons',
       secondEntityKey: 'Matt Groening',
     },
@@ -2235,7 +2235,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     platineTime: 0,
     description: '',
     fromEntity: {
-      entityType: 'anime' as const,
+      entityType: 'serie' as const,
       title: 'Les Simpsons',
       secondEntityKey: 'Matt Groening',
     },
@@ -2253,7 +2253,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     platineTime: 0,
     description: '',
     fromEntity: {
-      entityType: 'anime' as const,
+      entityType: 'serie' as const,
       title: 'Les Simpsons',
       secondEntityKey: 'Matt Groening',
     },
@@ -2271,7 +2271,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     platineTime: 0,
     description: '',
     fromEntity: {
-      entityType: 'anime' as const,
+      entityType: 'serie' as const,
       title: 'Les Simpsons',
       secondEntityKey: 'Matt Groening',
     },
@@ -2289,7 +2289,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     platineTime: 0,
     description: '',
     fromEntity: {
-      entityType: 'anime' as const,
+      entityType: 'serie' as const,
       title: 'Les Simpsons',
       secondEntityKey: 'Matt Groening',
     },
@@ -2307,7 +2307,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     platineTime: 0,
     description: '',
     fromEntity: {
-      entityType: 'anime' as const,
+      entityType: 'serie' as const,
       title: 'Les Simpsons',
       secondEntityKey: 'Matt Groening',
     },
@@ -2325,7 +2325,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     platineTime: 0,
     description: '',
     fromEntity: {
-      entityType: 'anime' as const,
+      entityType: 'serie' as const,
       title: 'Les Simpsons',
       secondEntityKey: 'Matt Groening',
     },
@@ -2343,7 +2343,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     platineTime: 0,
     description: '',
     fromEntity: {
-      entityType: 'anime' as const,
+      entityType: 'serie' as const,
       title: 'Les Simpsons',
       secondEntityKey: 'Matt Groening',
     },
@@ -2361,7 +2361,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     platineTime: 0,
     description: '',
     fromEntity: {
-      entityType: 'anime' as const,
+      entityType: 'serie' as const,
       title: 'Les Simpsons',
       secondEntityKey: 'Matt Groening',
     },
@@ -2379,7 +2379,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     platineTime: 0,
     description: '',
     fromEntity: {
-      entityType: 'anime' as const,
+      entityType: 'serie' as const,
       title: 'Les Simpsons',
       secondEntityKey: 'Matt Groening',
     },
@@ -2397,7 +2397,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     platineTime: 0,
     description: '',
     fromEntity: {
-      entityType: 'anime' as const,
+      entityType: 'serie' as const,
       title: 'South Park',
       secondEntityKey: 'Trey Parker, Matt Stone',
     },
@@ -2415,7 +2415,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     platineTime: 0,
     description: '',
     fromEntity: {
-      entityType: 'anime' as const,
+      entityType: 'serie' as const,
       title: 'South Park',
       secondEntityKey: 'Trey Parker, Matt Stone',
     },
@@ -2433,7 +2433,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     platineTime: 0,
     description: '',
     fromEntity: {
-      entityType: 'anime' as const,
+      entityType: 'serie' as const,
       title: 'South Park',
       secondEntityKey: 'Trey Parker, Matt Stone',
     },
@@ -2451,7 +2451,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     platineTime: 0,
     description: '',
     fromEntity: {
-      entityType: 'anime' as const,
+      entityType: 'serie' as const,
       title: 'South Park',
       secondEntityKey: 'Trey Parker, Matt Stone',
     },
@@ -2469,7 +2469,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     platineTime: 0,
     description: '',
     fromEntity: {
-      entityType: 'anime' as const,
+      entityType: 'serie' as const,
       title: 'South Park',
       secondEntityKey: 'Trey Parker, Matt Stone',
     },
@@ -2487,7 +2487,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     platineTime: 15,
     description: '',
     fromEntity: {
-      entityType: 'anime' as const,
+      entityType: 'serie' as const,
       title: 'South Park',
       secondEntityKey: 'Trey Parker, Matt Stone',
     },
