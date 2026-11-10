@@ -1,6 +1,7 @@
 import { getApiBaseUrl } from '../../core/config';
 import { fetchUserMoviesFromApi } from '../movies/api-movies.facade';
 import { fetchUserSeriesFromApi } from '../series/api-series.facade';
+import { fetchUserAnimesFromApi } from '../animes/api-animes.facade';
 import { fetchUserBooksFromApi } from '../books/api-books.facade';
 import { fetchUserGamesFromApi } from '../games/api-games.facade';
 import { fetchUserMangasFromApi } from '../mangas/api-mangas.facade';
@@ -22,6 +23,7 @@ export type AdminUsersResponse = {
 export type UserCollectionCounts = {
   movies: number;
   series: number;
+  animes: number;
   books: number;
   games: number;
   mangas: number;
@@ -46,6 +48,7 @@ export type AdminRecordsCategoryKey =
   | 'books'
   | 'movies'
   | 'series'
+  | 'animes'
   | 'games'
   | 'mangas'
   | 'manwhas'
@@ -76,10 +79,11 @@ export async function getAdminUserStats(
   userId: string
 ): Promise<UserCollectionCounts> {
   const uid = userId.toLowerCase();
-  const [movies, series, books, games, mangas, manwhas, comics, bds, musics] =
+  const [movies, series, animes, books, games, mangas, manwhas, comics, bds, musics] =
     await Promise.all([
       safeCount(() => fetchUserMoviesFromApi(uid)),
       safeCount(() => fetchUserSeriesFromApi(uid)),
+      safeCount(() => fetchUserAnimesFromApi(uid)),
       safeCount(() => fetchUserBooksFromApi(uid)),
       safeCount(() => fetchUserGamesFromApi(uid)),
       safeCount(() => fetchUserMangasFromApi(uid)),
@@ -91,6 +95,7 @@ export async function getAdminUserStats(
   return {
     movies,
     series,
+    animes,
     books,
     games,
     mangas,
@@ -128,6 +133,7 @@ const RECORDS_CATEGORY_KEYS: AdminRecordsCategoryKey[] = [
   'books',
   'movies',
   'series',
+  'animes',
   'games',
   'mangas',
   'manwhas',
@@ -203,6 +209,7 @@ const ENTITY_STATS_CATEGORY_KEYS: AdminRecordsCategoryKey[] = [
   'books',
   'movies',
   'series',
+  'animes',
   'games',
   'mangas',
   'manwhas',

@@ -35,7 +35,24 @@
 }
 
 .quote-work__header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
   margin-bottom: 12px;
+
+  .quote-work__cover {
+    display: block;
+    flex: 0 0 48px;
+    width: 48px;
+    height: 72px;
+    object-fit: cover;
+    border-radius: 6px;
+    background: #e9ecef;
+  }
+}
+
+.quote-work__meta {
+  min-width: 0;
 
   h3 {
     margin: 0;

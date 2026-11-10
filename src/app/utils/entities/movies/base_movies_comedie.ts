@@ -21317,7 +21317,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     description:
       'Un aventurier et une journaliste partent au Pérou à la recherche du légendaire Marsupilami.',
     fromEntity: {
-      entityType: 'serie',
+      entityType: 'anime',
       title: 'Le marsupilami',
       secondEntityKey: 'André Franquin',
     },

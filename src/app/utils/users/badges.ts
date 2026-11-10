@@ -7,6 +7,7 @@ import { MANGAS_BADGE_DEFINITIONS } from '../badges/mangas-badges';
 import { MANWHAS_BADGE_DEFINITIONS } from '../badges/manwhas-badges';
 import { MOVIES_BADGE_DEFINITIONS } from '../badges/movies-badges';
 import { SERIES_BADGE_DEFINITIONS } from '../badges/series-badges';
+import { ANIMES_BADGE_DEFINITIONS } from '../badges/animes-badges';
 import {
   assertBadgeDefinitionsMatchThresholdMapping,
   type BadgeThresholdStats,
@@ -30,6 +31,7 @@ export const BADGE_DEFINITIONS: BadgeDefinition[] = [
   ...COMICS_BADGE_DEFINITIONS,
   ...BDS_BADGE_DEFINITIONS,
   ...SERIES_BADGE_DEFINITIONS,
+  ...ANIMES_BADGE_DEFINITIONS,
 ];
 
 assertBadgeDefinitionsMatchThresholdMapping(BADGE_DEFINITIONS);
@@ -108,6 +110,7 @@ export type BadgeDashboardTabKey =
   | 'bds'
   | 'movies'
   | 'series'
+  | 'animes'
   | 'games'
   | 'other';
 
@@ -117,6 +120,7 @@ const BADGE_ID_PREFIX_TO_TAB: { prefix: string; key: BadgeDashboardTabKey }[] =
     { prefix: 'manwhas-', key: 'manwhas' },
     { prefix: 'comics-', key: 'comics' },
     { prefix: 'bds-', key: 'bds' },
+    { prefix: 'animes-', key: 'animes' },
     { prefix: 'series-', key: 'series' },
   ];
 

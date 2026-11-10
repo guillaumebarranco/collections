@@ -7,6 +7,7 @@ import { Bd } from '../../../models/bd-model';
 import { Manwha } from '../../../models/manwha-model';
 import { Movie } from '../../../models/movie-model';
 import { Serie } from '../../../models/serie-model';
+import { Anime } from '../../../models/anime-model';
 import { Game } from '../../../models/game-model';
 import { Music } from '../../../models/music-model';
 
@@ -40,10 +41,12 @@ export class DashboardUserTodosComponent {
   @Input() manwhas: Manwha[] = [];
   @Input() movies: Movie[] = [];
   @Input() series: Serie[] = [];
+  @Input() animes: Anime[] = [];
   @Input() games: Game[] = [];
   @Input() musics: Music[] = [];
   @Input() watchlistMovies: Movie[] = [];
   @Input() watchlistSeries: Serie[] = [];
+  @Input() watchlistAnimes: Anime[] = [];
   @Input() readlistBooks: Book[] = [];
   @Input() readlistMangas: Manga[] = [];
   @Input() readlistComics: Comic[] = [];
@@ -98,6 +101,32 @@ export class DashboardUserTodosComponent {
     }
     if (seriesItems.length > 0) {
       sections.push({ title: '📺 Séries', items: seriesItems });
+    }
+
+    const animeItems: TodoItem[] = [];
+    const missingAnimeRatings = this.countMissingSeriesRatings(
+      this.animes as unknown as Serie[]
+    );
+    const missingAnimeTimes = this.countMissingSeriesTimesWatched(
+      this.animes as unknown as Serie[]
+    );
+    if (missingAnimeRatings > 0) {
+      animeItems.push({
+        label: 'Animés sans note',
+        count: missingAnimeRatings,
+      });
+    }
+    if (missingAnimeTimes > 0) {
+      animeItems.push({
+        label: 'Animés sans nombre de visionnages',
+        count: missingAnimeTimes,
+      });
+    }
+    if (this.animes.length > 0 && this.watchlistAnimes.length === 0) {
+      animeItems.push({ label: 'Animés sans watchlist', count: 1 });
+    }
+    if (animeItems.length > 0) {
+      sections.push({ title: '🎌 Animés', items: animeItems });
     }
 
     const bookItems: TodoItem[] = [];
@@ -276,6 +305,12 @@ export class DashboardUserTodosComponent {
       empty.push({
         title: '📺 Séries',
         message: "Vous n'avez pas encore de séries.",
+      });
+    }
+    if (this.animes.length === 0) {
+      empty.push({
+        title: '🎌 Animés',
+        message: "Vous n'avez pas encore d'animés.",
       });
     }
     if (this.books.length === 0) {

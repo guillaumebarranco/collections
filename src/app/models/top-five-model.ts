@@ -4,6 +4,7 @@ export type TopFiveEntityType =
   | 'children-books'
   | 'movies'
   | 'series'
+  | 'animes'
   | 'games'
   | 'musics'
   | 'comics'
@@ -23,6 +24,7 @@ const ENTITY_TYPES: TopFiveEntityType[] = [
   'children-books',
   'movies',
   'series',
+  'animes',
   'games',
   'musics',
   'comics',

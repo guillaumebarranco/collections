@@ -1,3 +1,4 @@
 import { UserSerie } from '../../../../models/serie-model';
 
-export const dantesWatchListSeries: UserSerie[] = [];
+export const dantesWatchListSeries: UserSerie[] = [
+];

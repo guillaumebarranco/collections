@@ -42,6 +42,7 @@ export interface QuizzCardGroup {
 const ENTITY_TYPE_LABELS: Record<EntityType, string> = {
   [EntityType.MOVIE]: 'Film',
   [EntityType.SERIE]: 'Série',
+  [EntityType.ANIME]: 'Animé',
   [EntityType.BOOK]: 'Livre',
   [EntityType.GAME]: 'Jeu',
   [EntityType.BD]: 'BD',

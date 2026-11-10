@@ -11,6 +11,7 @@ export type RecordCategoryKey =
   | 'books'
   | 'movies'
   | 'series'
+  | 'animes'
   | 'games'
   | 'mangas'
   | 'manwhas'
@@ -29,6 +30,7 @@ const CATEGORY_LABELS: Record<RecordCategoryKey, string> = {
   books: '📖 Livres lus',
   movies: '🎬 Films vus',
   series: '📺 Séries vues',
+  animes: '🎌 Animés vus',
   games: '🎮 Jeux joués',
   mangas: '📚 Mangas lus',
   manwhas: '📖 Manwhas lus',
@@ -42,6 +44,7 @@ const CATEGORY_DURATION_LABELS: Record<RecordCategoryKey, string> = {
   books: '⏱️ Temps de lecture (livres)',
   movies: '⏱️ Temps de visionnage (films)',
   series: '⏱️ Temps de visionnage (séries)',
+  animes: '⏱️ Temps de visionnage (animés)',
   games: '⏱️ Temps de jeu',
   mangas: '⏱️ Temps de lecture (mangas)',
   manwhas: '⏱️ Temps de lecture (manwhas)',
@@ -54,6 +57,7 @@ const CATEGORY_ORDER: RecordCategoryKey[] = [
   'books',
   'movies',
   'series',
+  'animes',
   'games',
   'mangas',
   'manwhas',

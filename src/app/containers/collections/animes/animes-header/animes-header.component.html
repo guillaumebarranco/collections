@@ -1,0 +1,159 @@
+<div class="animes-header">
+  <div class="collection-header-title">
+    @if (isMobile()) {
+    <app-collection-mobile-back (back)="onMobileBack.emit()" />
+    }
+    <h1>
+      {{ animesPageTitle() }} ({{
+        selectedView() === "recommendations"
+          ? recommendedAnimesCount()
+          : filteredAnimesCount()
+      }})
+    </h1>
+  </div>
+
+  @if(allAnimesCount() !== 0) {
+  @if (!isMobile()) {
+  <div class="animes-header-top">
+    <app-view-toggle
+      [toggleClass]="'animes-view-toggle'"
+      [options]="viewOptions()"
+      [selected]="selectedView()"
+      (selectedChange)="onViewChange.emit($any($event))"
+    ></app-view-toggle>
+  </div>
+  }
+
+  <div class="animes-header-tools-accordion">
+    @if (isMobileViewport()) {
+    <button
+      type="button"
+      class="animes-header-tools-accordion__summary"
+      [attr.aria-expanded]="toolsPanelExpanded()"
+      (click)="toggleToolsPanel()"
+    >
+      Afficher les actions et statistiques
+    </button>
+    @if (showFiltersAndSearch() && canShowFiltersAndSearch()) {
+    <app-entity-search-field
+      placeholder="Rechercher par titre, réalisateur, acteur..."
+      [value]="searchTerm()"
+      (valueChange)="handleSearchChange($event)"
+    />
+    }
+    }
+
+    <div
+      class="animes-header-tools-accordion__content"
+      [class.animes-header-tools-accordion__content--collapsed]="
+        isMobileViewport() && !toolsPanelExpanded()
+      "
+    >
+      <div class="animes-actions" *appCanEdit>
+        <button
+          class="makya-btn-small"
+          type="button"
+          title="Configurer l'affichage des onglets"
+          (click)="onOpenViewConfig.emit()"
+        >
+          ⚙️ Configurer ma vue animés
+        </button>
+        @if (canShowAddAnimesButton()) {
+        <button
+          class="makya-btn-small"
+          [routerLink]="getSelectAnimesRoute()"
+          [queryParams]="{
+            watchlist:
+              selectedView() === 'watchlist' ||
+              selectedView() === 'watchingInProgress',
+            add: 'true'
+          }"
+          title="Ajouter un animé"
+        >
+          ➕
+          {{ addAnimesButtonLabel() }}
+        </button>
+        } @if (canShowUpdateAnimesRatingButton()) {
+        <button
+          class="makya-btn-small"
+          [routerLink]="getSelectAnimesRatingRoute()"
+          title="Mettre à jour les notes de mes animés"
+        >
+          ⭐ Notes
+        </button>
+        } @if (canShowUpdateAnimesTimesWatchedButton()) {
+        <button
+          class="makya-btn-small"
+          [routerLink]="getSelectAnimesTimesWatchedRoute()"
+          title="Mettre à jour le nombre de visionnages de mes animés"
+        >
+          🎬 Visionnages
+        </button>
+        } @if (canShowUpdateAnimesOwnedButton()) {
+        <button
+          class="makya-btn-small"
+          [routerLink]="getSelectAnimesOwnedRoute()"
+          title="Mettre à jour les animés possédées"
+        >
+          ✅ Possédées
+        </button>
+        } @if (canShowTopFiveRankButton()) {
+        <button
+          class="makya-btn-small"
+          [class.active]="showTopFiveRank()"
+          title="Voir les top 5 des animés"
+          (click)="onTopFiveRankChange.emit()"
+        >
+          🏆 Top 5
+        </button>
+        }
+      </div>
+
+      @if (showFiltersAndSearch() && canShowFiltersAndSearch()) {
+      <div class="animes-stats-bloc">
+        <app-stats-display
+          [stats]="stats()"
+          [count]="filteredAnimesCount()"
+          countLabel="animés"
+        >
+        </app-stats-display>
+
+        @if (canShowSortDropdown()) {
+        <div class="animes-filters">
+          <app-sort-dropdown
+            label="Trier par :"
+            [sortOptions]="sortOptions()"
+            [selectedSort]="selectedSort()"
+            (sortChange)="onSortChange.emit($event)"
+          >
+          </app-sort-dropdown>
+        </div>
+        }
+      </div>
+
+      @if (!isMobileViewport()) {
+      <app-entity-search-field
+        placeholder="Rechercher par titre, réalisateur, acteur..."
+        [value]="searchTerm()"
+        (valueChange)="handleSearchChange($event)"
+      />
+      }
+      } @if (noDataForThisView() && allAnimesCount() !== 0) {
+      <div class="empty-state">
+        <p class="empty-message">{{ noDataMessageText() }}</p>
+      </div>
+      }
+    </div>
+  </div>
+  } @if(allAnimesCount() === 0) {
+  <div class="empty-state">
+    <p class="empty-message">Vous n'avez aucun animé dans votre collection.</p>
+    <p class="empty-subtitle">
+      Commencez dès maintenant à créer votre animéthèque personnelle !
+    </p>
+    <button class="makya-btn-ultra-big" [routerLink]="getSelectAnimesRoute()">
+      Sélectionner mes animés
+    </button>
+  </div>
+  }
+</div>

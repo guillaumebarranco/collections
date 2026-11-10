@@ -29,6 +29,7 @@ export const COLLECTION_LABELS: {
 }[] = [
   { key: 'movies', label: 'Films' },
   { key: 'series', label: 'Séries' },
+  { key: 'animes', label: 'Animés' },
   { key: 'books', label: 'Livres' },
   { key: 'games', label: 'Jeux' },
   { key: 'mangas', label: 'Mangas' },

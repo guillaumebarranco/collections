@@ -1,0 +1,491 @@
+<app-edit-entity class="edit-entity--light">
+  <app-edit-entity-header
+    entity-header
+    [entity]="EntityType.ANIME"
+    [dialogRef]="dialogRef"
+    [canNavigatePrevious]="canNavigatePrevious()"
+    [canNavigateNext]="canNavigateNext()"
+    [dialogPositionLabel]="dialogPositionLabel()"
+    [hasDialogNavigation]="hasDialogNavigation()"
+    (navigateToEntityList)="navigateToAnimes()"
+    (navigatePrevious)="navigatePrevious()"
+    (navigateNext)="navigateNext()"
+    (openCreateQuizz)="openCreateQuizz()"
+  ></app-edit-entity-header>
+
+  <div entity-content>
+    <h1 class="title">&#201;diter une s&#233;rie</h1>
+
+    @if(animeNotFound()) {
+    <p class="not-found">Aucune s&#233;rie trouv&#233;e pour ce slug.</p>
+    } @else { @if (!isAdminView()) {
+    <img [src]="anime()?.coverUrl" alt="Cover" width="200" />
+    <div>{{ anime()?.title }}</div>
+    <div class="entity-details">
+      <p><strong>Réalisateur :</strong> {{ anime()?.director }}</p>
+      @if (anime()?.genre?.length) {
+      <p><strong>Genre :</strong> {{ anime()?.genre?.join(", ") }}</p>
+      } @if (anime()?.releaseDate) {
+      <p><strong>Date de sortie :</strong> {{ anime()?.releaseDate }}</p>
+      } @if (anime()?.endDate) {
+      <p><strong>Date de fin :</strong> {{ anime()?.endDate }}</p>
+      } @if (anime()?.actors?.length) {
+      <p><strong>Acteurs :</strong> {{ getActorsLabel(anime()?.actors) }}</p>
+      } @if (anime()?.description) {
+      <p><strong>Description :</strong> {{ anime()?.description }}</p>
+      } @if (anime()?.countryOrigin) {
+      <p><strong>Nationalité :</strong> {{ anime()?.countryOrigin }}</p>
+      } @if (anime()?.saga) {
+      <p><strong>Saga :</strong> {{ anime()?.saga }}</p>
+      } @if (anime()?.fromEntity) {
+      <p>
+        <strong>Adapté de :</strong>
+        {{ getFromEntityTypeDisplayLabel(anime()?.fromEntity?.entityType) }} —
+        {{ anime()?.fromEntity?.title }} ({{
+          anime()?.fromEntity?.secondEntityKey
+        }})
+      </p>
+      }
+    </div>
+    <br />
+    } }
+  </div>
+
+  <form
+    *ngIf="animeForm()"
+    entity-form
+    class="edit-form"
+    (ngSubmit)="onSubmit()"
+  >
+    @if (isAdminView()) {
+    <div class="form-row">
+      <label for="adminTitle">Titre</label>
+      <input
+        id="adminTitle"
+        type="text"
+        [disabled]="disableTitleEdit()"
+        [ngModel]="adminTitle()"
+        (ngModelChange)="adminTitle.set($event)"
+        name="adminTitle"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="adminDirector">Réalisateur</label>
+      <input
+        id="adminDirector"
+        type="text"
+        [disabled]="disableSecondaryEdit()"
+        [ngModel]="adminSecondary()"
+        (ngModelChange)="adminSecondary.set($event)"
+        name="adminDirector"
+      />
+    </div>
+    } @if (!isAdminView()) { @if (animeForm()?.seasons?.length) {
+    <div class="form-row">
+      <label>Notes et visionnages par saison</label>
+      <div class="season-form-grid">
+        @for (season of animeForm()?.seasons; track season.seasonNumber) {
+        <div class="season-form-card">
+          <div class="season-form-title">Saison {{ season.seasonNumber }}</div>
+          <div class="rating-control">
+            <span class="rating-label">Note</span>
+            <div class="rating-stars">
+              <button
+                *ngFor="let star of [1, 2, 3, 4, 5]"
+                type="button"
+                class="star-btn"
+                (click)="setRatingFromClick(season.seasonNumber, star, $event)"
+              >
+                <span
+                  class="star"
+                  [class.star-full]="
+                    getStarType(season.seasonRating, star) === 'full'
+                  "
+                  [class.star-threeQuarter]="
+                    getStarType(season.seasonRating, star) === 'threeQuarter'
+                  "
+                  [class.star-half]="
+                    getStarType(season.seasonRating, star) === 'half'
+                  "
+                  [class.star-quarter]="
+                    getStarType(season.seasonRating, star) === 'quarter'
+                  "
+                  [class.star-empty]="
+                    getStarType(season.seasonRating, star) === 'empty'
+                  "
+                >
+                  ★
+                </span>
+              </button>
+              <input
+                type="number"
+                min="0"
+                max="5"
+                step="0.25"
+                [ngModel]="season.seasonRating"
+                (ngModelChange)="
+                  updateSeasonField(season.seasonNumber, 'seasonRating', $event)
+                "
+                [name]="'seasonRating-' + season.seasonNumber"
+                class="rating-input"
+                aria-label="Note saison"
+              />
+              <span class="rating-value">{{ season.seasonRating }}/5</span>
+            </div>
+          </div>
+          <label>
+            Visionnages
+            <input
+              type="number"
+              min="0"
+              [ngModel]="season.seasonTimesWatched"
+              (ngModelChange)="
+                updateSeasonField(
+                  season.seasonNumber,
+                  'seasonTimesWatched',
+                  $event
+                )
+              "
+              name="seasonTimesWatched-{{ season.seasonNumber }}"
+            />
+          </label>
+          <label>
+            Premier visionnage
+            <input
+              type="date"
+              [ngModel]="season.firstViewedDate"
+              (ngModelChange)="
+                updateSeasonField(
+                  season.seasonNumber,
+                  'firstViewedDate',
+                  $event
+                )
+              "
+              name="seasonFirstViewedDate-{{ season.seasonNumber }}"
+            />
+          </label>
+          <label>
+            Dernier visionnage
+            <input
+              type="date"
+              [ngModel]="season.lastViewedDate"
+              (ngModelChange)="
+                updateSeasonField(season.seasonNumber, 'lastViewedDate', $event)
+              "
+              name="seasonLastViewedDate-{{ season.seasonNumber }}"
+            />
+          </label>
+          <app-extra-dates-list
+            label="Autres dates de visionnage"
+            hint="Revisionnages de cette saison (hors premier et dernier visionnage)."
+            [dates]="season.otherViewedDates"
+            (datesChange)="
+              updateSeasonOtherViewedDates(season.seasonNumber, $event)
+            "
+          />
+        </div>
+        }
+      </div>
+    </div>
+    }
+
+    <div class="form-row checkbox-row">
+      <label for="owned">Possédé</label>
+      <input
+        id="owned"
+        type="checkbox"
+        [checked]="animeForm()?.owned"
+        (change)="updateCheckbox('owned', $any($event).target.checked)"
+        name="owned"
+      />
+    </div>
+    <div class="form-row">
+      <label for="borrowed">Emprunté à</label>
+      <input
+        id="borrowed"
+        type="text"
+        [ngModel]="animeForm()?.borrowed"
+        (ngModelChange)="updateField('borrowed', $event)"
+        name="borrowed"
+      />
+    </div>
+    <div class="form-row">
+      <label for="loaned">Prêté à</label>
+      <input
+        id="loaned"
+        type="text"
+        [ngModel]="animeForm()?.loaned"
+        (ngModelChange)="updateField('loaned', $event)"
+        name="loaned"
+      />
+    </div>
+
+    <div class="form-row checkbox-row">
+      <label for="wantToWatchAgain">À revoir</label>
+      <input
+        id="wantToWatchAgain"
+        type="checkbox"
+        [checked]="animeForm()?.wantToWatchAgain"
+        (change)="
+          updateCheckbox('wantToWatchAgain', $any($event).target.checked)
+        "
+        name="wantToWatchAgain"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="watchPriority">Priorité dans la watchlist</label>
+      <input
+        id="watchPriority"
+        type="number"
+        [ngModel]="animeForm()?.watchPriority"
+        (ngModelChange)="updateField('watchPriority', $event)"
+        name="watchPriority"
+        min="1"
+        max="3"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="ratingComment">Commentaire sur la note</label>
+      <textarea
+        id="ratingComment"
+        rows="3"
+        [ngModel]="animeForm()?.ratingComment"
+        (ngModelChange)="updateField('ratingComment', $event)"
+        name="ratingComment"
+        placeholder="Optionnel"
+      ></textarea>
+    </div>
+
+    <div class="form-row">
+      <span class="quotes-label">Citations</span>
+      @for (quote of animeForm()?.quotes ?? []; track $index) {
+      <div class="quote-row">
+        <textarea
+          rows="6"
+          [ngModel]="quote"
+          (ngModelChange)="updateQuote($index, $event)"
+          [name]="'quote-' + $index"
+          placeholder="Citation"
+        ></textarea>
+        <button type="button" class="quote-remove" (click)="removeQuote($index)">
+          Retirer
+        </button>
+      </div>
+      }
+      <button type="button" class="quote-add" (click)="addQuote()">
+        Ajouter une citation
+      </button>
+    </div>
+    } @if (isAdminView() && animeEntityForm()) {
+    <div class="form-row">
+      <label for="entityActors">Acteurs (séparés par des virgules)</label>
+      <input
+        id="entityActors"
+        type="text"
+        [ngModel]="animeEntityForm()?.actors"
+        (ngModelChange)="updateEntityField('actors', $event)"
+        name="entityActors"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="entityReleaseDate">Date de sortie</label>
+      <input
+        id="entityReleaseDate"
+        type="date"
+        [ngModel]="animeEntityForm()?.releaseDate"
+        (ngModelChange)="updateEntityField('releaseDate', $event)"
+        name="entityReleaseDate"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="entityEndDate">Date de fin</label>
+      <input
+        id="entityEndDate"
+        type="date"
+        [ngModel]="animeEntityForm()?.endDate"
+        (ngModelChange)="updateEntityField('endDate', $event)"
+        name="entityEndDate"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="entityGenre">Genre</label>
+      <input
+        id="entityGenre"
+        type="text"
+        [ngModel]="animeEntityForm()?.genre"
+        (ngModelChange)="updateEntityField('genre', $event)"
+        name="entityGenre"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="entityCountryOrigin">Nationalité</label>
+      <app-country-select
+        inputId="entityCountryOrigin"
+        name="entityCountryOrigin"
+        [value]="animeEntityForm()?.countryOrigin ?? ''"
+        (valueChange)="updateEntityField('countryOrigin', $event)"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="entitySaga">Saga</label>
+      <input
+        id="entitySaga"
+        type="text"
+        [ngModel]="animeEntityForm()?.saga ?? ''"
+        (ngModelChange)="updateEntityField('saga', $event)"
+        name="entitySaga"
+        placeholder="Optionnel"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="entityCoverUrl">Cover URL</label>
+      <input
+        id="entityCoverUrl"
+        type="text"
+        [ngModel]="animeEntityForm()?.coverUrl"
+        (ngModelChange)="updateEntityField('coverUrl', $event)"
+        name="entityCoverUrl"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="entityDescription">Description</label>
+      <textarea
+        id="entityDescription"
+        rows="3"
+        [ngModel]="animeEntityForm()?.description"
+        (ngModelChange)="updateEntityField('description', $event)"
+        name="entityDescription"
+        placeholder="Optionnel"
+      ></textarea>
+    </div>
+
+    <div class="form-row genre-row">
+      <mat-form-field appearance="outline" class="genre-field">
+        <mat-label>Type de source (adaptation)</mat-label>
+        <mat-select
+          id="entityFromEntityType"
+          [ngModel]="fromEntitySourceType()"
+          (ngModelChange)="onFromEntityTypeSelect($event)"
+          name="entityFromEntityType"
+          placeholder="Aucune adaptation"
+        >
+          @for (t of fromEntityTypeSelectOptions; track t.value) {
+          <mat-option [value]="t.value">{{ t.label }}</mat-option>
+          }
+        </mat-select>
+      </mat-form-field>
+    </div>
+
+    <div class="form-row genre-row">
+      <app-searchable-selectbox
+        inputId="entityFromEntityWork"
+        label="Œuvre source"
+        [disabled]="!fromEntitySourceType()"
+        [options]="fromEntityWorkOptions()"
+        [selectedValue]="fromEntityWorkSelectValue()"
+        placeholder="Rechercher par titre, auteur, réalisateur…"
+        emptyOptionLabel="Aucune œuvre"
+        [maxResults]="200"
+        (selectedValueChange)="onFromEntityWorkSelect($event)"
+      />
+    </div>
+
+    <div class="form-row">
+      <div class="season-admin-toolbar">
+        <label class="season-admin-label">Données des saisons</label>
+        <button type="button" class="makya-btn" (click)="addEntitySeason()">
+          Ajouter une saison
+        </button>
+      </div>
+      @if (!animeEntityForm()?.seasonsData?.length) {
+      <p class="season-empty-hint">
+        Aucune saison en base pour cet animé. Ajoutez-en une pour renseigner
+        épisodes et durée.
+      </p>
+      }
+      <div class="season-form-grid">
+        @for ( season of animeEntityForm()?.seasonsData; track
+        season.seasonNumber; let i = $index ) {
+        <div class="season-form-card">
+          <div class="season-form-card-header">
+            <div class="season-form-title">
+              Saison {{ season.seasonNumber }}
+            </div>
+            <button
+              type="button"
+              class="season-remove-btn"
+              (click)="removeEntitySeason(i)"
+              aria-label="Supprimer cette saison"
+            >
+              Supprimer
+            </button>
+          </div>
+          <label>
+            Épisodes
+            <input
+              type="number"
+              min="0"
+              [ngModel]="season.nbEpisodes"
+              (ngModelChange)="
+                updateSeasonDataField(season.seasonNumber, 'nbEpisodes', $event)
+              "
+              name="seasonNbEpisodes-{{ season.seasonNumber }}"
+            />
+          </label>
+          <label>
+            Durée totale (minutes)
+            <input
+              type="number"
+              min="0"
+              [ngModel]="season.totalLength"
+              (ngModelChange)="
+                updateSeasonDataField(
+                  season.seasonNumber,
+                  'totalLength',
+                  $event
+                )
+              "
+              name="seasonTotalLength-{{ season.seasonNumber }}"
+            />
+          </label>
+        </div>
+        }
+      </div>
+    </div>
+    }
+
+    <div class="form-actions">
+      <button type="submit" class="makya-btn" [disabled]="isSaving()">
+        Modifier
+      </button>
+      @if (hasDialogNavigation()) {
+      <button
+        type="button"
+        class="makya-btn"
+        [disabled]="isSaving() || !canNavigateNext()"
+        (click)="onSubmit(true)"
+      >
+        Modifier et passer au suivant
+      </button>
+      }
+      <button
+        type="button"
+        class="makya-btn makya-delete-btn"
+        [disabled]="isDeleting()"
+        (click)="onDelete()"
+      >
+        Supprimer
+      </button>
+    </div>
+  </form>
+</app-edit-entity>

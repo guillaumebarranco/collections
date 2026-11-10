@@ -13,6 +13,10 @@ const {
   parseSeriesFromFile,
 } = require('../series/series-utils');
 const {
+  getUserAnimesFiles,
+  parseAnimesFromFile,
+} = require('../animes/animes-utils');
+const {
   getUserAllGamesFiles,
   parseGamesFromFile,
 } = require('../games/games-utils');
@@ -46,6 +50,7 @@ import type { UserManwha } from '../../../src/app/models/manwha-model';
 import type { UserMovie } from '../../../src/app/models/movie-model';
 import type { UserMusic } from '../../../src/app/models/music-model';
 import type { UserSerieFileRow } from '../../../src/app/models/serie-model';
+import type { UserAnimeFileRow } from '../../../src/app/models/anime-model';
 
 function normalizeKey(s: string): string {
   return (s || '').trim().toLowerCase().replace(/\s+/g, ' ');
@@ -55,6 +60,7 @@ export type EntityPlatformCategoryKey =
   | 'books'
   | 'movies'
   | 'series'
+  | 'animes'
   | 'games'
   | 'mangas'
   | 'manwhas'
@@ -95,6 +101,7 @@ const CATEGORY_KEYS: EntityPlatformCategoryKey[] = [
   'books',
   'movies',
   'series',
+  'animes',
   'games',
   'mangas',
   'manwhas',
@@ -251,6 +258,7 @@ function buildPlatformEntityStats(): PlatformEntityStatsResponse {
     books: new Map(),
     movies: new Map(),
     series: new Map(),
+    animes: new Map(),
     games: new Map(),
     mangas: new Map(),
     manwhas: new Map(),
@@ -305,6 +313,25 @@ function buildPlatformEntityStats(): PlatformEntityStatsResponse {
       const director = s.director || '';
       const k = makeKey(title, director);
       const b = ensureBucket(maps.series, k, title, director);
+      if (serieWasWatched(s)) {
+        b.usersConsumed.add(uid);
+      }
+      const sr = serieEffectiveRating(s);
+      if (sr > 0) {
+        recordUserRating(b, uid, sr);
+      }
+    }
+
+    const animes = safeGetUserItems<UserAnimeFileRow>(
+      uid,
+      getUserAnimesFiles,
+      parseAnimesFromFile
+    );
+    for (const s of animes) {
+      const title = s.title || '';
+      const director = s.director || '';
+      const k = makeKey(title, director);
+      const b = ensureBucket(maps.animes, k, title, director);
       if (serieWasWatched(s)) {
         b.usersConsumed.add(uid);
       }

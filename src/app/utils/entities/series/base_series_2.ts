@@ -1,7 +1,7 @@
 import { BaseSerie } from '../../../models/serie-model';
 
 export const baseSeries2: BaseSerie[] = [
-  {
+{
     title: 'Chernobyl',
     director: 'Craig Mazin',
     actors: [
@@ -19,7 +19,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Les Soprano',
     director: 'David Chase',
     actors: [
@@ -44,7 +44,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Dark',
     director: 'Baran bo Odar',
     actors: [
@@ -66,7 +66,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'Allemagne',
   },
-  {
+{
     title: 'La Quatrième dimension',
     director: 'Rod Serling',
     actors: [
@@ -90,7 +90,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Better Call Saul',
     director: 'Vince Gilligan, Peter Gould',
     actors: [
@@ -115,7 +115,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: 'Breaking Bad',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Seinfeld',
     director: 'Larry David, Jerry Seinfeld',
     actors: [
@@ -143,7 +143,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Cowboy Bebop',
     director: 'Shinichirō Watanabe',
     actors: [
@@ -161,7 +161,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'Japon',
   },
-  {
+{
     title: 'True Detective',
     director: 'Nic Pizzolatto',
     actors: [
@@ -184,7 +184,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Fargo',
     director: 'Noah Hawley',
     actors: [
@@ -208,7 +208,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Dans leur regard',
     director: 'Ava DuVernay',
     actors: [
@@ -226,32 +226,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'BoJack Horseman',
-    director: 'Raphael Bob-Waksberg',
-    actors: [
-      { name: 'Will Arnett' },
-      { name: 'Alison Brie' },
-      { name: 'Aaron Paul' },
-    ],
-    coverUrl: '/series_pictures/738ca5b4e5b2.jpg',
-    releaseDate: '2014-08-22',
-    endDate: '2020-01-31',
-    genre: ['Animation', 'Comedy', 'Drama'],
-    seasonsData: [
-      { seasonNumber: 1, nbEpisodes: 12, totalLength: 360 },
-      { seasonNumber: 2, nbEpisodes: 12, totalLength: 360 },
-      { seasonNumber: 3, nbEpisodes: 12, totalLength: 360 },
-      { seasonNumber: 4, nbEpisodes: 12, totalLength: 360 },
-      { seasonNumber: 5, nbEpisodes: 12, totalLength: 360 },
-      { seasonNumber: 6, nbEpisodes: 16, totalLength: 480 },
-    ],
-    description: '',
-    fromEntity: null,
-    saga: '',
-    countryOrigin: 'États-Unis',
-  },
-  {
+{
     title: 'Vinland Saga',
     director: 'Shūhei Yabuta',
     actors: [
@@ -272,7 +247,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'Japon',
   },
-  {
+{
     title: 'Narcos',
     director: 'Chris Brancato, Carlo Bernard, Doug Miro',
     actors: [
@@ -294,7 +269,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Berserk',
     director: 'Naohito Takahashi',
     actors: [
@@ -312,7 +287,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'Japon',
   },
-  {
+{
     title: 'Peaky Blinders',
     director: 'Steven Knight',
     actors: [
@@ -337,7 +312,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'Royaume-Uni',
   },
-  {
+{
     title: 'FlashForward',
     director: 'Brannon Braga, David S. Goyer',
     actors: [
@@ -355,7 +330,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Mad Men',
     director: 'Matthew Weiner',
     actors: [
@@ -381,7 +356,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Dr House',
     director: 'David Shore',
     actors: [
@@ -408,7 +383,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Engrenages',
     director: 'Alexandra Clert, Guy-Patrick Sainderichin',
     actors: [
@@ -435,7 +410,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'France',
   },
-  {
+{
     title: 'X-Files : Aux frontières du réel',
     director: 'Chris Carter',
     actors: [
@@ -466,7 +441,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'The Crown',
     director: 'Peter Morgan',
     actors: [
@@ -491,7 +466,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'Royaume-Uni',
   },
-  {
+{
     title: 'Mr. Bean',
     director: 'John Howard Davies, John Birkin',
     actors: [
@@ -509,75 +484,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'Royaume-Uni',
   },
-  {
-    title: 'Cyberpunk: Edgerunners',
-    director: 'Hiroyuki Imaishi',
-    actors: [
-      {
-        name: "KENN",
-      },
-      {
-        name: "Aoi Yūki",
-      },
-      {
-        name: "Zach Aguilar",
-      }
-    ],
-    coverUrl: "/series_pictures/32f74cf2b7b0.jpg",
-    releaseDate: "2022-09-13",
-    endDate: "",
-    genre: ['Action', 'Animation', 'Sci-Fi'],
-    seasonsData: [
-      {
-        seasonNumber: 1,
-        nbEpisodes: 10,
-        totalLength: 255,
-      },
-      {
-        seasonNumber: 2,
-        nbEpisodes: 10,
-        totalLength: 279,
-      }
-    ],
-    description: "",
-    fromEntity: { entityType: "game", title: "Cyberpunk 2077", secondEntityKey: "CD Projekt Red" },
-    saga: "",
-    countryOrigin: "Japon",
-  },
-  {
-    title: 'Archer',
-    director: 'Adam Reed',
-    actors: [
-      { name: 'H. Jon Benjamin' },
-      { name: 'Aisha Tyler' },
-      { name: 'Judy Greer' },
-    ],
-    coverUrl: '/series_pictures/71317ec8ee95.jpg',
-    releaseDate: '2009-09-17',
-    endDate: '2023-12-17',
-    genre: ['Action', 'Animation', 'Comedy'],
-    seasonsData: [
-      { seasonNumber: 1, nbEpisodes: 10, totalLength: 220 },
-      { seasonNumber: 2, nbEpisodes: 13, totalLength: 286 },
-      { seasonNumber: 3, nbEpisodes: 13, totalLength: 286 },
-      { seasonNumber: 4, nbEpisodes: 13, totalLength: 286 },
-      { seasonNumber: 5, nbEpisodes: 13, totalLength: 286 },
-      { seasonNumber: 6, nbEpisodes: 13, totalLength: 286 },
-      { seasonNumber: 7, nbEpisodes: 10, totalLength: 220 },
-      { seasonNumber: 8, nbEpisodes: 8, totalLength: 176 },
-      { seasonNumber: 9, nbEpisodes: 8, totalLength: 176 },
-      { seasonNumber: 10, nbEpisodes: 9, totalLength: 198 },
-      { seasonNumber: 11, nbEpisodes: 8, totalLength: 176 },
-      { seasonNumber: 12, nbEpisodes: 8, totalLength: 176 },
-      { seasonNumber: 13, nbEpisodes: 8, totalLength: 176 },
-      { seasonNumber: 14, nbEpisodes: 12, totalLength: 264 },
-    ],
-    description: '',
-    fromEntity: null,
-    saga: '',
-    countryOrigin: 'États-Unis',
-  },
-  {
+{
     title: 'Stargate SG-1',
     director: 'Brad Wright, Jonathan Glassner',
     actors: [
@@ -606,28 +513,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: 'Stargate',
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'La Ligue des justiciers',
-    director: 'Butch Lukic, Dan Riba',
-    actors: [
-      { name: 'Kevin Conroy' },
-      { name: 'Maria Canals-Barrera' },
-      { name: 'Phil LaMarr' },
-    ],
-    coverUrl: '/series_pictures/eedf3fb65d02.jpg',
-    releaseDate: '2001-11-17',
-    endDate: '2004-05-29',
-    genre: ['Action', 'Animation', 'Adventure'],
-    seasonsData: [
-      { seasonNumber: 1, nbEpisodes: 26, totalLength: 572 },
-      { seasonNumber: 2, nbEpisodes: 26, totalLength: 572 },
-    ],
-    description: '',
-    fromEntity: null,
-    saga: 'DC Comics',
-    countryOrigin: 'États-Unis',
-  },
-  {
+{
     title: 'Mr. Robot',
     director: 'Sam Esmail',
     actors: [
@@ -650,7 +536,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Twin Peaks',
     director: 'David Lynch, Mark Frost',
     actors: [
@@ -672,7 +558,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Doctor Who',
     director: 'Sydney Newman, C. E. Webber, Donald Wilson',
     actors: [
@@ -704,7 +590,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'Royaume-Uni',
   },
-  {
+{
     title: 'Yellowstone',
     director: 'Taylor Sheridan, John Linson',
     actors: [
@@ -728,7 +614,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Silicon Valley',
     director: 'Mike Judge, John Altschuler, Dave Krinsky',
     actors: [
@@ -753,7 +639,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'House of Cards',
     director: 'Beau Willimon',
     actors: [
@@ -778,7 +664,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Rome',
     director: 'Bruno Heller, William J. MacDonald, John Milius',
     actors: [
@@ -799,7 +685,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Downton Abbey',
     director: 'Julian Fellowes',
     actors: [
@@ -824,7 +710,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'Royaume-Uni',
   },
-  {
+{
     title: 'Star Trek : La nouvelle génération',
     director: 'Gene Roddenberry',
     actors: [
@@ -850,52 +736,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: 'Star Trek',
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Invincible',
-    director: 'Robert Kirkman',
-    actors: [
-      {
-        name: 'Steven Yeun',
-      },
-      {
-        name: 'J.K. Simmons',
-      },
-      {
-        name: 'Sandra Oh',
-      },
-    ],
-    coverUrl: '/series_pictures/ed292bcc92da.jpg',
-    releaseDate: '2021-03-26',
-    endDate: '2025-03-13',
-    genre: ['Action', 'Animation', 'Drama'],
-    seasonsData: [
-      {
-        seasonNumber: 1,
-        nbEpisodes: 8,
-        totalLength: 0,
-      },
-      {
-        seasonNumber: 2,
-        nbEpisodes: 8,
-        totalLength: 0,
-      },
-      {
-        seasonNumber: 3,
-        nbEpisodes: 8,
-        totalLength: 0,
-      },
-      {
-        seasonNumber: 4,
-        nbEpisodes: 8,
-        totalLength: 416,
-      },
-    ],
-    description: '',
-    fromEntity: null,
-    saga: '',
-    countryOrigin: 'États-Unis',
-  },
-  {
+{
     title: 'True Blood',
     director: 'Alan Ball',
     actors: [
@@ -921,7 +762,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Buffy contre les vampires',
     director: 'Joss Whedon',
     actors: [
@@ -947,7 +788,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'The IT Crowd',
     director: 'Graham Linehan',
     actors: [
@@ -970,7 +811,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'Royaume-Uni',
   },
-  {
+{
     title: 'Entourage',
     director: 'Doug Ellin',
     actors: [
@@ -997,37 +838,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Futurama',
-    director: 'Matt Groening, David X. Cohen',
-    actors: [
-      { name: 'Billy West' },
-      { name: 'Katey Sagal' },
-      { name: 'John DiMaggio' },
-    ],
-    coverUrl: '/series_pictures/a2dbad47eac6.jpg',
-    releaseDate: '1999-03-28',
-    endDate: '2023-09-04',
-    genre: ['Animation', 'Comedy', 'Sci-Fi'],
-    seasonsData: [
-      { seasonNumber: 1, nbEpisodes: 13, totalLength: 286 },
-      { seasonNumber: 2, nbEpisodes: 19, totalLength: 418 },
-      { seasonNumber: 3, nbEpisodes: 15, totalLength: 330 },
-      { seasonNumber: 4, nbEpisodes: 18, totalLength: 396 },
-      { seasonNumber: 5, nbEpisodes: 16, totalLength: 352 },
-      { seasonNumber: 6, nbEpisodes: 26, totalLength: 572 },
-      { seasonNumber: 7, nbEpisodes: 26, totalLength: 572 },
-      { seasonNumber: 8, nbEpisodes: 10, totalLength: 220 },
-      { seasonNumber: 9, nbEpisodes: 10, totalLength: 220 },
-      { seasonNumber: 10, nbEpisodes: 10, totalLength: 220 },
-      { seasonNumber: 11, nbEpisodes: 10, totalLength: 220 },
-    ],
-    description: '',
-    fromEntity: null,
-    saga: '',
-    countryOrigin: 'États-Unis',
-  },
-  {
+{
     title: 'Homeland',
     director: 'Howard Gordon, Alex Gansa',
     actors: [
@@ -1054,7 +865,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Queer as Folk',
     director: 'Ron Cowen, Daniel Lipman',
     actors: [
@@ -1078,7 +889,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Big Little Lies',
     director: 'David E. Kelley',
     actors: [
@@ -1099,7 +910,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Scrubs',
     director: 'Bill Lawrence',
     actors: [
@@ -1127,7 +938,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: '24 heures chrono',
     director: 'Joel Surnow, Robert Cochran',
     actors: [
@@ -1155,7 +966,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Ozark',
     director: 'Bill Dubuque, Mark Williams',
     actors: [
@@ -1178,7 +989,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Westworld',
     director: 'Jonathan Nolan, Lisa Joy',
     actors: [
@@ -1201,7 +1012,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'LOST : Les disparus',
     director: 'J.J. Abrams, Damon Lindelof, Carlton Cuse',
     actors: [
@@ -1226,7 +1037,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Prison Break',
     director: 'Paul Scheuring',
     actors: [
@@ -1250,7 +1061,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Californication',
     director: 'Tom Kapinos',
     actors: [
@@ -1276,7 +1087,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Dix pour cent',
     director: 'Fanny Herrero',
     actors: [
@@ -1299,7 +1110,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'France',
   },
-  {
+{
     title: 'Chuck',
     director: 'Josh Schwartz, Chris Fedak',
     actors: [
@@ -1323,7 +1134,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Skins',
     director: 'Bryan Elsley, Jamie Brittain',
     actors: [
@@ -1349,25 +1160,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'Royaume-Uni',
   },
-  {
-    title: 'Trigun',
-    director: 'Satoshi Nishimura',
-    actors: [
-      { name: 'Tomokazu Seki' },
-      { name: 'Hiroyuki Yoshino' },
-      { name: 'Satsuki Yukino' },
-    ],
-    coverUrl: '/series_pictures/80fee1f3b947.jpg',
-    releaseDate: '1998-04-01',
-    endDate: '1998-09-30',
-    genre: ['Action', 'Animation', 'Sci-Fi'],
-    seasonsData: [{ seasonNumber: 1, nbEpisodes: 26, totalLength: 650 }],
-    description: '',
-    fromEntity: null,
-    saga: '',
-    countryOrigin: 'Japon',
-  },
-  {
+{
     title: 'Code Quantum',
     director: 'Donald P. Bellisario',
     actors: [
@@ -1391,25 +1184,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Il était une fois... La vie',
-    director: 'Albert Barillé',
-    actors: [
-      { name: 'Roger Carel' },
-      { name: 'Gilles Laurent' },
-      { name: 'Marie-Laure Beneston' },
-    ],
-    coverUrl: '/series_pictures/de6b1657bf93.jpg',
-    releaseDate: '1987-09-14',
-    endDate: '1988-04-06',
-    genre: ['Animation', 'Family', 'Education'],
-    seasonsData: [{ seasonNumber: 1, nbEpisodes: 26, totalLength: 650 }],
-    description: '',
-    fromEntity: null,
-    saga: 'Il était une fois',
-    countryOrigin: 'France',
-  },
-  {
+{
     title: 'Sex Education',
     director: 'Laurie Nunn',
     actors: [
@@ -1432,7 +1207,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'Royaume-Uni',
   },
-  {
+{
     title: 'Euphoria',
     director: 'Sam Levinson',
     actors: [
@@ -1472,7 +1247,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: "",
     countryOrigin: "États-Unis",
   },
-  {
+{
     title: 'Peacemaker',
     director: 'James Gunn',
     actors: [
@@ -1490,7 +1265,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: 'DC Comics',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'McGyver',
     director: 'Lee David Zlotoff',
     actors: [
@@ -1516,7 +1291,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Murder',
     director: 'Peter Nowalk',
     actors: [
@@ -1541,38 +1316,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Family Guy',
-    director: 'Seth MacFarlane',
-    actors: [
-      { name: 'Seth MacFarlane' },
-      { name: 'Alex Borstein' },
-      { name: 'Mila Kunis' },
-    ],
-    coverUrl: '/series_pictures/904738e4a8e5.jpg',
-    releaseDate: '1999-01-31',
-    endDate: '',
-    genre: ['Animation', 'Comedy'],
-    seasonsData: [
-      { seasonNumber: 1, nbEpisodes: 20, totalLength: 440 },
-      { seasonNumber: 2, nbEpisodes: 20, totalLength: 440 },
-      { seasonNumber: 3, nbEpisodes: 20, totalLength: 440 },
-      { seasonNumber: 4, nbEpisodes: 20, totalLength: 440 },
-      { seasonNumber: 5, nbEpisodes: 20, totalLength: 440 },
-      { seasonNumber: 6, nbEpisodes: 20, totalLength: 440 },
-      { seasonNumber: 7, nbEpisodes: 20, totalLength: 440 },
-      { seasonNumber: 8, nbEpisodes: 20, totalLength: 440 },
-      { seasonNumber: 9, nbEpisodes: 20, totalLength: 440 },
-      { seasonNumber: 10, nbEpisodes: 20, totalLength: 440 },
-      { seasonNumber: 11, nbEpisodes: 20, totalLength: 440 },
-      { seasonNumber: 12, nbEpisodes: 20, totalLength: 440 },
-    ],
-    description: '',
-    fromEntity: null,
-    saga: '',
-    countryOrigin: 'États-Unis',
-  },
-  {
+{
     title: 'Bates Motel',
     director: 'Carlton Cuse, Kerry Ehrin',
     actors: [
@@ -1596,8 +1340,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-
-  {
+{
     title: 'NCIS',
     director: 'Donald P. Bellisario',
     actors: [
@@ -1624,30 +1367,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Wakfu',
-    director: 'Anthony Roux',
-    actors: [
-      { name: 'Geneviève Doang' },
-      { name: 'Thomas Guitard' },
-      { name: 'Adeline Chetail' },
-    ],
-    coverUrl: '/series_pictures/8b763cc9467e.jpg',
-    releaseDate: '2008-10-30',
-    endDate: '',
-    genre: ['Animation', 'Adventure', 'Fantasy'],
-    seasonsData: [
-      { seasonNumber: 1, nbEpisodes: 26, totalLength: 650 },
-      { seasonNumber: 2, nbEpisodes: 26, totalLength: 650 },
-      { seasonNumber: 3, nbEpisodes: 13, totalLength: 325 },
-      { seasonNumber: 4, nbEpisodes: 13, totalLength: 325 },
-    ],
-    description: '',
-    fromEntity: null,
-    saga: '',
-    countryOrigin: 'France',
-  },
-  {
+{
     title: 'Godfather of Harlem',
     director: 'Chris Brancato, Paul Eckstein',
     actors: [
@@ -1669,7 +1389,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'La traque dans le sang',
     director: 'Kim Joo-hwan',
     actors: [
@@ -1690,7 +1410,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'Corée du Sud',
   },
-  {
+{
     title: 'Lie to Me',
     director: 'Samuel Baum',
     actors: [
@@ -1712,72 +1432,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Looney Tunes Cartoon',
-    director: 'Pete Browngardt',
-    actors: [
-      { name: 'Eric Bauza' },
-      { name: 'Bob Bergen' },
-      { name: 'Jeff Bergman' },
-    ],
-    coverUrl: '/series_pictures/680f6168b27b.jpg',
-    releaseDate: '2020-05-27',
-    endDate: '',
-    genre: ['Animation', 'Comedy', 'Family'],
-    seasonsData: [
-      { seasonNumber: 1, nbEpisodes: 10, totalLength: 200 },
-      { seasonNumber: 2, nbEpisodes: 10, totalLength: 200 },
-      { seasonNumber: 3, nbEpisodes: 10, totalLength: 200 },
-      { seasonNumber: 4, nbEpisodes: 9, totalLength: 180 },
-    ],
-    description: '',
-    fromEntity: null,
-    saga: '',
-    countryOrigin: 'États-Unis',
-  },
-  {
-    title: 'Tom & Jerry',
-    director: 'William Hanna, Joseph Barbera',
-    actors: [
-      { name: 'William Hanna' },
-      { name: 'Joseph Barbera' },
-      { name: 'June Foray' },
-    ],
-    coverUrl: '/series_pictures/a1cc2045ca0a.jpg',
-    releaseDate: '1940-02-10',
-    endDate: '',
-    genre: ['Animation', 'Comedy', 'Family'],
-    seasonsData: [
-      { seasonNumber: 1, nbEpisodes: 26, totalLength: 390 },
-      { seasonNumber: 2, nbEpisodes: 26, totalLength: 390 },
-    ],
-    description: '',
-    fromEntity: null,
-    saga: '',
-    countryOrigin: 'États-Unis',
-  },
-  {
-    title: 'Bip Bip & Le Coyotte',
-    director: 'Chuck Jones',
-    actors: [
-      { name: 'Mel Blanc' },
-      { name: 'Paul Julian' },
-      { name: 'June Foray' },
-    ],
-    coverUrl: '/series_pictures/11dbbebf9bf5.jpg',
-    releaseDate: '1966-09-17',
-    endDate: '1973-09-01',
-    genre: ['Animation', 'Comedy', 'Family'],
-    seasonsData: [
-      { seasonNumber: 1, nbEpisodes: 16, totalLength: 240 },
-      { seasonNumber: 2, nbEpisodes: 16, totalLength: 240 },
-    ],
-    description: '',
-    fromEntity: null,
-    saga: '',
-    countryOrigin: 'États-Unis',
-  },
-  {
+{
     title: 'La famille Addams',
     director: 'David Levy',
     actors: [
@@ -1798,75 +1453,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Scooby-Doo',
-    director: 'Joe Ruby, Ken Spears',
-    actors: [
-      { name: 'Don Messick' },
-      { name: 'Casey Kasem' },
-      { name: 'Frank Welker' },
-    ],
-    coverUrl: '/series_pictures/e832ef89e817.jpg',
-    releaseDate: '1969-09-13',
-    endDate: '1978-10-28',
-    genre: ['Animation', 'Comedy', 'Family'],
-    seasonsData: [
-      { seasonNumber: 1, nbEpisodes: 17, totalLength: 425 },
-      { seasonNumber: 2, nbEpisodes: 8, totalLength: 200 },
-      { seasonNumber: 3, nbEpisodes: 16, totalLength: 400 },
-    ],
-    description: '',
-    fromEntity: null,
-    saga: '',
-    countryOrigin: 'États-Unis',
-  },
-  {
-    title: 'Ranma 1/2',
-    director: 'Rumiko Takahashi',
-    actors: [
-      { name: 'Kappei Yamaguchi' },
-      { name: 'Megumi Hayashibara' },
-      { name: 'Noriko Hidaka' },
-    ],
-    coverUrl: '/series_pictures/7849c7837269.jpg',
-    releaseDate: '1989-04-15',
-    endDate: '1992-09-16',
-    genre: ['Animation', 'Action', 'Comedy'],
-    seasonsData: [
-      { seasonNumber: 1, nbEpisodes: 18, totalLength: 450 },
-      { seasonNumber: 2, nbEpisodes: 22, totalLength: 550 },
-      { seasonNumber: 3, nbEpisodes: 22, totalLength: 550 },
-      { seasonNumber: 4, nbEpisodes: 24, totalLength: 600 },
-    ],
-    description: '',
-    fromEntity: null,
-    saga: '',
-    countryOrigin: 'Japon',
-  },
-  {
-    title: 'Le laboratoire de Dexter',
-    director: 'Genndy Tartakovsky',
-    actors: [
-      { name: 'Christine Cavanaugh' },
-      { name: 'Allison Moore' },
-      { name: 'Kath Soucie' },
-    ],
-    coverUrl: '/series_pictures/e2d53b52a8dc.jpg',
-    releaseDate: '1996-04-28',
-    endDate: '2003-11-20',
-    genre: ['Animation', 'Comedy', 'Family'],
-    seasonsData: [
-      { seasonNumber: 1, nbEpisodes: 13, totalLength: 286 },
-      { seasonNumber: 2, nbEpisodes: 39, totalLength: 858 },
-      { seasonNumber: 3, nbEpisodes: 35, totalLength: 770 },
-      { seasonNumber: 4, nbEpisodes: 35, totalLength: 770 },
-    ],
-    description: '',
-    fromEntity: null,
-    saga: '',
-    countryOrigin: 'États-Unis',
-  },
-  {
+{
     title: 'Marco Polo',
     director: 'John Fusco',
     actors: [
@@ -1887,28 +1474,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Kengan Ashura',
-    director: 'Seiji Kishi',
-    actors: [
-      { name: 'Kaiji Tang' },
-      { name: 'Erika Harlacher' },
-      { name: 'Todd Haberkorn' },
-    ],
-    coverUrl: '/series_pictures/873a958f9c44.jpg',
-    releaseDate: '2019-07-31',
-    endDate: '',
-    genre: ['Animation', 'Action', 'Drama'],
-    seasonsData: [
-      { seasonNumber: 1, nbEpisodes: 12, totalLength: 288 },
-      { seasonNumber: 2, nbEpisodes: 12, totalLength: 288 },
-    ],
-    description: '',
-    fromEntity: null,
-    saga: '',
-    countryOrigin: 'Japon',
-  },
-  {
+{
     title: 'American Horror Story',
     director: 'Ryan Murphy, Brad Falchuk',
     actors: [
@@ -1935,7 +1501,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Santa Clarita Diet',
     director: 'Victor Fresco',
     actors: [
@@ -1957,7 +1523,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Les frères Scott',
     director: 'Mark Schwahn',
     actors: [
@@ -1985,7 +1551,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Bones',
     director: 'Hart Hanson',
     actors: [
@@ -2010,7 +1576,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Alice in borderland',
     director: 'Shinsuke Sato',
     actors: [
@@ -2032,7 +1598,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'Japon',
   },
-  {
+{
     title: 'Once Upon a Time',
     director: 'Edward Kitsis, Adam Horowitz',
     actors: [
@@ -2058,7 +1624,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Young Sheldon',
     director: 'Chuck Lorre, Steven Molaro',
     actors: [
@@ -2084,7 +1650,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Les Experts',
     director: 'Anthony E. Zuiker',
     actors: [
@@ -2109,7 +1675,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Borgia',
     director: 'Tom Fontana',
     actors: [
@@ -2131,7 +1697,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'France',
   },
-  {
+{
     title: 'Les Désastreuses aventures des orphelins Baudelaire',
     director: 'Barry Sonnenfeld, Mark Hudis',
     actors: [
@@ -2153,7 +1719,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Scandal',
     director: 'Shonda Rhimes',
     actors: [
@@ -2179,31 +1745,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Hé Arnold !',
-    director: 'Craig Bartlett',
-    actors: [
-      { name: 'Francesca Marie Smith' },
-      { name: 'Jamil Walker Smith' },
-      { name: 'Spencer Klein' },
-    ],
-    coverUrl: '/series_pictures/3d475d155cb3.jpg',
-    releaseDate: '1996-10-07',
-    endDate: '2004-06-28',
-    genre: ['Animation', 'Comedy', 'Drama'],
-    seasonsData: [
-      { seasonNumber: 1, nbEpisodes: 20, totalLength: 500 },
-      { seasonNumber: 2, nbEpisodes: 20, totalLength: 500 },
-      { seasonNumber: 3, nbEpisodes: 20, totalLength: 500 },
-      { seasonNumber: 4, nbEpisodes: 20, totalLength: 500 },
-      { seasonNumber: 5, nbEpisodes: 20, totalLength: 500 },
-    ],
-    description: '',
-    fromEntity: null,
-    saga: '',
-    countryOrigin: 'États-Unis',
-  },
-  {
+{
     title: 'Alias',
     director: 'J.J. Abrams',
     actors: [
@@ -2227,7 +1769,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Deux flics à Miami',
     director: 'Anthony Yerkovich',
     actors: [
@@ -2251,7 +1793,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Stargate : Universe',
     director: 'Robert C. Cooper, Brad Wright',
     actors: [
@@ -2272,7 +1814,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: 'Stargate',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Fais pas ci, fais pas ça',
     director: 'Pascal Lièvre, Camille Chamoux',
     actors: [
@@ -2298,7 +1840,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'France',
   },
-  {
+{
     title: 'SODA',
     director: 'Kyan Khojandi, Ramzy Bedia',
     actors: [
@@ -2321,47 +1863,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'France',
   },
-  {
-    title: 'Peepoodo & The Super Fuck Friends',
-    director: 'Balak, Michaël Sanlaville, Vivien Bruneau',
-    actors: [
-      { name: 'Monsieur Poulpe' },
-      { name: 'Frédéric Molas' },
-      { name: 'Guillaume Pley' },
-    ],
-    coverUrl: '/series_pictures/581468ad1dc0.jpg',
-    releaseDate: '2018-07-16',
-    endDate: '',
-    genre: ['Animation', 'Comedy'],
-    seasonsData: [{ seasonNumber: 1, nbEpisodes: 18, totalLength: 180 }],
-    description: '',
-    fromEntity: null,
-    saga: '',
-    countryOrigin: 'France',
-  },
-  {
-    title: 'Jimmy Neutron',
-    director: 'John A. Davis',
-    actors: [
-      { name: 'Debi Derryberry' },
-      { name: 'Rob Paulsen' },
-      { name: 'Jeffrey Garcia' },
-    ],
-    coverUrl: '/series_pictures/ee3925c69b98.jpg',
-    releaseDate: '2002-04-20',
-    endDate: '2006-11-25',
-    genre: ['Animation', 'Adventure', 'Comedy'],
-    seasonsData: [
-      { seasonNumber: 1, nbEpisodes: 20, totalLength: 440 },
-      { seasonNumber: 2, nbEpisodes: 20, totalLength: 440 },
-      { seasonNumber: 3, nbEpisodes: 20, totalLength: 440 },
-    ],
-    description: '',
-    fromEntity: null,
-    saga: '',
-    countryOrigin: 'États-Unis',
-  },
-  {
+{
     title: "Grey's Anatomy",
     director: 'Shonda Rhimes',
     actors: [
@@ -2388,7 +1890,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Le serpent',
     director: 'Tom Shankland',
     actors: [
@@ -2406,7 +1908,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'Royaume-Uni',
   },
-  {
+{
     title: 'Sandman',
     director: 'Neil Gaiman, Allan Heinberg, David S. Goyer',
     actors: [
@@ -2427,7 +1929,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Maniac',
     director: 'Patrick Somerville',
     actors: [
@@ -2445,7 +1947,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Gen V',
     director: 'Craig Rosenberg, Evan Goldberg, Eric Kripke',
     actors: [
@@ -2463,7 +1965,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: 'The Boys',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'The 100',
     director: 'Jason Rothenberg',
     actors: [
@@ -2489,7 +1991,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: "L'Agence tous risques",
     director: 'Stephen J. Cannell, Frank Lupo',
     actors: [
@@ -2513,7 +2015,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Les Demoiselles du téléphone',
     director: 'Gema R. Neira, Ramón Campos',
     actors: [
@@ -2537,7 +2039,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'Espagne',
   },
-  {
+{
     title: 'Alex Rider',
     director: 'Guy Burt',
     actors: [
@@ -2560,7 +2062,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'Royaume-Uni',
   },
-  {
+{
     title: 'Magnum',
     director: 'Donald P. Bellisario, Glen A. Larson',
     actors: [
@@ -2587,7 +2089,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'La Chronique des Bridgerton',
     director: 'Chris Van Dusen',
     actors: [
@@ -2610,7 +2112,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Un gars, une fille',
     director: 'Guy Chossy, Isabelle Camus',
     actors: [
@@ -2634,7 +2136,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'France',
   },
-  {
+{
     title: 'Outer Banks',
     director: 'Josh Pate, Jonas Pate, Shannon Burke',
     actors: [
@@ -2684,7 +2186,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: "",
     countryOrigin: "États-Unis",
   },
-  {
+{
     title: 'Good Girls',
     director: 'Jenna Benda, Ali Gordon',
     actors: [
@@ -2712,7 +2214,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Ginny & Georgia',
     director: 'Sarah Lampert',
     actors: [
@@ -2734,7 +2236,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Charmed',
     director: 'Constance M. Burge',
     actors: [
@@ -2761,7 +2263,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Kyle XY',
     director: 'Eric Bress, J. Mackye Gruber',
     actors: [
@@ -2783,28 +2285,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Digimon',
-    director: 'Hiroyuki Kakudō, Yukio Kaizawa',
-    actors: [
-      { name: 'Steve Blum' },
-      { name: 'Mona Marshall' },
-      { name: 'Philece Sampler' },
-    ],
-    coverUrl: '/series_pictures/92936e7f1026.jpg',
-    releaseDate: '1999-03-07',
-    endDate: '2001-03-26',
-    genre: ['Animation', 'Action', 'Adventure'],
-    seasonsData: [
-      { seasonNumber: 1, nbEpisodes: 54, totalLength: 1200 },
-      { seasonNumber: 2, nbEpisodes: 54, totalLength: 1200 },
-    ],
-    description: '',
-    fromEntity: null,
-    saga: '',
-    countryOrigin: 'Japon',
-  },
-  {
+{
     title: 'H',
     director: 'Kader Aoun, Éric Judor, Xavier Matthieu',
     actors: [
@@ -2827,7 +2308,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'France',
   },
-  {
+{
     title: 'Les nouvelles aventures de Sabrina',
     director: 'Roberto Aguirre-Sacasa',
     actors: [
@@ -2850,7 +2331,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Destin : La Saga Winx',
     director: 'Brian Young, Iginio Straffi',
     actors: [
@@ -2871,35 +2352,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'Italie',
   },
-  {
-    title: 'Les Razmoket',
-    director: 'Arlene Klasky, Gabor Csupo, Paul Germain',
-    actors: [
-      { name: 'E. G. Daily' },
-      { name: 'Christine Cavanaugh' },
-      { name: 'Kath Soucie' },
-    ],
-    coverUrl: '/series_pictures/731df5e3decc.jpg',
-    releaseDate: '1991-08-11',
-    endDate: '2004-06-08',
-    genre: ['Animation', 'Adventure', 'Comedy'],
-    seasonsData: [
-      { seasonNumber: 1, nbEpisodes: 13, totalLength: 325 },
-      { seasonNumber: 2, nbEpisodes: 13, totalLength: 325 },
-      { seasonNumber: 3, nbEpisodes: 13, totalLength: 325 },
-      { seasonNumber: 4, nbEpisodes: 13, totalLength: 325 },
-      { seasonNumber: 5, nbEpisodes: 13, totalLength: 325 },
-      { seasonNumber: 6, nbEpisodes: 13, totalLength: 325 },
-      { seasonNumber: 7, nbEpisodes: 13, totalLength: 325 },
-      { seasonNumber: 8, nbEpisodes: 13, totalLength: 325 },
-      { seasonNumber: 9, nbEpisodes: 13, totalLength: 325 },
-    ],
-    description: '',
-    fromEntity: null,
-    saga: '',
-    countryOrigin: 'États-Unis',
-  },
-  {
+{
     title: 'Family Business',
     director: 'Igor Gotesman',
     actors: [
@@ -2922,7 +2375,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'France',
   },
-  {
+{
     title: 'Vikings : Valhalla',
     director: 'Jeb Stuart',
     actors: [
@@ -2944,7 +2397,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: 'Vikings',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Titans',
     director: 'Greg Berlanti, Akiva Goldsman, Geoff Johns',
     actors: [
@@ -2967,7 +2420,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: 'DC Comics',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Swamp Thing',
     director: 'Gary Dauberman, Mark Verheiden',
     actors: [
@@ -2985,7 +2438,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: 'DC Comics',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: "L'Été où je suis devenue jolie",
     director: 'Jenny Han',
     actors: [
@@ -3007,7 +2460,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: "Une nounou d'enfer",
     director: 'Fran Drescher, Prudence Fraser',
     actors: [
@@ -3032,31 +2485,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Désenchantée',
-    director: 'Matt Groening',
-    actors: [
-      { name: 'Abbi Jacobson' },
-      { name: 'Eric André' },
-      { name: 'Nat Faxon' },
-    ],
-    coverUrl: '/series_pictures/56b9ea4df6f9.jpg',
-    releaseDate: '2018-08-17',
-    endDate: '',
-    genre: ['Animation', 'Adventure', 'Comedy'],
-    seasonsData: [
-      { seasonNumber: 1, nbEpisodes: 10, totalLength: 500 },
-      { seasonNumber: 2, nbEpisodes: 10, totalLength: 500 },
-      { seasonNumber: 3, nbEpisodes: 10, totalLength: 500 },
-      { seasonNumber: 4, nbEpisodes: 10, totalLength: 500 },
-      { seasonNumber: 5, nbEpisodes: 10, totalLength: 500 },
-    ],
-    description: '',
-    fromEntity: null,
-    saga: '',
-    countryOrigin: 'États-Unis',
-  },
-  {
+{
     title: 'Hero Corp',
     director: 'Simon Astier, Alban Lenoir',
     actors: [
@@ -3080,7 +2509,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'France',
   },
-  {
+{
     title: 'Mon oncle Charlie',
     director: 'Chuck Lorre, Lee Aronsohn',
     actors: [
@@ -3111,7 +2540,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Body of Proof',
     director: 'Christopher Murphey',
     actors: [
@@ -3133,7 +2562,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Scorpion',
     director: 'Nick Santora',
     actors: [
@@ -3156,7 +2585,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Élite',
     director: 'Carlos Montero, Darío Madrona',
     actors: [
@@ -3183,7 +2612,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'Espagne',
   },
-  {
+{
     title: 'Le Continental',
     director: 'Albert Hughes, Charlotte Brändström',
     actors: [
@@ -3201,7 +2630,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: 'John Wick',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'FBI : Portés disparus',
     director: 'Hank Steinberg',
     actors: [
@@ -3227,7 +2656,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Starsky et Hutch',
     director: 'William Blinn',
     actors: [
@@ -3250,7 +2679,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Scream',
     director: 'Jill Blotevogel, Jay Beattie',
     actors: [
@@ -3272,7 +2701,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Ally McBeal',
     director: 'David E. Kelley',
     actors: [
@@ -3296,7 +2725,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: "Ma Famille d'abord",
     director: 'Don Reo',
     actors: [
@@ -3320,7 +2749,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'K 2000',
     director: 'Glen A. Larson',
     actors: [
@@ -3343,7 +2772,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Unforgettable',
     director: 'John Bellucci, Ed Redlich',
     actors: [
@@ -3366,7 +2795,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Ugly Betty',
     director: 'Silvio Horta',
     actors: [
@@ -3389,7 +2818,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Xena, la guerrière',
     director: 'John Schulian, Robert Tapert',
     actors: [
@@ -3414,7 +2843,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: "Sydney Fox, l'aventurière",
     director: 'Gil Grant',
     actors: [
@@ -3436,28 +2865,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Godzilla, la série',
-    director: 'Jeff Kline, Richard Raynis',
-    actors: [
-      { name: 'Ian Ziering' },
-      { name: 'Malcolm Danare' },
-      { name: 'Rino Romano' },
-    ],
-    coverUrl: '/series_pictures/57caba74a4f3.jpg',
-    releaseDate: '1998-09-12',
-    endDate: '2000-04-22',
-    genre: ['Animation', 'Action', 'Sci-Fi'],
-    seasonsData: [
-      { seasonNumber: 1, nbEpisodes: 20, totalLength: 500 },
-      { seasonNumber: 2, nbEpisodes: 20, totalLength: 500 },
-    ],
-    description: '',
-    fromEntity: null,
-    saga: '',
-    countryOrigin: 'États-Unis',
-  },
-  {
+{
     title: 'Fear the Walking Dead',
     director: 'Robert Kirkman, Dave Erickson',
     actors: [
@@ -3484,7 +2892,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: 'The Walking Dead',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'The Walking Dead',
     director: 'Frank Darabont',
     actors: [
@@ -3514,7 +2922,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: 'The Walking Dead',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: "Sabrina, l'apprentie sorcière",
     director: 'Jonathan Schmock, Nell Scovell',
     actors: [
@@ -3540,7 +2948,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: '2 Broke Girls',
     director: 'Michael Patrick King, Whitney Cummings',
     actors: [
@@ -3565,31 +2973,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Foot 2 Rue',
-    director: 'Marc Boréal, Peter Martin',
-    actors: [
-      { name: 'Bruno Choël' },
-      { name: 'Hélène Vincent' },
-      { name: 'Patrick Pellegrin' },
-    ],
-    coverUrl: '/series_pictures/9d15e05708c2.jpg',
-    releaseDate: '2005-06-06',
-    endDate: '2014-12-31',
-    genre: ['Animation', 'Sport', 'Family'],
-    seasonsData: [
-      { seasonNumber: 1, nbEpisodes: 26, totalLength: 650 },
-      { seasonNumber: 2, nbEpisodes: 26, totalLength: 650 },
-      { seasonNumber: 3, nbEpisodes: 26, totalLength: 650 },
-      { seasonNumber: 4, nbEpisodes: 26, totalLength: 650 },
-      { seasonNumber: 5, nbEpisodes: 26, totalLength: 650 },
-    ],
-    description: '',
-    fromEntity: null,
-    saga: '',
-    countryOrigin: 'France',
-  },
-  {
+{
     title: 'Cloak and Dagger',
     director: 'Joe Pokaski',
     actors: [
@@ -3610,7 +2994,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: 'Marvel Cinematic Universe',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Shadowhunters',
     director: 'Ed Decter',
     actors: [
@@ -3632,7 +3016,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Les Experts : Miami',
     director: 'Ann Donahue, Carol Mendelsohn, Anthony E. Zuiker',
     actors: [
@@ -3661,7 +3045,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: 'Les Experts',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Ghost Whisperer',
     director: 'John Gray',
     actors: [
@@ -3685,7 +3069,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'The Client List',
     director: 'Suzanne Martin',
     actors: [
@@ -3706,25 +3090,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Ratz',
-    director: 'Richard Zielenkiewicz',
-    actors: [
-      { name: 'Patrick Poivey' },
-      { name: 'Bruno Choël' },
-      { name: 'Gérard Rinaldi' },
-    ],
-    coverUrl: '/series_pictures/7de0c35b0726.jpg',
-    releaseDate: '2003-09-03',
-    endDate: '2004-03-26',
-    genre: ['Animation', 'Comedy'],
-    seasonsData: [{ seasonNumber: 1, nbEpisodes: 26, totalLength: 390 }],
-    description: '',
-    fromEntity: null,
-    saga: '',
-    countryOrigin: 'France',
-  },
-  {
+{
     title: 'Caméra Café',
     director: "Bruno Solo, Yvan Le Bolloc'h",
     actors: [
@@ -3747,7 +3113,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'France',
   },
-  {
+{
     title: 'Riverdale',
     director: 'Roberto Aguirre-Sacasa',
     actors: [
@@ -3773,7 +3139,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Alerte Cobra',
     director: 'Torsten Cress, Andreas Bareiss',
     actors: [
@@ -3800,7 +3166,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'Allemagne',
   },
-  {
+{
     title: 'How I Met Your Father',
     director: 'Isaac Aptaker, Elizabeth Berger',
     actors: [
@@ -3821,7 +3187,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: 'How I Met Your Mother',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Walker, Texas Ranger',
     director: 'Leslie Greif, Paul Haggis',
     actors: [
@@ -3849,7 +3215,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Hélène et les Garçons',
     director: 'Jean-François Porry',
     actors: [
@@ -3871,7 +3237,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'France',
   },
-  {
+{
     title: 'Alerte à Malibu',
     director: 'Michael Berk, Douglas Schwartz',
     actors: [
@@ -3901,7 +3267,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Le Destin de Lisa',
     director: 'Jean-François Porry',
     actors: [
@@ -3923,7 +3289,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: 'Hélène et les Garçons',
     countryOrigin: 'France',
   },
-  {
+{
     title: 'Les Teletubbies',
     director: 'Anne Wood, Andrew Davenport',
     actors: [
@@ -3947,7 +3313,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'Royaume-Uni',
   },
-  {
+{
     title: 'Monstre',
     director: 'Ryan Murphy, Ian Brennan',
     actors: [
@@ -3976,7 +3342,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Nouvelle École',
     director: 'Sylvain Pearl, Stan Bertheux',
     actors: [
@@ -4007,7 +3373,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'France',
   },
-  {
+{
     title: 'Rhythm + Flow',
     director: 'John Legend, Jeff Gaspin, Jesse Collins',
     actors: [

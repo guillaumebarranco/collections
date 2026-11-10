@@ -11,6 +11,7 @@ import type { BaseManwha, UserManwha } from '../../models/manwha-model';
 import type { BaseMovie, UserMovie } from '../../models/movie-model';
 import type { BaseMusic, UserMusic } from '../../models/music-model';
 import type { BaseSerie, UserSerie } from '../../models/serie-model';
+import type { BaseAnime, UserAnime } from '../../models/anime-model';
 import type { TopFiveByEntity } from '../../models/top-five-model';
 
 export interface OfflineMoviesCache {
@@ -35,6 +36,12 @@ export interface OfflineSeriesCache {
   base: BaseSerie[];
   user: UserSerie[];
   watchlist: UserSerie[];
+}
+
+export interface OfflineAnimesCache {
+  base: BaseAnime[];
+  user: UserAnime[];
+  watchlist: UserAnime[];
 }
 
 export interface OfflineGamesCache {
@@ -79,6 +86,7 @@ export interface OfflineCachePayload {
   books: OfflineBooksCache;
   childrenBooks: OfflineChildrenBooksCache;
   series: OfflineSeriesCache;
+  animes: OfflineAnimesCache;
   games: OfflineGamesCache;
   mangas: OfflineMangasCache;
   manwhas: OfflineManwhasCache;

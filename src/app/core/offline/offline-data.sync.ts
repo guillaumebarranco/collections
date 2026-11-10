@@ -44,6 +44,11 @@ import {
   fetchUserSeriesFromApi,
   fetchWatchlistSeriesFromApi,
 } from '../../facades/series/api-series.facade';
+import {
+  fetchBaseAnimesFromApi,
+  fetchUserAnimesFromApi,
+  fetchWatchlistAnimesFromApi,
+} from '../../facades/animes/api-animes.facade';
 import { fetchTopFiveFromApi } from '../../facades/top-five/api-top-five.facade';
 import { createEmptyTopFive } from '../../models/top-five-model';
 import type { OfflineCachePayload } from './offline-cache.model';
@@ -79,6 +84,9 @@ export async function fetchOfflineCachePayload(
       seriesBase,
       seriesUser,
       seriesWatchlist,
+      animesBase,
+      animesUser,
+      animesWatchlist,
       gamesBase,
       gamesUser,
       gamesGamelist,
@@ -110,6 +118,9 @@ export async function fetchOfflineCachePayload(
       fetchBaseSeriesFromApi(),
       fetchUserSeriesFromApi(normalizedId),
       fetchWatchlistSeriesFromApi(normalizedId),
+      fetchBaseAnimesFromApi(),
+      fetchUserAnimesFromApi(normalizedId),
+      fetchWatchlistAnimesFromApi(normalizedId),
       fetchBaseGamesFromApi(),
       fetchUserGamesFromApi(normalizedId),
       fetchGamelistGamesFromApi(normalizedId),
@@ -152,6 +163,11 @@ export async function fetchOfflineCachePayload(
         base: seriesBase,
         user: seriesUser,
         watchlist: seriesWatchlist,
+      },
+      animes: {
+        base: animesBase,
+        user: animesUser,
+        watchlist: animesWatchlist,
       },
       games: {
         base: gamesBase,

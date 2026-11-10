@@ -1,7 +1,7 @@
 import { UserSeries } from '../../../../models/serie-model';
 
 export const guillaumeSeries: UserSeries = [
-  {
+{
     title: 'Black Mirror',
     director: 'Charlie Brooker',
     seasons: [
@@ -77,7 +77,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'How I Met Your Mother',
     director: 'Carter Bays, Craig Thomas',
     seasons: [
@@ -171,7 +171,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: "",
     quotes: ["T'essayes de marquer un point pour quoi ? C'est pas parce qu'elle t'as blessé une fois que tu dois la blesser maintenant. Ça fonctionne pas comme ça le mariage."],
   },
-  {
+{
     title: 'Loki',
     director: 'Kate Herron',
     seasons: [
@@ -202,7 +202,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Le Jeu de la Dame',
     director: 'Scott Frank',
     seasons: [
@@ -224,7 +224,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'WandaVision',
     director: 'Matt Shakman',
     seasons: [
@@ -246,7 +246,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Obi-Wan Kenobi',
     director: 'Deborah Chow',
     seasons: [
@@ -268,7 +268,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Squid Game',
     director: 'Hwang Dong-hyuk',
     seasons: [
@@ -308,7 +308,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Bodies',
     director: 'Marco Kreuzpaintner',
     seasons: [
@@ -330,7 +330,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Breaking Bad',
     director: 'Vince Gilligan',
     seasons: [
@@ -388,7 +388,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Umbrella Academy',
     director: 'Steve Blackman',
     seasons: [
@@ -428,7 +428,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'You',
     director: 'Greg Berlanti',
     seasons: [
@@ -486,7 +486,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'HPI',
     director: 'Julien Zidi',
     seasons: [
@@ -526,7 +526,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'The Boys',
     director: 'Eric Kripke',
     seasons: [
@@ -584,7 +584,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Stranger Things',
     director: 'The Duffer Brothers',
     seasons: [
@@ -642,7 +642,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Lupin',
     director: 'Louis Leterrier',
     seasons: [
@@ -682,7 +682,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'La servante écarlate',
     director: 'Bruce Miller',
     seasons: [
@@ -740,613 +740,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
-    title: 'Arcane',
-    director: 'Pascal Charrue, Arnaud Delord',
-    seasons: [
-      {
-        seasonNumber: 1,
-        seasonRating: 3.5,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '2024-12-21',
-        lastViewedDate: '2024-12-21',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 2,
-        seasonRating: 3.5,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '2025-03-20',
-        lastViewedDate: '2025-03-20',
-        otherViewedDates: [],
-      },
-    ],
-    owned: false,
-    watchPriority: 1,
-    wantToWatchAgain: false,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    quotes: [],
-  },
-  {
-    title: 'South Park',
-    director: 'Trey Parker, Matt Stone',
-    seasons: [
-      {
-        seasonNumber: 1,
-        seasonRating: 3.5,
-        watching: false,
-        seasonTimesWatched: 2,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 2,
-        seasonRating: 3.5,
-        watching: false,
-        seasonTimesWatched: 2,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 3,
-        seasonRating: 3.5,
-        watching: false,
-        seasonTimesWatched: 2,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 4,
-        seasonRating: 3.5,
-        watching: false,
-        seasonTimesWatched: 2,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 5,
-        seasonRating: 3.5,
-        watching: false,
-        seasonTimesWatched: 2,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 6,
-        seasonRating: 3.75,
-        watching: false,
-        seasonTimesWatched: 5,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 7,
-        seasonRating: 3.75,
-        watching: false,
-        seasonTimesWatched: 5,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 8,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 10,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 9,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 15,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: ['2021-03-22'],
-      },
-      {
-        seasonNumber: 10,
-        seasonRating: 4.5,
-        watching: false,
-        seasonTimesWatched: 20,
-        firstViewedDate: '2006-11-15',
-        lastViewedDate: '',
-        otherViewedDates: ['2021-03-01'],
-      },
-      {
-        seasonNumber: 11,
-        seasonRating: 4.5,
-        watching: false,
-        seasonTimesWatched: 20,
-        firstViewedDate: '2007-11-14',
-        lastViewedDate: '',
-        otherViewedDates: ['2022-02-08'],
-      },
-      {
-        seasonNumber: 12,
-        seasonRating: 4.25,
-        watching: false,
-        seasonTimesWatched: 15,
-        firstViewedDate: '2008-11-19',
-        lastViewedDate: '',
-        otherViewedDates: ['2021-03-01'],
-      },
-      {
-        seasonNumber: 13,
-        seasonRating: 4.25,
-        watching: false,
-        seasonTimesWatched: 15,
-        firstViewedDate: '2009-11-18',
-        lastViewedDate: '',
-        otherViewedDates: ['2021-03-08'],
-      },
-      {
-        seasonNumber: 14,
-        seasonRating: 4.25,
-        watching: false,
-        seasonTimesWatched: 15,
-        firstViewedDate: '2010-11-17',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 15,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 10,
-        firstViewedDate: '2011-11-16',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 16,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 5,
-        firstViewedDate: '2012-11-07',
-        lastViewedDate: '',
-        otherViewedDates: ['2022-02-11'],
-      },
-      {
-        seasonNumber: 17,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 5,
-        firstViewedDate: '2013-12-11',
-        lastViewedDate: '',
-        otherViewedDates: ['2022-02-14'],
-      },
-      {
-        seasonNumber: 18,
-        seasonRating: 3.75,
-        watching: false,
-        seasonTimesWatched: 2,
-        firstViewedDate: '2020-04-29',
-        lastViewedDate: '2022-03-14',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 19,
-        seasonRating: 3.75,
-        watching: false,
-        seasonTimesWatched: 2,
-        firstViewedDate: '2020-05-04',
-        lastViewedDate: '2022-03-14',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 20,
-        seasonRating: 3.5,
-        watching: false,
-        seasonTimesWatched: 2,
-        firstViewedDate: '2020-05-13',
-        lastViewedDate: '2022-03-22',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 21,
-        seasonRating: 3.5,
-        watching: false,
-        seasonTimesWatched: 2,
-        firstViewedDate: '2020-05-19',
-        lastViewedDate: '2022-03-23',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 22,
-        seasonRating: 3.25,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '2020-05-22',
-        lastViewedDate: '2020-05-22',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 23,
-        seasonRating: 3.25,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '2021-02-01',
-        lastViewedDate: '2021-02-01',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 24,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 25,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 26,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-    ],
-    owned: false,
-    watchPriority: 1,
-    wantToWatchAgain: false,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    quotes: [],
-  },
-  {
-    title: 'Les Simpsons',
-    director: 'Matt Groening',
-    seasons: [
-      {
-        seasonNumber: 1,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 2,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 3,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 4,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 5,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 6,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 7,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 8,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 9,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 10,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 11,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 12,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 13,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 14,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 15,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 16,
-        seasonRating: 4.5,
-        watching: false,
-        seasonTimesWatched: 5,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 17,
-        seasonRating: 4.5,
-        watching: false,
-        seasonTimesWatched: 10,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 18,
-        seasonRating: 4.5,
-        watching: false,
-        seasonTimesWatched: 10,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 19,
-        seasonRating: 4.5,
-        watching: false,
-        seasonTimesWatched: 10,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 20,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 10,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 21,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 5,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 22,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 23,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 24,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 25,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 26,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 27,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 28,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 29,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 30,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 31,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 32,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 33,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 34,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 35,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-    ],
-    owned: false,
-    watchPriority: 1,
-    wantToWatchAgain: false,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    quotes: [],
-  },
-  {
+{
     title: 'Monstre',
     director: 'Ryan Murphy, Ian Brennan',
     seasons: [
@@ -1368,7 +762,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Daredevil',
     director: 'Drew Goddard',
     seasons: [
@@ -1408,7 +802,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Black Doves',
     director: 'Joe Barton',
     seasons: [
@@ -1430,7 +824,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'House of Cards',
     director: 'Beau Willimon',
     seasons: [
@@ -1497,7 +891,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Daredevil : Born Again',
     director: 'Matt Corman, Chris Ord',
     seasons: [
@@ -1528,7 +922,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Jessica Jones',
     director: 'Melissa Rosenberg',
     seasons: [
@@ -1568,7 +962,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Luke Cage',
     director: 'Cheo Hodari Coker',
     seasons: [
@@ -1599,7 +993,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Iron Fist',
     director: 'Scott Buck',
     seasons: [
@@ -1630,7 +1024,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'The Defenders',
     director: 'Douglas Petrie, Marco Ramirez',
     seasons: [
@@ -1652,7 +1046,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'The Last of Us',
     director: 'Craig Mazin, Neil Druckmann',
     seasons: [
@@ -1683,7 +1077,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Obsession',
     director: 'Morgan Lloyd Malcolm',
     seasons: [
@@ -1705,176 +1099,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
-    title: 'Cobra',
-    director: 'Osamu Dezaki',
-    seasons: [
-      {
-        seasonNumber: 1,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-    ],
-    owned: false,
-    watchPriority: 1,
-    wantToWatchAgain: false,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    quotes: [],
-  },
-  {
-    title: 'Nicky Larson',
-    director: 'Kenji Kodama',
-    seasons: [
-      {
-        seasonNumber: 1,
-        seasonRating: 3.5,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-    ],
-    owned: false,
-    watchPriority: 1,
-    wantToWatchAgain: false,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    quotes: [],
-  },
-  {
-    title: 'Yu-Gi-Oh!',
-    director: 'Kunihisa Sugishima',
-    seasons: [
-      {
-        seasonNumber: 1,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 2,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 2,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 2,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 3,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 2,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 4,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 2,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 5,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 2,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 6,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 2,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 7,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 2,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 8,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 2,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-    ],
-    owned: false,
-    watchPriority: 1,
-    wantToWatchAgain: false,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    quotes: [],
-  },
-  {
-    title: 'Olive et Tom : Le retour',
-    director: 'Gisaburo Sugii',
-    seasons: [
-      {
-        seasonNumber: 1,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 5,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 2,
-        seasonRating: 4.25,
-        watching: false,
-        seasonTimesWatched: 5,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 3,
-        seasonRating: 4.25,
-        watching: false,
-        seasonTimesWatched: 5,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-    ],
-    owned: false,
-    watchPriority: 1,
-    wantToWatchAgain: false,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    quotes: [],
-  },
-  {
+{
     title: '13 Reasons Why',
     director: 'Brian Yorkey',
     seasons: [
@@ -1923,7 +1148,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Castle',
     director: 'Andrew W. Marlowe',
     seasons: [
@@ -2008,7 +1233,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: "",
     quotes: ["Si tous les matins je vous apporte votre café c'est pour voir un sourire illuminer votre visage parce que je crois que vous êtes la personne la plus remarquable, la plus frustrante, exaltante, et la plus exaspérante que j'ai jamais connu."],
   },
-  {
+{
     title: 'Mentalist',
     director: 'Bruno Heller',
     seasons: [
@@ -2089,29 +1314,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
-    title: 'Astérix & Obélix : Le Combat des Chefs',
-    director: 'Alain Chabat',
-    seasons: [
-      {
-        seasonNumber: 1,
-        seasonRating: 4.25,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '2025-05-12',
-        lastViewedDate: '2025-05-12',
-        otherViewedDates: [],
-      },
-    ],
-    owned: false,
-    watchPriority: 1,
-    wantToWatchAgain: false,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    quotes: [],
-  },
-  {
+{
     title: 'Bet',
     director: 'Simon Barry',
     seasons: [
@@ -2133,7 +1336,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Brooklyn Nine-Nine',
     director: 'Dan Goor, Michael Schur',
     seasons: [
@@ -2218,7 +1421,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Cobra Kai',
     director: 'Jon Hurwitz, Hayden Schlossberg',
     seasons: [
@@ -2285,7 +1488,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Mercredi',
     director: 'Tim Burton',
     seasons: [
@@ -2316,7 +1519,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Montre jamais ça à personne',
     director: 'Hugo Benamozig, David Caviglioli',
     seasons: [
@@ -2347,7 +1550,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Arnold',
     director: 'Lesley Chilcott',
     seasons: [
@@ -2369,7 +1572,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Arrow',
     director: 'Greg Berlanti, Marc Guggenheim',
     seasons: [
@@ -2454,7 +1657,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'The Flash',
     director: 'Greg Berlanti, Andrew Kreisberg',
     seasons: [
@@ -2548,7 +1751,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Ironheart',
     director: 'Chinaka Hodge',
     seasons: [
@@ -2570,7 +1773,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Reacher',
     director: 'Nick Santora',
     seasons: [
@@ -2610,7 +1813,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Rhythm + Flow',
     director: 'John Legend, Jeff Gaspin, Jesse Collins',
     seasons: [
@@ -2632,7 +1835,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Nouvelle École',
     director: 'Sylvain Pearl, Stan Bertheux',
     seasons: [
@@ -2681,7 +1884,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'iZombie',
     director: 'Rob Thomas, Diane Ruggiero-Wright',
     seasons: [
@@ -2739,7 +1942,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'La Casa de Papel',
     director: 'Álex Pina',
     seasons: [
@@ -2797,7 +2000,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Lucifer',
     director: 'Tom Kapinos',
     seasons: [
@@ -2864,7 +2067,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'The Punisher',
     director: 'Steve Lightfoot',
     seasons: [
@@ -2895,83 +2098,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
-    title: 'Rick and Morty',
-    director: 'Justin Roiland, Dan Harmon',
-    seasons: [
-      {
-        seasonNumber: 1,
-        seasonRating: 3.75,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 2,
-        seasonRating: 3.75,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 3,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 4,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 5,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 6,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 7,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-    ],
-    owned: false,
-    watchPriority: 1,
-    wantToWatchAgain: false,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    quotes: [],
-  },
-  {
+{
     title: 'Sense8',
     director: 'Lana Wachowski, Lilly Wachowski',
     seasons: [
@@ -3002,7 +2129,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Suits, Avocats sur mesure',
     director: 'Aaron Korsh',
     seasons: [
@@ -3096,7 +2223,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'The End of the F***ing World',
     director: 'Jonathan Entwistle',
     seasons: [
@@ -3127,7 +2254,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Under the Dome',
     director: 'Brian K. Vaughan',
     seasons: [
@@ -3167,7 +2294,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Superman & Lois',
     director: 'Greg Berlanti, Todd Helbing',
     seasons: [
@@ -3216,7 +2343,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Locke & Key',
     director: 'Carlton Cuse',
     seasons: [
@@ -3256,7 +2383,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Un gars, une fille',
     director: 'Guy Chossy, Isabelle Camus',
     seasons: [
@@ -3314,7 +2441,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: "Sydney Fox, l'aventurière",
     director: 'Gil Grant',
     seasons: [
@@ -3354,7 +2481,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Scorpion',
     director: 'Nick Santora',
     seasons: [
@@ -3403,7 +2530,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'H',
     director: 'Kader Aoun, Éric Judor, Xavier Matthieu',
     seasons: [
@@ -3452,7 +2579,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Destin : La Saga Winx',
     director: 'Brian Young, Iginio Straffi',
     seasons: [
@@ -3483,38 +2610,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
-    title: 'Solo Leveling',
-    director: 'Inconnu',
-    seasons: [
-      {
-        seasonNumber: 1,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '2024-02-06',
-        lastViewedDate: '2024-02-06',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 2,
-        seasonRating: 3.75,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '2025-02-04',
-        lastViewedDate: '2025-02-04',
-        otherViewedDates: [],
-      },
-    ],
-    owned: false,
-    watchPriority: 1,
-    wantToWatchAgain: false,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    quotes: [],
-  },
-  {
+{
     title: 'Walker, Texas Ranger',
     director: 'Leslie Greif, Paul Haggis',
     seasons: [
@@ -3608,7 +2704,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'How I Met Your Father',
     director: 'Isaac Aptaker, Elizabeth Berger',
     seasons: [
@@ -3639,7 +2735,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Caméra Café',
     director: "Bruno Solo, Yvan Le Bolloc'h",
     seasons: [
@@ -3688,7 +2784,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Ms. Marvel',
     director: 'Bisha K. Ali',
     seasons: [
@@ -3710,8 +2806,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-
-  {
+{
     title: 'Unorthodox',
     director: 'Maria Schrader',
     seasons: [
@@ -3733,7 +2828,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Mon amie Adèle',
     director: 'Erik Richter Strand',
     seasons: [
@@ -3755,7 +2850,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Emily in Paris',
     director: 'Darren Star',
     seasons: [
@@ -3813,7 +2908,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'The Glory',
     director: 'Ahn Gil-ho',
     seasons: [
@@ -3835,7 +2930,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'FUBAR',
     director: 'Nick Santora',
     seasons: [
@@ -3866,7 +2961,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'En un battement',
     director: 'Inconnu',
     seasons: [
@@ -3897,7 +2992,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'One Piece (live-action)',
     director: 'Matt Owens, Steven Maeda',
     seasons: [
@@ -3928,7 +3023,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Yu Yu Hakusho (live-action)',
     director: 'Shô Tsukikawa',
     seasons: [
@@ -3950,7 +3045,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Bloqués',
     director: 'Bruno Muschio, Kyan Khojandi',
     seasons: [
@@ -3972,30 +3067,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
-    title: 'Death Note',
-    director: 'Tetsurō Araki',
-    seasons: [
-      {
-        seasonNumber: 1,
-        seasonRating: 4.5,
-        watching: false,
-        seasonTimesWatched: 5,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: ['2020-11-28'],
-      },
-    ],
-    owned: false,
-    watchPriority: 1,
-    wantToWatchAgain: true,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    quotes: [],
-  },
-
-  {
+{
     title: 'Mortel',
     director: 'Frédéric Garcia',
     seasons: [
@@ -4026,321 +3098,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-
-  {
-    title: 'Yu Yu Hakusho',
-    director: 'Yoshihiro Togashi',
-    seasons: [
-      {
-        seasonNumber: 1,
-        seasonRating: 3.75,
-        watching: false,
-        seasonTimesWatched: 8,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: ['2023-12-22'],
-      },
-      {
-        seasonNumber: 2,
-        seasonRating: 4.5,
-        watching: false,
-        seasonTimesWatched: 10,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: ['2024-01-15'],
-      },
-      {
-        seasonNumber: 3,
-        seasonRating: 4.25,
-        watching: false,
-        seasonTimesWatched: 8,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: ['2024-01-24'],
-      },
-      {
-        seasonNumber: 4,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 8,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-    ],
-    owned: true,
-    watchPriority: 1,
-    wantToWatchAgain: false,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    quotes: [],
-  },
-
-  {
-    title: "L'Attaque des Titans",
-    director: 'Tetsurô Araki',
-    seasons: [
-      {
-        seasonNumber: 1,
-        seasonRating: 4.25,
-        watching: false,
-        seasonTimesWatched: 2,
-        firstViewedDate: '',
-        lastViewedDate: '2021-01-26',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 2,
-        seasonRating: 4.5,
-        watching: false,
-        seasonTimesWatched: 2,
-        firstViewedDate: '',
-        lastViewedDate: '2021-01-26',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 3,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 4,
-        seasonRating: 3.5,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-    ],
-    owned: false,
-    watchPriority: 1,
-    wantToWatchAgain: false,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    quotes: [],
-  },
-
-  {
-    title: 'Galactik Football',
-    director: 'Charles Barrez, Vincent Vandelli',
-    seasons: [
-      {
-        seasonNumber: 1,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 2,
-        firstViewedDate: '2006-06-03',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 2,
-        seasonRating: 3.75,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '2008-06-03',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 3,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-    ],
-    owned: false,
-    watchPriority: 1,
-    wantToWatchAgain: false,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    quotes: [],
-  },
-
-  {
-    title: 'Dragon Ball Z',
-    director: 'Akira Toriyama',
-    seasons: [
-      {
-        seasonNumber: 1,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 2,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 2,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 2,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 3,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 2,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 4,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 5,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 6,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 7,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 8,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 9,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 10,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 11,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-    ],
-    owned: false,
-    watchPriority: 1,
-    wantToWatchAgain: false,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    quotes: [],
-  },
-
-  {
-    title: 'Dragon Ball GT',
-    director: 'Akira Toriyama',
-    seasons: [
-      {
-        seasonNumber: 1,
-        seasonRating: 3,
-        watching: false,
-        seasonTimesWatched: 3,
-        firstViewedDate: '2002-05-20',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 2,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 3,
-        firstViewedDate: '2002-06-20',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 3,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 3,
-        firstViewedDate: '2002-07-20',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 4,
-        seasonRating: 3,
-        watching: false,
-        seasonTimesWatched: 2,
-        firstViewedDate: '2002-08-20',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 5,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 2,
-        firstViewedDate: '2002-09-20',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-    ],
-    owned: false,
-    watchPriority: 1,
-    wantToWatchAgain: false,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    quotes: [],
-  },
-
-  {
+{
     title: 'Olive et Tom',
     director: 'Isamu Imakake',
     seasons: [
@@ -4461,483 +3219,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-
-  {
-    title: 'Shaman king',
-    director: 'Hiroyuki Takei',
-    seasons: [
-      {
-        seasonNumber: 1,
-        seasonRating: 3.5,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-    ],
-    owned: false,
-    watchPriority: 1,
-    wantToWatchAgain: false,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    quotes: [],
-  },
-
-  {
-    title: 'Bleach',
-    director: 'Tite Kubo',
-    seasons: [
-      {
-        seasonNumber: 1,
-        seasonRating: 3,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 2,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 5,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 3,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 5,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 4,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 5,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 6,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 7,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 8,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 9,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 10,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 11,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 12,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 13,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 14,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 15,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 16,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 17,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-    ],
-    owned: false,
-    watchPriority: 1,
-    wantToWatchAgain: false,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    quotes: [],
-  },
-
-  {
-    title: 'Les Chevaliers du Zodiaque',
-    director: 'Masami Kurumada',
-    seasons: [
-      {
-        seasonNumber: 1,
-        seasonRating: 3.5,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 2,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 3,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-    ],
-    owned: false,
-    watchPriority: 1,
-    wantToWatchAgain: false,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    quotes: [],
-  },
-
-  {
-    title: 'Totally Spies',
-    director: 'Vincent Chalvon-Demersay, David Michel',
-    seasons: [
-      {
-        seasonNumber: 1,
-        seasonRating: 3,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 2,
-        seasonRating: 3,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 3,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 4,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 5,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 6,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 7,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-    ],
-    owned: false,
-    watchPriority: 1,
-    wantToWatchAgain: false,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    quotes: [],
-  },
-
-  {
-    title: 'Les super nanas',
-    director: 'Craig McCracken',
-    seasons: [
-      {
-        seasonNumber: 1,
-        seasonRating: 3,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 2,
-        seasonRating: 3,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 3,
-        seasonRating: 3,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 4,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 5,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 6,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 7,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 8,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 9,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 10,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 11,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-    ],
-    owned: false,
-    watchPriority: 1,
-    wantToWatchAgain: false,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    quotes: [],
-  },
-
-  {
-    title: "L'école des champions",
-    director: 'Noboru Rokuda',
-    seasons: [
-      {
-        seasonNumber: 1,
-        seasonRating: 3,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 2,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-    ],
-    owned: false,
-    watchPriority: 1,
-    wantToWatchAgain: false,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    quotes: [],
-  },
-  {
-    title: 'No Game No Life',
-    director: 'Inconnu',
-    seasons: [
-      {
-        seasonNumber: 1,
-        seasonRating: 3,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-    ],
-    owned: false,
-    watchPriority: 1,
-    wantToWatchAgain: false,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    quotes: [],
-  },
-
-  {
+{
     title: 'Fallout',
     director: 'Geneva Robertson-Dworet, Graham Wagner',
     seasons: [
@@ -4968,7 +3250,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: "La vie secrète d'un ado ordinaire",
     director: 'Brenda Hampton',
     seasons: [
@@ -5026,7 +3308,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Why Women Kill',
     director: 'Marc Cherry',
     seasons: [
@@ -5057,7 +3339,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Amicalement vôtre',
     director: 'Robert S. Baker, Monty Berman',
     seasons: [
@@ -5079,7 +3361,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Modern Family',
     director: 'Christopher Lloyd, Steven Levitan',
     seasons: [
@@ -5191,7 +3473,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: 'New Girl',
     director: 'Elizabeth Meriwether',
     seasons: [
@@ -5267,8 +3549,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: "",
     quotes: [],
   },
-
-  {
+{
     title: 'Double Piège',
     director: 'Danny Brocklehurst',
     seasons: [
@@ -5290,8 +3571,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-
-  {
+{
     title: 'The Witcher',
     director: 'Lauren Schmidt Hissrich',
     seasons: [
@@ -5340,8 +3620,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-
-  {
+{
     title: 'Alice in borderland',
     director: 'Shinsuke Sato',
     seasons: [
@@ -5381,40 +3660,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-
-  {
-    title: 'Bip Bip & Le Coyotte',
-    director: 'Chuck Jones',
-    seasons: [
-      {
-        seasonNumber: 1,
-        seasonRating: 3.75,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 2,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-    ],
-    owned: false,
-    watchPriority: 1,
-    wantToWatchAgain: false,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    quotes: [],
-  },
-
-  {
+{
     title: 'Good Girls',
     director: 'Jenna Benda, Ali Gordon',
     seasons: [
@@ -5463,8 +3709,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-
-  {
+{
     title: 'Gossip Girl',
     director: 'Josh Schwartz, Stephanie Savage',
     seasons: [
@@ -5531,158 +3776,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-
-  {
-    title: 'Le laboratoire de Dexter',
-    director: 'Genndy Tartakovsky',
-    seasons: [
-      {
-        seasonNumber: 1,
-        seasonRating: 3.25,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 2,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 3,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 4,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-    ],
-    owned: false,
-    watchPriority: 1,
-    wantToWatchAgain: false,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    quotes: [],
-  },
-
-  {
-    title: 'Looney Tunes Cartoon',
-    director: 'Pete Browngardt',
-    seasons: [
-      {
-        seasonNumber: 1,
-        seasonRating: 3.75,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 2,
-        seasonRating: 3.75,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 3,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 4,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-    ],
-    owned: false,
-    watchPriority: 1,
-    wantToWatchAgain: false,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    quotes: [],
-  },
-
-  {
-    title: 'Ranma 1/2',
-    director: 'Rumiko Takahashi',
-    seasons: [
-      {
-        seasonNumber: 1,
-        seasonRating: 3.25,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 2,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 3,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 4,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-    ],
-    owned: false,
-    watchPriority: 1,
-    wantToWatchAgain: false,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    quotes: [],
-  },
-
-  {
+{
     title: 'Sex Education',
     director: 'Laurie Nunn',
     seasons: [
@@ -5731,40 +3825,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-
-  {
-    title: 'Tom & Jerry',
-    director: 'William Hanna, Joseph Barbera',
-    seasons: [
-      {
-        seasonNumber: 1,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 2,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-    ],
-    owned: false,
-    watchPriority: 1,
-    wantToWatchAgain: false,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    quotes: [],
-  },
-
-  {
+{
     title: "La carte des désirs",
     director: "Laura M. Campos, Gemma Ferraté",
     seasons: [
@@ -5786,8 +3847,7 @@ export const guillaumeSeries: UserSeries = [
     loaned: "",
     quotes: [],
   },
-
-  {
+{
     title: "Lanterns",
     director: "Chris Mundy",
     seasons: [

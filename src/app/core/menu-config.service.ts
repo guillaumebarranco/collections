@@ -8,6 +8,7 @@ export const CONFIGURABLE_MENU_KEYS = [
   'children-books',
   'movies',
   'series',
+  'animes',
   'games',
   'mangas',
   'manwhas',
@@ -46,6 +47,7 @@ function readStored(): Set<string> {
     const storedSet = new Set(valid);
     // Clé "adaptations" (ex. "mix") : l’afficher par défaut si absente du storage
     for (const key of [
+      'animes',
       'adaptations',
       'quizzs',
       'records',

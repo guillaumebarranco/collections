@@ -1,0 +1,121 @@
+<app-menu></app-menu>
+
+<ng-template #selectionSummaryBand>
+  <div class="selection-info">
+    <span class="count">{{ modifiedCount() }} animé(s) modifiée(s)</span>
+    <span class="total">sur {{ allAnimes().length }}</span>
+  </div>
+
+  <label class="select-filter-option">
+    <input
+      type="checkbox"
+      [checked]="showOnlyUnrated()"
+      (change)="toggleShowOnlyUnrated($any($event.target).checked)"
+    />
+    Filtrer sur les animés qui n'ont pas de note
+  </label>
+
+  <div class="select-search">
+    <input
+      type="search"
+      class="select-search-input"
+      placeholder="Rechercher par titre, réalisateur ou acteur…"
+      [value]="searchQuery()"
+      (input)="onSearchChange($any($event.target).value)"
+      aria-label="Rechercher un animé"
+    />
+  </div>
+
+  <div class="actions">
+    <button
+      class="makya-btn-big"
+      (click)="saveAnimesRatings()"
+      [disabled]="allAnimes().length === 0 || isSaving()"
+    >
+      ✅ Enregistrer mes notes ({{ modifiedCount() }})
+    </button>
+  </div>
+</ng-template>
+
+<div class="select-animes-rating-container">
+  <div class="header">
+    <h1>Mettre à jour les notes de mes animés</h1>
+
+    <div class="selection-description">
+      <p>
+        Bonjour {{ username() }} 👋 <br /><br />
+        Sur cette page, tu peux mettre à jour la note de chaque animé de ta
+        collection. <br /><br />
+        Passe ta souris sur un animé pour voir les options de notes disponibles
+        et clique sur la note correspondante. <br /><br />
+        Une fois que tu as terminé, clique sur "Enregistrer mes notes" pour
+        appliquer les changements.
+      </p>
+    </div>
+  </div>
+
+  <div class="toolbar">
+    <ng-container *ngTemplateOutlet="selectionSummaryBand" />
+  </div>
+
+  @if (displayedAnimes().length === 0 && allAnimes().length > 0) {
+  <div class="select-empty-state">
+    @if (searchQuery().trim()) {
+    <p>Aucun animé ne correspond à ta recherche.</p>
+    } @else if (showOnlyUnrated()) {
+    <p>🎉 Toutes tes animés ont déjà une note !</p>
+    }
+  </div>
+  }
+
+  <div class="animes-grid">
+    @for (anime of displayedAnimes(); track `${anime.title}-${anime.releaseDate}`) {
+    <div
+      class="anime-poster"
+      [title]="anime.title + ' (' + anime.releaseDate.substring(0, 4) + ')'"
+    >
+      <img [src]="anime.coverUrl" [alt]="anime.title" />
+      <div class="overlay">
+        <div class="anime-info">
+          <span class="anime-title">{{ anime.title }}</span>
+        </div>
+        <div class="season-list">
+          @for (season of getEditableSeasons(anime); track season.seasonNumber)
+          {
+          <div class="season-row">
+            <div class="season-label">Saison {{ season.seasonNumber }}</div>
+            <div class="season-current">
+              Note : {{ getSeasonRating(anime, season.seasonNumber) }}
+            </div>
+            <div class="season-buttons">
+              @for (rating of ratingOptions; track rating) {
+              <button
+                class="season-btn"
+                [class.active]="
+                  getSeasonRating(anime, season.seasonNumber) === rating
+                "
+                (click)="
+                  updateSeasonRating(anime, season.seasonNumber, rating);
+                  $event.stopPropagation()
+                "
+                (mousedown)="$event.stopPropagation()"
+              >
+                {{ rating }}
+              </button>
+              }
+            </div>
+          </div>
+          }
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+
+  <div
+    class="toolbar toolbar--footer"
+    aria-label="Résumé des modifications et enregistrement en bas de page"
+  >
+    <ng-container *ngTemplateOutlet="selectionSummaryBand" />
+  </div>
+</div>

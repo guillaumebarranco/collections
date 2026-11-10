@@ -29,6 +29,7 @@ import { getAllBaseGames } from '../../../facades/games/games.facade';
 import { getAllBaseMangas } from '../../../facades/mangas/mangas.facade';
 import { getAllBaseManwhas } from '../../../facades/manwhas/manwhas.facade';
 import { getAllBaseMovies } from '../../../facades/movies/movies.facade';
+import { getAllBaseAnimes } from '../../../facades/animes/animes.facade';
 import { BaseBook } from '../../../models/book-model';
 import { BaseBd } from '../../../models/bd-model';
 import { BaseComic } from '../../../models/comic-model';
@@ -36,6 +37,7 @@ import { BaseGame } from '../../../models/game-model';
 import { BaseManga } from '../../../models/manga-model';
 import { BaseManwha } from '../../../models/manwha-model';
 import { BaseMovie } from '../../../models/movie-model';
+import { BaseAnime } from '../../../models/anime-model';
 import {
   MAT_DIALOG_DATA,
   MatDialog,
@@ -177,6 +179,7 @@ export class EditSerieComponent {
   readonly baseManwhas = signal<BaseManwha[]>([]);
   readonly baseMovies = signal<BaseMovie[]>([]);
   readonly baseSeries = signal<BaseSerie[]>([]);
+  readonly baseAnimes = signal<BaseAnime[]>([]);
   readonly fromEntitySourceType = signal<SerieFromEntityType | ''>('');
 
   readonly fromEntityTypeSelectOptions: {
@@ -192,6 +195,7 @@ export class EditSerieComponent {
     { value: 'game', label: 'Jeu vidéo' },
     { value: 'movie', label: 'Film' },
     { value: 'serie', label: 'Série' },
+    { value: 'anime', label: 'Animé' },
   ];
 
   readonly fromEntityWorkOptions = computed<SearchableSelectOption[]>(() => {
@@ -256,6 +260,13 @@ export class EditSerieComponent {
             value: `${s.title}|${s.director}`,
             label: `${s.title} — ${s.director}`,
           }));
+      case 'anime':
+        return [...this.baseAnimes()]
+          .sort(sortByTitle)
+          .map((s) => ({
+            value: `${s.title}|${s.director}`,
+            label: `${s.title} — ${s.director}`,
+          }));
       default:
         return [];
     }
@@ -297,6 +308,7 @@ export class EditSerieComponent {
       manwhas,
       movies,
       series,
+      animes,
     ] = await Promise.all([
       getAllBaseBooks(),
       getAllBaseBds(),
@@ -306,6 +318,7 @@ export class EditSerieComponent {
       getAllBaseManwhas(),
       getAllBaseMovies(),
       getAllBaseSeries(),
+      getAllBaseAnimes(),
     ]);
     this.baseBooks.set(books);
     this.baseBds.set(bds);
@@ -315,6 +328,7 @@ export class EditSerieComponent {
     this.baseManwhas.set(manwhas);
     this.baseMovies.set(movies);
     this.baseSeries.set(series);
+    this.baseAnimes.set(animes);
   }
 
   getFromEntityTypeDisplayLabel(type: SerieFromEntityType | undefined): string {

@@ -7,6 +7,7 @@ import { ComicsComponent } from './containers/collections/comics/comics.componen
 import { BdsComponent } from './containers/collections/bds/bds.component';
 import { MoviesComponent } from './containers/collections/movies/movies.component';
 import { SeriesComponent } from './containers/collections/series/series.component';
+import { AnimesComponent } from './containers/collections/animes/animes.component';
 import { GamesComponent } from './containers/collections/games/games.component';
 import { DashboardComponent } from './containers/dashboard/dashboard.component';
 import { SelectMoviesComponent } from './containers/selection/movies/select-movies/select-movies.component';
@@ -25,6 +26,10 @@ import { SelectSeriesComponent } from './containers/selection/series/select-seri
 import { SelectSeriesRatingComponent } from './containers/selection/series/select-series-rating/select-series-rating.component';
 import { SelectSeriesTimesWatchedComponent } from './containers/selection/series/select-series-times-watched/select-series-times-watched.component';
 import { SelectSeriesOwnedComponent } from './containers/selection/series/select-series-owned/select-series-owned.component';
+import { SelectAnimesComponent } from './containers/selection/animes/select-animes/select-animes.component';
+import { SelectAnimesRatingComponent } from './containers/selection/animes/select-animes-rating/select-animes-rating.component';
+import { SelectAnimesTimesWatchedComponent } from './containers/selection/animes/select-animes-times-watched/select-animes-times-watched.component';
+import { SelectAnimesOwnedComponent } from './containers/selection/animes/select-animes-owned/select-animes-owned.component';
 import { SelectMangasComponent } from './containers/selection/mangas/select-mangas/select-mangas.component';
 import { SelectMangasRatingComponent } from './containers/selection/mangas/select-mangas-rating/select-mangas-rating.component';
 import { SelectMangasTimesReadComponent } from './containers/selection/mangas/select-mangas-times-read/select-mangas-times-read.component';
@@ -53,12 +58,14 @@ import { EditMovieComponent } from './containers/edit/edit-movie/edit-movie.comp
 import { EditBookComponent } from './containers/edit/edit-book/edit-book.component';
 import { EditChildrenBookComponent } from './containers/edit/edit-children-book/edit-children-book.component';
 import { EditSerieComponent } from './containers/edit/edit-serie/edit-serie.component';
+import { EditAnimeComponent } from './containers/edit/edit-anime/edit-anime.component';
 import { EditGameComponent } from './containers/edit/edit-game/edit-game.component';
 import { AdminLayoutComponent } from './containers/admin-layout/admin-layout.component';
 import { AdminDashboardComponent } from './containers/admin-dashboard/admin-dashboard.component';
 import { AdminMoviesComponent } from './containers/admin-collections/movies/movies.component';
 import { AdminGamesComponent } from './containers/admin-collections/games/games.component';
 import { AdminSeriesComponent } from './containers/admin-collections/series/series.component';
+import { AdminAnimesComponent } from './containers/admin-collections/animes/animes.component';
 import { AdminBooksComponent } from './containers/admin-collections/books/books.component';
 import { AdminChildrenBooksComponent } from './containers/admin-collections/children-books/children-books.component';
 import { AdminMangasComponent } from './containers/admin-collections/mangas/mangas.component';
@@ -122,6 +129,10 @@ export const routes: Routes = [
         component: AdminSeriesComponent,
       },
       {
+        path: 'animes',
+        component: AdminAnimesComponent,
+      },
+      {
         path: 'games',
         component: AdminGamesComponent,
       },
@@ -144,6 +155,10 @@ export const routes: Routes = [
   {
     path: 'series',
     component: SeriesComponent,
+  },
+  {
+    path: 'animes',
+    component: AnimesComponent,
   },
   {
     path: 'games',
@@ -241,6 +256,22 @@ export const routes: Routes = [
   {
     path: 'select-series-owned',
     component: SelectSeriesOwnedComponent,
+  },
+  {
+    path: 'select-animes',
+    component: SelectAnimesComponent,
+  },
+  {
+    path: 'select-animes-rating',
+    component: SelectAnimesRatingComponent,
+  },
+  {
+    path: 'select-animes-times-watched',
+    component: SelectAnimesTimesWatchedComponent,
+  },
+  {
+    path: 'select-animes-owned',
+    component: SelectAnimesOwnedComponent,
   },
   {
     path: 'select-mangas',
@@ -419,6 +450,16 @@ export const routes: Routes = [
         ],
       },
       {
+        path: 'animes',
+        component: AnimesComponent,
+        children: [
+          {
+            path: 'edit/:slug',
+            component: EditAnimeComponent,
+          },
+        ],
+      },
+      {
         path: 'games',
         component: GamesComponent,
         children: [
@@ -520,6 +561,22 @@ export const routes: Routes = [
       {
         path: 'select-series-owned',
         component: SelectSeriesOwnedComponent,
+      },
+      {
+        path: 'select-animes',
+        component: SelectAnimesComponent,
+      },
+      {
+        path: 'select-animes-rating',
+        component: SelectAnimesRatingComponent,
+      },
+      {
+        path: 'select-animes-times-watched',
+        component: SelectAnimesTimesWatchedComponent,
+      },
+      {
+        path: 'select-animes-owned',
+        component: SelectAnimesOwnedComponent,
       },
       {
         path: 'select-mangas',

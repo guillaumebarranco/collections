@@ -33,6 +33,10 @@ function toLightSerie(m: any) {
   };
 }
 
+function toLightAnime(m: any) {
+  return toLightSerie(m);
+}
+
 function toLightGame(m: any) {
   return {
     title: m.title ?? '',
@@ -80,6 +84,7 @@ module.exports = {
   toLightMovie,
   toLightBook,
   toLightSerie,
+  toLightAnime,
   toLightGame,
   toLightManga,
   toLightManwha,

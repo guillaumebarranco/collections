@@ -5,6 +5,7 @@ import type { Comic } from '../models/comic-model';
 import type { Bd } from '../models/bd-model';
 import type { Manwha } from '../models/manwha-model';
 import type { Serie } from '../models/serie-model';
+import type { Anime } from '../models/anime-model';
 import type { Game, UserGameSession } from '../models/game-model';
 import type { Music } from '../models/music-model';
 import { getGamePlayedHoursFromSessions } from './games.utils';
@@ -22,6 +23,7 @@ export type ActivityCounts = {
   manwhas: number;
   movies: number;
   series: number;
+  animes: number;
   games: number;
 };
 
@@ -81,6 +83,7 @@ export type ActivitySamples = {
   manwhas: ActivityManwhaSample[];
   movies: ActivityMovieSample[];
   series: ActivitySerieSample[];
+  animes: ActivitySerieSample[];
   games: ActivityGameSample[];
 };
 
@@ -1335,6 +1338,7 @@ export function computeActivityInRange(
   manwhas: Manwha[],
   movies: Movie[],
   series: Serie[],
+  animes: Anime[],
   games: Game[],
   _musics: Music[],
   rangeStart: Date,
@@ -1378,6 +1382,9 @@ export function computeActivityInRange(
   const sr = series.filter((serie) =>
     serieHasActivityInRange(serie, rangeStart, rangeEnd)
   );
+  const an = animes.filter((anime) =>
+    serieHasActivityInRange(anime as unknown as Serie, rangeStart, rangeEnd)
+  );
   const gm = games.filter((game) =>
     gameHasActivityInRange(game, rangeStart, rangeEnd, reference)
   );
@@ -1391,6 +1398,7 @@ export function computeActivityInRange(
       manwhas: mw.length,
       movies: mv.length,
       series: sr.length,
+      animes: an.length,
       games: gm.length,
     },
     samples: {
@@ -1410,6 +1418,11 @@ export function computeActivityInRange(
       ),
       series: takeSerieSamples(
         sr.map((x) => formatSerieSample(x, rangeStart, rangeEnd))
+      ),
+      animes: takeSerieSamples(
+        an.map((x) =>
+          formatSerieSample(x as unknown as Serie, rangeStart, rangeEnd)
+        )
       ),
       games: takeGameSamples(
         gm.map((x) => formatGameSample(x, rangeStart, rangeEnd, reference))
@@ -1611,6 +1624,7 @@ export function computeActivityDurationInRange(
   manwhas: Manwha[],
   movies: Movie[],
   series: Serie[],
+  animes: Anime[],
   games: Game[],
   rangeStart: Date,
   rangeEnd: Date,
@@ -1793,6 +1807,48 @@ export function computeActivityDurationInRange(
       }
       const key = `serie|${serie.title}|${serie.director}|s${s.seasonNumber}`;
       const session = serieSeasonSessionMinutes(serie, s.seasonNumber);
+      viewingMinutes = addSessionMinutesInRange(
+        viewingMinutes,
+        viewingSeen,
+        key,
+        s.firstViewedDate,
+        rangeStart,
+        rangeEnd,
+        session
+      );
+      viewingMinutes = addSessionMinutesInRange(
+        viewingMinutes,
+        viewingSeen,
+        key,
+        s.lastViewedDate,
+        rangeStart,
+        rangeEnd,
+        session
+      );
+      for (const raw of s.otherViewedDates ?? []) {
+        viewingMinutes = addSessionMinutesInRange(
+          viewingMinutes,
+          viewingSeen,
+          key,
+          raw,
+          rangeStart,
+          rangeEnd,
+          session
+        );
+      }
+    }
+  }
+
+  for (const anime of animes) {
+    for (const s of anime.seasons ?? []) {
+      if ((s.seasonTimesWatched ?? 0) <= 0) {
+        continue;
+      }
+      const key = `anime|${anime.title}|${anime.director}|s${s.seasonNumber}`;
+      const session = serieSeasonSessionMinutes(
+        anime as unknown as Serie,
+        s.seasonNumber
+      );
       viewingMinutes = addSessionMinutesInRange(
         viewingMinutes,
         viewingSeen,

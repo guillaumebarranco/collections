@@ -11,11 +11,12 @@
     Impossible de charger les données communautaires pour cette œuvre.
   </p>
   } @else if (
-    (data.kind === 'serie' && serieSeasonGroups().length === 0) ||
-    (data.kind !== 'serie' && rows().length === 0)
+    ((data.kind === 'serie' || data.kind === 'anime') &&
+      serieSeasonGroups().length === 0) ||
+    (data.kind !== 'serie' && data.kind !== 'anime' && rows().length === 0)
   ) {
   <p class="community-modal__empty">Aucun autre suivi enregistré.</p>
-  } @else if (data.kind === 'serie') {
+  } @else if (data.kind === 'serie' || data.kind === 'anime') {
   <ul class="community-modal__season-groups" role="list">
     @for (group of serieSeasonGroups(); track group.seasonNumber) {
     <li class="community-modal__season-group" role="listitem">

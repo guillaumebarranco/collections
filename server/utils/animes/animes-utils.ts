@@ -1,0 +1,1279 @@
+const fs = require('fs');
+const path = require('path');
+const { escapeStringForTsDoubleQuote: escapeString } = require('../escape-ts-string');
+const { normalizeWatchPriority } = require('../watch-priority-utils');
+const {
+  parseWatchingFromFile,
+  formatWatchingTsLine,
+} = require('../in-progress-fields');
+
+const USERS_ANIMES_DIR = path.join(
+  __dirname,
+  '..',
+  '..',
+  '..',
+  'src',
+  'app',
+  'utils',
+  'users'
+);
+const BASE_ANIMES_DIR = path.join(
+  __dirname,
+  '..',
+  '..',
+  '..',
+  'src',
+  'app',
+  'utils',
+  'entities',
+  'animes'
+);
+const BASE_ANIMES_API_FILE = path.join(BASE_ANIMES_DIR, 'base_animes_api.ts');
+
+import type {
+  BaseAnime,
+  BaseAnimeSeasonData,
+  MandatoryAnimeData,
+  UserAnime,
+  UserAnimeFileRow,
+  UserAnimeSeason,
+} from '../../../src/app/models/anime-model';
+
+type AnimeUpdatePayload = Partial<UserAnimeFileRow> &
+  Pick<UserAnime, 'title' | 'director'>;
+type AnimeIdentityPayload = {
+  matchTitle?: string;
+  matchDirector?: string;
+} & Partial<Pick<UserAnime, 'title' | 'director'>>;
+type BaseAnimeFileUpdatePayload = Partial<BaseAnime> & {
+  matchTitle?: string;
+  matchDirector?: string;
+};
+type AnimeRemovePayload = Pick<MandatoryAnimeData, 'title' | 'director'>;
+
+function normalizeNumber(value: unknown, field: string) {
+  if (value === undefined || value === null) return undefined;
+  const parsed = Number(value);
+  if (Number.isNaN(parsed)) {
+    throw new Error(`Invalid number for ${field}`);
+  }
+  return parsed;
+}
+
+function normalizeBoolean(value: unknown, field: string) {
+  if (value === undefined || value === null) return undefined;
+  if (typeof value === 'boolean') return value;
+  if (value === 'true') return true;
+  if (value === 'false') return false;
+  throw new Error(`Invalid boolean for ${field}`);
+}
+
+function normalizeString(value: unknown, field: string) {
+  if (value === undefined || value === null) return undefined;
+  if (typeof value !== 'string') {
+    throw new Error(`Invalid string for ${field}`);
+  }
+  return value;
+}
+
+function parseStringField(objectText: string, key: string) {
+  const regex = new RegExp(
+    `["']?${key}["']?\\s*:\\s*(['"])((?:\\\\.|(?!\\1).)*)\\1`
+  );
+  const match = objectText.match(regex);
+  if (!match) return null;
+  const quote = match[1];
+  return unescapeString(match[2], quote);
+}
+
+function parseStringArrayField(objectText: string, key: string): string[] {
+  const keyMatch = new RegExp(`\\n\\s*${key}\\s*:`).exec(objectText);
+  if (!keyMatch || keyMatch.index === undefined) return [];
+  const afterKey = objectText.slice(keyMatch.index);
+  const bracketStart = afterKey.indexOf('[');
+  if (bracketStart === -1) return [];
+  let depth = 1;
+  let i = bracketStart + 1;
+  while (i < afterKey.length && depth > 0) {
+    const c = afterKey[i];
+    if (c === '[') depth += 1;
+    else if (c === ']') depth -= 1;
+    i += 1;
+  }
+  const inner = afterKey.slice(bracketStart + 1, i - 1);
+  if (!inner.trim()) return [];
+  const regex = /(['"])((?:\\.|(?!\1).)*)\1/g;
+  const result: string[] = [];
+  let match = regex.exec(inner);
+  while (match) {
+    const quote = match[1];
+    const raw = match[2];
+    result.push(
+      quote === '"'
+        ? raw.replace(/\\"/g, '"').replace(/\\\\/g, '\\')
+        : raw.replace(/\\'/g, "'").replace(/\\\\/g, '\\')
+    );
+    match = regex.exec(inner);
+  }
+  return result;
+}
+
+function upsertQuotesField(objectText: string, quotes: string[]) {
+  const serialized = `quotes: ${formatOtherViewedDatesTs(quotes)}`;
+  const keyMatch = /\n\s*quotes\s*:/.exec(objectText);
+  if (!keyMatch || keyMatch.index === undefined) {
+    return objectText.replace(/\n(\s*)\}\s*$/, `\n$1  ${serialized},\n$1}`);
+  }
+  const keyIndex = keyMatch.index + keyMatch[0].indexOf('quotes');
+  const bracketStart = objectText.indexOf('[', keyIndex);
+  if (bracketStart === -1) {
+    return objectText.replace(/\n(\s*)\}\s*$/, `\n$1  ${serialized},\n$1}`);
+  }
+  let depth = 0;
+  let i = bracketStart;
+  let quote: string | null = null;
+  while (i < objectText.length) {
+    const char = objectText[i];
+    if (quote) {
+      if (char === '\\') {
+        i += 2;
+        continue;
+      }
+      if (char === quote) quote = null;
+      i += 1;
+      continue;
+    }
+    if (char === '"' || char === "'") {
+      quote = char;
+      i += 1;
+      continue;
+    }
+    if (char === '[') depth += 1;
+    else if (char === ']') {
+      depth -= 1;
+      if (depth === 0) {
+        i += 1;
+        break;
+      }
+    }
+    i += 1;
+  }
+  return objectText.slice(0, keyIndex) + serialized + objectText.slice(i);
+}
+
+function formatOtherViewedDatesTs(dates: string[] | undefined): string {
+  if (!Array.isArray(dates) || dates.length === 0) {
+    return '[]';
+  }
+  const parts = dates.map((d) => `"${escapeString(d)}"`);
+  return `[${parts.join(', ')}]`;
+}
+
+/** Conserve otherViewedDates du fichier si le payload ne les envoie pas. */
+function mergeSeasonsPreservingOtherViewedDates(
+  incoming: UserAnimeSeason[],
+  existing: UserAnimeSeason[] | null
+): UserAnimeSeason[] {
+  const byNum = new Map((existing ?? []).map((s) => [s.seasonNumber, s]));
+  return incoming.map((row) => {
+    if (row.otherViewedDates !== undefined) {
+      return {
+        ...row,
+        otherViewedDates: Array.isArray(row.otherViewedDates)
+          ? row.otherViewedDates
+          : [],
+      };
+    }
+    const prev = byNum.get(row.seasonNumber);
+    const prevOther = prev?.otherViewedDates;
+    return {
+      ...row,
+      otherViewedDates: Array.isArray(prevOther) ? prevOther : [],
+    };
+  });
+}
+
+function unescapeString(value: string, quote: string) {
+  return value
+    .replace(new RegExp(`\\\\${quote}`, 'g'), quote)
+    .replace(/\\\\/g, '\\');
+}
+
+function escapeForSingleQuotedTs(s: string) {
+  return String(s).replace(/\\/g, '\\\\').replace(/'/g, "\\'");
+}
+
+function formatAnimeGenreArrayTs(arr: string[]) {
+  const trimmed = arr.map((s) => String(s).trim()).filter(Boolean);
+  if (trimmed.length === 0) {
+    return '[]';
+  }
+  return (
+    '[' + trimmed.map((s) => `'${escapeForSingleQuotedTs(s)}'`).join(', ') + ']'
+  );
+}
+
+function normalizeAnimeGenreInput(value: unknown): string[] {
+  if (value === undefined || value === null) {
+    return [];
+  }
+  if (Array.isArray(value)) {
+    return value.map((s) => String(s).trim()).filter(Boolean);
+  }
+  if (typeof value === 'string') {
+    if (!value.trim()) {
+      return [];
+    }
+    return value
+      .split(',')
+      .map((g) => g.trim())
+      .filter(Boolean);
+  }
+  return [];
+}
+
+const FROM_ENTITY_TYPES = [
+  'book',
+  'bd',
+  'game',
+  'comic',
+  'manga',
+  'manwha',
+  'movie',
+  'anime',
+];
+
+function parseFromEntityField(objectText: string) {
+  const nullMatch = objectText.match(/fromEntity\s*:\s*null/);
+  if (nullMatch) return null;
+  const objStart = objectText.indexOf('fromEntity');
+  if (objStart === -1) return null;
+  const braceStart = objectText.indexOf('{', objStart);
+  if (braceStart === -1) return null;
+  let depth = 1;
+  let i = braceStart + 1;
+  while (i < objectText.length && depth > 0) {
+    const c = objectText[i];
+    if (c === '{') depth += 1;
+    else if (c === '}') depth -= 1;
+    i += 1;
+  }
+  const inner = objectText.slice(braceStart, i);
+  const entityTypeRaw = parseStringField(inner, 'entityType');
+  const entityType = FROM_ENTITY_TYPES.includes(entityTypeRaw || '')
+    ? entityTypeRaw
+    : 'book';
+  const title = parseStringField(inner, 'title');
+  const secondEntityKey =
+    parseStringField(inner, 'secondEntityKey') ??
+    parseStringField(inner, 'author');
+  if (title != null && secondEntityKey != null)
+    return {
+      entityType: entityType || 'book',
+      title,
+      secondEntityKey,
+    };
+  return null;
+}
+
+function upsertFromEntityField(
+  objectText: string,
+  value:
+    | { entityType: string; title: string; secondEntityKey: string }
+    | null
+    | undefined
+) {
+  if (value === undefined) return objectText;
+  const entityType =
+    value !== null && FROM_ENTITY_TYPES.includes(value.entityType)
+      ? value.entityType
+      : 'book';
+  const fromEntityBlock =
+    value === null
+      ? 'fromEntity: null'
+      : `fromEntity: { entityType: "${escapeString(
+          entityType
+        )}", title: "${escapeString(value.title)}", secondEntityKey: "${escapeString(
+          value.secondEntityKey
+        )}" }`;
+  const existingNull = /fromEntity\s*:\s*null/;
+  const existingObj = /fromEntity\s*:\s*\{[\s\S]*?\}/;
+  if (existingNull.test(objectText)) {
+    return objectText.replace(existingNull, fromEntityBlock);
+  }
+  if (existingObj.test(objectText)) {
+    return objectText.replace(existingObj, fromEntityBlock);
+  }
+  return objectText.replace(/\}\s*$/, `    ${fromEntityBlock},\n  }`);
+}
+
+/** Lit genre: [...] ou ancien genre: 'A, B' dans un littéral d'objet animé. */
+function parseAnimeGenresField(objectText: string): string[] {
+  const keyMatch = objectText.match(/\bgenre\s*:\s*/);
+  if (!keyMatch || keyMatch.index === undefined) {
+    return [];
+  }
+  let pos = keyMatch.index + keyMatch[0].length;
+  while (pos < objectText.length && /\s/.test(objectText[pos])) {
+    pos += 1;
+  }
+  if (pos >= objectText.length) {
+    return [];
+  }
+  if (objectText[pos] === '[') {
+    let depth = 0;
+    let i = pos;
+    while (i < objectText.length) {
+      const c = objectText[i];
+      if (c === '[') {
+        depth += 1;
+      } else if (c === ']') {
+        depth -= 1;
+        if (depth === 0) {
+          i += 1;
+          break;
+        }
+      }
+      i += 1;
+    }
+    const inner = objectText.slice(pos + 1, i - 1);
+    if (!inner.trim()) {
+      return [];
+    }
+    const regex = /(['"])((?:\\.|(?!\1).)*)\1/g;
+    const result: string[] = [];
+    let match = regex.exec(inner);
+    while (match) {
+      result.push(unescapeString(match[2], match[1]));
+      match = regex.exec(inner);
+    }
+    return result;
+  }
+  const legacy = parseStringField(objectText, 'genre');
+  if (!legacy?.trim()) {
+    return [];
+  }
+  return legacy
+    .split(',')
+    .map((g) => g.trim())
+    .filter(Boolean);
+}
+
+function upsertAnimeGenreField(objectText: string, value: unknown) {
+  if (value === undefined) {
+    return objectText;
+  }
+  const arr = normalizeAnimeGenreInput(value);
+  const serialized = formatAnimeGenreArrayTs(arr);
+  const regex = /\bgenre\s*:\s*(\[[\s\S]*?\]|(['"])((?:\\.|(?!\2).)*)\2)/;
+  if (regex.test(objectText)) {
+    return objectText.replace(regex, `genre: ${serialized}`);
+  }
+  return objectText.replace(/\}\s*$/, `    genre: ${serialized},\n  }`);
+}
+
+function parseNumberField(objectText: string, key: string) {
+  const regex = new RegExp(`["']?${key}["']?\\s*:\\s*([^,\\n]+)`);
+  const match = objectText.match(regex);
+  if (!match) return null;
+  const parsed = Number(match[1]);
+  return Number.isNaN(parsed) ? null : parsed;
+}
+
+/** Extrait le contenu d'un tableau `[...]` après une clé (gère les `[]` imbriqués, ex. otherViewedDates). */
+function extractBracketArrayInner(objectText: string, key: string): string | null {
+  const keyMatch = objectText.match(
+    new RegExp(`["']?${key}["']?\\s*:\\s*\\[`)
+  );
+  if (!keyMatch || keyMatch.index === undefined) {
+    return null;
+  }
+  const bracketStart = keyMatch.index + keyMatch[0].length - 1;
+  let depth = 1;
+  let i = bracketStart + 1;
+  while (i < objectText.length && depth > 0) {
+    const c = objectText[i];
+    if (c === '[') depth += 1;
+    else if (c === ']') depth -= 1;
+    i += 1;
+  }
+  if (depth !== 0) {
+    return null;
+  }
+  return objectText.slice(bracketStart + 1, i - 1);
+}
+
+/** Découpe les objets `{...}` au premier niveau d'un corps de tableau. */
+function splitTopLevelObjectLiterals(arrayBody: string): string[] {
+  const entries: string[] = [];
+  let depth = 0;
+  let start = -1;
+  for (let i = 0; i < arrayBody.length; i += 1) {
+    const c = arrayBody[i];
+    if (c === '{') {
+      if (depth === 0) {
+        start = i;
+      }
+      depth += 1;
+    } else if (c === '}') {
+      depth -= 1;
+      if (depth === 0 && start !== -1) {
+        entries.push(arrayBody.slice(start, i + 1));
+        start = -1;
+      }
+    }
+  }
+  return entries;
+}
+
+function parseSeasonsField(objectText: string) {
+  const body = extractBracketArrayInner(objectText, 'seasons');
+  if (body === null) return null;
+  const seasons: UserAnimeSeason[] = [];
+  const entries = splitTopLevelObjectLiterals(body);
+  for (const entry of entries) {
+    const seasonNumber = parseNumberField(entry, 'seasonNumber') ?? 0;
+    const seasonRating = parseNumberField(entry, 'seasonRating') ?? 0;
+    const { seasonTimesWatched, watching } = parseWatchingFromFile(
+      parseNumberField(entry, 'seasonTimesWatched') ?? 0,
+      parseBooleanField(entry, 'watching')
+    );
+    const firstViewedDate = parseStringField(entry, 'firstViewedDate') ?? '';
+    const lastViewedDate = parseStringField(entry, 'lastViewedDate') ?? '';
+    const otherViewedDates =
+      parseStringArrayField(entry, 'otherViewedDates') ?? [];
+    seasons.push({
+      seasonNumber,
+      seasonRating,
+      watching,
+      seasonTimesWatched,
+      firstViewedDate,
+      lastViewedDate,
+      otherViewedDates,
+    });
+  }
+  return seasons;
+}
+
+function parseBooleanField(objectText: string, key: string) {
+  const regex = new RegExp(`["']?${key}["']?\\s*:\\s*(true|false)`);
+  const match = objectText.match(regex);
+  if (!match) return null;
+  return match[1] === 'true';
+}
+
+function parseActors(objectText: string): string[] {
+  const regex = /["']?name["']?\s*:\s*(['"])((?:\\.|(?!\1).)*)\1/g;
+  const actors: string[] = [];
+  let match = regex.exec(objectText);
+  while (match) {
+    const quote = match[1];
+    actors.push(unescapeString(match[2], quote));
+    match = regex.exec(objectText);
+  }
+  return actors;
+}
+
+function parseSeasonsDataField(objectText: string) {
+  const seasonsDataMatch = objectText.match(
+    /["']?seasonsData["']?\s*:\s*\[([\s\S]*?)\]/
+  );
+  if (!seasonsDataMatch) return null;
+  const body = seasonsDataMatch[1];
+  const seasonsData: BaseAnimeSeasonData[] = [];
+  const entries = body.match(/\{[\s\S]*?\}/g) || [];
+  for (const entry of entries) {
+    const seasonNumber = parseNumberField(entry, 'seasonNumber') ?? 0;
+    const nbEpisodes = parseNumberField(entry, 'nbEpisodes') ?? 0;
+    const totalLength = parseNumberField(entry, 'totalLength') ?? 0;
+    seasonsData.push({ seasonNumber, nbEpisodes, totalLength });
+  }
+  return seasonsData;
+}
+
+/** Index du '[' qui ouvre le tableau littéral (après " = ["), pas celui du type UserAnime[]. */
+function getArrayLiteralStartIndex(content: string, startIndex: number) {
+  const eqBracket = content.indexOf(' = [', startIndex);
+  if (eqBracket >= 0) {
+    return eqBracket + ' = ['.length - 1;
+  }
+  return content.indexOf('[', startIndex);
+}
+
+function getArrayBoundsFromIndex(content: string, startIndex: number) {
+  const arrayStart = getArrayLiteralStartIndex(content, startIndex);
+  const arrayEnd = content.indexOf('];', arrayStart);
+  if (arrayStart === -1 || arrayEnd === -1) {
+    return null;
+  }
+  return { arrayStart, arrayEnd };
+}
+
+function findAnimesArrayBounds(content: string) {
+  const exportIndex = content.indexOf('export const');
+  if (exportIndex !== -1) {
+    const bounds = getArrayBoundsFromIndex(content, exportIndex);
+    if (bounds) return bounds;
+  }
+
+  const rawMatch = content.match(/const\s+raw\w*\s*=\s*\[/);
+  if (rawMatch && rawMatch.index !== undefined) {
+    const bounds = getArrayBoundsFromIndex(content, rawMatch.index);
+    if (bounds) return bounds;
+  }
+
+  return null;
+}
+
+function parseAnimesFromFile(content: string): UserAnimeFileRow[] {
+  const bounds = findAnimesArrayBounds(content);
+  if (!bounds) {
+    return [];
+  }
+
+  const { arrayStart, arrayEnd } = bounds;
+
+  const animes: UserAnimeFileRow[] = [];
+  let i = arrayStart;
+  let depth = 0;
+  let objectStart = -1;
+
+  while (i < arrayEnd) {
+    const char = content[i];
+    if (char === '{') {
+      if (depth === 0) {
+        objectStart = i;
+      }
+      depth += 1;
+    } else if (char === '}') {
+      depth -= 1;
+      if (depth === 0 && objectStart !== -1) {
+        const objectEnd = i;
+        const objectText = content.slice(objectStart, objectEnd + 1);
+        const title = parseStringField(objectText, 'title');
+        const director = parseStringField(objectText, 'director');
+        if (title && director) {
+          animes.push({
+            title,
+            director,
+            seasons: parseSeasonsField(objectText) ?? [],
+            owned: parseBooleanField(objectText, 'owned') ?? false,
+            watchPriority: (normalizeWatchPriority(
+              parseNumberField(objectText, 'watchPriority')
+            ) ?? 1) as UserAnime['watchPriority'],
+            wantToWatchAgain:
+              parseBooleanField(objectText, 'wantToWatchAgain') ?? false,
+            rating: parseNumberField(objectText, 'rating') ?? 0,
+            ratingComment: parseStringField(objectText, 'ratingComment') ?? '',
+            borrowed:
+              parseStringField(objectText, 'borrowed') ??
+              ((parseBooleanField(objectText, 'borrowed') ?? false)
+                ? 'Inconnu'
+                : ''),
+            loaned:
+              parseStringField(objectText, 'loaned') ??
+              ((parseBooleanField(objectText, 'loaned') ?? false)
+                ? 'Inconnu'
+                : ''),
+            quotes: parseStringArrayField(objectText, 'quotes') ?? [],
+          });
+        }
+      }
+    }
+    i += 1;
+  }
+
+  return animes;
+}
+
+function parseBaseAnimesFromFile(content: string): MandatoryAnimeData[] {
+  const exportIndex = content.indexOf('export const');
+  if (exportIndex === -1) {
+    return [];
+  }
+
+  const arrayStart = content.indexOf('[', exportIndex);
+  const arrayEnd = content.indexOf('];', arrayStart);
+  if (arrayStart === -1 || arrayEnd === -1) {
+    return [];
+  }
+
+  const animes: MandatoryAnimeData[] = [];
+  let i = arrayStart;
+  let depth = 0;
+  let objectStart = -1;
+
+  while (i < arrayEnd) {
+    const char = content[i];
+    if (char === '{') {
+      if (depth === 0) {
+        objectStart = i;
+      }
+      depth += 1;
+    } else if (char === '}') {
+      depth -= 1;
+      if (depth === 0 && objectStart !== -1) {
+        const objectEnd = i;
+        const objectText = content.slice(objectStart, objectEnd + 1);
+        const title = parseStringField(objectText, 'title');
+        const director = parseStringField(objectText, 'director');
+        if (title && director) {
+          animes.push({ title, director });
+        }
+      }
+    }
+    i += 1;
+  }
+
+  return animes;
+}
+
+function parseBaseAnimesFullFromFile(content: string): BaseAnime[] {
+  const exportIndex = content.indexOf('export const');
+  if (exportIndex === -1) {
+    return [];
+  }
+
+  const arrayStart = content.indexOf('[', exportIndex);
+  const arrayEnd = content.indexOf('];', arrayStart);
+  if (arrayStart === -1 || arrayEnd === -1) {
+    return [];
+  }
+
+  const animes: BaseAnime[] = [];
+  let i = arrayStart;
+  let depth = 0;
+  let objectStart = -1;
+
+  while (i < arrayEnd) {
+    const char = content[i];
+    if (char === '{') {
+      if (depth === 0) {
+        objectStart = i;
+      }
+      depth += 1;
+    } else if (char === '}') {
+      depth -= 1;
+      if (depth === 0 && objectStart !== -1) {
+        const objectEnd = i;
+        const objectText = content.slice(objectStart, objectEnd + 1);
+        const title = parseStringField(objectText, 'title');
+        const director = parseStringField(objectText, 'director');
+        if (!title || !director) {
+          i += 1;
+          continue;
+        }
+
+        animes.push({
+          title,
+          director,
+          actors: parseActors(objectText).map((name) => ({ name })),
+          coverUrl: parseStringField(objectText, 'coverUrl') || '',
+          releaseDate: parseStringField(objectText, 'releaseDate') || '',
+          endDate: parseStringField(objectText, 'endDate') || '',
+          genre: parseAnimeGenresField(objectText),
+          seasonsData: parseSeasonsDataField(objectText) ?? [],
+          description: parseStringField(objectText, 'description') || '',
+          countryOrigin: parseStringField(objectText, 'countryOrigin') as BaseAnime['countryOrigin'],
+          saga: parseStringField(objectText, 'saga') || '',
+          fromEntity: parseFromEntityField(objectText) ?? null,
+        } as BaseAnime);
+      }
+    }
+    i += 1;
+  }
+
+  return animes;
+}
+
+function appendObjectToArrayFile(filePath: string, objectText: string) {
+  const content = fs.readFileSync(filePath, 'utf8');
+  const exportIndex = content.indexOf('export const');
+  if (exportIndex === -1) {
+    throw new Error('Array not found');
+  }
+  const arrayStart = getArrayLiteralStartIndex(content, exportIndex);
+  const arrayEnd = content.indexOf('];', arrayStart);
+  if (arrayStart === -1 || arrayEnd === -1) {
+    throw new Error('Array bounds not found');
+  }
+
+  const arrayBody = content.slice(arrayStart + 1, arrayEnd);
+  const trimmedBody = arrayBody.trim();
+  const hasItems = /{/.test(arrayBody);
+  const needsComma = hasItems && !trimmedBody.endsWith(',');
+
+  const insert = (needsComma ? ',' : '') + '\n' + objectText + '\n';
+
+  return content.slice(0, arrayEnd) + insert + content.slice(arrayEnd);
+}
+
+function getBaseAnimesFiles() {
+  if (!fs.existsSync(BASE_ANIMES_DIR)) {
+    throw new Error('Base animes directory not found');
+  }
+  return fs
+    .readdirSync(BASE_ANIMES_DIR)
+    .filter((file: string) => file.endsWith('.ts'))
+    .map((file: string) => path.join(BASE_ANIMES_DIR, file));
+}
+
+function baseAnimeExists(title: string, director: string) {
+  const normalizedTitle = title.trim().toLowerCase();
+  const normalizedDirector = director.trim().toLowerCase();
+  const baseFiles = getBaseAnimesFiles();
+  return baseFiles.some((filePath: string) => {
+    const content = fs.readFileSync(filePath, 'utf8');
+    return parseBaseAnimesFromFile(content).some(
+      (anime) =>
+        anime.title?.trim().toLowerCase() === normalizedTitle &&
+        anime.director?.trim().toLowerCase() === normalizedDirector
+    );
+  });
+}
+
+function findBaseAnime(title: string, director: string) {
+  const normalizedTitle = title.trim().toLowerCase();
+  const normalizedDirector = director.trim().toLowerCase();
+  const baseFiles = getBaseAnimesFiles();
+  for (const filePath of baseFiles) {
+    const content = fs.readFileSync(filePath, 'utf8');
+    const match = parseBaseAnimesFullFromFile(content).find(
+      (anime) =>
+        anime.title?.trim().toLowerCase() === normalizedTitle &&
+        anime.director?.trim().toLowerCase() === normalizedDirector
+    );
+    if (match) return match;
+  }
+  return null;
+}
+
+function replaceField(
+  objectText: string,
+  key: string,
+  value: string | number | boolean | undefined
+) {
+  if (value === undefined) return objectText;
+  let next = objectText;
+  if (typeof value === 'string') {
+    const regex = new RegExp(`(${key}\\s*:\\s*)(['"])((?:\\\\.|(?!\\2).)*)\\2`);
+    if (!regex.test(next)) {
+      throw new Error(`Field ${key} not found`);
+    }
+    next = next.replace(regex, (match, prefix) => {
+      const escaped = escapeString(value);
+      return `${prefix}"${escaped}"`;
+    });
+    return next;
+  }
+
+  if (typeof value === 'boolean') {
+    const regex = new RegExp(`(${key}\\s*:\\s*)(true|false)`);
+    if (!regex.test(next)) {
+      throw new Error(`Field ${key} not found`);
+    }
+    next = next.replace(regex, `$1${value}`);
+    return next;
+  }
+
+  if (typeof value === 'number') {
+    const regex = new RegExp(`(${key}\\s*:\\s*)([^,\\n]+)`);
+    if (!regex.test(next)) {
+      throw new Error(`Field ${key} not found`);
+    }
+    next = next.replace(regex, `$1${value}`);
+    return next;
+  }
+
+  return next;
+}
+
+function upsertField(
+  objectText: string,
+  key: string,
+  value: string | number | boolean | undefined
+) {
+  if (value === undefined) return objectText;
+  let next = objectText;
+  if (typeof value === 'string') {
+    const regex = new RegExp(`(${key}\\s*:\\s*)(['"])((?:\\\\.|(?!\\2).)*)\\2`);
+    if (regex.test(next)) {
+      return replaceField(next, key, value);
+    }
+    const escaped = escapeString(value);
+    return next.replace(/\}\s*$/, `    ${key}: "${escaped}",\n  }`);
+  }
+  if (typeof value === 'boolean' || typeof value === 'number') {
+    const regex = new RegExp(`(${key}\\s*:\\s*)([^,\\n]+)`);
+    if (regex.test(next)) {
+      return replaceField(next, key, value);
+    }
+    return next.replace(/\}\s*$/, `    ${key}: ${value},\n  }`);
+  }
+  return next;
+}
+
+function formatActors(actors: string[]) {
+  const items = actors.map(
+    (name) => `      {\n        name: "${escapeString(name)}",\n      }`
+  );
+  return `actors: [\n${items.join(',\n')}\n    ]`;
+}
+
+function upsertActorsField(objectText: string, actors: string[] | undefined) {
+  if (!actors) return objectText;
+  const normalized = actors.filter((name) => name.trim().length > 0);
+  const block = formatActors(normalized);
+  const regex = /actors\s*:\s*\[[\s\S]*?\]/;
+  if (regex.test(objectText)) {
+    return objectText.replace(regex, block);
+  }
+  return objectText.replace(/\}\s*$/, `    ${block},\n  }`);
+}
+
+function formatSeasonsData(seasons: BaseAnimeSeasonData[]) {
+  const lines = seasons.map((season) => {
+    const seasonNumber = Number(season?.seasonNumber ?? 0);
+    const nbEpisodes = Number(season?.nbEpisodes ?? 0);
+    const totalLength = Number(season?.totalLength ?? 0);
+    return `      {\n        seasonNumber: ${
+      Number.isNaN(seasonNumber) ? 0 : seasonNumber
+    },\n        nbEpisodes: ${
+      Number.isNaN(nbEpisodes) ? 0 : nbEpisodes
+    },\n        totalLength: ${
+      Number.isNaN(totalLength) ? 0 : totalLength
+    },\n      }`;
+  });
+  return `seasonsData: [\n${lines.join(',\n')}\n    ]`;
+}
+
+function upsertSeasonsDataField(
+  objectText: string,
+  seasonsData: BaseAnimeSeasonData[] | undefined
+) {
+  if (!Array.isArray(seasonsData)) return objectText;
+  const block = formatSeasonsData(seasonsData);
+  const regex = /seasonsData\s*:\s*\[[\s\S]*?\]/;
+  if (regex.test(objectText)) {
+    return objectText.replace(regex, block);
+  }
+  return objectText.replace(/\}\s*$/, `    ${block},\n  }`);
+}
+
+function formatSeasons(seasons: UserAnimeSeason[]) {
+  const lines = seasons.map((season) => {
+    const seasonNumber = Number(season?.seasonNumber ?? 0);
+    const seasonRating = Number(season?.seasonRating ?? 0);
+    const seasonTimesWatched = Number(season?.seasonTimesWatched ?? 0);
+    const firstViewedDate = `${season?.firstViewedDate ?? ''}`;
+    const lastViewedDate = `${season?.lastViewedDate ?? ''}`;
+    return `    {
+      seasonNumber: ${Number.isNaN(seasonNumber) ? 0 : seasonNumber},
+      seasonRating: ${Number.isNaN(seasonRating) ? 0 : seasonRating},
+${formatWatchingTsLine(season?.watching)}      seasonTimesWatched: ${
+        Number.isNaN(seasonTimesWatched) ? 0 : seasonTimesWatched
+      },
+      firstViewedDate: "${escapeString(firstViewedDate)}",
+      lastViewedDate: "${escapeString(lastViewedDate)}",
+      otherViewedDates: ${formatOtherViewedDatesTs(season?.otherViewedDates)},
+    }`;
+  });
+  return `seasons: [\n${lines.join(',\n')}\n  ]`;
+}
+
+function replaceSeasonsField(objectText: string, seasons: UserAnimeSeason[]) {
+  if (!Array.isArray(seasons)) return objectText;
+  const replacement = `${formatSeasons(seasons)},`;
+  const keyMatch = objectText.match(/["']?seasons["']?\s*:\s*\[/);
+  if (!keyMatch || keyMatch.index === undefined) {
+    return objectText.replace(/\{\s*/, (match) => `${match}${replacement}\n  `);
+  }
+  const bracketStart = keyMatch.index + keyMatch[0].length - 1;
+  let depth = 1;
+  let i = bracketStart + 1;
+  while (i < objectText.length && depth > 0) {
+    const c = objectText[i];
+    if (c === '[') depth += 1;
+    else if (c === ']') depth -= 1;
+    i += 1;
+  }
+  if (depth !== 0) {
+    return objectText;
+  }
+  let end = i;
+  const trailing = objectText.slice(end).match(/^\s*,?/);
+  if (trailing) {
+    end += trailing[0].length;
+  }
+  return objectText.slice(0, keyMatch.index) + replacement + objectText.slice(end);
+}
+
+function updateAnimeInFile(content: string, payload: AnimeUpdatePayload) {
+  const exportIndex = content.indexOf('export const');
+  if (exportIndex === -1) {
+    throw new Error('Array not found');
+  }
+
+  const arrayStart = content.indexOf('[', exportIndex);
+  const arrayEnd = content.indexOf('];', arrayStart);
+  if (arrayStart === -1 || arrayEnd === -1) {
+    throw new Error('Array bounds not found');
+  }
+
+  let i = arrayStart;
+  let depth = 0;
+  let objectStart = -1;
+
+  while (i < arrayEnd) {
+    const char = content[i];
+    if (char === '{') {
+      if (depth === 0) {
+        objectStart = i;
+      }
+      depth += 1;
+    } else if (char === '}') {
+      depth -= 1;
+      if (depth === 0 && objectStart !== -1) {
+        const objectEnd = i;
+        const objectText = content.slice(objectStart, objectEnd + 1);
+        const title = parseStringField(objectText, 'title');
+        const director = parseStringField(objectText, 'director');
+
+        if (title === payload.title && director === payload.director) {
+          let updated = objectText;
+          if (payload.seasons) {
+            const existingSeasons = parseSeasonsField(objectText) ?? [];
+            updated = replaceSeasonsField(
+              updated,
+              mergeSeasonsPreservingOtherViewedDates(
+                payload.seasons,
+                existingSeasons
+              )
+            );
+          }
+          updated = replaceField(updated, 'owned', payload.owned);
+          updated = replaceField(
+            updated,
+            'watchPriority',
+            normalizeWatchPriority(payload.watchPriority) ??
+              payload.watchPriority
+          );
+          updated = replaceField(
+            updated,
+            'wantToWatchAgain',
+            payload.wantToWatchAgain
+          );
+          if (payload.ratingComment !== undefined) {
+            updated = upsertField(updated, 'ratingComment', payload.ratingComment ?? '');
+          }
+          updated = upsertField(
+            updated,
+            'borrowed',
+            payload.borrowed ?? ''
+          );
+          updated = upsertField(updated, 'loaned', payload.loaned ?? '');
+          if (Array.isArray(payload.quotes)) {
+            updated = upsertQuotesField(
+              updated,
+              payload.quotes.filter(
+                (quote) => typeof quote === 'string' && quote.trim()
+              )
+            );
+          }
+
+          return (
+            content.slice(0, objectStart) +
+            updated +
+            content.slice(objectEnd + 1)
+          );
+        }
+      }
+    }
+    i += 1;
+  }
+
+  throw new Error('Anime not found');
+}
+
+function updateAnimeIdentityInFile(content: string, payload: AnimeIdentityPayload) {
+  const matchTitle = payload.matchTitle ?? payload.title;
+  const matchDirector = payload.matchDirector ?? payload.director;
+  if (!matchTitle || !matchDirector) {
+    throw new Error('Missing match title or director');
+  }
+
+  const exportIndex = content.indexOf('export const');
+  if (exportIndex === -1) {
+    throw new Error('Array not found');
+  }
+
+  const arrayStart = content.indexOf('[', exportIndex);
+  const arrayEnd = content.indexOf('];', arrayStart);
+  if (arrayStart === -1 || arrayEnd === -1) {
+    throw new Error('Array bounds not found');
+  }
+
+  let i = arrayStart;
+  let depth = 0;
+  let objectStart = -1;
+
+  while (i < arrayEnd) {
+    const char = content[i];
+    if (char === '{') {
+      if (depth === 0) {
+        objectStart = i;
+      }
+      depth += 1;
+    } else if (char === '}') {
+      depth -= 1;
+      if (depth === 0 && objectStart !== -1) {
+        const objectEnd = i;
+        const objectText = content.slice(objectStart, objectEnd + 1);
+        const title = parseStringField(objectText, 'title');
+        const director = parseStringField(objectText, 'director');
+
+        if (title === matchTitle && director === matchDirector) {
+          let updated = objectText;
+          if (payload.title && payload.title !== title) {
+            updated = replaceField(updated, 'title', payload.title);
+          }
+          if (payload.director && payload.director !== director) {
+            updated = replaceField(updated, 'director', payload.director);
+          }
+
+          return (
+            content.slice(0, objectStart) +
+            updated +
+            content.slice(objectEnd + 1)
+          );
+        }
+      }
+    }
+    i += 1;
+  }
+
+  throw new Error('Anime not found');
+}
+
+function updateBaseAnimeInFile(content: string, payload: BaseAnimeFileUpdatePayload) {
+  const matchTitle = payload.matchTitle ?? payload.title;
+  const matchDirector = payload.matchDirector ?? payload.director;
+  if (!matchTitle || !matchDirector) {
+    throw new Error('Missing match title or director');
+  }
+  const exportIndex = content.indexOf('export const');
+  if (exportIndex === -1) {
+    throw new Error('Array not found');
+  }
+
+  const arrayStart = content.indexOf('[', exportIndex);
+  const arrayEnd = content.indexOf('];', arrayStart);
+  if (arrayStart === -1 || arrayEnd === -1) {
+    throw new Error('Array bounds not found');
+  }
+
+  let i = arrayStart;
+  let depth = 0;
+  let objectStart = -1;
+
+  while (i < arrayEnd) {
+    const char = content[i];
+    if (char === '{') {
+      if (depth === 0) {
+        objectStart = i;
+      }
+      depth += 1;
+    } else if (char === '}') {
+      depth -= 1;
+      if (depth === 0 && objectStart !== -1) {
+        const objectEnd = i;
+        const objectText = content.slice(objectStart, objectEnd + 1);
+        const title = parseStringField(objectText, 'title');
+        const director = parseStringField(objectText, 'director');
+
+        if (title === matchTitle && director === matchDirector) {
+          let updated = objectText;
+          if (payload.title && payload.title !== title) {
+            updated = replaceField(updated, 'title', payload.title);
+          }
+          if (payload.director && payload.director !== director) {
+            updated = replaceField(updated, 'director', payload.director);
+          }
+          updated = upsertActorsField(
+            updated,
+            payload.actors === undefined
+              ? undefined
+              : payload.actors.map((a) =>
+                  typeof a === 'string' ? a : a.name
+                )
+          );
+          updated = upsertField(updated, 'coverUrl', payload.coverUrl);
+          updated = upsertField(updated, 'releaseDate', payload.releaseDate);
+          updated = upsertField(updated, 'endDate', payload.endDate);
+          updated = upsertAnimeGenreField(updated, payload.genre);
+          updated = upsertSeasonsDataField(updated, payload.seasonsData);
+          updated = upsertField(updated, 'description', payload.description ?? '');
+          updated = upsertField(updated, 'countryOrigin', payload.countryOrigin ?? '');
+          updated = upsertField(updated, 'saga', payload.saga ?? '');
+          if (Object.prototype.hasOwnProperty.call(payload, 'fromEntity')) {
+            updated = upsertFromEntityField(updated, payload.fromEntity);
+          }
+
+          return (
+            content.slice(0, objectStart) +
+            updated +
+            content.slice(objectEnd + 1)
+          );
+        }
+      }
+    }
+    i += 1;
+  }
+
+  throw new Error('Anime not found');
+}
+
+function updateBaseAnimeInFiles(payload: BaseAnimeFileUpdatePayload) {
+  const baseFiles = getBaseAnimesFiles();
+  for (const animeFile of baseFiles) {
+    const content = fs.readFileSync(animeFile, 'utf8');
+    try {
+      const updated = updateBaseAnimeInFile(content, payload);
+      fs.writeFileSync(animeFile, updated, 'utf8');
+      return animeFile;
+    } catch (error: unknown) {
+      const message = error instanceof Error ? error.message : '';
+      if (message !== 'Anime not found') {
+        throw error;
+      }
+    }
+  }
+  return null;
+}
+
+function formatSeasonsIndented(seasons: UserAnimeSeason[], indent: string) {
+  return formatSeasons(seasons)
+    .split('\n')
+    .map((line) => `${indent}${line}`)
+    .join('\n');
+}
+
+function removeAnimeFromFile(content: string, payload: AnimeRemovePayload) {
+  const bounds = findAnimesArrayBounds(content);
+  if (!bounds) {
+    throw new Error('Array bounds not found');
+  }
+  const { arrayStart, arrayEnd } = bounds;
+
+  const animes = parseAnimesFromFile(content);
+  const filtered = animes.filter(
+    (anime) =>
+      anime.title !== payload.title || anime.director !== payload.director
+  );
+
+  if (filtered.length === animes.length) {
+    throw new Error('Anime not found');
+  }
+
+  const newArrayContent = filtered
+    .map((anime) => {
+      const seasonsText = `${formatSeasonsIndented(
+        anime.seasons ?? [],
+        '    '
+      )},`;
+      return `  {
+    title: "${escapeString(anime.title)}",
+    director: "${escapeString(anime.director)}",
+${seasonsText}
+    owned: ${anime.owned ?? false},
+    watchPriority: ${normalizeWatchPriority(anime.watchPriority) ?? 1},
+    wantToWatchAgain: ${anime.wantToWatchAgain ?? false},
+    ratingComment: "${escapeString(anime.ratingComment || '')}",
+    borrowed: "${escapeString(anime.borrowed || '')}",
+    loaned: "${escapeString(anime.loaned || '')}",
+    quotes: ${formatOtherViewedDatesTs(anime.quotes)},
+  }`;
+    })
+    .join(',\n');
+
+  return (
+    content.slice(0, arrayStart + 1) +
+    '\n' +
+    newArrayContent +
+    '\n' +
+    content.slice(arrayEnd)
+  );
+}
+
+function getUserAnimesFiles(userId: string) {
+  const userAnimesDir = path.join(USERS_ANIMES_DIR, userId, 'animes');
+  if (!fs.existsSync(userAnimesDir)) {
+    throw new Error(`User animes directory not found: ${userId}`);
+  }
+
+  return fs
+    .readdirSync(userAnimesDir)
+    .filter(
+      (file: string) =>
+        file.endsWith('.ts') &&
+        file !== 'index.ts' &&
+        !file.includes('watchlist')
+    )
+    .map((file: string) => path.join(userAnimesDir, file));
+}
+
+function getUserWatchlistAnimesFiles(userId: string) {
+  const userAnimesDir = path.join(USERS_ANIMES_DIR, userId, 'animes');
+  if (!fs.existsSync(userAnimesDir)) {
+    throw new Error(`User animes directory not found: ${userId}`);
+  }
+
+  return fs
+    .readdirSync(userAnimesDir)
+    .filter(
+      (file: string) =>
+        file.endsWith('.ts') &&
+        file !== 'index.ts' &&
+        file.includes('watchlist')
+    )
+    .map((file: string) => path.join(userAnimesDir, file));
+}
+
+function getUserAllAnimesFiles(userId: string) {
+  const userAnimesDir = path.join(USERS_ANIMES_DIR, userId, 'animes');
+  if (!fs.existsSync(userAnimesDir)) {
+    throw new Error(`User animes directory not found: ${userId}`);
+  }
+
+  return fs
+    .readdirSync(userAnimesDir)
+    .filter((file: string) => file.endsWith('.ts') && file !== 'index.ts')
+    .map((file: string) => path.join(userAnimesDir, file));
+}
+
+module.exports = {
+  normalizeNumber,
+  normalizeBoolean,
+  normalizeString,
+  normalizeAnimeGenreInput,
+  formatAnimeGenreArrayTs,
+  formatOtherViewedDatesTs,
+  parseAnimesFromFile,
+  parseBaseAnimesFromFile,
+  parseBaseAnimesFullFromFile,
+  escapeString,
+  appendObjectToArrayFile,
+  getBaseAnimesFiles,
+  baseAnimeExists,
+  findBaseAnime,
+  BASE_ANIMES_API_FILE,
+  updateAnimeInFile,
+  updateAnimeIdentityInFile,
+  updateBaseAnimeInFiles,
+  removeAnimeFromFile,
+  getUserAnimesFiles,
+  getUserWatchlistAnimesFiles,
+  getUserAllAnimesFiles,
+};
+
+export {};

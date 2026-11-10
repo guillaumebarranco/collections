@@ -38,6 +38,7 @@ const entities = [
   { name: 'manwhas', model: 'manwha', type: 'UserManwha', suffix: 'Manwhas' },
   { name: 'movies', model: 'movie', type: 'UserMovie', suffix: 'Movies' },
   { name: 'series', model: 'serie', type: 'UserSerie', suffix: 'Series' },
+  { name: 'animes', model: 'anime', type: 'UserAnime', suffix: 'Animes' },
 ];
 
 const extraLists = [
@@ -96,6 +97,13 @@ const extraLists = [
     type: 'UserSerie',
     fileSuffix: 'watchlist_series',
     exportSuffix: 'WatchListSeries',
+  },
+  {
+    name: 'animes',
+    model: 'anime',
+    type: 'UserAnime',
+    fileSuffix: 'watchlist_animes',
+    exportSuffix: 'WatchListAnimes',
   },
   {
     name: 'games',

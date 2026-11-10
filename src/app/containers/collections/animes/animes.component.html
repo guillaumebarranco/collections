@@ -1,0 +1,352 @@
+<app-menu></app-menu>
+
+@if (!isMobile() || mobileSelectedView()) {
+<div class="animes-container collection-view">
+  @if (isLoadingAnimes()) {
+  <app-loader message="Chargement des animés..." />
+  } @else {
+  <app-animes-header
+    [selectedView]="selectedView()"
+    [selectedSortInput]="selectedSort()"
+    [searchTermInput]="searchTerm()"
+    [filteredAnimesCount]="filteredAnimes().length"
+    [recommendedAnimesCount]="recommendedAnimes().length"
+    [allAnimesCount]="allAnimes().length"
+    [showFiltersAndSearch]="showFiltersAndSearch()"
+    [stats]="stats()"
+    [viewOptions]="visibleViewOptions()"
+    [sortOptions]="sortOptions()"
+    [showTopFiveRank]="showTopFiveRank()"
+    (onViewChange)="onViewChange($any($event))"
+    (onMobileBack)="onMobileBack()"
+    (onOpenViewConfig)="openViewConfig()"
+    (onSearchChange)="onSearchChange($event)"
+    (onSortChange)="onSortChange($event)"
+    (onTopFiveRankChange)="toggleTopFiveRankDisplay()"
+  ></app-animes-header>
+
+  <!-- Recommendations -->
+  @if(selectedView() === 'recommendations') {
+  <div class="animes">
+    @if (recommendationsOfflineBlocked()) {
+    <app-offline-restricted-message />
+    } @else if (isLoadingRecommendations()) {
+    <p>Chargement des recommandations...</p>
+    } @else if (followedIdsForRecommendations().length === 0) {
+    <p class="recommendations-no-follows">
+      Vous ne suivez aucun compte. Suivez des utilisateurs depuis votre
+      <a [routerLink]="[getActiveUserId(), 'dashboard']">tableau de bord</a>
+      pour avoir des recommandations.
+    </p>
+    } @else if (recommendedAnimes().length === 0) {
+    <p>Aucune recommandation disponible pour le moment.</p>
+    } @else { @for (anime of recommendedAnimes(); track
+    `${anime.title}-${anime.director}`; let i = $index) {
+    <div class="anime-card anime-card--recommended anime-card--missing">
+      <app-anime
+        [anime]="anime"
+        [list]="recommendedAnimes()"
+        [index]="i"
+        [readOnly]="true"
+        [recommendationText]="getAnimeRecommendationText(anime)"
+        [recommendationBadge]="
+          animeAlreadyInUserWatchlist(anime)
+            ? 'Déjà dans votre watchlist'
+            : 'Recommandé'
+        "
+        [isInWatchlist]="animeAlreadyInUserWatchlist(anime)"
+        [showAddToMyWatchlist]="canShowAddToMyWatchlist()"
+        [canAddToMyWatchlist]="canAddAnimeToMyWatchlist(anime)"
+        [canAddAsWatched]="canAddAnimeToMyWatched(anime)"
+        (addToWatchlist)="addAnimeToWatchlist($event)"
+        (addToMyWatchlist)="addAnimeToConnectedUserWatchlist($event)"
+        (addToMyWatched)="addAnimeToConnectedUserAsWatched($event)"
+      ></app-anime>
+    </div>
+    } }
+  </div>
+  } @else if(selectedView() === 'sagas') {
+  <div class="animes-by-saga">
+    @for (sagaGroup of animesBySaga(); track sagaGroup.saga) {
+    <section class="animes-saga-section">
+      <h2 class="animes-saga-title">
+        <button
+          type="button"
+          class="animes-saga-toggle"
+          [attr.aria-expanded]="!isSagaCollapsed(sagaGroup.saga)"
+          (click)="toggleSaga(sagaGroup.saga)"
+        >
+          <span class="animes-saga-toggle-icon">
+            {{ isSagaCollapsed(sagaGroup.saga) ? "▶" : "▼" }}
+          </span>
+          {{ sagaGroup.saga }}
+          ({{ sagaGroup.seenAnimes.length }} animés vues) ({{
+            sagaGroup.missingAnimes.length
+          }}
+          animés restantes à voir)
+        </button>
+      </h2>
+      @if (!isSagaCollapsed(sagaGroup.saga)) {
+      <div class="animes">
+        @for (anime of sagaGroup.seenAnimes; track
+        `${anime.title}-${anime.director}`; let i = $index) {
+        <div class="anime-card">
+          <app-anime
+            [anime]="anime"
+            [list]="sagaGroup.seenAnimes"
+            [index]="i"
+            [selectedView]="selectedView()"
+            [showNewSeasonStartedAction]="showNewSeasonStartedAction()"
+            [showTopFiveSelector]="showTopFiveRank()"
+            [topFiveRank]="getTopFiveRank(anime)"
+            [showAddToMyWatchlist]="canShowAddToMyWatchlist()"
+            [canAddToMyWatchlist]="canAddAnimeToMyWatchlist(anime)"
+            [canAddAsWatched]="canAddAnimeToMyWatched(anime)"
+            (animeUpdated)="refreshAnimes()"
+            (watchlistMarkedAsWatched)="onWatchlistMarkedAsWatched($event)"
+            (finishedAnimeNewSeasonStarted)="onFinishedAnimeNewSeasonStarted($event)"
+            (topFiveRankChange)="onTopFiveRankChange(anime, $event)"
+            (wantToReWatch)="markAnimeAsWantToReWatch($event)"
+            (haveReWatched)="markAnimeAsReWatched($event)"
+            (addToMyWatchlist)="addAnimeToConnectedUserWatchlist($event)"
+            (addToMyWatched)="addAnimeToConnectedUserAsWatched($event)"
+          ></app-anime>
+        </div>
+        }
+      </div>
+      @if (sagaGroup.missingAnimes.length > 0) {
+      <div class="animes-saga-missing">
+        <p class="animes-saga-missing-label">Animés pas encore vues</p>
+        <div class="animes">
+          @for (anime of sagaGroup.missingAnimes; track
+          `${anime.title}-${anime.director}`) {
+          <div class="anime-card anime-card--missing">
+            <app-anime
+              [anime]="anime"
+              [readOnly]="true"
+              [recommendationBadge]="'Non vue'"
+              [showAddToMyWatchlist]="canShowAddToMyWatchlist()"
+              [canAddToMyWatchlist]="canAddAnimeToMyWatchlist(anime)"
+              [canAddAsWatched]="canAddAnimeToMyWatched(anime)"
+              (addToMyWatchlist)="addAnimeToConnectedUserWatchlist($event)"
+              (addToMyWatched)="addAnimeToConnectedUserAsWatched($event)"
+            ></app-anime>
+          </div>
+          }
+        </div>
+      </div>
+      } }
+    </section>
+    }
+  </div>
+  } @else if(selectedView() === 'countries') {
+  <div class="animes-by-country">
+    @for (countryGroup of animesByCountry(); track countryGroup.country) {
+    <section class="animes-country-section">
+      <h2 class="animes-country-title">
+        <button
+          type="button"
+          class="animes-country-toggle"
+          [attr.aria-expanded]="!isCountryCollapsed(countryGroup.country)"
+          (click)="toggleCountry(countryGroup.country)"
+        >
+          <span class="animes-country-toggle-icon">
+            {{ isCountryCollapsed(countryGroup.country) ? "▶" : "▼" }}
+          </span>
+          {{ countryGroup.country }}
+          ({{ countryGroup.seenAnimes.length }} animés vues) ({{
+            countryGroup.missingAnimes.length
+          }}
+          animés restantes à voir)
+        </button>
+      </h2>
+      @if (!isCountryCollapsed(countryGroup.country)) {
+      <div class="animes">
+        @for (anime of countryGroup.seenAnimes; track
+        `${anime.title}-${anime.director}`; let i = $index) {
+        <div class="anime-card">
+          <app-anime
+            [anime]="anime"
+            [list]="countryGroup.seenAnimes"
+            [index]="i"
+            [selectedView]="selectedView()"
+            [showNewSeasonStartedAction]="showNewSeasonStartedAction()"
+            [showTopFiveSelector]="showTopFiveRank()"
+            [topFiveRank]="getTopFiveRank(anime)"
+            [showAddToMyWatchlist]="canShowAddToMyWatchlist()"
+            [canAddToMyWatchlist]="canAddAnimeToMyWatchlist(anime)"
+            [canAddAsWatched]="canAddAnimeToMyWatched(anime)"
+            (animeUpdated)="refreshAnimes()"
+            (watchlistMarkedAsWatched)="onWatchlistMarkedAsWatched($event)"
+            (finishedAnimeNewSeasonStarted)="onFinishedAnimeNewSeasonStarted($event)"
+            (topFiveRankChange)="onTopFiveRankChange(anime, $event)"
+            (wantToReWatch)="markAnimeAsWantToReWatch($event)"
+            (haveReWatched)="markAnimeAsReWatched($event)"
+            (addToMyWatchlist)="addAnimeToConnectedUserWatchlist($event)"
+            (addToMyWatched)="addAnimeToConnectedUserAsWatched($event)"
+          ></app-anime>
+        </div>
+        }
+      </div>
+      @if (countryGroup.missingAnimes.length > 0) {
+      <div class="animes-country-missing">
+        <p class="animes-country-missing-label">Animés pas encore vues</p>
+        <div class="animes">
+          @for (anime of countryGroup.missingAnimes; track
+          `${anime.title}-${anime.director}`) {
+          <div class="anime-card anime-card--missing">
+            <app-anime
+              [anime]="anime"
+              [readOnly]="true"
+              [recommendationBadge]="'Non vue'"
+              [showAddToMyWatchlist]="canShowAddToMyWatchlist()"
+              [canAddToMyWatchlist]="canAddAnimeToMyWatchlist(anime)"
+              [canAddAsWatched]="canAddAnimeToMyWatched(anime)"
+              (addToMyWatchlist)="addAnimeToConnectedUserWatchlist($event)"
+              (addToMyWatched)="addAnimeToConnectedUserAsWatched($event)"
+            ></app-anime>
+          </div>
+          }
+        </div>
+      </div>
+      } }
+    </section>
+    }
+  </div>
+  } @else {
+  <div class="animes">
+    @for (anime of sortedAnimes(); track anime.title; let i = $index) {
+    <div class="anime-card">
+      <app-anime
+        [anime]="anime"
+        [list]="sortedAnimes()"
+        [index]="i"
+        [showCommunityWatchersButton]="selectedView() === 'finished'"
+        [isWatchlistView]="
+          selectedView() === 'watchlist' ||
+          selectedView() === 'watchingInProgress'
+        "
+        [selectedView]="selectedView()"
+        [showNewSeasonStartedAction]="showNewSeasonStartedAction()"
+        [showTopFiveSelector]="showTopFiveRank()"
+        [topFiveRank]="getTopFiveRank(anime)"
+        [showAddToMyWatchlist]="canShowAddToMyWatchlist()"
+        [canAddToMyWatchlist]="canAddAnimeToMyWatchlist(anime)"
+        [canAddAsWatched]="canAddAnimeToMyWatched(anime)"
+        (animeUpdated)="refreshAnimes()"
+        (watchlistStartedWatching)="onWatchlistStartedWatching($event)"
+        (watchlistMarkedAsWatched)="onWatchlistMarkedAsWatched($event)"
+        (finishedAnimeNewSeasonStarted)="onFinishedAnimeNewSeasonStarted($event)"
+        (topFiveRankChange)="onTopFiveRankChange(anime, $event)"
+        (watchPriorityUpdated)="updateWatchPriority($event)"
+        (wantToReWatch)="markAnimeAsWantToReWatch($event)"
+        (haveReWatched)="markAnimeAsReWatched($event)"
+        (addToMyWatchlist)="addAnimeToConnectedUserWatchlist($event)"
+        (addToMyWatched)="addAnimeToConnectedUserAsWatched($event)"
+      ></app-anime>
+    </div>
+    }
+  </div>
+  }
+  }
+</div>
+} @else if (isLoadingAnimes()) {
+<app-loader message="Chargement des animés..." />
+} @else {
+<app-mobile-collection-picker
+  title="Animés"
+  ariaLabel="Choisir une vue animés"
+  emptyIcon="📺"
+  [options]="visibleViewOptions()"
+  [previews]="mobileViewPreviews()"
+  (selected)="onMobileSelectView($event)"
+/>
+} @if (isViewConfigOpen()) {
+<div class="animes-config-overlay" (click)="closeViewConfig()">
+  <div
+    class="animes-config-content"
+    role="dialog"
+    aria-modal="true"
+    aria-label="Configurer ma vue animés"
+    (click)="$event.stopPropagation()"
+  >
+    <div class="animes-config-header">
+      <h2>Configurer ma vue animés</h2>
+      <button class="animes-config-close" (click)="closeViewConfig()">✕</button>
+    </div>
+    <div class="animes-config-body">
+      <p class="animes-config-subtitle">Choisissez les onglets à afficher.</p>
+      <label class="animes-config-option">
+        <input
+          type="checkbox"
+          [checked]="optionalViewConfig().owned"
+          (change)="onOptionalViewChange('owned', $any($event.target).checked)"
+        />
+        Animés possédées
+      </label>
+      <label class="animes-config-option">
+        <input
+          type="checkbox"
+          [checked]="optionalViewConfig().borrowed"
+          (change)="
+            onOptionalViewChange('borrowed', $any($event.target).checked)
+          "
+        />
+        Animés empruntées
+      </label>
+      <label class="animes-config-option">
+        <input
+          type="checkbox"
+          [checked]="optionalViewConfig().loaned"
+          (change)="
+            onOptionalViewChange('loaned', $any($event.target).checked)
+          "
+        />
+        Animés prêtées
+      </label>
+      <label class="animes-config-option">
+        <input
+          type="checkbox"
+          [checked]="optionalViewConfig().toReWatch"
+          (change)="
+            onOptionalViewChange('toReWatch', $any($event.target).checked)
+          "
+        />
+        À revoir
+      </label>
+      <label class="animes-config-option">
+        <input
+          type="checkbox"
+          [checked]="optionalViewConfig().sagas"
+          (change)="onOptionalViewChange('sagas', $any($event.target).checked)"
+        />
+        Voir par saga
+      </label>
+      <label class="animes-config-option">
+        <input
+          type="checkbox"
+          [checked]="optionalViewConfig().countries"
+          (change)="
+            onOptionalViewChange('countries', $any($event.target).checked)
+          "
+        />
+        Voir par pays
+      </label>
+      <label class="animes-config-option">
+        <input
+          type="checkbox"
+          [checked]="optionalViewConfig().recommendations"
+          (change)="
+            onOptionalViewChange('recommendations', $any($event.target).checked)
+          "
+        />
+        Recommandations
+      </label>
+      <p class="animes-config-hint">
+        « Animés vues », « Animés à voir » et « En cours » restent affichés par
+        défaut.
+      </p>
+    </div>
+  </div>
+</div>
+}

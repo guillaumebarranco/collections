@@ -36,6 +36,7 @@ export function getEntityKey(
       return `${e['title'] ?? ''}|${e['author'] ?? ''}`;
     case 'movies':
     case 'series':
+    case 'animes':
       return `${e['title'] ?? ''}|${e['director'] ?? ''}`;
     case 'games':
       return `${e['title'] ?? ''}|${e['editor'] ?? ''}`;
@@ -66,6 +67,7 @@ export function getEntityDisplayLabel(
       return [title, e['author']].filter(Boolean).join(' – ');
     case 'movies':
     case 'series':
+    case 'animes':
       return [title, e['director']].filter(Boolean).join(' – ');
     case 'games':
       return [title, e['editor']].filter(Boolean).join(' – ');

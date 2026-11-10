@@ -2,12 +2,14 @@ import type { Book } from '../models/book-model';
 import type { Movie } from '../models/movie-model';
 import type { Game } from '../models/game-model';
 import type { Serie } from '../models/serie-model';
+import type { Anime } from '../models/anime-model';
 import type { Manga } from '../models/manga-model';
 import type { Manwha } from '../models/manwha-model';
 import type { Comic } from '../models/comic-model';
 import type { Bd } from '../models/bd-model';
 import type { BadgeThresholdStats } from './users/badges';
 import { countSeriesSeenForBadges } from './series.utils';
+import { countAnimesSeenForBadges } from './animes.utils';
 
 /**
  * Normalisation des genres pour les compteurs de badges (aligné sur
@@ -63,6 +65,7 @@ export function buildBadgeThresholdStatsFromCollections(params: {
   movies: readonly Movie[];
   games: readonly Game[];
   series: readonly Serie[];
+  animes?: readonly Anime[];
   mangas: readonly Manga[];
   manwhas: readonly Manwha[];
   comics: readonly Comic[];
@@ -117,5 +120,6 @@ export function buildBadgeThresholdStatsFromCollections(params: {
     comicsRead: params.comics.length,
     bdsRead: params.bds.length,
     seriesWatched: countSeriesSeenForBadges(params.series),
+    animesWatched: countAnimesSeenForBadges(params.animes ?? []),
   };
 }

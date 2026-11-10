@@ -1,2 +1,3 @@
 import { UserSeries } from '../../../../models/serie-model';
-export const bastienWatchListSeries: UserSeries = [];
+export const bastienWatchListSeries: UserSeries = [
+];

@@ -1,7 +1,7 @@
 import { BaseSerie } from '../../../models/serie-model';
 
 export const baseSeriesApi: BaseSerie[] = [
-  {
+{
     title: "Maul : Seigneur de l'ombre",
     director: 'Dave Filoni, Matt Michnovetz',
     actors: [
@@ -31,8 +31,7 @@ export const baseSeriesApi: BaseSerie[] = [
     saga: 'Star Wars',
     fromEntity: null,
   },
-
-  {
+{
     title: 'Spider-Noir',
     director: 'Oren Uziel',
     actors: [
@@ -68,8 +67,7 @@ export const baseSeriesApi: BaseSerie[] = [
     saga: 'Spider-Man',
     fromEntity: null,
   },
-
-  {
+{
     title: 'Man on Fire',
     director: 'Kyle Killen',
     actors: [
@@ -111,8 +109,7 @@ export const baseSeriesApi: BaseSerie[] = [
     saga: '',
     fromEntity: null,
   },
-
-  {
+{
     title: 'Off Campus',
     director: ' Louisa Levy',
     actors: [
@@ -157,8 +154,7 @@ export const baseSeriesApi: BaseSerie[] = [
     saga: '',
     fromEntity: null,
   },
-
-  {
+{
     title: 'The Bear',
     director: 'Christopher Storer',
     actors: [
@@ -238,8 +234,7 @@ export const baseSeriesApi: BaseSerie[] = [
     saga: '',
     fromEntity: null,
   },
-
-  {
+{
     title: 'Sur tes traces',
     director: 'Robert Hull',
     actors: [
@@ -284,8 +279,7 @@ export const baseSeriesApi: BaseSerie[] = [
     saga: '',
     fromEntity: null,
   },
-
-  {
+{
     title: 'The White Lotus',
     director: 'Mike White',
     actors: [
@@ -362,8 +356,7 @@ export const baseSeriesApi: BaseSerie[] = [
     saga: '',
     fromEntity: null,
   },
-
-  {
+{
     title: 'Nous les Menteurs',
     director: 'Julie Plec, Carina Adly Mackenzie',
     actors: [
@@ -399,8 +392,7 @@ export const baseSeriesApi: BaseSerie[] = [
     saga: '',
     fromEntity: null,
   },
-
-  {
+{
     title: 'Paul',
     director: 'Paul Mirabel, Antoine de Bary, Nathanaël Munnich',
     actors: [
@@ -437,8 +429,7 @@ export const baseSeriesApi: BaseSerie[] = [
     saga: '',
     fromEntity: null,
   },
-
-  {
+{
     title: "L'Arène",
     director: 'Netflix',
     actors: [
@@ -470,8 +461,7 @@ export const baseSeriesApi: BaseSerie[] = [
     saga: '',
     fromEntity: null,
   },
-
-  {
+{
     title: "Nobody Want This",
     director: "Erin Foster",
     actors: [
@@ -514,8 +504,7 @@ export const baseSeriesApi: BaseSerie[] = [
     saga: "",
     fromEntity: null,
   },
-
-  {
+{
     title: "Campus Drivers",
     director: "Thomas Boullé",
     actors: [

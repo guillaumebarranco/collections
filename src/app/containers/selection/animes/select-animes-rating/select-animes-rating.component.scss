@@ -1,0 +1,117 @@
+@use "../../select-base.scss" as *;
+
+.select-animes-rating-container {
+  @extend %select-container;
+
+  .header {
+    @extend %select-header;
+
+    h1 {
+      color: #999;
+    }
+  }
+
+  .anime-info {
+    @extend %select-item-info;
+    margin-bottom: 0.75rem;
+  }
+
+  .toolbar {
+    @extend %select-toolbar;
+
+    .selection-info .count {
+      color: #ffc107;
+    }
+
+    .makya-btn-big {
+      background: #ffc107;
+      color: #333;
+
+      &:hover:not(:disabled) {
+        background: #e0a800;
+        box-shadow: 0 4px 8px rgba(255, 193, 7, 0.3);
+      }
+    }
+  }
+
+  .animes-grid {
+    @extend %select-grid;
+  }
+
+  .anime-poster {
+    @extend %select-item;
+
+    .overlay {
+      .season-list {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        max-height: 65%;
+        overflow: auto;
+        padding-right: 0.25rem;
+      }
+
+      .season-row {
+        display: flex;
+        flex-direction: column;
+        gap: 0.35rem;
+        background: rgba(0, 0, 0, 0.35);
+        border-radius: 6px;
+        padding: 0.4rem 0.5rem;
+      }
+
+      .season-label {
+        font-size: 0.75rem;
+        font-weight: 600;
+        color: #fff;
+      }
+
+      .season-current {
+        font-size: 0.7rem;
+        color: #ddd;
+      }
+
+      .season-buttons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.2rem;
+        justify-content: center;
+
+        .season-btn {
+          padding: 0.3rem 0.45rem;
+          border: 1.5px solid white;
+          border-radius: 3px;
+          background: rgba(255, 255, 255, 0.2);
+          color: white;
+          font-weight: bold;
+          font-size: 0.65rem;
+          cursor: pointer;
+          transition: all 0.2s ease;
+          min-width: 30px;
+          flex: 0 0 calc(33.333% - 0.35rem);
+          max-width: calc(33.333% - 0.35rem);
+
+          &:hover {
+            background: rgba(255, 255, 255, 0.5);
+            transform: scale(1.05);
+            z-index: 20;
+          }
+
+          &.active {
+            background: #ffc107;
+            border-color: #ffc107;
+            color: #333;
+            box-shadow: 0 0 6px rgba(255, 193, 7, 0.6);
+          }
+        }
+      }
+    }
+
+    &:hover {
+      .overlay {
+        opacity: 1;
+        z-index: 10;
+      }
+    }
+  }
+}

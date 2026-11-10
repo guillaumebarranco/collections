@@ -9,18 +9,21 @@ import {
 import { getAllMovies } from '../../../facades/movies/movies.facade';
 import { getAllBooks } from '../../../facades/books/books.facade';
 import { getAllSeries } from '../../../facades/series/series.facade';
+import { getAllAnimes } from '../../../facades/animes/animes.facade';
 import { getAllMusics } from '../../../facades/musics/musics.facade';
 import { Movie } from '../../../models/movie-model';
 import { Book } from '../../../models/book-model';
 import { Serie } from '../../../models/serie-model';
+import { Anime } from '../../../models/anime-model';
 import { Music } from '../../../models/music-model';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
 
-type QuoteEntityType = 'movies' | 'books' | 'series' | 'musics';
+type QuoteEntityType = 'movies' | 'books' | 'series' | 'animes' | 'musics';
 
 interface QuotedWork {
   title: string;
   subtitle: string;
+  coverUrl: string;
   quotes: string[];
 }
 
@@ -39,6 +42,7 @@ export class DashboardQuotesComponent {
     { value: 'movies', label: '🎬 Films' },
     { value: 'books', label: '📖 Livres' },
     { value: 'series', label: '📺 Séries' },
+    { value: 'animes', label: '🎌 Animés' },
     { value: 'musics', label: '🎵 Musiques' },
   ];
 
@@ -48,6 +52,7 @@ export class DashboardQuotesComponent {
   private readonly movies = signal<Movie[]>([]);
   private readonly books = signal<Book[]>([]);
   private readonly series = signal<Serie[]>([]);
+  private readonly animes = signal<Anime[]>([]);
   private readonly musics = signal<Music[]>([]);
 
   private readonly routeParams = toSignal(
@@ -71,9 +76,14 @@ export class DashboardQuotesComponent {
         return this.toQuotedWorks(this.books(), (book) => book.author);
       case 'series':
         return this.toQuotedWorks(this.series(), (serie) => serie.director);
+      case 'animes':
+        return this.toQuotedWorks(this.animes(), (anime) => anime.director);
       case 'musics':
-        return this.toQuotedWorks(this.musics(), (music) =>
-          music.album ? `${music.artist} · ${music.album}` : music.artist
+        return this.toQuotedWorks(
+          this.musics(),
+          (music) =>
+            music.album ? `${music.artist} · ${music.album}` : music.artist,
+          '/musics_pictures/default.jpg'
         );
     }
   });
@@ -83,6 +93,7 @@ export class DashboardQuotesComponent {
       movies: 'les films',
       books: 'les livres',
       series: 'les séries',
+      animes: 'les animés',
       musics: 'les musiques',
     };
     return `Aucune citation enregistrée pour ${labels[this.selectedEntity()]}.`;
@@ -100,6 +111,7 @@ export class DashboardQuotesComponent {
       entity === 'movies' ||
       entity === 'books' ||
       entity === 'series' ||
+      entity === 'animes' ||
       entity === 'musics'
     ) {
       this.selectedEntity.set(entity);
@@ -110,10 +122,11 @@ export class DashboardQuotesComponent {
     const generation = ++this.loadGeneration;
     this.isLoading.set(true);
     try {
-      const [movies, books, series, musics] = await Promise.all([
+      const [movies, books, series, animes, musics] = await Promise.all([
         getAllMovies(userId),
         getAllBooks(userId),
         getAllSeries(userId),
+        getAllAnimes(userId),
         getAllMusics(userId),
       ]);
       if (generation !== this.loadGeneration) {
@@ -122,6 +135,7 @@ export class DashboardQuotesComponent {
       this.movies.set(movies[userId] ?? []);
       this.books.set(books[userId] ?? []);
       this.series.set(series[userId] ?? []);
+      this.animes.set(animes[userId] ?? []);
       this.musics.set(musics[userId] ?? []);
     } finally {
       if (generation === this.loadGeneration) {
@@ -130,14 +144,18 @@ export class DashboardQuotesComponent {
     }
   }
 
-  private toQuotedWorks<T extends { title: string; quotes?: string[] }>(
+  private toQuotedWorks<
+    T extends { title: string; quotes?: string[]; coverUrl: string },
+  >(
     items: T[],
-    subtitle: (item: T) => string
+    subtitle: (item: T) => string,
+    fallbackCoverUrl = ''
   ): QuotedWork[] {
     return items
       .map((item) => ({
         title: item.title,
         subtitle: subtitle(item).trim(),
+        coverUrl: item.coverUrl?.trim() || fallbackCoverUrl,
         quotes: (item.quotes ?? [])
           .map((quote) => this.formatQuote(quote).trim())
           .filter(Boolean),

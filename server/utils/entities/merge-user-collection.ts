@@ -33,6 +33,13 @@ const {
   parseBaseSeriesFullFromFile,
 } = require('../series/series-utils');
 const {
+  getUserAnimesFiles,
+  getUserWatchlistAnimesFiles,
+  parseAnimesFromFile,
+  getBaseAnimesFiles,
+  parseBaseAnimesFullFromFile,
+} = require('../animes/animes-utils');
+const {
   getUserGamesFiles,
   getUserGamelistFiles,
   parseGamesFromFile,
@@ -234,6 +241,13 @@ function loadBaseSeries() {
     parseBaseSeriesFullFromFile
   );
 }
+function loadBaseAnimes() {
+  return getCachedBase(
+    'animes',
+    getBaseAnimesFiles,
+    parseBaseAnimesFullFromFile
+  );
+}
 function loadBaseGames() {
   return getCachedBase('games', getBaseGamesFiles, parseBaseGamesFullFromFile);
 }
@@ -401,6 +415,38 @@ function mergeSeries(userSeries: any[]): any[] {
       loaned: serie.loaned ?? '',
       fromEntity: base?.fromEntity ?? null,
       quotes: serie.quotes ?? [],
+    };
+  });
+}
+
+function mergeAnimes(userAnimes: any[]): any[] {
+  const baseAnimes = loadBaseAnimes();
+  return userAnimes.map((anime) => {
+    const base = findMatchingBase(anime, baseAnimes, 'title', 'director');
+    const seasonsCount =
+      base?.seasonsData?.length ?? anime.seasons?.length ?? 0;
+    const seasons = buildSeasons(seasonsCount, anime.seasons);
+    return {
+      title: anime.title,
+      director: anime.director,
+      seasons,
+      actors: base?.actors || [],
+      coverUrl: base?.coverUrl || '',
+      releaseDate: base?.releaseDate || '',
+      endDate: base?.endDate || '',
+      genre: normalizeSerieGenres(base?.genre),
+      seasonsData: base?.seasonsData || [],
+      countryOrigin: (base?.countryOrigin ?? '') as string,
+      owned: anime.owned ?? false,
+      watchPriority: anime.watchPriority ?? 1,
+      wantToWatchAgain: anime.wantToWatchAgain ?? false,
+      description: base?.description ?? '',
+      ratingComment: anime.ratingComment ?? '',
+      saga: base?.saga ?? '',
+      borrowed: anime.borrowed ?? '',
+      loaned: anime.loaned ?? '',
+      fromEntity: base?.fromEntity ?? null,
+      quotes: anime.quotes ?? [],
     };
   });
 }
@@ -618,6 +664,16 @@ function getMergedWatchlistSeries(userId: string) {
     loadFromFiles(getUserWatchlistSeriesFiles(userId), parseSeriesFromFile)
   );
 }
+function getMergedUserAnimes(userId: string) {
+  return mergeAnimes(
+    loadFromFiles(getUserAnimesFiles(userId), parseAnimesFromFile)
+  );
+}
+function getMergedWatchlistAnimes(userId: string) {
+  return mergeAnimes(
+    loadFromFiles(getUserWatchlistAnimesFiles(userId), parseAnimesFromFile)
+  );
+}
 function getMergedUserGames(userId: string) {
   return mergeGames(loadFromFiles(getUserGamesFiles(userId), parseGamesFromFile));
 }
@@ -679,6 +735,8 @@ module.exports = {
   getMergedReadlistChildrenBooks,
   getMergedUserSeries,
   getMergedWatchlistSeries,
+  getMergedUserAnimes,
+  getMergedWatchlistAnimes,
   getMergedUserGames,
   getMergedGamelistGames,
   getMergedUserMangas,

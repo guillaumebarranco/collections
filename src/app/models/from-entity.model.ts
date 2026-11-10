@@ -20,7 +20,8 @@ export type MovieFromEntityType =
   | 'comic'
   | 'manga'
   | 'manwha'
-  | 'serie';
+  | 'serie'
+  | 'anime';
 
 export interface MovieFromEntityAdaptation extends FromEntitySourceBase {
   entityType: MovieFromEntityType;
@@ -34,6 +35,13 @@ export type SerieFromEntityType = MovieFromEntityType | 'movie';
 
 export interface SerieFromEntityAdaptation extends FromEntitySourceBase {
   entityType: SerieFromEntityType;
+}
+
+/** Même sources qu’une série : le modèle animé est calqué sur celui des séries. */
+export type AnimeFromEntityType = SerieFromEntityType;
+
+export interface AnimeFromEntityAdaptation extends FromEntitySourceBase {
+  entityType: AnimeFromEntityType;
 }
 
 /**

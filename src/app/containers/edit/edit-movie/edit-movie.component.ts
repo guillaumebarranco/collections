@@ -44,6 +44,7 @@ import { getAllBaseGames } from '../../../facades/games/games.facade';
 import { getAllBaseMangas } from '../../../facades/mangas/mangas.facade';
 import { getAllBaseManwhas } from '../../../facades/manwhas/manwhas.facade';
 import { getAllBaseSeries } from '../../../facades/series/series.facade';
+import { getAllBaseAnimes } from '../../../facades/animes/animes.facade';
 import { BaseBook } from '../../../models/book-model';
 import { BaseBd } from '../../../models/bd-model';
 import { BaseComic } from '../../../models/comic-model';
@@ -51,6 +52,7 @@ import { BaseGame } from '../../../models/game-model';
 import { BaseManga } from '../../../models/manga-model';
 import { BaseManwha } from '../../../models/manwha-model';
 import { BaseSerie } from '../../../models/serie-model';
+import { BaseAnime } from '../../../models/anime-model';
 import {
   SearchableSelectboxComponent,
   SearchableSelectOption,
@@ -182,6 +184,7 @@ export class EditMovieComponent {
   readonly baseMangas = signal<BaseManga[]>([]);
   readonly baseManwhas = signal<BaseManwha[]>([]);
   readonly baseSeries = signal<BaseSerie[]>([]);
+  readonly baseAnimes = signal<BaseAnime[]>([]);
   /** Type de source sélectionné (peut être renseigné sans œuvre encore choisie). */
   readonly fromEntitySourceType = signal<MovieFromEntityType | ''>('');
 
@@ -199,6 +202,7 @@ export class EditMovieComponent {
     { value: 'manwha', label: 'Manhwa' },
     { value: 'game', label: 'Jeu vidéo' },
     { value: 'serie', label: 'Série' },
+    { value: 'anime', label: 'Animé' },
   ];
 
   readonly fromEntityWorkOptions = computed<SearchableSelectOption[]>(() => {
@@ -256,6 +260,13 @@ export class EditMovieComponent {
             value: `${s.title}|${s.director}`,
             label: `${s.title} — ${s.director}`,
           }));
+      case 'anime':
+        return [...this.baseAnimes()]
+          .sort(sortByTitle)
+          .map((s) => ({
+            value: `${s.title}|${s.director}`,
+            label: `${s.title} — ${s.director}`,
+          }));
       default:
         return [];
     }
@@ -296,6 +307,7 @@ export class EditMovieComponent {
       mangas,
       manwhas,
       series,
+      animes,
     ] = await Promise.all([
       getAllBaseBooks(),
       getAllBaseBds(),
@@ -304,6 +316,7 @@ export class EditMovieComponent {
       getAllBaseMangas(),
       getAllBaseManwhas(),
       getAllBaseSeries(),
+      getAllBaseAnimes(),
     ]);
     this.baseBooks.set(books);
     this.baseBds.set(bds);
@@ -312,6 +325,7 @@ export class EditMovieComponent {
     this.baseMangas.set(mangas);
     this.baseManwhas.set(manwhas);
     this.baseSeries.set(series);
+    this.baseAnimes.set(animes);
   }
 
   getFromEntityTypeDisplayLabel(

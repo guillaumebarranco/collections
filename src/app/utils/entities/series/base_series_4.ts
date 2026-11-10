@@ -1,7 +1,7 @@
 import { BaseSerie } from '../../../models/serie-model';
 
 export const baseSeries4: BaseSerie[] = [
-  {
+{
     title: 'The Wire',
     director: 'David Simon',
     actors: [
@@ -26,7 +26,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Succession',
     director: 'Jesse Armstrong',
     actors: [
@@ -50,7 +50,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Fleabag',
     director: 'Phoebe Waller-Bridge',
     actors: [{ name: 'Phoebe Waller-Bridge' }],
@@ -68,7 +68,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'Royaume-Uni',
   },
-  {
+{
     title: 'Veep',
     director: 'Armando Iannucci',
     actors: [
@@ -95,7 +95,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: '30 Rock',
     director: 'Tina Fey',
     actors: [
@@ -122,7 +122,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Curb Your Enthusiasm',
     director: 'Larry David',
     actors: [
@@ -153,7 +153,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Atlanta',
     director: 'Donald Glover',
     actors: [
@@ -177,7 +177,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Arrested Development',
     director: 'Mitchell Hurwitz',
     actors: [
@@ -202,7 +202,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Girls',
     director: 'Lena Dunham',
     actors: [
@@ -228,7 +228,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Friday Night Lights',
     director: 'Peter Berg',
     actors: [
@@ -253,7 +253,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Six Feet Under',
     director: 'Alan Ball',
     actors: [
@@ -278,7 +278,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'The Office (UK)',
     director: 'Ricky Gervais, Stephen Merchant',
     actors: [
@@ -300,7 +300,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'Royaume-Uni',
   },
-  {
+{
     title: 'The Americans',
     director: 'Joe Weisberg',
     actors: [
@@ -326,7 +326,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'I May Destroy You',
     director: 'Michaela Coel',
     actors: [{ name: 'Michaela Coel' }],
@@ -341,7 +341,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'Royaume-Uni',
   },
-  {
+{
     title: 'The Comeback',
     director: 'Lisa Kudrow, Michael Patrick King',
     actors: [
@@ -364,7 +364,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Deadwood',
     director: 'David Milch',
     actors: [
@@ -387,7 +387,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'The Leftovers',
     director: 'Damon Lindelof, Tom Perrotta',
     actors: [
@@ -410,7 +410,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Band of Brothers',
     director: 'Steven Spielberg, Tom Hanks',
     actors: [
@@ -429,7 +429,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Key & Peele',
     director: 'Keegan-Michael Key, Jordan Peele',
     actors: [{ name: 'Jordan Peele' }, { name: 'Keegan-Michael Key' }],
@@ -450,7 +450,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Severance',
     director: 'Dan Erickson',
     actors: [
@@ -472,7 +472,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Survivor',
     director: 'Charlie Parsons',
     actors: [
@@ -543,7 +543,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Enlightened',
     director: 'Mike White, Laura Dern',
     actors: [
@@ -565,7 +565,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: "Schitt's Creek",
     director: 'Eugene Levy, Dan Levy',
     actors: [
@@ -591,7 +591,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'Canada',
   },
-  {
+{
     title: 'The Pitt',
     director: 'R. Scott Gemmill',
     actors: [
@@ -613,7 +613,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Battlestar Galactica',
     director: 'Ronald D. Moore, Glen A. Larson',
     actors: [
@@ -637,7 +637,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Adolescence',
     director: 'Stephen Graham, Jack Thorne',
     actors: [
@@ -656,7 +656,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Louie',
     director: 'Louis C.K.',
     actors: [{ name: 'Louis C.K.' }],
@@ -677,7 +677,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Hacks',
     director: 'Jen Statsky, Lucia Aniello, Paul W. Downs',
     actors: [
@@ -702,7 +702,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Happy Valley',
     director: 'Sally Wainwright',
     actors: [
@@ -725,7 +725,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'Royaume-Uni',
   },
-  {
+{
     title: 'Broad City',
     director: 'Abbi Jacobson, Ilana Glazer',
     actors: [
@@ -750,7 +750,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Normal People',
     director: 'Sally Rooney, Lenny Abrahamson',
     actors: [
@@ -769,7 +769,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'Royaume-Uni',
   },
-  {
+{
     title: 'Parks and Recreation',
     director: 'Mike Schur, Greg Daniels',
     actors: [
@@ -796,7 +796,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Le Bureau des légendes',
     director: 'Éric Rochant',
     actors: [
@@ -821,7 +821,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'France',
   },
-  {
+{
     title: 'Insecure',
     director: 'Larry Wilmore, Issa Rae',
     actors: [
@@ -845,7 +845,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Nathan for You',
     director: 'Nathan Fielder, Michael Koman',
     actors: [{ name: 'Nathan Fielder' }],
@@ -865,7 +865,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'I Think You Should Leave',
     director: 'Tim Robinson, Zach Kanin',
     actors: [{ name: 'Tim Robinson' }],
@@ -884,7 +884,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: "Chappelle's Show",
     director: 'Dave Chappelle, Neal Brennan',
     actors: [{ name: 'Dave Chappelle' }],
@@ -902,7 +902,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'PEN15',
     director: 'Maya Erskine, Anna Konkle, Sam Zvibleman',
     actors: [
@@ -924,7 +924,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Peep Show',
     director: "Jesse Armstrong, Sam Bain, Andrew O'Connor",
     actors: [
@@ -953,7 +953,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'Royaume-Uni',
   },
-  {
+{
     title: "RuPaul's Drag Race",
     director: 'RuPaul',
     actors: [
@@ -991,7 +991,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Slow Horses',
     director: 'Will Smith, Graham Yost',
     actors: [
@@ -1017,7 +1017,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'The Thick of It',
     director: 'Armando Iannucci',
     actors: [
@@ -1041,7 +1041,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'Royaume-Uni',
   },
-  {
+{
     title: 'Anthony Bourdain: Parts Unknown',
     director: 'Anthony Bourdain',
     actors: [{ name: 'Anthony Bourdain' }],
@@ -1069,7 +1069,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Mare of Easttown',
     director: 'Brad Ingelsby',
     actors: [
@@ -1088,7 +1088,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'The Rehearsal',
     director: 'Nathan Fielder',
     actors: [{ name: 'Nathan Fielder' }],
@@ -1106,7 +1106,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Anthony Bourdain: No Reservations',
     director: 'Anthony Bourdain',
     actors: [{ name: 'Anthony Bourdain' }],
@@ -1132,7 +1132,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'The Shield',
     director: 'Shawn Ryan',
     actors: [
@@ -1159,7 +1159,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Beef',
     director: 'Lee Sung Jin',
     actors: [
@@ -1181,7 +1181,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Barry',
     director: 'Alec Berg, Bill Hader',
     actors: [
@@ -1205,7 +1205,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Ted Lasso',
     director: 'Jason Sudeikis, Bill Lawrence, Brendan Hunt',
     actors: [
@@ -1229,7 +1229,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Somebody Somewhere',
     director: 'Paul Thureen, Hannah Bos',
     actors: [
@@ -1252,7 +1252,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: "It's Always Sunny in Philadelphia",
     director: 'Rob McElhenney',
     actors: [
@@ -1290,7 +1290,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'The Good Wife',
     director: 'Michelle King, Robert King',
     actors: [
@@ -1317,7 +1317,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'How to With John Wilson',
     director: 'John Wilson',
     actors: [{ name: 'John Wilson' }],
@@ -1336,7 +1336,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Better Things',
     director: 'Pamela Adlon, Louis C.K.',
     actors: [
@@ -1360,7 +1360,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Justified',
     director: 'Graham Yost',
     actors: [
@@ -1386,7 +1386,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Planet Earth',
     director: 'Alastair Fothergill',
     actors: [{ name: 'David Attenborough' }],
@@ -1401,7 +1401,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'Royaume-Uni',
   },
-  {
+{
     title: 'The Great British Baking Show',
     director: 'Anna Beattie',
     actors: [
@@ -1438,7 +1438,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'Royaume-Uni',
   },
-  {
+{
     title: 'Shogun',
     director: 'Justin Marks, Rachel Kondo',
     actors: [
@@ -1457,7 +1457,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Reservation Dogs',
     director: 'Taika Waititi, Sterlin Harjo',
     actors: [
@@ -1480,7 +1480,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Eastbound & Down',
     director: 'Danny McBride, Jody Hill, Ben Best',
     actors: [
@@ -1504,7 +1504,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Catastrophe',
     director: 'Rob Delaney, Sharon Horgan',
     actors: [{ name: 'Sharon Horgan' }, { name: 'Rob Delaney' }],
@@ -1524,7 +1524,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'Royaume-Uni',
   },
-  {
+{
     title: 'The Night Of',
     director: 'Richard Price, Steven Zaillian',
     actors: [
@@ -1543,7 +1543,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Station Eleven',
     director: 'Patrick Somerville',
     actors: [
@@ -1562,7 +1562,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'The Diplomat',
     director: 'Debora Cahn',
     actors: [
@@ -1586,7 +1586,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Halt and Catch Fire',
     director: 'Christopher Cantwell, Christopher C. Rogers',
     actors: [
@@ -1610,7 +1610,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'The OA',
     director: 'Brit Marling, Zal Batmanglij',
     actors: [
@@ -1632,7 +1632,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Gilmore Girls',
     director: 'Amy Sherman-Palladino',
     actors: [
@@ -1659,7 +1659,7 @@ export const baseSeries4: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'La carte des désirs',
     director: 'Laura M. Campos, Gemma Ferraté',
     actors: [

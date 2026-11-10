@@ -47,9 +47,13 @@ export function writeOfflinePrefs(prefs: OfflinePrefs): void {
 
 export function readOfflineCachePayload(): OfflineCachePayload | null {
   if (typeof window === 'undefined') return null;
-  return safeParse<OfflineCachePayload>(
+  const payload = safeParse<OfflineCachePayload>(
     localStorage.getItem(OFFLINE_CACHE_STORAGE_KEY)
   );
+  if (payload && !payload.animes) {
+    payload.animes = { base: [], user: [], watchlist: [] };
+  }
+  return payload;
 }
 
 export function writeOfflineCachePayload(payload: OfflineCachePayload): void {

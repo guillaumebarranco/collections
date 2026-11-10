@@ -1,3 +1,4 @@
 import { UserSerie } from '../../../../models/serie-model';
 
-export const giloufaustWatchListSeries: UserSerie[] = [];
+export const giloufaustWatchListSeries: UserSerie[] = [
+];

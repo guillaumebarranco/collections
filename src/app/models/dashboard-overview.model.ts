@@ -46,6 +46,13 @@ export type DashboardOverview = {
     seasons: DashboardOverviewLightSeason[];
     seasonsData: DashboardOverviewLightSeasonData[];
   }>;
+  animes: Array<{
+    title: string;
+    director: string;
+    rating: number;
+    seasons: DashboardOverviewLightSeason[];
+    seasonsData: DashboardOverviewLightSeasonData[];
+  }>;
   games: Array<{
     title: string;
     editor: string;
@@ -98,6 +105,7 @@ export type DashboardOverview = {
   }>;
   watchlistMoviesCount: number;
   watchlistSeriesCount: number;
+  watchlistAnimesCount: number;
   readlistBooksCount: number;
   readlistMangasCount: number;
   readlistComicsCount: number;

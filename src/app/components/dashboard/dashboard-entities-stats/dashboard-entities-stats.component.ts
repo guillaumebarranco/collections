@@ -8,6 +8,7 @@ import { DashboardEntityChartsComponent } from '../dashboard-entity-charts/dashb
 import { ActivatedRoute, Params } from '@angular/router';
 import { Movie } from '../../../models/movie-model';
 import { normalizeSerieGenres, Serie } from '../../../models/serie-model';
+import { Anime, normalizeAnimeGenres } from '../../../models/anime-model';
 import { Book } from '../../../models/book-model';
 import { Game } from '../../../models/game-model';
 import { Music } from '../../../models/music-model';
@@ -18,6 +19,7 @@ import { Manwha } from '../../../models/manwha-model';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
 import { getAllMovies } from '../../../facades/movies/movies.facade';
 import { getAllSeries } from '../../../facades/series/series.facade';
+import { getAllAnimes } from '../../../facades/animes/animes.facade';
 import { getAllBooks } from '../../../facades/books/books.facade';
 import { getAllGames } from '../../../facades/games/games.facade';
 import { getAllMusics } from '../../../facades/musics/musics.facade';
@@ -29,6 +31,7 @@ import { getAllManwhas } from '../../../facades/manwhas/manwhas.facade';
 export type EntityType =
   | 'movies'
   | 'series'
+  | 'animes'
   | 'books'
   | 'games'
   | 'musics'
@@ -67,6 +70,7 @@ export class DashboardEntitiesStatsComponent implements OnInit {
   entities: EntityType[] = [
     'movies',
     'series',
+    'animes',
     'books',
     'games',
     'mangas',
@@ -82,6 +86,7 @@ export class DashboardEntitiesStatsComponent implements OnInit {
 
   moviesList = signal<{ [key: string]: Movie[] }>({});
   seriesList = signal<{ [key: string]: Serie[] }>({});
+  animesList = signal<{ [key: string]: Anime[] }>({});
   booksList = signal<{ [key: string]: Book[] }>({});
   gamesList = signal<{ [key: string]: Game[] }>({});
   musicsList = signal<{ [key: string]: Music[] }>({});
@@ -101,6 +106,10 @@ export class DashboardEntitiesStatsComponent implements OnInit {
 
   allSeries = computed<Serie[]>(() => {
     return this.seriesList()[this.userId()] || [];
+  });
+
+  allAnimes = computed<Anime[]>(() => {
+    return this.animesList()[this.userId()] || [];
   });
 
   allBooks = computed<Book[]>(() => {
@@ -139,6 +148,8 @@ export class DashboardEntitiesStatsComponent implements OnInit {
         return this.getMoviesStats();
       case 'series':
         return this.getSeriesStats();
+      case 'animes':
+        return this.getAnimesStats();
       case 'books':
         return this.getBooksStats();
       case 'games':
@@ -248,6 +259,47 @@ export class DashboardEntitiesStatsComponent implements OnInit {
     const genresCount: { [key: string]: number } = {};
     uniqueSeries.forEach((serie) => {
       const genresList = normalizeSerieGenres(serie.genre);
+      genresList.forEach((genre) => {
+        genresCount[genre] = (genresCount[genre] || 0) + 1;
+      });
+    });
+
+    return {
+      topActors: this.sortAndLimit(actorsCount, 10),
+      topDirectors: this.sortAndLimit(directorsCount, 10),
+      topGenres: this.sortAndLimit(genresCount, 10),
+    };
+  }
+
+  private getAnimesStats(): EntityStats {
+    const animes = this.allAnimes();
+    const uniqueAnimes = Array.from(
+      new Set(animes.map((s) => `${s.title}|${s.director}`))
+    ).map((key) => {
+      const [title, director] = key.split('|');
+      return animes.find((s) => s.title === title && s.director === director)!;
+    });
+
+    const actorsCount: { [key: string]: number } = {};
+    uniqueAnimes.forEach((anime) => {
+      anime.actors?.forEach((actor) => {
+        if (actor.name && actor.name !== 'Inconnu') {
+          actorsCount[actor.name] = (actorsCount[actor.name] || 0) + 1;
+        }
+      });
+    });
+
+    const directorsCount: { [key: string]: number } = {};
+    uniqueAnimes.forEach((anime) => {
+      if (anime.director) {
+        directorsCount[anime.director] =
+          (directorsCount[anime.director] || 0) + 1;
+      }
+    });
+
+    const genresCount: { [key: string]: number } = {};
+    uniqueAnimes.forEach((anime) => {
+      const genresList = normalizeAnimeGenres(anime.genre);
       genresList.forEach((genre) => {
         genresCount[genre] = (genresCount[genre] || 0) + 1;
       });
@@ -508,6 +560,7 @@ export class DashboardEntitiesStatsComponent implements OnInit {
     const labels: { [key in EntityType]: string } = {
       movies: '🎬 Films',
       series: '📺 Séries',
+      animes: '🎌 Animés',
       books: '📖 Livres',
       games: '🎮 Jeux',
       musics: '🎵 Musiques',
@@ -541,6 +594,7 @@ export class DashboardEntitiesStatsComponent implements OnInit {
     void this.loadMoviesData();
     void this.loadBooksData();
     void this.loadSeriesData();
+    void this.loadAnimesData();
     void this.loadMusicsData();
     void this.loadComicsData();
     void this.loadBdsData();
@@ -564,6 +618,12 @@ export class DashboardEntitiesStatsComponent implements OnInit {
     const userId = this.userId() || DEFAULT_USER_ID;
     const series = await getAllSeries(userId);
     this.seriesList.set(series);
+  }
+
+  private async loadAnimesData() {
+    const userId = this.userId() || DEFAULT_USER_ID;
+    const animes = await getAllAnimes(userId);
+    this.animesList.set(animes);
   }
 
   private async loadGamesData() {

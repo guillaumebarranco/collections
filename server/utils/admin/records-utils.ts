@@ -19,6 +19,12 @@ const {
   parseBaseSeriesFullFromFile,
 } = require('../series/series-utils');
 const {
+  getUserAnimesFiles,
+  parseAnimesFromFile,
+  getBaseAnimesFiles,
+  parseBaseAnimesFullFromFile,
+} = require('../animes/animes-utils');
+const {
   getUserGamesFiles,
   getUserAllGamesFiles,
   parseGamesFromFile,
@@ -69,9 +75,16 @@ import type {
   Serie,
   UserSerieFileRow,
 } from '../../../src/app/models/serie-model';
+import type {
+  Anime,
+  UserAnimeFileRow,
+} from '../../../src/app/models/anime-model';
 const {
   getSerieWatchedLengthMinutes,
 } = require('../../../src/app/utils/series.utils');
+const {
+  getAnimeWatchedLengthMinutes,
+} = require('../../../src/app/utils/animes.utils');
 const {
   getGamePlayedHoursFromSessions,
 } = require('../../../src/app/utils/games.utils');
@@ -107,6 +120,7 @@ const CATEGORY_KEYS = [
   'books',
   'movies',
   'series',
+  'animes',
   'games',
   'mangas',
   'manwhas',
@@ -213,6 +227,38 @@ function loadBaseSeriesSeasonsDataMap(): Map<
         )}`;
         const seasonsData = Array.isArray(s.seasonsData)
           ? (s.seasonsData as BaseSerieSeasonData[]).map((se) => ({
+              seasonNumber: Number(se.seasonNumber) || 0,
+              totalLength: Number(se.totalLength) || 0,
+            }))
+          : [];
+        map.set(key, seasonsData);
+      }
+    }
+  } catch {
+    // ignore
+  }
+  return map;
+}
+
+function loadBaseAnimesSeasonsDataMap(): Map<
+  string,
+  { seasonNumber: number; totalLength: number }[]
+> {
+  const map = new Map<
+    string,
+    { seasonNumber: number; totalLength: number }[]
+  >();
+  try {
+    const files = getBaseAnimesFiles();
+    for (const file of files) {
+      const content = fs.readFileSync(file, 'utf8');
+      const animes = parseBaseAnimesFullFromFile(content);
+      for (const s of animes) {
+        const key = `${normalizeKey(s.title || '')}|${normalizeKey(
+          s.director || ''
+        )}`;
+        const seasonsData = Array.isArray(s.seasonsData)
+          ? s.seasonsData.map((se: { seasonNumber?: number; totalLength?: number }) => ({
               seasonNumber: Number(se.seasonNumber) || 0,
               totalLength: Number(se.totalLength) || 0,
             }))
@@ -424,6 +470,25 @@ function buildAdminRecords(): ReturnType<typeof emptyRecords> {
         return 0;
       }
     },
+    animes: (uid: string) => {
+      try {
+        const files = [...getUserAnimesFiles(uid)];
+        const keys = new Set<string>();
+        for (const file of files) {
+          const content = fs.readFileSync(file, 'utf8');
+          for (const row of parseAnimesFromFile(content)) {
+            const t = (row.title || '').trim();
+            const d = (row.director || '').trim();
+            if (t && d) {
+              keys.add(`${t}|${d}`);
+            }
+          }
+        }
+        return keys.size;
+      } catch {
+        return 0;
+      }
+    },
     games: (uid: string) =>
       safeGetCount(uid, getUserGamesFiles, parseGamesFromFile),
     mangas: (uid: string) =>
@@ -451,6 +516,7 @@ function buildAdminRecords(): ReturnType<typeof emptyRecords> {
   const baseBooksPages = loadBaseBooksPagesMap();
   const baseMoviesLength = loadBaseMoviesLengthMap();
   const baseSeriesSeasonsData = loadBaseSeriesSeasonsDataMap();
+  const baseAnimesSeasonsData = loadBaseAnimesSeasonsDataMap();
   const baseGamesEntity = loadBaseGamesEntityMap();
   const baseMangasNbTomes = loadBaseMangasNbTomesMap();
   const baseManwhasNbChapters = loadBaseManwhasNbChaptersMap();
@@ -551,6 +617,33 @@ function buildAdminRecords(): ReturnType<typeof emptyRecords> {
             const seasonsData = baseSeriesSeasonsData.get(keySerie) ?? [];
             const serie = { ...row, seasonsData } as Serie;
             totalMinutes += getSerieWatchedLengthMinutes(serie);
+          }
+          return {
+            username:
+              users.find((u: UserListItem) => u.username.toLowerCase() === uid)
+                ?.username ?? uid,
+            value: Math.round(minutesToDays(totalMinutes) * 10) / 10,
+          };
+        })
+        .filter((x: DurationEntry) => x.value > 0)
+        .sort(byDuration)
+        .slice(0, 3);
+    } else if (key === 'animes') {
+      mostTimeReadWatched = uidList
+        .map((uid: string) => {
+          const userAnimes = safeGetUserItems<UserAnimeFileRow>(
+            uid,
+            getUserAnimesFiles,
+            parseAnimesFromFile
+          );
+          let totalMinutes = 0;
+          for (const row of userAnimes) {
+            const keyAnime = `${normalizeKey(row.title || '')}|${normalizeKey(
+              row.director || ''
+            )}`;
+            const seasonsData = baseAnimesSeasonsData.get(keyAnime) ?? [];
+            const anime = { ...row, seasonsData } as Anime;
+            totalMinutes += getAnimeWatchedLengthMinutes(anime);
           }
           return {
             username:

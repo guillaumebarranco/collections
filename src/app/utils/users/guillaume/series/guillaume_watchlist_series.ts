@@ -1,6 +1,6 @@
 import { UserSeries } from '../../../../models/serie-model';
 export const guillaumeWatchListSeries: UserSeries = [
-  {
+{
     title: "Ahsoka",
     director: "Dave Filoni",
     seasons: [
@@ -22,7 +22,7 @@ export const guillaumeWatchListSeries: UserSeries = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "Altered Carbon",
     director: "Laeta Kalogridis",
     seasons: [
@@ -53,7 +53,7 @@ export const guillaumeWatchListSeries: UserSeries = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "Siren",
     director: "Eric Wald, Dean White",
     seasons: [
@@ -93,7 +93,7 @@ export const guillaumeWatchListSeries: UserSeries = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "The Penguin",
     director: "Craig Zobel",
     seasons: [
@@ -115,7 +115,7 @@ export const guillaumeWatchListSeries: UserSeries = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "FlashForward",
     director: "Brannon Braga, David S. Goyer",
     seasons: [
@@ -137,7 +137,7 @@ export const guillaumeWatchListSeries: UserSeries = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "Mr. Robot",
     director: "Sam Esmail",
     seasons: [
@@ -186,47 +186,7 @@ export const guillaumeWatchListSeries: UserSeries = [
     loaned: "",
     quotes: [],
   },
-  {
-    title: "Invincible",
-    director: "Robert Kirkman",
-    seasons: [
-        {
-          seasonNumber: 1,
-          seasonRating: 0,
-          watching: false,
-          seasonTimesWatched: 0,
-          firstViewedDate: "",
-          lastViewedDate: "",
-          otherViewedDates: [],
-        },
-        {
-          seasonNumber: 2,
-          seasonRating: 0,
-          watching: false,
-          seasonTimesWatched: 0,
-          firstViewedDate: "",
-          lastViewedDate: "",
-          otherViewedDates: [],
-        },
-        {
-          seasonNumber: 3,
-          seasonRating: 0,
-          watching: false,
-          seasonTimesWatched: 0,
-          firstViewedDate: "",
-          lastViewedDate: "",
-          otherViewedDates: [],
-        }
-      ],
-    owned: false,
-    watchPriority: 1,
-    wantToWatchAgain: false,
-    ratingComment: "",
-    borrowed: "",
-    loaned: "",
-    quotes: [],
-  },
-  {
+{
     title: "Westworld",
     director: "Jonathan Nolan, Lisa Joy",
     seasons: [
@@ -275,7 +235,7 @@ export const guillaumeWatchListSeries: UserSeries = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "Chuck",
     director: "Josh Schwartz, Chris Fedak",
     seasons: [
@@ -333,7 +293,7 @@ export const guillaumeWatchListSeries: UserSeries = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "Godfather of Harlem",
     director: "Chris Brancato, Paul Eckstein",
     seasons: [
@@ -373,7 +333,7 @@ export const guillaumeWatchListSeries: UserSeries = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "La traque dans le sang",
     director: "Kim Joo-hwan",
     seasons: [
@@ -404,7 +364,7 @@ export const guillaumeWatchListSeries: UserSeries = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "Poupée russe",
     director: "Natasha Lyonne, Leslye Headland, Amy Poehler",
     seasons: [
@@ -435,7 +395,7 @@ export const guillaumeWatchListSeries: UserSeries = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "Bref",
     director: "Kyan Khojandi, Bruno Muschio",
     seasons: [
@@ -457,7 +417,7 @@ export const guillaumeWatchListSeries: UserSeries = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "Batwoman",
     director: "Caroline Dries",
     seasons: [
@@ -497,7 +457,7 @@ export const guillaumeWatchListSeries: UserSeries = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "Gotham",
     director: "Bruno Heller",
     seasons: [
@@ -555,7 +515,7 @@ export const guillaumeWatchListSeries: UserSeries = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "La Quatrième dimension",
     director: "Rod Serling",
     seasons: [
@@ -613,7 +573,7 @@ export const guillaumeWatchListSeries: UserSeries = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "Buffy contre les vampires",
     director: "Joss Whedon",
     seasons: [
@@ -689,7 +649,7 @@ export const guillaumeWatchListSeries: UserSeries = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "LOST : Les disparus",
     director: "J.J. Abrams, Damon Lindelof, Carlton Cuse",
     seasons: [
@@ -756,7 +716,7 @@ export const guillaumeWatchListSeries: UserSeries = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "Alias",
     director: "J.J. Abrams",
     seasons: [
@@ -814,7 +774,7 @@ export const guillaumeWatchListSeries: UserSeries = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "Swamp Thing",
     director: "Gary Dauberman, Mark Verheiden",
     seasons: [
@@ -836,7 +796,7 @@ export const guillaumeWatchListSeries: UserSeries = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "Le Continental",
     director: "Albert Hughes, Charlotte Brändström",
     seasons: [
@@ -858,7 +818,7 @@ export const guillaumeWatchListSeries: UserSeries = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "Unforgettable",
     director: "John Bellucci, Ed Redlich",
     seasons: [
@@ -907,7 +867,7 @@ export const guillaumeWatchListSeries: UserSeries = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "Smallville",
     director: "Alfred Gough, Miles Millar",
     seasons: [
@@ -1010,7 +970,7 @@ export const guillaumeWatchListSeries: UserSeries = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "Agatha All Along",
     director: "Jac Schaeffer",
     seasons: [
@@ -1032,7 +992,7 @@ export const guillaumeWatchListSeries: UserSeries = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "She-Hulk : Attorney at Law",
     director: "Jessica Gao",
     seasons: [
@@ -1053,5 +1013,5 @@ export const guillaumeWatchListSeries: UserSeries = [
     borrowed: "",
     loaned: "",
     quotes: [],
-  }
+  },
 ];

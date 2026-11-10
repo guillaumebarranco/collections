@@ -899,7 +899,7 @@ export const baseGames: BaseGame[] = [
     platineTime: 25,
     description: '',
     fromEntity: {
-      entityType: 'serie',
+      entityType: 'anime',
       title: 'South Park',
       secondEntityKey: 'Trey Parker, Matt Stone',
     },
@@ -917,7 +917,7 @@ export const baseGames: BaseGame[] = [
     platineTime: 50,
     description: '',
     fromEntity: {
-      entityType: 'serie',
+      entityType: 'anime',
       title: 'South Park',
       secondEntityKey: 'Trey Parker, Matt Stone',
     },
@@ -1691,7 +1691,7 @@ export const baseGames: BaseGame[] = [
     platineTime: 0,
     description: '',
     fromEntity: {
-      entityType: 'serie',
+      entityType: 'anime',
       title: 'Les Simpsons',
       secondEntityKey: 'Matt Groening',
     },

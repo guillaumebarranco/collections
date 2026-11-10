@@ -23,6 +23,13 @@ import {
   UserSerie,
   UserSerieSeason,
 } from '../models/serie-model';
+import {
+  BaseAnime,
+  normalizeAnimeGenres,
+  Anime,
+  UserAnime,
+  UserAnimeSeason,
+} from '../models/anime-model';
 
 export const getBdDataFromUserBdAndBaseBd = (
   userBd: UserBd,
@@ -356,4 +363,31 @@ export const getSerieDataFromUserSerieAndBaseSerie = (
   loaned: userSerie.loaned ?? '',
   fromEntity: baseSerie?.fromEntity ?? null,
   quotes: userSerie.quotes ?? [],
+});
+
+export const getAnimeDataFromUserAnimeAndBaseAnime = (
+  userAnime: UserAnime,
+  baseAnime: BaseAnime,
+  seasons: UserAnimeSeason[]
+): Anime => ({
+  title: userAnime.title,
+  director: userAnime.director,
+  seasons,
+  actors: baseAnime?.actors || [],
+  coverUrl: baseAnime?.coverUrl || '',
+  releaseDate: baseAnime?.releaseDate || '',
+  endDate: baseAnime?.endDate || '',
+  genre: normalizeAnimeGenres(baseAnime?.genre),
+  seasonsData: baseAnime?.seasonsData || [],
+  countryOrigin: (baseAnime?.countryOrigin ?? '') as Anime['countryOrigin'],
+  owned: userAnime.owned,
+  watchPriority: userAnime.watchPriority,
+  wantToWatchAgain: userAnime.wantToWatchAgain,
+  description: baseAnime?.description ?? '',
+  ratingComment: userAnime.ratingComment ?? '',
+  saga: baseAnime?.saga ?? '',
+  borrowed: userAnime.borrowed ?? '',
+  loaned: userAnime.loaned ?? '',
+  fromEntity: baseAnime?.fromEntity ?? null,
+  quotes: userAnime.quotes ?? [],
 });

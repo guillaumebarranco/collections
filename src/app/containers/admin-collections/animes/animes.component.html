@@ -1,0 +1,137 @@
+<div class="animes-container">
+  <app-admin-animes-header
+    [selectedView]="selectedView()"
+    [searchTermInput]="searchTerm()"
+    [filteredAnimesCount]="filteredAnimes().length"
+    [viewOptions]="visibleViewOptions()"
+    (onViewChange)="onViewChange($any($event))"
+    (onSearchChange)="onSearchChange($event)"
+  ></app-admin-animes-header>
+
+  @if (selectedView() === 'sagas') {
+  <div class="animes-by-saga">
+    @for (sagaGroup of animesBySaga(); track sagaGroup.saga) {
+    <section class="animes-saga-section">
+      <h2 class="animes-saga-title">
+        <button
+          type="button"
+          class="animes-saga-toggle"
+          [attr.aria-expanded]="!isSagaCollapsed(sagaGroup.saga)"
+          (click)="toggleSaga(sagaGroup.saga)"
+        >
+          <span class="animes-saga-toggle-icon">
+            {{ isSagaCollapsed(sagaGroup.saga) ? "▶" : "▼" }}
+          </span>
+          {{ sagaGroup.saga }}
+          ({{ sagaGroup.seenAnimes.length + sagaGroup.missingAnimes.length }})
+        </button>
+      </h2>
+      @if (!isSagaCollapsed(sagaGroup.saga)) {
+      <div class="animes">
+        @for (anime of sagaGroup.seenAnimes; track
+        `${anime.title}-${anime.director}`; let i = $index) {
+        <div class="anime-card">
+          <app-anime
+            [anime]="anime"
+            [list]="sagaGroup.seenAnimes"
+            [index]="i"
+            [selectedView]="selectedView()"
+            (animeUpdated)="refreshAnimes()"
+            (watchlistMarkedAsWatched)="refreshAnimes()"
+          ></app-anime>
+        </div>
+        }
+      </div>
+      @if (sagaGroup.missingAnimes.length > 0) {
+      <div class="animes-saga-missing">
+        <p class="animes-saga-missing-label">Animés pas encore vues</p>
+        <div class="animes">
+          @for (anime of sagaGroup.missingAnimes; track
+          `${anime.title}-${anime.director}`) {
+          <div class="anime-card anime-card--missing">
+            <app-anime
+              [anime]="anime"
+              [readOnly]="true"
+              [recommendationBadge]="'Non vue'"
+            ></app-anime>
+          </div>
+          }
+        </div>
+      </div>
+      } }
+    </section>
+    }
+  </div>
+  } @else if (selectedView() === 'countries') {
+  <div class="animes-by-country">
+    @for (countryGroup of animesByCountry(); track countryGroup.country) {
+    <section class="animes-country-section">
+      <h2 class="animes-country-title">
+        <button
+          type="button"
+          class="animes-country-toggle"
+          [attr.aria-expanded]="!isCountryCollapsed(countryGroup.country)"
+          (click)="toggleCountry(countryGroup.country)"
+        >
+          <span class="animes-country-toggle-icon">
+            {{ isCountryCollapsed(countryGroup.country) ? "▶" : "▼" }}
+          </span>
+          {{ countryGroup.country }}
+          ({{
+            countryGroup.seenAnimes.length + countryGroup.missingAnimes.length
+          }})
+        </button>
+      </h2>
+      @if (!isCountryCollapsed(countryGroup.country)) {
+      <div class="animes">
+        @for (anime of countryGroup.seenAnimes; track
+        `${anime.title}-${anime.director}`; let i = $index) {
+        <div class="anime-card">
+          <app-anime
+            [anime]="anime"
+            [list]="countryGroup.seenAnimes"
+            [index]="i"
+            [selectedView]="selectedView()"
+            (animeUpdated)="refreshAnimes()"
+            (watchlistMarkedAsWatched)="refreshAnimes()"
+          ></app-anime>
+        </div>
+        }
+      </div>
+      @if (countryGroup.missingAnimes.length > 0) {
+      <div class="animes-country-missing">
+        <p class="animes-country-missing-label">Animés pas encore vues</p>
+        <div class="animes">
+          @for (anime of countryGroup.missingAnimes; track
+          `${anime.title}-${anime.director}`) {
+          <div class="anime-card anime-card--missing">
+            <app-anime
+              [anime]="anime"
+              [readOnly]="true"
+              [recommendationBadge]="'Non vue'"
+            ></app-anime>
+          </div>
+          }
+        </div>
+      </div>
+      } }
+    </section>
+    }
+  </div>
+  } @else {
+  <div class="animes">
+    @for (anime of sortedAnimes(); track anime.title; let i = $index) {
+    <div class="anime-card">
+      <app-anime
+        [anime]="anime"
+        [list]="sortedAnimes()"
+        [index]="i"
+        [selectedView]="selectedView()"
+        (animeUpdated)="refreshAnimes()"
+        (watchlistMarkedAsWatched)="refreshAnimes()"
+      ></app-anime>
+    </div>
+    }
+  </div>
+  }
+</div>

@@ -192,10 +192,10 @@ export class MovieCommunityWatchersModalComponent implements OnInit {
           timesLabel: formatCommunityCountLabel(kind, r.timesWatched ?? 0),
           isCurrentUser: r.userId.toLowerCase() === currentLower,
           seasons:
-            kind === 'serie' ? mapSeasonsForDisplay(r.seasons) : [],
+            (kind === 'serie' || kind === 'anime') ? mapSeasonsForDisplay(r.seasons) : [],
         }));
         this.rows.set(displayRows);
-        if (kind === 'serie') {
+        if ((kind === 'serie' || kind === 'anime')) {
           this.serieSeasonGroups.set(buildSerieSeasonGroups(displayRows));
         }
         this.loading.set(false);

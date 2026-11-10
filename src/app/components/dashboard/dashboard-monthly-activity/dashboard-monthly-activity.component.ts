@@ -7,6 +7,7 @@ import type { Comic } from '../../../models/comic-model';
 import type { Bd } from '../../../models/bd-model';
 import type { Manwha } from '../../../models/manwha-model';
 import type { Serie } from '../../../models/serie-model';
+import type { Anime } from '../../../models/anime-model';
 import type { Game } from '../../../models/game-model';
 import type { Music } from '../../../models/music-model';
 import {
@@ -39,6 +40,7 @@ export const ACTIVITY_ENTITY_TAGS = {
   manwha: { icon: '📘', label: 'Manwha' },
   movie: { icon: '🎬', label: 'Film' },
   series: { icon: '📺', label: 'Série' },
+  animes: { icon: '🎌', label: 'Animé' },
   game: { icon: '🎮', label: 'Jeu' },
 } as const;
 
@@ -61,6 +63,7 @@ export class DashboardMonthlyActivityComponent {
   readonly manwhas = input<Manwha[]>([]);
   readonly movies = input<Movie[]>([]);
   readonly series = input<Serie[]>([]);
+  readonly animes = input<Anime[]>([]);
   readonly games = input<Game[]>([]);
   readonly musics = input<Music[]>([]);
 
@@ -91,6 +94,7 @@ export class DashboardMonthlyActivityComponent {
       this.manwhas(),
       this.movies(),
       this.series(),
+      this.animes(),
       this.games(),
       this.musics(),
       r.start,
@@ -160,6 +164,7 @@ export class DashboardMonthlyActivityComponent {
       this.manwhas(),
       this.movies(),
       this.series(),
+      this.animes(),
       this.games(),
       range.rangeStart,
       range.rangeEnd,
@@ -193,6 +198,7 @@ export class DashboardMonthlyActivityComponent {
         this.manwhas(),
         this.movies(),
         this.series(),
+      this.animes(),
         this.games(),
         this.musics(),
         m.rangeStart,
@@ -206,6 +212,7 @@ export class DashboardMonthlyActivityComponent {
         this.manwhas(),
         this.movies(),
         this.series(),
+      this.animes(),
         this.games(),
         m.rangeStart,
         m.rangeEnd,
@@ -234,6 +241,7 @@ export class DashboardMonthlyActivityComponent {
           activity.counts.manwhas +
           activity.counts.movies +
           activity.counts.series +
+          activity.counts.animes +
           activity.counts.games,
       };
     });

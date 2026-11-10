@@ -33,6 +33,7 @@ import { Movie } from '../../models/movie-model';
 import { Music } from '../../models/music-model';
 import { Game } from '../../models/game-model';
 import { Serie } from '../../models/serie-model';
+import { Anime } from '../../models/anime-model';
 import { Comic } from '../../models/comic-model';
 import { Bd } from '../../models/bd-model';
 import {
@@ -48,6 +49,7 @@ import {
   getSerieTotalTimesWatched,
   getSerieWatchedLengthMinutes,
 } from '../../utils/series.utils';
+import { getAnimeWatchedLengthMinutes } from '../../utils/animes.utils';
 import { buildBadgeThresholdStatsFromCollections } from '../../utils/badge-threshold-stats.collections';
 import {
   getAllMovies,
@@ -59,6 +61,10 @@ import {
   getAllSeries,
   getAllWatchlistSeries,
 } from '../../facades/series/series.facade';
+import {
+  getAllAnimes,
+  getAllWatchlistAnimes,
+} from '../../facades/animes/animes.facade';
 import {
   getAllBooks,
   getAllReadlistBooks,
@@ -254,6 +260,8 @@ export class DashboardComponent implements OnInit {
   watchlistMoviesList = signal<{ [key: string]: Movie[] }>({});
   seriesList = signal<{ [key: string]: Serie[] }>({});
   watchlistSeriesList = signal<{ [key: string]: Serie[] }>({});
+  animesList = signal<{ [key: string]: Anime[] }>({});
+  watchlistAnimesList = signal<{ [key: string]: Anime[] }>({});
   gamesList = signal<{ [key: string]: Game[] }>({});
 
   manwhasList = signal<{ [key: string]: Manwha[] }>({});
@@ -345,6 +353,26 @@ export class DashboardComponent implements OnInit {
     return hasNameParam
       ? Boolean(this.watchlistSeriesList()[this.userId()])
         ? this.watchlistSeriesList()[this.userId()]
+        : []
+      : [];
+  });
+
+  allAnimes = computed<Anime[]>(() => {
+    const params: Params = this.routeParams();
+    const hasNameParam = params['id'] !== undefined;
+    return hasNameParam
+      ? Boolean(this.animesList()[this.userId()])
+        ? this.animesList()[this.userId()]
+        : []
+      : [];
+  });
+
+  allWatchlistAnimes = computed<Anime[]>(() => {
+    const params: Params = this.routeParams();
+    const hasNameParam = params['id'] !== undefined;
+    return hasNameParam
+      ? Boolean(this.watchlistAnimesList()[this.userId()])
+        ? this.watchlistAnimesList()[this.userId()]
         : []
       : [];
   });
@@ -469,6 +497,7 @@ export class DashboardComponent implements OnInit {
       this.allManwhas().length > 0 ||
       this.allMovies().length > 0 ||
       this.allSeries().length > 0 ||
+      this.allAnimes().length > 0 ||
       this.allGames().length > 0 ||
       this.allMusics().length > 0
     );
@@ -501,6 +530,7 @@ export class DashboardComponent implements OnInit {
       bds: [],
       movies: [],
       series: [],
+      animes: [],
       games: [],
       other: [],
     };
@@ -513,6 +543,7 @@ export class DashboardComponent implements OnInit {
       { key: 'books', label: '📖 Livres', badges: groups.books },
       { key: 'movies', label: '🎬 Films', badges: groups.movies },
       { key: 'series', label: '📺 Séries', badges: groups.series },
+      { key: 'animes', label: '🎌 Animés', badges: groups.animes },
       { key: 'games', label: '🎮 Jeux', badges: groups.games },
       { key: 'mangas', label: '📗 Mangas', badges: groups.mangas },
       { key: 'bds', label: '🎨 BDs', badges: groups.bds },
@@ -556,6 +587,7 @@ export class DashboardComponent implements OnInit {
       movies: this.allMovies(),
       games: this.allGames(),
       series: this.allSeries(),
+      animes: this.allAnimes(),
       mangas: this.allMangas(),
       manwhas: this.allManwhas(),
       comics: this.allComics(),
@@ -753,6 +785,7 @@ export class DashboardComponent implements OnInit {
       ),
       movies: resolve('movies', this.allMovies() as Entity[], tf.movies ?? []),
       series: resolve('series', this.allSeries() as Entity[], tf.series ?? []),
+      animes: resolve('animes', this.allAnimes() as Entity[], tf.animes ?? []),
       games: resolve('games', this.allGames() as Entity[], tf.games ?? []),
       mangas: resolve('mangas', this.allMangas() as Entity[], tf.mangas ?? []),
       manwhas: resolve(
@@ -771,6 +804,7 @@ export class DashboardComponent implements OnInit {
     'children-books': '🧒 Livres pour enfants',
     movies: '🎬 Films',
     series: '📺 Séries',
+    animes: '🎌 Animés',
     games: '🎮 Jeux',
     mangas: '📚 Mangas',
     manwhas: '📖 Manwhas',
@@ -783,6 +817,7 @@ export class DashboardComponent implements OnInit {
     'books',
     'movies',
     'series',
+    'animes',
     'games',
     'mangas',
     'manwhas',
@@ -822,6 +857,9 @@ export class DashboardComponent implements OnInit {
       ) +
       this.allSeries().reduce((sum, serie) => {
         return sum + getSerieWatchedLengthMinutes(serie) / 60;
+      }, 0) +
+      this.allAnimes().reduce((sum, anime) => {
+        return sum + getAnimeWatchedLengthMinutes(anime) / 60;
       }, 0);
 
     const gamesTotalTime = this.allGames().reduce(
@@ -926,6 +964,12 @@ export class DashboardComponent implements OnInit {
         label: 'Séries vues',
         value: this.allSeries().length.toString(),
         icon: '📺',
+        color: StatItemColor.INFO,
+      },
+      {
+        label: 'Animés vus',
+        value: this.allAnimes().length.toString(),
+        icon: '🎌',
         color: StatItemColor.INFO,
       },
       {
@@ -1134,6 +1178,7 @@ export class DashboardComponent implements OnInit {
     this.moviesList.set({ [userId]: this.asEntityList<Movie>(overview.movies) });
     this.booksList.set({ [userId]: this.asEntityList<Book>(overview.books) });
     this.seriesList.set({ [userId]: this.asEntityList<Serie>(overview.series) });
+    this.animesList.set({ [userId]: this.asEntityList<Anime>(overview.animes) });
     this.gamesList.set({ [userId]: this.asEntityList<Game>(overview.games) });
     this.mangasList.set({ [userId]: this.asEntityList<Manga>(overview.mangas) });
     this.manwhasList.set({
@@ -1149,6 +1194,9 @@ export class DashboardComponent implements OnInit {
     });
     this.watchlistSeriesList.set({
       [userId]: this.stubListCount<Serie>(overview.watchlistSeriesCount),
+    });
+    this.watchlistAnimesList.set({
+      [userId]: this.stubListCount<Anime>(overview.watchlistAnimesCount),
     });
     this.readlistBooksList.set({
       [userId]: this.stubListCount<Book>(overview.readlistBooksCount),
@@ -1184,6 +1232,8 @@ export class DashboardComponent implements OnInit {
       this.loadReadlistManwhasData(),
       this.loadSeriesData(),
       this.loadWatchlistSeriesData(),
+      this.loadAnimesData(),
+      this.loadWatchlistAnimesData(),
       this.loadGamesData(),
       this.loadMusicsData(),
     ]);
@@ -1286,6 +1336,18 @@ export class DashboardComponent implements OnInit {
     const userId = this.userId() || DEFAULT_USER_ID;
     const series = await getAllWatchlistSeries(userId);
     this.watchlistSeriesList.set(series);
+  }
+
+  private async loadAnimesData() {
+    const userId = this.userId() || DEFAULT_USER_ID;
+    const animes = await getAllAnimes(userId);
+    this.animesList.set(animes);
+  }
+
+  private async loadWatchlistAnimesData() {
+    const userId = this.userId() || DEFAULT_USER_ID;
+    const animes = await getAllWatchlistAnimes(userId);
+    this.watchlistAnimesList.set(animes);
   }
 
   private async loadGamesData() {

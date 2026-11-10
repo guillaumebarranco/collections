@@ -32,6 +32,7 @@ const CONFIGURABLE_ITEMS: {
   },
   { key: 'movies', label: 'Films', icon: '🎬' },
   { key: 'series', label: 'Séries', icon: '📺' },
+  { key: 'animes', label: 'Animés', icon: '🎌' },
   { key: 'games', label: 'Jeux', icon: '🎮' },
   { key: 'mangas', label: 'Mangas', icon: '📖' },
   { key: 'manwhas', label: 'Manwhas', icon: '🎨' },

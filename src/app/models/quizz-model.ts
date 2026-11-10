@@ -1,6 +1,7 @@
 export enum EntityType {
   MOVIE = 'movie',
   SERIE = 'serie',
+  ANIME = 'anime',
   BOOK = 'book',
   GAME = 'game',
   BD = 'bd',

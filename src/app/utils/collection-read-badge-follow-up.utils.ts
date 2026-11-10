@@ -1,7 +1,9 @@
 import type { Serie } from '../models/serie-model';
+import type { Anime } from '../models/anime-model';
 import type { EntityBadgeProgressRow } from './entity-badge-progress.types';
 import { computeNextTierProgressRow } from './badge-follow-up-tier.utils';
 import { countSeriesSeenForBadges } from './series.utils';
+import { countAnimesSeenForBadges } from './animes.utils';
 
 export function buildMangaReadlistFollowUpProgress(
   allUserMangas: { length: number }
@@ -37,4 +39,12 @@ export function buildSeriesWatchFollowUpProgress(
   const n = countSeriesSeenForBadges(allUserSeries);
   const row = computeNextTierProgressRow(n, 'seriesWatched');
   return row ? [{ ...row, unitLabel: 'séries' }] : [];
+}
+
+export function buildAnimesWatchFollowUpProgress(
+  allUserAnimes: Anime[]
+): EntityBadgeProgressRow[] {
+  const n = countAnimesSeenForBadges(allUserAnimes);
+  const row = computeNextTierProgressRow(n, 'animesWatched');
+  return row ? [{ ...row, unitLabel: 'animés' }] : [];
 }

@@ -1,0 +1,278 @@
+<div class="add-anime">
+  <div class="header">
+    <h1>{{ headerTitle }}</h1>
+    <button type="button" class="close-btn" (click)="close()">✕</button>
+  </div>
+
+  <form class="add-form" (ngSubmit)="onSubmit()">
+    <section class="form-section">
+      <h2>Informations de l'animé</h2>
+
+      <div class="form-row">
+        <label for="title">Titre</label>
+        <input
+          id="title"
+          type="text"
+          [ngModel]="entityForm().title"
+          (ngModelChange)="updateEntityField('title', $event)"
+          name="title"
+          required
+        />
+      </div>
+
+      <div class="form-row">
+        <label for="director">Créateur</label>
+        <input
+          id="director"
+          type="text"
+          [ngModel]="entityForm().director"
+          (ngModelChange)="updateEntityField('director', $event)"
+          name="director"
+          required
+        />
+      </div>
+
+      <div class="form-row">
+        <label for="actors">Acteurs (séparés par des virgules)</label>
+        <input
+          id="actors"
+          type="text"
+          [ngModel]="entityForm().actors"
+          (ngModelChange)="updateEntityField('actors', $event)"
+          name="actors"
+        />
+      </div>
+
+      <div class="form-row">
+        <label for="coverUrl">Cover URL</label>
+        <input
+          id="coverUrl"
+          type="text"
+          [ngModel]="entityForm().coverUrl"
+          (ngModelChange)="updateEntityField('coverUrl', $event)"
+          name="coverUrl"
+        />
+      </div>
+
+      <div class="form-row">
+        <label for="releaseDate">Date de sortie</label>
+        <input
+          id="releaseDate"
+          type="date"
+          [ngModel]="entityForm().releaseDate"
+          (ngModelChange)="updateEntityField('releaseDate', $event)"
+          name="releaseDate"
+        />
+      </div>
+
+      <div class="form-row">
+        <label for="endDate">Date de fin</label>
+        <input
+          id="endDate"
+          type="date"
+          [ngModel]="entityForm().endDate"
+          (ngModelChange)="updateEntityField('endDate', $event)"
+          name="endDate"
+        />
+      </div>
+
+      <div class="form-row">
+        <label>Saisons</label>
+        <div class="seasons-list">
+          @for (season of entityForm().seasonsData; let i = $index; track
+          season.seasonNumber) {
+          <div class="season-row">
+            <div class="season-title">Saison {{ season.seasonNumber }}</div>
+            <label>
+              Épisodes
+              <input
+                type="number"
+                min="0"
+                [ngModel]="season.nbEpisodes"
+                (ngModelChange)="updateSeasonField(i, 'nbEpisodes', $event)"
+                name="nbEpisodes-{{ i }}"
+              />
+            </label>
+            <label>
+              Durée totale (min)
+              <input
+                type="number"
+                min="0"
+                [ngModel]="season.totalLength"
+                (ngModelChange)="updateSeasonField(i, 'totalLength', $event)"
+                name="totalLength-{{ i }}"
+              />
+            </label>
+            <button
+              type="button"
+              class="btn secondary"
+              (click)="removeSeason(i)"
+            >
+              Supprimer
+            </button>
+          </div>
+          }
+          <button type="button" class="btn secondary" (click)="addSeason()">
+            Ajouter une saison
+          </button>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <label for="genre">Genre</label>
+        <input
+          id="genre"
+          type="text"
+          [ngModel]="entityForm().genre"
+          (ngModelChange)="updateEntityField('genre', $event)"
+          name="genre"
+        />
+      </div>
+
+      <div class="form-row">
+        <label for="countryOrigin">Nationalité</label>
+        <app-country-select
+          inputId="countryOrigin"
+          name="countryOrigin"
+          [value]="entityForm().countryOrigin"
+          (valueChange)="updateEntityField('countryOrigin', $event)"
+        />
+      </div>
+
+      <div class="form-row">
+        <label for="saga">Saga</label>
+        <input
+          id="saga"
+          type="text"
+          [ngModel]="entityForm().saga"
+          (ngModelChange)="updateEntityField('saga', $event)"
+          name="saga"
+          placeholder="Optionnel"
+        />
+      </div>
+    </section>
+
+    <section class="form-section">
+      <h2>Informations utilisateur</h2>
+      @if (entityForm().seasonsData.length) {
+      <div class="form-row">
+        <label>Notes et visionnages par saison</label>
+        <div class="seasons-list">
+          @for (season of userForm().seasons; let i = $index; track
+          season.seasonNumber) {
+          <div class="season-row">
+            <div class="season-title">Saison {{ season.seasonNumber }}</div>
+            <label>
+              Note
+              <input
+                type="number"
+                min="0"
+                step="0.5"
+                [ngModel]="season.seasonRating"
+                (ngModelChange)="updateUserSeasonField(i, 'seasonRating', $event)"
+                name="seasonRating-{{ i }}"
+              />
+            </label>
+            <label>
+              Visionnages
+              <input
+                type="number"
+                min="0"
+                [ngModel]="season.seasonTimesWatched"
+                (ngModelChange)="
+                  updateUserSeasonField(i, 'seasonTimesWatched', $event)
+                "
+                name="seasonTimesWatched-{{ i }}"
+              />
+            </label>
+            <label>
+              Premier visionnage
+              <input
+                type="date"
+                [ngModel]="season.firstViewedDate"
+                (ngModelChange)="
+                  updateUserSeasonField(i, 'firstViewedDate', $event)
+                "
+                name="seasonFirstViewedDate-{{ i }}"
+              />
+            </label>
+            <label>
+              Dernier visionnage
+              <input
+                type="date"
+                [ngModel]="season.lastViewedDate"
+                (ngModelChange)="
+                  updateUserSeasonField(i, 'lastViewedDate', $event)
+                "
+                name="seasonLastViewedDate-{{ i }}"
+              />
+            </label>
+            <app-extra-dates-list
+              label="Autres dates de visionnage"
+              hint="Revisionnages de cette saison (hors premier et dernier visionnage)."
+              [dates]="season.otherViewedDates"
+              (datesChange)="updateUserSeasonOtherViewedDates(i, $event)"
+            />
+          </div>
+          }
+        </div>
+      </div>
+      }
+      <div class="form-row checkbox-row">
+        <label for="owned">Possédé</label>
+        <input
+          id="owned"
+          type="checkbox"
+          [checked]="userForm().owned"
+          (change)="updateUserCheckbox('owned', $any($event).target.checked)"
+          name="owned"
+        />
+      </div>
+      <div class="form-row">
+        <label for="borrowed">Emprunté à</label>
+        <input
+          id="borrowed"
+          type="text"
+          [ngModel]="userForm().borrowed"
+          (ngModelChange)="updateUserField('borrowed', $event)"
+          name="borrowed"
+        />
+      </div>
+      <div class="form-row">
+        <label for="loaned">Prêté à</label>
+        <input
+          id="loaned"
+          type="text"
+          [ngModel]="userForm().loaned"
+          (ngModelChange)="updateUserField('loaned', $event)"
+          name="loaned"
+        />
+      </div>
+
+      <div class="form-row">
+        <label for="watchPriority">Priorité dans la watchlist</label>
+        <input
+          id="watchPriority"
+          type="number"
+          [ngModel]="userForm().watchPriority"
+          (ngModelChange)="updateUserField('watchPriority', $event)"
+          name="watchPriority"
+          min="0"
+        />
+      </div>
+    </section>
+
+    @if(errorMessage()) {
+    <p class="error-message">{{ errorMessage() }}</p>
+    }
+
+    <div class="actions">
+      <button type="button" class="btn secondary" (click)="close()">
+        Annuler
+      </button>
+      <button type="submit" class="btn primary" [disabled]="isSaving()">
+        {{ isSaving() ? "Ajout..." : "Ajouter" }}
+      </button>
+    </div>
+  </form>
+</div>

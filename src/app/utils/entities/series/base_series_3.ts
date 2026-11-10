@@ -1,7 +1,7 @@
 import { BaseSerie } from '../../../models/serie-model';
 
 export const baseSeries3: BaseSerie[] = [
-  {
+{
     title: 'One Piece (live-action)',
     director: 'Matt Owens, Steven Maeda',
     actors: [
@@ -41,7 +41,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Penny Dreadful',
     director: 'John Logan',
     actors: [
@@ -81,7 +81,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: '',
     countryOrigin: 'Royaume-Uni',
   },
-  {
+{
     title: 'Reacher',
     director: 'Nick Santora',
     actors: [
@@ -121,7 +121,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Runaways',
     director: 'Josh Schwartz, Stephanie Savage',
     actors: [
@@ -151,7 +151,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Sense8',
     director: 'Lana Wachowski, Lilly Wachowski',
     actors: [
@@ -187,7 +187,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Shameless',
     director: 'Paul Abbott',
     actors: [
@@ -268,7 +268,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Siren',
     director: 'Eric Wald, Dean White',
     actors: [
@@ -308,7 +308,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Smallville',
     director: 'Alfred Gough, Miles Millar',
     actors: [
@@ -388,7 +388,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: 'DC Comics',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Sons of Anarchy',
     director: 'Kurt Sutter',
     actors: [
@@ -449,7 +449,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Spartacus',
     director: 'Steven S. DeKnight',
     actors: [
@@ -489,7 +489,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Squid Game',
     director: 'Hwang Dong-hyuk',
     actors: [
@@ -529,7 +529,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: '',
     countryOrigin: 'Corée du Sud',
   },
-  {
+{
     title: 'Stranger Things',
     director: 'The Duffer Brothers',
     actors: [
@@ -580,7 +580,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Supernatural',
     director: 'Eric Kripke',
     actors: [
@@ -680,7 +680,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Suits, Avocats sur mesure',
     director: 'Aaron Korsh',
     actors: [
@@ -750,7 +750,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Superman & Lois',
     director: 'Greg Berlanti, Todd Helbing',
     actors: [
@@ -799,7 +799,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: 'ArrowVerse',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Teen Wolf',
     director: 'Jeff Davis',
     actors: [
@@ -854,7 +854,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'The Big Bang Theory',
     director: 'Chuck Lorre, Bill Prady',
     actors: [
@@ -939,7 +939,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'The Boys',
     director: 'Eric Kripke',
     actors: [
@@ -989,7 +989,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'The Defenders',
     director: 'Douglas Petrie, Marco Ramirez',
     actors: [
@@ -1019,7 +1019,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: 'Marvel Cinematic Universe',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'The Falcon and the Winter Soldier',
     director: 'Malcolm Spellman',
     actors: [
@@ -1049,7 +1049,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: 'Marvel Cinematic Universe',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'The Get Down',
     director: 'Baz Luhrmann, Stephen Adly Guirgis',
     actors: [
@@ -1085,7 +1085,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'The End of the F***ing World',
     director: 'Jonathan Entwistle',
     actors: [
@@ -1120,7 +1120,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: '',
     countryOrigin: 'Royaume-Uni',
   },
-  {
+{
     title: 'The Flash',
     director: 'Greg Berlanti, Andrew Kreisberg',
     actors: [
@@ -1190,7 +1190,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: 'ArrowVerse',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'The Offer',
     director: 'Michael Tolkin, Nikki Toscano',
     actors: [
@@ -1220,7 +1220,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'The Office',
     director: 'Greg Daniels',
     actors: [
@@ -1291,7 +1291,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'The Originals',
     director: 'Julie Plec',
     actors: [
@@ -1342,7 +1342,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: 'Vampire Diaries',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'The Returned',
     director: 'Fabrice Gobert',
     actors: [
@@ -1373,7 +1373,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'The Shannara Chronicles',
     director: 'Alfred Gough, Miles Millar',
     actors: [
@@ -1409,7 +1409,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'The Tomorrow People',
     director: 'Greg Berlanti, Phil Klemmer',
     actors: [
@@ -1439,7 +1439,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'The Vampire Diaries',
     director: 'Julie Plec, Kevin Williamson',
     actors: [
@@ -1505,7 +1505,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: 'Vampire Diaries',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'The Glory',
     director: 'Ahn Gil-ho',
     actors: [
@@ -1535,7 +1535,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'The Last of Us',
     director: 'Craig Mazin, Neil Druckmann',
     actors: [
@@ -1575,7 +1575,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'The Punisher',
     director: 'Steve Lightfoot',
     actors: [
@@ -1610,7 +1610,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: 'Marvel Cinematic Universe',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Umbrella Academy',
     director: 'Steve Blackman',
     actors: [
@@ -1655,7 +1655,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Under the Dome',
     director: 'Brian K. Vaughan',
     actors: [
@@ -1695,7 +1695,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Unorthodox',
     director: 'Maria Schrader',
     actors: [
@@ -1725,7 +1725,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Vikings',
     director: 'Michael Hirst',
     actors: [
@@ -1780,7 +1780,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'WandaVision',
     director: 'Matt Shakman',
     actors: [
@@ -1810,7 +1810,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: 'Marvel Cinematic Universe',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Watchmen',
     director: 'Damon Lindelof',
     actors: [
@@ -1844,7 +1844,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: 'DC Comics',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'You',
     director: 'Greg Berlanti',
     actors: [
@@ -1894,7 +1894,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Why Women Kill',
     director: 'Marc Cherry',
     actors: [
@@ -1929,7 +1929,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Yu Yu Hakusho (live-action)',
     director: 'Shô Tsukikawa',
     actors: [
@@ -1966,7 +1966,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: 'Yu Yu Hakusho',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Les Misérables (2000)',
     director: 'Josée Dayan',
     actors: [{ name: 'Gérard Depardieu' }, { name: 'John Malkovich' }],
@@ -1984,7 +1984,7 @@ export const baseSeries3: BaseSerie[] = [
     },
     countryOrigin: 'France',
   },
-  {
+{
     title: 'Les Misérables (2018)',
     director: 'Tom Shankland',
     actors: [{ name: 'Dominic West' }, { name: 'David Oyelowo' }],
@@ -2002,7 +2002,7 @@ export const baseSeries3: BaseSerie[] = [
     },
     countryOrigin: 'Royaume-Uni',
   },
-  {
+{
     title: 'Le Comte de Monte-Cristo (1998)',
     director: 'Josée Dayan',
     actors: [{ name: 'Gérard Depardieu' }, { name: 'Ornella Muti' }],
@@ -2020,7 +2020,7 @@ export const baseSeries3: BaseSerie[] = [
     },
     countryOrigin: 'France',
   },
-  {
+{
     title: 'Hobitit',
     director: 'Timo Torikka',
     actors: [{ name: 'Martti Suosalo' }, { name: 'Vesa Vierikko' }],
@@ -2038,7 +2038,7 @@ export const baseSeries3: BaseSerie[] = [
     },
     countryOrigin: 'Finlande',
   },
-  {
+{
     title: 'Khraniteli',
     director: 'Natalya Bondarchuk',
     actors: [{ name: 'Viktor Smirnov' }, { name: 'Georgiy Shtil' }],
@@ -2056,7 +2056,7 @@ export const baseSeries3: BaseSerie[] = [
     },
     countryOrigin: 'Russie',
   },
-  {
+{
     title: 'La guerre des mondes (1988)',
     director: 'Greg Strangis',
     actors: [{ name: 'Jared Martin' }, { name: 'Lynda Mason Green' }],
@@ -2077,7 +2077,7 @@ export const baseSeries3: BaseSerie[] = [
     },
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'La guerre des mondes (2019)',
     director: 'Howard Overman',
     actors: [{ name: 'Gabriel Byrne' }, { name: 'Léa Drucker' }],
@@ -2099,8 +2099,7 @@ export const baseSeries3: BaseSerie[] = [
     },
     countryOrigin: 'Royaume-Uni',
   },
-
-  {
+{
     title: 'The Irregulars',
     director: 'Tom Bidwell',
     actors: [{ name: 'Thaddea Graham' }, { name: 'McKell David' }],
@@ -2118,7 +2117,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: 'Sherlock Holmes',
     countryOrigin: 'Royaume-Uni',
   },
-  {
+{
     title: 'Miss Sherlock',
     director: 'Yûichi Satô, Takashi Matsuo',
     actors: [{ name: 'Yûko Takeuchi' }, { name: 'Shihori Kanjiya' }],
@@ -2136,7 +2135,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: 'Sherlock Holmes',
     countryOrigin: 'Japon',
   },
-  {
+{
     title: 'Watson',
     director: 'Craig Sweeny',
     actors: [{ name: 'Morris Chestnut' }],
@@ -2154,7 +2153,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: 'Sherlock Holmes',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Sherlock Holmes (Granada, 1984)',
     director: 'John Hawkesworth, David Carson',
     actors: [
@@ -2181,7 +2180,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: 'Sherlock Holmes',
     countryOrigin: 'Royaume-Uni',
   },
-  {
+{
     title: 'Sherlock Holmes (1954)',
     director: 'Sheldon Reynolds',
     actors: [{ name: 'Ronald Howard' }, { name: 'Howard Marion-Crawford' }],
@@ -2199,7 +2198,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: 'Sherlock Holmes',
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Terminator : Les Chroniques de Sarah Connor',
     director: 'Josh Friedman',
     actors: [
@@ -2233,8 +2232,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: 'Terminator',
     countryOrigin: 'États-Unis',
   },
-
-  {
+{
     title: 'His & Hers',
     director: 'William Oldroyd',
     actors: [
@@ -2261,8 +2259,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: '',
     countryOrigin: 'Royaume-Uni',
   },
-
-  {
+{
     title: 'Fallout',
     director: 'Geneva Robertson-Dworet, Graham Wagner',
     actors: [
@@ -2301,8 +2298,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-
-  {
+{
     title: 'Dexter: New Blood',
     director: 'Clyde Phillips',
     actors: [
@@ -2332,8 +2328,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: 'Dexter',
     countryOrigin: 'États-Unis',
   },
-
-  {
+{
     title: 'Dexter: Resurrection',
     director: 'Clyde Phillips',
     actors: [
@@ -2371,8 +2366,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: 'Dexter',
     countryOrigin: 'États-Unis',
   },
-
-  {
+{
     title: 'Wonder Man',
     director: 'Destin Daniel Cretton, Andrew Guest',
     actors: [
@@ -2402,8 +2396,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: 'Marvel Cinematic Universe',
     countryOrigin: 'États-Unis',
   },
-
-  {
+{
     title: 'Dune : Prophecy',
     director: 'Diane Ademu-John, Alison Schapker',
     actors: [
@@ -2437,8 +2430,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: 'Dune',
     countryOrigin: 'États-Unis',
   },
-
-  {
+{
     title: 'A Knight of the Seven Kingdoms',
     director: 'Ira Parker,George R. R. Martin',
     actors: [
@@ -2472,8 +2464,7 @@ export const baseSeries3: BaseSerie[] = [
       secondEntityKey: 'George R.R. Martin',
     },
   },
-
-  {
+{
     title: 'Bref',
     director: 'Kyan Khojandi, Bruno Muschio',
     actors: [
@@ -2506,8 +2497,7 @@ export const baseSeries3: BaseSerie[] = [
     countryOrigin: 'France',
     saga: 'Bref',
   },
-
-  {
+{
     title: 'Bref.2',
     director: 'Kyan Khojandi, Bruno Muschio',
     actors: [
@@ -2543,8 +2533,7 @@ export const baseSeries3: BaseSerie[] = [
     countryOrigin: 'France',
     saga: 'Bref',
   },
-
-  {
+{
     title: 'Serge le Mytho',
     director: 'Kyan Khojandi, Bruno Muschio',
     actors: [
@@ -2574,8 +2563,7 @@ export const baseSeries3: BaseSerie[] = [
     countryOrigin: 'France',
     saga: 'Bref',
   },
-
-  {
+{
     title: 'The Mandalorian',
     director: 'Jon Favreau',
     actors: [
@@ -2619,8 +2607,7 @@ export const baseSeries3: BaseSerie[] = [
     countryOrigin: 'États-Unis',
     saga: 'Star Wars',
   },
-
-  {
+{
     title: 'Le Livre de Boba Fett',
     director: 'Jon Favreau',
     actors: [
@@ -2651,8 +2638,7 @@ export const baseSeries3: BaseSerie[] = [
     countryOrigin: 'États-Unis',
     saga: 'Star Wars',
   },
-
-  {
+{
     title: 'Andor',
     director: 'Tony Gilroy',
     actors: [
@@ -2700,8 +2686,7 @@ export const baseSeries3: BaseSerie[] = [
     countryOrigin: 'États-Unis',
     saga: 'Star Wars',
   },
-
-  {
+{
     title: 'The Acolyte',
     director: 'Leslye Headland',
     actors: [
@@ -2741,8 +2726,7 @@ export const baseSeries3: BaseSerie[] = [
     countryOrigin: '',
     saga: 'Star Wars',
   },
-
-  {
+{
     title: 'Skeleton Crew',
     director: 'Christopher Ford, Jon Watts',
     actors: [
@@ -2775,8 +2759,7 @@ export const baseSeries3: BaseSerie[] = [
     countryOrigin: 'États-Unis',
     saga: 'Star Wars',
   },
-
-  {
+{
     title: 'House of the Dragon',
     director: 'Ryan Condal, George R.R. Martin',
     actors: [
@@ -2820,8 +2803,7 @@ export const baseSeries3: BaseSerie[] = [
     countryOrigin: 'États-Unis',
     saga: 'Game of Thrones',
   },
-
-  {
+{
     title: 'Supergirl',
     director: 'Greg Berlanti, Ali Adler',
     actors: [
@@ -2879,8 +2861,7 @@ export const baseSeries3: BaseSerie[] = [
     countryOrigin: 'États-Unis',
     saga: 'ArrowVerse',
   },
-
-  {
+{
     title: "DC's Legends of Tomorrow",
     director: 'Greg Berlanti, Marc Guggenheim',
     actors: [
@@ -2943,8 +2924,7 @@ export const baseSeries3: BaseSerie[] = [
     countryOrigin: 'États-Unis',
     saga: 'ArrowVerse',
   },
-
-  {
+{
     title: 'Black Lightning',
     director: ' Salim Akil',
     actors: [
@@ -2998,8 +2978,7 @@ export const baseSeries3: BaseSerie[] = [
     countryOrigin: 'États-Unis',
     saga: 'ArrowVerse',
   },
-
-  {
+{
     title: 'Batwoman',
     director: 'Caroline Dries',
     actors: [
@@ -3046,8 +3025,7 @@ export const baseSeries3: BaseSerie[] = [
     countryOrigin: 'États-Unis',
     saga: 'ArrowVerse',
   },
-
-  {
+{
     title: 'Vixen',
     director: 'Greg Berlanti, Marc Guggenheim, Andrew Kreisberg',
     actors: [
@@ -3082,8 +3060,7 @@ export const baseSeries3: BaseSerie[] = [
     countryOrigin: 'États-Unis',
     saga: 'ArrowVerse',
   },
-
-  {
+{
     title: 'Freedom Fighters: The Ray',
     director: 'Greg Berlanti, Marc Guggenheim',
     actors: [
@@ -3118,50 +3095,7 @@ export const baseSeries3: BaseSerie[] = [
     countryOrigin: 'États-Unis',
     saga: 'ArrowVerse',
   },
-
-  {
-    title: 'Dragon Ball Z Kai',
-    director: 'Yashuhiro Nowata',
-    actors: [
-      {
-        name: 'Masako Nozawa',
-      },
-      {
-        name: 'Ryo Horikawa',
-      },
-      {
-        name: 'Toshio Furukawa',
-      },
-      {
-        name: 'Mayumi Tanaka',
-      },
-      {
-        name: 'Hiromi Tsuru',
-      },
-    ],
-    coverUrl: '/series_pictures/1b5747fc3f46.jpg',
-    releaseDate: '2009-06-05',
-    endDate: '2015-06-28',
-    genre: ['Anime'],
-    seasonsData: [
-      {
-        seasonNumber: 1,
-        nbEpisodes: 98,
-        totalLength: 2269,
-      },
-      {
-        seasonNumber: 2,
-        nbEpisodes: 69,
-        totalLength: 1594,
-      },
-    ],
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'Japon',
-    saga: 'Dragon Ball',
-  },
-
-  {
+{
     title: 'Percy Jackson & les Olympiens',
     director: 'Jonathan E. Steinberg, Rick Riordan',
     actors: [
@@ -3203,8 +3137,7 @@ export const baseSeries3: BaseSerie[] = [
     countryOrigin: 'États-Unis',
     saga: 'Percy Jackson',
   },
-
-  {
+{
     title: 'Dexter : Les Origines',
     director: 'Clyde Philips, Scott Reynolds',
     actors: [
@@ -3240,8 +3173,7 @@ export const baseSeries3: BaseSerie[] = [
     countryOrigin: 'États-Unis',
     saga: 'Dexter',
   },
-
-  {
+{
     title: 'Ms. Marvel',
     director: 'Bisha K. Ali',
     actors: [
@@ -3274,8 +3206,7 @@ export const baseSeries3: BaseSerie[] = [
     countryOrigin: 'États-Unis',
     saga: 'Marvel Cinematic Universe',
   },
-
-  {
+{
     title: 'Agatha All Along',
     director: 'Jac Schaeffer',
     actors: [
@@ -3295,8 +3226,7 @@ export const baseSeries3: BaseSerie[] = [
     countryOrigin: 'États-Unis',
     saga: 'Marvel Cinematic Universe',
   },
-
-  {
+{
     title: 'Moon Knight',
     director: 'Mohamed Diab',
     actors: [
@@ -3315,8 +3245,7 @@ export const baseSeries3: BaseSerie[] = [
     countryOrigin: 'États-Unis',
     saga: 'Marvel Cinematic Universe',
   },
-
-  {
+{
     title: 'She-Hulk : Attorney at Law',
     director: 'Jessica Gao',
     actors: [
@@ -3336,8 +3265,7 @@ export const baseSeries3: BaseSerie[] = [
     countryOrigin: 'États-Unis',
     saga: 'Marvel Cinematic Universe',
   },
-
-  {
+{
     title: 'Secret Invasion',
     director: 'Kyle Bradstreet',
     actors: [
@@ -3358,8 +3286,7 @@ export const baseSeries3: BaseSerie[] = [
     countryOrigin: 'États-Unis',
     saga: 'Marvel Cinematic Universe',
   },
-
-  {
+{
     title: 'Echo',
     director: 'Sydney Freeland',
     actors: [
@@ -3380,8 +3307,7 @@ export const baseSeries3: BaseSerie[] = [
     countryOrigin: 'États-Unis',
     saga: 'Marvel Cinematic Universe',
   },
-
-  {
+{
     title: 'Ironheart',
     director: 'Chinaka Hodge',
     actors: [
@@ -3400,8 +3326,7 @@ export const baseSeries3: BaseSerie[] = [
     countryOrigin: 'États-Unis',
     saga: 'Marvel Cinematic Universe',
   },
-
-  {
+{
     title: 'Furies',
     director: 'Jean-Yves Arnaud',
     actors: [
@@ -3445,8 +3370,7 @@ export const baseSeries3: BaseSerie[] = [
     countryOrigin: 'France',
     saga: '',
   },
-
-  {
+{
     title: 'Shrinking',
     director: 'Brett Goldstein, Bill Lawrence, Jason Segel',
     actors: [
@@ -3501,8 +3425,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: '',
     fromEntity: null,
   },
-
-  {
+{
     title: 'Le Seigneur des Anneaux : Les Anneaux de pouvoir',
     director: 'J.D. Payne, Patrick McKay',
     actors: [
@@ -3527,8 +3450,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: 'Tolkien',
     countryOrigin: 'États-Unis',
   },
-
-  {
+{
     title: 'Halo',
     director: 'Steven Kane, Kyle Killen',
     actors: [{ name: 'Pablo Schreiber' }, { name: 'Jen Taylor' }],
@@ -3549,8 +3471,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: 'Halo',
     countryOrigin: 'États-Unis',
   },
-
-  {
+{
     title: 'The Witcher',
     director: 'Lauren Schmidt Hissrich',
     actors: [
@@ -3578,9 +3499,7 @@ export const baseSeries3: BaseSerie[] = [
     saga: 'The Witcher',
     countryOrigin: 'États-Unis',
   },
-
-  /* Liste 1 */
-  {
+{
     title: "Les maîtres de l'horreur",
     director: 'Mick Garris',
     actors: [
@@ -3603,8 +3522,7 @@ export const baseSeries3: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-
-  {
+{
     title: 'Les maîtres de la peur (Fear Itself)',
     director: 'Mick Garris',
     actors: [],
@@ -3618,8 +3536,7 @@ export const baseSeries3: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-
-  {
+{
     title: 'Gossip Girl',
     director: 'Josh Schwartz, Stephanie Savage',
     actors: [
@@ -3647,8 +3564,7 @@ export const baseSeries3: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-
-  {
+{
     title: 'Santa Clarita Diet',
     director: 'Victor Fresco',
     actors: [
@@ -3672,8 +3588,7 @@ export const baseSeries3: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-
-  {
+{
     title: 'Cassandra',
     director: 'Benjamin Gutsche',
     actors: [],
@@ -3687,8 +3602,7 @@ export const baseSeries3: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: '',
   },
-
-  {
+{
     title: 'Good Doctor',
     director: 'David Shore',
     actors: [
@@ -3717,8 +3631,7 @@ export const baseSeries3: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-
-  {
+{
     title: 'Apple cider vinegar',
     director: 'Samantha Strauss',
     actors: [],
@@ -3732,8 +3645,7 @@ export const baseSeries3: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: '',
   },
-
-  {
+{
     title: 'La chute de la maison Usher',
     director: 'Mike Flanagan',
     actors: [
@@ -3754,8 +3666,7 @@ export const baseSeries3: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-
-  {
+{
     title: 'Pretty Little Liars',
     director: 'I. Marlene King',
     actors: [
@@ -3784,8 +3695,7 @@ export const baseSeries3: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-
-  {
+{
     title: 'Orange is the New Black',
     director: 'Jenji Kohan',
     actors: [
@@ -3814,8 +3724,7 @@ export const baseSeries3: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-
-  {
+{
     title: 'The Good Place',
     director: 'Michael Schur',
     actors: [
@@ -3841,8 +3750,7 @@ export const baseSeries3: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-
-  {
+{
     title: 'Dead to Me',
     director: 'Liz Feldman',
     actors: [
@@ -3865,8 +3773,7 @@ export const baseSeries3: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-
-  {
+{
     title: 'Insatiable',
     director: 'Lauren Gussis',
     actors: [
@@ -3889,8 +3796,7 @@ export const baseSeries3: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-
-  {
+{
     title: 'The Haunting of Hill House',
     director: 'Mike Flanagan',
     actors: [
@@ -3912,8 +3818,7 @@ export const baseSeries3: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-
-  {
+{
     title: 'The Haunting of Bly Manor',
     director: 'Mike Flanagan',
     actors: [
@@ -3933,8 +3838,7 @@ export const baseSeries3: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-
-  {
+{
     title: 'Sweet Home',
     director: 'Lee Eung-bok',
     actors: [
@@ -3977,8 +3881,7 @@ export const baseSeries3: BaseSerie[] = [
     },
     countryOrigin: 'Corée du Sud',
   },
-
-  {
+{
     title: 'Arnold',
     director: 'Lesley Chilcott',
     actors: [
@@ -3999,8 +3902,7 @@ export const baseSeries3: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-
-  {
+{
     title: 'I Am a Killer',
     director: 'Ross Young',
     actors: [],
@@ -4018,8 +3920,7 @@ export const baseSeries3: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-
-  {
+{
     title: 'Les chroniques de la peur',
     director: 'Bede Blake',
     actors: [],
@@ -4033,8 +3934,7 @@ export const baseSeries3: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-
-  {
+{
     title: 'Poupée russe',
     director: 'Natasha Lyonne, Leslye Headland, Amy Poehler',
     actors: [
@@ -4057,8 +3957,7 @@ export const baseSeries3: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-
-  {
+{
     title: 'Mon petit renne',
     director: 'Richard Gadd',
     actors: [],
@@ -4072,8 +3971,7 @@ export const baseSeries3: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'Royaume-Uni',
   },
-
-  {
+{
     title: 'Slasher',
     director: 'Aaron Martin',
     actors: [],
@@ -4094,8 +3992,7 @@ export const baseSeries3: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'Canada',
   },
-
-  {
+{
     title: 'Scream Queens',
     director: 'Ryan Murphy, Brad Falchuk, Ian Brennan',
     actors: [
@@ -4119,8 +4016,7 @@ export const baseSeries3: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-
-  {
+{
     title: 'Hannah Montana',
     director: "Michael Poryes, Rich Correll, Barry O'Brien",
     actors: [
@@ -4146,8 +4042,7 @@ export const baseSeries3: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-
-  {
+{
     title: 'Phénomène Raven',
     director: 'Michael Poryes, Susan Sherman',
     actors: [
@@ -4172,8 +4067,7 @@ export const baseSeries3: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-
-  {
+{
     title: 'Les sorciers de Waverly Place',
     director: 'Todd J. Greenwald',
     actors: [
@@ -4198,8 +4092,7 @@ export const baseSeries3: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-
-  {
+{
     title: 'La vie de palace de Zack et Cody',
     director: 'Danny Kallis, Jim Geoghan',
     actors: [
@@ -4224,8 +4117,7 @@ export const baseSeries3: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-
-  {
+{
     title: 'La vie de croisière de Zack et Cody',
     director: 'Danny Kallis, Jim Geoghan',
     actors: [
@@ -4249,8 +4141,7 @@ export const baseSeries3: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-
-  {
+{
     title: 'Jessie',
     director: "Pamela Eells O'Connell",
     actors: [
@@ -4276,8 +4167,7 @@ export const baseSeries3: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-
-  {
+{
     title: 'Drôle de frère - La guerre des Stevens',
     director: 'Matt Dearborn',
     actors: [
@@ -4301,8 +4191,7 @@ export const baseSeries3: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-
-  {
+{
     title: 'Lizzie McGuire',
     director: 'Terri Minsky',
     actors: [
@@ -4325,8 +4214,7 @@ export const baseSeries3: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-
-  {
+{
     title: 'Shake It Up',
     director: 'Chris Thompson',
     actors: [
@@ -4350,8 +4238,7 @@ export const baseSeries3: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-
-  {
+{
     title: 'Austin et Ally',
     director: 'Kevin Kopelow, Heath Seifert',
     actors: [
@@ -4376,8 +4263,7 @@ export const baseSeries3: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-
-  {
+{
     title: 'Phil du futur',
     director: 'Tim Maile, Douglas Tuber',
     actors: [
@@ -4400,8 +4286,7 @@ export const baseSeries3: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-
-  {
+{
     title: 'Cory est dans la place',
     director: 'Dennis Rinsler, Marc Warren',
     actors: [
@@ -4424,9 +4309,7 @@ export const baseSeries3: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-
-  /* Liste 2 */
-  {
+{
     title: 'Sonny',
     director: 'Steve Marmel',
     actors: [
@@ -4449,8 +4332,7 @@ export const baseSeries3: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-
-  {
+{
     title: 'Jonas L.A',
     director: 'Michael Curtis, Roger S. H. Schulman',
     actors: [
@@ -4473,8 +4355,7 @@ export const baseSeries3: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-
-  {
+{
     title: 'Bonne chance Charlie',
     director: 'Phil Baker, Drew Vaupen',
     actors: [
@@ -4499,8 +4380,7 @@ export const baseSeries3: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-
-  {
+{
     title: 'Section Genius',
     director: 'Dan Signer',
     actors: [],
@@ -4514,8 +4394,7 @@ export const baseSeries3: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: '',
   },
-
-  {
+{
     title: 'Violetta',
     director: 'Jorge Nisco, Martín Saban',
     actors: [
@@ -4539,8 +4418,7 @@ export const baseSeries3: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'Argentine',
   },
-
-  {
+{
     title: 'Largo Winch',
     director: 'David Wu, Paolo Barzman, Joseph L. Scanlan',
     actors: [
@@ -4564,8 +4442,7 @@ export const baseSeries3: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'France',
   },
-
-  {
+{
     title: 'La mort de la femme du pasteur',
     director: 'Julia Willoughby Nason, Michael Gasparro',
     actors: [{ name: 'Mica Miller' }, { name: 'John-Paul Miller' }],
@@ -4581,7 +4458,7 @@ export const baseSeries3: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'La Vérité kidnappée : Du rêve au cauchemar américain',
     director: 'Felicity Morris, Bernadette Higgins',
     actors: [{ name: 'Denise Huskins' }, { name: 'Aaron Quinn' }],
@@ -4597,7 +4474,7 @@ export const baseSeries3: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
+{
     title: 'Notre mère meurtrière',
     director: 'Skye Borgman',
     actors: [{ name: 'Lori Vallow' }, { name: 'Chad Daybell' }],

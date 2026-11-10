@@ -16,6 +16,7 @@ const ENTITY_TYPES = [
   'books',
   'movies',
   'series',
+  'animes',
   'games',
   'musics',
   'comics',

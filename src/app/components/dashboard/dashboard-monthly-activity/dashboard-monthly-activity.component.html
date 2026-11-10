@@ -12,7 +12,7 @@
     <h3 class="monthly-activity__samples-title">Extraits</h3>
     @let s = rollingActivity().samples; @if ( s.books.length + s.mangas.length +
     s.comics.length + s.bds.length + s.manwhas.length + s.movies.length +
-    s.series.length + s.games.length === 0 ) {
+    s.series.length + s.animes.length + s.games.length === 0 ) {
     <p class="monthly-activity__empty">
       Aucune activité datée sur cette période (ou dates non renseignées).
     </p>
@@ -106,6 +106,18 @@
           >{{ entityTag.series.label }}</span
         > {{ serie.line }}
         @if (serie.viewBadge === 'first') {
+        <span class="tag tag--first-view">Premier visionnage</span>
+        } @else {
+        <span class="tag tag--reread">Revisionnage</span>
+        }
+      </li>
+      } @for (anime of s.animes; track anime.line) {
+      <li>
+        <span class="tag"
+          ><span class="tag__icon" aria-hidden="true">{{ entityTag.animes.icon }}</span
+          >{{ entityTag.animes.label }}</span
+        > {{ anime.line }}
+        @if (anime.viewBadge === 'first') {
         <span class="tag tag--first-view">Premier visionnage</span>
         } @else {
         <span class="tag tag--reread">Revisionnage</span>
@@ -251,6 +263,18 @@
           >{{ entityTag.series.label }}</span
         > {{ serie.line }}
           @if (serie.viewBadge === 'first') {
+          <span class="tag tag--first-view">Premier visionnage</span>
+          } @else {
+          <span class="tag tag--reread">Revisionnage</span>
+          }
+        </li>
+        } @for (anime of row.samples.animes; track anime.line) {
+        <li>
+          <span class="tag"
+          ><span class="tag__icon" aria-hidden="true">{{ entityTag.animes.icon }}</span
+          >{{ entityTag.animes.label }}</span
+        > {{ anime.line }}
+          @if (anime.viewBadge === 'first') {
           <span class="tag tag--first-view">Premier visionnage</span>
           } @else {
           <span class="tag tag--reread">Revisionnage</span>

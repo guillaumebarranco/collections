@@ -1,83 +1,7 @@
 import { UserSeries } from '../../../../models/serie-model';
 
 export const bastienSeries: UserSeries = [
-  {
-    title: 'Avatar: The Last Airbender',
-    director: 'Michael Dante DiMartino, Bryan Konietzko',
-    seasons: [
-      {
-        seasonNumber: 1,
-        seasonRating: 3.5,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 2,
-        seasonRating: 3.5,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 3,
-        seasonRating: 3.5,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-
-        otherViewedDates: [],
-      },
-    ],
-    owned: false,
-    watchPriority: 1,
-    wantToWatchAgain: false,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    quotes: [],
-  },
-  {
-    title: 'Arcane',
-    director: 'Pascal Charrue, Arnaud Delord',
-    seasons: [
-      {
-        seasonNumber: 1,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 2,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-
-        otherViewedDates: [],
-      },
-    ],
-    owned: false,
-    watchPriority: 1,
-    wantToWatchAgain: false,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    quotes: [],
-  },
-  {
+{
     title: 'Bloqués',
     director: 'Jonathan Cohen, Ramzy Bedia',
     seasons: [
@@ -130,7 +54,7 @@ export const bastienSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Altered Carbon',
     director: 'Laeta Kalogridis',
     seasons: [
@@ -163,7 +87,7 @@ export const bastienSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Brooklyn Nine-Nine',
     director: 'Dan Goor, Michael Schur',
     seasons: [
@@ -256,7 +180,7 @@ export const bastienSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Cloak & Dagger',
     director: 'Joe Pokaski',
     seasons: [
@@ -289,7 +213,7 @@ export const bastienSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Community',
     director: 'Dan Harmon',
     seasons: [
@@ -362,7 +286,7 @@ export const bastienSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Daredevil',
     director: 'Drew Goddard',
     seasons: [
@@ -405,7 +329,7 @@ export const bastienSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Hawkeye',
     director: 'Jonathan Igla',
     seasons: [
@@ -428,7 +352,7 @@ export const bastienSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Gotham',
     director: 'Bruno Heller',
     seasons: [
@@ -491,7 +415,7 @@ export const bastienSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Heroes',
     director: 'Tim Kring',
     seasons: [
@@ -544,7 +468,7 @@ export const bastienSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Iron Fist',
     director: 'Scott Buck',
     seasons: [
@@ -577,7 +501,7 @@ export const bastienSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Jessica Jones',
     director: 'Melissa Rosenberg',
     seasons: [
@@ -620,7 +544,7 @@ export const bastienSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: "Jupiter's Legacy",
     director: 'Steven S. DeKnight',
     seasons: [
@@ -643,7 +567,7 @@ export const bastienSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Locke & Key',
     director: 'Carlton Cuse',
     seasons: [
@@ -686,7 +610,7 @@ export const bastienSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Loki',
     director: 'Kate Herron',
     seasons: [
@@ -719,7 +643,7 @@ export const bastienSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Luke Cage',
     director: 'Cheo Hodari Coker',
     seasons: [
@@ -752,7 +676,7 @@ export const bastienSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Malcolm in the Middle',
     director: 'Linwood Boomer',
     seasons: [
@@ -835,7 +759,7 @@ export const bastienSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Misfits',
     director: 'Howard Overman',
     seasons: [
@@ -898,7 +822,7 @@ export const bastienSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Mercredi',
     director: 'Tim Burton',
     seasons: [
@@ -931,7 +855,7 @@ export const bastienSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Obi-Wan Kenobi',
     director: 'Deborah Chow',
     seasons: [
@@ -954,7 +878,7 @@ export const bastienSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'One Piece (live-action)',
     director: 'Matt Owens, Steven Maeda',
     seasons: [
@@ -977,7 +901,7 @@ export const bastienSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Smallville',
     director: 'Alfred Gough, Miles Millar',
     seasons: [
@@ -1090,280 +1014,7 @@ export const bastienSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
-    title: 'South Park',
-    director: 'Trey Parker, Matt Stone',
-    seasons: [
-      {
-        seasonNumber: 1,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 2,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 3,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 4,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 5,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 6,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 7,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 8,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 9,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 10,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 11,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 12,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 13,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 14,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 15,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 16,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 17,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 18,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 19,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 20,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 21,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 22,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 23,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 24,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 25,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 26,
-        seasonRating: 4,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-
-        otherViewedDates: [],
-      },
-    ],
-    owned: false,
-    watchPriority: 1,
-    wantToWatchAgain: false,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    quotes: [],
-  },
-  {
+{
     title: 'Squid Game',
     director: 'Hwang Dong-hyuk',
     seasons: [
@@ -1406,7 +1057,7 @@ export const bastienSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Stranger Things',
     director: 'The Duffer Brothers',
     seasons: [
@@ -1469,7 +1120,7 @@ export const bastienSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Supernatural',
     director: 'Eric Kripke',
     seasons: [
@@ -1632,7 +1283,7 @@ export const bastienSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'The Boys',
     director: 'Eric Kripke',
     seasons: [
@@ -1685,7 +1336,7 @@ export const bastienSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'The Defenders',
     director: 'Douglas Petrie, Marco Ramirez',
     seasons: [
@@ -1708,7 +1359,7 @@ export const bastienSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'The Falcon and the Winter Soldier',
     director: 'Malcolm Spellman',
     seasons: [
@@ -1731,7 +1382,7 @@ export const bastienSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'The Office',
     director: 'Greg Daniels',
     seasons: [
@@ -1834,7 +1485,7 @@ export const bastienSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'The Shannara Chronicles',
     director: 'Alfred Gough, Miles Millar',
     seasons: [
@@ -1867,7 +1518,7 @@ export const bastienSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'The Punisher',
     director: 'Steve Lightfoot',
     seasons: [
@@ -1900,7 +1551,7 @@ export const bastienSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'WandaVision',
     director: 'Matt Shakman',
     seasons: [
@@ -1923,7 +1574,7 @@ export const bastienSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Yu Yu Hakusho (live-action)',
     director: 'Shô Tsukikawa',
     seasons: [

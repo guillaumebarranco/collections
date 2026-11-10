@@ -147,7 +147,7 @@ export class EntityCardRatingAndButtonsComponent {
         (v === 'owned' && this.listReadTimes < 1)
       );
     }
-    if (t === 'serie') {
+    if ((t === 'serie' || t === 'anime')) {
       return v === 'watchlist' || v === 'watchingInProgress';
     }
     return v === this.listViewName;
@@ -258,6 +258,20 @@ export class EntityCardRatingAndButtonsComponent {
           addToMyDone: "Tiens, j'ai déjà joué à ce jeu !",
           markStartedReading: "J'ai commencé ce jeu",
         };
+      case 'anime':
+        return {
+          viewComment: 'Voir le commentaire',
+          addFromList: "J'ai vu cet animé",
+          addToList: 'Ajouter à ma watchlist',
+          alreadyInList: 'Déjà dans votre watchlist',
+          wantToReRead: 'Je veux revoir cet animé',
+          alreadyWantToReRead: 'Déjà ajouté à vos animés à revoir',
+          haveReRead: "J'ai revu cet animé",
+          addToMyWishlist: 'Je veux voir cet animé',
+          addToMyDone: "Tiens, j'ai déjà vu cet animé !",
+          markStartedReading: "J'ai commencé cet animé",
+          markStartedNewSeason: "J'ai commencé une nouvelle saison",
+        };
       case 'serie':
         return {
           viewComment: 'Voir le commentaire',
@@ -290,6 +304,7 @@ export class EntityCardRatingAndButtonsComponent {
   private getReadViewNameForType(entityType: EntityType | undefined): string {
     switch (entityType) {
       case 'movie':
+      case 'anime':
       case 'serie':
         return 'watched';
       case 'game':
@@ -302,6 +317,7 @@ export class EntityCardRatingAndButtonsComponent {
   private getReReadViewNameForType(entityType: EntityType | undefined): string {
     switch (entityType) {
       case 'movie':
+      case 'anime':
       case 'serie':
         return 'toReWatch';
       case 'game':
@@ -314,6 +330,7 @@ export class EntityCardRatingAndButtonsComponent {
   private getListViewNameForType(entityType: EntityType | undefined): string {
     switch (entityType) {
       case 'movie':
+      case 'anime':
       case 'serie':
         return 'watchlist';
       case 'game':
@@ -326,6 +343,7 @@ export class EntityCardRatingAndButtonsComponent {
   private getOwnedViewNameForType(entityType: EntityType | undefined): string {
     switch (entityType) {
       case 'movie':
+      case 'anime':
       case 'serie':
         return 'owned';
       case 'game':
@@ -369,7 +387,7 @@ export class EntityCardRatingAndButtonsComponent {
 
   addToMyWishlistBtnClass(): string {
     const t = this.entityData?.entityType;
-    if (t === 'movie' || t === 'serie') {
+    if (t === 'movie' || (t === 'serie' || t === 'anime')) {
       return 'makya-btn-small add-to-my-watchlist-btn';
     }
     if (t === 'game') {
@@ -380,7 +398,7 @@ export class EntityCardRatingAndButtonsComponent {
 
   addToMyDoneBtnClass(): string {
     const t = this.entityData?.entityType;
-    if (t === 'movie' || t === 'serie') {
+    if (t === 'movie' || (t === 'serie' || t === 'anime')) {
       return 'makya-btn-small add-to-my-watched-btn';
     }
     if (t === 'game') {
@@ -429,7 +447,10 @@ export class EntityCardRatingAndButtonsComponent {
         !this.listReading
       );
     }
-    if (this.entityData?.entityType === 'serie') {
+    if (
+      this.entityData?.entityType === 'serie' ||
+      this.entityData?.entityType === 'anime'
+    ) {
       return (
         this.selectedView === 'watchlist' && this.watchlistSerieNotStarted
       );

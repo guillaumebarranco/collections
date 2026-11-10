@@ -25,7 +25,8 @@ export type BadgeThresholdStatKey =
   | 'manwhasRead'
   | 'comicsRead'
   | 'bdsRead'
-  | 'seriesWatched';
+  | 'seriesWatched'
+  | 'animesWatched';
 
 /** Stats nécessaires pour la progression textuelle des badges à seuil (dashboard). */
 export type BadgeThresholdStats = Record<BadgeThresholdStatKey, number>;
@@ -178,6 +179,7 @@ export function getBadgeThresholdStatKey(
   if (badgeId.startsWith('manwhas-')) return 'manwhasRead';
   if (badgeId.startsWith('comics-')) return 'comicsRead';
   if (badgeId.startsWith('bds-')) return 'bdsRead';
+  if (badgeId.startsWith('animes-')) return 'animesWatched';
   if (badgeId.startsWith('series-')) return 'seriesWatched';
   if (BOOKS_GENERAL_IDS.has(badgeId)) return 'booksRead';
   if (BOOKS_FANTASY_IDS.has(badgeId)) return 'booksFantasyRead';

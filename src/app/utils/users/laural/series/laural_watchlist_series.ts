@@ -1,7 +1,7 @@
 import { UserSerie } from '../../../../models/serie-model';
 
 export const lauralWatchListSeries: UserSerie[] = [
-  {
+{
     title: "Gotham",
     director: "Bruno Heller",
     seasons: [
@@ -59,7 +59,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "The Penguin",
     director: "Craig Zobel",
     seasons: [
@@ -81,7 +81,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "Doctor Who",
     director: "Sydney Newman, C. E. Webber, Donald Wilson",
     seasons: [
@@ -211,7 +211,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "The Glory",
     director: "Ahn Gil-ho",
     seasons: [
@@ -233,7 +233,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "How I Met Your Mother",
     director: "Carter Bays, Craig Thomas",
     seasons: [
@@ -327,7 +327,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "Twin Peaks",
     director: "David Lynch, Mark Frost",
     seasons: [
@@ -367,7 +367,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "Alice in borderland",
     director: "Shinsuke Sato",
     seasons: [
@@ -407,7 +407,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "Scream",
     director: "Jill Blotevogel, Jay Beattie",
     seasons: [
@@ -447,7 +447,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "The Witcher",
     director: "Lauren Schmidt Hissrich",
     seasons: [
@@ -496,7 +496,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "Altered Carbon",
     director: "Laeta Kalogridis",
     seasons: [
@@ -527,7 +527,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "Black Mirror",
     director: "Charlie Brooker",
     seasons: [
@@ -603,7 +603,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "Breaking Bad",
     director: "Vince Gilligan",
     seasons: [
@@ -661,7 +661,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "Desperate Housewives",
     director: "Marc Cherry",
     seasons: [
@@ -746,7 +746,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "Emily in Paris",
     director: "Darren Star",
     seasons: [
@@ -804,7 +804,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "La servante écarlate",
     director: "Bruce Miller",
     seasons: [
@@ -862,7 +862,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "Locke & Key",
     director: "Carlton Cuse",
     seasons: [
@@ -902,7 +902,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "New Girl",
     director: "Elizabeth Meriwether",
     seasons: [
@@ -978,7 +978,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "Chernobyl",
     director: "Craig Mazin",
     seasons: [
@@ -1000,7 +1000,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "True Detective",
     director: "Nic Pizzolatto",
     seasons: [
@@ -1049,7 +1049,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "Peaky Blinders",
     director: "Steven Knight",
     seasons: [
@@ -1116,7 +1116,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "The Crown",
     director: "Peter Morgan",
     seasons: [
@@ -1183,7 +1183,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "Westworld",
     director: "Jonathan Nolan, Lisa Joy",
     seasons: [
@@ -1232,7 +1232,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "Euphoria",
     director: "Sam Levinson",
     seasons: [
@@ -1272,7 +1272,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "Bates Motel",
     director: "Carlton Cuse, Kerry Ehrin",
     seasons: [
@@ -1330,7 +1330,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "NCIS",
     director: "Donald P. Bellisario",
     seasons: [
@@ -1415,7 +1415,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "American Horror Story",
     director: "Ryan Murphy, Brad Falchuk",
     seasons: [
@@ -1500,7 +1500,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "Once Upon a Time",
     director: "Edward Kitsis, Adam Horowitz",
     seasons: [
@@ -1576,7 +1576,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "Grey's Anatomy",
     director: "Shonda Rhimes",
     seasons: [
@@ -1661,7 +1661,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "Charmed",
     director: "Constance M. Burge",
     seasons: [
@@ -1746,7 +1746,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "L'Été où je suis devenue jolie",
     director: "Jenny Han",
     seasons: [
@@ -1786,7 +1786,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "Une nounou d'enfer",
     director: "Fran Drescher, Prudence Fraser",
     seasons: [
@@ -1853,7 +1853,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "The Walking Dead",
     director: "Frank Darabont",
     seasons: [
@@ -1965,7 +1965,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "Ghost Whisperer",
     director: "John Gray",
     seasons: [
@@ -2023,7 +2023,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "Riverdale",
     director: "Roberto Aguirre-Sacasa",
     seasons: [
@@ -2099,7 +2099,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "Le Destin de Lisa",
     director: "Jean-François Porry",
     seasons: [
@@ -2130,7 +2130,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "One Piece (live-action)",
     director: "Matt Owens, Steven Maeda",
     seasons: [
@@ -2161,7 +2161,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "Sense8",
     director: "Lana Wachowski, Lilly Wachowski",
     seasons: [
@@ -2192,7 +2192,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "Siren",
     director: "Eric Wald, Dean White",
     seasons: [
@@ -2232,7 +2232,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "Squid Game",
     director: "Hwang Dong-hyuk",
     seasons: [
@@ -2272,7 +2272,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "Stranger Things",
     director: "The Duffer Brothers",
     seasons: [
@@ -2330,7 +2330,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "The Big Bang Theory",
     director: "Chuck Lorre, Bill Prady",
     seasons: [
@@ -2451,7 +2451,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "The Vampire Diaries",
     director: "Julie Plec, Kevin Williamson",
     seasons: [
@@ -2536,7 +2536,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "The Last of Us",
     director: "Craig Mazin, Neil Druckmann",
     seasons: [
@@ -2567,7 +2567,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "Umbrella Academy",
     director: "Steve Blackman",
     seasons: [
@@ -2616,7 +2616,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "Under the Dome",
     director: "Brian K. Vaughan",
     seasons: [
@@ -2656,7 +2656,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "Vikings",
     director: "Michael Hirst",
     seasons: [
@@ -2723,7 +2723,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "You",
     director: "Greg Berlanti",
     seasons: [
@@ -2781,7 +2781,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "His & Hers",
     director: "William Oldroyd",
     seasons: [
@@ -2803,7 +2803,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "Orange is the New Black",
     director: "Jenji Kohan",
     seasons: [
@@ -2879,7 +2879,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "Insatiable",
     director: "Lauren Gussis",
     seasons: [
@@ -2910,7 +2910,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "Poupée russe",
     director: "Natasha Lyonne, Leslye Headland, Amy Poehler",
     seasons: [
@@ -2941,7 +2941,7 @@ export const lauralWatchListSeries: UserSerie[] = [
     loaned: "",
     quotes: [],
   },
-  {
+{
     title: "Lizzie McGuire",
     director: "Terri Minsky",
     seasons: [
@@ -2972,209 +2972,4 @@ export const lauralWatchListSeries: UserSerie[] = [
     loaned: "",
     quotes: [],
   },
-  {
-    title: "Dragon Ball",
-    director: "Akira Toriyama",
-    seasons: [
-    {
-      seasonNumber: 1,
-      seasonRating: 0,
-      watching: true,
-      seasonTimesWatched: 1,
-      firstViewedDate: "",
-      lastViewedDate: "",
-      otherViewedDates: [],
-    },
-    {
-      seasonNumber: 2,
-      seasonRating: 0,
-      watching: true,
-      seasonTimesWatched: 0,
-      firstViewedDate: "",
-      lastViewedDate: "",
-      otherViewedDates: [],
-    },
-    {
-      seasonNumber: 3,
-      seasonRating: 0,
-      watching: true,
-      seasonTimesWatched: 0,
-      firstViewedDate: "",
-      lastViewedDate: "",
-      otherViewedDates: [],
-    },
-    {
-      seasonNumber: 4,
-      seasonRating: 0,
-      watching: true,
-      seasonTimesWatched: 0,
-      firstViewedDate: "",
-      lastViewedDate: "",
-      otherViewedDates: [],
-    },
-    {
-      seasonNumber: 5,
-      seasonRating: 0,
-      watching: true,
-      seasonTimesWatched: 0,
-      firstViewedDate: "",
-      lastViewedDate: "",
-      otherViewedDates: [],
-    },
-    {
-      seasonNumber: 6,
-      seasonRating: 0,
-      watching: true,
-      seasonTimesWatched: 0,
-      firstViewedDate: "",
-      lastViewedDate: "",
-      otherViewedDates: [],
-    },
-    {
-      seasonNumber: 7,
-      seasonRating: 0,
-      watching: true,
-      seasonTimesWatched: 0,
-      firstViewedDate: "",
-      lastViewedDate: "",
-      otherViewedDates: [],
-    },
-    {
-      seasonNumber: 8,
-      seasonRating: 0,
-      watching: true,
-      seasonTimesWatched: 0,
-      firstViewedDate: "",
-      lastViewedDate: "",
-      otherViewedDates: [],
-    },
-    {
-      seasonNumber: 9,
-      seasonRating: 0,
-      watching: true,
-      seasonTimesWatched: 0,
-      firstViewedDate: "",
-      lastViewedDate: "",
-      otherViewedDates: [],
-    }
-  ],
-    owned: false,
-    watchPriority: 1,
-    wantToWatchAgain: false,
-    ratingComment: "",
-    borrowed: "",
-    loaned: "",
-    quotes: [],
-  },
-  {
-    title: "Death Note",
-    director: "Tetsurō Araki",
-    seasons: [
-    {
-      seasonNumber: 1,
-      seasonRating: 0,
-      watching: true,
-      seasonTimesWatched: 0,
-      firstViewedDate: "",
-      lastViewedDate: "",
-      otherViewedDates: [],
-    }
-  ],
-    owned: false,
-    watchPriority: 3,
-    wantToWatchAgain: false,
-    ratingComment: "",
-    borrowed: "",
-    loaned: "",
-    quotes: [],
-  },
-  {
-    title: "Arcane",
-    director: "Pascal Charrue, Arnaud Delord",
-    seasons: [
-    {
-      seasonNumber: 1,
-      seasonRating: 3.5,
-      watching: true,
-      seasonTimesWatched: 1,
-      firstViewedDate: "",
-      lastViewedDate: "",
-      otherViewedDates: [],
-    },
-    {
-      seasonNumber: 2,
-      seasonRating: 0,
-      watching: true,
-      seasonTimesWatched: 0,
-      firstViewedDate: "",
-      lastViewedDate: "",
-      otherViewedDates: [],
-    }
-  ],
-    owned: false,
-    watchPriority: 3,
-    wantToWatchAgain: false,
-    ratingComment: "",
-    borrowed: "",
-    loaned: "",
-    quotes: [],
-  },
-  {
-    title: "Sailor Moon",
-    director: "Inconnu",
-    seasons: [
-    {
-      seasonNumber: 1,
-      seasonRating: 0,
-      watching: true,
-      seasonTimesWatched: 0,
-      firstViewedDate: "",
-      lastViewedDate: "",
-      otherViewedDates: [],
-    },
-    {
-      seasonNumber: 2,
-      seasonRating: 0,
-      watching: true,
-      seasonTimesWatched: 0,
-      firstViewedDate: "",
-      lastViewedDate: "",
-      otherViewedDates: [],
-    },
-    {
-      seasonNumber: 3,
-      seasonRating: 0,
-      watching: true,
-      seasonTimesWatched: 0,
-      firstViewedDate: "",
-      lastViewedDate: "",
-      otherViewedDates: [],
-    },
-    {
-      seasonNumber: 4,
-      seasonRating: 0,
-      watching: true,
-      seasonTimesWatched: 0,
-      firstViewedDate: "",
-      lastViewedDate: "",
-      otherViewedDates: [],
-    },
-    {
-      seasonNumber: 5,
-      seasonRating: 0,
-      watching: true,
-      seasonTimesWatched: 0,
-      firstViewedDate: "",
-      lastViewedDate: "",
-      otherViewedDates: [],
-    }
-  ],
-    owned: false,
-    watchPriority: 3,
-    wantToWatchAgain: false,
-    ratingComment: "",
-    borrowed: "",
-    loaned: "",
-    quotes: [],
-  }
 ];

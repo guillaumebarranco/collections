@@ -17,10 +17,22 @@
     @for (work of quotedWorks(); track work.title + work.subtitle) {
     <article class="quote-work">
       <header class="quote-work__header">
-        <h3>{{ work.title }}</h3>
-        @if (work.subtitle) {
-        <p>{{ work.subtitle }}</p>
+        @if (work.coverUrl) {
+        <img
+          class="quote-work__cover"
+          [src]="work.coverUrl"
+          [alt]="'Couverture de ' + work.title"
+          width="48"
+          height="72"
+          loading="lazy"
+        />
         }
+        <div class="quote-work__meta">
+          <h3>{{ work.title }}</h3>
+          @if (work.subtitle) {
+          <p>{{ work.subtitle }}</p>
+          }
+        </div>
       </header>
       @for (quote of work.quotes; track $index) {
       <blockquote class="quote-work__quote">{{ quote }}</blockquote>

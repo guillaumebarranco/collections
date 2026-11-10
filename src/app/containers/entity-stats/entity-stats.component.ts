@@ -24,6 +24,7 @@ const ENTITY_TAB_LABELS: Record<AdminRecordsCategoryKey, string> = {
   books: 'Livres',
   movies: 'Films',
   series: 'Séries',
+  animes: 'Animés',
   games: 'Jeux',
   mangas: 'Mangas',
   manwhas: 'Manwhas',
@@ -36,6 +37,7 @@ const ENTITY_SECONDARY_LABEL: Record<AdminRecordsCategoryKey, string> = {
   books: 'Auteur',
   movies: 'Réalisateur',
   series: 'Réalisateur',
+  animes: 'Réalisateur',
   games: 'Éditeur',
   mangas: 'Auteur',
   manwhas: 'Auteur',
@@ -47,6 +49,7 @@ const ENTITY_SECONDARY_LABEL: Record<AdminRecordsCategoryKey, string> = {
 const ENTITY_TAB_ORDER: AdminRecordsCategoryKey[] = [
   'movies',
   'series',
+  'animes',
   'books',
   'games',
   'mangas',

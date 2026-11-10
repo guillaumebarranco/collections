@@ -175,6 +175,7 @@ export class MenuComponent implements OnInit {
     },
     { label: 'Films', icon: '🎬', key: 'movies', hideOnMobile: false },
     { label: 'Séries', icon: '📺', key: 'series', hideOnMobile: false },
+    { label: 'Animés', icon: '🎌', key: 'animes', hideOnMobile: false },
     { label: 'Jeux', icon: '🎮', key: 'games', hideOnMobile: false },
     { label: 'Mangas', icon: '📖', key: 'mangas', hideOnMobile: false },
     { label: 'Manwhas', icon: '🎨', key: 'manwhas', hideOnMobile: true },
@@ -315,7 +316,7 @@ export class MenuComponent implements OnInit {
 
   /** Entrées du sous-menu Écran (Films, Séries, Jeux) – affiché en mode compact. */
   get screenMenuItems() {
-    const screenKeys = new Set(['movies', 'series', 'games']);
+    const screenKeys = new Set(['movies', 'series', 'animes', 'games']);
     return this.visibleMenuItems.filter((item) => screenKeys.has(item.key));
   }
 
@@ -342,7 +343,7 @@ export class MenuComponent implements OnInit {
       'bds',
       'comics',
     ]);
-    const screenKeys = new Set(['movies', 'series', 'games']);
+    const screenKeys = new Set(['movies', 'series', 'animes', 'games']);
     return withoutExtras.filter(
       (item) => !readingKeys.has(item.key) && !screenKeys.has(item.key)
     );

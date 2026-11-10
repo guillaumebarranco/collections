@@ -1,2 +1,3 @@
 import { UserSeries } from '../../../../models/serie-model';
-export const xerythSeries: UserSeries = [];
+export const xerythSeries: UserSeries = [
+];

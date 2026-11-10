@@ -26,6 +26,13 @@ const {
   parseBaseSeriesFullFromFile,
 } = require('../series/series-utils');
 const {
+  getUserAnimesFiles,
+  getUserWatchlistAnimesFiles,
+  parseAnimesFromFile,
+  getBaseAnimesFiles,
+  parseBaseAnimesFullFromFile,
+} = require('../animes/animes-utils');
+const {
   getUserGamesFiles,
   parseGamesFromFile,
   getBaseGamesFiles,
@@ -180,6 +187,10 @@ function buildDashboardOverview(userId: string) {
     getBaseSeriesFiles(),
     parseBaseSeriesFullFromFile
   );
+  const baseAnimes = loadFromFiles(
+    getBaseAnimesFiles(),
+    parseBaseAnimesFullFromFile
+  );
   const baseGames = loadFromFiles(getBaseGamesFiles(), parseBaseGamesFullFromFile);
   const baseMangas = loadFromFiles(
     getBaseMangasFiles(),
@@ -202,6 +213,7 @@ function buildDashboardOverview(userId: string) {
   const userMovies = loadFromFiles(getUserMoviesFiles(userId), parseMoviesFromFile);
   const userBooks = loadFromFiles(getUserBooksFiles(userId), parseBooksFromFile);
   const userSeries = loadFromFiles(getUserSeriesFiles(userId), parseSeriesFromFile);
+  const userAnimes = loadFromFiles(getUserAnimesFiles(userId), parseAnimesFromFile);
   const userGames = loadFromFiles(getUserGamesFiles(userId), parseGamesFromFile);
   const userMangas = loadFromFiles(getUserMangasFiles(userId), parseMangasFromFile);
   const userManwhas = loadFromFiles(
@@ -246,6 +258,20 @@ function buildDashboardOverview(userId: string) {
       title: serie.title ?? '',
       director: serie.director ?? '',
       rating: Number(serie.rating) || 0,
+      seasons: lightSeasons(seasons),
+      seasonsData: lightSeasonsData(base?.seasonsData ?? []),
+    };
+  });
+
+  const animes = userAnimes.map((anime: any) => {
+    const base = findMatchingBase(anime, baseAnimes, 'title', 'director');
+    const seasonsCount =
+      base?.seasonsData?.length ?? anime.seasons?.length ?? 0;
+    const seasons = buildSeasons(seasonsCount, anime.seasons);
+    return {
+      title: anime.title ?? '',
+      director: anime.director ?? '',
+      rating: Number(anime.rating) || 0,
       seasons: lightSeasons(seasons),
       seasonsData: lightSeasonsData(base?.seasonsData ?? []),
     };
@@ -332,6 +358,7 @@ function buildDashboardOverview(userId: string) {
     movies,
     books,
     series,
+    animes,
     games,
     mangas,
     manwhas,
@@ -345,6 +372,10 @@ function buildDashboardOverview(userId: string) {
     watchlistSeriesCount: countFromFiles(
       getUserWatchlistSeriesFiles(userId),
       parseSeriesFromFile
+    ),
+    watchlistAnimesCount: countFromFiles(
+      getUserWatchlistAnimesFiles(userId),
+      parseAnimesFromFile
     ),
     readlistBooksCount: countFromFiles(
       getUserReadlistBooksFiles(userId),

@@ -7,6 +7,7 @@ import { BaseManga, Manga } from '../models/manga-model';
 import { BaseManwha, Manwha } from '../models/manwha-model';
 import { BaseMovie, Movie } from '../models/movie-model';
 import { BaseSerie, Serie } from '../models/serie-model';
+import { BaseAnime, Anime } from '../models/anime-model';
 
 export const getFullBd = (bd: BaseBd): Bd => ({
   title: bd.title,
@@ -196,6 +197,29 @@ export const getFullSerie = (serie: BaseSerie): Serie => ({
   ratingComment: '',
   saga: serie.saga ?? '',
   fromEntity: serie.fromEntity ?? null,
+  borrowed: '',
+  loaned: '',
+  quotes: [],
+});
+
+export const getFullAnime = (anime: BaseAnime): Anime => ({
+  title: anime.title,
+  director: anime.director,
+  actors: anime.actors,
+  coverUrl: anime.coverUrl,
+  releaseDate: anime.releaseDate,
+  endDate: anime.endDate,
+  genre: anime.genre,
+  seasonsData: anime.seasonsData,
+  countryOrigin: (anime.countryOrigin ?? '') as Anime['countryOrigin'],
+  seasons: [],
+  owned: false,
+  watchPriority: 1,
+  wantToWatchAgain: false,
+  description: anime.description ?? '',
+  ratingComment: '',
+  saga: anime.saga ?? '',
+  fromEntity: anime.fromEntity ?? null,
   borrowed: '',
   loaned: '',
   quotes: [],

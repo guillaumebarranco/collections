@@ -1,7 +1,7 @@
 import { UserSerie } from '../../../../models/serie-model';
 
 export const lauralSeries: UserSerie[] = [
-  {
+{
     title: 'Le Jeu de la Dame',
     director: 'Scott Frank',
     seasons: [
@@ -23,8 +23,7 @@ export const lauralSeries: UserSerie[] = [
     loaned: '',
     quotes: [],
   },
-
-  {
+{
     title: '13 Reasons Why',
     director: 'Brian Yorkey',
     seasons: [
@@ -73,8 +72,7 @@ export const lauralSeries: UserSerie[] = [
     loaned: '',
     quotes: [],
   },
-
-  {
+{
     title: 'Game of Thrones',
     director: 'David Benioff, D.B. Weiss',
     seasons: [
@@ -159,8 +157,7 @@ export const lauralSeries: UserSerie[] = [
     loaned: '',
     quotes: [],
   },
-
-  {
+{
     title: 'Sons of Anarchy',
     director: 'Kurt Sutter',
     seasons: [
@@ -236,8 +233,7 @@ export const lauralSeries: UserSerie[] = [
     loaned: '',
     quotes: [],
   },
-
-  {
+{
     title: 'The Punisher',
     director: 'Steve Lightfoot',
     seasons: [
@@ -268,8 +264,7 @@ export const lauralSeries: UserSerie[] = [
     loaned: '',
     quotes: [],
   },
-
-  {
+{
     title: 'La Chronique des Bridgerton',
     director: 'Chris Van Dusen',
     seasons: [
@@ -318,8 +313,7 @@ export const lauralSeries: UserSerie[] = [
     loaned: '',
     quotes: [],
   },
-
-  {
+{
     title: 'Atypical',
     director: 'Robia Rashid',
     seasons: [
@@ -368,8 +362,7 @@ export const lauralSeries: UserSerie[] = [
     loaned: '',
     quotes: [],
   },
-
-  {
+{
     title: 'La Casa de Papel',
     director: 'Álex Pina',
     seasons: [
@@ -418,8 +411,7 @@ export const lauralSeries: UserSerie[] = [
     loaned: '',
     quotes: [],
   },
-
-  {
+{
     title: 'Misfits',
     director: 'Howard Overman',
     seasons: [
@@ -477,8 +469,7 @@ export const lauralSeries: UserSerie[] = [
     loaned: '',
     quotes: [],
   },
-
-  {
+{
     title: 'Mercredi',
     director: 'Tim Burton',
     seasons: [
@@ -509,8 +500,7 @@ export const lauralSeries: UserSerie[] = [
     loaned: '',
     quotes: [],
   },
-
-  {
+{
     title: 'Montre jamais ça à personne',
     director: 'Hugo Benamozig, David Caviglioli',
     seasons: [
@@ -541,8 +531,7 @@ export const lauralSeries: UserSerie[] = [
     loaned: '',
     quotes: [],
   },
-
-  {
+{
     title: 'Big Little Lies',
     director: 'David E. Kelley',
     seasons: [
@@ -573,8 +562,7 @@ export const lauralSeries: UserSerie[] = [
     loaned: '',
     quotes: [],
   },
-
-  {
+{
     title: 'Sex Education',
     director: 'Laurie Nunn',
     seasons: [
@@ -623,8 +611,7 @@ export const lauralSeries: UserSerie[] = [
     loaned: '',
     quotes: [],
   },
-
-  {
+{
     title: 'Murder',
     director: 'Peter Nowalk',
     seasons: [
@@ -691,67 +678,7 @@ export const lauralSeries: UserSerie[] = [
     loaned: '',
     quotes: [],
   },
-
-  {
-    title: 'Hé Arnold !',
-    director: 'Craig Bartlett',
-    seasons: [
-      {
-        seasonNumber: 1,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 2,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 3,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 4,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 5,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-    ],
-    owned: false,
-    watchPriority: 1,
-    wantToWatchAgain: false,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    quotes: [],
-  },
-
-  {
+{
     title: 'Ginny & Georgia',
     director: 'Sarah Lampert',
     seasons: [
@@ -791,8 +718,7 @@ export const lauralSeries: UserSerie[] = [
     loaned: '',
     quotes: [],
   },
-
-  {
+{
     title: 'Élite',
     director: 'Carlos Montero, Darío Madrona',
     seasons: [
@@ -877,8 +803,7 @@ export const lauralSeries: UserSerie[] = [
     loaned: '',
     quotes: [],
   },
-
-  {
+{
     title: 'Monstre',
     director: 'Ryan Murphy, Ian Brennan',
     seasons: [
@@ -927,8 +852,7 @@ export const lauralSeries: UserSerie[] = [
     loaned: '',
     quotes: [],
   },
-
-  {
+{
     title: 'Nouvelle École',
     director: 'Sylvain Pearl, Stan Bertheux',
     seasons: [
@@ -977,8 +901,7 @@ export const lauralSeries: UserSerie[] = [
     loaned: '',
     quotes: [],
   },
-
-  {
+{
     title: 'The End of the F***ing World',
     director: 'Jonathan Entwistle',
     seasons: [
@@ -1009,8 +932,7 @@ export const lauralSeries: UserSerie[] = [
     loaned: '',
     quotes: [],
   },
-
-  {
+{
     title: 'La chute de la maison Usher',
     director: 'Mike Flanagan',
     seasons: [
@@ -1032,8 +954,7 @@ export const lauralSeries: UserSerie[] = [
     loaned: '',
     quotes: [],
   },
-
-  {
+{
     title: 'The Haunting of Hill House',
     director: 'Mike Flanagan',
     seasons: [
@@ -1055,8 +976,7 @@ export const lauralSeries: UserSerie[] = [
     loaned: '',
     quotes: [],
   },
-
-  {
+{
     title: 'Mon petit renne',
     director: 'Richard Gadd',
     seasons: [
@@ -1078,338 +998,7 @@ export const lauralSeries: UserSerie[] = [
     loaned: '',
     quotes: [],
   },
-
-  {
-    title: 'Pokémon',
-    director: 'Satoshi Tajiri',
-    seasons: [
-      {
-        seasonNumber: 1,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 2,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 3,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 4,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 5,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 6,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 7,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 8,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 9,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 10,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 11,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 12,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 13,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 14,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 15,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 16,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 17,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 18,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 19,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 20,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 21,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 22,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 23,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 24,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-    ],
-    owned: false,
-    watchPriority: 1,
-    wantToWatchAgain: false,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    quotes: [],
-  },
-
-  {
-    title: 'Les Aventures de Tintin',
-    director: 'Stéphane Bernasconi',
-    seasons: [
-      {
-        seasonNumber: 1,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 2,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 3,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        otherViewedDates: [],
-      },
-    ],
-    owned: false,
-    watchPriority: 1,
-    wantToWatchAgain: false,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    quotes: [],
-  },
-
-  {
-    title: 'Magical Dorémi',
-    director: 'Junichi Sato',
-    seasons: [
-      {
-        seasonNumber: 1,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '2026-06-16',
-        lastViewedDate: '2026-06-16',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 2,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '2026-06-16',
-        lastViewedDate: '2026-06-16',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 3,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '2026-06-16',
-        lastViewedDate: '2026-06-16',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 4,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '2026-06-16',
-        lastViewedDate: '2026-06-16',
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 5,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '2026-06-16',
-        lastViewedDate: '2026-06-16',
-        otherViewedDates: [],
-      },
-    ],
-    owned: false,
-    watchPriority: 1,
-    wantToWatchAgain: false,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    quotes: [],
-  },
-
-  {
+{
     title: 'Maniac',
     director: 'Patrick Somerville',
     seasons: [
@@ -1431,31 +1020,7 @@ export const lauralSeries: UserSerie[] = [
     loaned: '',
     quotes: [],
   },
-
-  {
-    title: 'Sakura chasseuse de cartes',
-    director: 'Inconnu',
-    seasons: [
-      {
-        seasonNumber: 1,
-        seasonRating: 0,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '2026-06-16',
-        lastViewedDate: '2026-06-16',
-        otherViewedDates: [],
-      },
-    ],
-    owned: false,
-    watchPriority: 1,
-    wantToWatchAgain: false,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    quotes: [],
-  },
-
-  {
+{
     title: 'The Good Place',
     director: 'Michael Schur',
     seasons: [
@@ -1504,8 +1069,7 @@ export const lauralSeries: UserSerie[] = [
     loaned: '',
     quotes: [],
   },
-
-  {
+{
     title: 'Unorthodox',
     director: 'Maria Schrader',
     seasons: [
@@ -1527,8 +1091,7 @@ export const lauralSeries: UserSerie[] = [
     loaned: '',
     quotes: [],
   },
-
-  {
+{
     title: 'La mort de la femme du pasteur',
     director: 'Julia Willoughby Nason, Michael Gasparro',
     seasons: [
@@ -1550,7 +1113,7 @@ export const lauralSeries: UserSerie[] = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'La Vérité kidnappée : Du rêve au cauchemar américain',
     director: 'Felicity Morris, Bernadette Higgins',
     seasons: [
@@ -1572,7 +1135,7 @@ export const lauralSeries: UserSerie[] = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Notre mère meurtrière',
     director: 'Skye Borgman',
     seasons: [

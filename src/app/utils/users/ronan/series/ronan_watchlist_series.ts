@@ -1,7 +1,7 @@
 import { UserSeries } from '../../../../models/serie-model';
 
 export const ronanWatchlistSeries: UserSeries = [
-  {
+{
     title: 'Castle',
     director: 'Andrew W. Marlowe',
     seasons: [
@@ -94,7 +94,7 @@ export const ronanWatchlistSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Cobra Kai',
     director: 'Jon Hurwitz, Hayden Schlossberg',
     seasons: [
@@ -167,7 +167,7 @@ export const ronanWatchlistSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Mentalist',
     director: 'Bruno Heller',
     seasons: [
@@ -250,7 +250,7 @@ export const ronanWatchlistSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Reacher',
     director: 'Nick Santora',
     seasons: [
@@ -283,7 +283,7 @@ export const ronanWatchlistSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'Suits, Avocats sur mesure',
     director: 'Aaron Korsh',
     seasons: [
@@ -386,7 +386,7 @@ export const ronanWatchlistSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-  {
+{
     title: 'The Glory',
     director: 'Ahn Gil-ho',
     seasons: [

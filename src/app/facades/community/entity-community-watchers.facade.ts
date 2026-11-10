@@ -4,6 +4,7 @@ export type CommunityEntityKind =
   | 'movie'
   | 'book'
   | 'serie'
+  | 'anime'
   | 'game'
   | 'manga'
   | 'comic'
@@ -30,6 +31,7 @@ const API_PATH: Record<CommunityEntityKind, string> = {
   movie: 'movies/movie-watchers',
   book: 'books/book-watchers',
   serie: 'series/serie-watchers',
+  anime: 'animes/anime-watchers',
   game: 'games/game-watchers',
   manga: 'mangas/manga-watchers',
   comic: 'comics/comic-watchers',

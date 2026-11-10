@@ -25,6 +25,7 @@ import {
   renderSeriesSeasonsViewedChart,
 } from '../../../utils/graph.utils';
 import { Movie } from '../../../models/movie-model';
+import { Anime } from '../../../models/anime-model';
 import { Book } from '../../../models/book-model';
 import { Serie } from '../../../models/serie-model';
 import { Manga } from '../../../models/manga-model';
@@ -34,6 +35,7 @@ import { DEFAULT_USER_ID } from '../../../utils/constants';
 import { getAllMovies } from '../../../facades/movies/movies.facade';
 import { getAllBooks } from '../../../facades/books/books.facade';
 import { getAllSeries } from '../../../facades/series/series.facade';
+import { getAllAnimes } from '../../../facades/animes/animes.facade';
 import { getAllMangas } from '../../../facades/mangas/mangas.facade';
 import { getAllManwhas } from '../../../facades/manwhas/manwhas.facade';
 import { getAllGames } from '../../../facades/games/games.facade';
@@ -54,6 +56,11 @@ import {
   getSeriesWithUndatedSeasonsOnChart,
 } from '../../../utils/series-season-chart.utils';
 import {
+  getAnimesMissingFromSeasonChart,
+  getAnimesSeasonTrackingPeriods,
+  getAnimesWithUndatedSeasonsOnChart,
+} from '../../../utils/animes-season-chart.utils';
+import {
   getBookReadYearsForChart,
   getBookUndatedReadCountForChart,
   getBookReadTrackingPeriods,
@@ -69,6 +76,7 @@ export type EntityType =
   | 'books'
   | 'movies'
   | 'series'
+  | 'animes'
   | 'games'
   | 'musics'
   | 'comics'
@@ -80,6 +88,7 @@ const ENTITIES_WITH_CHARTS: EntityType[] = [
   'movies',
   'books',
   'series',
+  'animes',
   'games',
   'mangas',
   'manwhas',
@@ -107,6 +116,7 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
   readonly parentMovies = input<Movie[] | undefined>(undefined);
   readonly parentBooks = input<Book[] | undefined>(undefined);
   readonly parentSeries = input<Serie[] | undefined>(undefined);
+  readonly parentAnimes = input<Anime[] | undefined>(undefined);
   readonly parentMangas = input<Manga[] | undefined>(undefined);
   readonly parentManwhas = input<Manwha[] | undefined>(undefined);
   readonly parentGames = input<Game[] | undefined>(undefined);
@@ -124,6 +134,7 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
     'books',
     'movies',
     'series',
+    'animes',
     'games',
     'musics',
     'comics',
@@ -139,6 +150,7 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
   moviesList = signal<{ [key: string]: Movie[] }>({});
   booksList = signal<{ [key: string]: Book[] }>({});
   seriesList = signal<{ [key: string]: Serie[] }>({});
+  animesList = signal<{ [key: string]: Anime[] }>({});
   mangasList = signal<{ [key: string]: Manga[] }>({});
   manwhasList = signal<{ [key: string]: Manwha[] }>({});
   gamesList = signal<{ [key: string]: Game[] }>({});
@@ -215,6 +227,14 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
   allSeries = computed<Serie[]>(() => {
     return this.seriesList()[this.userId()] || [];
   });
+
+  allAnimes = computed<Anime[]>(() => {
+    return this.animesList()[this.userId()] || [];
+  });
+
+  private readonly seasonChartIsAnimes = computed(
+    () => this.effectiveEntity() === 'animes'
+  );
 
   allMangas = computed<Manga[]>(() => {
     return this.mangasList()[this.userId()] || [];
@@ -412,7 +432,10 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
     const counts = new Map<number, number>();
     years.forEach((year) => counts.set(year, 0));
 
-    this.allSeries().forEach((serie) => {
+    const seasonItems = this.seasonChartIsAnimes()
+      ? this.allAnimes()
+      : this.allSeries();
+    seasonItems.forEach((serie) => {
       (serie.seasons || []).forEach((season) => {
         const dateStr = season.lastViewedDate;
         if (!dateStr) return;
@@ -436,12 +459,19 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
   });
 
   seriesSeasonPeriods = computed(() =>
-    getSeriesSeasonTrackingPeriods(
-      this.allSeries(),
-      this.showSeriesSeasonRewatches(),
-      this.scanChartStartYear,
-      new Date(),
-    ),
+    this.seasonChartIsAnimes()
+      ? getAnimesSeasonTrackingPeriods(
+          this.allAnimes(),
+          this.showSeriesSeasonRewatches(),
+          this.scanChartStartYear,
+          new Date(),
+        )
+      : getSeriesSeasonTrackingPeriods(
+          this.allSeries(),
+          this.showSeriesSeasonRewatches(),
+          this.scanChartStartYear,
+          new Date(),
+        ),
   );
 
   seriesSeasonPeriodsSeasonCount = computed(() => {
@@ -455,15 +485,23 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
   });
 
   seriesMissingFromSeasonChart = computed(() =>
-    getSeriesMissingFromSeasonChart(this.allSeries()),
+    this.seasonChartIsAnimes()
+      ? getAnimesMissingFromSeasonChart(this.allAnimes())
+      : getSeriesMissingFromSeasonChart(this.allSeries()),
   );
 
   seriesWithUndatedSeasonsOnChart = computed(() =>
-    getSeriesWithUndatedSeasonsOnChart(
-      this.allSeries(),
-      this.scanChartStartYear,
-      new Date(),
-    ),
+    this.seasonChartIsAnimes()
+      ? getAnimesWithUndatedSeasonsOnChart(
+          this.allAnimes(),
+          this.scanChartStartYear,
+          new Date(),
+        )
+      : getSeriesWithUndatedSeasonsOnChart(
+          this.allSeries(),
+          this.scanChartStartYear,
+          new Date(),
+        ),
   );
 
   mangaScanPeriods = computed(() =>
@@ -551,6 +589,7 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
     const labels: { [key in EntityType]: string } = {
       movies: '🎬 Films',
       series: '📺 Séries',
+      animes: '🎌 Animés',
       books: '📖 Livres',
       games: '🎮 Jeux',
       musics: '🎵 Musiques',
@@ -697,7 +736,10 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
     effect(() => {
       this.seriesSeasonPeriods();
       this.showSeriesSeasonRewatches();
-      if (this.effectiveEntity() !== 'series') {
+      if (
+        this.effectiveEntity() !== 'series' &&
+        this.effectiveEntity() !== 'animes'
+      ) {
         return;
       }
       untracked(() => {
@@ -710,6 +752,7 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
       this.parentMovies();
       this.parentBooks();
       this.parentSeries();
+      this.parentAnimes();
       this.parentMangas();
       this.parentManwhas();
       this.parentGames();
@@ -725,6 +768,7 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
     void this.loadMoviesData();
     void this.loadBooksData();
     void this.loadSeriesData();
+    void this.loadAnimesData();
     void this.loadMangasData();
     void this.loadManwhasData();
     void this.loadGamesData();
@@ -735,12 +779,14 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
     const movies = this.parentMovies();
     const books = this.parentBooks();
     const series = this.parentSeries();
+    const animes = this.parentAnimes();
     const mangas = this.parentMangas();
     const manwhas = this.parentManwhas();
     const games = this.parentGames();
     if (movies) this.moviesList.set({ [uid]: movies });
     if (books) this.booksList.set({ [uid]: books });
     if (series) this.seriesList.set({ [uid]: series });
+    if (animes) this.animesList.set({ [uid]: animes });
     if (mangas) this.mangasList.set({ [uid]: mangas });
     if (manwhas) this.manwhasList.set({ [uid]: manwhas });
     if (games) this.gamesList.set({ [uid]: games });
@@ -781,6 +827,18 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
     const series = await getAllSeries(uid);
     this.seriesList.set(series);
     if (this.effectiveEntity() === 'series') {
+      requestAnimationFrame(() => {
+        this.renderSeriesSeasonsViewedChart();
+        this.renderSeriesSeasonTimelineChart();
+      });
+    }
+  }
+
+  private async loadAnimesData() {
+    const uid = this.userId();
+    const animes = await getAllAnimes(uid);
+    this.animesList.set(animes);
+    if (this.effectiveEntity() === 'animes') {
       requestAnimationFrame(() => {
         this.renderSeriesSeasonsViewedChart();
         this.renderSeriesSeasonTimelineChart();
@@ -840,7 +898,7 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
       if (this.showBooksReadTimelineChart()) {
         this.renderBooksReadTimelineChart();
       }
-    } else if (entity === 'series') {
+    } else if (entity === 'series' || entity === 'animes') {
       this.renderSeriesSeasonsViewedChart();
       this.renderSeriesSeasonTimelineChart();
     } else if (entity === 'mangas') {
@@ -932,7 +990,10 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
   }
 
   private renderSeriesSeasonsViewedChart(): void {
-    if (this.effectiveEntity() !== 'series') {
+    if (
+      this.effectiveEntity() !== 'series' &&
+      this.effectiveEntity() !== 'animes'
+    ) {
       return;
     }
     const container = this.seriesSeasonsViewedChart?.nativeElement;
@@ -944,7 +1005,10 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
   }
 
   private renderSeriesSeasonTimelineChart(): void {
-    if (this.effectiveEntity() !== 'series') {
+    if (
+      this.effectiveEntity() !== 'series' &&
+      this.effectiveEntity() !== 'animes'
+    ) {
       return;
     }
     const container = this.seriesSeasonTimelineChart?.nativeElement;

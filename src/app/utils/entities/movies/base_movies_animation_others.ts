@@ -1660,7 +1660,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     description:
       'Les enfants de South Park provoquent une guerre entre le Canada et les États-Unis en soutenant un duo de comiques aux paroles scandaleuses.',
     fromEntity: {
-      entityType: 'serie',
+      entityType: 'anime',
       title: 'South Park',
       secondEntityKey: 'Trey Parker, Matt Stone',
     },
@@ -1680,7 +1680,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     description:
       'Les garçons de South Park sont convoqués devant le Pentagone après que Butters ait ouvert une brèche vers Imaginationland, royaume de toutes les fictions.',
     fromEntity: {
-      entityType: 'serie' as const,
+      entityType: 'anime' as const,
       title: 'South Park',
       secondEntityKey: 'Trey Parker, Matt Stone',
     },
@@ -1700,7 +1700,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     description:
       "Stan, Kyle, Cartman et Kenny, devenus adultes, se retrouvent après la mort de l'un d'eux et découvrent que leur avenir dépend du passé.",
     fromEntity: {
-      entityType: 'serie' as const,
+      entityType: 'anime' as const,
       title: 'South Park',
       secondEntityKey: 'Trey Parker, Matt Stone',
     },
@@ -1720,7 +1720,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     description:
       'Les adultes de South Park voyagent dans le temps pour empêcher la pandémie et corriger les conséquences désastreuses sur leur vie présente.',
     fromEntity: {
-      entityType: 'serie' as const,
+      entityType: 'anime' as const,
       title: 'South Park',
       secondEntityKey: 'Trey Parker, Matt Stone',
     },
@@ -1740,7 +1740,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     description:
       'Cartman crée une fausse famille pour accéder à Paramount+ et provoque une guerre entre plateformes de streaming qui déchire South Park.',
     fromEntity: {
-      entityType: 'serie' as const,
+      entityType: 'anime' as const,
       title: 'South Park',
       secondEntityKey: 'Trey Parker, Matt Stone',
     },
@@ -1760,7 +1760,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     description:
       "La bataille entre services de streaming atteint son paroxysme tandis que les enfants tentent de restaurer l'ordre dans un South Park dévasté.",
     fromEntity: {
-      entityType: 'serie' as const,
+      entityType: 'anime' as const,
       title: 'South Park',
       secondEntityKey: 'Trey Parker, Matt Stone',
     },
@@ -1780,7 +1780,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     description:
       "Cartman croit vivre dans un univers parallèle où il est victime de la discrimination tandis que des portails vers d'autres réalités s'ouvrent.",
     fromEntity: {
-      entityType: 'serie' as const,
+      entityType: 'anime' as const,
       title: 'South Park',
       secondEntityKey: 'Trey Parker, Matt Stone',
     },
@@ -1800,7 +1800,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     description:
       "Face à la censure et aux algorithmes, les habitants de South Park luttent pour préserver leur liberté d'expression dans un monde numérique contrôlé.",
     fromEntity: {
-      entityType: 'serie' as const,
+      entityType: 'anime' as const,
       title: 'South Park',
       secondEntityKey: 'Trey Parker, Matt Stone',
     },
@@ -1820,7 +1820,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     description:
       "Les habitants de South Park se tournent vers des médicaments contre l'obésité, provoquant des conséquences sociales et économiques aussi absurdes que satiriques.",
     fromEntity: {
-      entityType: 'serie' as const,
+      entityType: 'anime' as const,
       title: 'South Park',
       secondEntityKey: 'Trey Parker, Matt Stone',
     },
@@ -3019,7 +3019,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     description:
       "La famille Simpson fuit Springfield après que Homer ait pollué le lac local, déclenchant une crise qui menace d'isoler la ville sous un dôme.",
     fromEntity: {
-      entityType: 'serie',
+      entityType: 'anime',
       title: 'Les Simpsons',
       secondEntityKey: 'Matt Groening',
     },

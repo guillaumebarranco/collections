@@ -1,0 +1,166 @@
+/* Styles centralisés dans app-edit-entity */
+
+.quote-row {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+  margin-bottom: 8px;
+}
+
+.quote-row textarea {
+  flex: 1;
+  width: 100%;
+  min-height: 9rem;
+  box-sizing: border-box;
+}
+
+@media (max-width: 700px) {
+  .quote-row textarea {
+    min-height: 14rem;
+  }
+}
+
+.quote-remove,
+.quote-add {
+  border: 0;
+  border-radius: 8px;
+  background: #667eea;
+  color: #fff;
+  cursor: pointer;
+  padding: 8px 12px;
+}
+
+.quotes-label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.season-form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.season-form-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 12px;
+  background: #fafafa;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  label {
+    font-size: 0.85rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  input {
+    padding: 6px 8px;
+    border-radius: 6px;
+    border: 1px solid #cfcfcf;
+  }
+}
+
+.season-form-title {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.rating-control {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.rating-label {
+  font-size: 0.85rem;
+}
+
+.rating-stars {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+
+  .rating-input {
+    width: 56px;
+    box-sizing: border-box;
+  }
+}
+
+.star-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.star {
+  font-size: 18px;
+  color: #666;
+}
+
+.star-full {
+  color: #f4c542;
+}
+
+.star-half {
+  background: linear-gradient(90deg, #f4c542 50%, #666 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.star-empty {
+  color: #666;
+}
+
+.rating-value {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.season-admin-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 4px;
+}
+
+.season-admin-label {
+  margin: 0;
+  font-weight: 600;
+}
+
+.season-empty-hint {
+  margin: 8px 0 0;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.season-form-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.season-remove-btn {
+  flex-shrink: 0;
+  font-size: 0.75rem;
+  padding: 4px 8px;
+  border-radius: 6px;
+  border: 1px solid #cfcfcf;
+  background: #fff;
+  cursor: pointer;
+  color: #555;
+
+  &:hover {
+    border-color: #999;
+    color: #222;
+  }
+}

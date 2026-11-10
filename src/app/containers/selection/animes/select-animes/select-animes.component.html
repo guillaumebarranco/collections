@@ -1,0 +1,139 @@
+<app-menu></app-menu>
+
+<ng-template #selectionSummaryBand>
+  <div class="selection-info">
+    <span class="count">{{ selectedCount() }} animé(s) sélectionnée(s)</span>
+    <span class="total">sur {{ filteredAnimes().length }}</span>
+  </div>
+
+  <div class="actions">
+    <button
+      class="makya-btn-big"
+      (click)="addSelectedAnimes()"
+      [disabled]="selectedCount() === 0"
+    >
+      {{
+        isWatchOrReadlistMode()
+          ? "Ajouter à mes animés à voir"
+          : "Ajouter à mes animés vues"
+      }}
+      ({{ selectedCount() }})
+    </button>
+  </div>
+</ng-template>
+
+<div class="select-animes-container">
+  <div class="header">
+    <h1>
+      {{
+        isWatchOrReadlistMode()
+          ? "Sélectionner des animés pour ma watchlist"
+          : "Ajouter des animés vues"
+      }}
+    </h1>
+
+    <div class="selection-description">
+      @if(!isWatchOrReadlistMode()) {
+      <p>
+        Bonjour {{ username() }} <br /><br />
+        Ici tu peux ajouter des animés que tu as vues. La liste ci-dessous
+        affiche uniquement les animés que tu n'as pas encore dans ta collection.
+        <br /><br />
+        Sélectionne les animés que tu as vues, puis clique sur "Ajouter à mes
+        animés vues".
+      </p>
+      @if (hasWatchedAnimesFromExistingCatalog()) {
+      <p>
+        Si tu ne trouves pas ta animé dans la liste, ajoute-la d'abord dans les
+        entités :
+      </p>
+      <div class="select-add-actions">
+        <button class="makya-btn" (click)="openRequestEntityAddDialog()">
+          Demander à l'admin l'ajout d'un animé sur Makya
+        </button>
+        <button class="makya-btn" (click)="openAddAnimeDialog()">
+          Ajouter manuellement un animé qui n'existe pas encore sur Makya
+        </button>
+      </div>
+      } } @else if(isWatchOrReadlistMode()) {
+      <p>
+        Bonjour {{ username() }} <br /><br />
+        Tu es en mode "Watchlist" ! Ici, tu peux sélectionner les animés que tu
+        souhaites ajouter à ta liste de animés à voir.
+        <br /><br />
+        Les animés déjà dans ta collection ou déjà dans ta liste « à voir »
+        sont exclues pour éviter les doublons.
+        <br /><br />
+        Sélectionne les animés que tu aimerais voir et télécharge le fichier
+        JSON pour construire ta watchlist.
+      </p>
+      <p>
+        Si tu ne trouves pas ta animé dans la liste, demande son ajout ou
+        ajoute-la manuellement (elle ira dans ta watchlist) :
+      </p>
+      <div class="select-add-actions">
+        <button class="makya-btn" (click)="openRequestEntityAddDialog()">
+          Demander à l'admin l'ajout d'un animé sur Makya
+        </button>
+        <button class="makya-btn" (click)="openAddAnimeDialog()">
+          Ajouter manuellement un animé qui n'existe pas encore sur Makya
+        </button>
+      </div>
+      } @else {
+      <!-- <p>
+        Bonjour {{ username() }} <br /><br />
+        Si tu es ici, c'est que tu souhaites pouvoir faire ta collection de
+        animés regardées, pouvoir les noter, les trier par préférence, par date
+        de sortie ou de dernier visionnage, etc... <br /><br />
+        Comment ça marche ? <br />
+      </p> -->
+
+      }
+    </div>
+  </div>
+
+  <div class="toolbar">
+    <ng-container *ngTemplateOutlet="selectionSummaryBand" />
+
+    <div class="select-search">
+      <input
+        class="select-search-input"
+        type="text"
+        placeholder="Rechercher un animé..."
+        aria-label="Rechercher un animé"
+        [value]="searchTerm()"
+        (input)="searchTerm.set($any($event.target).value)"
+      />
+    </div>
+  </div>
+
+  <div class="animes-grid">
+    @for (anime of filteredAnimes(); track
+    `${anime.title}-${anime.director}`) {
+    <div
+      class="anime-poster"
+      [class.selected]="isSelected(anime)"
+      (click)="toggleSelection(anime)"
+      [title]="anime.title + ' (' + anime.releaseDate.substring(0, 4) + ')'"
+    >
+      <img [src]="anime.coverUrl" [alt]="anime.title" />
+      <div class="overlay">
+        <div class="checkmark"></div>
+        <div class="anime-info">
+          <span class="anime-title">{{ anime.title }}</span>
+          <span class="anime-year"
+            >({{ anime.releaseDate.substring(0, 4) }})</span
+          >
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+
+  <div
+    class="toolbar toolbar--footer"
+    aria-label="Résumé de sélection et validation en bas de page"
+  >
+    <ng-container *ngTemplateOutlet="selectionSummaryBand" />
+  </div>
+</div>

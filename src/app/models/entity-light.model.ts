@@ -24,6 +24,14 @@ export type LightSerie = {
   seasonsCount: number;
 };
 
+export type LightAnime = {
+  title: string;
+  director: string;
+  coverUrl: string;
+  releaseDate: string;
+  seasonsCount: number;
+};
+
 export type LightGame = {
   title: string;
   editor: string;
