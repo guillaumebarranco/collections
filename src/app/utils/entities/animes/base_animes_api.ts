@@ -4,8 +4,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Neon Genesis Evangelion',
     director: 'Hideaki Anno',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '/entities_covers/613491832da4.jpeg',
     releaseDate: '1995-10-04',
     endDate: '1996-03-27',
     genre: ['Animation', 'Mecha', 'Drama', 'Psychological'],
@@ -14,7 +14,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 26,
         totalLength: 624,
-      }
+      },
     ],
     description: '',
     saga: 'Evangelion',
@@ -24,8 +24,9 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Gunbuster',
     director: 'Hideaki Anno',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl:
+      '/entities_covers/c24772a1e023.webp',
     releaseDate: '1988-10-07',
     endDate: '1989-07-07',
     genre: ['Animation', 'Mecha', 'Sci-Fi', 'Drama'],
@@ -34,7 +35,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 6,
         totalLength: 180,
-      }
+      },
     ],
     description: '',
     saga: 'Gunbuster',
@@ -44,8 +45,9 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Ghost in the Shell: Stand Alone Complex',
     director: 'Kenji Kamiyama',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl:
+      'https://static.wikia.nocookie.net/titmouse-inc-on-cartoon-network/images/3/33/MV5BZWQxZDhiNGEtYmRhYy00OGUxLThhYTMtNjUzMjY0YzhiYjU3XkEyXkFqcGdeQXVyNDYzNTI2ODc%40._V1_.jpg/revision/latest?cb=20190529170943',
     releaseDate: '2002-10-01',
     endDate: '2005-01-08',
     genre: ['Animation', 'Sci-Fi', 'Action', 'Mystery'],
@@ -59,7 +61,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 2,
         nbEpisodes: 26,
         totalLength: 624,
-      }
+      },
     ],
     description: '',
     saga: 'Ghost in the Shell',
@@ -69,8 +71,9 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Tengen Toppa Gurren Lagann',
     director: 'Hiroyuki Imaishi',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl:
+      '/entities_covers/dc8604cef0ab.jpg',
     releaseDate: '2007-04-01',
     endDate: '2007-09-30',
     genre: ['Animation', 'Mecha', 'Action', 'Adventure'],
@@ -79,7 +82,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 27,
         totalLength: 648,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -89,8 +92,9 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Kill la Kill',
     director: 'Hiroyuki Imaishi',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl:
+      '/entities_covers/6819fa5329e6.webp',
     releaseDate: '2013-10-04',
     endDate: '2014-03-28',
     genre: ['Animation', 'Action', 'Comedy'],
@@ -99,7 +103,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 24,
         totalLength: 576,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -109,8 +113,9 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'FLCL',
     director: 'Kazuya Tsurumaki',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl:
+      '/entities_covers/67c2c0011f42.jpg',
     releaseDate: '2000-04-26',
     endDate: '2001-03-16',
     genre: ['Animation', 'Sci-Fi', 'Comedy', 'Action'],
@@ -119,7 +124,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 6,
         totalLength: 150,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -129,8 +134,9 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Panty & Stocking with Garterbelt',
     director: 'Hiroyuki Imaishi',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl:
+      '/entities_covers/bb0d10c4e230.jpg',
     releaseDate: '2010-10-01',
     endDate: '2010-12-24',
     genre: ['Animation', 'Comedy', 'Action'],
@@ -139,7 +145,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 13,
         totalLength: 312,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -149,8 +155,9 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Little Witch Academia',
     director: 'Yoh Yoshinari',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl:
+      '/entities_covers/0a8649397da7.jpeg',
     releaseDate: '2017-01-09',
     endDate: '2017-06-26',
     genre: ['Animation', 'Adventure', 'Comedy', 'Fantasy'],
@@ -159,7 +166,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 25,
         totalLength: 600,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -169,8 +176,9 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'SSSS.Gridman',
     director: 'Akira Amemiya',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl:
+      '/entities_covers/0ebd78c03acf.jpg',
     releaseDate: '2018-10-07',
     endDate: '2018-12-23',
     genre: ['Animation', 'Mecha', 'Action', 'Sci-Fi'],
@@ -179,7 +187,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 12,
         totalLength: 288,
-      }
+      },
     ],
     description: '',
     saga: 'Gridman',
@@ -189,8 +197,9 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Eureka Seven',
     director: 'Tomoki Kyoda',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl:
+      'https://a.storyblok.com/f/178900/1280x1810/7edbb3b546/eureka-seven-20th-anniversary-visual.jpg/m/filters:quality(95)format(webp)',
     releaseDate: '2005-04-17',
     endDate: '2006-04-02',
     genre: ['Animation', 'Mecha', 'Adventure', 'Romance'],
@@ -199,7 +208,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 50,
         totalLength: 1200,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -209,8 +218,9 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'The Vision of Escaflowne',
     director: 'Kazuki Akane',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl:
+      '/entities_covers/6c6bafdf8cd0.jpg',
     releaseDate: '1996-04-02',
     endDate: '1996-09-24',
     genre: ['Animation', 'Mecha', 'Adventure', 'Fantasy'],
@@ -219,7 +229,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 26,
         totalLength: 624,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -229,8 +239,9 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Space Battleship Yamato 2199',
     director: 'Yutaka Izubuchi',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl:
+      '/entities_covers/4882121c9135.jpg',
     releaseDate: '2013-04-07',
     endDate: '2013-09-29',
     genre: ['Animation', 'Sci-Fi', 'Action', 'Drama'],
@@ -239,7 +250,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 26,
         totalLength: 624,
-      }
+      },
     ],
     description: '',
     saga: 'Yamato',
@@ -249,8 +260,9 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Legend of the Galactic Heroes',
     director: 'Noboru Ishiguro',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl:
+      '/entities_covers/fc957d1826b8.jpg',
     releaseDate: '1988-01-08',
     endDate: '1997-03-17',
     genre: ['Animation', 'Sci-Fi', 'Drama', 'Military'],
@@ -274,7 +286,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 4,
         nbEpisodes: 24,
         totalLength: 576,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -284,8 +296,9 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Space Dandy',
     director: 'Shinichirō Watanabe',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl:
+      'https://static.wikia.nocookie.net/toonami/images/9/98/Space-Dandy.png/revision/latest?cb=20131119001649',
     releaseDate: '2014-01-05',
     endDate: '2014-09-28',
     genre: ['Animation', 'Sci-Fi', 'Comedy', 'Adventure'],
@@ -299,7 +312,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 2,
         nbEpisodes: 13,
         totalLength: 312,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -309,8 +322,9 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Terror in Resonance',
     director: 'Shinichirō Watanabe',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl:
+      '/entities_covers/4bafade52535.jpg',
     releaseDate: '2014-07-11',
     endDate: '2014-09-26',
     genre: ['Animation', 'Thriller', 'Drama', 'Mystery'],
@@ -319,7 +333,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 11,
         totalLength: 264,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -329,8 +343,9 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Carole & Tuesday',
     director: 'Shinichirō Watanabe',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl:
+      '/entities_covers/5f87012e60cc.webp',
     releaseDate: '2019-04-10',
     endDate: '2019-10-02',
     genre: ['Animation', 'Music', 'Drama', 'Sci-Fi'],
@@ -339,7 +354,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 24,
         totalLength: 576,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -349,8 +364,9 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Trigun Stampede',
     director: 'Kenji Mutō',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl:
+      '/entities_covers/99f3b4aadc33.jpeg',
     releaseDate: '2023-01-07',
     endDate: '2023-03-25',
     genre: ['Animation', 'Action', 'Sci-Fi', 'Adventure'],
@@ -359,7 +375,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 12,
         totalLength: 288,
-      }
+      },
     ],
     description: '',
     saga: 'Trigun',
@@ -369,8 +385,9 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Serial Experiments Lain',
     director: 'Ryūtarō Nakamura',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl:
+      '/entities_covers/36c2c6f70fb6.jpg',
     releaseDate: '1998-07-06',
     endDate: '1998-09-28',
     genre: ['Animation', 'Sci-Fi', 'Psychological', 'Mystery'],
@@ -379,7 +396,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 13,
         totalLength: 312,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -389,8 +406,9 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Haibane Renmei',
     director: 'Tomokazu Tokoro',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl:
+      '/entities_covers/9b1d1e78b953.jpg',
     releaseDate: '2002-10-09',
     endDate: '2002-12-18',
     genre: ['Animation', 'Drama', 'Fantasy', 'Mystery'],
@@ -399,7 +417,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 13,
         totalLength: 312,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -409,8 +427,9 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Ergo Proxy',
     director: 'Shūkō Murase',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl:
+      '/entities_covers/70372ebab8b0.jpg',
     releaseDate: '2006-02-25',
     endDate: '2006-08-12',
     genre: ['Animation', 'Sci-Fi', 'Mystery', 'Psychological'],
@@ -419,7 +438,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 23,
         totalLength: 552,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -429,8 +448,9 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Eighty-Six',
     director: 'Toshimasa Ishii',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl:
+      '/entities_covers/2d51eed54e67.jpg',
     releaseDate: '2021-04-11',
     endDate: '2022-03-19',
     genre: ['Animation', 'Sci-Fi', 'Action', 'Drama'],
@@ -444,7 +464,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 2,
         nbEpisodes: 12,
         totalLength: 288,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -454,8 +474,9 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'NieR:Automata Ver1.1a',
     director: 'Ryōji Masuyama',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl:
+      '/entities_covers/7c5289f6c212.jpg',
     releaseDate: '2023-01-08',
     endDate: '2024-09-27',
     genre: ['Animation', 'Sci-Fi', 'Action', 'Drama'],
@@ -469,7 +490,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 2,
         nbEpisodes: 12,
         totalLength: 288,
-      }
+      },
     ],
     description: '',
     saga: 'NieR',
@@ -479,8 +500,9 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Darling in the Franxx',
     director: 'Atsushi Nishigori',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl:
+      '/entities_covers/44848d15d3b8.jpg',
     releaseDate: '2018-01-13',
     endDate: '2018-07-07',
     genre: ['Animation', 'Mecha', 'Drama', 'Romance'],
@@ -489,7 +511,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 24,
         totalLength: 576,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -499,8 +521,9 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Mobile Suit Gundam',
     director: 'Yoshiyuki Tomino',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl:
+      '/entities_covers/024d8a217157.jpg',
     releaseDate: '1979-04-07',
     endDate: '1980-01-26',
     genre: ['Animation', 'Mecha', 'Sci-Fi', 'Drama'],
@@ -509,182 +532,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 43,
         totalLength: 1032,
-      }
-    ],
-    description: '',
-    saga: 'Gundam',
-    fromEntity: null,
-    countryOrigin: 'Japon',
-  },
-  {
-    title: 'Mobile Suit Zeta Gundam',
-    director: 'Yoshiyuki Tomino',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
-    releaseDate: '1985-03-02',
-    endDate: '1986-02-22',
-    genre: ['Animation', 'Mecha', 'Sci-Fi', 'Drama'],
-    seasonsData: [
-      {
-        seasonNumber: 1,
-        nbEpisodes: 50,
-        totalLength: 1200,
-      }
-    ],
-    description: '',
-    saga: 'Gundam',
-    fromEntity: null,
-    countryOrigin: 'Japon',
-  },
-  {
-    title: 'Mobile Suit Gundam Wing',
-    director: 'Masashi Ikeda',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
-    releaseDate: '1995-04-07',
-    endDate: '1996-03-29',
-    genre: ['Animation', 'Mecha', 'Sci-Fi', 'Action'],
-    seasonsData: [
-      {
-        seasonNumber: 1,
-        nbEpisodes: 49,
-        totalLength: 1176,
-      }
-    ],
-    description: '',
-    saga: 'Gundam',
-    fromEntity: null,
-    countryOrigin: 'Japon',
-  },
-  {
-    title: 'Mobile Fighter G Gundam',
-    director: 'Yasuhiro Imagawa',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
-    releaseDate: '1994-04-22',
-    endDate: '1995-03-31',
-    genre: ['Animation', 'Mecha', 'Action', 'Martial Arts'],
-    seasonsData: [
-      {
-        seasonNumber: 1,
-        nbEpisodes: 49,
-        totalLength: 1176,
-      }
-    ],
-    description: '',
-    saga: 'Gundam',
-    fromEntity: null,
-    countryOrigin: 'Japon',
-  },
-  {
-    title: 'Mobile Suit Gundam SEED',
-    director: 'Mitsuo Fukuda',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
-    releaseDate: '2002-10-05',
-    endDate: '2003-09-27',
-    genre: ['Animation', 'Mecha', 'Sci-Fi', 'Drama'],
-    seasonsData: [
-      {
-        seasonNumber: 1,
-        nbEpisodes: 50,
-        totalLength: 1200,
-      }
-    ],
-    description: '',
-    saga: 'Gundam',
-    fromEntity: null,
-    countryOrigin: 'Japon',
-  },
-  {
-    title: 'Mobile Suit Gundam SEED Destiny',
-    director: 'Mitsuo Fukuda',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
-    releaseDate: '2004-10-09',
-    endDate: '2005-10-01',
-    genre: ['Animation', 'Mecha', 'Sci-Fi', 'Drama'],
-    seasonsData: [
-      {
-        seasonNumber: 1,
-        nbEpisodes: 50,
-        totalLength: 1200,
-      }
-    ],
-    description: '',
-    saga: 'Gundam',
-    fromEntity: null,
-    countryOrigin: 'Japon',
-  },
-  {
-    title: 'Mobile Suit Gundam 00',
-    director: 'Seiji Mizushima',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
-    releaseDate: '2007-10-06',
-    endDate: '2009-03-29',
-    genre: ['Animation', 'Mecha', 'Sci-Fi', 'Action'],
-    seasonsData: [
-      {
-        seasonNumber: 1,
-        nbEpisodes: 25,
-        totalLength: 600,
       },
-      {
-        seasonNumber: 2,
-        nbEpisodes: 25,
-        totalLength: 600,
-      }
-    ],
-    description: '',
-    saga: 'Gundam',
-    fromEntity: null,
-    countryOrigin: 'Japon',
-  },
-  {
-    title: 'Mobile Suit Gundam: Iron-Blooded Orphans',
-    director: 'Tatsuyuki Nagai',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
-    releaseDate: '2015-10-04',
-    endDate: '2017-04-02',
-    genre: ['Animation', 'Mecha', 'Sci-Fi', 'Drama'],
-    seasonsData: [
-      {
-        seasonNumber: 1,
-        nbEpisodes: 25,
-        totalLength: 600,
-      },
-      {
-        seasonNumber: 2,
-        nbEpisodes: 25,
-        totalLength: 600,
-      }
-    ],
-    description: '',
-    saga: 'Gundam',
-    fromEntity: null,
-    countryOrigin: 'Japon',
-  },
-  {
-    title: 'Mobile Suit Gundam: The Witch from Mercury',
-    director: 'Hiroshi Kobayashi',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
-    releaseDate: '2022-10-02',
-    endDate: '2023-07-02',
-    genre: ['Animation', 'Mecha', 'Sci-Fi', 'Drama'],
-    seasonsData: [
-      {
-        seasonNumber: 1,
-        nbEpisodes: 12,
-        totalLength: 288,
-      },
-      {
-        seasonNumber: 2,
-        nbEpisodes: 12,
-        totalLength: 288,
-      }
     ],
     description: '',
     saga: 'Gundam',
@@ -694,8 +542,9 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Super Dimension Fortress Macross',
     director: 'Noboru Ishiguro',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl:
+      '/entities_covers/273cc80e6906.jpg',
     releaseDate: '1982-10-03',
     endDate: '1983-06-26',
     genre: ['Animation', 'Mecha', 'Music', 'Sci-Fi'],
@@ -704,7 +553,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 36,
         totalLength: 864,
-      }
+      },
     ],
     description: '',
     saga: 'Macross',
@@ -714,8 +563,9 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Macross Frontier',
     director: 'Shōji Kawamori',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl:
+      '/entities_covers/8be7ea729dae.webp',
     releaseDate: '2008-04-04',
     endDate: '2008-09-26',
     genre: ['Animation', 'Mecha', 'Music', 'Sci-Fi'],
@@ -724,7 +574,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 25,
         totalLength: 600,
-      }
+      },
     ],
     description: '',
     saga: 'Macross',
@@ -734,8 +584,9 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Monster',
     director: 'Masayuki Kojima',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl:
+      '/entities_covers/5e0c1654e82a.png',
     releaseDate: '2004-04-07',
     endDate: '2005-09-28',
     genre: ['Animation', 'Mystery', 'Thriller', 'Drama'],
@@ -744,7 +595,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 74,
         totalLength: 1776,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -754,8 +605,9 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Pluto',
     director: 'Toshio Kawaguchi',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl:
+      '/entities_covers/d29eb19f24eb.jpg',
     releaseDate: '2023-10-26',
     endDate: '2023-10-26',
     genre: ['Animation', 'Sci-Fi', 'Mystery', 'Drama'],
@@ -764,7 +616,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 8,
         totalLength: 480,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -774,8 +626,9 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Erased',
     director: 'Tomohiko Itō',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl:
+      '/entities_covers/0e95b7c74080.jpg',
     releaseDate: '2016-01-08',
     endDate: '2016-03-25',
     genre: ['Animation', 'Mystery', 'Drama', 'Thriller'],
@@ -784,7 +637,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 12,
         totalLength: 288,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -794,8 +647,9 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Parasyte: The Maxim',
     director: 'Kenichi Shimizu',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl:
+      'https://static.wikia.nocookie.net/fan-kai/images/9/93/Parasyte_henshu_affiche.png/revision/latest?cb=20240102140315&path-prefix=fr',
     releaseDate: '2014-10-09',
     endDate: '2015-03-26',
     genre: ['Animation', 'Horror', 'Action', 'Sci-Fi'],
@@ -804,7 +658,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 24,
         totalLength: 576,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -814,8 +668,9 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Devilman Crybaby',
     director: 'Masaaki Yuasa',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl:
+      '/entities_covers/badad3bca806.jpg',
     releaseDate: '2018-01-05',
     endDate: '2018-01-05',
     genre: ['Animation', 'Horror', 'Action', 'Supernatural'],
@@ -824,7 +679,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 10,
         totalLength: 250,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -834,8 +689,9 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Claymore',
     director: 'Hiroyuki Tanaka',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl:
+      '/entities_covers/50d3c834e797.jpg',
     releaseDate: '2007-04-04',
     endDate: '2007-09-26',
     genre: ['Animation', 'Action', 'Fantasy', 'Horror'],
@@ -844,7 +700,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 26,
         totalLength: 624,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -854,8 +710,9 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Black Lagoon',
     director: 'Sunao Katabuchi',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl:
+      '/entities_covers/dff465b632a6.jpg',
     releaseDate: '2006-04-09',
     endDate: '2006-12-19',
     genre: ['Animation', 'Action', 'Crime'],
@@ -869,7 +726,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 2,
         nbEpisodes: 12,
         totalLength: 288,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -879,8 +736,9 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Jormungand',
     director: 'Keitarō Motonaga',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl:
+      '/entities_covers/aef917f7cec8.jpg',
     releaseDate: '2012-04-10',
     endDate: '2012-12-26',
     genre: ['Animation', 'Action', 'Adventure'],
@@ -894,7 +752,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 2,
         nbEpisodes: 12,
         totalLength: 288,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -904,8 +762,9 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: '91 Days',
     director: 'Hiro Kaburagi',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl:
+      '/entities_covers/b134310cef83.jpg',
     releaseDate: '2016-07-09',
     endDate: '2016-10-01',
     genre: ['Animation', 'Crime', 'Drama'],
@@ -914,7 +773,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 12,
         totalLength: 288,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -924,8 +783,9 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Baccano!',
     director: 'Takahiro Ōmori',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl:
+      '/entities_covers/1892dc415bd6.jpg',
     releaseDate: '2007-07-26',
     endDate: '2007-11-01',
     genre: ['Animation', 'Action', 'Mystery', 'Supernatural'],
@@ -934,7 +794,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 13,
         totalLength: 312,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -944,8 +804,9 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Great Pretender',
     director: 'Hiro Kaburagi',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl:
+      'https://a.storyblok.com/f/178900/750x1061/8c2c36be49/great-pretender-razbliuto-key-visual.jpg/m/filters:quality(95)format(webp)',
     releaseDate: '2020-06-02',
     endDate: '2020-12-21',
     genre: ['Animation', 'Crime', 'Comedy', 'Drama'],
@@ -954,7 +815,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 23,
         totalLength: 552,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -964,8 +825,9 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Banana Fish',
     director: 'Hiroko Utsumi',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl:
+      '/entities_covers/ebe2c179a206.jpg',
     releaseDate: '2018-07-06',
     endDate: '2018-12-21',
     genre: ['Animation', 'Action', 'Drama', 'Crime'],
@@ -974,7 +836,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 24,
         totalLength: 576,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -984,8 +846,9 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Dorohedoro',
     director: 'Yuichiro Hayashi',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl:
+      '/entities_covers/6b7140f946f6.jpg',
     releaseDate: '2020-01-12',
     endDate: '2020-03-29',
     genre: ['Animation', 'Action', 'Fantasy', 'Horror'],
@@ -994,7 +857,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 12,
         totalLength: 288,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -1004,8 +867,9 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: "Hell's Paradise",
     director: 'Kaori Makita',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl:
+      '/entities_covers/f1fbff263b11.jpg',
     releaseDate: '2023-04-01',
     endDate: '2023-07-01',
     genre: ['Animation', 'Action', 'Fantasy', 'Horror'],
@@ -1014,7 +878,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 13,
         totalLength: 312,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -1024,8 +888,9 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Odd Taxi',
     director: 'Baku Kinoshita',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl:
+      '/entities_covers/900c4c08478b.jpg',
     releaseDate: '2021-04-06',
     endDate: '2021-06-29',
     genre: ['Animation', 'Mystery', 'Comedy', 'Drama'],
@@ -1034,7 +899,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 13,
         totalLength: 312,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -1044,8 +909,9 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Ranking of Kings',
     director: 'Yōsuke Hatta',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl:
+      '/entities_covers/7f2cd3c92c44.jpg',
     releaseDate: '2021-10-15',
     endDate: '2022-03-25',
     genre: ['Animation', 'Adventure', 'Fantasy', 'Drama'],
@@ -1054,7 +920,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 23,
         totalLength: 552,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -1064,8 +930,9 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Made in Abyss',
     director: 'Masayuki Kojima',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl:
+      '/entities_covers/9700efb12259.jpg',
     releaseDate: '2017-07-07',
     endDate: '2022-09-28',
     genre: ['Animation', 'Adventure', 'Fantasy', 'Drama'],
@@ -1079,7 +946,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 2,
         nbEpisodes: 12,
         totalLength: 288,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -1089,8 +956,9 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Tokyo Revengers',
     director: 'Koichi Hatsumi',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl:
+      '/entities_covers/3e911c3e7e01.jpg',
     releaseDate: '2021-04-11',
     endDate: '',
     genre: ['Animation', 'Action', 'Drama', 'Supernatural'],
@@ -1109,7 +977,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 3,
         nbEpisodes: 13,
         totalLength: 312,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -1119,8 +987,9 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Blue Lock',
     director: 'Tetsuaki Watanabe',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl:
+      '/entities_covers/8f9042d3f6a0.jpg',
     releaseDate: '2022-10-09',
     endDate: '',
     genre: ['Animation', 'Sports', 'Drama'],
@@ -1134,7 +1003,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 2,
         nbEpisodes: 14,
         totalLength: 336,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -1144,8 +1013,9 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Dr. Stone',
     director: 'Shinya Iino',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl:
+      '/entities_covers/bb5ae14f5cbe.jpg',
     releaseDate: '2019-07-05',
     endDate: '',
     genre: ['Animation', 'Adventure', 'Sci-Fi', 'Comedy'],
@@ -1164,7 +1034,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 3,
         nbEpisodes: 22,
         totalLength: 528,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -1174,8 +1044,9 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Fire Force',
     director: 'Yuki Yase',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl:
+      '/entities_covers/e74af1d23d53.jpg',
     releaseDate: '2019-07-06',
     endDate: '',
     genre: ['Animation', 'Action', 'Fantasy', 'Supernatural'],
@@ -1189,7 +1060,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 2,
         nbEpisodes: 24,
         totalLength: 576,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -1199,8 +1070,9 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Black Clover',
     director: 'Tatsuya Yoshihara',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl:
+      '/entities_covers/f912d6b184eb.jpg',
     releaseDate: '2017-10-03',
     endDate: '2021-03-30',
     genre: ['Animation', 'Action', 'Fantasy'],
@@ -1209,7 +1081,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 170,
         totalLength: 4080,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -1219,8 +1091,9 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'World Trigger',
     director: 'Mitsuru Hongo',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl:
+      'https://a.storyblok.com/f/178900/1064x1596/c57ba00131/71472b005fed357b85c2d182a1ff3d5c1633001110_main.jpg/m/filters:quality(95)format(webp)',
     releaseDate: '2014-10-05',
     endDate: '2022-01-23',
     genre: ['Animation', 'Action', 'Sci-Fi'],
@@ -1239,7 +1112,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 3,
         nbEpisodes: 14,
         totalLength: 336,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -1249,8 +1122,9 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Blue Exorcist',
     director: 'Tensai Okamura',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl:
+      '/entities_covers/7b3cd6582d5f.jpg',
     releaseDate: '2011-04-17',
     endDate: '',
     genre: ['Animation', 'Action', 'Fantasy', 'Supernatural'],
@@ -1274,7 +1148,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 4,
         nbEpisodes: 12,
         totalLength: 288,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -1284,8 +1158,9 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Noragami',
     director: 'Kotaro Tamura',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl:
+      '/entities_covers/514740b26baa.jpg',
     releaseDate: '2014-01-05',
     endDate: '2015-12-25',
     genre: ['Animation', 'Action', 'Fantasy', 'Supernatural'],
@@ -1299,7 +1174,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 2,
         nbEpisodes: 13,
         totalLength: 312,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -1309,8 +1184,9 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Ajin: Demi-Human',
     director: 'Hiroyuki Seshita',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl:
+      '/entities_covers/db5a993d3d5d.jpg',
     releaseDate: '2016-01-16',
     endDate: '2016-12-17',
     genre: ['Animation', 'Action', 'Horror', 'Supernatural'],
@@ -1329,7 +1205,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 3,
         nbEpisodes: 13,
         totalLength: 312,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -1339,8 +1215,9 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Bungo Stray Dogs',
     director: 'Takuya Igarashi',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl:
+      '/entities_covers/55bdd6536906.jpg',
     releaseDate: '2016-04-07',
     endDate: '',
     genre: ['Animation', 'Action', 'Mystery', 'Supernatural'],
@@ -1369,7 +1246,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 5,
         nbEpisodes: 11,
         totalLength: 264,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -1379,8 +1256,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Moriarty the Patriot',
     director: 'Kazuya Nomura',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2020-10-11',
     endDate: '2021-06-27',
     genre: ['Animation', 'Mystery', 'Crime', 'Drama'],
@@ -1394,7 +1271,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 2,
         nbEpisodes: 13,
         totalLength: 312,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -1404,8 +1281,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'The Case Study of Vanitas',
     director: 'Tomoyuki Itamura',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2021-07-02',
     endDate: '2022-04-02',
     genre: ['Animation', 'Fantasy', 'Supernatural', 'Mystery'],
@@ -1419,7 +1296,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 2,
         nbEpisodes: 12,
         totalLength: 288,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -1429,8 +1306,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: "The Ancient Magus' Bride",
     director: 'Norihiro Naganuma',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2017-10-08',
     endDate: '2023-12-21',
     genre: ['Animation', 'Fantasy', 'Drama', 'Supernatural'],
@@ -1444,7 +1321,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 2,
         nbEpisodes: 24,
         totalLength: 576,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -1454,8 +1331,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Dororo',
     director: 'Kazuhiro Furuhashi',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2019-01-07',
     endDate: '2019-06-24',
     genre: ['Animation', 'Action', 'Adventure', 'Supernatural'],
@@ -1464,7 +1341,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 24,
         totalLength: 576,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -1474,8 +1351,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Golden Kamuy',
     director: 'Hitoshi Nanba',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2018-04-09',
     endDate: '2023-06-27',
     genre: ['Animation', 'Action', 'Adventure', 'Historical'],
@@ -1499,7 +1376,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 4,
         nbEpisodes: 13,
         totalLength: 312,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -1509,8 +1386,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Kingdom',
     director: 'Jun Kamiya',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2012-06-04',
     endDate: '',
     genre: ['Animation', 'Action', 'Historical', 'Drama'],
@@ -1539,7 +1416,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 5,
         nbEpisodes: 13,
         totalLength: 312,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -1549,8 +1426,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Inuyasha',
     director: 'Masashi Ikeda',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2000-10-16',
     endDate: '2010-03-30',
     genre: ['Animation', 'Action', 'Adventure', 'Fantasy'],
@@ -1564,7 +1441,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 2,
         nbEpisodes: 26,
         totalLength: 624,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -1574,8 +1451,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Rurouni Kenshin',
     director: 'Kazuhiro Furuhashi',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '1996-01-10',
     endDate: '1998-09-08',
     genre: ['Animation', 'Action', 'Historical', 'Romance'],
@@ -1584,7 +1461,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 94,
         totalLength: 2256,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -1594,8 +1471,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Mushishi',
     director: 'Hiroshi Nagahama',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2005-10-23',
     endDate: '2014-08-16',
     genre: ['Animation', 'Fantasy', 'Mystery', 'Slice of Life'],
@@ -1609,7 +1486,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 2,
         nbEpisodes: 10,
         totalLength: 240,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -1619,8 +1496,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Mononoke',
     director: 'Kenji Nakamura',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2007-07-13',
     endDate: '2007-09-28',
     genre: ['Animation', 'Horror', 'Mystery', 'Supernatural'],
@@ -1629,7 +1506,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 12,
         totalLength: 288,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -1639,8 +1516,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'xxxHOLiC',
     director: 'Tsutomu Mizushima',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2006-04-06',
     endDate: '2008-03-27',
     genre: ['Animation', 'Supernatural', 'Mystery', 'Comedy'],
@@ -1654,7 +1531,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 2,
         nbEpisodes: 13,
         totalLength: 312,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -1664,8 +1541,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: "Natsume's Book of Friends",
     director: 'Takahiro Ōmori',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2008-07-07',
     endDate: '',
     genre: ['Animation', 'Supernatural', 'Slice of Life', 'Drama'],
@@ -1704,7 +1581,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 7,
         nbEpisodes: 13,
         totalLength: 312,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -1714,8 +1591,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'March Comes in Like a Lion',
     director: 'Kenjirō Okada',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2016-10-08',
     endDate: '2018-03-31',
     genre: ['Animation', 'Drama', 'Slice of Life'],
@@ -1729,7 +1606,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 2,
         nbEpisodes: 22,
         totalLength: 528,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -1739,8 +1616,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Shirobako',
     director: 'Tsutomu Mizushima',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2014-10-09',
     endDate: '2015-03-26',
     genre: ['Animation', 'Comedy', 'Drama', 'Slice of Life'],
@@ -1749,7 +1626,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 24,
         totalLength: 576,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -1759,8 +1636,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Silver Spoon',
     director: 'Tomohiko Itō',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2013-07-11',
     endDate: '2014-03-27',
     genre: ['Animation', 'Comedy', 'Slice of Life'],
@@ -1774,7 +1651,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 2,
         nbEpisodes: 11,
         totalLength: 264,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -1784,8 +1661,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Barakamon',
     director: 'Masaki Tachibana',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2014-07-06',
     endDate: '2014-09-28',
     genre: ['Animation', 'Comedy', 'Slice of Life'],
@@ -1794,7 +1671,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 12,
         totalLength: 288,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -1804,8 +1681,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Hyouka',
     director: 'Yasuhiro Takemoto',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2012-04-22',
     endDate: '2012-09-16',
     genre: ['Animation', 'Mystery', 'Slice of Life', 'Drama'],
@@ -1814,7 +1691,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 22,
         totalLength: 528,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -1824,8 +1701,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Chihayafuru',
     director: 'Morio Asaka',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2011-10-04',
     endDate: '2020-03-24',
     genre: ['Animation', 'Drama', 'Sports', 'Slice of Life'],
@@ -1844,7 +1721,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 3,
         nbEpisodes: 24,
         totalLength: 576,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -1854,8 +1731,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Hikaru no Go',
     director: 'Inconnu',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2001-10-10',
     endDate: '2003-03-26',
     genre: ['Animation', 'Drama', 'Sports'],
@@ -1864,7 +1741,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 75,
         totalLength: 1800,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -1874,8 +1751,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Nodame Cantabile',
     director: "Ken'ichi Kasai",
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2007-01-11',
     endDate: '2010-03-26',
     genre: ['Animation', 'Comedy', 'Drama', 'Music'],
@@ -1894,7 +1771,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 3,
         nbEpisodes: 11,
         totalLength: 264,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -1904,8 +1781,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Honey and Clover',
     director: "Ken'ichi Kasai",
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2005-04-14',
     endDate: '2006-09-26',
     genre: ['Animation', 'Comedy', 'Drama', 'Romance'],
@@ -1919,7 +1796,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 2,
         nbEpisodes: 12,
         totalLength: 288,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -1929,8 +1806,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Beck',
     director: 'Osamu Kobayashi',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2004-10-07',
     endDate: '2005-03-31',
     genre: ['Animation', 'Music', 'Drama', 'Comedy'],
@@ -1939,7 +1816,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 26,
         totalLength: 624,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -1949,8 +1826,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Kids on the Slope',
     director: 'Shinichirō Watanabe',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2012-04-12',
     endDate: '2012-06-29',
     genre: ['Animation', 'Music', 'Drama', 'Romance'],
@@ -1959,7 +1836,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 12,
         totalLength: 288,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -1969,8 +1846,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Given',
     director: 'Hikaru Yamaguchi',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2019-07-11',
     endDate: '2019-09-19',
     genre: ['Animation', 'Music', 'Drama', 'Romance'],
@@ -1979,7 +1856,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 11,
         totalLength: 264,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -1989,8 +1866,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'K-On!',
     director: 'Naoko Yamada',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2009-04-03',
     endDate: '2010-09-28',
     genre: ['Animation', 'Comedy', 'Music', 'Slice of Life'],
@@ -2004,7 +1881,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 2,
         nbEpisodes: 26,
         totalLength: 624,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -2014,8 +1891,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Bocchi the Rock!',
     director: 'Keiichirō Saitō',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2022-10-09',
     endDate: '2022-12-25',
     genre: ['Animation', 'Comedy', 'Music', 'Slice of Life'],
@@ -2024,7 +1901,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 12,
         totalLength: 288,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -2034,8 +1911,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Sound! Euphonium',
     director: 'Tatsuya Ishihara',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2015-04-08',
     endDate: '2024-06-30',
     genre: ['Animation', 'Music', 'Drama', 'Slice of Life'],
@@ -2054,7 +1931,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 3,
         nbEpisodes: 13,
         totalLength: 312,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -2064,8 +1941,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'A Place Further Than the Universe',
     director: 'Atsuko Ishizuka',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2018-01-02',
     endDate: '2018-03-27',
     genre: ['Animation', 'Adventure', 'Comedy', 'Drama'],
@@ -2074,7 +1951,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 13,
         totalLength: 312,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -2084,8 +1961,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Keep Your Hands Off Eizouken!',
     director: 'Masaaki Yuasa',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2020-01-05',
     endDate: '2020-03-22',
     genre: ['Animation', 'Comedy', 'Slice of Life'],
@@ -2094,7 +1971,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 12,
         totalLength: 288,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -2104,8 +1981,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'The Tatami Galaxy',
     director: 'Masaaki Yuasa',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2010-04-22',
     endDate: '2010-07-01',
     genre: ['Animation', 'Comedy', 'Drama', 'Psychological'],
@@ -2114,7 +1991,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 11,
         totalLength: 264,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -2124,8 +2001,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Ping Pong the Animation',
     director: 'Masaaki Yuasa',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2014-04-11',
     endDate: '2014-06-20',
     genre: ['Animation', 'Sports', 'Drama', 'Comedy'],
@@ -2134,7 +2011,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 11,
         totalLength: 264,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -2144,8 +2021,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Mob Psycho 100',
     director: 'Yuzuru Tachikawa',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2016-07-12',
     endDate: '2022-12-22',
     genre: ['Animation', 'Action', 'Comedy', 'Supernatural'],
@@ -2164,7 +2041,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 3,
         nbEpisodes: 12,
         totalLength: 288,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -2174,8 +2051,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Haikyuu!!',
     director: 'Susumu Mitsunaka',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2014-04-06',
     endDate: '2020-12-19',
     genre: ['Animation', 'Sports', 'Comedy', 'Drama'],
@@ -2199,7 +2076,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 4,
         nbEpisodes: 25,
         totalLength: 600,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -2209,8 +2086,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: "Kuroko's Basketball",
     director: 'Shunsuke Tada',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2012-04-07',
     endDate: '2015-06-30',
     genre: ['Animation', 'Sports', 'Comedy', 'Drama'],
@@ -2229,7 +2106,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 3,
         nbEpisodes: 25,
         totalLength: 600,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -2239,8 +2116,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Slam Dunk',
     director: 'Nobutaka Nishizawa',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '1993-10-16',
     endDate: '1996-03-23',
     genre: ['Animation', 'Sports', 'Comedy', 'Drama'],
@@ -2249,7 +2126,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 101,
         totalLength: 2424,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -2259,8 +2136,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Hajime no Ippo',
     director: 'Satoshi Nishimura',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2000-10-04',
     endDate: '2014-03-29',
     genre: ['Animation', 'Sports', 'Action', 'Drama'],
@@ -2279,7 +2156,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 3,
         nbEpisodes: 25,
         totalLength: 600,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -2289,8 +2166,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Initial D',
     director: 'Inconnu',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '1998-04-18',
     endDate: '2014-11-22',
     genre: ['Animation', 'Sports', 'Action'],
@@ -2319,7 +2196,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 5,
         nbEpisodes: 4,
         totalLength: 96,
-      }
+      },
     ],
     description: '',
     saga: 'Initial D',
@@ -2329,8 +2206,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Ace of Diamond',
     director: 'Mitsuyuki Masuhara',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2013-10-06',
     endDate: '2020-03-29',
     genre: ['Animation', 'Sports', 'Drama'],
@@ -2344,7 +2221,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 2,
         nbEpisodes: 52,
         totalLength: 1248,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -2354,8 +2231,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'The Prince of Tennis',
     director: 'Takayuki Hamana',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2001-10-10',
     endDate: '2005-03-23',
     genre: ['Animation', 'Sports', 'Comedy', 'Drama'],
@@ -2364,7 +2241,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 178,
         totalLength: 4272,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -2374,8 +2251,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Free!',
     director: 'Hiroko Utsumi',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2013-07-04',
     endDate: '2018-09-26',
     genre: ['Animation', 'Sports', 'Comedy', 'Drama'],
@@ -2394,7 +2271,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 3,
         nbEpisodes: 12,
         totalLength: 288,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -2404,8 +2281,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Yuri!!! on Ice',
     director: 'Sayo Yamamoto',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2016-10-06',
     endDate: '2016-12-22',
     genre: ['Animation', 'Sports', 'Drama'],
@@ -2414,7 +2291,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 12,
         totalLength: 288,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -2424,8 +2301,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Inazuma Eleven',
     director: 'Katsuhito Akiyama',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2008-10-05',
     endDate: '2011-04-27',
     genre: ['Animation', 'Sports', 'Adventure', 'Comedy'],
@@ -2434,7 +2311,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 127,
         totalLength: 3048,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -2444,8 +2321,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Run with the Wind',
     director: 'Kazuya Nomura',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2018-10-03',
     endDate: '2019-03-27',
     genre: ['Animation', 'Sports', 'Drama'],
@@ -2454,7 +2331,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 23,
         totalLength: 552,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -2464,8 +2341,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Sk8 the Infinity',
     director: 'Hiroko Utsumi',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2021-01-10',
     endDate: '2021-04-04',
     genre: ['Animation', 'Sports', 'Comedy', 'Drama'],
@@ -2474,7 +2351,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 12,
         totalLength: 288,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -2484,8 +2361,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Ashita no Joe',
     director: 'Osamu Dezaki',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '1970-04-01',
     endDate: '1971-09-29',
     genre: ['Animation', 'Sports', 'Drama'],
@@ -2494,7 +2371,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 79,
         totalLength: 1896,
-      }
+      },
     ],
     description: '',
     saga: 'Ashita no Joe',
@@ -2504,8 +2381,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Ashita no Joe 2',
     director: 'Osamu Dezaki',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '1980-10-13',
     endDate: '1981-08-31',
     genre: ['Animation', 'Sports', 'Drama'],
@@ -2514,7 +2391,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 47,
         totalLength: 1128,
-      }
+      },
     ],
     description: '',
     saga: 'Ashita no Joe',
@@ -2524,8 +2401,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Jenny la tenniswoman',
     director: 'Osamu Dezaki',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '1973-10-05',
     endDate: '1974-03-29',
     genre: ['Animation', 'Sports', 'Drama'],
@@ -2534,7 +2411,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 26,
         totalLength: 624,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -2544,8 +2421,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Re:Zero',
     director: 'Masaharu Watanabe',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2016-04-04',
     endDate: '',
     genre: ['Animation', 'Fantasy', 'Drama', 'Thriller'],
@@ -2564,7 +2441,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 3,
         nbEpisodes: 16,
         totalLength: 384,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -2574,8 +2451,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'KonoSuba',
     director: 'Takaomi Kanasaki',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2016-01-14',
     endDate: '2024-06-19',
     genre: ['Animation', 'Comedy', 'Fantasy', 'Adventure'],
@@ -2594,7 +2471,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 3,
         nbEpisodes: 11,
         totalLength: 264,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -2604,8 +2481,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Overlord',
     director: 'Naoyuki Itō',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2015-07-07',
     endDate: '2022-09-27',
     genre: ['Animation', 'Action', 'Fantasy', 'Adventure'],
@@ -2629,7 +2506,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 4,
         nbEpisodes: 13,
         totalLength: 312,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -2639,8 +2516,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'That Time I Got Reincarnated as a Slime',
     director: 'Yasuhito Kikuchi',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2018-10-02',
     endDate: '',
     genre: ['Animation', 'Fantasy', 'Adventure', 'Comedy'],
@@ -2659,7 +2536,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 3,
         nbEpisodes: 24,
         totalLength: 576,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -2669,8 +2546,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Mushoku Tensei: Jobless Reincarnation',
     director: 'Manabu Okamoto',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2021-01-11',
     endDate: '',
     genre: ['Animation', 'Fantasy', 'Drama', 'Adventure'],
@@ -2684,7 +2561,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 2,
         nbEpisodes: 24,
         totalLength: 576,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -2694,8 +2571,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'The Rising of the Shield Hero',
     director: 'Takao Abo',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2019-01-09',
     endDate: '',
     genre: ['Animation', 'Action', 'Fantasy', 'Adventure'],
@@ -2714,7 +2591,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 3,
         nbEpisodes: 12,
         totalLength: 288,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -2724,8 +2601,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Log Horizon',
     director: 'Shinji Ishihira',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2013-10-05',
     endDate: '2021-03-31',
     genre: ['Animation', 'Adventure', 'Fantasy', 'Sci-Fi'],
@@ -2744,7 +2621,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 3,
         nbEpisodes: 12,
         totalLength: 288,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -2754,8 +2631,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'The Eminence in Shadow',
     director: 'Kazuya Nakanishi',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2022-10-05',
     endDate: '2023-12-20',
     genre: ['Animation', 'Action', 'Comedy', 'Fantasy'],
@@ -2769,7 +2646,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 2,
         nbEpisodes: 12,
         totalLength: 288,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -2779,8 +2656,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'The Irregular at Magic High School',
     director: 'Manabu Ono',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2014-04-06',
     endDate: '2024-03-31',
     genre: ['Animation', 'Action', 'Fantasy', 'Sci-Fi'],
@@ -2799,7 +2676,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 3,
         nbEpisodes: 13,
         totalLength: 312,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -2809,8 +2686,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'A Certain Scientific Railgun',
     director: 'Tatsuyuki Nagai',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2009-10-03',
     endDate: '2020-09-25',
     genre: ['Animation', 'Action', 'Sci-Fi', 'Comedy'],
@@ -2829,7 +2706,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 3,
         nbEpisodes: 25,
         totalLength: 600,
-      }
+      },
     ],
     description: '',
     saga: 'A Certain Magical Index',
@@ -2839,8 +2716,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'A Certain Magical Index',
     director: 'Hiroshi Nishikiori',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2008-10-04',
     endDate: '2019-04-05',
     genre: ['Animation', 'Action', 'Fantasy', 'Sci-Fi'],
@@ -2859,7 +2736,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 3,
         nbEpisodes: 26,
         totalLength: 624,
-      }
+      },
     ],
     description: '',
     saga: 'A Certain Magical Index',
@@ -2869,8 +2746,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Classroom of the Elite',
     director: 'Seiji Kishi',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2017-07-12',
     endDate: '',
     genre: ['Animation', 'Drama', 'Psychological', 'Thriller'],
@@ -2889,7 +2766,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 3,
         nbEpisodes: 13,
         totalLength: 312,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -2899,8 +2776,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Date A Live',
     director: 'Keitarō Motonaga',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2013-04-06',
     endDate: '2024-06-26',
     genre: ['Animation', 'Action', 'Romance', 'Sci-Fi'],
@@ -2929,7 +2806,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 5,
         nbEpisodes: 12,
         totalLength: 288,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -2939,8 +2816,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Shakugan no Shana',
     director: 'Takashi Watanabe',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2005-10-06',
     endDate: '2012-03-23',
     genre: ['Animation', 'Action', 'Fantasy', 'Romance'],
@@ -2959,7 +2836,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 3,
         nbEpisodes: 24,
         totalLength: 576,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -2969,8 +2846,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Magi: The Labyrinth of Magic',
     director: 'Koji Masunari',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2012-10-07',
     endDate: '2014-03-30',
     genre: ['Animation', 'Action', 'Adventure', 'Fantasy'],
@@ -2984,7 +2861,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 2,
         nbEpisodes: 25,
         totalLength: 600,
-      }
+      },
     ],
     description: '',
     saga: 'Magi',
@@ -2994,8 +2871,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Bakuman',
     director: "Ken'ichi Kasai",
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2010-10-02',
     endDate: '2013-03-30',
     genre: ['Animation', 'Comedy', 'Drama', 'Romance'],
@@ -3014,7 +2891,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 3,
         nbEpisodes: 25,
         totalLength: 600,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -3024,8 +2901,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Frieren',
     director: 'Keiichirō Saitō',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2023-09-29',
     endDate: '',
     genre: ['Animation', 'Adventure', 'Drama', 'Fantasy'],
@@ -3034,7 +2911,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 28,
         totalLength: 672,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -3044,8 +2921,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Delicious in Dungeon',
     director: 'Yoshihiro Miyajima',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2024-01-04',
     endDate: '2024-06-13',
     genre: ['Animation', 'Adventure', 'Comedy', 'Fantasy'],
@@ -3054,7 +2931,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 24,
         totalLength: 576,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -3064,8 +2941,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Kaiju No. 8',
     director: 'Shigeyuki Miya',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2024-04-13',
     endDate: '',
     genre: ['Animation', 'Action', 'Sci-Fi', 'Fantasy'],
@@ -3079,7 +2956,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 2,
         nbEpisodes: 11,
         totalLength: 264,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -3089,8 +2966,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Shangri-La Frontier',
     director: 'Toshiyuki Kubooka',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2023-10-01',
     endDate: '',
     genre: ['Animation', 'Action', 'Adventure', 'Fantasy'],
@@ -3104,7 +2981,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 2,
         nbEpisodes: 25,
         totalLength: 600,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -3114,8 +2991,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Mashle: Magic and Muscles',
     director: 'Tomoya Tanaka',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2023-04-08',
     endDate: '2024-06-28',
     genre: ['Animation', 'Action', 'Comedy', 'Fantasy'],
@@ -3129,7 +3006,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 2,
         nbEpisodes: 12,
         totalLength: 288,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -3139,8 +3016,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Heavenly Delusion',
     director: 'Hirotaka Mori',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2023-04-01',
     endDate: '2023-06-24',
     genre: ['Animation', 'Sci-Fi', 'Mystery', 'Adventure'],
@@ -3149,7 +3026,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 13,
         totalLength: 312,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -3159,8 +3036,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Wind Breaker',
     director: 'Inconnu',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2024-04-05',
     endDate: '',
     genre: ['Animation', 'Action', 'Drama'],
@@ -3174,7 +3051,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 2,
         nbEpisodes: 12,
         totalLength: 288,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -3184,8 +3061,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Orb: On the Movements of the Earth',
     director: 'Inconnu',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2024-10-05',
     endDate: '2025-03-15',
     genre: ['Animation', 'Drama', 'Historical', 'Mystery'],
@@ -3194,7 +3071,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 25,
         totalLength: 600,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -3204,8 +3081,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Spice and Wolf',
     director: 'Takeo Takahashi',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2008-01-09',
     endDate: '2009-09-24',
     genre: ['Animation', 'Adventure', 'Fantasy', 'Romance'],
@@ -3219,7 +3096,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 2,
         nbEpisodes: 12,
         totalLength: 288,
-      }
+      },
     ],
     description: '',
     saga: 'Spice and Wolf',
@@ -3229,8 +3106,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'The Saga of Tanya the Evil',
     director: 'Yutaka Uemura',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2017-01-06',
     endDate: '2017-03-31',
     genre: ['Animation', 'Action', 'Fantasy', 'Military'],
@@ -3239,7 +3116,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 12,
         totalLength: 288,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -3249,8 +3126,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'The Devil Is a Part-Timer!',
     director: 'Naoto Hosoda',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2013-04-04',
     endDate: '2022-09-29',
     genre: ['Animation', 'Comedy', 'Fantasy'],
@@ -3264,7 +3141,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 2,
         nbEpisodes: 12,
         totalLength: 288,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -3274,8 +3151,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Is It Wrong to Try to Pick Up Girls in a Dungeon?',
     director: 'Yoshiki Yamakawa',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2015-04-04',
     endDate: '',
     genre: ['Animation', 'Action', 'Adventure', 'Fantasy'],
@@ -3299,7 +3176,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 4,
         nbEpisodes: 22,
         totalLength: 528,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -3309,8 +3186,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'The Twelve Kingdoms',
     director: 'Tsuneo Kobayashi',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2002-04-09',
     endDate: '2003-08-30',
     genre: ['Animation', 'Adventure', 'Fantasy', 'Drama'],
@@ -3319,7 +3196,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 45,
         totalLength: 1080,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -3329,8 +3206,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'To Your Eternity',
     director: 'Masahiko Murata',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2021-04-12',
     endDate: '',
     genre: ['Animation', 'Adventure', 'Drama', 'Fantasy'],
@@ -3344,7 +3221,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 2,
         nbEpisodes: 20,
         totalLength: 480,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -3354,8 +3231,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Cells at Work!',
     director: 'Kenichi Suzuki',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2018-07-08',
     endDate: '2021-02-27',
     genre: ['Animation', 'Comedy', 'Action'],
@@ -3369,7 +3246,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 2,
         nbEpisodes: 8,
         totalLength: 192,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -3379,8 +3256,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Beastars',
     director: "Shin'ichi Matsumi",
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2019-10-10',
     endDate: '',
     genre: ['Animation', 'Drama', 'Psychological', 'Slice of Life'],
@@ -3399,7 +3276,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 3,
         nbEpisodes: 12,
         totalLength: 288,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -3409,8 +3286,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Kaguya-sama: Love Is War',
     director: 'Mamoru Hatakeyama',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2019-01-12',
     endDate: '2022-06-25',
     genre: ['Animation', 'Comedy', 'Romance'],
@@ -3429,7 +3306,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 3,
         nbEpisodes: 13,
         totalLength: 312,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -3439,8 +3316,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Horimiya',
     director: 'Masashi Ishihama',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2021-01-10',
     endDate: '2023-07-02',
     genre: ['Animation', 'Romance', 'Comedy', 'Slice of Life'],
@@ -3454,7 +3331,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 2,
         nbEpisodes: 13,
         totalLength: 312,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -3464,8 +3341,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'My Dress-Up Darling',
     director: 'Keisuke Shinohara',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2022-01-09',
     endDate: '',
     genre: ['Animation', 'Romance', 'Comedy', 'Slice of Life'],
@@ -3479,7 +3356,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 2,
         nbEpisodes: 12,
         totalLength: 288,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -3489,8 +3366,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Rent-a-Girlfriend',
     director: 'Kazuomi Koga',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2020-07-11',
     endDate: '',
     genre: ['Animation', 'Romance', 'Comedy'],
@@ -3514,7 +3391,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 4,
         nbEpisodes: 12,
         totalLength: 288,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -3524,8 +3401,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'The Quintessential Quintuplets',
     director: 'Satoshi Kuwabara',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2019-01-10',
     endDate: '2021-03-26',
     genre: ['Animation', 'Comedy', 'Romance'],
@@ -3539,7 +3416,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 2,
         nbEpisodes: 12,
         totalLength: 288,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -3549,8 +3426,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: "Komi Can't Communicate",
     director: 'Ayumu Watanabe',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2021-10-07',
     endDate: '2022-06-23',
     genre: ['Animation', 'Comedy', 'Romance', 'Slice of Life'],
@@ -3564,7 +3441,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 2,
         nbEpisodes: 12,
         totalLength: 288,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -3574,8 +3451,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Wotakoi: Love Is Hard for Otaku',
     director: 'Yoshimasa Hiraike',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2018-04-13',
     endDate: '2018-06-22',
     genre: ['Animation', 'Comedy', 'Romance', 'Slice of Life'],
@@ -3584,7 +3461,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 11,
         totalLength: 264,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -3594,8 +3471,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'My Teen Romantic Comedy SNAFU',
     director: 'Ai Yoshimura',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2013-04-05',
     endDate: '2020-09-25',
     genre: ['Animation', 'Comedy', 'Romance', 'Drama'],
@@ -3614,7 +3491,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 3,
         nbEpisodes: 12,
         totalLength: 288,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -3624,8 +3501,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Rascal Does Not Dream of Bunny Girl Senpai',
     director: 'Sōichi Masui',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2018-10-04',
     endDate: '2018-12-27',
     genre: ['Animation', 'Romance', 'Supernatural', 'Drama'],
@@ -3634,7 +3511,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 13,
         totalLength: 312,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -3644,8 +3521,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'The Pet Girl of Sakurasou',
     director: 'Atsuko Ishizuka',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2012-10-09',
     endDate: '2013-03-26',
     genre: ['Animation', 'Comedy', 'Drama', 'Romance'],
@@ -3654,7 +3531,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 24,
         totalLength: 576,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -3664,8 +3541,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'The Melancholy of Haruhi Suzumiya',
     director: 'Tatsuya Ishihara',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2006-04-02',
     endDate: '2009-10-09',
     genre: ['Animation', 'Comedy', 'Mystery', 'Sci-Fi'],
@@ -3679,7 +3556,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 2,
         nbEpisodes: 14,
         totalLength: 336,
-      }
+      },
     ],
     description: '',
     saga: 'Haruhi',
@@ -3689,8 +3566,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Lucky Star',
     director: 'Yasuhiro Takemoto',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2007-04-08',
     endDate: '2007-09-17',
     genre: ['Animation', 'Comedy', 'Slice of Life'],
@@ -3699,7 +3576,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 24,
         totalLength: 576,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -3709,8 +3586,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Azumanga Daioh',
     director: 'Hiroshi Nishikiori',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2002-04-08',
     endDate: '2002-09-30',
     genre: ['Animation', 'Comedy', 'Slice of Life'],
@@ -3719,7 +3596,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 26,
         totalLength: 624,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -3729,8 +3606,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Nichijou',
     director: 'Tatsuya Ishihara',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2011-04-03',
     endDate: '2011-09-25',
     genre: ['Animation', 'Comedy', 'Slice of Life'],
@@ -3739,7 +3616,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 26,
         totalLength: 624,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -3749,8 +3626,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Daily Lives of High School Boys',
     director: 'Shinji Takamatsu',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2012-01-10',
     endDate: '2012-03-27',
     genre: ['Animation', 'Comedy', 'Slice of Life'],
@@ -3759,7 +3636,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 12,
         totalLength: 288,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -3769,8 +3646,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Plastic Memories',
     director: 'Yoshiyuki Fujiwara',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2015-04-05',
     endDate: '2015-06-28',
     genre: ['Animation', 'Sci-Fi', 'Drama', 'Romance'],
@@ -3779,7 +3656,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 13,
         totalLength: 312,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -3789,8 +3666,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Nisekoi',
     director: 'Naoyuki Tatsuwa',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2014-01-11',
     endDate: '2015-06-20',
     genre: ['Animation', 'Comedy', 'Romance'],
@@ -3804,7 +3681,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 2,
         nbEpisodes: 12,
         totalLength: 288,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -3814,8 +3691,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Tsuki ga Kirei',
     director: 'Seiji Kishi',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2017-04-07',
     endDate: '2017-06-30',
     genre: ['Animation', 'Romance', 'Slice of Life'],
@@ -3824,7 +3701,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 12,
         totalLength: 288,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -3834,8 +3711,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'My Love Story!!',
     director: 'Morio Asaka',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2015-04-09',
     endDate: '2015-09-24',
     genre: ['Animation', 'Comedy', 'Romance'],
@@ -3844,7 +3721,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 24,
         totalLength: 576,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -3854,8 +3731,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Kimi ni Todoke',
     director: 'Hiro Kaburagi',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2009-10-06',
     endDate: '',
     genre: ['Animation', 'Romance', 'Comedy', 'Slice of Life'],
@@ -3869,7 +3746,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 2,
         nbEpisodes: 12,
         totalLength: 288,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -3879,8 +3756,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'The Dangers in My Heart',
     director: 'Hiroaki Akagi',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2023-04-02',
     endDate: '2024-03-31',
     genre: ['Animation', 'Comedy', 'Romance', 'Slice of Life'],
@@ -3894,7 +3771,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 2,
         nbEpisodes: 13,
         totalLength: 312,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -3904,8 +3781,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Skip and Loafer',
     director: 'Kotomi Deai',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2023-04-04',
     endDate: '2023-06-20',
     genre: ['Animation', 'Comedy', 'Romance', 'Slice of Life'],
@@ -3914,7 +3791,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 12,
         totalLength: 288,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -3924,8 +3801,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Tonikawa: Over the Moon for You',
     director: 'Hiroshi Ikehata',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2020-10-03',
     endDate: '',
     genre: ['Animation', 'Comedy', 'Romance'],
@@ -3939,7 +3816,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 2,
         nbEpisodes: 12,
         totalLength: 288,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -3949,8 +3826,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'The Disastrous Life of Saiki K.',
     director: 'Hiroaki Sakurai',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2016-07-04',
     endDate: '2018-12-28',
     genre: ['Animation', 'Comedy', 'Supernatural'],
@@ -3964,7 +3841,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 2,
         nbEpisodes: 24,
         totalLength: 576,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -3974,8 +3851,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Hinamatsuri',
     director: 'Kei Oikawa',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2018-04-06',
     endDate: '2018-06-22',
     genre: ['Animation', 'Comedy', 'Supernatural', 'Slice of Life'],
@@ -3984,7 +3861,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 12,
         totalLength: 288,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -3994,8 +3871,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Grand Blue',
     director: 'Shinji Takamatsu',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2018-07-14',
     endDate: '2018-09-29',
     genre: ['Animation', 'Comedy'],
@@ -4004,7 +3881,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 12,
         totalLength: 288,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -4014,8 +3891,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Love Live! School Idol Project',
     director: 'Takahiko Kyōgoku',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2013-01-06',
     endDate: '2014-06-29',
     genre: ['Animation', 'Music', 'Comedy', 'Slice of Life'],
@@ -4029,7 +3906,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 2,
         nbEpisodes: 13,
         totalLength: 312,
-      }
+      },
     ],
     description: '',
     saga: 'Love Live',
@@ -4039,8 +3916,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Love Live! Sunshine!!',
     director: 'Kazuo Sakai',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2016-07-02',
     endDate: '2017-12-30',
     genre: ['Animation', 'Music', 'Comedy', 'Slice of Life'],
@@ -4054,7 +3931,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 2,
         nbEpisodes: 13,
         totalLength: 312,
-      }
+      },
     ],
     description: '',
     saga: 'Love Live',
@@ -4064,8 +3941,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Zombieland Saga',
     director: 'Munehisa Sakai',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2018-10-04',
     endDate: '2021-06-24',
     genre: ['Animation', 'Comedy', 'Music', 'Supernatural'],
@@ -4079,7 +3956,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 2,
         nbEpisodes: 12,
         totalLength: 288,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -4089,8 +3966,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Revolutionary Girl Utena',
     director: 'Kunihiko Ikuhara',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '1997-04-02',
     endDate: '1997-12-24',
     genre: ['Animation', 'Drama', 'Fantasy', 'Psychological'],
@@ -4099,7 +3976,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 39,
         totalLength: 936,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -4109,8 +3986,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Penguindrum',
     director: 'Kunihiko Ikuhara',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2011-07-08',
     endDate: '2011-12-23',
     genre: ['Animation', 'Drama', 'Mystery', 'Psychological'],
@@ -4119,7 +3996,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 24,
         totalLength: 576,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -4129,8 +4006,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Princess Tutu',
     director: "Jun'ichi Satō",
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2002-08-16',
     endDate: '2003-05-23',
     genre: ['Animation', 'Fantasy', 'Magic', 'Drama'],
@@ -4139,7 +4016,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 26,
         totalLength: 624,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -4149,8 +4026,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Magic Knight Rayearth',
     director: 'Toshihiro Hirano',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '1994-10-17',
     endDate: '1995-11-13',
     genre: ['Animation', 'Adventure', 'Fantasy', 'Mecha'],
@@ -4164,7 +4041,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 2,
         nbEpisodes: 29,
         totalLength: 696,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -4174,8 +4051,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Sailor Moon Crystal',
     director: 'Munehisa Sakai',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2014-07-05',
     endDate: '2016-06-27',
     genre: ['Animation', 'Action', 'Fantasy', 'Magic'],
@@ -4194,7 +4071,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 3,
         nbEpisodes: 13,
         totalLength: 312,
-      }
+      },
     ],
     description: '',
     saga: 'Sailor Moon',
@@ -4204,8 +4081,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Tsubasa Reservoir Chronicle',
     director: 'Kōichi Mashimo',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2005-04-09',
     endDate: '2006-11-04',
     genre: ['Animation', 'Action', 'Adventure', 'Fantasy'],
@@ -4219,7 +4096,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 2,
         nbEpisodes: 26,
         totalLength: 624,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -4229,8 +4106,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Chobits',
     director: 'Morio Asaka',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2002-04-02',
     endDate: '2002-09-24',
     genre: ['Animation', 'Comedy', 'Drama', 'Romance'],
@@ -4239,7 +4116,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 26,
         totalLength: 624,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -4249,8 +4126,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Futari wa Pretty Cure',
     director: 'Daisuke Nishio',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2004-02-01',
     endDate: '2005-01-30',
     genre: ['Animation', 'Action', 'Fantasy', 'Magic'],
@@ -4259,7 +4136,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 49,
         totalLength: 1176,
-      }
+      },
     ],
     description: '',
     saga: 'Pretty Cure',
@@ -4269,8 +4146,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Shiki',
     director: 'Tetsurō Amino',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2010-07-09',
     endDate: '2010-12-30',
     genre: ['Animation', 'Horror', 'Mystery', 'Supernatural'],
@@ -4279,7 +4156,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 22,
         totalLength: 528,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -4289,8 +4166,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Hellsing',
     director: 'Yasunori Urata',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2001-10-10',
     endDate: '2002-01-16',
     genre: ['Animation', 'Action', 'Horror', 'Supernatural'],
@@ -4299,7 +4176,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 13,
         totalLength: 312,
-      }
+      },
     ],
     description: '',
     saga: 'Hellsing',
@@ -4309,8 +4186,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Hellsing Ultimate',
     director: 'Tomokazu Tokoro',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2006-02-10',
     endDate: '2012-12-26',
     genre: ['Animation', 'Action', 'Horror', 'Supernatural'],
@@ -4319,7 +4196,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 10,
         totalLength: 500,
-      }
+      },
     ],
     description: '',
     saga: 'Hellsing',
@@ -4329,8 +4206,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Blood+',
     director: 'Jun Matsumoto',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2005-10-08',
     endDate: '2006-09-23',
     genre: ['Animation', 'Action', 'Horror', 'Supernatural'],
@@ -4339,7 +4216,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 50,
         totalLength: 1200,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -4349,8 +4226,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Uzumaki',
     director: 'Hiroshi Nagahama',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2024-09-28',
     endDate: '2024-10-19',
     genre: ['Animation', 'Horror', 'Mystery', 'Supernatural'],
@@ -4359,7 +4236,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 4,
         totalLength: 120,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -4369,8 +4246,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Lycoris Recoil',
     director: 'Shingo Adachi',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2022-07-02',
     endDate: '2022-09-24',
     genre: ['Animation', 'Action', 'Comedy'],
@@ -4379,7 +4256,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 13,
         totalLength: 312,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -4389,8 +4266,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Steins;Gate 0',
     director: 'Kenichi Kawamura',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2018-04-12',
     endDate: '2018-09-27',
     genre: ['Animation', 'Sci-Fi', 'Thriller', 'Drama'],
@@ -4399,7 +4276,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 23,
         totalLength: 552,
-      }
+      },
     ],
     description: '',
     saga: 'Steins;Gate',
@@ -4409,8 +4286,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: "JoJo's Bizarre Adventure: Stardust Crusaders",
     director: 'Naokatsu Tsuda',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2014-04-05',
     endDate: '2015-06-20',
     genre: ['Animation', 'Action', 'Adventure', 'Supernatural'],
@@ -4424,7 +4301,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 2,
         nbEpisodes: 24,
         totalLength: 576,
-      }
+      },
     ],
     description: '',
     saga: "JoJo's Bizarre Adventure",
@@ -4434,8 +4311,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: "JoJo's Bizarre Adventure: Diamond Is Unbreakable",
     director: 'Naokatsu Tsuda',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2016-04-02',
     endDate: '2016-12-24',
     genre: ['Animation', 'Action', 'Adventure', 'Supernatural'],
@@ -4444,7 +4321,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 39,
         totalLength: 936,
-      }
+      },
     ],
     description: '',
     saga: "JoJo's Bizarre Adventure",
@@ -4454,8 +4331,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: "JoJo's Bizarre Adventure: Golden Wind",
     director: 'Naokatsu Tsuda',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2018-10-06',
     endDate: '2019-07-28',
     genre: ['Animation', 'Action', 'Adventure', 'Supernatural'],
@@ -4464,7 +4341,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 39,
         totalLength: 936,
-      }
+      },
     ],
     description: '',
     saga: "JoJo's Bizarre Adventure",
@@ -4474,8 +4351,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: "JoJo's Bizarre Adventure: Stone Ocean",
     director: 'Kenichi Suzuki',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2021-12-01',
     endDate: '2022-12-01',
     genre: ['Animation', 'Action', 'Adventure', 'Supernatural'],
@@ -4494,7 +4371,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 3,
         nbEpisodes: 14,
         totalLength: 336,
-      }
+      },
     ],
     description: '',
     saga: "JoJo's Bizarre Adventure",
@@ -4504,8 +4381,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Bakemonogatari',
     director: 'Akiyuki Shinbo',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2009-07-03',
     endDate: '2009-09-25',
     genre: ['Animation', 'Mystery', 'Supernatural', 'Comedy'],
@@ -4514,7 +4391,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 15,
         totalLength: 360,
-      }
+      },
     ],
     description: '',
     saga: 'Monogatari',
@@ -4524,8 +4401,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Monogatari Series: Second Season',
     director: 'Akiyuki Shinbo',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2013-07-07',
     endDate: '2013-12-29',
     genre: ['Animation', 'Mystery', 'Supernatural', 'Drama'],
@@ -4534,7 +4411,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 26,
         totalLength: 624,
-      }
+      },
     ],
     description: '',
     saga: 'Monogatari',
@@ -4544,8 +4421,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Owarimonogatari',
     director: 'Akiyuki Shinbo',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '2015-10-04',
     endDate: '2017-08-13',
     genre: ['Animation', 'Mystery', 'Supernatural', 'Drama'],
@@ -4559,7 +4436,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 2,
         nbEpisodes: 7,
         totalLength: 168,
-      }
+      },
     ],
     description: '',
     saga: 'Monogatari',
@@ -4569,8 +4446,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Lady Oscar',
     director: 'Osamu Dezaki',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '1979-10-10',
     endDate: '1980-09-03',
     genre: ['Animation', 'Drama', 'Historical', 'Romance'],
@@ -4579,7 +4456,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 40,
         totalLength: 960,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -4589,8 +4466,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Candy Candy',
     director: 'Hiroshi Shidara',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '1976-10-01',
     endDate: '1979-02-02',
     genre: ['Animation', 'Drama', 'Romance', 'Slice of Life'],
@@ -4599,7 +4476,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 115,
         totalLength: 2760,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -4609,8 +4486,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Heidi',
     director: 'Isao Takahata',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '1974-01-06',
     endDate: '1974-12-29',
     genre: ['Animation', 'Adventure', 'Drama', 'Slice of Life'],
@@ -4619,7 +4496,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 52,
         totalLength: 1248,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -4629,8 +4506,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Anne la maison aux pignons verts',
     director: 'Isao Takahata',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '1979-01-07',
     endDate: '1979-12-30',
     genre: ['Animation', 'Drama', 'Slice of Life'],
@@ -4639,7 +4516,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 50,
         totalLength: 1200,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -4649,8 +4526,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Conan, le fils du futur',
     director: 'Hayao Miyazaki',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '1978-04-04',
     endDate: '1978-10-31',
     genre: ['Animation', 'Adventure', 'Sci-Fi'],
@@ -4659,7 +4536,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 26,
         totalLength: 624,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -4669,8 +4546,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Rémi sans famille',
     director: 'Osamu Dezaki',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '1977-10-02',
     endDate: '1978-10-01',
     genre: ['Animation', 'Adventure', 'Drama'],
@@ -4679,7 +4556,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 51,
         totalLength: 1224,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -4689,8 +4566,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Marco',
     director: 'Isao Takahata',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '1976-01-04',
     endDate: '1976-12-26',
     genre: ['Animation', 'Adventure', 'Drama'],
@@ -4699,7 +4576,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 52,
         totalLength: 1248,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -4709,8 +4586,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: "Signé Cat's Eyes",
     director: 'Inconnu',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '1983-07-11',
     endDate: '1985-03-25',
     genre: ['Animation', 'Action', 'Comedy', 'Mystery'],
@@ -4719,7 +4596,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 73,
         totalLength: 1752,
-      }
+      },
     ],
     description: '',
     saga: '',
@@ -4729,8 +4606,8 @@ export const baseAnimesApi: BaseAnime[] = [
   {
     title: 'Creamy, merveilleuse Creamy',
     director: 'Inconnu',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/series_pictures/default.jpg',
+    actors: [],
+    coverUrl: '',
     releaseDate: '1983-07-01',
     endDate: '1984-06-29',
     genre: ['Animation', 'Magic', 'Comedy', 'Music'],
@@ -4739,7 +4616,7 @@ export const baseAnimesApi: BaseAnime[] = [
         seasonNumber: 1,
         nbEpisodes: 52,
         totalLength: 1248,
-      }
+      },
     ],
     description: '',
     saga: '',

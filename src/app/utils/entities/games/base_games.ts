@@ -277,7 +277,7 @@ export const baseGames: BaseGame[] = [
     title: 'The Legend of Zelda: Ocarina of Time (2026)',
     editor: 'Nintendo',
     hero: 'Link',
-    coverUrl: 'https://generation-nintendo.com/images/boxart/023/23444.webp',
+    coverUrl: '/games_pictures/c1fc6d887491.webp',
     releaseDate: '2026-11-05',
     averageTimeToFinish: 25,
     averageTimeToHundredPercent: 40,

@@ -50,7 +50,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: "Nous Deviendrons l'Ouragan",
     author: "Margot Dessenne",
-    coverUrl: "https://www.margotdessenne.fr/wp-content/uploads/2026/01/Nous-deviendrons-lOuragan-OK.jpg",
+    coverUrl: "/books_pictures/f4cf435c93f4.jpg",
     pages: 576,
     genre: ['Science Fiction', 'Policier', 'Fantastique', 'Fiction'],
     saga: "",
@@ -65,7 +65,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: "Pauvres Créatures",
     author: "Alasdair Gray",
-    coverUrl: "https://editions-metailie.com/wp-content/uploads/2014/01/editions-metailie.com-pauvres-creatures-couv-ok-hd-pauvres-creatures-sept-023.jpg",
+    coverUrl: "/books_pictures/c878047830d8.jpg",
     pages: 320,
     genre: [],
     saga: "",
@@ -80,7 +80,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: "Elle est les ténèbres ",
     author: "Glen Cook",
-    coverUrl: "https://media.senscritique.com/media/000000010849/300/elle_est_les_tenebres_premiere_partie.jpg",
+    coverUrl: "/books_pictures/2acab713e05d.jpg",
     pages: 616,
     genre: [],
     saga: "Les Annales de la Compagnie Noire",

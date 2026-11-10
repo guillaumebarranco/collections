@@ -539,7 +539,7 @@ export const baseSeriesApi: BaseSerie[] = [
         name: "Cassandra Cano",
       },
     ],
-    coverUrl: "https://m.media-amazon.com/images/M/MV5BZTJmZmM1MjctNDE0Mi00Y2I3LWFmNGEtZDJlNWM0MjQ2YjVjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    coverUrl: "/series_pictures/a5b4c2015420.jpg",
     releaseDate: "2026-11-06",
     endDate: "",
     genre: ['Comédie romantique'],
