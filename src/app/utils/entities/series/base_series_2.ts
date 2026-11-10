@@ -143,24 +143,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-{
-    title: 'Cowboy Bebop',
-    director: 'Shinichirō Watanabe',
-    actors: [
-      { name: 'Kōichi Yamadera' },
-      { name: 'Megumi Hayashibara' },
-      { name: 'Unshō Ishizuka' },
-    ],
-    coverUrl: '/series_pictures/0081579bd8d9.jpg',
-    releaseDate: '1998-04-03',
-    endDate: '1999-04-24',
-    genre: ['Action', 'Adventure', 'Sci-Fi'],
-    seasonsData: [{ seasonNumber: 1, nbEpisodes: 26, totalLength: 650 }],
-    description: '',
-    fromEntity: null,
-    saga: '',
-    countryOrigin: 'Japon',
-  },
+
 {
     title: 'True Detective',
     director: 'Nic Pizzolatto',
@@ -226,27 +209,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-{
-    title: 'Vinland Saga',
-    director: 'Shūhei Yabuta',
-    actors: [
-      { name: 'Yūto Uemura' },
-      { name: 'Kenshō Ono' },
-      { name: 'Akio Ōtsuka' },
-    ],
-    coverUrl: '/series_pictures/6b0e844fb438.jpg',
-    releaseDate: '2019-07-08',
-    endDate: '2023-06-20',
-    genre: ['Action', 'Adventure', 'Drama'],
-    seasonsData: [
-      { seasonNumber: 1, nbEpisodes: 24, totalLength: 600 },
-      { seasonNumber: 2, nbEpisodes: 24, totalLength: 600 },
-    ],
-    description: '',
-    fromEntity: null,
-    saga: '',
-    countryOrigin: 'Japon',
-  },
+
 {
     title: 'Narcos',
     director: 'Chris Brancato, Carlo Bernard, Doug Miro',
@@ -269,24 +232,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-{
-    title: 'Berserk',
-    director: 'Naohito Takahashi',
-    actors: [
-      { name: 'Nobutoshi Canna' },
-      { name: 'Akiko Yajima' },
-      { name: 'Toshiyuki Morikawa' },
-    ],
-    coverUrl: '/series_pictures/aeda6de4f6f7.jpg',
-    releaseDate: '1997-10-08',
-    endDate: '1998-04-01',
-    genre: ['Action', 'Adventure', 'Fantasy'],
-    seasonsData: [{ seasonNumber: 1, nbEpisodes: 25, totalLength: 625 }],
-    description: '',
-    fromEntity: null,
-    saga: '',
-    countryOrigin: 'Japon',
-  },
+
 {
     title: 'Peaky Blinders',
     director: 'Steven Knight',

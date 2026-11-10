@@ -5485,29 +5485,7 @@ export const ronanSeries: UserSeries = [
     loaned: '',
     quotes: [],
   },
-{
-    title: 'Cowboy Bebop',
-    director: 'Shinichirō Watanabe',
-    seasons: [
-      {
-        seasonNumber: 1,
-        seasonRating: 3,
-        watching: false,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
 
-        otherViewedDates: [],
-      },
-    ],
-    owned: false,
-    watchPriority: 1,
-    wantToWatchAgain: false,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    quotes: [],
-  },
 {
     title: 'Peaky Blinders',
     director: 'Steven Knight',
