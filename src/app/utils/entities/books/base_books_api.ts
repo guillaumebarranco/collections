@@ -76,4 +76,19 @@ export const baseBooksApi: BaseBook[] = [
     countryOrigin: "Royaume-Uni",
     selectDisplayOrder: 0,
   },
+
+  {
+    title: "Elle est les ténèbres ",
+    author: "Glen Cook",
+    coverUrl: "https://media.senscritique.com/media/000000010849/300/elle_est_les_tenebres_premiere_partie.jpg",
+    pages: 616,
+    genre: [],
+    saga: "Les Annales de la Compagnie Noire",
+    sagaOrder: 8,
+    sagaFinished: true,
+    releaseDate: "1997-11-09",
+    description: "",
+    countryOrigin: "États-Unis",
+    selectDisplayOrder: 0,
+  },
 ];

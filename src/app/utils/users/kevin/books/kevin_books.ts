@@ -2307,4 +2307,22 @@ export const kevinBooks: UserBooks = [
     ratingComment: "Un de mes livres préférés de la saga. Les annales changent de main, et sont rédigées par Murgen qui est à la fois beaucoup plus drôle et bien moins maître de la situation. Tout le livre joue sur le voyage temporel et utilise parfaitement les avantages de l'écriture en POV dans son intrigue. Peu de coups d'éclats, mais une écriture efficace avec des chapitres courts mais toujours prenants. Et une conclusion qui annonce des tomes à suivre exceptionnels : le réveil d'un nouveau monstre.",
     quotes: [],
   },
+
+  {
+    title: "Elle est les ténèbres ",
+    author: "Glen Cook",
+    firstReadDate: "2026-11-09",
+    lastReadDate: "2026-11-09",
+    otherReadDates: [],
+    rating: 4.5,
+    reading: false,
+    readTimes: 1,
+    owned: true,
+    borrowed: "",
+    loaned: "",
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: "Ce livre est génial à plusieurs égards. \nLe premier point positif, c'est Murgen. Il a accès à un nombre impressionnant d'informations sans pour autant les comprendre, ce qui nous pousse à chercher à démêler le vrai du faux dans une enquête passionnante.\nLe second point concerne l'intrigue générale. Le livre est très rythmé, plein de retournements de situations (que ce soit sur des champs de batailles ou au cœur du pouvoir ennemi, ou même dans le tout dernier chapitre où toutes nos questions trouvent réponse tout en soulevant un panel de nouvelles interrogations).\nLe troisième point concerne enfin les personnages. Qu'il s'agisse de \"1000 Voies\", des personnages principaux comme Murgen qui amène humour et espoir à l'œuvre ou qu'il s'agisse de personnages plus secondaires comme Thaï Dei ou Roupille...\n Une très belle lecture qui se fini en beauté.",
+    quotes: [],
+  },
 ];
