@@ -75,6 +75,9 @@ export class EntityCardRatingAndButtonsComponent {
   /** Watchlist série : aucune saison commencée — affiche « J'ai commencé cette série ». */
   @Input() watchlistSerieNotStarted = false;
 
+  /** Watchlist animé : aucune saison commencée — affiche « J'ai commencé cet animé ». */
+  @Input() watchlistAnimeNotStarted = false;
+
   /** Série fichier vus : nouvelle saison dispo, affiche « J'ai commencé une nouvelle saison ». */
   @Input() showMarkNewSeasonButton = false;
 
@@ -447,12 +450,14 @@ export class EntityCardRatingAndButtonsComponent {
         !this.listReading
       );
     }
-    if (
-      this.entityData?.entityType === 'serie' ||
-      this.entityData?.entityType === 'anime'
-    ) {
+    if (this.entityData?.entityType === 'serie') {
       return (
         this.selectedView === 'watchlist' && this.watchlistSerieNotStarted
+      );
+    }
+    if (this.entityData?.entityType === 'anime') {
+      return (
+        this.selectedView === 'watchlist' && this.watchlistAnimeNotStarted
       );
     }
     if (this.entityData?.entityType === 'game') {
