@@ -2404,18 +2404,18 @@ export const baseSeries: BaseSerie[] = [
     director: 'Louis Leterrier',
     actors: [
       {
-        name: 'Omar Sy',
+        name: "Omar Sy",
       },
       {
-        name: 'Ludivine Sagnier',
+        name: "Ludivine Sagnier",
       },
       {
-        name: 'Clotilde Hesme',
-      },
+        name: "Clotilde Hesme",
+      }
     ],
-    coverUrl: '/series_pictures/1257289.entity.jpg',
-    releaseDate: '2021-01-08',
-    endDate: '',
+    coverUrl: "/series_pictures/1257289.entity.jpg",
+    releaseDate: "2021-01-08",
+    endDate: "",
     genre: ['Action', 'Crime', 'Drama'],
     seasonsData: [
       {
@@ -2433,15 +2433,16 @@ export const baseSeries: BaseSerie[] = [
         nbEpisodes: 7,
         totalLength: 330,
       },
+      {
+        seasonNumber: 4,
+        nbEpisodes: 8,
+        totalLength: 357,
+      }
     ],
-    description: '',
-    fromEntity: {
-      entityType: 'book',
-      title: 'Arsène Lupin, gentleman cambrioleur',
-      secondEntityKey: 'Maurice Leblanc',
-    },
-    saga: 'Arsène Lupin',
-    countryOrigin: 'France',
+    description: "",
+    fromEntity: { entityType: "book", title: "Arsène Lupin, gentleman cambrioleur", secondEntityKey: "Maurice Leblanc" },
+    saga: "Arsène Lupin",
+    countryOrigin: "France",
   },
 {
     title: "Les Aventures d'Arsène Lupin",
