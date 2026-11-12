@@ -39,9 +39,9 @@
   text-align: left;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 500px) {
   .dashboard-showcase__row {
-    height: 120px;
+    height: 100px;
     gap: 12px;
   }
   .dashboard-showcase__slot {
