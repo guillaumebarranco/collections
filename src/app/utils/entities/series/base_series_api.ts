@@ -555,4 +555,50 @@ export const baseSeriesApi: BaseSerie[] = [
     saga: "",
     fromEntity: null,
   },
+
+  {
+    title: "VisionQuest",
+    director: "Christopher J. Byrne",
+    actors: [
+      {
+        name: "Paul Bettany",
+      },
+      {
+        name: "James Spader",
+      },
+      {
+        name: "Ruaridh Mollica",
+      },
+      {
+        name: "Todd Stashwick",
+      },
+      {
+        name: "Emily Hampshire",
+      },
+      {
+        name: "Orla Brady",
+      },
+      {
+        name: "James D'Arcy",
+      },
+      {
+        name: "Lauren Morais",
+      },
+    ],
+    coverUrl: "https://m.media-amazon.com/images/M/MV5BY2FlNjIxMDktMGYyZi00NjY3LWI4YjctYTcxNzc2MDUwYjZmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    releaseDate: "2026-10-14",
+    endDate: "2026-11-11",
+    genre: ['Super-héro'],
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 8,
+        totalLength: 435,
+      },
+    ],
+    description: "",
+    countryOrigin: "États-Unis",
+    saga: "Marvel Cinematic Universe",
+    fromEntity: null,
+  },
 ];

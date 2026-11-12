@@ -2934,4 +2934,22 @@ export const lauralBooks: UserBook[] = [
     ratingComment: "",
     quotes: ["La Nature a si fort à faire en ce bas monde, elle a sur le métier une si grande variété de productions coexistantes qu'il ne faut pas s'étonner si, ça et là, elle s'embrouille dans ce grand nombre d'opérations simultanées. \nDe ce point de vue, je resterai toujours convaincu que la Nature, lorsque naquit Mrs Vesey, s'appliquait à créer des choux,  et que la bonne dame supportait les conséquences de cette préoccupation végétale.", "Les hommes les meilleurs ne sont pas constants dans leurs bonnes œuvres. Pourquoi les plus vils le seraient-ils dans leurs mauvaises ?"],
   },
+
+  {
+    title: "L'égarée",
+    author: "Donato Carrisi",
+    firstReadDate: "2026-11-11",
+    lastReadDate: "2026-11-11",
+    otherReadDates: [],
+    rating: 3.5,
+    reading: false,
+    readTimes: 1,
+    owned: false,
+    borrowed: "",
+    loaned: "",
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: "",
+    quotes: [],
+  },
 ];
