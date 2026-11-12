@@ -2952,4 +2952,22 @@ export const lauralBooks: UserBook[] = [
     ratingComment: "",
     quotes: [],
   },
+
+  {
+    title: "Bienvenue Chez Vous",
+    author: "Alex Sol",
+    firstReadDate: "2026-11-02",
+    lastReadDate: "",
+    otherReadDates: [],
+    rating: 2.75,
+    reading: false,
+    readTimes: 1,
+    owned: false,
+    borrowed: "",
+    loaned: "",
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: "",
+    quotes: [],
+  },
 ];
