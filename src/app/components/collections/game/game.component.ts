@@ -32,6 +32,7 @@ import { DEFAULT_USER_ID } from '../../../utils/constants';
 import { GameView } from '../../../containers/collections/games/games.utils';
 import {
   MoveEntityReviewModalComponent,
+  MoveEntityReviewModalData,
   MoveEntityReviewModalResult,
 } from '../../modals/move-entity-review-modal/move-entity-review-modal.component';
 import { MovieCommunityWatchersModalComponent } from '../../modals/movie-community-watchers-modal/movie-community-watchers-modal.component';
@@ -205,7 +206,7 @@ export class GameComponent {
   addGameFromGamelist(): void {
     const dialogRef = this.dialog.open<
       MoveEntityReviewModalComponent,
-      { entityTitle: string },
+      MoveEntityReviewModalData,
       MoveEntityReviewModalResult | undefined
     >(MoveEntityReviewModalComponent, {
       data: {
