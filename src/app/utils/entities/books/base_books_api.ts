@@ -136,4 +136,19 @@ export const baseBooksApi: BaseBook[] = [
     countryOrigin: "",
     selectDisplayOrder: 0,
   },
+
+  {
+    title: "Fyhcccv",
+    author: "Hhfffh",
+    coverUrl: "/uploaded_pictures/f61aa91fb3c3.jpg",
+    pages: 0,
+    genre: [],
+    saga: "",
+    sagaOrder: 0,
+    sagaFinished: true,
+    releaseDate: "",
+    description: "",
+    countryOrigin: "",
+    selectDisplayOrder: 0,
+  },
 ];

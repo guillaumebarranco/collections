@@ -2115,4 +2115,22 @@ export const guillaumeBooks: UserBooks = [
     ratingComment: "",
     quotes: [],
   },
+
+  {
+    title: "Fyhcccv",
+    author: "Hhfffh",
+    firstReadDate: "2026-11-12",
+    lastReadDate: "2026-11-12",
+    otherReadDates: [],
+    rating: 0,
+    reading: false,
+    readTimes: 1,
+    owned: false,
+    borrowed: "",
+    loaned: "",
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: "",
+    quotes: [],
+  },
 ];
