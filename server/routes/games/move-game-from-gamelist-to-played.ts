@@ -2,12 +2,12 @@ const express = require('express');
 const fs = require('fs');
 const path = require('path');
 const { execFileSync } = require('child_process');
-const { escapeStringForTsDoubleQuote: escapeString } = require('../../utils/escape-ts-string');
 const {
   normalizeString,
   normalizeBoolean,
   appendObjectToArrayFile,
   parseGamesFromFile,
+  formatGameObject,
   getUserGamesFiles,
   removeGameFromFile,
   getUserGamelistFiles,
@@ -46,21 +46,43 @@ function ensureUserExists(userId: string) {
   execFileSync('node', args, { stdio: 'ignore' });
 }
 
-function formatUserGame(game: any, options?: { rating?: number; ratingComment?: string }) {
-  const rating = options?.rating != null ? Number(options.rating) : 0;
-  const ratingComment = typeof options?.ratingComment === 'string' ? options.ratingComment : '';
-  return `  {
-    title: "${escapeString(game.title)}",
-    editor: "${escapeString(game.editor)}",
-    rating: ${rating},
-    owned: false,
-    gamelistPriority: ${game.gamelistPriority ?? 1},
-    wantToPlayAgain: false,
-    ratingComment: "${escapeString(ratingComment)}",
-    borrowed: "${escapeString(typeof game.borrowed === 'string' ? game.borrowed : '')}",
-    loaned: "${escapeString(typeof game.loaned === 'string' ? game.loaned : '')}",
-    sessions: [],
-  },`;
+function findGamelistGame(userId: string, title: string, editor: string) {
+  const gamelistFiles = getUserGamelistFiles(userId);
+  for (const file of gamelistFiles) {
+    const games = parseGamesFromFile(fs.readFileSync(file, 'utf8'));
+    const found = games.find((game: any) => game.title === title && game.editor === editor);
+    if (found) return found;
+  }
+  return null;
+}
+
+function buildPlayedGame(
+  stored: any,
+  incoming: any,
+  options?: { rating?: number; ratingComment?: string }
+) {
+  const incomingSessions = Array.isArray(incoming?.sessions) ? incoming.sessions : [];
+  const storedSessions = Array.isArray(stored?.sessions) ? stored.sessions : [];
+  const sessions = incomingSessions.length > 0 ? incomingSessions : storedSessions;
+  const rating = options?.rating != null && !Number.isNaN(options.rating)
+    ? options.rating
+    : Number(stored?.rating ?? incoming?.rating ?? 0);
+  const ratingComment = typeof options?.ratingComment === 'string'
+    ? options.ratingComment
+    : String(stored?.ratingComment ?? incoming?.ratingComment ?? '');
+
+  return {
+    title: stored?.title || incoming?.title,
+    editor: stored?.editor || incoming?.editor,
+    rating: Number.isNaN(rating) ? 0 : rating,
+    owned: stored?.owned ?? incoming?.owned ?? false,
+    gamelistPriority: stored?.gamelistPriority ?? incoming?.gamelistPriority ?? 1,
+    wantToPlayAgain: stored?.wantToPlayAgain ?? incoming?.wantToPlayAgain ?? false,
+    ratingComment,
+    borrowed: stored?.borrowed ?? incoming?.borrowed ?? '',
+    loaned: stored?.loaned ?? incoming?.loaned ?? '',
+    sessions,
+  };
 }
 
 function getUserGamesTargetFile(userId: string, isGamelist: boolean) {
@@ -101,7 +123,7 @@ router.post('/move-game-from-gamelist-to-played', (req: any, res: any) => {
       .map((g: any) => ({
         title: normalizeString(g.title, 'title'),
         editor: normalizeString(g.editor, 'editor'),
-        gamelistPriority: g.gamelistPriority,
+        incoming: g,
       }))
       .filter((g: any) => g.title && g.editor);
 
@@ -127,7 +149,9 @@ router.post('/move-game-from-gamelist-to-played', (req: any, res: any) => {
     let nextContent = fs.readFileSync(userFile, 'utf8');
     const reviewOptions = (rating != null || ratingComment != null) ? { rating, ratingComment } : undefined;
     for (const game of toAdd) {
-      nextContent = appendObjectToArrayFile(userFile, formatUserGame(game, reviewOptions));
+      const stored = findGamelistGame(userId, game.title, game.editor);
+      const played = buildPlayedGame(stored, game.incoming, reviewOptions);
+      nextContent = appendObjectToArrayFile(userFile, formatGameObject(played));
       fs.writeFileSync(userFile, nextContent, 'utf8');
     }
 

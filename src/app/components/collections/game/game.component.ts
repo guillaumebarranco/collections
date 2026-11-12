@@ -208,7 +208,11 @@ export class GameComponent {
       { entityTitle: string },
       MoveEntityReviewModalResult | undefined
     >(MoveEntityReviewModalComponent, {
-      data: { entityTitle: this.game.title },
+      data: {
+        entityTitle: this.game.title,
+        initialRating: this.game.rating,
+        initialRatingComment: this.game.ratingComment,
+      },
       width: 'auto',
       maxWidth: '95vw',
     });
@@ -226,11 +230,9 @@ export class GameComponent {
       const body: Record<string, unknown> = {
         userId: this.getActiveUserId(),
         games: [this.game],
+        rating,
+        ratingComment,
       };
-      if (rating > 0 || ratingComment) {
-        body['rating'] = rating;
-        body['ratingComment'] = ratingComment;
-      }
       const response = await fetch(
         `${getApiBaseUrl()}/games/move-game-from-gamelist-to-played`,
         {

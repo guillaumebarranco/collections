@@ -690,6 +690,7 @@ module.exports = {
   updateGameIdentityInFile,
   updateBaseGameInFiles,
   removeGameFromFile,
+  formatGameObject,
   getUserGamesFiles,
   getUserGamelistFiles,
   getUserAllGamesFiles,
