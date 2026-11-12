@@ -4676,5 +4676,49 @@ export const guillaumeGames: UserGames = [
       currentlyPlaying: false,
     }
     ],
+  },
+  {
+    title: "The Legend of Zelda: Ocarina of Time (2026)",
+    editor: "Nintendo",
+    rating: 5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
+    ratingComment: "",
+    borrowed: "",
+    loaned: "",
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+      sessionStartDate: "2026-11-05",
+      sessionEndDate: "2026-11-12",
+      currentlyPlaying: false,
+    }
+    ],
+  },
+  {
+    title: "God of War III",
+    editor: "Santa Monica Studio",
+    rating: 0,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
+    ratingComment: "",
+    borrowed: "",
+    loaned: "",
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 3,
+      sessionStartDate: "2026-04-05",
+      sessionEndDate: "",
+      currentlyPlaying: false,
+    }
+    ],
   }
 ];

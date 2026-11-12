@@ -1,0 +1,34 @@
+{
+  "slots": [
+    {
+      "entityType": "movies",
+      "key": "La La Land|Damien Chazelle",
+      "title": "La La Land – Damien Chazelle",
+      "coverUrl": "/movies_pictures/38b5c57f0991.jpg"
+    },
+    {
+      "entityType": "books",
+      "key": "Les Tentacules du mal|Pierre Bottero",
+      "title": "Les Tentacules du mal – Pierre Bottero",
+      "coverUrl": "/books_pictures/les_mondes_dewilan_tome_3_les_tentacules_du_mal-6551-264-432.jpg"
+    },
+    {
+      "entityType": "series",
+      "key": "Arcane|Pascal Charrue, Arnaud Delord",
+      "title": "Arcane – Pascal Charrue, Arnaud Delord",
+      "coverUrl": "/series_pictures/MV5BNDAyZmNlNTUtM2VlMC00ZTkyLWIyNzMtY2RiM2E2ZjA5NTIzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "entityType": "games",
+      "key": "Uncharted 4 : A Thief's End|Naughty Dog",
+      "title": "Uncharted 4 : A Thief's End – Naughty Dog",
+      "coverUrl": "/games_pictures/MV5BNTFmN2M0MGMtMTI5Ny00NzRlLWFlZGYtZDM0N2VmOTUwYTdmXkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+      "entityType": "mangas",
+      "key": "Naruto|Masashi Kishimoto",
+      "title": "Naruto – Masashi Kishimoto",
+      "coverUrl": "/mangas_pictures/naruto.jpg"
+    }
+  ]
+}

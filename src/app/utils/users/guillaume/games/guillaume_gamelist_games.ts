@@ -72,28 +72,6 @@ export const guillaumeGameListGames: UserGames = [
     sessions: [],
   },
   {
-    title: "God of War III",
-    editor: "Santa Monica Studio",
-    rating: 0,
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
-    ratingComment: "",
-    borrowed: "",
-    loaned: "",
-    sessions: [
-{
-      finishedGame: false,
-      finishedGameWithHundredPercent: false,
-      platinedGame: false,
-      additionnalEstimatedTime: 3,
-      sessionStartDate: "2026-04-27",
-      sessionEndDate: "",
-      currentlyPlaying: true,
-    }
-    ],
-  },
-  {
     title: "Resident Evil 4",
     editor: "Capcom",
     rating: 0,
@@ -146,28 +124,6 @@ export const guillaumeGameListGames: UserGames = [
       platinedGame: false,
       additionnalEstimatedTime: 2,
       sessionStartDate: "2026-06-18",
-      sessionEndDate: "",
-      currentlyPlaying: true,
-    }
-    ],
-  },
-  {
-    title: "The Legend of Zelda: Ocarina of Time (2026)",
-    editor: "Nintendo",
-    rating: 0,
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
-    ratingComment: "",
-    borrowed: "",
-    loaned: "",
-    sessions: [
-{
-      finishedGame: false,
-      finishedGameWithHundredPercent: false,
-      platinedGame: false,
-      additionnalEstimatedTime: 6,
-      sessionStartDate: "2026-11-07",
       sessionEndDate: "",
       currentlyPlaying: true,
     }
