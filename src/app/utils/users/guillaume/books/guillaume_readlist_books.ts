@@ -1701,4 +1701,22 @@ export const guillaumeReadlistBooks: UserBooks = [
     ratingComment: "",
     quotes: [],
   }
+,
+  {
+    title: "Déclaration des droits de la femme et de la citoyenne",
+    author: "Olympe de Gouges",
+    firstReadDate: "",
+    lastReadDate: "",
+    otherReadDates: [],
+    rating: 0,
+    reading: true,
+    readTimes: 0,
+    owned: false,
+    borrowed: "",
+    loaned: "",
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: "",
+    quotes: ["(Préface) Honnie de son vivant et après sa mort, Olympe de Gouges compte donc aujourd'hui parmi les figures respectées et honorées. Elles ne sont malheureusement pas si nombreuses. Combien de nos contemporains, tout en l'érigeant en modèle, jugent-ils les féministes d'aujourd'hui trop radicales et trop extrêmes ? Olympe de Gouges passe t-elle pour la \"bonne\" féministe du fait que, morte, elle ne dérange plus persone ?"],
+  },
 ];

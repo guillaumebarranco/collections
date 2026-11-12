@@ -1212,7 +1212,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Kazuya Nomura',
     actors: [],
     coverUrl:
-      'https://fr.web.img5.acsta.net/pictures/20/08/26/17/11/1328175.jpg',
+      '/entities_covers/516f977a5001.jpg',
     releaseDate: '2020-10-11',
     endDate: '2021-06-27',
     genre: ['Animation', 'Mystery', 'Crime', 'Drama'],
@@ -1238,7 +1238,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Tomoyuki Itamura',
     actors: [],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BMzYwMmI1YWMtOTc0My00OGI3LWI3ZDctZmMwYjczYzcxMjI4XkEyXkFqcGc@._V1_.jpg',
+      '/entities_covers/d045defa7528.jpg',
     releaseDate: '2021-07-02',
     endDate: '2022-04-02',
     genre: ['Animation', 'Fantasy', 'Supernatural', 'Mystery'],
@@ -1264,7 +1264,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Norihiro Naganuma',
     actors: [],
     coverUrl:
-      'https://fr.web.img6.acsta.net/pictures/21/08/24/15/31/1987788.jpg',
+      '/entities_covers/e08c6697f74c.jpg',
     releaseDate: '2017-10-08',
     endDate: '2023-12-21',
     genre: ['Animation', 'Fantasy', 'Drama', 'Supernatural'],
@@ -1290,7 +1290,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Kazuhiro Furuhashi',
     actors: [],
     coverUrl:
-      'https://media.animationdigitalnetwork.com/images/show/553f63fd-d5db-4214-ba2d-68a42dde1b65/portrait-with-logo.fr',
+      '/entities_covers/556d610e50b6.jpg',
     releaseDate: '2019-01-07',
     endDate: '2019-06-24',
     genre: ['Animation', 'Action', 'Adventure', 'Supernatural'],
@@ -1311,7 +1311,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Hitoshi Nanba',
     actors: [],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BYTliMTU1OTEtOTE0Yi00YmUxLWFiN2YtYzBlNzdkNjg2MmY3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+      '/entities_covers/7b10b1606261.jpg',
     releaseDate: '2018-04-09',
     endDate: '2023-06-27',
     genre: ['Animation', 'Action', 'Adventure', 'Historical'],
@@ -1388,7 +1388,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Masashi Ikeda',
     actors: [],
     coverUrl:
-      'https://www.manga-news.com/public/images/dvd/inu-yasha-anime.webp',
+      '/entities_covers/a6382f6d36ab.webp',
     releaseDate: '2000-10-16',
     endDate: '2010-03-30',
     genre: ['Animation', 'Action', 'Adventure', 'Fantasy'],
@@ -1414,7 +1414,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Kazuhiro Furuhashi',
     actors: [],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BOWYyZjk5MDEtZWEwMi00YmIwLTlhMTYtY2I3ODRhMmUxYjg0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+      '/entities_covers/4226c2d3815e.jpg',
     releaseDate: '1996-01-10',
     endDate: '1998-09-08',
     genre: ['Animation', 'Action', 'Historical', 'Romance'],
@@ -1435,7 +1435,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Hiroshi Nagahama',
     actors: [],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BMmUxZjA2ZTgtYmIzNy00YWE0LTliMjktZGY5NTQ5ZDEzYmM1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+      '/entities_covers/db40e3ca70b4.jpg',
     releaseDate: '2005-10-23',
     endDate: '2014-08-16',
     genre: ['Animation', 'Fantasy', 'Mystery', 'Slice of Life'],
@@ -1461,7 +1461,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Kenji Nakamura',
     actors: [],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BZjBjMjIwZGItZjgwMS00MjIyLWJiNjctNzM4YWVkNDlhODFiXkEyXkFqcGc@._V1_.jpg',
+      '/entities_covers/2d1f98873651.jpg',
     releaseDate: '2007-07-13',
     endDate: '2007-09-28',
     genre: ['Animation', 'Horror', 'Mystery', 'Supernatural'],
@@ -1482,7 +1482,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Tsutomu Mizushima',
     actors: [],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BMGFjM2EyODMtNjYxYi00N2JlLWI0N2UtZDk1NGFlNTdjZWE0XkEyXkFqcGc@._V1_.jpg',
+      '/entities_covers/5773cc65d497.jpg',
     releaseDate: '2006-04-06',
     endDate: '2008-03-27',
     genre: ['Animation', 'Supernatural', 'Mystery', 'Comedy'],
@@ -1508,7 +1508,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Takahiro Ōmori',
     actors: [],
     coverUrl:
-      'https://adala-news.fr/wp-content/uploads/2024/03/Natsume-Yujin-cho-Shichi.webp',
+      '/entities_covers/b9462a2bebc4.webp',
     releaseDate: '2008-07-07',
     endDate: '',
     genre: ['Animation', 'Supernatural', 'Slice of Life', 'Drama'],
@@ -1559,7 +1559,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Kenjirō Okada',
     actors: [],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BMDJmZGZmNjQtMzE4NS00ZGRmLWFiMTQtM2EzZDhhZGNkY2FmXkEyXkFqcGc@._V1_.jpg',
+      '/entities_covers/ea5429b0deae.jpg',
     releaseDate: '2016-10-08',
     endDate: '2018-03-31',
     genre: ['Animation', 'Drama', 'Slice of Life'],
@@ -1585,7 +1585,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Tsutomu Mizushima',
     actors: [],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BODNlOTE1ODMtM2Q1Mi00MTM3LThhNTEtZmRkMzk0ZDU4ZGQ2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+      '/entities_covers/dc224e87c8be.jpg',
     releaseDate: '2014-10-09',
     endDate: '2015-03-26',
     genre: ['Animation', 'Comedy', 'Drama', 'Slice of Life'],
@@ -1606,7 +1606,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Tomohiko Itō',
     actors: [],
     coverUrl:
-      'https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10530394_b_v8_aa.jpg',
+      '/entities_covers/ce0381af541b.jpg',
     releaseDate: '2013-07-11',
     endDate: '2014-03-27',
     genre: ['Animation', 'Comedy', 'Slice of Life'],
@@ -1632,7 +1632,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Masaki Tachibana',
     actors: [],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BMzdkYTgzZDctMGQ3OS00NWJlLTk1Y2ItYzZhNzIwOGM0YTU3XkEyXkFqcGc@._V1_.jpg',
+      '/entities_covers/11945e7bc3a7.jpg',
     releaseDate: '2014-07-06',
     endDate: '2014-09-28',
     genre: ['Animation', 'Comedy', 'Slice of Life'],
@@ -1653,7 +1653,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Yasuhiro Takemoto',
     actors: [],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BMjMyM2M2MTctY2EwNi00Y2RkLWI0M2EtM2M3MDkxYzM3ZDk0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+      '/entities_covers/32c2e6c06167.jpg',
     releaseDate: '2012-04-22',
     endDate: '2012-09-16',
     genre: ['Animation', 'Mystery', 'Slice of Life', 'Drama'],
@@ -1674,7 +1674,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Morio Asaka',
     actors: [],
     coverUrl:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbRG6Q0ll4HEvOtGdwyiyvkvjiA1Y_ZtdE9-E4XdsmLo_sF3mqMZIHrIcu&s=10',
+      '/entities_covers/40a6f740c00a.jpg',
     releaseDate: '2011-10-04',
     endDate: '2020-03-24',
     genre: ['Animation', 'Drama', 'Sports', 'Slice of Life'],
@@ -1705,7 +1705,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Inconnu',
     actors: [],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BMDkxNTE0M2MtMGI4ZS00MDRkLWJiOGUtZjM4ZTFlMDUyNTg2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+      '/entities_covers/89b1c81af4f4.jpg',
     releaseDate: '2001-10-10',
     endDate: '2003-03-26',
     genre: ['Animation', 'Drama', 'Sports'],
@@ -1726,7 +1726,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: "Ken'ichi Kasai",
     actors: [],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BYzQ2MTc1YTgtZTIwYS00YjJlLTllMjItZDY4NTU3ZGE5Nzc4XkEyXkFqcGc@._V1_.jpg',
+      '/entities_covers/b1ac665d73a9.jpg',
     releaseDate: '2007-01-11',
     endDate: '2010-03-26',
     genre: ['Animation', 'Comedy', 'Drama', 'Music'],
@@ -1757,7 +1757,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: "Ken'ichi Kasai",
     actors: [],
     coverUrl:
-      'https://media.animationdigitalnetwork.com/images/show/a0883348-45d7-4d02-8b28-ea0bbdae9950/portrait-with-logo.fr',
+      '/entities_covers/9b767c10275d.jpg',
     releaseDate: '2005-04-14',
     endDate: '2006-09-26',
     genre: ['Animation', 'Comedy', 'Drama', 'Romance'],
@@ -1783,7 +1783,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Osamu Kobayashi',
     actors: [],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BYTYzMDM0ZTItMWM5Yi00MzllLWIzMWYtMjc5YTNiY2I5OTIxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+      '/entities_covers/34e497a7dfdd.jpg',
     releaseDate: '2004-10-07',
     endDate: '2005-03-31',
     genre: ['Animation', 'Music', 'Drama', 'Comedy'],
@@ -1804,7 +1804,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Shinichirō Watanabe',
     actors: [],
     coverUrl:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnh_vtL4YnzjUyQBGqq-c_PpWACo0vMLgJkspB4Rj-Bw&s=10',
+      '/entities_covers/e9f3a404523a.jpg',
     releaseDate: '2012-04-12',
     endDate: '2012-06-29',
     genre: ['Animation', 'Music', 'Drama', 'Romance'],
@@ -1825,7 +1825,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Hikaru Yamaguchi',
     actors: [],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BMWI1OWY1NzgtZTg3MS00NjJjLWIxMGQtMzAzNGFlNmMxNTExXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+      '/entities_covers/9bd112caf777.jpg',
     releaseDate: '2019-07-11',
     endDate: '2019-09-19',
     genre: ['Animation', 'Music', 'Drama', 'Romance'],
@@ -1846,7 +1846,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Naoko Yamada',
     actors: [],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BNjRjYTc2ZDctNTlhNS00NTdiLTllNjItMWNjMzlmNWQ2MGEwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+      '/entities_covers/1f4e4eb888e4.jpg',
     releaseDate: '2009-04-03',
     endDate: '2010-09-28',
     genre: ['Animation', 'Comedy', 'Music', 'Slice of Life'],
@@ -1893,7 +1893,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Tatsuya Ishihara',
     actors: [],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BYTk2NGZmZWItNjhmNS00ZjViLTk2NDQtZmY1YWYyNmY3MTYzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+      '/entities_covers/a8c86100f58a.jpg',
     releaseDate: '2015-04-08',
     endDate: '2024-06-30',
     genre: ['Animation', 'Music', 'Drama', 'Slice of Life'],
@@ -1924,7 +1924,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Atsuko Ishizuka',
     actors: [],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BNmQzYjI2NjgtMDY1Yy00OWViLWE3NjUtZmQxZTYwMzRhYzY1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+      '/entities_covers/854eca8e225b.jpg',
     releaseDate: '2018-01-02',
     endDate: '2018-03-27',
     genre: ['Animation', 'Adventure', 'Comedy', 'Drama'],
@@ -1945,7 +1945,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Masaaki Yuasa',
     actors: [],
     coverUrl:
-      'https://fr.web.img4.acsta.net/pictures/20/06/17/17/23/4979914.jpg',
+      '/entities_covers/9e6a0fa8a6c4.jpg',
     releaseDate: '2020-01-05',
     endDate: '2020-03-22',
     genre: ['Animation', 'Comedy', 'Slice of Life'],
@@ -1965,7 +1965,7 @@ export const baseAnimesApi: BaseAnime[] = [
     title: 'The Tatami Galaxy',
     director: 'Masaaki Yuasa',
     actors: [],
-    coverUrl: 'https://japanization.org/wp-content/uploads/2025/12/2-1.jpg',
+    coverUrl: '/entities_covers/7fdc36a63ff5.jpg',
     releaseDate: '2010-04-22',
     endDate: '2010-07-01',
     genre: ['Animation', 'Comedy', 'Drama', 'Psychological'],
@@ -1986,7 +1986,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Masaaki Yuasa',
     actors: [],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BNmYzMDRkMmYtZjNiZS00ZGVlLWI2NWQtMjc2NTE1OThmZTBiXkEyXkFqcGc@._V1_.jpg',
+      '/entities_covers/98ddd786871d.jpg',
     releaseDate: '2014-04-11',
     endDate: '2014-06-20',
     genre: ['Animation', 'Sports', 'Drama', 'Comedy'],
@@ -2007,7 +2007,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Yuzuru Tachikawa',
     actors: [],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BYzU3NDM4ZjgtY2UyMi00YTczLTgyNDEtMjBiMDJlOGUxNjcxXkEyXkFqcGc@._V1_.jpg',
+      '/entities_covers/4ffc0fb544b8.jpg',
     releaseDate: '2016-07-12',
     endDate: '2022-12-22',
     genre: ['Animation', 'Action', 'Comedy', 'Supernatural'],
@@ -2038,7 +2038,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Susumu Mitsunaka',
     actors: [],
     coverUrl:
-      'https://www.manga-news.com/public/images/dvd/haikyu-s4-anime-to-the-top-visual-2.webp',
+      '/entities_covers/01e714747b29.webp',
     releaseDate: '2014-04-06',
     endDate: '2020-12-19',
     genre: ['Animation', 'Sports', 'Comedy', 'Drama'],
@@ -2074,7 +2074,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Shunsuke Tada',
     actors: [],
     coverUrl:
-      'https://www.manga-news.com/public/images/dvd/Kuroko-s-Basket-season-1-anime-visual.webp',
+      '/entities_covers/8b5b289687c0.webp',
     releaseDate: '2012-04-07',
     endDate: '2015-06-30',
     genre: ['Animation', 'Sports', 'Comedy', 'Drama'],
@@ -2105,7 +2105,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Nobutaka Nishizawa',
     actors: [],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BNjIyYjg4YWUtNTM2OS00YTc3LWE5NTEtZTdmMDdiMzE1OGJjXkEyXkFqcGc@._V1_.jpg',
+      '/entities_covers/8b7960a1468c.jpg',
     releaseDate: '1993-10-16',
     endDate: '1996-03-23',
     genre: ['Animation', 'Sports', 'Comedy', 'Drama'],
@@ -2126,7 +2126,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Satoshi Nishimura',
     actors: [],
     coverUrl:
-      'https://fr.web.img4.acsta.net/pictures/22/12/20/12/04/0418409.jpg',
+      '/entities_covers/b01848de370e.jpg',
     releaseDate: '2000-10-04',
     endDate: '2014-03-29',
     genre: ['Animation', 'Sports', 'Action', 'Drama'],
@@ -2157,7 +2157,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Inconnu',
     actors: [],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BMWYzYWE3N2YtZDI0Yy00ZWU2LWI3YzgtMzEyNTg0ZjFmNWZjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+      '/entities_covers/0a361c813504.jpg',
     releaseDate: '1998-04-18',
     endDate: '2014-11-22',
     genre: ['Animation', 'Sports', 'Action'],
@@ -2198,7 +2198,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Mitsuyuki Masuhara',
     actors: [],
     coverUrl:
-      'https://fr.web.img6.acsta.net/pictures/21/10/18/16/54/5681946.jpg',
+      '/entities_covers/739dec3836da.jpg',
     releaseDate: '2013-10-06',
     endDate: '2020-03-29',
     genre: ['Animation', 'Sports', 'Drama'],
@@ -2224,7 +2224,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Takayuki Hamana',
     actors: [],
     coverUrl:
-      'https://www.manga-news.com/public/images/dvd/The-Prince-of-Tennis-anime-visual.webp',
+      '/entities_covers/2eeef072b639.webp',
     releaseDate: '2001-10-10',
     endDate: '2005-03-23',
     genre: ['Animation', 'Sports', 'Comedy', 'Drama'],
@@ -2245,7 +2245,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Hiroko Utsumi',
     actors: [],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BZTkwMDBmYjItMWM1OS00MjBmLThjM2YtMWVkMGI0YjFhMDFmXkEyXkFqcGc@._V1_.jpg',
+      '/entities_covers/34f5f427d6b1.jpg',
     releaseDate: '2013-07-04',
     endDate: '2018-09-26',
     genre: ['Animation', 'Sports', 'Comedy', 'Drama'],
@@ -2276,7 +2276,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Sayo Yamamoto',
     actors: [],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BMjhkMmY4YjktNTNmYy00NGVjLWI5ZTEtOTQzZDg1NzFlMjM3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+      '/entities_covers/d195489be0ba.jpg',
     releaseDate: '2016-10-06',
     endDate: '2016-12-22',
     genre: ['Animation', 'Sports', 'Drama'],
@@ -2297,7 +2297,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Katsuhito Akiyama',
     actors: [],
     coverUrl:
-      'https://fr.web.img4.acsta.net/pictures/24/01/10/17/11/3711783.jpg',
+      '/entities_covers/384c52dcbb79.jpg',
     releaseDate: '2008-10-05',
     endDate: '2011-04-27',
     genre: ['Animation', 'Sports', 'Adventure', 'Comedy'],
@@ -2318,7 +2318,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Kazuya Nomura',
     actors: [],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BMzAwOTZmNzMtNjllNS00OTFlLTkxNGEtNWEzNzM3M2M5YTcwXkEyXkFqcGc@._V1_.jpg',
+      '/entities_covers/b328d11b0fc8.jpg',
     releaseDate: '2018-10-03',
     endDate: '2019-03-27',
     genre: ['Animation', 'Sports', 'Drama'],
@@ -2339,7 +2339,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Hiroko Utsumi',
     actors: [],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BMmZlN2U1MDctYTRlMC00ZWU4LWE1OWUtY2U4NjU4MmM5YWY4XkEyXkFqcGc@._V1_.jpg',
+      '/entities_covers/6c9f7c07a31a.jpg',
     releaseDate: '2021-01-10',
     endDate: '2021-04-04',
     genre: ['Animation', 'Sports', 'Comedy', 'Drama'],
@@ -2360,7 +2360,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Osamu Dezaki',
     actors: [],
     coverUrl:
-      'https://www.manga-news.com/public/images/dvd/Ashita-no-Joe-anime-visual.webp',
+      '/entities_covers/1ca9142c45ce.webp',
     releaseDate: '1970-04-01',
     endDate: '1971-09-29',
     genre: ['Animation', 'Sports', 'Drama'],
@@ -2381,7 +2381,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Osamu Dezaki',
     actors: [],
     coverUrl:
-      'https://media.animationdigitalnetwork.com/images/show/59ef29ed-32ea-42fd-8b8b-44b8c3867df6/portrait-with-logo.fr.width=500,height=714,quality=70',
+      '/entities_covers/0e9b5d81c8b5.jpg',
     releaseDate: '1980-10-13',
     endDate: '1981-08-31',
     genre: ['Animation', 'Sports', 'Drama'],
@@ -2402,7 +2402,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Osamu Dezaki',
     actors: [],
     coverUrl:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJvKKW5MKhFx0j8sc3V1tfIbT8LzElUxQh1GhM-zDVntdkJujfmLm-i4w&s=10',
+      '/entities_covers/7af2f78050fc.jpg',
     releaseDate: '1973-10-05',
     endDate: '1974-03-29',
     genre: ['Animation', 'Sports', 'Drama'],
@@ -2454,7 +2454,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Takaomi Kanasaki',
     actors: [],
     coverUrl:
-      'https://fr.web.img2.acsta.net/pictures/23/02/14/09/46/4346136.jpg',
+      '/entities_covers/b58997b96f69.jpg',
     releaseDate: '2016-01-14',
     endDate: '2024-06-19',
     genre: ['Animation', 'Comedy', 'Fantasy', 'Adventure'],
@@ -2485,7 +2485,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Naoyuki Itō',
     actors: [],
     coverUrl:
-      'https://fr.web.img6.acsta.net/img/c1/23/c12341dcf775f4148aa58469b59e030e.jpg',
+      '/entities_covers/dc030237f95d.jpg',
     releaseDate: '2015-07-07',
     endDate: '2022-09-27',
     genre: ['Animation', 'Action', 'Fantasy', 'Adventure'],
@@ -2521,7 +2521,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Yasuhito Kikuchi',
     actors: [],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BOTczMjM3MDUtYmZjMC00YzZhLWE4ODQtNjg5YWU4NTJjNzY2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+      '/entities_covers/9456a23ce410.jpg',
     releaseDate: '2018-10-02',
     endDate: '',
     genre: ['Animation', 'Fantasy', 'Adventure', 'Comedy'],
@@ -2552,7 +2552,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Manabu Okamoto',
     actors: [],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BYWQwNjk3MDItNDAxMS00YTQ2LWEyNDctMGYyZTE5OGQxNGQ1XkEyXkFqcGc@._V1_.jpg',
+      '/entities_covers/5790a2810712.jpg',
     releaseDate: '2021-01-11',
     endDate: '',
     genre: ['Animation', 'Fantasy', 'Drama', 'Adventure'],
@@ -2578,7 +2578,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Takao Abo',
     actors: [],
     coverUrl:
-      'https://fr.web.img5.acsta.net/pictures/20/04/29/14/36/1180707.jpg',
+      '/entities_covers/ed5a5259d2f0.jpg',
     releaseDate: '2019-01-09',
     endDate: '',
     genre: ['Animation', 'Action', 'Fantasy', 'Adventure'],
@@ -2609,7 +2609,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Shinji Ishihira',
     actors: [],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BOTk2MzEwZWItYTlhYS00ZjcwLTk5N2YtOWFkYmRlYTJkOWY4XkEyXkFqcGc@._V1_.jpg',
+      '/entities_covers/17173b6c6940.jpg',
     releaseDate: '2013-10-05',
     endDate: '2021-03-31',
     genre: ['Animation', 'Adventure', 'Fantasy', 'Sci-Fi'],
@@ -2640,7 +2640,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Kazuya Nakanishi',
     actors: [],
     coverUrl:
-      'https://media.senscritique.com/media/000023598952/0/the_eminence_in_shadow.jpg',
+      '/entities_covers/21c576d55fdd.jpg',
     releaseDate: '2022-10-05',
     endDate: '2023-12-20',
     genre: ['Animation', 'Action', 'Comedy', 'Fantasy'],
@@ -2666,7 +2666,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Manabu Ono',
     actors: [],
     coverUrl:
-      'https://m.media-amazon.com/images/S/pv-target-images/b462ac72b5d7b461d1289b39ac4dfc7ec35d4234dc7ee170fc9d2ad3d8fb8ef8.jpg',
+      '/entities_covers/a43ac2c23fac.jpg',
     releaseDate: '2014-04-06',
     endDate: '2024-03-31',
     genre: ['Animation', 'Action', 'Fantasy', 'Sci-Fi'],
@@ -2697,7 +2697,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Tatsuyuki Nagai',
     actors: [],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BZWVhNzA2YmYtMjdkYi00MzZjLWJhOTgtYTY0NGRmMmU3MjE5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+      '/entities_covers/73755d33c939.jpg',
     releaseDate: '2009-10-03',
     endDate: '2020-09-25',
     genre: ['Animation', 'Action', 'Sci-Fi', 'Comedy'],
@@ -2728,7 +2728,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Hiroshi Nishikiori',
     actors: [],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BYjdiNTFjYmEtODAwOS00MWVkLTg5NjgtMTA4OWZkNjk1ZGQ0XkEyXkFqcGc@._V1_.jpg',
+      '/entities_covers/e7585e646167.jpg',
     releaseDate: '2008-10-04',
     endDate: '2019-04-05',
     genre: ['Animation', 'Action', 'Fantasy', 'Sci-Fi'],
@@ -2759,7 +2759,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Seiji Kishi',
     actors: [],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BMDg3MGVhNWUtYTQ2NS00ZDdiLTg5MTMtZmM5MjUzN2IxN2I4XkEyXkFqcGc@._V1_.jpg',
+      '/entities_covers/6365c5d906e3.jpg',
     releaseDate: '2017-07-12',
     endDate: '',
     genre: ['Animation', 'Drama', 'Psychological', 'Thriller'],
@@ -2790,7 +2790,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Keitarō Motonaga',
     actors: [],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BM2I5OGRiZWMtYjk1NS00ZGZiLWJiYTktMGJjMGRiNDhlNzI3XkEyXkFqcGc@._V1_.jpg',
+      '/entities_covers/64b6f05eaa2f.jpg',
     releaseDate: '2013-04-06',
     endDate: '2024-06-26',
     genre: ['Animation', 'Action', 'Romance', 'Sci-Fi'],
@@ -2831,7 +2831,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Takashi Watanabe',
     actors: [],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BOTA4YWU2ODYtMzI4YS00M2FmLTgxNjMtYzk4YWMxOTlkM2M5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+      '/entities_covers/4e1204eb06af.jpg',
     releaseDate: '2005-10-06',
     endDate: '2012-03-23',
     genre: ['Animation', 'Action', 'Fantasy', 'Romance'],
@@ -2862,7 +2862,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Koji Masunari',
     actors: [],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BN2Y2Yjc4MTgtOWU5OC00ZGJkLWJhYmQtOTA4MWY4ZTg1NDRhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+      '/entities_covers/fb4c95192a10.jpg',
     releaseDate: '2012-10-07',
     endDate: '2014-03-30',
     genre: ['Animation', 'Action', 'Adventure', 'Fantasy'],
@@ -2888,7 +2888,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: "Ken'ichi Kasai",
     actors: [],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BOTg5YTNhODUtZDgyMi00MWNjLThjM2ItMWRkMTEyMTcxNTQzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+      '/entities_covers/3c727cb9bbe4.jpg',
     releaseDate: '2010-10-02',
     endDate: '2013-03-30',
     genre: ['Animation', 'Comedy', 'Drama', 'Romance'],
@@ -2919,7 +2919,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Keiichirō Saitō',
     actors: [],
     coverUrl:
-      'https://www.manga-news.com/public/images/dvd/Frieren_S1_anime.webp',
+      '/entities_covers/0f52e5e35464.webp',
     releaseDate: '2023-09-29',
     endDate: '',
     genre: ['Animation', 'Adventure', 'Drama', 'Fantasy'],
@@ -2940,7 +2940,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Yoshihiro Miyajima',
     actors: [],
     coverUrl:
-      'https://animotaku.fr/wp-content/uploads/2022/08/anime-gloutons-et-dragons-visuel-4.jpg',
+      '/entities_covers/643f10bd3567.jpg',
     releaseDate: '2024-01-04',
     endDate: '2024-06-13',
     genre: ['Animation', 'Adventure', 'Comedy', 'Fantasy'],
@@ -2961,7 +2961,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Shigeyuki Miya',
     actors: [],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BM2VmNTc3OWQtOTVmMy00MGZlLTk3N2QtM2YwZDE5MWVjZmM5XkEyXkFqcGc@._V1_.jpg',
+      '/entities_covers/8d3ada80e078.jpg',
     releaseDate: '2024-04-13',
     endDate: '',
     genre: ['Animation', 'Action', 'Sci-Fi', 'Fantasy'],
@@ -2987,7 +2987,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Toshiyuki Kubooka',
     actors: [],
     coverUrl:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyQeaIeTvI9gaqnxCXnczUguuXQQn1hQb4EtgWnZ2ALaBmK1SDGm2RLmDY&s=10',
+      '/entities_covers/f5505589ef39.jpg',
     releaseDate: '2023-10-01',
     endDate: '',
     genre: ['Animation', 'Action', 'Adventure', 'Fantasy'],
@@ -3013,7 +3013,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Tomoya Tanaka',
     actors: [],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BMTUwMjM2ZTctMjI5Yi00MjIwLWJlYzAtNjk5MDQ0NTlmZWJjXkEyXkFqcGc@._V1_.jpg',
+      '/entities_covers/3b57a476ece7.jpg',
     releaseDate: '2023-04-08',
     endDate: '2024-06-28',
     genre: ['Animation', 'Action', 'Comedy', 'Fantasy'],
@@ -3060,7 +3060,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Inconnu',
     actors: [],
     coverUrl:
-      'https://fr.web.img3.acsta.net/pictures/24/03/14/09/50/4097731.jpg',
+      '/entities_covers/ac65753c0166.jpg',
     releaseDate: '2024-04-05',
     endDate: '',
     genre: ['Animation', 'Action', 'Drama'],
@@ -3086,7 +3086,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Inconnu',
     actors: [],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BNjRmMThlN2EtYTM0Ni00MjBjLWFmZmMtOGYxZWI1MzUzNzJhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+      '/entities_covers/fc81977b8898.jpg',
     releaseDate: '2024-10-05',
     endDate: '2025-03-15',
     genre: ['Animation', 'Drama', 'Historical', 'Mystery'],
@@ -3107,7 +3107,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Takeo Takahashi',
     actors: [],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BYTc0NmRhNDEtMjJkMy00NzJlLWE4ODctM2ZiMTAxMDA0YmU3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+      '/entities_covers/8a632e630398.jpg',
     releaseDate: '2008-01-09',
     endDate: '2009-09-24',
     genre: ['Animation', 'Adventure', 'Fantasy', 'Romance'],
@@ -3133,7 +3133,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Yutaka Uemura',
     actors: [],
     coverUrl:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuCNs5buaDu2XF7K-M-BlmkOQGEvCv-sJuId7oGWhPe56ZrPBVLO9WtUys&s=10',
+      '/entities_covers/34ddf8743b47.jpg',
     releaseDate: '2017-01-06',
     endDate: '2017-03-31',
     genre: ['Animation', 'Action', 'Fantasy', 'Military'],
@@ -3154,7 +3154,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Naoto Hosoda',
     actors: [],
     coverUrl:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl7BTZpH_zQD9gLmK9lCtvZJKi97C_aFvD7Co7qjtF-LQvuSfC-6Wg0s8&s=10',
+      '/entities_covers/34899b7e8abb.jpg',
     releaseDate: '2013-04-04',
     endDate: '2022-09-29',
     genre: ['Animation', 'Comedy', 'Fantasy'],
@@ -3180,7 +3180,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Yoshiki Yamakawa',
     actors: [],
     coverUrl:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4O1etnDuQvTq0qtgntg_QvUKc51YarzM4-_WhrlzerbPoemYGP7j5kd8&s=10',
+      '/entities_covers/b1bf2816e30e.jpg',
     releaseDate: '2015-04-04',
     endDate: '',
     genre: ['Animation', 'Action', 'Adventure', 'Fantasy'],
@@ -3216,7 +3216,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Tsuneo Kobayashi',
     actors: [],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BYzdmYzQ3OGItNzI0Ny00OTE4LTk3NzgtYzEwNDY0MGIyMTg3XkEyXkFqcGc@._V1_.jpg',
+      '/entities_covers/9ef0f2219097.jpg',
     releaseDate: '2002-04-09',
     endDate: '2003-08-30',
     genre: ['Animation', 'Adventure', 'Fantasy', 'Drama'],
@@ -3237,7 +3237,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Masahiko Murata',
     actors: [],
     coverUrl:
-      'https://fr.web.img2.acsta.net/pictures/21/03/15/11/51/1664270.jpg',
+      '/entities_covers/6a8e4e6f0eca.jpg',
     releaseDate: '2021-04-12',
     endDate: '',
     genre: ['Animation', 'Adventure', 'Drama', 'Fantasy'],
@@ -3263,7 +3263,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Kenichi Suzuki',
     actors: [],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BZTNkYjAwMGQtNDMzYy00ODEzLTlhZGMtNmUxNzJiYzU0NjM2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+      '/entities_covers/8fbb04a482ba.jpg',
     releaseDate: '2018-07-08',
     endDate: '2021-02-27',
     genre: ['Animation', 'Comedy', 'Action'],
@@ -3289,7 +3289,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: "Shin'ichi Matsumi",
     actors: [],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BZDRlMDA0MTctYjNmYy00MzRhLWEwYjEtYmYxZTI5YTdjMTgyXkEyXkFqcGc@._V1_.jpg',
+      '/entities_covers/15f2d9d3656e.jpg',
     releaseDate: '2019-10-10',
     endDate: '',
     genre: ['Animation', 'Drama', 'Psychological', 'Slice of Life'],
@@ -3351,7 +3351,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Masashi Ishihama',
     actors: [],
     coverUrl:
-      'https://fr.web.img3.acsta.net/pictures/22/03/31/15/15/0892203.jpg',
+      '/entities_covers/07712947d180.jpg',
     releaseDate: '2021-01-10',
     endDate: '2023-07-02',
     genre: ['Animation', 'Romance', 'Comedy', 'Slice of Life'],
@@ -3377,7 +3377,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Keisuke Shinohara',
     actors: [],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BYmJhYjgzYTQtMzMxYi00NTkyLWI2MWItNTgxNjk1NzU0YmQzXkEyXkFqcGc@._V1_.jpg',
+      '/entities_covers/87e6b6d74d05.jpg',
     releaseDate: '2022-01-09',
     endDate: '',
     genre: ['Animation', 'Romance', 'Comedy', 'Slice of Life'],
@@ -3403,7 +3403,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Kazuomi Koga',
     actors: [],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BNThiMDM2MTktNGMwYi00NTY3LWEyMzQtNDg1NDBlYWIwYTU3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+      '/entities_covers/c9744d547e12.jpg',
     releaseDate: '2020-07-11',
     endDate: '',
     genre: ['Animation', 'Romance', 'Comedy'],
@@ -3490,7 +3490,7 @@ export const baseAnimesApi: BaseAnime[] = [
     title: 'Wotakoi: Love Is Hard for Otaku',
     director: 'Yoshimasa Hiraike',
     actors: [],
-    coverUrl: 'https://cdn2.penguin.com.au/covers/original/9781646514748.jpg',
+    coverUrl: '/entities_covers/d080732f0517.jpg',
     releaseDate: '2018-04-13',
     endDate: '2018-06-22',
     genre: ['Animation', 'Comedy', 'Romance', 'Slice of Life'],
@@ -3510,7 +3510,7 @@ export const baseAnimesApi: BaseAnime[] = [
     title: 'My Teen Romantic Comedy SNAFU',
     director: 'Ai Yoshimura',
     actors: [],
-    coverUrl: 'https://i.ebayimg.com/images/g/macAAOSw3SZlUPrC/s-l1200.jpg',
+    coverUrl: '/entities_covers/8e4b52d14615.jpg',
     releaseDate: '2013-04-05',
     endDate: '2020-09-25',
     genre: ['Animation', 'Comedy', 'Romance', 'Drama'],
@@ -3541,7 +3541,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Sōichi Masui',
     actors: [],
     coverUrl:
-      'https://fr.web.img2.acsta.net/pictures/20/11/04/11/52/2913455.jpg',
+      '/entities_covers/a0e15dce77d2.jpg',
     releaseDate: '2018-10-04',
     endDate: '2018-12-27',
     genre: ['Animation', 'Romance', 'Supernatural', 'Drama'],
@@ -3562,7 +3562,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Atsuko Ishizuka',
     actors: [],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BZWQ2ZjYzOWItMTFlZC00ZjkwLTgxM2QtZWVkY2FhZmYzYzNjXkEyXkFqcGc@._V1_.jpg',
+      '/entities_covers/34e982a3b2ba.jpg',
     releaseDate: '2012-10-09',
     endDate: '2013-03-26',
     genre: ['Animation', 'Comedy', 'Drama', 'Romance'],
@@ -3583,7 +3583,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Tatsuya Ishihara',
     actors: [],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BNTcyODQxZTQtNjBiMi00NWViLTg4YzYtNWIwZTA3ZGJiNmIzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+      '/entities_covers/2b66945c64a2.jpg',
     releaseDate: '2006-04-02',
     endDate: '2009-10-09',
     genre: ['Animation', 'Comedy', 'Mystery', 'Sci-Fi'],
@@ -3609,7 +3609,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Yasuhiro Takemoto',
     actors: [],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BYWEzZWVlNmUtODk2Mi00ZTQ4LTk4ZTAtZTYwOTczMDhmNGJmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+      '/entities_covers/24d4c5ebf619.jpg',
     releaseDate: '2007-04-08',
     endDate: '2007-09-17',
     genre: ['Animation', 'Comedy', 'Slice of Life'],
@@ -3630,7 +3630,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Hiroshi Nishikiori',
     actors: [],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BYmYyZWQzMTYtM2EyNS00YzllLThmZGYtZGY2ODA0NDc2M2FkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+      '/entities_covers/118ed1d4e9a0.jpg',
     releaseDate: '2002-04-08',
     endDate: '2002-09-30',
     genre: ['Animation', 'Comedy', 'Slice of Life'],
@@ -3651,7 +3651,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Tatsuya Ishihara',
     actors: [],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BNDk1YjhiODktNjczMC00MDgxLTlkMGMtMzdkNzY1MTk4YjkxXkEyXkFqcGc@._V1_.jpg',
+      '/entities_covers/bd95b47612fb.jpg',
     releaseDate: '2011-04-03',
     endDate: '2011-09-25',
     genre: ['Animation', 'Comedy', 'Slice of Life'],
@@ -3672,7 +3672,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Shinji Takamatsu',
     actors: [],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BMDVhOTNmMzgtNWNhNy00OGEwLWI4ODEtM2IxZTFjYTQ4ZTU4XkEyXkFqcGc@._V1_.jpg',
+      '/entities_covers/bda11c90a432.jpg',
     releaseDate: '2012-01-10',
     endDate: '2012-03-27',
     genre: ['Animation', 'Comedy', 'Slice of Life'],
@@ -3693,7 +3693,7 @@ export const baseAnimesApi: BaseAnime[] = [
     director: 'Yoshiyuki Fujiwara',
     actors: [],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BZmM1Yjc3MjItMjk4NC00NmEwLWIyOWYtMmM4ODU5NDM0MDZmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+      '/entities_covers/a82c7db4b0f4.jpg',
     releaseDate: '2015-04-05',
     endDate: '2015-06-28',
     genre: ['Animation', 'Sci-Fi', 'Drama', 'Romance'],

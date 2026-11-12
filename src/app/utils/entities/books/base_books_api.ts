@@ -2,7 +2,7 @@ import { BaseBook } from '../../../models/book-model';
 
 export const baseBooksApi: BaseBook[] = [
   {
-    title: 'Les Morsures du Silence ',
+    title: 'Les Morsures du Silence',
     author: 'Johana Gustawsson',
     coverUrl:
       'https://cdn1.booknode.com/book_cover/5557/les_morsures_du_silence-5556614-264-432.webp',
@@ -78,7 +78,7 @@ export const baseBooksApi: BaseBook[] = [
   },
 
   {
-    title: 'Elle est les ténèbres ',
+    title: 'Elle est les ténèbres',
     author: 'Glen Cook',
     coverUrl: '/books_pictures/2acab713e05d.jpg',
     pages: 616,
@@ -96,13 +96,28 @@ export const baseBooksApi: BaseBook[] = [
     title: 'Bienvenue Chez Vous',
     author: 'Alex Sol',
     coverUrl:
-      'https://m.media-amazon.com/images/I/615XAUJnpGL._AC_UF1000,1000_QL80_.jpg',
+      '/books_pictures/c4c68b880af6.jpg',
     pages: 532,
     genre: ['Thriller'],
     saga: '',
     sagaOrder: 0,
     sagaFinished: true,
     releaseDate: '2024-10-25',
+    description: '',
+    countryOrigin: 'France',
+    selectDisplayOrder: 0,
+  },
+
+  {
+    title: 'Déclaration des droits de la femme et de la citoyenne',
+    author: 'Olympe de Gouges',
+    coverUrl: '/books_pictures/61BL7Kh3u7L._SL1500_.jpg',
+    pages: 64,
+    genre: ['Classiques'],
+    saga: '',
+    sagaOrder: 0,
+    sagaFinished: true,
+    releaseDate: '1791-09-14',
     description: '',
     countryOrigin: 'France',
     selectDisplayOrder: 0,

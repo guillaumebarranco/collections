@@ -585,7 +585,7 @@ export const baseSeriesApi: BaseSerie[] = [
         name: "Lauren Morais",
       },
     ],
-    coverUrl: "https://m.media-amazon.com/images/M/MV5BY2FlNjIxMDktMGYyZi00NjY3LWI4YjctYTcxNzc2MDUwYjZmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    coverUrl: "/series_pictures/2b36b2cea0d0.jpg",
     releaseDate: "2026-10-14",
     endDate: "2026-11-11",
     genre: ['Super-héro'],
