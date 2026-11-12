@@ -1295,7 +1295,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
     oscars: [],
   },
   {
-    title: 'Enchanted',
+    title: 'Il était une fois',
     director: 'Kevin Lima',
     actors: [
       {

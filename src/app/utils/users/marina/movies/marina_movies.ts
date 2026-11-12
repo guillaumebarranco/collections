@@ -4660,7 +4660,7 @@ export const marinaMovies: UserMovie[] = [
     quotes: [],
   },
   {
-    title: 'Enchanted',
+    title: 'Il était une fois',
     director: 'Kevin Lima',
     rating: 0,
     timesWatched: 1,
