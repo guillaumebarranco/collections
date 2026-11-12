@@ -1,6 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component, computed, inject, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { CoverUploadComponent } from '../../../components/shared/cover-upload/cover-upload.component';
 import {
   ActivatedRoute,
   ParamMap,
@@ -58,6 +59,7 @@ type EditComicDialogData = {
   imports: [
     CommonModule,
     FormsModule,
+    CoverUploadComponent,
     RouterModule,
     EditEntityComponent,
     EditEntityHeaderComponent,

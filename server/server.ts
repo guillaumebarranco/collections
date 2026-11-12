@@ -16,6 +16,7 @@ const adminRoutes = require('./routes/admin/users-count');
 const usersRoutes = require('./routes/users/users-routes');
 const entityAddRequestsRoutes = require('./routes/entity-add-requests/entity-add-requests-routes');
 const dashboardRoutes = require('./routes/dashboard/dashboard-routes');
+const coversRoutes = require('./routes/covers/post-cover');
 
 const PORT = 3001;
 
@@ -55,6 +56,7 @@ app.use('/api/admin', adminRoutes);
 app.use('/api/users', usersRoutes);
 app.use('/api/entity-add-requests', entityAddRequestsRoutes);
 app.use('/api/dashboard', dashboardRoutes);
+app.use('/api/covers', coversRoutes);
 
 app.use((_req: any, res: any) => {
   res.status(404).json({ error: 'Not found' });

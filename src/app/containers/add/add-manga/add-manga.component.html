@@ -43,6 +43,10 @@
           (ngModelChange)="updateEntityField('coverUrl', $event)"
           name="coverUrl"
         />
+        <app-cover-upload
+          entityType="mangas"
+          (uploaded)="updateEntityField('coverUrl', $event)"
+        />
       </div>
 
       <div class="form-row">

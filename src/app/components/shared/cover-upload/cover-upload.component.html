@@ -1,0 +1,15 @@
+<div class="cover-upload">
+  <label class="cover-upload__button" [class.is-busy]="uploading()">
+    <input
+      class="cover-upload__file"
+      type="file"
+      accept="image/jpeg,image/png,image/webp,image/gif,image/avif,.jpg,.jpeg,.png,.webp,.gif,.avif"
+      [disabled]="uploading()"
+      (change)="onFileSelected($event)"
+    />
+    {{ uploading() ? 'Envoi en cours…' : 'Uploader une image' }}
+  </label>
+  @if (error()) {
+    <p class="cover-upload__error" role="alert">{{ error() }}</p>
+  }
+</div>

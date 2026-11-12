@@ -1,6 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component, inject, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { CoverUploadComponent } from '../../../components/shared/cover-upload/cover-upload.component';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 import { getApiBaseUrl } from '../../../core/config';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
@@ -53,6 +54,7 @@ type AddChildrenBookDialogData = {
   imports: [
     CommonModule,
     FormsModule,
+    CoverUploadComponent,
     CountrySelectComponent,
     MatFormFieldModule,
     MatSelectModule,
