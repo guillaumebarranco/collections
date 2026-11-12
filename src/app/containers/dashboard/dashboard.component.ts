@@ -94,6 +94,7 @@ import {
 import { AuthService } from '../../core/auth.service';
 import { getGameTimePlayed } from '../../utils/games.utils';
 import { TopFiveService } from '../../services/top-five.service';
+import { UserShowcaseService } from '../../services/user-showcase.service';
 import { MatDialog } from '@angular/material/dialog';
 import {
   FollowsModalComponent,
@@ -108,11 +109,20 @@ import { FollowsService } from '../../services/follows.service';
 import { FeedService } from '../../services/feed.service';
 import { ImpersonateService } from '../../services/impersonate.service';
 import type { TopFiveEntityType } from '../../models/top-five-model';
+import { TOP_FIVE_ENTITY_TYPES } from '../../models/top-five-model';
+import { SHOWCASE_ENTITY_LABELS } from '../../models/user-showcase.model';
 import {
   findEntityByKey,
   getEntityDisplayLabel,
   type Entity,
 } from '../../utils/top-five.utils';
+import { listShowcaseCandidates } from '../../utils/user-showcase.utils';
+import { DashboardShowcaseComponent } from '../../components/dashboard/dashboard-showcase/dashboard-showcase.component';
+import type { DashboardShowcaseSlotView } from '../../components/dashboard/dashboard-showcase/dashboard-showcase.component';
+import {
+  UserShowcaseModalComponent,
+  type UserShowcaseModalData,
+} from '../../components/modals/user-showcase-modal/user-showcase-modal.component';
 import {
   fillBadgeProgressFromDefinitions,
   getBadgesDisplay,
@@ -175,6 +185,7 @@ type BadgeGroup = {
     DashboardUserTodosComponent,
     DashboardFeedComponent,
     DashboardMonthlyActivityComponent,
+    DashboardShowcaseComponent,
     LoginComponent,
     OfflineRestrictedMessageComponent,
     LoaderComponent,
@@ -187,6 +198,7 @@ export class DashboardComponent implements OnInit {
   router = inject(Router);
   authService = inject(AuthService);
   topFiveService = inject(TopFiveService);
+  userShowcaseService = inject(UserShowcaseService);
   badgesService = inject(BadgesService);
   profileBadgeService = inject(ProfileBadgeService);
   private readonly dialog = inject(MatDialog);
@@ -206,6 +218,8 @@ export class DashboardComponent implements OnInit {
 
   /** Sous-vue de l’onglet Top 5 : personnel par défaut, ou classements statistiques. */
   top5SubView = signal<'personal' | 'stats'>('personal');
+  /** Emplacement d'œuvre phare en cours d'ouverture (chargement des collections). */
+  openingShowcaseSlot = signal<number | null>(null);
 
   top5SubTabOptions: ViewToggleOption[] = [
     { value: 'personal', label: 'Mon Top 5 personnel' },
@@ -826,6 +840,41 @@ export class DashboardComponent implements OnInit {
     'musics',
   ];
 
+  /** Au moins une œuvre est classée dans le top 5 d'une collection. */
+  hasEntityTopFive = computed(() => {
+    const topFive = this.topFive();
+    return TOP_FIVE_ENTITY_TYPES.some((entityType) =>
+      (topFive[entityType] ?? []).some((key) => Boolean(key))
+    );
+  });
+
+  /** Cinq emplacements d'œuvres phares, couvertures résolues quand les collections sont chargées. */
+  showcaseSlots = computed<DashboardShowcaseSlotView[]>(() => {
+    this.userShowcaseService.cache();
+    const userId = this.userId() || DEFAULT_USER_ID;
+    const showcase = this.userShowcaseService.getShowcase(userId);
+    const lists = this.listsByEntityType();
+    return showcase.slots.map((slot) => {
+      if (!slot) {
+        return { filled: false, title: '', coverUrl: '', entityLabel: '' };
+      }
+      const entity = findEntityByKey(
+        lists[slot.entityType] ?? [],
+        slot.entityType,
+        slot.key
+      );
+      const liveCover = (entity as { coverUrl?: unknown } | undefined)?.coverUrl;
+      return {
+        filled: true,
+        title: entity
+          ? getEntityDisplayLabel(slot.entityType, entity)
+          : slot.title || slot.key,
+        coverUrl: typeof liveCover === 'string' && liveCover ? liveCover : slot.coverUrl,
+        entityLabel: SHOWCASE_ENTITY_LABELS[slot.entityType] ?? '',
+      };
+    });
+  });
+
   timeEntitiesStats = computed<StatItem[]>(() => {
     const booksTotalReadingTime =
       this.allBooks().length > 0
@@ -1051,6 +1100,65 @@ export class DashboardComponent implements OnInit {
     });
   }
 
+  async onShowcaseSlotSelected(index: number): Promise<void> {
+    if (!this.isOwnUserDashboard()) return;
+    const userId = this.userId();
+    if (!userId) return;
+    if (!this.hasEntityTopFive()) {
+      this.selectedTab.set('top5');
+      this.top5SubView.set('personal');
+      void this.ensureFullDashboardData();
+      return;
+    }
+    const generation = this.dashboardLoadGeneration;
+    this.openingShowcaseSlot.set(index);
+    try {
+      try {
+        await this.ensureFullDashboardData();
+      } catch {
+        // Ouvre le sélecteur avec les collections déjà en mémoire.
+      }
+      if (generation !== this.dashboardLoadGeneration) return;
+      const candidates = listShowcaseCandidates(
+        this.topFive(),
+        this.listsByEntityType(),
+        SHOWCASE_ENTITY_LABELS
+      );
+      const showcase = this.userShowcaseService.getShowcase(userId);
+      this.dialog.open(UserShowcaseModalComponent, {
+        width: '760px',
+        maxWidth: '95vw',
+        autoFocus: 'first-tabbable',
+        data: {
+          userId,
+          slotIndex: index,
+          slots: showcase.slots,
+          candidates,
+        } satisfies UserShowcaseModalData,
+      });
+    } finally {
+      if (this.openingShowcaseSlot() === index) {
+        this.openingShowcaseSlot.set(null);
+      }
+    }
+  }
+
+  private listsByEntityType(): Partial<Record<TopFiveEntityType, Entity[]>> {
+    return {
+      books: this.allBooks() as Entity[],
+      'children-books': this.allChildrenBooks() as Entity[],
+      movies: this.allMovies() as Entity[],
+      series: this.allSeries() as Entity[],
+      animes: this.allAnimes() as Entity[],
+      games: this.allGames() as Entity[],
+      musics: this.allMusics() as Entity[],
+      comics: this.allComics() as Entity[],
+      bds: this.allBds() as Entity[],
+      mangas: this.allMangas() as Entity[],
+      manwhas: this.allManwhas() as Entity[],
+    };
+  }
+
   goToOwnDashboard(): void {
     this.impersonateService.clearImpersonation();
     const ownId = this.authService.getAuthenticatedUserId();
@@ -1067,6 +1175,7 @@ export class DashboardComponent implements OnInit {
       if (!isOfflineModeBlockingOtherUsers()) {
         this.topFiveService.loadFromApi(uid);
         this.badgesService.loadFromApi(uid);
+        void this.userShowcaseService.loadFromApi(uid);
       }
       if (this.isOwnUserDashboard()) {
         const authId = this.authService.getAuthenticatedUserId();
@@ -1104,6 +1213,7 @@ export class DashboardComponent implements OnInit {
     this.topFiveService.loadFromStorage();
     this.badgesService.loadFromStorage();
     this.profileBadgeService.loadFromStorage();
+    this.userShowcaseService.loadFromStorage();
   }
 
   /**

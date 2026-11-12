@@ -1,0 +1,57 @@
+<h2 mat-dialog-title>Œuvre phare n°{{ slotNumber }}</h2>
+<mat-dialog-content class="user-showcase-modal__content">
+  @if (candidates.length === 0) {
+  <p class="user-showcase-modal__empty">
+    Aucune œuvre de vos top 5 n’a été retrouvée. Classez d’abord des œuvres
+    dans le top 5 de vos collections, puis revenez les choisir ici.
+  </p>
+  } @else {
+  <p class="user-showcase-modal__intro">
+    Choisissez une œuvre déjà placée dans le top 5 d’une collection.
+  </p>
+  @for (group of groups; track group.label) {
+  <h3 class="user-showcase-modal__group">{{ group.label }}</h3>
+  <div class="user-showcase-modal__grid">
+    @for (candidate of group.items; track candidate.entityType + candidate.key) {
+    <button
+      type="button"
+      class="user-showcase-modal__card"
+      [class.user-showcase-modal__card--selected]="isCurrent(candidate)"
+      [disabled]="saving()"
+      (click)="choose(candidate)"
+    >
+      @if (candidate.coverUrl) {
+      <img [src]="candidate.coverUrl" alt="" />
+      } @else {
+      <span class="user-showcase-modal__placeholder">{{ candidate.title }}</span>
+      }
+      <span class="user-showcase-modal__name">{{ candidate.title }}</span>
+      <span class="user-showcase-modal__meta">
+        Top {{ candidate.rank }} · {{ candidate.entityLabel }}
+        @if (placedAt(candidate); as place) {
+        · déjà en n°{{ place }}
+        }
+      </span>
+    </button>
+    }
+  </div>
+  }
+  } @if (errorMessage()) {
+  <p class="user-showcase-modal__error" role="alert">{{ errorMessage() }}</p>
+  }
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  @if (currentFilled) {
+  <button
+    type="button"
+    class="makya-btn makya-btn--secondary"
+    (click)="clear()"
+    [disabled]="saving()"
+  >
+    Retirer
+  </button>
+  }
+  <button type="button" class="makya-btn" (click)="cancel()" [disabled]="saving()">
+    Fermer
+  </button>
+</mat-dialog-actions>

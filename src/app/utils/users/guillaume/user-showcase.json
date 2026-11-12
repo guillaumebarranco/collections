@@ -1,0 +1,34 @@
+{
+  "slots": [
+    {
+      "entityType": "books",
+      "key": "Midnight Sun|Stephenie Meyer",
+      "title": "Midnight Sun – Stephenie Meyer",
+      "coverUrl": "/books_pictures/midnight_sun-5006281-264-432.jpg"
+    },
+    {
+      "entityType": "series",
+      "key": "How I Met Your Mother|Carter Bays, Craig Thomas",
+      "title": "How I Met Your Mother – Carter Bays, Craig Thomas",
+      "coverUrl": "/series_pictures/himym.jpg"
+    },
+    {
+      "entityType": "mangas",
+      "key": "One Piece|Eiichirō Oda",
+      "title": "One Piece – Eiichirō Oda",
+      "coverUrl": "/mangas_pictures/one_piece.jpg"
+    },
+    {
+      "entityType": "games",
+      "key": "The Legend of Zelda: Ocarina of Time|Nintendo",
+      "title": "The Legend of Zelda: Ocarina of Time – Nintendo",
+      "coverUrl": "/games_pictures/oot.jpg"
+    },
+    {
+      "entityType": "books",
+      "key": "Harry Potter et le Prince de sang-mêlé|J.K. Rowling",
+      "title": "Harry Potter et le Prince de sang-mêlé – J.K. Rowling",
+      "coverUrl": "/books_pictures/harry_potter_tome_6_harry_potter_et_le_prince_de_sang_mele-835223-264-432.jpg"
+    }
+  ]
+}

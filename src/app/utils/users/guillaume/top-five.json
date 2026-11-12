@@ -11,7 +11,7 @@
     "I, Robot|Alex Proyas",
     "V pour Vendetta|James McTeigue",
     "Intouchables|Olivier Nakache, Éric Toledano",
-    "The Blind Side|John Lee Hancock"
+    "Star Wars : Épisode 3 - La revanche des Sith|George Lucas"
   ],
   "series": [
     "How I Met Your Mother|Carter Bays, Craig Thomas",
@@ -21,11 +21,19 @@
     "Le Jeu de la Dame|Scott Frank"
   ],
   "animes": [
+<<<<<<< Updated upstream
     "Death Note|Tetsurō Araki",
     "Yu Yu Hakusho|Yoshihiro Togashi",
     "Olive et Tom : Le retour|Gisaburo Sugii",
     "Yu-Gi-Oh!|Kunihisa Sugishima",
     "Dragon Ball GT|Akira Toriyama"
+=======
+    "",
+    "",
+    "",
+    "",
+    ""
+>>>>>>> Stashed changes
   ],
   "games": [
     "The Legend of Zelda: Ocarina of Time|Nintendo",

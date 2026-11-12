@@ -1,0 +1,55 @@
+@if (visible()) {
+<section class="dashboard-showcase" aria-label="Œuvres phares">
+  @if (canEdit() && !hasEntityTopFive()) {
+  <p class="dashboard-showcase__hint">
+    Vous n’avez pas encore classé d’œuvre dans le top 5 de vos collections.
+    Faites-le depuis chaque collection : vous pourrez ensuite en choisir cinq à
+    afficher ici.
+  </p>
+  }
+  <div class="dashboard-showcase__row">
+    @for (slot of slots(); track $index) { @if (canEdit()) {
+    <button
+      type="button"
+      class="dashboard-showcase__slot"
+      [class.dashboard-showcase__slot--empty]="!slot.filled"
+      [class.dashboard-showcase__slot--filled]="slot.filled"
+      [attr.aria-label]="slotAriaLabel(slot, $index)"
+      (click)="onSlotClick($index)"
+    >
+      <ng-container
+        *ngTemplateOutlet="slotBody; context: { slot: slot, index: $index }"
+      ></ng-container>
+    </button>
+    } @else if (slot.filled) {
+    <div class="dashboard-showcase__slot dashboard-showcase__slot--filled">
+      <ng-container
+        *ngTemplateOutlet="slotBody; context: { slot: slot, index: $index }"
+      ></ng-container>
+    </div>
+    } }
+  </div>
+</section>
+}
+
+<ng-template #slotBody let-slot="slot" let-index="index">
+  @if (slot.filled && slot.coverUrl) {
+  <img
+    class="dashboard-showcase__cover"
+    [src]="slot.coverUrl"
+    [alt]="slot.title"
+  />
+
+  } @else if (slot.filled) {
+  <span class="dashboard-showcase__fallback">{{ slot.title }}</span>
+  } @else if (openingSlot() === index) {
+  <span class="dashboard-showcase__empty-label">Chargement…</span>
+  } @else if (hasEntityTopFive()) {
+  <span class="dashboard-showcase__plus" aria-hidden="true">+</span>
+  <span class="dashboard-showcase__empty-label">Choisir une œuvre</span>
+  } @else {
+  <span class="dashboard-showcase__empty-label">
+    Faites d’abord un top 5 dans vos collections
+  </span>
+  }
+</ng-template>

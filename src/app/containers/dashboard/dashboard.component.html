@@ -59,6 +59,14 @@
   </div>
   }
 
+  <app-dashboard-showcase
+    [slots]="showcaseSlots()"
+    [canEdit]="isOwnUserDashboard()"
+    [hasEntityTopFive]="hasEntityTopFive()"
+    [openingSlot]="openingShowcaseSlot()"
+    (slotSelected)="onShowcaseSlotSelected($event)"
+  ></app-dashboard-showcase>
+
   <app-view-toggle
     [toggleClass]="'dashboard-tabs'"
     [options]="tabOptions"
