@@ -27,15 +27,27 @@
 
 .dashboard-showcase__slot {
   position: relative;
-  aspect-ratio: 2 / 3;
-  min-width: 0;
   padding: 0;
+  width: 20%;
+  max-width: 130px;
+  height: 100%;
   border: none;
   border-radius: 14px;
   overflow: hidden;
   background: #f4f6f8;
   color: inherit;
   text-align: left;
+}
+
+@media (max-width: 768px) {
+  .dashboard-showcase__row {
+    height: 120px;
+    gap: 12px;
+  }
+  .dashboard-showcase__slot {
+    width: 20%;
+    max-width: 120px;
+  }
 }
 
 button.dashboard-showcase__slot {
