@@ -1,4 +1,5 @@
 const express = require('express');
+const path = require('path');
 const moviesRoutes = require('./routes/movies/movies-routes');
 const booksRoutes = require('./routes/books/books-routes');
 const childrenBooksRoutes = require('./routes/children-books/children-books-routes');
@@ -57,6 +58,33 @@ app.use('/api/users', usersRoutes);
 app.use('/api/entity-add-requests', entityAddRequestsRoutes);
 app.use('/api/dashboard', dashboardRoutes);
 app.use('/api/covers', coversRoutes);
+
+const publicDir = path.join(__dirname, '..', 'public');
+const pictureFolders = [
+  'badges',
+  'bd_pictures',
+  'bds_pictures',
+  'books_pictures',
+  'children_books_pictures',
+  'comics_pictures',
+  'entities_covers',
+  'games_pictures',
+  'mangas_pictures',
+  'manwhas_pictures',
+  'movies_pictures',
+  'musics_pictures',
+  'series_pictures',
+  'uploaded_pictures',
+];
+for (const folder of pictureFolders) {
+  app.use(
+    `/${folder}`,
+    express.static(path.join(publicDir, folder), {
+      fallthrough: false,
+      index: false,
+    }),
+  );
+}
 
 app.use((_req: any, res: any) => {
   res.status(404).json({ error: 'Not found' });

@@ -1,0 +1,58 @@
+{
+  "/badges": {
+    "target": "http://127.0.0.1:3001",
+    "secure": false
+  },
+  "/bd_pictures": {
+    "target": "http://127.0.0.1:3001",
+    "secure": false
+  },
+  "/bds_pictures": {
+    "target": "http://127.0.0.1:3001",
+    "secure": false
+  },
+  "/books_pictures": {
+    "target": "http://127.0.0.1:3001",
+    "secure": false
+  },
+  "/children_books_pictures": {
+    "target": "http://127.0.0.1:3001",
+    "secure": false
+  },
+  "/comics_pictures": {
+    "target": "http://127.0.0.1:3001",
+    "secure": false
+  },
+  "/entities_covers": {
+    "target": "http://127.0.0.1:3001",
+    "secure": false
+  },
+  "/games_pictures": {
+    "target": "http://127.0.0.1:3001",
+    "secure": false
+  },
+  "/mangas_pictures": {
+    "target": "http://127.0.0.1:3001",
+    "secure": false
+  },
+  "/manwhas_pictures": {
+    "target": "http://127.0.0.1:3001",
+    "secure": false
+  },
+  "/movies_pictures": {
+    "target": "http://127.0.0.1:3001",
+    "secure": false
+  },
+  "/musics_pictures": {
+    "target": "http://127.0.0.1:3001",
+    "secure": false
+  },
+  "/series_pictures": {
+    "target": "http://127.0.0.1:3001",
+    "secure": false
+  },
+  "/uploaded_pictures": {
+    "target": "http://127.0.0.1:3001",
+    "secure": false
+  }
+}

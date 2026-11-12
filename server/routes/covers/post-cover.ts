@@ -5,20 +5,7 @@ const crypto = require('crypto');
 
 const router = express.Router();
 
-const FOLDER_BY_ENTITY: Record<string, string> = {
-  movies: 'movies_pictures',
-  series: 'series_pictures',
-  animes: 'entities_covers',
-  books: 'books_pictures',
-  'children-books': 'children_books_pictures',
-  bds: 'bds_pictures',
-  comics: 'comics_pictures',
-  mangas: 'mangas_pictures',
-  manwhas: 'manwhas_pictures',
-  games: 'games_pictures',
-  musics: 'musics_pictures',
-};
-
+const UPLOAD_FOLDER = 'uploaded_pictures';
 const PUBLIC_DIR = path.resolve(__dirname, '../../../public');
 const MAX_BYTES = 15 * 1024 * 1024;
 
@@ -79,12 +66,6 @@ router.post(
   },
   (req: any, res: any) => {
     try {
-      const folder = FOLDER_BY_ENTITY[req.params.entityType];
-      if (!folder) {
-        res.status(400).json({ error: 'Type d’entité inconnu.' });
-        return;
-      }
-
       const body = req.body;
       if (!Buffer.isBuffer(body) || body.length === 0) {
         res.status(400).json({ error: 'Image manquante.' });
@@ -107,10 +88,10 @@ router.post(
       }
 
       const filename = `${crypto.randomBytes(6).toString('hex')}.${extension}`;
-      const dir = path.join(PUBLIC_DIR, folder);
+      const dir = path.join(PUBLIC_DIR, UPLOAD_FOLDER);
       fs.mkdirSync(dir, { recursive: true });
       fs.writeFileSync(path.join(dir, filename), body);
-      res.json({ coverUrl: `/${folder}/${filename}` });
+      res.json({ coverUrl: `/${UPLOAD_FOLDER}/${filename}` });
     } catch (error: any) {
       res.status(500).json({ error: error.message || 'Unknown error' });
     }
