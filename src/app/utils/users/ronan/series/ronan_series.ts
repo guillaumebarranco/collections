@@ -6099,11 +6099,11 @@ export const ronanSeries: UserSeries = [
     },
     {
       seasonNumber: 3,
-      seasonRating: 0,
+      seasonRating: 4,
       watching: false,
-      seasonTimesWatched: 0,
-      firstViewedDate: "",
-      lastViewedDate: "",
+      seasonTimesWatched: 1,
+      firstViewedDate: "2026-11-15",
+      lastViewedDate: "2026-11-15",
       otherViewedDates: [],
     },
     {
@@ -8420,6 +8420,29 @@ export const ronanSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: "2026-11-11",
         lastViewedDate: "2026-11-11",
+        otherViewedDates: [],
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: "",
+    borrowed: "",
+    loaned: "",
+    quotes: [],
+  },
+
+  {
+    title: "Paolo",
+    director: "Sébastien Marnier",
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 2.75,
+        watching: false,
+        seasonTimesWatched: 1,
+        firstViewedDate: "2026-11-15",
+        lastViewedDate: "2026-11-15",
         otherViewedDates: [],
       }
     ],

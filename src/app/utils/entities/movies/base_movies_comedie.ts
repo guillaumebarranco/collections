@@ -9755,39 +9755,35 @@ export const baseMoviesComedie: BaseMovie[] = [
     director: 'Chuck Russell',
     actors: [
       {
-        name: 'Jim Carrey',
+        name: "Jim Carrey",
       },
       {
-        name: 'Peter Riegert',
+        name: "Peter Riegert",
       },
       {
-        name: 'Peter Greene',
+        name: "Peter Greene",
       },
       {
-        name: 'Amy Yasbeck',
+        name: "Amy Yasbeck",
       },
       {
-        name: 'Orestes Matacena',
+        name: "Cameron Diaz",
       },
       {
-        name: 'Ben Stein',
+        name: "Ben Stein",
       },
       {
-        name: 'Blake Clark',
-      },
+        name: "Blake Clark",
+      }
     ],
-    coverUrl: '/movies_pictures/2c4566715389.jpg',
-    releaseDate: '1994-07-29',
+    coverUrl: "/movies_pictures/2c4566715389.jpg",
+    releaseDate: "1994-07-29",
     length: 101,
     genre: ['Comédie'],
-    saga: '',
+    saga: "",
     description:
       "Un timide employé de banque trouve un masque magique qui libère une personnalité extravagante, attirant l'attention de gangsters.",
-    fromEntity: {
-      entityType: 'comic',
-      title: 'The Mask',
-      secondEntityKey: 'John Arcudi',
-    },
+    fromEntity: { entityType: "comic", title: "The Mask", secondEntityKey: "John Arcudi" },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
     oscars: [],

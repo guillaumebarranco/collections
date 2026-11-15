@@ -2106,4 +2106,22 @@ export const guillaumeBooks: UserBooks = [
     ratingComment: '',
     quotes: [],
   },
+
+  {
+    title: "Déclaration des droits de la femme et de la citoyenne",
+    author: "Olympe de Gouges",
+    firstReadDate: "2026-11-13",
+    lastReadDate: "2026-11-13",
+    otherReadDates: [],
+    rating: 3.5,
+    reading: false,
+    readTimes: 1,
+    owned: false,
+    borrowed: "",
+    loaned: "",
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: "",
+    quotes: [],
+  },
 ];

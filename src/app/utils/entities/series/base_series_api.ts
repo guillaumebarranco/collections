@@ -601,4 +601,41 @@ export const baseSeriesApi: BaseSerie[] = [
     saga: "Marvel Cinematic Universe",
     fromEntity: null,
   },
+
+  {
+    title: "Paolo",
+    director: "Sébastien Marnier",
+    actors: [
+      {
+        name: "Jérôme Niel",
+      },
+      {
+        name: "Yoann Gasiorowski",
+      },
+      {
+        name: "Magalie Lépine-Blondeau",
+      },
+      {
+        name: "Marie Oppert",
+      },
+      {
+        name: "Léo Chalié",
+      },
+    ],
+    coverUrl: "https://media.senscritique.com/media/000024129961/0/paolo.jpg",
+    releaseDate: "2026-09-25",
+    endDate: "2026-11-06",
+    genre: ['Thriller'],
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 7,
+        totalLength: 405,
+      },
+    ],
+    description: "",
+    countryOrigin: "France",
+    saga: "",
+    fromEntity: null,
+  },
 ];

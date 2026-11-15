@@ -1423,7 +1423,7 @@ export const guillaumeMoviesPage3: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: ["Mes classiques"],
-    lastUpdated: "2026-11-12T14:15",
+    lastUpdated: "2026-11-14T13:56",
     quotes: [],
   },
   {

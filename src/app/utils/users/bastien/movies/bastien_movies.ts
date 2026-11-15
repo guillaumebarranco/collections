@@ -854,7 +854,7 @@ export const bastienMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
-    lastUpdated: '',
+    lastUpdated: "2026-11-14T13:56",
     quotes: [],
   },
   {

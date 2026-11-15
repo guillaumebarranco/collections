@@ -169,7 +169,7 @@ export const guillaumeSeries: UserSeries = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
-    quotes: ["T'essayes de marquer un point pour quoi ? C'est pas parce qu'elle t'as blessé une fois que tu dois la blesser maintenant. Ça fonctionne pas comme ça le mariage."],
+    quotes: ["T'essayes de marquer un point pour quoi ? C'est pas parce qu'elle t'as blessé une fois que tu dois la blesser maintenant. Ça fonctionne pas comme ça le mariage.", "Personne ne peut promettre d'être parfait. Au bout du compte, tout ce qu'on peut faire, c'est de promettre de s'aimer autant qu'on peut. Parce que l'amour, c'est la plus belle chose que l'on puisse vivre."],
   },
 {
     title: 'Loki',
