@@ -1796,4 +1796,22 @@ export const ronanBooks: UserBooks = [
     ratingComment: "",
     quotes: [],
   },
+
+  {
+    title: "Alice au pays des merveilles",
+    author: "Lewis Carroll",
+    firstReadDate: "2026-11-16",
+    lastReadDate: "2026-11-16",
+    otherReadDates: [],
+    rating: 3,
+    reading: false,
+    readTimes: 1,
+    owned: false,
+    borrowed: '',
+    loaned: '',
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: "",
+    quotes: [],
+  },
 ];
