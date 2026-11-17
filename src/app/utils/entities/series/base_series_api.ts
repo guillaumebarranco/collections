@@ -622,7 +622,7 @@ export const baseSeriesApi: BaseSerie[] = [
         name: "Léo Chalié",
       },
     ],
-    coverUrl: "https://media.senscritique.com/media/000024129961/0/paolo.jpg",
+    coverUrl: "/series_pictures/046da918b4ee.jpg",
     releaseDate: "2026-09-25",
     endDate: "2026-11-06",
     genre: ['Thriller'],

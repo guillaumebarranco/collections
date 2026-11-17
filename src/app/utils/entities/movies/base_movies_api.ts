@@ -3164,7 +3164,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: "Dylan O'Brien",
       },
     ],
-    coverUrl: "https://s3.amazonaws.com/nightjarprod/wp-content/uploads/sites/16/2025/12/31151109/lNam8wi4bhzZ6U4wRb2T1nGsSix-scaled.jpg",
+    coverUrl: "/movies_pictures/bd03cbb4ab43.jpg",
     releaseDate: "2026-02-11",
     length: 113,
     genre: ['Horreur'],

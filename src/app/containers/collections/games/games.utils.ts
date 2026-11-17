@@ -1,7 +1,6 @@
 import { Game } from '../../../models/game-model';
 import {
   getGameFirstPlayedTimestamp,
-  getGameLastPlayedSortTimestamp,
   getGameLastPlayedTimestamp,
   getGameTimePlayed,
   isGameInProgress,
@@ -75,6 +74,33 @@ export const getDefaultGamesSortForView = (view: GameView): string => {
   }
   return 'rating';
 };
+
+/** Session terminée dont la dernière activité date de moins de deux mois. */
+function isFinishedWithinTwoMonths(game: Game, reference = new Date()): boolean {
+  if (isGameInProgress(game)) {
+    return false;
+  }
+  const lastPlayed = getGameLastPlayedTimestamp(game, reference);
+  if (!lastPlayed) {
+    return false;
+  }
+  const cutoff = new Date(reference);
+  cutoff.setMonth(cutoff.getMonth() - 2);
+  return lastPlayed >= cutoff.getTime();
+}
+
+/**
+ * 0 = session finie il y a moins de 2 mois, 1 = en cours, 2 = plus ancien.
+ */
+function lastPlayedRecencyRank(game: Game): number {
+  if (isFinishedWithinTwoMonths(game)) {
+    return 0;
+  }
+  if (isGameInProgress(game)) {
+    return 1;
+  }
+  return 2;
+}
 
 function compareGameTimestampsDesc(
   games: Game[],
@@ -162,11 +188,29 @@ export const getSortedGames = (games: Game[], selectedSort: string): Game[] => {
         return a.title.localeCompare(b.title);
       });
     case 'lastPlayedDate':
-      return compareGameTimestampsDesc(
-        games,
-        getGameLastPlayedSortTimestamp,
-        isGameInProgress
-      );
+      return games.sort((a, b) => {
+        const rankA = lastPlayedRecencyRank(a);
+        const rankB = lastPlayedRecencyRank(b);
+        if (rankA !== rankB) {
+          return rankA - rankB;
+        }
+
+        const ta = getGameLastPlayedTimestamp(a);
+        const tb = getGameLastPlayedTimestamp(b);
+        if (!ta && !tb) {
+          return a.title.localeCompare(b.title);
+        }
+        if (!ta) {
+          return 1;
+        }
+        if (!tb) {
+          return -1;
+        }
+        if (tb !== ta) {
+          return tb - ta;
+        }
+        return a.title.localeCompare(b.title);
+      });
     case 'lastPlayedDate-asc':
       return compareGameTimestampsAsc(games, getGameLastPlayedTimestamp);
     case 'firstPlayedDate':

@@ -85,7 +85,7 @@ export const guillaumeGames: UserGames = [
       platinedGame: false,
       additionnalEstimatedTime: 0,
       sessionStartDate: "",
-      sessionEndDate: "",
+      sessionEndDate: "2026-11-16",
       currentlyPlaying: false,
     },
 {
@@ -94,7 +94,7 @@ export const guillaumeGames: UserGames = [
       platinedGame: false,
       additionnalEstimatedTime: 0,
       sessionStartDate: "",
-      sessionEndDate: "",
+      sessionEndDate: "2026-11-16",
       currentlyPlaying: false,
     },
 {
@@ -103,7 +103,7 @@ export const guillaumeGames: UserGames = [
       platinedGame: false,
       additionnalEstimatedTime: 0,
       sessionStartDate: "",
-      sessionEndDate: "",
+      sessionEndDate: "2026-11-16",
       currentlyPlaying: false,
     },
 {
@@ -112,8 +112,17 @@ export const guillaumeGames: UserGames = [
       platinedGame: false,
       additionnalEstimatedTime: 0,
       sessionStartDate: "",
-      sessionEndDate: "",
+      sessionEndDate: "2026-11-16",
       currentlyPlaying: false,
+    },
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 15,
+      sessionStartDate: "2026-11-11",
+      sessionEndDate: "",
+      currentlyPlaying: true,
     }
     ],
   },

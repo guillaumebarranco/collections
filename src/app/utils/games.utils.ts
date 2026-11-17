@@ -237,20 +237,6 @@ export function getGameLastPlayedTimestamp(
   return max;
 }
 
-/**
- * Timestamp pour le tri « Derniers jeux joués récents » :
- * les jeux en cours comptent comme joués aujourd'hui.
- */
-export function getGameLastPlayedSortTimestamp(
-  game: GameForPlayedTimeStats,
-  reference = new Date()
-): number {
-  if (isGameInProgress(game)) {
-    return reference.getTime();
-  }
-  return getGameLastPlayedTimestamp(game, reference);
-}
-
 /** Date (YYYY-MM-DD) de la dernière session de jeu, pour affichage sur la card. */
 export function getGameLastSessionDateString(
   game: GameForPlayedTimeStats,
