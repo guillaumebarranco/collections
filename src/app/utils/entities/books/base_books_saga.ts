@@ -1181,8 +1181,7 @@ export const baseBooksSaga: BaseBook[] = [
   {
     title: 'Jumper',
     author: 'Steven Gould',
-    coverUrl:
-      '/books_pictures/29c157c3f8ce.jpg',
+    coverUrl: '/books_pictures/29c157c3f8ce.jpg',
     pages: 352,
     genre: ['Science Fiction'],
     saga: 'Jumper',
@@ -1196,8 +1195,7 @@ export const baseBooksSaga: BaseBook[] = [
   {
     title: 'Reflex',
     author: 'Steven Gould',
-    coverUrl:
-      '/books_pictures/96d5a0379c35.jpg',
+    coverUrl: '/books_pictures/96d5a0379c35.jpg',
     pages: 352,
     genre: ['Science Fiction'],
     saga: 'Jumper',
@@ -1211,8 +1209,7 @@ export const baseBooksSaga: BaseBook[] = [
   {
     title: 'Impulse',
     author: 'Steven Gould',
-    coverUrl:
-      '/books_pictures/58041d01a21b.jpg',
+    coverUrl: '/books_pictures/58041d01a21b.jpg',
     pages: 416,
     genre: ['Science Fiction'],
     saga: 'Jumper',
@@ -1226,8 +1223,7 @@ export const baseBooksSaga: BaseBook[] = [
   {
     title: 'Exo',
     author: 'Steven Gould',
-    coverUrl:
-      '/books_pictures/5f87224c28cb.jpg',
+    coverUrl: '/books_pictures/5f87224c28cb.jpg',
     pages: 400,
     genre: ['Science Fiction'],
     saga: 'Jumper',
@@ -1241,8 +1237,7 @@ export const baseBooksSaga: BaseBook[] = [
   {
     title: 'La 5ème Vague',
     author: 'Rick Yancey',
-    coverUrl:
-      '/books_pictures/d1fc2efdfa75.jpg',
+    coverUrl: '/books_pictures/d1fc2efdfa75.jpg',
     pages: 528,
     genre: ['Science Fiction'],
     saga: 'La 5ème Vague',
@@ -1256,8 +1251,7 @@ export const baseBooksSaga: BaseBook[] = [
   {
     title: 'La Mer infinie',
     author: 'Rick Yancey',
-    coverUrl:
-      '/books_pictures/f8a4cfd5b34b.jpg',
+    coverUrl: '/books_pictures/f8a4cfd5b34b.jpg',
     pages: 368,
     genre: ['Science Fiction'],
     saga: 'La 5ème Vague',
@@ -1354,10 +1348,24 @@ export const baseBooksSaga: BaseBook[] = [
     selectDisplayOrder: 20,
   },
   {
+    title: "Un palais d'harmonie brisée",
+    author: 'Sarah J. Maas',
+    coverUrl:
+      'https://cdn1.booknode.com/book_cover/6004/full/un-palais-depines-et-de-roses-tome-6-un-palais-dharmonie-brisee-6003735.jpg',
+    pages: 448,
+    genre: ['Fantasy'],
+    saga: "Un palais d'épines et de roses",
+    sagaOrder: 6,
+    sagaFinished: true,
+    releaseDate: '2026-10-28',
+    description: '',
+    countryOrigin: 'États-Unis',
+    selectDisplayOrder: 20,
+  },
+  {
     title: 'Jurassic Park',
     author: 'Michael Crichton',
-    coverUrl:
-      '/books_pictures/8630424db0d5.jpeg',
+    coverUrl: '/books_pictures/8630424db0d5.jpeg',
     pages: 448,
     genre: ['Science Fiction'],
     saga: 'Jurassic Park',
