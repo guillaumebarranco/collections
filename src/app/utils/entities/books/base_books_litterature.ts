@@ -74,7 +74,7 @@ export const baseBooksLitterature: BaseBook[] = [
   {
     title: 'Quatrevingt-treize',
     author: 'Victor Hugo',
-    coverUrl: '',
+    coverUrl: '/books_pictures/9f669632ec24.jpg',
     pages: 448,
     genre: ['Fiction historique'],
     saga: '',
@@ -88,7 +88,7 @@ export const baseBooksLitterature: BaseBook[] = [
   {
     title: 'Claude Gueux',
     author: 'Victor Hugo',
-    coverUrl: '',
+    coverUrl: '/books_pictures/789f27702bdc.jpg',
     pages: 64,
     genre: ['Littérature'],
     saga: '',
@@ -102,7 +102,8 @@ export const baseBooksLitterature: BaseBook[] = [
   {
     title: 'La Légende des siècles',
     author: 'Victor Hugo',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/104a1ed264be.jpeg',
     pages: 640,
     genre: ['Poésie'],
     saga: '',
@@ -116,7 +117,7 @@ export const baseBooksLitterature: BaseBook[] = [
   {
     title: 'La Dame de Monsoreau',
     author: 'Alexandre Dumas',
-    coverUrl: '',
+    coverUrl: '/books_pictures/a67cd382876d.jpg',
     pages: 640,
     genre: ['Fiction historique'],
     saga: '',
@@ -130,7 +131,7 @@ export const baseBooksLitterature: BaseBook[] = [
   {
     title: 'Les Quarante-Cinq',
     author: 'Alexandre Dumas',
-    coverUrl: '',
+    coverUrl: '/books_pictures/214b0c4a8362.jpg',
     pages: 640,
     genre: ['Fiction historique'],
     saga: '',
@@ -144,7 +145,7 @@ export const baseBooksLitterature: BaseBook[] = [
   {
     title: 'La Tulipe noire',
     author: 'Alexandre Dumas',
-    coverUrl: '',
+    coverUrl: '/books_pictures/ae69e2ff946c.jpg',
     pages: 256,
     genre: ['Aventure'],
     saga: '',
@@ -3411,7 +3412,8 @@ export const baseBooksLitterature: BaseBook[] = [
   {
     title: 'La Vie devant soi',
     author: 'Romain Gary',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/9b664523ef49.jpg',
     pages: 269,
     genre: ['Littérature'],
     saga: '',
@@ -7917,7 +7919,6 @@ export const baseBooksLitterature: BaseBook[] = [
     countryOrigin: 'France',
     selectDisplayOrder: 0,
   },
-
 
   {
     title: 'Soumission',

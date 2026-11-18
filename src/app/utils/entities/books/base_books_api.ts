@@ -126,7 +126,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: "L'Eau Dort",
     author: "Glen Cook",
-    coverUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm0GDTssuqnNzVl5vLPgtnNS8sUgIL5FZEv0rwTUi0wfJt59JniiXDrr60&s=10",
+    coverUrl: "/books_pictures/b2ccff9a9e84.jpg",
     pages: 547,
     genre: [],
     saga: "Les Annales de la Compagnie Noire",

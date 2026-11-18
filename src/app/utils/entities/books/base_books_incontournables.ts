@@ -5,7 +5,8 @@ export const baseBooksIncontournables: BaseBook[] = [
   {
     title: 'Le Silmarillion',
     author: 'J. R. R. Tolkien',
-    coverUrl: '',
+    coverUrl:
+      'https://cdn1.booknode.com/book_cover/5235/full/le-silmarillion-5234795.jpg',
     pages: 448,
     genre: ['Fantasy'],
     saga: '',
@@ -19,7 +20,8 @@ export const baseBooksIncontournables: BaseBook[] = [
   {
     title: 'Les Enfants de Húrin',
     author: 'J. R. R. Tolkien',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/712148a5a3dc.jpg',
     pages: 320,
     genre: ['Fantasy'],
     saga: '',
@@ -33,7 +35,8 @@ export const baseBooksIncontournables: BaseBook[] = [
   {
     title: 'Contes et légendes inachevés',
     author: 'J. R. R. Tolkien',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/bd6059c8aae9.png',
     pages: 512,
     genre: ['Fantasy'],
     saga: '',
@@ -47,7 +50,8 @@ export const baseBooksIncontournables: BaseBook[] = [
   {
     title: 'Le Fermier Gilles de Ham',
     author: 'J. R. R. Tolkien',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/80ab9bc9f5f7.jpg',
     pages: 80,
     genre: ['Fantasy', 'Conte'],
     saga: '',
@@ -59,23 +63,10 @@ export const baseBooksIncontournables: BaseBook[] = [
     selectDisplayOrder: 0,
   },
   {
-    title: 'Les Animaux fantastiques',
-    author: 'J. K. Rowling',
-    coverUrl: '',
-    pages: 128,
-    genre: ['Fantasy', 'Jeunesse'],
-    saga: '',
-    sagaOrder: 0,
-    sagaFinished: false,
-    releaseDate: '2001-01-01',
-    description: '',
-    countryOrigin: 'Royaume-Uni',
-    selectDisplayOrder: 0,
-  },
-  {
     title: 'Quidditch à travers les âges',
     author: 'J. K. Rowling',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/3c2a43593896.jpg',
     pages: 96,
     genre: ['Fantasy', 'Jeunesse'],
     saga: '',
@@ -89,7 +80,8 @@ export const baseBooksIncontournables: BaseBook[] = [
   {
     title: 'Les Contes de Beedle le Barde',
     author: 'J. K. Rowling',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/54e8a81b50fd.jpg',
     pages: 128,
     genre: ['Fantasy', 'Conte'],
     saga: '',
@@ -103,7 +95,8 @@ export const baseBooksIncontournables: BaseBook[] = [
   {
     title: 'Onze Minutes',
     author: 'Paulo Coelho',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/9ac046e259e1.jpg',
     pages: 288,
     genre: ['Fiction'],
     saga: '',
@@ -117,7 +110,8 @@ export const baseBooksIncontournables: BaseBook[] = [
   {
     title: 'Le Zahir',
     author: 'Paulo Coelho',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/e049458d7788.jpg',
     pages: 320,
     genre: ['Fiction'],
     saga: '',
@@ -131,7 +125,8 @@ export const baseBooksIncontournables: BaseBook[] = [
   {
     title: 'La Solitude du vainqueur',
     author: 'Paulo Coelho',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/7ce3cd4bb0e8.jpg',
     pages: 256,
     genre: ['Fiction'],
     saga: '',
@@ -145,7 +140,8 @@ export const baseBooksIncontournables: BaseBook[] = [
   {
     title: "Si c'est un homme",
     author: 'Primo Levi',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/454e055b9735.jpg',
     pages: 224,
     genre: ['Nonfiction', 'Biographie'],
     saga: '',
@@ -159,7 +155,8 @@ export const baseBooksIncontournables: BaseBook[] = [
   {
     title: 'La Trêve',
     author: 'Primo Levi',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/f1b8a407f382.jpg',
     pages: 256,
     genre: ['Nonfiction', 'Biographie'],
     saga: '',
@@ -173,7 +170,8 @@ export const baseBooksIncontournables: BaseBook[] = [
   {
     title: 'Le Système périodique',
     author: 'Primo Levi',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/af38b4678653.jpeg',
     pages: 256,
     genre: ['Nonfiction'],
     saga: '',
@@ -187,7 +185,7 @@ export const baseBooksIncontournables: BaseBook[] = [
   {
     title: 'Les Naufragés et les Rescapés',
     author: 'Primo Levi',
-    coverUrl: '',
+    coverUrl: '/books_pictures/88d8744abf09.jpg',
     pages: 192,
     genre: ['Nonfiction'],
     saga: '',
@@ -201,7 +199,8 @@ export const baseBooksIncontournables: BaseBook[] = [
   {
     title: 'La Nuit',
     author: 'Elie Wiesel',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/bf05e2276756.jpg',
     pages: 160,
     genre: ['Nonfiction', 'Biographie'],
     saga: '',
@@ -215,7 +214,7 @@ export const baseBooksIncontournables: BaseBook[] = [
   {
     title: "L'Aube",
     author: 'Elie Wiesel',
-    coverUrl: '',
+    coverUrl: '/books_pictures/5e95c1eb2b3c.jpg',
     pages: 128,
     genre: ['Littérature'],
     saga: '',
@@ -229,7 +228,7 @@ export const baseBooksIncontournables: BaseBook[] = [
   {
     title: 'Le Jour',
     author: 'Elie Wiesel',
-    coverUrl: '',
+    coverUrl: '/books_pictures/957aa98bd53e.jpg',
     pages: 128,
     genre: ['Littérature'],
     saga: '',
@@ -243,7 +242,8 @@ export const baseBooksIncontournables: BaseBook[] = [
   {
     title: "L'Espèce humaine",
     author: 'Robert Antelme',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/289b2c15195c.jpg',
     pages: 320,
     genre: ['Nonfiction'],
     saga: '',
@@ -257,7 +257,8 @@ export const baseBooksIncontournables: BaseBook[] = [
   {
     title: 'Marie-Antoinette',
     author: 'Stefan Zweig',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/aedf3a35ba46.jpg',
     pages: 512,
     genre: ['Biographie'],
     saga: '',
@@ -271,7 +272,8 @@ export const baseBooksIncontournables: BaseBook[] = [
   {
     title: 'Magellan',
     author: 'Stefan Zweig',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/0924f58f25ac.jpeg',
     pages: 320,
     genre: ['Biographie'],
     saga: '',
@@ -285,7 +287,8 @@ export const baseBooksIncontournables: BaseBook[] = [
   {
     title: 'Érasme',
     author: 'Stefan Zweig',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/be30c071dea7.jpeg',
     pages: 192,
     genre: ['Biographie'],
     saga: '',
@@ -299,7 +302,8 @@ export const baseBooksIncontournables: BaseBook[] = [
   {
     title: 'Fouché',
     author: 'Stefan Zweig',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/8d43b164832e.jpeg',
     pages: 256,
     genre: ['Biographie'],
     saga: '',
@@ -313,7 +317,8 @@ export const baseBooksIncontournables: BaseBook[] = [
   {
     title: 'Balzac',
     author: 'Stefan Zweig',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/ccf3fd97ee73.jpeg',
     pages: 448,
     genre: ['Biographie'],
     saga: '',
@@ -327,7 +332,8 @@ export const baseBooksIncontournables: BaseBook[] = [
   {
     title: 'Le Pendule de Foucault',
     author: 'Umberto Eco',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/99acaee942d7.jpg',
     pages: 640,
     genre: ['Thriller'],
     saga: '',
@@ -341,7 +347,8 @@ export const baseBooksIncontournables: BaseBook[] = [
   {
     title: 'Baudolino',
     author: 'Umberto Eco',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/146f3dcaacdf.jpeg',
     pages: 544,
     genre: ['Fiction historique'],
     saga: '',
@@ -355,7 +362,8 @@ export const baseBooksIncontournables: BaseBook[] = [
   {
     title: "L'Île du jour d'avant",
     author: 'Umberto Eco',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/30327c7c489a.jpeg',
     pages: 480,
     genre: ['Fiction historique'],
     saga: '',
@@ -369,7 +377,8 @@ export const baseBooksIncontournables: BaseBook[] = [
   {
     title: 'Le Cimetière de Prague',
     author: 'Umberto Eco',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/6454386a420b.jpeg',
     pages: 544,
     genre: ['Fiction historique'],
     saga: '',
@@ -383,7 +392,8 @@ export const baseBooksIncontournables: BaseBook[] = [
   {
     title: 'Numéro zéro',
     author: 'Umberto Eco',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/d9dc167a9abb.jpeg',
     pages: 224,
     genre: ['Thriller'],
     saga: '',
@@ -397,7 +407,8 @@ export const baseBooksIncontournables: BaseBook[] = [
   {
     title: "Chronique d'une mort annoncée",
     author: 'Gabriel García Márquez',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/55aca27dfb2f.jpeg',
     pages: 128,
     genre: ['Littérature'],
     saga: '',
@@ -411,7 +422,8 @@ export const baseBooksIncontournables: BaseBook[] = [
   {
     title: "L'Automne du patriarche",
     author: 'Gabriel García Márquez',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/df57f86ffe6e.jpeg',
     pages: 288,
     genre: ['Littérature'],
     saga: '',
@@ -425,7 +437,8 @@ export const baseBooksIncontournables: BaseBook[] = [
   {
     title: 'Pas de lettre pour le colonel',
     author: 'Gabriel García Márquez',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/765462c75a48.jpg',
     pages: 96,
     genre: ['Littérature'],
     saga: '',

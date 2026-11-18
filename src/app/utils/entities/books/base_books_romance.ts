@@ -33,7 +33,8 @@ export const baseBooksRomance: BaseBook[] = [
   {
     title: 'Mansfield Park',
     author: 'Jane Austen',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/b900ad0428c6.png',
     pages: 512,
     genre: ['Romance'],
     saga: '',
@@ -47,7 +48,8 @@ export const baseBooksRomance: BaseBook[] = [
   {
     title: 'Northanger Abbey',
     author: 'Jane Austen',
-    coverUrl: '',
+    coverUrl:
+      'https://almabooks.com/wp-content/uploads/2016/10/9781847496249.jpg',
     pages: 288,
     genre: ['Romance'],
     saga: '',
@@ -1256,7 +1258,6 @@ export const baseBooksRomance: BaseBook[] = [
     countryOrigin: 'France',
     selectDisplayOrder: 0,
   },
-
 
   {
     title: 'John',

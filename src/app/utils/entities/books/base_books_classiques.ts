@@ -89,7 +89,8 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: 'Le Grand Meaulnes',
     author: 'Alain-Fournier',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/7be9d0d7d8d3.jpeg',
     pages: 256,
     genre: ['Classiques', 'Littérature'],
     saga: '',
@@ -117,7 +118,8 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: "L'Envers et l'Endroit",
     author: 'Albert Camus',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/1013abf3cf5e.jpg',
     pages: 96,
     genre: ['Classiques', 'Littérature'],
     saga: '',
@@ -131,7 +133,8 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: 'Noces',
     author: 'Albert Camus',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/a2abbd911d80.jpg',
     pages: 96,
     genre: ['Classiques', 'Littérature'],
     saga: '',
@@ -145,7 +148,7 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: 'Caligula',
     author: 'Albert Camus',
-    coverUrl: '',
+    coverUrl: '/books_pictures/27aab720e114.jpg',
     pages: 128,
     genre: ['Classiques', 'Théâtre'],
     saga: '',
@@ -173,7 +176,8 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: 'Les Justes',
     author: 'Albert Camus',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/8fc085a2d71f.jpg',
     pages: 160,
     genre: ['Classiques', 'Théâtre'],
     saga: '',
@@ -187,7 +191,8 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: "L'Homme révolté",
     author: 'Albert Camus',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/059065fb95d7.jpg',
     pages: 384,
     genre: ['Classiques', 'Nonfiction'],
     saga: '',
@@ -201,7 +206,8 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: 'La Chute',
     author: 'Albert Camus',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/99cf5e4b95f8.jpg',
     pages: 160,
     genre: ['Classiques', 'Littérature'],
     saga: '',
