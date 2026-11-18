@@ -122,4 +122,19 @@ export const baseBooksApi: BaseBook[] = [
     countryOrigin: 'France',
     selectDisplayOrder: 0,
   },
+
+  {
+    title: "L'Eau Dort",
+    author: "Glen Cook",
+    coverUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm0GDTssuqnNzVl5vLPgtnNS8sUgIL5FZEv0rwTUi0wfJt59JniiXDrr60&s=10",
+    pages: 547,
+    genre: [],
+    saga: "Les Annales de la Compagnie Noire",
+    sagaOrder: 9,
+    sagaFinished: true,
+    releaseDate: "1999-03-01",
+    description: "",
+    countryOrigin: "États-Unis",
+    selectDisplayOrder: 0,
+  },
 ];

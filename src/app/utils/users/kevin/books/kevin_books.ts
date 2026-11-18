@@ -2345,4 +2345,22 @@ export const kevinBooks: UserBooks = [
       "Ce livre est génial à plusieurs égards. \nLe premier point positif, c'est Murgen. Il a accès à un nombre impressionnant d'informations sans pour autant les comprendre, ce qui nous pousse à chercher à démêler le vrai du faux dans une enquête passionnante.\nLe second point concerne l'intrigue générale. Le livre est très rythmé, plein de retournements de situations (que ce soit sur des champs de batailles ou au cœur du pouvoir ennemi, ou même dans le tout dernier chapitre où toutes nos questions trouvent réponse tout en soulevant un panel de nouvelles interrogations).\nLe troisième point concerne enfin les personnages. Qu'il s'agisse de \"1000 Voies\", des personnages principaux comme Murgen qui amène humour et espoir à l'œuvre ou qu'il s'agisse de personnages plus secondaires comme Thaï Dei ou Roupille...\n Une très belle lecture qui se fini en beauté.",
     quotes: [],
   },
+
+  {
+    title: "L'Eau Dort",
+    author: "Glen Cook",
+    firstReadDate: "2026-11-17",
+    lastReadDate: "2026-11-17",
+    otherReadDates: [],
+    rating: 4,
+    reading: false,
+    readTimes: 1,
+    owned: true,
+    borrowed: "",
+    loaned: "",
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: "Nous avons une nouvelle fois droit à un changement d'annaliste. Cette fois-ci, la transition est très bien amené, créant une certaine attente. Le début du tome est passionnant à lire. Beaucoup de choses ont changées, et cela amène un certain renouveau. La situation politique / de guérilla est particulièrement bien écrite. Une bonne partie des actions de la plaine est dure à lire, manquant de rythme et de clarté, sans empêcher la fin du tome de nous rattraper au vol avec un flot de mystères résolus. La conclusion approche, et elle fait aussi peur qu'envie.",
+    quotes: [],
+  },
 ];

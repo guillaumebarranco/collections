@@ -116,13 +116,13 @@ export const guillaumeGames: UserGames = [
       currentlyPlaying: false,
     },
 {
-      finishedGame: false,
+      finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
-      additionnalEstimatedTime: 15,
+      additionnalEstimatedTime: 0,
       sessionStartDate: "2026-11-11",
-      sessionEndDate: "",
-      currentlyPlaying: true,
+      sessionEndDate: "2026-11-17",
+      currentlyPlaying: false,
     }
     ],
   },

@@ -2124,4 +2124,22 @@ export const guillaumeBooks: UserBooks = [
     ratingComment: "",
     quotes: [],
   },
+
+  {
+    title: "The Way I Used to Be",
+    author: "Amber Smith",
+    firstReadDate: "2026-11-17",
+    lastReadDate: "2026-11-17",
+    otherReadDates: [],
+    rating: 4.5,
+    reading: false,
+    readTimes: 1,
+    owned: true,
+    borrowed: "",
+    loaned: "",
+    readPriority: 3,
+    wantToReadAgain: false,
+    ratingComment: "",
+    quotes: [],
+  },
 ];
