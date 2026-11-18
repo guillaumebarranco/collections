@@ -89,8 +89,7 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: 'Le Grand Meaulnes',
     author: 'Alain-Fournier',
-    coverUrl:
-      '/books_pictures/7be9d0d7d8d3.jpeg',
+    coverUrl: '/books_pictures/7be9d0d7d8d3.jpeg',
     pages: 256,
     genre: ['Classiques', 'Littérature'],
     saga: '',
@@ -118,8 +117,7 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: "L'Envers et l'Endroit",
     author: 'Albert Camus',
-    coverUrl:
-      '/books_pictures/1013abf3cf5e.jpg',
+    coverUrl: '/books_pictures/1013abf3cf5e.jpg',
     pages: 96,
     genre: ['Classiques', 'Littérature'],
     saga: '',
@@ -133,8 +131,7 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: 'Noces',
     author: 'Albert Camus',
-    coverUrl:
-      '/books_pictures/a2abbd911d80.jpg',
+    coverUrl: '/books_pictures/a2abbd911d80.jpg',
     pages: 96,
     genre: ['Classiques', 'Littérature'],
     saga: '',
@@ -176,8 +173,7 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: 'Les Justes',
     author: 'Albert Camus',
-    coverUrl:
-      '/books_pictures/8fc085a2d71f.jpg',
+    coverUrl: '/books_pictures/8fc085a2d71f.jpg',
     pages: 160,
     genre: ['Classiques', 'Théâtre'],
     saga: '',
@@ -191,8 +187,7 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: "L'Homme révolté",
     author: 'Albert Camus',
-    coverUrl:
-      '/books_pictures/059065fb95d7.jpg',
+    coverUrl: '/books_pictures/059065fb95d7.jpg',
     pages: 384,
     genre: ['Classiques', 'Nonfiction'],
     saga: '',
@@ -206,8 +201,7 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: 'La Chute',
     author: 'Albert Camus',
-    coverUrl:
-      '/books_pictures/99cf5e4b95f8.jpg',
+    coverUrl: '/books_pictures/99cf5e4b95f8.jpg',
     pages: 160,
     genre: ['Classiques', 'Littérature'],
     saga: '',
@@ -221,7 +215,8 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: "L'Exil et le Royaume",
     author: 'Albert Camus',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/3734d8f9c151.jpg',
     pages: 192,
     genre: ['Classiques', 'Littérature'],
     saga: '',
@@ -235,7 +230,8 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: 'Le Premier Homme',
     author: 'Albert Camus',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/45a1b11ac497.jpg',
     pages: 320,
     genre: ['Classiques', 'Littérature'],
     saga: '',
@@ -263,7 +259,8 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: 'Contrepoint',
     author: 'Aldous Huxley',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/aa46c31a9271.jpg',
     pages: 448,
     genre: ['Classiques', 'Littérature'],
     saga: '',
@@ -291,7 +288,7 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: 'La Paix des profondeurs',
     author: 'Aldous Huxley',
-    coverUrl: '',
+    coverUrl: '/books_pictures/4919eb869a12.jpg',
     pages: 288,
     genre: ['Classiques', 'Littérature'],
     saga: '',
@@ -303,23 +300,10 @@ export const baseBooksClassiques: BaseBook[] = [
     selectDisplayOrder: 0,
   },
   {
-    title: 'Jouvence',
-    author: 'Aldous Huxley',
-    coverUrl: '',
-    pages: 320,
-    genre: ['Classiques', 'Science Fiction'],
-    saga: '',
-    sagaOrder: 0,
-    sagaFinished: false,
-    releaseDate: '1939-01-01',
-    description: '',
-    countryOrigin: 'Royaume-Uni',
-    selectDisplayOrder: 0,
-  },
-  {
     title: 'Les Portes de la perception',
     author: 'Aldous Huxley',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/1b1e346adf59.jpg',
     pages: 96,
     genre: ['Classiques', 'Nonfiction'],
     saga: '',
@@ -333,7 +317,8 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: 'Île',
     author: 'Aldous Huxley',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/1096064704a2.jpg',
     pages: 384,
     genre: ['Classiques', 'Science Fiction'],
     saga: '',
@@ -445,7 +430,8 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: 'Les Caprices de Marianne',
     author: 'Alfred de Musset',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/75f1c82681a1.jpg',
     pages: 112,
     genre: ['Classiques', 'Théâtre'],
     saga: '',
@@ -459,7 +445,8 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: 'Fantasio',
     author: 'Alfred de Musset',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/5fd479077e7a.jpg',
     pages: 96,
     genre: ['Classiques', 'Théâtre'],
     saga: '',
@@ -473,7 +460,8 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: 'Lorenzaccio',
     author: 'Alfred de Musset',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/595ddfdf00eb.jpg',
     pages: 224,
     genre: ['Classiques', 'Théâtre'],
     saga: '',
@@ -487,7 +475,8 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: "On ne badine pas avec l'amour",
     author: 'Alfred de Musset',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/ffd37e3e769e.jpg',
     pages: 128,
     genre: ['Classiques', 'Théâtre'],
     saga: '',
@@ -501,7 +490,8 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: 'Il ne faut jurer de rien',
     author: 'Alfred de Musset',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/599f01f12708.jpeg',
     pages: 96,
     genre: ['Classiques', 'Théâtre'],
     saga: '',
@@ -515,7 +505,8 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: "La Confession d'un enfant du siècle",
     author: 'Alfred de Musset',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/7576508d2a82.jpeg',
     pages: 352,
     genre: ['Classiques', 'Littérature'],
     saga: '',
@@ -527,23 +518,9 @@ export const baseBooksClassiques: BaseBook[] = [
     selectDisplayOrder: 0,
   },
   {
-    title: 'Les Nourritures terrestres',
-    author: 'André Gide',
-    coverUrl: '',
-    pages: 192,
-    genre: ['Classiques', 'Littérature'],
-    saga: '',
-    sagaOrder: 0,
-    sagaFinished: false,
-    releaseDate: '1897-01-01',
-    description: '',
-    countryOrigin: 'France',
-    selectDisplayOrder: 0,
-  },
-  {
     title: "L'Immoraliste",
     author: 'André Gide',
-    coverUrl: '',
+    coverUrl: '/books_pictures/15eecffd36bd.jpg',
     pages: 160,
     genre: ['Classiques', 'Littérature'],
     saga: '',
@@ -557,7 +534,8 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: 'La Porte étroite',
     author: 'André Gide',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/a4c76a4bfeb8.jpg',
     pages: 160,
     genre: ['Classiques', 'Littérature'],
     saga: '',
@@ -571,7 +549,8 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: 'Les Caves du Vatican',
     author: 'André Gide',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/a4e536d83c7e.jpg',
     pages: 256,
     genre: ['Classiques', 'Littérature'],
     saga: '',
@@ -585,7 +564,8 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: 'La Symphonie pastorale',
     author: 'André Gide',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/527ee655ee5a.jpg',
     pages: 128,
     genre: ['Classiques', 'Littérature'],
     saga: '',
@@ -599,7 +579,7 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: 'Les Faux-Monnayeurs',
     author: 'André Gide',
-    coverUrl: '',
+    coverUrl: '/books_pictures/97b3c47dd7f9.jpg',
     pages: 416,
     genre: ['Classiques', 'Littérature'],
     saga: '',
@@ -613,7 +593,7 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: 'Si le grain ne meurt',
     author: 'André Gide',
-    coverUrl: '',
+    coverUrl: '/books_pictures/a8a08aef785d.jpg',
     pages: 384,
     genre: ['Classiques', 'Biographie'],
     saga: '',
@@ -627,7 +607,8 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: 'Les Conquérants',
     author: 'André Malraux',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/a33ee8596b6a.jpg',
     pages: 224,
     genre: ['Classiques', 'Littérature'],
     saga: '',
@@ -641,7 +622,8 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: 'La Voie royale',
     author: 'André Malraux',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/ce86bbfdae7a.jpeg',
     pages: 224,
     genre: ['Classiques', 'Aventure'],
     saga: '',
@@ -655,7 +637,8 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: 'La Condition humaine',
     author: 'André Malraux',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/6d7d23ee9bd8.jpg',
     pages: 352,
     genre: ['Classiques', 'Littérature'],
     saga: '',
@@ -669,7 +652,7 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: "L'Espoir",
     author: 'André Malraux',
-    coverUrl: '',
+    coverUrl: '/books_pictures/6f6dceaf8da5.jpg',
     pages: 512,
     genre: ['Classiques', 'Fiction historique'],
     saga: '',
@@ -784,7 +767,8 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: 'Courrier sud',
     author: 'Antoine de Saint-Exupéry',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/289df30dec36.jpg',
     pages: 160,
     genre: ['Classiques', 'Littérature'],
     saga: '',
@@ -798,7 +782,8 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: 'Vol de nuit',
     author: 'Antoine de Saint-Exupéry',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/053e1c5472cf.jpg',
     pages: 160,
     genre: ['Classiques', 'Littérature'],
     saga: '',
@@ -812,7 +797,7 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: 'Terre des hommes',
     author: 'Antoine de Saint-Exupéry',
-    coverUrl: '',
+    coverUrl: '/books_pictures/5136440afe96.jpg',
     pages: 224,
     genre: ['Classiques', 'Nonfiction'],
     saga: '',
@@ -826,7 +811,8 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: 'Pilote de guerre',
     author: 'Antoine de Saint-Exupéry',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/5cd18a813909.jpg',
     pages: 192,
     genre: ['Classiques', 'Nonfiction'],
     saga: '',
@@ -854,7 +840,7 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: 'Lettre à un otage',
     author: 'Antoine de Saint-Exupéry',
-    coverUrl: '',
+    coverUrl: '/books_pictures/2ce9e741588d.jpg',
     pages: 64,
     genre: ['Classiques', 'Nonfiction'],
     saga: '',
@@ -868,7 +854,7 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: 'Citadelle',
     author: 'Antoine de Saint-Exupéry',
-    coverUrl: '',
+    coverUrl: '/books_pictures/8d200d13987e.jpg',
     pages: 512,
     genre: ['Classiques', 'Littérature'],
     saga: '',
@@ -882,7 +868,8 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: 'Les Grenouilles',
     author: 'Aristophane',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/80f5d5070504.jpg',
     pages: 96,
     genre: ['Classiques', 'Théâtre'],
     saga: '',
@@ -896,7 +883,8 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: 'Les Oiseaux',
     author: 'Aristophane',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/7d77473a1a6e.webp',
     pages: 112,
     genre: ['Classiques', 'Théâtre'],
     saga: '',
@@ -910,7 +898,8 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: 'Lysistrata',
     author: 'Aristophane',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/199fb8e5ddbf.png',
     pages: 80,
     genre: ['Classiques', 'Théâtre'],
     saga: '',
@@ -994,7 +983,8 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: 'Illuminations',
     author: 'Arthur Rimbaud',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/9af0d997036e.jpeg',
     pages: 128,
     genre: ['Classiques', 'Poésie'],
     saga: '',
@@ -1008,7 +998,8 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: 'Poésies',
     author: 'Arthur Rimbaud',
-    coverUrl: '',
+    coverUrl:
+      'https://cdn1.booknode.com/book_cover/5686/full/poesies-5685644.jpg',
     pages: 160,
     genre: ['Classiques', 'Poésie'],
     saga: '',
@@ -1022,7 +1013,8 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: 'La Mère coupable',
     author: 'Beaumarchais',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/c7a54291c5b0.jpg',
     pages: 192,
     genre: ['Classiques', 'Théâtre'],
     saga: '',
@@ -1051,7 +1043,8 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: 'Adolphe',
     author: 'Benjamin Constant',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/468c2019b678.jpeg',
     pages: 128,
     genre: ['Classiques', 'Littérature'],
     saga: '',
@@ -1065,7 +1058,8 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: 'Paul et Virginie',
     author: 'Bernardin de Saint-Pierre',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/9f2fc6e6179a.jpeg',
     pages: 224,
     genre: ['Classiques', 'Littérature'],
     saga: '',
@@ -1124,7 +1118,8 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: "J'irai cracher sur vos tombes",
     author: 'Boris Vian',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/e86b6f572d02.jpeg',
     pages: 224,
     genre: ['Classiques', 'Thriller'],
     saga: '',
@@ -1138,7 +1133,7 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: 'Vercoquin et le Plancton',
     author: 'Boris Vian',
-    coverUrl: '',
+    coverUrl: '/books_pictures/f23c12f8dbb4.jpg',
     pages: 224,
     genre: ['Classiques', 'Littérature'],
     saga: '',
@@ -1152,7 +1147,8 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: "L'Automne à Pékin",
     author: 'Boris Vian',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/1b895e899062.jpeg',
     pages: 256,
     genre: ['Classiques', 'Littérature'],
     saga: '',
@@ -1180,7 +1176,8 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: "L'Herbe rouge",
     author: 'Boris Vian',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/542ad3bf93fb.jpeg',
     pages: 192,
     genre: ['Classiques', 'Littérature'],
     saga: '',
@@ -1194,7 +1191,8 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: "L'Arrache-cœur",
     author: 'Boris Vian',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/5fee233e0d86.jpg',
     pages: 224,
     genre: ['Classiques', 'Littérature'],
     saga: '',
@@ -1236,7 +1234,8 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: 'Les Paradis artificiels',
     author: 'Charles Baudelaire',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/305f8099c322.jpeg',
     pages: 192,
     genre: ['Classiques', 'Nonfiction'],
     saga: '',
@@ -1250,7 +1249,7 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: 'Le Spleen de Paris',
     author: 'Charles Baudelaire',
-    coverUrl: '',
+    coverUrl: '/books_pictures/cbec3a02cdbc.jpg',
     pages: 176,
     genre: ['Classiques', 'Poésie'],
     saga: '',
@@ -1264,7 +1263,8 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: 'Les Papiers posthumes du Pickwick Club',
     author: 'Charles Dickens',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/72c9814afd87.jpg',
     pages: 800,
     genre: ['Classiques', 'Littérature'],
     saga: '',
@@ -1292,7 +1292,8 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: 'Nicholas Nickleby',
     author: 'Charles Dickens',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/99e24a10423e.jpg',
     pages: 832,
     genre: ['Classiques', 'Littérature'],
     saga: '',
@@ -1306,7 +1307,8 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: 'Barnaby Rudge',
     author: 'Charles Dickens',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/4a90b2cb6f73.jpg',
     pages: 704,
     genre: ['Classiques', 'Fiction historique'],
     saga: '',
@@ -1320,7 +1322,8 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: "Le Magasin d'antiquités",
     author: 'Charles Dickens',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/75eac5325661.jpg',
     pages: 640,
     genre: ['Classiques', 'Littérature'],
     saga: '',
@@ -1349,7 +1352,8 @@ export const baseBooksClassiques: BaseBook[] = [
   {
     title: 'Martin Chuzzlewit',
     author: 'Charles Dickens',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/8f051acba0cf.jpg',
     pages: 832,
     genre: ['Classiques', 'Littérature'],
     saga: '',
@@ -1361,23 +1365,9 @@ export const baseBooksClassiques: BaseBook[] = [
     selectDisplayOrder: 0,
   },
   {
-    title: 'Dombey et Fils',
-    author: 'Charles Dickens',
-    coverUrl: '',
-    pages: 880,
-    genre: ['Classiques', 'Littérature'],
-    saga: '',
-    sagaOrder: 0,
-    sagaFinished: false,
-    releaseDate: '1848-01-01',
-    description: '',
-    countryOrigin: 'Royaume-Uni',
-    selectDisplayOrder: 0,
-  },
-  {
     title: 'David Copperfield',
     author: 'Charles Dickens',
-    coverUrl: '',
+    coverUrl: '/books_pictures/df7c3a43bad6.jpg',
     pages: 896,
     genre: ['Classiques', 'Littérature'],
     saga: '',

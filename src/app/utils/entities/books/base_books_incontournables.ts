@@ -6,7 +6,7 @@ export const baseBooksIncontournables: BaseBook[] = [
     title: 'Le Silmarillion',
     author: 'J. R. R. Tolkien',
     coverUrl:
-      'https://cdn1.booknode.com/book_cover/5235/full/le-silmarillion-5234795.jpg',
+      '/books_pictures/946ff47a5ed4.jpg',
     pages: 448,
     genre: ['Fantasy'],
     saga: '',
