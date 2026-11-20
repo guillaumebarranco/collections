@@ -253,7 +253,7 @@
       <div class="quote-row">
         <textarea
           rows="6"
-          [ngModel]="quote"
+          [ngModel]="quote.quoteText"
           (ngModelChange)="updateQuote($index, $event)"
           [name]="'quote-' + $index"
           placeholder="Citation"

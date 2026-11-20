@@ -13,6 +13,7 @@ const {
   baseBookExists,
   BASE_BOOKS_API_FILE,
 } = require('../../utils/books/books-utils');
+const { formatQuotesTs } = require('../../utils/quotes/quotes-utils');
 
 const router = express.Router();
 
@@ -54,11 +55,7 @@ function formatUserBook(user: any): string {
     readPriority: ${user.readPriority ?? 1},
     wantToReadAgain: ${user.wantToReadAgain ?? false},
     ratingComment: "${escapeString(user.ratingComment ?? '')}",
-    quotes: ${formatOtherReadDatesTs(
-      Array.isArray(user.quotes)
-        ? user.quotes.filter((quote: unknown) => typeof quote === 'string' && quote.trim())
-        : []
-    )},
+    quotes: ${formatQuotesTs(user.quotes)},
   },`;
 }
 

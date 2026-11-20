@@ -14,6 +14,7 @@ const {
 } = require('../../utils/movies/movies-utils');
 const { normalizeWatchPriority } = require('../../utils/watch-priority-utils');
 const { isAdminUser, loadUsers } = require('../../utils/users/users-utils');
+const { normalizeQuotes } = require('../../utils/quotes/quotes-utils');
 
 /** Payload passé à updateMovieInFile (champs optionnels seulement si présents dans le body). */
 interface SaveMovieUserPayload {
@@ -32,7 +33,7 @@ interface SaveMovieUserPayload {
   inList?: string[];
   borrowed?: string;
   loaned?: string;
-  quotes?: string[];
+  quotes?: { quoteText: string; lastUpdated: string }[];
 }
 
 const router = express.Router();
@@ -90,9 +91,7 @@ router.post('/', (req: any, res: any) => {
       );
     }
     if (Array.isArray(input.quotes)) {
-      payload.quotes = input.quotes
-        .filter((quote: unknown) => typeof quote === 'string' && quote.trim())
-        .map((quote: string) => quote.trim());
+      payload.quotes = normalizeQuotes(input.quotes);
     }
 
     const entityPayload = input.entity || null;

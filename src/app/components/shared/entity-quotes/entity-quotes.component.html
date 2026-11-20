@@ -5,10 +5,10 @@
     #firstQuote
     class="entity-quotes__item"
     [class.entity-quotes__item--clamped]="!quotesExpanded()"
-  >{{ formatQuote(quotes()[0]) }}</blockquote>
+  >{{ formatQuote(quotes()[0]) }}<span class="entity-quotes__date">{{ formatQuoteDate(quotes()[0]) }}</span></blockquote>
   @if (quotesExpanded()) {
   @for (quote of quotes().slice(1); track $index) {
-  <blockquote class="entity-quotes__item">{{ formatQuote(quote) }}</blockquote>
+  <blockquote class="entity-quotes__item">{{ formatQuote(quote) }}<span class="entity-quotes__date">{{ formatQuoteDate(quote) }}</span></blockquote>
   } } @if (quotes().length > 1 || firstQuoteOverflows()) {
   <button
     type="button"

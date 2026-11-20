@@ -1,3 +1,5 @@
+import type { EntityQuote } from './entity-quote.model';
+
 export interface MandatoryMusicData {
   title: string;
   artist: string;
@@ -15,7 +17,7 @@ export interface UserMusic extends MandatoryMusicData {
   rating: number;
   timesListened: number;
   /** Citations extraites du morceau. */
-  quotes: string[];
+  quotes: EntityQuote[];
 }
 
 export type UserMusics = UserMusic[];

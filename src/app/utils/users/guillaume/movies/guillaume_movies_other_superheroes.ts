@@ -322,7 +322,12 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: "2026-11-10T15:01",
-    quotes: ["Être remarquable ne suffit pas jeune homme, il faut travailler dur. L'intelligence n'est pas un privilège, c'est un don. On doit le mettre au service de l'humanité."],
+    quotes: [
+      {
+        quoteText: "Être remarquable ne suffit pas jeune homme, il faut travailler dur. L'intelligence n'est pas un privilège, c'est un don. On doit le mettre au service de l'humanité.",
+        lastUpdated: "2026-11-20T17:22",
+      },
+    ],
   },
   {
     title: 'Spider-Man 3',

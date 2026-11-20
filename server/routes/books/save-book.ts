@@ -12,6 +12,7 @@ const {
   getUserReadlistBooksFiles,
 } = require('../../utils/books/books-utils');
 const { isAdminUser, loadUsers } = require('../../utils/users/users-utils');
+const { normalizeQuotes } = require('../../utils/quotes/quotes-utils');
 
 /** Payload passé à updateBookInFile (champs optionnels seulement si présents dans le body). */
 interface SaveBookUserPayload {
@@ -29,7 +30,7 @@ interface SaveBookUserPayload {
   readPriority: number | undefined;
   wantToReadAgain: boolean;
   ratingComment: string;
-  quotes?: string[];
+  quotes?: { quoteText: string; lastUpdated: string }[];
 }
 
 const router = express.Router();
@@ -79,9 +80,7 @@ router.post('/', (req: any, res: any) => {
     }
 
     if (Array.isArray(input.quotes)) {
-      payload.quotes = input.quotes
-        .filter((quote: unknown) => typeof quote === 'string' && quote.trim())
-        .map((quote: string) => quote.trim());
+      payload.quotes = normalizeQuotes(input.quotes);
     }
 
     const entityPayload = input.entity || null;

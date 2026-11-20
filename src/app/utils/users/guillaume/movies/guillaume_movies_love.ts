@@ -740,7 +740,12 @@ export const guillaumeMoviesLove: UserMovies = [
     loaned: "",
     inList: ["Mes classiques", "Mes romances", "Films d'écureuil"],
     lastUpdated: "2026-10-29T21:21",
-    quotes: ["Vivre ce n'est pas seulement respirer, c'est avoir le souffle coupé."],
+    quotes: [
+      {
+        quoteText: "Vivre ce n'est pas seulement respirer, c'est avoir le souffle coupé.",
+        lastUpdated: "2026-11-20T17:22",
+      },
+    ],
   },
   {
     title: 'Des étoiles plein les yeux',

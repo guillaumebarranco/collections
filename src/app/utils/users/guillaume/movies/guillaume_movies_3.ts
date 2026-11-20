@@ -1139,7 +1139,12 @@ export const guillaumeMoviesPage3: UserMovies = [
     loaned: "",
     inList: ["Mes classiques", "Films d'écureuil"],
     lastUpdated: "2026-10-30T17:10",
-    quotes: ["Les peuples ne devraient pas avoir peur de leur gouvernement. Le gouvernement devrait avoir peur du peuple."],
+    quotes: [
+      {
+        quoteText: "Les peuples ne devraient pas avoir peur de leur gouvernement. Le gouvernement devrait avoir peur du peuple.",
+        lastUpdated: "2026-11-20T17:22",
+      },
+    ],
   },
   {
     title: 'King Kong',

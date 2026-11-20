@@ -12,6 +12,7 @@ const {
   removeBookFromFile,
   getUserReadlistBooksFiles,
 } = require('../../utils/books/books-utils');
+const { formatQuotesTs } = require('../../utils/quotes/quotes-utils');
 
 const router = express.Router();
 
@@ -66,13 +67,7 @@ function formatUserBook(book: any, options?: { rating?: number; ratingComment?: 
     otherReadDates.length === 0
       ? '[]'
       : `[${otherReadDates.map((d: string) => `"${escapeString(d)}"`).join(', ')}]`;
-  const quotes = Array.isArray(book.quotes)
-    ? book.quotes.filter((quote: unknown) => typeof quote === 'string' && quote.trim())
-    : [];
-  const quotesTs =
-    quotes.length === 0
-      ? '[]'
-      : `[${quotes.map((quote: string) => `"${escapeString(quote)}"`).join(', ')}]`;
+  const quotesTs = formatQuotesTs(book.quotes);
 
   return `  {
     title: "${escapeString(book.title)}",

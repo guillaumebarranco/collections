@@ -5,6 +5,7 @@ const {
   updateMusicInFile,
   getUserMusicsFiles,
 } = require('../../utils/musics/musics-utils');
+const { normalizeQuotes } = require('../../utils/quotes/quotes-utils');
 
 const router = express.Router();
 
@@ -23,9 +24,7 @@ router.post('/', (req: any, res: any) => {
       return;
     }
 
-    const quotes = input.quotes
-      .filter((quote: unknown) => typeof quote === 'string' && quote.trim())
-      .map((quote: string) => quote.trim());
+    const quotes = normalizeQuotes(input.quotes);
 
     const musicFiles = getUserMusicsFiles(userId);
     let updatedFile: string | null = null;

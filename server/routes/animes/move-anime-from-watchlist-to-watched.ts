@@ -17,13 +17,7 @@ const {
 
 const router = express.Router();
 
-function formatQuotesTs(quotes: unknown): string {
-  const list = Array.isArray(quotes)
-    ? quotes.filter((quote) => typeof quote === 'string' && quote.trim())
-    : [];
-  if (list.length === 0) return '[]';
-  return `[${list.map((quote: string) => `"${escapeString(quote)}"`).join(', ')}]`;
-}
+const { formatQuotesTs } = require('../../utils/quotes/quotes-utils');
 
 const usersRootDir = path.join(
   __dirname,

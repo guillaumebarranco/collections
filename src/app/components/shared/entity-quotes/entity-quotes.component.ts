@@ -8,6 +8,11 @@ import {
   input,
   signal,
 } from '@angular/core';
+import {
+  displayQuoteText,
+  formatQuoteUpdatedLabel,
+  type EntityQuote,
+} from '../../../models/entity-quote.model';
 
 @Component({
   selector: 'app-entity-quotes',
@@ -17,7 +22,7 @@ import {
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class EntityQuotesComponent implements AfterViewInit {
-  readonly quotes = input.required<string[]>();
+  readonly quotes = input.required<EntityQuote[]>();
 
   readonly quotesExpanded = signal(false);
   readonly firstQuoteOverflows = signal(false);
@@ -29,7 +34,7 @@ export class EntityQuotesComponent implements AfterViewInit {
   constructor() {
     effect(() => {
       const quotes = this.quotes();
-      const nextKey = `${quotes.length}\u0000${quotes[0] ?? ''}`;
+      const nextKey = `${quotes.length}\u0000${quotes[0]?.quoteText ?? ''}\u0000${quotes[0]?.lastUpdated ?? ''}`;
       if (nextKey === this.quotesKey) {
         return;
       }
@@ -51,11 +56,12 @@ export class EntityQuotesComponent implements AfterViewInit {
     this.quotesExpanded.update((expanded) => !expanded);
   }
 
-  formatQuote(quote: string): string {
-    return quote
-      .replace(/\\r\\n/g, '\n')
-      .replace(/\\n/g, '\n')
-      .replace(/\\r/g, '\n');
+  formatQuote(quote: EntityQuote): string {
+    return displayQuoteText(quote);
+  }
+
+  formatQuoteDate(quote: EntityQuote): string {
+    return formatQuoteUpdatedLabel(quote.lastUpdated);
   }
 
   private measureFirstQuote(): void {

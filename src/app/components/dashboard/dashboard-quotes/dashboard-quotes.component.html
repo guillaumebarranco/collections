@@ -35,7 +35,10 @@
         </div>
       </header>
       @for (quote of work.quotes; track $index) {
-      <blockquote class="quote-work__quote">{{ quote }}</blockquote>
+      <blockquote class="quote-work__quote">
+        {{ quote.quoteText }}
+        <span class="quote-work__date">{{ formatQuoteDate(quote.lastUpdated) }}</span>
+      </blockquote>
       }
     </article>
     }

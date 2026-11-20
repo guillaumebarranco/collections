@@ -391,7 +391,12 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 120,
-    quotes: ["Puis un jour je suis devenu riche quand un livre j'ai ouvert. J'avais l'arme pour écrire mon histoire extraordinaire."],
+    quotes: [
+      {
+        quoteText: "Puis un jour je suis devenu riche quand un livre j'ai ouvert. J'avais l'arme pour écrire mon histoire extraordinaire.",
+        lastUpdated: "2026-11-20T17:22",
+      },
+    ],
   },
   {
     title: 'Inspecteur Disiz (Street Fabulous Remix)',

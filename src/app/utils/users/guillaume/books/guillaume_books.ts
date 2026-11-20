@@ -1037,9 +1037,18 @@ export const guillaumeBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: '',
     quotes: [
-      "L'amour n'est pas aussi beau et pur que les gens aiment à le croire. Il comporte parfois une part d'ombre.",
-      "Être en vie n'est pas la même chose que vivre. J'espère qu'un jour, vous aurez la chance de vous rendre compte de la différence.",
-      "À présent, ça n'avait plus la moindre importance qu'elle ait été alchimiste, ou guérisseuse, ou quoi que ce soit. Pour ceux qui apprendraient ce qu'elle était devenue, elle ne serait plus que cette abomination. Les femmes étaient toujours définies par la chose la plus honteuse que l'on pouvait leur reprocher.",
+      {
+        quoteText: "L'amour n'est pas aussi beau et pur que les gens aiment à le croire. Il comporte parfois une part d'ombre.",
+        lastUpdated: "2026-11-20T17:22",
+      },
+      {
+        quoteText: "Être en vie n'est pas la même chose que vivre. J'espère qu'un jour, vous aurez la chance de vous rendre compte de la différence.",
+        lastUpdated: "2026-11-20T17:22",
+      },
+      {
+        quoteText: "À présent, ça n'avait plus la moindre importance qu'elle ait été alchimiste, ou guérisseuse, ou quoi que ce soit. Pour ceux qui apprendraient ce qu'elle était devenue, elle ne serait plus que cette abomination. Les femmes étaient toujours définies par la chose la plus honteuse que l'on pouvait leur reprocher.",
+        lastUpdated: "2026-11-20T17:22",
+      },
     ],
   },
   {
@@ -1751,8 +1760,14 @@ export const guillaumeBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: '',
     quotes: [
-      "Les minutes étaient cruelles.\nLes heures étaient une punition.\nQuand il était éveillé, le sablier du temps se déversait au-dessus de lui et menaçait de l'étouffer. Mais il le laissait vivre. On peut faire beaucoup de mal à quelqu'un en le laissant vivre.",
-      "Tant d'êtres humains.\nTant de couleurs.\n\nIls continuent à m'habiter. Ils harcèlent ma mémoire. Je vois les tas immenses qu'ils forment, empilés les uns sur les autres. L'air est comme du plastique, l'horizon comme de la colle en train de prendre. Le ciel est fait de gens, un ciel percé et qui goutte, tandis que des nuages cotonneux couleur de charbon battent comme des coeurs noirs.\n\nEt puis...\nEt puis il y a la Mort.\nMoi, la narratrice.\nQui me fraie un chemin dans tout cela.\nEn surface : imperturbable, impassible.\nEn dessous : défaite, déconcertée, déboussolée.",
+      {
+        quoteText: "Les minutes étaient cruelles.\nLes heures étaient une punition.\nQuand il était éveillé, le sablier du temps se déversait au-dessus de lui et menaçait de l'étouffer. Mais il le laissait vivre. On peut faire beaucoup de mal à quelqu'un en le laissant vivre.",
+        lastUpdated: "2026-11-20T17:22",
+      },
+      {
+        quoteText: "Tant d'êtres humains.\nTant de couleurs.\n\nIls continuent à m'habiter. Ils harcèlent ma mémoire. Je vois les tas immenses qu'ils forment, empilés les uns sur les autres. L'air est comme du plastique, l'horizon comme de la colle en train de prendre. Le ciel est fait de gens, un ciel percé et qui goutte, tandis que des nuages cotonneux couleur de charbon battent comme des coeurs noirs.\n\nEt puis...\nEt puis il y a la Mort.\nMoi, la narratrice.\nQui me fraie un chemin dans tout cela.\nEn surface : imperturbable, impassible.\nEn dessous : défaite, déconcertée, déboussolée.",
+        lastUpdated: "2026-11-20T17:22",
+      },
     ],
   },
 
@@ -1772,10 +1787,22 @@ export const guillaumeBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: '',
     quotes: [
-      "La nature ne fait pas d'erreur, elle diversifie ses créations.",
-      "Libère-toi de ta cage, ma Nébuleuse ! Démanche les tridents de tes geôliers ! Exige la vérité ! Il n'y a de tyrannie que si tu tais ta voix ! Que toutes vos voix résonnent !",
-      "C'était Madame Ji qui avait raison. À moins d'être amoureux soi-même, on avait pas d'opinion à faire valoir en la matière. Ivoire se sentait capable d'affronter la colère de Chandelier, son pouvoir de Tambour et même sa protection parfois si encombrante, mais ce silence qui les séparait, elle ne le supportait pas.",
-      "Je n'ai nul regret.\nJ'ai aimé jusqu'à la quintessence.\nJ'ai rêvé jusqu'à l'insouciance.\nJ'ai pleuré jusqu'à la délivrance.",
+      {
+        quoteText: "La nature ne fait pas d'erreur, elle diversifie ses créations.",
+        lastUpdated: "2026-11-20T17:22",
+      },
+      {
+        quoteText: "Libère-toi de ta cage, ma Nébuleuse ! Démanche les tridents de tes geôliers ! Exige la vérité ! Il n'y a de tyrannie que si tu tais ta voix ! Que toutes vos voix résonnent !",
+        lastUpdated: "2026-11-20T17:22",
+      },
+      {
+        quoteText: "C'était Madame Ji qui avait raison. À moins d'être amoureux soi-même, on avait pas d'opinion à faire valoir en la matière. Ivoire se sentait capable d'affronter la colère de Chandelier, son pouvoir de Tambour et même sa protection parfois si encombrante, mais ce silence qui les séparait, elle ne le supportait pas.",
+        lastUpdated: "2026-11-20T17:22",
+      },
+      {
+        quoteText: "Je n'ai nul regret.\nJ'ai aimé jusqu'à la quintessence.\nJ'ai rêvé jusqu'à l'insouciance.\nJ'ai pleuré jusqu'à la délivrance.",
+        lastUpdated: "2026-11-20T17:22",
+      },
     ],
   },
 
@@ -1813,9 +1840,18 @@ export const guillaumeBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: '',
     quotes: [
-      "On ne peut pas comparer misandrie et mysoginie, tout simplement parce que la première n'existe qu'en réaction à la seconde.",
-      "La misandrie naît de la colère et s'en nourrit. Les féministes font depuis toujours le lien entre la colère privée, qui appartient à l'espace domestique, et la colère publique : \"le privé est politique\" depuis l'écart salarial jusqu'à qui pense à lancer une lessive. Pendant longtemps pourtant notre colère de femme n'a pas pu s'exprimer en tant que colère féministe. Parce qu'on aime vraiment pas les émotions qui débordent, surtout quand elles viennent des femmes, il a fallu longtemps pour qu'on réhabilite cette colère féminine. Elle commence à trouver sa place, à se défaire du tabou qui l'entoure depuis des siècles : On écrit à son propos, on lui trouve des racines, on la compare à la colère masculine : elle existe.",
-      "Quand les femmes s'autorisent à vivre le célibat comme une expérience de vie comme une autre, et pas comme une punition, avec ses inconvénients et ses avantages, elles (re)découvrent qu'elles n'ont pas besoin \"d'un homme\", n'importe quel homme, dans leur vie. Elles se repaissent de leur autonomie et de leur liberté. Et quand elles trouvent un partenaire, ce n'est pas parce qu'il leur en fallait un, mais parce qu'il y a devant elles une personne avec qui elles ont vraiment envie de s'engager, dans la perspective d'un épanouissement mutuel.",
+      {
+        quoteText: "On ne peut pas comparer misandrie et mysoginie, tout simplement parce que la première n'existe qu'en réaction à la seconde.",
+        lastUpdated: "2026-11-20T17:22",
+      },
+      {
+        quoteText: "La misandrie naît de la colère et s'en nourrit. Les féministes font depuis toujours le lien entre la colère privée, qui appartient à l'espace domestique, et la colère publique : \"le privé est politique\" depuis l'écart salarial jusqu'à qui pense à lancer une lessive. Pendant longtemps pourtant notre colère de femme n'a pas pu s'exprimer en tant que colère féministe. Parce qu'on aime vraiment pas les émotions qui débordent, surtout quand elles viennent des femmes, il a fallu longtemps pour qu'on réhabilite cette colère féminine. Elle commence à trouver sa place, à se défaire du tabou qui l'entoure depuis des siècles : On écrit à son propos, on lui trouve des racines, on la compare à la colère masculine : elle existe.",
+        lastUpdated: "2026-11-20T17:22",
+      },
+      {
+        quoteText: "Quand les femmes s'autorisent à vivre le célibat comme une expérience de vie comme une autre, et pas comme une punition, avec ses inconvénients et ses avantages, elles (re)découvrent qu'elles n'ont pas besoin \"d'un homme\", n'importe quel homme, dans leur vie. Elles se repaissent de leur autonomie et de leur liberté. Et quand elles trouvent un partenaire, ce n'est pas parce qu'il leur en fallait un, mais parce qu'il y a devant elles une personne avec qui elles ont vraiment envie de s'engager, dans la perspective d'un épanouissement mutuel.",
+        lastUpdated: "2026-11-20T17:22",
+      },
     ],
   },
 
@@ -1835,7 +1871,10 @@ export const guillaumeBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: '',
     quotes: [
-      "Le problème des stéréotypes, ce n'est pas qu'ils sont inexacts, c'est qu'ils sont incomplets. Ils font qu'une histoire devient la seule histoire.",
+      {
+        quoteText: "Le problème des stéréotypes, ce n'est pas qu'ils sont inexacts, c'est qu'ils sont incomplets. Ils font qu'une histoire devient la seule histoire.",
+        lastUpdated: "2026-11-20T17:22",
+      },
     ],
   },
 
@@ -1874,10 +1913,22 @@ export const guillaumeBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: '',
     quotes: [
-      "Les images qui défilent sur nos écrans comptent. Elles nous façonnent. La violence, ce n'est pas du cinéma. En tout cas ce n'est jamais QUE du cinéma.",
-      "Ce que nous normalisons à l'écran, nous le normalisons dans la vie.",
-      'Le consentement est le fait de s\'assurer que votre partenaire est d\'accord avec ce que vous avez envie de (lui) faire. Il est important de noté que le consentement doit être :\n\n- Enthousiaste (la personne doit exprimer son accord clairement et verbalement ; il faut lui demander)\n\n- Libre et éclairé (si la personne a bu ou fumé et qu\'elle n\'est pas en mesure de réfléchir normalement, vous la laisser tranquille ; le consentement ne doit pas être obtenu sous pression ou manipulation)\n\n- Spécifique (chaque pratique sexuelle doit être consentie, donc ce n\'est pas parce qu\'on vous a dit "oui" pour un baiser  qu\'on dit "oui" pour coucher avec vous)\n\n- Réversible (la personne qui vous a dit "oui" a le droit de se rétracter... Aussi si on vous a dit "oui" un jour, ça ne veut pas dire "oui toujours)\n\n- Informé (votre partenaire doit être au courant des risques liés au rapport sexuel que vous entreprenez. Par exemple si il/elle veut que vous utilisiez un preservatif, il/elle ne consent pas à un rapport bon protégé)\n\nAvec ces précisions en tête, vous pouvez d\'ores et déjà effectuer un exercice et penser à vos films préférés : Arrivez-vous à en nommer beaucoup qui passent le test du consentement enthousiaste, libre, éclairé, spécifique, réversible et informé ?',
-      'Dans la majorité des films, le viol est utilisé comme un moyen narratif paresseux pour ajouter du piment à une intrigue.',
+      {
+        quoteText: "Les images qui défilent sur nos écrans comptent. Elles nous façonnent. La violence, ce n'est pas du cinéma. En tout cas ce n'est jamais QUE du cinéma.",
+        lastUpdated: "2026-11-20T17:22",
+      },
+      {
+        quoteText: "Ce que nous normalisons à l'écran, nous le normalisons dans la vie.",
+        lastUpdated: "2026-11-20T17:22",
+      },
+      {
+        quoteText: "Le consentement est le fait de s'assurer que votre partenaire est d'accord avec ce que vous avez envie de (lui) faire. Il est important de noté que le consentement doit être :\n\n- Enthousiaste (la personne doit exprimer son accord clairement et verbalement ; il faut lui demander)\n\n- Libre et éclairé (si la personne a bu ou fumé et qu'elle n'est pas en mesure de réfléchir normalement, vous la laisser tranquille ; le consentement ne doit pas être obtenu sous pression ou manipulation)\n\n- Spécifique (chaque pratique sexuelle doit être consentie, donc ce n'est pas parce qu'on vous a dit \"oui\" pour un baiser  qu'on dit \"oui\" pour coucher avec vous)\n\n- Réversible (la personne qui vous a dit \"oui\" a le droit de se rétracter... Aussi si on vous a dit \"oui\" un jour, ça ne veut pas dire \"oui toujours)\n\n- Informé (votre partenaire doit être au courant des risques liés au rapport sexuel que vous entreprenez. Par exemple si il/elle veut que vous utilisiez un preservatif, il/elle ne consent pas à un rapport bon protégé)\n\nAvec ces précisions en tête, vous pouvez d'ores et déjà effectuer un exercice et penser à vos films préférés : Arrivez-vous à en nommer beaucoup qui passent le test du consentement enthousiaste, libre, éclairé, spécifique, réversible et informé ?",
+        lastUpdated: "2026-11-20T17:22",
+      },
+      {
+        quoteText: "Dans la majorité des films, le viol est utilisé comme un moyen narratif paresseux pour ajouter du piment à une intrigue.",
+        lastUpdated: "2026-11-20T17:22",
+      },
     ],
   },
 
@@ -1969,7 +2020,10 @@ export const guillaumeBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: '',
     quotes: [
-      "Dans les textes de loi, le marché immobilier, l'industrie du mariage, les applis de rencontre... Le couple est omniprésent. Pas n'importe lequel, évidemment : le couple amoureux et monogame, qui emménage ensemble après un ou deux ans de relation et élève deux marmots jusqu'à ce que la mort les sépare. Un couple dont les membres croient à l'amour inconditionnel et acceptent de se sacrifier et de souffrir au nom de l'amour.\n\nCe mythe de l'amour romantique, qui nous rendrait immanquablement heureux·ses, qui triompherait de tout et serait digne de tous les sacrifices, est sacrément problématique. Il crée un terreau fertile aux inégalités domestiques, aux violences conjugales et, paradoxalement, à l'isolement social. Et quand cela arrive, les personnes en couple sont prises au piège. Car en faisant du couple romantique le seul mode de vie qui vaille, le partriarcat a rendu quasi inaccessible tout autre mode de vie, notamment le célibat (trop cher) et l'habitat collectif (trop rare). Quand on n'a nulle part où aller, comment s'échapper d'une relation dangereuse ?\n\nEn nous privant d'alternatives au couple, le mythe romantique nous empêche de choisir la vie qui nous convient le mieux. Il nous impose un modèle unique et marginalise les personnes qui ne veulent pas ou n'ont pas les moyens (physiques, financiers, ou émotionnels notamment) de se mettre en couple traditionnel.",
+      {
+        quoteText: "Dans les textes de loi, le marché immobilier, l'industrie du mariage, les applis de rencontre... Le couple est omniprésent. Pas n'importe lequel, évidemment : le couple amoureux et monogame, qui emménage ensemble après un ou deux ans de relation et élève deux marmots jusqu'à ce que la mort les sépare. Un couple dont les membres croient à l'amour inconditionnel et acceptent de se sacrifier et de souffrir au nom de l'amour.\n\nCe mythe de l'amour romantique, qui nous rendrait immanquablement heureux·ses, qui triompherait de tout et serait digne de tous les sacrifices, est sacrément problématique. Il crée un terreau fertile aux inégalités domestiques, aux violences conjugales et, paradoxalement, à l'isolement social. Et quand cela arrive, les personnes en couple sont prises au piège. Car en faisant du couple romantique le seul mode de vie qui vaille, le partriarcat a rendu quasi inaccessible tout autre mode de vie, notamment le célibat (trop cher) et l'habitat collectif (trop rare). Quand on n'a nulle part où aller, comment s'échapper d'une relation dangereuse ?\n\nEn nous privant d'alternatives au couple, le mythe romantique nous empêche de choisir la vie qui nous convient le mieux. Il nous impose un modèle unique et marginalise les personnes qui ne veulent pas ou n'ont pas les moyens (physiques, financiers, ou émotionnels notamment) de se mettre en couple traditionnel.",
+        lastUpdated: "2026-11-20T17:22",
+      },
     ],
   },
 
@@ -2025,7 +2079,10 @@ export const guillaumeBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: '',
     quotes: [
-      'Je pense tout ce que je dis. Ça ne signifie pas que dis tout ce que je pense.',
+      {
+        quoteText: "Je pense tout ce que je dis. Ça ne signifie pas que dis tout ce que je pense.",
+        lastUpdated: "2026-11-20T17:22",
+      },
     ],
   },
 
@@ -2045,11 +2102,26 @@ export const guillaumeBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: '',
     quotes: [
-      "Parce que, pour nous, quelques minutes de plaisir gustatif justifient d'imposer à un animal une vie entière de souffrances",
-      "Le plaisir de l'homme est au sommet de la pyramide : au-dessus des femmes dans la hiérarchie sexuelle, au-dessus des animaux dans la hiérarchie alimentaire.",
-      "Notre société considère les atrocités comme étant soit trop extraordinaires pour être crédibles, soit trop ordinaires pour être atroces. Si cela se produit, alors ce n'est pas si grave, et si c'est vraiment grave, cela ne se produit pas.",
-      '- La victime portait une jupe courte - ça ne compte pas.\n- La victime ne s\'est pas débattue - ça ne compte pas.\n- Il n\'y a pas eu de pénétration - ça ne compte pas.\n- La victime connaît son agresseur - ça ne compte pas.\n- L\'agresseur est un "bon gars" - ça ne compte pas.\n- Il a "juste" insisté - ça ne compte pas.\n\nEt ainsi de suite, jusqu\'à ce qu\'il ne reste que le "viol de fond de ruelle" [...] Ce scénario est la principale forme de violence sexuelle que notre société reconnaît et dénonce : la reste est largement ignoré.',
-      'La "viande" est une construction sociale qui désigne certains cadavres jugés comestibles.',
+      {
+        quoteText: "Parce que, pour nous, quelques minutes de plaisir gustatif justifient d'imposer à un animal une vie entière de souffrances",
+        lastUpdated: "2026-11-20T17:22",
+      },
+      {
+        quoteText: "Le plaisir de l'homme est au sommet de la pyramide : au-dessus des femmes dans la hiérarchie sexuelle, au-dessus des animaux dans la hiérarchie alimentaire.",
+        lastUpdated: "2026-11-20T17:22",
+      },
+      {
+        quoteText: "Notre société considère les atrocités comme étant soit trop extraordinaires pour être crédibles, soit trop ordinaires pour être atroces. Si cela se produit, alors ce n'est pas si grave, et si c'est vraiment grave, cela ne se produit pas.",
+        lastUpdated: "2026-11-20T17:22",
+      },
+      {
+        quoteText: "- La victime portait une jupe courte - ça ne compte pas.\n- La victime ne s'est pas débattue - ça ne compte pas.\n- Il n'y a pas eu de pénétration - ça ne compte pas.\n- La victime connaît son agresseur - ça ne compte pas.\n- L'agresseur est un \"bon gars\" - ça ne compte pas.\n- Il a \"juste\" insisté - ça ne compte pas.\n\nEt ainsi de suite, jusqu'à ce qu'il ne reste que le \"viol de fond de ruelle\" [...] Ce scénario est la principale forme de violence sexuelle que notre société reconnaît et dénonce : la reste est largement ignoré.",
+        lastUpdated: "2026-11-20T17:22",
+      },
+      {
+        quoteText: "La \"viande\" est une construction sociale qui désigne certains cadavres jugés comestibles.",
+        lastUpdated: "2026-11-20T17:22",
+      },
     ],
   },
 
@@ -2140,6 +2212,15 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 3,
     wantToReadAgain: false,
     ratingComment: "",
-    quotes: ["\"Tout va bien se passer\". Ça sonne toujours comme une phrase toute faite et inutile que les gens vous servent quand ils ne savent plus trop quoi dire face à une situation, mais sortis de sa bouche, ces mots me paraissent la chose la plus profonde jamais proférée de toute l'histoire de l'humanité.", "Ce sont des paroles simples, adorables. J'esquisse un sourire. Mais je sens alors mon cœur faire un drôle de truc - le fameux BOUM-BOUM qu'émet cet organe dans les proverbes. Et quand arrive le moment où la lune et le soleil coexistent dans le ciel, qu'une pâle lueur étrange et pourtant apaisante renverse la pièce, me vient une terrible pensée : je l'aime bien. Je l'aime vraiment, vraiment bien. Genre je l'aime. Genre avec un mon cœur métaphorique. Genre sur une radiographie, on verrait une flèche logée pile au centre de cette fichue masse sanguinolente de muscles dans ma poitrine. Et, curieusement, je sais que les choses entre nous ont changé."],
+    quotes: [
+      {
+        quoteText: "\"Tout va bien se passer\". Ça sonne toujours comme une phrase toute faite et inutile que les gens vous servent quand ils ne savent plus trop quoi dire face à une situation, mais sortis de sa bouche, ces mots me paraissent la chose la plus profonde jamais proférée de toute l'histoire de l'humanité.",
+        lastUpdated: "2026-11-20T17:22",
+      },
+      {
+        quoteText: "Ce sont des paroles simples, adorables. J'esquisse un sourire. Mais je sens alors mon cœur faire un drôle de truc - le fameux BOUM-BOUM qu'émet cet organe dans les proverbes. Et quand arrive le moment où la lune et le soleil coexistent dans le ciel, qu'une pâle lueur étrange et pourtant apaisante renverse la pièce, me vient une terrible pensée : je l'aime bien. Je l'aime vraiment, vraiment bien. Genre je l'aime. Genre avec un mon cœur métaphorique. Genre sur une radiographie, on verrait une flèche logée pile au centre de cette fichue masse sanguinolente de muscles dans ma poitrine. Et, curieusement, je sais que les choses entre nous ont changé.",
+        lastUpdated: "2026-11-20T17:22",
+      },
+    ],
   },
 ];

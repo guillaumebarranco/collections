@@ -16,6 +16,11 @@ import { Book } from '../../../models/book-model';
 import { Serie } from '../../../models/serie-model';
 import { Anime } from '../../../models/anime-model';
 import { Music } from '../../../models/music-model';
+import {
+  displayQuoteText,
+  formatQuoteUpdatedLabel,
+  type EntityQuote,
+} from '../../../models/entity-quote.model';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
 
 type QuoteEntityType = 'movies' | 'books' | 'series' | 'animes' | 'musics';
@@ -24,7 +29,7 @@ interface QuotedWork {
   title: string;
   subtitle: string;
   coverUrl: string;
-  quotes: string[];
+  quotes: EntityQuote[];
 }
 
 @Component({
@@ -145,7 +150,7 @@ export class DashboardQuotesComponent {
   }
 
   private toQuotedWorks<
-    T extends { title: string; quotes?: string[]; coverUrl: string },
+    T extends { title: string; quotes?: EntityQuote[]; coverUrl: string },
   >(
     items: T[],
     subtitle: (item: T) => string,
@@ -157,8 +162,11 @@ export class DashboardQuotesComponent {
         subtitle: subtitle(item).trim(),
         coverUrl: item.coverUrl?.trim() || fallbackCoverUrl,
         quotes: (item.quotes ?? [])
-          .map((quote) => this.formatQuote(quote).trim())
-          .filter(Boolean),
+          .map((quote) => ({
+            quoteText: this.formatQuote(quote).trim(),
+            lastUpdated: quote.lastUpdated,
+          }))
+          .filter((quote) => quote.quoteText),
       }))
       .filter((item) => item.quotes.length > 0)
       .sort((a, b) =>
@@ -166,10 +174,11 @@ export class DashboardQuotesComponent {
       );
   }
 
-  private formatQuote(quote: string): string {
-    return quote
-      .replace(/\\r\\n/g, '\n')
-      .replace(/\\n/g, '\n')
-      .replace(/\\r/g, '\n');
+  formatQuoteDate(lastUpdated: string): string {
+    return formatQuoteUpdatedLabel(lastUpdated);
+  }
+
+  private formatQuote(quote: EntityQuote): string {
+    return displayQuoteText(quote);
   }
 }

@@ -6,16 +6,23 @@ import {
   MatDialogRef,
 } from '@angular/material/dialog';
 import { getApiBaseUrl } from '../../../core/config';
+import {
+  emptyQuote,
+  quotesForSave,
+  toEditableQuotes,
+  withUpdatedQuoteText,
+  type EntityQuote,
+} from '../../../models/entity-quote.model';
 
 export interface MusicQuotesModalData {
   title: string;
   artist: string;
-  quotes: string[];
+  quotes: EntityQuote[];
   userId: string;
 }
 
 export interface MusicQuotesModalResult {
-  quotes: string[];
+  quotes: EntityQuote[];
 }
 
 @Component({
@@ -31,21 +38,19 @@ export class MusicQuotesModalComponent {
   );
   readonly data = inject<MusicQuotesModalData>(MAT_DIALOG_DATA);
 
-  readonly quotes = signal<string[]>(
-    [...(this.data.quotes ?? [])].map((quote) =>
-      quote.replace(/\\r\\n/g, '\n').replace(/\\n/g, '\n').replace(/\\r/g, '\n')
-    )
-  );
+  readonly quotes = signal<EntityQuote[]>(toEditableQuotes(this.data.quotes));
   readonly isSaving = signal(false);
   readonly errorMessage = signal('');
 
   addQuote(): void {
-    this.quotes.update((quotes) => [...quotes, '']);
+    this.quotes.update((quotes) => [...quotes, emptyQuote()]);
   }
 
   updateQuote(index: number, value: string): void {
     this.quotes.update((quotes) =>
-      quotes.map((quote, quoteIndex) => (quoteIndex === index ? value : quote))
+      quotes.map((quote, quoteIndex) =>
+        quoteIndex === index ? withUpdatedQuoteText(quote, value) : quote
+      )
     );
   }
 
@@ -60,9 +65,7 @@ export class MusicQuotesModalComponent {
   }
 
   async save(): Promise<void> {
-    const quotes = this.quotes()
-      .map((quote) => quote.trim())
-      .filter(Boolean);
+    const quotes = quotesForSave(this.quotes());
     this.isSaving.set(true);
     this.errorMessage.set('');
     try {

@@ -21,6 +21,13 @@ import {
   MatDialogRef,
 } from '@angular/material/dialog';
 import { getApiBaseUrl } from '../../../core/config';
+import {
+  emptyQuote,
+  quotesForSave,
+  toEditableQuotes,
+  withUpdatedQuoteText,
+  type EntityQuote,
+} from '../../../models/entity-quote.model';
 import { EditEntityComponent } from '../../../components/entity/edit-entity/edit-entity.component';
 import { AuthService } from '../../../core/auth.service';
 import { QuizzCreateModalComponent } from '../../../components/modals/quizz-create-modal/quizz-create-modal.component';
@@ -46,7 +53,7 @@ type EditBookForm = {
   sagaFinished: boolean;
   wantToReadAgain: boolean;
   ratingComment: string;
-  quotes: string[];
+  quotes: EntityQuote[];
 };
 
 type EditBookEntityForm = {
@@ -184,7 +191,7 @@ export class EditBookComponent {
     }
     this.bookForm.set({
       ...form,
-      quotes: [...form.quotes, ''],
+      quotes: [...form.quotes, emptyQuote()],
     });
   }
 
@@ -194,7 +201,7 @@ export class EditBookComponent {
       return;
     }
     const quotes = [...form.quotes];
-    quotes[index] = value;
+    quotes[index] = withUpdatedQuoteText(quotes[index], value);
     this.bookForm.set({
       ...form,
       quotes,
@@ -339,7 +346,7 @@ export class EditBookComponent {
           readPriority: Math.min(3, Math.max(1, form.readPriority ?? 1)),
           wantToReadAgain: form.wantToReadAgain,
           ratingComment: form.ratingComment ?? '',
-          quotes: form.quotes.map((quote) => quote.trim()).filter(Boolean),
+          quotes: quotesForSave(form.quotes),
           entity: this.isAdminView()
             ? this.toEntityPayload(this.bookEntityForm())
             : undefined,
@@ -537,9 +544,7 @@ export class EditBookComponent {
       sagaFinished: book.sagaFinished,
       wantToReadAgain: book.wantToReadAgain ?? false,
       ratingComment: book.ratingComment ?? '',
-      quotes: [...(book.quotes ?? [])].map((quote) =>
-        quote.replace(/\\r\\n/g, '\n').replace(/\\n/g, '\n').replace(/\\r/g, '\n')
-      ),
+      quotes: toEditableQuotes(book.quotes),
     };
   }
 

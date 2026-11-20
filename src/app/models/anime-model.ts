@@ -1,5 +1,6 @@
 import { Country } from './countries.enum';
 import type { AnimeFromEntityAdaptation } from './from-entity.model';
+import type { EntityQuote } from './entity-quote.model';
 
 export interface MandatoryAnimeData {
   title: string;
@@ -69,7 +70,7 @@ export interface UserAnime extends MandatoryAnimeData {
   borrowed: string;
   loaned: string;
   /** Citations extraites de l'animé. */
-  quotes: string[];
+  quotes: EntityQuote[];
 }
 
 export type UserAnimes = UserAnime[];

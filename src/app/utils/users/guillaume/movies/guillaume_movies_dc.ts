@@ -132,7 +132,12 @@ export const guillaumeMoviesDc: UserMovies = [
     loaned: "",
     inList: ["Mes classiques"],
     lastUpdated: "2026-10-30T17:17",
-    quotes: ["Voilà ce qui arrive quand un objet inamovible affronte une force que rien au monde ne peut stopper."],
+    quotes: [
+      {
+        quoteText: "Voilà ce qui arrive quand un objet inamovible affronte une force que rien au monde ne peut stopper.",
+        lastUpdated: "2026-11-20T17:22",
+      },
+    ],
   },
   {
     title: 'The Dark Knight Rises',

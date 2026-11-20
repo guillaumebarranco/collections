@@ -208,7 +208,12 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     loaned: "",
     inList: [],
     lastUpdated: "2026-10-30T17:09",
-    quotes: ["Ainsi s'éteint la liberté. Sous une pluie d'applaudissements."],
+    quotes: [
+      {
+        quoteText: "Ainsi s'éteint la liberté. Sous une pluie d'applaudissements.",
+        lastUpdated: "2026-11-20T17:22",
+      },
+    ],
   },
   {
     title: 'Star Wars : Episode 4 - Un nouvel espoir',

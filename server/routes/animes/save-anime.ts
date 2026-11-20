@@ -13,6 +13,7 @@ const {
 } = require('../../utils/animes/animes-utils');
 const { normalizeWatchPriority } = require('../../utils/watch-priority-utils');
 const { isAdminUser, loadUsers } = require('../../utils/users/users-utils');
+const { normalizeQuotes } = require('../../utils/quotes/quotes-utils');
 
 const router = express.Router();
 
@@ -83,11 +84,7 @@ router.post('/', (req: any, res: any) => {
       loaned: normalizeString(input.loaned, 'loaned') ?? '',
       ...(Array.isArray(input.quotes)
         ? {
-            quotes: input.quotes
-              .filter(
-                (quote: unknown) => typeof quote === 'string' && quote.trim()
-              )
-              .map((quote: string) => quote.trim()),
+            quotes: normalizeQuotes(input.quotes),
           }
         : {}),
     };

@@ -1,4 +1,5 @@
 import { Country } from './countries.enum';
+import type { EntityQuote } from './entity-quote.model';
 
 export interface MandatoryBookData {
   title: string;
@@ -89,7 +90,7 @@ export interface UserBook extends MandatoryBookData {
   borrowed: string;
   loaned: string;
   /** Citations extraites du livre. */
-  quotes: string[];
+  quotes: EntityQuote[];
 }
 
 export type UserBooks = UserBook[];

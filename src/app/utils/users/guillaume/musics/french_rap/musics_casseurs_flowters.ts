@@ -247,7 +247,16 @@ export const musicsCasseursFlowters: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 150,
-    quotes: ["Si la cabine explose j'rapperais même sous une pluie d'acier, j'finirais d'écrire en m'entaillant les veines sur une vitre cassée.", "La médiocrité commence là où les passions meurent."],
+    quotes: [
+      {
+        quoteText: "Si la cabine explose j'rapperais même sous une pluie d'acier, j'finirais d'écrire en m'entaillant les veines sur une vitre cassée.",
+        lastUpdated: "2026-11-20T17:22",
+      },
+      {
+        quoteText: "La médiocrité commence là où les passions meurent.",
+        lastUpdated: "2026-11-20T17:22",
+      },
+    ],
   },
   {
     title: 'Quand on descend vers le centre',

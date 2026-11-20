@@ -119,10 +119,10 @@
         #firstQuote
         class="book-quotes__item"
         [class.book-quotes__item--clamped]="!quotesExpanded()"
-      >{{ formatQuote(book.quotes[0]) }}</blockquote>
+      >{{ formatQuote(book.quotes[0]) }}<span class="book-quotes__date">{{ formatQuoteDate(book.quotes[0]) }}</span></blockquote>
       @if (quotesExpanded()) {
       @for (quote of book.quotes.slice(1); track $index) {
-      <blockquote class="book-quotes__item">{{ formatQuote(quote) }}</blockquote>
+      <blockquote class="book-quotes__item">{{ formatQuote(quote) }}<span class="book-quotes__date">{{ formatQuoteDate(quote) }}</span></blockquote>
       } } @if (book.quotes.length > 1 || firstQuoteOverflows()) {
       <button
         type="button"

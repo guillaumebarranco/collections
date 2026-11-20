@@ -198,7 +198,12 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 120,
-    quotes: ["En t'attendant j'observe les liens que les passants nouent. Il fut un temps où la beauté du ciel venait pas sans nous."],
+    quotes: [
+      {
+        quoteText: "En t'attendant j'observe les liens que les passants nouent. Il fut un temps où la beauté du ciel venait pas sans nous.",
+        lastUpdated: "2026-11-20T17:22",
+      },
+    ],
   },
   {
     title: 'Le regard des gens',

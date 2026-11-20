@@ -312,7 +312,12 @@ export const musicsOrelsan: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 200,
-    quotes: ["Demandes à un fou s'il est fou, tu verras ce qu'il te répond."],
+    quotes: [
+      {
+        quoteText: "Demandes à un fou s'il est fou, tu verras ce qu'il te répond.",
+        lastUpdated: "2026-11-20T17:22",
+      },
+    ],
   },
 
   // Album : La fête est finie - Épilogue (2018)
@@ -335,7 +340,16 @@ export const musicsOrelsan: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 100,
-    quotes: ["Un ancien fan m'a dit \"t'es trop commercial\". J'lui ai dit je sais pas c'que ça veut dire \"trop commercial\". Il a dit \"quand tout le monde aime bien c'est trop commercial\". J'lui ai dit tu fais quoi dans la vie il a dit \"j'suis commercial\". Ok.", "Fermez vos gueules j'ai gagné mes procès. Mes textes étaient mieux quand le juge les posait."],
+    quotes: [
+      {
+        quoteText: "Un ancien fan m'a dit \"t'es trop commercial\". J'lui ai dit je sais pas c'que ça veut dire \"trop commercial\". Il a dit \"quand tout le monde aime bien c'est trop commercial\". J'lui ai dit tu fais quoi dans la vie il a dit \"j'suis commercial\". Ok.",
+        lastUpdated: "2026-11-20T17:22",
+      },
+      {
+        quoteText: "Fermez vos gueules j'ai gagné mes procès. Mes textes étaient mieux quand le juge les posait.",
+        lastUpdated: "2026-11-20T17:22",
+      },
+    ],
   },
   {
     title: 'Adieu les filles',
@@ -447,7 +461,12 @@ export const musicsOrelsan: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 46,
-    quotes: ["J'te promet d'avoir des doutes, parce que douter c'est le contraire de s'en foutre."],
+    quotes: [
+      {
+        quoteText: "J'te promet d'avoir des doutes, parce que douter c'est le contraire de s'en foutre.",
+        lastUpdated: "2026-11-20T17:22",
+      },
+    ],
   },
   {
     title: 'Casseurs Flowters Infinity',
@@ -505,7 +524,12 @@ export const musicsOrelsan: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 21,
-    quotes: ["Ma mère rentre dans ma chambre me dit \"mets pas ton pyj\". Ton père t'emmène voir SOS Fantômes 2 en ville. Y'a école demain mais j'suis au cinema. C'est le plus beau jour de ma vie dites rien à mon p'tit frère il sait pas."],
+    quotes: [
+      {
+        quoteText: "Ma mère rentre dans ma chambre me dit \"mets pas ton pyj\". Ton père t'emmène voir SOS Fantômes 2 en ville. Y'a école demain mais j'suis au cinema. C'est le plus beau jour de ma vie dites rien à mon p'tit frère il sait pas.",
+        lastUpdated: "2026-11-20T17:22",
+      },
+    ],
   },
   {
     title: 'Toujours perdu quand même',
@@ -605,7 +629,12 @@ export const musicsOrelsan: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
-    quotes: ["J'envoie des signaux mais tu vois pas que j'fais semblant d'être intéressé. J'reste poli 3 minutes après j'commence à oublier le respect."],
+    quotes: [
+      {
+        quoteText: "J'envoie des signaux mais tu vois pas que j'fais semblant d'être intéressé. J'reste poli 3 minutes après j'commence à oublier le respect.",
+        lastUpdated: "2026-11-20T17:22",
+      },
+    ],
   },
   {
     title: 'Encore une fois (feat. Yamê)',

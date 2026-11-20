@@ -4,6 +4,7 @@ import type {
   MovieFromEntityType,
 } from './from-entity.model';
 import type { MovieOscar } from './oscar.enum';
+import type { EntityQuote } from './entity-quote.model';
 
 export type { MovieOscar } from './oscar.enum';
 export {
@@ -166,7 +167,7 @@ export interface UserMovie extends MandatoryMovieData {
   /** Dernière modification via l'interface, heure locale : YYYY-MM-DDTHH:mm. */
   lastUpdated: string;
   /** Citations extraites du film. */
-  quotes: string[];
+  quotes: EntityQuote[];
 }
 
 export type UserMovies = UserMovie[];

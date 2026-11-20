@@ -1,6 +1,11 @@
 const fs = require('fs');
 const path = require('path');
 const { escapeStringForTsDoubleQuote: escapeString } = require('../escape-ts-string');
+const {
+  formatQuotesTs,
+  normalizeQuotes,
+  parseQuotesField,
+} = require('../quotes/quotes-utils');
 
 const USERS_MUSICS_DIR = path.join(
   __dirname,
@@ -100,14 +105,10 @@ function parseStringArrayField(objectText: string, key: string): string[] {
   return result;
 }
 
-function formatQuotesTs(quotes: string[] | undefined): string {
-  if (!Array.isArray(quotes) || quotes.length === 0) {
-    return '[]';
-  }
-  return `[${quotes.map((quote) => `"${escapeString(quote)}"`).join(', ')}]`;
-}
-
-function upsertQuotesField(objectText: string, quotes: string[]) {
+function upsertQuotesField(
+  objectText: string,
+  quotes: { quoteText: string; lastUpdated: string }[]
+) {
   const serialized = `quotes: ${formatQuotesTs(quotes)}`;
   const keyMatch = /\n\s*quotes\s*:/.exec(objectText);
   if (!keyMatch || keyMatch.index === undefined) {
@@ -229,7 +230,7 @@ function parseUserMusicsFromFile(content: string): UserMusic[] {
             artist,
             rating: parseNumberField(objectText, 'rating') ?? 0,
             timesListened: parseNumberField(objectText, 'timesListened') ?? 0,
-            quotes: parseStringArrayField(objectText, 'quotes'),
+            quotes: parseQuotesField(objectText),
           } as UserMusic);
         }
       }
@@ -383,12 +384,7 @@ function updateMusicInFile(content: string, payload: MusicUpdatePayload) {
           updated = replaceField(updated, 'rating', payload.rating);
           updated = replaceField(updated, 'timesListened', payload.timesListened);
           if (Array.isArray(payload.quotes)) {
-            updated = upsertQuotesField(
-              updated,
-              payload.quotes.filter(
-                (quote) => typeof quote === 'string' && quote.trim()
-              )
-            );
+            updated = upsertQuotesField(updated, normalizeQuotes(payload.quotes));
           }
 
           return (

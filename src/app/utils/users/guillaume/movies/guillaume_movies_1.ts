@@ -19,7 +19,10 @@ export const guillaumeMoviesPage1: UserMovies = [
     inList: ['Mes classiques'],
     lastUpdated: '2026-10-30T17:13',
     quotes: [
-      "J'ai une question à vous poser docteur. Si on se considère comme le dernier homme sensé sur cette terre, ça veut dire qu'on est dingue ? Parce que si c'est le cas, je le suis peut-être.",
+      {
+        quoteText: "J'ai une question à vous poser docteur. Si on se considère comme le dernier homme sensé sur cette terre, ça veut dire qu'on est dingue ? Parce que si c'est le cas, je le suis peut-être.",
+        lastUpdated: "2026-11-20T17:22",
+      },
     ],
   },
   {
@@ -3466,7 +3469,12 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
     lastUpdated: '2026-11-03T12:59',
-    quotes: ["Y'a quelque chose qu'hier encore n'existait pas."],
+    quotes: [
+      {
+        quoteText: "Y'a quelque chose qu'hier encore n'existait pas.",
+        lastUpdated: "2026-11-20T17:22",
+      },
+    ],
   },
 
   {
@@ -4347,7 +4355,10 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     lastUpdated: '2026-10-29T21:20',
     quotes: [
-      "Tu sais à quel point c'est rare de rencontrer une personne qui change ta vision de la vie ?",
+      {
+        quoteText: "Tu sais à quel point c'est rare de rencontrer une personne qui change ta vision de la vie ?",
+        lastUpdated: "2026-11-20T17:22",
+      },
     ],
   },
 

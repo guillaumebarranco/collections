@@ -4,6 +4,11 @@ const {
   escapeStringForTsDoubleQuote: escapeString,
 } = require('../escape-ts-string');
 const {
+  formatQuotesTs,
+  normalizeQuotes,
+  parseQuotesField,
+} = require('../quotes/quotes-utils');
+const {
   normalizeString,
   normalizeBoolean,
   normalizeNumber,
@@ -126,8 +131,11 @@ function formatOtherReadDatesTs(dates: string[] | undefined): string {
   return `[${parts.join(', ')}]`;
 }
 
-function upsertQuotesField(objectText: string, quotes: string[]) {
-  const serialized = `quotes: ${formatOtherReadDatesTs(quotes)}`;
+function upsertQuotesField(
+  objectText: string,
+  quotes: { quoteText: string; lastUpdated: string }[]
+) {
+  const serialized = `quotes: ${formatQuotesTs(quotes)}`;
   const keyMatch = /quotes\s*:/.exec(objectText);
   if (!keyMatch || keyMatch.index === undefined) {
     return objectText.replace(/\n(\s*)\}\s*$/, `\n$1  ${serialized},\n$1}`);
@@ -262,7 +270,7 @@ function parseBooksFromFile(content: string): UserBook[] {
             wantToReadAgain:
               parseBooleanField(objectText, 'wantToReadAgain') ?? false,
             ratingComment: parseStringField(objectText, 'ratingComment') ?? '',
-            quotes: parseStringArrayField(objectText, 'quotes'),
+            quotes: parseQuotesField(objectText),
           } as UserBook);
         }
       }
@@ -609,12 +617,7 @@ function updateBookInFile(content: string, payload: BookUpdatePayload) {
             );
           }
           if (Array.isArray(payload.quotes)) {
-            updated = upsertQuotesField(
-              updated,
-              payload.quotes.filter(
-                (quote) => typeof quote === 'string' && quote.trim()
-              )
-            );
+            updated = upsertQuotesField(updated, normalizeQuotes(payload.quotes));
           }
 
           return (
@@ -838,7 +841,7 @@ ${formatReadingTsLine(book.reading)}    readTimes: ${book.readTimes ?? 0},
     readPriority: ${book.readPriority ?? 1},
     wantToReadAgain: ${book.wantToReadAgain ?? false},
     ratingComment: "${escapeString(book.ratingComment ?? '')}",
-    quotes: ${formatOtherReadDatesTs(book.quotes)},
+    quotes: ${formatQuotesTs(book.quotes)},
   }`
     )
     .join(',\n');

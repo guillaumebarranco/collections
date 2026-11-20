@@ -12,6 +12,7 @@ const {
   getUserReadlistBooksFiles,
   removeBookFromFile,
 } = require('../../utils/books/books-utils');
+const { formatQuotesTs } = require('../../utils/quotes/quotes-utils');
 
 const router = express.Router();
 
@@ -99,7 +100,7 @@ function formatReadBookFromReadlist(book: any) {
     Number.isFinite(readPriority) && readPriority > 0 ? readPriority : 1
   },\n    wantToReadAgain: ${
     book.wantToReadAgain ?? false
-  },\n    ratingComment: '',\n    quotes: ${formatOtherReadDates(
+  },\n    ratingComment: '',\n    quotes: ${formatQuotesTs(
     book.quotes
   )},\n  },`;
 }

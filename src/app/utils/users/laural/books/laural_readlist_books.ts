@@ -696,7 +696,16 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
-    quotes: ["Habituée aux aspects calmes, elle se tournait, au contraire, vers les accidentés. Elle n'aimait la mer qu'à cause de ses tempêtes, et la verdure seulement lorsqu'elle était clairsemée parmi les ruines. Il fallait qu'elle pût retirer des choses une sorte de profit personnel ; et elle rejetait comme inutile tout ce qui ne contribuait pas à la consommation immédiate de son coeur, - étant de tempérament plus sentimentale qu'artiste, cherchant des émotions et non des paysages.", "Il lui semblait que certains lieux sur la terre devaient produire du bonheur, comme une plante particulière au sol et qui pousse mal tout autre part."],
+    quotes: [
+      {
+        quoteText: "Habituée aux aspects calmes, elle se tournait, au contraire, vers les accidentés. Elle n'aimait la mer qu'à cause de ses tempêtes, et la verdure seulement lorsqu'elle était clairsemée parmi les ruines. Il fallait qu'elle pût retirer des choses une sorte de profit personnel ; et elle rejetait comme inutile tout ce qui ne contribuait pas à la consommation immédiate de son coeur, - étant de tempérament plus sentimentale qu'artiste, cherchant des émotions et non des paysages.",
+        lastUpdated: "2026-11-20T17:22",
+      },
+      {
+        quoteText: "Il lui semblait que certains lieux sur la terre devaient produire du bonheur, comme une plante particulière au sol et qui pousse mal tout autre part.",
+        lastUpdated: "2026-11-20T17:22",
+      },
+    ],
   },
   {
     title: "Médée",
@@ -4062,6 +4071,11 @@ export const lauralReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
-    quotes: ["Vous ne l'avez pas aimé autant que moi. Sinon vous ne vous seriez pas écarté si vite et vous auriez davantage fait le maboule. Mais les hommes semblent davantage prêts à faire les maboules quand ils sont malheureux."],
+    quotes: [
+      {
+        quoteText: "Vous ne l'avez pas aimé autant que moi. Sinon vous ne vous seriez pas écarté si vite et vous auriez davantage fait le maboule. Mais les hommes semblent davantage prêts à faire les maboules quand ils sont malheureux.",
+        lastUpdated: "2026-11-20T17:22",
+      },
+    ],
   }
 ];

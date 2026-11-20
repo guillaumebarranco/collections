@@ -45,6 +45,13 @@ import {
   MatDialogRef,
 } from '@angular/material/dialog';
 import { getApiBaseUrl } from '../../../core/config';
+import {
+  emptyQuote,
+  quotesForSave,
+  toEditableQuotes,
+  withUpdatedQuoteText,
+  type EntityQuote,
+} from '../../../models/entity-quote.model';
 import { EditEntityComponent } from '../../../components/entity/edit-entity/edit-entity.component';
 import { EditEntityHeaderComponent } from '../../../components/entity/edit-entity-header/edit-entity-header.component';
 import { CountrySelectComponent } from '../../../components/shared/country-select/country-select.component';
@@ -69,7 +76,7 @@ type EditAnimeForm = {
   watchPriority: number;
   wantToWatchAgain: boolean;
   ratingComment: string;
-  quotes: string[];
+  quotes: EntityQuote[];
 };
 
 type EditAnimeEntityForm = {
@@ -419,7 +426,7 @@ export class EditAnimeComponent {
           watchPriority: Math.min(3, Math.max(1, form.watchPriority ?? 1)),
           wantToWatchAgain: form.wantToWatchAgain,
           ratingComment: form.ratingComment ?? '',
-          quotes: form.quotes.map((quote) => quote.trim()).filter(Boolean),
+          quotes: quotesForSave(form.quotes),
           entity: this.isAdminView()
             ? this.toEntityPayload(this.animeEntityForm())
             : undefined,
@@ -620,9 +627,7 @@ export class EditAnimeComponent {
       watchPriority: Math.min(3, Math.max(1, anime.watchPriority ?? 1)),
       wantToWatchAgain: anime.wantToWatchAgain ?? false,
       ratingComment: anime.ratingComment ?? '',
-      quotes: [...(anime.quotes ?? [])].map((quote) =>
-        quote.replace(/\\r\\n/g, '\n').replace(/\\n/g, '\n').replace(/\\r/g, '\n')
-      ),
+      quotes: toEditableQuotes(anime.quotes),
     };
   }
 
@@ -667,7 +672,7 @@ export class EditAnimeComponent {
     }
     this.animeForm.set({
       ...form,
-      quotes: [...form.quotes, ''],
+      quotes: [...form.quotes, emptyQuote()],
     });
   }
 
@@ -677,7 +682,7 @@ export class EditAnimeComponent {
       return;
     }
     const quotes = [...form.quotes];
-    quotes[index] = value;
+    quotes[index] = withUpdatedQuoteText(quotes[index], value);
     this.animeForm.set({
       ...form,
       quotes,

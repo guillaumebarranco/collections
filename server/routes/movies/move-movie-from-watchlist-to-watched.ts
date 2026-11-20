@@ -16,13 +16,7 @@ const {
   formatMovieLastUpdated,
 } = require('../../utils/movies/movies-utils');
 
-function formatQuotesTs(quotes: unknown): string {
-  const list = Array.isArray(quotes)
-    ? quotes.filter((quote) => typeof quote === 'string' && quote.trim())
-    : [];
-  if (list.length === 0) return '[]';
-  return `[${list.map((quote: string) => `"${escapeString(quote)}"`).join(', ')}]`;
-}
+const { formatQuotesTs } = require('../../utils/quotes/quotes-utils');
 
 import type { UserMovie } from '../../../src/app/models/movie-model';
 

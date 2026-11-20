@@ -3,6 +3,11 @@ const path = require('path');
 const { escapeStringForTsDoubleQuote: escapeString } = require('../escape-ts-string');
 const { normalizeWatchPriority } = require('../watch-priority-utils');
 const {
+  formatQuotesTs,
+  normalizeQuotes,
+  parseQuotesField,
+} = require('../quotes/quotes-utils');
+const {
   parseWatchingFromFile,
   formatWatchingTsLine,
 } = require('../in-progress-fields');
@@ -118,8 +123,11 @@ function parseStringArrayField(objectText: string, key: string): string[] {
   return result;
 }
 
-function upsertQuotesField(objectText: string, quotes: string[]) {
-  const serialized = `quotes: ${formatOtherViewedDatesTs(quotes)}`;
+function upsertQuotesField(
+  objectText: string,
+  quotes: { quoteText: string; lastUpdated: string }[]
+) {
+  const serialized = `quotes: ${formatQuotesTs(quotes)}`;
   const keyMatch = /\n\s*quotes\s*:/.exec(objectText);
   if (!keyMatch || keyMatch.index === undefined) {
     return objectText.replace(/\n(\s*)\}\s*$/, `\n$1  ${serialized},\n$1}`);
@@ -575,7 +583,7 @@ function parseSeriesFromFile(content: string): UserSerieFileRow[] {
               ((parseBooleanField(objectText, 'loaned') ?? false)
                 ? 'Inconnu'
                 : ''),
-            quotes: parseStringArrayField(objectText, 'quotes') ?? [],
+            quotes: parseQuotesField(objectText),
           });
         }
       }
@@ -973,12 +981,7 @@ function updateSerieInFile(content: string, payload: SerieUpdatePayload) {
           );
           updated = upsertField(updated, 'loaned', payload.loaned ?? '');
           if (Array.isArray(payload.quotes)) {
-            updated = upsertQuotesField(
-              updated,
-              payload.quotes.filter(
-                (quote) => typeof quote === 'string' && quote.trim()
-              )
-            );
+            updated = upsertQuotesField(updated, normalizeQuotes(payload.quotes));
           }
 
           return (
@@ -1191,7 +1194,7 @@ ${seasonsText}
     ratingComment: "${escapeString(serie.ratingComment || '')}",
     borrowed: "${escapeString(serie.borrowed || '')}",
     loaned: "${escapeString(serie.loaned || '')}",
-    quotes: ${formatOtherViewedDatesTs(serie.quotes)},
+    quotes: ${formatQuotesTs(serie.quotes)},
   }`;
     })
     .join(',\n');

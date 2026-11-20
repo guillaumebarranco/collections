@@ -348,7 +348,12 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 250,
-    quotes: ["Une amitié qui se finit en fait n'avait pas commencé, de vrais liens tôt ou tard mènent à se réconcilier."],
+    quotes: [
+      {
+        quoteText: "Une amitié qui se finit en fait n'avait pas commencé, de vrais liens tôt ou tard mènent à se réconcilier.",
+        lastUpdated: "2026-11-20T17:22",
+      },
+    ],
   },
   {
     title: "C'est ma tournée",

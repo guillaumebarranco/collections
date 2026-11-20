@@ -1,5 +1,6 @@
 import { Country } from './countries.enum';
 import type { SerieFromEntityAdaptation } from './from-entity.model';
+import type { EntityQuote } from './entity-quote.model';
 
 export interface MandatorySerieData {
   title: string;
@@ -69,7 +70,7 @@ export interface UserSerie extends MandatorySerieData {
   borrowed: string;
   loaned: string;
   /** Citations extraites de la série. */
-  quotes: string[];
+  quotes: EntityQuote[];
 }
 
 export type UserSeries = UserSerie[];

@@ -186,7 +186,16 @@ export const guillaumeBooksSaga: UserBooks = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
-    quotes: ["Well, we find we appreciate you more and more, Mum, now that we're washing our own socks.", "He understood at last what Dumbledore had been trying to tell him. It was, he thought, the difference between being dragged into the arena to face a battle to death and walking into the arena with your head held high. Some people, perhaps, would say that there was little to choose between the two ways, but Dumbledore knew - and so do I, thought Harry, with a rush of fierce pride, and so did my parents - that there was all the difference in the world."],
+    quotes: [
+      {
+        quoteText: "Well, we find we appreciate you more and more, Mum, now that we're washing our own socks.",
+        lastUpdated: "2026-11-20T17:22",
+      },
+      {
+        quoteText: "He understood at last what Dumbledore had been trying to tell him. It was, he thought, the difference between being dragged into the arena to face a battle to death and walking into the arena with your head held high. Some people, perhaps, would say that there was little to choose between the two ways, but Dumbledore knew - and so do I, thought Harry, with a rush of fierce pride, and so did my parents - that there was all the difference in the world.",
+        lastUpdated: "2026-11-20T17:22",
+      },
+    ],
   },
   {
     title: 'Harry Potter et les Reliques de la Mort',
@@ -628,7 +637,12 @@ export const guillaumeBooksSaga: UserBooks = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
-    quotes: ["J'ai menti pour toi, j'ai triché. J'ai tué pour toi ! Tu n'étais pas prévue, d'accord ? Rien de tout ça n'était prévu ! J'avais un plan bien précis, et je devais m'y tenir. Tu crois que c'est facile pour moi, maintenant que j'ai goûté à toi ? Maintenant que je sais ce que c'est que de t'avoir dans ma vie, de devoir t'en sortir ? Je ne parle jamais, c'est ça ? Mais il n'y a rien à dire, putain de merde. J'ai rompu la promesse faite à mon mentor, je risque de me foutre un cartel entier à dos pour toi, je n'ai jamais touché cette femme et je ne le ferai jamais, pour toi. J'ai mis en danger ma famille, mon honneur, j'ai trahi ma parole et mes proches. Je pense à toi toutes les putains de secondes qui s'écoulent du réveil jusqu'à la nuit !\n\nJe ne te dis pas \"je t'aime\". Je le fais."],
+    quotes: [
+      {
+        quoteText: "J'ai menti pour toi, j'ai triché. J'ai tué pour toi ! Tu n'étais pas prévue, d'accord ? Rien de tout ça n'était prévu ! J'avais un plan bien précis, et je devais m'y tenir. Tu crois que c'est facile pour moi, maintenant que j'ai goûté à toi ? Maintenant que je sais ce que c'est que de t'avoir dans ma vie, de devoir t'en sortir ? Je ne parle jamais, c'est ça ? Mais il n'y a rien à dire, putain de merde. J'ai rompu la promesse faite à mon mentor, je risque de me foutre un cartel entier à dos pour toi, je n'ai jamais touché cette femme et je ne le ferai jamais, pour toi. J'ai mis en danger ma famille, mon honneur, j'ai trahi ma parole et mes proches. Je pense à toi toutes les putains de secondes qui s'écoulent du réveil jusqu'à la nuit !\n\nJe ne te dis pas \"je t'aime\". Je le fais.",
+        lastUpdated: "2026-11-20T17:22",
+      },
+    ],
   },
   {
     title: 'Player One',

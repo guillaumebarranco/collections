@@ -14,6 +14,11 @@ import {
   signal,
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import {
+  displayQuoteText,
+  formatQuoteUpdatedLabel,
+  type EntityQuote,
+} from '../../../models/entity-quote.model';
 import { ActivatedRoute, Router } from '@angular/router';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { EntityCardComponent } from '../../entity/entity-card/entity-card.component';
@@ -132,7 +137,8 @@ export class BookComponent implements OnInit, OnChanges, AfterViewInit {
     const sameQuotes =
       previous?.title === current?.title &&
       previous?.author === current?.author &&
-      previous?.quotes?.[0] === current?.quotes?.[0] &&
+      previous?.quotes?.[0]?.quoteText === current?.quotes?.[0]?.quoteText &&
+      previous?.quotes?.[0]?.lastUpdated === current?.quotes?.[0]?.lastUpdated &&
       previous?.quotes?.length === current?.quotes?.length;
     if (sameQuotes) {
       return;
@@ -154,11 +160,12 @@ export class BookComponent implements OnInit, OnChanges, AfterViewInit {
     this.quotesExpanded.update((expanded) => !expanded);
   }
 
-  formatQuote(quote: string): string {
-    return quote
-      .replace(/\\r\\n/g, '\n')
-      .replace(/\\n/g, '\n')
-      .replace(/\\r/g, '\n');
+  formatQuote(quote: EntityQuote): string {
+    return displayQuoteText(quote);
+  }
+
+  formatQuoteDate(quote: EntityQuote): string {
+    return formatQuoteUpdatedLabel(quote.lastUpdated);
   }
 
   private measureFirstQuote(): void {

@@ -21,6 +21,7 @@ import {
   Album,
 } from '../../../components/modals/album-modal/album-modal.component';
 import { Music } from '../../../models/music-model';
+import type { EntityQuote } from '../../../models/entity-quote.model';
 import { normalizeSearchText } from '../../../utils/normalize-search-text';
 import { ActivatedRoute, Router } from '@angular/router';
 import {
@@ -427,7 +428,7 @@ export class MusicsComponent implements OnInit {
   onMusicQuotesUpdated(update: {
     title: string;
     artist: string;
-    quotes: string[];
+    quotes: EntityQuote[];
   }): void {
     const userId = this.getActiveUserId();
     this.musicsList.update((list) => {

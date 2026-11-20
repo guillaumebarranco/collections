@@ -4,6 +4,11 @@ const {
   escapeStringForTsDoubleQuote: escapeString,
 } = require('../escape-ts-string');
 const { normalizeWatchPriority } = require('../watch-priority-utils');
+const {
+  formatQuotesTs,
+  normalizeQuotes,
+  parseQuotesField,
+} = require('../quotes/quotes-utils');
 
 import type {
   BaseMovie,
@@ -282,8 +287,11 @@ function formatOtherSeenDatesTs(dates: string[] | undefined): string {
   return `[${parts.join(', ')}]`;
 }
 
-function upsertQuotesField(objectText: string, quotes: string[]) {
-  const serialized = `quotes: ${formatOtherSeenDatesTs(quotes)}`;
+function upsertQuotesField(
+  objectText: string,
+  quotes: { quoteText: string; lastUpdated: string }[]
+) {
+  const serialized = `quotes: ${formatQuotesTs(quotes)}`;
   const keyMatch = /\n\s*quotes\s*:/.exec(objectText);
   if (!keyMatch || keyMatch.index === undefined) {
     return objectText.replace(/\n(\s*)\}\s*$/, `\n$1  ${serialized},\n$1}`);
@@ -485,7 +493,7 @@ function parseMoviesFromFile(content: string): UserMovie[] {
                 ? 'Inconnu'
                 : ''),
             lastUpdated: parseStringField(objectText, 'lastUpdated') ?? '',
-            quotes: parseStringArrayField(objectText, 'quotes') ?? [],
+            quotes: parseQuotesField(objectText),
           } as UserMovie);
         }
       }
@@ -979,12 +987,7 @@ function updateMovieInFile(content: string, payload: MovieUpdatePayload) {
             updated = upsertField(updated, 'loaned', payload.loaned ?? '');
           }
           if (Array.isArray(payload.quotes)) {
-            updated = upsertQuotesField(
-              updated,
-              payload.quotes.filter(
-                (quote) => typeof quote === 'string' && quote.trim()
-              )
-            );
+            updated = upsertQuotesField(updated, normalizeQuotes(payload.quotes));
           }
           updated = upsertField(updated, 'lastUpdated', formatMovieLastUpdated());
 
@@ -1223,7 +1226,7 @@ function removeMovieFromFile(content: string, payload: MovieRemovePayload) {
     loaned: "${escapeString(movie.loaned || '')}",
     inList: ${inList},
     lastUpdated: "${escapeString(movie.lastUpdated || '')}",
-    quotes: ${formatOtherSeenDatesTs(movie.quotes)},
+    quotes: ${formatQuotesTs(movie.quotes)},
   }`;
     })
     .join(',\n');

@@ -45,6 +45,13 @@ import {
   MatDialogRef,
 } from '@angular/material/dialog';
 import { getApiBaseUrl } from '../../../core/config';
+import {
+  emptyQuote,
+  quotesForSave,
+  toEditableQuotes,
+  withUpdatedQuoteText,
+  type EntityQuote,
+} from '../../../models/entity-quote.model';
 import { EditEntityComponent } from '../../../components/entity/edit-entity/edit-entity.component';
 import { EditEntityHeaderComponent } from '../../../components/entity/edit-entity-header/edit-entity-header.component';
 import { CountrySelectComponent } from '../../../components/shared/country-select/country-select.component';
@@ -69,7 +76,7 @@ type EditSerieForm = {
   watchPriority: number;
   wantToWatchAgain: boolean;
   ratingComment: string;
-  quotes: string[];
+  quotes: EntityQuote[];
 };
 
 type EditSerieEntityForm = {
@@ -419,7 +426,7 @@ export class EditSerieComponent {
           watchPriority: Math.min(3, Math.max(1, form.watchPriority ?? 1)),
           wantToWatchAgain: form.wantToWatchAgain,
           ratingComment: form.ratingComment ?? '',
-          quotes: form.quotes.map((quote) => quote.trim()).filter(Boolean),
+          quotes: quotesForSave(form.quotes),
           entity: this.isAdminView()
             ? this.toEntityPayload(this.serieEntityForm())
             : undefined,
@@ -620,9 +627,7 @@ export class EditSerieComponent {
       watchPriority: Math.min(3, Math.max(1, serie.watchPriority ?? 1)),
       wantToWatchAgain: serie.wantToWatchAgain ?? false,
       ratingComment: serie.ratingComment ?? '',
-      quotes: [...(serie.quotes ?? [])].map((quote) =>
-        quote.replace(/\\r\\n/g, '\n').replace(/\\n/g, '\n').replace(/\\r/g, '\n')
-      ),
+      quotes: toEditableQuotes(serie.quotes),
     };
   }
 
@@ -667,7 +672,7 @@ export class EditSerieComponent {
     }
     this.serieForm.set({
       ...form,
-      quotes: [...form.quotes, ''],
+      quotes: [...form.quotes, emptyQuote()],
     });
   }
 
@@ -677,7 +682,7 @@ export class EditSerieComponent {
       return;
     }
     const quotes = [...form.quotes];
-    quotes[index] = value;
+    quotes[index] = withUpdatedQuoteText(quotes[index], value);
     this.serieForm.set({
       ...form,
       quotes,

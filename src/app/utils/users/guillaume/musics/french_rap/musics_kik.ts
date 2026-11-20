@@ -226,7 +226,16 @@ export const musicsKik: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 13,
-    quotes: ["Non là ça va pas, regardes moi ça se voit sur ma gueule, est-ce que tu crois vraiment que je vais bien ? J'te réponds oui parce que j'ai pas vraiment le choix. \nNon c'est pas normal de répondre non, imagines le malaise si j'réponds non, si j'te dis que je supporte plus la pression. Viens tu me poses plus la question.", "La vie c'est un peu comme des pates, seul, ça n'a pas beaucoup de goût."],
+    quotes: [
+      {
+        quoteText: "Non là ça va pas, regardes moi ça se voit sur ma gueule, est-ce que tu crois vraiment que je vais bien ? J'te réponds oui parce que j'ai pas vraiment le choix. \nNon c'est pas normal de répondre non, imagines le malaise si j'réponds non, si j'te dis que je supporte plus la pression. Viens tu me poses plus la question.",
+        lastUpdated: "2026-11-20T17:22",
+      },
+      {
+        quoteText: "La vie c'est un peu comme des pates, seul, ça n'a pas beaucoup de goût.",
+        lastUpdated: "2026-11-20T17:22",
+      },
+    ],
   },
   {
     title: 'Au fond du miroir',
