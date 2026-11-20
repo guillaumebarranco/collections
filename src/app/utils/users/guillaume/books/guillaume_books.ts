@@ -2140,6 +2140,6 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 3,
     wantToReadAgain: false,
     ratingComment: "",
-    quotes: [],
+    quotes: ["\"Tout va bien se passer\". Ça sonne toujours comme une phrase toute faite et inutile que les gens vous servent quand ils ne savent plus trop quoi dire face à une situation, mais sortis de sa bouche, ces mots me paraissent la chose la plus profonde jamais proférée de toute l'histoire de l'humanité.", "Ce sont des paroles simples, adorables. J'esquisse un sourire. Mais je sens alors mon cœur faire un drôle de truc - le fameux BOUM-BOUM qu'émet cet organe dans les proverbes. Et quand arrive le moment où la lune et le soleil coexistent dans le ciel, qu'une pâle lueur étrange et pourtant apaisante renverse la pièce, me vient une terrible pensée : je l'aime bien. Je l'aime vraiment, vraiment bien. Genre je l'aime. Genre avec un mon cœur métaphorique. Genre sur une radiographie, on verrait une flèche logée pile au centre de cette fichue masse sanguinolente de muscles dans ma poitrine. Et, curieusement, je sais que les choses entre nous ont changé."],
   },
 ];

@@ -3175,4 +3175,39 @@ export const baseMoviesApi: BaseMovie[] = [
     selectDisplayOrder: 0,
     oscars: [],
   },
+
+  {
+    title: "Hunger Games : Lever de soleil sur la moisson",
+    director: "Francis Lawrence",
+    actors: [
+      {
+        name: "Joseph Zada",
+      },
+      {
+        name: "Mckenna Grace",
+      },
+      {
+        name: "Ralph Fiennes",
+      },
+      {
+        name: "Jesse Plemons",
+      },
+      {
+        name: "Elle Fanning",
+      },
+      {
+        name: "Glenn Close",
+      },
+    ],
+    coverUrl: "https://www.franceinfo.fr/pictures/xPZXLKNLf9M3eK5o4a0fFzzCqbE/157x0:2677x3780/fit-in/750x/filters:format(jpg)/2026/11/05/6aec51253778e386854745.jpg",
+    releaseDate: "2026-11-18",
+    length: 158,
+    genre: ['Fantastique', 'Dystopie', 'Drame'],
+    saga: "Hunger Games",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [],
+  },
 ];

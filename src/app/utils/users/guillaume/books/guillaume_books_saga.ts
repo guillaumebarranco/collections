@@ -186,7 +186,7 @@ export const guillaumeBooksSaga: UserBooks = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
-    quotes: ["Well, we find we appreciate you more and more, Mum, now that we're washing our own socks."],
+    quotes: ["Well, we find we appreciate you more and more, Mum, now that we're washing our own socks.", "He understood at last what Dumbledore had been trying to tell him. It was, he thought, the difference between being dragged into the arena to face a battle to death and walking into the arena with your head held high. Some people, perhaps, would say that there was little to choose between the two ways, but Dumbledore knew - and so do I, thought Harry, with a rush of fierce pride, and so did my parents - that there was all the difference in the world."],
   },
   {
     title: 'Harry Potter et les Reliques de la Mort',
