@@ -166,12 +166,24 @@ export class DashboardQuotesComponent {
             quoteText: this.formatQuote(quote).trim(),
             lastUpdated: quote.lastUpdated,
           }))
-          .filter((quote) => quote.quoteText),
+          .filter((quote) => quote.quoteText)
+          .sort((a, b) => this.compareQuoteRecency(a.lastUpdated, b.lastUpdated)),
       }))
       .filter((item) => item.quotes.length > 0)
-      .sort((a, b) =>
-        a.title.localeCompare(b.title, 'fr', { sensitivity: 'base' })
-      );
+      .sort((a, b) => {
+        const byDate = this.compareQuoteRecency(
+          a.quotes[0]?.lastUpdated ?? '',
+          b.quotes[0]?.lastUpdated ?? ''
+        );
+        if (byDate !== 0) {
+          return byDate;
+        }
+        return a.title.localeCompare(b.title, 'fr', { sensitivity: 'base' });
+      });
+  }
+
+  private compareQuoteRecency(a: string, b: string): number {
+    return b.localeCompare(a);
   }
 
   formatQuoteDate(lastUpdated: string): string {
