@@ -84,7 +84,7 @@ export const musicsKenyArkana: UserMusic[] = [
     artist: 'Keny Arkana',
     rating: 0,
     timesListened: 80,
-    quotes: ["Papa dit que les politiques sont des prédateurs, qui sèment la peur et qui ont un estomac à la place du coeur."],
+    quotes: ["Papa dit que les politiques sont des prédateurs, qui sèment la peur et qui ont un estomac à la place du coeur.", "Et puis grand-mère disait toujours : La vie s'est l'espoir, si t'en a plus t'es comme mort et vivre relève de l'exploit ."],
   },
   {
     title: 'Entre Les Mots : Du Local Au Global',
