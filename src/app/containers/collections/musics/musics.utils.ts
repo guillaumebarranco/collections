@@ -1,6 +1,6 @@
 import { Music } from '../../../models/music-model';
 
-export const MIN_SONGS_PER_ALBUM = 8;
+export const MIN_SONGS_PER_ALBUM = 5;
 export const TIMES_LISTENED_FOR_POPULAR = 9;
 
 export const musicFilterOptions: { value: string; label: string }[] = [
@@ -51,14 +51,12 @@ export const getSortedMusics = (
     case 'releaseDate':
       return musics.sort(
         (a, b) =>
-          new Date(b.releaseDate).getTime() -
-          new Date(a.releaseDate).getTime()
+          new Date(b.releaseDate).getTime() - new Date(a.releaseDate).getTime()
       );
     case 'releaseDate-asc':
       return musics.sort(
         (a, b) =>
-          new Date(a.releaseDate).getTime() -
-          new Date(b.releaseDate).getTime()
+          new Date(a.releaseDate).getTime() - new Date(b.releaseDate).getTime()
       );
     case 'rating':
       return musics.sort((a, b) => {

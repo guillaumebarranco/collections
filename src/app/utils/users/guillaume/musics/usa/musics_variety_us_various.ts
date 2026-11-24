@@ -86,7 +86,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Justin Timberlake',
     rating: 0,
     timesListened: 250,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -94,7 +94,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'One-T',
     rating: 0,
     timesListened: 250,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -110,7 +110,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Shakira',
     rating: 0,
     timesListened: 150,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -126,7 +126,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Avril Lavigne',
     rating: 0,
     timesListened: 200,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -158,7 +158,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Nelly Furtado',
     rating: 0,
     timesListened: 200,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -182,7 +182,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Billy Joel',
     rating: 0,
     timesListened: 50,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -190,7 +190,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Ciara',
     rating: 0,
     timesListened: 80,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -302,7 +302,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Evanescence',
     rating: 0,
     timesListened: 250,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -334,7 +334,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Eurythmics',
     rating: 0,
     timesListened: 80,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -374,7 +374,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Alicia Keys',
     rating: 0,
     timesListened: 120,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -542,7 +542,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Linkin Park',
     rating: 0,
     timesListened: 250,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -614,7 +614,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Superbus',
     rating: 0,
     timesListened: 50,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {

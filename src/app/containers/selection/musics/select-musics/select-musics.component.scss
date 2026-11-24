@@ -3,6 +3,10 @@
 .select-musics-container {
   @extend %select-container;
 
+  @media (max-width: 768px) {
+    padding: 1rem;
+  }
+
   .header {
     @extend %select-header;
   }
@@ -30,8 +34,14 @@
     }
   }
 
-  .musics-grid {
+  .musics-grid,
+  .albums-grid {
     @extend %select-grid-square;
+
+    @media (max-width: 768px) {
+      grid-template-columns: repeat(auto-fill, minmax(96px, 1fr));
+      gap: 0.5rem;
+    }
   }
 
   .music-cover {
@@ -49,10 +59,6 @@
         background: rgba(232, 62, 140, 0.3);
       }
     }
-  }
-
-  .albums-grid {
-    @extend %select-grid-square;
   }
 
   .album-cover {

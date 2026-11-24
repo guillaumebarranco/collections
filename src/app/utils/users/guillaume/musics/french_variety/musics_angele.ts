@@ -7,7 +7,7 @@ export const musicsAngele: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 30,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -15,7 +15,7 @@ export const musicsAngele: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 20,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -79,7 +79,7 @@ export const musicsAngele: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 16,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -169,7 +169,7 @@ export const musicsAngele: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 35,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {

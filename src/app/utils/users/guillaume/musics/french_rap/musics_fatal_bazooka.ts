@@ -7,7 +7,7 @@ export const musicsFatalBazooka: UserMusic[] = [
     artist: 'Fatal Bazooka',
     rating: 0,
     timesListened: 120,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {

@@ -22,7 +22,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     artist: 'Shaggy',
     rating: 0,
     timesListened: 250,
-    byHeart: false,
+    byHeart: true,
     quotes: [
       {
         quoteText: "You're a queen and so you should be treated.",
@@ -35,7 +35,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     artist: 'Shaggy',
     rating: 0,
     timesListened: 250,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -51,7 +51,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     artist: 'Justin Timberlake',
     rating: 0,
     timesListened: 250,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {

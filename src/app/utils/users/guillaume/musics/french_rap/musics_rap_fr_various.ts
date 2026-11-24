@@ -6,7 +6,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Nuttea',
     rating: 0,
     timesListened: 80,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -54,7 +54,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'La Fanfare En Pétard',
     rating: 0,
     timesListened: 100,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -511,7 +511,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Lord Kossity',
     rating: 0,
     timesListened: 200,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -527,7 +527,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Factor X',
     rating: 0,
     timesListened: 80,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {

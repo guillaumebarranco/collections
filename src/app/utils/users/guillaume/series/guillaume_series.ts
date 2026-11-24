@@ -160,7 +160,7 @@ export const guillaumeSeries: UserSeries = [
       seasonTimesWatched: 15,
       firstViewedDate: "2014-03-31",
       lastViewedDate: "",
-      otherViewedDates: ["2020-10-27", "2021-09-15"],
+      otherViewedDates: ["2020-10-27", "2021-09-15", "2026-11-24"],
     }
   ],
     owned: true,
@@ -170,15 +170,15 @@ export const guillaumeSeries: UserSeries = [
     borrowed: "",
     loaned: "",
     quotes: [
-      {
-        quoteText: "T'essayes de marquer un point pour quoi ? C'est pas parce qu'elle t'as blessé une fois que tu dois la blesser maintenant. Ça fonctionne pas comme ça le mariage.",
-        lastUpdated: "2026-11-20T17:22",
-      },
-      {
-        quoteText: "Personne ne peut promettre d'être parfait. Au bout du compte, tout ce qu'on peut faire, c'est de promettre de s'aimer autant qu'on peut. Parce que l'amour, c'est la plus belle chose que l'on puisse vivre.",
-        lastUpdated: "2026-11-20T17:22",
-      },
-    ],
+    {
+      quoteText: "T'essayes de marquer un point pour quoi ? C'est pas parce qu'elle t'as blessé une fois que tu dois la blesser maintenant. Ça fonctionne pas comme ça le mariage.",
+      lastUpdated: "2026-11-20T17:22",
+    },
+    {
+      quoteText: "Personne ne peut promettre d'être parfait. Au bout du compte, tout ce qu'on peut faire, c'est de promettre de s'aimer autant qu'on peut. Parce que l'amour, c'est la plus belle chose que l'on puisse vivre.",
+      lastUpdated: "2026-11-20T17:22",
+    },
+  ],
   },
 {
     title: 'Loki',

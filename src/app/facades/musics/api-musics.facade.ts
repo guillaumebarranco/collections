@@ -28,6 +28,25 @@ export async function fetchMergedUserMusicsFromApi(
   return Array.isArray(data) ? data : [];
 }
 
+export async function saveMusicDetails(payload: {
+  userId: string;
+  title: string;
+  artist: string;
+  timesListened?: number;
+  byHeart?: boolean;
+}): Promise<boolean> {
+  try {
+    const response = await fetch(`${getApiBaseUrl()}/musics`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload),
+    });
+    return response.ok;
+  } catch {
+    return false;
+  }
+}
+
 export async function fetchBaseMusicsFromApi(): Promise<BaseMusic[]> {
   const response = await fetch(`${getApiBaseUrl()}/musics/entities`);
   if (!response.ok) {

@@ -39,7 +39,7 @@ export const musicsLaFouine: UserMusic[] = [
     artist: 'La Fouine',
     rating: 0,
     timesListened: 150,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -144,7 +144,7 @@ export const musicsLaFouine: UserMusic[] = [
     artist: 'La Fouine',
     rating: 0,
     timesListened: 120,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -160,7 +160,7 @@ export const musicsLaFouine: UserMusic[] = [
     artist: 'La Fouine',
     rating: 0,
     timesListened: 80,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -232,7 +232,7 @@ export const musicsLaFouine: UserMusic[] = [
     artist: 'La Fouine',
     rating: 0,
     timesListened: 80,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -248,7 +248,7 @@ export const musicsLaFouine: UserMusic[] = [
     artist: 'La Fouine',
     rating: 0,
     timesListened: 100,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {

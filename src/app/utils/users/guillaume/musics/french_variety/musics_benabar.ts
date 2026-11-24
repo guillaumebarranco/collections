@@ -113,7 +113,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 120,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -121,7 +121,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 100,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -203,7 +203,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 100,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {

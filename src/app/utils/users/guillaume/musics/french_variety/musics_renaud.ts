@@ -6,7 +6,7 @@ export const musicsRenaud: UserMusic[] = [
     artist: 'Renaud',
     rating: 0,
     timesListened: 250,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -86,7 +86,7 @@ export const musicsRenaud: UserMusic[] = [
     artist: 'Renaud',
     rating: 0,
     timesListened: 100,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
 ];

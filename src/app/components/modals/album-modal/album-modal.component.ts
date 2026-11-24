@@ -1,8 +1,8 @@
 import { Component, inject, input, output, signal } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MatDialog } from '@angular/material/dialog';
-import { getApiBaseUrl } from '../../../core/config';
 import { Music } from '../../../models/music-model';
+import { saveMusicDetails } from '../../../facades/musics/api-musics.facade';
 import { EntityQuotesComponent } from '../../shared/entity-quotes/entity-quotes.component';
 import {
   MusicQuotesModalComponent,
@@ -115,17 +115,13 @@ export class AlbumModalComponent {
       this.savingKey.set(key);
       this.saveErrorKey.set(null);
       try {
-        const response = await fetch(`${getApiBaseUrl()}/musics`, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            userId,
-            title: music.title,
-            artist: music.artist,
-            ...patch,
-          }),
+        const saved = await saveMusicDetails({
+          userId,
+          title: music.title,
+          artist: music.artist,
+          ...patch,
         });
-        if (!response.ok) {
+        if (!saved) {
           revert();
           this.saveErrorKey.set(key);
           return;

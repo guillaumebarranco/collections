@@ -15,7 +15,7 @@ export const musicsSinik: UserMusic[] = [
     artist: 'Sinik',
     rating: 0,
     timesListened: 150,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {

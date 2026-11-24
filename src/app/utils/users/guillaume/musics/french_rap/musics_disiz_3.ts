@@ -445,7 +445,7 @@ export const musicsDisiz3: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 150,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {

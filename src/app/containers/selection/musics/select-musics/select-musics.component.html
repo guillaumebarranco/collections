@@ -88,13 +88,16 @@
       (click)="toggleAlbumSelection(album.key)"
       [title]="album.album + ' - ' + album.artist"
     >
-      <img [src]="album.coverUrl" [alt]="album.album" />
+      <img
+        [src]="album.coverUrl || '/musics_pictures/default.jpg'"
+        [alt]="album.album"
+      />
       <div class="overlay">
         <div class="checkmark">✓</div>
         <div class="album-info">
-          <span class="album-title">{{ album.album }}</span>
-          <span class="album-artist">{{ album.artist }}</span>
-          <span class="album-count">{{ album.musics.length }} titres</span>
+          <div class="album-title">{{ album.album }}</div>
+          <div class="album-artist">{{ album.artist }}</div>
+          <div class="album-count">{{ album.musics.length }} titres</div>
         </div>
       </div>
     </div>

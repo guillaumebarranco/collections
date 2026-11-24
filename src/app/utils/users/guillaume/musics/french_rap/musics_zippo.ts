@@ -23,7 +23,7 @@ export const musicsZippo: UserMusic[] = [
     artist: 'Zippo',
     rating: 0,
     timesListened: 50,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {

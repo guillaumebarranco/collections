@@ -6,7 +6,7 @@ export const musicsBalavoine: UserMusic[] = [
     artist: 'Daniel Balavoine',
     rating: 0,
     timesListened: 250,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -14,7 +14,7 @@ export const musicsBalavoine: UserMusic[] = [
     artist: 'Daniel Balavoine',
     rating: 0,
     timesListened: 250,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -22,7 +22,7 @@ export const musicsBalavoine: UserMusic[] = [
     artist: 'Daniel Balavoine',
     rating: 0,
     timesListened: 300,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -30,7 +30,7 @@ export const musicsBalavoine: UserMusic[] = [
     artist: 'Daniel Balavoine',
     rating: 0,
     timesListened: 150,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -38,7 +38,7 @@ export const musicsBalavoine: UserMusic[] = [
     artist: 'Daniel Balavoine',
     rating: 0,
     timesListened: 300,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -46,7 +46,7 @@ export const musicsBalavoine: UserMusic[] = [
     artist: 'Daniel Balavoine',
     rating: 0,
     timesListened: 200,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -54,7 +54,7 @@ export const musicsBalavoine: UserMusic[] = [
     artist: 'Daniel Balavoine',
     rating: 0,
     timesListened: 150,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -62,7 +62,7 @@ export const musicsBalavoine: UserMusic[] = [
     artist: 'Daniel Balavoine',
     rating: 0,
     timesListened: 150,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -70,7 +70,7 @@ export const musicsBalavoine: UserMusic[] = [
     artist: 'Daniel Balavoine',
     rating: 0,
     timesListened: 120,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -78,7 +78,7 @@ export const musicsBalavoine: UserMusic[] = [
     artist: 'Daniel Balavoine',
     rating: 0,
     timesListened: 120,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
 
@@ -88,7 +88,7 @@ export const musicsBalavoine: UserMusic[] = [
     artist: 'Daniel Balavoine',
     rating: 0,
     timesListened: 150,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {

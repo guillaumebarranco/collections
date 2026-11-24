@@ -6,7 +6,7 @@ export const musicsGwenStefani: UserMusic[] = [
     artist: 'Gwen Stefani',
     rating: 0,
     timesListened: 56,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -14,7 +14,7 @@ export const musicsGwenStefani: UserMusic[] = [
     artist: 'Gwen Stefani',
     rating: 0,
     timesListened: 200,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -22,7 +22,7 @@ export const musicsGwenStefani: UserMusic[] = [
     artist: 'Gwen Stefani',
     rating: 0,
     timesListened: 100,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {

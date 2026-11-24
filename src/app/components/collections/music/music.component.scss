@@ -119,9 +119,60 @@
       }
 
       .music-listens {
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
         color: #667eea;
         font-weight: 600;
+        background: #f0f3ff;
+        padding: 2px 8px;
+        border-radius: 12px;
+
+        input {
+          width: 3.4rem;
+          margin: 0;
+          padding: 0;
+          border: 0;
+          background: transparent;
+          color: inherit;
+          font: inherit;
+          font-weight: inherit;
+          text-align: right;
+
+          &:focus {
+            outline: 2px solid #667eea;
+            border-radius: 4px;
+          }
+
+          &:disabled {
+            opacity: 0.6;
+          }
+        }
       }
+    }
+
+    .music-by-heart {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin-top: 8px;
+      color: #2c3e50;
+      font-size: 0.75rem;
+      font-weight: 600;
+      cursor: pointer;
+
+      input {
+        margin: 0;
+        accent-color: #667eea;
+      }
+    }
+
+    .music-save-error {
+      display: block;
+      margin-top: 4px;
+      color: #c0392b;
+      font-size: 0.7rem;
+      font-weight: 600;
     }
   }
 }

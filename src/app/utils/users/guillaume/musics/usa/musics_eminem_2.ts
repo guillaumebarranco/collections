@@ -241,7 +241,7 @@ export const musicsEminem2: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 150,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {

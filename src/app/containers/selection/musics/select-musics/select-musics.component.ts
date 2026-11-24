@@ -70,10 +70,7 @@ export class SelectMusicsComponent
           musics,
         };
       })
-      .filter(
-        (album) =>
-          album.musics.length >= 8 && this.hasValidCoverUrl(album.coverUrl)
-      );
+      .filter((album) => album.musics.length >= 8);
 
     return albums.sort((a, b) => {
       const artistCompare = a.artist.localeCompare(b.artist);

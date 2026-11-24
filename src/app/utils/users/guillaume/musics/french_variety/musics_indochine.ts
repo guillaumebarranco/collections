@@ -6,7 +6,7 @@ export const musicsIndochine: UserMusic[] = [
     artist: 'Indochine',
     rating: 0,
     timesListened: 200,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -14,7 +14,7 @@ export const musicsIndochine: UserMusic[] = [
     artist: 'Indochine',
     rating: 0,
     timesListened: 250,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {

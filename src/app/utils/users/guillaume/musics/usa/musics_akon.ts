@@ -193,7 +193,7 @@ export const musicsAkon: UserMusic[] = [
     artist: 'Akon',
     rating: 0,
     timesListened: 200,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {

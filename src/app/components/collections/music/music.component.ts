@@ -1,5 +1,7 @@
-import { Component, inject, input, output } from '@angular/core';
+import { Component, inject, input, output, signal } from '@angular/core';
 import { Music } from '../../../models/music-model';
+import { saveMusicDetails } from '../../../facades/musics/api-musics.facade';
+import { MusicDetailsUpdate } from '../../modals/album-modal/album-modal.component';
 import { CommonModule } from '@angular/common';
 import { isBaseEntityView } from '../../../core/config';
 import { StarInfo } from '../../../models/various-model';
@@ -33,13 +35,91 @@ export class MusicComponent {
 
   music = input.required<Music>();
   quotesUpdated = output<MusicQuotesModalResult & { title: string; artist: string }>();
+  musicUpdated = output<MusicDetailsUpdate>();
   isBaseEntityView = isBaseEntityView();
+  readonly isSaving = signal(false);
+  readonly saveError = signal(false);
+  private saveQueue: Promise<void> = Promise.resolve();
 
   canEditQuotes(): boolean {
     if (this.isBaseEntityView) {
       return false;
     }
     return this.authService.canEdit(this.currentUserId());
+  }
+
+  onTimesListenedChange(event: Event): void {
+    const music = this.music();
+    const input = event.target as HTMLInputElement;
+    const raw = input.value.trim();
+    if (!/^\d+$/.test(raw)) {
+      input.value = String(music.timesListened);
+      return;
+    }
+    const timesListened = Number(raw);
+    if (timesListened === music.timesListened) {
+      return;
+    }
+    void this.persistMusic({ timesListened }, () => {
+      input.value = String(music.timesListened);
+    });
+  }
+
+  onByHeartChange(event: Event): void {
+    const music = this.music();
+    const input = event.target as HTMLInputElement;
+    const byHeart = input.checked;
+    if (byHeart === music.byHeart) {
+      return;
+    }
+    void this.persistMusic({ byHeart }, () => {
+      input.checked = music.byHeart;
+    });
+  }
+
+  private persistMusic(
+    patch: Pick<MusicDetailsUpdate, 'timesListened' | 'byHeart'>,
+    revert: () => void
+  ): Promise<void> {
+    const music = this.music();
+    const userId = this.currentUserId();
+    if (!this.canEditQuotes()) {
+      revert();
+      return Promise.resolve();
+    }
+
+    const run = this.saveQueue.then(async () => {
+      this.isSaving.set(true);
+      this.saveError.set(false);
+      try {
+        const saved = await saveMusicDetails({
+          userId,
+          title: music.title,
+          artist: music.artist,
+          ...patch,
+        });
+        if (!saved) {
+          revert();
+          this.saveError.set(true);
+          return;
+        }
+        this.musicUpdated.emit({
+          title: music.title,
+          artist: music.artist,
+          ...patch,
+        });
+      } catch {
+        revert();
+        this.saveError.set(true);
+      } finally {
+        this.isSaving.set(false);
+      }
+    });
+    this.saveQueue = run.then(
+      () => undefined,
+      () => undefined
+    );
+    return run;
   }
 
   openQuotesEditor(): void {

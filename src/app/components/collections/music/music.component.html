@@ -33,9 +33,38 @@
       <span class="music-duration">{{ formatDuration(music().duration) }}</span>
       @if (music().rating > 0 && !isBaseEntityView) {
       <span class="music-rating">{{ getRatingStars(music().rating) }}</span>
-      } @if (music().timesListened > 0 && !isBaseEntityView) {
+      }
+      @if (canEditQuotes()) {
+      <label class="music-listens">
+        <span aria-hidden="true">🎧</span>
+        <input
+          type="number"
+          min="0"
+          step="1"
+          inputmode="numeric"
+          [value]="music().timesListened"
+          [disabled]="isSaving()"
+          [attr.aria-label]="'Nombre d\'écoutes de ' + music().title"
+          (change)="onTimesListenedChange($event)"
+        />
+      </label>
+      } @else if (music().timesListened > 0 && !isBaseEntityView) {
       <span class="music-listens">🎧 {{ music().timesListened }}</span>
       }
     </div>
+    @if (canEditQuotes()) {
+    <label class="music-by-heart">
+      <input
+        type="checkbox"
+        [checked]="music().byHeart"
+        [disabled]="isSaving()"
+        (change)="onByHeartChange($event)"
+      />
+      Je connais par cœur
+    </label>
+    @if (saveError()) {
+    <span class="music-save-error">Enregistrement impossible</span>
+    }
+    }
   </div>
 </div>

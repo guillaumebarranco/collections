@@ -17,16 +17,20 @@
     [viewOptions]="viewOptions"
     [filterOptions]="filterOptions"
     [sortOptions]="sortOptions"
+    [onlyByHeart]="onlyByHeart()"
     (onViewModeChange)="onViewModeChange($any($event))"
     (onMobileBack)="onMobileBack()"
     (onFilterChange)="onFilterChange($event)"
     (onSearchChange)="onSearchChange($event)"
     (onSortChange)="onSortChange($event)"
+    (onOnlyByHeartChange)="onOnlyByHeartChange($event)"
   ></app-musics-header>
 
   <p>Résultats affichés: {{ filteredMusics().length }}</p>
 
-  @if (selectedFilter() === 'popular' && filteredMusics().length === 0) {
+  @if (onlyByHeart() && filteredMusics().length === 0) {
+  <p class="empty-message">Aucune chanson n'est marquée comme connue par cœur.</p>
+  } @else if (selectedFilter() === 'popular' && filteredMusics().length === 0) {
   <p class="empty-message">Aucune chanson n'a été écoutée plus de 10 fois.</p>
   } @if (selectedViewMode() === 'albums') {
   <!-- Vue par Albums -->
@@ -70,6 +74,7 @@
         <app-music
         [music]="music"
         (quotesUpdated)="onMusicQuotesUpdated($event)"
+        (musicUpdated)="onMusicDetailsUpdated($event)"
       ></app-music>
       </div>
       }
@@ -83,6 +88,7 @@
       <app-music
         [music]="music"
         (quotesUpdated)="onMusicQuotesUpdated($event)"
+        (musicUpdated)="onMusicDetailsUpdated($event)"
       ></app-music>
     </div>
     }

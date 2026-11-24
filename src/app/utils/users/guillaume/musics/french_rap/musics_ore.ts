@@ -23,7 +23,7 @@ export const musicsOre: UserMusic[] = [
     artist: 'Oré',
     rating: 0,
     timesListened: 50,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {

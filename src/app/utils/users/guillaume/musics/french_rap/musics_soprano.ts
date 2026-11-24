@@ -55,7 +55,7 @@ export const musicsSoprano: UserMusic[] = [
     artist: 'Soprano',
     rating: 0,
     timesListened: 150,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -95,7 +95,7 @@ export const musicsSoprano: UserMusic[] = [
     artist: 'Soprano',
     rating: 0,
     timesListened: 200,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -103,7 +103,7 @@ export const musicsSoprano: UserMusic[] = [
     artist: 'Soprano',
     rating: 0,
     timesListened: 120,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -161,7 +161,7 @@ export const musicsSoprano: UserMusic[] = [
     artist: 'Soprano',
     rating: 0,
     timesListened: 100,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -185,7 +185,7 @@ export const musicsSoprano: UserMusic[] = [
     artist: 'Soprano',
     rating: 0,
     timesListened: 150,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -447,7 +447,7 @@ export const musicsSoprano: UserMusic[] = [
     artist: 'Soprano',
     rating: 0,
     timesListened: 80,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
 ];

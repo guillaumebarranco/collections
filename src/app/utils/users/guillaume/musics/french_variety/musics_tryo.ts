@@ -7,7 +7,7 @@ export const musicsTryo: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 150,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -71,7 +71,7 @@ export const musicsTryo: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 100,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -79,7 +79,7 @@ export const musicsTryo: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 100,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -137,7 +137,7 @@ export const musicsTryo: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 150,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -153,7 +153,7 @@ export const musicsTryo: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 100,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -177,7 +177,7 @@ export const musicsTryo: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 200,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -185,7 +185,7 @@ export const musicsTryo: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 200,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -217,7 +217,7 @@ export const musicsTryo: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 250,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -225,7 +225,7 @@ export const musicsTryo: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 180,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -241,7 +241,7 @@ export const musicsTryo: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 150,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
 
@@ -251,7 +251,7 @@ export const musicsTryo: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 180,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -283,7 +283,7 @@ export const musicsTryo: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 180,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -291,7 +291,7 @@ export const musicsTryo: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 200,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {

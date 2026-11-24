@@ -71,6 +71,7 @@ export class MusicsComponent implements OnInit {
   selectedViewMode = signal<string>('albums'); // 'albums' ou 'all'
   mobileSelectedView = signal(false);
   selectedFilter = signal<string>('popular'); // 'all' ou 'popular'
+  onlyByHeart = signal(false);
   searchTerm = signal<string>('');
 
   // Modal d'album
@@ -95,6 +96,7 @@ export class MusicsComponent implements OnInit {
         viewMode: this.selectedViewMode(),
         filter: this.selectedFilter(),
         sort: this.selectedSort(),
+        onlyByHeart: this.onlyByHeart(),
       };
       this.localStorageService.setItem(
         this.viewPreferencesStorageKey,
@@ -120,6 +122,10 @@ export class MusicsComponent implements OnInit {
       );
     } else if (this.selectedFilter() === 'more_than_once') {
       filtered = filtered.filter((music) => music.timesListened > 1);
+    }
+
+    if (this.onlyByHeart()) {
+      filtered = filtered.filter((music) => music.byHeart);
     }
 
     const term = this.searchTerm().trim().toLowerCase();
@@ -167,15 +173,22 @@ export class MusicsComponent implements OnInit {
         filteredMusics.length >= MIN_SONGS_PER_ALBUM &&
         filteredMusics.every((music) => music.timesListened > minTimesListened)
       ) {
-        // Récupérer TOUTES les musiques de l'album (pas seulement les filtrées)
         const allAlbumMusics = allAlbumsMap.get(key)!;
+        const displayedMusics = this.onlyByHeart()
+          ? filteredMusics
+          : allAlbumMusics;
         const [albumName, artist] = key.split('|');
         albums.push({
           name: albumName,
           artist: artist,
-          coverUrl: allAlbumMusics[0].coverUrl,
-          musics: allAlbumMusics.sort((a, b) => a.title.localeCompare(b.title)),
-          totalDuration: allAlbumMusics.reduce((sum, m) => sum + m.duration, 0),
+          coverUrl: displayedMusics[0].coverUrl,
+          musics: [...displayedMusics].sort((a, b) =>
+            a.title.localeCompare(b.title)
+          ),
+          totalDuration: displayedMusics.reduce(
+            (sum, music) => sum + music.duration,
+            0
+          ),
         });
       }
     });
@@ -235,6 +248,7 @@ export class MusicsComponent implements OnInit {
         viewMode: string;
         filter: string;
         sort: string;
+        onlyByHeart: boolean;
       }>
     >(this.viewPreferencesStorageKey);
     if (!parsed || typeof parsed !== 'object') return;
@@ -256,6 +270,9 @@ export class MusicsComponent implements OnInit {
       this.sortOptions.some((opt) => opt.value === parsed.sort)
     ) {
       this.selectedSort.set(parsed.sort);
+    }
+    if (typeof parsed.onlyByHeart === 'boolean') {
+      this.onlyByHeart.set(parsed.onlyByHeart);
     }
     this.isLoadingPreferences = false;
   }
@@ -341,6 +358,10 @@ export class MusicsComponent implements OnInit {
 
   onFilterChange(filter: string) {
     this.selectedFilter.set(filter);
+  }
+
+  onOnlyByHeartChange(onlyByHeart: boolean) {
+    this.onlyByHeart.set(onlyByHeart);
   }
 
   onSearchChange(value: string) {

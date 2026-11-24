@@ -29,6 +29,14 @@
     ></app-view-toggle>
   </div>
   }
+  <label class="musics-by-heart-only">
+    <input
+      type="checkbox"
+      [ngModel]="onlyByHeart()"
+      (ngModelChange)="onOnlyByHeartChange.emit($event)"
+    />
+    Afficher seulement les chansons connues par cœur
+  </label>
 
   <div class="musics-header-tools-accordion">
     @if (isMobileViewport()) {

@@ -42,8 +42,10 @@ export class MusicsHeaderComponent {
   onFilterChange = output<string>();
   onSearchChange = output<string>();
   onSortChange = output<string>();
+  onOnlyByHeartChange = output<boolean>();
 
   selectedViewMode = input<string>('albums');
+  onlyByHeart = input(false);
   selectedFilterInput = input<string>('popular');
   selectedSortInput = input<string>('rating');
   searchTermInput = input<string>('');
