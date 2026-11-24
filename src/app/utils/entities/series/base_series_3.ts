@@ -115,6 +115,11 @@ export const baseSeries3: BaseSerie[] = [
         nbEpisodes: 8,
         totalLength: 404,
       },
+      {
+        seasonNumber: 4,
+        nbEpisodes: 8,
+        totalLength: 373,
+      },
     ],
     description: '',
     fromEntity: null,

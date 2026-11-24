@@ -13,6 +13,23 @@ import { musicsEminem2 } from './musics_eminem_2';
 import { musicsEminem1 } from './musics_eminem_1';
 import { musicsDrDre } from './musics_dr_dre';
 import { musicsBadBunny } from './musics_bad_bunny';
+import { musicsTheBeatles } from './musics_the_beatles';
+import { musicsTheRollingStones } from './musics_the_rolling_stones';
+import { musicsLedZeppelin } from './musics_led_zeppelin';
+import { musicsPinkFloyd } from './musics_pink_floyd';
+import { musicsQueen } from './musics_queen';
+import { musicsNirvana } from './musics_nirvana';
+import { musicsU2 } from './musics_u2';
+import { musicsTheBeachBoys } from './musics_the_beach_boys';
+import { musicsAcDc } from './musics_acdc';
+import { musicsBobDylan } from './musics_bob_dylan';
+import { musicsElvisPresley } from './musics_elvis_presley';
+import { musicsStevieWonder } from './musics_stevie_wonder';
+import { musicsPrince } from './musics_prince';
+import { musicsDavidBowie } from './musics_david_bowie';
+import { musicsArethaFranklin } from './musics_aretha_franklin';
+import { musicsRayCharles } from './musics_ray_charles';
+import { musicsMarvinGaye } from './musics_marvin_gaye';
 
 export const musicsUsa = [
   ...musicsRapUsVarious,
@@ -30,4 +47,21 @@ export const musicsUsa = [
   ...musicsEminem1,
   ...musicsDrDre,
   ...musicsBadBunny,
+  ...musicsTheBeatles,
+  ...musicsTheRollingStones,
+  ...musicsLedZeppelin,
+  ...musicsPinkFloyd,
+  ...musicsQueen,
+  ...musicsNirvana,
+  ...musicsU2,
+  ...musicsTheBeachBoys,
+  ...musicsAcDc,
+  ...musicsBobDylan,
+  ...musicsElvisPresley,
+  ...musicsStevieWonder,
+  ...musicsPrince,
+  ...musicsDavidBowie,
+  ...musicsArethaFranklin,
+  ...musicsRayCharles,
+  ...musicsMarvinGaye,
 ];
