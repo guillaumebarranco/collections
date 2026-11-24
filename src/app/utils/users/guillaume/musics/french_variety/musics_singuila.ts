@@ -7,6 +7,7 @@ export const musicsSinguila: UserMusic[] = [
     artist: 'Singuila',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -14,6 +15,7 @@ export const musicsSinguila: UserMusic[] = [
     artist: 'Singuila',
     rating: 0,
     timesListened: 150,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -21,6 +23,7 @@ export const musicsSinguila: UserMusic[] = [
     artist: 'Singuila',
     rating: 0,
     timesListened: 150,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -28,6 +31,7 @@ export const musicsSinguila: UserMusic[] = [
     artist: 'Singuila',
     rating: 0,
     timesListened: 10,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -35,6 +39,7 @@ export const musicsSinguila: UserMusic[] = [
     artist: 'Singuila',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -42,6 +47,7 @@ export const musicsSinguila: UserMusic[] = [
     artist: 'Singuila',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -49,6 +55,7 @@ export const musicsSinguila: UserMusic[] = [
     artist: 'Singuila',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -56,6 +63,7 @@ export const musicsSinguila: UserMusic[] = [
     artist: 'Singuila',
     rating: 0,
     timesListened: 100,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -63,6 +71,7 @@ export const musicsSinguila: UserMusic[] = [
     artist: 'Singuila',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -70,6 +79,7 @@ export const musicsSinguila: UserMusic[] = [
     artist: 'Singuila',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -77,6 +87,7 @@ export const musicsSinguila: UserMusic[] = [
     artist: 'Singuila',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -84,6 +95,7 @@ export const musicsSinguila: UserMusic[] = [
     artist: 'Singuila',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -91,6 +103,7 @@ export const musicsSinguila: UserMusic[] = [
     artist: 'Singuila',
     rating: 0,
     timesListened: 20,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -98,6 +111,7 @@ export const musicsSinguila: UserMusic[] = [
     artist: 'Singuila',
     rating: 0,
     timesListened: 120,
+    byHeart: false,
     quotes: [],
   },
 
@@ -107,6 +121,7 @@ export const musicsSinguila: UserMusic[] = [
     artist: 'Singuila',
     rating: 0,
     timesListened: 120,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -114,6 +129,7 @@ export const musicsSinguila: UserMusic[] = [
     artist: 'Singuila',
     rating: 0,
     timesListened: 150,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -121,6 +137,7 @@ export const musicsSinguila: UserMusic[] = [
     artist: 'Singuila',
     rating: 0,
     timesListened: 30,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -128,6 +145,7 @@ export const musicsSinguila: UserMusic[] = [
     artist: 'Singuila',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -135,6 +153,7 @@ export const musicsSinguila: UserMusic[] = [
     artist: 'Singuila',
     rating: 0,
     timesListened: 20,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -142,6 +161,7 @@ export const musicsSinguila: UserMusic[] = [
     artist: 'Singuila',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -149,6 +169,7 @@ export const musicsSinguila: UserMusic[] = [
     artist: 'Singuila',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -156,6 +177,7 @@ export const musicsSinguila: UserMusic[] = [
     artist: 'Singuila',
     rating: 0,
     timesListened: 20,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -163,6 +185,7 @@ export const musicsSinguila: UserMusic[] = [
     artist: 'Singuila',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -170,6 +193,7 @@ export const musicsSinguila: UserMusic[] = [
     artist: 'Singuila',
     rating: 0,
     timesListened: 20,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -177,6 +201,7 @@ export const musicsSinguila: UserMusic[] = [
     artist: 'Singuila',
     rating: 0,
     timesListened: 120,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -184,6 +209,7 @@ export const musicsSinguila: UserMusic[] = [
     artist: 'Singuila',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -191,6 +217,7 @@ export const musicsSinguila: UserMusic[] = [
     artist: 'Singuila',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -198,6 +225,7 @@ export const musicsSinguila: UserMusic[] = [
     artist: 'Singuila',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -205,6 +233,7 @@ export const musicsSinguila: UserMusic[] = [
     artist: 'Singuila',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -212,6 +241,7 @@ export const musicsSinguila: UserMusic[] = [
     artist: 'Singuila',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
 ];

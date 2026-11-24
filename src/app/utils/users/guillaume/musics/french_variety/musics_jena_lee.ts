@@ -7,6 +7,7 @@ export const musicsJenaLee: UserMusic[] = [
     artist: 'Jena Lee',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -14,6 +15,7 @@ export const musicsJenaLee: UserMusic[] = [
     artist: 'Jena Lee',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -21,6 +23,7 @@ export const musicsJenaLee: UserMusic[] = [
     artist: 'Jena Lee',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -28,6 +31,7 @@ export const musicsJenaLee: UserMusic[] = [
     artist: 'Jena Lee',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -35,6 +39,7 @@ export const musicsJenaLee: UserMusic[] = [
     artist: 'Jena Lee',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -42,6 +47,7 @@ export const musicsJenaLee: UserMusic[] = [
     artist: 'Jena Lee',
     rating: 0,
     timesListened: 80,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -49,6 +55,7 @@ export const musicsJenaLee: UserMusic[] = [
     artist: 'Jena Lee',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -56,6 +63,7 @@ export const musicsJenaLee: UserMusic[] = [
     artist: 'Jena Lee',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -63,6 +71,7 @@ export const musicsJenaLee: UserMusic[] = [
     artist: 'Jena Lee',
     rating: 0,
     timesListened: 30,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -70,6 +79,7 @@ export const musicsJenaLee: UserMusic[] = [
     artist: 'Jena Lee',
     rating: 0,
     timesListened: 30,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -77,6 +87,7 @@ export const musicsJenaLee: UserMusic[] = [
     artist: 'Jena Lee',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -84,6 +95,7 @@ export const musicsJenaLee: UserMusic[] = [
     artist: 'Jena Lee',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
 ];

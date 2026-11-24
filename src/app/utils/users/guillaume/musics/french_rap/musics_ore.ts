@@ -7,6 +7,7 @@ export const musicsOre: UserMusic[] = [
     artist: 'Oré',
     rating: 0,
     timesListened: 26,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -14,6 +15,7 @@ export const musicsOre: UserMusic[] = [
     artist: 'Oré',
     rating: 0,
     timesListened: 29,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -21,6 +23,7 @@ export const musicsOre: UserMusic[] = [
     artist: 'Oré',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -28,6 +31,7 @@ export const musicsOre: UserMusic[] = [
     artist: 'Oré',
     rating: 0,
     timesListened: 22,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -35,6 +39,7 @@ export const musicsOre: UserMusic[] = [
     artist: 'Oré',
     rating: 0,
     timesListened: 60,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -42,6 +47,7 @@ export const musicsOre: UserMusic[] = [
     artist: 'Oré',
     rating: 0,
     timesListened: 11,
+    byHeart: false,
     quotes: [],
   },
 ];

@@ -1,6 +1,7 @@
 import { Component, signal, computed, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MenuComponent } from '../../../../components/menu/menu.component';
+import { ViewToggleComponent } from '../../../../components/shared/view-toggle/view-toggle.component';
 import { Music } from '../../../../models/music-model';
 import {
   getAllBaseMusics,
@@ -12,7 +13,7 @@ import { normalizeSearchText } from '../../../../utils/normalize-search-text';
 
 @Component({
   selector: 'app-select-musics',
-  imports: [CommonModule, MenuComponent],
+  imports: [CommonModule, MenuComponent, ViewToggleComponent],
   templateUrl: './select-musics.component.html',
   styleUrls: ['./select-musics.component.scss'],
 })
@@ -23,7 +24,11 @@ export class SelectMusicsComponent
   // Toutes les musiques de tous les utilisateurs
   allMusics = signal<Music[]>([]);
   userMusics = signal<Music[]>([]);
-  viewMode = signal<'tracks' | 'albums'>('tracks');
+  readonly viewModeOptions = [
+    { value: 'tracks', label: 'Par musique' },
+    { value: 'albums', label: 'Par album' },
+  ];
+  viewMode = signal<'tracks' | 'albums'>('albums');
   searchTerm = signal('');
 
   // Musiques sélectionnées
@@ -184,8 +189,10 @@ export class SelectMusicsComponent
     this.selectedMusics.set(new Set());
   }
 
-  setViewMode(mode: 'tracks' | 'albums'): void {
-    this.viewMode.set(mode);
+  setViewMode(mode: string): void {
+    if (mode === 'tracks' || mode === 'albums') {
+      this.viewMode.set(mode);
+    }
   }
 
   async addSelectedMusics(): Promise<void> {
@@ -239,6 +246,7 @@ export class SelectMusicsComponent
         ...music,
         rating: 0,
         timesListened: 0,
+        byHeart: false,
         quotes: [],
       }))
     );

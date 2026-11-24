@@ -7,6 +7,7 @@ export const musicsDace: UserMusic[] = [
     artist: 'D.ACE',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -14,6 +15,7 @@ export const musicsDace: UserMusic[] = [
     artist: 'D.ACE',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -21,6 +23,7 @@ export const musicsDace: UserMusic[] = [
     artist: 'D.ACE',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -28,6 +31,7 @@ export const musicsDace: UserMusic[] = [
     artist: 'D.ACE',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -35,6 +39,7 @@ export const musicsDace: UserMusic[] = [
     artist: 'D.ACE',
     rating: 0,
     timesListened: 6,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -42,6 +47,7 @@ export const musicsDace: UserMusic[] = [
     artist: 'D.ACE',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -49,6 +55,7 @@ export const musicsDace: UserMusic[] = [
     artist: 'D.ACE',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -56,6 +63,7 @@ export const musicsDace: UserMusic[] = [
     artist: 'D.ACE',
     rating: 0,
     timesListened: 20,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -63,6 +71,7 @@ export const musicsDace: UserMusic[] = [
     artist: 'D.ACE',
     rating: 0,
     timesListened: 5,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -70,6 +79,7 @@ export const musicsDace: UserMusic[] = [
     artist: 'D.ACE',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -77,6 +87,7 @@ export const musicsDace: UserMusic[] = [
     artist: 'D.ACE',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -84,6 +95,7 @@ export const musicsDace: UserMusic[] = [
     artist: 'D.ACE',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -91,6 +103,7 @@ export const musicsDace: UserMusic[] = [
     artist: 'D.ACE',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -98,6 +111,7 @@ export const musicsDace: UserMusic[] = [
     artist: 'D.ACE',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -105,6 +119,7 @@ export const musicsDace: UserMusic[] = [
     artist: 'D.ACE',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -112,6 +127,7 @@ export const musicsDace: UserMusic[] = [
     artist: 'D.ACE',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -119,6 +135,7 @@ export const musicsDace: UserMusic[] = [
     artist: 'D.ACE',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -128,6 +145,7 @@ export const musicsDace: UserMusic[] = [
     artist: 'D.ACE',
     rating: 0,
     timesListened: 40,
+    byHeart: false,
     quotes: [],
   },
 ];

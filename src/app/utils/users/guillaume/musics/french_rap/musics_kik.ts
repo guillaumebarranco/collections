@@ -7,6 +7,7 @@ export const musicsKik: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 41,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -14,6 +15,7 @@ export const musicsKik: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 7,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -21,6 +23,7 @@ export const musicsKik: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 24,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -28,6 +31,7 @@ export const musicsKik: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 38,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -35,6 +39,7 @@ export const musicsKik: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 21,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -42,6 +47,7 @@ export const musicsKik: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 21,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -49,6 +55,7 @@ export const musicsKik: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -56,6 +63,7 @@ export const musicsKik: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 16,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -63,6 +71,7 @@ export const musicsKik: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 7,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -70,6 +79,7 @@ export const musicsKik: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -77,6 +87,7 @@ export const musicsKik: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 39,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -84,6 +95,7 @@ export const musicsKik: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 22,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -91,6 +103,7 @@ export const musicsKik: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -98,6 +111,7 @@ export const musicsKik: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 10,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -105,6 +119,7 @@ export const musicsKik: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 8,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -112,6 +127,7 @@ export const musicsKik: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 6,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -119,6 +135,7 @@ export const musicsKik: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 9,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -126,6 +143,7 @@ export const musicsKik: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 25,
+    byHeart: false,
     quotes: [],
   },
 
@@ -135,6 +153,7 @@ export const musicsKik: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -142,6 +161,7 @@ export const musicsKik: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 8,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -149,6 +169,7 @@ export const musicsKik: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 18,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -156,6 +177,7 @@ export const musicsKik: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 27,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -163,6 +185,7 @@ export const musicsKik: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 12,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -170,6 +193,7 @@ export const musicsKik: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 8,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -177,6 +201,7 @@ export const musicsKik: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 25,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -184,6 +209,7 @@ export const musicsKik: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 5,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -191,6 +217,7 @@ export const musicsKik: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 7,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -198,6 +225,7 @@ export const musicsKik: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -205,6 +233,7 @@ export const musicsKik: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 6,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -212,6 +241,7 @@ export const musicsKik: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 29,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -219,6 +249,7 @@ export const musicsKik: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 7,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -226,6 +257,7 @@ export const musicsKik: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 13,
+    byHeart: false,
     quotes: [
       {
         quoteText: "Non là ça va pas, regardes moi ça se voit sur ma gueule, est-ce que tu crois vraiment que je vais bien ? J'te réponds oui parce que j'ai pas vraiment le choix. \nNon c'est pas normal de répondre non, imagines le malaise si j'réponds non, si j'te dis que je supporte plus la pression. Viens tu me poses plus la question.",
@@ -242,6 +274,7 @@ export const musicsKik: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 8,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -249,6 +282,7 @@ export const musicsKik: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -256,6 +290,7 @@ export const musicsKik: UserMusic[] = [
     artist: 'KIK',
     rating: 0,
     timesListened: 21,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -263,6 +298,7 @@ export const musicsKik: UserMusic[] = [
     artist: 'KIK',
     rating: 0,
     timesListened: 11,
+    byHeart: false,
     quotes: [],
   },
 
@@ -272,6 +308,7 @@ export const musicsKik: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 8,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -279,6 +316,7 @@ export const musicsKik: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 7,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -286,6 +324,7 @@ export const musicsKik: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -293,6 +332,7 @@ export const musicsKik: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -300,6 +340,7 @@ export const musicsKik: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -307,6 +348,7 @@ export const musicsKik: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -314,6 +356,7 @@ export const musicsKik: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 ];

@@ -6,6 +6,7 @@ export const musicsBeyonce: UserMusic[] = [
     artist: 'Beyoncé',
     rating: 0,
     timesListened: 150,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -13,6 +14,7 @@ export const musicsBeyonce: UserMusic[] = [
     artist: 'Beyoncé',
     rating: 0,
     timesListened: 100,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -20,6 +22,7 @@ export const musicsBeyonce: UserMusic[] = [
     artist: 'Beyoncé',
     rating: 0,
     timesListened: 150,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -27,6 +30,7 @@ export const musicsBeyonce: UserMusic[] = [
     artist: 'Beyoncé',
     rating: 0,
     timesListened: 20,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -34,6 +38,7 @@ export const musicsBeyonce: UserMusic[] = [
     artist: "Destiny's Child",
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
 ];

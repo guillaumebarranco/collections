@@ -6,6 +6,7 @@ export const musicsVarietyFrVarious: UserMusic[] = [
     artist: 'Thierry Hazard',
     rating: 0,
     timesListened: 200,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -13,6 +14,7 @@ export const musicsVarietyFrVarious: UserMusic[] = [
     artist: 'Johnny Hallyday',
     rating: 0,
     timesListened: 150,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -20,6 +22,7 @@ export const musicsVarietyFrVarious: UserMusic[] = [
     artist: 'BB Brunes',
     rating: 0,
     timesListened: 80,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -27,6 +30,7 @@ export const musicsVarietyFrVarious: UserMusic[] = [
     artist: 'Kyo',
     rating: 0,
     timesListened: 200,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -34,6 +38,7 @@ export const musicsVarietyFrVarious: UserMusic[] = [
     artist: 'Kyo',
     rating: 0,
     timesListened: 180,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -41,6 +46,7 @@ export const musicsVarietyFrVarious: UserMusic[] = [
     artist: 'Garou',
     rating: 0,
     timesListened: 120,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -48,6 +54,7 @@ export const musicsVarietyFrVarious: UserMusic[] = [
     artist: 'Renan Luce',
     rating: 0,
     timesListened: 44,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -55,6 +62,7 @@ export const musicsVarietyFrVarious: UserMusic[] = [
     artist: 'Patrick Bruel',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -62,6 +70,7 @@ export const musicsVarietyFrVarious: UserMusic[] = [
     artist: 'Michel Berger',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -69,6 +78,7 @@ export const musicsVarietyFrVarious: UserMusic[] = [
     artist: 'Nuttea',
     rating: 0,
     timesListened: 80,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -76,6 +86,7 @@ export const musicsVarietyFrVarious: UserMusic[] = [
     artist: 'Alain Souchon',
     rating: 0,
     timesListened: 30,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -83,6 +94,7 @@ export const musicsVarietyFrVarious: UserMusic[] = [
     artist: 'Michel Berger',
     rating: 0,
     timesListened: 40,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -90,6 +102,7 @@ export const musicsVarietyFrVarious: UserMusic[] = [
     artist: 'édith Piaf',
     rating: 0,
     timesListened: 30,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -97,6 +110,7 @@ export const musicsVarietyFrVarious: UserMusic[] = [
     artist: 'Mylène Farmer',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -104,6 +118,7 @@ export const musicsVarietyFrVarious: UserMusic[] = [
     artist: 'Mylène Farmer',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -111,6 +126,7 @@ export const musicsVarietyFrVarious: UserMusic[] = [
     artist: 'Mylène Farmer',
     rating: 0,
     timesListened: 80,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -118,6 +134,7 @@ export const musicsVarietyFrVarious: UserMusic[] = [
     artist: 'Julien Clerc',
     rating: 0,
     timesListened: 120,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -125,6 +142,7 @@ export const musicsVarietyFrVarious: UserMusic[] = [
     artist: 'William Sheller',
     rating: 0,
     timesListened: 100,
+    byHeart: false,
     quotes: [
       {
         quoteText: "Quel que soit le temps que ça prenne, quel que soit l'enjeu, je veux être un homme heureux.",
@@ -137,6 +155,7 @@ export const musicsVarietyFrVarious: UserMusic[] = [
     artist: 'Céline Dion',
     rating: 0,
     timesListened: 120,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -144,6 +163,7 @@ export const musicsVarietyFrVarious: UserMusic[] = [
     artist: 'Daniel Lavoie',
     rating: 0,
     timesListened: 120,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -151,6 +171,7 @@ export const musicsVarietyFrVarious: UserMusic[] = [
     artist: 'Various Artists',
     rating: 0,
     timesListened: 120,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -158,6 +179,7 @@ export const musicsVarietyFrVarious: UserMusic[] = [
     artist: 'Téléphone',
     rating: 0,
     timesListened: 100,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -165,6 +187,7 @@ export const musicsVarietyFrVarious: UserMusic[] = [
     artist: 'Michel Sardou',
     rating: 0,
     timesListened: 80,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -172,6 +195,7 @@ export const musicsVarietyFrVarious: UserMusic[] = [
     artist: 'Corneille',
     rating: 0,
     timesListened: 120,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -179,6 +203,7 @@ export const musicsVarietyFrVarious: UserMusic[] = [
     artist: 'France Gall',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -186,6 +211,7 @@ export const musicsVarietyFrVarious: UserMusic[] = [
     artist: 'Hervé Cristiani',
     rating: 0,
     timesListened: 100,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -193,6 +219,7 @@ export const musicsVarietyFrVarious: UserMusic[] = [
     artist: 'Marc Lavoine',
     rating: 0,
     timesListened: 60,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -200,6 +227,7 @@ export const musicsVarietyFrVarious: UserMusic[] = [
     artist: 'Vianney',
     rating: 0,
     timesListened: 17,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -207,6 +235,7 @@ export const musicsVarietyFrVarious: UserMusic[] = [
     artist: 'Amel Bent',
     rating: 0,
     timesListened: 100,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -214,6 +243,7 @@ export const musicsVarietyFrVarious: UserMusic[] = [
     artist: 'Charles Aznavour',
     rating: 0,
     timesListened: 70,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -221,6 +251,7 @@ export const musicsVarietyFrVarious: UserMusic[] = [
     artist: 'K.Maro',
     rating: 0,
     timesListened: 80,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -228,6 +259,7 @@ export const musicsVarietyFrVarious: UserMusic[] = [
     artist: 'Claude Dubois',
     rating: 0,
     timesListened: 100,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -235,6 +267,7 @@ export const musicsVarietyFrVarious: UserMusic[] = [
     artist: 'Axelle Red',
     rating: 0,
     timesListened: 80,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -242,6 +275,7 @@ export const musicsVarietyFrVarious: UserMusic[] = [
     artist: 'Joe Dassin',
     rating: 0,
     timesListened: 30,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -249,6 +283,7 @@ export const musicsVarietyFrVarious: UserMusic[] = [
     artist: 'Willy Denzey',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -256,6 +291,7 @@ export const musicsVarietyFrVarious: UserMusic[] = [
     artist: 'Patrick Bruel',
     rating: 0,
     timesListened: 40,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -263,6 +299,7 @@ export const musicsVarietyFrVarious: UserMusic[] = [
     artist: 'Mickey 3d',
     rating: 0,
     timesListened: 30,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -270,6 +307,7 @@ export const musicsVarietyFrVarious: UserMusic[] = [
     artist: 'L5',
     rating: 0,
     timesListened: 80,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -277,6 +315,7 @@ export const musicsVarietyFrVarious: UserMusic[] = [
     artist: 'Jean-Pierre Mader',
     rating: 0,
     timesListened: 40,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -284,6 +323,7 @@ export const musicsVarietyFrVarious: UserMusic[] = [
     artist: 'Partenaire Particulier',
     rating: 0,
     timesListened: 100,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -291,6 +331,7 @@ export const musicsVarietyFrVarious: UserMusic[] = [
     artist: 'Jumo',
     rating: 0,
     timesListened: 7,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -298,6 +339,7 @@ export const musicsVarietyFrVarious: UserMusic[] = [
     artist: 'Calogero',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -305,6 +347,7 @@ export const musicsVarietyFrVarious: UserMusic[] = [
     artist: 'Jean-Jacques Goldman',
     rating: 0,
     timesListened: 80,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -312,6 +355,7 @@ export const musicsVarietyFrVarious: UserMusic[] = [
     artist: 'Patrick Sébastien',
     rating: 0,
     timesListened: 40,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -319,6 +363,7 @@ export const musicsVarietyFrVarious: UserMusic[] = [
     artist: 'De Palmas',
     rating: 0,
     timesListened: 6,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -326,6 +371,7 @@ export const musicsVarietyFrVarious: UserMusic[] = [
     artist: 'Charles Aznavour',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -333,6 +379,7 @@ export const musicsVarietyFrVarious: UserMusic[] = [
     artist: 'France Gall',
     rating: 0,
     timesListened: 40,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -340,6 +387,7 @@ export const musicsVarietyFrVarious: UserMusic[] = [
     artist: 'Nino Ferrer',
     rating: 0,
     timesListened: 30,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -347,6 +395,7 @@ export const musicsVarietyFrVarious: UserMusic[] = [
     artist: 'Images',
     rating: 0,
     timesListened: 120,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -354,6 +403,7 @@ export const musicsVarietyFrVarious: UserMusic[] = [
     artist: 'Les Fatals Picards',
     rating: 0,
     timesListened: 30,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -361,6 +411,7 @@ export const musicsVarietyFrVarious: UserMusic[] = [
     artist: 'Sheryfa Luna',
     rating: 0,
     timesListened: 80,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -368,6 +419,7 @@ export const musicsVarietyFrVarious: UserMusic[] = [
     artist: 'Sheryfa Luna',
     rating: 0,
     timesListened: 100,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -375,6 +427,7 @@ export const musicsVarietyFrVarious: UserMusic[] = [
     artist: 'Elsa',
     rating: 0,
     timesListened: 30,
+    byHeart: false,
     quotes: [],
   },
 ];

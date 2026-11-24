@@ -6,6 +6,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Bob Sinclar',
     rating: 0,
     timesListened: 200,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -13,6 +14,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Bob Sinclar',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -20,6 +22,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Bob Sinclar',
     rating: 0,
     timesListened: 6,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -27,6 +30,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'USHER',
     rating: 0,
     timesListened: 250,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -34,6 +38,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'USHER',
     rating: 0,
     timesListened: 20,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -41,6 +46,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'USHER',
     rating: 0,
     timesListened: 100,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -48,6 +54,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'USHER',
     rating: 0,
     timesListened: 80,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -55,6 +62,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'will.i.am',
     rating: 0,
     timesListened: 53,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -62,6 +70,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Queen',
     rating: 0,
     timesListened: 100,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -69,6 +78,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Sean Paul',
     rating: 0,
     timesListened: 200,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -76,6 +86,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Justin Timberlake',
     rating: 0,
     timesListened: 250,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -83,6 +94,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'One-T',
     rating: 0,
     timesListened: 250,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -90,6 +102,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Flo Rida',
     rating: 0,
     timesListened: 80,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -97,6 +110,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Shakira',
     rating: 0,
     timesListened: 150,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -104,6 +118,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Jennifer Lopez',
     rating: 0,
     timesListened: 120,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -111,6 +126,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Avril Lavigne',
     rating: 0,
     timesListened: 200,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -118,6 +134,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Avril Lavigne',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -125,6 +142,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Baha Men',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -132,6 +150,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Outkast',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -139,6 +158,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Nelly Furtado',
     rating: 0,
     timesListened: 200,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -146,6 +166,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Europe',
     rating: 0,
     timesListened: 100,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -153,6 +174,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Bon Jovi',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -160,6 +182,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Billy Joel',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -167,6 +190,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Ciara',
     rating: 0,
     timesListened: 80,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -174,6 +198,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'The Pussycat Dolls',
     rating: 0,
     timesListened: 80,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -181,6 +206,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Sean Paul',
     rating: 0,
     timesListened: 100,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -188,6 +214,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Rednex',
     rating: 0,
     timesListened: 150,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -195,6 +222,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Cassie',
     rating: 0,
     timesListened: 120,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -202,6 +230,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Macklemore & Ryan Lewis',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -209,6 +238,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'JAY-Z',
     rating: 0,
     timesListened: 80,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -216,6 +246,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Jennifer Lopez',
     rating: 0,
     timesListened: 150,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -223,6 +254,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Flo Rida',
     rating: 0,
     timesListened: 200,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -230,6 +262,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Eve',
     rating: 0,
     timesListened: 70,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -237,6 +270,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Eve',
     rating: 0,
     timesListened: 70,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -244,6 +278,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Marina Kaye',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -251,6 +286,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Macklemore',
     rating: 0,
     timesListened: 150,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -258,6 +294,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Spice Girls',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -265,6 +302,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Evanescence',
     rating: 0,
     timesListened: 250,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -272,6 +310,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Ja Rule',
     rating: 0,
     timesListened: 30,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -279,6 +318,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Survivor',
     rating: 0,
     timesListened: 250,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -286,6 +326,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Boyz II Men',
     rating: 0,
     timesListened: 40,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -293,6 +334,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Eurythmics',
     rating: 0,
     timesListened: 80,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -300,6 +342,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Rihanna',
     rating: 0,
     timesListened: 80,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -307,6 +350,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'The Police',
     rating: 0,
     timesListened: 80,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -314,6 +358,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Alicia Keys',
     rating: 0,
     timesListened: 11,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -321,6 +366,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Alicia Keys',
     rating: 0,
     timesListened: 60,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -328,6 +374,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Alicia Keys',
     rating: 0,
     timesListened: 120,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -335,6 +382,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Justin Timberlake',
     rating: 0,
     timesListened: 120,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -342,6 +390,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Queen',
     rating: 0,
     timesListened: 100,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -349,6 +398,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Boyz II Men',
     rating: 0,
     timesListened: 14,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -356,6 +406,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'The Underdog Project',
     rating: 0,
     timesListened: 250,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -363,6 +414,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Ariana Grande',
     rating: 0,
     timesListened: 10,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -370,6 +422,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Sean Kingston',
     rating: 0,
     timesListened: 100,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -377,6 +430,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'M.I.A.',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -384,6 +438,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Estelle',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -391,6 +446,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Nicki Minaj',
     rating: 0,
     timesListened: 9,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -398,6 +454,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Rihanna',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -405,6 +462,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Shakira',
     rating: 0,
     timesListened: 80,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -412,6 +470,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Justin Timberlake',
     rating: 0,
     timesListened: 80,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -419,6 +478,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'P!nk',
     rating: 0,
     timesListened: 7,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -426,6 +486,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Chris Brown',
     rating: 0,
     timesListened: 30,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -433,6 +494,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Carly Rae Jepsen',
     rating: 0,
     timesListened: 30,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -440,6 +502,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Ed Sheeran',
     rating: 0,
     timesListened: 20,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -447,6 +510,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'The Pussycat Dolls',
     rating: 0,
     timesListened: 7,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -454,6 +518,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Boyz II Men',
     rating: 0,
     timesListened: 20,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -461,6 +526,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Joe',
     rating: 0,
     timesListened: 7,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -468,6 +534,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Joe',
     rating: 0,
     timesListened: 80,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -475,6 +542,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Linkin Park',
     rating: 0,
     timesListened: 250,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -482,6 +550,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Ariana Grande',
     rating: 0,
     timesListened: 7,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -489,6 +558,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Los Del Mar',
     rating: 0,
     timesListened: 150,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -496,6 +566,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Gnarls Barkley',
     rating: 0,
     timesListened: 80,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -503,6 +574,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Katy Perry',
     rating: 0,
     timesListened: 6,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -510,6 +582,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'a-ha',
     rating: 0,
     timesListened: 6,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -517,6 +590,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Timbaland',
     rating: 0,
     timesListened: 6,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -524,6 +598,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'The Pussycat Dolls',
     rating: 0,
     timesListened: 6,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -531,6 +606,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Timbaland',
     rating: 0,
     timesListened: 6,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -538,6 +614,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Superbus',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -545,6 +622,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'P!nk',
     rating: 0,
     timesListened: 30,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -552,6 +630,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Cyndi Lauper',
     rating: 0,
     timesListened: 70,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -559,6 +638,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'The Beatles',
     rating: 0,
     timesListened: 5,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -566,6 +646,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Katy Perry',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -573,6 +654,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Daft Punk',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -580,6 +662,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'The Beatles',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -587,6 +670,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Maroon 5',
     rating: 0,
     timesListened: 5,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -594,6 +678,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Rihanna',
     rating: 0,
     timesListened: 5,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -601,6 +686,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'London Symphony Orchestra',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -608,6 +694,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'will.i.am',
     rating: 0,
     timesListened: 30,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -615,6 +702,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Shakira',
     rating: 0,
     timesListened: 40,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -622,6 +710,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Max Lodini',
     rating: 0,
     timesListened: 20,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -629,6 +718,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Jennifer Lopez',
     rating: 0,
     timesListened: 30,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -636,6 +726,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Paul McCartney',
     rating: 0,
     timesListened: 20,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -643,6 +734,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'Marina Kaye',
     rating: 0,
     timesListened: 5,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -650,6 +742,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     artist: 'The Beatles',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 ];

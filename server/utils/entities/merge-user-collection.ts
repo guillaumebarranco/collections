@@ -613,6 +613,7 @@ function mergeMusics(userMusics: any[]): any[] {
       artist: music.artist,
       rating: music.rating ?? 0,
       timesListened: music.timesListened ?? 0,
+      byHeart: music.byHeart ?? false,
       album: base?.album || 'Unknown',
       coverUrl: base?.coverUrl || '',
       releaseDate: base?.releaseDate || '',

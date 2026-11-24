@@ -7,6 +7,7 @@ export const musicsLadyGaga: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 200,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -14,6 +15,7 @@ export const musicsLadyGaga: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 30,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -21,6 +23,7 @@ export const musicsLadyGaga: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 5,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -28,6 +31,7 @@ export const musicsLadyGaga: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -35,6 +39,7 @@ export const musicsLadyGaga: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -42,6 +47,7 @@ export const musicsLadyGaga: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 200,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -49,6 +55,7 @@ export const musicsLadyGaga: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -56,6 +63,7 @@ export const musicsLadyGaga: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -65,6 +73,7 @@ export const musicsLadyGaga: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 200,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -72,6 +81,7 @@ export const musicsLadyGaga: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 200,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -79,6 +89,7 @@ export const musicsLadyGaga: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 200,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -86,6 +97,7 @@ export const musicsLadyGaga: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 200,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -93,6 +105,7 @@ export const musicsLadyGaga: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -100,6 +113,7 @@ export const musicsLadyGaga: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 40,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -107,6 +121,7 @@ export const musicsLadyGaga: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -114,6 +129,7 @@ export const musicsLadyGaga: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -121,6 +137,7 @@ export const musicsLadyGaga: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -128,6 +145,7 @@ export const musicsLadyGaga: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -135,6 +153,7 @@ export const musicsLadyGaga: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -142,6 +161,7 @@ export const musicsLadyGaga: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -149,6 +169,7 @@ export const musicsLadyGaga: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -156,6 +177,7 @@ export const musicsLadyGaga: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -163,6 +185,7 @@ export const musicsLadyGaga: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -170,6 +193,7 @@ export const musicsLadyGaga: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
 
@@ -179,6 +203,7 @@ export const musicsLadyGaga: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 5,
+    byHeart: false,
     quotes: [],
   },
 ];

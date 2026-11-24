@@ -32,7 +32,7 @@ const BASE_MUSICS_DIR = path.join(
 import type { BaseMusic, UserMusic } from '../../../src/app/models/music-model';
 
 type MusicUpdatePayload = Partial<
-  Pick<UserMusic, 'rating' | 'timesListened' | 'quotes'>
+  Pick<UserMusic, 'rating' | 'timesListened' | 'byHeart' | 'quotes'>
 > &
   Pick<UserMusic, 'title' | 'artist'>;
 
@@ -159,10 +159,17 @@ function parseNumberField(objectText: string, key: string) {
   return Number.isNaN(parsed) ? null : parsed;
 }
 
+function parseBooleanField(objectText: string, key: string) {
+  const regex = new RegExp(`${key}\\s*:\\s*(true|false)`);
+  const match = objectText.match(regex);
+  if (!match) return null;
+  return match[1] === 'true';
+}
+
 function replaceField(
   objectText: string,
   key: string,
-  value: string | number | null | undefined
+  value: string | number | boolean | null | undefined
 ) {
   if (value === undefined || value === null) return objectText;
 
@@ -181,7 +188,7 @@ function replaceField(
     return next;
   }
 
-  if (typeof value === 'number') {
+  if (typeof value === 'number' || typeof value === 'boolean') {
     const regex = new RegExp(`(${key}\\s*:\\s*)([^,\\n]+)`);
     if (!regex.test(next)) {
       throw new Error(`Field ${key} not found`);
@@ -230,6 +237,7 @@ function parseUserMusicsFromFile(content: string): UserMusic[] {
             artist,
             rating: parseNumberField(objectText, 'rating') ?? 0,
             timesListened: parseNumberField(objectText, 'timesListened') ?? 0,
+            byHeart: parseBooleanField(objectText, 'byHeart') ?? false,
             quotes: parseQuotesField(objectText),
           } as UserMusic);
         }
@@ -383,6 +391,7 @@ function updateMusicInFile(content: string, payload: MusicUpdatePayload) {
           let updated = objectText;
           updated = replaceField(updated, 'rating', payload.rating);
           updated = replaceField(updated, 'timesListened', payload.timesListened);
+          updated = replaceField(updated, 'byHeart', payload.byHeart);
           if (Array.isArray(payload.quotes)) {
             updated = upsertQuotesField(updated, normalizeQuotes(payload.quotes));
           }

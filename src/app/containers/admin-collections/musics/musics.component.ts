@@ -53,6 +53,7 @@ export class AdminMusicsComponent implements OnInit {
       artist: music.artist,
       rating: 0,
       timesListened: 0,
+      byHeart: false,
       album: music.album,
       coverUrl: music.coverUrl,
       releaseDate: music.releaseDate,

@@ -6,6 +6,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Nuttea',
     rating: 0,
     timesListened: 80,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -13,6 +14,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Gaël Faye',
     rating: 0,
     timesListened: 18,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -20,6 +22,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: '113',
     rating: 0,
     timesListened: 30,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -27,6 +30,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Manau',
     rating: 0,
     timesListened: 80,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -34,6 +38,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: "Sexion d'Assaut",
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -41,6 +46,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: "Nèg' Marrons",
     rating: 0,
     timesListened: 70,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -48,6 +54,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'La Fanfare En Pétard',
     rating: 0,
     timesListened: 100,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -55,6 +62,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'La Fanfare En Pétard',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -62,6 +70,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Intouchable',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -69,6 +78,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: '1995',
     rating: 0,
     timesListened: 15,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -76,6 +86,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: '1995',
     rating: 0,
     timesListened: 10,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -83,6 +94,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: '1995',
     rating: 0,
     timesListened: 7,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -90,6 +102,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: '1995',
     rating: 0,
     timesListened: 10,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -97,6 +110,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Deen Burbigo',
     rating: 0,
     timesListened: 11,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -104,6 +118,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Nakk Mendosa',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -111,6 +126,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Nakk Mendosa',
     rating: 0,
     timesListened: 70,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -118,6 +134,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Kool Shen',
     rating: 0,
     timesListened: 10,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -125,6 +142,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'La Secte Phonétik',
     rating: 0,
     timesListened: 20,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -132,6 +150,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Seth Gueko',
     rating: 0,
     timesListened: 9,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -140,6 +159,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Alliance Ethnik',
     rating: 0,
     timesListened: 9,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -147,6 +167,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Koxie',
     rating: 0,
     timesListened: 120,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -154,6 +175,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Alliance Ethnik',
     rating: 0,
     timesListened: 9,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -161,6 +183,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Vald',
     rating: 0,
     timesListened: 8,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -168,6 +191,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Matt',
     rating: 0,
     timesListened: 30,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -175,6 +199,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Scred Connexion',
     rating: 0,
     timesListened: 8,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -182,6 +207,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'A2h',
     rating: 0,
     timesListened: 8,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -189,6 +215,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Dosseh',
     rating: 0,
     timesListened: 8,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -196,6 +223,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Gringe',
     rating: 0,
     timesListened: 8,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -203,6 +231,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Stomy Bugsy',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -210,6 +239,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Lomepal',
     rating: 0,
     timesListened: 8,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -217,6 +247,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Davodka',
     rating: 0,
     timesListened: 20,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -224,6 +255,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'MZ',
     rating: 0,
     timesListened: 7,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -231,6 +263,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Luciole',
     rating: 0,
     timesListened: 7,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -238,6 +271,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Luciole',
     rating: 0,
     timesListened: 7,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -245,6 +279,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Médine',
     rating: 0,
     timesListened: 7,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -252,6 +287,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Médine',
     rating: 0,
     timesListened: 7,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -259,6 +295,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Dosseh',
     rating: 0,
     timesListened: 7,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -266,6 +303,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Gaël Faye',
     rating: 0,
     timesListened: 7,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -273,6 +311,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Gringe',
     rating: 0,
     timesListened: 6,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -280,6 +319,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Neg Marron',
     rating: 0,
     timesListened: 6,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -287,6 +327,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Lomepal',
     rating: 0,
     timesListened: 6,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -294,6 +335,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Dinos',
     rating: 0,
     timesListened: 6,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -301,6 +343,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Dosseh',
     rating: 0,
     timesListened: 6,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -308,6 +351,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Alpha Wann',
     rating: 0,
     timesListened: 6,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -315,6 +359,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Flynt',
     rating: 0,
     timesListened: 20,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -322,6 +367,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Médine',
     rating: 0,
     timesListened: 5,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -329,6 +375,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Alliance Ethnik',
     rating: 0,
     timesListened: 5,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -336,6 +383,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Gaël Faye',
     rating: 0,
     timesListened: 5,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -343,6 +391,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Ideal J',
     rating: 0,
     timesListened: 20,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -350,6 +399,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Hugo TSR',
     rating: 0,
     timesListened: 5,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -357,6 +407,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Stupeflip',
     rating: 0,
     timesListened: 5,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -364,6 +415,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Blacko',
     rating: 0,
     timesListened: 5,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -371,6 +423,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Vald',
     rating: 0,
     timesListened: 5,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -378,6 +431,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Grand Corps Malade',
     rating: 0,
     timesListened: 5,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -385,6 +439,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Lomepal',
     rating: 0,
     timesListened: 5,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -392,6 +447,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Jazzy Bazz',
     rating: 0,
     timesListened: 5,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -399,6 +455,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Alliance Ethnik',
     rating: 0,
     timesListened: 5,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -406,6 +463,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Gaël Faye',
     rating: 0,
     timesListened: 5,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -413,6 +471,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Médine',
     rating: 0,
     timesListened: 5,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -420,6 +479,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Lomepal',
     rating: 0,
     timesListened: 5,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -427,6 +487,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Alliance Ethnik',
     rating: 0,
     timesListened: 5,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -434,6 +495,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Médine',
     rating: 0,
     timesListened: 5,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -441,6 +503,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Hoshi',
     rating: 0,
     timesListened: 5,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -448,6 +511,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Lord Kossity',
     rating: 0,
     timesListened: 200,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -455,6 +519,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Lord Kossity',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -462,6 +527,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Factor X',
     rating: 0,
     timesListened: 80,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -469,6 +535,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Factor X',
     rating: 0,
     timesListened: 80,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -476,6 +543,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Kizito',
     rating: 0,
     timesListened: 100,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -483,6 +551,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     artist: 'Kizito',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
 ];

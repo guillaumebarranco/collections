@@ -7,6 +7,7 @@ export const musicsDrDre: UserMusic[] = [
     artist: 'Dr. Dre',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -14,6 +15,7 @@ export const musicsDrDre: UserMusic[] = [
     artist: 'Dr. Dre',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -21,6 +23,7 @@ export const musicsDrDre: UserMusic[] = [
     artist: 'Dr. Dre',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -28,6 +31,7 @@ export const musicsDrDre: UserMusic[] = [
     artist: 'Dr. Dre',
     rating: 0,
     timesListened: 150,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -35,6 +39,7 @@ export const musicsDrDre: UserMusic[] = [
     artist: 'Dr. Dre',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -42,6 +47,7 @@ export const musicsDrDre: UserMusic[] = [
     artist: 'Dr. Dre',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -49,6 +55,7 @@ export const musicsDrDre: UserMusic[] = [
     artist: 'Dr. Dre',
     rating: 0,
     timesListened: 120,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -56,6 +63,7 @@ export const musicsDrDre: UserMusic[] = [
     artist: 'Dr. Dre',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -63,6 +71,7 @@ export const musicsDrDre: UserMusic[] = [
     artist: 'Dr. Dre',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -70,6 +79,7 @@ export const musicsDrDre: UserMusic[] = [
     artist: 'Dr. Dre',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -77,6 +87,7 @@ export const musicsDrDre: UserMusic[] = [
     artist: 'Dr. Dre',
     rating: 0,
     timesListened: 250,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -84,6 +95,7 @@ export const musicsDrDre: UserMusic[] = [
     artist: 'Dr. Dre',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -91,6 +103,7 @@ export const musicsDrDre: UserMusic[] = [
     artist: 'Dr. Dre',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -98,6 +111,7 @@ export const musicsDrDre: UserMusic[] = [
     artist: 'Dr. Dre',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -105,6 +119,7 @@ export const musicsDrDre: UserMusic[] = [
     artist: 'Dr. Dre',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -112,6 +127,7 @@ export const musicsDrDre: UserMusic[] = [
     artist: 'Dr. Dre',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -119,6 +135,7 @@ export const musicsDrDre: UserMusic[] = [
     artist: 'Dr. Dre',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -126,6 +143,7 @@ export const musicsDrDre: UserMusic[] = [
     artist: 'Dr. Dre',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -133,6 +151,7 @@ export const musicsDrDre: UserMusic[] = [
     artist: 'Dr. Dre',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -140,6 +159,7 @@ export const musicsDrDre: UserMusic[] = [
     artist: 'Dr. Dre',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -147,6 +167,7 @@ export const musicsDrDre: UserMusic[] = [
     artist: 'Dr. Dre',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -154,6 +175,7 @@ export const musicsDrDre: UserMusic[] = [
     artist: 'Dr. Dre',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 ];

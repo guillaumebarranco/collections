@@ -7,6 +7,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 10,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -14,6 +15,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 30,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -21,6 +23,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 30,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -28,6 +31,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 150,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -35,6 +39,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 30,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -42,6 +47,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 30,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -49,6 +55,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 30,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -56,6 +63,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 150,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -63,6 +71,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 30,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -70,6 +79,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 80,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -77,6 +87,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 30,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -84,6 +95,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -91,6 +103,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -98,6 +111,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 40,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -105,6 +119,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 40,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -112,6 +127,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 40,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -119,6 +135,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 100,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -126,6 +143,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 30,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -133,6 +151,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 30,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -140,6 +159,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 40,
+    byHeart: false,
     quotes: [],
   },
 
@@ -149,6 +169,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 20,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -156,6 +177,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 20,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -163,6 +185,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 100,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -170,6 +193,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 20,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -177,6 +201,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 20,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -184,6 +209,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 20,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -191,6 +217,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 20,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -198,6 +225,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 20,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -205,6 +233,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 20,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -212,6 +241,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 80,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -219,6 +249,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 100,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -226,6 +257,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 20,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -233,6 +265,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 20,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -240,6 +273,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 80,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -247,6 +281,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -254,6 +289,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 20,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -261,6 +297,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 30,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -268,6 +305,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 30,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -275,6 +313,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 30,
+    byHeart: false,
     quotes: [],
   },
 
@@ -284,6 +323,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -291,6 +331,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -298,6 +339,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -305,6 +347,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -312,6 +355,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -319,6 +363,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -326,6 +371,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -333,6 +379,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -340,6 +387,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -347,6 +395,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -354,6 +403,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -361,6 +411,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -368,6 +419,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -375,6 +427,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -384,6 +437,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 80,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -391,6 +445,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 120,
+    byHeart: false,
     quotes: [
       {
         quoteText: "Puis un jour je suis devenu riche quand un livre j'ai ouvert. J'avais l'arme pour écrire mon histoire extraordinaire.",
@@ -403,6 +458,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 200,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -410,6 +466,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 100,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -417,6 +474,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 100,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -424,6 +482,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 200,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -431,6 +490,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 250,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -438,6 +498,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 100,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -445,6 +506,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 80,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -452,6 +514,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 100,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -459,6 +522,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 150,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -466,6 +530,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 100,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -473,6 +538,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 80,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -480,6 +546,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 80,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -487,6 +554,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 100,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -494,6 +562,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 100,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -501,6 +570,7 @@ export const musicsDisiz1: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 250,
+    byHeart: false,
     quotes: [],
   },
 ];

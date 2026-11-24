@@ -6,6 +6,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -13,6 +14,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -20,6 +22,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -27,6 +30,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -34,6 +38,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -41,6 +46,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -48,6 +54,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -55,6 +62,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -62,6 +70,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -69,6 +78,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -76,6 +86,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -83,6 +94,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -90,6 +102,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -97,6 +110,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -104,6 +118,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -111,6 +126,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -118,6 +134,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -125,6 +142,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -132,6 +150,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -139,6 +158,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -146,6 +166,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -153,6 +174,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -160,6 +182,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -167,6 +190,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -174,6 +198,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -181,6 +206,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -188,6 +214,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -195,6 +222,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -202,6 +230,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -209,6 +238,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -216,6 +246,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -223,6 +254,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -230,6 +262,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -237,6 +270,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -244,6 +278,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -251,6 +286,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -258,6 +294,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -265,6 +302,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -272,6 +310,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -279,6 +318,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -286,6 +326,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -293,6 +334,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -300,6 +342,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -307,6 +350,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -314,6 +358,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -321,6 +366,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -328,6 +374,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -335,6 +382,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -342,6 +390,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -349,6 +398,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -356,6 +406,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -363,6 +414,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -370,6 +422,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -377,6 +430,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -384,6 +438,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -391,6 +446,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -398,6 +454,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -405,6 +462,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -412,6 +470,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -419,6 +478,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -426,6 +486,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -433,6 +494,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -440,6 +502,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -447,6 +510,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -454,6 +518,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -461,6 +526,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -468,6 +534,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -475,6 +542,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -482,6 +550,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -489,6 +558,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -496,6 +566,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -503,6 +574,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -510,6 +582,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -517,6 +590,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -524,6 +598,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -531,6 +606,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -538,6 +614,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -545,6 +622,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -552,6 +630,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -559,6 +638,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -566,6 +646,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -573,6 +654,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -580,6 +662,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -587,6 +670,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -594,6 +678,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -601,6 +686,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -608,6 +694,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -615,6 +702,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -622,6 +710,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -629,6 +718,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -636,6 +726,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -643,6 +734,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -650,6 +742,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -657,6 +750,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -664,6 +758,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -671,6 +766,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -678,6 +774,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Gringe',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -685,6 +782,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -692,6 +790,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -699,6 +798,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -706,6 +806,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -713,6 +814,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -720,6 +822,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -727,6 +830,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -734,6 +838,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -741,6 +846,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -748,6 +854,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -755,6 +862,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -762,6 +870,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -769,6 +878,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -776,6 +886,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -783,6 +894,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -790,6 +902,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -797,6 +910,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -804,6 +918,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -811,6 +926,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -818,6 +934,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -825,6 +942,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -832,6 +950,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -839,6 +958,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -846,6 +966,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -853,6 +974,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -860,6 +982,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -867,6 +990,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -874,6 +998,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -881,6 +1006,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -888,6 +1014,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -895,6 +1022,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -902,6 +1030,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -909,6 +1038,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -916,6 +1046,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -923,6 +1054,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -930,6 +1062,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -937,6 +1070,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -944,6 +1078,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -951,6 +1086,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -958,6 +1094,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -965,6 +1102,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -972,6 +1110,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -979,6 +1118,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -986,6 +1126,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -993,6 +1134,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1000,6 +1142,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1007,6 +1150,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1014,6 +1158,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1021,6 +1166,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1028,6 +1174,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1035,6 +1182,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1042,6 +1190,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1049,6 +1198,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1056,6 +1206,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1063,6 +1214,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1070,6 +1222,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1077,6 +1230,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1084,6 +1238,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1091,6 +1246,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1098,6 +1254,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1105,6 +1262,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1112,6 +1270,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1119,6 +1278,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1126,6 +1286,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1133,6 +1294,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1140,6 +1302,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1147,6 +1310,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1154,6 +1318,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1161,6 +1326,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1168,6 +1334,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1175,6 +1342,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1182,6 +1350,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1189,6 +1358,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1196,6 +1366,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1203,6 +1374,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1210,6 +1382,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1217,6 +1390,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1224,6 +1398,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1231,6 +1406,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1238,6 +1414,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1245,6 +1422,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1252,6 +1430,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1259,6 +1438,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1266,6 +1446,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1273,6 +1454,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1280,6 +1462,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1287,6 +1470,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1294,6 +1478,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1301,6 +1486,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1308,6 +1494,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1315,6 +1502,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1322,6 +1510,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1329,6 +1518,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1336,6 +1526,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1343,6 +1534,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1350,6 +1542,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1357,6 +1550,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1364,6 +1558,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1371,6 +1566,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1378,6 +1574,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1385,6 +1582,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1392,6 +1590,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1399,6 +1598,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1406,6 +1606,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1413,6 +1614,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1420,6 +1622,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1427,6 +1630,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1434,6 +1638,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1441,6 +1646,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1448,6 +1654,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1455,6 +1662,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1462,6 +1670,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1469,6 +1678,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1476,6 +1686,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1483,6 +1694,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1490,6 +1702,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1497,6 +1710,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1504,6 +1718,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1511,6 +1726,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1518,6 +1734,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1525,6 +1742,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1532,6 +1750,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1539,6 +1758,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1546,6 +1766,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1553,6 +1774,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1560,6 +1782,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1567,6 +1790,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1574,6 +1798,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1581,6 +1806,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1588,6 +1814,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1595,6 +1822,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1602,6 +1830,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1609,6 +1838,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1616,6 +1846,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1623,6 +1854,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1630,6 +1862,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1637,6 +1870,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1644,6 +1878,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1651,6 +1886,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1658,6 +1894,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1665,6 +1902,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1672,6 +1910,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1679,6 +1918,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1686,6 +1926,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1693,6 +1934,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1700,6 +1942,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1707,6 +1950,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1714,6 +1958,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1721,6 +1966,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1728,6 +1974,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1735,6 +1982,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1742,6 +1990,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1749,6 +1998,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1756,6 +2006,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1763,6 +2014,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1770,6 +2022,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1777,6 +2030,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1784,6 +2038,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1791,6 +2046,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1798,6 +2054,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1805,6 +2062,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1812,6 +2070,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1819,6 +2078,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1826,6 +2086,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1833,6 +2094,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1840,6 +2102,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1847,6 +2110,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1854,6 +2118,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1861,6 +2126,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1868,6 +2134,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1875,6 +2142,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1882,6 +2150,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1889,6 +2158,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1896,6 +2166,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1903,6 +2174,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1910,6 +2182,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1917,6 +2190,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1924,6 +2198,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1931,6 +2206,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1938,6 +2214,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1945,6 +2222,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1952,6 +2230,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1959,6 +2238,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1966,6 +2246,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1973,6 +2254,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1980,6 +2262,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1987,6 +2270,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -1994,6 +2278,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2001,6 +2286,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2008,6 +2294,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2015,6 +2302,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2022,6 +2310,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2029,6 +2318,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2036,6 +2326,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2043,6 +2334,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2050,6 +2342,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2057,6 +2350,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2064,6 +2358,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2071,6 +2366,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2078,6 +2374,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2085,6 +2382,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2092,6 +2390,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2099,6 +2398,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2106,6 +2406,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2113,6 +2414,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2120,6 +2422,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2127,6 +2430,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2134,6 +2438,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2141,6 +2446,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2148,6 +2454,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2155,6 +2462,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2162,6 +2470,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2169,6 +2478,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2176,6 +2486,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2183,6 +2494,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2190,6 +2502,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2197,6 +2510,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2204,6 +2518,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2211,6 +2526,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2218,6 +2534,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2225,6 +2542,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2232,6 +2550,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2239,6 +2558,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2246,6 +2566,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2253,6 +2574,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2260,6 +2582,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2267,6 +2590,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2274,6 +2598,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2281,6 +2606,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2288,6 +2614,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2295,6 +2622,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2302,6 +2630,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2309,6 +2638,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2316,6 +2646,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2323,6 +2654,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2330,6 +2662,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2337,6 +2670,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2344,6 +2678,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2351,6 +2686,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2358,6 +2694,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2365,6 +2702,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2372,6 +2710,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2379,6 +2718,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2386,6 +2726,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2393,6 +2734,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2400,6 +2742,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2407,6 +2750,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2414,6 +2758,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2421,6 +2766,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2428,6 +2774,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2435,6 +2782,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2442,6 +2790,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2449,6 +2798,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2456,6 +2806,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2463,6 +2814,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2470,6 +2822,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2477,6 +2830,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2484,6 +2838,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2491,6 +2846,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2498,6 +2854,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2505,6 +2862,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2512,6 +2870,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2519,6 +2878,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2526,6 +2886,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2533,6 +2894,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2540,6 +2902,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2547,6 +2910,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2554,6 +2918,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2561,6 +2926,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2568,6 +2934,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2575,6 +2942,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2582,6 +2950,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2589,6 +2958,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2596,6 +2966,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2603,6 +2974,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2610,6 +2982,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2617,6 +2990,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2624,6 +2998,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2631,6 +3006,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2638,6 +3014,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2645,6 +3022,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2652,6 +3030,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2659,6 +3038,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2666,6 +3046,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2673,6 +3054,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2680,6 +3062,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2687,6 +3070,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2694,6 +3078,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2701,6 +3086,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2708,6 +3094,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2715,6 +3102,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2722,6 +3110,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2729,6 +3118,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2736,6 +3126,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2743,6 +3134,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2750,6 +3142,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2757,6 +3150,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2764,6 +3158,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2771,6 +3166,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2778,6 +3174,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2785,6 +3182,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2792,6 +3190,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2799,6 +3198,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2806,6 +3206,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2813,6 +3214,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2820,6 +3222,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2827,6 +3230,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2834,6 +3238,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2841,6 +3246,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2848,6 +3254,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2855,6 +3262,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2862,6 +3270,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2869,6 +3278,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2876,6 +3286,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2883,6 +3294,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2890,6 +3302,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2897,6 +3310,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2904,6 +3318,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2911,6 +3326,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2918,6 +3334,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2925,6 +3342,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2932,6 +3350,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2939,6 +3358,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2946,6 +3366,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2953,6 +3374,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2960,6 +3382,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2967,6 +3390,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2974,6 +3398,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2981,6 +3406,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2988,6 +3414,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -2995,6 +3422,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3002,6 +3430,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3009,6 +3438,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3016,6 +3446,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3023,6 +3454,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3030,6 +3462,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3037,6 +3470,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3044,6 +3478,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3051,6 +3486,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Sniper',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3058,6 +3494,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Sniper',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3065,6 +3502,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Sniper',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3072,6 +3510,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Sniper',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3079,6 +3518,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Sniper',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3086,6 +3526,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Sniper',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3093,6 +3534,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Sniper',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3100,6 +3542,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Sniper',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3107,6 +3550,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Sniper',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3114,6 +3558,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Sniper',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3121,6 +3566,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Sniper',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3128,6 +3574,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Sniper',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3135,6 +3582,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Sniper',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3142,6 +3590,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Sniper',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3149,6 +3598,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Sniper',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3156,6 +3606,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Sniper',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3163,6 +3614,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Sniper',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3170,6 +3622,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Sniper',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3177,6 +3630,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Sniper',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3184,6 +3638,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Sniper',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3191,6 +3646,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Sniper',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3198,6 +3654,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Sniper',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3205,6 +3662,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Sniper',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3212,6 +3670,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Sniper',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3219,6 +3678,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Sniper',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3226,6 +3686,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Sniper',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3233,6 +3694,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Sniper',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3240,6 +3702,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Sniper',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3247,6 +3710,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Sniper',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3254,6 +3718,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Sniper',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3261,6 +3726,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Sniper',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3268,6 +3734,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Sniper',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3275,6 +3742,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'IAM',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3282,6 +3750,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'IAM',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3289,6 +3758,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'IAM',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3296,6 +3766,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'IAM',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3303,6 +3774,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'IAM',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3310,6 +3782,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'IAM',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3317,6 +3790,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'IAM',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3324,6 +3798,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'IAM',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3331,6 +3806,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'IAM',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3338,6 +3814,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'IAM',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3345,6 +3822,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'IAM',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3352,6 +3830,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'IAM',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3359,6 +3838,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'IAM',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3366,6 +3846,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'IAM',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3373,6 +3854,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'IAM',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3380,6 +3862,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'IAM',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3387,6 +3870,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'IAM',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3394,6 +3878,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'IAM',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3401,6 +3886,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'IAM',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3408,6 +3894,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'IAM',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3415,6 +3902,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'IAM',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3422,6 +3910,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'IAM',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3429,6 +3918,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'IAM',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3436,6 +3926,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'IAM',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3443,6 +3934,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'IAM',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3450,6 +3942,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'IAM',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3457,6 +3950,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'IAM',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3464,6 +3958,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'IAM',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3471,6 +3966,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'IAM',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3478,6 +3974,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'IAM',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3485,6 +3982,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'IAM',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3492,6 +3990,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'IAM',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3499,6 +3998,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'IAM',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3506,6 +4006,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kamini',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3513,6 +4014,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kamini',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3520,6 +4022,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kamini',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3527,6 +4030,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Soprano',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3534,6 +4038,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Soprano',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3541,6 +4046,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Soprano',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3548,6 +4054,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Soprano',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3555,6 +4062,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Soprano',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3562,6 +4070,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kery James',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3569,6 +4078,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kery James',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3576,6 +4086,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kery James',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3583,6 +4094,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kery James',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3590,6 +4102,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kery James',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3597,6 +4110,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kery James',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3604,6 +4118,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kery James',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3611,6 +4126,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kery James',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3618,6 +4134,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kery James',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3625,6 +4142,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kery James',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3632,6 +4150,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kery James',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3639,6 +4158,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kery James',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3646,6 +4166,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kery James',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3653,6 +4174,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kery James',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3660,6 +4182,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kery James',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3667,6 +4190,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kery James',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3674,6 +4198,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kery James',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3681,6 +4206,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kery James',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3688,6 +4214,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kery James',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3695,6 +4222,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kery James',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3702,6 +4230,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kery James',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3709,6 +4238,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kery James',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3716,6 +4246,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kery James',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3723,6 +4254,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3730,6 +4262,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3737,6 +4270,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3744,6 +4278,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3751,6 +4286,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3758,6 +4294,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3765,6 +4302,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3772,6 +4310,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3779,6 +4318,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3786,6 +4326,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3793,6 +4334,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3800,6 +4342,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3807,6 +4350,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3814,6 +4358,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3821,6 +4366,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3828,6 +4374,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3835,6 +4382,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3842,6 +4390,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3849,6 +4398,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3856,6 +4406,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3863,6 +4414,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3870,6 +4422,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3877,6 +4430,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3884,6 +4438,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3891,6 +4446,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3898,6 +4454,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3905,6 +4462,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3912,6 +4470,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3919,6 +4478,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3926,6 +4486,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3933,6 +4494,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3940,6 +4502,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3947,6 +4510,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3954,6 +4518,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3961,6 +4526,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'KIK',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3968,6 +4534,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'KIK',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3975,6 +4542,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3982,6 +4550,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3989,6 +4558,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -3996,6 +4566,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4003,6 +4574,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4010,6 +4582,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4017,6 +4590,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4024,6 +4598,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Fatal Bazooka',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4031,6 +4606,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Fatal Bazooka',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4038,6 +4614,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Fatal Bazooka',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4045,6 +4622,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Fatal Bazooka',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4052,6 +4630,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Fatal Bazooka',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4059,6 +4638,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Fatal Bazooka',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4066,6 +4646,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Fatal Bazooka',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4073,6 +4654,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Fatal Bazooka',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4080,6 +4662,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Fatal Bazooka',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4087,6 +4670,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Fatal Bazooka',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4094,6 +4678,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Fatal Bazooka',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4101,6 +4686,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Fatal Bazooka',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4108,6 +4694,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Fatal Bazooka',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4115,6 +4702,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Fatal Bazooka',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4122,6 +4710,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Fatal Bazooka',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4129,6 +4718,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Fatal Bazooka',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4136,6 +4726,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Fatal Bazooka',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4143,6 +4734,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Fatal Bazooka',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4150,6 +4742,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Fatal Bazooka',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4157,6 +4750,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Fatal Bazooka',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4164,6 +4758,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Diam\'s',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4171,6 +4766,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Diam\'s',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4178,6 +4774,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Diam\'s',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4185,6 +4782,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Diam\'s',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4192,6 +4790,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Diam\'s',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4199,6 +4798,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Diam\'s',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4206,6 +4806,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Gringe',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4213,6 +4814,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Lomepal',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4220,6 +4822,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Lomepal',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4227,6 +4830,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'La Fouine',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4234,6 +4838,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'La Fouine',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4241,6 +4846,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'La Fouine',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4248,6 +4854,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'La Fouine',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4255,6 +4862,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'La Fouine',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4262,6 +4870,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'La Fouine',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4269,6 +4878,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'La Fouine',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4276,6 +4886,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Daniel Balavoine',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4283,6 +4894,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Daniel Balavoine',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4290,6 +4902,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Daniel Balavoine',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4297,6 +4910,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Daniel Balavoine',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4304,6 +4918,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Daniel Balavoine',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4311,6 +4926,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4318,6 +4934,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4325,6 +4942,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4332,6 +4950,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4339,6 +4958,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4346,6 +4966,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4353,6 +4974,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4360,6 +4982,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4367,6 +4990,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4374,6 +4998,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4381,6 +5006,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4388,6 +5014,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4395,6 +5022,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4402,6 +5030,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4409,6 +5038,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4416,6 +5046,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4423,6 +5054,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4430,6 +5062,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4437,6 +5070,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4444,6 +5078,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4451,6 +5086,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4458,6 +5094,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4465,6 +5102,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4472,6 +5110,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4479,6 +5118,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4486,6 +5126,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4493,6 +5134,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4500,6 +5142,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4507,6 +5150,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4514,6 +5158,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4521,6 +5166,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4528,6 +5174,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4535,6 +5182,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Francis Cabrel',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4542,6 +5190,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Francis Cabrel',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4549,6 +5198,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Renaud',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4556,6 +5206,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Florent Pagny',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4563,6 +5214,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Indochine',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4570,6 +5222,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Indochine',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4577,6 +5230,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Indochine',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4584,6 +5238,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'BB Brunes',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4591,6 +5246,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kyo',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4598,6 +5254,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kyo',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4605,6 +5262,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Garou',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4612,6 +5270,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Renan Luce',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4619,6 +5278,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Corneille',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4626,6 +5286,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Marc Lavoine',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4633,6 +5294,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Amel Bent',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4640,6 +5302,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Charles Aznavour',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4647,6 +5310,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Calogero',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4654,6 +5318,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Charles Aznavour',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4661,6 +5326,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Sheryfa Luna',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4668,6 +5334,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4675,6 +5342,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4682,6 +5350,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Max Boublil',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4689,6 +5358,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Max Boublil',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4696,6 +5366,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Max Boublil',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4703,6 +5374,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Max Boublil',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4710,6 +5382,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Max Boublil',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4717,6 +5390,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Max Boublil',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4724,6 +5398,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Max Boublil',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4731,6 +5406,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Jena Lee',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4738,6 +5414,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kanye West',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4745,6 +5422,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kendrick Lamar',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4752,6 +5430,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4759,6 +5438,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4766,6 +5446,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4773,6 +5454,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4780,6 +5462,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4787,6 +5470,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4794,6 +5478,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Akon',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4801,6 +5486,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Akon',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4808,6 +5494,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Akon',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4815,6 +5502,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Britney Spears',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4822,6 +5510,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Britney Spears',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4829,6 +5518,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Britney Spears',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4836,6 +5526,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Black Eyed Peas',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4843,6 +5534,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Black Eyed Peas',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4850,6 +5542,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kesha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4857,6 +5550,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Beyoncé',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4864,6 +5558,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Beyoncé',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4871,6 +5566,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Michael Jackson',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4878,6 +5574,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Michael Jackson',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4885,6 +5582,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Michael Jackson',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4892,6 +5590,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Michael Jackson',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4899,6 +5598,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Michael Jackson',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4906,6 +5606,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Queen',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4913,6 +5614,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nelly Furtado',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4920,6 +5622,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Europe',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4927,6 +5630,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Macklemore & Ryan Lewis',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4934,6 +5638,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'JAY-Z',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4941,6 +5646,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Macklemore',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4948,6 +5654,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Evanescence',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4955,6 +5662,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Survivor',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4962,6 +5670,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Rihanna',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4969,6 +5678,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Alicia Keys',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4976,6 +5686,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Justin Timberlake',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4983,6 +5694,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Queen',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4990,6 +5702,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'M.I.A.',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -4997,6 +5710,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nicki Minaj',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5004,6 +5718,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Shakira',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5011,6 +5726,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Justin Timberlake',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5018,6 +5734,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'P!nk',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5025,6 +5742,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Carly Rae Jepsen',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5032,6 +5750,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Ed Sheeran',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5039,6 +5758,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'a-ha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5046,6 +5766,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Timbaland',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5053,6 +5774,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Katy Perry',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5060,6 +5782,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Daft Punk',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5067,6 +5790,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Maroon 5',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5074,6 +5798,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'London Symphony Orchestra',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5081,6 +5806,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5088,6 +5814,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5095,6 +5822,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5102,6 +5830,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5109,6 +5838,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5116,6 +5846,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5123,6 +5854,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5130,6 +5862,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5137,6 +5870,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5144,6 +5878,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5151,6 +5886,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5158,6 +5894,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5165,6 +5902,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5172,6 +5910,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5179,6 +5918,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5186,6 +5926,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5193,6 +5934,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5200,6 +5942,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5207,6 +5950,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5214,6 +5958,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5221,6 +5966,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5228,6 +5974,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5235,6 +5982,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5242,6 +5990,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5249,6 +5998,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5256,6 +6006,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5263,6 +6014,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5270,6 +6022,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5277,6 +6030,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5284,6 +6038,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5291,6 +6046,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5298,6 +6054,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5305,6 +6062,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5312,6 +6070,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5319,6 +6078,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5326,6 +6086,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5333,6 +6094,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5340,6 +6102,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5347,6 +6110,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5354,6 +6118,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5361,6 +6126,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5368,6 +6134,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5375,6 +6142,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5382,6 +6150,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5389,6 +6158,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5396,6 +6166,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5403,6 +6174,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5410,6 +6182,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5417,6 +6190,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5424,6 +6198,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5431,6 +6206,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5438,6 +6214,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5445,6 +6222,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5452,6 +6230,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5459,6 +6238,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5466,6 +6246,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5473,6 +6254,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5480,6 +6262,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5487,6 +6270,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5494,6 +6278,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5501,6 +6286,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5508,6 +6294,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5515,6 +6302,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5522,6 +6310,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5529,6 +6318,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5536,6 +6326,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5543,6 +6334,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5550,6 +6342,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5557,6 +6350,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5564,6 +6358,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5571,6 +6366,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5578,6 +6374,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5585,6 +6382,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5592,6 +6390,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5599,6 +6398,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5606,6 +6406,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5613,6 +6414,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5620,6 +6422,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5627,6 +6430,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5634,6 +6438,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5641,6 +6446,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5648,6 +6454,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5655,6 +6462,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5662,6 +6470,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5669,6 +6478,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5676,6 +6486,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5683,6 +6494,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5690,6 +6502,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5697,6 +6510,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5704,6 +6518,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5711,6 +6526,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5718,6 +6534,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5725,6 +6542,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5732,6 +6550,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5739,6 +6558,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5746,6 +6566,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5753,6 +6574,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5760,6 +6582,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5767,6 +6590,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5774,6 +6598,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5781,6 +6606,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5788,6 +6614,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5795,6 +6622,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5802,6 +6630,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5809,6 +6638,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5816,6 +6646,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5823,6 +6654,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5830,6 +6662,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5837,6 +6670,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5844,6 +6678,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5851,6 +6686,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5858,6 +6694,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5865,6 +6702,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5872,6 +6710,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5879,6 +6718,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5886,6 +6726,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5893,6 +6734,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5900,6 +6742,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5907,6 +6750,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5914,6 +6758,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5921,6 +6766,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5928,6 +6774,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5935,6 +6782,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5942,6 +6790,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5949,6 +6798,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5956,6 +6806,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5963,6 +6814,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5970,6 +6822,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5977,6 +6830,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5984,6 +6838,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5991,6 +6846,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -5998,6 +6854,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6005,6 +6862,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6012,6 +6870,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6019,6 +6878,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6026,6 +6886,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6033,6 +6894,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6040,6 +6902,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6047,6 +6910,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6054,6 +6918,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6061,6 +6926,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6068,6 +6934,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6075,6 +6942,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6082,6 +6950,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6089,6 +6958,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6096,6 +6966,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6103,6 +6974,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6110,6 +6982,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6117,6 +6990,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6124,6 +6998,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6131,6 +7006,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6138,6 +7014,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6145,6 +7022,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6152,6 +7030,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6159,6 +7038,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6166,6 +7046,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6173,6 +7054,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6180,6 +7062,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6187,6 +7070,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6194,6 +7078,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6201,6 +7086,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6208,6 +7094,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6215,6 +7102,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6222,6 +7110,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6229,6 +7118,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6236,6 +7126,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6243,6 +7134,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6250,6 +7142,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6257,6 +7150,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6264,6 +7158,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6271,6 +7166,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6278,6 +7174,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6285,6 +7182,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6292,6 +7190,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6299,6 +7198,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6306,6 +7206,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6313,6 +7214,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6320,6 +7222,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6327,6 +7230,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6334,6 +7238,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6341,6 +7246,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6348,6 +7254,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6355,6 +7262,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6362,6 +7270,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6369,6 +7278,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6376,6 +7286,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6383,6 +7294,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6390,6 +7302,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6397,6 +7310,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6404,6 +7318,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6411,6 +7326,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6418,6 +7334,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Dr. Dre',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6426,6 +7343,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Hans Zimmer',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6433,6 +7351,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Hans Zimmer',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6440,6 +7359,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Hans Zimmer',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6447,6 +7367,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Howard Shore, Edward Ross',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6454,6 +7375,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'John Williams',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6461,6 +7383,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'John Williams',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6468,6 +7391,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Alan Silvestri',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6475,6 +7399,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Steve Jablonsky',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6482,6 +7407,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Steve Jablonsky',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6489,6 +7415,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Danny Elfman',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6496,6 +7423,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Danny Elfman',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6503,6 +7431,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Danny Elfman',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6510,6 +7439,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Ramin Djawadi',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6517,6 +7447,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Ramin Djawadi',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6524,6 +7455,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Alan Silvestri',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6531,6 +7463,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'James Horner',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6538,6 +7471,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Steve Jablonsky',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6545,6 +7479,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Howard Shore',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6552,6 +7487,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Ramin Djawadi',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6559,6 +7495,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Alexandre Desplat',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6566,6 +7503,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Patrick Doyle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6573,6 +7511,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nicholas Hooper',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6580,6 +7519,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Jesper Kyd, Assassin\'s Creed',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6587,6 +7527,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Greg Edmonson, Andrew Skeet, London Philharmonic Orchestra',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6594,6 +7535,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Howard Shore',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6601,6 +7543,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Hans Zimmer',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6608,6 +7551,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Brian Tyler',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6615,6 +7559,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Steve Jablonsky',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6622,6 +7567,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'John Williams',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6629,6 +7575,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Hans Zimmer, James Newton Howard',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6636,6 +7583,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Hans Zimmer, The Magnificent Six, Pharrell Williams, Johnny Marr',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6643,6 +7591,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Blake Neely',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6650,6 +7599,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Hans Zimmer, Nick Glennie-Smith, Junkie XL, Atli Örvarsson',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6657,6 +7607,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'John Murphy',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6664,6 +7615,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Danny Elfman',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6671,6 +7623,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Blake Neely',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6678,6 +7631,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Hans Zimmer',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6685,6 +7639,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Hans Zimmer',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6692,6 +7647,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Hans Zimmer',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6699,6 +7655,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Hans Zimmer',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6706,6 +7663,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Lisa Gerrard, Klaus Badelt, Hans Zimmer, Gavin Greenaway, The Lyndhurst Orchestra, Bruce Fowler, Yvonne S. Moriarty, Walt Fowler, Ladd McIntosh, Elizabeth Finch',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6713,6 +7671,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'James Horner',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6720,6 +7679,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Steve Jablonsky',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6727,6 +7687,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'John Williams, London Voices, London Symphony Orchestra',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6734,6 +7695,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'John Williams, London Symphony Orchestra',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6741,6 +7703,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'John Williams',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6748,6 +7711,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Alan Silvestri',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6755,6 +7719,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Ramin Djawadi, Tom Morello',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6762,6 +7727,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Richard Armitage, The Dwarf Cast',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6769,6 +7735,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Ludwig Göransson',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6776,6 +7743,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'John Paesano, Braden Kimball',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6783,6 +7751,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Brian Tyler, Serena McKinney',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6790,6 +7759,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Greg Edmonson',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6797,6 +7767,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Henry Jackman',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6804,6 +7775,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Steven Price',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6811,6 +7783,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Alberto Iglesias, Nicholas Dodd, American Federation of Musicians, London Voices',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6818,6 +7791,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Hans Zimmer',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6825,6 +7799,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Daft Punk',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6832,6 +7807,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kyle Dixon & Michael Stein',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6839,6 +7815,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Daniel Pemberton',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6846,6 +7823,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Ramin Djawadi',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6853,6 +7831,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Ramin Djawadi',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6860,6 +7839,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Ramin Djawadi',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6867,6 +7847,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Ramin Djawadi',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6874,6 +7855,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Ramin Djawadi',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6881,6 +7863,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Alan Silvestri',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6888,6 +7871,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Alan Silvestri',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6895,6 +7879,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Alan Silvestri',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6902,6 +7887,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Junkie XL',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6909,6 +7895,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Vince Pope',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6916,6 +7903,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Hans Zimmer, Junkie XL',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6923,6 +7911,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Blake Neely',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6930,6 +7919,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'John Ottman, Jeffrey Schindler, American Federation of Musicians',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6937,6 +7927,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Patrick Doyle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6944,6 +7935,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bill Conti',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6951,6 +7943,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bill Conti',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6958,6 +7951,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Trevor Morris, Steve Tavaglione',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6965,6 +7959,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Junkie XL',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6972,6 +7967,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'James Horner',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6979,6 +7975,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Ramin Djawadi',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6986,6 +7983,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Ramin Djawadi',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -6993,6 +7991,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Ramin Djawadi',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7000,6 +7999,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'John Williams, London Symphony Orchestra, London Voices',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7007,6 +8007,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'John Williams, London Symphony Orchestra',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7014,6 +8015,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'John Williams, London Symphony Orchestra',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7021,6 +8023,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Jeremy Soule',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7028,6 +8031,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'John Williams',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7035,6 +8039,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Jesper Kyd, Assassin\'s Creed',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7042,6 +8047,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Jesper Kyd, Assassin\'s Creed',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7049,6 +8055,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Lorne Balfe, Assassin\'s Creed',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7056,6 +8063,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Brian Tyler, Assassin\'s Creed',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7063,6 +8071,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Brian Tyler, Assassin\'s Creed',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7070,6 +8079,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Chris Tilton, Assassin\'s Creed',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7077,6 +8087,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Blake Neely',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7084,6 +8095,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'James Shearman',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7091,6 +8103,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Sarah Schachner, Assassin\'s Creed',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7098,6 +8111,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Sarah Schachner, Assassin\'s Creed',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7105,6 +8119,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Sarah Schachner, Assassin\'s Creed',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7112,6 +8127,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kyle Dixon & Michael Stein',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7119,6 +8135,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Hans Zimmer',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7126,6 +8143,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Hans Zimmer',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7133,6 +8151,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'The Flight, Assassin\'s Creed, Mike Georgiades',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7140,6 +8159,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'London Music Works',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7147,6 +8167,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'London Music Works',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7154,6 +8175,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'London Music Works',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7161,6 +8183,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Howard Shore',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7168,6 +8191,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Howard Shore, Miranda Otto',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7175,6 +8199,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Howard Shore, Isabel Bayrakdarian',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7182,6 +8207,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Howard Shore',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7189,6 +8215,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Howard Shore',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7196,6 +8223,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Steve Jablonsky',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7203,6 +8231,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Steve Jablonsky',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7210,6 +8239,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Steve Jablonsky',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7217,6 +8247,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Steve Jablonsky',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7224,6 +8255,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Steve Jablonsky',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7231,6 +8263,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Steve Jablonsky',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7238,6 +8271,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Steve Jablonsky',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7245,6 +8279,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Steve Jablonsky',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7252,6 +8287,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nick Arundel',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7259,6 +8295,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'James Newton Howard',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7266,6 +8303,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'James Newton Howard',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7273,6 +8311,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'James Newton Howard',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7280,6 +8319,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Howard Shore, Renée Fleming',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7287,6 +8327,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Howard Shore',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7294,6 +8335,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Howard Shore',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7301,6 +8343,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Mark Mothersbaugh',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7308,6 +8351,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Mark Mothersbaugh',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7315,6 +8359,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Howard Shore',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7322,6 +8367,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Howard Shore',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7329,6 +8375,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Howard Shore',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7336,6 +8383,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Howard Shore',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7343,6 +8391,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Howard Shore',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7350,6 +8399,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Daniel Pemberton',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7357,6 +8407,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Thomas Newman',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7364,6 +8415,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Thomas Newman',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7371,6 +8423,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Yasuharu Takanashi',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7378,6 +8431,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Yasuharu Takanashi',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7385,6 +8439,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Yasuharu Takanashi',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7392,6 +8447,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Yasuharu Takanashi',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7399,6 +8455,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Yasuharu Takanashi',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7406,6 +8463,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Yasuharu Takanashi',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7413,6 +8471,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Yasuharu Takanashi',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7420,6 +8479,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Yasuharu Takanashi',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7427,6 +8487,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Yasuharu Takanashi',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7434,6 +8495,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Yasuharu Takanashi',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7441,6 +8503,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Henry Jackman',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7448,6 +8511,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Henry Jackman',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7455,6 +8519,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Henry Jackman',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7462,6 +8527,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Marco Beltrami',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7469,6 +8535,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nathan Whitehead',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7476,6 +8543,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nathan Whitehead',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7483,6 +8551,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nathan Whitehead',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7490,6 +8559,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nathan Whitehead',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7497,6 +8567,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Joe Hisaishi',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7504,6 +8575,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Patrick Doyle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7511,6 +8583,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Michael Giacchino',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7518,6 +8591,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Joseph Trapanese',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7525,6 +8599,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Hans Zimmer',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7532,6 +8607,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Hans Zimmer',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7539,6 +8615,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Hans Zimmer',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7546,6 +8623,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Brian Tyler',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7553,6 +8631,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Brian Tyler',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7560,6 +8639,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Brian Tyler',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7567,6 +8647,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Brian Tyler',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7574,6 +8655,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Brian Tyler',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7581,6 +8663,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Rupert Gregson-Williams',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7588,6 +8671,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Rupert Gregson-Williams',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7595,6 +8679,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Rupert Gregson-Williams',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7602,6 +8687,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Rupert Gregson-Williams',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7609,6 +8695,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Daniel Pemberton',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7616,6 +8703,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Daniel Pemberton',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7623,6 +8711,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Daniel Pemberton',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7630,6 +8719,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Daniel Pemberton',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7637,6 +8727,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Daniel Pemberton',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7644,6 +8735,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'John Paesano',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7651,6 +8743,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'John Paesano',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7658,6 +8751,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'John Paesano',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7665,6 +8759,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'John Paesano',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7672,6 +8767,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'John Paesano',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7679,6 +8775,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'John Paesano',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7686,6 +8783,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'John Paesano',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7693,6 +8791,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'John Paesano',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7700,6 +8799,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'John Paesano',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7707,6 +8807,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'John Paesano',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7714,6 +8815,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Hans Zimmer, Nick Glennie-Smith, Junkie XL, Atli Örvarsson',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7721,6 +8823,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Hans Zimmer, Nick Glennie-Smith, Junkie XL, Atli Örvarsson',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7728,6 +8831,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Hans Zimmer, Junkie XL',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7735,6 +8839,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Junkie XL',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7742,6 +8847,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Junkie XL',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7749,6 +8855,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Junkie XL',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7756,6 +8863,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Junkie XL',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7763,6 +8871,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Junkie XL',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7770,6 +8879,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Junkie XL',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7777,6 +8887,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Junkie XL',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7784,6 +8895,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Junkie XL',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7791,6 +8903,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Junkie XL',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7798,6 +8911,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Junkie XL',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7805,6 +8919,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Daft Punk',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7812,6 +8927,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Daft Punk',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7819,6 +8935,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Daft Punk',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7826,6 +8943,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Daft Punk',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7833,6 +8951,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Daft Punk',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7840,6 +8959,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Daft Punk',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7847,6 +8967,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'John Paesano',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7854,6 +8975,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Hans Zimmer',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7861,6 +8983,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Mark Mothersbaugh',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7868,6 +8991,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Mark Mothersbaugh',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7875,6 +8999,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Junkie XL',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7882,6 +9007,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'James Newton Howard',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7889,6 +9015,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'James Newton Howard',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7896,6 +9023,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'James Newton Howard',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7903,6 +9031,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Jeff Russo, Jordan Gagne',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7910,6 +9039,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Dan Romer',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7917,6 +9047,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Dan Romer',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7924,6 +9055,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'James Newton Howard, Hans Zimmer',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7931,6 +9063,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Hans Zimmer, The Magnificent Six, Pharrell Williams, Johnny Marr',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7938,6 +9071,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Hans Zimmer, The Magnificent Six, Pharrell Williams, Johnny Marr',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7945,6 +9079,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Hans Zimmer, The Magnificent Six, Pharrell Williams, Johnny Marr',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7952,6 +9087,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Hans Zimmer, The Magnificent Six, Pharrell Williams, Johnny Marr',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7959,6 +9095,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Ivan M. Lacamara',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7966,6 +9103,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Ivan M. Lacamara',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7973,6 +9111,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Daniel Pemberton',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7980,6 +9119,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Daniel Pemberton',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7987,6 +9127,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Cinescore',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -7994,6 +9135,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Daniel Pemberton',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8001,6 +9143,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Danny Elfman',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8008,6 +9151,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Danny Elfman',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8015,6 +9159,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Sonya Belousova, Giona Ostinelli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8022,6 +9167,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Sonya Belousova, Giona Ostinelli, Declan de Barra, Lindsay Deutsch',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8029,6 +9175,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Sonya Belousova, Giona Ostinelli, Rodion Belousov',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8036,6 +9183,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Sonya Belousova, Giona Ostinelli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8043,6 +9191,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Sonya Belousova, Giona Ostinelli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8050,6 +9199,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Michael Giacchino',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8057,6 +9207,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Arcane',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8064,6 +9215,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Arcane',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8071,6 +9223,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Arcane, Ray Chen',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8078,6 +9231,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Arcane',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8085,6 +9239,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Arcane, League of Legends, Ray Chen',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8092,6 +9247,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Michael Giacchino',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8099,6 +9255,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kyle Dixon & Michael Stein',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8106,6 +9263,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Harold Faltermeyer, Steve Stevens',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8113,6 +9271,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Dan Deacon, London Contemporary Orchestra, Royal Scottish National Orchestra',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8120,6 +9279,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Tom Tykwer, Johnny Klimek, Reinhold Heil, MDR Rundfunkchor, MDR Leipzig Radio Symphony Orchestra, Kristjan Järvi',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8127,6 +9287,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Tom Tykwer, Johnny Klimek, Reinhold Heil, MDR Rundfunkchor, MDR Leipzig Radio Symphony Orchestra, Kristjan Järvi',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8134,6 +9295,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Tom Tykwer, Johnny Klimek, Reinhold Heil, MDR Rundfunkchor, MDR Leipzig Radio Symphony Orchestra, Kristjan Järvi',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8141,6 +9303,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Tsukasa Saitoh',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8148,6 +9311,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Tai Tomisawa',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8155,6 +9319,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Hans Zimmer',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8162,6 +9327,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'GENER8ION',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8169,6 +9335,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'GENER8ION',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8176,6 +9343,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'GENER8ION',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8183,6 +9351,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Ramin Djawadi',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8190,6 +9359,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Ramin Djawadi',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8197,6 +9367,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Ramin Djawadi',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8204,6 +9375,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Ramin Djawadi',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8211,6 +9383,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Ramin Djawadi',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8218,6 +9391,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kevin Kiner',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8225,6 +9399,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kevin Kiner',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8232,6 +9407,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kevin Kiner',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8239,6 +9415,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Theophany',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8246,6 +9423,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Theophany, Emiko Sarasawati Susilo, Dewa Ayu Larassanti',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8253,6 +9431,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'John Williams',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8260,6 +9439,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Theophany',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8267,6 +9447,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Theophany',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8274,6 +9455,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Theophany, ROZEN, Emiko Sarasawati Susilo, Dewa Ayu Larassanti, Gamelan Cudamani',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8281,6 +9463,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Theophany, ROZEN, Emiko Sarasawati Susilo, Dewa Ayu Larassanti',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8288,6 +9471,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'James Horner',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8295,6 +9479,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'John Williams',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8302,6 +9487,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Ludwig Göransson, Baaba Maal',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8309,6 +9495,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Ludwig Göransson',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8316,6 +9503,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Ludwig Göransson',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8323,6 +9511,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nicholas Britell',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8330,6 +9519,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nicholas Britell',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8337,6 +9527,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nicholas Britell',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8344,6 +9535,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bear McCreary, Eivør',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8351,6 +9543,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bear McCreary, Eivør',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8358,6 +9551,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bear McCreary',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8365,6 +9559,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bear McCreary, Eivør',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8372,6 +9567,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bear McCreary',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8379,6 +9575,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bear McCreary',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8386,6 +9583,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bear McCreary',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8393,6 +9591,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Bear McCreary',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8400,6 +9599,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nicholas Britell',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8407,6 +9607,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nicholas Britell',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8414,6 +9615,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nicholas Britell',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8421,6 +9623,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nicholas Britell',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8428,6 +9631,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nicholas Britell',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8435,6 +9639,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Nicholas Britell',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8442,6 +9647,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Lorne Balfe, Assassin\'s Creed',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8449,6 +9655,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Justin Hurwitz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8456,6 +9663,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Justin Hurwitz',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8463,6 +9671,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Joseph Shirley',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8470,6 +9679,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Joseph Shirley, Baby Rose',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8477,6 +9687,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Joseph Shirley',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8484,6 +9695,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Peter Murray, Hogwarts Legacy',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8491,6 +9703,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'chuck e. myers \'sea\', Hogwarts Legacy',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8498,6 +9711,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'J Scott Rakozy, Hogwarts Legacy',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8505,6 +9719,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'John Murphy',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8512,6 +9727,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'John Murphy',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8519,6 +9735,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'John Murphy',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8526,6 +9743,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'John Murphy',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8533,6 +9751,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'John Murphy',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8540,6 +9759,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'John Murphy',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8547,6 +9767,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'John Murphy',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8554,6 +9775,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'John Murphy',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8561,6 +9783,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Daniel Pemberton',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8568,6 +9791,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Daniel Pemberton',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8575,6 +9799,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Daniel Pemberton',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8582,6 +9807,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Daniel Pemberton',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8589,6 +9815,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Daniel Pemberton',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8596,6 +9823,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Daniel Pemberton',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8603,6 +9831,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Daniel Pemberton',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8610,6 +9839,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Daniel Pemberton',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8617,6 +9847,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kris Bowers',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8624,6 +9855,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Two Steps from Hell, Thomas Bergersen',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8631,6 +9863,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Tim Davies',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8638,6 +9871,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Daniel Licht',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8645,6 +9879,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Sonya Belousova, Giona Ostinelli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8652,6 +9887,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Sonya Belousova, Giona Ostinelli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8659,6 +9895,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Sonya Belousova, Giona Ostinelli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8666,6 +9903,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Sonya Belousova, Giona Ostinelli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8673,6 +9911,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Sonya Belousova, Giona Ostinelli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8680,6 +9919,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Sonya Belousova, Giona Ostinelli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8687,6 +9927,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Sonya Belousova, Giona Ostinelli',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8694,6 +9935,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Ludwig Göransson',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8701,6 +9943,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Ludwig Göransson',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8708,6 +9951,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Hans Zimmer',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8715,6 +9959,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Hans Zimmer',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8722,6 +9967,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Hans Zimmer',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8729,6 +9975,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Natalie Holt',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8736,6 +9983,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Natalie Holt',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8743,6 +9991,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kevin Kiner',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8750,6 +9999,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'James Newton Howard',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8757,6 +10007,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'James Newton Howard, Jennifer Lawrence',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8764,6 +10015,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'John Williams, London Symphony Orchestra',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8771,6 +10023,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Olivier Deriviere, Eric Maria Couturier, Estonian Philharmonic Chamber Choir',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8778,6 +10031,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Olivier Deriviere, Eric Maria Couturier',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8785,6 +10039,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Olivier Deriviere, Eric Maria Couturier, Giani Caserotto',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8792,6 +10047,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Olivier Deriviere, Eric Maria Couturier, Jeanne Dorche, Octantrion',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8799,6 +10055,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Hans Zimmer',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8806,6 +10063,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Hans Zimmer',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8813,6 +10071,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Jérôme Rebotier',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8820,6 +10079,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Jérôme Rebotier',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8827,6 +10087,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Jérôme Rebotier',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8834,6 +10095,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Jérôme Rebotier',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8841,6 +10103,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Jérôme Rebotier',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8848,6 +10111,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Trevor Jones',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8855,6 +10119,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Trevor Jones',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8862,6 +10127,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kris Bowers',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8869,6 +10135,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kris Bowers',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8876,6 +10143,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kris Bowers',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8883,6 +10151,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kris Bowers',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8890,6 +10159,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kris Bowers',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8897,6 +10167,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kris Bowers',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8904,6 +10175,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Kris Bowers',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8911,6 +10183,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Arcane',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8918,6 +10191,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Arcane',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8925,6 +10199,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Arcane',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8932,6 +10207,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Arcane',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8939,6 +10215,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Arcane, Ray Chen',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8946,6 +10223,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Arcane',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8953,6 +10231,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Arcane',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8960,6 +10239,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Arcane',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8967,6 +10247,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Arcane',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8974,6 +10255,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Arcane',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8981,6 +10263,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Arcane, Ray Chen',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8988,6 +10271,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Arcane, Ray Chen, Kelci Hahn',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -8995,6 +10279,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Arcane, Andrew Kierszenbaum',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -9002,6 +10287,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Hans Zimmer, Gavin Greenaway, The Lyndhurst Orchestra',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -9009,6 +10295,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Yann Tiersen',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -9016,6 +10303,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Yann Tiersen',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -9023,6 +10311,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'John Paesano',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -9030,6 +10319,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'John Paesano',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -9037,6 +10327,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'John Paesano',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -9044,6 +10335,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'John Paesano',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -9051,6 +10343,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Michael Suby',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -9058,6 +10351,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Ennio Morricone',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -9065,6 +10359,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'The Newton Brothers',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -9072,6 +10367,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Lorne Balfe',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -9079,6 +10375,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Lorne Balfe',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -9086,6 +10383,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'The Name, Clément Libes',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -9093,6 +10391,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Clément Libes',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -9100,6 +10399,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'John Powell',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -9107,6 +10407,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Lorien Testard, Alice Duport-Percier',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -9114,6 +10415,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Lorien Testard, Alice Duport-Percier',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -9121,6 +10423,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Lorien Testard',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -9128,6 +10431,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Michael Giacchino',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -9135,6 +10439,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Lorien Testard, Alice Duport-Percier, Victor Borba',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -9142,6 +10447,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Lorien Testard',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -9149,6 +10455,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Lorien Testard, Alice Duport-Percier',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -9156,6 +10463,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Lorien Testard, Alice Duport-Percier, Victor Borba',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -9163,6 +10471,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Lorien Testard',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -9170,6 +10479,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Lorien Testard, Alice Duport-Percier',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -9177,6 +10487,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Lorien Testard, Alice Duport-Percier',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -9184,6 +10495,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Lorien Testard, Alice Duport-Percier',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -9191,6 +10503,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Lorien Testard, Alice Duport-Percier',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -9198,6 +10511,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Lorien Testard, Alice Duport-Percier',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -9205,6 +10519,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Lorien Testard, Alice Duport-Percier',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -9212,6 +10527,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Lorien Testard, Alice Duport-Percier',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -9219,6 +10535,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Trevor Jones',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -9226,6 +10543,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'DeVotchKa, Mychael Danna',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -9233,6 +10551,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Daniel Pemberton',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -9240,6 +10559,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Daniel Pemberton',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -9247,6 +10567,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Daniel Pemberton',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -9254,6 +10575,7 @@ export const ronanMusics: UserMusic[] = [
     artist: 'Daniel Pemberton',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 ];

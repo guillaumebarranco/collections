@@ -7,6 +7,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 10,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -14,6 +15,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -21,6 +23,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 120,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -28,6 +31,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -35,6 +39,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -42,6 +47,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -49,6 +55,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -56,6 +63,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -63,6 +71,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -70,6 +79,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -77,6 +87,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -84,6 +95,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -91,6 +103,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -98,6 +111,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -105,6 +119,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -112,6 +127,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -119,6 +135,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -126,6 +143,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -133,6 +151,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -140,6 +159,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -147,6 +167,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -156,6 +177,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -163,6 +185,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -170,6 +193,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 180,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -177,6 +201,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -184,6 +209,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -191,6 +217,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -198,6 +225,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 30,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -205,6 +233,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 250,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -212,6 +241,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -219,6 +249,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -226,6 +257,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 20,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -233,6 +265,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -240,6 +273,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -247,6 +281,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -254,6 +289,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -261,6 +297,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -268,6 +305,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 40,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -275,6 +313,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
 
@@ -284,6 +323,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -291,6 +331,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 20,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -298,6 +339,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -305,6 +347,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 150,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -312,6 +355,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -319,6 +363,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -326,6 +371,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -333,6 +379,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -340,6 +387,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -347,6 +395,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 250,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -354,6 +403,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -361,6 +411,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -368,6 +419,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 200,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -375,6 +427,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 10,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -382,6 +435,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -389,6 +443,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -396,6 +451,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -403,6 +459,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -410,6 +467,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -417,6 +475,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -426,6 +485,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -433,6 +493,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -440,6 +501,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -447,6 +509,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -454,6 +517,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 80,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -461,6 +525,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -468,6 +533,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -475,6 +541,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -482,6 +549,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -489,6 +557,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -496,6 +565,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -503,6 +573,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -510,6 +581,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 100,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -517,6 +589,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 70,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -524,6 +597,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -531,6 +605,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 250,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -538,6 +613,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -545,6 +621,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -552,6 +629,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -559,6 +637,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
 
@@ -568,6 +647,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 250,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -575,6 +655,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 70,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -582,6 +663,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -589,6 +671,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -596,6 +679,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -603,6 +687,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -610,6 +695,7 @@ export const musicsEminem1: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 ];

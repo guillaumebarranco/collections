@@ -5,6 +5,7 @@ export const musicsMaxBoublil: UserMusic[] = [
     artist: 'Max Boublil',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -12,6 +13,7 @@ export const musicsMaxBoublil: UserMusic[] = [
     artist: 'Max Boublil',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -19,6 +21,7 @@ export const musicsMaxBoublil: UserMusic[] = [
     artist: 'Max Boublil',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -26,6 +29,7 @@ export const musicsMaxBoublil: UserMusic[] = [
     artist: 'Max Boublil',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -33,6 +37,7 @@ export const musicsMaxBoublil: UserMusic[] = [
     artist: 'Max Boublil',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -40,6 +45,7 @@ export const musicsMaxBoublil: UserMusic[] = [
     artist: 'Max Boublil',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -47,6 +53,7 @@ export const musicsMaxBoublil: UserMusic[] = [
     artist: 'Max Boublil',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -54,6 +61,7 @@ export const musicsMaxBoublil: UserMusic[] = [
     artist: 'Max Boublil',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -61,6 +69,7 @@ export const musicsMaxBoublil: UserMusic[] = [
     artist: 'Max Boublil',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -68,6 +77,7 @@ export const musicsMaxBoublil: UserMusic[] = [
     artist: 'Max Boublil',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -75,6 +85,7 @@ export const musicsMaxBoublil: UserMusic[] = [
     artist: 'Max Boublil',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -82,6 +93,7 @@ export const musicsMaxBoublil: UserMusic[] = [
     artist: 'Max Boublil',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -89,6 +101,7 @@ export const musicsMaxBoublil: UserMusic[] = [
     artist: 'Max Boublil',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -96,6 +109,7 @@ export const musicsMaxBoublil: UserMusic[] = [
     artist: 'Max Boublil',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -103,6 +117,7 @@ export const musicsMaxBoublil: UserMusic[] = [
     artist: 'Max Boublil',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -110,6 +125,7 @@ export const musicsMaxBoublil: UserMusic[] = [
     artist: 'Max Boublil',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -117,6 +133,7 @@ export const musicsMaxBoublil: UserMusic[] = [
     artist: 'Max Boublil',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -124,6 +141,7 @@ export const musicsMaxBoublil: UserMusic[] = [
     artist: 'Max Boublil',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -131,6 +149,7 @@ export const musicsMaxBoublil: UserMusic[] = [
     artist: 'Max Boublil',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -138,6 +157,7 @@ export const musicsMaxBoublil: UserMusic[] = [
     artist: 'Max Boublil',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -145,6 +165,7 @@ export const musicsMaxBoublil: UserMusic[] = [
     artist: 'Max Boublil',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -152,6 +173,7 @@ export const musicsMaxBoublil: UserMusic[] = [
     artist: 'Max Boublil',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -159,6 +181,7 @@ export const musicsMaxBoublil: UserMusic[] = [
     artist: 'Max Boublil',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -166,6 +189,7 @@ export const musicsMaxBoublil: UserMusic[] = [
     artist: 'Max Boublil',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -173,6 +197,7 @@ export const musicsMaxBoublil: UserMusic[] = [
     artist: 'Max Boublil',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -180,6 +205,7 @@ export const musicsMaxBoublil: UserMusic[] = [
     artist: 'Max Boublil',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -187,6 +213,7 @@ export const musicsMaxBoublil: UserMusic[] = [
     artist: 'Max Boublil',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
 ];

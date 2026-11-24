@@ -16,6 +16,8 @@ export interface BaseMusic extends MandatoryMusicData {
 export interface UserMusic extends MandatoryMusicData {
   rating: number;
   timesListened: number;
+  /** Connaît le morceau par cœur. */
+  byHeart: boolean;
   /** Citations extraites du morceau. */
   quotes: EntityQuote[];
 }

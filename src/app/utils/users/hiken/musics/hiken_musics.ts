@@ -6,6 +6,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Booba",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -14,6 +15,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Booba",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -22,6 +24,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Booba",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -30,6 +33,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Booba",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -38,6 +42,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Booba",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -46,6 +51,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Booba",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -54,6 +60,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Booba",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -62,6 +69,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Booba",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -70,6 +78,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Booba",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -78,6 +87,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Booba",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -86,6 +96,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Booba",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -94,6 +105,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Booba",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -102,6 +114,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Booba",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -110,6 +123,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Booba",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -118,6 +132,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Booba",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -126,6 +141,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Booba",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -134,6 +150,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Booba",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -142,6 +159,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Booba",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -150,6 +168,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Booba",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -158,6 +177,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Booba",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -166,6 +186,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Booba",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -174,6 +195,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Booba",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -182,6 +204,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Booba",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -190,6 +213,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Booba",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -198,6 +222,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Booba",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -206,6 +231,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Booba",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -214,6 +240,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Booba",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -222,6 +249,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Booba",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -230,6 +258,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Booba",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -238,6 +267,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Booba",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -246,6 +276,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Booba",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -254,6 +285,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Booba",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -262,6 +294,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Booba",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -270,6 +303,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Booba",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -278,6 +312,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Booba",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -286,6 +321,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Booba",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -294,6 +330,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Booba",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -302,6 +339,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Booba",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -310,6 +348,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Booba",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -318,6 +357,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Booba",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -326,6 +366,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Casseurs Flowters",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -334,6 +375,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Casseurs Flowters",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -342,6 +384,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Casseurs Flowters",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -350,6 +393,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Casseurs Flowters",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -358,6 +402,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Casseurs Flowters",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -366,6 +411,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Casseurs Flowters",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -374,6 +420,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Casseurs Flowters",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -382,6 +429,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Casseurs Flowters",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -390,6 +438,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Casseurs Flowters",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -398,6 +447,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Casseurs Flowters",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -406,6 +456,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Casseurs Flowters",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -414,6 +465,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Casseurs Flowters",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -422,6 +474,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Casseurs Flowters",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -430,6 +483,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Casseurs Flowters",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -438,6 +492,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Casseurs Flowters",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -446,6 +501,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Casseurs Flowters",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -454,6 +510,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Casseurs Flowters",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -462,6 +519,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Casseurs Flowters",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -470,6 +528,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Casseurs Flowters",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -478,6 +537,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Casseurs Flowters",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -486,6 +546,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Casseurs Flowters",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -494,6 +555,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Casseurs Flowters",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -502,6 +564,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Casseurs Flowters",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -510,6 +573,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Casseurs Flowters",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -518,6 +582,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Casseurs Flowters",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -526,6 +591,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Casseurs Flowters",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -534,6 +600,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Casseurs Flowters",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -542,6 +609,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Casseurs Flowters",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -550,6 +618,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Casseurs Flowters",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -558,6 +627,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Casseurs Flowters",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -566,6 +636,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Casseurs Flowters",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -574,6 +645,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Casseurs Flowters",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -582,6 +654,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Casseurs Flowters",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -590,6 +663,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Casseurs Flowters",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -598,6 +672,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Casseurs Flowters",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -606,6 +681,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Casseurs Flowters",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -614,6 +690,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -622,6 +699,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -630,6 +708,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -638,6 +717,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -646,6 +726,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -654,6 +735,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -662,6 +744,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -670,6 +753,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -678,6 +762,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -686,6 +771,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -694,6 +780,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -702,6 +789,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -710,6 +798,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -718,6 +807,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -726,6 +816,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -734,6 +825,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -742,6 +834,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -750,6 +843,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -758,6 +852,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -766,6 +861,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -774,6 +870,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -782,6 +879,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -790,6 +888,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -798,6 +897,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -806,6 +906,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -814,6 +915,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -822,6 +924,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -830,6 +933,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -838,6 +942,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -846,6 +951,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -854,6 +960,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -862,6 +969,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -870,6 +978,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -878,6 +987,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -886,6 +996,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -894,6 +1005,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -902,6 +1014,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -910,6 +1023,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -918,6 +1032,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -926,6 +1041,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -934,6 +1050,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -942,6 +1059,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -950,6 +1068,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -958,6 +1077,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -966,6 +1086,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -974,6 +1095,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -982,6 +1104,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -990,6 +1113,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -998,6 +1122,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1006,6 +1131,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1014,6 +1140,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1022,6 +1149,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1030,6 +1158,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1038,6 +1167,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1046,6 +1176,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1054,6 +1185,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1062,6 +1194,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1070,6 +1203,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1078,6 +1212,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1086,6 +1221,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1094,6 +1230,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1102,6 +1239,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1110,6 +1248,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1118,6 +1257,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1126,6 +1266,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1134,6 +1275,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1142,6 +1284,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1150,6 +1293,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1158,6 +1302,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1166,6 +1311,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1174,6 +1320,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1182,6 +1329,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1190,6 +1338,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1198,6 +1347,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1206,6 +1356,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1214,6 +1365,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1222,6 +1374,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1230,6 +1383,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1238,6 +1392,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1246,6 +1401,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1254,6 +1410,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1262,6 +1419,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1270,6 +1428,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1278,6 +1437,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1286,6 +1446,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz La Peste",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1294,6 +1455,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz Peter Punk",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1302,6 +1464,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz Peter Punk",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1310,6 +1473,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz Peter Punk",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1318,6 +1482,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz Peter Punk",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1326,6 +1491,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz Peter Punk",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1334,6 +1500,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz Peter Punk",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1342,6 +1509,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz Peter Punk",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1350,6 +1518,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz Peter Punk",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1358,6 +1527,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz Peter Punk",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1366,6 +1536,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz Peter Punk",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1374,6 +1545,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz Peter Punk",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1382,6 +1554,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz Peter Punk",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1390,6 +1563,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz Peter Punk",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1398,6 +1572,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1406,6 +1581,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1414,6 +1590,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1422,6 +1599,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1430,6 +1608,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1438,6 +1617,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1446,6 +1626,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1454,6 +1635,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1462,6 +1644,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1470,6 +1653,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1478,6 +1662,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1486,6 +1671,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1494,6 +1680,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1502,6 +1689,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1510,6 +1698,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1518,6 +1707,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1526,6 +1716,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1534,6 +1725,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1542,6 +1734,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1550,6 +1743,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1558,6 +1752,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1566,6 +1761,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1574,6 +1770,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1582,6 +1779,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1590,6 +1788,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1598,6 +1797,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1606,6 +1806,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1614,6 +1815,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1622,6 +1824,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1630,6 +1833,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1638,6 +1842,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1646,6 +1851,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1654,6 +1860,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1662,6 +1869,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1670,6 +1878,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1678,6 +1887,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1686,6 +1896,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1694,6 +1905,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1702,6 +1914,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1710,6 +1923,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1718,6 +1932,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1726,6 +1941,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1734,6 +1950,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1742,6 +1959,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1750,6 +1968,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1758,6 +1977,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1766,6 +1986,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1774,6 +1995,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1782,6 +2004,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1790,6 +2013,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1798,6 +2022,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1806,6 +2031,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1814,6 +2040,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1822,6 +2049,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1830,6 +2058,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1838,6 +2067,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1846,6 +2076,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1854,6 +2085,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1862,6 +2094,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1870,6 +2103,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1878,6 +2112,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1886,6 +2121,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "IAM",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1894,6 +2130,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "IAM",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1902,6 +2139,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "IAM",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1910,6 +2148,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "IAM",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1918,6 +2157,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "IAM",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1926,6 +2166,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "IAM",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1934,6 +2175,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "IAM",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1942,6 +2184,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "IAM",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1950,6 +2193,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "IAM",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1958,6 +2202,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "IAM",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1966,6 +2211,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "IAM",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1974,6 +2220,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "IAM",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1982,6 +2229,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "IAM",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1990,6 +2238,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "IAM",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1998,6 +2247,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "IAM",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2006,6 +2256,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "IAM",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2014,6 +2265,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "IAM",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2022,6 +2274,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "IAM",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2030,6 +2283,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "IAM",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2038,6 +2292,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "IAM",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2046,6 +2301,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "IAM",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2054,6 +2310,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "IAM",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2062,6 +2319,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "IAM",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2070,6 +2328,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "IAM",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2078,6 +2337,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "IAM",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2086,6 +2346,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "IAM",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2094,6 +2355,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "IAM",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2102,6 +2364,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "IAM",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2110,6 +2373,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "IAM",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2118,6 +2382,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "IAM",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2126,6 +2391,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "IAM",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2134,6 +2400,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "IAM",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2142,6 +2409,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "IAM",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2150,6 +2418,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Kery James",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2158,6 +2427,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Kery James",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2166,6 +2436,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Kery James",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2174,6 +2445,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Kery James",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2182,6 +2454,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Kery James",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2190,6 +2463,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Kery James",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2198,6 +2472,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Kery James",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2206,6 +2481,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Kery James",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2214,6 +2490,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Kery James",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2222,6 +2499,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Kery James",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2230,6 +2508,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Kery James",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2238,6 +2517,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Kery James",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2246,6 +2526,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Kery James",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2254,6 +2535,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Kery James",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2262,6 +2544,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Kery James",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2270,6 +2553,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Kery James",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2278,6 +2562,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Kery James",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2286,6 +2571,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Kery James",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2294,6 +2580,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Kery James",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2302,6 +2589,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Kik",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2310,6 +2598,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Kik",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2318,6 +2607,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Kik",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2326,6 +2616,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Kik",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2334,6 +2625,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Kik",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2342,6 +2634,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Kik",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2350,6 +2643,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Kik",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2358,6 +2652,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Kik",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2366,6 +2661,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Kik",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2374,6 +2670,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Kik",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2382,6 +2679,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Kik",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2390,6 +2688,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Kik",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2398,6 +2697,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Kik",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2406,6 +2706,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Kik",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2414,6 +2715,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Kik",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2422,6 +2724,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Kik",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2430,6 +2733,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Kik",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2438,6 +2742,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Kik",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2446,6 +2751,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2454,6 +2760,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2462,6 +2769,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2470,6 +2778,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2478,6 +2787,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2486,6 +2796,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2494,6 +2805,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2502,6 +2814,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2510,6 +2823,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2518,6 +2832,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2526,6 +2841,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2534,6 +2850,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2542,6 +2859,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2550,6 +2868,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2558,6 +2877,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2566,6 +2886,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2574,6 +2895,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2582,6 +2904,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2590,6 +2913,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2598,6 +2922,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2606,6 +2931,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2614,6 +2940,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2622,6 +2949,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2630,6 +2958,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2638,6 +2967,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2646,6 +2976,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2654,6 +2985,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2662,6 +2994,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2670,6 +3003,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2678,6 +3012,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2686,6 +3021,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2694,6 +3030,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2702,6 +3039,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2710,6 +3048,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2718,6 +3057,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2726,6 +3066,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2734,6 +3075,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2742,6 +3084,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2750,6 +3093,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2758,6 +3102,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2766,6 +3111,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2774,6 +3120,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2782,6 +3129,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2790,6 +3138,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2798,6 +3147,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2806,6 +3156,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2814,6 +3165,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2822,6 +3174,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2830,6 +3183,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2838,6 +3192,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2846,6 +3201,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2854,6 +3210,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2862,6 +3219,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2870,6 +3228,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2878,6 +3237,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2886,6 +3246,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2894,6 +3255,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2902,6 +3264,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2910,6 +3273,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2918,6 +3282,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2926,6 +3291,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2934,6 +3300,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2942,6 +3309,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2950,6 +3318,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2958,6 +3327,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2966,6 +3336,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Nekfeu",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2974,6 +3345,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2982,6 +3354,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2990,6 +3363,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2998,6 +3372,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3006,6 +3381,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3014,6 +3390,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3022,6 +3399,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3030,6 +3408,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3038,6 +3417,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3046,6 +3426,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3054,6 +3435,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3062,6 +3444,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3070,6 +3453,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3078,6 +3462,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3086,6 +3471,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3094,6 +3480,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3102,6 +3489,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3110,6 +3498,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3118,6 +3507,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3126,6 +3516,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3134,6 +3525,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3142,6 +3534,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3150,6 +3543,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3158,6 +3552,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3166,6 +3561,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3174,6 +3570,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3182,6 +3579,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3190,6 +3588,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3198,6 +3597,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3206,6 +3606,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3214,6 +3615,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3222,6 +3624,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3230,6 +3633,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3238,6 +3642,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3246,6 +3651,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3254,6 +3660,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3262,6 +3669,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3270,6 +3678,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3278,6 +3687,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3286,6 +3696,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3294,6 +3705,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3302,6 +3714,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3310,6 +3723,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3318,6 +3732,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3326,6 +3741,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3334,6 +3750,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3342,6 +3759,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3350,6 +3768,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3358,6 +3777,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3366,6 +3786,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3374,6 +3795,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3382,6 +3804,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3390,6 +3813,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3398,6 +3822,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3406,6 +3831,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3414,6 +3840,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3422,6 +3849,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3430,6 +3858,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3438,6 +3867,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3446,6 +3876,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3454,6 +3885,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3462,6 +3894,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3470,6 +3903,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3478,6 +3912,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3486,6 +3921,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3494,6 +3930,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3502,6 +3939,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3510,6 +3948,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3518,6 +3957,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3526,6 +3966,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3534,6 +3975,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3542,6 +3984,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3550,6 +3993,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3558,6 +4002,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3566,6 +4011,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3574,6 +4020,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3582,6 +4029,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3590,6 +4038,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3598,6 +4047,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3606,6 +4056,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3614,6 +4065,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3622,6 +4074,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3630,6 +4083,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3638,6 +4092,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3646,6 +4101,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3654,6 +4110,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3662,6 +4119,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3670,6 +4128,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3678,6 +4137,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3686,6 +4146,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3694,6 +4155,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3702,6 +4164,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3710,6 +4173,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3718,6 +4182,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3726,6 +4191,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3734,6 +4200,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3742,6 +4209,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3750,6 +4218,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3758,6 +4227,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3766,6 +4236,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3774,6 +4245,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3782,6 +4254,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3790,6 +4263,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3798,6 +4272,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3806,6 +4281,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3814,6 +4290,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3822,6 +4299,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3830,6 +4308,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3838,6 +4317,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3846,6 +4326,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3854,6 +4335,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3862,6 +4344,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3870,6 +4353,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3878,6 +4362,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3886,6 +4371,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3894,6 +4380,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3902,6 +4389,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3910,6 +4398,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3918,6 +4407,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3926,6 +4416,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3934,6 +4425,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3942,6 +4434,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3950,6 +4443,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3958,6 +4452,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3966,6 +4461,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3974,6 +4470,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3982,6 +4479,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3990,6 +4488,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3998,6 +4497,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4006,6 +4506,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4014,6 +4515,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4022,6 +4524,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4030,6 +4533,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4038,6 +4542,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4046,6 +4551,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4054,6 +4560,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4062,6 +4569,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4070,6 +4578,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4078,6 +4587,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4086,6 +4596,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4094,6 +4605,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4102,6 +4614,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4110,6 +4623,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4118,6 +4632,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4126,6 +4641,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4134,6 +4650,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4142,6 +4659,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4150,6 +4668,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4158,6 +4677,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4166,6 +4686,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4174,6 +4695,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4182,6 +4704,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4190,6 +4713,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4198,6 +4722,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4206,6 +4731,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4214,6 +4740,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4222,6 +4749,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4230,6 +4758,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4238,6 +4767,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4246,6 +4776,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4254,6 +4785,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4262,6 +4794,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4270,6 +4803,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4278,6 +4812,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4286,6 +4821,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4294,6 +4830,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4302,6 +4839,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4310,6 +4848,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4318,6 +4857,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4326,6 +4866,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4334,6 +4875,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4342,6 +4884,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4350,6 +4893,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4358,6 +4902,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4366,6 +4911,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4374,6 +4920,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4382,6 +4929,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4390,6 +4938,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4398,6 +4947,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4406,6 +4956,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4414,6 +4965,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4422,6 +4974,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4430,6 +4983,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4438,6 +4992,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4446,6 +5001,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4454,6 +5010,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4462,6 +5019,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4470,6 +5028,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4478,6 +5037,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4486,6 +5046,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4494,6 +5055,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Youssoupha",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4502,6 +5064,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Angèle",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4510,6 +5073,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Angèle",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4518,6 +5082,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Angèle",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4526,6 +5091,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Angèle",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4534,6 +5100,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Angèle",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4542,6 +5109,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Angèle",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4550,6 +5118,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Angèle",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4558,6 +5127,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Angèle",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4566,6 +5136,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Angèle",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4574,6 +5145,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Angèle",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4582,6 +5154,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Angèle",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4590,6 +5163,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Angèle",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4598,6 +5172,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Angèle",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4606,6 +5181,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Angèle",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4614,6 +5190,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Angèle",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4622,6 +5199,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Angèle",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4630,6 +5208,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Angèle",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4638,6 +5217,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Angèle",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4646,6 +5226,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Angèle",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4654,6 +5235,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Dr. Dre",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4662,6 +5244,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Dr. Dre",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4670,6 +5253,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Dr. Dre",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4678,6 +5262,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Dr. Dre",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4686,6 +5271,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Dr. Dre",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4694,6 +5280,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Dr. Dre",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4702,6 +5289,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Dr. Dre",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4710,6 +5298,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Dr. Dre",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4718,6 +5307,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Dr. Dre",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4726,6 +5316,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Dr. Dre",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4734,6 +5325,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Dr. Dre",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4742,6 +5334,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Dr. Dre",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4750,6 +5343,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Dr. Dre",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4758,6 +5352,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Dr. Dre",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4766,6 +5361,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Dr. Dre",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4774,6 +5370,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Dr. Dre",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4782,6 +5379,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Dr. Dre",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4790,6 +5388,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Dr. Dre",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4798,6 +5397,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Dr. Dre",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4806,6 +5406,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Dr. Dre",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4814,6 +5415,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Dr. Dre",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4822,6 +5424,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Dr. Dre",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4830,6 +5433,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4838,6 +5442,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4846,6 +5451,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4854,6 +5460,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4862,6 +5469,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4870,6 +5478,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4878,6 +5487,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4886,6 +5496,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4894,6 +5505,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4902,6 +5514,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4910,6 +5523,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4918,6 +5532,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4926,6 +5541,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4934,6 +5550,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4942,6 +5559,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4950,6 +5568,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4958,6 +5577,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4966,6 +5586,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4974,6 +5595,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4982,6 +5604,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4990,6 +5613,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4998,6 +5622,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5006,6 +5631,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5014,6 +5640,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5022,6 +5649,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5030,6 +5658,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5038,6 +5667,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5046,6 +5676,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5054,6 +5685,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5062,6 +5694,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5070,6 +5703,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5078,6 +5712,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5086,6 +5721,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5094,6 +5730,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5102,6 +5739,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5110,6 +5748,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5118,6 +5757,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5126,6 +5766,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5134,6 +5775,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5142,6 +5784,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5150,6 +5793,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5158,6 +5802,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5166,6 +5811,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5174,6 +5820,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5182,6 +5829,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5190,6 +5838,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5198,6 +5847,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5206,6 +5856,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5214,6 +5865,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5222,6 +5874,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5230,6 +5883,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5238,6 +5892,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5246,6 +5901,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5254,6 +5910,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5262,6 +5919,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5270,6 +5928,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5278,6 +5937,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5286,6 +5946,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5294,6 +5955,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5302,6 +5964,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5310,6 +5973,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5318,6 +5982,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5326,6 +5991,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5334,6 +6000,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5342,6 +6009,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5350,6 +6018,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5358,6 +6027,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5366,6 +6036,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5374,6 +6045,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5382,6 +6054,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5390,6 +6063,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5398,6 +6072,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5406,6 +6081,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5414,6 +6090,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5422,6 +6099,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5430,6 +6108,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5438,6 +6117,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5446,6 +6126,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5454,6 +6135,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5462,6 +6144,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5470,6 +6153,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5478,6 +6162,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5486,6 +6171,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5494,6 +6180,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5502,6 +6189,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5510,6 +6198,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5518,6 +6207,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5526,6 +6216,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5534,6 +6225,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5542,6 +6234,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5550,6 +6243,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5558,6 +6252,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5566,6 +6261,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5574,6 +6270,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5582,6 +6279,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5590,6 +6288,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5598,6 +6297,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5606,6 +6306,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5614,6 +6315,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5622,6 +6324,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5630,6 +6333,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5638,6 +6342,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5646,6 +6351,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5654,6 +6360,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5662,6 +6369,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5670,6 +6378,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5678,6 +6387,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5686,6 +6396,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5694,6 +6405,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5702,6 +6414,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5710,6 +6423,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5718,6 +6432,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5726,6 +6441,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5734,6 +6450,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5742,6 +6459,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5750,6 +6468,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5758,6 +6477,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5766,6 +6486,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5774,6 +6495,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5782,6 +6504,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5790,6 +6513,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5798,6 +6522,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5806,6 +6531,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5814,6 +6540,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5822,6 +6549,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5830,6 +6558,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5838,6 +6567,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5846,6 +6576,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5854,6 +6585,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5862,6 +6594,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5870,6 +6603,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5878,6 +6612,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5886,6 +6621,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5894,6 +6630,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5902,6 +6639,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5910,6 +6648,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5918,6 +6657,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5926,6 +6666,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5934,6 +6675,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5942,6 +6684,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5950,6 +6693,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5958,6 +6702,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5966,6 +6711,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5974,6 +6720,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5982,6 +6729,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5990,6 +6738,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5998,6 +6747,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6006,6 +6756,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6014,6 +6765,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6022,6 +6774,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6030,6 +6783,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6038,6 +6792,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6046,6 +6801,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6054,6 +6810,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6062,6 +6819,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6070,6 +6828,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6078,6 +6837,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6086,6 +6846,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6094,6 +6855,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6102,6 +6864,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6110,6 +6873,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6118,6 +6882,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6126,6 +6891,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6134,6 +6900,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6142,6 +6909,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6150,6 +6918,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6158,6 +6927,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6166,6 +6936,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6174,6 +6945,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6182,6 +6954,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6190,6 +6963,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6198,6 +6972,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6206,6 +6981,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6214,6 +6990,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6222,6 +6999,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6230,6 +7008,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6238,6 +7017,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6246,6 +7026,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6254,6 +7035,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6262,6 +7044,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6270,6 +7053,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6278,6 +7062,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6286,6 +7071,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6294,6 +7080,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Eminem",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6302,6 +7089,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Dr. Dre",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6310,6 +7098,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6318,6 +7107,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6326,6 +7116,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6334,6 +7125,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6342,6 +7134,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6350,6 +7143,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6358,6 +7152,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6366,6 +7161,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6374,6 +7170,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6382,6 +7179,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6390,6 +7188,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6398,6 +7197,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6406,6 +7206,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6414,6 +7215,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6422,6 +7224,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6430,6 +7233,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6438,6 +7242,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6446,6 +7251,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6454,6 +7260,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6462,6 +7269,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6470,6 +7278,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6478,6 +7287,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6486,6 +7296,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6494,6 +7305,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6502,6 +7314,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6510,6 +7323,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6518,6 +7332,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6526,6 +7341,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6534,6 +7350,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6542,6 +7359,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6550,6 +7368,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6558,6 +7377,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6566,6 +7386,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6574,6 +7395,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6582,6 +7404,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6590,6 +7413,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6598,6 +7422,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6606,6 +7431,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6614,6 +7440,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6622,6 +7449,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6630,6 +7458,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Disiz",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6638,6 +7467,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6646,6 +7476,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6654,6 +7485,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6662,6 +7494,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6670,6 +7503,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6678,6 +7512,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6686,6 +7521,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6694,6 +7530,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6702,6 +7539,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6710,6 +7548,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Orelsan",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6718,6 +7557,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Sniper",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6726,6 +7566,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Sniper",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6734,6 +7575,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Sniper",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6742,6 +7584,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Sniper",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6750,6 +7593,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Sniper",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6758,6 +7602,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Sniper",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6766,6 +7611,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Sniper",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6774,6 +7620,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Sniper",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6782,6 +7629,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Sniper",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6790,6 +7638,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Sniper",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6798,6 +7647,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Sniper",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6806,6 +7656,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Sniper",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6814,6 +7665,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Sniper",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6822,6 +7674,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Sniper",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6830,6 +7683,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Sniper",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6838,6 +7692,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Sniper",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6846,6 +7701,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Sniper",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6854,6 +7710,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Sniper",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6862,6 +7719,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Sniper",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6870,6 +7728,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Sniper",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6878,6 +7737,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Sniper",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6886,6 +7746,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Sniper",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6894,6 +7755,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Sniper",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6902,6 +7764,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Sniper",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6910,6 +7773,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Sniper",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6918,6 +7782,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Sniper",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6926,6 +7791,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Sniper",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6934,6 +7800,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Sniper",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6942,6 +7809,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Sniper",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6950,6 +7818,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Sniper",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6958,6 +7827,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Sniper",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6966,6 +7836,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Sniper",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6974,6 +7845,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Sniper",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6982,6 +7854,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Sniper",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6990,6 +7863,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Sniper",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6998,6 +7872,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Sniper",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7006,6 +7881,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Sniper",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7014,6 +7890,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Sniper",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7022,6 +7899,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Sniper",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7030,6 +7908,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Sniper",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7038,6 +7917,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Sniper",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7046,6 +7926,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Sniper",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7054,6 +7935,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Sniper",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7062,6 +7944,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Sniper",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7070,6 +7953,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Sniper",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7078,6 +7962,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Sniper",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7086,6 +7971,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Sniper",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7094,6 +7980,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Sniper",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7102,6 +7989,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Sniper",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7110,6 +7998,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Soprano",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7118,6 +8007,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Soprano",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7126,6 +8016,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Soprano",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7134,6 +8025,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Soprano",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7142,6 +8034,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Soprano",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7150,6 +8043,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Soprano",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7158,6 +8052,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Soprano",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7166,6 +8061,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Soprano",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7174,6 +8070,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Soprano",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7182,6 +8079,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Soprano",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7190,6 +8088,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Soprano",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7198,6 +8097,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Soprano",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7206,6 +8106,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Soprano",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7214,6 +8115,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Soprano",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7222,6 +8124,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Soprano",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7230,6 +8133,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Soprano",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7238,6 +8142,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Soprano",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7246,6 +8151,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Soprano",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7254,6 +8160,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Soprano",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7262,6 +8169,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Soprano",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7270,6 +8178,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Soprano",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7278,6 +8187,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Soprano",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7286,6 +8196,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Soprano",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7294,6 +8205,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Soprano",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7302,6 +8214,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Soprano",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7310,6 +8223,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Soprano",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7318,6 +8232,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Soprano",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7326,6 +8241,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Soprano",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7334,6 +8250,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Soprano",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7342,6 +8259,7 @@ export const hikenMusics: UserMusic[] = [
     artist: "Soprano",
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 ];

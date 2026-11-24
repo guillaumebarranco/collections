@@ -7,6 +7,7 @@ export const musicsZippo: UserMusic[] = [
     artist: 'Zippo',
     rating: 0,
     timesListened: 30,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -14,6 +15,7 @@ export const musicsZippo: UserMusic[] = [
     artist: 'Zippo',
     rating: 0,
     timesListened: 30,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -21,6 +23,7 @@ export const musicsZippo: UserMusic[] = [
     artist: 'Zippo',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -28,6 +31,7 @@ export const musicsZippo: UserMusic[] = [
     artist: 'Zippo',
     rating: 0,
     timesListened: 40,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -35,6 +39,7 @@ export const musicsZippo: UserMusic[] = [
     artist: 'Zippo',
     rating: 0,
     timesListened: 20,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -42,6 +47,7 @@ export const musicsZippo: UserMusic[] = [
     artist: 'Zippo',
     rating: 0,
     timesListened: 30,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -49,6 +55,7 @@ export const musicsZippo: UserMusic[] = [
     artist: 'Zippo',
     rating: 0,
     timesListened: 40,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -56,6 +63,7 @@ export const musicsZippo: UserMusic[] = [
     artist: 'Zippo',
     rating: 0,
     timesListened: 15,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -63,6 +71,7 @@ export const musicsZippo: UserMusic[] = [
     artist: 'Zippo',
     rating: 0,
     timesListened: 30,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -70,6 +79,7 @@ export const musicsZippo: UserMusic[] = [
     artist: 'Zippo',
     rating: 0,
     timesListened: 20,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -77,6 +87,7 @@ export const musicsZippo: UserMusic[] = [
     artist: 'Zippo',
     rating: 0,
     timesListened: 30,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -84,6 +95,7 @@ export const musicsZippo: UserMusic[] = [
     artist: 'Zippo',
     rating: 0,
     timesListened: 30,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -91,6 +103,7 @@ export const musicsZippo: UserMusic[] = [
     artist: 'Zippo',
     rating: 0,
     timesListened: 30,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -98,6 +111,7 @@ export const musicsZippo: UserMusic[] = [
     artist: 'Zippo',
     rating: 0,
     timesListened: 20,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -105,6 +119,7 @@ export const musicsZippo: UserMusic[] = [
     artist: 'Zippo',
     rating: 0,
     timesListened: 30,
+    byHeart: false,
     quotes: [],
   },
 
@@ -114,6 +129,7 @@ export const musicsZippo: UserMusic[] = [
     artist: 'Zippo',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -121,6 +137,7 @@ export const musicsZippo: UserMusic[] = [
     artist: 'Zippo',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -128,6 +145,7 @@ export const musicsZippo: UserMusic[] = [
     artist: 'Zippo',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -135,6 +153,7 @@ export const musicsZippo: UserMusic[] = [
     artist: 'Zippo',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -142,6 +161,7 @@ export const musicsZippo: UserMusic[] = [
     artist: 'Zippo',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -149,6 +169,7 @@ export const musicsZippo: UserMusic[] = [
     artist: 'Zippo',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 ];

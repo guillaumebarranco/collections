@@ -6,6 +6,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     artist: 'DMX',
     rating: 0,
     timesListened: 80,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -13,6 +14,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     artist: 'Shaggy',
     rating: 0,
     timesListened: 150,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -20,6 +22,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     artist: 'Shaggy',
     rating: 0,
     timesListened: 250,
+    byHeart: false,
     quotes: [
       {
         quoteText: "You're a queen and so you should be treated.",
@@ -32,6 +35,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     artist: 'Shaggy',
     rating: 0,
     timesListened: 250,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -39,6 +43,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     artist: 'T.I.',
     rating: 0,
     timesListened: 150,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -46,6 +51,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     artist: 'Justin Timberlake',
     rating: 0,
     timesListened: 250,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -53,6 +59,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     artist: 'T.I.',
     rating: 0,
     timesListened: 200,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -60,6 +67,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     artist: 'Outkast',
     rating: 0,
     timesListened: 150,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -67,6 +75,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     artist: 'Snoop Dogg',
     rating: 0,
     timesListened: 80,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -74,6 +83,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     artist: 'The Game',
     rating: 0,
     timesListened: 80,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -81,6 +91,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     artist: 'Kanye West',
     rating: 0,
     timesListened: 150,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -88,6 +99,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     artist: 'Kendrick Lamar',
     rating: 0,
     timesListened: 30,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -95,6 +107,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     artist: 'Kendrick Lamar',
     rating: 0,
     timesListened: 80,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -102,6 +115,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     artist: 'Soulja Boy',
     rating: 0,
     timesListened: 150,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -109,6 +123,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     artist: 'Mary J. Blige',
     rating: 0,
     timesListened: 80,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -116,6 +131,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     artist: 'The Game',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -123,6 +139,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     artist: 'B2K',
     rating: 0,
     timesListened: 150,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -130,6 +147,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     artist: 'Fabolous',
     rating: 0,
     timesListened: 180,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -137,6 +155,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     artist: '50 Cent',
     rating: 0,
     timesListened: 100,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -144,6 +163,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     artist: '50 Cent',
     rating: 0,
     timesListened: 200,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -151,6 +171,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     artist: '50 Cent',
     rating: 0,
     timesListened: 100,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -158,6 +179,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     artist: '50 Cent',
     rating: 0,
     timesListened: 150,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -165,6 +187,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     artist: '50 Cent',
     rating: 0,
     timesListened: 150,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -172,6 +195,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     artist: 'Obie Trice',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -179,6 +203,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     artist: 'Dr. Dre',
     rating: 0,
     timesListened: 7,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -186,6 +211,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     artist: 'Nicki Minaj',
     rating: 0,
     timesListened: 74,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -193,6 +219,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     artist: 'Nicki Minaj',
     rating: 0,
     timesListened: 5,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -200,6 +227,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     artist: 'Nicki Minaj',
     rating: 0,
     timesListened: 24,
+    byHeart: false,
     quotes: [],
   },
 ];

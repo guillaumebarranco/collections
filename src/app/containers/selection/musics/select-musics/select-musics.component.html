@@ -1,22 +1,13 @@
 <app-menu></app-menu>
 
 <ng-template #selectionSummaryBand>
-  <div class="view-toggle">
-    <button
-      class="toggle-option"
-      [class.active]="viewMode() === 'tracks'"
-      (click)="setViewMode('tracks')"
-    >
-      Par musique
-    </button>
-    <button
-      class="toggle-option"
-      [class.active]="viewMode() === 'albums'"
-      (click)="setViewMode('albums')"
-    >
-      Par album
-    </button>
-  </div>
+  <app-view-toggle
+    class="view-toggle"
+    toggleClass="select-musics-view-toggle"
+    [options]="viewModeOptions"
+    [selected]="viewMode()"
+    (selectedChange)="setViewMode($event)"
+  ></app-view-toggle>
   <div class="selection-info">
     <span class="count">{{ selectedCount() }} musique(s) sélectionnée(s)</span>
     <span class="total">
@@ -26,10 +17,10 @@
   </div>
 
   <div class="actions">
-    <button class="btn btn-secondary" (click)="selectAll()">
+    <button type="button" class="makya-btn" (click)="selectAll()">
       Tout sélectionner
     </button>
-    <button class="btn btn-secondary" (click)="deselectAll()">
+    <button type="button" class="makya-btn" (click)="deselectAll()">
       Tout désélectionner
     </button>
     <button

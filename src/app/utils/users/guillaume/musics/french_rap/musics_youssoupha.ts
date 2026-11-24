@@ -6,6 +6,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 22,
+    byHeart: false,
     quotes: [],
   },
   // Album : À chaque frère (2007) - Youssoupha
@@ -14,6 +15,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -21,6 +23,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 5,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -28,6 +31,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -35,6 +39,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -42,6 +47,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -49,6 +55,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -56,6 +63,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -63,6 +71,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -70,6 +79,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -77,6 +87,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -84,6 +95,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -91,6 +103,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -98,6 +111,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -105,6 +119,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -112,6 +127,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -119,6 +135,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -128,6 +145,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -135,6 +153,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 13,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -142,6 +161,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -149,6 +169,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -156,6 +177,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -163,6 +185,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 9,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -170,6 +193,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 10,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -177,6 +201,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 12,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -184,6 +209,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 18,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -191,6 +217,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -198,6 +225,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -205,6 +233,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 9,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -212,6 +241,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 14,
+    byHeart: false,
     quotes: [],
   },
 
@@ -221,6 +251,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 80,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -228,6 +259,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 30,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -235,6 +267,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 30,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -242,6 +275,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -249,6 +283,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 30,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -256,6 +291,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 30,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -263,6 +299,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -270,6 +307,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 80,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -277,6 +315,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 30,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -284,6 +323,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 20,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -291,6 +331,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 80,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -298,6 +339,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 80,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -305,6 +347,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 30,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -312,6 +355,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 20,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -319,6 +363,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -326,6 +371,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -333,6 +379,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 30,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -340,6 +387,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -347,6 +395,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
 
@@ -356,6 +405,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -363,6 +413,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -370,6 +421,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -377,6 +429,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 80,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -384,6 +437,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 80,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -391,6 +445,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 80,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -398,6 +453,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -405,6 +461,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 150,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -412,6 +469,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 80,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -419,6 +477,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 80,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -426,6 +485,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 60,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -433,6 +493,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -440,6 +501,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -447,6 +509,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 100,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -454,6 +517,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 100,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -461,6 +525,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 80,
+    byHeart: false,
     quotes: [],
   },
 
@@ -470,6 +535,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 36,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -477,6 +543,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 12,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -484,6 +551,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 12,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -491,6 +559,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 20,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -498,6 +567,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -505,6 +575,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -512,6 +583,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 8,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -519,6 +591,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 11,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -526,6 +599,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 10,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -533,6 +607,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 14,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -540,6 +615,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 17,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -547,6 +623,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -556,6 +633,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -563,6 +641,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -570,6 +649,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -577,6 +657,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -584,6 +665,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -591,6 +673,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -598,6 +681,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -605,6 +689,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -612,6 +697,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -619,6 +705,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 60,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -626,6 +713,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -633,6 +721,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -640,6 +729,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -647,6 +737,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -654,6 +745,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -661,6 +753,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -670,6 +763,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -677,6 +771,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -684,6 +779,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -691,6 +787,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -698,6 +795,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 5,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -705,6 +803,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -712,6 +811,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -719,6 +819,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -726,6 +827,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -733,6 +835,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -740,6 +843,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -747,6 +851,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -754,6 +859,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -763,6 +869,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 10,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -770,6 +877,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 8,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -777,6 +885,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -784,6 +893,7 @@ export const musicsYoussoupha: UserMusic[] = [
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 ];

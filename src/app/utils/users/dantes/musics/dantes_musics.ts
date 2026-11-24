@@ -6,6 +6,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -14,6 +15,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -22,6 +24,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -30,6 +33,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -38,6 +42,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -46,6 +51,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -54,6 +60,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -62,6 +69,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -70,6 +78,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -78,6 +87,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -86,6 +96,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -94,6 +105,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -102,6 +114,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -110,6 +123,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -118,6 +132,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -126,6 +141,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -134,6 +150,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -142,6 +159,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -150,6 +168,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -158,6 +177,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -166,6 +186,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -174,6 +195,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -182,6 +204,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -190,6 +213,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -198,6 +222,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -206,6 +231,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -214,6 +240,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -222,6 +249,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -230,6 +258,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -238,6 +267,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -246,6 +276,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -254,6 +285,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Daniel Balavoine',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -262,6 +294,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Daniel Balavoine',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -270,6 +303,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Daniel Balavoine',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -278,6 +312,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Daniel Balavoine',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -286,6 +321,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Daniel Balavoine',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -294,6 +330,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Daniel Balavoine',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -302,6 +339,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Daniel Balavoine',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -310,6 +348,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Daniel Balavoine',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -318,6 +357,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Daniel Balavoine',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -326,6 +366,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Daniel Balavoine',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -334,6 +375,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Daniel Balavoine',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -342,6 +384,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Daniel Balavoine',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -350,6 +393,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Daniel Balavoine',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -358,6 +402,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Daniel Balavoine',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -366,6 +411,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Daniel Balavoine',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -374,6 +420,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Renaud',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -382,6 +429,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Renaud',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -390,6 +438,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Renaud',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -398,6 +447,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Renaud',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -406,6 +456,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Renaud',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -414,6 +465,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Renaud',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -422,6 +474,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Renaud',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -430,6 +483,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Renaud',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -438,6 +492,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Renaud',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -446,6 +501,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Renaud',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -454,6 +510,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Renaud',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -462,6 +519,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Singuila',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -470,6 +528,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Singuila',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -478,6 +537,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Singuila',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -486,6 +546,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Singuila',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -494,6 +555,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Singuila',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -502,6 +564,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Singuila',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -510,6 +573,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Singuila',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -518,6 +582,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Singuila',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -526,6 +591,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Singuila',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -534,6 +600,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Singuila',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -542,6 +609,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Singuila',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -550,6 +618,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Singuila',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -558,6 +627,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Singuila',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -566,6 +636,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Singuila',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -574,6 +645,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -582,6 +654,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -590,6 +663,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -598,6 +672,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -606,6 +681,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -614,6 +690,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -622,6 +699,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -630,6 +708,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -638,6 +717,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -646,6 +726,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -654,6 +735,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -662,6 +744,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -670,6 +753,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -678,6 +762,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -686,6 +771,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -694,6 +780,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -702,6 +789,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -710,6 +798,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -718,6 +807,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -726,6 +816,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -734,6 +825,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -742,6 +834,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -750,6 +843,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -758,6 +852,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -766,6 +861,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -774,6 +870,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -782,6 +879,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -790,6 +888,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -798,6 +897,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -806,6 +906,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -814,6 +915,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -822,6 +924,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -830,6 +933,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -838,6 +942,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -846,6 +951,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -854,6 +960,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -862,6 +969,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -870,6 +978,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -878,6 +987,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -886,6 +996,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -894,6 +1005,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -902,6 +1014,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -910,6 +1023,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -918,6 +1032,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -926,6 +1041,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -934,6 +1050,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Johnny Hallyday',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -942,6 +1059,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'BB Brunes',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -950,6 +1068,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Kyo',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -958,6 +1077,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Kyo',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -966,6 +1086,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Garou',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -974,6 +1095,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Renan Luce',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -982,6 +1104,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Patrick Bruel',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -990,6 +1113,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Michel Berger',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -998,6 +1122,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Alain Souchon',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1006,6 +1131,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Michel Berger',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1014,6 +1140,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'édith Piaf',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1022,6 +1149,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Mylène Farmer',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1030,6 +1158,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Mylène Farmer',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1038,6 +1167,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Mylène Farmer',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1046,6 +1176,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Julien Clerc',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1054,6 +1185,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'William Sheller',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1062,6 +1194,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Daniel Lavoie',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1070,6 +1203,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Various Artists',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1078,6 +1212,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Téléphone',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1086,6 +1221,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Michel Sardou',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1094,6 +1230,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Corneille',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1102,6 +1239,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'France Gall',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1110,6 +1248,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Hervé Cristiani',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1118,6 +1257,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Marc Lavoine',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1126,6 +1266,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Vianney',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1134,6 +1275,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Amel Bent',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1142,6 +1284,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Charles Aznavour',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1150,6 +1293,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'K.Maro',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1158,6 +1302,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Claude Dubois',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1166,6 +1311,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Axelle Red',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1174,6 +1320,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Joe Dassin',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1182,6 +1329,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Willy Denzey',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1190,6 +1338,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Patrick Bruel',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1198,6 +1347,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Mickey 3d',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1206,6 +1356,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'L5',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1214,6 +1365,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Jean-Pierre Mader',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1222,6 +1374,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Partenaire Particulier',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1230,6 +1383,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Jumo',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1238,6 +1392,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Calogero',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1246,6 +1401,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Jean-Jacques Goldman',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1254,6 +1410,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Patrick Sébastien',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1262,6 +1419,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'De Palmas',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1270,6 +1428,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Charles Aznavour',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1278,6 +1437,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'France Gall',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1286,6 +1446,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Nino Ferrer',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1294,6 +1455,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Images',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1302,6 +1464,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Les Fatals Picards',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1310,6 +1473,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Sheryfa Luna',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1318,6 +1482,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Sheryfa Luna',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1326,6 +1491,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Elsa',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1334,6 +1500,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Hans Zimmer',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1342,6 +1509,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Hans Zimmer',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1350,6 +1518,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Hans Zimmer',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1358,6 +1527,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Howard Shore, Edward Ross',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1366,6 +1536,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'John Williams',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1374,6 +1545,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'John Williams',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1382,6 +1554,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Alan Silvestri',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1390,6 +1563,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Steve Jablonsky',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1398,6 +1572,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Steve Jablonsky',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1406,6 +1581,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Daft Punk',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1414,6 +1590,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Daft Punk',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1422,6 +1599,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Daft Punk',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1430,6 +1608,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Daft Punk',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1438,6 +1617,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Daft Punk',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1446,6 +1626,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Daft Punk',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1454,6 +1635,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Bear McCreary, Eivør',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1462,6 +1644,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Bear McCreary, Eivør',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1470,6 +1653,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Bear McCreary',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1478,6 +1662,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Beyoncé',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1486,6 +1671,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Beyoncé',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1494,6 +1680,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Beyoncé',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1502,6 +1689,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Beyoncé',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1510,6 +1698,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Destiny\'s Child',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1518,6 +1707,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Black Eyed Peas',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1526,6 +1716,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Black Eyed Peas',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1534,6 +1725,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Black Eyed Peas',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1542,6 +1734,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Black Eyed Peas',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1550,6 +1743,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Britney Spears',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1558,6 +1752,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Britney Spears',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1566,6 +1761,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Britney Spears',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1574,6 +1770,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Britney Spears',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1582,6 +1779,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Britney Spears',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1590,6 +1788,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Britney Spears',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1598,6 +1797,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1606,6 +1806,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1614,6 +1815,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1622,6 +1824,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1630,6 +1833,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1638,6 +1842,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1646,6 +1851,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1654,6 +1860,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1662,6 +1869,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1670,6 +1878,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1678,6 +1887,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1686,6 +1896,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1694,6 +1905,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1702,6 +1914,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1710,6 +1923,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1718,6 +1932,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1726,6 +1941,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1734,6 +1950,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1742,6 +1959,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1750,6 +1968,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1758,6 +1977,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1766,6 +1986,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1774,6 +1995,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1782,6 +2004,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1790,6 +2013,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1798,6 +2022,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1806,6 +2031,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1814,6 +2040,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1822,6 +2049,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1830,6 +2058,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1838,6 +2067,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1846,6 +2076,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1854,6 +2085,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1862,6 +2094,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1870,6 +2103,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1878,6 +2112,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1886,6 +2121,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1894,6 +2130,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1902,6 +2139,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1910,6 +2148,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1918,6 +2157,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1926,6 +2166,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1934,6 +2175,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1942,6 +2184,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1950,6 +2193,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1958,6 +2202,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1966,6 +2211,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1974,6 +2220,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1982,6 +2229,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1990,6 +2238,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1998,6 +2247,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2006,6 +2256,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2014,6 +2265,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2022,6 +2274,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2030,6 +2283,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2038,6 +2292,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2046,6 +2301,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2054,6 +2310,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2062,6 +2319,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2070,6 +2328,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2078,6 +2337,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2086,6 +2346,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2094,6 +2355,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2102,6 +2364,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2110,6 +2373,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2118,6 +2382,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2126,6 +2391,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2134,6 +2400,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2142,6 +2409,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2150,6 +2418,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2158,6 +2427,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2166,6 +2436,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2174,6 +2445,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2182,6 +2454,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2190,6 +2463,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2198,6 +2472,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2206,6 +2481,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2214,6 +2490,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2222,6 +2499,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2230,6 +2508,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2238,6 +2517,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2246,6 +2526,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2254,6 +2535,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2262,6 +2544,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2270,6 +2553,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2278,6 +2562,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2286,6 +2571,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2294,6 +2580,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2302,6 +2589,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2310,6 +2598,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2318,6 +2607,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2326,6 +2616,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2334,6 +2625,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2342,6 +2634,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2350,6 +2643,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2358,6 +2652,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2366,6 +2661,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2374,6 +2670,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2382,6 +2679,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2390,6 +2688,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2398,6 +2697,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2406,6 +2706,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2414,6 +2715,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2422,6 +2724,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2430,6 +2733,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2438,6 +2742,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2446,6 +2751,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2454,6 +2760,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2462,6 +2769,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2470,6 +2778,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2478,6 +2787,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2486,6 +2796,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2494,6 +2805,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2502,6 +2814,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2510,6 +2823,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2518,6 +2832,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2526,6 +2841,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2534,6 +2850,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2542,6 +2859,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2550,6 +2868,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2558,6 +2877,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2566,6 +2886,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2574,6 +2895,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2582,6 +2904,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2590,6 +2913,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2598,6 +2922,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2606,6 +2931,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2614,6 +2940,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2622,6 +2949,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2630,6 +2958,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2638,6 +2967,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2646,6 +2976,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2654,6 +2985,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2662,6 +2994,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2670,6 +3003,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2678,6 +3012,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2686,6 +3021,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2694,6 +3030,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2702,6 +3039,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2710,6 +3048,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2718,6 +3057,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2726,6 +3066,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2734,6 +3075,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2742,6 +3084,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2750,6 +3093,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2758,6 +3102,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2766,6 +3111,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2774,6 +3120,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2782,6 +3129,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2790,6 +3138,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2798,6 +3147,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2806,6 +3156,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2814,6 +3165,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2822,6 +3174,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2830,6 +3183,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2838,6 +3192,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2846,6 +3201,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2854,6 +3210,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2862,6 +3219,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2870,6 +3228,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2878,6 +3237,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2886,6 +3246,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2894,6 +3255,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2902,6 +3264,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2910,6 +3273,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2918,6 +3282,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2926,6 +3291,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2934,6 +3300,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2942,6 +3309,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2950,6 +3318,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2958,6 +3327,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2966,6 +3336,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2974,6 +3345,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2982,6 +3354,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2990,6 +3363,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2998,6 +3372,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3006,6 +3381,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3014,6 +3390,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3022,6 +3399,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3030,6 +3408,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3038,6 +3417,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3046,6 +3426,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3054,6 +3435,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3062,6 +3444,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3070,6 +3453,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3078,6 +3462,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3086,6 +3471,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3094,6 +3480,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3102,6 +3489,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3110,6 +3498,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3118,6 +3507,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3126,6 +3516,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3134,6 +3525,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3142,6 +3534,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3150,6 +3543,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3158,6 +3552,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3166,6 +3561,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3174,6 +3570,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3182,6 +3579,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3190,6 +3588,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3198,6 +3597,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3206,6 +3606,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3214,6 +3615,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3222,6 +3624,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3230,6 +3633,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3238,6 +3642,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3246,6 +3651,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3254,6 +3660,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3262,6 +3669,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3270,6 +3678,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3278,6 +3687,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3286,6 +3696,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3294,6 +3705,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3302,6 +3714,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3310,6 +3723,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3318,6 +3732,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3326,6 +3741,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Michael Jackson',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3334,6 +3750,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Michael Jackson',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3342,6 +3759,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Michael Jackson',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3350,6 +3768,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Michael Jackson',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3358,6 +3777,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Michael Jackson',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3366,6 +3786,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Michael Jackson',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3374,6 +3795,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Queen',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3382,6 +3804,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Sean Paul',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3390,6 +3813,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'One-T',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3398,6 +3822,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Flo Rida',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3406,6 +3831,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Europe',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3414,6 +3840,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Survivor',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3422,6 +3849,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Eurythmics',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3430,6 +3858,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'The Police',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3438,6 +3867,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Alicia Keys',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3446,6 +3876,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Alicia Keys',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3454,6 +3885,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Justin Timberlake',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3462,6 +3894,7 @@ export const dantesMusics: UserMusic[] = [
     artist: 'Shakira',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
 ];

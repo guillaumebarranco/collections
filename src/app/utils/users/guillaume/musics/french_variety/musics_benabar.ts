@@ -7,6 +7,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 250,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -14,6 +15,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 20,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -21,6 +23,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 120,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -28,6 +31,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 150,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -35,6 +39,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 10,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -42,6 +47,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 120,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -49,6 +55,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 10,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -56,6 +63,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 10,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -63,6 +71,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 20,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -70,6 +79,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 120,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -77,6 +87,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 120,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -84,6 +95,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 10,
+    byHeart: false,
     quotes: [],
   },
 
@@ -93,6 +105,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 9,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -100,6 +113,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 120,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -107,6 +121,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 100,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -114,6 +129,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 7,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -121,6 +137,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 10,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -128,6 +145,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 9,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -135,6 +153,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 8,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -142,6 +161,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 12,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -149,6 +169,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 9,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -156,6 +177,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 6,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -163,6 +185,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 7,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -170,6 +193,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 5,
+    byHeart: false,
     quotes: [],
   },
 
@@ -179,6 +203,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 100,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -186,6 +211,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -193,6 +219,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -200,6 +227,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -207,6 +235,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -214,6 +243,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -221,6 +251,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -228,6 +259,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -235,6 +267,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -242,6 +275,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -249,6 +283,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -256,6 +291,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -265,6 +301,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 12,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -272,6 +309,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 8,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -279,6 +317,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -286,6 +325,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -293,6 +333,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -300,6 +341,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 7,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -307,6 +349,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 6,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -314,6 +357,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 7,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -321,6 +365,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 5,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -328,6 +373,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -335,6 +381,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 7,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -342,6 +389,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 6,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -349,6 +397,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
 
@@ -358,6 +407,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 20,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -365,6 +415,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -372,6 +423,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -379,6 +431,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -386,6 +439,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 7,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -393,6 +447,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -400,6 +455,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -407,6 +463,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -414,6 +471,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -421,6 +479,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -428,6 +487,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -435,6 +495,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 0,
+    byHeart: false,
     quotes: [],
   },
 
@@ -444,6 +505,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 7,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -451,6 +513,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 5,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -458,6 +521,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 30,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -465,6 +529,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -472,6 +537,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -480,6 +546,7 @@ export const musicsBenabar: UserMusic[] = [
     artist: 'Bénabar',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 ];

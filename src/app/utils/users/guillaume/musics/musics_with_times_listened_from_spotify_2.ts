@@ -6,6 +6,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Elvis Crespo',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -14,6 +15,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Tabu Ley Rochereau',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -22,6 +24,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Baby Bash',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -30,6 +33,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Cécile Bergame',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -38,6 +42,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Fugees',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -46,6 +51,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Wiz Khalifa',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -54,6 +60,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Tout Simplement Noir',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -62,6 +69,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Rihanna',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -70,6 +78,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Agnès Chaumié',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -78,6 +87,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Les Momes Du Ce2',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -86,6 +96,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Tabu Ley Rochereau',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -94,6 +105,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Gringe',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -102,6 +114,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Ludwig Göransson',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -110,6 +123,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Eddy de Pretto',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -118,6 +132,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Nessbeal',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -126,6 +141,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Christophe Maé',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -134,6 +150,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Vald',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -142,6 +159,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Charlie Puth',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -150,6 +168,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Ed Sheeran',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -158,6 +177,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Shaggy',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -166,6 +186,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Avril Lavigne',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -174,6 +195,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Jémy',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -182,6 +204,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'GRiNGO',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -190,6 +213,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lorenzo',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -198,6 +222,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'LMFAO',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -206,6 +231,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Eddy Mitchell',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -214,6 +240,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Fabian Mazur',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -222,6 +249,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Jaden',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -230,6 +258,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Dimitri Rougeul',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -238,6 +267,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Loud Luxury',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -246,6 +276,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Gringe',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -254,6 +285,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Stupeflip',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -262,6 +294,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Avishai Cohen',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -270,6 +303,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'MOLIY',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -278,6 +312,7 @@ export const musicsOthers: UserMusic[] = [
     artist: '13 Block',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -286,6 +321,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -294,6 +330,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Bebe Rexha',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -302,6 +339,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Nelly Furtado',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -310,6 +348,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'TLC',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -318,6 +357,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Médine',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -326,6 +366,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Martin Solveig',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -334,6 +375,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'La Bande à Basile',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -342,6 +384,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -350,6 +393,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Moha La Squale',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -358,6 +402,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Timmy Trumpet',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -366,6 +411,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Médine',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -374,6 +420,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Jason Derulo',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -382,6 +429,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'D.ACE',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -390,6 +438,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Earth, Wind & Fire',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -398,6 +447,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Médine',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -406,6 +456,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lomepal',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -414,6 +465,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Xzibit',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -422,6 +474,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Mac Tyer',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -430,6 +483,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Miley Cyrus',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -438,6 +492,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Saian Supa Crew',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -446,6 +501,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Francis Cabrel',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -454,6 +510,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'The Pussycat Dolls',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -462,6 +519,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Sage The Gemini',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -470,6 +528,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Akon',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -478,6 +537,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Bongo Cat',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -486,6 +546,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Deen Burbigo',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -494,6 +555,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Roy Martin',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -502,6 +564,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Clipounets chansons enfants et bébés',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -510,6 +573,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Médine',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -518,6 +582,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Smokepurpp',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -526,6 +591,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Léo Vym',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -534,6 +600,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Black Eyed Peas',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -542,6 +609,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'David Guetta',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -550,6 +618,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Sinik',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -558,6 +627,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Jean-Jacques Goldman',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -566,6 +636,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Timbaland',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -574,6 +645,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'A$AP Ferg',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -582,6 +654,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lil Skies',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -590,6 +663,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -598,6 +672,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'SPINALL',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -606,6 +681,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'T.I.',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -614,6 +690,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Travis Scott',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -622,6 +699,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Queen',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -630,6 +708,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Kina Grannis',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -638,6 +717,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Hans Zimmer',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -646,6 +726,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Aldebert',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -654,6 +735,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Moussier Tombola',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -662,6 +744,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Jennifer Lopez',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -670,6 +753,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Aketo',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -678,6 +762,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Fifth Harmony',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -686,6 +771,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Fabolous',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -694,6 +780,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 't.A.T.u.',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -702,6 +789,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Bob Sinclar',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -710,6 +798,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Metallica',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -718,6 +807,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Obie Trice',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -726,6 +816,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Whitney Houston',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -734,6 +825,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Boyz II Men',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -742,6 +834,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'French Montana',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -750,6 +843,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Bongo Cat',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -758,6 +852,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Swift Guad',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -766,6 +861,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'The Carters',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -774,6 +870,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Katy Perry',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -782,6 +879,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Katy Perry',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -790,6 +888,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Duffy',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -798,6 +897,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Still Fresh',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -806,6 +906,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Guru Woof Muzyka Relaksacyjna',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -814,6 +915,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Vincent Malone',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -822,6 +924,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Le ChÅ“ur des enfants',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -830,6 +933,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Dreamworx',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -838,6 +942,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Madonna',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -846,6 +951,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'D.ACE',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -854,6 +960,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'SamSam',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -862,6 +969,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Hugo TSR',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -870,6 +978,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Médine',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -878,6 +987,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Madonna',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -886,6 +996,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Kpoint',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -894,6 +1005,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Far East Movement',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -902,6 +1014,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Mr Farts',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -910,6 +1023,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Paul Rosenberg',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -918,6 +1032,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'David Guetta',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -926,6 +1041,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Hugues Aufray',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -934,6 +1050,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'David Guetta',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -942,6 +1059,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lil Wayne',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -950,6 +1068,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Billie Eilish',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -958,6 +1077,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Ellie Goulding',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -966,6 +1086,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Cécile Bergame',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -974,6 +1095,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -982,6 +1104,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'XXXTENTACION',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -990,6 +1113,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Katy Perry',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -998,6 +1122,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'CÅ“ur De Pirate',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1006,6 +1131,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Marilyn Manson',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1014,6 +1140,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Pitbull',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1022,6 +1149,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'King Africa',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1030,6 +1158,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Emily Osment',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1038,6 +1167,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Patricia Kaas',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1046,6 +1176,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Kendrick Lamar',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1054,6 +1185,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Simon',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1062,6 +1194,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lil Yachty',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1070,6 +1203,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Fergie',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1078,6 +1212,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Cécile Bergame',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1086,6 +1221,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Ne-Yo',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1094,6 +1230,7 @@ export const musicsOthers: UserMusic[] = [
     artist: '113',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1102,6 +1239,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Brian Tuey',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1110,6 +1248,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'City Girls',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1118,6 +1257,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Fat Joe',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1126,6 +1266,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Ludwig Göransson',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1134,6 +1275,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Nono La Grinta',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1142,6 +1284,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Desiigner',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1150,6 +1293,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Quality Control',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1158,6 +1302,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'DJ Maphorisa',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1166,6 +1311,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Pigloo',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1174,6 +1320,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'La Compagnie Créole',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1182,6 +1329,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Omppu',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1190,6 +1338,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Soulja Boy',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1198,6 +1347,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Gold',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1206,6 +1356,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'MR.BLACK',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1214,6 +1365,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'A2h',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1222,6 +1374,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Quality Control',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1230,6 +1383,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Jean-Jacques Goldman',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1238,6 +1392,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'XXXTENTACION',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1246,6 +1401,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'PLK',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1254,6 +1410,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Stupeflip',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1262,6 +1419,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Michel Delpech',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1270,6 +1428,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lorde',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1278,6 +1437,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Dinos',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1286,6 +1446,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Francis Cabrel',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1294,6 +1455,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Carmada',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1302,6 +1464,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Juice WRLD',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1310,6 +1473,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Serenidad y ArmonÃ­a',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1318,6 +1482,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Davodka',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1326,6 +1491,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Johnny Hallyday',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1334,6 +1500,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Stromae',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1342,6 +1509,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Vegedream',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1350,6 +1518,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Deorro',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1358,6 +1527,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Bhad Bhabie',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1366,6 +1536,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Boyz II Men',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1374,6 +1545,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'W&W',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1382,6 +1554,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Sacred Frequencies',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1390,6 +1563,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Rihanna',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1398,6 +1572,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Pzk',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1406,6 +1581,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Kendrick Lamar',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1414,6 +1590,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Christophe Maé',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1422,6 +1599,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Maurice Ravel',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1430,6 +1608,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Johnny Hallyday',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1438,6 +1617,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'LooLoo Kids',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1446,6 +1626,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Marie Toupie',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1454,6 +1635,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Deorro',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1462,6 +1644,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Jessie J',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1470,6 +1653,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Fergie',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1478,6 +1662,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Sadek',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1486,6 +1671,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Peter & Sloane',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1494,6 +1680,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Fabolous',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1502,6 +1689,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'The Sugarhill Gang',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1510,6 +1698,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Davodka',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1518,6 +1707,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Musique Thérapeutique Naturelles',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1526,6 +1716,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Future',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1534,6 +1725,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Camila Cabello',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1542,6 +1734,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'S.Pri Noir',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1550,6 +1743,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Chance the Rapper',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1558,6 +1752,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'The Carters',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1566,6 +1761,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Akon',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1574,6 +1770,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Moussier Tombola',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1582,6 +1779,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Fall Out Boy',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1590,6 +1788,7 @@ export const musicsOthers: UserMusic[] = [
     artist: '2 Bal',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1598,6 +1797,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Natalie Tual',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1606,6 +1806,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Akon',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1614,6 +1815,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Anna Kendrick',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1622,6 +1824,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Ludwig Göransson',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1630,6 +1833,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Jémy',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1638,6 +1842,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lou Rawls',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1646,6 +1851,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Patapouf',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1654,6 +1860,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Fally Ipupa',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1662,6 +1869,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'M.I.A.',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1670,6 +1878,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Bass Santana',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1678,6 +1887,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Outkast',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1686,6 +1896,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'DJ Maphorisa',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1694,6 +1905,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lucilla',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1702,6 +1914,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'W&W',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1710,6 +1923,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Ciara',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1718,6 +1932,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Tiësto',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1726,6 +1941,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Paces',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1734,6 +1950,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Akon',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1742,6 +1959,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Betsy',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1750,6 +1968,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Smokepurpp',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1758,6 +1977,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Jean-Jacques Goldman',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1766,6 +1986,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Calah Lane',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1774,6 +1995,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Eearz',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1782,6 +2004,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'RL Grime',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1790,6 +2013,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'D.ACE',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1798,6 +2022,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Ã„rsenik',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1806,6 +2031,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Marina Kaye',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1814,6 +2040,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'D.ACE',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1822,6 +2049,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Cécile Bergame',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1830,6 +2058,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Black Rebel Motorcycle Club',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1838,6 +2067,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Gradur',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1846,6 +2076,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Clipounets chansons enfants et bébés',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1854,6 +2085,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lil Yachty',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1862,6 +2094,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Sanyo Jacobson',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1870,6 +2103,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Natalie Tual',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1878,6 +2112,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Richard Sanderson',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1886,6 +2121,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Madonna',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1894,6 +2130,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'D.ACE',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1902,6 +2139,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Francis Cabrel',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1910,6 +2148,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Boyz II Men',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1918,6 +2157,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Boyz II Men',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1926,6 +2166,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Pascal Obispo',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1934,6 +2175,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Selena Gomez & The Scene',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1942,6 +2184,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'John Denver',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1950,6 +2193,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Bongo Cat',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1958,6 +2202,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Chris Brown',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1966,6 +2211,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'D.ACE',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1974,6 +2220,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'LoÃ¯c Laporte',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1982,6 +2229,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Duffy',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1990,6 +2238,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Images',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -1998,6 +2247,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Images',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2006,6 +2256,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Dotorado Pro',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2014,6 +2265,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Hugo TSR',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2022,6 +2274,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Queen',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2030,6 +2283,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'D.ACE',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2038,6 +2292,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Yaro',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2046,6 +2301,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Joe',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2054,6 +2310,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Rihanna',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2062,6 +2319,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Django',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2070,6 +2328,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Travis Scott',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2078,6 +2337,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Leoncito Alado',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2086,6 +2346,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Timbaland',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2094,6 +2355,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Francis Cabrel',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2102,6 +2364,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'DJ Assad',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2110,6 +2373,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Katy Perry',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2118,6 +2382,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'D.ACE',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2126,6 +2391,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Tory Lanez',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2134,6 +2400,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Desiigner',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2142,6 +2409,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Distruction Boyz',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2150,6 +2418,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Tha Krew',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2158,6 +2427,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'MZ',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2166,6 +2436,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'B-Lel',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2174,6 +2445,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Sébastien Patoche',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2182,6 +2454,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Keane',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2190,6 +2463,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Bill Medley',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2198,6 +2472,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Laurent Wolf',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2206,6 +2481,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'JoeyStarr',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2214,6 +2490,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Francis Cabrel',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2222,6 +2499,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Francis Cabrel',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2230,6 +2508,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Kesha',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2238,6 +2517,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'D.ACE',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2246,6 +2526,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'The Clash',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2254,6 +2535,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'D.ACE',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2262,6 +2544,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'A2h',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2270,6 +2553,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Kat Deluna',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2278,6 +2562,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Gradur',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2286,6 +2571,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lost Frequencies',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2294,6 +2580,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Jaden',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2302,6 +2589,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Mos Def',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2310,6 +2598,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Hocus Pocus',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2318,6 +2607,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Les Enfantastiques',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2326,6 +2616,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Magic System',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2334,6 +2625,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Benash',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2342,6 +2634,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Obie Trice',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2350,6 +2643,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'LP',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2358,6 +2652,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Fools Garden',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2366,6 +2661,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Rae Sremmurd',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2374,6 +2670,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Magic System',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2382,6 +2679,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'ZAYN',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2390,6 +2688,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'The Beatles',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2398,6 +2697,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Natalie Tual',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2406,6 +2706,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Daft Punk',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2414,6 +2715,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Deen Burbigo',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2422,6 +2724,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lorenzo',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2430,6 +2733,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Dr. Dre',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2438,6 +2742,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Soolking',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2446,6 +2751,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'JAY-Z',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2454,6 +2760,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Natacha Fabry',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2463,6 +2770,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Shtar Academy',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2471,6 +2779,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Nelly Furtado',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2479,6 +2788,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Dreamworx',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2487,6 +2797,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Travis Scott',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2495,6 +2806,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Ilkay Sencan',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2503,6 +2815,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Katy Perry',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2511,6 +2824,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Soolking',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2519,6 +2833,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Dubdogz',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2527,6 +2842,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Sinik',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2535,6 +2851,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Demi Portion',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2543,6 +2860,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'HeyKids Nursery Rhymes',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2551,6 +2869,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Shwayze',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2559,6 +2878,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Oldelaf',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2567,6 +2887,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Jean-Jacques Goldman',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2575,6 +2896,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'D.ACE',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2583,6 +2905,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Pins & Dimeh',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2591,6 +2914,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Les tubes du nouvel an',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2599,6 +2923,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Boyz II Men',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2607,6 +2932,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Post Malone',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2615,6 +2941,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Nicki Minaj',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2623,6 +2950,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'D.ACE',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2631,6 +2959,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'SamSam',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2639,6 +2968,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Demi Portion',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2647,6 +2977,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Francis Cabrel',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2655,6 +2986,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Grems',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2664,6 +2996,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lomepal',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2672,6 +3005,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Titia&Gg',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2680,6 +3014,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'The Beach Boys',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2688,6 +3023,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Ella Mai',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2696,6 +3032,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Bow Wow',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2704,6 +3041,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Odezenne',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2712,6 +3050,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'XXXTENTACION',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2720,6 +3059,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Justin Timberlake',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2728,6 +3068,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Manu Chao',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2736,6 +3077,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'A R I Z O N A',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2744,6 +3086,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'SAINT PHNX',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2752,6 +3095,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Patapouf',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2760,6 +3104,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'A$AP Rocky',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2768,6 +3113,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'The Chordettes',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2776,6 +3122,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'D.ACE',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2784,6 +3131,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Nio Garcia',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2792,6 +3140,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'La-33',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2800,6 +3149,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Le Dé',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2808,6 +3158,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lil Skies',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2816,6 +3167,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Clipounets chansons enfants et bébés',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2824,6 +3176,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Clipounets chansons enfants et bébés',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2832,6 +3185,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'A2h',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2840,6 +3194,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lloyd Banks',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2848,6 +3203,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Fixpen Sill',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2856,6 +3212,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Claude François',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2864,6 +3221,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Ayo & Teo',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2872,6 +3230,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Marina Kaye',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2880,6 +3239,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Sébastien Patoche',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2888,6 +3248,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'M. Pokora',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2896,6 +3257,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Crazy Music Channel',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2904,6 +3266,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Soolking',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2912,6 +3275,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Jany',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2920,6 +3284,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Maroon 5',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2928,6 +3293,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lil Durk',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2936,6 +3302,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'The Marcus Hedges Trend Orchestra',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2944,6 +3311,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'T.I.',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2952,6 +3320,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Richard Darbois',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2960,6 +3329,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Stefflon Don',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2968,6 +3338,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'D.ACE',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2976,6 +3347,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Rihanna',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2984,6 +3356,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Young Buck',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -2992,6 +3365,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Puri',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3000,6 +3374,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Kalash Criminel',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3008,6 +3383,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Imagine Dragons',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3016,6 +3392,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Sneazzy',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3024,6 +3401,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Nakk Mendosa',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3032,6 +3410,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Tabu Ley Rochereau',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3040,6 +3419,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Swagg Man',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3048,6 +3428,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'James Bay',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3056,6 +3437,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Jason Derulo',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3064,6 +3446,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Beyoncé',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3072,6 +3455,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Calvin Harris',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3080,6 +3464,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Robin Thicke',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3088,6 +3473,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'D.ACE',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3096,6 +3482,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'BlocBoy JB',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3104,6 +3491,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Isabelle Gaboriau',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3112,6 +3500,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Flawless Real Talk',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3120,6 +3509,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Tabu Ley Rochereau',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3128,6 +3518,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Blacko',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3136,6 +3527,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'D.ACE',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3144,6 +3536,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'D.ACE',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3152,6 +3545,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Girls Aloud',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3160,6 +3554,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Sugababes',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3168,6 +3563,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lil Yachty',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3176,6 +3572,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Laurent Voulzy',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3184,6 +3581,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Oxmo Puccino',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3192,6 +3590,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Hugo TSR',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3200,6 +3599,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Oldelaf',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3208,6 +3608,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Enrique Iglesias',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3216,6 +3617,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Les petits cousins',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3224,6 +3626,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Jean-Jacques Goldman',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3232,6 +3635,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Taio Cruz',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3240,6 +3644,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Edward Sharpe & The Magnetic Zeros',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3248,6 +3653,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Little Mix',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3256,6 +3662,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'La Compagnie Créole',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3264,6 +3671,7 @@ export const musicsOthers: UserMusic[] = [
     artist: '50 Cent',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3272,6 +3680,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Naâman',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3280,6 +3689,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Haroun',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3288,6 +3698,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'SamSam',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3296,6 +3707,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'D.ACE',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3304,6 +3716,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Dennis Lloyd',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3312,6 +3725,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Dennis Lloyd',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3320,6 +3734,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lily Allen',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3328,6 +3743,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'James Morrison',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3336,6 +3752,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Carpe Diem',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3344,6 +3761,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Betsy',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3352,6 +3770,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Médine',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3360,6 +3779,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Oxmo Puccino',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3368,6 +3788,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Kesha',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3376,6 +3797,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Meek Mill',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3384,6 +3806,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Ludwig Göransson',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3392,6 +3815,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Hugh Grant',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3400,6 +3824,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'D.ACE',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3408,6 +3833,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Dillon Francis',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3416,6 +3842,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Steve Aoki',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3424,6 +3851,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'BLACKPINK',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3432,6 +3860,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Avril Lavigne',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3440,6 +3869,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'The Notorious B.I.G.',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3448,6 +3878,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Michel Sardou',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3456,6 +3887,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Thomas Dutronc',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3464,6 +3896,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3472,6 +3905,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Sango',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3480,6 +3914,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Pasteur Guy',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3488,6 +3923,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Tha Krew',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3496,6 +3932,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lloyd',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3504,6 +3941,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Gringe',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3512,6 +3950,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Médine',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3520,6 +3959,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Kelis',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3528,6 +3968,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Mayorkun',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3536,6 +3977,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lithe',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3544,6 +3986,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Oldelaf',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3552,6 +3995,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Gradur',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3560,6 +4004,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'LAVINIA',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3568,6 +4013,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Jon B.',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3576,6 +4022,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Krizbeatz',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3584,6 +4031,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Les Fatals Picards',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3592,6 +4040,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Odezenne',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3600,6 +4049,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Oxmo Puccino',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3608,6 +4058,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Tragédie',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3616,6 +4067,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Trippie Redd',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3624,6 +4076,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Boyz II Men',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3632,6 +4085,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Cobra Starship',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3640,6 +4094,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Jazzy Bazz',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3648,6 +4103,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Clipounets chansons enfants et bébés',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3656,6 +4112,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Flo Rida',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3664,6 +4121,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Nelly Furtado',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3672,6 +4130,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Jennifer Lopez',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3680,6 +4139,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lio',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3688,6 +4148,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Icona Pop',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3696,6 +4157,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Zouk Machine',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3704,6 +4166,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lindsey Stirling',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3712,6 +4175,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Shania Twain',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3720,6 +4184,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Les Momes Du Ce2',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3728,6 +4193,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Téléphone',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3736,6 +4202,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Boyz II Men',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3744,6 +4211,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Sneazzy',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3752,6 +4220,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Oxmo Puccino',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3760,6 +4229,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Iggy Azalea',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3768,6 +4238,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Nelly Furtado',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3776,6 +4247,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Gringe',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3784,6 +4256,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Bhizer',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3792,6 +4265,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Noah Kahan',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3800,6 +4274,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Jason Aldean',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3808,6 +4283,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Beyoncé',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3816,6 +4292,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'The Carters',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3824,6 +4301,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'D.ACE',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3832,6 +4310,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Dana Buoy',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3840,6 +4319,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Douk Saga',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3848,6 +4328,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'The Cranberries',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3856,6 +4337,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'The Beatles',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3864,6 +4346,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Saké',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3872,6 +4355,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Joe',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3880,6 +4364,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Cécile Bergame',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3888,6 +4373,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'D.ACE',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3896,6 +4382,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Britney Spears',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3904,6 +4391,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Sugababes',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3912,6 +4400,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Joe',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3920,6 +4409,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Francis Cabrel',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3928,6 +4418,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Tory Lanez',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3936,6 +4427,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Kodak Black',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3944,6 +4436,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Valentina Fontana',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3952,6 +4445,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Népal',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3960,6 +4454,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Gazzarino',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3968,6 +4463,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Gaël Faye',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3976,6 +4472,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Mbilia Bel',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3984,6 +4481,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Galantis',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -3992,6 +4490,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Earth, Wind & Fire',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4000,6 +4499,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'P!nk',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4008,6 +4508,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'P!nk',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4016,6 +4517,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'DJ NS',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4024,6 +4526,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Nemir',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4032,6 +4535,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Moussier Tombola',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4040,6 +4544,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Nicki Minaj',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4048,6 +4553,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Davodka',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4056,6 +4562,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'DJ ESCO',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4064,6 +4571,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Marian Hill',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4072,6 +4580,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Bongo Cat',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4080,6 +4589,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4088,6 +4598,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Nelly Furtado',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4096,6 +4607,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Dada Life',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4104,6 +4616,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Rihanna',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4112,6 +4625,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Richard Sanderson',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4120,6 +4634,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Gaël Faye',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4128,6 +4643,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'La Roux',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4136,6 +4652,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Eugy Official',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4144,6 +4661,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Kalash Criminel',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4152,6 +4670,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Adele',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4160,6 +4679,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Nicki Minaj',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4168,6 +4688,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Christophe Maé',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4176,6 +4697,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Casey',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4184,6 +4706,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'T.I.',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4192,6 +4715,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Dynoro',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4200,6 +4724,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'DJ Khaled',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4208,6 +4733,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'The Beach Boys',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4216,6 +4742,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Beyoncé',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4224,6 +4751,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Beyoncé',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4232,6 +4760,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Gabby et la maison magique',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4240,6 +4769,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Alpha Wann',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4248,6 +4778,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Flo Rida',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4256,6 +4787,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Véronique Sanson',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4264,6 +4796,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'The Beatles',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4272,6 +4805,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Boyz II Men',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4280,6 +4814,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Future',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4288,6 +4823,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Parov Stelar',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4296,6 +4832,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Stromae',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4304,6 +4841,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Mariah Carey',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4312,6 +4850,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'D.ACE',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4320,6 +4859,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Thirty Seconds To Mars',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4328,6 +4868,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Marshmello',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4336,6 +4877,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Kanye West',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4344,6 +4886,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Therapie TAXI',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4352,6 +4895,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Ol Kainry',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4360,6 +4904,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lil Kesh',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4368,6 +4913,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Blu Cantrell',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4376,6 +4922,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Natalie Tual',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4384,6 +4931,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Jazzy Bazz',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4392,6 +4940,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Eta',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4400,6 +4949,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Luis Fonsi',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4408,6 +4958,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Justin Timberlake',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4416,6 +4967,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Moussier Tombola',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4424,6 +4976,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Gringe',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4432,6 +4985,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Chase & Status',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4440,6 +4994,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lil Yachty',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4448,6 +5003,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Towkio',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4456,6 +5012,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Sadek',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4464,6 +5021,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Panic! At The Disco',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4472,6 +5030,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Heartical Théos',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4480,6 +5039,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Oldelaf',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4488,6 +5048,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lil Yachty',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4496,6 +5057,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Natalie Tual',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4504,6 +5066,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Vegedream',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4512,6 +5075,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'T.I.',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4520,6 +5084,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Distruction Boyz',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4528,6 +5093,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'BlocBoy JB',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4536,6 +5102,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Richard Sanderson',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4544,6 +5111,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Madcon',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4552,6 +5120,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lil Xan',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4560,6 +5129,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Mariah Carey',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4568,6 +5138,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Renan Luce',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4576,6 +5147,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Meek Mill',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4584,6 +5156,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Liam Payne',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4592,6 +5165,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Yuzmv',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4600,6 +5174,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Adrien Antoine',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4608,6 +5183,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Annie Cordy',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4616,6 +5192,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Tracy Chapman',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4624,6 +5201,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Tracy Chapman',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4632,6 +5210,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Johnny Hallyday',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4640,6 +5219,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Akon',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4648,6 +5228,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Toofan',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4656,6 +5237,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'T.I.',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4664,6 +5246,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Hugo Tsr Crew',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4672,6 +5255,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Francis Cabrel',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4680,6 +5264,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Tandem',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4688,6 +5273,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lomepal',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4696,6 +5282,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Billy Idol',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4704,6 +5291,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'MATTN',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4712,6 +5300,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Chance the Rapper',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4720,6 +5309,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Bruce Springsteen',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4728,6 +5318,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'PSY',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4736,6 +5327,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'winnterzuko',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4744,6 +5336,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'A2h',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4752,6 +5345,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Calomerito',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4760,6 +5354,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Dinos',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4768,6 +5363,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Krizbeatz',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4776,6 +5372,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Fonky Family',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4784,6 +5381,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Hornet La Frappe',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4792,6 +5390,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Gaël Faye',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4800,6 +5399,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Slowm',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4808,6 +5408,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Shaggy',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4816,6 +5417,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'DJ Durel',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4824,6 +5426,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'B-Lel',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4832,6 +5435,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Assassin',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4840,6 +5444,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Assassin',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4848,6 +5453,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Dax',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4856,6 +5462,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'HAEVN',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4864,6 +5471,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'The Beatles',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4872,6 +5480,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Sound Of Legend',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4880,6 +5489,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Bad Meets Evil',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4888,6 +5498,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Florent Pagny',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4896,6 +5507,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'T.I.',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4904,6 +5516,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Pitbull',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4912,6 +5525,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Flawless Real Talk',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4920,6 +5534,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'The Carters',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4928,6 +5543,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Ed Sheeran',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4936,6 +5552,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'LMFAO',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4944,6 +5561,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Player',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4952,6 +5570,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Patapouf',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4960,6 +5579,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Dr. Dre',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4968,6 +5588,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Gabby et la maison magique',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4976,6 +5597,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Akon',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4984,6 +5606,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Hugo TSR',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -4992,6 +5615,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'The Beach Boys',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5000,6 +5624,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Akhenaton',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5008,6 +5633,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'FKJ',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5016,6 +5642,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Shaggy',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5024,6 +5651,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Bhad Bhabie',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5032,6 +5660,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Brian Tuey',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5040,6 +5669,7 @@ export const musicsOthers: UserMusic[] = [
     artist: '2Pac',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5048,6 +5678,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Keziah Jones',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5056,6 +5687,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Marina Kaye',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5064,6 +5696,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Ed Sheeran',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5072,6 +5705,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Dada Life',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5080,6 +5714,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'A2h',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5088,6 +5723,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Trinix',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5096,6 +5732,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Jaheim',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5104,6 +5741,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Jupyter Hendrix',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5112,6 +5750,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Sinik',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5120,6 +5759,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Dr. Dre',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5128,6 +5768,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Marina Kaye',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5136,6 +5777,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Marina Kaye',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5144,6 +5786,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Olivia Ruiz',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5152,6 +5795,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'John Holt',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5160,6 +5804,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Young Franco',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5168,6 +5813,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Sneazzy',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5176,6 +5822,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Bongo Cat',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5184,6 +5831,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Edward Norton',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5192,6 +5840,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'B-Lel',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5200,6 +5849,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Quality Control',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5208,6 +5858,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Kim Carnes',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5216,6 +5867,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Shaggy',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5224,6 +5876,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Bandolero',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5232,6 +5885,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Shaggy',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5240,6 +5894,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Hugo TSR',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5248,6 +5903,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Akhenaton',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5256,6 +5912,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lil Tecca',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5264,6 +5921,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'PLK',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5272,6 +5930,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Alicia Keys',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5280,6 +5939,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Petit Papa Noël',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5288,6 +5948,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Shaka Ponk',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5296,6 +5957,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Future',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5304,6 +5966,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Ed Sheeran',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5312,6 +5975,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'XXXTENTACION',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5320,6 +5984,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'T-Pain',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5328,6 +5993,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Twista',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5336,6 +6002,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Cats On Trees',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5344,6 +6011,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'The Beach Boys',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5352,6 +6020,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'The Beach Boys',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5360,6 +6029,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Skales',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5368,6 +6038,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'The Beach Boys',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5376,6 +6047,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Sound Of Legend',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5384,6 +6056,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Deen Burbigo',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5392,6 +6065,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Huncho Jack',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5400,6 +6074,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'A$AP Rocky',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5408,6 +6083,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Kap G',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5416,6 +6092,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5424,6 +6101,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'MXZI',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5432,6 +6110,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Mike WiLL Made-It',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5440,6 +6119,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Rilès',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5448,6 +6128,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Johnny Hallyday',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5456,6 +6137,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Jaij Hollands',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5464,6 +6146,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Tunisiano',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5472,6 +6155,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Jonas Brothers',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5480,6 +6164,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Sefyu',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5488,6 +6173,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Hailee Steinfeld',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5496,6 +6182,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'David Guetta',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5504,6 +6191,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'WESTSIDE BOOGIE',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5512,6 +6200,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Mos Def',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5520,6 +6209,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Ludwig Göransson',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5529,6 +6219,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Reel 2 Real',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5537,6 +6228,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Kehlani',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5545,6 +6237,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Alessia Cara',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5553,6 +6246,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Alpha Wann',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5561,6 +6255,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Pio & Amedeo',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5569,6 +6264,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Redleg',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5577,6 +6273,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Rednex',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5585,6 +6282,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Avant',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5593,6 +6291,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Gorillaz',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5601,6 +6300,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Whitney Houston',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5609,6 +6309,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'The Lonely Island',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5617,6 +6318,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'joysad',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5625,6 +6327,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Suprême NTM',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5633,6 +6336,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'KOCHAM',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5641,6 +6345,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Népal',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5649,6 +6354,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lomepal',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5657,6 +6363,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Francis Cabrel',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5665,6 +6372,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Metro Boomin',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5673,6 +6381,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Beyoncé',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5681,6 +6390,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Dave',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5689,6 +6399,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Kool Shen',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5697,6 +6408,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Laeti',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5705,6 +6417,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5713,6 +6426,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Johnny Hallyday',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5721,6 +6435,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Philippe Lavil',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5729,6 +6444,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Pandrezz',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5737,6 +6453,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Wham!',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5745,6 +6462,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Willy Denzey',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5753,6 +6471,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Vincent Delerm',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5761,6 +6480,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'The New Gypsies',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5769,6 +6489,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Médine',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5777,6 +6498,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Francis Cabrel',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5785,6 +6507,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'UGK',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5793,6 +6516,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'GLGV',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5801,6 +6525,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Daft Punk',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5809,6 +6534,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Espiiem',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5817,6 +6543,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5825,6 +6552,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Ayo & Teo',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5833,6 +6561,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Nicki Minaj',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5841,6 +6570,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'G-Eazy',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5849,6 +6579,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Oscar and the Wolf',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5857,6 +6588,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Ben Mazué',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5865,6 +6597,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Shaggy',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5873,6 +6606,7 @@ export const musicsOthers: UserMusic[] = [
     artist: '3OH!3',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5881,6 +6615,7 @@ export const musicsOthers: UserMusic[] = [
     artist: '3OH!3',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5889,6 +6624,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'R.E.D.K.',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5897,6 +6633,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Purple Disco Machine',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5905,6 +6642,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Purple Disco Machine',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5913,6 +6651,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Skip the Use',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5921,6 +6660,7 @@ export const musicsOthers: UserMusic[] = [
     artist: '21 Savage',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5929,6 +6669,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Louane',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5937,6 +6678,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Traditional',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5945,6 +6687,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Cheu-B',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5953,6 +6696,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Quality Control',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5961,6 +6705,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Diddy - Dirty Money',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5969,6 +6714,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Jean-Emile Biayenda',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5977,6 +6723,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Meek Mill',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5985,6 +6732,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Simon',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -5993,6 +6741,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Maz Univerze',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6001,6 +6750,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Martial',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6009,6 +6759,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Eff Gee',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6017,6 +6768,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Eff Gee',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6025,6 +6777,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'XXXTENTACION',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6033,6 +6786,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Alpha Wann',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6041,6 +6795,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Ariana Grande',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6049,6 +6804,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Aketo',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6057,6 +6813,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Tshanda',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6065,6 +6822,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Ludwig Göransson',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6073,6 +6831,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Gradur',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6081,6 +6840,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Kalash Criminel',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6089,6 +6849,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Troye Sivan',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6097,6 +6858,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Ofenbach',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6105,6 +6867,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'The Lumineers',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6113,6 +6876,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Tunisiano',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6121,6 +6885,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Musique Thérapeutique Naturelles',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6129,6 +6894,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Irene Vilches',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6137,6 +6903,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Jason Derulo',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6145,6 +6912,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Bhad Bhabie',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6153,6 +6921,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Brian Tuey',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6161,6 +6930,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Mahdi Ba',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6169,6 +6939,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Ninho',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6177,6 +6948,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Hozier',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6185,6 +6957,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Rihanna',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6193,6 +6966,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Les Déménageurs',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6201,6 +6975,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Alpha Wann',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6209,6 +6984,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Assia',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6217,6 +6993,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Phobia Isaac',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6226,6 +7003,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Angie Stone',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6234,6 +7012,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Niro',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6242,6 +7021,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Rihanna',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6250,6 +7030,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Yannou JR',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6258,6 +7039,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'James McCawley',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6266,6 +7048,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Toofan',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6274,6 +7057,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Rhye',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6282,6 +7066,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'AnaÃ¯s',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6290,6 +7075,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Aketo',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6298,6 +7084,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Queen',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6306,6 +7093,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Jessie Ware',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6314,6 +7102,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Django',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6322,6 +7111,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Kat Deluna',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6330,6 +7120,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Blacko',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6338,6 +7129,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'The Outfield',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6346,6 +7138,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Loud Luxury',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6354,6 +7147,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Aketo',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6362,6 +7156,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'T.I.',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6370,6 +7165,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Sade',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6378,6 +7174,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Dua Lipa',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6386,6 +7183,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Vincent Malone',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6394,6 +7192,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Blacko',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6402,6 +7201,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Queen',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6410,6 +7210,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Meek Mill',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6418,6 +7219,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Boyz II Men',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6426,6 +7228,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Afro B',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6434,6 +7237,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'P!nk',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6442,6 +7246,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'WSTRN',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6450,6 +7255,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'disiz',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6458,6 +7264,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Sia',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6466,6 +7273,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Kemmler',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6474,6 +7282,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Rohff',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6482,6 +7291,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Empire Cast',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6490,6 +7300,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6498,6 +7309,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Flawless Real Talk',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6506,6 +7318,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Boyz II Men',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6514,6 +7327,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lil Skies',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6522,6 +7336,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Alliance Ethnik',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6530,6 +7345,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'MaRLo',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6538,6 +7354,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lil Tecca',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6546,6 +7363,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'A2h',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6554,6 +7372,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Sally Fletcher',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6562,6 +7381,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Nicholas Teo',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6570,6 +7390,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Jérémy Frerot',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6578,6 +7399,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Guizmo',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6586,6 +7408,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lomepal',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6594,6 +7417,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Bon Iver',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6602,6 +7426,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Téléphone',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6610,6 +7435,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'John Williams',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6618,6 +7444,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'TRUST',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6626,6 +7453,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Mike Watson',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6634,6 +7462,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lil Durk',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6642,6 +7471,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Patrick Fiori',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6650,6 +7480,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Axelence',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6658,6 +7489,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Asymptotes',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6666,6 +7498,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Jorge SepÃºlveda',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6674,6 +7507,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Chloé Stafler',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6682,6 +7516,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'George Ezra',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6690,6 +7525,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Demi Portion',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6698,6 +7534,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'T.I.',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6706,6 +7543,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Dbangz',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6714,6 +7552,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Mobi Dixon',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6722,6 +7561,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Nico & Vinz',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6730,6 +7570,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'KeBlack',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6738,6 +7579,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Carl Thomas',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6746,6 +7588,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Anderson .Paak',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6754,6 +7597,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Kofs',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6762,6 +7606,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Black Eyed Peas',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6770,6 +7615,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'X-Men',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6778,6 +7624,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'SYML',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6786,6 +7633,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Vald',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6794,6 +7642,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Alpha Wann',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6802,6 +7651,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Alpha Wann',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6810,6 +7660,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Daft Punk',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6818,6 +7669,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Stomy Bugsy',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6826,6 +7678,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Dellati',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6834,6 +7687,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Fatbabs',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6842,6 +7696,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Topic',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6850,6 +7705,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Iron & Wine',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6858,6 +7714,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Louane',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6866,6 +7723,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Louane',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6874,6 +7732,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'ScHoolboy Q',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6882,6 +7741,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'MÃ¥ns Zelmerlöw',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6890,6 +7750,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Tortoz',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6898,6 +7759,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Népal',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6906,6 +7768,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Rich The Kid',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6914,6 +7777,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'David Guetta',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6922,6 +7786,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'La Patate',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6930,6 +7795,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Royaume',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6938,6 +7804,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'M. Pokora',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6946,6 +7813,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Leith',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6954,6 +7822,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Axe Nordik',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6962,6 +7831,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Salmo',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6970,6 +7840,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Deen Burbigo',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6978,6 +7849,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'The Legendary Fruitman',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6986,6 +7858,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Aketo',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -6994,6 +7867,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Khalid',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7002,6 +7876,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'DJ Khaled',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7010,6 +7885,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Camp Claude',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7018,6 +7894,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Tunisiano',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7026,6 +7903,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'SPINALL',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7034,6 +7912,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Les Conteurs',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7042,6 +7921,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Jémy',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7050,6 +7930,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Pv Nova',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7058,6 +7939,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'A2h',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7066,6 +7948,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lana Del Rey',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7074,6 +7957,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Meek Mill',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7082,6 +7966,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Ludwig Göransson',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7090,6 +7975,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Alpha Wann',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7098,6 +7984,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Ciara',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7106,6 +7993,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'John DahlbÃ¤ck',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7114,6 +8002,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Jason Derulo',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7122,6 +8011,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Georgio',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7130,6 +8020,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Médine',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7138,6 +8029,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Summer Cem',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7146,6 +8038,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'M-Beat',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7154,6 +8047,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Willy William',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7162,6 +8056,7 @@ export const musicsOthers: UserMusic[] = [
     artist: '2Pac',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7170,6 +8065,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Avant',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7178,6 +8074,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Avant',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7186,6 +8083,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Etta James',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7194,6 +8092,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Tommy Richman',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7202,6 +8101,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Mayorkun',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7210,6 +8110,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Alpha Wann',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7218,6 +8119,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Bruce Springsteen',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7226,6 +8128,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Johannes Brahms',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7235,6 +8138,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Johannes Brahms',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7243,6 +8147,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Tabu Ley Rochereau',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7251,6 +8156,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Beyoncé',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7259,6 +8165,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Fonky Family',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7267,6 +8174,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Fonky Family',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7275,6 +8183,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Simon',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7283,6 +8192,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Pharrell Williams',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7291,6 +8201,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Akhenaton',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7299,6 +8210,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Emilio',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7307,6 +8219,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'David Guetta',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7315,6 +8228,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Gunna',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7323,6 +8237,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Hoshi',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7331,6 +8246,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Black Eyed Peas',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7339,6 +8255,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Arctic Monkeys',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7347,6 +8264,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lil Yachty',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7355,6 +8273,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Donell Jones',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7363,6 +8282,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Donell Jones',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7371,6 +8291,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Walking On Cars',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7379,6 +8300,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Debout Sur Le Zinc',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7387,6 +8309,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Black M',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7395,6 +8318,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7403,6 +8327,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'will.i.am',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7411,6 +8336,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Pierre Perret',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7419,6 +8345,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Tess',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7427,6 +8354,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Alessia Cara',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7435,6 +8363,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Maxwell',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7443,6 +8372,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Amir',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7451,6 +8381,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Bongo Cat',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7459,6 +8390,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Jim Jones',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7467,6 +8399,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Dr. Dre',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7475,6 +8408,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Cold War Kids',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7483,6 +8417,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Vald',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7491,6 +8426,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Gabby et la maison magique',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7499,6 +8435,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lionel Richie',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7507,6 +8444,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Cherish',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7515,6 +8453,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lil Yachty',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7523,6 +8462,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Michael Gray',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7531,6 +8471,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Niall Horan',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7539,6 +8480,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Ibeyi',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7547,6 +8489,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Jeanne Mas',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7555,6 +8498,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Logobi GT',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7563,6 +8507,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Indochine',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7571,6 +8516,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Cassie',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7579,6 +8525,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Brav',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7587,6 +8534,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'A2h',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7595,6 +8543,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Les Déménageurs',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7603,6 +8552,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Farruko',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7611,6 +8561,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Blacko',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7619,6 +8570,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'The Saturdays',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7627,6 +8579,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Francine Chantereau',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7635,6 +8588,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Dosseh',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7643,6 +8597,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Shawn Mendes',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7651,6 +8606,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Juice WRLD',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7659,6 +8615,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Joe Dassin',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7667,6 +8624,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Boyz II Men',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7675,6 +8633,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Cascada',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7683,6 +8642,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Les Fatals Picards',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7691,6 +8651,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Super Simple EspaÃ±ol',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7699,6 +8660,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Super Simple EspaÃ±ol',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7707,6 +8669,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'La Ronde des Enfants',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7715,6 +8678,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Marina Kaye',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7723,6 +8687,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Wiz Khalifa',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7731,6 +8696,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Van Morrison',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7739,6 +8705,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Sam Smith',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7747,6 +8714,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'The Beach Boys',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7755,6 +8723,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Dinos',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7763,6 +8732,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Nicki Minaj',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7771,6 +8741,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Marc Lavoine',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7779,6 +8750,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Les Fatals Picards',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7787,6 +8759,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'J Balvin',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7795,6 +8768,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Cookiesan',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7803,6 +8777,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'K.ommando Toxik',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7811,6 +8786,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Ninho',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7819,6 +8795,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Hugo Fontana',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7827,6 +8804,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Timal',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7835,6 +8813,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'The Script',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7843,6 +8822,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Jacques Brel',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7851,6 +8831,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Akhenaton',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7859,6 +8840,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Joyner Lucas',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7867,6 +8849,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Francis Cabrel',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7875,6 +8858,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Dua Lipa',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7883,6 +8867,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Robinio Mundibu',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7891,6 +8876,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Francis Cabrel',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7899,6 +8885,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lefa',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7907,6 +8894,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Gérard Lenorman',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7915,6 +8903,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'KXLLSWXTCH',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7923,6 +8912,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Barry White',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7931,6 +8921,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Oré',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7939,6 +8930,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Oré',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7947,6 +8939,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Dizzee Rascal',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7955,6 +8948,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Matt Sassari',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7963,6 +8957,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Dick Rivers',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7971,6 +8966,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Alicia Keys',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7979,6 +8975,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Aketo',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7987,6 +8984,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Despo Rutti',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -7995,6 +8993,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Stephanie',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8004,6 +9003,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Shtar Academy',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8012,6 +9012,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Alpha Wann',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8020,6 +9021,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Daft Punk',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8028,6 +9030,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Sefyu',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8036,6 +9039,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Vald',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8044,6 +9048,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Stupeflip',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8052,6 +9057,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Stomy Bugsy',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8060,6 +9066,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Francis Cabrel',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8068,6 +9075,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Dinos',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8076,6 +9084,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Mos Def',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8084,6 +9093,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'B-Lel',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8092,6 +9102,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Quality Control',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8100,6 +9111,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Le Rat Luciano',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8108,6 +9120,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'B-Lel',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8116,6 +9129,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Carpe Diem',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8124,6 +9138,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Chance the Rapper',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8132,6 +9147,7 @@ export const musicsOthers: UserMusic[] = [
     artist: '2TH',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8140,6 +9156,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Stomy Bugsy',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8148,6 +9165,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Shontelle',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8156,6 +9174,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Francis Cabrel',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8164,6 +9183,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Médine',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8172,6 +9192,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Médine',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8180,6 +9201,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Natalie Tual',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8188,6 +9210,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'The Band Perry',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8196,6 +9219,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Carole Fredericks',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8204,6 +9228,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Demi Portion',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8212,6 +9237,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Petit Papa Noël',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8220,6 +9246,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Stomy Bugsy',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8228,6 +9255,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Naaz',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8236,6 +9264,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Tabu Ley Rochereau',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8244,6 +9273,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lukas Graham',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8252,6 +9282,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'OneRepublic',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8260,6 +9291,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Gucci Mane',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8268,6 +9300,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Michel Polnareff',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8276,6 +9309,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Andra Day',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8284,6 +9318,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Andra Day',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8292,6 +9327,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Rémy',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8300,6 +9336,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Jabberwocky',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8308,6 +9345,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Oldelaf',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8316,6 +9354,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Kanye West',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8324,6 +9363,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Babes Wodumo',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8332,6 +9372,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Dinos',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8340,6 +9381,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Alberto Morigi',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8348,6 +9390,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Akhenaton',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8356,6 +9399,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Mbilia Bel',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8364,6 +9408,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Jonathan Ansell',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8372,6 +9417,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Beeby',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8380,6 +9426,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Soolking',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8388,6 +9435,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Eric Clapton',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8396,6 +9444,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Nate Dogg',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8404,6 +9453,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Trippie Redd',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8412,6 +9462,7 @@ export const musicsOthers: UserMusic[] = [
     artist: '3OH!3',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8420,6 +9471,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Sick Individuals',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8428,6 +9480,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'D12',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8436,6 +9489,7 @@ export const musicsOthers: UserMusic[] = [
     artist: '2Pac',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8444,6 +9498,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Simon',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8452,6 +9507,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Dr. Dre',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8460,6 +9516,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Bob Marley & The Wailers',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8468,6 +9525,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'The Pussycat Dolls',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8476,6 +9534,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Flawless Real Talk',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8484,6 +9543,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'S-Crew',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8492,6 +9552,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Krizbeatz',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8500,6 +9561,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Jémy',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8508,6 +9570,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Gemitaiz',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8516,6 +9579,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'A$AP Rocky',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8524,6 +9588,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Joe',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8532,6 +9597,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'La Smala',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8540,6 +9606,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'La Smala',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8548,6 +9615,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Valee',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8556,6 +9624,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Nate Dogg',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8564,6 +9633,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Axwell / Ingrosso',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8572,6 +9642,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Jémy',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8580,6 +9651,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Ol Kainry',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8588,6 +9660,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Casey',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8596,6 +9669,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Bad Meets Evil',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8604,6 +9678,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Bilal Hassani',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8612,6 +9687,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'A$AP Rocky',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8620,6 +9696,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Don Omar',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8628,6 +9705,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lhast',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8636,6 +9714,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Fan des années 2000',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8644,6 +9723,7 @@ export const musicsOthers: UserMusic[] = [
     artist: '113',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8652,6 +9732,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Francis Cabrel',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8660,6 +9741,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lithe',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8668,6 +9750,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Justin Timberlake',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8676,6 +9759,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'SamSam',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8684,6 +9768,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'James McCawley',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8692,6 +9777,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'The Beach Boys',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8700,6 +9786,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'KAROL G',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8708,6 +9795,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Jason Derulo',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8716,6 +9804,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'La Chronik',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8724,6 +9813,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'The Singing Nun (Soeur Sourire)',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8732,6 +9822,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'CeeLo Green',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8740,6 +9831,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'SamSam',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8748,6 +9840,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'SamSam',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8756,6 +9849,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Davodka',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8764,6 +9858,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Ed Sheeran',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8772,6 +9867,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Ice Spice',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8780,6 +9876,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'One Third',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8788,6 +9885,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Playboi Carti',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8796,6 +9894,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Cérémonie De Mariage',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8804,6 +9903,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Comet 1993',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8812,6 +9912,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Comet 1993',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8820,6 +9921,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Xad',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8828,6 +9930,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Yannick',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8836,6 +9939,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Louane',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8844,6 +9948,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'D.ACE',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8852,6 +9957,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Les Enfantastiques',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8860,6 +9966,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Tunisiano',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8868,6 +9975,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Calum Scott',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8876,6 +9984,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Girls Aloud',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8884,6 +9993,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Francis Cabrel',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8892,6 +10002,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Nicki Minaj',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8900,6 +10011,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Stomy Bugsy',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8908,6 +10020,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Boyz II Men',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8916,6 +10029,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Stensy',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8924,6 +10038,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Shaggy',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8932,6 +10047,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Juice WRLD',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8940,6 +10056,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Vald',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8948,6 +10065,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Playboi Carti',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8956,6 +10074,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Christophe Willem',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8964,6 +10083,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lithe',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8972,6 +10092,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Fally Ipupa',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8980,6 +10101,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Simon',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8988,6 +10110,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Nadjee',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -8996,6 +10119,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Francis and the Lights',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9004,6 +10128,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'W&W',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9012,6 +10137,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'KSHMR',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9020,6 +10146,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Vald',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9028,6 +10155,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Alliance Ethnik',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9036,6 +10164,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Shallou',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9044,6 +10173,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Don Diablo',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9052,6 +10182,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Don Diablo',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9060,6 +10191,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Davodka',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9068,6 +10200,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Népal',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9076,6 +10209,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'E-Dubble',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9084,6 +10218,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Oldelaf',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9092,6 +10227,7 @@ export const musicsOthers: UserMusic[] = [
     artist: '50 Cent',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9100,6 +10236,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Francis Cabrel',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9108,6 +10245,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Francis Cabrel',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9116,6 +10254,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Mumford & Sons',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9124,6 +10263,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Vald',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9132,6 +10272,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Soul For Real',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9140,6 +10281,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Natasha Bedingfield',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9148,6 +10290,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Vacra',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9156,6 +10299,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'A2h',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9165,6 +10309,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'The Beach Boys',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9173,6 +10318,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Dr. Dre',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9181,6 +10327,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'P!nk',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9189,6 +10336,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'KDD',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9197,6 +10345,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Tabu Ley Rochereau',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9205,6 +10354,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Alliance Ethnik',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9213,6 +10363,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Ninho',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9221,6 +10372,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Anna Leone',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9229,6 +10381,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Carpe Diem',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9237,6 +10390,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Beyoncé',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9245,6 +10399,7 @@ export const musicsOthers: UserMusic[] = [
     artist: '2 Chainz',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9253,6 +10408,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Saweetie',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9261,6 +10417,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'TLC',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9269,6 +10426,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Meek Mill',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9277,6 +10435,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Clipounets chansons enfants et bébés',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9285,6 +10444,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Leon Bridges',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9293,6 +10453,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'MC Solaar',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9301,6 +10462,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Marwa Loud',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9309,6 +10471,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'D.ACE',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9317,6 +10480,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lorne Balfe',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9325,6 +10489,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Jason Mraz',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9333,6 +10498,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Leon Bridges',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9341,6 +10507,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lupe Fiasco',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9349,6 +10516,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Tiken Jah Fakoly',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9357,6 +10525,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'David Guetta',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9365,6 +10534,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'David Guetta',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9373,6 +10543,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Madanon',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9381,6 +10552,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Keri Hilson',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9389,6 +10561,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Jémy',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9398,6 +10571,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Simon',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9406,6 +10580,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Fergie',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9414,6 +10589,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Maroon 5',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9422,6 +10598,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Crazy Frog',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9430,6 +10607,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'La Chorale De Noël',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9438,6 +10616,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Christina Milian',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9446,6 +10625,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Katy Perry',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9454,6 +10634,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Nicki Minaj',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9462,6 +10643,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Isaac Delusion',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9470,6 +10652,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Sidney Oliver',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9478,6 +10661,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Diplo',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9486,6 +10670,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Alpha Wann',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9494,6 +10679,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Sinik',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9502,6 +10688,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Corneille',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9510,6 +10697,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Dr. Dre',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9518,6 +10706,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Eddy Mitchell',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9526,6 +10715,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Jémy',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9534,6 +10724,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'OneRepublic',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9542,6 +10733,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Mr. Big',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9550,6 +10742,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'T.I.',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9558,6 +10751,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Rihanna',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9566,6 +10760,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Sophie Hunger',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9574,6 +10769,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Olly Murs',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9582,6 +10778,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'B-Lel',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9590,6 +10787,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Alpha Wann',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9598,6 +10796,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Chris Brown',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9606,6 +10805,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Brian McKnight',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9614,6 +10814,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Alpha Wann',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9622,6 +10823,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Akhenaton',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9630,6 +10832,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'DJ Maphorisa',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9638,6 +10841,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Dinos',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9646,6 +10850,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lorage',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9654,6 +10859,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Les Momes Du Ce2',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9662,6 +10868,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'T.I.',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9670,6 +10877,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lithe',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9678,6 +10886,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Hugo TSR',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9686,6 +10895,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lucci',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9694,6 +10904,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Matt Houston',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9702,6 +10913,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Sneazzy',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9710,6 +10922,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lost Frequencies',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9718,6 +10931,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'A2h',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9726,6 +10940,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lloyd Banks',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9734,6 +10949,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Stomy Bugsy',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9742,6 +10958,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'A2h',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9750,6 +10967,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Dreamworx',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9758,6 +10976,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Beyoncé',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9766,6 +10985,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Gringe',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9774,6 +10994,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'CDQ',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9782,6 +11003,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Brennan Savage',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9790,6 +11012,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Thirty Seconds To Mars',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9798,6 +11021,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'JoeyStarr',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9806,6 +11030,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Abou Tall',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9814,6 +11039,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'A2h',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9822,6 +11048,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Carpe Diem',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9830,6 +11057,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Amerie',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9838,6 +11066,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Tory Lanez',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9846,6 +11075,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Will Sparks',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9854,6 +11084,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Mister You',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9862,6 +11093,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Dorothée',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9870,6 +11102,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Indochine',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9878,6 +11111,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'D.ACE',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9886,6 +11120,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Beyoncé',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9894,6 +11129,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Trippie Redd',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9902,6 +11138,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Naza',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9910,6 +11147,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Naza',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9918,6 +11156,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Colonel Reyel',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9926,6 +11165,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Sigala',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9934,6 +11174,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'LauCarré',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9942,6 +11183,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'The Howl & The Hum',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9950,6 +11192,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Snoop Dogg',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9958,6 +11201,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Gaël Faye',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9966,6 +11210,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Maurice Ravel',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9974,6 +11219,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Brian Tuey',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9982,6 +11228,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Francis Cabrel',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9990,6 +11237,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Médine',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -9998,6 +11246,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Hayce Lemsi',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10006,6 +11255,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Blacko',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10014,6 +11264,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'The Wanted',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10022,6 +11273,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Nuttea',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10030,6 +11282,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Michael Bublé',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10038,6 +11291,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Sing Karaoke Sing',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10046,6 +11300,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Travis Scott',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10054,6 +11309,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Méli Mômes',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10062,6 +11318,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Saint Michel',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10070,6 +11327,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Florence Desnouveaux',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10078,6 +11336,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'T.I.',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10086,6 +11345,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'T.I.',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10094,6 +11354,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Tyga',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10102,6 +11363,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Gaël Faye',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10110,6 +11372,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Dr. Dre',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10118,6 +11381,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Grégoire',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10126,6 +11390,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Saint Michel',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10134,6 +11399,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Snoop Dogg',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10142,6 +11408,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Jack Savoretti',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10150,6 +11417,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Queen',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10158,6 +11426,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Reese LAFLARE',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10166,6 +11435,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Madonna',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10174,6 +11444,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Marina Kaye',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10182,6 +11453,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Carpe Diem',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10190,6 +11462,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Carpe Diem',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10198,6 +11471,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Daft Punk',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10206,6 +11480,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'The Avener',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10214,6 +11489,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Deorro',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10222,6 +11498,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Cutting Crew',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10230,6 +11507,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Astrid S',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10238,6 +11516,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Anthony Hamilton',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10246,6 +11525,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Dru Hill',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10254,6 +11534,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lizzo',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10262,6 +11543,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Stevie Wonder',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10270,6 +11552,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Fabe',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10278,6 +11561,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Doc Gynéco',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10286,6 +11570,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Franco & le T.P OK Jazz',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10294,6 +11579,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10302,6 +11588,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Canardo',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10310,6 +11597,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'SamSam',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10318,6 +11606,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Megan Thee Stallion',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10326,6 +11615,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Hugo TSR',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10334,6 +11624,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Tamia',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10342,6 +11633,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Meshell Ndegeocello',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10350,6 +11642,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Tunisiano',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10358,6 +11651,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Alpha Wann',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10366,6 +11660,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Nate Dogg',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10374,6 +11669,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Gavin James',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10382,6 +11678,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Molare',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10390,6 +11687,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Metro Boomin',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10398,6 +11696,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Frances',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10406,6 +11705,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Childish Gambino',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10414,6 +11714,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Les Gordon',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10422,6 +11723,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Jacob Banks',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10430,6 +11732,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Miguel',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10438,6 +11741,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Red Hot Chili Peppers',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10446,6 +11750,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lomepal',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10454,6 +11759,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Dr. Dre',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10462,6 +11768,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Vanessa Hudgens',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10470,6 +11777,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Birthday Party Band',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10478,6 +11786,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'The Notorious B.I.G.',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10486,6 +11795,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'The Notorious B.I.G.',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10494,6 +11804,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Squidji',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10502,6 +11813,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lunatic',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10510,6 +11822,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'XXXTENTACION',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10518,6 +11831,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Gringe',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10526,6 +11840,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Yoshiki',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10534,6 +11849,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'NAV',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10542,6 +11858,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Tabu Ley Rochereau',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10550,6 +11867,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'The Poodles',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10558,6 +11876,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'The Shady Brothers',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10566,6 +11885,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Kesha',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10574,6 +11894,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Andrew Gold',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10582,6 +11903,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Wejdene',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10590,6 +11912,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Leon Bridges',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10598,6 +11921,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Nicki Minaj',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10606,6 +11930,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Blacko',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10614,6 +11939,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'DJ Tira',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10622,6 +11948,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'DJ Tira',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10630,6 +11957,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Stomy Bugsy',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10638,6 +11966,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Caballero & JeanJass',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10646,6 +11975,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'A2h',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10654,6 +11984,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Slayer',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10662,6 +11993,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Tabu Ley Rochereau',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10670,6 +12002,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Clem Beatz',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10678,6 +12011,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Craig Armstrong',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10686,6 +12020,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lolita Garrido',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10694,6 +12029,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Childish Gambino',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10702,6 +12038,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Metro Boomin',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10710,6 +12047,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Klub Des Loosers',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10718,6 +12056,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Cobra Starship',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10726,6 +12065,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'The Beach Boys',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10734,6 +12074,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Akon',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10742,6 +12083,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'The Beach Boys',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10750,6 +12092,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Vald',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10758,6 +12101,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Mark Ronson',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10766,6 +12110,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'SahBabii',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10774,6 +12119,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Stomy Bugsy',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10782,6 +12128,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Fergie',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10790,6 +12137,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Flawless Real Talk',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10798,6 +12146,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lujipeka',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10806,6 +12155,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'SamSam',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10814,6 +12164,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Nakk Mendosa',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10822,6 +12173,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Naps',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10830,6 +12182,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Areno Jaz',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10838,6 +12191,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Tevin Campbell',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10846,6 +12200,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Médine',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10854,6 +12209,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Médine',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10862,6 +12218,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'SamSam',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10870,6 +12227,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Syn Cole',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10878,6 +12236,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Pejmaxx',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10886,6 +12245,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Bon Jovi',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10894,6 +12254,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Jessy Matador',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10902,6 +12263,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Nakk Mendosa',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10910,6 +12272,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Nakk Mendosa',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10918,6 +12281,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Incredible Bongo Band',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10926,6 +12290,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Skinny Living',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10934,6 +12299,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Kalash Criminel',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10942,6 +12308,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Nate Dogg',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10950,6 +12317,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Francis Cabrel',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10958,6 +12326,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Claude Nougaro',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10966,6 +12335,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Katy Perry',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10974,6 +12344,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Trei Degete',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10982,6 +12353,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'TOTO',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10990,6 +12362,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lucho Gatica',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -10998,6 +12371,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Money Man',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11006,6 +12380,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Melanie Fiona',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -11013,6 +12388,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Méli Mômes',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11021,6 +12397,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Walking On Cars',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11029,6 +12406,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'MC Fioti',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11037,6 +12415,7 @@ export const musicsOthers: UserMusic[] = [
     artist: '3OH!3',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11045,6 +12424,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Phats & Small',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11053,6 +12433,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Phats & Small',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11061,6 +12442,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'The Beach Boys',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11069,6 +12451,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Hotel Paradisio',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11077,6 +12460,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'The Police',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11085,6 +12469,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Meek Mill',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11093,6 +12478,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Shaggy',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11101,6 +12487,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Broken Back',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11109,6 +12496,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Guizmo',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11117,6 +12505,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Ed Sheeran',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11125,6 +12514,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Dru Hill',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11133,6 +12523,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Girls Aloud',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11141,6 +12532,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Louane',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11149,6 +12541,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Demi Portion',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11157,6 +12550,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Catherine Vaniscotte',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11165,6 +12559,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Fan des années 2000',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11173,6 +12568,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Alicia Keys',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11181,6 +12577,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Alicia Keys',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11189,6 +12586,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Hocus Pocus',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11197,6 +12595,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Saian Supa Crew',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11205,6 +12604,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'The Beach Boys',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11213,6 +12613,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'D.ACE',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11221,6 +12622,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Against The Current',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11229,6 +12631,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Dinos',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11237,6 +12640,7 @@ export const musicsOthers: UserMusic[] = [
     artist: '112',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11245,6 +12649,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'The Marcus Hedges Trend Orchestra',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11253,6 +12658,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Macregor',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11261,6 +12667,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Bhizer',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11269,6 +12676,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'OÃ¡sis de Paz',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11277,6 +12685,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Droogz Brigade',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11285,6 +12694,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Suprême NTM',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11293,6 +12703,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Davodka',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11301,6 +12712,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Barry White',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11309,6 +12721,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Dr. Dre',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11317,6 +12730,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Young Dolph',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11325,6 +12739,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Odezenne',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11333,6 +12748,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'JENNIE',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11341,6 +12757,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Natacha Fabry',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11349,6 +12766,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Maria Iankovskaia',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11357,6 +12775,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'The Beach Boys',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11365,6 +12784,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Shaggy',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11373,6 +12793,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Eric Benét',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11381,6 +12802,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Mike Posner',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11389,6 +12811,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lil Yachty',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11397,6 +12820,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Yandel',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11405,6 +12829,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Ariana Grande',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11413,6 +12838,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Playboi Carti',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11421,6 +12847,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Tha Krew',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11429,6 +12856,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Dr. Dre',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11437,6 +12865,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Alpha Wann',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11445,6 +12874,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Imany',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11453,6 +12883,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Sopico',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11461,6 +12892,7 @@ export const musicsOthers: UserMusic[] = [
     artist: '47ter',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11469,6 +12901,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'J Balvin',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11477,6 +12910,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'BlocBoy JB',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11485,6 +12919,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lomepal',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11493,6 +12928,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Jean Schultheis',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11501,6 +12937,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Elli Medeiros',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11509,6 +12946,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Aá¹£a',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11517,6 +12955,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'T.I.',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11525,6 +12964,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Olamide',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11533,6 +12973,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Oh Wonder',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11541,6 +12982,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Orchestre La fiesta à Patrick',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11549,6 +12991,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Jémy',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11557,6 +13000,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Jémy',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11565,6 +13009,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Jean-Jacques Goldman',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11573,6 +13018,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Cali Y El Dandee',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11581,6 +13027,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Médine',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11589,6 +13036,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Jax Jones',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11597,6 +13045,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Dinos',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11605,6 +13054,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Les Fatals Picards',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11613,6 +13063,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Starley',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11621,6 +13072,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'A2h',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11629,6 +13081,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Maxo Kream',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11637,6 +13090,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Of Course',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11645,6 +13099,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'September',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11653,6 +13108,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Jémy',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11661,6 +13117,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Brawkso',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11669,6 +13126,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Marina Kaye',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11677,6 +13135,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Yro',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11685,6 +13144,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Doc Gynéco - Passi',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11693,6 +13153,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'KWAYE',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11701,6 +13162,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Kendrick Lamar',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11709,6 +13171,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Akhenaton',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11717,6 +13180,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lou Rawls',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11725,6 +13189,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Shirin',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11733,6 +13198,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Théo Blaise Kounkou',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11741,6 +13207,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Gunna',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11749,6 +13216,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Shaggy',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11757,6 +13225,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'M.O.P.',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11765,6 +13234,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Aketo',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11773,6 +13243,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Milky Chance',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11781,6 +13252,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Sinik',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11789,6 +13261,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Shaggy',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11797,6 +13270,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'The Marcus Hedges Trend Orchestra',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11805,6 +13279,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'The Marcus Hedges Trend Orchestra',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11813,6 +13288,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Iggy Azalea',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11821,6 +13297,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Prince Kaybee',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11830,6 +13307,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Steve Aoki',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11838,6 +13316,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Akhenaton',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11846,6 +13325,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Childish Gambino',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11854,6 +13334,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'SamSam',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11862,6 +13343,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Carpe Diem',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11870,6 +13352,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Linkin Park',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11878,6 +13361,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Alpha Wann',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11886,6 +13370,7 @@ export const musicsOthers: UserMusic[] = [
     artist: '21 Savage',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11894,6 +13379,7 @@ export const musicsOthers: UserMusic[] = [
     artist: '21 Savage',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11902,6 +13388,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Tom Frager',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11910,6 +13397,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Simon',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11918,6 +13406,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'K.ommando Toxik',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11926,6 +13415,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Les Fatals Picards',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11934,6 +13424,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Busta Flex',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11942,6 +13433,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'John Legend',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11950,6 +13442,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'B-Lel',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11958,6 +13451,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Busta Rhymes',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11966,6 +13460,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Dua Lipa',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11974,6 +13469,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Matt Simons',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11982,6 +13478,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'VAX',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11990,6 +13487,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Jennifer Lopez',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -11998,6 +13496,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'A2h',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12006,6 +13505,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Bridgit Mendler',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12014,6 +13514,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Melanie Fiona',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12022,6 +13523,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Fonky Family',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12030,6 +13532,7 @@ export const musicsOthers: UserMusic[] = [
     artist: '2Pac',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12038,6 +13541,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Alpha Wann',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12046,6 +13550,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'The Inspirational Orchestra',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12054,6 +13559,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Protoculture',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12062,6 +13568,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Fetty Wap',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12070,6 +13577,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Jany',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12078,6 +13586,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Phil Collins',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12086,6 +13595,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Aketo',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12094,6 +13604,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Davodka',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12102,6 +13613,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Nicotine Dolls',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12110,6 +13622,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Davodka',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12118,6 +13631,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Ludwig Göransson',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12126,6 +13640,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lullaby Time',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12134,6 +13649,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lucio Bukowski',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12142,6 +13658,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Taio Cruz',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12150,6 +13667,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Future',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12158,6 +13676,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Christian Merveille',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12166,6 +13685,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'SamSam',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12174,6 +13694,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Josman',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12182,6 +13703,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'ChÅ"ur Des Polysons',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12190,6 +13712,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Tabu Ley Rochereau',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12198,6 +13721,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Celldweller',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12206,6 +13730,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'J Boog',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12214,6 +13739,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Georges Brassens',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12222,6 +13748,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Grandmaster Flash & The Furious Five',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12230,6 +13757,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'étienne Daho',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12238,6 +13766,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Les petits cousins',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12246,6 +13775,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12254,6 +13784,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Juanita Cuenca',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12262,6 +13793,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Claude François',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12270,6 +13802,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Ryan Adams',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12278,6 +13811,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Ill.',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12286,6 +13820,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Almighty Jay',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12294,6 +13829,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Jany',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12302,6 +13838,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Feu! Chatterton',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12310,6 +13847,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Tiësto',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12318,6 +13856,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Vanessa Paradis',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12326,6 +13865,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Ikenna',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12334,6 +13874,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Seth Gueko',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12342,6 +13883,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Fauve',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12350,6 +13892,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lady Gaga',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12358,6 +13901,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Endor',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12366,6 +13910,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Ed Sheeran',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12374,6 +13919,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Ian Gott',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12382,6 +13928,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Dick Rivers',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12390,6 +13937,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Bright Eyes',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12398,6 +13946,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Bright Eyes',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12406,6 +13955,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Michel Polnareff',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12414,6 +13964,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Michel Polnareff',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12422,6 +13973,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Christina Milian',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12430,6 +13982,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'UB40',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12438,6 +13991,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'The Temptations',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12446,6 +14000,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Fifth Harmony',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12454,6 +14009,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'The Chainsmokers',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12462,6 +14018,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Bongo Cat',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12470,6 +14027,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Wiz Khalifa',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12478,6 +14036,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'No Limit',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12486,6 +14045,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Plies',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12494,6 +14054,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Boostee',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12502,6 +14063,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'P!nk',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12510,6 +14072,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Dotorado Pro',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12518,6 +14081,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Sopico',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12526,6 +14090,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Smokepurpp',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12534,6 +14099,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'K.ommando Toxik',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12542,6 +14108,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'K.ommando Toxik',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12550,6 +14117,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Tujamo',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12558,6 +14126,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Vanessa Carlton',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12566,6 +14135,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Miley Cyrus',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12574,6 +14144,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'SKYGGE',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12582,6 +14153,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Bon Jovi',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12590,6 +14162,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Stephan Eicher',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12598,6 +14171,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Dr. Dre',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12606,6 +14180,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'AC/DC',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12614,6 +14189,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'DJ Malvado',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12622,6 +14198,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Kendrick Lamar',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12630,6 +14207,7 @@ export const musicsOthers: UserMusic[] = [
     artist: '112',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12638,6 +14216,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Alonzo',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12646,6 +14225,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Mister Toony',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12654,6 +14234,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Ludwig Göransson',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12662,6 +14243,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Dinos',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12670,6 +14252,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Wayne Linsey',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12678,6 +14261,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'INNA',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12686,6 +14270,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Moka Boka',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12694,6 +14279,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Quality Control',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12703,6 +14289,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Nate Dogg',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12711,6 +14298,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Brian Tuey',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12719,6 +14307,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Tabu Ley Rochereau',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12727,6 +14316,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'R2',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12735,6 +14325,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Owlle',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12743,6 +14334,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Black Eyed Peas',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12751,6 +14343,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Beyoncé',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12759,6 +14352,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Dub Inc',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12767,6 +14361,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Benash',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12775,6 +14370,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Rick Astley',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12783,6 +14379,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Harry Hudson',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12791,6 +14388,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Gringe',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12799,6 +14397,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Frank Sinatra',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12807,6 +14406,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Petit Biscuit',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12815,6 +14415,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Stomy Bugsy',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12823,6 +14424,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lumidee',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12831,6 +14433,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Gym Class Heroes',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12839,6 +14442,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'MC Solaar',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12847,6 +14451,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Juice WRLD',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12855,6 +14460,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Nate Dogg',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12863,6 +14469,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Ana MarÃ­a GonzÃ¡lez',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12871,6 +14478,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Marshmello',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12879,6 +14487,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'T.I.',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12887,6 +14496,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lefa',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12895,6 +14505,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Felix Mendelssohn',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12903,6 +14514,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lomepal',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12911,6 +14523,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Jean-Louis Aubert',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12919,6 +14532,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'LANY',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12927,6 +14541,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'François Pérusse',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12935,6 +14550,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Guizmo',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12943,6 +14559,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Mary Mary',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12951,6 +14568,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Dr. Dre',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12959,6 +14577,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Umberto Tozzi',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12967,6 +14586,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Gage',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12975,6 +14595,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Boyz II Men',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12983,6 +14604,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Alpha Wann',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12991,6 +14613,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Soft Cell',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -12999,6 +14622,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lacrim',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -13007,6 +14631,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Patapouf',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -13015,6 +14640,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Vald',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -13023,6 +14649,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'DA Uzi',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -13031,6 +14658,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lefa',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -13039,6 +14667,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Dinos',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -13047,6 +14676,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Boyz II Men',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -13055,6 +14685,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Maroon 5',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -13063,6 +14694,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Taipan',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -13071,6 +14703,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Burak Yeter',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -13079,6 +14712,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Lefa',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -13087,6 +14721,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Natalie Imbruglia',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -13095,6 +14730,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'A2h',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -13103,6 +14739,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Smash Mouth',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -13112,6 +14749,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Manu Pilas',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -13120,6 +14758,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Beyoncé',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -13128,6 +14767,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Boyz II Men',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -13136,6 +14776,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'GoldLink',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -13144,6 +14785,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Jerry Lee Lewis',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -13152,6 +14794,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'DOXX',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -13160,6 +14803,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'James Morrison',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -13168,6 +14812,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Blacko',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -13176,6 +14821,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Blacko',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -13184,6 +14830,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Petit Biscuit',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -13192,6 +14839,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Young Roc',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -13200,6 +14848,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'Snoop Dogg',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -13208,6 +14857,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'G-Eazy',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 
@@ -13216,6 +14866,7 @@ export const musicsOthers: UserMusic[] = [
     artist: 'G-Eazy',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 ];

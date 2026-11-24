@@ -7,6 +7,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 120,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -14,6 +15,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 250,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -21,6 +23,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 70,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -28,6 +31,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 150,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -35,6 +39,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 80,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -42,6 +47,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 120,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -49,6 +55,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 220,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -56,6 +63,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 120,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -63,6 +71,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 70,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -70,6 +79,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 120,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -77,6 +87,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 100,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -84,6 +95,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 120,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -91,6 +103,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -98,6 +111,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 170,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -105,6 +119,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 80,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -112,6 +127,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 150,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -119,6 +135,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 10,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -126,6 +143,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 130,
+    byHeart: false,
     quotes: [],
   },
 
@@ -135,6 +153,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 150,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -142,6 +161,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 150,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -149,6 +169,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 130,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -156,6 +177,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 120,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -163,6 +185,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 120,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -170,6 +193,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 100,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -177,6 +201,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 100,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -184,6 +209,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 70,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -191,6 +217,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 120,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -198,6 +225,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 120,
+    byHeart: false,
     quotes: [
       {
         quoteText: "En t'attendant j'observe les liens que les passants nouent. Il fut un temps où la beauté du ciel venait pas sans nous.",
@@ -210,6 +238,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 100,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -217,6 +246,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -224,6 +254,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 80,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -231,6 +262,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 100,
+    byHeart: false,
     quotes: [],
   },
 
@@ -240,6 +272,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 16,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -247,6 +280,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 10,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -254,6 +288,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 19,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -261,6 +296,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 7,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -268,6 +304,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 16,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -275,6 +312,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 18,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -282,6 +320,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 8,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -289,6 +328,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 16,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -296,6 +336,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -303,6 +344,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 15,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -310,6 +352,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 16,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -317,6 +360,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 12,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -324,6 +368,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -331,6 +376,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 15,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -338,6 +384,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 5,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -345,6 +392,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 13,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -352,6 +400,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 13,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -359,6 +408,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 3,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -366,6 +416,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 10,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -373,6 +424,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -380,6 +432,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 19,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -387,6 +440,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -394,6 +448,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 8,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -401,6 +456,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 6,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -408,6 +464,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 5,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -415,6 +472,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 5,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -422,6 +480,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 5,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -429,6 +488,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -436,6 +496,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 12,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -443,6 +504,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 7,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -450,6 +512,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 4,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -457,6 +520,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -464,6 +528,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -471,6 +536,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
     quotes: [],
   },
 ];

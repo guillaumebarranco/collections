@@ -7,6 +7,7 @@ export const musicsKenyArkana: UserMusic[] = [
     artist: 'Keny Arkana',
     rating: 0,
     timesListened: 19,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -14,6 +15,7 @@ export const musicsKenyArkana: UserMusic[] = [
     artist: 'Keny Arkana',
     rating: 0,
     timesListened: 10,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -21,6 +23,7 @@ export const musicsKenyArkana: UserMusic[] = [
     artist: 'Keny Arkana',
     rating: 0,
     timesListened: 10,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -28,6 +31,7 @@ export const musicsKenyArkana: UserMusic[] = [
     artist: 'Keny Arkana',
     rating: 0,
     timesListened: 150,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -35,6 +39,7 @@ export const musicsKenyArkana: UserMusic[] = [
     artist: 'Keny Arkana',
     rating: 0,
     timesListened: 180,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -42,6 +47,7 @@ export const musicsKenyArkana: UserMusic[] = [
     artist: 'Keny Arkana',
     rating: 0,
     timesListened: 10,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -49,6 +55,7 @@ export const musicsKenyArkana: UserMusic[] = [
     artist: 'Keny Arkana',
     rating: 0,
     timesListened: 100,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -56,6 +63,7 @@ export const musicsKenyArkana: UserMusic[] = [
     artist: 'Keny Arkana',
     rating: 0,
     timesListened: 80,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -63,6 +71,7 @@ export const musicsKenyArkana: UserMusic[] = [
     artist: 'Keny Arkana',
     rating: 0,
     timesListened: 10,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -70,6 +79,7 @@ export const musicsKenyArkana: UserMusic[] = [
     artist: 'Keny Arkana',
     rating: 0,
     timesListened: 200,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -77,6 +87,7 @@ export const musicsKenyArkana: UserMusic[] = [
     artist: 'Keny Arkana',
     rating: 0,
     timesListened: 180,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -84,6 +95,7 @@ export const musicsKenyArkana: UserMusic[] = [
     artist: 'Keny Arkana',
     rating: 0,
     timesListened: 80,
+    byHeart: false,
     quotes: [
     {
       quoteText: "Papa dit que les politiques sont des prédateurs, qui sèment la peur et qui ont un estomac à la place du coeur.",
@@ -100,6 +112,7 @@ export const musicsKenyArkana: UserMusic[] = [
     artist: 'Keny Arkana',
     rating: 0,
     timesListened: 12,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -107,6 +120,7 @@ export const musicsKenyArkana: UserMusic[] = [
     artist: 'Keny Arkana',
     rating: 0,
     timesListened: 10,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -114,6 +128,7 @@ export const musicsKenyArkana: UserMusic[] = [
     artist: 'Keny Arkana',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -121,6 +136,7 @@ export const musicsKenyArkana: UserMusic[] = [
     artist: 'Keny Arkana',
     rating: 0,
     timesListened: 14,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -128,6 +144,7 @@ export const musicsKenyArkana: UserMusic[] = [
     artist: 'Keny Arkana',
     rating: 0,
     timesListened: 10,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -135,6 +152,7 @@ export const musicsKenyArkana: UserMusic[] = [
     artist: 'Keny Arkana',
     rating: 0,
     timesListened: 9,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -142,6 +160,7 @@ export const musicsKenyArkana: UserMusic[] = [
     artist: 'Keny Arkana',
     rating: 0,
     timesListened: 7,
+    byHeart: false,
     quotes: [],
   },
 
@@ -151,6 +170,7 @@ export const musicsKenyArkana: UserMusic[] = [
     artist: 'Keny Arkana',
     rating: 0,
     timesListened: 10,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -158,6 +178,7 @@ export const musicsKenyArkana: UserMusic[] = [
     artist: 'Keny Arkana',
     rating: 0,
     timesListened: 10,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -165,6 +186,7 @@ export const musicsKenyArkana: UserMusic[] = [
     artist: 'Keny Arkana',
     rating: 0,
     timesListened: 10,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -172,6 +194,7 @@ export const musicsKenyArkana: UserMusic[] = [
     artist: 'Keny Arkana',
     rating: 0,
     timesListened: 10,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -179,6 +202,7 @@ export const musicsKenyArkana: UserMusic[] = [
     artist: 'Keny Arkana',
     rating: 0,
     timesListened: 10,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -186,6 +210,7 @@ export const musicsKenyArkana: UserMusic[] = [
     artist: 'Keny Arkana',
     rating: 0,
     timesListened: 50,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -193,6 +218,7 @@ export const musicsKenyArkana: UserMusic[] = [
     artist: 'Keny Arkana',
     rating: 0,
     timesListened: 30,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -200,6 +226,7 @@ export const musicsKenyArkana: UserMusic[] = [
     artist: 'Keny Arkana',
     rating: 0,
     timesListened: 10,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -207,6 +234,7 @@ export const musicsKenyArkana: UserMusic[] = [
     artist: 'Keny Arkana',
     rating: 0,
     timesListened: 10,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -214,6 +242,7 @@ export const musicsKenyArkana: UserMusic[] = [
     artist: 'Keny Arkana',
     rating: 0,
     timesListened: 20,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -221,6 +250,7 @@ export const musicsKenyArkana: UserMusic[] = [
     artist: 'Keny Arkana',
     rating: 0,
     timesListened: 10,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -228,6 +258,7 @@ export const musicsKenyArkana: UserMusic[] = [
     artist: 'Keny Arkana',
     rating: 0,
     timesListened: 10,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -235,6 +266,7 @@ export const musicsKenyArkana: UserMusic[] = [
     artist: 'Keny Arkana',
     rating: 0,
     timesListened: 10,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -242,6 +274,7 @@ export const musicsKenyArkana: UserMusic[] = [
     artist: 'Keny Arkana',
     rating: 0,
     timesListened: 10,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -249,6 +282,7 @@ export const musicsKenyArkana: UserMusic[] = [
     artist: 'Keny Arkana',
     rating: 0,
     timesListened: 10,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -256,6 +290,7 @@ export const musicsKenyArkana: UserMusic[] = [
     artist: 'Keny Arkana',
     rating: 0,
     timesListened: 10,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -263,6 +298,7 @@ export const musicsKenyArkana: UserMusic[] = [
     artist: 'Keny Arkana',
     rating: 0,
     timesListened: 10,
+    byHeart: false,
     quotes: [],
   },
   {
@@ -270,6 +306,7 @@ export const musicsKenyArkana: UserMusic[] = [
     artist: 'Keny Arkana',
     rating: 0,
     timesListened: 10,
+    byHeart: false,
     quotes: [],
   },
 ];

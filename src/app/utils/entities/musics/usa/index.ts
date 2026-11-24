@@ -12,6 +12,7 @@ import { musicsEminem3 } from './musics_eminem_3';
 import { musicsEminem2 } from './musics_eminem_2';
 import { musicsEminem1 } from './musics_eminem_1';
 import { musicsDrDre } from './musics_dr_dre';
+import { musicsBadBunny } from './musics_bad_bunny';
 
 export const musicsUsa = [
   ...musicsRapUsVarious,
@@ -28,4 +29,5 @@ export const musicsUsa = [
   ...musicsEminem2,
   ...musicsEminem1,
   ...musicsDrDre,
+  ...musicsBadBunny,
 ];
