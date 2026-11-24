@@ -85,17 +85,15 @@ export const musicsKenyArkana: UserMusic[] = [
     rating: 0,
     timesListened: 80,
     quotes: [
-      {
-        quoteText:
-          'Papa dit que les politiques sont des prédateurs, qui sèment la peur et qui ont un estomac à la place du coeur.',
-        lastUpdated: '2026-11-20T17:22',
-      },
-      {
-        quoteText:
-          "Et puis grand-mère disait toujours : La vie c'est l'espoir, si t'en a plus t'es comme mort et vivre relève de l'exploit.",
-        lastUpdated: '2026-11-20T17:22',
-      },
-    ],
+    {
+      quoteText: "Papa dit que les politiques sont des prédateurs, qui sèment la peur et qui ont un estomac à la place du coeur.",
+      lastUpdated: "2026-11-20T17:22",
+    },
+    {
+      quoteText: "Et puis grand-mère disait toujours : La vie c'est l'espoir, si t'en a plus t'es comme mort et vivre relève de l'exploit.",
+      lastUpdated: "2026-11-20T17:35",
+    },
+  ],
   },
   {
     title: 'Entre Les Mots : Du Local Au Global',
