@@ -26,7 +26,7 @@
     (onOnlyByHeartChange)="onOnlyByHeartChange($event)"
   ></app-musics-header>
 
-  <p>Résultats affichés: {{ filteredMusics().length }}</p>
+  <p class="results-count">Résultats filtrés affichés : {{ filteredMusics().length }}</p>
 
   @if (onlyByHeart() && filteredMusics().length === 0) {
   <p class="empty-message">Aucune chanson n'est marquée comme connue par cœur.</p>

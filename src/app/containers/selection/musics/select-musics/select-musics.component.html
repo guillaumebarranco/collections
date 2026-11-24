@@ -35,6 +35,24 @@
 
 <div class="select-musics-container">
   <div class="header">
+    <button
+      type="button"
+      class="select-musics-back"
+      (click)="goBackToMusics()"
+      aria-label="Retour aux musiques"
+    >
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path
+          d="M15 6L9 12l6 6"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2.2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      Précédent
+    </button>
     <h1>Sélectionner des musiques</h1>
     <p class="subtitle">
       Cliquez sur les pochettes pour sélectionner vos musiques préférées

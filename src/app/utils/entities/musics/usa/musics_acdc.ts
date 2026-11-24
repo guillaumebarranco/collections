@@ -708,7 +708,7 @@ export const musicsAcDc: BaseMusic[] = [
     artist: 'AC/DC',
     album: 'Black Ice',
     coverUrl:
-      'https://www.emp-online.fr/dw/image/v2/BBQV_PRD/on/demandware.static/-/Sites-master-emp/default/dw1f6d0785/images/3/1/0/6/310627.jpg?sfrm=png',
+      '/musics_pictures/56993fac028b.jpg',
     releaseDate: '2008-10-17',
     duration: 261,
     genre: 'Rock',
@@ -718,7 +718,7 @@ export const musicsAcDc: BaseMusic[] = [
     artist: 'AC/DC',
     album: 'Black Ice',
     coverUrl:
-      'https://www.emp-online.fr/dw/image/v2/BBQV_PRD/on/demandware.static/-/Sites-master-emp/default/dw1f6d0785/images/3/1/0/6/310627.jpg?sfrm=png',
+      '/musics_pictures/56993fac028b.jpg',
     releaseDate: '2008-10-17',
     duration: 214,
     genre: 'Rock',
@@ -728,7 +728,7 @@ export const musicsAcDc: BaseMusic[] = [
     artist: 'AC/DC',
     album: 'Black Ice',
     coverUrl:
-      'https://www.emp-online.fr/dw/image/v2/BBQV_PRD/on/demandware.static/-/Sites-master-emp/default/dw1f6d0785/images/3/1/0/6/310627.jpg?sfrm=png',
+      '/musics_pictures/56993fac028b.jpg',
     releaseDate: '2008-10-17',
     duration: 237,
     genre: 'Rock',
@@ -738,7 +738,7 @@ export const musicsAcDc: BaseMusic[] = [
     artist: 'AC/DC',
     album: 'Black Ice',
     coverUrl:
-      'https://www.emp-online.fr/dw/image/v2/BBQV_PRD/on/demandware.static/-/Sites-master-emp/default/dw1f6d0785/images/3/1/0/6/310627.jpg?sfrm=png',
+      '/musics_pictures/56993fac028b.jpg',
     releaseDate: '2008-10-17',
     duration: 202,
     genre: 'Rock',
@@ -748,7 +748,7 @@ export const musicsAcDc: BaseMusic[] = [
     artist: 'AC/DC',
     album: 'Black Ice',
     coverUrl:
-      'https://www.emp-online.fr/dw/image/v2/BBQV_PRD/on/demandware.static/-/Sites-master-emp/default/dw1f6d0785/images/3/1/0/6/310627.jpg?sfrm=png',
+      '/musics_pictures/56993fac028b.jpg',
     releaseDate: '2008-10-17',
     duration: 189,
     genre: 'Rock',
@@ -758,7 +758,7 @@ export const musicsAcDc: BaseMusic[] = [
     artist: 'AC/DC',
     album: 'Black Ice',
     coverUrl:
-      'https://www.emp-online.fr/dw/image/v2/BBQV_PRD/on/demandware.static/-/Sites-master-emp/default/dw1f6d0785/images/3/1/0/6/310627.jpg?sfrm=png',
+      '/musics_pictures/56993fac028b.jpg',
     releaseDate: '2008-10-17',
     duration: 246,
     genre: 'Rock',
@@ -768,7 +768,7 @@ export const musicsAcDc: BaseMusic[] = [
     artist: 'AC/DC',
     album: 'Black Ice',
     coverUrl:
-      'https://www.emp-online.fr/dw/image/v2/BBQV_PRD/on/demandware.static/-/Sites-master-emp/default/dw1f6d0785/images/3/1/0/6/310627.jpg?sfrm=png',
+      '/musics_pictures/56993fac028b.jpg',
     releaseDate: '2008-10-17',
     duration: 197,
     genre: 'Rock',
@@ -778,7 +778,7 @@ export const musicsAcDc: BaseMusic[] = [
     artist: 'AC/DC',
     album: 'Black Ice',
     coverUrl:
-      'https://www.emp-online.fr/dw/image/v2/BBQV_PRD/on/demandware.static/-/Sites-master-emp/default/dw1f6d0785/images/3/1/0/6/310627.jpg?sfrm=png',
+      '/musics_pictures/56993fac028b.jpg',
     releaseDate: '2008-10-17',
     duration: 208,
     genre: 'Rock',
@@ -788,7 +788,7 @@ export const musicsAcDc: BaseMusic[] = [
     artist: 'AC/DC',
     album: 'Black Ice',
     coverUrl:
-      'https://www.emp-online.fr/dw/image/v2/BBQV_PRD/on/demandware.static/-/Sites-master-emp/default/dw1f6d0785/images/3/1/0/6/310627.jpg?sfrm=png',
+      '/musics_pictures/56993fac028b.jpg',
     releaseDate: '2008-10-17',
     duration: 213,
     genre: 'Rock',
@@ -798,7 +798,7 @@ export const musicsAcDc: BaseMusic[] = [
     artist: 'AC/DC',
     album: 'Black Ice',
     coverUrl:
-      'https://www.emp-online.fr/dw/image/v2/BBQV_PRD/on/demandware.static/-/Sites-master-emp/default/dw1f6d0785/images/3/1/0/6/310627.jpg?sfrm=png',
+      '/musics_pictures/56993fac028b.jpg',
     releaseDate: '2008-10-17',
     duration: 190,
     genre: 'Rock',
@@ -808,7 +808,7 @@ export const musicsAcDc: BaseMusic[] = [
     artist: 'AC/DC',
     album: 'Black Ice',
     coverUrl:
-      'https://www.emp-online.fr/dw/image/v2/BBQV_PRD/on/demandware.static/-/Sites-master-emp/default/dw1f6d0785/images/3/1/0/6/310627.jpg?sfrm=png',
+      '/musics_pictures/56993fac028b.jpg',
     releaseDate: '2008-10-17',
     duration: 232,
     genre: 'Rock',
@@ -818,7 +818,7 @@ export const musicsAcDc: BaseMusic[] = [
     artist: 'AC/DC',
     album: 'Black Ice',
     coverUrl:
-      'https://www.emp-online.fr/dw/image/v2/BBQV_PRD/on/demandware.static/-/Sites-master-emp/default/dw1f6d0785/images/3/1/0/6/310627.jpg?sfrm=png',
+      '/musics_pictures/56993fac028b.jpg',
     releaseDate: '2008-10-17',
     duration: 255,
     genre: 'Rock',
@@ -828,7 +828,7 @@ export const musicsAcDc: BaseMusic[] = [
     artist: 'AC/DC',
     album: 'Black Ice',
     coverUrl:
-      'https://www.emp-online.fr/dw/image/v2/BBQV_PRD/on/demandware.static/-/Sites-master-emp/default/dw1f6d0785/images/3/1/0/6/310627.jpg?sfrm=png',
+      '/musics_pictures/56993fac028b.jpg',
     releaseDate: '2008-10-17',
     duration: 280,
     genre: 'Rock',
@@ -838,7 +838,7 @@ export const musicsAcDc: BaseMusic[] = [
     artist: 'AC/DC',
     album: 'Black Ice',
     coverUrl:
-      'https://www.emp-online.fr/dw/image/v2/BBQV_PRD/on/demandware.static/-/Sites-master-emp/default/dw1f6d0785/images/3/1/0/6/310627.jpg?sfrm=png',
+      '/musics_pictures/56993fac028b.jpg',
     releaseDate: '2008-10-17',
     duration: 202,
     genre: 'Rock',
@@ -848,7 +848,7 @@ export const musicsAcDc: BaseMusic[] = [
     artist: 'AC/DC',
     album: 'Black Ice',
     coverUrl:
-      'https://www.emp-online.fr/dw/image/v2/BBQV_PRD/on/demandware.static/-/Sites-master-emp/default/dw1f6d0785/images/3/1/0/6/310627.jpg?sfrm=png',
+      '/musics_pictures/56993fac028b.jpg',
     releaseDate: '2008-10-17',
     duration: 205,
     genre: 'Rock',

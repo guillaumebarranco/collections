@@ -186,6 +186,10 @@ export class SelectMusicsComponent
     this.selectedMusics.set(new Set());
   }
 
+  goBackToMusics(): void {
+    this.navigateToEntityList('musics');
+  }
+
   setViewMode(mode: string): void {
     if (mode === 'tracks' || mode === 'albums') {
       this.viewMode.set(mode);

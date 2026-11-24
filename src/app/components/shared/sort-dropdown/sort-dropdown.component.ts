@@ -18,6 +18,7 @@ export class SortDropdownComponent {
   @Input() sortOptions: SortOption[] = [];
   @Input() selectedSort: string = '';
   @Input() label: string = 'Trier par :';
+  @Input() selectId: string = 'sort-select';
   @Output() sortChange = new EventEmitter<string>();
 
   onSortChange() {

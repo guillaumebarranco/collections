@@ -326,7 +326,9 @@ function getBaseMusicsFiles(): string[] {
 
 function getUserMusicsFiles(userId: string): string[] {
   const userDir = path.join(USERS_MUSICS_DIR, userId, 'musics');
-  return listTsFilesRecursive(userDir);
+  return listTsFilesRecursive(userDir).filter(
+    (filePath) => !path.basename(filePath).endsWith('_albums_notes.ts')
+  );
 }
 
 

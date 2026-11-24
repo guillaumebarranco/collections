@@ -185,12 +185,11 @@
 :host-context(.collection-view) {
   @media (max-width: 768px) {
     .music-card {
-      display: grid;
-      grid-template-columns: 72px minmax(0, 1fr);
-      gap: 10px;
-      align-items: center;
-      padding: 10px 12px;
-      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      height: 100%;
+      padding: 0;
 
       &:hover {
         transform: none;
@@ -198,35 +197,37 @@
     }
 
     .music-cover {
-      width: 72px;
-      height: 72px;
+      width: 100%;
+      height: auto;
       aspect-ratio: 1;
-      border-radius: 8px;
       flex-shrink: 0;
     }
 
     .music-content {
-      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      flex: 1;
       min-width: 0;
+      padding: 0.75rem;
     }
 
     .music-title {
-      font-size: 0.9rem;
-      -webkit-line-clamp: 1;
-      margin-bottom: 2px;
+      -webkit-line-clamp: 3;
     }
 
-    .music-artist,
-    .music-album {
-      font-size: 0.78rem;
-      margin-bottom: 2px;
+    .music-quotes-edit,
+    .music-by-heart {
+      line-height: 1.3;
+      white-space: normal;
+    }
+
+    .music-by-heart {
+      align-items: flex-start;
     }
 
     .music-footer {
-      padding-top: 4px;
-      margin-top: 4px;
-      border-top: none;
-      gap: 8px;
+      margin-top: auto;
     }
   }
 }

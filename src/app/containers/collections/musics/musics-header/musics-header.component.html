@@ -29,14 +29,6 @@
     ></app-view-toggle>
   </div>
   }
-  <label class="musics-by-heart-only">
-    <input
-      type="checkbox"
-      [ngModel]="onlyByHeart()"
-      (ngModelChange)="onOnlyByHeartChange.emit($event)"
-    />
-    Afficher seulement les chansons connues par cœur
-  </label>
 
   <div class="musics-header-tools-accordion">
     @if (isMobileViewport()) {
@@ -97,23 +89,26 @@
         </app-stats-display>
 
         <div class="musics-filters">
-          <div class="musics-filters-item">
-            <p>Filtrer :</p>
-            <select
-              class="app-dropdown"
-              [ngModel]="selectedFilter()"
-              (ngModelChange)="onFilterChange.emit($event)"
-              style="margin-bottom: 8px"
-            >
-              @for (option of filterOptions(); track option.value) {
-              <option [value]="option.value">
-                {{ option.label }}
-              </option>
-              }
-            </select>
-          </div>
+          <label class="musics-by-heart-only">
+            <input
+              type="checkbox"
+              [ngModel]="onlyByHeart()"
+              (ngModelChange)="onOnlyByHeartChange.emit($event)"
+            />
+            Morceaux connus par cœur
+          </label>
 
           <app-sort-dropdown
+            label="Filtrer :"
+            selectId="musics-filter"
+            [sortOptions]="filterOptions()"
+            [selectedSort]="selectedFilter()"
+            (sortChange)="onFilterChange.emit($event)"
+          >
+          </app-sort-dropdown>
+
+          <app-sort-dropdown
+            selectId="musics-sort"
             [sortOptions]="sortOptions()"
             [selectedSort]="selectedSort()"
             (sortChange)="onSortChange.emit($event)"

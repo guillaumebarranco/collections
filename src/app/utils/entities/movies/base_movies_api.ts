@@ -3199,7 +3199,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: "Glenn Close",
       },
     ],
-    coverUrl: "https://www.franceinfo.fr/pictures/xPZXLKNLf9M3eK5o4a0fFzzCqbE/157x0:2677x3780/fit-in/750x/filters:format(jpg)/2026/11/05/6aec51253778e386854745.jpg",
+    coverUrl: "/movies_pictures/0979e4c18c9f.jpg",
     releaseDate: "2026-11-18",
     length: 158,
     genre: ['Fantastique', 'Dystopie', 'Drame'],

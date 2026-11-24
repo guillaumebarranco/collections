@@ -24,4 +24,16 @@ export interface UserMusic extends MandatoryMusicData {
 
 export type UserMusics = UserMusic[];
 
+/**
+ * Note d'un album pour un utilisateur.
+ * Pas d'entité album : le couple artiste + nom d'album suffit à l'identifier.
+ */
+export interface UserAlbumNote {
+  artist: string;
+  album: string;
+  rating: number;
+}
+
+export type UserAlbumNotes = UserAlbumNote[];
+
 export interface Music extends BaseMusic, UserMusic {}

@@ -31,6 +31,7 @@ import {
 } from '../../../facades/musics/musics.facade';
 import { LocalStorageService } from '../../../services/local-storage.service';
 import {
+  defaultMusicFilter,
   getSortedMusics,
   MIN_SONGS_PER_ALBUM,
   TIMES_LISTENED_FOR_POPULAR,
@@ -70,7 +71,9 @@ export class MusicsComponent implements OnInit {
   selectedSort = signal<string>('rating');
   selectedViewMode = signal<string>('albums'); // 'albums' ou 'all'
   mobileSelectedView = signal(false);
-  selectedFilter = signal<string>('popular'); // 'all' ou 'popular'
+  selectedFilter = signal<string>('all');
+  /** Filtre déjà enregistré par l'utilisateur, avant le choix automatique. */
+  private storedFilter: string | null = null;
   onlyByHeart = signal(false);
   searchTerm = signal<string>('');
 
@@ -263,6 +266,7 @@ export class MusicsComponent implements OnInit {
       parsed.filter &&
       this.filterOptions.some((opt) => opt.value === parsed.filter)
     ) {
+      this.storedFilter = parsed.filter;
       this.selectedFilter.set(parsed.filter);
     }
     if (
@@ -290,14 +294,12 @@ export class MusicsComponent implements OnInit {
       this.musicsList.set(musics);
 
       const currentUserMusics = musics[userId] || [];
-      if (
-        this.selectedFilter() === 'popular' &&
-        currentUserMusics.length > 0 &&
-        !currentUserMusics.some(
-          (music) => music.timesListened > TIMES_LISTENED_FOR_POPULAR
-        )
-      ) {
-        this.selectedFilter.set('all');
+      const defaultFilter = defaultMusicFilter(currentUserMusics);
+      const keepStoredFilter =
+        this.storedFilter !== null &&
+        !(this.storedFilter === 'popular' && defaultFilter === 'all');
+      if (!keepStoredFilter) {
+        this.selectedFilter.set(defaultFilter);
       }
     } finally {
       this.isLoadingMusics.set(false);
@@ -348,12 +350,7 @@ export class MusicsComponent implements OnInit {
 
   onViewModeChange(viewMode: string) {
     this.selectedViewMode.set(viewMode);
-    // Changer le filtre par défaut selon le mode de vue
-    if (viewMode === 'albums') {
-      this.selectedFilter.set('popular');
-    } else {
-      this.selectedFilter.set('popular');
-    }
+    this.selectedFilter.set(defaultMusicFilter(this.allMusics()));
   }
 
   onFilterChange(filter: string) {

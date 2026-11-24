@@ -355,7 +355,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Mon pot (feat Orelsan)',
+    title: 'Mon pote (feat Orelsan)',
     artist: 'Flynt',
     rating: 0,
     timesListened: 20,

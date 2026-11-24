@@ -2,16 +2,32 @@ import { Music } from '../../../models/music-model';
 
 export const MIN_SONGS_PER_ALBUM = 5;
 export const TIMES_LISTENED_FOR_POPULAR = 9;
+/** Au-delà de ce nombre de morceaux, le filtre « plus de 10 écoutes » peut être le défaut. */
+export const POPULAR_FILTER_MIN_MUSICS = 1000;
+/** Nombre minimum de morceaux dont le nombre d'écoutes est renseigné pour ce défaut. */
+export const POPULAR_FILTER_MIN_WITH_LISTENS = 100;
+
+/** Filtre d'ouverture : « plus de 10 écoutes » seulement si la collection est grande et assez renseignée. */
+export function defaultMusicFilter(musics: Music[]): 'popular' | 'all' {
+  const withListens = musics.filter((music) => music.timesListened > 0).length;
+  if (
+    musics.length > POPULAR_FILTER_MIN_MUSICS &&
+    withListens >= POPULAR_FILTER_MIN_WITH_LISTENS
+  ) {
+    return 'popular';
+  }
+  return 'all';
+}
 
 export const musicFilterOptions: { value: string; label: string }[] = [
-  { value: 'all', label: 'Afficher tout' },
+  { value: 'all', label: 'Tout' },
   {
     value: 'more_than_once',
-    label: "Afficher les musiques écoutées plus d'une fois",
+    label: "Plus d'une écoute",
   },
   {
     value: 'popular',
-    label: 'Afficher les plus écoutés (au-delà de 10 fois)',
+    label: 'Plus de 10 écoutes',
   },
 ];
 

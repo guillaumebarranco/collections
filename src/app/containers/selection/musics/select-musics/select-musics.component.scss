@@ -3,12 +3,48 @@
 .select-musics-container {
   @extend %select-container;
 
-  @media (max-width: 768px) {
-    padding: 1rem;
-  }
-
   .header {
     @extend %select-header;
+  }
+
+  .select-musics-back {
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    padding: 1rem;
+
+    .header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .select-musics-back {
+      display: flex;
+      align-items: center;
+      align-self: flex-start;
+      gap: 6px;
+      margin: 0 0 12px;
+      padding: 8px 14px 8px 10px;
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.08);
+      color: #f2f2f2;
+      font: inherit;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+
+      svg {
+        width: 20px;
+        height: 20px;
+      }
+
+      &:active {
+        background: rgba(255, 255, 255, 0.16);
+      }
+    }
   }
 
   .toolbar {
@@ -41,6 +77,80 @@
     @media (max-width: 768px) {
       grid-template-columns: repeat(auto-fill, minmax(96px, 1fr));
       gap: 0.5rem;
+    }
+  }
+
+  .music-cover,
+  .album-cover {
+    img {
+      color: #fff;
+      font-size: 0.68rem;
+      line-height: 1.2;
+      text-align: center;
+    }
+
+    .overlay {
+      padding: 0.45rem;
+      color: #fff;
+    }
+
+    .music-info,
+    .album-info {
+      width: 100%;
+      min-width: 0;
+      text-align: center;
+      color: #fff;
+      line-height: 1.2;
+      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.85);
+    }
+
+    .music-title,
+    .album-title,
+    .music-artist,
+    .album-artist,
+    .album-count {
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+    }
+
+    .music-title,
+    .album-title {
+      -webkit-line-clamp: 3;
+      font-size: 0.8rem;
+      font-weight: 700;
+    }
+
+    .music-artist,
+    .album-artist {
+      -webkit-line-clamp: 2;
+      margin-top: 0.15rem;
+      font-size: 0.68rem;
+      font-weight: 500;
+    }
+
+    .album-count {
+      -webkit-line-clamp: 1;
+      margin-top: 0.2rem;
+      font-size: 0.62rem;
+    }
+
+    @media (max-width: 768px) {
+      .overlay {
+        padding: 0.3rem;
+      }
+
+      .music-title,
+      .album-title {
+        -webkit-line-clamp: 3;
+        font-size: 0.62rem;
+      }
+
+      .music-artist,
+      .album-artist,
+      .album-count {
+        font-size: 0.55rem;
+      }
     }
   }
 

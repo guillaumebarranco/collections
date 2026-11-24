@@ -1,6 +1,6 @@
 <div class="sort-container">
-  <label for="sort-select">{{ label }}</label>
-  <select id="sort-select" [(ngModel)]="selectedSort" (change)="onSortChange()" class="sort-dropdown">
+  <label [attr.for]="selectId">{{ label }}</label>
+  <select [id]="selectId" [(ngModel)]="selectedSort" (change)="onSortChange()" class="sort-dropdown">
     @for (option of sortOptions; track option.value) {
     <option [value]="option.value">{{ option.label }}</option>
     }

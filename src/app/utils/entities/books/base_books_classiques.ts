@@ -999,7 +999,7 @@ export const baseBooksClassiques: BaseBook[] = [
     title: 'Poésies',
     author: 'Arthur Rimbaud',
     coverUrl:
-      'https://cdn1.booknode.com/book_cover/5686/full/poesies-5685644.jpg',
+      '/books_pictures/0f06bbeda776.jpg',
     pages: 160,
     genre: ['Classiques', 'Poésie'],
     saga: '',
