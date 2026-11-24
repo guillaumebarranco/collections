@@ -1,6 +1,7 @@
-import { Component, inject, input, output } from '@angular/core';
+import { Component, inject, input, output, signal } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MatDialog } from '@angular/material/dialog';
+import { getApiBaseUrl } from '../../../core/config';
 import { Music } from '../../../models/music-model';
 import { EntityQuotesComponent } from '../../shared/entity-quotes/entity-quotes.component';
 import {
@@ -14,6 +15,13 @@ export interface Album {
   coverUrl: string;
   musics: Music[];
   totalDuration: number;
+}
+
+export interface MusicDetailsUpdate {
+  title: string;
+  artist: string;
+  timesListened?: number;
+  byHeart?: boolean;
 }
 
 @Component({
@@ -31,6 +39,11 @@ export class AlbumModalComponent {
   canEditQuotes = input(false);
   close = output<void>();
   quotesUpdated = output<MusicQuotesModalResult & { title: string; artist: string }>();
+  musicUpdated = output<MusicDetailsUpdate>();
+
+  readonly savingKey = signal<string | null>(null);
+  readonly saveErrorKey = signal<string | null>(null);
+  private saveQueue: Promise<void> = Promise.resolve();
 
   onOverlayClick() {
     this.close.emit();
@@ -53,6 +66,87 @@ export class AlbumModalComponent {
     const minutes = Math.floor(seconds / 60);
     const secs = seconds % 60;
     return `${minutes}:${secs.toString().padStart(2, '0')}`;
+  }
+
+  musicKey(music: Music): string {
+    return `${music.title}|${music.artist}`;
+  }
+
+  onTimesListenedChange(music: Music, event: Event): void {
+    const input = event.target as HTMLInputElement;
+    const raw = input.value.trim();
+    if (!/^\d+$/.test(raw)) {
+      input.value = String(music.timesListened);
+      return;
+    }
+    const timesListened = Number(raw);
+    if (timesListened === music.timesListened) {
+      return;
+    }
+    void this.persistMusic(music, { timesListened }, () => {
+      input.value = String(music.timesListened);
+    });
+  }
+
+  onByHeartChange(music: Music, event: Event): void {
+    const input = event.target as HTMLInputElement;
+    const byHeart = input.checked;
+    if (byHeart === music.byHeart) {
+      return;
+    }
+    void this.persistMusic(music, { byHeart }, () => {
+      input.checked = music.byHeart;
+    });
+  }
+
+  private persistMusic(
+    music: Music,
+    patch: Pick<MusicDetailsUpdate, 'timesListened' | 'byHeart'>,
+    revert: () => void
+  ): Promise<void> {
+    const userId = this.userId();
+    const key = this.musicKey(music);
+    if (!userId || !this.canEditQuotes()) {
+      revert();
+      return Promise.resolve();
+    }
+
+    const run = this.saveQueue.then(async () => {
+      this.savingKey.set(key);
+      this.saveErrorKey.set(null);
+      try {
+        const response = await fetch(`${getApiBaseUrl()}/musics`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            userId,
+            title: music.title,
+            artist: music.artist,
+            ...patch,
+          }),
+        });
+        if (!response.ok) {
+          revert();
+          this.saveErrorKey.set(key);
+          return;
+        }
+        this.musicUpdated.emit({
+          title: music.title,
+          artist: music.artist,
+          ...patch,
+        });
+      } catch {
+        revert();
+        this.saveErrorKey.set(key);
+      } finally {
+        this.savingKey.set(null);
+      }
+    });
+    this.saveQueue = run.then(
+      () => undefined,
+      () => undefined
+    );
+    return run;
   }
 
   openQuotesEditor(music: Music): void {

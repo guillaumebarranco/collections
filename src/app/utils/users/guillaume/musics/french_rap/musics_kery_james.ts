@@ -61,7 +61,7 @@ export const musicsKeryJames: UserMusic[] = [
     artist: 'Kery James',
     rating: 0,
     timesListened: 50,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -117,7 +117,7 @@ export const musicsKeryJames: UserMusic[] = [
     artist: 'Kery James',
     rating: 0,
     timesListened: 100,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {

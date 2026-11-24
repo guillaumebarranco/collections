@@ -129,7 +129,7 @@ export const musicsSinguila: UserMusic[] = [
     artist: 'Singuila',
     rating: 0,
     timesListened: 150,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -201,7 +201,7 @@ export const musicsSinguila: UserMusic[] = [
     artist: 'Singuila',
     rating: 0,
     timesListened: 120,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {

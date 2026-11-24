@@ -343,7 +343,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     artist: 'Hippocampe Fou',
     rating: 0,
     timesListened: 14,
-    byHeart: false,
+    byHeart: true,
     quotes: [
       {
         quoteText: "J'avance à petits pas, m'éteins à petit feu. Ma femme est une déesse, mérite-t-elle un demi-vieux ?",
@@ -356,7 +356,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     artist: 'Hippocampe Fou',
     rating: 0,
     timesListened: 25,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -380,7 +380,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     artist: 'Hippocampe Fou',
     rating: 0,
     timesListened: 15,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -404,7 +404,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     artist: 'Hippocampe Fou',
     rating: 0,
     timesListened: 19,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -428,7 +428,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     artist: 'Hippocampe Fou',
     rating: 0,
     timesListened: 17,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {

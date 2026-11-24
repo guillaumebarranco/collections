@@ -7,7 +7,7 @@ export const musicsDisiz3: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 200,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -23,7 +23,7 @@ export const musicsDisiz3: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 150,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -31,7 +31,7 @@ export const musicsDisiz3: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 180,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -47,7 +47,7 @@ export const musicsDisiz3: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 120,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -63,7 +63,7 @@ export const musicsDisiz3: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 150,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -71,7 +71,7 @@ export const musicsDisiz3: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 120,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -79,7 +79,7 @@ export const musicsDisiz3: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 180,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -87,7 +87,7 @@ export const musicsDisiz3: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 130,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -95,7 +95,7 @@ export const musicsDisiz3: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 150,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -103,7 +103,7 @@ export const musicsDisiz3: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 150,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -111,7 +111,7 @@ export const musicsDisiz3: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 130,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {

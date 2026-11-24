@@ -49,7 +49,7 @@ export const musicsBigfloOli: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 70,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -57,7 +57,7 @@ export const musicsBigfloOli: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 70,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -65,7 +65,7 @@ export const musicsBigfloOli: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 60,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -73,7 +73,7 @@ export const musicsBigfloOli: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 100,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -81,7 +81,7 @@ export const musicsBigfloOli: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 100,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -89,7 +89,7 @@ export const musicsBigfloOli: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 70,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -97,7 +97,7 @@ export const musicsBigfloOli: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 70,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -113,7 +113,7 @@ export const musicsBigfloOli: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 100,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -121,7 +121,7 @@ export const musicsBigfloOli: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 70,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -129,7 +129,7 @@ export const musicsBigfloOli: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 120,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -137,7 +137,7 @@ export const musicsBigfloOli: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 150,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -145,7 +145,7 @@ export const musicsBigfloOli: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 70,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -153,7 +153,7 @@ export const musicsBigfloOli: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 80,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -161,7 +161,7 @@ export const musicsBigfloOli: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 60,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -169,7 +169,7 @@ export const musicsBigfloOli: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 70,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -185,7 +185,7 @@ export const musicsBigfloOli: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 100,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -193,7 +193,7 @@ export const musicsBigfloOli: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 100,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -209,7 +209,7 @@ export const musicsBigfloOli: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 80,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -217,7 +217,7 @@ export const musicsBigfloOli: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 70,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -251,7 +251,7 @@ export const musicsBigfloOli: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 70,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -259,7 +259,7 @@ export const musicsBigfloOli: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 60,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -267,7 +267,7 @@ export const musicsBigfloOli: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 80,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -283,7 +283,7 @@ export const musicsBigfloOli: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 80,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -291,7 +291,7 @@ export const musicsBigfloOli: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 100,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -299,7 +299,7 @@ export const musicsBigfloOli: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 90,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -307,7 +307,7 @@ export const musicsBigfloOli: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 70,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -315,7 +315,7 @@ export const musicsBigfloOli: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 120,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -331,7 +331,7 @@ export const musicsBigfloOli: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 100,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -347,7 +347,7 @@ export const musicsBigfloOli: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 70,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -355,7 +355,7 @@ export const musicsBigfloOli: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 80,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -363,7 +363,7 @@ export const musicsBigfloOli: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 70,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -379,7 +379,7 @@ export const musicsBigfloOli: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 60,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -437,7 +437,7 @@ export const musicsBigfloOli: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 64,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -445,7 +445,7 @@ export const musicsBigfloOli: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 57,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -469,7 +469,7 @@ export const musicsBigfloOli: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 37,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -535,7 +535,7 @@ export const musicsBigfloOli: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 34,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -543,7 +543,7 @@ export const musicsBigfloOli: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 33,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -591,7 +591,7 @@ export const musicsBigfloOli: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 41,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -631,7 +631,7 @@ export const musicsBigfloOli: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 56,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -700,7 +700,7 @@ export const musicsBigfloOli: UserMusic[] = [
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 51,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {

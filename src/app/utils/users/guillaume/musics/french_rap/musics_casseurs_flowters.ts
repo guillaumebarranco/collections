@@ -7,7 +7,7 @@ export const musicsCasseursFlowters: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 100,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -15,7 +15,7 @@ export const musicsCasseursFlowters: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 250,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -23,7 +23,7 @@ export const musicsCasseursFlowters: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 250,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -31,7 +31,7 @@ export const musicsCasseursFlowters: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 180,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -39,7 +39,7 @@ export const musicsCasseursFlowters: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 250,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -47,7 +47,7 @@ export const musicsCasseursFlowters: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 250,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -55,7 +55,7 @@ export const musicsCasseursFlowters: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 250,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -63,7 +63,7 @@ export const musicsCasseursFlowters: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 180,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -71,7 +71,7 @@ export const musicsCasseursFlowters: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 250,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -79,7 +79,7 @@ export const musicsCasseursFlowters: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 180,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -87,7 +87,7 @@ export const musicsCasseursFlowters: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 180,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -103,7 +103,7 @@ export const musicsCasseursFlowters: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 200,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -111,7 +111,7 @@ export const musicsCasseursFlowters: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 150,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -119,7 +119,7 @@ export const musicsCasseursFlowters: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 200,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -127,7 +127,7 @@ export const musicsCasseursFlowters: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 250,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -135,7 +135,7 @@ export const musicsCasseursFlowters: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 200,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -143,7 +143,7 @@ export const musicsCasseursFlowters: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 250,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
 
@@ -177,7 +177,7 @@ export const musicsCasseursFlowters: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 100,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -185,7 +185,7 @@ export const musicsCasseursFlowters: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 150,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -225,7 +225,7 @@ export const musicsCasseursFlowters: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 150,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -257,7 +257,7 @@ export const musicsCasseursFlowters: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 100,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -281,7 +281,7 @@ export const musicsCasseursFlowters: UserMusic[] = [
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 150,
-    byHeart: false,
+    byHeart: true,
     quotes: [
       {
         quoteText: "Si la cabine explose j'rapperais même sous une pluie d'acier, j'finirais d'écrire en m'entaillant les veines sur une vitre cassée.",

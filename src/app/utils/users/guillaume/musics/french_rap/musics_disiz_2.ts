@@ -7,7 +7,7 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 80,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -15,7 +15,7 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 150,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -23,7 +23,7 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 150,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -31,7 +31,7 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 150,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -39,7 +39,7 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 150,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -47,7 +47,7 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 180,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -63,7 +63,7 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 230,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -71,7 +71,7 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 150,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -79,7 +79,7 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 150,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -95,7 +95,7 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 150,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -103,7 +103,7 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 100,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -111,7 +111,7 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 120,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -145,7 +145,7 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz Peter Punk',
     rating: 0,
     timesListened: 70,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -153,7 +153,7 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz Peter Punk',
     rating: 0,
     timesListened: 70,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -161,7 +161,7 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz Peter Punk',
     rating: 0,
     timesListened: 50,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -217,7 +217,7 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz Peter Punk',
     rating: 0,
     timesListened: 200,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -234,7 +234,7 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 250,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -242,7 +242,7 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 250,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -250,7 +250,7 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 200,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -258,7 +258,7 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 250,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -266,7 +266,7 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 250,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -274,7 +274,7 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 200,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -300,7 +300,7 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 200,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -308,7 +308,7 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 200,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -316,7 +316,7 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 200,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -324,7 +324,7 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 200,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -332,7 +332,7 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 200,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -340,7 +340,7 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 200,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -348,7 +348,7 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 200,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -356,7 +356,7 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 150,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -364,7 +364,7 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 250,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -372,7 +372,7 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 200,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -380,7 +380,7 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 200,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -388,7 +388,7 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 250,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -396,7 +396,7 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 250,
-    byHeart: false,
+    byHeart: true,
     quotes: [
       {
         quoteText: "Une amitié qui se finit en fait n'avait pas commencé, de vrais liens tôt ou tard mènent à se réconcilier.",
@@ -409,7 +409,7 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 200,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -417,7 +417,7 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 200,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -425,7 +425,7 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 200,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -433,7 +433,7 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 250,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -441,7 +441,7 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 200,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -449,7 +449,7 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 250,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -457,7 +457,7 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 150,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -465,7 +465,7 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 25,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -473,7 +473,7 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 19,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -499,7 +499,7 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 100,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -507,7 +507,7 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 150,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -515,7 +515,7 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 200,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -523,7 +523,7 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 150,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -531,7 +531,7 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 120,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -539,7 +539,7 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 180,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -547,7 +547,7 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 180,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -555,7 +555,7 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 150,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -571,7 +571,7 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 200,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -587,7 +587,7 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 120,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -603,7 +603,7 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 120,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -611,7 +611,7 @@ export const musicsDisiz2: UserMusic[] = [
     artist: 'Disiz',
     rating: 0,
     timesListened: 120,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {

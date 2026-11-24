@@ -7,7 +7,7 @@ export const musicsEminem3: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 50,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -71,7 +71,7 @@ export const musicsEminem3: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 120,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -79,7 +79,7 @@ export const musicsEminem3: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 100,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -87,7 +87,7 @@ export const musicsEminem3: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 80,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -127,7 +127,7 @@ export const musicsEminem3: UserMusic[] = [
     artist: 'Eminem',
     rating: 0,
     timesListened: 50,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {

@@ -193,7 +193,18 @@
       }
     }
 
+    .track-meta {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 6px;
+      flex-shrink: 0;
+    }
+
     .track-listens {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
       font-size: 0.9rem;
       color: #667eea;
       font-weight: 600;
@@ -201,6 +212,49 @@
       padding: 4px 10px;
       border-radius: 12px;
       flex-shrink: 0;
+
+      input {
+        width: 4.2rem;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        background: transparent;
+        color: inherit;
+        font: inherit;
+        font-weight: inherit;
+        text-align: right;
+
+        &:focus {
+          outline: 2px solid #667eea;
+          border-radius: 4px;
+        }
+
+        &:disabled {
+          opacity: 0.6;
+        }
+      }
+    }
+
+    .track-by-heart {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin: 0;
+      color: #2c3e50;
+      font-size: 0.75rem;
+      font-weight: 600;
+      cursor: pointer;
+
+      input {
+        margin: 0;
+        accent-color: #667eea;
+      }
+    }
+
+    .track-save-error {
+      color: #c0392b;
+      font-size: 0.7rem;
+      font-weight: 600;
     }
   }
 }
@@ -343,10 +397,13 @@
         }
       }
 
+      .track-meta {
+        margin-left: auto;
+      }
+
       .track-listens {
         font-size: 0.8rem;
         padding: 3px 8px;
-        margin-left: auto;
       }
     }
   }

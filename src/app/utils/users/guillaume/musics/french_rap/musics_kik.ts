@@ -31,7 +31,7 @@ export const musicsKik: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 38,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -87,7 +87,7 @@ export const musicsKik: UserMusic[] = [
     artist: 'Kik',
     rating: 0,
     timesListened: 39,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {

@@ -7,7 +7,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 120,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -15,7 +15,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 250,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -31,7 +31,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 150,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -47,7 +47,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 120,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -55,7 +55,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 220,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -63,7 +63,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 120,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -79,7 +79,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 120,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -111,7 +111,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 170,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -127,7 +127,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 150,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -153,7 +153,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 150,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -161,7 +161,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 150,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -169,7 +169,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 130,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -177,7 +177,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 120,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -185,7 +185,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 120,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -201,7 +201,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 100,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -217,7 +217,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 120,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -225,7 +225,7 @@ export const musicsNekfeu: UserMusic[] = [
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 120,
-    byHeart: false,
+    byHeart: true,
     quotes: [
       {
         quoteText: "En t'attendant j'observe les liens que les passants nouent. Il fut un temps où la beauté du ciel venait pas sans nous.",

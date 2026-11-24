@@ -15,7 +15,7 @@ export const musicsJamesDeano: UserMusic[] = [
     artist: 'James Deano',
     rating: 0,
     timesListened: 150,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -23,7 +23,7 @@ export const musicsJamesDeano: UserMusic[] = [
     artist: 'James Deano',
     rating: 0,
     timesListened: 150,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -55,7 +55,7 @@ export const musicsJamesDeano: UserMusic[] = [
     artist: 'James Deano',
     rating: 0,
     timesListened: 200,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -63,7 +63,7 @@ export const musicsJamesDeano: UserMusic[] = [
     artist: 'James Deano',
     rating: 0,
     timesListened: 120,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -79,7 +79,7 @@ export const musicsJamesDeano: UserMusic[] = [
     artist: 'James Deano',
     rating: 0,
     timesListened: 100,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {

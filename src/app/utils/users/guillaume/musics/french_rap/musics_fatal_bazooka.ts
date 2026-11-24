@@ -32,7 +32,7 @@ export const musicsFatalBazooka: UserMusic[] = [
     artist: 'Fatal Bazooka',
     rating: 0,
     timesListened: 200,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -48,7 +48,7 @@ export const musicsFatalBazooka: UserMusic[] = [
     artist: 'Fatal Bazooka',
     rating: 0,
     timesListened: 180,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -72,7 +72,7 @@ export const musicsFatalBazooka: UserMusic[] = [
     artist: 'Fatal Bazooka',
     rating: 0,
     timesListened: 100,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -104,7 +104,7 @@ export const musicsFatalBazooka: UserMusic[] = [
     artist: 'Fatal Bazooka',
     rating: 0,
     timesListened: 250,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -128,7 +128,7 @@ export const musicsFatalBazooka: UserMusic[] = [
     artist: 'Fatal Bazooka',
     rating: 0,
     timesListened: 80,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -136,7 +136,7 @@ export const musicsFatalBazooka: UserMusic[] = [
     artist: 'Fatal Bazooka',
     rating: 0,
     timesListened: 100,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -152,7 +152,7 @@ export const musicsFatalBazooka: UserMusic[] = [
     artist: 'Fatal Bazooka',
     rating: 0,
     timesListened: 100,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -160,7 +160,7 @@ export const musicsFatalBazooka: UserMusic[] = [
     artist: 'Fatal Bazooka',
     rating: 0,
     timesListened: 120,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {

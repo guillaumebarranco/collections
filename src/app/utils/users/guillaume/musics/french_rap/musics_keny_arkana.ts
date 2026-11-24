@@ -31,7 +31,7 @@ export const musicsKenyArkana: UserMusic[] = [
     artist: 'Keny Arkana',
     rating: 0,
     timesListened: 150,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -39,7 +39,7 @@ export const musicsKenyArkana: UserMusic[] = [
     artist: 'Keny Arkana',
     rating: 0,
     timesListened: 180,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -55,7 +55,7 @@ export const musicsKenyArkana: UserMusic[] = [
     artist: 'Keny Arkana',
     rating: 0,
     timesListened: 100,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -79,7 +79,7 @@ export const musicsKenyArkana: UserMusic[] = [
     artist: 'Keny Arkana',
     rating: 0,
     timesListened: 200,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -87,7 +87,7 @@ export const musicsKenyArkana: UserMusic[] = [
     artist: 'Keny Arkana',
     rating: 0,
     timesListened: 180,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -95,7 +95,7 @@ export const musicsKenyArkana: UserMusic[] = [
     artist: 'Keny Arkana',
     rating: 0,
     timesListened: 80,
-    byHeart: false,
+    byHeart: true,
     quotes: [
     {
       quoteText: "Papa dit que les politiques sont des prédateurs, qui sèment la peur et qui ont un estomac à la place du coeur.",
@@ -210,7 +210,7 @@ export const musicsKenyArkana: UserMusic[] = [
     artist: 'Keny Arkana',
     rating: 0,
     timesListened: 50,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {

@@ -55,7 +55,7 @@ export const musicsIAM: UserMusic[] = [
     artist: 'IAM',
     rating: 0,
     timesListened: 100,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -63,7 +63,7 @@ export const musicsIAM: UserMusic[] = [
     artist: 'IAM',
     rating: 0,
     timesListened: 80,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -95,7 +95,7 @@ export const musicsIAM: UserMusic[] = [
     artist: 'IAM',
     rating: 0,
     timesListened: 100,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -257,7 +257,7 @@ export const musicsIAM: UserMusic[] = [
     artist: 'IAM',
     rating: 0,
     timesListened: 80,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {

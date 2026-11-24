@@ -19,6 +19,7 @@ import { MusicsHeaderComponent } from './musics-header/musics-header.component';
 import {
   AlbumModalComponent,
   Album,
+  MusicDetailsUpdate,
 } from '../../../components/modals/album-modal/album-modal.component';
 import { Music } from '../../../models/music-model';
 import type { EntityQuote } from '../../../models/entity-quote.model';
@@ -453,6 +454,38 @@ export class MusicsComponent implements OnInit {
           ? { ...music, quotes: update.quotes }
           : music
       ),
+    });
+  }
+
+  onMusicDetailsUpdated(update: MusicDetailsUpdate): void {
+    const apply = (music: Music): Music =>
+      music.title === update.title && music.artist === update.artist
+        ? {
+            ...music,
+            ...(update.timesListened !== undefined
+              ? { timesListened: update.timesListened }
+              : {}),
+            ...(update.byHeart !== undefined
+              ? { byHeart: update.byHeart }
+              : {}),
+          }
+        : music;
+
+    const userId = this.getActiveUserId();
+    this.musicsList.update((list) => {
+      const current = list[userId] ?? [];
+      return {
+        ...list,
+        [userId]: current.map(apply),
+      };
+    });
+    const album = this.selectedAlbum();
+    if (!album) {
+      return;
+    }
+    this.selectedAlbum.set({
+      ...album,
+      musics: album.musics.map(apply),
     });
   }
 

@@ -349,7 +349,7 @@ export const musicsBooba: UserMusic[] = [
     artist: 'Booba',
     rating: 0,
     timesListened: 180,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -373,7 +373,7 @@ export const musicsBooba: UserMusic[] = [
     artist: 'Booba',
     rating: 0,
     timesListened: 180,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -689,7 +689,7 @@ export const musicsBooba: UserMusic[] = [
     artist: 'Booba',
     rating: 0,
     timesListened: 100,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -769,7 +769,7 @@ export const musicsBooba: UserMusic[] = [
     artist: 'Booba',
     rating: 0,
     timesListened: 100,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -777,7 +777,7 @@ export const musicsBooba: UserMusic[] = [
     artist: 'Booba',
     rating: 0,
     timesListened: 120,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {

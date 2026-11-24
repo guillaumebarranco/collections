@@ -23,7 +23,7 @@ export const musicsSniper: UserMusic[] = [
     artist: 'Sniper',
     rating: 0,
     timesListened: 100,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -87,7 +87,7 @@ export const musicsSniper: UserMusic[] = [
     artist: 'Sniper',
     rating: 0,
     timesListened: 150,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
@@ -95,7 +95,7 @@ export const musicsSniper: UserMusic[] = [
     artist: 'Sniper',
     rating: 0,
     timesListened: 200,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {
