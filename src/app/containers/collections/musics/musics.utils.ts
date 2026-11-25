@@ -19,6 +19,26 @@ export function defaultMusicFilter(musics: Music[]): 'popular' | 'all' {
   return 'all';
 }
 
+/** Ordre des morceaux dans une modale d'album : piste si elle est renseignée, sinon titre. */
+export function sortAlbumTracks<T extends { title: string; albumTrackId?: number }>(
+  musics: T[]
+): T[] {
+  const hasTrackOrder = musics.some((music) => (music.albumTrackId ?? 0) > 0);
+  return [...musics].sort((a, b) => {
+    if (!hasTrackOrder) {
+      return a.title.localeCompare(b.title);
+    }
+    const aId = a.albumTrackId ?? 0;
+    const bId = b.albumTrackId ?? 0;
+    if (aId !== bId) {
+      if (aId === 0) return 1;
+      if (bId === 0) return -1;
+      return aId - bId;
+    }
+    return a.title.localeCompare(b.title);
+  });
+}
+
 export const musicFilterOptions: { value: string; label: string }[] = [
   { value: 'all', label: 'Tout' },
   {

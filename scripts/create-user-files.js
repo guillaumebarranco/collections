@@ -165,3 +165,19 @@ extraLists.forEach((entry) => {
   console.log(`Created: ${filePath}`);
 });
 
+const musicsDir = path.join(baseDir, 'musics');
+ensureDir(musicsDir);
+
+const albumNotesPath = path.join(musicsDir, `${username}_albums_notes.ts`);
+if (fs.existsSync(albumNotesPath)) {
+  console.warn(`Skip existing: ${albumNotesPath}`);
+} else {
+  const exportName = `${username}AlbumNotes`;
+  const content = `import { UserAlbumNote } from '../../../../models/music-model';
+
+export const ${exportName}: UserAlbumNote[] = [];
+`;
+  fs.writeFileSync(albumNotesPath, content, 'utf8');
+  console.log(`Created: ${albumNotesPath}`);
+}
+

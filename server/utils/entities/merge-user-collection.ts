@@ -615,6 +615,7 @@ function mergeMusics(userMusics: any[]): any[] {
       timesListened: music.timesListened ?? 0,
       byHeart: music.byHeart ?? false,
       album: base?.album || 'Unknown',
+      albumTrackId: base?.albumTrackId ?? 0,
       coverUrl: base?.coverUrl || '',
       releaseDate: base?.releaseDate || '',
       duration: base?.duration || 0,

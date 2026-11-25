@@ -33,6 +33,7 @@ import { LocalStorageService } from '../../../services/local-storage.service';
 import {
   defaultMusicFilter,
   getSortedMusics,
+  sortAlbumTracks,
   MIN_SONGS_PER_ALBUM,
   TIMES_LISTENED_FOR_POPULAR,
   musicFilterOptions,
@@ -185,9 +186,7 @@ export class MusicsComponent implements OnInit {
           name: albumName,
           artist: artist,
           coverUrl: displayedMusics[0].coverUrl,
-          musics: [...displayedMusics].sort((a, b) =>
-            a.title.localeCompare(b.title)
-          ),
+          musics: sortAlbumTracks(displayedMusics),
           totalDuration: displayedMusics.reduce(
             (sum, music) => sum + music.duration,
             0

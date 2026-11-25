@@ -290,6 +290,7 @@ function parseBaseMusicsFullFromFile(content: string): BaseMusic[] {
           title,
           artist,
           album: parseStringField(objectText, 'album') || 'Unknown',
+          albumTrackId: parseNumberField(objectText, 'albumTrackId') ?? 0,
           coverUrl: parseStringField(objectText, 'coverUrl') || '',
           releaseDate: parseStringField(objectText, 'releaseDate') || '',
           duration: parseNumberField(objectText, 'duration') ?? 0,

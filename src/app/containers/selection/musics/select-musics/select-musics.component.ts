@@ -1,4 +1,4 @@
-import { Component, signal, computed, OnInit } from '@angular/core';
+import { Component, signal, computed, HostListener, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MenuComponent } from '../../../../components/menu/menu.component';
 import { ViewToggleComponent } from '../../../../components/shared/view-toggle/view-toggle.component';
@@ -10,6 +10,15 @@ import {
 import { SelectEntitiesComponent } from '../../select-base.component';
 import { getApiBaseUrl } from '../../../../core/config';
 import { normalizeSearchText } from '../../../../utils/normalize-search-text';
+import { sortAlbumTracks } from '../../../collections/musics/musics.utils';
+
+interface SelectableAlbum {
+  key: string;
+  album: string;
+  artist: string;
+  coverUrl: string;
+  musics: Music[];
+}
 
 @Component({
   selector: 'app-select-musics',
@@ -30,6 +39,8 @@ export class SelectMusicsComponent
   ];
   viewMode = signal<'tracks' | 'albums'>('albums');
   searchTerm = signal('');
+  openedAlbumKey = signal<string | null>(null);
+  tracklistOpen = signal(false);
 
   // Musiques sélectionnées
   selectedMusics = signal<Set<string>>(new Set());
@@ -112,6 +123,17 @@ export class SelectMusicsComponent
       : this.filteredMusics().length
   );
 
+  openedAlbum = computed((): SelectableAlbum | null => {
+    const key = this.openedAlbumKey();
+    if (!key) return null;
+    const album = this.albumGroups().find((group) => group.key === key);
+    if (!album) return null;
+    return {
+      ...album,
+      musics: sortAlbumTracks(album.musics),
+    };
+  });
+
   // Vérifier si une musique est sélectionnée
   isSelected(music: Music): boolean {
     return this.selectedMusics().has(this.getMusicKey(music));
@@ -138,6 +160,34 @@ export class SelectMusicsComponent
     const group = this.albumGroups().find((album) => album.key === albumKey);
     if (!group || group.musics.length === 0) return false;
     return group.musics.every((music) => this.isSelected(music));
+  }
+
+  openAlbumPreview(albumKey: string): void {
+    this.openedAlbumKey.set(albumKey);
+    this.tracklistOpen.set(false);
+  }
+
+  closeAlbumPreview(): void {
+    this.openedAlbumKey.set(null);
+    this.tracklistOpen.set(false);
+  }
+
+  toggleTracklist(): void {
+    this.tracklistOpen.update((open) => !open);
+  }
+
+  selectOpenedAlbum(): void {
+    const album = this.openedAlbum();
+    if (!album) return;
+    this.toggleAlbumSelection(album.key);
+    this.closeAlbumPreview();
+  }
+
+  @HostListener('document:keydown.escape')
+  onEscape(): void {
+    if (this.openedAlbumKey()) {
+      this.closeAlbumPreview();
+    }
   }
 
   toggleAlbumSelection(albumKey: string): void {
@@ -171,19 +221,6 @@ export class SelectMusicsComponent
     }
 
     this.selectedMusics.set(selected);
-  }
-
-  // Sélectionner toutes les musiques
-  selectAll(): void {
-    const allKeys = new Set(
-      this.availableMusics().map((music) => this.getMusicKey(music))
-    );
-    this.selectedMusics.set(allKeys);
-  }
-
-  // Désélectionner toutes les musiques
-  deselectAll(): void {
-    this.selectedMusics.set(new Set());
   }
 
   goBackToMusics(): void {

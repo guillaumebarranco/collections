@@ -7,6 +7,8 @@ export interface MandatoryMusicData {
 
 export interface BaseMusic extends MandatoryMusicData {
   album: string;
+  /** Position du morceau dans l'album. 0 = non renseigné, l'ordre d'affichage reste alphabétique. */
+  albumTrackId: number;
   coverUrl: string;
   releaseDate: string;
   duration: number; // en secondes

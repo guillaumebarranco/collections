@@ -49,16 +49,10 @@ export class AdminMusicsComponent implements OnInit {
   async refreshMusics() {
     const baseMusics = await getAllBaseMusics();
     const musics = baseMusics.map((music) => ({
-      title: music.title,
-      artist: music.artist,
+      ...music,
       rating: 0,
       timesListened: 0,
       byHeart: false,
-      album: music.album,
-      coverUrl: music.coverUrl,
-      releaseDate: music.releaseDate,
-      duration: music.duration,
-      genre: music.genre,
       quotes: [],
     }));
     this.allMusics.set(musics);
