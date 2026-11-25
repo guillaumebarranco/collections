@@ -30,6 +30,30 @@ import { musicsDavidBowie } from './musics_david_bowie';
 import { musicsArethaFranklin } from './musics_aretha_franklin';
 import { musicsRayCharles } from './musics_ray_charles';
 import { musicsMarvinGaye } from './musics_marvin_gaye';
+import { musicsAmyWinehouse } from './musics_amy_winehouse';
+import { musicsKendrickLamar } from './musics_kendrick_lamar';
+import { musicsRadiohead } from './musics_radiohead';
+import { musicsBobMarley } from './musics_bob_marley';
+import { musicsMadonna } from './musics_madonna';
+import { musicsTheWho } from './musics_the_who';
+import { musicsOutkast } from './musics_outkast';
+import { musicsNeilYoung } from './musics_neil_young';
+import { musicsTheNotoriousBig } from './musics_the_notorious_big';
+import { musicsJayZ } from './musics_jay_z';
+import { musicsTinaTurner } from './musics_tina_turner';
+import { musicsMetallica } from './musics_metallica';
+import { musicsOtisRedding } from './musics_otis_redding';
+import { musicsPhilCollins } from './musics_phil_collins';
+import { musicsEagles } from './musics_eagles';
+import { musicsAerosmith } from './musics_aerosmith';
+import { musicsBeeGees } from './musics_bee_gees';
+import { musicsSimonAndGarfunkel } from './musics_simon_and_garfunkel';
+import { musicsWuTangClan } from './musics_wu_tang_clan';
+import { musicsJanetJackson } from './musics_janet_jackson';
+import { musicsEarthWindAndFire } from './musics_earth_wind_and_fire';
+import { musicsGreenDay } from './musics_green_day';
+import { musicsLouisArmstrong } from './musics_louis_armstrong';
+import { musicsPixies } from './musics_pixies';
 
 export const musicsUsa = [
   ...musicsRapUsVarious,
@@ -64,4 +88,28 @@ export const musicsUsa = [
   ...musicsArethaFranklin,
   ...musicsRayCharles,
   ...musicsMarvinGaye,
+  ...musicsAmyWinehouse,
+  ...musicsKendrickLamar,
+  ...musicsRadiohead,
+  ...musicsBobMarley,
+  ...musicsMadonna,
+  ...musicsTheWho,
+  ...musicsOutkast,
+  ...musicsNeilYoung,
+  ...musicsTheNotoriousBig,
+  ...musicsJayZ,
+  ...musicsTinaTurner,
+  ...musicsMetallica,
+  ...musicsOtisRedding,
+  ...musicsPhilCollins,
+  ...musicsEagles,
+  ...musicsAerosmith,
+  ...musicsBeeGees,
+  ...musicsSimonAndGarfunkel,
+  ...musicsWuTangClan,
+  ...musicsJanetJackson,
+  ...musicsEarthWindAndFire,
+  ...musicsGreenDay,
+  ...musicsLouisArmstrong,
+  ...musicsPixies,
 ];

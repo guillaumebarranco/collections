@@ -37,7 +37,7 @@
   @if (completeAlbums().length > 0) {
   <div class="section">
     <h2 class="section-title">
-      💿 Albums complets ({{ completeAlbums().length }})
+      💿 Albums ({{ completeAlbums().length }})
     </h2>
     <div class="albums-grid">
       @for (album of completeAlbums(); track `${album.name}-${album.artist}`) {

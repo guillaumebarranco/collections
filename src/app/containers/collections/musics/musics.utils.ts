@@ -1,6 +1,5 @@
 import { Music } from '../../../models/music-model';
 
-export const MIN_SONGS_PER_ALBUM = 5;
 export const TIMES_LISTENED_FOR_POPULAR = 9;
 /** Au-delà de ce nombre de morceaux, le filtre « plus de 10 écoutes » peut être le défaut. */
 export const POPULAR_FILTER_MIN_MUSICS = 1000;
@@ -17,6 +16,18 @@ export function defaultMusicFilter(musics: Music[]): 'popular' | 'all' {
     return 'popular';
   }
   return 'all';
+}
+
+/**
+ * Un album est regroupé si l'utilisateur en possède plus de la moitié des morceaux
+ * du catalogue. Un album entier (y compris 5 ou 6 titres) est donc toujours affiché.
+ * À 50 % ou moins, les morceaux restent dans la liste des musiques.
+ */
+export function ownsAlbumMajority(
+  ownedCount: number,
+  catalogCount: number
+): boolean {
+  return catalogCount > 0 && ownedCount / catalogCount > 0.5;
 }
 
 /** Ordre des morceaux dans une modale d'album : piste si elle est renseignée, sinon titre. */

@@ -22,7 +22,7 @@ import {
   AlbumRatingUpdate,
   MusicDetailsUpdate,
 } from '../../../components/modals/album-modal/album-modal.component';
-import { Music, UserAlbumNote } from '../../../models/music-model';
+import { BaseMusic, Music, UserAlbumNote } from '../../../models/music-model';
 import type { EntityQuote } from '../../../models/entity-quote.model';
 import { normalizeSearchText } from '../../../utils/normalize-search-text';
 import { ActivatedRoute, Router, RouterLink } from '@angular/router';
@@ -39,7 +39,7 @@ import {
   defaultMusicFilter,
   getSortedMusics,
   sortAlbumTracks,
-  MIN_SONGS_PER_ALBUM,
+  ownsAlbumMajority,
   TIMES_LISTENED_FOR_POPULAR,
   musicFilterOptions,
   musicSortOptions,
@@ -92,6 +92,7 @@ export class MusicsComponent implements OnInit {
   isAlbumModalOpen = signal<boolean>(false);
   selectedAlbum = signal<Album | null>(null);
   albumNotes = signal<UserAlbumNote[]>([]);
+  baseMusics = signal<BaseMusic[]>([]);
   readonly pendingAlbumRatings = signal<Record<string, number>>({});
   readonly albumSaveErrorKey = signal<string | null>(null);
   private albumSaveQueue: Promise<void> = Promise.resolve();
@@ -154,6 +155,22 @@ export class MusicsComponent implements OnInit {
     return filtered.filter((music) => this.matchesSearch(music, term));
   });
 
+  /** Titres du catalogue, indexés par « album|artiste ». */
+  catalogAlbumTitles = computed(() => {
+    const byAlbum = new Map<string, Set<string>>();
+    for (const music of this.baseMusics()) {
+      if (!music.album || music.album === 'Unknown') continue;
+      const key = `${music.album}|${music.artist}`;
+      let titles = byAlbum.get(key);
+      if (!titles) {
+        titles = new Set();
+        byAlbum.set(key, titles);
+      }
+      titles.add(music.title);
+    }
+    return byAlbum;
+  });
+
   completeAlbums = computed<Album[]>(() => {
     // Grouper TOUTES les musiques par album
     const allAlbumsMap = new Map<string, Music[]>();
@@ -176,41 +193,40 @@ export class MusicsComponent implements OnInit {
     });
 
     const albums: Album[] = [];
+    const catalog = this.catalogAlbumTitles();
 
-    const minTimesListened =
-      this.selectedFilter() === 'popular'
-        ? TIMES_LISTENED_FOR_POPULAR
-        : this.selectedFilter() === 'more_than_once'
-        ? 1
-        : 0;
-
-    // Pour chaque album, vérifier si les musiques filtrées répondent aux critères
     filteredAlbumsMap.forEach((filteredMusics, key) => {
-      if (
-        !key.includes('Unknown') &&
-        filteredMusics.length >= MIN_SONGS_PER_ALBUM &&
-        filteredMusics.every((music) => music.timesListened > minTimesListened)
-      ) {
-        const allAlbumMusics = allAlbumsMap.get(key)!;
-        const displayedMusics = this.onlyByHeart()
-          ? filteredMusics
-          : allAlbumMusics;
-        const [albumName, artist] = key.split('|');
-        const note = this.albumNotes().find(
-          (item) => item.album === albumName && item.artist === artist
-        );
-        albums.push({
-          name: albumName,
-          artist: artist,
-          coverUrl: displayedMusics[0].coverUrl,
-          musics: sortAlbumTracks(displayedMusics),
-          totalDuration: displayedMusics.reduce(
-            (sum, music) => sum + music.duration,
-            0
-          ),
-          rating: note?.rating ?? 0,
-        });
+      const catalogTitles = catalog.get(key);
+      const allAlbumMusics = allAlbumsMap.get(key);
+      if (!catalogTitles?.size || !allAlbumMusics || key.includes('Unknown')) {
+        return;
       }
+      const ownedTitles = new Set(allAlbumMusics.map((music) => music.title));
+      let owned = 0;
+      catalogTitles.forEach((title) => {
+        if (ownedTitles.has(title)) owned++;
+      });
+      if (!ownsAlbumMajority(owned, catalogTitles.size)) {
+        return;
+      }
+      const displayedMusics = this.onlyByHeart()
+        ? filteredMusics
+        : allAlbumMusics;
+      const [albumName, artist] = key.split('|');
+      const note = this.albumNotes().find(
+        (item) => item.album === albumName && item.artist === artist
+      );
+      albums.push({
+        name: albumName,
+        artist: artist,
+        coverUrl: displayedMusics[0].coverUrl,
+        musics: sortAlbumTracks(displayedMusics),
+        totalDuration: displayedMusics.reduce(
+          (sum, music) => sum + music.duration,
+          0
+        ),
+        rating: note?.rating ?? 0,
+      });
     });
 
     // Tri par artiste, puis par date de sortie (du plus ancien au plus récent)
@@ -307,12 +323,14 @@ export class MusicsComponent implements OnInit {
     this.isLoadingMusics.set(true);
     try {
       const userId = this.getActiveUserId();
-      const [musics, notes] = await Promise.all([
+      const [musics, notes, baseMusics] = await Promise.all([
         getAllMusics(userId),
         fetchUserAlbumNotes(userId).catch(() => [] as UserAlbumNote[]),
+        getAllBaseMusics(),
       ]);
       this.musicsList.set(musics);
       this.albumNotes.set(notes);
+      this.baseMusics.set(baseMusics);
 
       const currentUserMusics = musics[userId] || [];
       const defaultFilter = defaultMusicFilter(currentUserMusics);
