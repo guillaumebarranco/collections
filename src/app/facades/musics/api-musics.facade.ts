@@ -45,7 +45,8 @@ export async function saveAlbumNote(payload: {
   userId: string;
   artist: string;
   album: string;
-  rating: number;
+  rating?: number;
+  favorite?: boolean;
 }): Promise<boolean> {
   try {
     const response = await fetch(`${getApiBaseUrl()}/musics/album-note`, {

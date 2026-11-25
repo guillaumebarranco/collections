@@ -34,6 +34,7 @@ export interface UserAlbumNote {
   artist: string;
   album: string;
   rating: number;
+  favorite?: boolean;
 }
 
 export type UserAlbumNotes = UserAlbumNote[];

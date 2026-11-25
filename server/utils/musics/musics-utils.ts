@@ -379,6 +379,7 @@ function parseAlbumNotesFromFile(content: string) {
             artist,
             album,
             rating: parseNumberField(objectText, 'rating') ?? 0,
+            favorite: parseBooleanField(objectText, 'favorite') ?? false,
           });
         }
       }
@@ -412,9 +413,32 @@ function appendObjectToContent(content: string, objectText: string) {
   );
 }
 
+function setAlbumNoteField(
+  objectText: string,
+  key: string,
+  value: number | boolean
+) {
+  const regex = new RegExp(`(${key}\\s*:\\s*)([^,\\n]+)`);
+  if (regex.test(objectText)) {
+    return objectText.replace(regex, `$1${value}`);
+  }
+  if (/\n[ \t]*\}$/.test(objectText)) {
+    return objectText.replace(
+      /,?\n([ \t]*)\}$/,
+      `,\n$1  ${key}: ${value},\n$1}`
+    );
+  }
+  return objectText.replace(/\}$/, `, ${key}: ${value} }`);
+}
+
 function upsertAlbumNoteInFile(
   content: string,
-  payload: { artist: string; album: string; rating: number }
+  payload: {
+    artist: string;
+    album: string;
+    rating?: number;
+    favorite?: boolean;
+  }
 ) {
   const exportIndex = content.indexOf('export const');
   if (exportIndex === -1) {
@@ -444,7 +468,13 @@ function upsertAlbumNoteInFile(
         const artist = parseStringField(objectText, 'artist');
         const album = parseStringField(objectText, 'album');
         if (artist === payload.artist && album === payload.album) {
-          const updated = replaceField(objectText, 'rating', payload.rating);
+          let updated = objectText;
+          if (payload.rating !== undefined) {
+            updated = setAlbumNoteField(updated, 'rating', payload.rating);
+          }
+          if (payload.favorite !== undefined) {
+            updated = setAlbumNoteField(updated, 'favorite', payload.favorite);
+          }
           return (
             content.slice(0, objectStart) +
             updated +
@@ -459,8 +489,8 @@ function upsertAlbumNoteInFile(
   const objectText = `  {\n    artist: "${escapeString(
     payload.artist
   )}",\n    album: "${escapeString(payload.album)}",\n    rating: ${
-    payload.rating
-  },\n  },`;
+    payload.rating ?? 0
+  },\n    favorite: ${payload.favorite ?? false},\n  },`;
   return appendObjectToContent(content, objectText);
 }
 
@@ -481,11 +511,11 @@ function saveAlbumNote(
   userId: string,
   artist: string,
   album: string,
-  rating: number
+  patch: { rating?: number; favorite?: boolean }
 ) {
   const filePath = getUserAlbumNotesFile(userId);
   const content = fs.readFileSync(filePath, 'utf8');
-  const updated = upsertAlbumNoteInFile(content, { artist, album, rating });
+  const updated = upsertAlbumNoteInFile(content, { artist, album, ...patch });
   fs.writeFileSync(filePath, updated, 'utf8');
 }
 

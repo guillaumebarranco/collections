@@ -20,6 +20,7 @@ export interface Album {
   musics: Music[];
   totalDuration: number;
   rating: number;
+  favorite: boolean;
 }
 
 export interface MusicDetailsUpdate {
@@ -33,7 +34,8 @@ export interface MusicDetailsUpdate {
 export interface AlbumRatingUpdate {
   artist: string;
   album: string;
-  rating: number;
+  rating?: number;
+  favorite?: boolean;
 }
 
 @Component({
@@ -92,7 +94,19 @@ export class AlbumModalComponent {
     if (!album || rating === album.rating) {
       return;
     }
-    void this.persistAlbumRating(album, rating, () => undefined);
+    void this.persistAlbumNote(album, { rating }, () => undefined);
+  }
+
+  onFavoriteToggle(): void {
+    const album = this.album();
+    if (!album || !this.canEditQuotes() || this.albumSaving()) {
+      return;
+    }
+    void this.persistAlbumNote(
+      album,
+      { favorite: !album.favorite },
+      () => undefined
+    );
   }
 
   onTrackRatingChange(music: Music, rating: number): void {
@@ -175,9 +189,9 @@ export class AlbumModalComponent {
     return run;
   }
 
-  private persistAlbumRating(
+  private persistAlbumNote(
     album: Album,
-    rating: number,
+    patch: { rating?: number; favorite?: boolean },
     revert: () => void
   ): Promise<void> {
     const userId = this.userId();
@@ -193,7 +207,7 @@ export class AlbumModalComponent {
           userId,
           artist: album.artist,
           album: album.name,
-          rating,
+          ...patch,
         });
         if (!saved) {
           revert();
@@ -203,7 +217,7 @@ export class AlbumModalComponent {
         this.albumRatingUpdated.emit({
           artist: album.artist,
           album: album.name,
-          rating,
+          ...patch,
         });
       } catch {
         revert();

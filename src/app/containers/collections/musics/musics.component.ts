@@ -226,6 +226,7 @@ export class MusicsComponent implements OnInit {
           0
         ),
         rating: note?.rating ?? 0,
+        favorite: note?.favorite === true,
       });
     });
 
@@ -241,6 +242,14 @@ export class MusicsComponent implements OnInit {
       return dateA - dateB;
     });
   });
+
+  favoriteAlbums = computed<Album[]>(() =>
+    this.completeAlbums().filter((album) => album.favorite)
+  );
+
+  otherAlbums = computed<Album[]>(() =>
+    this.completeAlbums().filter((album) => !album.favorite)
+  );
 
   // Musiques qui ne font pas partie d'un album complet
   standaloneMusics = computed<Music[]>(() => {
@@ -568,6 +577,46 @@ export class MusicsComponent implements OnInit {
     return pending ?? album.rating;
   }
 
+  onAlbumCardFavoriteToggle(album: Album, event: Event): void {
+    event.stopPropagation();
+    if (!this.canEditQuotes()) {
+      return;
+    }
+    const favorite = !album.favorite;
+    const key = this.albumKey(album);
+    this.albumSaveErrorKey.set(null);
+    this.onAlbumRatingUpdated({
+      artist: album.artist,
+      album: album.name,
+      favorite,
+    });
+    const run = this.albumSaveQueue.then(async () => {
+      const saved = await saveAlbumNote({
+        userId: this.getActiveUserId(),
+        artist: album.artist,
+        album: album.name,
+        favorite,
+      });
+      const current = this.albumNotes().find(
+        (note) => note.artist === album.artist && note.album === album.name
+      );
+      if (!saved) {
+        if (current?.favorite === favorite) {
+          this.onAlbumRatingUpdated({
+            artist: album.artist,
+            album: album.name,
+            favorite: !favorite,
+          });
+        }
+        this.albumSaveErrorKey.set(key);
+      }
+    });
+    this.albumSaveQueue = run.then(
+      () => undefined,
+      () => undefined
+    );
+  }
+
   onAlbumCardRatingChange(album: Album, rating: number): void {
     if (!this.canEditQuotes() || rating === this.albumRating(album)) {
       return;
@@ -621,11 +670,28 @@ export class MusicsComponent implements OnInit {
       const index = notes.findIndex(
         (note) => note.artist === update.artist && note.album === update.album
       );
+      const next: UserAlbumNote =
+        index === -1
+          ? {
+              artist: update.artist,
+              album: update.album,
+              rating: update.rating ?? 0,
+              favorite: update.favorite ?? false,
+            }
+          : {
+              ...notes[index],
+              ...(update.rating !== undefined
+                ? { rating: update.rating }
+                : {}),
+              ...(update.favorite !== undefined
+                ? { favorite: update.favorite }
+                : {}),
+            };
       if (index === -1) {
-        return [...notes, update];
+        return [...notes, next];
       }
       return notes.map((note, noteIndex) =>
-        noteIndex === index ? { ...note, rating: update.rating } : note
+        noteIndex === index ? next : note
       );
     });
     const album = this.selectedAlbum();
@@ -634,7 +700,13 @@ export class MusicsComponent implements OnInit {
       album.artist === update.artist &&
       album.name === update.album
     ) {
-      this.selectedAlbum.set({ ...album, rating: update.rating });
+      this.selectedAlbum.set({
+        ...album,
+        ...(update.rating !== undefined ? { rating: update.rating } : {}),
+        ...(update.favorite !== undefined
+          ? { favorite: update.favorite }
+          : {}),
+      });
     }
   }
 

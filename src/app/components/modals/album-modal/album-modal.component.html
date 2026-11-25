@@ -12,17 +12,40 @@
             <p class="modal-stats">
               {{ album()!.musics.length }} titres • {{ formatAlbumDuration(album()!.totalDuration) }}
             </p>
-            @if (canEditQuotes() || album()!.rating > 0) {
-            <div class="album-rating">
-              <app-rating-stars
-                [rating]="album()!.rating"
-                [editable]="canEditQuotes()"
-                [disabled]="albumSaving()"
-                [label]="'Note de l\'album ' + album()!.name"
-                (ratingChange)="onAlbumRatingChange($event)"
-              />
-              @if (albumSaveError()) {
-              <span class="track-save-error">Enregistrement impossible</span>
+            @if (canEditQuotes() || album()!.rating > 0 || album()!.favorite) {
+            <div class="album-note">
+              @if (canEditQuotes() || album()!.favorite) {
+              <button
+                type="button"
+                class="album-favorite"
+                [class.is-favorite]="album()!.favorite"
+                [disabled]="!canEditQuotes() || albumSaving()"
+                [attr.aria-pressed]="album()!.favorite"
+                [attr.aria-label]="
+                  album()!.favorite
+                    ? 'Retirer ' + album()!.name + ' des albums favoris'
+                    : 'Mettre ' + album()!.name + ' en favori'
+                "
+                (click)="onFavoriteToggle()"
+              >
+                <span aria-hidden="true">{{
+                  album()!.favorite ? '♥' : '♡'
+                }}</span>
+              </button>
+              }
+              @if (canEditQuotes() || album()!.rating > 0) {
+              <div class="album-rating">
+                <app-rating-stars
+                  [rating]="album()!.rating"
+                  [editable]="canEditQuotes()"
+                  [disabled]="albumSaving()"
+                  [label]="'Note de l\'album ' + album()!.name"
+                  (ratingChange)="onAlbumRatingChange($event)"
+                />
+                @if (albumSaveError()) {
+                <span class="track-save-error">Enregistrement impossible</span>
+                }
+              </div>
               }
             </div>
             }
