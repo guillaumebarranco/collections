@@ -80,7 +80,12 @@ export const musicsNekfeu: UserMusic[] = [
     rating: 0,
     timesListened: 120,
     byHeart: true,
-    quotes: [],
+    quotes: [
+    {
+      quoteText: "Ce monde est défectueux pour un homme affectueux",
+      lastUpdated: "2026-11-24T18:08",
+    },
+  ],
   },
   {
     title: 'On verra',
