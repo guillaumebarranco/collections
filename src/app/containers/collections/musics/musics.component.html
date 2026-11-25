@@ -61,6 +61,8 @@
       <div class="music-card">
         <app-music
         [music]="music"
+        [showViewAlbum]="hasCatalogAlbum(music)"
+        (viewAlbum)="openStandaloneAlbum($event)"
         (quotesUpdated)="onMusicQuotesUpdated($event)"
         (musicUpdated)="onMusicDetailsUpdated($event)"
       ></app-music>
@@ -160,6 +162,21 @@
     Je veux ajouter des musiques
   </a>
 </app-mobile-collection-picker>
+}
+
+@if (standalonePreview(); as preview) {
+<app-album-preview-modal
+  [album]="preview"
+  [tracklistOpen]="standaloneTracklistOpen()"
+  [primaryLabel]="standalonePrimaryLabel()"
+  [primaryDisabled]="standalonePrimaryDisabled()"
+  [showPrimary]="canEditQuotes()"
+  [error]="standaloneAddError() ? 'Ajout impossible.' : null"
+  (closed)="closeStandaloneAlbum()"
+  (tracklistToggled)="toggleStandaloneTracklist()"
+  (trackToggled)="onStandaloneTrackToggle($event)"
+  (primary)="addStandaloneAlbum()"
+/>
 }
 
 <app-album-modal

@@ -31,6 +31,7 @@ import {
   getAllMusics,
 } from '../../../facades/musics/musics.facade';
 import {
+  addExistingMusics,
   fetchUserAlbumNotes,
   saveAlbumNote,
 } from '../../../facades/musics/api-musics.facade';
@@ -51,6 +52,11 @@ import { CanEditDirective } from '../../../directives/can-edit.directive';
 import { LoaderComponent } from '../../../components/shared/loader/loader.component';
 import { MobileCollectionPickerComponent } from '../../../components/shared/mobile-collection-picker/mobile-collection-picker.component';
 import { RatingStarsComponent } from '../../../components/shared/rating-stars/rating-stars.component';
+import {
+  AlbumPreviewModalComponent,
+  AlbumPreviewModel,
+  AlbumPreviewTrack,
+} from '../../../components/modals/album-preview-modal/album-preview-modal.component';
 import { pickMobileViewCovers } from '../../../utils/mobile-view-previews';
 
 @Component({
@@ -67,6 +73,7 @@ import { pickMobileViewCovers } from '../../../utils/mobile-view-previews';
     RouterLink,
     CanEditDirective,
     RatingStarsComponent,
+    AlbumPreviewModalComponent,
   ],
   templateUrl: './musics.component.html',
   styleUrls: ['./musics.component.scss'],
@@ -95,6 +102,11 @@ export class MusicsComponent implements OnInit {
   baseMusics = signal<BaseMusic[]>([]);
   readonly pendingAlbumRatings = signal<Record<string, number>>({});
   readonly albumSaveErrorKey = signal<string | null>(null);
+  readonly standaloneAlbumKey = signal<string | null>(null);
+  readonly standaloneTracklistOpen = signal(false);
+  readonly standaloneSelection = signal<ReadonlySet<string>>(new Set());
+  readonly standaloneAdding = signal(false);
+  readonly standaloneAddError = signal(false);
   private albumSaveQueue: Promise<void> = Promise.resolve();
 
   filterOptions = musicFilterOptions;
@@ -485,6 +497,144 @@ export class MusicsComponent implements OnInit {
     // Tri par nombre d'écoutes (du plus écouté au moins écouté)
     return sorted.sort((a, b) => b.timesListened - a.timesListened);
   });
+
+  hasCatalogAlbum(music: Music): boolean {
+    if (!music.album || music.album === 'Unknown') {
+      return false;
+    }
+    return this.catalogAlbumTitles().has(`${music.album}|${music.artist}`);
+  }
+
+  openStandaloneAlbum(music: Music): void {
+    if (!this.hasCatalogAlbum(music)) {
+      return;
+    }
+    this.standaloneAlbumKey.set(`${music.album}|${music.artist}`);
+    this.standaloneTracklistOpen.set(true);
+    this.standaloneSelection.set(new Set());
+    this.standaloneAddError.set(false);
+  }
+
+  closeStandaloneAlbum(): void {
+    this.standaloneAlbumKey.set(null);
+    this.standaloneTracklistOpen.set(false);
+    this.standaloneSelection.set(new Set());
+    this.standaloneAddError.set(false);
+  }
+
+  toggleStandaloneTracklist(): void {
+    this.standaloneTracklistOpen.update((open) => !open);
+  }
+
+  standalonePreview = computed((): AlbumPreviewModel | null => {
+    const key = this.standaloneAlbumKey();
+    if (!key) {
+      return null;
+    }
+    const tracks = sortAlbumTracks(
+      this.baseMusics().filter(
+        (music) => `${music.album}|${music.artist}` === key
+      )
+    );
+    if (tracks.length === 0) {
+      return null;
+    }
+    const owned = new Set(
+      this.allMusics()
+        .filter((music) => `${music.album}|${music.artist}` === key)
+        .map((music) => `${music.title}|${music.artist}`)
+    );
+    const selected = this.standaloneSelection();
+    const canEdit = this.canEditQuotes();
+    const [album, artist] = key.split('|');
+    const cover =
+      tracks.find((music) => {
+        const url = music.coverUrl?.toLowerCase() ?? '';
+        return url && !url.includes('default') && !url.includes('placeholder');
+      })?.coverUrl || tracks[0].coverUrl;
+    return {
+      album,
+      artist,
+      coverUrl: cover,
+      tracks: tracks.map((music) => {
+        const id = `${music.title}|${music.artist}`;
+        const isOwned = owned.has(id);
+        return {
+          title: music.title,
+          artist: music.artist,
+          selected: isOwned || selected.has(id),
+          disabled: isOwned || !canEdit,
+        };
+      }),
+    };
+  });
+
+  standalonePrimaryLabel = computed(() => {
+    const preview = this.standalonePreview();
+    if (!preview) {
+      return "Ajouter l'album entier";
+    }
+    const missing = preview.tracks.filter((track) => !track.disabled);
+    const chosen = missing.filter((track) => track.selected);
+    if (chosen.length > 0 && chosen.length < missing.length) {
+      return `Ajouter la sélection (${chosen.length})`;
+    }
+    return "Ajouter l'album entier";
+  });
+
+  standalonePrimaryDisabled = computed(() => {
+    const preview = this.standalonePreview();
+    if (!preview || this.standaloneAdding()) {
+      return true;
+    }
+    return preview.tracks.every((track) => track.disabled);
+  });
+
+  onStandaloneTrackToggle(track: AlbumPreviewTrack): void {
+    if (track.disabled || this.standaloneAdding()) {
+      return;
+    }
+    const id = `${track.title}|${track.artist}`;
+    this.standaloneSelection.update((current) => {
+      const next = new Set(current);
+      if (next.has(id)) {
+        next.delete(id);
+      } else {
+        next.add(id);
+      }
+      return next;
+    });
+  }
+
+  async addStandaloneAlbum(): Promise<void> {
+    const preview = this.standalonePreview();
+    if (
+      !preview ||
+      !this.canEditQuotes() ||
+      this.standaloneAdding() ||
+      this.standalonePrimaryDisabled()
+    ) {
+      return;
+    }
+    const missing = preview.tracks.filter((track) => !track.disabled);
+    const chosen = missing.filter((track) => track.selected);
+    const toAdd = (
+      chosen.length > 0 && chosen.length < missing.length ? chosen : missing
+    ).map((track) => ({ title: track.title, artist: track.artist }));
+    this.standaloneAdding.set(true);
+    this.standaloneAddError.set(false);
+    const saved = await addExistingMusics({
+      userId: this.getActiveUserId(),
+      musics: toAdd,
+    });
+    this.standaloneAdding.set(false);
+    if (!saved) {
+      this.standaloneAddError.set(true);
+      return;
+    }
+    this.closeStandaloneAlbum();
+    await this.refreshMusics();
+  }
 
   openAlbumModal(album: Album) {
     this.selectedAlbum.set(album);

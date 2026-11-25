@@ -1,4 +1,4 @@
-import { Component, signal, computed, HostListener, OnInit } from '@angular/core';
+import { Component, signal, computed, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MenuComponent } from '../../../../components/menu/menu.component';
 import { ViewToggleComponent } from '../../../../components/shared/view-toggle/view-toggle.component';
@@ -11,6 +11,11 @@ import { SelectEntitiesComponent } from '../../select-base.component';
 import { getApiBaseUrl } from '../../../../core/config';
 import { normalizeSearchText } from '../../../../utils/normalize-search-text';
 import { sortAlbumTracks } from '../../../collections/musics/musics.utils';
+import {
+  AlbumPreviewModalComponent,
+  AlbumPreviewModel,
+  AlbumPreviewTrack,
+} from '../../../../components/modals/album-preview-modal/album-preview-modal.component';
 
 interface SelectableAlbum {
   key: string;
@@ -22,7 +27,12 @@ interface SelectableAlbum {
 
 @Component({
   selector: 'app-select-musics',
-  imports: [CommonModule, MenuComponent, ViewToggleComponent],
+  imports: [
+    CommonModule,
+    MenuComponent,
+    ViewToggleComponent,
+    AlbumPreviewModalComponent,
+  ],
   templateUrl: './select-musics.component.html',
   styleUrls: ['./select-musics.component.scss'],
 })
@@ -134,6 +144,30 @@ export class SelectMusicsComponent
     };
   });
 
+  previewModel = computed((): AlbumPreviewModel | null => {
+    const album = this.openedAlbum();
+    if (!album) return null;
+    return {
+      album: album.album,
+      artist: album.artist,
+      coverUrl: album.coverUrl,
+      tracks: album.musics.map((music) => ({
+        title: music.title,
+        artist: music.artist,
+        selected: this.isSelected(music),
+        disabled: false,
+      })),
+    };
+  });
+
+  previewPrimaryLabel = computed(() => {
+    const album = this.openedAlbum();
+    if (!album) return "Sélectionner tout l'album";
+    return this.isAlbumSelected(album.key)
+      ? "Désélectionner tout l'album"
+      : "Sélectionner tout l'album";
+  });
+
   // Vérifier si une musique est sélectionnée
   isSelected(music: Music): boolean {
     return this.selectedMusics().has(this.getMusicKey(music));
@@ -183,10 +217,12 @@ export class SelectMusicsComponent
     this.closeAlbumPreview();
   }
 
-  @HostListener('document:keydown.escape')
-  onEscape(): void {
-    if (this.openedAlbumKey()) {
-      this.closeAlbumPreview();
+  onPreviewTrackToggle(track: AlbumPreviewTrack): void {
+    const music = this.openedAlbum()?.musics.find(
+      (item) => item.title === track.title && item.artist === track.artist
+    );
+    if (music) {
+      this.toggleSelection(music);
     }
   }
 

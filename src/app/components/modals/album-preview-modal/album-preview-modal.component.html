@@ -1,0 +1,75 @@
+<div class="album-preview-overlay" (click)="closed.emit()">
+  <div
+    class="album-preview"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="album-preview-title"
+    (click)="$event.stopPropagation()"
+  >
+    <button
+      type="button"
+      class="album-preview-close"
+      (click)="closed.emit()"
+      aria-label="Fermer"
+    >
+      ✕
+    </button>
+    <div class="album-preview-header">
+      <img
+        [src]="album().coverUrl || '/musics_pictures/default.jpg'"
+        [alt]="album().album"
+      />
+      <div>
+        <h2 id="album-preview-title">{{ album().album }}</h2>
+        <p>{{ album().artist }}</p>
+        <p class="album-preview-count">{{ album().tracks.length }} titres</p>
+      </div>
+    </div>
+
+    <button
+      type="button"
+      class="album-preview-tracklist-toggle"
+      (click)="tracklistToggled.emit()"
+      [attr.aria-expanded]="tracklistOpen()"
+    >
+      {{ tracklistOpen() ? "Masquer la tracklist" : "Voir la tracklist" }}
+    </button>
+
+    @if (tracklistOpen()) {
+    <ol class="album-preview-tracks">
+      @for (music of album().tracks; track music.title + "-" + music.artist) {
+      <li>
+        <span class="album-preview-track-title">{{ music.title }}</span>
+        <label class="album-preview-track-select">
+          <input
+            type="checkbox"
+            [checked]="music.selected"
+            [disabled]="music.disabled || primaryDisabled()"
+            [attr.aria-label]="
+              music.disabled
+                ? music.title + ' déjà ajoutée'
+                : 'Sélectionner ' + music.title
+            "
+            (change)="trackToggled.emit(music)"
+          />
+        </label>
+      </li>
+      }
+    </ol>
+    }
+
+    @if (showPrimary()) {
+    <button
+      type="button"
+      class="makya-btn-big"
+      [disabled]="primaryDisabled()"
+      (click)="primary.emit()"
+    >
+      {{ primaryLabel() }}
+    </button>
+    }
+    @if (error()) {
+    <p class="album-preview-error">{{ error() }}</p>
+    }
+  </div>
+</div>

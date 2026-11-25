@@ -126,70 +126,15 @@
     <ng-container *ngTemplateOutlet="selectionSummaryBand" />
   </div>
 
-  @if (openedAlbum(); as album) {
-  <div class="album-preview-overlay" (click)="closeAlbumPreview()">
-    <div
-      class="album-preview"
-      role="dialog"
-      aria-modal="true"
-      aria-labelledby="album-preview-title"
-      (click)="$event.stopPropagation()"
-    >
-      <button
-        type="button"
-        class="album-preview-close"
-        (click)="closeAlbumPreview()"
-        aria-label="Fermer"
-      >
-        ✕
-      </button>
-      <div class="album-preview-header">
-        <img
-          [src]="album.coverUrl || '/musics_pictures/default.jpg'"
-          [alt]="album.album"
-        />
-        <div>
-          <h2 id="album-preview-title">{{ album.album }}</h2>
-          <p>{{ album.artist }}</p>
-          <p class="album-preview-count">{{ album.musics.length }} titres</p>
-        </div>
-      </div>
-
-      <button
-        type="button"
-        class="album-preview-tracklist-toggle"
-        (click)="toggleTracklist()"
-        [attr.aria-expanded]="tracklistOpen()"
-      >
-        {{ tracklistOpen() ? "Masquer la tracklist" : "Voir la tracklist" }}
-      </button>
-
-      @if (tracklistOpen()) {
-      <ol class="album-preview-tracks">
-        @for (music of album.musics; track music.title + "-" + music.artist) {
-        <li>
-          <span class="album-preview-track-title">{{ music.title }}</span>
-          <label class="album-preview-track-select">
-            <input
-              type="checkbox"
-              [checked]="isSelected(music)"
-              [attr.aria-label]="'Sélectionner ' + music.title"
-              (change)="toggleSelection(music)"
-            />
-          </label>
-        </li>
-        }
-      </ol>
-      }
-
-      <button type="button" class="makya-btn-big" (click)="selectOpenedAlbum()">
-        {{
-          isAlbumSelected(album.key)
-            ? "Désélectionner tout l'album"
-            : "Sélectionner tout l'album"
-        }}
-      </button>
-    </div>
-  </div>
+  @if (previewModel(); as album) {
+  <app-album-preview-modal
+    [album]="album"
+    [tracklistOpen]="tracklistOpen()"
+    [primaryLabel]="previewPrimaryLabel()"
+    (closed)="closeAlbumPreview()"
+    (tracklistToggled)="toggleTracklist()"
+    (trackToggled)="onPreviewTrackToggle($event)"
+    (primary)="selectOpenedAlbum()"
+  />
   }
 </div>

@@ -17,6 +17,11 @@
       }
     </p>
     <p class="music-album">{{ music().album }}</p>
+    @if (showViewAlbum() && music().album && music().album !== 'Unknown') {
+    <button type="button" class="music-view-album" (click)="viewAlbum.emit(music())">
+      Voir l'album
+    </button>
+    }
 
     @if (music().quotes.length > 0 && !isBaseEntityView) {
     <app-entity-quotes [quotes]="music().quotes" />

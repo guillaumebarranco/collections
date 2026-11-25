@@ -80,6 +80,22 @@ export async function saveMusicDetails(payload: {
   }
 }
 
+export async function addExistingMusics(payload: {
+  userId: string;
+  musics: { title: string; artist: string }[];
+}): Promise<boolean> {
+  try {
+    const response = await fetch(`${getApiBaseUrl()}/musics/add-existing`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload),
+    });
+    return response.ok;
+  } catch {
+    return false;
+  }
+}
+
 export async function fetchBaseMusicsFromApi(): Promise<BaseMusic[]> {
   const response = await fetch(`${getApiBaseUrl()}/musics/entities`);
   if (!response.ok) {

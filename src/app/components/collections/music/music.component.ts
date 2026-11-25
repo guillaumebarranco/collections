@@ -35,8 +35,10 @@ export class MusicComponent {
   private readonly activatedRoute = inject(ActivatedRoute);
 
   music = input.required<Music>();
+  showViewAlbum = input(false);
   quotesUpdated = output<MusicQuotesModalResult & { title: string; artist: string }>();
   musicUpdated = output<MusicDetailsUpdate>();
+  viewAlbum = output<Music>();
   isBaseEntityView = isBaseEntityView();
   readonly isSaving = signal(false);
   readonly saveError = signal(false);
