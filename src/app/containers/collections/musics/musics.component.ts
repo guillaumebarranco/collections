@@ -20,6 +20,7 @@ import {
   AlbumModalComponent,
   Album,
   AlbumRatingUpdate,
+  AlbumTrackRow,
   MusicDetailsUpdate,
 } from '../../../components/modals/album-modal/album-modal.component';
 import { BaseMusic, Music, UserAlbumNote } from '../../../models/music-model';
@@ -40,6 +41,7 @@ import {
   defaultMusicFilter,
   getSortedMusics,
   sortAlbumTracks,
+  MIN_SONGS_PER_ALBUM,
   ownsAlbumMajority,
   TIMES_LISTENED_FOR_POPULAR,
   musicFilterOptions,
@@ -224,6 +226,9 @@ export class MusicsComponent implements OnInit {
       const displayedMusics = this.onlyByHeart()
         ? filteredMusics
         : allAlbumMusics;
+      if (displayedMusics.length < MIN_SONGS_PER_ALBUM) {
+        return;
+      }
       const [albumName, artist] = key.split('|');
       const note = this.albumNotes().find(
         (item) => item.album === albumName && item.artist === artist
@@ -493,9 +498,34 @@ export class MusicsComponent implements OnInit {
   }
 
   sortedStandaloneMusics = computed<Music[]>(() => {
-    const sorted = [...this.standaloneMusics()];
-    // Tri par nombre d'écoutes (du plus écouté au moins écouté)
-    return sorted.sort((a, b) => b.timesListened - a.timesListened);
+    const musics = this.standaloneMusics();
+    const maxListensByArtist = new Map<string, number>();
+    for (const music of musics) {
+      const current = maxListensByArtist.get(music.artist) ?? 0;
+      if (music.timesListened > current) {
+        maxListensByArtist.set(music.artist, music.timesListened);
+      }
+    }
+    return [...musics].sort((a, b) => {
+      const listens =
+        (maxListensByArtist.get(b.artist) ?? 0) -
+        (maxListensByArtist.get(a.artist) ?? 0);
+      if (listens !== 0) return listens;
+      const artist = a.artist.localeCompare(b.artist, 'fr', {
+        sensitivity: 'base',
+      });
+      if (artist !== 0) return artist;
+      const album = a.album.localeCompare(b.album, 'fr', { sensitivity: 'base' });
+      if (album !== 0) return album;
+      const aTrack = a.albumTrackId ?? 0;
+      const bTrack = b.albumTrackId ?? 0;
+      if (aTrack !== bTrack) {
+        if (aTrack === 0) return 1;
+        if (bTrack === 0) return -1;
+        return aTrack - bTrack;
+      }
+      return a.title.localeCompare(b.title, 'fr', { sensitivity: 'base' });
+    });
   });
 
   hasCatalogAlbum(music: Music): boolean {
@@ -636,6 +666,65 @@ export class MusicsComponent implements OnInit {
     await this.refreshMusics();
   }
 
+  openAlbumTracks = computed((): AlbumTrackRow[] => {
+    const album = this.selectedAlbum();
+    if (!album) {
+      return [];
+    }
+    const key = `${album.name}|${album.artist}`;
+    const owned = new Map<string, Music>();
+    for (const music of this.allMusics()) {
+      if (`${music.album}|${music.artist}` !== key) {
+        continue;
+      }
+      owned.set(`${music.title}|${music.artist}`, music);
+    }
+    const seen = new Set<string>();
+    const rows: Array<{
+      title: string;
+      artist: string;
+      duration: number;
+      albumTrackId: number;
+      music: Music | null;
+    }> = [];
+    for (const base of this.baseMusics()) {
+      if (`${base.album}|${base.artist}` !== key) {
+        continue;
+      }
+      const id = `${base.title}|${base.artist}`;
+      seen.add(id);
+      const music = owned.get(id) ?? null;
+      rows.push({
+        title: base.title,
+        artist: base.artist,
+        duration: music?.duration || base.duration,
+        albumTrackId: music?.albumTrackId || base.albumTrackId,
+        music,
+      });
+    }
+    for (const music of owned.values()) {
+      const id = `${music.title}|${music.artist}`;
+      if (seen.has(id)) {
+        continue;
+      }
+      rows.push({
+        title: music.title,
+        artist: music.artist,
+        duration: music.duration,
+        albumTrackId: music.albumTrackId ?? 0,
+        music,
+      });
+    }
+    return sortAlbumTracks(rows).map((row, index) => ({
+      key: `${row.title}|${row.artist}`,
+      title: row.title,
+      artist: row.artist,
+      duration: row.duration,
+      number: row.albumTrackId > 0 ? row.albumTrackId : index + 1,
+      music: row.music,
+    }));
+  });
+
   openAlbumModal(album: Album) {
     this.selectedAlbum.set(album);
     this.isAlbumModalOpen.set(true);
@@ -644,6 +733,10 @@ export class MusicsComponent implements OnInit {
   closeAlbumModal() {
     this.isAlbumModalOpen.set(false);
     this.selectedAlbum.set(null);
+  }
+
+  async onAlbumTracksAdded(): Promise<void> {
+    await this.refreshMusics();
   }
 
   activeUserId(): string {

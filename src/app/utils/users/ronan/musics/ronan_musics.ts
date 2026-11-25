@@ -50,7 +50,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Perdu d\'avance',
+    title: "Perdu d'avance",
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
@@ -106,7 +106,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'La peur de l\'échec (feat. Ron Thal)',
+    title: "La peur de l'échec (feat. Ron Thal)",
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
@@ -130,7 +130,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Plus rien ne m\'étonne',
+    title: "Plus rien ne m'étonne",
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
@@ -330,7 +330,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Quand est-ce que ça s\'arrête',
+    title: "Quand est-ce que ça s'arrête",
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
@@ -450,7 +450,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'L\'odeur de l\'essence',
+    title: "L'odeur de l'essence",
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
@@ -714,7 +714,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Tellement d\'amis',
+    title: "Tellement d'amis",
     artist: 'Orelsan',
     rating: 0,
     timesListened: 1,
@@ -786,7 +786,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'J\'ai changé',
+    title: "J'ai changé",
     artist: 'Disiz La Peste',
     rating: 0,
     timesListened: 1,
@@ -842,7 +842,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Pour l\'homme',
+    title: "Pour l'homme",
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
@@ -914,7 +914,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'C\'est ma tournée',
+    title: "C'est ma tournée",
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
@@ -930,7 +930,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Salauds d\'pauvres',
+    title: "Salauds d'pauvres",
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
@@ -1186,7 +1186,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Un jour j\'ai fait un tag',
+    title: "Un jour j'ai fait un tag",
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
@@ -1258,7 +1258,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'On s\'comprend pas',
+    title: "On s'comprend pas",
     artist: 'Disiz',
     rating: 0,
     timesListened: 1,
@@ -1346,7 +1346,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'C\'est qui ces deux-là ?',
+    title: "C'est qui ces deux-là ?",
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
@@ -1354,7 +1354,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Comme d\'hab',
+    title: "Comme d'hab",
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
@@ -1378,7 +1378,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'J\'attends la vague (solo Bigflo)',
+    title: "J'attends la vague (solo Bigflo)",
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
@@ -1402,7 +1402,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Aujourd\'hui',
+    title: "Aujourd'hui",
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
@@ -1458,7 +1458,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'C\'est pas du rap…',
+    title: "C'est pas du rap…",
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
@@ -1482,7 +1482,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Début d\'empire',
+    title: "Début d'empire",
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
@@ -1490,7 +1490,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Demain c\'est nous',
+    title: "Demain c'est nous",
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
@@ -1506,7 +1506,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Du disque dur au disque d\'or',
+    title: "Du disque dur au disque d'or",
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
@@ -1514,7 +1514,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'C\'est que le début',
+    title: "C'est que le début",
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
@@ -1778,7 +1778,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'C\'est que du rap',
+    title: "C'est que du rap",
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
@@ -1810,7 +1810,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'La vie d\'après',
+    title: "La vie d'après",
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
@@ -1818,7 +1818,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'J\'étais pas là',
+    title: "J'étais pas là",
     artist: 'Bigflo & Oli',
     rating: 0,
     timesListened: 1,
@@ -2090,7 +2090,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Rêve d\'avoir des rêves',
+    title: "Rêve d'avoir des rêves",
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
@@ -2154,7 +2154,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Jeux d\'ombres',
+    title: "Jeux d'ombres",
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
@@ -2186,7 +2186,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Point d\'interrogation',
+    title: "Point d'interrogation",
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
@@ -2378,7 +2378,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'L\'Air du temps',
+    title: "L'Air du temps",
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
@@ -2410,7 +2410,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Dans l\'univers',
+    title: "Dans l'univers",
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
@@ -2562,7 +2562,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Chanson d\'amour',
+    title: "Chanson d'amour",
     artist: 'Nekfeu',
     rating: 0,
     timesListened: 1,
@@ -2586,7 +2586,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'L\'Amour',
+    title: "L'Amour",
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
@@ -2602,7 +2602,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'J\'ai changé',
+    title: "J'ai changé",
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
@@ -2642,7 +2642,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'L\'enfer c\'est les autres',
+    title: "L'enfer c'est les autres",
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
@@ -2674,7 +2674,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Tout l\'amour du monde',
+    title: "Tout l'amour du monde",
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
@@ -2682,7 +2682,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Dreamin\'',
+    title: "Dreamin'",
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
@@ -2738,7 +2738,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Où est l\'amour ?',
+    title: "Où est l'amour ?",
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
@@ -2762,7 +2762,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Maman m\'a dit',
+    title: "Maman m'a dit",
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
@@ -2890,7 +2890,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'M\'en aller',
+    title: "M'en aller",
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
@@ -2898,7 +2898,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Avoir de l\'argent',
+    title: "Avoir de l'argent",
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
@@ -2906,7 +2906,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Les sentiments à l\'envers',
+    title: "Les sentiments à l'envers",
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
@@ -2954,7 +2954,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Le jour où j\'ai arrêté le rap',
+    title: "Le jour où j'ai arrêté le rap",
     artist: 'Youssoupha',
     rating: 0,
     timesListened: 1,
@@ -3218,7 +3218,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: '16h00 - Tu m\'dois d\'l\'oseille',
+    title: "16h00 - Tu m'dois d'l'oseille",
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 1,
@@ -3314,7 +3314,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: '03h53 - Manger c\'est tricher',
+    title: "03h53 - Manger c'est tricher",
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 1,
@@ -3354,7 +3354,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'À l\'heure où je me couche',
+    title: "À l'heure où je me couche",
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 1,
@@ -3362,7 +3362,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Quand ton père t\'engueule',
+    title: "Quand ton père t'engueule",
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 1,
@@ -3378,7 +3378,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Faut qu\'on rentre bosser',
+    title: "Faut qu'on rentre bosser",
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 1,
@@ -3402,7 +3402,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'C\'est toujours 2 connards dans un abribus',
+    title: "C'est toujours 2 connards dans un abribus",
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 1,
@@ -3410,7 +3410,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Pas n\'importe quel toon',
+    title: "Pas n'importe quel toon",
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 1,
@@ -3418,7 +3418,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'J\'essaye, j\'essaye',
+    title: "J'essaye, j'essaye",
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 1,
@@ -3450,7 +3450,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'On est resté à l\'hôtel',
+    title: "On est resté à l'hôtel",
     artist: 'Casseurs Flowters',
     rating: 0,
     timesListened: 1,
@@ -3538,7 +3538,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Y\'a pas de mérite',
+    title: "Y'a pas de mérite",
     artist: 'Sniper',
     rating: 0,
     timesListened: 1,
@@ -3554,7 +3554,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Ce que j\'ai sur le cœur',
+    title: "Ce que j'ai sur le cœur",
     artist: 'Sniper',
     rating: 0,
     timesListened: 1,
@@ -3674,7 +3674,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'La France (itinéraire d\'une polémique) (solo Tunisiano)',
+    title: "La France (itinéraire d'une polémique) (solo Tunisiano)",
     artist: 'Sniper',
     rating: 0,
     timesListened: 1,
@@ -3738,7 +3738,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'L\'École du micro d\'argent',
+    title: "L'École du micro d'argent",
     artist: 'IAM',
     rating: 0,
     timesListened: 1,
@@ -3786,7 +3786,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'L\'Empire du côté obscur',
+    title: "L'Empire du côté obscur",
     artist: 'IAM',
     rating: 0,
     timesListened: 1,
@@ -3802,7 +3802,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'L\'Enfer',
+    title: "L'Enfer",
     artist: 'IAM',
     rating: 0,
     timesListened: 1,
@@ -3858,7 +3858,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Demain, c\'est loin',
+    title: "Demain, c'est loin",
     artist: 'IAM',
     rating: 0,
     timesListened: 1,
@@ -3930,7 +3930,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'L\'Amour qu\'on me donne',
+    title: "L'Amour qu'on me donne",
     artist: 'IAM',
     rating: 0,
     timesListened: 1,
@@ -3994,7 +3994,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Dernier coup d\'éclat',
+    title: "Dernier coup d'éclat",
     artist: 'IAM',
     rating: 0,
     timesListened: 1,
@@ -4010,7 +4010,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'J\'suis Blanc',
+    title: "J'suis Blanc",
     artist: 'Kamini',
     rating: 0,
     timesListened: 1,
@@ -4058,7 +4058,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'J\'étais comme eux (feat. Demon One)',
+    title: "J'étais comme eux (feat. Demon One)",
     artist: 'Soprano',
     rating: 0,
     timesListened: 1,
@@ -4106,7 +4106,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Vent d\'État',
+    title: "Vent d'État",
     artist: 'Kery James',
     rating: 0,
     timesListened: 1,
@@ -4114,7 +4114,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'À l\'horizon (feat. Corneille)',
+    title: "À l'horizon (feat. Corneille)",
     artist: 'Kery James',
     rating: 0,
     timesListened: 1,
@@ -4122,7 +4122,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Y\'a rien (feat. Niro)',
+    title: "Y'a rien (feat. Niro)",
     artist: 'Kery James',
     rating: 0,
     timesListened: 1,
@@ -4146,7 +4146,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: '94 c\'est le Barça',
+    title: "94 c'est le Barça",
     artist: 'Kery James',
     rating: 0,
     timesListened: 1,
@@ -4242,7 +4242,8 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Dernier MC Remix pt. 1 (feat. Lino, Tunisiano, REDK, Médine, 2e France, Scylla, Ladea, Fababy, Orelsan)',
+    title:
+      'Dernier MC Remix pt. 1 (feat. Lino, Tunisiano, REDK, Médine, 2e France, Scylla, Ladea, Fababy, Orelsan)',
     artist: 'Kery James',
     rating: 0,
     timesListened: 1,
@@ -4298,7 +4299,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Quand j\'étais petit',
+    title: "Quand j'étais petit",
     artist: 'Kik',
     rating: 0,
     timesListened: 1,
@@ -4322,7 +4323,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'T\'es la meilleure',
+    title: "T'es la meilleure",
     artist: 'Kik',
     rating: 0,
     timesListened: 1,
@@ -4394,7 +4395,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'L\'histoire commence comme ça',
+    title: "L'histoire commence comme ça",
     artist: 'Kik',
     rating: 0,
     timesListened: 1,
@@ -4466,7 +4467,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Interlude : l\'enveloppe verte',
+    title: "Interlude : l'enveloppe verte",
     artist: 'Kik',
     rating: 0,
     timesListened: 1,
@@ -4514,7 +4515,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'L\'anniversaire de Julie (feat. Rubi)',
+    title: "L'anniversaire de Julie (feat. Rubi)",
     artist: 'Kik',
     rating: 0,
     timesListened: 1,
@@ -4594,7 +4595,8 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Ce matin va être une pure soirée (feat. Big Ali, PZK, Dogg SoSo, Chris Prolls)',
+    title:
+      'Ce matin va être une pure soirée (feat. Big Ali, PZK, Dogg SoSo, Chris Prolls)',
     artist: 'Fatal Bazooka',
     rating: 0,
     timesListened: 1,
@@ -4602,7 +4604,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Intro : T\'as vu',
+    title: "Intro : T'as vu",
     artist: 'Fatal Bazooka',
     rating: 0,
     timesListened: 1,
@@ -4626,7 +4628,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'J\'aime trop ton boule',
+    title: "J'aime trop ton boule",
     artist: 'Fatal Bazooka',
     rating: 0,
     timesListened: 1,
@@ -4706,7 +4708,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'C\'est une pute !',
+    title: "C'est une pute !",
     artist: 'Fatal Bazooka',
     rating: 0,
     timesListened: 1,
@@ -4755,7 +4757,7 @@ export const ronanMusics: UserMusic[] = [
   },
   {
     title: 'La Boulette (Génération nan nan)',
-    artist: 'Diam\'s',
+    artist: "Diam's",
     rating: 0,
     timesListened: 1,
     byHeart: false,
@@ -4763,7 +4765,7 @@ export const ronanMusics: UserMusic[] = [
   },
   {
     title: 'Jeune Demoiselle',
-    artist: 'Diam\'s',
+    artist: "Diam's",
     rating: 0,
     timesListened: 1,
     byHeart: false,
@@ -4771,7 +4773,7 @@ export const ronanMusics: UserMusic[] = [
   },
   {
     title: 'Marine',
-    artist: 'Diam\'s',
+    artist: "Diam's",
     rating: 0,
     timesListened: 1,
     byHeart: false,
@@ -4779,7 +4781,7 @@ export const ronanMusics: UserMusic[] = [
   },
   {
     title: 'Dans ma bulle',
-    artist: 'Diam\'s',
+    artist: "Diam's",
     rating: 0,
     timesListened: 1,
     byHeart: false,
@@ -4787,7 +4789,7 @@ export const ronanMusics: UserMusic[] = [
   },
   {
     title: 'Confessions nocturnes',
-    artist: 'Diam\'s',
+    artist: "Diam's",
     rating: 0,
     timesListened: 1,
     byHeart: false,
@@ -4795,7 +4797,7 @@ export const ronanMusics: UserMusic[] = [
   },
   {
     title: 'Petite banlieusarde',
-    artist: 'Diam\'s',
+    artist: "Diam's",
     rating: 0,
     timesListened: 1,
     byHeart: false,
@@ -4914,7 +4916,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'L\'Aziza',
+    title: "L'Aziza",
     artist: 'Daniel Balavoine',
     rating: 0,
     timesListened: 1,
@@ -5058,7 +5060,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'J\'entends',
+    title: "J'entends",
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
@@ -5082,7 +5084,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Bruxelles je t\'aime',
+    title: "Bruxelles je t'aime",
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
@@ -5098,7 +5100,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'On s\'habitue',
+    title: "On s'habitue",
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
@@ -5178,7 +5180,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Je t\'aimais, je t\'aime, je t\'aimerai',
+    title: "Je t'aimais, je t'aime, je t'aimerai",
     artist: 'Francis Cabrel',
     rating: 0,
     timesListened: 1,
@@ -5186,7 +5188,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Je l\'aime à mourir',
+    title: "Je l'aime à mourir",
     artist: 'Francis Cabrel',
     rating: 0,
     timesListened: 1,
@@ -5210,7 +5212,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'J\'ai demandé à la lune',
+    title: "J'ai demandé à la lune",
     artist: 'Indochine',
     rating: 0,
     timesListened: 1,
@@ -5218,7 +5220,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'L\'aventurier',
+    title: "L'aventurier",
     artist: 'Indochine',
     rating: 0,
     timesListened: 1,
@@ -5274,7 +5276,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Parce qu\'on vient de loin',
+    title: "Parce qu'on vient de loin",
     artist: 'Corneille',
     rating: 0,
     timesListened: 1,
@@ -5330,7 +5332,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'L\'Hymne de nos campagnes',
+    title: "L'Hymne de nos campagnes",
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
@@ -5378,7 +5380,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'J\'aime les moches',
+    title: "J'aime les moches",
     artist: 'Max Boublil',
     rating: 0,
     timesListened: 1,
@@ -5386,7 +5388,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Mon coloc\'',
+    title: "Mon coloc'",
     artist: 'Max Boublil',
     rating: 0,
     timesListened: 1,
@@ -5402,7 +5404,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'J\'aimerais tellement',
+    title: "J'aimerais tellement",
     artist: 'Jena Lee',
     rating: 0,
     timesListened: 1,
@@ -5594,7 +5596,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Bad - 2012 Remaster',
+    title: 'Bad',
     artist: 'Michael Jackson',
     rating: 0,
     timesListened: 1,
@@ -5626,7 +5628,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Can\'t Hold Us (feat. Ray Dalton)',
+    title: "Can't Hold Us (feat. Ray Dalton)",
     artist: 'Macklemore & Ryan Lewis',
     rating: 0,
     timesListened: 1,
@@ -5642,7 +5644,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Can\'t Hold Us (feat. Ray Dalton)',
+    title: "Can't Hold Us (feat. Ray Dalton)",
     artist: 'Macklemore',
     rating: 0,
     timesListened: 1,
@@ -5690,7 +5692,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Don\'t Stop Me Now',
+    title: "Don't Stop Me Now",
     artist: 'Queen',
     rating: 0,
     timesListened: 1,
@@ -6074,7 +6076,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'You Gon\' Learn',
+    title: "You Gon' Learn",
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
@@ -6314,7 +6316,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Old Time\'s Sake',
+    title: "Old Time's Sake",
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
@@ -6386,7 +6388,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Talkin\' 2 Myself',
+    title: "Talkin' 2 Myself",
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
@@ -6402,7 +6404,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Won\'t Back Down',
+    title: "Won't Back Down",
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
@@ -6498,7 +6500,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'You\'re Never Over',
+    title: "You're Never Over",
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
@@ -6698,7 +6700,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: '\'97 Bonnie and Clyde',
+    title: "'97 Bonnie and Clyde",
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
@@ -6762,7 +6764,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Just Don\'t Give a Fuck',
+    title: "Just Don't Give a Fuck",
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
@@ -6786,7 +6788,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'I\'m Shady',
+    title: "I'm Shady",
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
@@ -6802,7 +6804,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Still Don\'t Give a Fuck',
+    title: "Still Don't Give a Fuck",
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
@@ -6882,7 +6884,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'I\'m Back',
+    title: "I'm Back",
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
@@ -6978,7 +6980,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Cleanin\' Out My Closet',
+    title: "Cleanin' Out My Closet",
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
@@ -7058,7 +7060,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Hailie\'s Song',
+    title: "Hailie's Song",
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
@@ -7090,7 +7092,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: '\'Till I Collapse',
+    title: "'Till I Collapse",
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
@@ -7098,7 +7100,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'My Dad\'s Gone Crazy',
+    title: "My Dad's Gone Crazy",
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
@@ -7379,7 +7381,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Hedwig\'s Theme',
+    title: "Hedwig's Theme",
     artist: 'John Williams',
     rating: 0,
     timesListened: 1,
@@ -7491,7 +7493,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Lily\'s Theme',
+    title: "Lily's Theme",
     artist: 'Alexandre Desplat',
     rating: 0,
     timesListened: 1,
@@ -7515,15 +7517,15 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Ezio\'s Family',
-    artist: 'Jesper Kyd, Assassin\'s Creed',
+    title: "Ezio's Family",
+    artist: "Jesper Kyd, Assassin's Creed",
     rating: 0,
     timesListened: 1,
     byHeart: false,
     quotes: [],
   },
   {
-    title: 'Uncharted, Drake\'s Fortune: Nate\'s Theme',
+    title: "Uncharted, Drake's Fortune: Nate's Theme",
     artist: 'Greg Edmonson, Andrew Skeet, London Philharmonic Orchestra',
     rating: 0,
     timesListened: 1,
@@ -7531,7 +7533,8 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'The Fellowship Reunited (feat. Sir James Galway, Viggo Mortensen and Renée Fleming)',
+    title:
+      'The Fellowship Reunited (feat. Sir James Galway, Viggo Mortensen and Renée Fleming)',
     artist: 'Howard Shore',
     rating: 0,
     timesListened: 1,
@@ -7555,7 +7558,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'I\'m Big',
+    title: "I'm Big",
     artist: 'Steve Jablonsky',
     rating: 0,
     timesListened: 1,
@@ -7563,7 +7566,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Rey\'s Theme',
+    title: "Rey's Theme",
     artist: 'John Williams',
     rating: 0,
     timesListened: 1,
@@ -7627,7 +7630,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'At Wit\'s End',
+    title: "At Wit's End",
     artist: 'Hans Zimmer',
     rating: 0,
     timesListened: 1,
@@ -7660,7 +7663,8 @@ export const ronanMusics: UserMusic[] = [
   },
   {
     title: 'Now We Are Free',
-    artist: 'Lisa Gerrard, Klaus Badelt, Hans Zimmer, Gavin Greenaway, The Lyndhurst Orchestra, Bruce Fowler, Yvonne S. Moriarty, Walt Fowler, Ladd McIntosh, Elizabeth Finch',
+    artist:
+      'Lisa Gerrard, Klaus Badelt, Hans Zimmer, Gavin Greenaway, The Lyndhurst Orchestra, Bruce Fowler, Yvonne S. Moriarty, Walt Fowler, Ladd McIntosh, Elizabeth Finch',
     rating: 0,
     timesListened: 1,
     byHeart: false,
@@ -7731,7 +7735,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'You\'re a Creed',
+    title: "You're a Creed",
     artist: 'Ludwig Göransson',
     rating: 0,
     timesListened: 1,
@@ -7755,7 +7759,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Nate\'s Theme 3.0',
+    title: "Nate's Theme 3.0",
     artist: 'Greg Edmonson',
     rating: 0,
     timesListened: 1,
@@ -7763,7 +7767,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'A Thief\'s End',
+    title: "A Thief's End",
     artist: 'Henry Jackman',
     rating: 0,
     timesListened: 1,
@@ -7780,7 +7784,8 @@ export const ronanMusics: UserMusic[] = [
   },
   {
     title: 'Into the Water',
-    artist: 'Alberto Iglesias, Nicholas Dodd, American Federation of Musicians, London Voices',
+    artist:
+      'Alberto Iglesias, Nicholas Dodd, American Federation of Musicians, London Voices',
     rating: 0,
     timesListened: 1,
     byHeart: false,
@@ -7899,7 +7904,8 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Beautiful Lie (From "Batman v Superman: Dawn of Justice" Soundtrack)',
+    title:
+      'Beautiful Lie (From "Batman v Superman: Dawn of Justice" Soundtrack)',
     artist: 'Hans Zimmer, Junkie XL',
     rating: 0,
     timesListened: 1,
@@ -7915,7 +7921,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Hope (Xavier\'s Theme)',
+    title: "Hope (Xavier's Theme)",
     artist: 'John Ottman, Jeffrey Schindler, American Federation of Musicians',
     rating: 0,
     timesListened: 1,
@@ -7947,7 +7953,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'The Vikings are Told of Ragnar\'s Death',
+    title: "The Vikings are Told of Ragnar's Death",
     artist: 'Trevor Morris, Steve Tavaglione',
     rating: 0,
     timesListened: 1,
@@ -7995,7 +8001,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'The Birth of the Twins and Padmé\'s Destiny',
+    title: "The Birth of the Twins and Padmé's Destiny",
     artist: 'John Williams, London Symphony Orchestra, London Voices',
     rating: 0,
     timesListened: 1,
@@ -8003,7 +8009,8 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Across the Stars (Love Theme from "Star Wars: Attack of the Clones")',
+    title:
+      'Across the Stars (Love Theme from "Star Wars: Attack of the Clones")',
     artist: 'John Williams, London Symphony Orchestra',
     rating: 0,
     timesListened: 1,
@@ -8036,7 +8043,7 @@ export const ronanMusics: UserMusic[] = [
   },
   {
     title: 'Echoes of the Roman Ruins',
-    artist: 'Jesper Kyd, Assassin\'s Creed',
+    artist: "Jesper Kyd, Assassin's Creed",
     rating: 0,
     timesListened: 1,
     byHeart: false,
@@ -8044,23 +8051,23 @@ export const ronanMusics: UserMusic[] = [
   },
   {
     title: 'City of Rome',
-    artist: 'Jesper Kyd, Assassin\'s Creed',
+    artist: "Jesper Kyd, Assassin's Creed",
     rating: 0,
     timesListened: 1,
     byHeart: false,
     quotes: [],
   },
   {
-    title: 'Assassin\'s Creed III Main Theme',
-    artist: 'Lorne Balfe, Assassin\'s Creed',
+    title: "Assassin's Creed III Main Theme",
+    artist: "Lorne Balfe, Assassin's Creed",
     rating: 0,
     timesListened: 1,
     byHeart: false,
     quotes: [],
   },
   {
-    title: 'Assassin\'s Creed IV Black Flag Main Theme',
-    artist: 'Brian Tyler, Assassin\'s Creed',
+    title: "Assassin's Creed IV Black Flag Main Theme",
+    artist: "Brian Tyler, Assassin's Creed",
     rating: 0,
     timesListened: 1,
     byHeart: false,
@@ -8068,7 +8075,7 @@ export const ronanMusics: UserMusic[] = [
   },
   {
     title: 'The Ends of the Earth',
-    artist: 'Brian Tyler, Assassin\'s Creed',
+    artist: "Brian Tyler, Assassin's Creed",
     rating: 0,
     timesListened: 1,
     byHeart: false,
@@ -8076,7 +8083,7 @@ export const ronanMusics: UserMusic[] = [
   },
   {
     title: 'The Bottle of Solitude',
-    artist: 'Chris Tilton, Assassin\'s Creed',
+    artist: "Chris Tilton, Assassin's Creed",
     rating: 0,
     timesListened: 1,
     byHeart: false,
@@ -8100,7 +8107,7 @@ export const ronanMusics: UserMusic[] = [
   },
   {
     title: 'Winds of Cyrene',
-    artist: 'Sarah Schachner, Assassin\'s Creed',
+    artist: "Sarah Schachner, Assassin's Creed",
     rating: 0,
     timesListened: 1,
     byHeart: false,
@@ -8108,22 +8115,22 @@ export const ronanMusics: UserMusic[] = [
   },
   {
     title: 'Moonlight on the Nile',
-    artist: 'Sarah Schachner, Assassin\'s Creed',
+    artist: "Sarah Schachner, Assassin's Creed",
     rating: 0,
     timesListened: 1,
     byHeart: false,
     quotes: [],
   },
   {
-    title: 'Ezio\'s Family - Origins Version',
-    artist: 'Sarah Schachner, Assassin\'s Creed',
+    title: "Ezio's Family - Origins Version",
+    artist: "Sarah Schachner, Assassin's Creed",
     rating: 0,
     timesListened: 1,
     byHeart: false,
     quotes: [],
   },
   {
-    title: 'She\'ll Kill You',
+    title: "She'll Kill You",
     artist: 'Kyle Dixon & Michael Stein',
     rating: 0,
     timesListened: 1,
@@ -8148,7 +8155,7 @@ export const ronanMusics: UserMusic[] = [
   },
   {
     title: 'Legend of the Eagle Bearer (Main Theme)',
-    artist: 'The Flight, Assassin\'s Creed, Mike Georgiades',
+    artist: "The Flight, Assassin's Creed, Mike Georgiades",
     rating: 0,
     timesListened: 1,
     byHeart: false,
@@ -8203,7 +8210,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Aragorn\'s Return',
+    title: "Aragorn's Return",
     artist: 'Howard Shore',
     rating: 0,
     timesListened: 1,
@@ -8307,7 +8314,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Leta\'s Theme - Solo Piano',
+    title: "Leta's Theme - Solo Piano",
     artist: 'James Newton Howard',
     rating: 0,
     timesListened: 1,
@@ -8443,7 +8450,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Mirajane\'s Theme',
+    title: "Mirajane's Theme",
     artist: 'Yasuharu Takanashi',
     rating: 0,
     timesListened: 1,
@@ -8571,7 +8578,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Caesar\'s Home',
+    title: "Caesar's Home",
     artist: 'Patrick Doyle',
     rating: 0,
     timesListened: 1,
@@ -8603,7 +8610,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Idyll\'s End',
+    title: "Idyll's End",
     artist: 'Hans Zimmer',
     rating: 0,
     timesListened: 1,
@@ -8635,7 +8642,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'It\'s Morphing Time!',
+    title: "It's Morphing Time!",
     artist: 'Brian Tyler',
     rating: 0,
     timesListened: 1,
@@ -8643,7 +8650,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Let\'s Ride',
+    title: "Let's Ride",
     artist: 'Brian Tyler',
     rating: 0,
     timesListened: 1,
@@ -8779,7 +8786,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Don\'t Give Up',
+    title: "Don't Give Up",
     artist: 'John Paesano',
     rating: 0,
     timesListened: 1,
@@ -8787,7 +8794,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'New York\'s Only Spider-Man',
+    title: "New York's Only Spider-Man",
     artist: 'John Paesano',
     rating: 0,
     timesListened: 1,
@@ -8803,7 +8810,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Won\'t Give Up',
+    title: "Won't Give Up",
     artist: 'John Paesano',
     rating: 0,
     timesListened: 1,
@@ -8827,7 +8834,8 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Is She With You? (From "Batman v Superman: Dawn of Justice" Soundtrack)',
+    title:
+      'Is She With You? (From "Batman v Superman: Dawn of Justice" Soundtrack)',
     artist: 'Hans Zimmer, Junkie XL',
     rating: 0,
     timesListened: 1,
@@ -8907,7 +8915,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'The Foundation Theme (from Zack Snyder\'s Justice League)',
+    title: "The Foundation Theme (from Zack Snyder's Justice League)",
     artist: 'Junkie XL',
     rating: 0,
     timesListened: 1,
@@ -9059,7 +9067,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'I\'m Spider-Man',
+    title: "I'm Spider-Man",
     artist: 'Hans Zimmer, The Magnificent Six, Pharrell Williams, Johnny Marr',
     rating: 0,
     timesListened: 1,
@@ -9067,7 +9075,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'I\'m Moving to England',
+    title: "I'm Moving to England",
     artist: 'Hans Zimmer, The Magnificent Six, Pharrell Williams, Johnny Marr',
     rating: 0,
     timesListened: 1,
@@ -9083,7 +9091,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'You\'re That Spider Guy',
+    title: "You're That Spider Guy",
     artist: 'Hans Zimmer, The Magnificent Six, Pharrell Williams, Johnny Marr',
     rating: 0,
     timesListened: 1,
@@ -9164,7 +9172,8 @@ export const ronanMusics: UserMusic[] = [
   },
   {
     title: 'The Time of Axe and Sword Is Now',
-    artist: 'Sonya Belousova, Giona Ostinelli, Declan de Barra, Lindsay Deutsch',
+    artist:
+      'Sonya Belousova, Giona Ostinelli, Declan de Barra, Lindsay Deutsch',
     rating: 0,
     timesListened: 1,
     byHeart: false,
@@ -9187,7 +9196,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Here\'s Your Destiny',
+    title: "Here's Your Destiny",
     artist: 'Sonya Belousova, Giona Ostinelli',
     rating: 0,
     timesListened: 1,
@@ -9203,7 +9212,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Deal\'s Changed',
+    title: "Deal's Changed",
     artist: 'Arcane',
     rating: 0,
     timesListened: 1,
@@ -9227,7 +9236,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'She\'s Back',
+    title: "She's Back",
     artist: 'Arcane',
     rating: 0,
     timesListened: 1,
@@ -9268,7 +9277,8 @@ export const ronanMusics: UserMusic[] = [
   },
   {
     title: 'Run Up HIll Win',
-    artist: 'Dan Deacon, London Contemporary Orchestra, Royal Scottish National Orchestra',
+    artist:
+      'Dan Deacon, London Contemporary Orchestra, Royal Scottish National Orchestra',
     rating: 0,
     timesListened: 1,
     byHeart: false,
@@ -9276,7 +9286,8 @@ export const ronanMusics: UserMusic[] = [
   },
   {
     title: 'Prelude: The Atlas March',
-    artist: 'Tom Tykwer, Johnny Klimek, Reinhold Heil, MDR Rundfunkchor, MDR Leipzig Radio Symphony Orchestra, Kristjan Järvi',
+    artist:
+      'Tom Tykwer, Johnny Klimek, Reinhold Heil, MDR Rundfunkchor, MDR Leipzig Radio Symphony Orchestra, Kristjan Järvi',
     rating: 0,
     timesListened: 1,
     byHeart: false,
@@ -9284,7 +9295,8 @@ export const ronanMusics: UserMusic[] = [
   },
   {
     title: 'All Boundaries Are Conventions',
-    artist: 'Tom Tykwer, Johnny Klimek, Reinhold Heil, MDR Rundfunkchor, MDR Leipzig Radio Symphony Orchestra, Kristjan Järvi',
+    artist:
+      'Tom Tykwer, Johnny Klimek, Reinhold Heil, MDR Rundfunkchor, MDR Leipzig Radio Symphony Orchestra, Kristjan Järvi',
     rating: 0,
     timesListened: 1,
     byHeart: false,
@@ -9292,7 +9304,8 @@ export const ronanMusics: UserMusic[] = [
   },
   {
     title: 'Cloud Atlas Finale',
-    artist: 'Tom Tykwer, Johnny Klimek, Reinhold Heil, MDR Rundfunkchor, MDR Leipzig Radio Symphony Orchestra, Kristjan Järvi',
+    artist:
+      'Tom Tykwer, Johnny Klimek, Reinhold Heil, MDR Rundfunkchor, MDR Leipzig Radio Symphony Orchestra, Kristjan Järvi',
     rating: 0,
     timesListened: 1,
     byHeart: false,
@@ -9427,7 +9440,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Leia\'s News/Light of the Force - Medley',
+    title: "Leia's News/Light of the Force - Medley",
     artist: 'John Williams',
     rating: 0,
     timesListened: 1,
@@ -9451,8 +9464,9 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Adira\'s Spirit Dive',
-    artist: 'Theophany, ROZEN, Emiko Sarasawati Susilo, Dewa Ayu Larassanti, Gamelan Cudamani',
+    title: "Adira's Spirit Dive",
+    artist:
+      'Theophany, ROZEN, Emiko Sarasawati Susilo, Dewa Ayu Larassanti, Gamelan Cudamani',
     rating: 0,
     timesListened: 1,
     byHeart: false,
@@ -9475,7 +9489,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Buckbeak\'s Flight',
+    title: "Buckbeak's Flight",
     artist: 'John Williams',
     rating: 0,
     timesListened: 1,
@@ -9531,7 +9545,8 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'God of War Ragnarök (From "God of War Ragnarök" Soundtrack) (feat. Eivør)',
+    title:
+      'God of War Ragnarök (From "God of War Ragnarök" Soundtrack) (feat. Eivør)',
     artist: 'Bear McCreary, Eivør',
     rating: 0,
     timesListened: 1,
@@ -9555,7 +9570,8 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Remembering Faye (From "God of War Ragnarök" Soundtrack) (feat. Eivør)',
+    title:
+      'Remembering Faye (From "God of War Ragnarök" Soundtrack) (feat. Eivør)',
     artist: 'Bear McCreary, Eivør',
     rating: 0,
     timesListened: 1,
@@ -9644,14 +9660,14 @@ export const ronanMusics: UserMusic[] = [
   },
   {
     title: 'Assassins Creed Theme',
-    artist: 'Lorne Balfe, Assassin\'s Creed',
+    artist: "Lorne Balfe, Assassin's Creed",
     rating: 0,
     timesListened: 1,
     byHeart: false,
     quotes: [],
   },
   {
-    title: 'Manny and Nellie\'s Theme',
+    title: "Manny and Nellie's Theme",
     artist: 'Justin Hurwitz',
     rating: 0,
     timesListened: 1,
@@ -9659,7 +9675,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Ain\'t Life Grand',
+    title: "Ain't Life Grand",
     artist: 'Justin Hurwitz',
     rating: 0,
     timesListened: 1,
@@ -9691,7 +9707,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'You\'ve Made Your Choice',
+    title: "You've Made Your Choice",
     artist: 'Peter Murray, Hogwarts Legacy',
     rating: 0,
     timesListened: 1,
@@ -9699,8 +9715,8 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Niamh\'s Lullaby',
-    artist: 'chuck e. myers \'sea\', Hogwarts Legacy',
+    title: "Niamh's Lullaby",
+    artist: "chuck e. myers 'sea', Hogwarts Legacy",
     rating: 0,
     timesListened: 1,
     byHeart: false,
@@ -9883,7 +9899,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'I\'m Gonna Be King Of The Pirates / We Are!',
+    title: "I'm Gonna Be King Of The Pirates / We Are!",
     artist: 'Sonya Belousova, Giona Ostinelli',
     rating: 0,
     timesListened: 1,
@@ -10011,7 +10027,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Anakin\'s Betrayal',
+    title: "Anakin's Betrayal",
     artist: 'John Williams, London Symphony Orchestra',
     rating: 0,
     timesListened: 1,
@@ -10020,7 +10036,8 @@ export const ronanMusics: UserMusic[] = [
   },
   {
     title: 'A Plague Tale Requiem',
-    artist: 'Olivier Deriviere, Eric Maria Couturier, Estonian Philharmonic Chamber Choir',
+    artist:
+      'Olivier Deriviere, Eric Maria Couturier, Estonian Philharmonic Chamber Choir',
     rating: 0,
     timesListened: 1,
     byHeart: false,
@@ -10044,7 +10061,8 @@ export const ronanMusics: UserMusic[] = [
   },
   {
     title: 'Brother',
-    artist: 'Olivier Deriviere, Eric Maria Couturier, Jeanne Dorche, Octantrion',
+    artist:
+      'Olivier Deriviere, Eric Maria Couturier, Jeanne Dorche, Octantrion',
     rating: 0,
     timesListened: 1,
     byHeart: false,
@@ -10179,7 +10197,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Sevika\'s Speech',
+    title: "Sevika's Speech",
     artist: 'Arcane',
     rating: 0,
     timesListened: 1,
@@ -10195,7 +10213,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'That\'s Not Vander',
+    title: "That's Not Vander",
     artist: 'Arcane',
     rating: 0,
     timesListened: 1,
@@ -10227,7 +10245,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Tell Me There\'s a Chance',
+    title: "Tell Me There's a Chance",
     artist: 'Arcane',
     rating: 0,
     timesListened: 1,
@@ -10291,7 +10309,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'La valse d\'Amélie',
+    title: "La valse d'Amélie",
     artist: 'Yann Tiersen',
     rating: 0,
     timesListened: 1,
@@ -10299,7 +10317,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Comptine d\'un autre été, l\'après-midi',
+    title: "Comptine d'un autre été, l'après-midi",
     artist: 'Yann Tiersen',
     rating: 0,
     timesListened: 1,
@@ -10347,7 +10365,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'L\'uomo dell\'armonica',
+    title: "L'uomo dell'armonica",
     artist: 'Ennio Morricone',
     rating: 0,
     timesListened: 1,
@@ -10355,7 +10373,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Marvel\'s Daredevil: Born Again Main Theme',
+    title: "Marvel's Daredevil: Born Again Main Theme",
     artist: 'The Newton Brothers',
     rating: 0,
     timesListened: 1,
@@ -10363,7 +10381,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'I Was Hoping It\'d Be You',
+    title: "I Was Hoping It'd Be You",
     artist: 'Lorne Balfe',
     rating: 0,
     timesListened: 1,
@@ -10387,7 +10405,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'L\'aveu',
+    title: "L'aveu",
     artist: 'Clément Libes',
     rating: 0,
     timesListened: 1,
@@ -10435,7 +10453,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Une vie à t\'aimer',
+    title: "Une vie à t'aimer",
     artist: 'Lorien Testard, Alice Duport-Percier, Victor Borba',
     rating: 0,
     timesListened: 1,
@@ -10499,7 +10517,7 @@ export const ronanMusics: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'L\'Amour d\'une Mère',
+    title: "L'Amour d'une Mère",
     artist: 'Lorien Testard, Alice Duport-Percier',
     rating: 0,
     timesListened: 1,

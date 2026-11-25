@@ -10,7 +10,11 @@
             <h2>{{ album()!.name }}</h2>
             <p class="modal-artist">{{ album()!.artist }}</p>
             <p class="modal-stats">
-              {{ album()!.musics.length }} titres • {{ formatAlbumDuration(album()!.totalDuration) }}
+              {{ ownedTracks().length }} titres
+              @if (missingTracks().length > 0) {
+              sur {{ tracks().length }}
+              }
+              • {{ formatAlbumDuration(ownedDuration()) }}
             </p>
             @if (canEditQuotes() || album()!.rating > 0 || album()!.favorite) {
             <div class="album-note">
@@ -56,9 +60,10 @@
 
       <div class="modal-body">
         <div class="tracklist">
-          @for (music of album()!.musics; track music.title; let i = $index) {
+          @for (track of tracks(); track track.key) {
+            @if (track.music; as music) {
             <div class="track-item">
-              <span class="track-number">{{ i + 1 }}</span>
+              <span class="track-number">{{ track.number }}</span>
               <div class="track-main">
                 <div class="track-info">
                   <span class="track-title">{{ music.title }}</span>
@@ -123,9 +128,48 @@
                 }
               </div>
             </div>
+            } @else {
+            <div class="track-item track-item--missing">
+              <span class="track-number">{{ track.number }}</span>
+              <div class="track-main">
+                <div class="track-info">
+                  <span class="track-title">{{ track.title }}</span>
+                  <span class="track-duration">{{ formatDuration(track.duration) }}</span>
+                </div>
+                <span class="track-missing-label">Pas encore ajoutée</span>
+              </div>
+              @if (canEditQuotes()) {
+              <label class="track-add">
+                <input
+                  type="checkbox"
+                  [checked]="selectedMissing().has(track.key)"
+                  [disabled]="adding()"
+                  [attr.aria-label]="'Ajouter ' + track.title"
+                  (change)="onMissingToggle(track)"
+                />
+                Ajouter
+              </label>
+              }
+            </div>
+            }
           }
         </div>
       </div>
+      @if (canEditQuotes() && missingTracks().length > 0) {
+      <div class="album-add-bar">
+        <button
+          type="button"
+          class="album-add-button"
+          [disabled]="adding()"
+          (click)="addMissing()"
+        >
+          {{ addLabel() }}
+        </button>
+        @if (addError()) {
+        <p class="track-save-error">Ajout impossible.</p>
+        }
+      </div>
+      }
     </div>
   </div>
 }

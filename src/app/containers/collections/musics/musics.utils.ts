@@ -18,16 +18,23 @@ export function defaultMusicFilter(musics: Music[]): 'popular' | 'all' {
   return 'all';
 }
 
+/** En dessous de ce nombre de morceaux affichés, le groupe reste dans les musiques. */
+export const MIN_SONGS_PER_ALBUM = 4;
+
 /**
- * Un album est regroupé si l'utilisateur en possède plus de la moitié des morceaux
- * du catalogue. Un album entier (y compris 5 ou 6 titres) est donc toujours affiché.
- * À 50 % ou moins, les morceaux restent dans la liste des musiques.
+ * Un album est regroupé s'il couvre plus de la moitié du catalogue
+ * et au moins 4 morceaux possédés. Un single ou un album de 2 ou 3 titres
+ * reste dans la liste des musiques. À 50 % ou moins aussi.
  */
 export function ownsAlbumMajority(
   ownedCount: number,
   catalogCount: number
 ): boolean {
-  return catalogCount > 0 && ownedCount / catalogCount > 0.5;
+  return (
+    catalogCount > 0 &&
+    ownedCount >= MIN_SONGS_PER_ALBUM &&
+    ownedCount / catalogCount > 0.5
+  );
 }
 
 /** Ordre des morceaux dans une modale d'album : piste si elle est renseignée, sinon titre. */

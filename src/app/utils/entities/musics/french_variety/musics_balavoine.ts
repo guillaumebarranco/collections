@@ -203,6 +203,17 @@ export const musicsBalavoine: BaseMusic[] = [
     duration: 287,
     genre: 'Variété française',
   },
+  // Album : Starmania (1978)
+  {
+    title: 'Quand on arrive en ville - Remastered',
+    artist: 'Daniel Balavoine',
+    album: 'Starmania',
+    albumTrackId: 2,
+    coverUrl: '/musics_pictures/default.jpg',
+    releaseDate: '1978-10-16',
+    duration: 217,
+    genre: 'Variété française',
+  },
   // Album : Un autre monde (1980)
   {
     title: 'Mon fils ma bataille',
@@ -304,6 +315,17 @@ export const musicsBalavoine: BaseMusic[] = [
     duration: 318,
     genre: 'Variété française',
   },
+  // Album : Vendeurs de larmes (1982)
+  {
+    title: 'Vivre ou survivre',
+    artist: 'Daniel Balavoine',
+    album: 'Vendeurs de larmes',
+    albumTrackId: 2,
+    coverUrl: '/musics_pictures/default.jpg',
+    releaseDate: '1982-04-01',
+    duration: 214,
+    genre: 'Variété française',
+  },
   // Album : Loin des yeux de l'Occident (1983)
   {
     title: "Pour la femme veuve qui s'éveille",
@@ -393,6 +415,17 @@ export const musicsBalavoine: BaseMusic[] = [
     coverUrl: '/musics_pictures/711K65cRwTL._UF894,1000_QL80_.jpg',
     releaseDate: '1983-12-02',
     duration: 325,
+    genre: 'Variété française',
+  },
+  // Single : Dieu que c'est beau (1984)
+  {
+    title: "Dieu que c'est beau",
+    artist: 'Daniel Balavoine',
+    album: "Dieu que c'est beau",
+    albumTrackId: 1,
+    coverUrl: '/musics_pictures/daniel-balavoine-dieu-que-cest-beau.webp',
+    releaseDate: '1984-06-19',
+    duration: 242,
     genre: 'Variété française',
   },
   // Album : Sauver l'amour (1985)

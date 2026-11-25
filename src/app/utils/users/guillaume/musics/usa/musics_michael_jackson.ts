@@ -42,7 +42,7 @@ export const musicsMichaelJackson: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'Bad - 2012 Remaster',
+    title: 'Bad',
     artist: 'Michael Jackson',
     rating: 0,
     timesListened: 80,

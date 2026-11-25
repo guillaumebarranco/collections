@@ -970,6 +970,17 @@ export const musicsFrancisCabrel: BaseMusic[] = [
     duration: 308,
     genre: 'Variété française',
   },
+  // Album : Le Soldat Rose (2006)
+  {
+    title: 'Gardien de nuit',
+    artist: 'Francis Cabrel',
+    album: 'Le Soldat Rose',
+    albumTrackId: 14,
+    coverUrl: '/musics_pictures/default.jpg',
+    releaseDate: '2006-11-06',
+    duration: 177,
+    genre: 'Variété française',
+  },
   // Album : Des roses et des orties (2008)
   {
     title: "La robe & l'échelle",

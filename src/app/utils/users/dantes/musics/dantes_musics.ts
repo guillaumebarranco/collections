@@ -146,7 +146,7 @@ export const dantesMusics: UserMusic[] = [
   },
 
   {
-    title: 'J\'entends',
+    title: "J'entends",
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
@@ -173,7 +173,7 @@ export const dantesMusics: UserMusic[] = [
   },
 
   {
-    title: 'Bruxelles je t\'aime',
+    title: "Bruxelles je t'aime",
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
@@ -191,7 +191,7 @@ export const dantesMusics: UserMusic[] = [
   },
 
   {
-    title: 'On s\'habitue',
+    title: "On s'habitue",
     artist: 'Angèle',
     rating: 0,
     timesListened: 1,
@@ -326,7 +326,7 @@ export const dantesMusics: UserMusic[] = [
   },
 
   {
-    title: 'Aimer est plus fort que d\'être aimé',
+    title: "Aimer est plus fort que d'être aimé",
     artist: 'Daniel Balavoine',
     rating: 0,
     timesListened: 1,
@@ -335,7 +335,7 @@ export const dantesMusics: UserMusic[] = [
   },
 
   {
-    title: 'Dieu que c\'est beau',
+    title: "Dieu que c'est beau",
     artist: 'Daniel Balavoine',
     rating: 0,
     timesListened: 1,
@@ -344,7 +344,7 @@ export const dantesMusics: UserMusic[] = [
   },
 
   {
-    title: 'L\'Aziza',
+    title: "L'Aziza",
     artist: 'Daniel Balavoine',
     rating: 0,
     timesListened: 1,
@@ -353,7 +353,7 @@ export const dantesMusics: UserMusic[] = [
   },
 
   {
-    title: 'La vie ne m\'apprend rien',
+    title: "La vie ne m'apprend rien",
     artist: 'Daniel Balavoine',
     rating: 0,
     timesListened: 1,
@@ -506,7 +506,7 @@ export const dantesMusics: UserMusic[] = [
   },
 
   {
-    title: 'Marche à l\'ombre',
+    title: "Marche à l'ombre",
     artist: 'Renaud',
     rating: 0,
     timesListened: 1,
@@ -596,7 +596,7 @@ export const dantesMusics: UserMusic[] = [
   },
 
   {
-    title: 'L\'Enfant Du Pays',
+    title: "L'Enfant Du Pays",
     artist: 'Singuila',
     rating: 0,
     timesListened: 1,
@@ -614,7 +614,7 @@ export const dantesMusics: UserMusic[] = [
   },
 
   {
-    title: 'Interlude l\'imposteur',
+    title: "Interlude l'imposteur",
     artist: 'Singuila',
     rating: 0,
     timesListened: 1,
@@ -623,7 +623,7 @@ export const dantesMusics: UserMusic[] = [
   },
 
   {
-    title: 'L\'imposteur',
+    title: "L'imposteur",
     artist: 'Singuila',
     rating: 0,
     timesListened: 1,
@@ -641,7 +641,7 @@ export const dantesMusics: UserMusic[] = [
   },
 
   {
-    title: 'L\'Hymne de nos campagnes',
+    title: "L'Hymne de nos campagnes",
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
@@ -659,7 +659,7 @@ export const dantesMusics: UserMusic[] = [
   },
 
   {
-    title: 'C\'est du roots',
+    title: "C'est du roots",
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
@@ -695,7 +695,7 @@ export const dantesMusics: UserMusic[] = [
   },
 
   {
-    title: 'La misère d\'en face',
+    title: "La misère d'en face",
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
@@ -767,7 +767,7 @@ export const dantesMusics: UserMusic[] = [
   },
 
   {
-    title: 'J\'ai rien prévu pour demain (+ Bonus)',
+    title: "J'ai rien prévu pour demain (+ Bonus)",
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
@@ -812,7 +812,7 @@ export const dantesMusics: UserMusic[] = [
   },
 
   {
-    title: 'Si la vie m\'a mis là',
+    title: "Si la vie m'a mis là",
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
@@ -902,7 +902,7 @@ export const dantesMusics: UserMusic[] = [
   },
 
   {
-    title: 'J\'ai un but',
+    title: "J'ai un but",
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
@@ -911,7 +911,7 @@ export const dantesMusics: UserMusic[] = [
   },
 
   {
-    title: 'Ce que l\'on s\'aime',
+    title: "Ce que l'on s'aime",
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
@@ -956,7 +956,7 @@ export const dantesMusics: UserMusic[] = [
   },
 
   {
-    title: 'L\'air du plastique',
+    title: "L'air du plastique",
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
@@ -965,7 +965,7 @@ export const dantesMusics: UserMusic[] = [
   },
 
   {
-    title: 'Quand les hommes s\'ennuient',
+    title: "Quand les hommes s'ennuient",
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
@@ -1037,7 +1037,7 @@ export const dantesMusics: UserMusic[] = [
   },
 
   {
-    title: 'Poussière d\'étoile',
+    title: "Poussière d'étoile",
     artist: 'Tryo',
     rating: 0,
     timesListened: 1,
@@ -1163,7 +1163,7 @@ export const dantesMusics: UserMusic[] = [
   },
 
   {
-    title: 'Pourvu qu\'elles soient douces',
+    title: "Pourvu qu'elles soient douces",
     artist: 'Mylène Farmer',
     rating: 0,
     timesListened: 1,
@@ -1217,7 +1217,7 @@ export const dantesMusics: UserMusic[] = [
   },
 
   {
-    title: 'La maladie d\'amour',
+    title: "La maladie d'amour",
     artist: 'Michel Sardou',
     rating: 0,
     timesListened: 1,
@@ -1226,7 +1226,7 @@ export const dantesMusics: UserMusic[] = [
   },
 
   {
-    title: 'Parce qu\'on vient de loin',
+    title: "Parce qu'on vient de loin",
     artist: 'Corneille',
     rating: 0,
     timesListened: 1,
@@ -1487,7 +1487,7 @@ export const dantesMusics: UserMusic[] = [
   },
 
   {
-    title: 'T\'en vas pas',
+    title: "T'en vas pas",
     artist: 'Elsa',
     rating: 0,
     timesListened: 1,
@@ -1541,7 +1541,7 @@ export const dantesMusics: UserMusic[] = [
   },
 
   {
-    title: 'Hedwig\'s Theme',
+    title: "Hedwig's Theme",
     artist: 'John Williams',
     rating: 0,
     timesListened: 1,
@@ -1631,7 +1631,8 @@ export const dantesMusics: UserMusic[] = [
   },
 
   {
-    title: 'God of War Ragnarök (From "God of War Ragnarök" Soundtrack) (feat. Eivør)',
+    title:
+      'God of War Ragnarök (From "God of War Ragnarök" Soundtrack) (feat. Eivør)',
     artist: 'Bear McCreary, Eivør',
     rating: 0,
     timesListened: 1,
@@ -1695,7 +1696,7 @@ export const dantesMusics: UserMusic[] = [
 
   {
     title: 'Survivor',
-    artist: 'Destiny\'s Child',
+    artist: "Destiny's Child",
     rating: 0,
     timesListened: 1,
     byHeart: false,
@@ -1856,7 +1857,7 @@ export const dantesMusics: UserMusic[] = [
   },
 
   {
-    title: '\'97 Bonnie and Clyde',
+    title: "'97 Bonnie and Clyde",
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
@@ -1928,7 +1929,7 @@ export const dantesMusics: UserMusic[] = [
   },
 
   {
-    title: 'Just Don\'t Give a Fuck',
+    title: "Just Don't Give a Fuck",
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
@@ -1955,7 +1956,7 @@ export const dantesMusics: UserMusic[] = [
   },
 
   {
-    title: 'I\'m Shady',
+    title: "I'm Shady",
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
@@ -1973,7 +1974,7 @@ export const dantesMusics: UserMusic[] = [
   },
 
   {
-    title: 'Still Don\'t Give a Fuck',
+    title: "Still Don't Give a Fuck",
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
@@ -2063,7 +2064,7 @@ export const dantesMusics: UserMusic[] = [
   },
 
   {
-    title: 'I\'m Back',
+    title: "I'm Back",
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
@@ -2171,7 +2172,7 @@ export const dantesMusics: UserMusic[] = [
   },
 
   {
-    title: 'Cleanin\' Out My Closet',
+    title: "Cleanin' Out My Closet",
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
@@ -2261,7 +2262,7 @@ export const dantesMusics: UserMusic[] = [
   },
 
   {
-    title: 'Hailie\'s Song',
+    title: "Hailie's Song",
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
@@ -2297,7 +2298,7 @@ export const dantesMusics: UserMusic[] = [
   },
 
   {
-    title: '\'Till I Collapse',
+    title: "'Till I Collapse",
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
@@ -2306,7 +2307,7 @@ export const dantesMusics: UserMusic[] = [
   },
 
   {
-    title: 'My Dad\'s Gone Crazy',
+    title: "My Dad's Gone Crazy",
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
@@ -2675,7 +2676,7 @@ export const dantesMusics: UserMusic[] = [
   },
 
   {
-    title: 'Old Time\'s Sake',
+    title: "Old Time's Sake",
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
@@ -2756,7 +2757,7 @@ export const dantesMusics: UserMusic[] = [
   },
 
   {
-    title: 'Talkin\' 2 Myself',
+    title: "Talkin' 2 Myself",
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
@@ -2774,7 +2775,7 @@ export const dantesMusics: UserMusic[] = [
   },
 
   {
-    title: 'Won\'t Back Down',
+    title: "Won't Back Down",
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
@@ -2882,7 +2883,7 @@ export const dantesMusics: UserMusic[] = [
   },
 
   {
-    title: 'You\'re Never Over',
+    title: "You're Never Over",
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
@@ -3350,7 +3351,7 @@ export const dantesMusics: UserMusic[] = [
   },
 
   {
-    title: 'You Gon\' Learn',
+    title: "You Gon' Learn",
     artist: 'Eminem',
     rating: 0,
     timesListened: 1,
@@ -3782,7 +3783,7 @@ export const dantesMusics: UserMusic[] = [
   },
 
   {
-    title: 'Bad - 2012 Remaster',
+    title: 'Bad',
     artist: 'Michael Jackson',
     rating: 0,
     timesListened: 1,

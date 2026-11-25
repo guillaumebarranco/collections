@@ -181,6 +181,7 @@
 
 <app-album-modal
   [album]="selectedAlbum()"
+  [tracks]="openAlbumTracks()"
   [isOpen]="isAlbumModalOpen()"
   [userId]="activeUserId()"
   [canEditQuotes]="canEditQuotes()"
@@ -188,4 +189,5 @@
   (quotesUpdated)="onMusicQuotesUpdated($event)"
   (musicUpdated)="onMusicDetailsUpdated($event)"
   (albumRatingUpdated)="onAlbumRatingUpdated($event)"
+  (tracksAdded)="onAlbumTracksAdded()"
 ></app-album-modal>

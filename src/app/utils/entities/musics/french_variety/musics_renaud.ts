@@ -132,6 +132,17 @@ export const musicsRenaud: BaseMusic[] = [
     duration: 123,
     genre: 'Variété française',
   },
+  // Album : Laisse béton (1977)
+  {
+    title: 'Laisse béton',
+    artist: 'Renaud',
+    album: 'Laisse béton',
+    albumTrackId: 1,
+    coverUrl: '/musics_pictures/default.jpg',
+    releaseDate: '1977-10-01',
+    duration: 152,
+    genre: 'Variété française',
+  },
   // Album : Ma gonzesse (1979)
   {
     title: 'Ma gonzesse',

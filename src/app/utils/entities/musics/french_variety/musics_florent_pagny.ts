@@ -576,6 +576,17 @@ export const musicsFlorentPagny: BaseMusic[] = [
     duration: 215,
     genre: 'Variété française',
   },
+  // Album : Ailleurs land (2003)
+  {
+    title: 'Ma liberté de penser',
+    artist: 'Florent Pagny',
+    album: 'Ailleurs land',
+    albumTrackId: 3,
+    coverUrl: '/musics_pictures/default.jpg',
+    releaseDate: '2003-04-08',
+    duration: 204,
+    genre: 'Variété française',
+  },
   // Album : Abracadabra (2006)
   {
     title: 'Indiandeb / Le mur',

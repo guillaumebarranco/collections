@@ -3,7 +3,7 @@ import { UserMusic } from '../../../../../models/music-model';
 export const musicsFrancisCabrel: UserMusic[] = [
   // Album : Samedi soir sur la Terre (1994)
   {
-    title: 'La Corrida',
+    title: 'La corrida',
     artist: 'Francis Cabrel',
     rating: 0,
     timesListened: 200,
@@ -19,7 +19,7 @@ export const musicsFrancisCabrel: UserMusic[] = [
     quotes: [],
   },
   {
-    title: 'La Cabane du pêcheur',
+    title: 'La cabane du pêcheur',
     artist: 'Francis Cabrel',
     rating: 0,
     timesListened: 30,
@@ -112,7 +112,7 @@ export const musicsFrancisCabrel: UserMusic[] = [
     title: "Je l'aime à mourir",
     artist: 'Francis Cabrel',
     rating: 0,
-    timesListened: 150,
+    timesListened: 200,
     byHeart: true,
     quotes: [],
   },

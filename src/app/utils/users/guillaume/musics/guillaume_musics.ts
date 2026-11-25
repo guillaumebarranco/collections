@@ -9,4 +9,13 @@ export const guillaumeMusics: UserMusic[] = [
     byHeart: false,
     quotes: [],
   },
+
+  {
+    title: "Sauver l'amour",
+    artist: "Daniel Balavoine",
+    rating: 0,
+    timesListened: 100,
+    byHeart: false,
+    quotes: [],
+  },
 ];

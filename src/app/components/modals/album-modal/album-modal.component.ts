@@ -1,8 +1,9 @@
-import { Component, inject, input, output, signal } from '@angular/core';
+import { Component, effect, inject, input, output, signal, computed } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MatDialog } from '@angular/material/dialog';
 import { Music } from '../../../models/music-model';
 import {
+  addExistingMusics,
   saveAlbumNote,
   saveMusicDetails,
 } from '../../../facades/musics/api-musics.facade';
@@ -38,6 +39,16 @@ export interface AlbumRatingUpdate {
   favorite?: boolean;
 }
 
+/** Morceau de la modale : `music` est renseigné seulement s'il est déjà dans la collection. */
+export interface AlbumTrackRow {
+  key: string;
+  title: string;
+  artist: string;
+  duration: number;
+  number: number;
+  music: Music | null;
+}
+
 @Component({
   selector: 'app-album-modal',
   imports: [CommonModule, EntityQuotesComponent, RatingStarsComponent],
@@ -48,6 +59,7 @@ export class AlbumModalComponent {
   private readonly dialog = inject(MatDialog);
 
   album = input.required<Album | null>();
+  tracks = input<AlbumTrackRow[]>([]);
   isOpen = input.required<boolean>();
   userId = input<string>('');
   canEditQuotes = input(false);
@@ -55,12 +67,50 @@ export class AlbumModalComponent {
   quotesUpdated = output<MusicQuotesModalResult & { title: string; artist: string }>();
   musicUpdated = output<MusicDetailsUpdate>();
   albumRatingUpdated = output<AlbumRatingUpdate>();
+  tracksAdded = output<void>();
 
   readonly savingKey = signal<string | null>(null);
   readonly saveErrorKey = signal<string | null>(null);
   readonly albumSaving = signal(false);
   readonly albumSaveError = signal(false);
+  readonly selectedMissing = signal<ReadonlySet<string>>(new Set());
+  readonly adding = signal(false);
+  readonly addError = signal(false);
   private saveQueue: Promise<void> = Promise.resolve();
+  private albumIdentity = '';
+
+  readonly ownedTracks = computed(() =>
+    this.tracks().filter((track) => track.music !== null)
+  );
+  readonly missingTracks = computed(() =>
+    this.tracks().filter((track) => track.music === null)
+  );
+  readonly ownedDuration = computed(() =>
+    this.ownedTracks().reduce((sum, track) => sum + track.duration, 0)
+  );
+  readonly addLabel = computed(() => {
+    const missing = this.missingTracks();
+    const chosen = missing.filter((track) =>
+      this.selectedMissing().has(track.key)
+    );
+    if (chosen.length > 0 && chosen.length < missing.length) {
+      return `Ajouter la sélection (${chosen.length})`;
+    }
+    return 'Ajouter les morceaux manquants';
+  });
+
+  constructor() {
+    effect(() => {
+      const album = this.album();
+      const identity = album ? `${album.name}|${album.artist}` : '';
+      if (identity === this.albumIdentity) {
+        return;
+      }
+      this.albumIdentity = identity;
+      this.selectedMissing.set(new Set());
+      this.addError.set(false);
+    });
+  }
 
   onOverlayClick() {
     this.close.emit();
@@ -130,6 +180,50 @@ export class AlbumModalComponent {
     void this.persistMusic(music, { timesListened }, () => {
       input.value = String(music.timesListened);
     });
+  }
+
+  onMissingToggle(track: AlbumTrackRow): void {
+    if (track.music || this.adding() || !this.canEditQuotes()) {
+      return;
+    }
+    this.selectedMissing.update((current) => {
+      const next = new Set(current);
+      if (next.has(track.key)) {
+        next.delete(track.key);
+      } else {
+        next.add(track.key);
+      }
+      return next;
+    });
+  }
+
+  async addMissing(): Promise<void> {
+    const missing = this.missingTracks();
+    const userId = this.userId();
+    if (
+      !userId ||
+      !this.canEditQuotes() ||
+      this.adding() ||
+      missing.length === 0
+    ) {
+      return;
+    }
+    const chosen = missing.filter((track) =>
+      this.selectedMissing().has(track.key)
+    );
+    const toAdd = (
+      chosen.length > 0 && chosen.length < missing.length ? chosen : missing
+    ).map((track) => ({ title: track.title, artist: track.artist }));
+    this.adding.set(true);
+    this.addError.set(false);
+    const saved = await addExistingMusics({ userId, musics: toAdd });
+    this.adding.set(false);
+    if (!saved) {
+      this.addError.set(true);
+      return;
+    }
+    this.selectedMissing.set(new Set());
+    this.tracksAdded.emit();
   }
 
   onByHeartChange(music: Music, event: Event): void {
