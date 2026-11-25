@@ -144,7 +144,7 @@ export const musicsSinik: UserMusic[] = [
     title: 'Autodestruction',
     artist: 'Sinik',
     rating: 0,
-    timesListened: 80,
+    timesListened: 81,
     byHeart: false,
     quotes: [],
   },
