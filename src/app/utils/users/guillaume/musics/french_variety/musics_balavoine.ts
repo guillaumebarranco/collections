@@ -20,7 +20,7 @@ export const musicsBalavoine: UserMusic[] = [
   {
     title: 'Le chanteur',
     artist: 'Daniel Balavoine',
-    rating: 0,
+    rating: 4,
     timesListened: 300,
     byHeart: true,
     quotes: [],

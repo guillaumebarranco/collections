@@ -57,6 +57,19 @@
           <p class="album-duration">
             {{ formatAlbumDuration(album.totalDuration) }}
           </p>
+          @if (canEditQuotes() || album.rating > 0) {
+          <div class="album-rating" (click)="$event.stopPropagation()">
+            <app-rating-stars
+              [rating]="albumRating(album)"
+              [editable]="canEditQuotes()"
+              [label]="'Note de ' + album.name"
+              (ratingChange)="onAlbumCardRatingChange(album, $event)"
+            />
+            @if (albumSaveErrorKey() === albumKey(album)) {
+            <span class="album-rating-error">Enregistrement impossible</span>
+            }
+          </div>
+          }
         </div>
       </div>
       }
@@ -106,7 +119,15 @@
   [options]="viewOptions"
   [previews]="mobileViewPreviews()"
   (selected)="onMobileSelectView($event)"
-/>
+>
+  <a
+    *appCanEdit
+    class="mobile-view-picker__shortcut"
+    [routerLink]="getSelectMusicsRoute()"
+  >
+    Je veux ajouter des musiques
+  </a>
+</app-mobile-collection-picker>
 }
 
 <app-album-modal
@@ -117,4 +138,5 @@
   (close)="closeAlbumModal()"
   (quotesUpdated)="onMusicQuotesUpdated($event)"
   (musicUpdated)="onMusicDetailsUpdated($event)"
+  (albumRatingUpdated)="onAlbumRatingUpdated($event)"
 ></app-album-modal>

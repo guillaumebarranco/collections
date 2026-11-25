@@ -1,5 +1,6 @@
 <section class="mobile-view-picker" [attr.aria-label]="ariaLabel()">
   <h1 class="mobile-view-picker__title">{{ title() }}</h1>
+  <ng-content />
   @for (option of options(); track option.value) { @let preview =
   previews().get(option.value);
   <button

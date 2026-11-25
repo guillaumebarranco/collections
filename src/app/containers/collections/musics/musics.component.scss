@@ -163,6 +163,20 @@
       margin: 0;
       font-weight: 400;
     }
+
+    .album-rating {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 6px;
+      margin-top: 6px;
+    }
+
+    .album-rating-error {
+      color: #c0392b;
+      font-size: 0.7rem;
+      font-weight: 600;
+    }
   }
 }
 
@@ -402,5 +416,32 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 8px;
     padding: 12px 0;
+  }
+}
+
+.mobile-view-picker__shortcut {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  margin: 0 0 18px;
+  padding: 14px 16px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0 8px 20px rgba(102, 126, 234, 0.35);
+
+  &:active {
+    transform: scale(0.985);
+  }
+
+  &:focus-visible {
+    outline: 2px solid #d5dbff;
+    outline-offset: 2px;
   }
 }

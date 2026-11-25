@@ -91,6 +91,28 @@
         margin: 0;
         font-weight: 500;
       }
+
+      .album-rating,
+      .album-rating-display {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin: 8px 0 0;
+        color: #2c3e50;
+        font-size: 0.9rem;
+        font-weight: 600;
+      }
+
+      .album-rating select {
+        margin: 0;
+        padding: 2px 6px;
+        border: 1px solid #d9d9d9;
+        border-radius: 6px;
+        background: #fff;
+        color: #2c3e50;
+        font: inherit;
+        font-weight: 600;
+      }
     }
   }
 
@@ -199,6 +221,26 @@
       align-items: flex-end;
       gap: 6px;
       flex-shrink: 0;
+    }
+
+    .track-rating {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      color: #2c3e50;
+      font-size: 0.85rem;
+      font-weight: 600;
+
+      select {
+        margin: 0;
+        padding: 2px 6px;
+        border: 1px solid #d9d9d9;
+        border-radius: 6px;
+        background: #fff;
+        color: #2c3e50;
+        font: inherit;
+        font-weight: 600;
+      }
     }
 
     .track-listens {

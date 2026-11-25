@@ -12,6 +12,20 @@
             <p class="modal-stats">
               {{ album()!.musics.length }} titres • {{ formatAlbumDuration(album()!.totalDuration) }}
             </p>
+            @if (canEditQuotes() || album()!.rating > 0) {
+            <div class="album-rating">
+              <app-rating-stars
+                [rating]="album()!.rating"
+                [editable]="canEditQuotes()"
+                [disabled]="albumSaving()"
+                [label]="'Note de l\'album ' + album()!.name"
+                (ratingChange)="onAlbumRatingChange($event)"
+              />
+              @if (albumSaveError()) {
+              <span class="track-save-error">Enregistrement impossible</span>
+              }
+            </div>
+            }
           </div>
         </div>
         <button class="modal-close" (click)="onOverlayClick()">✕</button>
@@ -46,6 +60,13 @@
               </div>
               <div class="track-meta">
                 @if (canEditQuotes()) {
+                <app-rating-stars
+                  [rating]="music.rating"
+                  [editable]="true"
+                  [disabled]="savingKey() === musicKey(music)"
+                  [label]="'Note de ' + music.title"
+                  (ratingChange)="onTrackRatingChange(music, $event)"
+                />
                 <label class="track-listens">
                   <span aria-hidden="true">🎧</span>
                   <input
@@ -72,6 +93,9 @@
                 <span class="track-save-error">Enregistrement impossible</span>
                 }
                 } @else {
+                @if (music.rating > 0) {
+                <app-rating-stars [rating]="music.rating" [label]="music.title" />
+                }
                 <span class="track-listens">🎧 {{ music.timesListened }}</span>
                 }
               </div>

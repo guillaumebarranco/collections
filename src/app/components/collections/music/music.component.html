@@ -31,8 +31,16 @@
 
     <div class="music-footer">
       <span class="music-duration">{{ formatDuration(music().duration) }}</span>
-      @if (music().rating > 0 && !isBaseEntityView) {
-      <span class="music-rating">{{ getRatingStars(music().rating) }}</span>
+      @if (canEditQuotes()) {
+      <app-rating-stars
+        [rating]="music().rating"
+        [editable]="true"
+        [disabled]="isSaving()"
+        [label]="'Note de ' + music().title"
+        (ratingChange)="onRatingChange($event)"
+      />
+      } @else if (music().rating > 0 && !isBaseEntityView) {
+      <app-rating-stars [rating]="music().rating" [label]="music().title" />
       }
       @if (canEditQuotes()) {
       <label class="music-listens">

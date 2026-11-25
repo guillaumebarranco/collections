@@ -19,16 +19,21 @@ import { MusicsHeaderComponent } from './musics-header/musics-header.component';
 import {
   AlbumModalComponent,
   Album,
+  AlbumRatingUpdate,
   MusicDetailsUpdate,
 } from '../../../components/modals/album-modal/album-modal.component';
-import { Music } from '../../../models/music-model';
+import { Music, UserAlbumNote } from '../../../models/music-model';
 import type { EntityQuote } from '../../../models/entity-quote.model';
 import { normalizeSearchText } from '../../../utils/normalize-search-text';
-import { ActivatedRoute, Router } from '@angular/router';
+import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import {
   getAllBaseMusics,
   getAllMusics,
 } from '../../../facades/musics/musics.facade';
+import {
+  fetchUserAlbumNotes,
+  saveAlbumNote,
+} from '../../../facades/musics/api-musics.facade';
 import { LocalStorageService } from '../../../services/local-storage.service';
 import {
   defaultMusicFilter,
@@ -42,8 +47,10 @@ import {
 } from './musics.utils';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
 import { AuthService } from '../../../core/auth.service';
+import { CanEditDirective } from '../../../directives/can-edit.directive';
 import { LoaderComponent } from '../../../components/shared/loader/loader.component';
 import { MobileCollectionPickerComponent } from '../../../components/shared/mobile-collection-picker/mobile-collection-picker.component';
+import { RatingStarsComponent } from '../../../components/shared/rating-stars/rating-stars.component';
 import { pickMobileViewCovers } from '../../../utils/mobile-view-previews';
 
 @Component({
@@ -57,6 +64,9 @@ import { pickMobileViewCovers } from '../../../utils/mobile-view-previews';
     MusicsHeaderComponent,
     LoaderComponent,
     MobileCollectionPickerComponent,
+    RouterLink,
+    CanEditDirective,
+    RatingStarsComponent,
   ],
   templateUrl: './musics.component.html',
   styleUrls: ['./musics.component.scss'],
@@ -81,6 +91,10 @@ export class MusicsComponent implements OnInit {
   // Modal d'album
   isAlbumModalOpen = signal<boolean>(false);
   selectedAlbum = signal<Album | null>(null);
+  albumNotes = signal<UserAlbumNote[]>([]);
+  readonly pendingAlbumRatings = signal<Record<string, number>>({});
+  readonly albumSaveErrorKey = signal<string | null>(null);
+  private albumSaveQueue: Promise<void> = Promise.resolve();
 
   filterOptions = musicFilterOptions;
 
@@ -182,6 +196,9 @@ export class MusicsComponent implements OnInit {
           ? filteredMusics
           : allAlbumMusics;
         const [albumName, artist] = key.split('|');
+        const note = this.albumNotes().find(
+          (item) => item.album === albumName && item.artist === artist
+        );
         albums.push({
           name: albumName,
           artist: artist,
@@ -191,6 +208,7 @@ export class MusicsComponent implements OnInit {
             (sum, music) => sum + music.duration,
             0
           ),
+          rating: note?.rating ?? 0,
         });
       }
     });
@@ -289,8 +307,12 @@ export class MusicsComponent implements OnInit {
     this.isLoadingMusics.set(true);
     try {
       const userId = this.getActiveUserId();
-      const musics = await getAllMusics(userId);
+      const [musics, notes] = await Promise.all([
+        getAllMusics(userId),
+        fetchUserAlbumNotes(userId).catch(() => [] as UserAlbumNote[]),
+      ]);
       this.musicsList.set(musics);
+      this.albumNotes.set(notes);
 
       const currentUserMusics = musics[userId] || [];
       const defaultFilter = defaultMusicFilter(currentUserMusics);
@@ -362,6 +384,18 @@ export class MusicsComponent implements OnInit {
 
   onSearchChange(value: string) {
     this.searchTerm.set(value);
+  }
+
+  getSelectMusicsRoute(): string {
+    let route: ActivatedRoute | null = this.activatedRoute;
+    while (route) {
+      const id = route.snapshot.params['id'];
+      if (typeof id === 'string' && id) {
+        return `/${id}/select-musics`;
+      }
+      route = route.parent;
+    }
+    return '/select-musics';
   }
 
   getActiveUserId(): string {
@@ -485,6 +519,7 @@ export class MusicsComponent implements OnInit {
             ...(update.byHeart !== undefined
               ? { byHeart: update.byHeart }
               : {}),
+            ...(update.rating !== undefined ? { rating: update.rating } : {}),
           }
         : music;
 
@@ -504,6 +539,85 @@ export class MusicsComponent implements OnInit {
       ...album,
       musics: album.musics.map(apply),
     });
+  }
+
+  albumKey(album: Pick<Album, 'artist' | 'name'>): string {
+    return `${album.artist}|${album.name}`;
+  }
+
+  albumRating(album: Album): number {
+    const pending = this.pendingAlbumRatings()[this.albumKey(album)];
+    return pending ?? album.rating;
+  }
+
+  onAlbumCardRatingChange(album: Album, rating: number): void {
+    if (!this.canEditQuotes() || rating === this.albumRating(album)) {
+      return;
+    }
+    const key = this.albumKey(album);
+    this.pendingAlbumRatings.update((ratings) => ({
+      ...ratings,
+      [key]: rating,
+    }));
+    this.albumSaveErrorKey.set(null);
+    const run = this.albumSaveQueue.then(async () => {
+      const saved = await saveAlbumNote({
+        userId: this.getActiveUserId(),
+        artist: album.artist,
+        album: album.name,
+        rating,
+      });
+      const stillCurrent = this.pendingAlbumRatings()[key] === rating;
+      if (!saved) {
+        if (stillCurrent) {
+          this.pendingAlbumRatings.update((ratings) => {
+            const next = { ...ratings };
+            delete next[key];
+            return next;
+          });
+        }
+        this.albumSaveErrorKey.set(key);
+        return;
+      }
+      this.onAlbumRatingUpdated({
+        artist: album.artist,
+        album: album.name,
+        rating,
+      });
+      if (stillCurrent) {
+        this.pendingAlbumRatings.update((ratings) => {
+          const next = { ...ratings };
+          delete next[key];
+          return next;
+        });
+      }
+    });
+    this.albumSaveQueue = run.then(
+      () => undefined,
+      () => undefined
+    );
+  }
+
+  onAlbumRatingUpdated(update: AlbumRatingUpdate): void {
+    this.albumNotes.update((notes) => {
+      const index = notes.findIndex(
+        (note) => note.artist === update.artist && note.album === update.album
+      );
+      if (index === -1) {
+        return [...notes, update];
+      }
+      return notes.map((note, noteIndex) =>
+        noteIndex === index ? { ...note, rating: update.rating } : note
+      );
+    });
+    const album = this.selectedAlbum();
+    if (
+      album &&
+      album.artist === update.artist &&
+      album.name === update.album
+    ) {
+      this.selectedAlbum.set({ ...album, rating: update.rating });
+    }
   }
 
   private matchesSearch(music: Music, term: string): boolean {

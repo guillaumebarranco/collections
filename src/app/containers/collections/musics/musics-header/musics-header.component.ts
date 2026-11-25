@@ -109,20 +109,4 @@ export class MusicsHeaderComponent {
     const hasNameParam = params['id'] !== undefined;
     return hasNameParam ? `/${params['id']}/select-musics` : '/select-musics';
   }
-
-  getSelectMusicsRatingRoute(): string {
-    const params: Params = this.activatedRoute.snapshot.params;
-    const hasNameParam = params['id'] !== undefined;
-    return hasNameParam
-      ? `/${params['id']}/select-musics-rating`
-      : '/select-musics-rating';
-  }
-
-  getSelectMusicsTimesListenedRoute(): string {
-    const params: Params = this.activatedRoute.snapshot.params;
-    const hasNameParam = params['id'] !== undefined;
-    return hasNameParam
-      ? `/${params['id']}/select-musics-times-listened`
-      : '/select-musics-times-listened';
-  }
 }

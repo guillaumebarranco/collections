@@ -1,5 +1,5 @@
 import { getApiBaseUrl } from '../../core/config';
-import { BaseMusic, UserMusic } from '../../models/music-model';
+import { BaseMusic, UserAlbumNote, UserMusic } from '../../models/music-model';
 
 export async function fetchUserMusicsFromApi(
   userId: string
@@ -28,12 +28,44 @@ export async function fetchMergedUserMusicsFromApi(
   return Array.isArray(data) ? data : [];
 }
 
+export async function fetchUserAlbumNotes(
+  userId: string
+): Promise<UserAlbumNote[]> {
+  const response = await fetch(
+    `${getApiBaseUrl()}/musics/${encodeURIComponent(userId)}/album-notes`
+  );
+  if (!response.ok) {
+    throw new Error('Album notes API error');
+  }
+  const data = await response.json();
+  return Array.isArray(data) ? data : [];
+}
+
+export async function saveAlbumNote(payload: {
+  userId: string;
+  artist: string;
+  album: string;
+  rating: number;
+}): Promise<boolean> {
+  try {
+    const response = await fetch(`${getApiBaseUrl()}/musics/album-note`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload),
+    });
+    return response.ok;
+  } catch {
+    return false;
+  }
+}
+
 export async function saveMusicDetails(payload: {
   userId: string;
   title: string;
   artist: string;
   timesListened?: number;
   byHeart?: boolean;
+  rating?: number;
 }): Promise<boolean> {
   try {
     const response = await fetch(`${getApiBaseUrl()}/musics`, {

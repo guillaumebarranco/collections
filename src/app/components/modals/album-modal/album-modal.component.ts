@@ -2,7 +2,11 @@ import { Component, inject, input, output, signal } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MatDialog } from '@angular/material/dialog';
 import { Music } from '../../../models/music-model';
-import { saveMusicDetails } from '../../../facades/musics/api-musics.facade';
+import {
+  saveAlbumNote,
+  saveMusicDetails,
+} from '../../../facades/musics/api-musics.facade';
+import { RatingStarsComponent } from '../../shared/rating-stars/rating-stars.component';
 import { EntityQuotesComponent } from '../../shared/entity-quotes/entity-quotes.component';
 import {
   MusicQuotesModalComponent,
@@ -15,6 +19,7 @@ export interface Album {
   coverUrl: string;
   musics: Music[];
   totalDuration: number;
+  rating: number;
 }
 
 export interface MusicDetailsUpdate {
@@ -22,11 +27,18 @@ export interface MusicDetailsUpdate {
   artist: string;
   timesListened?: number;
   byHeart?: boolean;
+  rating?: number;
+}
+
+export interface AlbumRatingUpdate {
+  artist: string;
+  album: string;
+  rating: number;
 }
 
 @Component({
   selector: 'app-album-modal',
-  imports: [CommonModule, EntityQuotesComponent],
+  imports: [CommonModule, EntityQuotesComponent, RatingStarsComponent],
   templateUrl: './album-modal.component.html',
   styleUrls: ['./album-modal.component.scss'],
 })
@@ -40,9 +52,12 @@ export class AlbumModalComponent {
   close = output<void>();
   quotesUpdated = output<MusicQuotesModalResult & { title: string; artist: string }>();
   musicUpdated = output<MusicDetailsUpdate>();
+  albumRatingUpdated = output<AlbumRatingUpdate>();
 
   readonly savingKey = signal<string | null>(null);
   readonly saveErrorKey = signal<string | null>(null);
+  readonly albumSaving = signal(false);
+  readonly albumSaveError = signal(false);
   private saveQueue: Promise<void> = Promise.resolve();
 
   onOverlayClick() {
@@ -70,6 +85,21 @@ export class AlbumModalComponent {
 
   musicKey(music: Music): string {
     return `${music.title}|${music.artist}`;
+  }
+
+  onAlbumRatingChange(rating: number): void {
+    const album = this.album();
+    if (!album || rating === album.rating) {
+      return;
+    }
+    void this.persistAlbumRating(album, rating, () => undefined);
+  }
+
+  onTrackRatingChange(music: Music, rating: number): void {
+    if (rating === music.rating) {
+      return;
+    }
+    void this.persistMusic(music, { rating }, () => undefined);
   }
 
   onTimesListenedChange(music: Music, event: Event): void {
@@ -101,7 +131,7 @@ export class AlbumModalComponent {
 
   private persistMusic(
     music: Music,
-    patch: Pick<MusicDetailsUpdate, 'timesListened' | 'byHeart'>,
+    patch: Pick<MusicDetailsUpdate, 'timesListened' | 'byHeart' | 'rating'>,
     revert: () => void
   ): Promise<void> {
     const userId = this.userId();
@@ -136,6 +166,50 @@ export class AlbumModalComponent {
         this.saveErrorKey.set(key);
       } finally {
         this.savingKey.set(null);
+      }
+    });
+    this.saveQueue = run.then(
+      () => undefined,
+      () => undefined
+    );
+    return run;
+  }
+
+  private persistAlbumRating(
+    album: Album,
+    rating: number,
+    revert: () => void
+  ): Promise<void> {
+    const userId = this.userId();
+    if (!userId || !this.canEditQuotes()) {
+      revert();
+      return Promise.resolve();
+    }
+    const run = this.saveQueue.then(async () => {
+      this.albumSaving.set(true);
+      this.albumSaveError.set(false);
+      try {
+        const saved = await saveAlbumNote({
+          userId,
+          artist: album.artist,
+          album: album.name,
+          rating,
+        });
+        if (!saved) {
+          revert();
+          this.albumSaveError.set(true);
+          return;
+        }
+        this.albumRatingUpdated.emit({
+          artist: album.artist,
+          album: album.name,
+          rating,
+        });
+      } catch {
+        revert();
+        this.albumSaveError.set(true);
+      } finally {
+        this.albumSaving.set(false);
       }
     });
     this.saveQueue = run.then(

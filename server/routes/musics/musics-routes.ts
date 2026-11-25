@@ -6,6 +6,7 @@ const addExistingRouter = require('./add-existing');
 const batchRatingRouter = require('./batch-rating');
 const batchTimesListenedRouter = require('./batch-times-listened');
 const saveMusicRouter = require('./save-music');
+const saveAlbumNoteRouter = require('./save-album-note');
 
 const router = express.Router();
 
@@ -15,6 +16,7 @@ router.use(getMusicsRouter);
 router.use(addExistingRouter);
 router.use(batchRatingRouter);
 router.use(batchTimesListenedRouter);
+router.use(saveAlbumNoteRouter);
 router.use(saveMusicRouter);
 
 module.exports = router;

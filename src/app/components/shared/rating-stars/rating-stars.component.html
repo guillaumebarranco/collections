@@ -1,0 +1,21 @@
+<span
+  class="rating-stars"
+  [attr.role]="editable() ? 'group' : 'img'"
+  [attr.aria-label]="label() + ' : ' + rating() + ' sur 5'"
+>
+  @for (star of stars(); track star.value) {
+    @if (editable()) {
+    <button
+      type="button"
+      class="rating-stars__hit"
+      [disabled]="disabled()"
+      [attr.aria-label]="star.value + ' sur 5'"
+      (click)="choose($event, star.value)"
+    >
+      <span class="star" [class]="'star star-' + star.type"></span>
+    </button>
+    } @else {
+    <span class="star" [class]="'star star-' + star.type"></span>
+    }
+  }
+</span>

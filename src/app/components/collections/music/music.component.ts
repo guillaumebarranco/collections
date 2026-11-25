@@ -4,8 +4,8 @@ import { saveMusicDetails } from '../../../facades/musics/api-musics.facade';
 import { MusicDetailsUpdate } from '../../modals/album-modal/album-modal.component';
 import { CommonModule } from '@angular/common';
 import { isBaseEntityView } from '../../../core/config';
-import { StarInfo } from '../../../models/various-model';
-import { DEFAULT_USER_ID, getRatingStars } from '../../../utils/constants';
+import { DEFAULT_USER_ID } from '../../../utils/constants';
+import { RatingStarsComponent } from '../../shared/rating-stars/rating-stars.component';
 import { PersonBadgeComponent } from '../../shared/person-badge/person-badge.component';
 import { PersonNamesPipe } from '../../shared/person-badge/person-names.pipe';
 import { EntityQuotesComponent } from '../../shared/entity-quotes/entity-quotes.component';
@@ -24,6 +24,7 @@ import {
     PersonBadgeComponent,
     PersonNamesPipe,
     EntityQuotesComponent,
+    RatingStarsComponent,
   ],
   templateUrl: './music.component.html',
   styleUrls: ['./music.component.scss'],
@@ -46,6 +47,14 @@ export class MusicComponent {
       return false;
     }
     return this.authService.canEdit(this.currentUserId());
+  }
+
+  onRatingChange(rating: number): void {
+    const music = this.music();
+    if (rating === music.rating) {
+      return;
+    }
+    void this.persistMusic({ rating }, () => undefined);
   }
 
   onTimesListenedChange(event: Event): void {
@@ -78,7 +87,7 @@ export class MusicComponent {
   }
 
   private persistMusic(
-    patch: Pick<MusicDetailsUpdate, 'timesListened' | 'byHeart'>,
+    patch: Pick<MusicDetailsUpdate, 'timesListened' | 'byHeart' | 'rating'>,
     revert: () => void
   ): Promise<void> {
     const music = this.music();
@@ -162,9 +171,5 @@ export class MusicComponent {
     const minutes = Math.floor(seconds / 60);
     const remainingSeconds = seconds % 60;
     return `${minutes}:${remainingSeconds.toString().padStart(2, '0')}`;
-  }
-
-  getRatingStars(rating: number): StarInfo[] {
-    return getRatingStars(rating);
   }
 }

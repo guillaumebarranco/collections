@@ -332,6 +332,163 @@ function getUserMusicsFiles(userId: string): string[] {
   );
 }
 
+function getUserAlbumNotesFile(userId: string): string {
+  const userDir = path.join(USERS_MUSICS_DIR, userId, 'musics');
+  if (!fs.existsSync(userDir)) {
+    fs.mkdirSync(userDir, { recursive: true });
+  }
+  const filePath = path.join(userDir, `${userId}_albums_notes.ts`);
+  if (!fs.existsSync(filePath)) {
+    const exportName = `${userId}AlbumNotes`;
+    const content = `import { UserAlbumNote } from '../../../../models/music-model';\n\nexport const ${exportName}: UserAlbumNote[] = [];\n`;
+    fs.writeFileSync(filePath, content, 'utf8');
+  }
+  return filePath;
+}
+
+function parseAlbumNotesFromFile(content: string) {
+  const exportIndex = content.indexOf('export const');
+  if (exportIndex === -1) {
+    return [];
+  }
+  const bounds = getArrayBounds(content, exportIndex);
+  if (!bounds) {
+    return [];
+  }
+  const { arrayStart, arrayEnd } = bounds;
+  const notes = [];
+  let i = arrayStart;
+  let depth = 0;
+  let objectStart = -1;
+
+  while (i < arrayEnd) {
+    const char = content[i];
+    if (char === '{') {
+      if (depth === 0) {
+        objectStart = i;
+      }
+      depth += 1;
+    } else if (char === '}') {
+      depth -= 1;
+      if (depth === 0 && objectStart !== -1) {
+        const objectText = content.slice(objectStart, i + 1);
+        const artist = parseStringField(objectText, 'artist');
+        const album = parseStringField(objectText, 'album');
+        if (artist && album) {
+          notes.push({
+            artist,
+            album,
+            rating: parseNumberField(objectText, 'rating') ?? 0,
+          });
+        }
+      }
+    }
+    i += 1;
+  }
+
+  return notes;
+}
+
+function appendObjectToContent(content: string, objectText: string) {
+  const exportIndex = content.indexOf('export const');
+  if (exportIndex === -1) {
+    throw new Error('Array not found');
+  }
+  const bounds = getArrayBounds(content, exportIndex);
+  if (!bounds) {
+    throw new Error('Array bounds not found');
+  }
+  const { arrayStart, arrayEnd } = bounds;
+  const arrayBody = content.slice(arrayStart + 1, arrayEnd);
+  const trimmedBody = arrayBody.trim();
+  const hasItems = /{/.test(arrayBody);
+  const needsComma = hasItems && !trimmedBody.endsWith(',');
+  const insert = (needsComma ? ',' : '') + '\n' + objectText + '\n';
+  return (
+    content.slice(0, arrayStart + 1) +
+    arrayBody +
+    insert +
+    content.slice(arrayEnd)
+  );
+}
+
+function upsertAlbumNoteInFile(
+  content: string,
+  payload: { artist: string; album: string; rating: number }
+) {
+  const exportIndex = content.indexOf('export const');
+  if (exportIndex === -1) {
+    throw new Error('Array not found');
+  }
+  const bounds = getArrayBounds(content, exportIndex);
+  if (!bounds) {
+    throw new Error('Array bounds not found');
+  }
+  const { arrayStart, arrayEnd } = bounds;
+  let i = arrayStart;
+  let depth = 0;
+  let objectStart = -1;
+
+  while (i < arrayEnd) {
+    const char = content[i];
+    if (char === '{') {
+      if (depth === 0) {
+        objectStart = i;
+      }
+      depth += 1;
+    } else if (char === '}') {
+      depth -= 1;
+      if (depth === 0 && objectStart !== -1) {
+        const objectEnd = i;
+        const objectText = content.slice(objectStart, objectEnd + 1);
+        const artist = parseStringField(objectText, 'artist');
+        const album = parseStringField(objectText, 'album');
+        if (artist === payload.artist && album === payload.album) {
+          const updated = replaceField(objectText, 'rating', payload.rating);
+          return (
+            content.slice(0, objectStart) +
+            updated +
+            content.slice(objectEnd + 1)
+          );
+        }
+      }
+    }
+    i += 1;
+  }
+
+  const objectText = `  {\n    artist: "${escapeString(
+    payload.artist
+  )}",\n    album: "${escapeString(payload.album)}",\n    rating: ${
+    payload.rating
+  },\n  },`;
+  return appendObjectToContent(content, objectText);
+}
+
+function readAlbumNotes(userId: string) {
+  const filePath = path.join(
+    USERS_MUSICS_DIR,
+    userId,
+    'musics',
+    `${userId}_albums_notes.ts`
+  );
+  if (!fs.existsSync(filePath)) {
+    return [];
+  }
+  return parseAlbumNotesFromFile(fs.readFileSync(filePath, 'utf8'));
+}
+
+function saveAlbumNote(
+  userId: string,
+  artist: string,
+  album: string,
+  rating: number
+) {
+  const filePath = getUserAlbumNotesFile(userId);
+  const content = fs.readFileSync(filePath, 'utf8');
+  const updated = upsertAlbumNoteInFile(content, { artist, album, rating });
+  fs.writeFileSync(filePath, updated, 'utf8');
+}
+
 
 function appendObjectToArrayFile(filePath: string, objectText: string) {
   const content = fs.readFileSync(filePath, 'utf8');
@@ -436,6 +593,10 @@ module.exports = {
   parseBaseMusicsFullFromFile,
   getBaseMusicsFiles,
   getUserMusicsFiles,
+  getUserAlbumNotesFile,
+  parseAlbumNotesFromFile,
+  readAlbumNotes,
+  saveAlbumNote,
   escapeString,
   appendObjectToArrayFile,
   getUserMusicsTargetFile,
