@@ -8,6 +8,7 @@ export const musicsLauraLaune: UserMusic[] = [
     rating: 0,
     timesListened: 5,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -16,6 +17,7 @@ export const musicsLauraLaune: UserMusic[] = [
     rating: 0,
     timesListened: 15,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -24,6 +26,7 @@ export const musicsLauraLaune: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -32,6 +35,7 @@ export const musicsLauraLaune: UserMusic[] = [
     rating: 0,
     timesListened: 35,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -40,6 +44,7 @@ export const musicsLauraLaune: UserMusic[] = [
     rating: 0,
     timesListened: 10,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -48,6 +53,7 @@ export const musicsLauraLaune: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 ];

@@ -30,6 +30,7 @@ export interface MusicDetailsUpdate {
   timesListened?: number;
   byHeart?: boolean;
   rating?: number;
+  favorite?: boolean;
 }
 
 export interface AlbumRatingUpdate {
@@ -237,9 +238,16 @@ export class AlbumModalComponent {
     });
   }
 
+  onTrackFavoriteToggle(music: Music): void {
+    if (!this.canEditQuotes() || this.savingKey() === this.musicKey(music)) {
+      return;
+    }
+    void this.persistMusic(music, { favorite: music.favorite !== true }, () => undefined);
+  }
+
   private persistMusic(
     music: Music,
-    patch: Pick<MusicDetailsUpdate, 'timesListened' | 'byHeart' | 'rating'>,
+    patch: Pick<MusicDetailsUpdate, 'timesListened' | 'byHeart' | 'rating' | 'favorite'>,
     revert: () => void
   ): Promise<void> {
     const userId = this.userId();

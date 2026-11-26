@@ -7,6 +7,7 @@ export const musicsGwenStefani: UserMusic[] = [
     rating: 0,
     timesListened: 69,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -15,6 +16,7 @@ export const musicsGwenStefani: UserMusic[] = [
     rating: 0,
     timesListened: 218,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -23,6 +25,7 @@ export const musicsGwenStefani: UserMusic[] = [
     rating: 0,
     timesListened: 118,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -31,6 +34,7 @@ export const musicsGwenStefani: UserMusic[] = [
     rating: 0,
     timesListened: 6,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -39,6 +43,7 @@ export const musicsGwenStefani: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 ];

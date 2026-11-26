@@ -88,8 +88,16 @@ export class MusicComponent {
     });
   }
 
+  onFavoriteToggle(): void {
+    const music = this.music();
+    if (!this.canEditQuotes() || this.isSaving()) {
+      return;
+    }
+    void this.persistMusic({ favorite: music.favorite !== true }, () => undefined);
+  }
+
   private persistMusic(
-    patch: Pick<MusicDetailsUpdate, 'timesListened' | 'byHeart' | 'rating'>,
+    patch: Pick<MusicDetailsUpdate, 'timesListened' | 'byHeart' | 'rating' | 'favorite'>,
     revert: () => void
   ): Promise<void> {
     const music = this.music();

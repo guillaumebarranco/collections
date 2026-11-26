@@ -7,6 +7,7 @@ export const musicsBlackEyedPeas: UserMusic[] = [
     rating: 0,
     timesListened: 211,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -15,6 +16,7 @@ export const musicsBlackEyedPeas: UserMusic[] = [
     rating: 0,
     timesListened: 37,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -23,6 +25,7 @@ export const musicsBlackEyedPeas: UserMusic[] = [
     rating: 0,
     timesListened: 50,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -31,6 +34,7 @@ export const musicsBlackEyedPeas: UserMusic[] = [
     rating: 0,
     timesListened: 9,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 ];

@@ -7,6 +7,7 @@ export const musicsBeyonce: UserMusic[] = [
     rating: 0,
     timesListened: 157,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -15,6 +16,7 @@ export const musicsBeyonce: UserMusic[] = [
     rating: 0,
     timesListened: 103,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -23,6 +25,7 @@ export const musicsBeyonce: UserMusic[] = [
     rating: 0,
     timesListened: 151,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -31,6 +34,7 @@ export const musicsBeyonce: UserMusic[] = [
     rating: 0,
     timesListened: 22,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -39,6 +43,7 @@ export const musicsBeyonce: UserMusic[] = [
     rating: 0,
     timesListened: 51,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 ];

@@ -7,6 +7,7 @@ export const musicsMichaelJackson: UserMusic[] = [
     rating: 0,
     timesListened: 50,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -15,6 +16,7 @@ export const musicsMichaelJackson: UserMusic[] = [
     rating: 0,
     timesListened: 100,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -23,6 +25,7 @@ export const musicsMichaelJackson: UserMusic[] = [
     rating: 0,
     timesListened: 102,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -31,6 +34,7 @@ export const musicsMichaelJackson: UserMusic[] = [
     rating: 0,
     timesListened: 203,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -39,6 +43,7 @@ export const musicsMichaelJackson: UserMusic[] = [
     rating: 0,
     timesListened: 101,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -47,6 +52,7 @@ export const musicsMichaelJackson: UserMusic[] = [
     rating: 0,
     timesListened: 80,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 ];

@@ -7,6 +7,7 @@ export const musicsBritneySpears: UserMusic[] = [
     rating: 0,
     timesListened: 87,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -15,6 +16,7 @@ export const musicsBritneySpears: UserMusic[] = [
     rating: 0,
     timesListened: 161,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -23,6 +25,7 @@ export const musicsBritneySpears: UserMusic[] = [
     rating: 0,
     timesListened: 85,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -31,6 +34,7 @@ export const musicsBritneySpears: UserMusic[] = [
     rating: 0,
     timesListened: 53,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -39,6 +43,7 @@ export const musicsBritneySpears: UserMusic[] = [
     rating: 0,
     timesListened: 54,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -47,6 +52,7 @@ export const musicsBritneySpears: UserMusic[] = [
     rating: 0,
     timesListened: 59,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 ];

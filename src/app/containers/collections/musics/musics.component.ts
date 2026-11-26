@@ -515,8 +515,19 @@ export class MusicsComponent implements OnInit {
     return `${minutes}min`;
   }
 
-  sortedStandaloneMusics = computed<Music[]>(() => {
-    const musics = this.standaloneMusics();
+  favoriteSongs = computed<Music[]>(() =>
+    this.sortLooseMusics(
+      this.filteredMusics().filter((music) => music.favorite === true)
+    )
+  );
+
+  otherStandaloneMusics = computed<Music[]>(() =>
+    this.sortLooseMusics(
+      this.standaloneMusics().filter((music) => music.favorite !== true)
+    )
+  );
+
+  private sortLooseMusics(musics: Music[]): Music[] {
     const maxListensByArtist = new Map<string, number>();
     for (const music of musics) {
       const current = maxListensByArtist.get(music.artist) ?? 0;
@@ -533,7 +544,9 @@ export class MusicsComponent implements OnInit {
         sensitivity: 'base',
       });
       if (artist !== 0) return artist;
-      const album = a.album.localeCompare(b.album, 'fr', { sensitivity: 'base' });
+      const album = a.album.localeCompare(b.album, 'fr', {
+        sensitivity: 'base',
+      });
       if (album !== 0) return album;
       const aTrack = a.albumTrackId ?? 0;
       const bTrack = b.albumTrackId ?? 0;
@@ -544,7 +557,7 @@ export class MusicsComponent implements OnInit {
       }
       return a.title.localeCompare(b.title, 'fr', { sensitivity: 'base' });
     });
-  });
+  }
 
   hasCatalogAlbum(music: Music): boolean {
     if (!music.album || music.album === 'Unknown') {
@@ -808,6 +821,9 @@ export class MusicsComponent implements OnInit {
               ? { byHeart: update.byHeart }
               : {}),
             ...(update.rating !== undefined ? { rating: update.rating } : {}),
+            ...(update.favorite !== undefined
+              ? { favorite: update.favorite }
+              : {}),
           }
         : music;
 

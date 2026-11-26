@@ -53,6 +53,7 @@ export class AdminMusicsComponent implements OnInit {
       rating: 0,
       timesListened: 0,
       byHeart: false,
+      favorite: false,
       quotes: [],
     }));
     this.allMusics.set(musics);

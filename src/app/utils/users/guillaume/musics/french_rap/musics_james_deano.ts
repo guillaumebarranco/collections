@@ -8,6 +8,7 @@ export const musicsJamesDeano: UserMusic[] = [
     rating: 0,
     timesListened: 30,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -16,6 +17,7 @@ export const musicsJamesDeano: UserMusic[] = [
     rating: 0,
     timesListened: 155,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -24,6 +26,7 @@ export const musicsJamesDeano: UserMusic[] = [
     rating: 0,
     timesListened: 155,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -32,6 +35,7 @@ export const musicsJamesDeano: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -40,6 +44,7 @@ export const musicsJamesDeano: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -48,6 +53,7 @@ export const musicsJamesDeano: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -56,6 +62,7 @@ export const musicsJamesDeano: UserMusic[] = [
     rating: 0,
     timesListened: 202,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -64,6 +71,7 @@ export const musicsJamesDeano: UserMusic[] = [
     rating: 0,
     timesListened: 121,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -72,6 +80,7 @@ export const musicsJamesDeano: UserMusic[] = [
     rating: 0,
     timesListened: 11,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -80,6 +89,7 @@ export const musicsJamesDeano: UserMusic[] = [
     rating: 0,
     timesListened: 103,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -88,6 +98,7 @@ export const musicsJamesDeano: UserMusic[] = [
     rating: 0,
     timesListened: 54,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -96,6 +107,7 @@ export const musicsJamesDeano: UserMusic[] = [
     rating: 0,
     timesListened: 18,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -104,6 +116,7 @@ export const musicsJamesDeano: UserMusic[] = [
     rating: 0,
     timesListened: 11,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -112,6 +125,7 @@ export const musicsJamesDeano: UserMusic[] = [
     rating: 0,
     timesListened: 30,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -120,6 +134,7 @@ export const musicsJamesDeano: UserMusic[] = [
     rating: 0,
     timesListened: 16,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -128,6 +143,7 @@ export const musicsJamesDeano: UserMusic[] = [
     rating: 0,
     timesListened: 15,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -136,6 +152,7 @@ export const musicsJamesDeano: UserMusic[] = [
     rating: 0,
     timesListened: 24,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -144,6 +161,7 @@ export const musicsJamesDeano: UserMusic[] = [
     rating: 0,
     timesListened: 23,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -152,6 +170,7 @@ export const musicsJamesDeano: UserMusic[] = [
     rating: 0,
     timesListened: 14,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -160,6 +179,7 @@ export const musicsJamesDeano: UserMusic[] = [
     rating: 0,
     timesListened: 11,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   // Album : Putain de boucher (2011) - James Deano
@@ -169,6 +189,7 @@ export const musicsJamesDeano: UserMusic[] = [
     rating: 0,
     timesListened: 14,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -177,6 +198,7 @@ export const musicsJamesDeano: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -185,6 +207,7 @@ export const musicsJamesDeano: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -193,6 +216,7 @@ export const musicsJamesDeano: UserMusic[] = [
     rating: 0,
     timesListened: 12,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -201,6 +225,7 @@ export const musicsJamesDeano: UserMusic[] = [
     rating: 0,
     timesListened: 16,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -209,6 +234,7 @@ export const musicsJamesDeano: UserMusic[] = [
     rating: 0,
     timesListened: 13,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -217,6 +243,7 @@ export const musicsJamesDeano: UserMusic[] = [
     rating: 0,
     timesListened: 50,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -225,6 +252,7 @@ export const musicsJamesDeano: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -233,6 +261,7 @@ export const musicsJamesDeano: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -241,6 +270,7 @@ export const musicsJamesDeano: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -249,6 +279,7 @@ export const musicsJamesDeano: UserMusic[] = [
     rating: 0,
     timesListened: 7,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -257,6 +288,7 @@ export const musicsJamesDeano: UserMusic[] = [
     rating: 0,
     timesListened: 11,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -265,6 +297,7 @@ export const musicsJamesDeano: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -273,6 +306,7 @@ export const musicsJamesDeano: UserMusic[] = [
     rating: 0,
     timesListened: 15,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -281,6 +315,7 @@ export const musicsJamesDeano: UserMusic[] = [
     rating: 0,
     timesListened: 30,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -289,6 +324,7 @@ export const musicsJamesDeano: UserMusic[] = [
     rating: 0,
     timesListened: 12,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -299,6 +335,7 @@ export const musicsJamesDeano: UserMusic[] = [
     rating: 0,
     timesListened: 10,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -307,6 +344,7 @@ export const musicsJamesDeano: UserMusic[] = [
     rating: 0,
     timesListened: 9,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -315,6 +353,7 @@ export const musicsJamesDeano: UserMusic[] = [
     rating: 0,
     timesListened: 10,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -323,6 +362,7 @@ export const musicsJamesDeano: UserMusic[] = [
     rating: 0,
     timesListened: 5,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 ];

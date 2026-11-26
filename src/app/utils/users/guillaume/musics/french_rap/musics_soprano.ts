@@ -8,6 +8,7 @@ export const musicsSoprano: UserMusic[] = [
     rating: 0,
     timesListened: 10,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -16,6 +17,7 @@ export const musicsSoprano: UserMusic[] = [
     rating: 0,
     timesListened: 14,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -24,6 +26,7 @@ export const musicsSoprano: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -32,6 +35,7 @@ export const musicsSoprano: UserMusic[] = [
     rating: 0,
     timesListened: 30,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -40,6 +44,7 @@ export const musicsSoprano: UserMusic[] = [
     rating: 0,
     timesListened: 30,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -48,6 +53,7 @@ export const musicsSoprano: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -56,6 +62,7 @@ export const musicsSoprano: UserMusic[] = [
     rating: 0,
     timesListened: 151,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -64,6 +71,7 @@ export const musicsSoprano: UserMusic[] = [
     rating: 0,
     timesListened: 50,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -72,6 +80,7 @@ export const musicsSoprano: UserMusic[] = [
     rating: 0,
     timesListened: 50,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -80,6 +89,7 @@ export const musicsSoprano: UserMusic[] = [
     rating: 0,
     timesListened: 30,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -88,6 +98,7 @@ export const musicsSoprano: UserMusic[] = [
     rating: 0,
     timesListened: 50,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -96,6 +107,7 @@ export const musicsSoprano: UserMusic[] = [
     rating: 0,
     timesListened: 200,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -104,6 +116,7 @@ export const musicsSoprano: UserMusic[] = [
     rating: 0,
     timesListened: 120,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -112,6 +125,7 @@ export const musicsSoprano: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -120,6 +134,7 @@ export const musicsSoprano: UserMusic[] = [
     rating: 0,
     timesListened: 80,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -128,6 +143,7 @@ export const musicsSoprano: UserMusic[] = [
     rating: 0,
     timesListened: 22,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -136,6 +152,7 @@ export const musicsSoprano: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -144,6 +161,7 @@ export const musicsSoprano: UserMusic[] = [
     rating: 0,
     timesListened: 10,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -154,6 +172,7 @@ export const musicsSoprano: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -162,6 +181,7 @@ export const musicsSoprano: UserMusic[] = [
     rating: 0,
     timesListened: 109,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -170,6 +190,7 @@ export const musicsSoprano: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -178,6 +199,7 @@ export const musicsSoprano: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -186,6 +208,7 @@ export const musicsSoprano: UserMusic[] = [
     rating: 0,
     timesListened: 150,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -194,6 +217,7 @@ export const musicsSoprano: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -202,6 +226,7 @@ export const musicsSoprano: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -210,6 +235,7 @@ export const musicsSoprano: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -218,6 +244,7 @@ export const musicsSoprano: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -226,6 +253,7 @@ export const musicsSoprano: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -234,6 +262,7 @@ export const musicsSoprano: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -242,6 +271,7 @@ export const musicsSoprano: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -250,6 +280,7 @@ export const musicsSoprano: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -258,6 +289,7 @@ export const musicsSoprano: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -266,6 +298,7 @@ export const musicsSoprano: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -274,6 +307,7 @@ export const musicsSoprano: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -284,6 +318,7 @@ export const musicsSoprano: UserMusic[] = [
     rating: 0,
     timesListened: 102,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -292,6 +327,7 @@ export const musicsSoprano: UserMusic[] = [
     rating: 0,
     timesListened: 5,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -300,6 +336,7 @@ export const musicsSoprano: UserMusic[] = [
     rating: 0,
     timesListened: 5,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -308,6 +345,7 @@ export const musicsSoprano: UserMusic[] = [
     rating: 0,
     timesListened: 5,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -316,6 +354,7 @@ export const musicsSoprano: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -324,6 +363,7 @@ export const musicsSoprano: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -332,6 +372,7 @@ export const musicsSoprano: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -340,6 +381,7 @@ export const musicsSoprano: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -348,6 +390,7 @@ export const musicsSoprano: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -356,6 +399,7 @@ export const musicsSoprano: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -364,6 +408,7 @@ export const musicsSoprano: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -372,6 +417,7 @@ export const musicsSoprano: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -382,6 +428,7 @@ export const musicsSoprano: UserMusic[] = [
     rating: 0,
     timesListened: 102,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -390,6 +437,7 @@ export const musicsSoprano: UserMusic[] = [
     rating: 0,
     timesListened: 80,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -400,6 +448,7 @@ export const musicsSoprano: UserMusic[] = [
     rating: 0,
     timesListened: 54,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -408,6 +457,7 @@ export const musicsSoprano: UserMusic[] = [
     rating: 0,
     timesListened: 9,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -416,6 +466,7 @@ export const musicsSoprano: UserMusic[] = [
     rating: 0,
     timesListened: 3,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -424,6 +475,7 @@ export const musicsSoprano: UserMusic[] = [
     rating: 0,
     timesListened: 81,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -432,6 +484,7 @@ export const musicsSoprano: UserMusic[] = [
     rating: 0,
     timesListened: 80,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -440,6 +493,7 @@ export const musicsSoprano: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -448,6 +502,7 @@ export const musicsSoprano: UserMusic[] = [
     rating: 0,
     timesListened: 80,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
 ];

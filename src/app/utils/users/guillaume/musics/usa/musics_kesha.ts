@@ -8,6 +8,7 @@ export const musicsKesha: UserMusic[] = [
     rating: 0,
     timesListened: 164,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -16,6 +17,7 @@ export const musicsKesha: UserMusic[] = [
     rating: 0,
     timesListened: 212,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -24,6 +26,7 @@ export const musicsKesha: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -32,6 +35,7 @@ export const musicsKesha: UserMusic[] = [
     rating: 0,
     timesListened: 30,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -40,6 +44,7 @@ export const musicsKesha: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -48,6 +53,7 @@ export const musicsKesha: UserMusic[] = [
     rating: 0,
     timesListened: 133,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -56,6 +62,7 @@ export const musicsKesha: UserMusic[] = [
     rating: 0,
     timesListened: 10,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -64,6 +71,7 @@ export const musicsKesha: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -72,6 +80,7 @@ export const musicsKesha: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -80,6 +89,7 @@ export const musicsKesha: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -88,6 +98,7 @@ export const musicsKesha: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -96,6 +107,7 @@ export const musicsKesha: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -104,6 +116,7 @@ export const musicsKesha: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -112,6 +125,7 @@ export const musicsKesha: UserMusic[] = [
     rating: 0,
     timesListened: 10,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -122,6 +136,7 @@ export const musicsKesha: UserMusic[] = [
     rating: 0,
     timesListened: 11,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 ];

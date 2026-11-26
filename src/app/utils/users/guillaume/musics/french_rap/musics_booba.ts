@@ -8,6 +8,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -16,6 +17,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 10,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -24,6 +26,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -32,6 +35,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -40,6 +44,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 80,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -48,6 +53,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -56,6 +62,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -64,6 +71,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -72,6 +80,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -80,6 +89,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -88,6 +98,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -96,6 +107,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 5,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -104,6 +116,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -112,6 +125,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -122,6 +136,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 10,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -130,6 +145,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -138,6 +154,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -146,6 +163,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -154,6 +172,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -162,6 +181,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 30,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -170,6 +190,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 10,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -178,6 +199,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 10,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -186,6 +208,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -194,6 +217,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -202,6 +226,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -210,6 +235,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -218,6 +244,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -226,6 +253,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -236,6 +264,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 10,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -244,6 +273,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -252,6 +282,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -260,6 +291,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 101,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -268,6 +300,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -276,6 +309,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -284,6 +318,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 50,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -292,6 +327,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -300,6 +336,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 50,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -308,6 +345,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -316,6 +354,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -324,6 +363,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -332,6 +372,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -342,6 +383,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 80,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -350,6 +392,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 181,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -358,6 +401,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 101,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -366,6 +410,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 50,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -374,6 +419,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 181,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -382,6 +428,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 101,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -390,6 +437,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 30,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -398,6 +446,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 50,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -406,6 +455,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 100,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -414,6 +464,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 50,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -422,6 +473,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 51,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -430,6 +482,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 100,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -438,6 +491,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 101,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -446,6 +500,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 80,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -454,6 +509,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 50,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -462,6 +518,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 30,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -472,6 +529,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -480,6 +538,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 81,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -488,6 +547,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 50,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -496,6 +556,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -504,6 +565,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -512,6 +574,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -520,6 +583,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -528,6 +592,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -536,6 +601,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -544,6 +610,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 80,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -552,6 +619,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -560,6 +628,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -568,6 +637,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -576,6 +646,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -584,6 +655,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -592,6 +664,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -600,6 +673,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -608,6 +682,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -616,6 +691,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -624,6 +700,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 30,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -632,6 +709,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -640,6 +718,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -648,6 +727,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 50,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -656,6 +736,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -664,6 +745,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -674,6 +756,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -682,6 +765,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -690,6 +774,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 101,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -698,6 +783,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -706,6 +792,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 80,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -714,6 +801,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 80,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -722,6 +810,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -730,6 +819,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 50,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -738,6 +828,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -746,6 +837,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -754,6 +846,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -762,6 +855,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 50,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -770,6 +864,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 101,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -778,6 +873,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 120,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -786,6 +882,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 80,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -794,6 +891,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -802,6 +900,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -810,6 +909,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 30,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -818,6 +918,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -826,6 +927,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -834,6 +936,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -842,6 +945,7 @@ export const musicsBooba: UserMusic[] = [
     rating: 0,
     timesListened: 80,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 ];

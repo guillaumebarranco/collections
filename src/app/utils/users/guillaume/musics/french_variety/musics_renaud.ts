@@ -7,6 +7,7 @@ export const musicsRenaud: UserMusic[] = [
     rating: 0,
     timesListened: 263,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -15,6 +16,7 @@ export const musicsRenaud: UserMusic[] = [
     rating: 0,
     timesListened: 100,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -23,6 +25,7 @@ export const musicsRenaud: UserMusic[] = [
     rating: 0,
     timesListened: 50,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -31,6 +34,7 @@ export const musicsRenaud: UserMusic[] = [
     rating: 0,
     timesListened: 121,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -39,6 +43,7 @@ export const musicsRenaud: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -47,6 +52,7 @@ export const musicsRenaud: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -55,6 +61,7 @@ export const musicsRenaud: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -63,6 +70,7 @@ export const musicsRenaud: UserMusic[] = [
     rating: 0,
     timesListened: 10,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -71,6 +79,7 @@ export const musicsRenaud: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -79,6 +88,7 @@ export const musicsRenaud: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -87,6 +97,7 @@ export const musicsRenaud: UserMusic[] = [
     rating: 0,
     timesListened: 100,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
 ];

@@ -8,6 +8,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 208,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -16,6 +17,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 152,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -24,6 +26,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 153,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -32,6 +35,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 152,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -40,6 +44,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 124,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -48,6 +53,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 205,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -56,6 +62,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 203,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -64,6 +71,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 184,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -72,6 +80,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 184,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -80,6 +89,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 233,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -88,6 +98,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 235,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -96,6 +107,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 153,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -104,6 +116,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 202,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -112,6 +125,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 180,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
 
@@ -122,6 +136,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 155,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -130,6 +145,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 124,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -138,6 +154,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 152,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -146,6 +163,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 121,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -154,6 +172,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 152,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -162,6 +181,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 237,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -170,6 +190,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 209,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -178,6 +199,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 182,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -186,6 +208,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -194,6 +217,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 153,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -202,6 +226,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 184,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -210,6 +235,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 101,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -218,6 +244,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 152,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -226,6 +253,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 151,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -234,6 +262,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 188,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -242,6 +271,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 255,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
 
@@ -252,6 +282,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 209,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -260,6 +291,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 71,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -268,6 +300,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 70,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -276,6 +309,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 81,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -284,6 +318,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 152,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -292,6 +327,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 52,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -300,6 +336,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 155,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -308,6 +345,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 156,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -316,6 +354,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 108,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -324,6 +363,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 124,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -332,6 +372,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 152,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -340,6 +381,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 101,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -348,6 +390,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 104,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -356,6 +399,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 205,
     byHeart: true,
+    favorite: false,
     quotes: [
       {
         quoteText:
@@ -372,6 +416,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 52,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -380,6 +425,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 106,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -388,6 +434,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 104,
     byHeart: true,
+    favorite: false,
     quotes: [
       {
         quoteText:
@@ -407,6 +454,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 105,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -415,6 +463,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 100,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -423,6 +472,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 103,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -431,6 +481,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 155,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -439,6 +490,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 101,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -447,6 +499,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 123,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -455,6 +508,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 101,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -463,6 +517,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 80,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -471,6 +526,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 71,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -479,6 +535,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 75,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -487,6 +544,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 73,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -495,6 +553,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 50,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -503,6 +562,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 39,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -511,6 +571,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 62,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -519,6 +580,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 34,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -527,6 +589,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 51,
     byHeart: true,
+    favorite: false,
     quotes: [
       {
         quoteText:
@@ -541,6 +604,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 48,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -549,6 +613,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 49,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -557,6 +622,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 63,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -565,6 +631,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 42,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -573,6 +640,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 93,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -581,6 +649,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 53,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
 
@@ -591,6 +660,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 59,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -599,6 +669,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 24,
     byHeart: false,
+    favorite: false,
     quotes: [
       {
         quoteText:
@@ -613,6 +684,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -621,6 +693,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -629,6 +702,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -637,6 +711,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 15,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -645,6 +720,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 14,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -653,6 +729,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 10,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -661,6 +738,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 16,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -669,6 +747,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 5,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -679,6 +758,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 33,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -687,6 +767,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 24,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -695,6 +776,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 18,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -703,6 +785,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 35,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -711,6 +794,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 22,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -719,6 +803,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 35,
     byHeart: false,
+    favorite: false,
     quotes: [
       {
         quoteText:
@@ -733,6 +818,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 34,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -741,6 +827,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 11,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -749,6 +836,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 16,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -757,6 +845,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 34,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -765,6 +854,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 19,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -773,6 +863,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 12,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -781,6 +872,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 7,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -789,6 +881,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 9,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -797,6 +890,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 9,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -805,6 +899,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 11,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -813,6 +908,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 5,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -821,6 +917,7 @@ export const musicsOrelsan: UserMusic[] = [
     rating: 0,
     timesListened: 12,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 ];

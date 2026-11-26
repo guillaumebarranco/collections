@@ -10,7 +10,26 @@
   </div>
 
   <div class="music-content">
-    <h3 class="music-title">{{ music().title }}</h3>
+    <div class="music-title-row">
+      <h3 class="music-title">{{ music().title }}</h3>
+      @if (canEditQuotes() || music().favorite) {
+      <button
+        type="button"
+        class="music-favorite"
+        [class.is-favorite]="music().favorite"
+        [disabled]="!canEditQuotes() || isSaving()"
+        [attr.aria-pressed]="music().favorite === true"
+        [attr.aria-label]="
+          music().favorite
+            ? 'Retirer ' + music().title + ' des chansons favorites'
+            : 'Mettre ' + music().title + ' en favori'
+        "
+        (click)="onFavoriteToggle()"
+      >
+        <span aria-hidden="true">{{ music().favorite ? '♥' : '♡' }}</span>
+      </button>
+      }
+    </div>
     <p class="music-artist">
       @for (name of (music().artist | personNames); track name) {
       <app-person-badge [name]="name" variant="musician" />

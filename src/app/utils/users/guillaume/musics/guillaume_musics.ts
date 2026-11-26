@@ -7,6 +7,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 4,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -15,6 +16,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 33,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -24,6 +26,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 22,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -33,6 +36,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 16,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -42,6 +46,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 13,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -51,6 +56,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 12,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -60,6 +66,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 12,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -70,6 +77,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 11,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -79,6 +87,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 10,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -88,6 +97,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 10,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -97,6 +107,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 9,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -106,6 +117,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 9,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -115,6 +127,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 8,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -124,6 +137,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 8,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -133,6 +147,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 8,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -142,6 +157,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 7,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -151,6 +167,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 7,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -160,6 +177,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 6,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -169,6 +187,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 6,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -178,6 +197,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 5,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -187,6 +207,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 5,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -196,6 +217,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 5,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -205,6 +227,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 5,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -214,6 +237,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 5,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -223,6 +247,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 4,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -232,6 +257,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 4,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -241,6 +267,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 4,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -250,6 +277,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 4,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -259,6 +287,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 4,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -268,6 +297,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 4,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -277,6 +307,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 4,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -286,6 +317,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 4,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -295,6 +327,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 4,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -304,6 +337,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 4,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -313,6 +347,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 3,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -322,6 +357,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 3,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -331,6 +367,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 3,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -340,6 +377,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 3,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -349,6 +387,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 3,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -358,6 +397,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 3,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -367,6 +407,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 3,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -376,6 +417,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 3,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -385,6 +427,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 3,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -394,6 +437,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 3,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -403,6 +447,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 3,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -412,6 +457,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 3,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -421,6 +467,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 3,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -430,6 +477,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 3,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -439,6 +487,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -448,6 +497,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -457,6 +507,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -466,6 +517,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -475,6 +527,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -484,6 +537,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -493,6 +547,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -502,6 +557,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -511,6 +567,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -520,6 +577,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -529,6 +587,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -538,6 +597,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -547,6 +607,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -556,6 +617,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -565,6 +627,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -574,6 +637,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -583,6 +647,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -592,6 +657,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -601,6 +667,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -610,6 +677,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -619,6 +687,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -628,6 +697,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -637,6 +707,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -646,6 +717,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -655,6 +727,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -664,6 +737,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -673,6 +747,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -682,6 +757,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -691,6 +767,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -700,6 +777,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -709,6 +787,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -718,6 +797,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -727,6 +807,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -736,6 +817,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -745,6 +827,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -754,6 +837,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -763,6 +847,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -772,6 +857,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -781,6 +867,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -790,6 +877,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -799,6 +887,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -808,6 +897,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -817,6 +907,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -826,6 +917,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -836,6 +928,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -845,6 +938,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -854,6 +948,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -863,6 +958,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -872,6 +968,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -881,6 +978,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -890,6 +988,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -899,6 +998,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -908,6 +1008,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -917,6 +1018,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -926,6 +1028,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -935,6 +1038,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -944,6 +1048,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -953,6 +1058,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -962,6 +1068,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -971,6 +1078,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -980,6 +1088,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -989,6 +1098,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -998,6 +1108,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1007,6 +1118,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1016,6 +1128,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1025,6 +1138,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1034,6 +1148,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1043,6 +1158,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1052,6 +1168,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1061,6 +1178,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1070,6 +1188,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1079,6 +1198,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1088,6 +1208,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1097,6 +1218,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1106,6 +1228,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1115,6 +1238,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1124,6 +1248,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1133,6 +1258,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1142,6 +1268,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1151,6 +1278,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1160,6 +1288,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1169,6 +1298,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1178,6 +1308,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1187,6 +1318,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1196,6 +1328,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1205,6 +1338,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1214,6 +1348,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1223,6 +1358,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1232,6 +1368,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1241,6 +1378,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1250,6 +1388,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1259,6 +1398,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1268,6 +1408,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1277,6 +1418,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1286,6 +1428,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1295,6 +1438,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1304,6 +1448,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1313,6 +1458,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1322,6 +1468,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1331,6 +1478,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1340,6 +1488,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1349,6 +1498,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1358,6 +1508,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1367,6 +1518,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1376,6 +1528,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1385,6 +1538,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1394,6 +1548,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1403,6 +1558,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1412,6 +1568,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1421,6 +1578,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1430,6 +1588,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1439,6 +1598,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1448,6 +1608,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1457,6 +1618,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1466,6 +1628,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1475,6 +1638,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1484,6 +1648,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1493,6 +1658,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1502,6 +1668,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1511,6 +1678,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1520,6 +1688,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1529,6 +1698,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1538,6 +1708,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1547,6 +1718,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1556,6 +1728,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1565,6 +1738,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1574,6 +1748,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1583,6 +1758,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1592,6 +1768,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1601,6 +1778,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1610,6 +1788,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1619,6 +1798,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1628,6 +1808,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1637,6 +1818,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1646,6 +1828,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1655,6 +1838,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1664,6 +1848,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1673,6 +1858,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1682,6 +1868,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1691,6 +1878,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1700,6 +1888,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1709,6 +1898,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1718,6 +1908,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1727,6 +1918,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1736,6 +1928,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1745,6 +1938,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1754,6 +1948,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1763,6 +1958,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1772,6 +1968,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1781,6 +1978,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1790,6 +1988,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -1799,6 +1998,7 @@ export const guillaumeMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 ];

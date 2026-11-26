@@ -7,6 +7,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 214,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -15,6 +16,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 50,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -23,6 +25,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 6,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -31,6 +34,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 15,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -40,6 +44,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 258,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -48,6 +53,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 25,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -56,6 +62,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 100,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -64,6 +71,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 80,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -72,6 +80,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 67,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -80,6 +89,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 109,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -88,6 +98,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 214,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -96,6 +107,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 265,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -104,6 +116,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 258,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -112,6 +125,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 94,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -120,6 +134,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 166,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -128,6 +143,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 141,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -136,6 +152,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 236,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -144,6 +161,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 19,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -152,6 +170,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 66,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -160,6 +179,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 50,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -168,6 +188,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 209,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -176,6 +197,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 104,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -184,6 +206,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 53,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -192,6 +215,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 61,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -200,6 +224,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 87,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -208,6 +233,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 89,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -216,6 +242,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 108,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -224,6 +251,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 159,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -232,6 +260,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 126,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -240,6 +269,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 50,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -248,6 +278,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 82,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -256,6 +287,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 150,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -264,6 +296,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 215,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -272,6 +305,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 79,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -280,6 +314,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 71,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -288,6 +323,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 55,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -296,6 +332,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 157,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -304,6 +341,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 53,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -312,6 +350,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 264,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -320,6 +359,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 30,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -328,6 +368,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 257,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -336,6 +377,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 41,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -344,6 +386,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 80,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -352,6 +395,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 84,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -360,6 +404,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 82,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -368,6 +413,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 12,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -376,6 +422,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 62,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -384,6 +431,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 136,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -392,6 +440,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 121,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -400,6 +449,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 115,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -408,6 +458,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 14,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -416,6 +467,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 250,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -424,6 +476,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 35,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -432,6 +485,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 103,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -440,6 +494,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 50,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -448,6 +503,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 50,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -456,6 +512,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 9,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -464,6 +521,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 55,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -472,6 +530,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 88,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -480,6 +539,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 86,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -488,6 +548,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 7,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -496,6 +557,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 30,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -504,6 +566,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 31,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -512,6 +575,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 22,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -520,6 +584,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 9,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -528,6 +593,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -536,6 +602,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 7,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -544,6 +611,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 80,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -552,6 +620,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 253,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -560,6 +629,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 16,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -568,6 +638,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 150,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -576,6 +647,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 81,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -584,6 +656,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 6,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -592,6 +665,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 6,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -600,6 +674,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 16,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -608,6 +683,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 6,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -616,6 +692,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 6,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -624,6 +701,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 54,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -632,6 +710,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 31,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -640,6 +719,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 70,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -648,6 +728,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 5,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -656,6 +737,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 52,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -664,6 +746,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 50,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -672,6 +755,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 59,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -680,6 +764,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 5,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -688,6 +773,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 14,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -696,6 +782,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 53,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -704,6 +791,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 30,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -712,6 +800,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 40,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -720,6 +809,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -728,6 +818,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 30,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -736,6 +827,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -744,6 +836,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 5,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -752,6 +845,7 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 ];

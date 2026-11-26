@@ -50,27 +50,40 @@
       *ngTemplateOutlet="albumGrid; context: { $implicit: otherAlbums() }"
     ></ng-container>
   </div>
-  } @if (sortedStandaloneMusics().length > 0) {
+  } @if (favoriteSongs().length > 0) {
   <div class="section">
     <h2 class="section-title">
-      🎵 Musiques ({{ sortedStandaloneMusics().length }})
+      ♥ Chansons favorites ({{ favoriteSongs().length }})
     </h2>
+    <ng-container
+      *ngTemplateOutlet="musicGrid; context: { $implicit: favoriteSongs() }"
+    ></ng-container>
+  </div>
+  } @if (otherStandaloneMusics().length > 0) {
+  <div class="section">
+    <h2 class="section-title">
+      🎵 Chansons ({{ otherStandaloneMusics().length }})
+    </h2>
+    <ng-container
+      *ngTemplateOutlet="musicGrid; context: { $implicit: otherStandaloneMusics() }"
+    ></ng-container>
+  </div>
+  }
+  <ng-template #musicGrid let-musics>
     <div class="musics">
-      @for (music of sortedStandaloneMusics(); track
-      `${music.title}-${music.artist}`) {
+      @for (music of musics; track `${music.title}-${music.artist}`) {
       <div class="music-card">
         <app-music
-        [music]="music"
-        [showViewAlbum]="hasCatalogAlbum(music)"
-        (viewAlbum)="openStandaloneAlbum($event)"
-        (quotesUpdated)="onMusicQuotesUpdated($event)"
-        (musicUpdated)="onMusicDetailsUpdated($event)"
-      ></app-music>
+          [music]="music"
+          [showViewAlbum]="hasCatalogAlbum(music)"
+          (viewAlbum)="openStandaloneAlbum($event)"
+          (quotesUpdated)="onMusicQuotesUpdated($event)"
+          (musicUpdated)="onMusicDetailsUpdated($event)"
+        ></app-music>
       </div>
       }
     </div>
-  </div>
-  }
+  </ng-template>
   <ng-template #albumGrid let-albums>
     <div class="albums-grid">
       @for (album of albums; track `${album.name}-${album.artist}`) {

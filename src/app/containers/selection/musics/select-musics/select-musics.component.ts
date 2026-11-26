@@ -342,6 +342,7 @@ export class SelectMusicsComponent
         rating: 0,
         timesListened: 0,
         byHeart: false,
+        favorite: false,
         quotes: [],
       }))
     );

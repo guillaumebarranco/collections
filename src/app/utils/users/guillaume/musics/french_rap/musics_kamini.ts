@@ -8,6 +8,7 @@ export const musicsKamini: UserMusic[] = [
     rating: 0,
     timesListened: 220,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -16,6 +17,7 @@ export const musicsKamini: UserMusic[] = [
     rating: 0,
     timesListened: 102,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -24,6 +26,7 @@ export const musicsKamini: UserMusic[] = [
     rating: 0,
     timesListened: 151,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -32,6 +35,7 @@ export const musicsKamini: UserMusic[] = [
     rating: 0,
     timesListened: 204,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -40,6 +44,7 @@ export const musicsKamini: UserMusic[] = [
     rating: 0,
     timesListened: 121,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -48,6 +53,7 @@ export const musicsKamini: UserMusic[] = [
     rating: 0,
     timesListened: 150,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -56,6 +62,7 @@ export const musicsKamini: UserMusic[] = [
     rating: 0,
     timesListened: 102,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -64,6 +71,7 @@ export const musicsKamini: UserMusic[] = [
     rating: 0,
     timesListened: 205,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -72,6 +80,7 @@ export const musicsKamini: UserMusic[] = [
     rating: 0,
     timesListened: 71,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -80,6 +89,7 @@ export const musicsKamini: UserMusic[] = [
     rating: 0,
     timesListened: 152,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -88,6 +98,7 @@ export const musicsKamini: UserMusic[] = [
     rating: 0,
     timesListened: 80,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -96,6 +107,7 @@ export const musicsKamini: UserMusic[] = [
     rating: 0,
     timesListened: 81,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
 
@@ -106,6 +118,7 @@ export const musicsKamini: UserMusic[] = [
     rating: 0,
     timesListened: 30,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -114,6 +127,7 @@ export const musicsKamini: UserMusic[] = [
     rating: 0,
     timesListened: 82,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -122,6 +136,7 @@ export const musicsKamini: UserMusic[] = [
     rating: 0,
     timesListened: 40,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -130,6 +145,7 @@ export const musicsKamini: UserMusic[] = [
     rating: 0,
     timesListened: 30,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -138,6 +154,7 @@ export const musicsKamini: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -146,6 +163,7 @@ export const musicsKamini: UserMusic[] = [
     rating: 0,
     timesListened: 71,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -154,6 +172,7 @@ export const musicsKamini: UserMusic[] = [
     rating: 0,
     timesListened: 30,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -162,6 +181,7 @@ export const musicsKamini: UserMusic[] = [
     rating: 0,
     timesListened: 30,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -170,6 +190,7 @@ export const musicsKamini: UserMusic[] = [
     rating: 0,
     timesListened: 10,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -178,6 +199,7 @@ export const musicsKamini: UserMusic[] = [
     rating: 0,
     timesListened: 21,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -186,6 +208,7 @@ export const musicsKamini: UserMusic[] = [
     rating: 0,
     timesListened: 30,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -194,6 +217,7 @@ export const musicsKamini: UserMusic[] = [
     rating: 0,
     timesListened: 70,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -202,6 +226,7 @@ export const musicsKamini: UserMusic[] = [
     rating: 0,
     timesListened: 40,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -210,6 +235,7 @@ export const musicsKamini: UserMusic[] = [
     rating: 0,
     timesListened: 31,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 ];

@@ -7,6 +7,7 @@ export const musicsBalavoine: UserMusic[] = [
     rating: 0,
     timesListened: 262,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -15,6 +16,7 @@ export const musicsBalavoine: UserMusic[] = [
     rating: 0,
     timesListened: 263,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -23,6 +25,7 @@ export const musicsBalavoine: UserMusic[] = [
     rating: 4,
     timesListened: 313,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -31,6 +34,7 @@ export const musicsBalavoine: UserMusic[] = [
     rating: 0,
     timesListened: 155,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -39,6 +43,7 @@ export const musicsBalavoine: UserMusic[] = [
     rating: 0,
     timesListened: 309,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -47,6 +52,7 @@ export const musicsBalavoine: UserMusic[] = [
     rating: 0,
     timesListened: 213,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -55,6 +61,7 @@ export const musicsBalavoine: UserMusic[] = [
     rating: 0,
     timesListened: 155,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -63,6 +70,7 @@ export const musicsBalavoine: UserMusic[] = [
     rating: 0,
     timesListened: 154,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -71,6 +79,7 @@ export const musicsBalavoine: UserMusic[] = [
     rating: 0,
     timesListened: 130,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -79,6 +88,7 @@ export const musicsBalavoine: UserMusic[] = [
     rating: 0,
     timesListened: 125,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
 
@@ -89,6 +99,7 @@ export const musicsBalavoine: UserMusic[] = [
     rating: 0,
     timesListened: 154,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -97,6 +108,7 @@ export const musicsBalavoine: UserMusic[] = [
     rating: 0,
     timesListened: 106,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -105,6 +117,7 @@ export const musicsBalavoine: UserMusic[] = [
     rating: 0,
     timesListened: 5,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -113,6 +126,7 @@ export const musicsBalavoine: UserMusic[] = [
     rating: 0,
     timesListened: 3,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -121,6 +135,7 @@ export const musicsBalavoine: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -129,6 +144,7 @@ export const musicsBalavoine: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -137,6 +153,7 @@ export const musicsBalavoine: UserMusic[] = [
     rating: 0,
     timesListened: 3,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 ];

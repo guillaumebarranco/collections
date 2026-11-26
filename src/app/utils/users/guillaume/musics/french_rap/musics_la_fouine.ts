@@ -8,6 +8,7 @@ export const musicsLaFouine: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -16,6 +17,7 @@ export const musicsLaFouine: UserMusic[] = [
     rating: 0,
     timesListened: 21,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -24,6 +26,7 @@ export const musicsLaFouine: UserMusic[] = [
     rating: 0,
     timesListened: 50,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -32,6 +35,7 @@ export const musicsLaFouine: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -40,6 +44,7 @@ export const musicsLaFouine: UserMusic[] = [
     rating: 0,
     timesListened: 154,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -48,6 +53,7 @@ export const musicsLaFouine: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -56,6 +62,7 @@ export const musicsLaFouine: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -64,6 +71,7 @@ export const musicsLaFouine: UserMusic[] = [
     rating: 0,
     timesListened: 10,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -72,6 +80,7 @@ export const musicsLaFouine: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -80,6 +89,7 @@ export const musicsLaFouine: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -88,6 +98,7 @@ export const musicsLaFouine: UserMusic[] = [
     rating: 0,
     timesListened: 30,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -96,6 +107,7 @@ export const musicsLaFouine: UserMusic[] = [
     rating: 0,
     timesListened: 10,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -104,6 +116,7 @@ export const musicsLaFouine: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -112,6 +125,7 @@ export const musicsLaFouine: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -120,6 +134,7 @@ export const musicsLaFouine: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -128,6 +143,7 @@ export const musicsLaFouine: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -136,6 +152,7 @@ export const musicsLaFouine: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   // Album: Mes repères
@@ -145,6 +162,7 @@ export const musicsLaFouine: UserMusic[] = [
     rating: 0,
     timesListened: 120,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -153,6 +171,7 @@ export const musicsLaFouine: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -161,6 +180,7 @@ export const musicsLaFouine: UserMusic[] = [
     rating: 0,
     timesListened: 83,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -169,6 +189,7 @@ export const musicsLaFouine: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -177,6 +198,7 @@ export const musicsLaFouine: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -185,6 +207,7 @@ export const musicsLaFouine: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -193,6 +216,7 @@ export const musicsLaFouine: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -201,6 +225,7 @@ export const musicsLaFouine: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -209,6 +234,7 @@ export const musicsLaFouine: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -217,6 +243,7 @@ export const musicsLaFouine: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -225,6 +252,7 @@ export const musicsLaFouine: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -233,6 +261,7 @@ export const musicsLaFouine: UserMusic[] = [
     rating: 0,
     timesListened: 80,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -241,6 +270,7 @@ export const musicsLaFouine: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -249,6 +279,7 @@ export const musicsLaFouine: UserMusic[] = [
     rating: 0,
     timesListened: 100,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -257,6 +288,7 @@ export const musicsLaFouine: UserMusic[] = [
     rating: 0,
     timesListened: 21,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -265,6 +297,7 @@ export const musicsLaFouine: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -273,6 +306,7 @@ export const musicsLaFouine: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -281,6 +315,7 @@ export const musicsLaFouine: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -289,6 +324,7 @@ export const musicsLaFouine: UserMusic[] = [
     rating: 0,
     timesListened: 30,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 ];

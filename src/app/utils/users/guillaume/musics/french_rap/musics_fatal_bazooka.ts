@@ -8,6 +8,7 @@ export const musicsFatalBazooka: UserMusic[] = [
     rating: 0,
     timesListened: 120,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -16,6 +17,7 @@ export const musicsFatalBazooka: UserMusic[] = [
     rating: 0,
     timesListened: 82,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   // Album : T'as vu ? (2007) - Fatal Bazooka
@@ -25,6 +27,7 @@ export const musicsFatalBazooka: UserMusic[] = [
     rating: 0,
     timesListened: 10,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -33,6 +36,7 @@ export const musicsFatalBazooka: UserMusic[] = [
     rating: 0,
     timesListened: 201,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -41,6 +45,7 @@ export const musicsFatalBazooka: UserMusic[] = [
     rating: 0,
     timesListened: 10,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -49,6 +54,7 @@ export const musicsFatalBazooka: UserMusic[] = [
     rating: 0,
     timesListened: 180,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -57,6 +63,7 @@ export const musicsFatalBazooka: UserMusic[] = [
     rating: 0,
     timesListened: 10,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -65,6 +72,7 @@ export const musicsFatalBazooka: UserMusic[] = [
     rating: 0,
     timesListened: 10,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -73,6 +81,7 @@ export const musicsFatalBazooka: UserMusic[] = [
     rating: 0,
     timesListened: 101,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -81,6 +90,7 @@ export const musicsFatalBazooka: UserMusic[] = [
     rating: 0,
     timesListened: 10,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -89,6 +99,7 @@ export const musicsFatalBazooka: UserMusic[] = [
     rating: 0,
     timesListened: 10,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -97,6 +108,7 @@ export const musicsFatalBazooka: UserMusic[] = [
     rating: 0,
     timesListened: 10,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -105,6 +117,7 @@ export const musicsFatalBazooka: UserMusic[] = [
     rating: 0,
     timesListened: 250,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -113,6 +126,7 @@ export const musicsFatalBazooka: UserMusic[] = [
     rating: 0,
     timesListened: 80,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -121,6 +135,7 @@ export const musicsFatalBazooka: UserMusic[] = [
     rating: 0,
     timesListened: 10,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -129,6 +144,7 @@ export const musicsFatalBazooka: UserMusic[] = [
     rating: 0,
     timesListened: 80,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -137,6 +153,7 @@ export const musicsFatalBazooka: UserMusic[] = [
     rating: 0,
     timesListened: 102,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -145,6 +162,7 @@ export const musicsFatalBazooka: UserMusic[] = [
     rating: 0,
     timesListened: 10,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -153,6 +171,7 @@ export const musicsFatalBazooka: UserMusic[] = [
     rating: 0,
     timesListened: 100,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -161,6 +180,7 @@ export const musicsFatalBazooka: UserMusic[] = [
     rating: 0,
     timesListened: 120,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -169,6 +189,7 @@ export const musicsFatalBazooka: UserMusic[] = [
     rating: 0,
     timesListened: 10,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 ];

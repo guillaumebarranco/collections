@@ -67,6 +67,7 @@ export async function saveMusicDetails(payload: {
   timesListened?: number;
   byHeart?: boolean;
   rating?: number;
+  favorite?: boolean;
 }): Promise<boolean> {
   try {
     const response = await fetch(`${getApiBaseUrl()}/musics`, {

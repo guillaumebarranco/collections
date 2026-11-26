@@ -30,6 +30,7 @@ async function getAllMusicsData(musics: UserMusic[]): Promise<Music[]> {
       rating: music.rating,
       timesListened: music.timesListened,
       byHeart: music.byHeart,
+      favorite: music.favorite === true,
       album: definitiveMatchingMusic?.album || 'Unknown',
       albumTrackId: definitiveMatchingMusic?.albumTrackId ?? 0,
       coverUrl: definitiveMatchingMusic?.coverUrl || '',

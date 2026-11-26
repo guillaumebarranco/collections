@@ -8,6 +8,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 10,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -16,6 +17,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 30,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -24,6 +26,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 30,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -32,6 +35,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 152,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -40,6 +44,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 30,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -48,6 +53,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 30,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -56,6 +62,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 30,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -64,6 +71,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 152,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -72,6 +80,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 30,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -80,6 +89,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 80,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -88,6 +98,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 30,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -96,6 +107,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 50,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -104,6 +116,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 50,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -112,6 +125,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 40,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -120,6 +134,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 40,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -128,6 +143,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 40,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -136,6 +152,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 100,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -144,6 +161,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 30,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -152,6 +170,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 30,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -160,6 +179,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 40,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -170,6 +190,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -178,6 +199,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -186,6 +208,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 102,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -194,6 +217,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -202,6 +226,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -210,6 +235,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -218,6 +244,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -226,6 +253,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -234,6 +262,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -242,6 +271,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 80,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -250,6 +280,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 100,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -258,6 +289,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -266,6 +298,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -274,6 +307,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 80,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -282,6 +316,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 50,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -290,6 +325,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -298,6 +334,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 30,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -306,6 +343,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 30,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -314,6 +352,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 30,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -324,6 +363,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -332,6 +372,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -340,6 +381,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -348,6 +390,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -356,6 +399,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -364,6 +408,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -372,6 +417,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -380,6 +426,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -388,6 +435,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -396,6 +444,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -404,6 +453,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -412,6 +462,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -420,6 +471,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -428,6 +480,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -438,6 +491,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 80,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -446,6 +500,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 123,
     byHeart: false,
+    favorite: false,
     quotes: [
       {
         quoteText:
@@ -460,6 +515,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 200,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -468,6 +524,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 100,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -476,6 +533,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 100,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -484,6 +542,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 204,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -492,6 +551,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 255,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -500,6 +560,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 100,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -508,6 +569,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 80,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -516,6 +578,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 100,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -524,6 +587,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 152,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -532,6 +596,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 100,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -540,6 +605,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 80,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -548,6 +614,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 80,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -556,6 +623,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 100,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -564,6 +632,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 100,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -572,6 +641,7 @@ export const musicsDisiz1: UserMusic[] = [
     rating: 0,
     timesListened: 250,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 ];

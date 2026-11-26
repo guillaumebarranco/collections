@@ -8,6 +8,7 @@ export const musicsFrancisCabrel: UserMusic[] = [
     rating: 0,
     timesListened: 203,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -16,6 +17,7 @@ export const musicsFrancisCabrel: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -24,6 +26,7 @@ export const musicsFrancisCabrel: UserMusic[] = [
     rating: 0,
     timesListened: 32,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -32,6 +35,7 @@ export const musicsFrancisCabrel: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -40,6 +44,7 @@ export const musicsFrancisCabrel: UserMusic[] = [
     rating: 0,
     timesListened: 30,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -48,6 +53,7 @@ export const musicsFrancisCabrel: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -56,6 +62,7 @@ export const musicsFrancisCabrel: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -64,6 +71,7 @@ export const musicsFrancisCabrel: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -72,6 +80,7 @@ export const musicsFrancisCabrel: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -80,6 +89,7 @@ export const musicsFrancisCabrel: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -90,6 +100,7 @@ export const musicsFrancisCabrel: UserMusic[] = [
     rating: 0,
     timesListened: 159,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -98,6 +109,7 @@ export const musicsFrancisCabrel: UserMusic[] = [
     rating: 0,
     timesListened: 50,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -106,6 +118,7 @@ export const musicsFrancisCabrel: UserMusic[] = [
     rating: 0,
     timesListened: 130,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -114,6 +127,7 @@ export const musicsFrancisCabrel: UserMusic[] = [
     rating: 0,
     timesListened: 217,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -122,6 +136,7 @@ export const musicsFrancisCabrel: UserMusic[] = [
     rating: 0,
     timesListened: 50,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -130,6 +145,7 @@ export const musicsFrancisCabrel: UserMusic[] = [
     rating: 0,
     timesListened: 30,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 ];

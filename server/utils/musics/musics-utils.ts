@@ -32,7 +32,7 @@ const BASE_MUSICS_DIR = path.join(
 import type { BaseMusic, UserMusic } from '../../../src/app/models/music-model';
 
 type MusicUpdatePayload = Partial<
-  Pick<UserMusic, 'rating' | 'timesListened' | 'byHeart' | 'quotes'>
+  Pick<UserMusic, 'rating' | 'timesListened' | 'byHeart' | 'favorite' | 'quotes'>
 > &
   Pick<UserMusic, 'title' | 'artist'>;
 
@@ -238,6 +238,7 @@ function parseUserMusicsFromFile(content: string): UserMusic[] {
             rating: parseNumberField(objectText, 'rating') ?? 0,
             timesListened: parseNumberField(objectText, 'timesListened') ?? 0,
             byHeart: parseBooleanField(objectText, 'byHeart') ?? false,
+            favorite: parseBooleanField(objectText, 'favorite') ?? false,
             quotes: parseQuotesField(objectText),
           } as UserMusic);
         }
@@ -582,6 +583,7 @@ function updateMusicInFile(content: string, payload: MusicUpdatePayload) {
           updated = replaceField(updated, 'rating', payload.rating);
           updated = replaceField(updated, 'timesListened', payload.timesListened);
           updated = replaceField(updated, 'byHeart', payload.byHeart);
+          updated = replaceField(updated, 'favorite', payload.favorite);
           if (Array.isArray(payload.quotes)) {
             updated = upsertQuotesField(updated, normalizeQuotes(payload.quotes));
           }

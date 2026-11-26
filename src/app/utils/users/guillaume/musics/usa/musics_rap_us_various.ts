@@ -7,6 +7,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 90,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -15,6 +16,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 150,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -23,6 +25,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 284,
     byHeart: true,
+    favorite: false,
     quotes: [
       {
         quoteText: "You're a queen and so you should be treated.",
@@ -36,6 +39,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 264,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -44,6 +48,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 167,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -52,6 +57,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 258,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -60,6 +66,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 216,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -68,6 +75,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 158,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -76,6 +84,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 92,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -84,6 +93,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 91,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -92,6 +102,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 153,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -100,6 +111,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 30,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -108,6 +120,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 85,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -116,6 +129,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 160,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -124,6 +138,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 91,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -132,6 +147,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 50,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -140,6 +156,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 156,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -148,6 +165,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 182,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -156,6 +174,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 106,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -164,6 +183,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 200,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -172,6 +192,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 100,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -180,6 +201,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 154,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -188,6 +210,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 150,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -196,6 +219,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 50,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -204,6 +228,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 7,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -212,6 +237,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 87,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -220,6 +246,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 7,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -228,6 +255,7 @@ export const musicsRapUsVarious: UserMusic[] = [
     rating: 0,
     timesListened: 36,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 ];

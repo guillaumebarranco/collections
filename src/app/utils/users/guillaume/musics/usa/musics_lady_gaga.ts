@@ -8,6 +8,7 @@ export const musicsLadyGaga: UserMusic[] = [
     rating: 0,
     timesListened: 221,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -16,6 +17,7 @@ export const musicsLadyGaga: UserMusic[] = [
     rating: 0,
     timesListened: 31,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -24,6 +26,7 @@ export const musicsLadyGaga: UserMusic[] = [
     rating: 0,
     timesListened: 5,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -32,6 +35,7 @@ export const musicsLadyGaga: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -40,6 +44,7 @@ export const musicsLadyGaga: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -48,6 +53,7 @@ export const musicsLadyGaga: UserMusic[] = [
     rating: 0,
     timesListened: 210,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -56,6 +62,7 @@ export const musicsLadyGaga: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -64,6 +71,7 @@ export const musicsLadyGaga: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -74,6 +82,7 @@ export const musicsLadyGaga: UserMusic[] = [
     rating: 0,
     timesListened: 208,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -82,6 +91,7 @@ export const musicsLadyGaga: UserMusic[] = [
     rating: 0,
     timesListened: 219,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -90,6 +100,7 @@ export const musicsLadyGaga: UserMusic[] = [
     rating: 0,
     timesListened: 220,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -98,6 +109,7 @@ export const musicsLadyGaga: UserMusic[] = [
     rating: 0,
     timesListened: 213,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -106,6 +118,7 @@ export const musicsLadyGaga: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -114,6 +127,7 @@ export const musicsLadyGaga: UserMusic[] = [
     rating: 0,
     timesListened: 40,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -122,6 +136,7 @@ export const musicsLadyGaga: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -130,6 +145,7 @@ export const musicsLadyGaga: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -138,6 +154,7 @@ export const musicsLadyGaga: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -146,6 +163,7 @@ export const musicsLadyGaga: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -154,6 +172,7 @@ export const musicsLadyGaga: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -162,6 +181,7 @@ export const musicsLadyGaga: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -170,6 +190,7 @@ export const musicsLadyGaga: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -178,6 +199,7 @@ export const musicsLadyGaga: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -186,6 +208,7 @@ export const musicsLadyGaga: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -194,6 +217,7 @@ export const musicsLadyGaga: UserMusic[] = [
     rating: 0,
     timesListened: 0,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -204,6 +228,7 @@ export const musicsLadyGaga: UserMusic[] = [
     rating: 0,
     timesListened: 13,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 ];

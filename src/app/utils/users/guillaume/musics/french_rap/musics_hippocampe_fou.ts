@@ -8,6 +8,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 21,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -16,6 +17,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 36,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -24,6 +26,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 4,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -32,6 +35,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -40,6 +44,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 3,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -48,6 +53,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 7,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -56,6 +62,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -64,6 +71,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -72,6 +80,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 4,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -80,6 +89,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 4,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -88,6 +98,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -96,6 +107,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -104,6 +116,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -112,6 +125,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -122,6 +136,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 21,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -130,6 +145,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 4,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -138,6 +154,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 9,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -146,6 +163,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -154,6 +172,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -162,6 +181,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 155,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -170,6 +190,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 16,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -178,6 +199,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 10,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -186,6 +208,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 30,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -194,6 +217,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 7,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -204,6 +228,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 6,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -212,6 +237,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 21,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -220,6 +246,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -228,6 +255,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 7,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -236,6 +264,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 152,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -244,6 +273,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 8,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -252,6 +282,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 188,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -260,6 +291,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 6,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -268,6 +300,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 154,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -276,6 +309,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 9,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -284,6 +318,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 210,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -292,6 +327,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 15,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -302,6 +338,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 13,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -310,6 +347,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 57,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -318,6 +356,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 4,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -326,6 +365,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 5,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -334,6 +374,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -344,6 +385,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 28,
     byHeart: true,
+    favorite: false,
     quotes: [
       {
         quoteText: "J'avance à petits pas, m'éteins à petit feu. Ma femme est une déesse, mérite-t-elle un demi-vieux ?",
@@ -357,6 +399,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 38,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -365,6 +408,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 18,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -373,6 +417,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 10,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -381,6 +426,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 25,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -389,6 +435,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 19,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -397,6 +444,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 18,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -405,6 +453,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 31,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -413,6 +462,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 21,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -421,6 +471,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 16,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -429,6 +480,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 27,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -437,6 +489,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 16,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -445,6 +498,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 23,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -453,6 +507,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 15,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -463,6 +518,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 3,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -471,6 +527,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -479,6 +536,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 4,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -487,6 +545,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -495,6 +554,7 @@ export const musicsHippocampeFou: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 ];

@@ -42,16 +42,21 @@ router.post('/', (req: any, res: any) => {
       input.rating === undefined
         ? undefined
         : normalizeNumber(input.rating, 'rating');
+    const favorite =
+      input.favorite === undefined
+        ? undefined
+        : normalizeBoolean(input.favorite, 'favorite');
 
     if (
       !hasQuotes &&
       timesListened === undefined &&
       byHeart === undefined &&
-      rating === undefined
+      rating === undefined &&
+      favorite === undefined
     ) {
-      res
-        .status(400)
-        .json({ error: 'Missing quotes, timesListened, byHeart or rating' });
+      res.status(400).json({
+        error: 'Missing quotes, timesListened, byHeart, rating or favorite',
+      });
       return;
     }
     if (
@@ -83,6 +88,7 @@ router.post('/', (req: any, res: any) => {
           timesListened,
           byHeart,
           rating,
+          favorite,
         });
         fs.writeFileSync(musicFile, updatedContent, 'utf8');
         updatedFile = musicFile;
@@ -107,6 +113,7 @@ router.post('/', (req: any, res: any) => {
       ...(timesListened !== undefined ? { timesListened } : {}),
       ...(byHeart !== undefined ? { byHeart } : {}),
       ...(rating !== undefined ? { rating } : {}),
+      ...(favorite !== undefined ? { favorite } : {}),
     });
   } catch (error: any) {
     res.status(500).json({ error: error.message || 'Unknown error' });

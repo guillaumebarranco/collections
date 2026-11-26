@@ -8,6 +8,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 21,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -16,6 +17,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -24,6 +26,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 102,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -32,6 +35,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -40,6 +44,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -48,6 +53,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -56,6 +62,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -64,6 +71,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -72,6 +80,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -80,6 +89,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -88,6 +98,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 157,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -96,6 +107,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 201,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -104,6 +116,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 82,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -112,6 +125,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -120,6 +134,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 50,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -128,6 +143,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 30,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -136,6 +152,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -144,6 +161,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -154,6 +172,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 21,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -162,6 +181,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 23,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -170,6 +190,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -178,6 +199,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 203,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -186,6 +208,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 151,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -194,6 +217,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 22,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -202,6 +226,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 230,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -210,6 +235,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 253,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -218,6 +244,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 150,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -226,6 +253,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 80,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -234,6 +262,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 80,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -242,6 +271,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -250,6 +280,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 28,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -258,6 +289,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -266,6 +298,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -274,6 +307,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 200,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
 
@@ -284,6 +318,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 21,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -292,6 +327,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -300,6 +336,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 50,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -308,6 +345,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 51,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -316,6 +354,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -324,6 +363,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 152,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -332,6 +372,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 124,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -340,6 +381,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 150,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -348,6 +390,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 21,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -356,6 +399,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 21,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -364,6 +408,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -372,6 +417,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 200,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -380,6 +426,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -388,6 +435,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 101,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -396,6 +444,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 21,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -406,6 +455,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 10,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -414,6 +464,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 151,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -422,6 +473,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 150,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -430,6 +482,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 102,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -438,6 +491,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 50,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -446,6 +500,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 51,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -454,6 +509,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 150,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -462,6 +518,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -470,6 +527,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 121,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -478,6 +536,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 10,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -486,6 +545,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -494,6 +554,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 80,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -502,6 +563,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 100,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -510,6 +572,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 202,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -518,6 +581,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 101,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -526,6 +590,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 120,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -536,6 +601,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 28,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -544,6 +610,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 16,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -552,6 +619,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -560,6 +628,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -568,6 +637,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 16,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -576,6 +646,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 30,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -584,6 +655,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 17,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -592,6 +664,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 30,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -600,6 +673,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 15,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -608,6 +682,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 100,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -616,6 +691,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 30,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -624,6 +700,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 14,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -632,6 +709,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 15,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -640,6 +718,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 1,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -648,6 +727,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 13,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -656,6 +736,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 14,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -664,6 +745,7 @@ export const musicsSniper: UserMusic[] = [
     rating: 0,
     timesListened: 19,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 ];

@@ -8,6 +8,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 72,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -16,6 +17,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 82,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -24,6 +26,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 73,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -32,6 +35,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 103,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -40,6 +44,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 104,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
 
@@ -50,6 +55,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 72,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -58,6 +64,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 71,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -66,6 +73,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 62,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -74,6 +82,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 101,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -82,6 +91,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 105,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -90,6 +100,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 70,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -98,6 +109,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 71,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -106,6 +118,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 32,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -114,6 +127,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 102,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -122,6 +136,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 72,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -130,6 +145,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 122,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -138,6 +154,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 153,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -146,6 +163,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 72,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -154,6 +172,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 84,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -162,6 +181,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 61,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -170,6 +190,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 70,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -178,6 +199,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 51,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -186,6 +208,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 104,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -194,6 +217,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 103,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -202,6 +226,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -210,6 +235,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 80,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -218,6 +244,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 70,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -226,6 +253,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 60,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -234,6 +262,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 60,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -242,6 +271,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 41,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -252,6 +282,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 73,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -260,6 +291,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 61,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -268,6 +300,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 82,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -276,6 +309,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 50,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -284,6 +318,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 82,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -292,6 +327,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 102,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -300,6 +336,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 93,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -308,6 +345,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 70,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -316,6 +354,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 121,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -324,6 +363,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 31,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -332,6 +372,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 101,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -340,6 +381,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 71,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -348,6 +390,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 73,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -356,6 +399,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 81,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -364,6 +408,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 74,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -372,6 +417,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 16,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -380,6 +426,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 62,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -388,6 +435,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 51,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -396,6 +444,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 30,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -406,6 +455,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 56,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -414,6 +464,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 41,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -422,6 +473,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 37,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -430,6 +482,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 38,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -438,6 +491,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 68,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -446,6 +500,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 59,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -454,6 +509,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 38,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -462,6 +518,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 21,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -470,6 +527,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 41,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -478,6 +536,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 23,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -486,6 +545,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 46,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -494,6 +554,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -502,6 +563,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 16,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -510,6 +572,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 39,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -518,6 +581,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 37,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -528,6 +592,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 35,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -536,6 +601,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 37,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -544,6 +610,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 36,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -552,6 +619,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 14,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -560,6 +628,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 33,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -568,6 +637,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 28,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -576,6 +646,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 30,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -584,6 +655,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 27,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -592,6 +664,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 42,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -600,6 +673,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 24,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -608,6 +682,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 16,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -616,6 +691,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 24,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -624,6 +700,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 24,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -632,6 +709,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 58,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -640,6 +718,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 44,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -648,6 +727,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 24,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -656,6 +736,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 24,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -664,6 +745,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 16,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -672,6 +754,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 23,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -680,6 +763,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -688,6 +772,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 30,
     byHeart: false,
+    favorite: false,
     quotes: [
       {
         quoteText: "C'est devenu l'inconnu que je connais le mieux.",
@@ -701,6 +786,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 53,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -709,6 +795,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 17,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 
@@ -720,6 +807,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 5,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -728,6 +816,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -736,6 +825,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 4,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -744,6 +834,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 21,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -752,6 +843,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -760,6 +852,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 20,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -768,6 +861,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -776,6 +870,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 5,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -784,6 +879,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 5,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -792,6 +888,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 3,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
   {
@@ -800,6 +897,7 @@ export const musicsBigfloOli: UserMusic[] = [
     rating: 0,
     timesListened: 2,
     byHeart: false,
+    favorite: false,
     quotes: [],
   },
 ];

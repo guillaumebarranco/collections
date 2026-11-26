@@ -20,6 +20,8 @@ export interface UserMusic extends MandatoryMusicData {
   timesListened: number;
   /** Connaît le morceau par cœur. */
   byHeart: boolean;
+  /** Morceau mis en avant, indépendamment de l'album. */
+  favorite: boolean;
   /** Citations extraites du morceau. */
   quotes: EntityQuote[];
 }

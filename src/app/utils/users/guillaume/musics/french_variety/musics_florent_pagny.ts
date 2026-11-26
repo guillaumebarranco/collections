@@ -7,6 +7,7 @@ export const musicsFlorentPagny: UserMusic[] = [
     rating: 0,
     timesListened: 132,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -15,6 +16,7 @@ export const musicsFlorentPagny: UserMusic[] = [
     rating: 0,
     timesListened: 90,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
   {
@@ -23,6 +25,7 @@ export const musicsFlorentPagny: UserMusic[] = [
     rating: 0,
     timesListened: 50,
     byHeart: true,
+    favorite: false,
     quotes: [],
   },
 ];
