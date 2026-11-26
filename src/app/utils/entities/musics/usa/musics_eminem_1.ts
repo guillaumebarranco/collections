@@ -651,6 +651,16 @@ export const musicsEminem1: BaseMusic[] = [
     releaseDate: '2002-10-28',    duration: 326,
     genre: 'Hip-Hop',  },
   {
+    title: "When I'm Gone",
+    artist: 'Eminem',
+    album: 'Curtain Call: The Hits',
+    albumTrackId: 16,
+    coverUrl: '/musics_pictures/default.jpg',
+    releaseDate: '2005-12-06',
+    duration: 281,
+    genre: 'Hip-Hop',
+  },
+  {
     title: 'Go To Sleep',
     artist: 'Eminem',
     album: 'Unknown',

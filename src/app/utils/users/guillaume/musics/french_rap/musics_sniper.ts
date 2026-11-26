@@ -453,7 +453,7 @@ export const musicsSniper: UserMusic[] = [
     artist: 'Tunisiano',
     rating: 0,
     timesListened: 150,
-    byHeart: false,
+    byHeart: true,
     quotes: [],
   },
   {

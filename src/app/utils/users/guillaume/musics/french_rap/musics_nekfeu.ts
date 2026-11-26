@@ -81,11 +81,11 @@ export const musicsNekfeu: UserMusic[] = [
     timesListened: 124,
     byHeart: true,
     quotes: [
-    {
-      quoteText: "Ce monde est défectueux pour un homme affectueux",
-      lastUpdated: "2026-11-24T18:08",
-    },
-  ],
+      {
+        quoteText: 'Ce monde est défectueux pour un homme affectueux',
+        lastUpdated: '2026-11-24T18:08',
+      },
+    ],
   },
   {
     title: 'On verra',
@@ -131,7 +131,7 @@ export const musicsNekfeu: UserMusic[] = [
     title: 'Risibles amours/Des astres',
     artist: 'Nekfeu',
     rating: 0,
-    timesListened: 150,
+    timesListened: 154,
     byHeart: true,
     quotes: [],
   },
@@ -233,8 +233,9 @@ export const musicsNekfeu: UserMusic[] = [
     byHeart: true,
     quotes: [
       {
-        quoteText: "En t'attendant j'observe les liens que les passants nouent. Il fut un temps où la beauté du ciel venait pas sans nous.",
-        lastUpdated: "2026-11-20T17:22",
+        quoteText:
+          "En t'attendant j'observe les liens que les passants nouent. Il fut un temps où la beauté du ciel venait pas sans nous.",
+        lastUpdated: '2026-11-20T17:22',
       },
     ],
   },

@@ -26,6 +26,20 @@ import { musicsCelineDion } from './musics_celine_dion';
 import { musicsClaudeNougaro } from './musics_claude_nougaro';
 import { musicsMichelPolnareff } from './musics_michel_polnareff';
 import { musicsFrancoiseHardy } from './musics_francoise_hardy';
+import { musicsLauraLaune } from './musics_laura_laune';
+import { musicsGarou } from './musics_garou';
+import { musicsJulienClerc } from './musics_julien_clerc';
+import { musicsHeleneSegara } from './musics_helene_segara';
+import { musicsPatriciaKaas } from './musics_patricia_kaas';
+import { musicsMarcLavoine } from './musics_marc_lavoine';
+import { musicsAmelBent } from './musics_amel_bent';
+import { musicsNatashaStPier } from './musics_natasha_st_pier';
+import { musicsGregoire } from './musics_gregoire';
+import { musicsDianeTell } from './musics_diane_tell';
+import { musicsMecano } from './musics_mecano';
+import { musicsLarusso } from './musics_larusso';
+import { musicsPierreBachelet } from './musics_pierre_bachelet';
+import { musicsRachelAuPiano } from './musics_rachel_au_piano';
 
 export const frenchVarietyMusics = [
   ...musicsBalavoine,
@@ -56,4 +70,18 @@ export const frenchVarietyMusics = [
   ...musicsClaudeNougaro,
   ...musicsMichelPolnareff,
   ...musicsFrancoiseHardy,
+  ...musicsLauraLaune,
+  ...musicsGarou,
+  ...musicsJulienClerc,
+  ...musicsHeleneSegara,
+  ...musicsPatriciaKaas,
+  ...musicsMarcLavoine,
+  ...musicsAmelBent,
+  ...musicsNatashaStPier,
+  ...musicsGregoire,
+  ...musicsDianeTell,
+  ...musicsMecano,
+  ...musicsLarusso,
+  ...musicsPierreBachelet,
+  ...musicsRachelAuPiano,
 ];

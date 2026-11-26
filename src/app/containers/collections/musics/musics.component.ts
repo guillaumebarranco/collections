@@ -261,7 +261,25 @@ export class MusicsComponent implements OnInit {
   });
 
   favoriteAlbums = computed<Album[]>(() =>
-    this.completeAlbums().filter((album) => album.favorite)
+    this.completeAlbums()
+      .filter((album) => album.favorite)
+      .sort((a, b) => {
+        const aRated = a.rating > 0;
+        const bRated = b.rating > 0;
+        if (aRated && bRated && a.rating !== b.rating) {
+          return b.rating - a.rating;
+        }
+        if (aRated !== bRated) {
+          return aRated ? -1 : 1;
+        }
+        const artistCompare = a.artist.localeCompare(b.artist);
+        if (artistCompare !== 0) {
+          return artistCompare;
+        }
+        const dateA = new Date(a.musics[0].releaseDate).getTime();
+        const dateB = new Date(b.musics[0].releaseDate).getTime();
+        return dateA - dateB;
+      })
   );
 
   otherAlbums = computed<Album[]>(() =>

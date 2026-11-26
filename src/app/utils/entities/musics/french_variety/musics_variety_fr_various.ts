@@ -17,30 +17,9 @@ export const musicsVarietyFrVarious: BaseMusic[] = [
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',    duration: 180,
     genre: 'Unknown',  },
-  {
-    title: 'Dernière danse',
-    artist: 'Kyo',
-    album: 'Unknown',
-    albumTrackId: 0,
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',    duration: 180,
-    genre: 'Unknown',  },
-  {
-    title: 'Le chemin (feat. Sita)',
-    artist: 'Kyo',
-    album: 'Unknown',
-    albumTrackId: 0,
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',    duration: 180,
-    genre: 'Unknown',  },
-  {
-    title: 'Sous le vent',
-    artist: 'Garou',
-    album: 'Unknown',
-    albumTrackId: 0,
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',    duration: 180,
-    genre: 'Unknown',  },
+  
+  
+  
   {
     title: 'La lettre',
     artist: 'Renan Luce',
@@ -89,14 +68,7 @@ export const musicsVarietyFrVarious: BaseMusic[] = [
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',    duration: 180,
     genre: 'Unknown',  },
-  {
-    title: 'Ma préférence',
-    artist: 'Julien Clerc',
-    album: 'Unknown',
-    albumTrackId: 0,
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',    duration: 180,
-    genre: 'Unknown',  },
+  
   {
     title: 'Un homme heureux',
     artist: 'William Sheller',
@@ -169,14 +141,7 @@ export const musicsVarietyFrVarious: BaseMusic[] = [
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',    duration: 180,
     genre: 'Unknown',  },
-  {
-    title: 'Elle a les yeux revolver',
-    artist: 'Marc Lavoine',
-    album: 'Unknown',
-    albumTrackId: 0,
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',    duration: 180,
-    genre: 'Unknown',  },
+  
   {
     title: 'beau-papa',
     artist: 'Vianney',
@@ -185,14 +150,7 @@ export const musicsVarietyFrVarious: BaseMusic[] = [
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',    duration: 180,
     genre: 'Unknown',  },
-  {
-    title: 'Ma philosophie',
-    artist: 'Amel Bent',
-    album: 'Unknown',
-    albumTrackId: 0,
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',    duration: 180,
-    genre: 'Unknown',  },
+  
   {
     title: 'Femme Like U',
     artist: 'K.Maro',

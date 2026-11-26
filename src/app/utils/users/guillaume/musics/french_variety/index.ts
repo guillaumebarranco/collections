@@ -10,6 +10,7 @@ import { musicsTryo } from './musics_tryo';
 import { musicsMaxBoublil } from './musics_max_boublil';
 import { musicsSinguila } from './musics_singuila';
 import { musicsJenaLee } from './musics_jena_lee';
+import { musicsLauraLaune } from './musics_laura_laune';
 
 export const frenchVarietyMusics = [
   ...musicsBalavoine,
@@ -24,4 +25,5 @@ export const frenchVarietyMusics = [
   ...musicsMaxBoublil,
   ...musicsSinguila,
   ...musicsJenaLee,
+  ...musicsLauraLaune,
 ];

@@ -38,7 +38,7 @@ export const musicsBigfloOli: UserMusic[] = [
     title: 'Monsieur tout le monde',
     artist: 'Bigflo & Oli',
     rating: 0,
-    timesListened: 100,
+    timesListened: 104,
     byHeart: true,
     quotes: [],
   },
@@ -152,7 +152,7 @@ export const musicsBigfloOli: UserMusic[] = [
     title: 'Le philosophe sans la barbe (solo Oli)',
     artist: 'Bigflo & Oli',
     rating: 0,
-    timesListened: 80,
+    timesListened: 84,
     byHeart: true,
     quotes: [],
   },
@@ -691,7 +691,7 @@ export const musicsBigfloOli: UserMusic[] = [
     quotes: [
       {
         quoteText: "C'est devenu l'inconnu que je connais le mieux.",
-        lastUpdated: "2026-11-20T17:22",
+        lastUpdated: '2026-11-20T17:22',
       },
     ],
   },

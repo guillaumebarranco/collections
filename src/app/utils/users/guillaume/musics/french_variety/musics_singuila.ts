@@ -110,7 +110,7 @@ export const musicsSinguila: UserMusic[] = [
     title: 'Les amoureux du hip-hop',
     artist: 'Singuila',
     rating: 0,
-    timesListened: 120,
+    timesListened: 122,
     byHeart: true,
     quotes: [],
   },

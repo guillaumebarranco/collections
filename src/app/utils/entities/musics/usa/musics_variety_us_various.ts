@@ -121,46 +121,10 @@ export const musicsVarietyUsVarious: BaseMusic[] = [
     duration: 180,
     genre: 'Unknown',
   },
-  {
-    title: "Hips Don't Lie (feat. Wyclef Jean)",
-    artist: 'Shakira',
-    album: 'Unknown',
-    albumTrackId: 0,
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    duration: 180,
-    genre: 'Unknown',
-  },
-  {
-    title: "Let's Get Loud",
-    artist: 'Jennifer Lopez',
-    album: 'Unknown',
-    albumTrackId: 0,
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    duration: 180,
-    genre: 'Unknown',
-  },
-  {
-    title: 'Girlfriend',
-    artist: 'Avril Lavigne',
-    album: 'Unknown',
-    albumTrackId: 0,
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    duration: 180,
-    genre: 'Unknown',
-  },
-  {
-    title: 'Complicated',
-    artist: 'Avril Lavigne',
-    album: 'Unknown',
-    albumTrackId: 0,
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    duration: 180,
-    genre: 'Unknown',
-  },
+  
+  
+  
+  
   {
     title: 'Who Let The Dogs Out',
     artist: 'Baha Men',
@@ -281,16 +245,7 @@ export const musicsVarietyUsVarious: BaseMusic[] = [
     duration: 180,
     genre: 'Unknown',
   },
-  {
-    title: 'Jenny from the Block',
-    artist: 'Jennifer Lopez',
-    album: 'Jenny from the Block',
-    albumTrackId: 5,
-    coverUrl: '/musics_pictures/Jenny_from_the_Block.png',
-    releaseDate: '2000-01-01',
-    duration: 180,
-    genre: 'Unknown',
-  },
+  
   {
     title: 'Low (feat. T-Pain)',
     artist: 'Flo Rida',
@@ -391,16 +346,7 @@ export const musicsVarietyUsVarious: BaseMusic[] = [
     duration: 180,
     genre: 'Unknown',
   },
-  {
-    title: 'Sweet Dreams (Are Made of This)',
-    artist: 'Eurythmics',
-    album: 'Unknown',
-    albumTrackId: 0,
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    duration: 180,
-    genre: 'Unknown',
-  },
+  
   {
     title: 'Umbrella',
     artist: 'Rihanna',
@@ -541,16 +487,7 @@ export const musicsVarietyUsVarious: BaseMusic[] = [
     duration: 180,
     genre: 'Unknown',
   },
-  {
-    title: 'Whenever, Wherever',
-    artist: 'Shakira',
-    album: 'Unknown',
-    albumTrackId: 0,
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    duration: 180,
-    genre: 'Unknown',
-  },
+  
   {
     title: 'SexyBack (feat. Timbaland)',
     artist: 'Justin Timberlake',
@@ -701,16 +638,7 @@ export const musicsVarietyUsVarious: BaseMusic[] = [
     duration: 180,
     genre: 'Unknown',
   },
-  {
-    title: 'The Way I Are',
-    artist: 'Timbaland',
-    album: 'Unknown',
-    albumTrackId: 0,
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    duration: 180,
-    genre: 'Unknown',
-  },
+  
   {
     title: 'Beep',
     artist: 'The Pussycat Dolls',
@@ -721,16 +649,7 @@ export const musicsVarietyUsVarious: BaseMusic[] = [
     duration: 180,
     genre: 'Unknown',
   },
-  {
-    title: 'Apologize',
-    artist: 'Timbaland',
-    album: 'Unknown',
-    albumTrackId: 0,
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    duration: 180,
-    genre: 'Unknown',
-  },
+  
   {
     title: 'Butterfly',
     artist: 'Superbus',
@@ -841,16 +760,7 @@ export const musicsVarietyUsVarious: BaseMusic[] = [
     duration: 180,
     genre: 'Unknown',
   },
-  {
-    title: 'Waka Waka',
-    artist: 'Shakira',
-    album: 'Unknown',
-    albumTrackId: 0,
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    duration: 180,
-    genre: 'Unknown',
-  },
+  
   {
     title: 'You Will Never Find (with Cristina Bianchi)',
     artist: 'Max Lodini',
@@ -861,16 +771,7 @@ export const musicsVarietyUsVarious: BaseMusic[] = [
     duration: 180,
     genre: 'Unknown',
   },
-  {
-    title: 'On The Floor',
-    artist: 'Jennifer Lopez',
-    album: 'Unknown',
-    albumTrackId: 0,
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    duration: 180,
-    genre: 'Unknown',
-  },
+  
   {
     title: 'Ebony And Ivory',
     artist: 'Paul McCartney',

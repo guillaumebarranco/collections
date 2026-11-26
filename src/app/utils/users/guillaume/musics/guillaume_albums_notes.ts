@@ -121,6 +121,7 @@ export const guillaumeAlbumNotes: UserAlbumNote[] = [
     artist: "IAM",
     album: "L'École du micro d'argent",
     rating: 4,
+    favorite: true,
   },
 
   {
@@ -231,7 +232,98 @@ export const guillaumeAlbumNotes: UserAlbumNote[] = [
   {
     artist: "Zippo",
     album: "Zippo contre les robots",
+    rating: 4.5,
+    favorite: true,
+  },
+
+  {
+    artist: "Laura Laune",
+    album: "Cordialement",
     rating: 4,
+    favorite: true,
+  },
+
+  {
+    artist: "Orelsan",
+    album: "La fuite en avant",
+    rating: 4.5,
+    favorite: true,
+  },
+
+  {
+    artist: "Sniper",
+    album: "Gravé dans la roche",
+    rating: 3.5,
+    favorite: true,
+  },
+
+  {
+    artist: "Orelsan",
+    album: "Civilisation Perdue",
+    rating: 3.5,
+    favorite: true,
+  },
+
+  {
+    artist: "Lady Gaga",
+    album: "The Fame Monster",
+    rating: 4,
+    favorite: true,
+  },
+
+  {
+    artist: "Hippocampe Fou",
+    album: "Terminus",
+    rating: 4,
+    favorite: true,
+  },
+
+  {
+    artist: "Hippocampe Fou",
+    album: "Pas pour les jeunes",
+    rating: 4,
+    favorite: true,
+  },
+
+  {
+    artist: "Eminem",
+    album: "The Eminem Show",
+    rating: 4,
+    favorite: true,
+  },
+
+  {
+    artist: "Sniper",
+    album: "Du rire aux larmes",
+    rating: 3.5,
+    favorite: true,
+  },
+
+  {
+    artist: "Sniper",
+    album: "Trait pour trait",
+    rating: 3.5,
+    favorite: true,
+  },
+
+  {
+    artist: "Tryo",
+    album: "Ce que l'on sème",
+    rating: 3.5,
+    favorite: true,
+  },
+
+  {
+    artist: "Booba",
+    album: "Ouest side",
+    rating: 3.5,
+    favorite: true,
+  },
+
+  {
+    artist: "Akon",
+    album: "Trouble",
+    rating: 3.5,
     favorite: true,
   },
 ];

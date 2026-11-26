@@ -1813,4 +1813,15 @@ export const musicsTheBeatles: BaseMusic[] = [
     duration: 189,
     genre: 'Rock',
   },
+  // Single : Hey Jude (1968)
+  {
+    title: "Hey Jude",
+    artist: 'The Beatles',
+    album: 'Past Masters',
+    albumTrackId: 7,
+    coverUrl: '/musics_pictures/default.jpg',
+    releaseDate: '1968-08-26',
+    duration: 431,
+    genre: 'Rock',
+  },
 ];

@@ -27,6 +27,7 @@ import { musicsLaFouine } from './musics_la_fouine';
 import { musicsOrelsan } from './musics_orelsan';
 import { musicsNepal } from './musics_nepal';
 import { musicsCuizinier } from './musics_cuizinier';
+import { musicsTtc } from './musics_ttc';
 
 export const frenchRapMusics = [
   ...musicsOrelsan,
@@ -58,4 +59,5 @@ export const frenchRapMusics = [
   ...musicsLaFouine,
   ...musicsNepal,
   ...musicsCuizinier,
+  ...musicsTtc,
 ];

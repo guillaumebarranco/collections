@@ -26,6 +26,15 @@ export const musicsVarietyUsVarious: UserMusic[] = [
     quotes: [],
   },
   {
+    title: 'Coffin (feat. Eminem)',
+    artist: 'Jessie Reyez',
+    rating: 0,
+    timesListened: 15,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
     title: 'Yeah! (feat. Lil Jon & Ludacris)',
     artist: 'USHER',
     rating: 0,

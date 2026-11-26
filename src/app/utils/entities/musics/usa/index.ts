@@ -54,6 +54,12 @@ import { musicsEarthWindAndFire } from './musics_earth_wind_and_fire';
 import { musicsGreenDay } from './musics_green_day';
 import { musicsLouisArmstrong } from './musics_louis_armstrong';
 import { musicsPixies } from './musics_pixies';
+import { musicsJessieReyez } from './musics_jessie_reyez';
+import { musicsJenniferLopez } from './musics_jennifer_lopez';
+import { musicsShakira } from './musics_shakira';
+import { musicsTimbaland } from './musics_timbaland';
+import { musicsEurythmics } from './musics_eurythmics';
+import { musicsLizzo } from './musics_lizzo';
 
 export const musicsUsa = [
   ...musicsRapUsVarious,
@@ -112,4 +118,10 @@ export const musicsUsa = [
   ...musicsGreenDay,
   ...musicsLouisArmstrong,
   ...musicsPixies,
+  ...musicsJessieReyez,
+  ...musicsJenniferLopez,
+  ...musicsShakira,
+  ...musicsTimbaland,
+  ...musicsEurythmics,
+  ...musicsLizzo,
 ];

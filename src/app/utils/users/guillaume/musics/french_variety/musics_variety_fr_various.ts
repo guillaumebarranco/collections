@@ -145,8 +145,9 @@ export const musicsVarietyFrVarious: UserMusic[] = [
     byHeart: true,
     quotes: [
       {
-        quoteText: "Quel que soit le temps que ça prenne, quel que soit l'enjeu, je veux être un homme heureux.",
-        lastUpdated: "2026-11-20T17:22",
+        quoteText:
+          "Quel que soit le temps que ça prenne, quel que soit l'enjeu, je veux être un homme heureux.",
+        lastUpdated: '2026-11-20T17:22',
       },
     ],
   },
@@ -258,7 +259,7 @@ export const musicsVarietyFrVarious: UserMusic[] = [
     title: 'Le blues du businessman',
     artist: 'Claude Dubois',
     rating: 0,
-    timesListened: 100,
+    timesListened: 107,
     byHeart: true,
     quotes: [],
   },

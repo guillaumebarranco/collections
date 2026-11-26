@@ -40,16 +40,64 @@
 
 .musics-stats-bloc {
   @include containers.header-base;
+  flex-wrap: wrap;
+  align-items: center;
+
+  app-stats-display {
+    flex: 1 1 auto;
+    min-width: 0;
+    max-width: 100%;
+  }
 }
 
 .musics-filters {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: stretch;
   gap: 8px;
+  flex: 0 1 auto;
+  width: min(100%, 18rem);
+  margin-left: auto;
   min-width: 0;
   max-width: 100%;
   box-sizing: border-box;
+
+  app-sort-dropdown {
+    display: block;
+    min-width: 0;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 769px) {
+  :host ::ng-deep .musics-stats-bloc {
+    .stats-container {
+      flex-direction: column;
+      align-items: flex-start;
+      flex-wrap: nowrap;
+      gap: 8px;
+    }
+
+    .stat-item {
+      width: max-content;
+      max-width: 100%;
+      white-space: nowrap;
+    }
+  }
+}
+
+:host ::ng-deep .musics-filters {
+  .sort-container {
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  .sort-dropdown {
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
 }
 
 @include containers.responsive-base {
@@ -57,6 +105,11 @@
     flex-direction: column;
     gap: 8px;
     text-align: center;
+  }
+
+  .musics-filters {
+    width: 100%;
+    margin-left: 0;
   }
 
   .musics-by-heart-only {
