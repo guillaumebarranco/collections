@@ -1684,22 +1684,4 @@ export const guillaumeReadlistBooks: UserBooks = [
     ratingComment: "",
     quotes: [],
   }
-,
-  {
-    title: "Un palais d'harmonie brisée",
-    author: "Sarah J. Maas",
-    firstReadDate: "",
-    lastReadDate: "",
-    otherReadDates: [],
-    rating: 0,
-    reading: true,
-    readTimes: 0,
-    owned: false,
-    borrowed: "",
-    loaned: "",
-    readPriority: 1,
-    wantToReadAgain: false,
-    ratingComment: "",
-    quotes: [],
-  },
 ];
