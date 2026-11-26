@@ -434,7 +434,7 @@ export const guillaumeMusics: UserMusic[] = [
   },
 
   {
-    title: 'Ayo Technology',
+    title: 'Ayo Technology (feat. Justin Timberlake and Timbaland)',
     artist: '50 Cent',
     rating: 0,
     timesListened: 2,
@@ -605,7 +605,7 @@ export const guillaumeMusics: UserMusic[] = [
   },
 
   {
-    title: 'My Heart Will Go On - Love Theme from "Titanic"',
+    title: 'My Heart Will Go On (Love Theme from "Titanic")',
     artist: 'Céline Dion',
     rating: 0,
     timesListened: 2,
@@ -889,6 +889,915 @@ export const guillaumeMusics: UserMusic[] = [
     artist: 'Tunisiano',
     rating: 0,
     timesListened: 2,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: 'Many Men (Wish Death)',
+    artist: '50 Cent',
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: 'Piggy Bank',
+    artist: '50 Cent',
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: 'Straight to the Bank',
+    artist: '50 Cent',
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "J'ai dix ans",
+    artist: "Alain Souchon",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Ne retiens pas tes larmes",
+    artist: "Amel Bent",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Ne retiens pas tes larmes",
+    artist: "Amel Bent",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "L'aigle noir",
+    artist: "Barbara",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Pour que tu m'aimes encore",
+    artist: "Céline Dion",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "J'irai où tu iras (with Jean-Jacques Goldman)",
+    artist: "Céline Dion",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "All By Myself",
+    artist: "Céline Dion",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "On ne change pas",
+    artist: "Céline Dion",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "S'il suffisait d'aimer",
+    artist: "Céline Dion",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Je m'voyais déjà",
+    artist: "Charles Aznavour",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "For Me... Formidable",
+    artist: "Charles Aznavour",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Tout s'en va",
+    artist: "Charles Aznavour",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Rehab",
+    artist: "Amy Winehouse",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Back To Black",
+    artist: "Amy Winehouse",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "No Woman No Cry",
+    artist: "Bob Marley & The Wailers",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Stronger",
+    artist: "Britney Spears",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "I'm a Slave 4 U",
+    artist: "Britney Spears",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Piece of Me",
+    artist: "Britney Spears",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "L'enculé le plus cool",
+    artist: "Cuizinier",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Dans le club (San Andreas remix) (feat. Stomy & Sté)",
+    artist: "Cuizinier",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Qu'est-ce qu'on mange ce soir ?",
+    artist: "Cuizinier",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Melissa",
+    artist: "Cuizinier",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Beaucoup de toi",
+    artist: "Cuizinier",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Pour toi mon pote",
+    artist: "Cuizinier",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Simplement le meilleur",
+    artist: "Cuizinier",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Mets mon son (feat. Monseigneur Mike)",
+    artist: "Cuizinier",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Hello Ladies",
+    artist: "Cuizinier",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Seulement toi (feat. Tido Berman)",
+    artist: "Cuizinier",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Demain j'arrête (feat. D'Oz)",
+    artist: "Cuizinier",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Take My Breath Away",
+    artist: "Cuizinier",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Ferme les yeux",
+    artist: "Cuizinier",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Quand tu m'aimes",
+    artist: "Cuizinier",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Petit jeune",
+    artist: "Cuizinier",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Summer Love (feat. So Fresh Squad)",
+    artist: "Cuizinier",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Dis moi oui",
+    artist: "Cuizinier",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "The Good Guys (feat. Teki Latex)",
+    artist: "Cuizinier",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "True (feat. Marina Gasolina)",
+    artist: "Cuizinier",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Une femme avec une femme",
+    artist: "Cuizinier",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Be Happy",
+    artist: "Cuizinier",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Enfant du destin (Sou Han)",
+    artist: "Médine",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Enfant du destin (David)",
+    artist: "Médine",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Enfant du destin (Daoud)",
+    artist: "Médine",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Courage fuyons (feat. Orelsan)",
+    artist: "Médine",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "De pauvres riches",
+    artist: "TTC",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Girlfriend",
+    artist: "TTC",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Les petits lolos",
+    artist: "Daniel Balavoine",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Revolucion",
+    artist: "Daniel Balavoine",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "On s'attache",
+    artist: "Christophe Maé",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Parce qu'on sait jamais",
+    artist: "Christophe Maé",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Ça fait mal",
+    artist: "Christophe Maé",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Love Don't Let Me Go",
+    artist: "David Guetta",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "The World Is Mine",
+    artist: "David Guetta",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Baby When the Light (feat. Cozi)",
+    artist: "David Guetta",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "When Love Takes Over (feat. Kelly Rowland) (Original Extended)",
+    artist: "David Guetta",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Sexy Bitch (feat. Akon) (Extended)",
+    artist: "David Guetta",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Memories (feat. Kid Cudi) (Extended)",
+    artist: "David Guetta",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Missing You (feat. Novel) (Extended)",
+    artist: "David Guetta",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "One Love (feat. Estelle) (Extended)",
+    artist: "David Guetta",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "La Vie en Rose",
+    artist: "Édith Piaf",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Non, je ne regrette rien",
+    artist: "Édith Piaf",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Hymne a l'amour",
+    artist: "Édith Piaf",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Là où je t'emmènerai",
+    artist: "Florent Pagny",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "La dame de Haute-Savoie",
+    artist: "Francis Cabrel",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Le temps de l'amour",
+    artist: "Françoise Hardy",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Quand On N'a Que L'amour",
+    artist: "Jacques Brel",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Ne Me Quitte Pas",
+    artist: "Jacques Brel",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Ne Me Quitte Pas",
+    artist: "Jacques Brel",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Pas toi",
+    artist: "Jean-Jacques Goldman",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Je marche seul",
+    artist: "Jean-Jacques Goldman",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Elle a fait un bébé toute seule",
+    artist: "Jean-Jacques Goldman",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "On ira",
+    artist: "Jean-Jacques Goldman",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Tournent les violons",
+    artist: "Jean-Jacques Goldman",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Laura",
+    artist: "Johnny Hallyday",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Je saigne encore",
+    artist: "Kyo",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Qui a tué grand' maman?",
+    artist: "Michel Polnareff",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Lettre à France",
+    artist: "Michel Polnareff",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Goodbye Marylou",
+    artist: "Michel Polnareff",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Libertine",
+    artist: "Mylène Farmer",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Déshabillez-moi",
+    artist: "Mylène Farmer",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Hotel California",
+    artist: "Eagles",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Boogie Wonderland (with The Emotions)",
+    artist: "Earth, Wind & Fire",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Like a Virgin",
+    artist: "Madonna",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Dirty Diana",
+    artist: "Michael Jackson",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Dangerous",
+    artist: "Michael Jackson",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "We Are the Champions",
+    artist: "Queen",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "I Want to Break Free",
+    artist: "Queen",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "The Show Must Go On",
+    artist: "Queen",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "We Ride",
+    artist: "Rihanna",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Break It Off (feat. Sean Paul)",
+    artist: "Rihanna",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Shut Up and Drive",
+    artist: "Rihanna",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Hate That I Love You (feat. Ne-Yo)",
+    artist: "Rihanna",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Rehab",
+    artist: "Rihanna",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Man Down",
+    artist: "Rihanna",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Diamonds",
+    artist: "Rihanna",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Loca (feat. El Cata)",
+    artist: "Shakira",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Addicted to You",
+    artist: "Shakira",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "Surfin' U.S.A.",
+    artist: "The Beach Boys",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    quotes: [],
+  },
+
+  {
+    title: "I Get Around",
+    artist: "The Beach Boys",
+    rating: 0,
+    timesListened: 1,
     byHeart: false,
     quotes: [],
   },

@@ -60,6 +60,12 @@ import { musicsShakira } from './musics_shakira';
 import { musicsTimbaland } from './musics_timbaland';
 import { musicsEurythmics } from './musics_eurythmics';
 import { musicsLizzo } from './musics_lizzo';
+import { musicsRihanna } from './musics_rihanna';
+import { musicsEdSheeran } from './musics_ed_sheeran';
+import { musicsMileyCyrus } from './musics_miley_cyrus';
+import { musicsAvrilLavigne } from './musics_avril_lavigne';
+import { musics50Cent } from './musics_50_cent';
+import { musicsUsher } from './musics_usher';
 
 export const musicsUsa = [
   ...musicsRapUsVarious,
@@ -124,4 +130,10 @@ export const musicsUsa = [
   ...musicsTimbaland,
   ...musicsEurythmics,
   ...musicsLizzo,
+  ...musicsRihanna,
+  ...musicsEdSheeran,
+  ...musicsMileyCyrus,
+  ...musicsAvrilLavigne,
+  ...musics50Cent,
+  ...musicsUsher,
 ];

@@ -96,6 +96,9 @@ export class SelectMusicsComponent
     return albums.sort((a, b) => {
       const artistCompare = a.artist.localeCompare(b.artist);
       if (artistCompare !== 0) return artistCompare;
+      const dateCompare =
+        this.albumReleaseTime(a.musics) - this.albumReleaseTime(b.musics);
+      if (dateCompare !== 0) return dateCompare;
       return a.album.localeCompare(b.album);
     });
   });
@@ -147,16 +150,25 @@ export class SelectMusicsComponent
   previewModel = computed((): AlbumPreviewModel | null => {
     const album = this.openedAlbum();
     if (!album) return null;
+    const ownedKeys = new Set(
+      this.userMusics().map((music) => this.getMusicKey(music))
+    );
+    const tracks = sortAlbumTracks(
+      this.allMusics().filter((music) => this.getAlbumKey(music) === album.key)
+    );
     return {
       album: album.album,
       artist: album.artist,
       coverUrl: album.coverUrl,
-      tracks: album.musics.map((music) => ({
-        title: music.title,
-        artist: music.artist,
-        selected: this.isSelected(music),
-        disabled: false,
-      })),
+      tracks: tracks.map((music) => {
+        const alreadyAdded = ownedKeys.has(this.getMusicKey(music));
+        return {
+          title: music.title,
+          artist: music.artist,
+          selected: alreadyAdded || this.isSelected(music),
+          disabled: alreadyAdded,
+        };
+      }),
     };
   });
 
@@ -182,6 +194,15 @@ export class SelectMusicsComponent
     return `${music.album}|${music.artist}`;
   }
 
+  private albumReleaseTime(musics: Music[]): number {
+    let earliest = Number.POSITIVE_INFINITY;
+    for (const music of musics) {
+      const time = new Date(music.releaseDate).getTime();
+      if (!Number.isNaN(time) && time < earliest) earliest = time;
+    }
+    return earliest;
+  }
+
   private hasValidCoverUrl(coverUrl: string): boolean {
     if (!coverUrl) return false;
     const normalized = coverUrl.toLowerCase();
@@ -198,7 +219,7 @@ export class SelectMusicsComponent
 
   openAlbumPreview(albumKey: string): void {
     this.openedAlbumKey.set(albumKey);
-    this.tracklistOpen.set(false);
+    this.tracklistOpen.set(true);
   }
 
   closeAlbumPreview(): void {

@@ -31,47 +31,8 @@ export const musicsVarietyUsVarious: BaseMusic[] = [
     duration: 180,
     genre: 'Unknown',
   },
-  {
-    title: 'Yeah! (feat. Lil Jon & Ludacris)',
-    artist: 'USHER',
-    album: 'Confessions',
-    albumTrackId: 2,
-    coverUrl: '/musics_pictures/R-2306427-1275783321.jpg',
-    releaseDate: '2000-01-01',
-    duration: 180,
-    genre: 'Rap/Hip-Hop',
-  },
-  {
-    title: 'My Boo',
-    artist: 'USHER',
-    album: 'Unknown',
-    albumTrackId: 0,
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    duration: 180,
-    genre: 'Unknown',
-  },
-  {
-    title: 'U Remind Me',
-    artist: 'USHER',
-    album: 'Unknown',
-    albumTrackId: 0,
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    duration: 180,
-    genre: 'Unknown',
-  },
-  {
-    title: 'Love in this club',
-    artist: 'USHER',
-    album: 'Unknown',
-    albumTrackId: 0,
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    duration: 180,
-    genre: 'Unknown',
-  },
-  {
+
+{
     title: 'I Like To Move It',
     artist: 'will.i.am',
     album: 'Unknown',
@@ -121,11 +82,8 @@ export const musicsVarietyUsVarious: BaseMusic[] = [
     duration: 180,
     genre: 'Unknown',
   },
-  
-  
-  
-  
-  {
+
+{
     title: 'Who Let The Dogs Out',
     artist: 'Baha Men',
     album: 'Unknown',
@@ -346,18 +304,8 @@ export const musicsVarietyUsVarious: BaseMusic[] = [
     duration: 180,
     genre: 'Unknown',
   },
-  
-  {
-    title: 'Umbrella',
-    artist: 'Rihanna',
-    album: 'Unknown',
-    albumTrackId: 0,
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    duration: 180,
-    genre: 'Unknown',
-  },
-  {
+
+{
     title: 'Every Breath You Take',
     artist: 'The Police',
     album: 'Unknown',
@@ -477,18 +425,8 @@ export const musicsVarietyUsVarious: BaseMusic[] = [
     duration: 180,
     genre: 'Unknown',
   },
-  {
-    title: 'Rude Boy',
-    artist: 'Rihanna',
-    album: 'Unknown',
-    albumTrackId: 0,
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    duration: 180,
-    genre: 'Unknown',
-  },
-  
-  {
+
+{
     title: 'SexyBack (feat. Timbaland)',
     artist: 'Justin Timberlake',
     album: 'Unknown',
@@ -528,16 +466,7 @@ export const musicsVarietyUsVarious: BaseMusic[] = [
     duration: 180,
     genre: 'Unknown',
   },
-  {
-    title: 'Shape of You',
-    artist: 'Ed Sheeran',
-    album: 'Unknown',
-    albumTrackId: 0,
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    duration: 180,
-    genre: 'Unknown',
-  },
+  
   {
     title: 'Buttons',
     artist: 'The Pussycat Dolls',
@@ -730,16 +659,7 @@ export const musicsVarietyUsVarious: BaseMusic[] = [
     duration: 180,
     genre: 'Unknown',
   },
-  {
-    title: 'Pon de Replay',
-    artist: 'Rihanna',
-    album: 'Unknown',
-    albumTrackId: 0,
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    duration: 180,
-    genre: 'Unknown',
-  },
+  
   {
     title: 'Boléro (Ravel)',
     artist: 'London Symphony Orchestra',

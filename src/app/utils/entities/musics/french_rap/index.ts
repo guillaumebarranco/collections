@@ -28,6 +28,11 @@ import { musicsOrelsan } from './musics_orelsan';
 import { musicsNepal } from './musics_nepal';
 import { musicsCuizinier } from './musics_cuizinier';
 import { musicsTtc } from './musics_ttc';
+import { musicsAllianceEthnik } from './musics_alliance_ethnik';
+import { musicsMedine } from './musics_medine';
+import { musicsGaelFaye } from './musics_gael_faye';
+import { musics1995 } from './musics_1995';
+import { musicsLomepal } from './musics_lomepal';
 
 export const frenchRapMusics = [
   ...musicsOrelsan,
@@ -60,4 +65,9 @@ export const frenchRapMusics = [
   ...musicsNepal,
   ...musicsCuizinier,
   ...musicsTtc,
+  ...musicsAllianceEthnik,
+  ...musicsMedine,
+  ...musicsGaelFaye,
+  ...musics1995,
+  ...musicsLomepal,
 ];

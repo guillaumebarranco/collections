@@ -38,7 +38,7 @@
     @if (tracklistOpen()) {
     <ol class="album-preview-tracks">
       @for (music of album().tracks; track music.title + "-" + music.artist) {
-      <li>
+      <li [class.album-preview-track--disabled]="music.disabled">
         <span class="album-preview-track-title">{{ music.title }}</span>
         <label class="album-preview-track-select">
           <input

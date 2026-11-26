@@ -40,6 +40,8 @@ import { musicsMecano } from './musics_mecano';
 import { musicsLarusso } from './musics_larusso';
 import { musicsPierreBachelet } from './musics_pierre_bachelet';
 import { musicsRachelAuPiano } from './musics_rachel_au_piano';
+import { musicsChristopheMae } from './musics_christophe_mae';
+import { musicsKyo } from './musics_kyo';
 
 export const frenchVarietyMusics = [
   ...musicsBalavoine,
@@ -84,4 +86,6 @@ export const frenchVarietyMusics = [
   ...musicsLarusso,
   ...musicsPierreBachelet,
   ...musicsRachelAuPiano,
+  ...musicsChristopheMae,
+  ...musicsKyo,
 ];
