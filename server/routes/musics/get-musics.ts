@@ -5,11 +5,25 @@ const {
   getUserMusicsFiles,
   parseUserMusicsFromFile,
   readAlbumNotes,
+  readAlbumsToListen,
 } = require('../../utils/musics/musics-utils');
 
 import type { UserMusic } from '../../../src/app/models/music-model';
 
 const router = express.Router();
+
+router.get('/:userId/albums-to-listen', (req: any, res: any) => {
+  try {
+    const userId = normalizeString(req.params.userId, 'userId');
+    if (!userId) {
+      res.status(400).json({ error: 'Missing userId' });
+      return;
+    }
+    res.json(readAlbumsToListen(userId));
+  } catch (error: any) {
+    res.status(500).json({ error: error.message || 'Unknown error' });
+  }
+});
 
 router.get('/:userId/album-notes', (req: any, res: any) => {
   try {

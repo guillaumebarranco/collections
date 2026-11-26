@@ -32,6 +32,8 @@ export class AlbumPreviewModalComponent {
   primaryLabel = input("Sélectionner tout l'album");
   primaryDisabled = input(false);
   showPrimary = input(true);
+  /** Cases par morceau. Désactivé quand seul l'album entier peut être choisi. */
+  tracksSelectable = input(true);
   error = input<string | null>(null);
 
   closed = output<void>();

@@ -1,6 +1,7 @@
 <app-menu></app-menu>
 
 <ng-template #selectionSummaryBand>
+  @if (!isListenlistMode()) {
   <app-view-toggle
     class="view-toggle"
     toggleClass="select-musics-view-toggle"
@@ -8,8 +9,16 @@
     [selected]="viewMode()"
     (selectedChange)="setViewMode($event)"
   ></app-view-toggle>
+  }
   <div class="selection-info">
-    <span class="count">{{ selectedCount() }} musique(s) sélectionnée(s)</span>
+    <span class="count">
+      {{ selectedCount() }}
+      {{
+        isListenlistMode()
+          ? "album(s) sélectionné(s)"
+          : "musique(s) sélectionnée(s)"
+      }}
+    </span>
     <span class="total">
       sur {{ totalCount() }}
       {{ viewMode() === "albums" ? "albums" : "musiques" }}
@@ -22,7 +31,13 @@
       (click)="addSelectedMusics()"
       [disabled]="selectedCount() === 0"
     >
-      ➕ Ajouter à mes musiques ({{ selectedCount() }})
+      ➕
+      {{
+        isListenlistMode()
+          ? "Ajouter à mes albums à écouter"
+          : "Ajouter à mes musiques"
+      }}
+      ({{ selectedCount() }})
     </button>
   </div>
 </ng-template>
@@ -47,11 +62,18 @@
       </svg>
       Précédent
     </button>
-    <h1>Sélectionner des musiques</h1>
+    <h1>
+      {{
+        isListenlistMode()
+          ? "Sélectionner des albums à écouter"
+          : "Sélectionner des musiques"
+      }}
+    </h1>
     <p class="subtitle">
-      @if (viewMode() === "albums") { Cliquez sur un album pour voir sa
-      tracklist avant de le sélectionner } @else { Cliquez sur les pochettes
-      pour sélectionner vos musiques préférées }
+      @if (isListenlistMode() || viewMode() === "albums") {
+      Cliquez sur un album pour voir sa tracklist avant de le sélectionner }
+      @else { Cliquez sur les pochettes pour sélectionner vos musiques
+      préférées }
     </p>
   </div>
 
@@ -62,8 +84,16 @@
       <input
         class="select-search-input"
         type="text"
-        placeholder="Rechercher une musique..."
-        aria-label="Rechercher une musique"
+        [placeholder]="
+          isListenlistMode()
+            ? 'Rechercher un album...'
+            : 'Rechercher une musique...'
+        "
+        [attr.aria-label]="
+          isListenlistMode()
+            ? 'Rechercher un album'
+            : 'Rechercher une musique'
+        "
         [value]="searchTerm()"
         (input)="searchTerm.set($any($event.target).value)"
       />
@@ -130,6 +160,7 @@
   <app-album-preview-modal
     [album]="album"
     [tracklistOpen]="tracklistOpen()"
+    [tracksSelectable]="!isListenlistMode()"
     [primaryLabel]="previewPrimaryLabel()"
     (closed)="closeAlbumPreview()"
     (tracklistToggled)="toggleTracklist()"

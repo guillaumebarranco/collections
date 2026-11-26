@@ -181,3 +181,16 @@ export const ${exportName}: UserAlbumNote[] = [];
   console.log(`Created: ${albumNotesPath}`);
 }
 
+const albumsToListenPath = path.join(musicsDir, `${username}_albums_to_listen.ts`);
+if (fs.existsSync(albumsToListenPath)) {
+  console.warn(`Skip existing: ${albumsToListenPath}`);
+} else {
+  const exportName = `${username}AlbumsToListen`;
+  const content = `import { UserAlbumToListen } from '../../../../models/music-model';
+
+export const ${exportName}: UserAlbumToListen[] = [];
+`;
+  fs.writeFileSync(albumsToListenPath, content, 'utf8');
+  console.log(`Created: ${albumsToListenPath}`);
+}
+

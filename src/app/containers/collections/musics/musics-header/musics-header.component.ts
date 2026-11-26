@@ -50,6 +50,7 @@ export class MusicsHeaderComponent {
   selectedSortInput = input<string>('rating');
   searchTermInput = input<string>('');
   allMusicsCount = input<number>(0);
+  albumsToListenCount = input<number>(0);
   filteredMusicsCount = input<number>(0);
   /** Afficher le bloc stats, filtres et la recherche (masqué quand l'utilisateur n'a pas de musiques). */
   showFiltersAndSearch = input<boolean>(true);

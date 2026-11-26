@@ -41,4 +41,15 @@ export interface UserAlbumNote {
 
 export type UserAlbumNotes = UserAlbumNote[];
 
+/**
+ * Album à écouter.
+ * Pas encore dans la collection : le couple artiste + nom d'album suffit.
+ */
+export interface UserAlbumToListen {
+  artist: string;
+  album: string;
+}
+
+export type UserAlbumsToListen = UserAlbumToListen[];
+
 export interface Music extends BaseMusic, UserMusic {}

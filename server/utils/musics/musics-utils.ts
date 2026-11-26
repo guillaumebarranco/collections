@@ -328,9 +328,13 @@ function getBaseMusicsFiles(): string[] {
 
 function getUserMusicsFiles(userId: string): string[] {
   const userDir = path.join(USERS_MUSICS_DIR, userId, 'musics');
-  return listTsFilesRecursive(userDir).filter(
-    (filePath) => !path.basename(filePath).endsWith('_albums_notes.ts')
-  );
+  return listTsFilesRecursive(userDir).filter((filePath) => {
+    const name = path.basename(filePath);
+    return (
+      !name.endsWith('_albums_notes.ts') &&
+      !name.endsWith('_albums_to_listen.ts')
+    );
+  });
 }
 
 function getUserAlbumNotesFile(userId: string): string {
@@ -508,6 +512,84 @@ function readAlbumNotes(userId: string) {
   return parseAlbumNotesFromFile(fs.readFileSync(filePath, 'utf8'));
 }
 
+function getUserAlbumsToListenPath(userId: string): string {
+  return path.join(
+    USERS_MUSICS_DIR,
+    userId,
+    'musics',
+    `${userId}_albums_to_listen.ts`
+  );
+}
+
+function readAlbumsToListen(userId: string) {
+  const filePath = getUserAlbumsToListenPath(userId);
+  if (!fs.existsSync(filePath)) {
+    return [];
+  }
+  return parseAlbumNotesFromFile(fs.readFileSync(filePath, 'utf8')).map(
+    (note: { artist: string; album: string }) => ({
+      artist: note.artist,
+      album: note.album,
+    })
+  );
+}
+
+function writeAlbumsToListen(
+  userId: string,
+  albums: { artist: string; album: string }[]
+) {
+  const userDir = path.join(USERS_MUSICS_DIR, userId, 'musics');
+  if (!fs.existsSync(userDir)) {
+    fs.mkdirSync(userDir, { recursive: true });
+  }
+  const exportName = `${userId}AlbumsToListen`;
+  const objects = albums
+    .map(
+      (album) =>
+        `  {\n    artist: "${escapeString(album.artist)}",\n    album: "${escapeString(
+          album.album
+        )}",\n  },`
+    )
+    .join('\n\n');
+  const content = `import { UserAlbumToListen } from '../../../../models/music-model';\n\nexport const ${exportName}: UserAlbumToListen[] = [${
+    objects ? `\n${objects}\n` : ''
+  }];\n`;
+  fs.writeFileSync(getUserAlbumsToListenPath(userId), content, 'utf8');
+}
+
+function addAlbumsToListen(
+  userId: string,
+  albums: { artist: string; album: string }[]
+) {
+  const existing = readAlbumsToListen(userId);
+  const seen = new Set(
+    existing.map((album: { artist: string; album: string }) =>
+      `${album.artist}\u0000${album.album}`
+    )
+  );
+  const next = [...existing];
+  for (const album of albums) {
+    const key = `${album.artist}\u0000${album.album}`;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    next.push({ artist: album.artist, album: album.album });
+  }
+  writeAlbumsToListen(userId, next);
+  return next;
+}
+
+function removeAlbumToListen(userId: string, artist: string, album: string) {
+  const existing = readAlbumsToListen(userId);
+  const next = existing.filter(
+    (item: { artist: string; album: string }) =>
+      !(item.artist === artist && item.album === album)
+  );
+  if (next.length === existing.length) {
+    throw new Error('Album not found');
+  }
+  writeAlbumsToListen(userId, next);
+}
+
 function saveAlbumNote(
   userId: string,
   artist: string,
@@ -628,6 +710,9 @@ module.exports = {
   getUserAlbumNotesFile,
   parseAlbumNotesFromFile,
   readAlbumNotes,
+  readAlbumsToListen,
+  addAlbumsToListen,
+  removeAlbumToListen,
   saveAlbumNote,
   escapeString,
   appendObjectToArrayFile,

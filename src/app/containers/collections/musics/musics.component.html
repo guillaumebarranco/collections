@@ -11,6 +11,7 @@
     [selectedSortInput]="selectedSort()"
     [searchTermInput]="searchTerm()"
     [allMusicsCount]="allMusics().length"
+    [albumsToListenCount]="listenAlbums().length"
     [filteredMusicsCount]="filteredMusics().length"
     [showFiltersAndSearch]="showFiltersAndSearch()"
     [stats]="stats()"
@@ -26,6 +27,56 @@
     (onOnlyByHeartChange)="onOnlyByHeartChange($event)"
   ></app-musics-header>
 
+  @if (selectedViewMode() === 'toListen') {
+  @if (filteredAlbumsToListen().length === 0) {
+  <p class="empty-message">
+    @if (listenAlbums().length === 0) {
+    Aucun album à écouter. Sélectionnez-en dans le catalogue.
+    } @else {
+    Aucun album ne correspond à la recherche.
+    }
+  </p>
+  } @else {
+  <div class="albums-grid">
+    @for (album of filteredAlbumsToListen(); track `${album.name}-${album.artist}`) {
+    <div class="album-card">
+      <div class="album-cover">
+        <img
+          [src]="album.coverUrl || '/musics_pictures/default.jpg'"
+          [alt]="album.name"
+        />
+        @if (album.trackCount > 0) {
+        <div class="album-overlay">
+          <span class="album-count">{{ album.trackCount }} titres</span>
+        </div>
+        }
+      </div>
+      <div class="album-info">
+        <div class="album-title-row">
+          <h3 class="album-name">{{ album.name }}</h3>
+          @if (canEditQuotes()) {
+          <button
+            type="button"
+            class="album-remove"
+            [attr.aria-label]="'Retirer ' + album.name + ' des albums à écouter'"
+            (click)="onRemoveAlbumToListen(album, $event)"
+          >
+            Retirer
+          </button>
+          }
+        </div>
+        <p class="album-artist">{{ album.artist }}</p>
+        @if (album.totalDuration > 0) {
+        <p class="album-duration">
+          {{ formatAlbumDuration(album.totalDuration) }}
+        </p>
+        }
+      </div>
+    </div>
+    }
+  </div>
+  }
+  } @else {
   <p class="results-count">Résultats filtrés affichés : {{ filteredMusics().length }}</p>
 
   @if (onlyByHeart() && filteredMusics().length === 0) {
@@ -153,6 +204,7 @@
     </div>
     }
   </div>
+  }
   }
   }
 </div>

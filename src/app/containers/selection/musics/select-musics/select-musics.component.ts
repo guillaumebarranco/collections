@@ -2,15 +2,22 @@ import { Component, signal, computed, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MenuComponent } from '../../../../components/menu/menu.component';
 import { ViewToggleComponent } from '../../../../components/shared/view-toggle/view-toggle.component';
-import { Music } from '../../../../models/music-model';
+import { Music, UserAlbumToListen } from '../../../../models/music-model';
 import {
   getAllBaseMusics,
   getUserMusicsRaw,
 } from '../../../../facades/musics/musics.facade';
+import {
+  addAlbumsToListen,
+  fetchUserAlbumsToListen,
+} from '../../../../facades/musics/api-musics.facade';
 import { SelectEntitiesComponent } from '../../select-base.component';
 import { getApiBaseUrl } from '../../../../core/config';
 import { normalizeSearchText } from '../../../../utils/normalize-search-text';
-import { sortAlbumTracks } from '../../../collections/musics/musics.utils';
+import {
+  ownsAlbumMajority,
+  sortAlbumTracks,
+} from '../../../collections/musics/musics.utils';
 import {
   AlbumPreviewModalComponent,
   AlbumPreviewModel,
@@ -51,12 +58,22 @@ export class SelectMusicsComponent
   searchTerm = signal('');
   openedAlbumKey = signal<string | null>(null);
   tracklistOpen = signal(false);
+  albumsToListen = signal<UserAlbumToListen[]>([]);
+  selectedAlbumKeys = signal<Set<string>>(new Set());
 
   // Musiques sélectionnées
   selectedMusics = signal<Set<string>>(new Set());
 
+  isListenlistMode(): boolean {
+    return this.activatedRoute.snapshot.queryParams['listenlist'] === 'true';
+  }
+
   // Nombre de musiques sélectionnées
-  selectedCount = computed(() => this.selectedMusics().size);
+  selectedCount = computed(() =>
+    this.isListenlistMode()
+      ? this.selectedAlbumKeys().size
+      : this.selectedMusics().size
+  );
 
   availableMusics = computed(() => {
     const userKeys = new Set(
@@ -119,9 +136,53 @@ export class SelectMusicsComponent
     });
   });
 
+  listenlistAlbums = computed(() => {
+    const ownedKeys = new Set(
+      this.userMusics().map((music) => this.getMusicKey(music))
+    );
+    const listed = new Set(
+      this.albumsToListen().map((album) => `${album.album}|${album.artist}`)
+    );
+    const albumsMap = new Map<string, Music[]>();
+    this.allMusics().forEach((music) => {
+      if (!music.album || music.album === 'Unknown') return;
+      const key = this.getAlbumKey(music);
+      if (!albumsMap.has(key)) {
+        albumsMap.set(key, []);
+      }
+      albumsMap.get(key)!.push(music);
+    });
+
+    return Array.from(albumsMap.entries())
+      .map(([key, musics]) => {
+        const [album, artist] = key.split('|');
+        const coverUrl =
+          musics.find((music) => this.hasValidCoverUrl(music.coverUrl))
+            ?.coverUrl || '';
+        return { key, album, artist, coverUrl, musics };
+      })
+      .filter((album) => {
+        if (album.musics.length < 8 || listed.has(album.key)) return false;
+        const owned = album.musics.filter((music) =>
+          ownedKeys.has(this.getMusicKey(music))
+        ).length;
+        return !ownsAlbumMajority(owned, album.musics.length);
+      })
+      .sort((a, b) => {
+        const artistCompare = a.artist.localeCompare(b.artist);
+        if (artistCompare !== 0) return artistCompare;
+        const dateCompare =
+          this.albumReleaseTime(a.musics) - this.albumReleaseTime(b.musics);
+        if (dateCompare !== 0) return dateCompare;
+        return a.album.localeCompare(b.album);
+      });
+  });
+
   filteredAlbums = computed(() => {
     const normalizedTerm = normalizeSearchText(this.searchTerm().trim());
-    const list = this.albumGroups();
+    const list = this.isListenlistMode()
+      ? this.listenlistAlbums()
+      : this.albumGroups();
     if (!normalizedTerm) return list;
     return list.filter((album) => {
       const title = normalizeSearchText(album.album ?? '');
@@ -139,7 +200,10 @@ export class SelectMusicsComponent
   openedAlbum = computed((): SelectableAlbum | null => {
     const key = this.openedAlbumKey();
     if (!key) return null;
-    const album = this.albumGroups().find((group) => group.key === key);
+    const source = this.isListenlistMode()
+      ? this.listenlistAlbums()
+      : this.albumGroups();
+    const album = source.find((group) => group.key === key);
     if (!album) return null;
     return {
       ...album,
@@ -174,10 +238,11 @@ export class SelectMusicsComponent
 
   previewPrimaryLabel = computed(() => {
     const album = this.openedAlbum();
-    if (!album) return "Sélectionner tout l'album";
-    return this.isAlbumSelected(album.key)
-      ? "Désélectionner tout l'album"
-      : "Sélectionner tout l'album";
+    const selected = album ? this.isAlbumSelected(album.key) : false;
+    if (this.isListenlistMode()) {
+      return selected ? "Désélectionner l'album" : "Sélectionner l'album";
+    }
+    return selected ? "Désélectionner tout l'album" : "Sélectionner tout l'album";
   });
 
   // Vérifier si une musique est sélectionnée
@@ -212,6 +277,9 @@ export class SelectMusicsComponent
   }
 
   isAlbumSelected(albumKey: string): boolean {
+    if (this.isListenlistMode()) {
+      return this.selectedAlbumKeys().has(albumKey);
+    }
     const group = this.albumGroups().find((album) => album.key === albumKey);
     if (!group || group.musics.length === 0) return false;
     return group.musics.every((music) => this.isSelected(music));
@@ -234,7 +302,11 @@ export class SelectMusicsComponent
   selectOpenedAlbum(): void {
     const album = this.openedAlbum();
     if (!album) return;
-    this.toggleAlbumSelection(album.key);
+    if (this.isListenlistMode()) {
+      this.toggleListenAlbum(album.key);
+    } else {
+      this.toggleAlbumSelection(album.key);
+    }
     this.closeAlbumPreview();
   }
 
@@ -280,7 +352,23 @@ export class SelectMusicsComponent
     this.selectedMusics.set(selected);
   }
 
+  toggleListenAlbum(albumKey: string): void {
+    const selected = new Set(this.selectedAlbumKeys());
+    if (selected.has(albumKey)) {
+      selected.delete(albumKey);
+    } else {
+      selected.add(albumKey);
+    }
+    this.selectedAlbumKeys.set(selected);
+  }
+
   goBackToMusics(): void {
+    if (this.isListenlistMode()) {
+      this.router.navigate(this.getEntityListRoute('musics'), {
+        queryParams: { view: 'toListen' },
+      });
+      return;
+    }
     this.navigateToEntityList('musics');
   }
 
@@ -291,6 +379,10 @@ export class SelectMusicsComponent
   }
 
   async addSelectedMusics(): Promise<void> {
+    if (this.isListenlistMode()) {
+      await this.addSelectedAlbumsToListen();
+      return;
+    }
     const selected = this.availableMusics().filter((music) =>
       this.isSelected(music)
     );
@@ -331,9 +423,38 @@ export class SelectMusicsComponent
     }
   }
 
+  private async addSelectedAlbumsToListen(): Promise<void> {
+    const selectedKeys = this.selectedAlbumKeys();
+    const albums = this.listenlistAlbums()
+      .filter((album) => selectedKeys.has(album.key))
+      .map((album) => ({ artist: album.artist, album: album.album }));
+    if (albums.length === 0) return;
+
+    const added = await addAlbumsToListen({
+      userId: this.userId(),
+      albums,
+    });
+    if (!added) {
+      console.warn("Échec de l'ajout des albums à écouter.");
+      return;
+    }
+    this.router.navigate(this.getEntityListRoute('musics'), {
+      queryParams: { view: 'toListen' },
+    });
+  }
+
   async ngOnInit() {
+    if (this.isListenlistMode()) {
+      this.viewMode.set('albums');
+    }
     const userId = this.userId();
-    const userMusics = await getUserMusicsRaw(userId);
+    const [userMusics, toListen] = await Promise.all([
+      getUserMusicsRaw(userId),
+      this.isListenlistMode()
+        ? fetchUserAlbumsToListen(userId).catch(() => [] as UserAlbumToListen[])
+        : Promise.resolve([] as UserAlbumToListen[]),
+    ]);
+    this.albumsToListen.set(toListen);
     this.userMusics.set(userMusics as Music[]);
     const baseMusics = await getAllBaseMusics();
     this.allMusics.set(

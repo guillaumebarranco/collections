@@ -40,6 +40,7 @@
       @for (music of album().tracks; track music.title + "-" + music.artist) {
       <li [class.album-preview-track--disabled]="music.disabled">
         <span class="album-preview-track-title">{{ music.title }}</span>
+        @if (tracksSelectable()) {
         <label class="album-preview-track-select">
           <input
             type="checkbox"
@@ -53,6 +54,7 @@
             (change)="trackToggled.emit(music)"
           />
         </label>
+        }
       </li>
       }
     </ol>

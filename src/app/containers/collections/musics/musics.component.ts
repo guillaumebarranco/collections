@@ -23,7 +23,12 @@ import {
   AlbumTrackRow,
   MusicDetailsUpdate,
 } from '../../../components/modals/album-modal/album-modal.component';
-import { BaseMusic, Music, UserAlbumNote } from '../../../models/music-model';
+import {
+  BaseMusic,
+  Music,
+  UserAlbumNote,
+  UserAlbumToListen,
+} from '../../../models/music-model';
 import type { EntityQuote } from '../../../models/entity-quote.model';
 import { normalizeSearchText } from '../../../utils/normalize-search-text';
 import { ActivatedRoute, Router, RouterLink } from '@angular/router';
@@ -34,6 +39,8 @@ import {
 import {
   addExistingMusics,
   fetchUserAlbumNotes,
+  fetchUserAlbumsToListen,
+  removeAlbumToListen,
   saveAlbumNote,
 } from '../../../facades/musics/api-musics.facade';
 import { LocalStorageService } from '../../../services/local-storage.service';
@@ -101,6 +108,7 @@ export class MusicsComponent implements OnInit {
   isAlbumModalOpen = signal<boolean>(false);
   selectedAlbum = signal<Album | null>(null);
   albumNotes = signal<UserAlbumNote[]>([]);
+  albumsToListen = signal<UserAlbumToListen[]>([]);
   baseMusics = signal<BaseMusic[]>([]);
   readonly pendingAlbumRatings = signal<Record<string, number>>({});
   readonly albumSaveErrorKey = signal<string | null>(null);
@@ -286,6 +294,56 @@ export class MusicsComponent implements OnInit {
     this.completeAlbums().filter((album) => !album.favorite)
   );
 
+  listenAlbums = computed(() => {
+    const byAlbum = new Map<string, BaseMusic[]>();
+    for (const music of this.baseMusics()) {
+      if (!music.album || music.album === 'Unknown') continue;
+      const key = `${music.album}|${music.artist}`;
+      const tracks = byAlbum.get(key);
+      if (tracks) {
+        tracks.push(music);
+      } else {
+        byAlbum.set(key, [music]);
+      }
+    }
+
+    return this.albumsToListen()
+      .map((item) => {
+        const tracks = byAlbum.get(`${item.album}|${item.artist}`) ?? [];
+        const cover =
+          tracks.find((music) => this.hasCatalogCover(music.coverUrl))
+            ?.coverUrl ??
+          tracks[0]?.coverUrl ??
+          '';
+        return {
+          name: item.album,
+          artist: item.artist,
+          coverUrl: cover,
+          trackCount: tracks.length,
+          totalDuration: tracks.reduce(
+            (sum, music) => sum + (music.duration || 0),
+            0
+          ),
+        };
+      })
+      .sort((a, b) => {
+        const artistCompare = a.artist.localeCompare(b.artist);
+        if (artistCompare !== 0) return artistCompare;
+        return a.name.localeCompare(b.name);
+      });
+  });
+
+  filteredAlbumsToListen = computed(() => {
+    const term = normalizeSearchText(this.searchTerm().trim());
+    const albums = this.listenAlbums();
+    if (!term) return albums;
+    return albums.filter(
+      (album) =>
+        normalizeSearchText(album.name).includes(term) ||
+        normalizeSearchText(album.artist).includes(term)
+    );
+  });
+
   // Musiques qui ne font pas partie d'un album complet
   standaloneMusics = computed<Music[]>(() => {
     const completeAlbumNames = new Set(
@@ -331,8 +389,8 @@ export class MusicsComponent implements OnInit {
         onlyByHeart: boolean;
       }>
     >(this.viewPreferencesStorageKey);
-    if (!parsed || typeof parsed !== 'object') return;
     this.isLoadingPreferences = true;
+    if (parsed && typeof parsed === 'object') {
     if (
       parsed.viewMode &&
       this.viewOptions.some((opt) => opt.value === parsed.viewMode)
@@ -355,6 +413,14 @@ export class MusicsComponent implements OnInit {
     if (typeof parsed.onlyByHeart === 'boolean') {
       this.onlyByHeart.set(parsed.onlyByHeart);
     }
+    }
+    const view = this.activatedRoute.snapshot.queryParams['view'];
+    if (
+      typeof view === 'string' &&
+      this.viewOptions.some((opt) => opt.value === view)
+    ) {
+      this.selectedViewMode.set(view);
+    }
     this.isLoadingPreferences = false;
   }
 
@@ -367,13 +433,15 @@ export class MusicsComponent implements OnInit {
     this.isLoadingMusics.set(true);
     try {
       const userId = this.getActiveUserId();
-      const [musics, notes, baseMusics] = await Promise.all([
+      const [musics, notes, toListen, baseMusics] = await Promise.all([
         getAllMusics(userId),
         fetchUserAlbumNotes(userId).catch(() => [] as UserAlbumNote[]),
+        fetchUserAlbumsToListen(userId).catch(() => [] as UserAlbumToListen[]),
         getAllBaseMusics(),
       ]);
       this.musicsList.set(musics);
       this.albumNotes.set(notes);
+      this.albumsToListen.set(toListen);
       this.baseMusics.set(baseMusics);
 
       const currentUserMusics = musics[userId] || [];
@@ -408,6 +476,13 @@ export class MusicsComponent implements OnInit {
 
   mobileViewPreviews = computed(() =>
     pickMobileViewCovers(this.viewOptions, (view) => {
+      if (view === 'toListen') {
+        return this.listenAlbums().map((album) => ({
+          key: `${album.name}|${album.artist}`,
+          coverUrl: album.coverUrl,
+          title: album.name,
+        }));
+      }
       if (view === 'albums') {
         const seen = new Set<string>();
         const albums: { key: string; coverUrl: string; title: string }[] = [];
@@ -504,6 +579,34 @@ export class MusicsComponent implements OnInit {
     if (minutes > 0) formatted += (formatted ? ' ' : '') + `${minutes}min`;
     if (!formatted) formatted = '0min';
     return formatted;
+  }
+
+  async onRemoveAlbumToListen(
+    album: { name: string; artist: string },
+    event: Event
+  ): Promise<void> {
+    event.stopPropagation();
+    if (!this.canEditQuotes()) return;
+    const removed = await removeAlbumToListen({
+      userId: this.getActiveUserId(),
+      artist: album.artist,
+      album: album.name,
+    });
+    if (!removed) return;
+    this.albumsToListen.update((albums) =>
+      albums.filter(
+        (item) => !(item.artist === album.artist && item.album === album.name)
+      )
+    );
+  }
+
+  private hasCatalogCover(coverUrl: string): boolean {
+    const normalized = coverUrl?.toLowerCase() ?? '';
+    return (
+      !!normalized &&
+      !normalized.includes('default') &&
+      !normalized.includes('placeholder')
+    );
   }
 
   formatAlbumDuration(seconds: number): string {

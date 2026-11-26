@@ -87,6 +87,7 @@ export const musicSortOptions: { value: string; label: string }[] = [
 export const musicViewOptions: { value: string; label: string }[] = [
   { value: 'albums', label: 'Grouper par album' },
   { value: 'all', label: 'Afficher toutes les musiques' },
+  { value: 'toListen', label: 'Albums à écouter' },
 ];
 
 export const getSortedMusics = (

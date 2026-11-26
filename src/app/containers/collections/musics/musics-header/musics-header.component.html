@@ -3,10 +3,45 @@
     @if (isMobile()) {
     <app-collection-mobile-back (back)="onMobileBack.emit()" />
     }
-    <h1>Musiques écoutées ({{ allMusicsCount() }})</h1>
+    <h1>
+      @if (selectedViewMode() === 'toListen') {
+      Albums à écouter ({{ albumsToListenCount() }})
+      } @else {
+      Musiques écoutées ({{ allMusicsCount() }})
+      }
+    </h1>
   </div>
 
-  @if(allMusicsCount() === 0) {
+  @if (!isMobile()) {
+  <div class="musics-header-top">
+    <app-view-toggle
+      [toggleClass]="'musics-view-toggle'"
+      [options]="viewOptions()"
+      [selected]="selectedViewMode()"
+      (selectedChange)="onViewModeChange.emit($any($event))"
+    ></app-view-toggle>
+  </div>
+  }
+
+  @if (selectedViewMode() === 'toListen') {
+  <div class="musics-actions">
+    <button
+      class="makya-btn-small"
+      [routerLink]="getSelectMusicsRoute()"
+      [queryParams]="{ listenlist: true }"
+      title="Sélectionner des albums à écouter"
+    >
+      ➕ Sélectionner des albums
+    </button>
+  </div>
+  <div class="musics-listen-search">
+    <app-entity-search-field
+      placeholder="Rechercher par album ou artiste..."
+      [value]="searchTerm()"
+      (valueChange)="handleSearchChange($event)"
+    />
+  </div>
+  } @else if (allMusicsCount() === 0) {
   <div class="empty-state">
     <p class="empty-message">
       Vous n'avez aucune musique dans votre collection.
@@ -18,17 +53,7 @@
       Sélectionner mes musiques
     </button>
   </div>
-  } @if(allMusicsCount() !== 0) {
-  @if (!isMobile()) {
-  <div class="musics-header-top">
-    <app-view-toggle
-      [toggleClass]="'musics-view-toggle'"
-      [options]="viewOptions()"
-      [selected]="selectedViewMode()"
-      (selectedChange)="onViewModeChange.emit($any($event))"
-    ></app-view-toggle>
-  </div>
-  }
+  } @else {
 
   <div class="musics-header-tools-accordion">
     @if (isMobileViewport()) {
