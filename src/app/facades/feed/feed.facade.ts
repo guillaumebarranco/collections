@@ -2,7 +2,7 @@ import { getApiBaseUrl } from '../../core/config';
 import type { FeedResponse } from '../../models/feed-model';
 
 /**
- * Récupère le feed (films, livres, séries et albums récents des utilisateurs suivis) depuis l'API.
+ * Récupère le feed (films, livres, séries, jeux et albums récents des utilisateurs suivis) depuis l'API.
  * Les données sont limitées au dernier mois et à 5 éléments max par catégorie et par utilisateur.
  */
 export async function getFeedFromApi(

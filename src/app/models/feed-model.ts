@@ -28,11 +28,19 @@ export interface FeedItemAlbum {
   rating?: number;
 }
 
+export interface FeedItemGame {
+  title: string;
+  editor: string;
+  date: string;
+  rating?: number;
+}
+
 export interface FeedUserEntry {
   userId: string;
   movies: FeedItemMovie[];
   books: FeedItemBook[];
   series: FeedItemSerie[];
+  games: FeedItemGame[];
   albums: FeedItemAlbum[];
 }
 

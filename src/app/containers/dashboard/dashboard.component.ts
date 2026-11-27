@@ -212,6 +212,14 @@ export class DashboardComponent implements OnInit {
   isLoadingDashboardData = signal(false);
   /** Collections GET classiques chargées (activité / top5 / badges). */
   private fullCollectionsLoaded = signal(false);
+  /**
+   * « Mon activité » reste masquée tant que le lot daté (films, livres, jeux, albums…)
+   * n’est pas revenu. Les signaux se remplissent au fil de l’eau ; on n’affiche
+   * la liste qu’une fois ce lot complet, albums compris.
+   */
+  readonly monthlyActivityReady = signal(false);
+  /** Une seule promesse en vol pour ne pas relancer les GET déjà partis. */
+  private datedCollectionsPromise: Promise<void> | null = null;
   private dashboardLoadGeneration = 0;
   selectedTab = signal<
     'overview' | 'entities' | 'quotes' | 'monthlyActivity' | 'top5' | 'badges'
@@ -529,7 +537,7 @@ export class DashboardComponent implements OnInit {
     );
   });
 
-  /** Feed des utilisateurs suivis (films, livres, séries et albums des 30 derniers jours, max 5 par catégorie). */
+  /** Feed des utilisateurs suivis (films, livres, séries, jeux et albums des 30 derniers jours, max 5 par catégorie). */
   feedData = computed(() => {
     this.feedService.cache();
     return this.feedService.getFeed(this.userId() || DEFAULT_USER_ID);
@@ -1236,6 +1244,8 @@ export class DashboardComponent implements OnInit {
     const generation = ++this.dashboardLoadGeneration;
     this.isLoadingDashboardData.set(true);
     this.fullCollectionsLoaded.set(false);
+    this.monthlyActivityReady.set(false);
+    this.datedCollectionsPromise = null;
 
     try {
       const userId = this.userId() || DEFAULT_USER_ID;
@@ -1270,14 +1280,27 @@ export class DashboardComponent implements OnInit {
   /** Charge les GET classiques pour activité mensuelle / top5 / badges. */
   private async ensureFullDashboardData(): Promise<void> {
     if (this.fullCollectionsLoaded()) {
+      this.monthlyActivityReady.set(true);
       return;
     }
     const generation = this.dashboardLoadGeneration;
     // Pas de loader plein écran : la vue d'ensemble reste affichée pendant le fetch.
-    await this.loadAllDashboardCollections();
-    if (generation === this.dashboardLoadGeneration) {
-      this.fullCollectionsLoaded.set(true);
-      void this.loadBaseMoviesCatalog();
+    try {
+      await this.loadAllDashboardCollections();
+      if (generation === this.dashboardLoadGeneration) {
+        this.fullCollectionsLoaded.set(true);
+        void this.loadBaseMoviesCatalog();
+      }
+    } catch {
+      const pending = this.datedCollectionsPromise;
+      void pending?.then(
+        () => undefined,
+        () => {
+          if (this.datedCollectionsPromise === pending) {
+            this.datedCollectionsPromise = null;
+          }
+        }
+      );
     }
   }
 
@@ -1337,28 +1360,51 @@ export class DashboardComponent implements OnInit {
     });
   }
 
+  /**
+   * Films, livres, séries, jeux et albums : ce que « Mon activité » affiche.
+   * Réutilisée par le chargement complet pour ne pas doubler les requêtes.
+   */
+  private loadDatedCollections(): Promise<void> {
+    if (this.datedCollectionsPromise) {
+      return this.datedCollectionsPromise;
+    }
+    const generation = this.dashboardLoadGeneration;
+    const reveal = () => {
+      if (generation === this.dashboardLoadGeneration) {
+        this.monthlyActivityReady.set(true);
+      }
+    };
+    this.datedCollectionsPromise = Promise.all([
+      this.loadMoviesData(),
+      this.loadBooksData(),
+      this.loadMangasData(),
+      this.loadComicsData(),
+      this.loadBdsData(),
+      this.loadManwhasData(),
+      this.loadSeriesData(),
+      this.loadAnimesData(),
+      this.loadGamesData(),
+      this.loadAlbumsData(),
+    ]).then(reveal, (error) => {
+      reveal();
+      throw error;
+    });
+    return this.datedCollectionsPromise;
+  }
+
   private async loadAllDashboardCollections(): Promise<void> {
     await Promise.all([
-      this.loadMoviesData(),
+      this.loadDatedCollections(),
       this.loadWatchlistMoviesData(),
-      this.loadBooksData(),
       this.loadChildrenBooksData(),
       this.loadReadlistBooksData(),
-      this.loadMangasData(),
       this.loadReadlistMangasData(),
-      this.loadComicsData(),
       this.loadReadlistComicsData(),
-      this.loadBdsData(),
       this.loadReadlistBdsData(),
-      this.loadManwhasData(),
       this.loadReadlistManwhasData(),
-      this.loadSeriesData(),
       this.loadWatchlistSeriesData(),
-      this.loadAnimesData(),
       this.loadWatchlistAnimesData(),
-      this.loadGamesData(),
       this.loadMusicsData(),
-      this.loadAlbumsData(),
     ]);
   }
 

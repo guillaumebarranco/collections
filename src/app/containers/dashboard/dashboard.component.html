@@ -121,8 +121,8 @@
     <div class="dashboard-section">
       <h2>📰 Feed – Activité des comptes suivis</h2>
       <p class="feed-intro">
-        Films vus, livres lus, séries vues et albums écoutés par les personnes
-        que vous suivez (dernier mois, 5 max par catégorie).
+        Films vus, livres lus, séries vues, jeux joués et albums écoutés par les
+        personnes que vous suivez (dernier mois, 5 max par catégorie).
       </p>
       @if (feedOfflineBlocked()) {
       <app-offline-restricted-message />
@@ -155,6 +155,9 @@
     @if (selectedTab() === 'monthlyActivity') {
     <div class="dashboard-section">
       <h2>📅 Mon activité</h2>
+      @if (!monthlyActivityReady()) {
+      <app-loader message="Chargement de l'activité..." />
+      } @else {
       <app-dashboard-monthly-activity
         [books]="allBooks()"
         [mangas]="allMangas()"
@@ -167,6 +170,7 @@
         [games]="allGames()"
         [albums]="allAlbums()"
       ></app-dashboard-monthly-activity>
+      }
     </div>
     }
 

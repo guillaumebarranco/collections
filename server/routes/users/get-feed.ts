@@ -17,11 +17,17 @@ const {
   parseSeriesFromFile,
 } = require('../../utils/series/series-utils');
 const { readAlbumsIfPresent } = require('../../utils/musics/musics-utils');
+const {
+  getUserGamesFiles,
+  parseGamesFromFile,
+} = require('../../utils/games/games-utils');
 
 import type { UserBook } from '../../../src/app/models/book-model';
+import type { UserGame, UserGameSession } from '../../../src/app/models/game-model';
 import type {
   FeedItemAlbum,
   FeedItemBook,
+  FeedItemGame,
   FeedItemMovie,
   FeedItemSerie,
   FeedUserEntry,
@@ -95,6 +101,59 @@ function loadUserBooks(userId: string): UserBook[] {
   } catch {
     return [];
   }
+}
+
+function loadUserGames(userId: string): UserGame[] {
+  try {
+    const gameFiles = getUserGamesFiles(userId);
+    return gameFiles.flatMap((gameFile: string) => {
+      const fileContent = fs.readFileSync(gameFile, 'utf8');
+      return parseGamesFromFile(fileContent);
+    });
+  } catch {
+    return [];
+  }
+}
+
+/** Jour local YYYY-MM-DD. Les sessions sans date de fin courent jusqu'à aujourd'hui, comme dans Mon activité. */
+function feedTodayKey(): string {
+  const now = new Date();
+  const month = String(now.getMonth() + 1).padStart(2, '0');
+  const day = String(now.getDate()).padStart(2, '0');
+  return `${now.getFullYear()}-${month}-${day}`;
+}
+
+function sessionFeedBounds(
+  session: UserGameSession,
+  today: string
+): { start: string; end: string } | null {
+  const legacy = session as UserGameSession & { finishedSessionDate?: string };
+  const end =
+    feedDateDayKey(session.sessionEndDate) ||
+    feedDateDayKey(legacy.finishedSessionDate || '');
+  const start = feedDateDayKey(session.sessionStartDate);
+  if (end) {
+    const startDay = start || end;
+    return startDay <= end ? { start: startDay, end } : { start: end, end: startDay };
+  }
+  if (start || session.currentlyPlaying) {
+    const startDay = start || today;
+    if (startDay > today) return null;
+    return { start: startDay, end: today };
+  }
+  return null;
+}
+
+function gameFeedDate(game: UserGame, oneMonthAgo: string, today: string): string {
+  let best = '';
+  for (const session of game.sessions || []) {
+    const bounds = sessionFeedBounds(session, today);
+    if (!bounds) continue;
+    if (bounds.start > today || bounds.end < oneMonthAgo) continue;
+    const day = bounds.end <= today ? bounds.end : today;
+    if (!best || day > best) best = day;
+  }
+  return best;
 }
 
 function loadUserAlbums(userId: string): UserAlbum[] {
@@ -179,6 +238,7 @@ router.get('/:userId/feed', (req: any, res: any) => {
 
     const followedIds = getFollowedUserIds(userId);
     const oneMonthAgo = getOneMonthAgoDateString();
+    const today = feedTodayKey();
 
     const feed: FeedUserEntry[] = followedIds.map((followedUserId: string) => {
       const movies: FeedItemMovie[] = loadUserMovies(followedUserId)
@@ -231,6 +291,21 @@ router.get('/:userId/feed', (req: any, res: any) => {
           };
         });
 
+      const games: FeedItemGame[] = loadUserGames(followedUserId)
+        .map((game) => ({
+          game,
+          date: gameFeedDate(game, oneMonthAgo, today),
+        }))
+        .filter((item) => item.date && isDateWithinLastMonth(item.date, oneMonthAgo))
+        .sort((a, b) => b.date.localeCompare(a.date))
+        .slice(0, FEED_MAX_ITEMS)
+        .map((item) => ({
+          title: item.game.title,
+          editor: item.game.editor,
+          date: item.date,
+          rating: item.game.rating,
+        }));
+
       const albums: FeedItemAlbum[] = loadUserAlbums(followedUserId)
         .filter((album) =>
           isDateWithinLastMonth(album.lastListenedDate || '', oneMonthAgo)
@@ -251,15 +326,26 @@ router.get('/:userId/feed', (req: any, res: any) => {
         movies,
         books,
         series,
+        games,
         albums,
       };
     });
 
     feed.sort((a, b) => {
       const aHas =
-        a.movies.length + a.books.length + a.series.length + a.albums.length > 0;
+        a.movies.length +
+          a.books.length +
+          a.series.length +
+          a.games.length +
+          a.albums.length >
+        0;
       const bHas =
-        b.movies.length + b.books.length + b.series.length + b.albums.length > 0;
+        b.movies.length +
+          b.books.length +
+          b.series.length +
+          b.games.length +
+          b.albums.length >
+        0;
       if (aHas && !bHas) return -1;
       if (!aHas && bHas) return 1;
       return 0;
