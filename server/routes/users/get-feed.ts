@@ -16,14 +16,17 @@ const {
   getUserSeriesFiles,
   parseSeriesFromFile,
 } = require('../../utils/series/series-utils');
+const { readAlbumsIfPresent } = require('../../utils/musics/musics-utils');
 
 import type { UserBook } from '../../../src/app/models/book-model';
 import type {
+  FeedItemAlbum,
   FeedItemBook,
   FeedItemMovie,
   FeedItemSerie,
   FeedUserEntry,
 } from '../../../src/app/models/feed-model';
+import type { UserAlbum } from '../../../src/app/models/music-model';
 import type { UserMovie } from '../../../src/app/models/movie-model';
 import type { UserSerieFileRow, UserSerieSeason } from '../../../src/app/models/serie-model';
 
@@ -89,6 +92,14 @@ function loadUserBooks(userId: string): UserBook[] {
       const fileContent = fs.readFileSync(bookFile, 'utf8');
       return parseBooksFromFile(fileContent);
     });
+  } catch {
+    return [];
+  }
+}
+
+function loadUserAlbums(userId: string): UserAlbum[] {
+  try {
+    return readAlbumsIfPresent(userId);
   } catch {
     return [];
   }
@@ -220,17 +231,35 @@ router.get('/:userId/feed', (req: any, res: any) => {
           };
         });
 
+      const albums: FeedItemAlbum[] = loadUserAlbums(followedUserId)
+        .filter((album) =>
+          isDateWithinLastMonth(album.lastListenedDate || '', oneMonthAgo)
+        )
+        .sort((a, b) =>
+          (b.lastListenedDate || '').localeCompare(a.lastListenedDate || '')
+        )
+        .slice(0, FEED_MAX_ITEMS)
+        .map((album) => ({
+          title: album.album,
+          artist: album.artist,
+          date: album.lastListenedDate || '',
+          rating: album.rating,
+        }));
+
       return {
         userId: followedUserId,
         movies,
         books,
         series,
+        albums,
       };
     });
 
     feed.sort((a, b) => {
-      const aHas = a.movies.length + a.books.length + a.series.length > 0;
-      const bHas = b.movies.length + b.books.length + b.series.length > 0;
+      const aHas =
+        a.movies.length + a.books.length + a.series.length + a.albums.length > 0;
+      const bHas =
+        b.movies.length + b.books.length + b.series.length + b.albums.length > 0;
       if (aHas && !bHas) return -1;
       if (!aHas && bHas) return 1;
       return 0;

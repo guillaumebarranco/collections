@@ -31,6 +31,15 @@ const BASE_MUSICS_DIR = path.join(
 
 import type { BaseMusic, UserMusic } from '../../../src/app/models/music-model';
 
+type AlbumRecord = {
+  artist: string;
+  album: string;
+  rating: number;
+  favorite: boolean;
+  toListen: boolean;
+  lastListenedDate: string | null;
+};
+
 type MusicUpdatePayload = Partial<
   Pick<UserMusic, 'rating' | 'timesListened' | 'byHeart' | 'favorite' | 'quotes'>
 > &
@@ -71,6 +80,15 @@ function parseStringField(objectText: string, key: string) {
   if (!match) return null;
   const quote = match[1];
   return unescapeString(match[2], quote);
+}
+
+function parseNullableStringField(objectText: string, key: string) {
+  const regex = new RegExp(
+    `${key}\\s*:\\s*(null|(['"])((?:\\\\.|(?!\\2).)*)\\2)`
+  );
+  const match = objectText.match(regex);
+  if (!match || match[1] === 'null') return null;
+  return unescapeString(match[3], match[2]);
 }
 
 function unescapeString(value: string, quote: string) {
@@ -331,22 +349,33 @@ function getUserMusicsFiles(userId: string): string[] {
   return listTsFilesRecursive(userDir).filter((filePath) => {
     const name = path.basename(filePath);
     return (
+      !name.endsWith('_albums.ts') &&
       !name.endsWith('_albums_notes.ts') &&
       !name.endsWith('_albums_to_listen.ts')
     );
   });
 }
 
-function getUserAlbumNotesFile(userId: string): string {
+function todayIsoDate(): string {
+  const now = new Date();
+  const month = String(now.getMonth() + 1).padStart(2, '0');
+  const day = String(now.getDate()).padStart(2, '0');
+  return `${now.getFullYear()}-${month}-${day}`;
+}
+
+function userAlbumsPath(userId: string, suffix: string): string {
+  return path.join(USERS_MUSICS_DIR, userId, 'musics', `${userId}${suffix}`);
+}
+
+function getUserAlbumsFile(userId: string): string {
   const userDir = path.join(USERS_MUSICS_DIR, userId, 'musics');
   if (!fs.existsSync(userDir)) {
     fs.mkdirSync(userDir, { recursive: true });
   }
-  const filePath = path.join(userDir, `${userId}_albums_notes.ts`);
+  migrateUserAlbums(userId);
+  const filePath = userAlbumsPath(userId, '_albums.ts');
   if (!fs.existsSync(filePath)) {
-    const exportName = `${userId}AlbumNotes`;
-    const content = `import { UserAlbumNote } from '../../../../models/music-model';\n\nexport const ${exportName}: UserAlbumNote[] = [];\n`;
-    fs.writeFileSync(filePath, content, 'utf8');
+    writeAlbums(userId, []);
   }
   return filePath;
 }
@@ -361,7 +390,7 @@ function parseAlbumNotesFromFile(content: string) {
     return [];
   }
   const { arrayStart, arrayEnd } = bounds;
-  const notes = [];
+  const notes: AlbumRecord[] = [];
   let i = arrayStart;
   let depth = 0;
   let objectStart = -1;
@@ -385,6 +414,11 @@ function parseAlbumNotesFromFile(content: string) {
             album,
             rating: parseNumberField(objectText, 'rating') ?? 0,
             favorite: parseBooleanField(objectText, 'favorite') ?? false,
+            toListen: parseBooleanField(objectText, 'toListen') ?? false,
+            lastListenedDate: parseNullableStringField(
+              objectText,
+              'lastListenedDate'
+            ),
           });
         }
       }
@@ -395,211 +429,198 @@ function parseAlbumNotesFromFile(content: string) {
   return notes;
 }
 
-function appendObjectToContent(content: string, objectText: string) {
-  const exportIndex = content.indexOf('export const');
-  if (exportIndex === -1) {
-    throw new Error('Array not found');
-  }
-  const bounds = getArrayBounds(content, exportIndex);
-  if (!bounds) {
-    throw new Error('Array bounds not found');
-  }
-  const { arrayStart, arrayEnd } = bounds;
-  const arrayBody = content.slice(arrayStart + 1, arrayEnd);
-  const trimmedBody = arrayBody.trim();
-  const hasItems = /{/.test(arrayBody);
-  const needsComma = hasItems && !trimmedBody.endsWith(',');
-  const insert = (needsComma ? ',' : '') + '\n' + objectText + '\n';
-  return (
-    content.slice(0, arrayStart + 1) +
-    arrayBody +
-    insert +
-    content.slice(arrayEnd)
-  );
+function albumKey(album: { artist: string; album: string }): string {
+  return `${album.artist}\u0000${album.album}`;
 }
 
-function setAlbumNoteField(
-  objectText: string,
-  key: string,
-  value: number | boolean
-) {
-  const regex = new RegExp(`(${key}\\s*:\\s*)([^,\\n]+)`);
-  if (regex.test(objectText)) {
-    return objectText.replace(regex, `$1${value}`);
-  }
-  if (/\n[ \t]*\}$/.test(objectText)) {
-    return objectText.replace(
-      /,?\n([ \t]*)\}$/,
-      `,\n$1  ${key}: ${value},\n$1}`
-    );
-  }
-  return objectText.replace(/\}$/, `, ${key}: ${value} }`);
+function formatAlbumObject(album: AlbumRecord): string {
+  const date = album.lastListenedDate
+    ? `"${escapeString(album.lastListenedDate)}"`
+    : 'null';
+  return `  {\n    artist: "${escapeString(album.artist)}",\n    album: "${escapeString(
+    album.album
+  )}",\n    rating: ${album.rating},\n    favorite: ${
+    album.favorite
+  },\n    toListen: ${album.toListen},\n    lastListenedDate: ${date},\n  },`;
 }
 
-function upsertAlbumNoteInFile(
-  content: string,
-  payload: {
-    artist: string;
-    album: string;
-    rating?: number;
-    favorite?: boolean;
-  }
-) {
-  const exportIndex = content.indexOf('export const');
-  if (exportIndex === -1) {
-    throw new Error('Array not found');
-  }
-  const bounds = getArrayBounds(content, exportIndex);
-  if (!bounds) {
-    throw new Error('Array bounds not found');
-  }
-  const { arrayStart, arrayEnd } = bounds;
-  let i = arrayStart;
-  let depth = 0;
-  let objectStart = -1;
-
-  while (i < arrayEnd) {
-    const char = content[i];
-    if (char === '{') {
-      if (depth === 0) {
-        objectStart = i;
-      }
-      depth += 1;
-    } else if (char === '}') {
-      depth -= 1;
-      if (depth === 0 && objectStart !== -1) {
-        const objectEnd = i;
-        const objectText = content.slice(objectStart, objectEnd + 1);
-        const artist = parseStringField(objectText, 'artist');
-        const album = parseStringField(objectText, 'album');
-        if (artist === payload.artist && album === payload.album) {
-          let updated = objectText;
-          if (payload.rating !== undefined) {
-            updated = setAlbumNoteField(updated, 'rating', payload.rating);
-          }
-          if (payload.favorite !== undefined) {
-            updated = setAlbumNoteField(updated, 'favorite', payload.favorite);
-          }
-          return (
-            content.slice(0, objectStart) +
-            updated +
-            content.slice(objectEnd + 1)
-          );
-        }
-      }
-    }
-    i += 1;
-  }
-
-  const objectText = `  {\n    artist: "${escapeString(
-    payload.artist
-  )}",\n    album: "${escapeString(payload.album)}",\n    rating: ${
-    payload.rating ?? 0
-  },\n    favorite: ${payload.favorite ?? false},\n  },`;
-  return appendObjectToContent(content, objectText);
-}
-
-function readAlbumNotes(userId: string) {
-  const filePath = path.join(
-    USERS_MUSICS_DIR,
-    userId,
-    'musics',
-    `${userId}_albums_notes.ts`
-  );
-  if (!fs.existsSync(filePath)) {
-    return [];
-  }
-  return parseAlbumNotesFromFile(fs.readFileSync(filePath, 'utf8'));
-}
-
-function getUserAlbumsToListenPath(userId: string): string {
-  return path.join(
-    USERS_MUSICS_DIR,
-    userId,
-    'musics',
-    `${userId}_albums_to_listen.ts`
-  );
-}
-
-function readAlbumsToListen(userId: string) {
-  const filePath = getUserAlbumsToListenPath(userId);
-  if (!fs.existsSync(filePath)) {
-    return [];
-  }
-  return parseAlbumNotesFromFile(fs.readFileSync(filePath, 'utf8')).map(
-    (note: { artist: string; album: string }) => ({
-      artist: note.artist,
-      album: note.album,
-    })
-  );
-}
-
-function writeAlbumsToListen(
-  userId: string,
-  albums: { artist: string; album: string }[]
-) {
+function writeAlbums(userId: string, albums: AlbumRecord[]) {
   const userDir = path.join(USERS_MUSICS_DIR, userId, 'musics');
   if (!fs.existsSync(userDir)) {
     fs.mkdirSync(userDir, { recursive: true });
   }
-  const exportName = `${userId}AlbumsToListen`;
-  const objects = albums
-    .map(
-      (album) =>
-        `  {\n    artist: "${escapeString(album.artist)}",\n    album: "${escapeString(
-          album.album
-        )}",\n  },`
-    )
-    .join('\n\n');
-  const content = `import { UserAlbumToListen } from '../../../../models/music-model';\n\nexport const ${exportName}: UserAlbumToListen[] = [${
+  const exportName = `${userId}Albums`;
+  const objects = albums.map((album) => formatAlbumObject(album)).join('\n\n');
+  const content = `import { UserAlbum } from '../../../../models/music-model';\n\nexport const ${exportName}: UserAlbum[] = [${
     objects ? `\n${objects}\n` : ''
   }];\n`;
-  fs.writeFileSync(getUserAlbumsToListenPath(userId), content, 'utf8');
+  fs.writeFileSync(userAlbumsPath(userId, '_albums.ts'), content, 'utf8');
+}
+
+function migrateUserAlbums(userId: string) {
+  const albumsPath = userAlbumsPath(userId, '_albums.ts');
+  const notesPath = userAlbumsPath(userId, '_albums_notes.ts');
+  const listenPath = userAlbumsPath(userId, '_albums_to_listen.ts');
+  if (fs.existsSync(albumsPath)) {
+    return;
+  }
+  if (!fs.existsSync(notesPath) && !fs.existsSync(listenPath)) {
+    return;
+  }
+  const notes = fs.existsSync(notesPath)
+    ? parseAlbumNotesFromFile(fs.readFileSync(notesPath, 'utf8'))
+    : [];
+  const listen = fs.existsSync(listenPath)
+    ? parseAlbumNotesFromFile(fs.readFileSync(listenPath, 'utf8'))
+    : [];
+  const byKey = new Map<string, AlbumRecord>();
+  for (const note of notes) {
+    byKey.set(albumKey(note), { ...note, toListen: false });
+  }
+  for (const item of listen) {
+    const key = albumKey(item);
+    const existing = byKey.get(key);
+    if (existing) {
+      existing.toListen = true;
+    } else {
+      byKey.set(key, {
+        artist: item.artist,
+        album: item.album,
+        rating: 0,
+        favorite: false,
+        toListen: true,
+        lastListenedDate: null,
+      });
+    }
+  }
+  writeAlbums(userId, [...byKey.values()]);
+  if (fs.existsSync(notesPath)) fs.unlinkSync(notesPath);
+  if (fs.existsSync(listenPath)) fs.unlinkSync(listenPath);
+}
+
+function migrateAllUserAlbums() {
+  if (!fs.existsSync(USERS_MUSICS_DIR)) return;
+  for (const entry of fs.readdirSync(USERS_MUSICS_DIR, { withFileTypes: true })) {
+    if (!entry.isDirectory()) continue;
+    const musicsDir = path.join(USERS_MUSICS_DIR, entry.name, 'musics');
+    if (!fs.existsSync(musicsDir)) continue;
+    getUserAlbumsFile(entry.name);
+  }
+}
+
+function readAlbums(userId: string) {
+  const filePath = getUserAlbumsFile(userId);
+  return parseAlbumNotesFromFile(fs.readFileSync(filePath, 'utf8'));
+}
+
+/** Lecture seule : ne crée pas le fichier s'il est absent. */
+function readAlbumsIfPresent(userId: string) {
+  const filePath = userAlbumsPath(userId, '_albums.ts');
+  if (!fs.existsSync(filePath)) return [];
+  return parseAlbumNotesFromFile(fs.readFileSync(filePath, 'utf8'));
+}
+
+function readAlbumNotes(userId: string) {
+  return readAlbums(userId);
+}
+
+function readAlbumsToListen(userId: string) {
+  return readAlbums(userId).filter(
+    (album: { toListen: boolean }) => album.toListen
+  );
 }
 
 function addAlbumsToListen(
   userId: string,
   albums: { artist: string; album: string }[]
 ) {
-  const existing = readAlbumsToListen(userId);
-  const seen = new Set(
-    existing.map((album: { artist: string; album: string }) =>
-      `${album.artist}\u0000${album.album}`
-    )
+  const existing: AlbumRecord[] = readAlbums(userId);
+  const byKey = new Map(
+    existing.map((album) => [albumKey(album), album] as const)
   );
-  const next = [...existing];
   for (const album of albums) {
-    const key = `${album.artist}\u0000${album.album}`;
-    if (seen.has(key)) continue;
-    seen.add(key);
-    next.push({ artist: album.artist, album: album.album });
+    const key = albumKey(album);
+    const current = byKey.get(key);
+    if (current) {
+      current.toListen = true;
+      continue;
+    }
+    const created = {
+      artist: album.artist,
+      album: album.album,
+      rating: 0,
+      favorite: false,
+      toListen: true,
+      lastListenedDate: null,
+    };
+    existing.push(created);
+    byKey.set(key, created);
   }
-  writeAlbumsToListen(userId, next);
-  return next;
+  writeAlbums(userId, existing);
+  return existing.filter((album) => album.toListen);
 }
 
 function removeAlbumToListen(userId: string, artist: string, album: string) {
-  const existing = readAlbumsToListen(userId);
-  const next = existing.filter(
-    (item: { artist: string; album: string }) =>
-      !(item.artist === artist && item.album === album)
+  const existing: AlbumRecord[] = readAlbums(userId);
+  const index = existing.findIndex(
+    (item) => item.artist === artist && item.album === album && item.toListen
   );
-  if (next.length === existing.length) {
+  if (index === -1) {
     throw new Error('Album not found');
   }
-  writeAlbumsToListen(userId, next);
+  const current = existing[index];
+  if (
+    current.rating === 0 &&
+    !current.favorite &&
+    !current.lastListenedDate
+  ) {
+    existing.splice(index, 1);
+  } else {
+    existing[index] = { ...current, toListen: false };
+  }
+  writeAlbums(userId, existing);
 }
 
 function saveAlbumNote(
   userId: string,
   artist: string,
   album: string,
-  patch: { rating?: number; favorite?: boolean }
+  patch: {
+    rating?: number;
+    favorite?: boolean;
+    markListened?: boolean;
+  }
 ) {
-  const filePath = getUserAlbumNotesFile(userId);
-  const content = fs.readFileSync(filePath, 'utf8');
-  const updated = upsertAlbumNoteInFile(content, { artist, album, ...patch });
-  fs.writeFileSync(filePath, updated, 'utf8');
+  const existing: AlbumRecord[] = readAlbums(userId);
+  const index = existing.findIndex(
+    (item) => item.artist === artist && item.album === album
+  );
+  const current =
+    index === -1
+      ? {
+          artist,
+          album,
+          rating: 0,
+          favorite: false,
+          toListen: false,
+          lastListenedDate: null as string | null,
+        }
+      : existing[index];
+  const next = {
+    ...current,
+    ...(patch.rating !== undefined ? { rating: patch.rating } : {}),
+    ...(patch.favorite !== undefined ? { favorite: patch.favorite } : {}),
+  };
+  if (patch.markListened) {
+    next.toListen = false;
+    next.lastListenedDate = todayIsoDate();
+  }
+  if (index === -1) {
+    existing.push(next);
+  } else {
+    existing[index] = next;
+  }
+  writeAlbums(userId, existing);
 }
 
 
@@ -707,9 +728,11 @@ module.exports = {
   parseBaseMusicsFullFromFile,
   getBaseMusicsFiles,
   getUserMusicsFiles,
-  getUserAlbumNotesFile,
+  getUserAlbumsFile,
+  migrateAllUserAlbums,
   parseAlbumNotesFromFile,
   readAlbumNotes,
+  readAlbumsIfPresent,
   readAlbumsToListen,
   addAlbumsToListen,
   removeAlbumToListen,

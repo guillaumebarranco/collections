@@ -158,7 +158,7 @@ export const musicsRapFrVarious: UserMusic[] = [
     title: 'Bienvenue Dans La Secte',
     artist: 'La Secte Phonétik',
     rating: 0,
-    timesListened: 20,
+    timesListened: 30,
     byHeart: false,
     favorite: false,
     quotes: [],

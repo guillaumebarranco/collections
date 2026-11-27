@@ -29,27 +29,20 @@ export interface UserMusic extends MandatoryMusicData {
 export type UserMusics = UserMusic[];
 
 /**
- * Note d'un album pour un utilisateur.
+ * Album suivi pour un utilisateur.
  * Pas d'entité album : le couple artiste + nom d'album suffit à l'identifier.
  */
-export interface UserAlbumNote {
+export interface UserAlbum {
   artist: string;
   album: string;
   rating: number;
-  favorite?: boolean;
+  favorite: boolean;
+  /** Présent dans la liste « Albums à écouter ». */
+  toListen: boolean;
+  /** Dernier « J'ai écouté cet album », au format YYYY-MM-DD. */
+  lastListenedDate: string | null;
 }
 
-export type UserAlbumNotes = UserAlbumNote[];
-
-/**
- * Album à écouter.
- * Pas encore dans la collection : le couple artiste + nom d'album suffit.
- */
-export interface UserAlbumToListen {
-  artist: string;
-  album: string;
-}
-
-export type UserAlbumsToListen = UserAlbumToListen[];
+export type UserAlbums = UserAlbum[];
 
 export interface Music extends BaseMusic, UserMusic {}

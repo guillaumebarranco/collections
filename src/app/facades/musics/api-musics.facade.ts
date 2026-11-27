@@ -1,8 +1,7 @@
 import { getApiBaseUrl } from '../../core/config';
 import {
   BaseMusic,
-  UserAlbumNote,
-  UserAlbumToListen,
+  UserAlbum,
   UserMusic,
 } from '../../models/music-model';
 
@@ -35,7 +34,7 @@ export async function fetchMergedUserMusicsFromApi(
 
 export async function fetchUserAlbumNotes(
   userId: string
-): Promise<UserAlbumNote[]> {
+): Promise<UserAlbum[]> {
   const response = await fetch(
     `${getApiBaseUrl()}/musics/${encodeURIComponent(userId)}/album-notes`
   );
@@ -48,7 +47,7 @@ export async function fetchUserAlbumNotes(
 
 export async function fetchUserAlbumsToListen(
   userId: string
-): Promise<UserAlbumToListen[]> {
+): Promise<UserAlbum[]> {
   const response = await fetch(
     `${getApiBaseUrl()}/musics/${encodeURIComponent(userId)}/albums-to-listen`
   );
@@ -61,7 +60,7 @@ export async function fetchUserAlbumsToListen(
 
 export async function addAlbumsToListen(payload: {
   userId: string;
-  albums: UserAlbumToListen[];
+  albums: Pick<UserAlbum, 'artist' | 'album'>[];
 }): Promise<boolean> {
   try {
     const response = await fetch(`${getApiBaseUrl()}/musics/albums-to-listen`, {
@@ -101,6 +100,8 @@ export async function saveAlbumNote(payload: {
   album: string;
   rating?: number;
   favorite?: boolean;
+  /** Passe l'album en écouté et enregistre la date du jour. */
+  markListened?: boolean;
 }): Promise<boolean> {
   try {
     const response = await fetch(`${getApiBaseUrl()}/musics/album-note`, {

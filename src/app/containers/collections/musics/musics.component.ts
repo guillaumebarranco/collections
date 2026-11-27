@@ -26,8 +26,7 @@ import {
 import {
   BaseMusic,
   Music,
-  UserAlbumNote,
-  UserAlbumToListen,
+  UserAlbum,
 } from '../../../models/music-model';
 import type { EntityQuote } from '../../../models/entity-quote.model';
 import { normalizeSearchText } from '../../../utils/normalize-search-text';
@@ -64,11 +63,8 @@ import { CanEditDirective } from '../../../directives/can-edit.directive';
 import { LoaderComponent } from '../../../components/shared/loader/loader.component';
 import { MobileCollectionPickerComponent } from '../../../components/shared/mobile-collection-picker/mobile-collection-picker.component';
 import { RatingStarsComponent } from '../../../components/shared/rating-stars/rating-stars.component';
-import {
-  AlbumPreviewModalComponent,
-  AlbumPreviewModel,
-  AlbumPreviewTrack,
-} from '../../../components/modals/album-preview-modal/album-preview-modal.component';
+import { PersonBadgeComponent } from '../../../components/shared/person-badge/person-badge.component';
+import { PersonNamesPipe } from '../../../components/shared/person-badge/person-names.pipe';
 import { pickMobileViewCovers } from '../../../utils/mobile-view-previews';
 import {
   MoveEntityReviewModalComponent,
@@ -90,7 +86,8 @@ import {
     CanEditDirective,
     MatDialogModule,
     RatingStarsComponent,
-    AlbumPreviewModalComponent,
+    PersonBadgeComponent,
+    PersonNamesPipe,
   ],
   templateUrl: './musics.component.html',
   styleUrls: ['./musics.component.scss'],
@@ -118,16 +115,11 @@ export class MusicsComponent implements OnInit {
   // Modal d'album
   isAlbumModalOpen = signal<boolean>(false);
   selectedAlbum = signal<Album | null>(null);
-  albumNotes = signal<UserAlbumNote[]>([]);
-  albumsToListen = signal<UserAlbumToListen[]>([]);
+  albumNotes = signal<UserAlbum[]>([]);
+  albumsToListen = signal<UserAlbum[]>([]);
   baseMusics = signal<BaseMusic[]>([]);
   readonly pendingAlbumRatings = signal<Record<string, number>>({});
   readonly albumSaveErrorKey = signal<string | null>(null);
-  readonly standaloneAlbumKey = signal<string | null>(null);
-  readonly standaloneTracklistOpen = signal(false);
-  readonly standaloneSelection = signal<ReadonlySet<string>>(new Set());
-  readonly standaloneAdding = signal(false);
-  readonly standaloneAddError = signal(false);
   private albumSaveQueue: Promise<void> = Promise.resolve();
 
   filterOptions = musicFilterOptions;
@@ -266,6 +258,7 @@ export class MusicsComponent implements OnInit {
         ),
         rating: note?.rating ?? 0,
         favorite: note?.favorite === true,
+        lastListenedDate: note?.lastListenedDate ?? null,
       });
     });
 
@@ -459,8 +452,8 @@ export class MusicsComponent implements OnInit {
       const userId = this.getActiveUserId();
       const [musics, notes, toListen, baseMusics] = await Promise.all([
         getAllMusics(userId),
-        fetchUserAlbumNotes(userId).catch(() => [] as UserAlbumNote[]),
-        fetchUserAlbumsToListen(userId).catch(() => [] as UserAlbumToListen[]),
+        fetchUserAlbumNotes(userId).catch(() => [] as UserAlbum[]),
+        fetchUserAlbumsToListen(userId).catch(() => [] as UserAlbum[]),
         getAllBaseMusics(),
       ]);
       this.musicsList.set(musics);
@@ -702,22 +695,15 @@ export class MusicsComponent implements OnInit {
       return;
     }
 
-    if (rating > 0) {
-      await saveAlbumNote({
-        userId,
-        artist: album.artist,
-        album: album.name,
-        rating,
-      });
-    }
-
-    const removed = await removeAlbumToListen({
+    const saved = await saveAlbumNote({
       userId,
       artist: album.artist,
       album: album.name,
+      ...(rating > 0 ? { rating } : {}),
+      markListened: true,
     });
     this.listeningAlbumKey.set(null);
-    if (!removed) {
+    if (!saved) {
       this.listenAlbumErrorKey.set(key);
     }
     await this.refreshMusics(true);
@@ -796,132 +782,39 @@ export class MusicsComponent implements OnInit {
     if (!this.hasCatalogAlbum(music)) {
       return;
     }
-    this.standaloneAlbumKey.set(`${music.album}|${music.artist}`);
-    this.standaloneTracklistOpen.set(true);
-    this.standaloneSelection.set(new Set());
-    this.standaloneAddError.set(false);
-  }
-
-  closeStandaloneAlbum(): void {
-    this.standaloneAlbumKey.set(null);
-    this.standaloneTracklistOpen.set(false);
-    this.standaloneSelection.set(new Set());
-    this.standaloneAddError.set(false);
-  }
-
-  toggleStandaloneTracklist(): void {
-    this.standaloneTracklistOpen.update((open) => !open);
-  }
-
-  standalonePreview = computed((): AlbumPreviewModel | null => {
-    const key = this.standaloneAlbumKey();
-    if (!key) {
-      return null;
-    }
-    const tracks = sortAlbumTracks(
+    const key = `${music.album}|${music.artist}`;
+    const catalog = sortAlbumTracks(
       this.baseMusics().filter(
-        (music) => `${music.album}|${music.artist}` === key
+        (item) => `${item.album}|${item.artist}` === key
       )
     );
-    if (tracks.length === 0) {
-      return null;
-    }
-    const owned = new Set(
-      this.allMusics()
-        .filter((music) => `${music.album}|${music.artist}` === key)
-        .map((music) => `${music.title}|${music.artist}`)
+    const owned = sortAlbumTracks(
+      this.allMusics().filter(
+        (item) => `${item.album}|${item.artist}` === key
+      )
     );
-    const selected = this.standaloneSelection();
-    const canEdit = this.canEditQuotes();
-    const [album, artist] = key.split('|');
-    const cover =
-      tracks.find((music) => {
-        const url = music.coverUrl?.toLowerCase() ?? '';
-        return url && !url.includes('default') && !url.includes('placeholder');
-      })?.coverUrl || tracks[0].coverUrl;
-    return {
-      album,
-      artist,
-      coverUrl: cover,
-      releaseYear: albumReleaseYear(tracks.map((music) => music.releaseDate)),
-      tracks: tracks.map((music) => {
-        const id = `${music.title}|${music.artist}`;
-        const isOwned = owned.has(id);
-        return {
-          title: music.title,
-          artist: music.artist,
-          selected: isOwned || selected.has(id),
-          disabled: isOwned || !canEdit,
-        };
-      }),
-    };
-  });
-
-  standalonePrimaryLabel = computed(() => {
-    const preview = this.standalonePreview();
-    if (!preview) {
-      return "Ajouter l'album entier";
-    }
-    const missing = preview.tracks.filter((track) => !track.disabled);
-    const chosen = missing.filter((track) => track.selected);
-    if (chosen.length > 0 && chosen.length < missing.length) {
-      return `Ajouter la sélection (${chosen.length})`;
-    }
-    return "Ajouter l'album entier";
-  });
-
-  standalonePrimaryDisabled = computed(() => {
-    const preview = this.standalonePreview();
-    if (!preview || this.standaloneAdding()) {
-      return true;
-    }
-    return preview.tracks.every((track) => track.disabled);
-  });
-
-  onStandaloneTrackToggle(track: AlbumPreviewTrack): void {
-    if (track.disabled || this.standaloneAdding()) {
-      return;
-    }
-    const id = `${track.title}|${track.artist}`;
-    this.standaloneSelection.update((current) => {
-      const next = new Set(current);
-      if (next.has(id)) {
-        next.delete(id);
-      } else {
-        next.add(id);
-      }
-      return next;
+    const coverSource = catalog.length > 0 ? catalog : owned;
+    const note = this.albumNotes().find(
+      (item) => item.album === music.album && item.artist === music.artist
+    );
+    this.openAlbumModal({
+      name: music.album,
+      artist: music.artist,
+      coverUrl:
+        coverSource.find((item) => this.hasCatalogCover(item.coverUrl))
+          ?.coverUrl || music.coverUrl,
+      musics: owned,
+      totalDuration: owned.reduce(
+        (sum, item) => sum + (item.duration || 0),
+        0
+      ),
+      releaseYear: albumReleaseYear(
+        coverSource.map((item) => item.releaseDate)
+      ),
+      rating: note?.rating ?? 0,
+      favorite: note?.favorite === true,
+      lastListenedDate: note?.lastListenedDate ?? null,
     });
-  }
-
-  async addStandaloneAlbum(): Promise<void> {
-    const preview = this.standalonePreview();
-    if (
-      !preview ||
-      !this.canEditQuotes() ||
-      this.standaloneAdding() ||
-      this.standalonePrimaryDisabled()
-    ) {
-      return;
-    }
-    const missing = preview.tracks.filter((track) => !track.disabled);
-    const chosen = missing.filter((track) => track.selected);
-    const toAdd = (
-      chosen.length > 0 && chosen.length < missing.length ? chosen : missing
-    ).map((track) => ({ title: track.title, artist: track.artist }));
-    this.standaloneAdding.set(true);
-    this.standaloneAddError.set(false);
-    const saved = await addExistingMusics({
-      userId: this.getActiveUserId(),
-      musics: toAdd,
-    });
-    this.standaloneAdding.set(false);
-    if (!saved) {
-      this.standaloneAddError.set(true);
-      return;
-    }
-    this.closeStandaloneAlbum();
-    await this.refreshMusics();
   }
 
   openAlbumTracks = computed((): AlbumTrackRow[] => {
@@ -1008,6 +901,7 @@ export class MusicsComponent implements OnInit {
       releaseYear: album.releaseYear,
       rating: note?.rating ?? 0,
       favorite: note?.favorite === true,
+      lastListenedDate: note?.lastListenedDate ?? null,
     });
   }
 
@@ -1202,13 +1096,15 @@ export class MusicsComponent implements OnInit {
       const index = notes.findIndex(
         (note) => note.artist === update.artist && note.album === update.album
       );
-      const next: UserAlbumNote =
+      const next: UserAlbum =
         index === -1
           ? {
               artist: update.artist,
               album: update.album,
               rating: update.rating ?? 0,
               favorite: update.favorite ?? false,
+              toListen: false,
+              lastListenedDate: null,
             }
           : {
               ...notes[index],

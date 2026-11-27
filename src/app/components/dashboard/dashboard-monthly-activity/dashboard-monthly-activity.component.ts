@@ -9,7 +9,7 @@ import type { Manwha } from '../../../models/manwha-model';
 import type { Serie } from '../../../models/serie-model';
 import type { Anime } from '../../../models/anime-model';
 import type { Game } from '../../../models/game-model';
-import type { Music } from '../../../models/music-model';
+import type { UserAlbum } from '../../../models/music-model';
 import {
   ViewToggleComponent,
   type ViewToggleOption,
@@ -42,6 +42,7 @@ export const ACTIVITY_ENTITY_TAGS = {
   series: { icon: '📺', label: 'Série' },
   animes: { icon: '🎌', label: 'Animé' },
   game: { icon: '🎮', label: 'Jeu' },
+  album: { icon: '🎵', label: 'Album' },
 } as const;
 
 @Component({
@@ -65,7 +66,7 @@ export class DashboardMonthlyActivityComponent {
   readonly series = input<Serie[]>([]);
   readonly animes = input<Anime[]>([]);
   readonly games = input<Game[]>([]);
-  readonly musics = input<Music[]>([]);
+  readonly albums = input<UserAlbum[]>([]);
 
   readonly periodTab = signal<string>('rolling30');
 
@@ -96,7 +97,7 @@ export class DashboardMonthlyActivityComponent {
       this.series(),
       this.animes(),
       this.games(),
-      this.musics(),
+      this.albums(),
       r.start,
       r.end,
     );
@@ -200,7 +201,7 @@ export class DashboardMonthlyActivityComponent {
         this.series(),
       this.animes(),
         this.games(),
-        this.musics(),
+        this.albums(),
         m.rangeStart,
         m.rangeEnd,
       );
@@ -242,7 +243,8 @@ export class DashboardMonthlyActivityComponent {
           activity.counts.movies +
           activity.counts.series +
           activity.counts.animes +
-          activity.counts.games,
+          activity.counts.games +
+          activity.counts.albums,
       };
     });
   });

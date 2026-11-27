@@ -22,11 +22,12 @@ router.post('/album-note', (req: any, res: any) => {
           : input.favorite === false || input.favorite === 'false'
             ? false
             : null;
+    const markListened = input.markListened === true;
     if (!userId || !artist || !album) {
       res.status(400).json({ error: 'Missing userId, artist or album' });
       return;
     }
-    if (rating === undefined && favorite === undefined) {
+    if (rating === undefined && favorite === undefined && !markListened) {
       res.status(400).json({ error: 'Missing rating or favorite' });
       return;
     }
@@ -45,8 +46,9 @@ router.post('/album-note', (req: any, res: any) => {
     saveAlbumNote(userId, artist, album, {
       ...(rating !== undefined ? { rating } : {}),
       ...(favorite !== undefined ? { favorite } : {}),
+      ...(markListened ? { markListened: true } : {}),
     });
-    res.json({ ok: true, artist, album, rating, favorite });
+    res.json({ ok: true, artist, album, rating, favorite, markListened });
   } catch (error: any) {
     res.status(500).json({ error: error.message || 'Unknown error' });
   }

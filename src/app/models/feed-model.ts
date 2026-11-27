@@ -21,11 +21,19 @@ export interface FeedItemSerie {
   seasonNumber?: number;
 }
 
+export interface FeedItemAlbum {
+  title: string;
+  artist: string;
+  date: string;
+  rating?: number;
+}
+
 export interface FeedUserEntry {
   userId: string;
   movies: FeedItemMovie[];
   books: FeedItemBook[];
   series: FeedItemSerie[];
+  albums: FeedItemAlbum[];
 }
 
 export interface FeedResponse {

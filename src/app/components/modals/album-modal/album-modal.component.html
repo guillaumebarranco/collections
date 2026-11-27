@@ -9,7 +9,9 @@
           <div class="modal-title-info">
             <h2>{{ album()!.name }}</h2>
             <p class="modal-artist">
-              {{ album()!.artist }}
+              @for (name of album()!.artist | personNames; track name) {
+              <app-person-badge [name]="name" variant="musician" />
+              }
               @if (album()!.releaseYear) {
               <span class="modal-year">· {{ album()!.releaseYear }}</span>
               }
@@ -26,6 +28,11 @@
               • {{ formatAlbumDuration(ownedDuration()) }}
               }
             </p>
+            @if (album()!.lastListenedDate) {
+            <p class="modal-listened-date">
+              Écouté le {{ album()!.lastListenedDate | date : "dd/MM/yyyy" }}
+            </p>
+            }
             @if (canEditQuotes() || album()!.rating > 0 || album()!.favorite) {
             <div class="album-note">
               @if (canEditQuotes() || album()!.favorite) {

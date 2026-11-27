@@ -1,7 +1,8 @@
 @let data = feedData(); @if (data.feed.length === 0) {
 <p class="feed-empty">
-  Aucune activité récente des comptes que vous suivez (films, livres, séries des
-  derniers 30 jours). Ajoutez des comptes à suivre pour voir leur activité ici.
+  Aucune activité récente des comptes que vous suivez (films, livres, séries,
+  albums des derniers 30 jours). Ajoutez des comptes à suivre pour voir leur
+  activité ici.
 </p>
 } @else {
 <div class="feed-list">
@@ -83,8 +84,32 @@
           }
         </ul>
       </div>
+      } @if (entry.albums.length > 0) {
+      <div class="feed-category">
+        <h4>Albums écoutés récemment</h4>
+        <ul class="feed-items">
+          @for (a of entry.albums; track a.title + a.artist + a.date) {
+          <li>
+            <span class="feed-item-title">{{ a.title }}</span>
+            <span class="feed-item-meta">{{ a.artist }}</span>
+            <span class="feed-item-meta">{{
+              a.date | date : "dd/MM/yyyy"
+            }}</span>
+            @if (a.rating != null && a.rating > 0) {
+            <span class="feed-item-rating">
+              <span class="stars">
+                @for (star of getRatingStars(a.rating); track star.value) {
+                <span [class]="'star star-' + star.type"></span>
+                }
+              </span>
+            </span>
+            }
+          </li>
+          }
+        </ul>
+      </div>
       } @if (entry.movies.length === 0 && entry.books.length === 0 &&
-      entry.series.length === 0) {
+      entry.series.length === 0 && entry.albums.length === 0) {
       <p class="feed-user-empty">Aucune activité ce mois-ci.</p>
       }
     </div>

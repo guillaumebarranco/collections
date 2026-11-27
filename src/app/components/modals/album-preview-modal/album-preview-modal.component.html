@@ -21,10 +21,12 @@
       />
       <div>
         <h2 id="album-preview-title">{{ album().album }}</h2>
-        <p>
-          {{ album().artist }}
+        <p class="album-preview-artist">
+          @for (name of album().artist | personNames; track name) {
+          <app-person-badge [name]="name" variant="musician" />
+          }
           @if (album().releaseYear) {
-          · {{ album().releaseYear }}
+          <span>· {{ album().releaseYear }}</span>
           }
         </p>
         <p class="album-preview-count">{{ album().tracks.length }} titres</p>

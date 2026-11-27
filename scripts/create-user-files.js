@@ -168,29 +168,16 @@ extraLists.forEach((entry) => {
 const musicsDir = path.join(baseDir, 'musics');
 ensureDir(musicsDir);
 
-const albumNotesPath = path.join(musicsDir, `${username}_albums_notes.ts`);
-if (fs.existsSync(albumNotesPath)) {
-  console.warn(`Skip existing: ${albumNotesPath}`);
+const albumsPath = path.join(musicsDir, `${username}_albums.ts`);
+if (fs.existsSync(albumsPath)) {
+  console.warn(`Skip existing: ${albumsPath}`);
 } else {
-  const exportName = `${username}AlbumNotes`;
-  const content = `import { UserAlbumNote } from '../../../../models/music-model';
+  const exportName = `${username}Albums`;
+  const content = `import { UserAlbum } from '../../../../models/music-model';
 
-export const ${exportName}: UserAlbumNote[] = [];
+export const ${exportName}: UserAlbum[] = [];
 `;
-  fs.writeFileSync(albumNotesPath, content, 'utf8');
-  console.log(`Created: ${albumNotesPath}`);
-}
-
-const albumsToListenPath = path.join(musicsDir, `${username}_albums_to_listen.ts`);
-if (fs.existsSync(albumsToListenPath)) {
-  console.warn(`Skip existing: ${albumsToListenPath}`);
-} else {
-  const exportName = `${username}AlbumsToListen`;
-  const content = `import { UserAlbumToListen } from '../../../../models/music-model';
-
-export const ${exportName}: UserAlbumToListen[] = [];
-`;
-  fs.writeFileSync(albumsToListenPath, content, 'utf8');
-  console.log(`Created: ${albumsToListenPath}`);
+  fs.writeFileSync(albumsPath, content, 'utf8');
+  console.log(`Created: ${albumsPath}`);
 }
 

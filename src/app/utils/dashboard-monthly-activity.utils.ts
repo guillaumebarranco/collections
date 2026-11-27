@@ -7,7 +7,7 @@ import type { Manwha } from '../models/manwha-model';
 import type { Serie } from '../models/serie-model';
 import type { Anime } from '../models/anime-model';
 import type { Game, UserGameSession } from '../models/game-model';
-import type { Music } from '../models/music-model';
+import type { UserAlbum } from '../models/music-model';
 import { getGamePlayedHoursFromSessions } from './games.utils';
 import {
   isBdApproximateReadDate,
@@ -25,6 +25,7 @@ export type ActivityCounts = {
   series: number;
   animes: number;
   games: number;
+  albums: number;
 };
 
 export type ActivityMovieViewBadge = 'first' | 'rewatch';
@@ -75,6 +76,10 @@ export type ActivityGameSample = {
   showGameSessionBadge: boolean;
 };
 
+export type ActivityAlbumSample = {
+  line: string;
+};
+
 export type ActivitySamples = {
   books: ActivityBookSample[];
   mangas: ActivityMangaSample[];
@@ -85,6 +90,7 @@ export type ActivitySamples = {
   series: ActivitySerieSample[];
   animes: ActivitySerieSample[];
   games: ActivityGameSample[];
+  albums: ActivityAlbumSample[];
 };
 
 export type ActivityWindowResult = {
@@ -288,6 +294,12 @@ function takeSerieSamples(
 }
 
 function takeGameSamples(samples: ActivityGameSample[]): ActivityGameSample[] {
+  return samples.slice(0, MAX_SAMPLES);
+}
+
+function takeAlbumSamples(
+  samples: ActivityAlbumSample[]
+): ActivityAlbumSample[] {
   return samples.slice(0, MAX_SAMPLES);
 }
 
@@ -1315,6 +1327,19 @@ function formatGameSampleLine(
   return `${base} — ${activeCount} sessions`;
 }
 
+function albumHasActivityInRange(
+  album: UserAlbum,
+  rangeStart: Date,
+  rangeEnd: Date
+): boolean {
+  const listened = parseActivityDate(album.lastListenedDate);
+  return Boolean(listened && isInInclusiveRange(listened, rangeStart, rangeEnd));
+}
+
+function formatAlbumSample(album: UserAlbum): ActivityAlbumSample {
+  return { line: `${album.album} — ${album.artist}` };
+}
+
 function formatGameSample(
   game: Game,
   rangeStart: Date,
@@ -1340,7 +1365,7 @@ export function computeActivityInRange(
   series: Serie[],
   animes: Anime[],
   games: Game[],
-  _musics: Music[],
+  albums: UserAlbum[],
   rangeStart: Date,
   rangeEnd: Date,
   reference = new Date()
@@ -1388,6 +1413,9 @@ export function computeActivityInRange(
   const gm = games.filter((game) =>
     gameHasActivityInRange(game, rangeStart, rangeEnd, reference)
   );
+  const al = albums.filter((album) =>
+    albumHasActivityInRange(album, rangeStart, rangeEnd)
+  );
 
   return {
     counts: {
@@ -1400,6 +1428,7 @@ export function computeActivityInRange(
       series: sr.length,
       animes: an.length,
       games: gm.length,
+      albums: al.length,
     },
     samples: {
       books: takeBookSamples(
@@ -1427,6 +1456,7 @@ export function computeActivityInRange(
       games: takeGameSamples(
         gm.map((x) => formatGameSample(x, rangeStart, rangeEnd, reference))
       ),
+      albums: takeAlbumSamples(al.map((x) => formatAlbumSample(x))),
     },
   };
 }

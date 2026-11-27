@@ -5,6 +5,8 @@ import {
   input,
   output,
 } from '@angular/core';
+import { PersonBadgeComponent } from '../../shared/person-badge/person-badge.component';
+import { PersonNamesPipe } from '../../shared/person-badge/person-names.pipe';
 
 export interface AlbumPreviewTrack {
   title: string;
@@ -24,6 +26,7 @@ export interface AlbumPreviewModel {
 @Component({
   selector: 'app-album-preview-modal',
   changeDetection: ChangeDetectionStrategy.OnPush,
+  imports: [PersonBadgeComponent, PersonNamesPipe],
   templateUrl: './album-preview-modal.component.html',
   styleUrls: ['./album-preview-modal.component.scss'],
 })

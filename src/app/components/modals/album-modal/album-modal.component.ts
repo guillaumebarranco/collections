@@ -8,6 +8,8 @@ import {
   saveMusicDetails,
 } from '../../../facades/musics/api-musics.facade';
 import { RatingStarsComponent } from '../../shared/rating-stars/rating-stars.component';
+import { PersonBadgeComponent } from '../../shared/person-badge/person-badge.component';
+import { PersonNamesPipe } from '../../shared/person-badge/person-names.pipe';
 import { EntityQuotesComponent } from '../../shared/entity-quotes/entity-quotes.component';
 import {
   MusicQuotesModalComponent,
@@ -23,6 +25,8 @@ export interface Album {
   releaseYear: number | null;
   rating: number;
   favorite: boolean;
+  /** Dernier « J'ai écouté cet album », au format YYYY-MM-DD. */
+  lastListenedDate: string | null;
 }
 
 export interface MusicDetailsUpdate {
@@ -53,7 +57,13 @@ export interface AlbumTrackRow {
 
 @Component({
   selector: 'app-album-modal',
-  imports: [CommonModule, EntityQuotesComponent, RatingStarsComponent],
+  imports: [
+    CommonModule,
+    EntityQuotesComponent,
+    RatingStarsComponent,
+    PersonBadgeComponent,
+    PersonNamesPipe,
+  ],
   templateUrl: './album-modal.component.html',
   styleUrls: ['./album-modal.component.scss'],
 })

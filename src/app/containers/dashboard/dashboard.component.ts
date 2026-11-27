@@ -30,7 +30,7 @@ import { DEFAULT_USER_ID } from '../../utils/constants';
 import { getEntityAddRequests } from '../../facades/entity-add-requests/entity-add-requests.facade';
 import { Book } from '../../models/book-model';
 import { Movie } from '../../models/movie-model';
-import { Music } from '../../models/music-model';
+import { Music, UserAlbum } from '../../models/music-model';
 import { Game } from '../../models/game-model';
 import { Serie } from '../../models/serie-model';
 import { Anime } from '../../models/anime-model';
@@ -76,6 +76,7 @@ import {
 import { ChildrenBook } from '../../models/children-book-model';
 import { getAllGames } from '../../facades/games/games.facade';
 import { getAllMusics } from '../../facades/musics/musics.facade';
+import { fetchUserAlbumNotes } from '../../facades/musics/api-musics.facade';
 import { Manga } from '../../models/manga-model';
 import {
   getAllMangas,
@@ -286,6 +287,7 @@ export class DashboardComponent implements OnInit {
   readlistBdsList = signal<{ [key: string]: Bd[] }>({});
 
   musicsList = signal<{ [key: string]: Music[] }>({});
+  albumsList = signal<{ [key: string]: UserAlbum[] }>({});
   readlistMangasList = signal<{ [key: string]: Manga[] }>({});
   baseMoviesCatalog = signal<BaseMovie[]>([]);
 
@@ -472,6 +474,16 @@ export class DashboardComponent implements OnInit {
       : [];
   });
 
+  allAlbums = computed<UserAlbum[]>(() => {
+    const params: Params = this.routeParams();
+    const hasNameParam = params['id'] !== undefined;
+    return hasNameParam
+      ? Boolean(this.albumsList()[this.userId()])
+        ? this.albumsList()[this.userId()]
+        : []
+      : [];
+  });
+
   allReadlistBooks = computed<Book[]>(() => {
     const params: Params = this.routeParams();
     const hasNameParam = params['id'] !== undefined;
@@ -517,7 +529,7 @@ export class DashboardComponent implements OnInit {
     );
   });
 
-  /** Feed des utilisateurs suivis (films/livres/séries des 30 derniers jours, max 5 par catégorie). */
+  /** Feed des utilisateurs suivis (films, livres, séries et albums des 30 derniers jours, max 5 par catégorie). */
   feedData = computed(() => {
     this.feedService.cache();
     return this.feedService.getFeed(this.userId() || DEFAULT_USER_ID);
@@ -1346,6 +1358,7 @@ export class DashboardComponent implements OnInit {
       this.loadWatchlistAnimesData(),
       this.loadGamesData(),
       this.loadMusicsData(),
+      this.loadAlbumsData(),
     ]);
   }
 
@@ -1470,6 +1483,16 @@ export class DashboardComponent implements OnInit {
     const userId = this.userId() || DEFAULT_USER_ID;
     const musics = await getAllMusics(userId);
     this.musicsList.set(musics);
+  }
+
+  private async loadAlbumsData() {
+    const userId = this.userId() || DEFAULT_USER_ID;
+    try {
+      const albums = await fetchUserAlbumNotes(userId);
+      this.albumsList.set({ [userId]: albums });
+    } catch {
+      this.albumsList.set({ [userId]: [] });
+    }
   }
 
   goToMoviesPage(): void {

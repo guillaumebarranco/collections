@@ -2,7 +2,7 @@ import { Component, signal, computed, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MenuComponent } from '../../../../components/menu/menu.component';
 import { ViewToggleComponent } from '../../../../components/shared/view-toggle/view-toggle.component';
-import { Music, UserAlbumToListen } from '../../../../models/music-model';
+import { Music, UserAlbum } from '../../../../models/music-model';
 import {
   getAllBaseMusics,
   getUserMusicsRaw,
@@ -60,7 +60,7 @@ export class SelectMusicsComponent
   searchTerm = signal('');
   openedAlbumKey = signal<string | null>(null);
   tracklistOpen = signal(false);
-  albumsToListen = signal<UserAlbumToListen[]>([]);
+  albumsToListen = signal<UserAlbum[]>([]);
   selectedAlbumKeys = signal<Set<string>>(new Set());
 
   // Musiques sélectionnées
@@ -466,8 +466,8 @@ export class SelectMusicsComponent
     const [userMusics, toListen] = await Promise.all([
       getUserMusicsRaw(userId),
       this.isListenlistMode()
-        ? fetchUserAlbumsToListen(userId).catch(() => [] as UserAlbumToListen[])
-        : Promise.resolve([] as UserAlbumToListen[]),
+        ? fetchUserAlbumsToListen(userId).catch(() => [] as UserAlbum[])
+        : Promise.resolve([] as UserAlbum[]),
     ]);
     this.albumsToListen.set(toListen);
     this.userMusics.set(userMusics as Music[]);
