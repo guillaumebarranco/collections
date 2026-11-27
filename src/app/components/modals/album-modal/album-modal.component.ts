@@ -20,6 +20,7 @@ export interface Album {
   coverUrl: string;
   musics: Music[];
   totalDuration: number;
+  releaseYear: number | null;
   rating: number;
   favorite: boolean;
 }
@@ -88,6 +89,9 @@ export class AlbumModalComponent {
   );
   readonly ownedDuration = computed(() =>
     this.ownedTracks().reduce((sum, track) => sum + track.duration, 0)
+  );
+  readonly catalogDuration = computed(() =>
+    this.tracks().reduce((sum, track) => sum + track.duration, 0)
   );
   readonly addLabel = computed(() => {
     const missing = this.missingTracks();

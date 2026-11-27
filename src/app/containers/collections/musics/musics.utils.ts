@@ -37,6 +37,21 @@ export function ownsAlbumMajority(
   );
 }
 
+/** Année de sortie d'un album : la plus ancienne date valide de ses titres. */
+export function albumReleaseYear(
+  releaseDates: Array<string | null | undefined>
+): number | null {
+  let year: number | null = null;
+  for (const date of releaseDates) {
+    const match = /^(\d{4})/.exec(date ?? '');
+    if (!match) continue;
+    const parsed = Number(match[1]);
+    if (!Number.isInteger(parsed) || parsed < 1000) continue;
+    if (year === null || parsed < year) year = parsed;
+  }
+  return year;
+}
+
 /** Ordre des morceaux dans une modale d'album : piste si elle est renseignée, sinon titre. */
 export function sortAlbumTracks<T extends { title: string; albumTrackId?: number }>(
   musics: T[]

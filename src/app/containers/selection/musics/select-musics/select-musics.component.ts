@@ -15,6 +15,7 @@ import { SelectEntitiesComponent } from '../../select-base.component';
 import { getApiBaseUrl } from '../../../../core/config';
 import { normalizeSearchText } from '../../../../utils/normalize-search-text';
 import {
+  albumReleaseYear,
   ownsAlbumMajority,
   sortAlbumTracks,
 } from '../../../collections/musics/musics.utils';
@@ -29,6 +30,7 @@ interface SelectableAlbum {
   album: string;
   artist: string;
   coverUrl: string;
+  releaseYear: number | null;
   musics: Music[];
 }
 
@@ -105,6 +107,9 @@ export class SelectMusicsComponent
           album,
           artist,
           coverUrl,
+          releaseYear: albumReleaseYear(
+            musics.map((music) => music.releaseDate)
+          ),
           musics,
         };
       })
@@ -159,7 +164,16 @@ export class SelectMusicsComponent
         const coverUrl =
           musics.find((music) => this.hasValidCoverUrl(music.coverUrl))
             ?.coverUrl || '';
-        return { key, album, artist, coverUrl, musics };
+        return {
+          key,
+          album,
+          artist,
+          coverUrl,
+          releaseYear: albumReleaseYear(
+            musics.map((music) => music.releaseDate)
+          ),
+          musics,
+        };
       })
       .filter((album) => {
         if (album.musics.length < 8 || listed.has(album.key)) return false;
@@ -224,6 +238,7 @@ export class SelectMusicsComponent
       album: album.album,
       artist: album.artist,
       coverUrl: album.coverUrl,
+      releaseYear: album.releaseYear,
       tracks: tracks.map((music) => {
         const alreadyAdded = ownedKeys.has(this.getMusicKey(music));
         return {

@@ -218,6 +218,23 @@
       font-weight: 400;
     }
 
+    .album-listened {
+      width: 100%;
+      margin-top: 8px;
+      justify-content: center;
+      text-align: center;
+      white-space: normal;
+      line-height: 1.25;
+      box-sizing: border-box;
+
+      &:disabled {
+        opacity: 0.6;
+        cursor: default;
+        transform: none;
+        box-shadow: none;
+      }
+    }
+
     .album-rating {
       display: flex;
       flex-wrap: wrap;

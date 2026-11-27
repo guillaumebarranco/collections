@@ -39,7 +39,7 @@
   } @else {
   <div class="albums-grid">
     @for (album of filteredAlbumsToListen(); track `${album.name}-${album.artist}`) {
-    <div class="album-card">
+    <div class="album-card" (click)="openListenAlbum(album)">
       <div class="album-cover">
         <img
           [src]="album.coverUrl || '/musics_pictures/default.jpg'"
@@ -66,10 +66,31 @@
           }
         </div>
         <p class="album-artist">{{ album.artist }}</p>
-        @if (album.totalDuration > 0) {
+        @if (album.releaseYear || album.totalDuration > 0) {
         <p class="album-duration">
+          @if (album.releaseYear) {
+          {{ album.releaseYear }}
+          }
+          @if (album.releaseYear && album.totalDuration > 0) {
+          ·
+          }
+          @if (album.totalDuration > 0) {
           {{ formatAlbumDuration(album.totalDuration) }}
+          }
         </p>
+        }
+        @if (canEditQuotes()) {
+        <button
+          type="button"
+          class="makya-btn-small album-listened"
+          [disabled]="listeningAlbumKey() === albumKey(album)"
+          (click)="onAlbumListened(album, $event)"
+        >
+          J'ai écouté cet album
+        </button>
+        @if (listenAlbumErrorKey() === albumKey(album)) {
+        <span class="album-rating-error">Enregistrement impossible</span>
+        }
         }
       </div>
     </div>
@@ -171,6 +192,9 @@
           </div>
           <p class="album-artist">{{ album.artist }}</p>
           <p class="album-duration">
+            @if (album.releaseYear) {
+            {{ album.releaseYear }} ·
+            }
             {{ formatAlbumDuration(album.totalDuration) }}
           </p>
           @if (canEditQuotes() || album.rating > 0) {

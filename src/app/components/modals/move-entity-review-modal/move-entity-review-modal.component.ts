@@ -21,6 +21,8 @@ export interface MoveEntityReviewModalData {
   initialRating?: number;
   /** Commentaire déjà enregistré. */
   initialRatingComment?: string;
+  /** Masque le commentaire quand l'entité ne peut pas en enregistrer un. */
+  hideComment?: boolean;
   /** Case « date du jour », affichée déjà cochée. */
   showViewedDateToday?: boolean;
   /** Libellé de la case. Par défaut : date de visionnage. */

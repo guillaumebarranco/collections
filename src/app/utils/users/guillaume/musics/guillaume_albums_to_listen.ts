@@ -32,11 +32,6 @@ export const guillaumeAlbumsToListen: UserAlbumToListen[] = [
   },
 
   {
-    artist: "Clara Luciani",
-    album: "Sainte-Victoire",
-  },
-
-  {
     artist: "Daniel Balavoine",
     album: "De vous à elle en passant par moi",
   },
@@ -139,11 +134,6 @@ export const guillaumeAlbumsToListen: UserAlbumToListen[] = [
   {
     artist: "Michel Polnareff",
     album: "Love Me, Please Love Me",
-  },
-
-  {
-    artist: "Mylène Farmer",
-    album: "Ainsi soit je...",
   },
 
   {

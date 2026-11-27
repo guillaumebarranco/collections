@@ -17,6 +17,7 @@ export interface AlbumPreviewModel {
   album: string;
   artist: string;
   coverUrl: string;
+  releaseYear: number | null;
   tracks: AlbumPreviewTrack[];
 }
 

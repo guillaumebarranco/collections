@@ -326,4 +326,18 @@ export const guillaumeAlbumNotes: UserAlbumNote[] = [
     rating: 3.5,
     favorite: true,
   },
+
+  {
+    artist: "Clara Luciani",
+    album: "Sainte-Victoire",
+    rating: 2.5,
+    favorite: false,
+  },
+
+  {
+    artist: "Mylène Farmer",
+    album: "Ainsi soit je...",
+    rating: 3,
+    favorite: false,
+  },
 ];

@@ -1806,7 +1806,7 @@ export const guillaumeMusics: UserMusic[] = [
     title: "Déshabillez-moi",
     artist: "Mylène Farmer",
     rating: 0,
-    timesListened: 1,
+    timesListened: 2,
     byHeart: false,
     favorite: false,
     quotes: [],
@@ -1995,6 +1995,176 @@ export const guillaumeMusics: UserMusic[] = [
   {
     title: "I Get Around",
     artist: "The Beach Boys",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    favorite: false,
+    quotes: [],
+  },
+
+  {
+    title: "La baie",
+    artist: "Clara Luciani",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    favorite: false,
+    quotes: [],
+  },
+
+  {
+    title: "On ne meurt pas d'amour",
+    artist: "Clara Luciani",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    favorite: false,
+    quotes: [],
+  },
+
+  {
+    title: "Eddy",
+    artist: "Clara Luciani",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    favorite: false,
+    quotes: [],
+  },
+
+  {
+    title: "Les fleurs",
+    artist: "Clara Luciani",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    favorite: false,
+    quotes: [],
+  },
+
+  {
+    title: "Comme toi",
+    artist: "Clara Luciani",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    favorite: false,
+    quotes: [],
+  },
+
+  {
+    title: "Drôle d'époque",
+    artist: "Clara Luciani",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    favorite: false,
+    quotes: [],
+  },
+
+  {
+    title: "Monstre d'amour",
+    artist: "Clara Luciani",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    favorite: false,
+    quotes: [],
+  },
+
+  {
+    title: "La dernière fois",
+    artist: "Clara Luciani",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    favorite: false,
+    quotes: [],
+  },
+
+  {
+    title: "Dors",
+    artist: "Clara Luciani",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    favorite: false,
+    quotes: [],
+  },
+
+  {
+    title: "Sainte-Victoire",
+    artist: "Clara Luciani",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    favorite: false,
+    quotes: [],
+  },
+
+  {
+    title: "L'horloge",
+    artist: "Mylène Farmer",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    favorite: false,
+    quotes: [],
+  },
+
+  {
+    title: "Allan",
+    artist: "Mylène Farmer",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    favorite: false,
+    quotes: [],
+  },
+
+  {
+    title: "La ronde triste",
+    artist: "Mylène Farmer",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    favorite: false,
+    quotes: [],
+  },
+
+  {
+    title: "Ainsi soit je...",
+    artist: "Mylène Farmer",
+    rating: 0,
+    timesListened: 30,
+    byHeart: false,
+    favorite: false,
+    quotes: [],
+  },
+
+  {
+    title: "Sans logique",
+    artist: "Mylène Farmer",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    favorite: false,
+    quotes: [],
+  },
+
+  {
+    title: "Jardin de Vienne",
+    artist: "Mylène Farmer",
+    rating: 0,
+    timesListened: 1,
+    byHeart: false,
+    favorite: false,
+    quotes: [],
+  },
+
+  {
+    title: "The Farmer's Conclusion",
+    artist: "Mylène Farmer",
     rating: 0,
     timesListened: 1,
     byHeart: false,

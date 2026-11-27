@@ -31,6 +31,7 @@ import {
 } from '../../../models/music-model';
 import type { EntityQuote } from '../../../models/entity-quote.model';
 import { normalizeSearchText } from '../../../utils/normalize-search-text';
+import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import {
   getAllBaseMusics,
@@ -42,9 +43,11 @@ import {
   fetchUserAlbumsToListen,
   removeAlbumToListen,
   saveAlbumNote,
+  saveMusicDetails,
 } from '../../../facades/musics/api-musics.facade';
 import { LocalStorageService } from '../../../services/local-storage.service';
 import {
+  albumReleaseYear,
   defaultMusicFilter,
   getSortedMusics,
   sortAlbumTracks,
@@ -67,6 +70,10 @@ import {
   AlbumPreviewTrack,
 } from '../../../components/modals/album-preview-modal/album-preview-modal.component';
 import { pickMobileViewCovers } from '../../../utils/mobile-view-previews';
+import {
+  MoveEntityReviewModalComponent,
+  MoveEntityReviewModalResult,
+} from '../../../components/modals/move-entity-review-modal/move-entity-review-modal.component';
 
 @Component({
   selector: 'app-musics',
@@ -81,6 +88,7 @@ import { pickMobileViewCovers } from '../../../utils/mobile-view-previews';
     MobileCollectionPickerComponent,
     RouterLink,
     CanEditDirective,
+    MatDialogModule,
     RatingStarsComponent,
     AlbumPreviewModalComponent,
   ],
@@ -92,6 +100,7 @@ export class MusicsComponent implements OnInit {
   private readonly authService = inject(AuthService);
   private readonly router = inject(Router);
   private readonly localStorageService = inject(LocalStorageService);
+  private readonly dialog = inject(MatDialog);
   private isLoadingPreferences = false;
   private readonly viewPreferencesStorageKey = 'musics_view_preferences';
 
@@ -103,6 +112,8 @@ export class MusicsComponent implements OnInit {
   private storedFilter: string | null = null;
   onlyByHeart = signal(false);
   searchTerm = signal<string>('');
+  listeningAlbumKey = signal<string | null>(null);
+  listenAlbumErrorKey = signal<string | null>(null);
 
   // Modal d'album
   isAlbumModalOpen = signal<boolean>(false);
@@ -250,6 +261,9 @@ export class MusicsComponent implements OnInit {
           (sum, music) => sum + music.duration,
           0
         ),
+        releaseYear: albumReleaseYear(
+          allAlbumMusics.map((music) => music.releaseDate)
+        ),
         rating: note?.rating ?? 0,
         favorite: note?.favorite === true,
       });
@@ -261,10 +275,7 @@ export class MusicsComponent implements OnInit {
       if (artistCompare !== 0) {
         return artistCompare;
       }
-      // Tri par date de sortie pour les albums d'un même artiste
-      const dateA = new Date(a.musics[0].releaseDate).getTime();
-      const dateB = new Date(b.musics[0].releaseDate).getTime();
-      return dateA - dateB;
+      return (a.releaseYear ?? 0) - (b.releaseYear ?? 0);
     });
   });
 
@@ -284,9 +295,7 @@ export class MusicsComponent implements OnInit {
         if (artistCompare !== 0) {
           return artistCompare;
         }
-        const dateA = new Date(a.musics[0].releaseDate).getTime();
-        const dateB = new Date(b.musics[0].releaseDate).getTime();
-        return dateA - dateB;
+        return (a.releaseYear ?? 0) - (b.releaseYear ?? 0);
       })
   );
 
@@ -324,6 +333,7 @@ export class MusicsComponent implements OnInit {
             (sum, music) => sum + (music.duration || 0),
             0
           ),
+          releaseYear: albumReleaseYear(tracks.map((music) => music.releaseDate)),
         };
       })
       .sort((a, b) => {
@@ -361,19 +371,31 @@ export class MusicsComponent implements OnInit {
   );
 
   stats = computed<StatItem[]>(() => {
-    const totalDuration = this.calculateTotalDuration();
-    const totalListeningTime = this.calculateTotalListeningTime();
+    if (this.selectedViewMode() === 'toListen') {
+      const totalSeconds = this.listenAlbums().reduce(
+        (sum, album) => sum + album.totalDuration,
+        0
+      );
+      return [
+        {
+          label: 'Temps total pour écouter les albums',
+          value: this.formatDurationFromSeconds(totalSeconds),
+          icon: '🎧',
+          color: StatItemColor.PRIMARY,
+        },
+      ];
+    }
 
     return [
       {
         label: 'Durée totale de toutes les musiques',
-        value: totalDuration,
+        value: this.calculateTotalDuration(),
         icon: '🎵',
         color: StatItemColor.SUCCESS,
       },
       {
         label: 'Temps total passé en écoute',
-        value: totalListeningTime,
+        value: this.calculateTotalListeningTime(),
         icon: '🎧',
         color: StatItemColor.PRIMARY,
       },
@@ -429,8 +451,10 @@ export class MusicsComponent implements OnInit {
     void this.refreshMusics();
   }
 
-  async refreshMusics() {
-    this.isLoadingMusics.set(true);
+  async refreshMusics(silent = false) {
+    if (!silent) {
+      this.isLoadingMusics.set(true);
+    }
     try {
       const userId = this.getActiveUserId();
       const [musics, notes, toListen, baseMusics] = await Promise.all([
@@ -552,16 +576,7 @@ export class MusicsComponent implements OnInit {
       (sum, music) => sum + music.duration,
       0
     );
-    const days = Math.floor(totalSeconds / (24 * 3600));
-    const hours = Math.floor((totalSeconds % (24 * 3600)) / 3600);
-    const minutes = Math.floor((totalSeconds % 3600) / 60);
-
-    let formatted = '';
-    if (days > 0) formatted += `${days} jours`;
-    if (hours > 0) formatted += (formatted ? ', ' : '') + `${hours}h`;
-    if (minutes > 0) formatted += (formatted ? ' ' : '') + `${minutes}min`;
-    if (!formatted) formatted = '0min';
-    return formatted;
+    return this.formatDurationFromSeconds(totalSeconds);
   }
 
   private calculateTotalListeningTime(): string {
@@ -569,12 +584,18 @@ export class MusicsComponent implements OnInit {
       (sum, music) => sum + music.duration * music.timesListened,
       0
     );
+    return this.formatDurationFromSeconds(totalSeconds);
+  }
+
+  private formatDurationFromSeconds(totalSeconds: number): string {
     const days = Math.floor(totalSeconds / (24 * 3600));
     const hours = Math.floor((totalSeconds % (24 * 3600)) / 3600);
     const minutes = Math.floor((totalSeconds % 3600) / 60);
 
     let formatted = '';
-    if (days > 0) formatted += `${days} jours`;
+    if (days > 0) {
+      formatted += days === 1 ? '1 jour' : `${days} jours`;
+    }
     if (hours > 0) formatted += (formatted ? ', ' : '') + `${hours}h`;
     if (minutes > 0) formatted += (formatted ? ' ' : '') + `${minutes}min`;
     if (!formatted) formatted = '0min';
@@ -598,6 +619,108 @@ export class MusicsComponent implements OnInit {
         (item) => !(item.artist === album.artist && item.album === album.name)
       )
     );
+  }
+
+  onAlbumListened(
+    album: { name: string; artist: string },
+    event: Event
+  ): void {
+    event.stopPropagation();
+    if (!this.canEditQuotes() || this.listeningAlbumKey()) return;
+    const note = this.albumNotes().find(
+      (item) => item.album === album.name && item.artist === album.artist
+    );
+    const dialogRef = this.dialog.open<
+      MoveEntityReviewModalComponent,
+      { entityTitle: string; hideComment: boolean; initialRating?: number },
+      MoveEntityReviewModalResult | undefined
+    >(MoveEntityReviewModalComponent, {
+      data: {
+        entityTitle: `${album.artist} — ${album.name}`,
+        hideComment: true,
+        initialRating: note?.rating ?? 0,
+      },
+      width: 'auto',
+      maxWidth: '95vw',
+    });
+    dialogRef.afterClosed().subscribe((result) => {
+      if (result === undefined) return;
+      void this.markAlbumAsListened(album, result.rating);
+    });
+  }
+
+  private async markAlbumAsListened(
+    album: { name: string; artist: string },
+    rating: number
+  ): Promise<void> {
+    const key = this.albumKey(album);
+    this.listeningAlbumKey.set(key);
+    this.listenAlbumErrorKey.set(null);
+    const userId = this.getActiveUserId();
+    const catalog = this.baseMusics().filter(
+      (music) => music.album === album.name && music.artist === album.artist
+    );
+    const owned = this.allMusics().filter(
+      (music) => music.album === album.name && music.artist === album.artist
+    );
+    const ownedIds = new Set(
+      owned.map((music) => `${music.title}|${music.artist}`)
+    );
+    const missing = catalog.filter(
+      (music) => !ownedIds.has(`${music.title}|${music.artist}`)
+    );
+
+    if (missing.length > 0) {
+      const added = await addExistingMusics({
+        userId,
+        musics: missing.map((music) => ({
+          title: music.title,
+          artist: music.artist,
+        })),
+      });
+      if (!added) {
+        this.listeningAlbumKey.set(null);
+        this.listenAlbumErrorKey.set(key);
+        return;
+      }
+    }
+
+    const incremented = await Promise.all(
+      owned.map((music) =>
+        saveMusicDetails({
+          userId,
+          title: music.title,
+          artist: music.artist,
+          timesListened: music.timesListened + 1,
+        })
+      )
+    );
+    if (incremented.some((ok) => !ok)) {
+      this.listeningAlbumKey.set(null);
+      this.listenAlbumErrorKey.set(key);
+      await this.refreshMusics(true);
+      return;
+    }
+
+    if (rating > 0) {
+      await saveAlbumNote({
+        userId,
+        artist: album.artist,
+        album: album.name,
+        rating,
+      });
+    }
+
+    const removed = await removeAlbumToListen({
+      userId,
+      artist: album.artist,
+      album: album.name,
+    });
+    this.listeningAlbumKey.set(null);
+    if (!removed) {
+      this.listenAlbumErrorKey.set(key);
+    }
+    await this.refreshMusics(true);
   }
 
   private hasCatalogCover(coverUrl: string): boolean {
@@ -720,6 +843,7 @@ export class MusicsComponent implements OnInit {
       album,
       artist,
       coverUrl: cover,
+      releaseYear: albumReleaseYear(tracks.map((music) => music.releaseDate)),
       tracks: tracks.map((music) => {
         const id = `${music.title}|${music.artist}`;
         const isOwned = owned.has(id);
@@ -858,6 +982,34 @@ export class MusicsComponent implements OnInit {
       music: row.music,
     }));
   });
+
+  openListenAlbum(album: {
+    name: string;
+    artist: string;
+    coverUrl: string;
+    totalDuration: number;
+    releaseYear: number | null;
+  }): void {
+    const key = `${album.name}|${album.artist}`;
+    const owned = sortAlbumTracks(
+      this.allMusics().filter(
+        (music) => `${music.album}|${music.artist}` === key
+      )
+    );
+    const note = this.albumNotes().find(
+      (item) => item.album === album.name && item.artist === album.artist
+    );
+    this.openAlbumModal({
+      name: album.name,
+      artist: album.artist,
+      coverUrl: album.coverUrl,
+      musics: owned,
+      totalDuration: album.totalDuration,
+      releaseYear: album.releaseYear,
+      rating: note?.rating ?? 0,
+      favorite: note?.favorite === true,
+    });
+  }
 
   openAlbumModal(album: Album) {
     this.selectedAlbum.set(album);

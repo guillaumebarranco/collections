@@ -1,6 +1,8 @@
 <div class="move-entity-review-modal">
   <div class="move-entity-review-modal__header">
-    <h2 class="move-entity-review-modal__title">Note et commentaire</h2>
+    <h2 class="move-entity-review-modal__title">
+      @if (data.hideComment) { Note } @else { Note et commentaire }
+    </h2>
     <button
       type="button"
       class="move-entity-review-modal__close"
@@ -12,7 +14,13 @@
   </div>
   <div class="move-entity-review-modal__body">
     <p class="move-entity-review-modal__entity-title">{{ data.entityTitle }}</p>
-    <p class="move-entity-review-modal__hint">Optionnel : ajoutez une note et/ou un commentaire.</p>
+    <p class="move-entity-review-modal__hint">
+      @if (data.hideComment) {
+      Optionnel : ajoutez une note.
+      } @else {
+      Optionnel : ajoutez une note et/ou un commentaire.
+      }
+    </p>
 
     <div class="move-entity-review-modal__rating">
       <label class="move-entity-review-modal__label" for="move-review-rating">Note (0 à 5)</label>
@@ -42,6 +50,7 @@
       <span class="move-entity-review-modal__rating-text">{{ rating() }}/5</span>
     </div>
 
+    @if (!data.hideComment) {
     <div class="move-entity-review-modal__comment">
       <label class="move-entity-review-modal__label" for="move-review-comment">Commentaire</label>
       <textarea
@@ -54,6 +63,7 @@
         aria-label="Commentaire optionnel"
       >      </textarea>
     </div>
+    }
 
     @if (data.showViewedDateToday) {
     <label class="move-entity-review-modal__viewed-date">

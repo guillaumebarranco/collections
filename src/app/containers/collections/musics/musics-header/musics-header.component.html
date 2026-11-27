@@ -34,6 +34,9 @@
       ➕ Sélectionner des albums
     </button>
   </div>
+  <div class="musics-stats-bloc">
+    <app-stats-display [stats]="stats()"></app-stats-display>
+  </div>
   <div class="musics-listen-search">
     <app-entity-search-field
       placeholder="Rechercher par album ou artiste..."
